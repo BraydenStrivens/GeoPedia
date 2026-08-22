@@ -94,7 +94,9 @@ export default function Map({
     wrongCount,
     isActive,
     isFinished,
-  } = useQuiz(quiz ?? emptyQuiz);
+  } = useQuiz(quiz ?? emptyQuiz, {
+    recycleMissedAnswers: quizSettings?.recycleMissedAnswers ?? false,
+  });
 
   /**
    * Stores information needed to display the floating label for a hovered

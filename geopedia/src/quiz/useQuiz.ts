@@ -11,6 +11,10 @@ import { useEffect, useRef, useState } from "react";
 
 import type { AnswerStatus, Quiz, QuizQuestion } from "@/types/quiz";
 
+type UseQuizOptions = {
+  recycleMissedAnswers?: boolean;
+};
+
 /**
  * Creates a randomized copy of a quiz's questions using the
  * Fisher-Yates shuffle algorithm.
@@ -35,7 +39,9 @@ function shuffleQuestions(questions: QuizQuestion[]): QuizQuestion[] {
  * Handles question order, answer validation, answer statuses,
  * scoring, skipping, restarting, stopping, and quiz completion.
  */
-export function useQuiz(quiz: Quiz) {
+export function useQuiz(quiz: Quiz, options: UseQuizOptions = {}) {
+  const { recycleMissedAnswers = false } = options;
+
   // Questions remaining in the quiz, initially shuffled.
   const [questionQueue, setQuestionQueue] = useState<QuizQuestion[]>(() =>
     shuffleQuestions(quiz.questions),
@@ -81,24 +87,38 @@ export function useQuiz(quiz: Quiz) {
     const answer = question.answer;
 
     if (isCorrect) {
-      console.log("Correct!", answer);
-
       setAnswerStatuses((previousStatuses) => ({
         ...previousStatuses,
         [answer]: "correct",
       }));
 
       setCorrectCount((previousCount) => previousCount + 1);
-    } else {
-      console.log("Incorrect.", answer);
 
-      setAnswerStatuses((previousStatuses) => ({
-        ...previousStatuses,
-        [answer]: "wrong",
-      }));
+      setAnsweredCount((previousCount) => previousCount + 1);
 
-      setWrongCount((previousCount) => previousCount + 1);
+      setQuestionQueue((previousQueue) => previousQueue.slice(1));
+
+      return;
     }
+
+    setWrongCount((previousCount) => previousCount + 1);
+
+    if (recycleMissedAnswers) {
+      setQuestionQueue((previousQueue) => {
+        if (previousQueue.length <= 1) {
+          return previousQueue;
+        }
+
+        return [...previousQueue.slice(1), previousQueue[0]];
+      });
+
+      return;
+    }
+
+    setAnswerStatuses((previousStatuses) => ({
+      ...previousStatuses,
+      [answer]: "wrong",
+    }));
 
     setAnsweredCount((previousCount) => previousCount + 1);
 
