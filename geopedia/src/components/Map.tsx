@@ -23,6 +23,10 @@ import MapHoverLabel from "@/components/MapHoverLabel";
 import QuizOverlay from "@/components/QuizOverlay";
 import { useLatestRef } from "@/maps/hooks/useLatestRef";
 import { useMap } from "@/maps/hooks/useMap";
+import {
+  setBaseMapBordersVisible,
+  setBaseMapLabelsVisible,
+} from "@/maps/mapStyleVisibility";
 import type {
   HoveredFeature,
   MapClickBehavior,
@@ -31,12 +35,14 @@ import type {
 import { createFeatureColorExpression } from "@/maps/useMapColors";
 import { useQuiz } from "@/quiz/useQuiz";
 import type { Quiz } from "@/types/quiz";
+import { QuizSettings } from "@/types/quizSettings";
 
 maplibregl.setWorkerUrl("/maplibre-gl-worker.mjs");
 
 type MapProps = {
   mapConfig: MapConfig;
   quiz?: Quiz;
+  quizSettings?: QuizSettings;
   clickBehavior: MapClickBehavior;
 };
 
@@ -58,7 +64,12 @@ const emptyQuiz: Quiz = {
 /**
  * Renders a GeoPedia map and optionally connects it to a quiz.
  */
-export default function Map({ mapConfig, quiz, clickBehavior }: MapProps) {
+export default function Map({
+  mapConfig,
+  quiz,
+  quizSettings,
+  clickBehavior,
+}: MapProps) {
   const router = useRouter();
 
   /**
@@ -110,6 +121,21 @@ export default function Map({ mapConfig, quiz, clickBehavior }: MapProps) {
     [router],
   );
 
+  const hoverEnabled =
+    (mapConfig.hover?.enabled ?? false) &&
+    (quizSettings?.showBorders ?? true);
+
+  const hoverEnabledRef = useLatestRef(hoverEnabled);
+
+  const showShading = quizSettings?.showShading ?? true;
+  const showShadingRef = useLatestRef(showShading);
+
+  const showBorders = quizSettings?.showBorders ?? true;
+  const showBordersRef = useLatestRef(showBorders);
+
+  const showLabels = quizSettings?.showLabels ?? true;
+  const showLabelsRef = useLatestRef(showLabels);
+
   /**
    * Creates and manages the MapLibre instance.
    *
@@ -120,12 +146,17 @@ export default function Map({ mapConfig, quiz, clickBehavior }: MapProps) {
     containerRef: mapContainer,
     mapConfig,
     clickBehavior,
+    hoverEnabledRef,
     quizRef,
     currentQuestionRef,
     answerQuestionRef,
     answerStatusesRef,
     navigateToCountry,
     setHoveredFeature,
+
+    showShadingRef,
+    showBordersRef,
+    showLabelsRef,
   });
 
   const answerProperty = quiz?.answerProperty;
@@ -142,6 +173,7 @@ export default function Map({ mapConfig, quiz, clickBehavior }: MapProps) {
     const map = mapRef.current;
 
     if (
+      !isMapReady ||
       !map ||
       !map.getLayer("features-fill") ||
       !answerProperty ||
@@ -155,6 +187,7 @@ export default function Map({ mapConfig, quiz, clickBehavior }: MapProps) {
       answerProperty,
       answerType,
       mapConfig.layers.fill.color,
+      quizSettings?.showShading ?? true,
     );
 
     map.setPaintProperty("features-fill", "fill-color", fillExpression);
@@ -163,8 +196,46 @@ export default function Map({ mapConfig, quiz, clickBehavior }: MapProps) {
     answerProperty,
     answerType,
     mapConfig.layers.fill.color,
+    quizSettings?.showShading,
+    isMapReady,
     mapRef,
   ]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+
+    if (!isMapReady || !map) {
+      return;
+    }
+
+    const showLabels = quizSettings?.showLabels ?? true;
+
+    setBaseMapLabelsVisible(map, showLabels);
+  }, [isMapReady, quizSettings?.showLabels, mapRef]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+
+    if (!isMapReady || !map || !map.getLayer("features-borders")) {
+      return;
+    }
+
+    const showBorders = quizSettings?.showBorders ?? true;
+
+    /*
+     * GeoPedia's quiz-feature borders.
+     */
+    map.setLayoutProperty(
+      "features-borders",
+      "visibility",
+      showBorders ? "visible" : "none",
+    );
+
+    /*
+     * Administrative boundaries supplied by the MapTiler base style.
+     */
+    setBaseMapBordersVisible(map, showBorders);
+  }, [isMapReady, quizSettings?.showBorders, mapRef]);
 
   return (
     <div className="relative h-full w-full">

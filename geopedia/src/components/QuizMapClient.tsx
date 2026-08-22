@@ -7,7 +7,7 @@
  * runtime map behavior from those settings before rendering the map.
  */
 
-import { useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 
 import Map from "@/components/Map";
 import type { MapClickBehavior, MapConfig } from "@/maps/types";
@@ -16,13 +16,35 @@ import type { Quiz } from "@/types/quiz";
 
 import QuizSettingsPanel from "./QuizSettingsPanel";
 
+function subscribeToHydration() {
+  return () => {};
+}
+
 type QuizMapClientProps = {
   countryId: string;
   quiz: Quiz;
   mapConfig: MapConfig;
 };
 
-export default function QuizMapClient({
+export default function QuizMapClient(props: QuizMapClientProps) {
+  const isHydrated = useSyncExternalStore(
+    subscribeToHydration,
+
+    // Browser snapshot.
+    () => true,
+
+    // Server snapshot.
+    () => false,
+  );
+
+  if (!isHydrated) {
+    return <div className="h-full w-full" />;
+  }
+
+  return <HydratedQuizMapClient {...props} />;
+}
+
+function HydratedQuizMapClient({
   countryId,
   quiz,
   mapConfig,
@@ -42,6 +64,7 @@ export default function QuizMapClient({
       <Map
         mapConfig={mapConfig}
         quiz={quiz}
+        quizSettings={settings}
         clickBehavior={clickBehavior}
       />
 

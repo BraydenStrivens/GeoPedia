@@ -112,6 +112,7 @@ export function createFeatureColorExpression(
   answerProperty: string,
   answerType: AnswerType,
   normalColor: string,
+  showShading: boolean,
 ): ExpressionSpecification {
   const [normalR, normalG, normalB] = hexToRgb(normalColor);
 
@@ -212,7 +213,10 @@ export function createFeatureColorExpression(
 
   const baseB = ["case", hasAnswers, finalB, normalB];
 
-  const baseColor = ["rgba", baseR, baseG, baseB, 1];
+  // Only show normal map color if shading is enabled
+  const baseAlpha = ["case", hasAnswers, 1, showShading ? 1 : 0];
+
+  const baseColor = ["rgba", baseR, baseG, baseB, baseAlpha];
 
   return baseColor as unknown as ExpressionSpecification;
 }

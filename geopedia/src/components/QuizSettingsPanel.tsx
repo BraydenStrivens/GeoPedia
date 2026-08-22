@@ -42,7 +42,7 @@ type BooleanSettingKey =
   | "recycleMissedAnswers"
   | "showShading"
   | "showBorders"
-  | "showBaseMapLabels"
+  | "showLabels"
   | "showIncorrectSelection";
 
 const booleanSettings: {
@@ -62,7 +62,7 @@ const booleanSettings: {
     label: "Borders",
   },
   {
-    key: "showBaseMapLabels",
+    key: "showLabels",
     label: "Labels",
   },
   {

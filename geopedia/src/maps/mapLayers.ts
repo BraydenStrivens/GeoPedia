@@ -16,6 +16,8 @@ type AddMapLayersParams = {
   promoteId?: string;
   layers: MapConfig["layers"];
   hover?: MapConfig["hover"];
+  showShading: boolean;
+  showBorders: boolean;
 };
 
 /**
@@ -23,7 +25,14 @@ type AddMapLayersParams = {
  */
 export function addMapLayers(
   map: maplibregl.Map,
-  { geojsonUrl, promoteId, layers }: AddMapLayersParams,
+  {
+    geojsonUrl,
+    promoteId,
+    layers,
+    hover,
+    showShading,
+    showBorders,
+  }: AddMapLayersParams,
 ) {
   map.addSource("features", {
     type: "geojson",
@@ -37,7 +46,8 @@ export function addMapLayers(
     source: "features",
     paint: {
       "fill-color": layers.fill.color,
-      "fill-opacity": layers.fill.opacity,
+      "fill-opacity": showShading ? layers.fill.opacity : 0,
+      "fill-outline-color": "rgba(0, 0, 0, 0)",
     },
   });
 
@@ -53,6 +63,7 @@ export function addMapLayers(
         0.2,
         0,
       ],
+      "fill-outline-color": "rgba(0, 0, 0, 0)",
     },
   });
 
@@ -60,6 +71,10 @@ export function addMapLayers(
     id: "features-borders",
     type: "line",
     source: "features",
+
+    layout: {
+      visibility: showBorders ? "visible" : "none",
+    },
 
     paint: {
       "line-color": layers.borders.color,

@@ -33,6 +33,7 @@ type SetupMapInteractionsParams = {
 
   clickBehavior: MapClickBehavior;
   hover?: HoverConfig;
+  hoverEnabledRef: React.RefObject<boolean>;
 
   /** Latest quiz definition used by MapLibre event handlers. */
   quizRef: React.RefObject<Quiz | undefined>;
@@ -127,6 +128,7 @@ export function setupMapInteractions({
   map,
   clickBehavior,
   hover,
+  hoverEnabledRef,
   quizRef,
   currentQuestionRef,
   answerQuestionRef,
@@ -142,6 +144,25 @@ export function setupMapInteractions({
 
   if (hover?.enabled) {
     map.on("mousemove", "features-fill", (event) => {
+      /*
+       * Hover can be disabled at runtime without recreating the map.
+       */
+      if (!hoverEnabledRef.current) {
+        if (hoveredFeatureId !== null) {
+          map.setFeatureState(
+            {
+              source: "features",
+              id: hoveredFeatureId,
+            },
+            { hover: false },
+          );
+
+          hoveredFeatureId = null;
+        }
+
+        return;
+      }
+
       const feature = event.features?.[0];
 
       if (!feature) {

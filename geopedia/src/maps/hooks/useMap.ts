@@ -30,6 +30,11 @@ import type {
 } from "@/maps/types";
 import type { AnswerStatus, Quiz, QuizQuestion } from "@/types/quiz";
 
+import {
+  setBaseMapBordersVisible,
+  setBaseMapLabelsVisible,
+} from "../mapStyleVisibility";
+
 /**
  * Values required by useMap to create the map and connect MapLibre
  * interactions to the surrounding React application.
@@ -53,6 +58,12 @@ type UseMapParams = {
    * is clicked.
    */
   clickBehavior: MapClickBehavior;
+
+  /**
+   * Ref containing whether to give features a different background color on hover. Toggleable
+   * by the user with the `showBorders` setting.
+   */
+  hoverEnabledRef: React.RefObject<boolean>;
 
   /**
    * Ref containing the current quiz.
@@ -86,6 +97,13 @@ type UseMapParams = {
    * Updates the React state used to display the floating hover label.
    */
   setHoveredFeature: (feature: HoveredFeature | null) => void;
+
+  /**
+   * Quiz settings that determine how the map is initially rendered.
+   */
+  showShadingRef: React.RefObject<boolean>;
+  showBordersRef: React.RefObject<boolean>;
+  showLabelsRef: React.RefObject<boolean>;
 };
 
 /**
@@ -98,12 +116,17 @@ export function useMap({
   containerRef,
   mapConfig,
   clickBehavior,
+  hoverEnabledRef,
   quizRef,
   currentQuestionRef,
   answerStatusesRef,
   answerQuestionRef,
   navigateToCountry,
   setHoveredFeature,
+
+  showShadingRef,
+  showBordersRef,
+  showLabelsRef,
 }: UseMapParams) {
   const mapRef = useRef<maplibregl.Map | null>(null);
 
@@ -147,7 +170,13 @@ export function useMap({
         promoteId,
         layers,
         hover,
+        showShading: showShadingRef.current,
+        showBorders: showBordersRef.current,
       });
+
+      setBaseMapBordersVisible(map, showBordersRef.current);
+
+      setBaseMapLabelsVisible(map, showLabelsRef.current);
 
       /*
        * GeoPedia's source and layers cannot be added until MapLibre has
@@ -160,6 +189,7 @@ export function useMap({
         map,
         clickBehavior,
         hover,
+        hoverEnabledRef,
         quizRef,
         currentQuestionRef,
         answerStatusesRef,
@@ -200,12 +230,16 @@ export function useMap({
     clickBehavior,
     layers,
     hover,
+    hoverEnabledRef,
     quizRef,
     currentQuestionRef,
     answerStatusesRef,
     answerQuestionRef,
     navigateToCountry,
     setHoveredFeature,
+    showShadingRef,
+    showBordersRef,
+    showLabelsRef,
   ]);
 
   return {

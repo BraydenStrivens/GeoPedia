@@ -16,7 +16,7 @@ export type QuizSettings = {
 
   showShading: boolean;
   showBorders: boolean;
-  showBaseMapLabels: boolean;
+  showLabels: boolean;
 
   showIncorrectSelection: boolean;
 };
@@ -31,7 +31,7 @@ export const defaultQuizSettings: QuizSettings = {
 
   showShading: true,
   showBorders: true,
-  showBaseMapLabels: true,
+  showLabels: true,
 
   showIncorrectSelection: true,
 };
