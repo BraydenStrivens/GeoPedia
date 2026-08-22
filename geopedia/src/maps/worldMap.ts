@@ -25,7 +25,6 @@ export const worldMap: MapConfig = {
     type: "minimal",
     backgroundColor: "#d1d5db",
   },
-  clickBehavior: "navigate",
 
   /*
    * Promotes each country's ISO alpha-3 property to MapLibre's feature ID

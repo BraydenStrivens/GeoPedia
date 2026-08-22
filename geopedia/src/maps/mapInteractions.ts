@@ -19,7 +19,11 @@ import type React from "react";
 
 import type { AnswerStatus, Quiz, QuizQuestion } from "@/types/quiz";
 
-import type { HoverConfig, HoveredFeature } from "./types";
+import type {
+  HoverConfig,
+  HoveredFeature,
+  MapClickBehavior,
+} from "./types";
 
 /**
  * Values required to connect MapLibre interactions with GeoPedia.
@@ -27,7 +31,7 @@ import type { HoverConfig, HoveredFeature } from "./types";
 type SetupMapInteractionsParams = {
   map: maplibregl.Map;
 
-  clickBehavior?: "quiz" | "navigate";
+  clickBehavior: MapClickBehavior;
   hover?: HoverConfig;
 
   /** Latest quiz definition used by MapLibre event handlers. */

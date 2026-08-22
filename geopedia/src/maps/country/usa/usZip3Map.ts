@@ -17,7 +17,6 @@ export const usZip3Map: MapConfig = {
     type: "maptiler",
   },
 
-  clickBehavior: "quiz",
   promoteId: "id",
 
   initialView: {

@@ -32,7 +32,7 @@ export type MapStyle =
  * `quiz` treats the clicked feature as a quiz answer.
  * `navigate` uses the clicked feature to navigate to another page.
  */
-export type MapClickBehavior = "quiz" | "navigate";
+export type MapClickBehavior = "quiz" | "navigate" | "none";
 
 /**
  * Defines the behavior and appearance of feature hovering on a map.
@@ -80,9 +80,6 @@ export type MapConfig = {
 
   /** Base visual style displayed underneath the geographic features. */
   style: MapStyle;
-
-  /** Determines what happens when a geographic feature is clicked. */
-  clickBehavior?: MapClickBehavior;
 
   /**
    * GeoJSON property that MapLibre promotes to `feature.id`.

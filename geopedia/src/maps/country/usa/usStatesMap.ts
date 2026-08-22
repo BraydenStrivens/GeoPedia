@@ -23,7 +23,6 @@ export const usStatesMap: MapConfig = {
   style: {
     type: "maptiler",
   },
-  clickBehavior: "quiz",
 
   /*
    * Promotes each state's abbreviation to MapLibre's feature ID so

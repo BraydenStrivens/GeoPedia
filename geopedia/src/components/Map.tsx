@@ -23,7 +23,11 @@ import MapHoverLabel from "@/components/MapHoverLabel";
 import QuizOverlay from "@/components/QuizOverlay";
 import { useLatestRef } from "@/maps/hooks/useLatestRef";
 import { useMap } from "@/maps/hooks/useMap";
-import type { HoveredFeature, MapConfig } from "@/maps/types";
+import type {
+  HoveredFeature,
+  MapClickBehavior,
+  MapConfig,
+} from "@/maps/types";
 import { createFeatureColorExpression } from "@/maps/useMapColors";
 import { useQuiz } from "@/quiz/useQuiz";
 import type { Quiz } from "@/types/quiz";
@@ -33,6 +37,7 @@ maplibregl.setWorkerUrl("/maplibre-gl-worker.mjs");
 type MapProps = {
   mapConfig: MapConfig;
   quiz?: Quiz;
+  clickBehavior: MapClickBehavior;
 };
 
 /**
@@ -53,7 +58,7 @@ const emptyQuiz: Quiz = {
 /**
  * Renders a GeoPedia map and optionally connects it to a quiz.
  */
-export default function Map({ mapConfig, quiz }: MapProps) {
+export default function Map({ mapConfig, quiz, clickBehavior }: MapProps) {
   const router = useRouter();
 
   /**
@@ -114,6 +119,7 @@ export default function Map({ mapConfig, quiz }: MapProps) {
   const { mapRef, isMapReady } = useMap({
     containerRef: mapContainer,
     mapConfig,
+    clickBehavior,
     quizRef,
     currentQuestionRef,
     answerQuestionRef,

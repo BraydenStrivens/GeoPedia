@@ -19,8 +19,6 @@ export const usAreaCodesMap: MapConfig = {
     type: "maptiler",
   },
 
-  clickBehavior: "quiz",
-
   /*
    * Each processed feature contains a stable generated ID such as
    * "201-551" or "214-469-945-972".

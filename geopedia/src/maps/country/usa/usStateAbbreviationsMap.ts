@@ -8,7 +8,6 @@ export const usStateAbbreviationsMap: MapConfig = {
   style: {
     type: "maptiler",
   },
-  clickBehavior: "quiz",
 
   initialView: {
     center: [-98.5, 39.8],

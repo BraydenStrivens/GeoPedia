@@ -23,7 +23,11 @@ import { useEffect, useRef, useState } from "react";
 import { setupMapInteractions } from "@/maps/mapInteractions";
 import { addMapLayers } from "@/maps/mapLayers";
 import { createMapStyle } from "@/maps/mapStyle";
-import type { HoveredFeature, MapConfig } from "@/maps/types";
+import type {
+  HoveredFeature,
+  MapClickBehavior,
+  MapConfig,
+} from "@/maps/types";
 import type { AnswerStatus, Quiz, QuizQuestion } from "@/types/quiz";
 
 /**
@@ -42,6 +46,13 @@ type UseMapParams = {
    * camera position, and interaction settings.
    */
   mapConfig: MapConfig;
+
+  /**
+   * Describes what happens when a map feature is clicked. Used to differentiate maps
+   * that answer quiz questions, navigate to a page, or do nothing when a feature
+   * is clicked.
+   */
+  clickBehavior: MapClickBehavior;
 
   /**
    * Ref containing the current quiz.
@@ -86,6 +97,7 @@ type UseMapParams = {
 export function useMap({
   containerRef,
   mapConfig,
+  clickBehavior,
   quizRef,
   currentQuestionRef,
   answerStatusesRef,
@@ -98,15 +110,8 @@ export function useMap({
   const [isMapReady, setIsMapReady] = useState(false);
 
   // Extract the configuration values used by the map lifecycle effect.
-  const {
-    style,
-    initialView,
-    geojsonUrl,
-    promoteId,
-    clickBehavior,
-    layers,
-    hover,
-  } = mapConfig;
+  const { style, initialView, geojsonUrl, promoteId, layers, hover } =
+    mapConfig;
 
   useEffect(() => {
     if (!containerRef.current) {
@@ -173,13 +178,6 @@ export function useMap({
 
       map.on("sourcedata", handleSourceData);
     });
-
-    /*
-     * Add MapLibre's built-in zoom and compass controls.
-     */
-    const navigationControl = new maplibregl.NavigationControl();
-
-    map.addControl(navigationControl, "top-right");
 
     /*
      * React runs this cleanup before the effect runs again and when the

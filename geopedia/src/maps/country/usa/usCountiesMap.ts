@@ -17,7 +17,6 @@ export const usCountiesMap: MapConfig = {
     type: "maptiler",
   },
 
-  clickBehavior: "quiz",
   promoteId: "geoid",
 
   initialView: {

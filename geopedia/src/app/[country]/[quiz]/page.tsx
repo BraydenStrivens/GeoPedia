@@ -34,7 +34,7 @@ export default async function QuizPage({ params }: QuizPageProps) {
 
   return (
     <main className="h-[calc(100vh-3.5rem)] w-screen">
-      <Map mapConfig={mapConfig} quiz={quiz} />
+      <Map mapConfig={mapConfig} quiz={quiz} clickBehavior="quiz" />
     </main>
   );
 }
