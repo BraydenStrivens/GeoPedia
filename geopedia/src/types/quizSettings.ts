@@ -1,5 +1,14 @@
+/**
+ * Determines how a quiz presents and handles its questions.
+ */
 export type QuizMode = "normal" | "hard" | "show-answers";
 
+/**
+ * User-configurable settings for an individual quiz.
+ *
+ * Settings are stored separately for each quiz so different quizzes can
+ * retain their own configuration.
+ */
 export type QuizSettings = {
   mode: QuizMode;
 
@@ -8,9 +17,13 @@ export type QuizSettings = {
   showShading: boolean;
   showBorders: boolean;
   showBaseMapLabels: boolean;
+
   showIncorrectSelection: boolean;
 };
 
+/**
+ * Settings used when a quiz has no previously saved configuration.
+ */
 export const defaultQuizSettings: QuizSettings = {
   mode: "normal",
 
@@ -19,5 +32,6 @@ export const defaultQuizSettings: QuizSettings = {
   showShading: true,
   showBorders: true,
   showBaseMapLabels: true,
+
   showIncorrectSelection: true,
 };
