@@ -12,6 +12,7 @@
 import type { ExpressionSpecification } from "maplibre-gl";
 
 import type { AnswerStatus, AnswerType } from "@/types/quiz";
+import type { QuizMode } from "@/types/quizSettings";
 
 const CORRECT_RGB = [34, 197, 94];
 const WRONG_RGB = [239, 68, 68];
@@ -113,6 +114,7 @@ export function createFeatureColorExpression(
   answerType: AnswerType,
   normalColor: string,
   showShading: boolean,
+  mode: QuizMode,
   visibleAnswer?: string,
 ): ExpressionSpecification {
   const [normalR, normalG, normalB] = hexToRgb(normalColor);
@@ -227,8 +229,20 @@ export function createFeatureColorExpression(
 
   const baseColor = ["rgba", baseR, baseG, baseB, baseAlpha];
 
-  if (!visibleAnswer) {
+  /*
+   * Normal Mode displays the accumulated result of every answered feature.
+   */
+  if (mode !== "hard") {
     return baseColor as unknown as ExpressionSpecification;
+  }
+
+  /*
+   * Hard Mode with no current result displays no answer coloring.
+   *
+   * This occurs after skipping a question or recycling a missed answer.
+   */
+  if (!visibleAnswer) {
+    return normalMapColor as unknown as ExpressionSpecification;
   }
 
   const isVisibleFeature = createAnswerMatchExpression(

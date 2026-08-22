@@ -18,10 +18,12 @@ import type * as maplibregl from "maplibre-gl";
 import type React from "react";
 
 import type { AnswerStatus, Quiz, QuizQuestion } from "@/types/quiz";
+import { QuizMode } from "@/types/quizSettings";
 
 import type {
   HoverConfig,
   HoveredFeature,
+  IncorrectSelection,
   MapClickBehavior,
 } from "./types";
 
@@ -38,6 +40,8 @@ type SetupMapInteractionsParams = {
   /** Latest quiz definition used by MapLibre event handlers. */
   quizRef: React.RefObject<Quiz | undefined>;
 
+  quizModeRef: React.RefObject<QuizMode>;
+
   /** Latest question currently being asked by the quiz. */
   currentQuestionRef: React.RefObject<QuizQuestion | undefined>;
 
@@ -46,6 +50,10 @@ type SetupMapInteractionsParams = {
 
   /** Latest result of every quiz question that has been attempted. */
   answerStatusesRef: React.RefObject<Record<string, AnswerStatus>>;
+
+  showIncorrectSelectionRef: React.RefObject<boolean>;
+
+  setIncorrectSelection: (selection: IncorrectSelection | null) => void;
 
   /** Called when a feature on a navigation map is selected. */
   navigateToCountry: (countryId: string) => void;
@@ -81,6 +89,27 @@ function getFeatureAnswers(featureValue: unknown): string[] {
   }
 
   return [];
+}
+
+/**
+ * Returns a user-facing label for the answers represented by a feature.
+ *
+ * Quiz question display values are preferred when available. Raw answer
+ * values are used as a fallback.
+ */
+function getFeatureDisplayLabel(
+  featureAnswers: string[],
+  quiz: Quiz,
+): string {
+  return featureAnswers
+    .map((answer) => {
+      const question = quiz.questions.find(
+        (question) => question.answer === answer,
+      );
+
+      return question?.display ?? question?.answer ?? answer;
+    })
+    .join(" / ");
 }
 
 /**
@@ -130,6 +159,9 @@ export function setupMapInteractions({
   hover,
   hoverEnabledRef,
   quizRef,
+  quizModeRef,
+  showIncorrectSelectionRef,
+  setIncorrectSelection,
   currentQuestionRef,
   answerQuestionRef,
   answerStatusesRef,
@@ -202,7 +234,10 @@ export function setupMapInteractions({
 
         const featureAnswers = getFeatureAnswers(featureValue);
 
+        const isHardMode = quizModeRef.current === "hard";
+
         if (
+          !isHardMode &&
           isFeatureFullyAnswered(featureAnswers, answerStatusesRef.current)
         ) {
           if (hoveredFeatureId !== null) {
@@ -314,7 +349,10 @@ export function setupMapInteractions({
        * completed regions from incorrectly marking the current question
        * wrong and advancing the quiz.
        */
+      const isHardMode = quizModeRef.current === "hard";
+
       if (
+        !isHardMode &&
         isFeatureFullyAnswered(featureAnswers, answerStatusesRef.current)
       ) {
         return;
@@ -323,6 +361,19 @@ export function setupMapInteractions({
       const currentAnswer = currentQuestionRef.current.answer;
 
       const isCorrect = featureAnswers.includes(currentAnswer);
+
+      if (!isCorrect && showIncorrectSelectionRef.current) {
+        const clickedLabel = getFeatureDisplayLabel(
+          featureAnswers,
+          quizRef.current,
+        );
+
+        setIncorrectSelection({
+          label: clickedLabel,
+          x: event.point.x,
+          y: event.point.y,
+        });
+      }
 
       /*
        * Determine completion before updating React state because

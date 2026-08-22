@@ -111,6 +111,13 @@ export function useQuiz(quiz: Quiz, options: UseQuizOptions = {}) {
     setWrongCount((previousCount) => previousCount + 1);
 
     if (recycleMissedAnswers) {
+      /*
+       * A recycled miss advances the question queue without completing the
+       * question. Clear Hard Mode's previous result so an older feature does
+       * not remain highlighted while a new question is being asked.
+       */
+      setLastAnsweredAnswer(undefined);
+
       setQuestionQueue((previousQueue) => {
         if (previousQueue.length <= 1) {
           return previousQueue;
@@ -138,6 +145,8 @@ export function useQuiz(quiz: Quiz, options: UseQuizOptions = {}) {
     if (!currentQuestionRef.current || !isActive) {
       return;
     }
+
+    setLastAnsweredAnswer(undefined);
 
     setQuestionQueue((previousQueue) => {
       if (previousQueue.length <= 1) {

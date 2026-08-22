@@ -29,7 +29,6 @@ export function addMapLayers(
     geojsonUrl,
     promoteId,
     layers,
-    hover,
     showShading,
     showBorders,
   }: AddMapLayersParams,

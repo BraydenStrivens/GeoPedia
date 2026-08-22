@@ -25,10 +25,12 @@ import { addMapLayers } from "@/maps/mapLayers";
 import { createMapStyle } from "@/maps/mapStyle";
 import type {
   HoveredFeature,
+  IncorrectSelection,
   MapClickBehavior,
   MapConfig,
 } from "@/maps/types";
 import type { AnswerStatus, Quiz, QuizQuestion } from "@/types/quiz";
+import { QuizMode } from "@/types/quizSettings";
 
 import {
   setBaseMapBordersVisible,
@@ -73,6 +75,8 @@ type UseMapParams = {
    */
   quizRef: React.RefObject<Quiz | undefined>;
 
+  quizModeRef: React.RefObject<QuizMode>;
+
   /**
    * Ref containing the latest question.
    */
@@ -99,8 +103,15 @@ type UseMapParams = {
   setHoveredFeature: (feature: HoveredFeature | null) => void;
 
   /**
-   * Quiz settings that determine how the map is initially rendered.
+   * Sets the last answered question as the incorrectSelection if the answer is
+   * wrong and the `showIncorrectSelection` setting is enabled.
    */
+  setIncorrectSelection: (selection: IncorrectSelection | null) => void;
+
+  /**
+   * Quiz settings that determine how the map is rendered.
+   */
+  showIncorrectSelectionRef: React.RefObject<boolean>;
   showShadingRef: React.RefObject<boolean>;
   showBordersRef: React.RefObject<boolean>;
   showLabelsRef: React.RefObject<boolean>;
@@ -115,15 +126,21 @@ type UseMapParams = {
 export function useMap({
   containerRef,
   mapConfig,
+  quizRef,
+  quizModeRef,
+
   clickBehavior,
   hoverEnabledRef,
-  quizRef,
+
   currentQuestionRef,
   answerStatusesRef,
   answerQuestionRef,
+
   navigateToCountry,
   setHoveredFeature,
+  setIncorrectSelection,
 
+  showIncorrectSelectionRef,
   showShadingRef,
   showBordersRef,
   showLabelsRef,
@@ -187,15 +204,21 @@ export function useMap({
        */
       setupMapInteractions({
         map,
+        quizRef,
+        quizModeRef,
+
         clickBehavior,
         hover,
+        navigateToCountry,
+
+        setIncorrectSelection,
+        setHoveredFeature,
+
+        showIncorrectSelectionRef,
         hoverEnabledRef,
-        quizRef,
         currentQuestionRef,
         answerStatusesRef,
         answerQuestionRef,
-        navigateToCountry,
-        setHoveredFeature,
       });
 
       const handleSourceData = (event: maplibregl.MapSourceDataEvent) => {
@@ -240,6 +263,9 @@ export function useMap({
     showShadingRef,
     showBordersRef,
     showLabelsRef,
+    setIncorrectSelection,
+    showIncorrectSelectionRef,
+    quizModeRef,
   ]);
 
   return {

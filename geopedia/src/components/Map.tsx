@@ -29,6 +29,7 @@ import {
 } from "@/maps/mapStyleVisibility";
 import type {
   HoveredFeature,
+  IncorrectSelection,
   MapClickBehavior,
   MapConfig,
 } from "@/maps/types";
@@ -36,6 +37,8 @@ import { createFeatureColorExpression } from "@/maps/useMapColors";
 import { useQuiz } from "@/quiz/useQuiz";
 import type { Quiz } from "@/types/quiz";
 import { QuizSettings } from "@/types/quizSettings";
+
+import IncorrectSelectionPopup from "./IncorrectSelectionPopup";
 
 maplibregl.setWorkerUrl("/maplibre-gl-worker.mjs");
 
@@ -110,12 +113,28 @@ export default function Map({
     useState<HoveredFeature | null>(null);
 
   /**
+   * Stores a ref as to whether or not we show the incorrect answer popup.
+   * This is controlled by the quiz setting `showIncorrectSelection`.
+   */
+  const showIncorrectSelectionRef = useLatestRef(
+    quizSettings?.showIncorrectSelection ?? true,
+  );
+
+  /**
+   * Stores the last incorrectly selected feature to show a breif popup of that
+   * features actual answer.
+   */
+  const [incorrectSelection, setIncorrectSelection] =
+    useState<IncorrectSelection | null>(null);
+
+  /**
    * MapLibre event handlers can remain alive across React renders.
    *
    * These refs allow those handlers to access the newest quiz state and
    * functions without forcing the MapLibre map itself to be recreated.
    */
   const quizRef = useLatestRef(quiz);
+  const quizModeRef = useLatestRef(quizSettings?.mode ?? "normal");
   const currentQuestionRef = useLatestRef(currentQuestion);
   const answerQuestionRef = useLatestRef(answerQuestion);
   const answerStatusesRef = useLatestRef(answerStatuses);
@@ -156,13 +175,16 @@ export default function Map({
     hoverEnabledRef,
 
     quizRef,
+    quizModeRef,
     currentQuestionRef,
     answerQuestionRef,
     answerStatusesRef,
 
     navigateToCountry,
     setHoveredFeature,
+    setIncorrectSelection,
 
+    showIncorrectSelectionRef,
     showShadingRef,
     showBordersRef,
     showLabelsRef,
@@ -194,12 +216,15 @@ export default function Map({
     const visibleAnswer =
       quizSettings?.mode === "hard" ? lastAnsweredAnswer : undefined;
 
+    const mode = quizSettings?.mode ?? "normal";
+
     const fillExpression = createFeatureColorExpression(
       answerStatuses,
       answerProperty,
       answerType,
       mapConfig.layers.fill.color,
       quizSettings?.showShading ?? true,
+      mode,
       visibleAnswer,
     );
 
@@ -252,6 +277,20 @@ export default function Map({
     setBaseMapBordersVisible(map, showBorders);
   }, [isMapReady, quizSettings?.showBorders, mapRef]);
 
+  useEffect(() => {
+    if (!incorrectSelection) {
+      return;
+    }
+
+    const timeout = window.setTimeout(() => {
+      setIncorrectSelection(null);
+    }, 1200);
+
+    return () => {
+      window.clearTimeout(timeout);
+    };
+  }, [incorrectSelection]);
+
   return (
     <div className="relative h-full w-full">
       {quiz && (
@@ -276,6 +315,8 @@ export default function Map({
       )}
 
       <MapHoverLabel feature={hoveredFeature} />
+
+      <IncorrectSelectionPopup selection={incorrectSelection} />
 
       <div ref={mapContainer} className="h-full w-full" />
     </div>

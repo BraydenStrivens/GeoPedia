@@ -61,6 +61,16 @@ export type HoveredFeature = {
 };
 
 /**
+ * Describes temporary feedback shown after the user clicks an incorrect
+ * geographic feature.
+ */
+export type IncorrectSelection = {
+  label: string;
+  x: number;
+  y: number;
+};
+
+/**
  * Defines the data, appearance, and interaction behavior of a GeoPedia map.
  */
 export type MapConfig = {
