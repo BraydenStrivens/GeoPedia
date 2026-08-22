@@ -113,6 +113,7 @@ export function createFeatureColorExpression(
   answerType: AnswerType,
   normalColor: string,
   showShading: boolean,
+  visibleAnswer?: string,
 ): ExpressionSpecification {
   const [normalR, normalG, normalB] = hexToRgb(normalColor);
 
@@ -213,10 +214,40 @@ export function createFeatureColorExpression(
 
   const baseB = ["case", hasAnswers, finalB, normalB];
 
+  const normalMapColor = [
+    "rgba",
+    normalR,
+    normalG,
+    normalB,
+    showShading ? 1 : 0,
+  ];
+
   // Only show normal map color if shading is enabled
   const baseAlpha = ["case", hasAnswers, 1, showShading ? 1 : 0];
 
   const baseColor = ["rgba", baseR, baseG, baseB, baseAlpha];
 
-  return baseColor as unknown as ExpressionSpecification;
+  if (!visibleAnswer) {
+    return baseColor as unknown as ExpressionSpecification;
+  }
+
+  const isVisibleFeature = createAnswerMatchExpression(
+    answerProperty,
+    visibleAnswer,
+    answerType,
+  );
+
+  const hardModeColor = [
+    "case",
+
+    // The feature containing the most recently answered question
+    // keeps its complete quiz-progress color.
+    isVisibleFeature,
+    baseColor,
+
+    // Every other feature returns to its ordinary map appearance.
+    normalMapColor,
+  ];
+
+  return hardModeColor as unknown as ExpressionSpecification;
 }

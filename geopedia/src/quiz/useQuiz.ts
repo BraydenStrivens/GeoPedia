@@ -52,6 +52,11 @@ export function useQuiz(quiz: Quiz, options: UseQuizOptions = {}) {
     Record<string, AnswerStatus>
   >({});
 
+  // Stores the last answered question. Used in "Hard-Mode" to only shade the last answered question.
+  const [lastAnsweredAnswer, setLastAnsweredAnswer] = useState<
+    string | undefined
+  >(undefined);
+
   const [answeredCount, setAnsweredCount] = useState(0);
   const [correctCount, setCorrectCount] = useState(0);
   const [wrongCount, setWrongCount] = useState(0);
@@ -92,6 +97,8 @@ export function useQuiz(quiz: Quiz, options: UseQuizOptions = {}) {
         [answer]: "correct",
       }));
 
+      setLastAnsweredAnswer(answer);
+
       setCorrectCount((previousCount) => previousCount + 1);
 
       setAnsweredCount((previousCount) => previousCount + 1);
@@ -120,43 +127,13 @@ export function useQuiz(quiz: Quiz, options: UseQuizOptions = {}) {
       [answer]: "wrong",
     }));
 
+    setLastAnsweredAnswer(answer);
+
     setAnsweredCount((previousCount) => previousCount + 1);
 
     setQuestionQueue((previousQueue) => previousQueue.slice(1));
   }
-  // function answerQuestion(clickedAnswer: string) {
-  //   const question = currentQuestionRef.current;
 
-  //   if (!question || !isActive) {
-  //     return;
-  //   }
-
-  //   const answer = question.answer;
-
-  //   if (clickedAnswer === answer) {
-  //     setAnswerStatuses((previousStatuses) => ({
-  //       ...previousStatuses,
-  //       [answer]: "correct",
-  //     }));
-
-  //     setCorrectCount((previousCount) => previousCount + 1);
-  //   } else {
-  //     setAnswerStatuses((previousStatuses) => ({
-  //       ...previousStatuses,
-  //       [answer]: "wrong",
-  //     }));
-
-  //     setWrongCount((previousCount) => previousCount + 1);
-  //   }
-
-  //   setAnsweredCount((previousCount) => previousCount + 1);
-  //   setQuestionQueue((previousQueue) => previousQueue.slice(1));
-  // }
-
-  /**
-   * Moves the current question to the end of the queue without
-   * recording an answer.
-   */
   function skipQuestion() {
     if (!currentQuestionRef.current || !isActive) {
       return;
@@ -177,6 +154,7 @@ export function useQuiz(quiz: Quiz, options: UseQuizOptions = {}) {
   function restartQuiz() {
     setQuestionQueue(shuffleQuestions(quiz.questions));
     setAnswerStatuses({});
+    setLastAnsweredAnswer(undefined);
     setIsActive(true);
     setAnsweredCount(0);
     setCorrectCount(0);
@@ -189,6 +167,7 @@ export function useQuiz(quiz: Quiz, options: UseQuizOptions = {}) {
   function stopQuiz() {
     setQuestionQueue([]);
     setAnswerStatuses({});
+    setLastAnsweredAnswer(undefined);
     setIsActive(false);
     setAnsweredCount(0);
     setCorrectCount(0);
@@ -206,11 +185,15 @@ export function useQuiz(quiz: Quiz, options: UseQuizOptions = {}) {
     skipQuestion,
     restartQuiz,
     stopQuiz,
+
     answerStatuses,
+    lastAnsweredAnswer,
+
     answeredCount,
     questionCount,
     correctCount,
     wrongCount,
+
     isActive,
     isFinished,
   };

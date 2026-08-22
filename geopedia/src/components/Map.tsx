@@ -84,14 +84,18 @@ export default function Map({
   const {
     currentQuestion,
     answerQuestion,
-    answerStatuses,
     skipQuestion,
     restartQuiz,
     stopQuiz,
+
+    answerStatuses,
+    lastAnsweredAnswer,
+
     answeredCount,
     questionCount,
     correctCount,
     wrongCount,
+
     isActive,
     isFinished,
   } = useQuiz(quiz ?? emptyQuiz, {
@@ -147,12 +151,15 @@ export default function Map({
   const { mapRef, isMapReady } = useMap({
     containerRef: mapContainer,
     mapConfig,
+
     clickBehavior,
     hoverEnabledRef,
+
     quizRef,
     currentQuestionRef,
     answerQuestionRef,
     answerStatusesRef,
+
     navigateToCountry,
     setHoveredFeature,
 
@@ -184,12 +191,16 @@ export default function Map({
       return;
     }
 
+    const visibleAnswer =
+      quizSettings?.mode === "hard" ? lastAnsweredAnswer : undefined;
+
     const fillExpression = createFeatureColorExpression(
       answerStatuses,
       answerProperty,
       answerType,
       mapConfig.layers.fill.color,
       quizSettings?.showShading ?? true,
+      visibleAnswer,
     );
 
     map.setPaintProperty("features-fill", "fill-color", fillExpression);
@@ -197,6 +208,8 @@ export default function Map({
     answerStatuses,
     answerProperty,
     answerType,
+    quizSettings?.mode,
+    lastAnsweredAnswer,
     mapConfig.layers.fill.color,
     quizSettings?.showShading,
     isMapReady,
