@@ -1,28 +1,24 @@
 /**
  * Owns the lifecycle of a MapLibre map instance.
  *
- * This custom React hook creates and configures the MapLibre map used by
- * the Map component. It:
+ * This hook creates and configures the MapLibre map used by GeoPedia's shared
+ * Map component. It:
  *
- * - Creates the base MapLibre map
- * - Waits for the base style to load
- * - Adds GeoPedia's GeoJSON source and custom layers
- * - Applies initial persisted map-display settings
- * - Registers feature hover and click interactions
- * - Tracks when GeoPedia's feature source is ready
- * - Cleans up the MapLibre instance when necessary
+ * - Creates the base MapLibre map.
+ * - Waits for the base style to load.
+ * - Adds GeoPedia's geographic source and custom layers.
+ * - Applies persisted map-display settings before the map becomes visible.
+ * - Registers feature hover and click interactions.
+ * - Tracks when GeoPedia's geographic source is ready.
+ * - Destroys the MapLibre instance when necessary.
  *
- * React values that may change while the MapLibre instance remains alive
- * are passed as refs. Long-lived MapLibre event handlers can therefore read
- * the latest React values without forcing the entire map to be recreated.
- *
- * The hook returns both the MapLibre map ref and an isMapReady flag so other
- * React effects can safely modify the existing map after its source/layers
- * have finished loading.
+ * React values that may change during the map's lifetime are provided through
+ * refs. Long-lived MapLibre event handlers can therefore read current React
+ * values without requiring the map or its listeners to be recreated.
  */
 
 import * as maplibregl from "maplibre-gl";
-import type React from "react";
+import type { RefObject } from "react";
 import { useEffect, useRef, useState } from "react";
 
 import { setupMapInteractions } from "@/maps/interactions/setupMapInteractions";
@@ -42,127 +38,85 @@ import type { AnswerStatus, Quiz, QuizQuestion } from "@/types/quiz";
 import type { QuizMode } from "@/types/quizSettings";
 
 /**
- * Values required by useMap to create the map and connect MapLibre
- * interactions to the surrounding React application.
+ * Dependencies required to create a MapLibre map and connect it to GeoPedia's
+ * React state and interaction system.
  */
 type UseMapParams = {
-  /**
-   * React ref containing the HTML element into which MapLibre creates
-   * its canvas and map UI.
-   */
-  containerRef: React.RefObject<HTMLDivElement | null>;
+  /** HTML element into which MapLibre creates its canvas and map UI. */
+  containerRef: RefObject<HTMLDivElement | null>;
 
-  /**
-   * Static configuration describing this map's geographic data, style,
-   * initial camera position, layers, and hover appearance.
-   */
+  /** Static configuration describing the map's data, style, camera, and layers. */
   mapConfig: MapConfig;
 
-  /**
-   * Current runtime click behavior.
-   *
-   * A ref is used because click behavior can change while the same MapLibre
-   * instance remains alive. For example, Show Answers temporarily changes a
-   * quiz map from "quiz" to "none".
-   */
-  clickBehaviorRef: React.RefObject<MapClickBehavior>;
+  /** Current behavior performed when a geographic feature is clicked. */
+  clickBehaviorRef: RefObject<MapClickBehavior>;
 
-  /**
-   * Determines whether feature hover interaction is currently enabled.
-   *
-   * This can change at runtime when Borders is toggled or Show Answers is
-   * entered, so MapLibre handlers read the current value through a ref.
-   */
-  hoverEnabledRef: React.RefObject<boolean>;
+  /** Determines whether geographic features currently respond to hovering. */
+  hoverEnabledRef: RefObject<boolean>;
 
-  /**
-   * Ref containing the current quiz.
-   *
-   * Long-lived MapLibre click handlers use this instead of capturing an old
-   * quiz value when the event listeners are initially registered.
-   */
-  quizRef: React.RefObject<Quiz | undefined>;
+  /** Current quiz associated with the map, when the map is used for a quiz. */
+  quizRef: RefObject<Quiz | undefined>;
 
-  /**
-   * Ref containing the current Normal/Hard quiz mode.
-   *
-   * mapInteractions uses this to decide whether fully answered features
-   * remain hoverable/clickable in Hard Mode.
-   */
-  quizModeRef: React.RefObject<QuizMode>;
+  /** Current Normal/Hard quiz mode. */
+  quizModeRef: RefObject<QuizMode>;
 
-  /**
-   * Ref containing the quiz question currently being asked.
-   */
-  currentQuestionRef: React.RefObject<QuizQuestion | undefined>;
+  /** Quiz question currently being asked. */
+  currentQuestionRef: RefObject<QuizQuestion | undefined>;
 
-  /**
-   * Ref containing the latest result for every completed quiz answer.
-   */
-  answerStatusesRef: React.RefObject<Record<string, AnswerStatus>>;
+  /** Completed quiz results keyed by answer value. */
+  answerStatusesRef: RefObject<Record<string, AnswerStatus>>;
 
-  /**
-   * Ref containing the current answerQuestion function.
-   */
-  answerQuestionRef: React.RefObject<(isCorrect: boolean) => void>;
+  /** Current function used to submit a quiz answer result. */
+  answerQuestionRef: RefObject<(isCorrect: boolean) => void>;
 
-  /**
-   * Callback used by navigation maps when a geographic feature is clicked.
-   */
+  /** Navigates to the country represented by a navigation-map feature. */
   navigateToCountry: (countryId: string) => void;
 
-  /**
-   * Updates the ID of the feature currently being hovered.
-   *
-   * Show Answers uses this to apply matching hover styling to the answer
-   * label associated with that feature.
-   */
+  /** Updates the ID of the geographic feature currently being hovered. */
   setHoveredFeatureId: (featureId: string | null) => void;
 
-  /**
-   * Updates the floating feature-name label used by navigation maps.
-   */
+  /** Updates the floating feature-name label used by navigation maps. */
   setHoveredFeature: (feature: HoveredFeature | null) => void;
 
-  /**
-   * Updates temporary incorrect-selection feedback after a user clicks the
-   * wrong geographic feature.
-   */
+  /** Updates temporary feedback displayed after an incorrect selection. */
   setIncorrectSelection: (
     selection: IncorrectSelection | null,
   ) => void;
 
-  /**
-   * Determines whether incorrect selections should display their temporary
-   * name popup.
-   */
-  showIncorrectSelectionRef: React.RefObject<boolean>;
+  /** Determines whether incorrect selections display their answer label. */
+  showIncorrectSelectionRef: RefObject<boolean>;
 
-  /**
-   * Persisted map-display settings.
-   *
-   * These refs are read while the MapLibre style is initially loading so the
-   * map starts with the user's saved appearance instead of first rendering
-   * defaults and then visibly correcting itself.
-   */
-  showShadingRef: React.RefObject<boolean>;
+  /** Determines whether GeoPedia's geographic feature shading is visible. */
+  showShadingRef: RefObject<boolean>;
 
-  showBordersRef: React.RefObject<boolean>;
+  /** Determines whether geographic and base-map administrative borders are visible. */
+  showBordersRef: RefObject<boolean>;
 
-  showLabelsRef: React.RefObject<boolean>;
+  /** Determines whether labels supplied by the base-map style are visible. */
+  showLabelsRef: RefObject<boolean>;
 };
 
 /**
- * Creates and manages one MapLibre map instance.
+ * Result returned by `useMap`.
+ */
+type UseMapResult = {
+  // MapLibre instance, or null before creation and after cleanup.
+  mapRef: RefObject<maplibregl.Map | null>;
+
+  // Whether GeoPedia's geographic feature source has finished loading.
+  isMapReady: boolean;
+};
+
+/**
+ * Creates and manages a MapLibre map instance.
  *
- * @returns
- * mapRef:
- *   Ref containing the current MapLibre map, or null before creation/after
- *   cleanup.
+ * The map is recreated only when dependencies that fundamentally define the
+ * map change. Runtime quiz state and display settings are supplied through
+ * refs so they can change without rebuilding the MapLibre instance.
  *
- * isMapReady:
- *   True once GeoPedia's "features" source has completely loaded and the
- *   custom feature layers are safe for other React effects to modify.
+ * @param params - Map configuration, current-value refs, and interaction
+ * callbacks required by the map.
+ * @returns The MapLibre map ref and its GeoPedia-source readiness state.
  */
 export function useMap({
   containerRef,
@@ -178,8 +132,8 @@ export function useMap({
   answerQuestionRef,
 
   navigateToCountry,
-  setHoveredFeature,
   setHoveredFeatureId,
+  setHoveredFeature,
   setIncorrectSelection,
 
   showIncorrectSelectionRef,
@@ -187,95 +141,87 @@ export function useMap({
   showShadingRef,
   showBordersRef,
   showLabelsRef,
-}: UseMapParams) {
+}: UseMapParams): UseMapResult {
   /**
-   * Stores the MapLibre instance without causing React renders when the map
+   * Stores the MapLibre instance without causing a React render when the map
    * object itself changes.
    */
   const mapRef = useRef<maplibregl.Map | null>(null);
 
   /**
-   * Signals when GeoPedia's own feature source has finished loading.
+   * Signals when GeoPedia's geographic feature source has finished loading.
    *
-   * React effects in Map.tsx use this before changing fill expressions,
-   * borders, labels, and Show Answers markers.
+   * React effects in Map.tsx use this before modifying feature colors,
+   * borders, labels, or Show Answers markers.
    */
   const [isMapReady, setIsMapReady] = useState(false);
 
   /*
-   * Extract only the static MapConfig values needed to create the map.
-   *
-   * Runtime settings such as click behavior are intentionally supplied
-   * through refs instead so they do not rebuild the MapLibre instance.
+   * Only static values that fundamentally define the map are extracted here.
+   * Changing runtime values are supplied through refs instead.
    */
   const { style, initialView, geojsonUrl, promoteId, layers, hover } =
     mapConfig;
 
   /**
-   * Creates and destroys the MapLibre instance.
+   * Creates, configures, and eventually destroys the MapLibre instance.
    *
-   * This effect should only rerun when something that fundamentally changes
-   * the map itself changes, such as:
+   * This effect reruns only when something that fundamentally defines the map
+   * changes, such as its style, camera, geographic source, layer appearance,
+   * or hover configuration.
    *
-   * - Map style
-   * - Initial view
-   * - GeoJSON source
-   * - Layer configuration
-   * - Map hover configuration
-   *
-   * Normal quiz state and user-setting changes should NOT recreate the map.
+   * Normal quiz state and runtime setting changes should not recreate the map.
    */
   useEffect(() => {
-    if (!containerRef.current) {
+    const container = containerRef.current;
+
+    if (!container) {
       return;
     }
 
     /*
-     * Convert GeoPedia's MapStyle configuration into a style object or URL
+     * Convert GeoPedia's MapStyle configuration into a style representation
      * understood by MapLibre.
      */
     const mapStyle = createMapStyle(style);
 
     /*
-     * Create the MapLibre map and attach it to the React-owned container.
+     * Create the MapLibre map inside the React-owned container.
      */
     const map = new maplibregl.Map({
-      container: containerRef.current,
-
+      container,
       style: mapStyle,
-
       center: initialView.center,
-
       zoom: initialView.zoom,
-
       attributionControl: false,
     });
 
     /*
-     * GeoPedia quizzes use rapid feature clicks, so MapLibre's default
-     * double-click-to-zoom behavior is disabled.
+     * GeoPedia quizzes rely heavily on rapid feature selection, so the
+     * default double-click-to-zoom interaction is disabled.
      */
     map.doubleClickZoom.disable();
 
     mapRef.current = map;
 
     /**
-     * GeoPedia's source and custom layers cannot be installed until the base
-     * MapLibre style has finished loading.
+     * Configures GeoPedia's map-specific functionality after MapLibre's base
+     * style becomes available.
+     *
+     * Sources and layers cannot safely be added before `style.load`.
      */
-    map.on("style.load", () => {
+    function handleStyleLoad() {
       /*
-       * Add GeoPedia's feature source, fill layer, hover layer, and border
-       * layer.
+       * Add GeoPedia's geographic source and custom fill, hover, and border
+       * layers.
        *
-       * Saved Shading/Borders values are read here so the first rendered
-       * frame already reflects the user's persisted settings.
+       * Persisted Shading and Borders values are read before layer creation so
+       * the first rendered state already reflects the user's saved settings.
        */
       addMapLayers(map, {
         geojsonUrl,
         promoteId,
         layers,
-        // hover,
 
         showShading: showShadingRef.current,
 
@@ -283,78 +229,81 @@ export function useMap({
       });
 
       /*
-       * Apply persisted visibility settings to layers supplied by the
-       * MapTiler/base-map style before the map is declared ready.
+       * Apply persisted settings to layers supplied by the base-map style
+       * before the map is declared ready.
        *
-       * This prevents a visible flash of default borders or labels when
-       * entering/reloading a quiz.
+       * Doing this during initial setup prevents a visible flash of default
+       * administrative borders or labels.
        */
       setBaseMapBordersVisible(map, showBordersRef.current);
 
       setBaseMapLabelsVisible(map, showLabelsRef.current);
 
       /*
-       * Register the MapLibre mouse and click handlers.
+       * Register long-lived feature hover and click handlers.
        *
-       * Most changing React values are passed as refs so these handlers can
-       * remain installed for the lifetime of the MapLibre map.
+       * Changing React values are read through refs so these handlers can
+       * remain installed for the lifetime of this MapLibre instance.
        */
       setupMapInteractions({
         map,
-
-        quizRef,
-        quizModeRef,
 
         clickBehaviorRef,
         hover,
         hoverEnabledRef,
 
+        quizRef,
+        quizModeRef,
         currentQuestionRef,
         answerStatusesRef,
         answerQuestionRef,
 
         navigateToCountry,
-
-        setIncorrectSelection,
-        setHoveredFeature,
         setHoveredFeatureId,
+        setHoveredFeature,
+        setIncorrectSelection,
 
         showIncorrectSelectionRef,
       });
 
       /**
-       * Wait until GeoPedia's "features" GeoJSON source has completely
-       * loaded before telling the React side that the map is ready.
+       * Marks the map ready once GeoPedia's geographic source has completely
+       * loaded.
        *
-       * style.load only guarantees that the base style exists; the
-       * asynchronous GeoJSON source may still be loading afterward.
+       * `style.load` guarantees that the base style exists, but the GeoJSON
+       * source added above may still be loading asynchronously.
        */
-      const handleSourceData = (
+      function handleSourceData(
         event: maplibregl.MapSourceDataEvent,
-      ) => {
-        if (event.sourceId === "features" && event.isSourceLoaded) {
-          setIsMapReady(true);
-
-          /*
-           * This listener is only needed until the initial feature source
-           * load finishes.
-           */
-          map.off("sourcedata", handleSourceData);
+      ) {
+        if (event.sourceId !== "features" || !event.isSourceLoaded) {
+          return;
         }
-      };
+
+        setIsMapReady(true);
+
+        /*
+         * Readiness is only needed for the initial source load, so remove the
+         * listener after that state has been reached.
+         */
+        map.off("sourcedata", handleSourceData);
+      }
 
       map.on("sourcedata", handleSourceData);
-    });
+    }
+
+    map.on("style.load", handleStyleLoad);
 
     /**
-     * Cleanup runs when this hook unmounts or when one of the static map
-     * configuration dependencies changes.
+     * Destroys everything owned by this MapLibre instance.
      *
-     * map.remove() destroys MapLibre's canvas, event listeners, sources,
-     * layers, and other resources owned by this map instance.
+     * Cleanup runs when the component unmounts or when a static map dependency
+     * changes and this effect needs to create a replacement map.
      */
     return () => {
       mapRef.current = null;
+
+      setIsMapReady(false);
 
       map.remove();
     };
@@ -369,8 +318,8 @@ export function useMap({
     hover,
 
     /*
-     * These are stable ref objects/callbacks. Their `.current` values can
-     * change without causing this lifecycle effect to rerun.
+     * These dependencies are stable refs or callbacks. Their `.current`
+     * values can change without causing this lifecycle effect to rerun.
      */
     clickBehaviorRef,
     hoverEnabledRef,
@@ -382,9 +331,8 @@ export function useMap({
     answerQuestionRef,
 
     navigateToCountry,
-
-    setHoveredFeature,
     setHoveredFeatureId,
+    setHoveredFeature,
     setIncorrectSelection,
 
     showIncorrectSelectionRef,

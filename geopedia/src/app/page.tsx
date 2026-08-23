@@ -1,7 +1,5 @@
-import Map from "@/components/Map";
-// import { usStatesMap } from "@/maps/usStates";
+import Map from "@/components/map/Map";
 import { worldMap } from "@/maps/configs/worldMap";
-// import { usStatesQuiz } from "@/quizzes/usStates";
 
 export default function Home() {
   return (

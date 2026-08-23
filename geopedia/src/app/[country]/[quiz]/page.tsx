@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 
-import QuizMapClient from "@/components/QuizMapClient";
+import QuizMapClient from "@/components/quiz/QuizMapClient";
 import { getMap } from "@/maps";
 import { getQuiz } from "@/quiz/quizzes";
 

@@ -7,18 +7,29 @@
  * recreating those handlers every time the value changes.
  */
 
-import { useEffect, useRef } from "react";
+import { RefObject, useEffect, useRef } from "react";
 
 /**
- * Returns a ref whose `.current` value is automatically updated
- * whenever the provided value changes.
+ * Returns a ref whose `.current` value always reflects the latest value
+ * provided to the hook.
+ *
+ * The ref object itself remains stable across renders, which makes it safe to
+ * pass into long-lived callbacks that should not be recreated whenever the
+ * underlying value changes.
+ *
+ * @param value - Value that should remain available through the ref.
+ * @returns Stable React ref containing the latest value.
  */
-export function useLatestRef<T>(value: T) {
-  const ref = useRef(value);
+export function useLatestRef<T>(value: T): RefObject<T> {
+  const latestValueRef = useRef(value);
 
+  /**
+   * Synchronizes the mutable ref after React commits a render containing a
+   * new value.
+   */
   useEffect(() => {
-    ref.current = value;
+    latestValueRef.current = value;
   }, [value]);
 
-  return ref;
+  return latestValueRef;
 }
