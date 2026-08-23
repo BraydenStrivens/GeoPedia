@@ -1,17 +1,29 @@
+/**
+ * Defines GeoPedia's global styles and Tailwind theme variables.
+ *
+ * Site-wide colors and fonts are exposed to Tailwind through theme variables.
+ * MapLibre cursor behavior is also normalized here so interactive maps use
+ * GeoPedia's preferred default cursor.
+ */
+
 @import "tailwindcss";
 
+/* Default site colors */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
+/* Tailwind theme values backed by GeoPedia's CSS variables */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
+/* System dark-mode colors */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -19,13 +31,15 @@
   }
 }
 
+/* Global document appearance */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
   cursor: default;
 }
 
+/* Prevent MapLibre from replacing GeoPedia's default cursor */
 html,
 body,
 .maplibregl-canvas {

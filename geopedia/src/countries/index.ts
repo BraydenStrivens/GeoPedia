@@ -12,7 +12,7 @@
 
 import { CountryData } from "@/types/country";
 
-import { usaData } from "./north_america/usa";
+import { usaData } from "./north-america/usa";
 
 /**
  * Maps each GeoPedia country ID to its corresponding static country data.
