@@ -70,6 +70,25 @@ export type IncorrectSelection = {
   y: number;
 };
 
+export type AnswerLabelConfig = {
+  /**
+   * Label throttling only begins when the number of visible geographic
+   * features exceeds this value.
+   */
+  densityThreshold?: number;
+
+  /**
+   * Maximum number of labels rendered at the map's initial zoom level.
+   */
+  initialMaxLabels?: number;
+
+  /**
+   * Number of additional labels allowed for every zoom level beyond the
+   * map's initial zoom.
+   */
+  labelsPerZoom?: number;
+};
+
 /**
  * Defines the data, appearance, and interaction behavior of a GeoPedia map.
  */
@@ -99,6 +118,8 @@ export type MapConfig = {
    * each GeoJSON feature's `properties` object.
    */
   promoteId?: string;
+
+  answerLabels?: AnswerLabelConfig;
 
   /** Camera position used when the map is first displayed. */
   initialView: {

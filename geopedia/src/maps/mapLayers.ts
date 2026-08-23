@@ -44,8 +44,15 @@ export function addMapLayers(
     type: "fill",
     source: "features",
     paint: {
-      "fill-color": layers.fill.color,
-      "fill-opacity": showShading ? layers.fill.opacity : 0,
+      /*
+       * Shading is controlled through the fill-color expression rather than
+       * fill-opacity. Keeping the layer opacity constant allows Shading to be
+       * turned back on after the map initially loads with it disabled.
+       */
+      "fill-color": showShading ? layers.fill.color : "rgba(0, 0, 0, 0)",
+
+      "fill-opacity": layers.fill.opacity,
+
       "fill-outline-color": "rgba(0, 0, 0, 0)",
     },
   });

@@ -32,10 +32,6 @@ const modes: {
     value: "hard",
     label: "Hard",
   },
-  {
-    value: "show-answers",
-    label: "Show Answers",
-  },
 ];
 
 type BooleanSettingKey =
@@ -81,9 +77,6 @@ function getModePosition(mode: QuizMode) {
 
     case "hard":
       return "translateX(100%)";
-
-    case "show-answers":
-      return "translateX(200%)";
   }
 }
 
@@ -117,10 +110,10 @@ export default function QuizSettingsPanel({
           Mode
         </div>
 
-        <div className="relative grid grid-cols-3 rounded-lg bg-gray-200 p-1">
+        <div className="relative grid grid-cols-2 rounded-lg bg-gray-200 p-1">
           {/* Sliding selected-mode background */}
           <div
-            className="absolute bottom-1 left-1 top-1 w-[calc((100%-0.5rem)/3)] rounded-md bg-white shadow-sm transition-transform duration-200 ease-out"
+            className="absolute bottom-1 left-1 top-1 w-[calc((100%-0.5rem)/2)] rounded-md bg-white shadow-sm transition-transform duration-200 ease-out"
             style={{
               transform: getModePosition(settings.mode),
             }}

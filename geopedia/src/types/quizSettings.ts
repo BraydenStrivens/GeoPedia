@@ -1,7 +1,7 @@
 /**
  * Determines how a quiz presents and handles its questions.
  */
-export type QuizMode = "normal" | "hard" | "show-answers";
+export type QuizMode = "normal" | "hard";
 
 /**
  * User-configurable settings for an individual quiz.

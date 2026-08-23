@@ -52,12 +52,7 @@ function HydratedQuizMapClient({
   const { settings, setSettings } = useQuizSettings(countryId, quiz.id);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
 
-  /*
-   * Show Answers mode is informational rather than interactive, so map
-   * features cannot submit quiz answers while that mode is active.
-   */
-  const clickBehavior: MapClickBehavior =
-    settings.mode === "show-answers" ? "none" : "quiz";
+  const clickBehavior: MapClickBehavior = "quiz";
 
   return (
     <div className="relative h-full w-full">

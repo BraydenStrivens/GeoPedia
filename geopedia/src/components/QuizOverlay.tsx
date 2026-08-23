@@ -28,9 +28,13 @@ type QuizOverlayProps = {
   isFinished: boolean;
   isMapReady: boolean;
 
+  isShowingAnswers: boolean;
+
+  onStart: () => void;
   onSkip: () => void;
   onRestart: () => void;
   onStop: () => void;
+  onToggleShowAnswers: () => void;
 };
 
 /**
@@ -98,13 +102,19 @@ function StopIcon() {
 export default function QuizOverlay({
   quizName,
   question,
+
   answeredCount,
   questionCount,
   correctCount,
   wrongCount,
+
   isActive,
   isFinished,
   isMapReady,
+  isShowingAnswers,
+
+  onToggleShowAnswers,
+  onStart,
   onSkip,
   onRestart,
   onStop,
@@ -112,7 +122,7 @@ export default function QuizOverlay({
   return (
     <div className="pointer-events-none absolute inset-x-0 top-3 z-10 flex flex-col items-center">
       {/* Main information box */}
-      <div className="pointer-events-auto rounded-xl bg-black/20 p-2 backdrop-blur-sm min-w-[220px]">
+      <div className="pointer-events-auto rounded-xl bg-black/20 p-2 backdrop-blur-sm min-w-[280px]">
         {/* Title */}
         <div className="rounded-lg bg-white/80 px-6 py-2 text-center backdrop-blur-md">
           <h1 className="text-xl font-bold leading-tight text-gray-900">
@@ -147,30 +157,27 @@ export default function QuizOverlay({
           </div>
         )}
 
-        {/* Initial 'Start' Button */}
-        {/* {!isActive && !isFinished && (
-          <div className="flex justify-center">
-            <button
-              type="button"
-              onClick={onRestart}
-              title="Start"
-              className="rounded-lg bg-white/80 px-5 py-1.5 text-center backdrop-blur-md text-xl font-bold leading-tight text-gray-900 hover:bg-white/60 hover:text-gray-600"
-            >
-              Start
-            </button>
-          </div>
-        )} */}
+        {/* Initial 'Start' Button and `Show/Hide Answers` Buttons*/}
         {!isActive && !isFinished && (
           <div className="flex justify-center">
             {isMapReady ? (
-              <button
-                type="button"
-                onClick={onRestart}
-                title="Start"
-                className="rounded-lg bg-white/80 px-5 py-1.5 text-center text-xl font-bold leading-tight text-gray-900 backdrop-blur-md hover:bg-white/60 hover:text-gray-600"
-              >
-                Start
-              </button>
+              <div className="flex gap-2">
+                <button
+                  type="button"
+                  onClick={onStart}
+                  className="text-lg font-bold leading-tight text-gray-900 rounded-lg bg-white/80 px-5 py-1.5 text-center backdrop-blur-md"
+                >
+                  Start
+                </button>
+
+                <button
+                  type="button"
+                  onClick={onToggleShowAnswers}
+                  className="text-lg font-bold leading-tight text-gray-900 rounded-lg bg-white/80 px-5 py-1.5 text-center backdrop-blur-md"
+                >
+                  {isShowingAnswers ? "Hide Answers" : "Show Answers"}
+                </button>
+              </div>
             ) : (
               <div
                 className="flex items-center justify-center rounded-lg bg-white/80 px-5 py-2 backdrop-blur-md"
@@ -190,7 +197,8 @@ export default function QuizOverlay({
             </div>
 
             <div className="text-xs text-gray-500">
-              {correctCount} correct out of {questionCount}
+              {correctCount} / {questionCount} in{" "}
+              {wrongCount + correctCount} tries
             </div>
           </div>
         )}

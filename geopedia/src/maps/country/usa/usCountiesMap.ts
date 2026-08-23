@@ -18,6 +18,11 @@ export const usCountiesMap: MapConfig = {
   },
 
   promoteId: "geoid",
+  answerLabels: {
+    densityThreshold: 500,
+    initialMaxLabels: 100,
+    labelsPerZoom: 250,
+  },
 
   initialView: {
     center: [-98.5, 39.8],
