@@ -447,7 +447,15 @@ export default function Map({
 
       clearAnswerLabels(labelMarkers);
     };
-  }, [isMapReady, isShowingAnswers, quiz, mapRef, hoveredFeatureIdRef]);
+  }, [
+    isMapReady,
+    isShowingAnswers,
+    quiz,
+    mapRef,
+    hoveredFeatureIdRef,
+    mapConfig.answerLabels,
+    mapConfig.initialView.zoom,
+  ]);
 
   /**
    * Synchronizes geographic hover state with Show Answers marker styling.
