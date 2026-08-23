@@ -1,6 +1,6 @@
 import Map from "@/components/Map";
 // import { usStatesMap } from "@/maps/usStates";
-import { worldMap } from "@/maps/worldMap";
+import { worldMap } from "@/maps/configs/worldMap";
 // import { usStatesQuiz } from "@/quizzes/usStates";
 
 export default function Home() {

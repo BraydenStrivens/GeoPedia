@@ -27,6 +27,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import IncorrectSelectionPopup from "@/components/IncorrectSelectionPopup";
 import MapHoverLabel from "@/components/MapHoverLabel";
 import QuizOverlay from "@/components/QuizOverlay";
+import { createFeatureColorExpression } from "@/maps/colors/createFeatureColorExpression";
 import { useLatestRef } from "@/maps/hooks/useLatestRef";
 import { useMap } from "@/maps/hooks/useMap";
 import type { AnswerLabelMarker } from "@/maps/mapAnswerLabels";
@@ -38,15 +39,14 @@ import {
 import {
   setBaseMapBordersVisible,
   setBaseMapLabelsVisible,
-} from "@/maps/mapStyleVisibility";
+} from "@/maps/style/mapStyleVisibility";
 import type {
   HoveredFeature,
   IncorrectSelection,
   MapClickBehavior,
   MapConfig,
 } from "@/maps/types";
-import { createFeatureColorExpression } from "@/maps/useMapColors";
-import { useQuiz } from "@/quiz/useQuiz";
+import { useQuiz } from "@/quiz/hooks/useQuiz";
 import type { Quiz } from "@/types/quiz";
 import type { QuizSettings } from "@/types/quizSettings";
 
@@ -136,9 +136,9 @@ export default function Map({
    * same feature, making the relationship clear when a label is positioned
    * away from the visual center of an irregular polygon.
    */
-  const [hoveredFeatureId, setHoveredFeatureId] = useState<string | null>(
-    null,
-  );
+  const [hoveredFeatureId, setHoveredFeatureId] = useState<
+    string | null
+  >(null);
 
   /**
    * Stores temporary feedback after the user clicks an incorrect feature.
@@ -348,7 +348,9 @@ export default function Map({
 
     const mode = quizSettings?.mode ?? "normal";
 
-    const visibleAnswerStatuses = isShowingAnswers ? {} : answerStatuses;
+    const visibleAnswerStatuses = isShowingAnswers
+      ? {}
+      : answerStatuses;
 
     const fillExpression = createFeatureColorExpression(
       visibleAnswerStatuses,
@@ -360,7 +362,11 @@ export default function Map({
       visibleAnswer,
     );
 
-    map.setPaintProperty("features-fill", "fill-color", fillExpression);
+    map.setPaintProperty(
+      "features-fill",
+      "fill-color",
+      fillExpression,
+    );
   }, [
     answerStatuses,
     answerProperty,
@@ -435,7 +441,10 @@ export default function Map({
        * created marker matching the currently hovered feature must receive its
        * hover styling again.
        */
-      setAnswerLabelHovered(labelMarkers, hoveredFeatureIdRef.current);
+      setAnswerLabelHovered(
+        labelMarkers,
+        hoveredFeatureIdRef.current,
+      );
     }
 
     updateLabels();
@@ -472,7 +481,10 @@ export default function Map({
       return;
     }
 
-    setAnswerLabelHovered(answerLabelMarkersRef.current, hoveredFeatureId);
+    setAnswerLabelHovered(
+      answerLabelMarkersRef.current,
+      hoveredFeatureId,
+    );
   }, [isShowingAnswers, hoveredFeatureId]);
 
   /**

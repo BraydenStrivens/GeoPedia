@@ -1,50 +1,65 @@
 /**
  * Defines the core data types used by GeoPedia's quiz system.
  *
- * These types describe the structure of quizzes and quiz questions.
- * They are shared across quiz definitions, quiz logic, map interactions,
- * and UI components to ensure that quiz data has a consistent structure
- * throughout the application.
+ * These types describe quiz definitions, questions, answers, and answer
+ * results. They are shared across quiz configuration, quiz logic, map
+ * interactions, and UI components to keep quiz data consistent throughout
+ * the application.
  */
 
+/**
+ * Represents the result of a completed quiz question.
+ *
+ * - `correct` indicates that the correct geographic feature was selected.
+ * - `wrong` indicates that an incorrect geographic feature was selected.
+ */
 export type AnswerStatus = "correct" | "wrong";
 
+/**
+ * Determines how many quiz answers can belong to the same geographic feature.
+ *
+ * - `single` indicates that each feature represents one answer.
+ * - `multiple` indicates that a feature can represent multiple answers.
+ */
 export type AnswerType = "single" | "multiple";
 
-/** * Represents a single question in a quiz.
- * The `answer` is the value that the user must identify on the map.
- * What property of the GeoJSON is used to find this answer is determined
- * by the quiz's `answerProperty`.
- * The `display` is the text to display to the user during the quiz.
- * If left undefined then the `answer` will be displayed.
+/**
+ * Represents a single question that can be asked during a quiz.
+ *
+ * The answer corresponds to a value stored in the GeoJSON property identified
+ * by the parent quiz's `answerProperty`.
  */
 export interface QuizQuestion {
+  /** Value that the user must identify on the map. */
   answer: string;
+
+  /** User-facing question text. Defaults to `answer` when omitted. */
   display?: string;
 }
 
-/** Defines the complete configuration and question set for a quiz.
- * A Quiz contains the information needed to identify the quiz, determine
- * which map it uses, determine which GeoJSON property contains the answers,
- * and provide the questions that the user will be asked.
+/**
+ * Defines the complete configuration and question set for a quiz.
+ *
+ * A quiz identifies the map it uses, the GeoJSON property containing its
+ * answers, how answers relate to geographic features, and every question
+ * available to the quiz.
  */
 export interface Quiz {
+  /** Unique identifier for the quiz. */
   id: string;
+
+  /** User-facing name of the quiz. */
   name: string;
 
   /** ID of the map configuration used by this quiz. */
   mapId: string;
 
-  /** Name of the GeoJSON property that contains the value used to answer
-   * this quiz. For example, a state-name quiz might use "name", while a state
-   * abbreviation quiz might use "abbreviation".
-   */
+  /** GeoJSON property containing the feature values used as quiz answers. */
   answerProperty: string;
 
-  /** The number of possible correct answers for the same geometry.
-   */
+  /** Determines whether a geographic feature can represent multiple answers. */
   answerType: AnswerType;
 
-  /** All questions that can be asked in the quiz. */
+  /** Complete set of questions available to the quiz. */
   questions: QuizQuestion[];
 }

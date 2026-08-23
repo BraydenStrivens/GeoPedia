@@ -1,21 +1,27 @@
 /**
- * Defines the configuration types used by GeoPedia's reusable map system.
+ * Defines the shared configuration and state types used by GeoPedia's
+ * reusable map system.
  *
- * These types describe how a map is displayed and behaves, including its
- * base style, geographic data, initial camera position, feature styling,
- * click behavior, feature-state identity, and optional hover behavior.
+ * These types describe:
  *
- * Individual map definitions use `MapConfig` so the shared Map component
- * can render maps for different countries and quizzes without containing
- * country-specific configuration.
+ * - Base-map styling
+ * - Initial camera position
+ * - Geographic feature styling
+ * - Feature identity
+ * - Click and hover behavior
+ * - Show Answers label density
+ * - Temporary map interaction state
+ *
+ * Country- and quiz-specific map definitions use `MapConfig`, allowing the
+ * shared map system to remain independent of individual countries and quizzes.
  */
 
 /**
- * Defines the base visual style used underneath a map's geographic
- * features.
+ * Defines the base visual style rendered underneath GeoPedia's geographic
+ * feature layers.
  *
- * MapTiler uses the configured MapTiler style, while the minimal style
- * renders only a solid background underneath GeoPedia's own layers.
+ * - `maptiler` uses GeoPedia's configured MapTiler style.
+ * - `minimal` renders only a solid background beneath GeoPedia's own layers.
  */
 export type MapStyle =
   | {
@@ -27,128 +33,160 @@ export type MapStyle =
     };
 
 /**
- * Defines what should happen when the user clicks a geographic feature.
+ * Determines what happens when the user clicks a geographic feature.
  *
- * `quiz` treats the clicked feature as a quiz answer.
- * `navigate` uses the clicked feature to navigate to another page.
+ * - `quiz` treats the feature as an attempted quiz answer.
+ * - `navigate` uses the feature to navigate elsewhere in GeoPedia.
+ * - `none` disables feature click behavior.
  */
 export type MapClickBehavior = "quiz" | "navigate" | "none";
 
 /**
- * Defines the behavior and appearance of feature hovering on a map.
+ * Defines the camera position used when a map is first displayed.
  */
-export type HoverConfig = {
-  enabled: boolean;
+export type MapInitialView = {
+  /** Initial longitude and latitude of the map center. */
+  center: [number, number];
+
+  /** Initial MapLibre zoom level. */
+  zoom: number;
+};
+
+/**
+ * Defines the appearance of GeoPedia's geographic fill layer.
+ */
+export type FeatureFillConfig = {
+  /** Default fill color of geographic features. */
   color: string;
 
-  /** GeoJSON property used as the feature's hover label. */
+  /** Opacity applied to the geographic fill layer. */
+  opacity: number;
+};
+
+/**
+ * Defines the appearance of GeoPedia's geographic border layer.
+ */
+export type FeatureBorderConfig = {
+  /** Color of feature boundary lines. */
+  color: string;
+
+  /** Width of feature boundary lines. */
+  width: number;
+};
+
+/**
+ * Defines the appearance of GeoPedia's geographic feature layers.
+ */
+export type MapLayerConfig = {
+  /** Configuration for the polygon fill layer. */
+  fill: FeatureFillConfig;
+
+  /** Configuration for the feature boundary layer. */
+  borders: FeatureBorderConfig;
+};
+
+/**
+ * Defines the behavior and appearance of geographic feature hovering.
+ */
+export type HoverConfig = {
+  /** Determines whether this map supports feature hovering. */
+  enabled: boolean;
+
+  /** Color used to visually distinguish a hovered feature. */
+  color: string;
+
+  /** GeoJSON property used by maps that display a floating hover label. */
   labelProperty: string;
 };
 
 /**
- * Represents the feature currently being displayed by the map's
- * floating hover label.
+ * Controls Show Answers label throttling for maps containing large numbers
+ * of geographic features.
+ *
+ * Maps without this configuration render all visible answer labels.
  */
-export type HoveredFeature = {
-  /** Text displayed in the hover label. */
-  name: string;
-
-  /** Horizontal cursor position within the map. */
-  x: number;
-
-  /** Vertical cursor position within the map. */
-  y: number;
-};
-
-/**
- * Describes temporary feedback shown after the user clicks an incorrect
- * geographic feature.
- */
-export type IncorrectSelection = {
-  label: string;
-  x: number;
-  y: number;
-};
-
 export type AnswerLabelConfig = {
-  /**
-   * Label throttling only begins when the number of visible geographic
-   * features exceeds this value.
-   */
+  /** Visible-feature count above which label throttling begins. */
   densityThreshold?: number;
 
-  /**
-   * Maximum number of labels rendered at the map's initial zoom level.
-   */
+  /** Maximum labels rendered at the map's initial zoom level. */
   initialMaxLabels?: number;
 
-  /**
-   * Number of additional labels allowed for every zoom level beyond the
-   * map's initial zoom.
-   */
+  /** Additional labels allowed for each zoom level above the initial zoom. */
   labelsPerZoom?: number;
 };
 
 /**
- * Defines the data, appearance, and interaction behavior of a GeoPedia map.
+ * Represents the feature currently displayed by a map's floating hover label.
+ */
+export type HoveredFeature = {
+  /** Text displayed in the floating hover label. */
+  name: string;
+
+  /** Horizontal cursor position relative to the map. */
+  x: number;
+
+  /** Vertical cursor position relative to the map. */
+  y: number;
+};
+
+/**
+ * Represents temporary feedback displayed after an incorrect map selection.
+ */
+export type IncorrectSelection = {
+  /** User-facing name of the incorrectly selected feature. */
+  label: string;
+
+  /** Horizontal cursor position at which the selection occurred. */
+  x: number;
+
+  /** Vertical cursor position at which the selection occurred. */
+  y: number;
+};
+
+/**
+ * Defines the data, appearance, initial camera state, and supported
+ * interactions of a GeoPedia map.
+ *
+ * Map configurations contain only map-specific information. Quiz-specific
+ * behavior, such as which GeoJSON property represents the correct answer,
+ * belongs to the corresponding `Quiz` definition instead.
  */
 export type MapConfig = {
   /** Unique identifier used to retrieve this map configuration. */
   id: string;
 
-  /** URL of the GeoJSON file containing the map's geographic features. */
+  /** URL of the GeoJSON file containing this map's geographic features. */
   geojsonUrl: string;
 
   /**
-   * Property used to identify geographic features within the map's data.
+   * GeoJSON property representing the map's primary geographic feature value.
    *
-   * Quiz answer matching is handled separately by the quiz's
+   * This describes the map data itself and is separate from a quiz's
    * `answerProperty`.
    */
   featureProperty: string;
 
-  /** Base visual style displayed underneath the geographic features. */
+  /** Base visual style rendered underneath GeoPedia's feature layers. */
   style: MapStyle;
 
   /**
-   * GeoJSON property that MapLibre promotes to `feature.id`.
+   * GeoJSON property promoted by MapLibre to `feature.id`.
    *
-   * This provides a stable feature identifier for MapLibre feature-state
-   * operations such as hover highlighting. The property must exist inside
-   * each GeoJSON feature's `properties` object.
+   * A stable feature ID is required for feature-state behavior such as hover
+   * highlighting and matching Show Answers labels to geographic features.
    */
   promoteId?: string;
 
+  /** Initial camera position displayed when the map opens. */
+  initialView: MapInitialView;
+
+  /** Appearance of GeoPedia's geographic feature layers. */
+  layers: MapLayerConfig;
+
+  /** Optional hover behavior supported by this map. */
+  hover?: HoverConfig;
+
+  /** Optional Show Answers label-density configuration for large maps. */
   answerLabels?: AnswerLabelConfig;
-
-  /** Camera position used when the map is first displayed. */
-  initialView: {
-    center: [number, number];
-    zoom: number;
-  };
-
-  /** Visual configuration for GeoPedia's geographic feature layers. */
-  layers: {
-    fill: {
-      color: string;
-      opacity: number;
-    };
-
-    borders: {
-      color: string;
-      width: number;
-    };
-  };
-
-  /**
-   * Optional behavior and appearance used when hovering over features.
-   *
-   * When enabled, the hovered feature can be highlighted and a selected
-   * GeoJSON property can be displayed to the user.
-   */
-  hover?: {
-    enabled: boolean;
-    color: string;
-    labelProperty: string;
-  };
 };

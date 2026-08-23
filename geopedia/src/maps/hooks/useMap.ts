@@ -25,13 +25,13 @@ import * as maplibregl from "maplibre-gl";
 import type React from "react";
 import { useEffect, useRef, useState } from "react";
 
-import { setupMapInteractions } from "@/maps/mapInteractions";
-import { addMapLayers } from "@/maps/mapLayers";
-import { createMapStyle } from "@/maps/mapStyle";
+import { setupMapInteractions } from "@/maps/interactions/setupMapInteractions";
+import { addMapLayers } from "@/maps/layers/mapLayers";
+import { createMapStyle } from "@/maps/style/mapStyle";
 import {
   setBaseMapBordersVisible,
   setBaseMapLabelsVisible,
-} from "@/maps/mapStyleVisibility";
+} from "@/maps/style/mapStyleVisibility";
 import type {
   HoveredFeature,
   IncorrectSelection,
@@ -128,7 +128,9 @@ type UseMapParams = {
    * Updates temporary incorrect-selection feedback after a user clicks the
    * wrong geographic feature.
    */
-  setIncorrectSelection: (selection: IncorrectSelection | null) => void;
+  setIncorrectSelection: (
+    selection: IncorrectSelection | null,
+  ) => void;
 
   /**
    * Determines whether incorrect selections should display their temporary
@@ -273,7 +275,7 @@ export function useMap({
         geojsonUrl,
         promoteId,
         layers,
-        hover,
+        // hover,
 
         showShading: showShadingRef.current,
 
@@ -327,7 +329,9 @@ export function useMap({
        * style.load only guarantees that the base style exists; the
        * asynchronous GeoJSON source may still be loading afterward.
        */
-      const handleSourceData = (event: maplibregl.MapSourceDataEvent) => {
+      const handleSourceData = (
+        event: maplibregl.MapSourceDataEvent,
+      ) => {
         if (event.sourceId === "features" && event.isSourceLoaded) {
           setIsMapReady(true);
 

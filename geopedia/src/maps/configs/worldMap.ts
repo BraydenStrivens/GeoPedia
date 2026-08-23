@@ -10,7 +10,7 @@
  * than running a quiz.
  */
 
-import type { MapConfig } from "./types";
+import type { MapConfig } from "../types";
 
 /**
  * Map configuration for the world country map.

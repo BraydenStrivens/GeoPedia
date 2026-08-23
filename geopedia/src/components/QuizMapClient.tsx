@@ -11,7 +11,7 @@ import { useState, useSyncExternalStore } from "react";
 
 import Map from "@/components/Map";
 import type { MapClickBehavior, MapConfig } from "@/maps/types";
-import { useQuizSettings } from "@/quiz/useQuizSettings";
+import { useQuizSettings } from "@/quiz/hooks/useQuizSettings";
 import type { Quiz } from "@/types/quiz";
 
 import QuizSettingsPanel from "./QuizSettingsPanel";
@@ -49,7 +49,10 @@ function HydratedQuizMapClient({
   quiz,
   mapConfig,
 }: QuizMapClientProps) {
-  const { settings, setSettings } = useQuizSettings(countryId, quiz.id);
+  const { settings, setSettings } = useQuizSettings(
+    countryId,
+    quiz.id,
+  );
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
 
   const clickBehavior: MapClickBehavior = "quiz";
