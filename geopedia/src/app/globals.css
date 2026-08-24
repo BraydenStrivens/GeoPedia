@@ -45,3 +45,16 @@ body,
 .maplibregl-canvas {
   cursor: default !important;
 }
+
+/**
+ * Hides the native scrollbar while preserving mouse-wheel, trackpad,
+ * keyboard, and touch scrolling inside floating panels.
+ */
+.panel-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.panel-scrollbar::-webkit-scrollbar {
+  display: none;
+}

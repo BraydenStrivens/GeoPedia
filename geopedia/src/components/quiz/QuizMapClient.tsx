@@ -1,16 +1,19 @@
 /**
- * Connects a quiz page to GeoPedia's reusable map and quiz-settings system.
+ * Connects a quiz page to GeoPedia's reusable map, quiz settings, and quiz
+ * grouping systems.
  *
  * This component:
  *
  * - Delays rendering until the client has hydrated.
  * - Loads and persists settings for the current quiz.
+ * - Loads GeoJSON used by the quiz-grouping system.
+ * - Owns the currently active quiz group.
+ * - Loads and persists user-created saved groups.
  * - Renders the map with quiz interaction enabled.
- * - Owns the open/closed state of the quiz settings panel.
- * - Displays the settings control above the map.
+ * - Owns the open/closed state of the Settings and Groups panels.
  *
  * The hydration boundary prevents the map from briefly rendering with default
- * quiz settings before the user's saved localStorage settings are available.
+ * quiz settings before the user's saved localStorage values are available.
  */
 
 "use client";
@@ -18,12 +21,16 @@
 import { useState, useSyncExternalStore } from "react";
 
 import Map from "@/components/map/Map";
+import QuizGroupsPanel from "@/components/quiz/groupings/QuizGroupsPanel";
 import QuizSettingsPanel from "@/components/quiz/QuizSettingsPanel";
 import type { MapConfig } from "@/maps/types";
-import { getGroupingOptions } from "@/quiz/groupings/getGroupingOptions";
-import { resolveQuizGroup } from "@/quiz/groupings/resolveQuizGroup";
+import type {
+  ActiveQuizGroup,
+  SavedQuizGroup,
+} from "@/quiz/groupings/types";
 import { useActiveQuizGroup } from "@/quiz/groupings/useActiveQuizGroup";
 import { useQuizGroupingData } from "@/quiz/groupings/useQuizGroupingData";
+import { useSavedQuizGroups } from "@/quiz/groupings/useSavedQuizGroups";
 import { useQuizSettings } from "@/quiz/hooks/useQuizSettings";
 import type { Quiz } from "@/types/quiz";
 
@@ -31,7 +38,7 @@ import type { Quiz } from "@/types/quiz";
  * Props required to render a client-side quiz map.
  */
 type QuizMapClientProps = {
-  /** Country containing the quiz. Used to identify its saved settings. */
+  /** Country containing the quiz. Used to identify persisted user data. */
   countryId: string;
 
   /** Quiz displayed and controlled by the map. */
@@ -42,13 +49,13 @@ type QuizMapClientProps = {
 };
 
 /**
- * Props required by the quiz settings button.
+ * Props shared by the Settings and Groups panel toggle buttons.
  */
-type QuizSettingsButtonProps = {
-  /** Whether the quiz settings panel is currently open. */
+type QuizButtonProps = {
+  /** Whether the button's associated panel is currently open. */
   isOpen: boolean;
 
-  /** Opens or closes the quiz settings panel. */
+  /** Opens or closes the associated panel. */
   onClick: () => void;
 };
 
@@ -66,17 +73,32 @@ function subscribeToHydration(): () => void {
 }
 
 /**
- * Button used to open and close the quiz settings panel.
+ * Returns the shared Tailwind styling used by the Settings and Groups buttons.
+ *
+ * @param isOpen - Whether the button's associated panel is currently open.
+ * @returns Tailwind className string for the button.
+ */
+function generateButtonStyle(isOpen: boolean): string {
+  return [
+    "flex h-10 p-3 items-center justify-center rounded-lg",
+    "border border-white shadow-sm backdrop-blur-md",
+    "text-gray-900 transition-all duration-200",
+
+    isOpen
+      ? "bg-white hover:bg-white/50"
+      : "bg-white/30 hover:bg-white/70",
+  ].join(" ");
+}
+
+/**
+ * Button used to open and close the quiz Settings panel.
  *
  * @param props - Settings button properties.
- * @param props.isOpen - Whether the settings panel is currently open.
- * @param props.onClick - Callback that toggles the settings panel.
- * @returns The quiz settings button.
+ * @param props.isOpen - Whether the Settings panel is currently open.
+ * @param props.onClick - Callback that toggles the Settings panel.
+ * @returns The quiz Settings button.
  */
-function QuizSettingsButton({
-  isOpen,
-  onClick,
-}: QuizSettingsButtonProps) {
+function QuizSettingsButton({ isOpen, onClick }: QuizButtonProps) {
   return (
     <button
       type="button"
@@ -84,15 +106,7 @@ function QuizSettingsButton({
       title="Quiz settings"
       aria-label="Quiz settings"
       aria-expanded={isOpen}
-      className={[
-        "flex h-10 w-10 items-center justify-center rounded-lg",
-        "border border-white shadow-sm backdrop-blur-md",
-        "text-gray-900 transition-all duration-200",
-
-        isOpen
-          ? "bg-white hover:bg-white/50"
-          : "bg-white/30 hover:bg-white/70",
-      ].join(" ")}
+      className={generateButtonStyle(isOpen)}
     >
       {/* Settings gear icon */}
       <svg
@@ -120,12 +134,34 @@ function QuizSettingsButton({
 }
 
 /**
+ * Button used to open and close the quiz Groups panel.
+ *
+ * @param props - Groups button properties.
+ * @param props.isOpen - Whether the Groups panel is currently open.
+ * @param props.onClick - Callback that toggles the Groups panel.
+ * @returns The quiz Groups button.
+ */
+function QuizGroupsButton({ isOpen, onClick }: QuizButtonProps) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      title="Quiz groups"
+      aria-label="Quiz groups"
+      aria-expanded={isOpen}
+      className={generateButtonStyle(isOpen)}
+    >
+      Groups
+    </button>
+  );
+}
+
+/**
  * Prevents the quiz map from rendering until React has hydrated on the client.
  *
- * Quiz settings are stored in localStorage, which is unavailable during
- * server rendering. Waiting for hydration ensures the map is first created
- * using the user's saved settings rather than briefly displaying the default
- * settings and then changing immediately afterward.
+ * Quiz settings and saved groups are stored in localStorage, which is
+ * unavailable during server rendering. Waiting for hydration ensures the map
+ * is first created using the user's persisted state.
  *
  * @param props - Quiz map properties forwarded to the hydrated component.
  * @returns An empty map-sized placeholder before hydration, or the hydrated
@@ -135,10 +171,10 @@ export default function QuizMapClient(props: QuizMapClientProps) {
   const isHydrated = useSyncExternalStore(
     subscribeToHydration,
 
-    // The component is hydrated whenever this snapshot runs in the browser.
+    // Browser snapshot.
     () => true,
 
-    // Server rendering must treat the component as not yet hydrated.
+    // Server snapshot.
     () => false,
   );
 
@@ -152,24 +188,24 @@ export default function QuizMapClient(props: QuizMapClientProps) {
 /**
  * Renders the interactive quiz map after client hydration has completed.
  *
- * This component owns the persisted settings for the current quiz and the
- * temporary UI state controlling whether the settings panel is open.
- *
- * Separating this component from `QuizMapClient` ensures `useQuizSettings`
- * does not run until the client-side hydration boundary has been crossed.
+ * This component owns persisted quiz settings, grouping data, saved groups,
+ * the currently active group, and the temporary visibility state of the
+ * Settings and Groups panels.
  *
  * @param props - Quiz map configuration.
- * @param props.countryId - Country used to identify the quiz's saved settings.
- * @param props.quiz - Quiz connected to the map.
+ * @param props.countryId - Country used to identify persisted quiz data.
+ * @param props.quiz - Complete quiz definition.
  * @param props.mapConfig - Geographic configuration rendered by the map.
- * @returns The hydrated quiz map and its settings controls.
+ * @returns The hydrated quiz map and its floating controls.
  */
 function HydratedQuizMapClient({
   countryId,
   quiz,
   mapConfig,
 }: QuizMapClientProps) {
-  /** Persisted settings belonging specifically to this country and quiz. */
+  /**
+   * Persisted settings belonging specifically to this country and quiz.
+   */
   const { settings, setSettings } = useQuizSettings(
     countryId,
     quiz.id,
@@ -183,6 +219,15 @@ function HydratedQuizMapClient({
   );
 
   /**
+   * ID of the saved group currently applied to the quiz.
+   *
+   * `null` means Full Quiz or an unsaved temporary group is active.
+   */
+  const [activeSavedGroupId, setActiveSavedGroupId] = useState<
+    string | null
+  >(null);
+
+  /**
    * Owns the group currently applied to the quiz and derives its geographic
    * feature and question subsets.
    */
@@ -191,7 +236,7 @@ function HydratedQuizMapClient({
     resolvedGroup,
     activeQuiz,
     applyGroup,
-    // useFullQuiz,
+    resetToFullQuiz,
   } = useActiveQuizGroup({
     quiz,
     mapConfig,
@@ -199,57 +244,99 @@ function HydratedQuizMapClient({
   });
 
   /**
+   * Loads and persists user-created groups belonging to this quiz.
+   *
+   * Update and delete will be wired into the Groups panel when edit mode is
+   * implemented.
+   */
+  const { savedGroups, saveGroup, updateGroup, deleteGroup } =
+    useSavedQuizGroups(countryId, quiz.id);
+
+  /**
    * Feature IDs rendered by the map for the active group.
    *
-   * Full Quiz uses null so MapLibre removes all grouping filters.
+   * Full Quiz uses `null` so MapLibre removes all grouping filters.
    */
   const activeFeatureIds =
     activeGroup.type === "full"
       ? null
       : Array.from(resolvedGroup?.featureIds ?? []);
 
-  /** -----------------------------------------------------------------------------------------------------
-   * Temporary development check for the property-grouping engine.
-   *
-   * This can be removed once the Groups UI consumes the grouping data.
+  /**
+   * Controls whether the floating quiz Settings panel is currently visible.
    */
-  if (featureCollection && quiz.grouping?.properties.length) {
-    const groupingProperty = quiz.grouping.properties[0];
-
-    const groupingOptions = getGroupingOptions(
-      featureCollection,
-      groupingProperty,
-    );
-
-    const testGroup = {
-      type: "property" as const,
-      property: groupingProperty.property,
-      values: ["MN"],
-    };
-
-    const resolvedGroup = resolveQuizGroup(
-      featureCollection,
-      quiz,
-      mapConfig,
-      testGroup,
-    );
-
-    console.log("Resolved feature IDs:", resolvedGroup.featureIds);
-
-    console.log("Resolved answers:", resolvedGroup.answers);
-
-    console.log("Grouping options:", groupingOptions);
-  }
-  /** ----------------------------------------------------------------------------------------------------- */
-
-  /** Controls whether the floating quiz settings panel is currently visible. */
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
 
   /**
-   * Opens the settings panel when closed and closes it when open.
+   * Controls whether the floating quiz Groups panel is currently visible.
+   */
+  const [isGroupsOpen, setIsGroupsOpen] = useState(false);
+
+  /**
+   * Opens or closes the Settings panel.
    */
   function toggleSettingsPanel(): void {
     setIsSettingsOpen((wasOpen) => !wasOpen);
+  }
+
+  /**
+   * Opens or closes the Groups panel.
+   */
+  function toggleGroupsPanel(): void {
+    setIsGroupsOpen((wasOpen) => !wasOpen);
+  }
+
+  /**
+   * Applies an unsaved group and clears any previously active saved group.
+   *
+   * @param group - Unsaved group that should become active.
+   */
+  function applyUnsavedGroup(group: ActiveQuizGroup): void {
+    setActiveSavedGroupId(null);
+
+    applyGroup(group);
+  }
+
+  /**
+   * Applies a saved group without clearing its saved-group identity.
+   *
+   * This is used when creating, loading, or later updating a persisted group.
+   *
+   * @param group - Saved group source that should become active.
+   */
+  function applySavedGroup(group: ActiveQuizGroup): void {
+    applyGroup(group);
+  }
+
+  /**
+   * Restores the complete quiz and clears any active saved-group selection.
+   */
+  function handleUseFullQuiz(): void {
+    setActiveSavedGroupId(null);
+
+    resetToFullQuiz();
+  }
+
+  /**
+   * Toggles a saved group between active and inactive.
+   *
+   * Selecting an inactive saved group applies its stored source. Selecting the
+   * currently active saved group returns to Full Quiz.
+   *
+   * @param savedGroup - Saved group selected by the user.
+   */
+  function toggleSavedGroup(savedGroup: SavedQuizGroup): void {
+    if (activeSavedGroupId === savedGroup.id) {
+      setActiveSavedGroupId(null);
+
+      resetToFullQuiz();
+
+      return;
+    }
+
+    setActiveSavedGroupId(savedGroup.id);
+
+    applyGroup(savedGroup.source);
   }
 
   return (
@@ -263,23 +350,57 @@ function HydratedQuizMapClient({
         activeFeatureIds={activeFeatureIds}
       />
 
-      {/* Quiz settings controls */}
-      <div className="absolute right-3 top-3 z-30 flex flex-col items-end">
-        {/* Settings panel toggle */}
-        <QuizSettingsButton
-          isOpen={isSettingsOpen}
-          onClick={toggleSettingsPanel}
-        />
+      {/* Quiz Settings and Groups controls */}
+      <div className="absolute right-3 top-3 z-30 flex max-w-[calc(100vw-1.5rem)] flex-col items-end gap-5">
+        {/* Panel toggle buttons */}
+        <div className="relative z-30 flex max-w-full flex-row items-start gap-5">
+          {/* Settings panel toggle */}
+          <QuizSettingsButton
+            isOpen={isSettingsOpen}
+            onClick={toggleSettingsPanel}
+          />
 
-        {/* Quiz settings panel */}
-        {isSettingsOpen && (
-          <div className="mt-2">
-            <QuizSettingsPanel
-              settings={settings}
-              onChange={setSettings}
-            />
-          </div>
-        )}
+          {/* Groups panel toggle */}
+          <QuizGroupsButton
+            isOpen={isGroupsOpen}
+            onClick={toggleGroupsPanel}
+          />
+        </div>
+
+        {/* Floating panels */}
+        <div className="relative z-30 flex flex-row items-start gap-5">
+          {/* Quiz Settings panel */}
+          {isSettingsOpen && (
+            <div className="mt-2">
+              <QuizSettingsPanel
+                settings={settings}
+                onChange={setSettings}
+              />
+            </div>
+          )}
+
+          {/* Quiz Groups panel */}
+          {isGroupsOpen && (
+            <div className="mt-2">
+              <QuizGroupsPanel
+                quiz={quiz}
+                featureCollection={featureCollection}
+                activeGroup={activeGroup}
+                activeSavedGroupId={activeSavedGroupId}
+                savedGroups={savedGroups}
+                onApplyGroup={applyUnsavedGroup}
+                onApplySavedGroup={applySavedGroup}
+                onUseFullQuiz={handleUseFullQuiz}
+                onToggleSavedGroup={toggleSavedGroup}
+                onSaveGroup={saveGroup}
+                onUpdateGroup={updateGroup}
+                onDeleteGroup={deleteGroup}
+                onSetActiveSavedGroup={setActiveSavedGroupId}
+                isDisabled={false}
+              />
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

@@ -58,7 +58,7 @@ type UseActiveQuizGroupResult = {
   applyGroup: (group: ActiveQuizGroup) => void;
 
   /** Restores the complete unfiltered quiz. */
-  useFullQuiz: () => void;
+  resetToFullQuiz: () => void;
 };
 
 /**
@@ -141,7 +141,7 @@ export function useActiveQuizGroup({
   /**
    * Restores the complete quiz.
    */
-  function useFullQuiz(): void {
+  function resetToFullQuiz(): void {
     setActiveGroup(FULL_QUIZ_GROUP);
   }
 
@@ -150,6 +150,6 @@ export function useActiveQuizGroup({
     resolvedGroup,
     activeQuiz,
     applyGroup,
-    useFullQuiz,
+    resetToFullQuiz,
   };
 }

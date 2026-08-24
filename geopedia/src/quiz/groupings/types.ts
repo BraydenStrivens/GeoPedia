@@ -54,6 +54,9 @@ export type SavedQuizGroup = {
   /** User-facing name assigned to the group. */
   name: string;
 
+  /** Optional description of the group */
+  description?: string;
+
   /** Selection definition used to resolve the group's features and answers. */
   source: QuizGroupSource;
 };
