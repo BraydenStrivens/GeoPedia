@@ -6,6 +6,7 @@
  * times as each associated area code appears during the quiz.
  */
 
+import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usStates";
 import type { Quiz } from "@/types/quiz";
 
 /**
@@ -17,6 +18,17 @@ export const usAreaCodesQuiz: Quiz = {
   mapId: "us-area-codes",
   answerProperty: "area_codes",
   answerType: "multiple",
+
+  grouping: {
+    properties: [
+      {
+        property: "states",
+        label: "State",
+        valueType: "string-array",
+        valueLabels: US_SUBDIVISION_NAMES_BY_ABBREVIATION,
+      },
+    ],
+  },
 
   questions: [
     { answer: "201" },

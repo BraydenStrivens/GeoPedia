@@ -7,6 +7,8 @@
  * the application.
  */
 
+import { QuizGroupingConfig } from "@/quiz/groupings/types";
+
 /**
  * Represents the result of a completed quiz question.
  *
@@ -59,6 +61,9 @@ export interface Quiz {
 
   /** Determines whether a geographic feature can represent multiple answers. */
   answerType: AnswerType;
+
+  /** Optional configuration describing property-based grouping capabilities. */
+  grouping?: QuizGroupingConfig;
 
   /** Complete set of questions available to the quiz. */
   questions: QuizQuestion[];

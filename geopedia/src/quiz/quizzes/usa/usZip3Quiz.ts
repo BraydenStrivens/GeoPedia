@@ -7,6 +7,7 @@
  * than a complete ZIP code.
  */
 
+import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usStates";
 import type { Quiz } from "@/types/quiz";
 
 /**
@@ -18,6 +19,17 @@ export const usZip3Quiz: Quiz = {
   mapId: "us-zip-3",
   answerProperty: "zip",
   answerType: "single",
+
+  grouping: {
+    properties: [
+      {
+        property: "states",
+        label: "State",
+        valueType: "string-array",
+        valueLabels: US_SUBDIVISION_NAMES_BY_ABBREVIATION,
+      },
+    ],
+  },
 
   questions: [
     { answer: "006", display: "006--" },

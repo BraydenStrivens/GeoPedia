@@ -32,6 +32,7 @@ import { useIncorrectSelection } from "@/maps/hooks/useIncorrectSelection";
 import { useLatestRef } from "@/maps/hooks/useLatestRef";
 import { useMap } from "@/maps/hooks/useMap";
 import { useMapDisplaySettings } from "@/maps/hooks/useMapDisplaySettings";
+import { useMapFeatureFilter } from "@/maps/hooks/useMapFeatureFilter";
 import { useQuizFeatureColors } from "@/maps/hooks/useQuizFeatureColors";
 import type {
   HoveredFeature,
@@ -53,6 +54,13 @@ type MapProps = {
 
   /** Optional quiz connected to the map. */
   quiz?: Quiz;
+
+  /**
+   * Feature IDs belonging to the currently active quiz group.
+   *
+   * `null` represents the complete unfiltered map.
+   */
+  activeFeatureIds?: string[] | null;
 
   /** Optional persisted settings belonging to the quiz. */
   quizSettings?: QuizSettings;
@@ -87,6 +95,7 @@ export default function Map({
   quiz,
   quizSettings,
   clickBehavior,
+  activeFeatureIds = null,
 }: MapProps) {
   const router = useRouter();
 
@@ -273,6 +282,17 @@ export default function Map({
     isMapReady,
     showLabels: shouldShowLabels,
     showBorders: shouldShowBorders,
+  });
+
+  /**
+   * Restricts the visible and interactive geographic features to the active
+   * quiz group.
+   */
+  useMapFeatureFilter({
+    mapRef,
+    isMapReady,
+    promoteId: mapConfig.promoteId,
+    featureIds: activeFeatureIds,
   });
 
   /**

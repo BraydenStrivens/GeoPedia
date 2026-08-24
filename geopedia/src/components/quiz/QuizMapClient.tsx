@@ -20,6 +20,10 @@ import { useState, useSyncExternalStore } from "react";
 import Map from "@/components/map/Map";
 import QuizSettingsPanel from "@/components/quiz/QuizSettingsPanel";
 import type { MapConfig } from "@/maps/types";
+import { getGroupingOptions } from "@/quiz/groupings/getGroupingOptions";
+import { resolveQuizGroup } from "@/quiz/groupings/resolveQuizGroup";
+import { useActiveQuizGroup } from "@/quiz/groupings/useActiveQuizGroup";
+import { useQuizGroupingData } from "@/quiz/groupings/useQuizGroupingData";
 import { useQuizSettings } from "@/quiz/hooks/useQuizSettings";
 import type { Quiz } from "@/types/quiz";
 
@@ -171,6 +175,73 @@ function HydratedQuizMapClient({
     quiz.id,
   );
 
+  /**
+   * Loads the quiz's GeoJSON for React-side grouping logic.
+   */
+  const { featureCollection } = useQuizGroupingData(
+    mapConfig.geojsonUrl,
+  );
+
+  /**
+   * Owns the group currently applied to the quiz and derives its geographic
+   * feature and question subsets.
+   */
+  const {
+    activeGroup,
+    resolvedGroup,
+    activeQuiz,
+    applyGroup,
+    // useFullQuiz,
+  } = useActiveQuizGroup({
+    quiz,
+    mapConfig,
+    featureCollection,
+  });
+
+  /**
+   * Feature IDs rendered by the map for the active group.
+   *
+   * Full Quiz uses null so MapLibre removes all grouping filters.
+   */
+  const activeFeatureIds =
+    activeGroup.type === "full"
+      ? null
+      : Array.from(resolvedGroup?.featureIds ?? []);
+
+  /** -----------------------------------------------------------------------------------------------------
+   * Temporary development check for the property-grouping engine.
+   *
+   * This can be removed once the Groups UI consumes the grouping data.
+   */
+  if (featureCollection && quiz.grouping?.properties.length) {
+    const groupingProperty = quiz.grouping.properties[0];
+
+    const groupingOptions = getGroupingOptions(
+      featureCollection,
+      groupingProperty,
+    );
+
+    const testGroup = {
+      type: "property" as const,
+      property: groupingProperty.property,
+      values: ["MN"],
+    };
+
+    const resolvedGroup = resolveQuizGroup(
+      featureCollection,
+      quiz,
+      mapConfig,
+      testGroup,
+    );
+
+    console.log("Resolved feature IDs:", resolvedGroup.featureIds);
+
+    console.log("Resolved answers:", resolvedGroup.answers);
+
+    console.log("Grouping options:", groupingOptions);
+  }
+  /** ----------------------------------------------------------------------------------------------------- */
+
   /** Controls whether the floating quiz settings panel is currently visible. */
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
 
@@ -186,9 +257,10 @@ function HydratedQuizMapClient({
       {/* Interactive quiz map */}
       <Map
         mapConfig={mapConfig}
-        quiz={quiz}
+        quiz={activeQuiz}
         quizSettings={settings}
         clickBehavior="quiz"
+        activeFeatureIds={activeFeatureIds}
       />
 
       {/* Quiz settings controls */}

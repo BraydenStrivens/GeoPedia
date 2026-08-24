@@ -19,6 +19,16 @@ export const usStateAbbreviationsQuiz: Quiz = {
   answerProperty: "abbreviation",
   answerType: "single",
 
+  grouping: {
+    properties: [
+      {
+        property: "region",
+        label: "Region",
+        valueType: "string",
+      },
+    ],
+  },
+
   questions: [
     { answer: "AL" },
     { answer: "AK" },

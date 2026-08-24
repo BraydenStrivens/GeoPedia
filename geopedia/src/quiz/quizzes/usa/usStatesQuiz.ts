@@ -18,6 +18,16 @@ export const usStatesQuiz: Quiz = {
   answerProperty: "name",
   answerType: "single",
 
+  grouping: {
+    properties: [
+      {
+        property: "region",
+        label: "Region",
+        valueType: "string",
+      },
+    ],
+  },
+
   questions: [
     { answer: "Alabama" },
     { answer: "Alaska" },
