@@ -7,7 +7,7 @@
  * - Current score and progress.
  * - The active question.
  * - Start and Show Answers controls.
- * - Skip, stop, and restart controls.
+ * - Skip, Stop, and Restart controls.
  * - Quiz completion results.
  *
  * QuizOverlay does not own quiz state. The parent component provides the
@@ -16,7 +16,13 @@
 
 "use client";
 
-import type { ReactNode } from "react";
+import QuizActionButton from "@/components/quiz/overlay/QuizActionButton";
+import QuizControlButton from "@/components/quiz/overlay/QuizControlButton";
+import {
+  RestartIcon,
+  SkipIcon,
+  StopIcon,
+} from "@/components/quiz/overlay/QuizControlIcons";
 
 /**
  * Values and callbacks required to display and control the quiz overlay.
@@ -49,8 +55,17 @@ type QuizOverlayProps = {
   /** Whether the map is ready to begin accepting quiz interaction. */
   isMapReady: boolean;
 
-  /** Whether the inactive quiz is currently displaying Show Answers labels. */
+  /** Whether the inactive quiz is currently displaying answer labels. */
   isShowingAnswers: boolean;
+
+  /**
+   * Whether actions available before a quiz begins are temporarily disabled.
+   *
+   * Manual feature selection currently disables both Start and the normal
+   * Show Answers control because that workflow provides its own answer-label
+   * control and should not allow a quiz attempt to begin.
+   */
+  areInactiveActionsDisabled: boolean;
 
   /** Starts a new quiz attempt. */
   onStart: () => void;
@@ -67,202 +82,6 @@ type QuizOverlayProps = {
   /** Toggles Show Answers while the quiz is inactive. */
   onToggleShowAnswers: () => void;
 };
-
-/**
- * Props shared by the large text buttons displayed while the quiz is inactive.
- */
-type QuizActionButtonProps = {
-  /** Button text displayed to the user. */
-  children: ReactNode;
-
-  /** Function called when the button is selected. */
-  onClick: () => void;
-};
-
-/**
- * Props shared by compact icon-based quiz controls.
- */
-type QuizControlButtonProps = {
-  /** Accessible tooltip describing the control. */
-  title: string;
-
-  /** Icon displayed inside the button. */
-  children: ReactNode;
-
-  /** Function called when the control is selected. */
-  onClick: () => void;
-};
-
-/**
- * Shared appearance of the large action buttons shown before a quiz begins.
- *
- * Keeping this style in one place makes future changes to the Start and
- * Show Answers controls apply consistently.
- */
-const QUIZ_ACTION_BUTTON_CLASSES = [
-  "rounded-lg",
-  "bg-white/80",
-  "px-5",
-  "py-1.5",
-  "text-center",
-  "text-lg",
-  "font-bold",
-  "leading-tight",
-  "text-gray-900",
-  "backdrop-blur-md",
-  "transition",
-  "hover:bg-gray-300",
-].join(" ");
-
-/**
- * Shared appearance of the compact icon controls displayed beneath the quiz.
- *
- * Skip, Stop, and Restart intentionally use the same control style.
- */
-const QUIZ_CONTROL_BUTTON_CLASSES = [
-  "pointer-events-auto",
-  "flex",
-  "h-6",
-  "w-6",
-  "items-center",
-  "justify-center",
-  "rounded-md",
-  "bg-white/80",
-  "text-gray-600",
-  "shadow-sm",
-  "backdrop-blur-sm",
-  "transition",
-  "hover:bg-gray-300",
-  "hover:text-black",
-  "active:scale-90",
-].join(" ");
-
-/**
- * Large text button used for actions available while the quiz is inactive.
- *
- * @param props - Action button properties.
- * @param props.children - Text displayed inside the button.
- * @param props.onClick - Callback invoked when the button is selected.
- * @returns A consistently styled quiz action button.
- */
-function QuizActionButton({
-  children,
-  onClick,
-}: QuizActionButtonProps) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      className={QUIZ_ACTION_BUTTON_CLASSES}
-    >
-      {children}
-    </button>
-  );
-}
-
-/**
- * Compact icon button used for active quiz controls.
- *
- * @param props - Control button properties.
- * @param props.title - Accessible description and browser tooltip.
- * @param props.children - Icon displayed inside the button.
- * @param props.onClick - Callback invoked when the button is selected.
- * @returns A consistently styled quiz control button.
- */
-function QuizControlButton({
-  title,
-  children,
-  onClick,
-}: QuizControlButtonProps) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      title={title}
-      className={QUIZ_CONTROL_BUTTON_CLASSES}
-    >
-      {children}
-    </button>
-  );
-}
-
-/**
- * Icon displayed by the Skip control.
- *
- * @returns Skip icon SVG.
- */
-function SkipIcon() {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      className="h-4 w-4"
-      aria-hidden="true"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M5 4l10 8-10 8V4z"
-      />
-
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M19 4v16"
-      />
-    </svg>
-  );
-}
-
-/**
- * Icon displayed by the Restart control.
- *
- * @returns Restart icon SVG.
- */
-function RestartIcon() {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      className="h-4 w-4"
-      aria-hidden="true"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M20 11a8.1 8.1 0 00-15.5-2M4 5v4h4"
-      />
-
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M4 13a8.1 8.1 0 0015.5 2M20 19v-4h-4"
-      />
-    </svg>
-  );
-}
-
-/**
- * Icon displayed by the Stop control.
- *
- * @returns Stop icon SVG.
- */
-function StopIcon() {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className="h-4 w-4"
-      aria-hidden="true"
-    >
-      <rect x="6" y="6" width="12" height="12" rx="1" />
-    </svg>
-  );
-}
 
 /**
  * Displays the current quiz status and the controls available for the current
@@ -284,6 +103,7 @@ export default function QuizOverlay({
   isFinished,
   isMapReady,
   isShowingAnswers,
+  areInactiveActionsDisabled,
 
   onStart,
   onSkip,
@@ -339,12 +159,28 @@ export default function QuizOverlay({
             {isMapReady ? (
               <div className="flex gap-2">
                 {/* Start quiz */}
-                <QuizActionButton onClick={onStart}>
+                <QuizActionButton
+                  isDisabled={areInactiveActionsDisabled}
+                  title={
+                    areInactiveActionsDisabled
+                      ? "Finish or cancel manual selection before starting the quiz."
+                      : undefined
+                  }
+                  onClick={onStart}
+                >
                   Start
                 </QuizActionButton>
 
                 {/* Show or hide answer labels */}
-                <QuizActionButton onClick={onToggleShowAnswers}>
+                <QuizActionButton
+                  isDisabled={areInactiveActionsDisabled}
+                  title={
+                    areInactiveActionsDisabled
+                      ? "Use the Manual Selection Show Answers control while selecting features."
+                      : undefined
+                  }
+                  onClick={onToggleShowAnswers}
+                >
                   {isShowingAnswers ? "Hide Answers" : "Show Answers"}
                 </QuizActionButton>
               </div>

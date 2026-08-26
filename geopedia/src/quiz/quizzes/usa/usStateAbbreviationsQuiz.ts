@@ -1,10 +1,11 @@
 /**
  * Defines the United States state abbreviations quiz.
  *
- * This quiz uses the shared US states map and asks the user to identify
- * states by their two-letter postal abbreviations. The `answerProperty`
- * connects each quiz answer to the corresponding `abbreviation` property
- * in the US states GeoJSON data.
+ * This quiz uses the shared US states map and asks the user to identify states
+ * by their two-letter postal abbreviations. Each quiz answer corresponds to the
+ * `abbreviation` property in the US states GeoJSON dataset.
+ *
+ * The quiz also supports property-based grouping by US region.
  */
 
 import type { Quiz } from "@/types/quiz";
@@ -19,6 +20,9 @@ export const usStateAbbreviationsQuiz: Quiz = {
   answerProperty: "abbreviation",
   answerType: "single",
 
+  /**
+   * Allows users to create groups containing one or more US regions.
+   */
   grouping: {
     properties: [
       {

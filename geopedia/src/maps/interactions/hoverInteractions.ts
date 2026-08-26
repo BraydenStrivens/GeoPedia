@@ -1,10 +1,22 @@
 /**
  * Registers and manages geographic feature hover behavior.
  *
- * Hover interactions control MapLibre feature-state highlighting, navigation
- * hover labels, completed-feature restrictions in Normal Mode, and the
- * hovered feature ID used by Show Answers labels.
+ * Hover interactions control:
+ *
+ * - MapLibre feature-state highlighting.
+ * - Navigation-map hover labels.
+ * - Completed-feature restrictions in Normal Mode.
+ * - The hovered feature ID used by Show Answers labels.
+ *
+ * Runtime values are read through refs so hover behavior can change without
+ * reinstalling the MapLibre event handlers.
  */
+
+import {
+  FEATURE_FILL_LAYER_ID,
+  FEATURE_SOURCE_ID,
+} from "@/maps/constants/mapLayerIds";
+
 import {
   getFeatureAnswers,
   isFeatureFullyAnswered,
@@ -31,7 +43,7 @@ function clearFeatureHover(
   if (hoverState.featureId !== null) {
     map.setFeatureState(
       {
-        source: "features",
+        source: FEATURE_SOURCE_ID,
         id: hoverState.featureId,
       },
       {
@@ -43,12 +55,12 @@ function clearFeatureHover(
   }
 
   setHoveredFeatureId(null);
-
   setHoveredFeature(null);
 }
 
 /**
- * Registers mousemove and mouseleave behavior for GeoPedia's feature layer.
+ * Registers mousemove and mouseleave behavior for GeoPedia's primary
+ * geographic feature layer.
  *
  * @param context - Shared map interaction dependencies.
  * @param hoverState - Mutable hover state shared with click interactions.
@@ -73,7 +85,7 @@ export function registerHoverInteractions(
     return;
   }
 
-  map.on("mousemove", "features-fill", (event) => {
+  map.on("mousemove", FEATURE_FILL_LAYER_ID, (event) => {
     /*
      * Runtime settings may disable hover after these event handlers were
      * installed. Clear any existing hover immediately when that happens.
@@ -93,24 +105,30 @@ export function registerHoverInteractions(
     const featureId = feature.id;
 
     /*
-     * GeoPedia's interactive maps require promoted string IDs for
-     * feature-state and Show Answers label matching.
+     * Hover requires a stable MapLibre feature ID so feature-state can be
+     * applied safely.
      */
-    if (typeof featureId !== "string") {
+    if (featureId === undefined || featureId === null) {
       return;
     }
 
     /*
+     * GeoPedia normalizes stable feature identity to strings for React-side
+     * state and Show Answers label matching.
+     */
+    const normalizedFeatureId = String(featureId);
+
+    /*
      * Remove hover from the previously highlighted feature before moving
-     * the hover state to another feature.
+     * hover state to another feature.
      */
     if (
       hoverState.featureId !== null &&
-      hoverState.featureId !== featureId
+      hoverState.featureId !== normalizedFeatureId
     ) {
       map.setFeatureState(
         {
-          source: "features",
+          source: FEATURE_SOURCE_ID,
           id: hoverState.featureId,
         },
         {
@@ -123,10 +141,13 @@ export function registerHoverInteractions(
 
     /**
      * In Normal Mode, completed quiz features stop hovering so the user can
-     * visually distinguish only selectable features.
+     * visually distinguish only selectable geography.
      *
-     * Hard Mode keeps all features hoverable to prevent answer elimination.
-     * Show Answers uses click behavior "none", so it also bypasses this rule.
+     * Hard Mode keeps all features hoverable to avoid revealing information
+     * through answer elimination.
+     *
+     * Show Answers uses click behavior "none", so it bypasses this completed-
+     * feature restriction and keeps hover available for answer labels.
      */
     if (clickBehavior === "quiz" && quizRef.current) {
       const featureValue =
@@ -149,13 +170,17 @@ export function registerHoverInteractions(
       }
     }
 
-    hoverState.featureId = featureId;
+    hoverState.featureId = normalizedFeatureId;
 
-    setHoveredFeatureId(featureId);
+    setHoveredFeatureId(normalizedFeatureId);
 
+    /*
+     * MapLibre receives the original string-or-number feature ID, while React
+     * stores the normalized string representation.
+     */
     map.setFeatureState(
       {
-        source: "features",
+        source: FEATURE_SOURCE_ID,
         id: featureId,
       },
       {
@@ -164,8 +189,8 @@ export function registerHoverInteractions(
     );
 
     /*
-     * Navigation maps additionally display a floating name beside the
-     * pointer. Quiz maps and Show Answers use hover without this label.
+     * Navigation maps additionally display a floating geographic name beside
+     * the pointer. Quiz maps and Show Answers use hover without this label.
      */
     if (clickBehavior !== "navigate") {
       return;
@@ -184,7 +209,7 @@ export function registerHoverInteractions(
     });
   });
 
-  map.on("mouseleave", "features-fill", () => {
+  map.on("mouseleave", FEATURE_FILL_LAYER_ID, () => {
     clearFeatureHover(context, hoverState);
   });
 }

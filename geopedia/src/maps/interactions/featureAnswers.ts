@@ -1,32 +1,46 @@
 /**
- * Provides shared utilities for reading and evaluating quiz answers stored
- * on geographic features.
+ * Provides shared utilities for reading and evaluating quiz answers stored on
+ * geographic map features.
  *
- * These helpers normalize single- and multi-answer feature data, generate
- * user-facing labels, and determine whether geographic features have been
- * fully completed during a quiz.
+ * These helpers:
+ *
+ * - Normalize single- and multi-answer feature data.
+ * - Resolve user-facing feature labels.
+ * - Determine whether a geographic feature has been fully completed.
+ * - Predict whether the current correct answer would complete a feature.
  */
 
 import type { AnswerStatus, Quiz } from "@/types/quiz";
 
 /**
- * Normalizes a geographic feature's quiz value into an array of answers.
+ * Determines whether an unknown geographic feature value is an array
+ * containing only strings.
  *
- * Single-answer values become a one-item array, while multi-answer values
- * are returned unchanged.
+ * @param value - Unknown feature property value.
+ * @returns Whether the value is a string array.
+ */
+function isStringArray(value: unknown): value is string[] {
+  return (
+    Array.isArray(value) &&
+    value.every((item) => typeof item === "string")
+  );
+}
+
+/**
+ * Normalizes a geographic feature's quiz-answer value into an array.
+ *
+ * Single-answer strings become one-item arrays. Multi-answer string arrays are
+ * returned unchanged. Missing or malformed values return an empty array.
  *
  * @param featureValue - Raw value read from the quiz's GeoJSON answer property.
- * @returns Normalized array of answer strings.
+ * @returns Normalized quiz answers represented by the feature.
  */
 export function getFeatureAnswers(featureValue: unknown): string[] {
   if (typeof featureValue === "string") {
     return [featureValue];
   }
 
-  if (
-    Array.isArray(featureValue) &&
-    featureValue.every((value) => typeof value === "string")
-  ) {
+  if (isStringArray(featureValue)) {
     return featureValue;
   }
 
@@ -34,14 +48,14 @@ export function getFeatureAnswers(featureValue: unknown): string[] {
 }
 
 /**
- * Creates the user-facing answer label for a geographic feature.
+ * Creates the user-facing quiz-answer label for a geographic feature.
  *
  * Quiz question display values are preferred when available. Multi-answer
- * features combine their values using ` / `.
+ * features join their represented answers using ` / `.
  *
  * @param featureAnswers - Answers represented by the geographic feature.
- * @param quiz - Quiz definition used to resolve display values.
- * @returns User-facing feature label.
+ * @param quiz - Quiz used to resolve optional display values.
+ * @returns User-facing label for the selected feature.
  */
 export function getFeatureDisplayLabel(
   featureAnswers: string[],
@@ -63,10 +77,11 @@ export function getFeatureDisplayLabel(
 }
 
 /**
- * Determines whether every quiz answer belonging to a feature has already
+ * Determines whether every quiz answer represented by a feature has already
  * been completed.
  *
- * Both correct and wrong results count as completed answers.
+ * Both correct and incorrect results count as completed answers because either
+ * result means that question has already been processed by the quiz engine.
  *
  * @param featureAnswers - Answers represented by the geographic feature.
  * @param answerStatuses - Completed quiz results keyed by answer value.
@@ -87,10 +102,10 @@ export function isFeatureFullyAnswered(
 
 /**
  * Determines whether correctly answering the current question would complete
- * every answer belonging to a geographic feature.
+ * every quiz answer represented by a geographic feature.
  *
- * This calculation is performed before React updates answerStatuses, so the
- * current answer is treated as completed explicitly.
+ * This check occurs before React updates `answerStatuses`, so the current
+ * answer is treated as completed explicitly.
  *
  * @param featureAnswers - Answers represented by the geographic feature.
  * @param currentAnswer - Answer belonging to the current quiz question.

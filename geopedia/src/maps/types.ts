@@ -1,16 +1,16 @@
 /**
- * Defines the shared configuration and state types used by GeoPedia's
- * reusable map system.
+ * Defines the shared configuration and state types used by GeoPedia's reusable
+ * map system.
  *
  * These types describe:
  *
- * - Base-map styling
- * - Initial camera position
- * - Geographic feature styling
- * - Feature identity
- * - Click and hover behavior
- * - Show Answers label density
- * - Temporary map interaction state
+ * - Base-map styling.
+ * - Initial camera position.
+ * - Geographic feature styling.
+ * - Stable feature identity.
+ * - Click and hover behavior.
+ * - Show Answers label density.
+ * - Temporary map interaction state.
  *
  * Country- and quiz-specific map definitions use `MapConfig`, allowing the
  * shared map system to remain independent of individual countries and quizzes.
@@ -35,11 +35,13 @@ export type MapStyle =
 /**
  * Determines what happens when the user clicks a geographic feature.
  *
- * - `quiz` treats the feature as an attempted quiz answer.
+ * - `quiz` treats the selected feature as an attempted quiz answer.
  * - `navigate` uses the feature to navigate elsewhere in GeoPedia.
- * - `none` disables feature click behavior.
+ * - `select` toggles the feature in a manual quiz-group selection.
+ * - `none` disables geographic feature click behavior.
  */
-export type MapClickBehavior = "quiz" | "navigate" | "none";
+export type MapClickBehavior =
+  "quiz" | "navigate" | "select" | "none";
 
 /**
  * Defines the camera position used when a map is first displayed.
@@ -67,10 +69,10 @@ export type FeatureFillConfig = {
  * Defines the appearance of GeoPedia's geographic border layer.
  */
 export type FeatureBorderConfig = {
-  /** Color of feature boundary lines. */
+  /** Color of geographic feature boundary lines. */
   color: string;
 
-  /** Width of feature boundary lines. */
+  /** Width of geographic feature boundary lines. */
   width: number;
 };
 
@@ -78,10 +80,10 @@ export type FeatureBorderConfig = {
  * Defines the appearance of GeoPedia's geographic feature layers.
  */
 export type MapLayerConfig = {
-  /** Configuration for the polygon fill layer. */
+  /** Configuration for the main geographic polygon fill layer. */
   fill: FeatureFillConfig;
 
-  /** Configuration for the feature boundary layer. */
+  /** Configuration for the explicit geographic boundary layer. */
   borders: FeatureBorderConfig;
 };
 
@@ -89,7 +91,7 @@ export type MapLayerConfig = {
  * Defines the behavior and appearance of geographic feature hovering.
  */
 export type HoverConfig = {
-  /** Determines whether this map supports feature hovering. */
+  /** Determines whether this map supports geographic feature hovering. */
   enabled: boolean;
 
   /** Color used to visually distinguish a hovered feature. */
@@ -100,10 +102,10 @@ export type HoverConfig = {
 };
 
 /**
- * Controls Show Answers label throttling for maps containing large numbers
- * of geographic features.
+ * Controls Show Answers label throttling for maps containing large numbers of
+ * geographic features.
  *
- * Maps without this configuration render all visible answer labels.
+ * Maps without this configuration render all eligible answer labels.
  */
 export type AnswerLabelConfig = {
   /** Visible-feature count above which label throttling begins. */
@@ -134,7 +136,7 @@ export type HoveredFeature = {
  * Represents temporary feedback displayed after an incorrect map selection.
  */
 export type IncorrectSelection = {
-  /** User-facing name of the incorrectly selected feature. */
+  /** User-facing label of the incorrectly selected geographic feature. */
   label: string;
 
   /** Horizontal cursor position at which the selection occurred. */
@@ -162,19 +164,24 @@ export type MapConfig = {
   /**
    * GeoJSON property representing the map's primary geographic feature value.
    *
-   * This describes the map data itself and is separate from a quiz's
+   * This describes the map data itself and remains separate from a quiz's
    * `answerProperty`.
    */
   featureProperty: string;
 
-  /** Base visual style rendered underneath GeoPedia's feature layers. */
+  /** Base visual style rendered underneath GeoPedia's geographic layers. */
   style: MapStyle;
 
   /**
    * GeoJSON property promoted by MapLibre to `feature.id`.
    *
-   * A stable feature ID is required for feature-state behavior such as hover
-   * highlighting and matching Show Answers labels to geographic features.
+   * Stable feature identity is used by:
+   *
+   * - Hover feature-state.
+   * - Show Answers label matching.
+   * - Quiz-group resolution.
+   * - Manual feature selection.
+   * - Active-group map filtering.
    */
   promoteId?: string;
 

@@ -2,11 +2,15 @@
  * Defines the United States telephone area-code quiz.
  *
  * Each area code is presented as an independent quiz question. Geographic
- * regions containing overlay codes can therefore be answered multiple
- * times as each associated area code appears during the quiz.
+ * regions containing overlay codes may therefore be answered multiple times as
+ * each associated area code appears during the quiz.
+ *
+ * The quiz also supports property-based grouping by state. Because one
+ * area-code region may overlap multiple states, the GeoJSON stores `states` as
+ * a string array.
  */
 
-import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usStates";
+import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usSubdivisions";
 import type { Quiz } from "@/types/quiz";
 
 /**
@@ -19,6 +23,15 @@ export const usAreaCodesQuiz: Quiz = {
   answerProperty: "area_codes",
   answerType: "multiple",
 
+  /**
+   * Allows users to create groups containing one or more US subdivisions.
+   *
+   * Each geographic feature may overlap multiple states, so the configured
+   * grouping property uses the `string-array` value type.
+   *
+   * Raw subdivision abbreviations remain unchanged for matching and
+   * persistence, while the Groups UI displays full subdivision names.
+   */
   grouping: {
     properties: [
       {

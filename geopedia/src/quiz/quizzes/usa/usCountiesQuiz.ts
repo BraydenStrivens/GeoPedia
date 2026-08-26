@@ -2,13 +2,20 @@
  * Defines the United States counties quiz.
  *
  * Census GEOIDs are used as answer values so counties with duplicate names
- * remain uniquely identifiable. The visible question includes the county
- * and state name for nationwide play.
+ * remain uniquely identifiable. Each visible question includes the county and
+ * state name for nationwide play.
+ *
+ * The quiz also supports property-based grouping by state. Raw state
+ * abbreviations from the GeoJSON are mapped to full subdivision names for
+ * display in the Groups panel.
  */
 
-import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usStates";
+import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usSubdivisions";
 import type { Quiz } from "@/types/quiz";
 
+/**
+ * Quiz definition for identifying US counties nationwide.
+ */
 export const usCountiesQuiz: Quiz = {
   id: "us-counties",
   name: "US Counties",
@@ -16,6 +23,12 @@ export const usCountiesQuiz: Quiz = {
   answerProperty: "geoid",
   answerType: "single",
 
+  /**
+   * Allows users to create groups containing one or more US subdivisions.
+   *
+   * Raw GeoJSON abbreviations remain unchanged for matching and persistence,
+   * while the Groups UI displays full subdivision names.
+   */
   grouping: {
     properties: [
       {

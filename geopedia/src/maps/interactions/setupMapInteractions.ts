@@ -1,9 +1,11 @@
 /**
- * Registers all MapLibre feature interactions used by GeoPedia maps.
+ * Registers GeoPedia's MapLibre geographic interaction handlers.
  *
- * Hover and click behavior are implemented in separate modules. This file
- * coordinates those systems and provides the small shared mutable hover state
- * they both require.
+ * Click and hover behavior are implemented in separate modules. This file
+ * coordinates those systems and owns the small mutable hover state they share.
+ *
+ * The shared hover state remains outside React because it represents temporary
+ * MapLibre interaction state rather than UI state that needs to trigger renders.
  */
 
 import { registerClickInteractions } from "./clickInteractions";
@@ -17,16 +19,18 @@ import type {
  * Registers hover and click interactions for GeoPedia's geographic feature
  * layer.
  *
- * @param context - MapLibre instance, React refs, and callbacks required by
+ * @param context - MapLibre instance, runtime refs, and callbacks required by
  * the interaction system.
  */
 export function setupMapInteractions(
   context: MapInteractionContext,
 ): void {
   /**
-   * Shared local hover state lets the click handler immediately clear the
-   * feature that was being hovered without putting this purely MapLibre state
-   * into React.
+   * Mutable hover identity shared by hover and click handlers.
+   *
+   * The click handler uses this state to immediately clear hover when a quiz
+   * answer completes a feature, without routing purely MapLibre state through
+   * React.
    */
   const hoverState: FeatureHoverState = {
     featureId: null,

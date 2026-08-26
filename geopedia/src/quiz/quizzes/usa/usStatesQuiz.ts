@@ -1,9 +1,11 @@
 /**
  * Defines the United States states quiz.
  *
- * This quiz uses the shared US states map and asks the user to identify
- * states by name. The `answerProperty` connects each quiz answer to the
- * corresponding `name` property in the US states GeoJSON data.
+ * This quiz uses the shared US states map and asks the user to identify states
+ * by name. Each quiz answer corresponds to the `name` property in the US
+ * states GeoJSON dataset.
+ *
+ * The quiz also supports property-based grouping by US region.
  */
 
 import type { Quiz } from "@/types/quiz";
@@ -18,6 +20,9 @@ export const usStatesQuiz: Quiz = {
   answerProperty: "name",
   answerType: "single",
 
+  /**
+   * Allows users to create groups containing one or more US regions.
+   */
   grouping: {
     properties: [
       {

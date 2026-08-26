@@ -1,40 +1,49 @@
 /**
- * Displays the controls used to choose which geographic features and
- * questions belong to the current quiz.
+ * Coordinates GeoPedia's quiz-group selection interface.
  *
- * The Groups panel supports:
+ * The panel connects:
  *
- * - Returning to the complete Full Quiz.
- * - Creating temporary groups from configured GeoJSON property values.
- * - Saving property groups with a name and optional description.
- * - Loading and unloading previously saved groups.
+ * - Full Quiz.
+ * - Saved groups.
+ * - Property-based group creation and editing.
+ * - Manual feature-selection group creation and editing.
  *
- * Manual map selection and saved-group editing will be added as separate
- * grouping workflows.
+ * Property-specific and manual-specific editor state is delegated to focused
+ * hooks. This component retains only state and transitions shared between
+ * multiple grouping workflows.
  */
 
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 
-import { getGroupingOptions } from "@/quiz/groupings/getGroupingOptions";
+import { useManualGroupEditor } from "@/quiz/groupings/hooks/useManualGroupEditor";
+import { usePropertyGroupEditor } from "@/quiz/groupings/hooks/usePropertyGroupEditor";
+import type { QuizGroupingFeatureCollection } from "@/quiz/groupings/hooks/useQuizGroupingData";
 import type {
   ActiveQuizGroup,
-  QuizGroupingProperty,
   QuizGroupSource,
   SavedQuizGroup,
 } from "@/quiz/groupings/types";
-import type { QuizGroupingFeatureCollection } from "@/quiz/groupings/useQuizGroupingData";
 import type { Quiz } from "@/types/quiz";
+
+import FullQuizSection from "./sections/FullQuizSection";
+import ManualSelectionSection from "./sections/manual/ManualSelectionSection";
+import PropertyGroupsSection from "./sections/property/PropertyGroupsSection";
+import SavedGroupsSection from "./sections/SavedGroupsSection";
+import GroupMetadataFields from "./shared/GroupMetadataFields";
 
 /**
  * Props required by the quiz Groups panel.
  */
 type QuizGroupsPanelProps = {
-  /** Complete quiz definition containing grouping configuration. */
+  /** Complete quiz definition containing optional grouping configuration. */
   quiz: Quiz;
 
-  /** Loaded GeoJSON used to discover available grouping values. */
+  /** GeoJSON property containing each feature's stable map ID. */
+  promoteId?: string;
+
+  /** Loaded GeoJSON used by property and manual grouping workflows. */
   featureCollection: QuizGroupingFeatureCollection | null;
 
   /** Group currently applied to the quiz. */
@@ -46,14 +55,50 @@ type QuizGroupsPanelProps = {
   /** ID of the saved group currently applied to the quiz. */
   activeSavedGroupId: string | null;
 
-  /**
-   * Applies an unsaved group to the quiz.
-   *
-   * Applying through this callback clears any active saved-group identity.
-   */
+  /** Whether manual map-selection mode is active. */
+  isManualSelecting: boolean;
+
+  /** Feature IDs currently selected by manual grouping. */
+  manualSelectedFeatureIds: ReadonlySet<string>;
+
+  /** Whether answer labels are visible during manual selection. */
+  showManualSelectionAnswers: boolean;
+
+  /** Applies an unsaved group to the quiz. */
   onApplyGroup: (group: ActiveQuizGroup) => void;
 
-  /** Updates an existing saved group's metadata and selection. */
+  /** Applies a saved group without clearing its saved-group identity. */
+  onApplySavedGroup: (group: ActiveQuizGroup) => void;
+
+  /** Begins a new manual feature-selection workflow. */
+  onBeginManualSelection: () => void;
+
+  /** Begins editing a saved manual group using its existing feature IDs. */
+  onBeginEditingManualGroup: (featureIds: Iterable<string>) => void;
+
+  /** Removes one manually selected feature. */
+  onRemoveManualFeature: (featureId: string) => void;
+
+  /** Clears every manually selected feature. */
+  onClearManualSelection: () => void;
+
+  /** Selects every supplied manual feature. */
+  onSelectAllManualFeatures: (featureIds: Iterable<string>) => void;
+
+  /** Cancels manual selection and clears its temporary state. */
+  onCancelManualSelection: () => void;
+
+  /** Toggles answer labels during manual feature selection. */
+  onToggleManualSelectionAnswers: () => void;
+
+  /** Creates and persists a new saved group. */
+  onSaveGroup: (
+    name: string,
+    description: string | undefined,
+    source: QuizGroupSource,
+  ) => SavedQuizGroup;
+
+  /** Updates an existing saved group. */
   onUpdateGroup: (
     groupId: string,
     name: string,
@@ -64,20 +109,7 @@ type QuizGroupsPanelProps = {
   /** Permanently removes a saved group. */
   onDeleteGroup: (groupId: string) => void;
 
-  /**
-   * Applies the source of a saved group without clearing its saved-group
-   * identity.
-   */
-  onApplySavedGroup: (group: ActiveQuizGroup) => void;
-
-  /** Creates and persists a new saved group. */
-  onSaveGroup: (
-    name: string,
-    description: string | undefined,
-    source: QuizGroupSource,
-  ) => SavedQuizGroup;
-
-  /** Marks a saved group as the currently active saved group. */
+  /** Marks a saved group as active. */
   onSetActiveSavedGroup: (groupId: string | null) => void;
 
   /** Restores the complete unfiltered quiz. */
@@ -86,304 +118,211 @@ type QuizGroupsPanelProps = {
   /** Loads or unloads a saved group. */
   onToggleSavedGroup: (group: SavedQuizGroup) => void;
 
-  /** Whether grouping changes are currently allowed. */
+  /** Whether grouping interactions are currently disabled. */
   isDisabled: boolean;
 };
 
 /**
- * Returns the property values that should initially appear selected in the
- * panel based on the currently active quiz group.
+ * Displays the Groups sidebar and coordinates transitions between grouping
+ * workflows.
  *
- * Only property-based groups populate the checkbox selection. Full Quiz and
- * manually selected groups begin with no property values selected.
- *
- * @param activeGroup - Group currently applied to the quiz.
- * @param groupingProperty - Property currently shown by the panel.
- * @returns Raw GeoJSON values that should appear checked.
- */
-function getInitialSelectedValues(
-  activeGroup: ActiveQuizGroup,
-  groupingProperty: QuizGroupingProperty | null,
-): Set<string> {
-  if (
-    activeGroup.type !== "property" ||
-    !groupingProperty ||
-    activeGroup.property !== groupingProperty.property
-  ) {
-    return new Set();
-  }
-
-  return new Set(activeGroup.values);
-}
-
-/**
- * Displays the Groups sidebar for a quiz.
- *
- * @param props - Grouping configuration, current state, and group callbacks.
- * @returns Controls for Full Quiz, saved groups, and property-based groups.
+ * @param props - Quiz data, current group state, manual-selection state, and
+ * persistence callbacks.
+ * @returns The complete Groups panel.
  */
 export default function QuizGroupsPanel({
   quiz,
+  promoteId,
   featureCollection,
 
   activeGroup,
   activeSavedGroupId,
   savedGroups,
 
+  isManualSelecting,
+  manualSelectedFeatureIds,
+  showManualSelectionAnswers,
+
   onApplyGroup,
   onApplySavedGroup,
-  onUseFullQuiz,
-  onToggleSavedGroup,
+  onBeginManualSelection,
+  onBeginEditingManualGroup,
+  onRemoveManualFeature,
+  onClearManualSelection,
+  onSelectAllManualFeatures,
+  onCancelManualSelection,
+  onToggleManualSelectionAnswers,
+
   onSaveGroup,
   onUpdateGroup,
   onDeleteGroup,
   onSetActiveSavedGroup,
+  onUseFullQuiz,
+  onToggleSavedGroup,
 
   isDisabled,
 }: QuizGroupsPanelProps) {
   /**
-   * Property currently being used to construct a temporary group.
+   * Scrollable Groups panel element.
    *
-   * The first supported grouping property is selected by default.
+   * Used to keep newly revealed forms and editing controls visible without
+   * requiring the user to manually scroll after expanding the panel.
    */
-  const [selectedGroupingProperty, setSelectedGroupingProperty] =
-    useState<QuizGroupingProperty | null>(
-      quiz.grouping?.properties[0] ?? null,
-    );
+  const panelScrollRef = useRef<HTMLDivElement>(null);
 
   /**
-   * Raw GeoJSON grouping values currently selected by the user.
+   * Smoothly scrolls the Groups panel to its newly expanded bottom content.
    *
-   * The initial values reflect the active property group so closing and
-   * reopening the panel restores its current checkbox selection.
+   * requestAnimationFrame waits until React has committed the state change that
+   * revealed the additional UI before measuring the panel's new scroll height.
    */
-  const [selectedValues, setSelectedValues] = useState<Set<string>>(
-    () =>
-      getInitialSelectedValues(activeGroup, selectedGroupingProperty),
-  );
+  function scrollPanelToBottom(): void {
+    requestAnimationFrame(() => {
+      const panel = panelScrollRef.current;
 
-  /** Whether the Property Groups section is currently creating a saved group. */
-  const [isSavingGroup, setIsSavingGroup] = useState(false);
+      if (!panel) {
+        return;
+      }
 
-  /** User-entered name for the saved group currently being created. */
-  const [saveGroupName, setSaveGroupName] = useState("");
+      panel.scrollTo({
+        top: panel.scrollHeight,
+        behavior: "smooth",
+      });
+    });
+  }
 
-  /**
-   * Optional user-entered description for the saved group currently being
-   * created.
-   */
-  const [saveGroupDescription, setSaveGroupDescription] =
-    useState("");
-
-  /**
-   * ID of the saved group currently being edited.
-   *
-   * `null` means the panel is not in saved-group edit mode.
-   */
+  /** ID of the saved group currently being edited. */
   const [editingGroupId, setEditingGroupId] = useState<string | null>(
     null,
   );
 
-  /** Draft name belonging to the saved group currently being edited. */
+  /** Name draft belonging to the saved group currently being edited. */
   const [editGroupName, setEditGroupName] = useState("");
 
-  /** Draft description belonging to the saved group currently being edited. */
+  /** Description draft belonging to the saved group currently being edited. */
   const [editGroupDescription, setEditGroupDescription] =
     useState("");
 
-  /** Saved group currently being edited, or undefined when edit mode is inactive. */
+  /** ID of the saved group whose optional description is expanded. */
+  const [expandedDescriptionGroupId, setExpandedDescriptionGroupId] =
+    useState<string | null>(null);
+
+  /** Saved group currently being edited. */
   const editingGroup = useMemo(
     () => savedGroups.find((group) => group.id === editingGroupId),
     [savedGroups, editingGroupId],
   );
 
-  const isEditingGroup = editingGroup !== undefined;
+  /** Whether the current edit target is property-based. */
+  const isEditingPropertyGroup =
+    editingGroup?.source.type === "property";
+
+  /** Whether the current edit target is manually feature-selected. */
+  const isEditingManualGroup =
+    editingGroup?.source.type === "features";
 
   /**
-   * Whether the current edit draft differs from the saved group's persisted
-   * name, description, grouping property, or selected property values.
+   * Property-group creation, selection, validation, and updating.
    */
-  const hasEditChanges = useMemo(() => {
-    if (
-      !editingGroup ||
-      editingGroup.source.type !== "property" ||
-      !selectedGroupingProperty
-    ) {
-      return false;
-    }
-
-    const savedDescription = editingGroup.description ?? "";
-
-    const nameChanged = editGroupName.trim() !== editingGroup.name;
-
-    const descriptionChanged =
-      editGroupDescription.trim() !== savedDescription;
-
-    const propertyChanged =
-      selectedGroupingProperty.property !==
-      editingGroup.source.property;
-
-    const selectedValuesChanged =
-      editingGroup.source.values.length !== selectedValues.size ||
-      !editingGroup.source.values.every((value) =>
-        selectedValues.has(value),
-      );
-
-    return (
-      nameChanged ||
-      descriptionChanged ||
-      propertyChanged ||
-      selectedValuesChanged
-    );
-  }, [
+  const propertyEditor = usePropertyGroupEditor({
+    quiz,
+    featureCollection,
+    activeGroup,
+    activeSavedGroupId,
     editingGroup,
     editGroupName,
     editGroupDescription,
-    selectedGroupingProperty,
-    selectedValues,
-  ]);
+    isDisabled,
+
+    onApplyGroup,
+    onApplySavedGroup,
+    onSaveGroup,
+    onUpdateGroup,
+    onSetActiveSavedGroup,
+    onUseFullQuiz,
+  });
 
   /**
-   * Whether the current saved-group edit draft can be persisted.
-   *
-   * Update requires a valid name, at least one selected property value, and at
-   * least one difference from the currently persisted saved group.
+   * Manual-group derived data, validation, creation, and updating.
    */
-  const canUpdateGroup =
-    !isDisabled &&
-    isEditingGroup &&
-    editGroupName.trim().length > 0 &&
-    selectedValues.size > 0 &&
-    hasEditChanges;
+  const manualEditor = useManualGroupEditor({
+    quiz,
+    promoteId,
+    featureCollection,
+
+    selectedFeatureIds: manualSelectedFeatureIds,
+
+    editingGroup,
+    editGroupName,
+    editGroupDescription,
+    isDisabled,
+
+    onSaveGroup,
+    onUpdateGroup,
+    onApplySavedGroup,
+    onSetActiveSavedGroup,
+    onCancelManualSelection,
+  });
 
   /**
-   * Available checkbox options discovered from the actual GeoJSON dataset.
-   *
-   * Display mappings affect labels only. Option values remain the raw values
-   * stored by the GeoJSON.
+   * Clears the metadata belonging to the current saved-group edit session.
    */
-  const groupingOptions = useMemo(() => {
-    if (!featureCollection || !selectedGroupingProperty) {
-      return [];
-    }
-
-    return getGroupingOptions(
-      featureCollection,
-      selectedGroupingProperty,
-    );
-  }, [featureCollection, selectedGroupingProperty]);
-
-  /**
-   * Whether the current property selection can be saved as a new group.
-   *
-   * A new group can only be created when at least two property values are
-   * selected and the current selection does not already represent an active
-   * saved group.
-   */
-  const canBeginSavingGroup =
-    !isDisabled &&
-    selectedValues.size > 1 &&
-    activeSavedGroupId === null;
-
-  /**
-   * Whether the currently entered saved-group metadata is valid.
-   */
-  const canSaveGroup =
-    canBeginSavingGroup && saveGroupName.trim().length > 0;
-
-  /**
-   * ID of the saved group whose optional description is currently expanded.
-   *
-   * `null` means no saved-group description is visible.
-   */
-  const [openDescriptionGroupId, setOpenDescriptionGroupId] =
-    useState<string | null>(null);
-
-  /**
-   * Adds or removes one grouping value and immediately previews the resulting
-   * group on the map and in the quiz question set.
-   *
-   * Ordinary property changes become an unsaved active group. Changes made
-   * during saved-group editing preserve the saved group's active identity.
-   *
-   * @param value - Raw GeoJSON grouping value to toggle.
-   */
-  function toggleGroupingValue(value: string): void {
-    const updatedValues = new Set(selectedValues);
-
-    if (updatedValues.has(value)) {
-      updatedValues.delete(value);
-    } else {
-      updatedValues.add(value);
-    }
-
-    setSelectedValues(updatedValues);
-
-    applySelectedValues(updatedValues);
+  function clearSavedGroupEditState(): void {
+    setEditingGroupId(null);
+    setEditGroupName("");
+    setEditGroupDescription("");
   }
 
   /**
-   * Applies the currently selected property values as an unsaved active quiz
-   * group.
-   */
-  function applyPropertyGroup(): void {
-    if (!selectedGroupingProperty || selectedValues.size === 0) {
-      return;
-    }
-
-    onApplyGroup({
-      type: "property",
-
-      property: selectedGroupingProperty.property,
-
-      values: Array.from(selectedValues),
-    });
-  }
-
-  /**
-   * Restores the complete quiz and clears any temporary property selections
-   * still shown in the panel.
+   * Restores Full Quiz and clears temporary property-group UI state.
    */
   function handleUseFullQuiz(): void {
-    setSelectedValues(new Set());
-
-    cancelSavingGroup();
+    propertyEditor.clearPropertySelection();
+    propertyEditor.cancelSavingPropertyGroup();
 
     onUseFullQuiz();
   }
 
   /**
-   * Clears every property-group selection and immediately updates the active
-   * map and quiz.
+   * Opens the property-group metadata form and keeps the newly revealed fields
+   * visible.
    */
-  function deselectAllGroupingValues(): void {
-    const emptySelection = new Set<string>();
+  function beginSavingPropertyGroup(): void {
+    propertyEditor.beginSavingPropertyGroup();
 
-    setSelectedValues(emptySelection);
-
-    applySelectedValues(emptySelection);
+    scrollPanelToBottom();
   }
 
   /**
-   * Toggles a saved group and keeps the Property Groups editor synchronized
-   * with the group being loaded.
-   *
-   * Loading a property-based saved group selects its grouping property and
-   * restores its saved checkbox values. Toggling the currently active saved
-   * group off returns to Full Quiz and clears the checkbox selection.
+   * Begins manual feature selection and keeps its expanded controls visible.
+   */
+  function beginManualSelection(): void {
+    onBeginManualSelection();
+
+    scrollPanelToBottom();
+  }
+
+  /**
+   * Opens the manual-group metadata form and keeps the newly revealed fields
+   * visible.
+   */
+  function beginSavingManualGroup(): void {
+    manualEditor.beginSavingManualGroup();
+
+    scrollPanelToBottom();
+  }
+
+  /**
+   * Loads or unloads a saved group and synchronizes the appropriate editor.
    *
    * @param savedGroup - Saved group selected by the user.
    */
   function handleToggleSavedGroup(savedGroup: SavedQuizGroup): void {
     const isCurrentlyActive = activeSavedGroupId === savedGroup.id;
 
-    /*
-     * Clicking the active saved group toggles it off and returns to Full Quiz.
-     */
     if (isCurrentlyActive) {
-      setSelectedValues(new Set());
-
-      cancelSavingGroup();
+      propertyEditor.clearPropertySelection();
+      propertyEditor.cancelSavingPropertyGroup();
 
       onToggleSavedGroup(savedGroup);
 
@@ -391,105 +330,45 @@ export default function QuizGroupsPanel({
     }
 
     /*
-     * Property groups populate the Property Groups editor when loaded.
+     * A saved group is replacing the current grouping workflow. Any temporary
+     * manual selection must be discarded before the saved group becomes active.
      */
-    if (savedGroup.source.type === "property") {
-      const propertySource = savedGroup.source;
-
-      const groupingProperty = quiz.grouping?.properties.find(
-        (property) => property.property === propertySource.property,
-      );
-
-      if (groupingProperty) {
-        setSelectedGroupingProperty(groupingProperty);
-
-        setSelectedValues(new Set(propertySource.values));
-      }
-    } else {
-      /*
-       * Manual groups do not correspond to property checkboxes.
-       */
-      setSelectedValues(new Set());
+    if (isManualSelecting) {
+      cancelManualSelection();
     }
 
-    cancelSavingGroup();
+    if (savedGroup.source.type === "property") {
+      propertyEditor.loadPropertyGroup(savedGroup.source);
+    } else {
+      propertyEditor.clearPropertySelection();
+    }
+
+    propertyEditor.cancelSavingPropertyGroup();
 
     onToggleSavedGroup(savedGroup);
   }
 
   /**
-   * Handles changing which GeoJSON property is being used to construct a
-   * temporary property group.
-   *
-   * Existing selections are cleared because values belong to a specific
-   * grouping property.
-   *
-   * @param propertyName - GeoJSON grouping property selected by the user.
-   */
-  function changeGroupingProperty(propertyName: string): void {
-    const property =
-      quiz.grouping?.properties.find(
-        (candidate) => candidate.property === propertyName,
-      ) ?? null;
-
-    setSelectedGroupingProperty(property);
-
-    setSelectedValues(new Set());
-
-    cancelSavingGroup();
-  }
-
-  /**
    * Opens or closes a saved group's description.
-   *
-   * Only one description is displayed at a time.
    *
    * @param groupId - ID of the saved group whose description should toggle.
    */
   function toggleSavedGroupDescription(groupId: string): void {
-    setOpenDescriptionGroupId((currentGroupId) =>
+    setExpandedDescriptionGroupId((currentGroupId) =>
       currentGroupId === groupId ? null : groupId,
     );
   }
 
   /**
-   * Opens the saved-group creation form.
-   */
-  function beginSavingGroup(): void {
-    if (!canBeginSavingGroup) {
-      return;
-    }
-
-    setIsSavingGroup(true);
-  }
-
-  /**
-   * Cancels saved-group creation and clears its temporary metadata.
-   */
-  function cancelSavingGroup(): void {
-    setIsSavingGroup(false);
-
-    setSaveGroupName("");
-
-    setSaveGroupDescription("");
-  }
-
-  /**
-   * Toggles edit mode for a saved group or switches the current edit session to
-   * another saved group.
+   * Toggles edit mode for a saved group or switches editing to another group.
    *
-   * Clicking the pencil for the group already being edited exits edit mode and
-   * restores its persisted state. Clicking another group's pencil keeps edit
-   * mode active but loads that group's metadata, property selections, and map
-   * preview.
+   * Property groups load their saved property values into the Property Groups
+   * editor. Manual groups enter feature-selection mode with their persisted
+   * feature IDs preselected.
    *
-   * @param savedGroup - Saved group whose edit state should be toggled.
+   * @param savedGroup - Saved group whose editing state should toggle.
    */
   function toggleSavedGroupEditing(savedGroup: SavedQuizGroup): void {
-    /*
-     * Clicking the pencil belonging to the group already being edited acts as
-     * an alternate Cancel control.
-     */
     if (editingGroupId === savedGroup.id) {
       cancelEditingSavedGroup();
 
@@ -497,154 +376,118 @@ export default function QuizGroupsPanel({
     }
 
     /*
-     * The current Property Groups editor only supports property-based saved
-     * groups. Manual groups will use their own edit workflow later.
+     * Validate property groups before changing shared edit state so a missing
+     * grouping configuration cannot leave the panel partially in edit mode.
      */
-    if (savedGroup.source.type !== "property") {
-      return;
-    }
+    if (savedGroup.source.type === "property") {
+      const loaded = propertyEditor.loadPropertyGroup(
+        savedGroup.source,
+      );
 
-    const propertySource = savedGroup.source;
-
-    const groupingProperty = quiz.grouping?.properties.find(
-      (property) => property.property === propertySource.property,
-    );
-
-    if (!groupingProperty) {
-      return;
+      if (!loaded) {
+        return;
+      }
     }
 
     /*
-     * If another group was being edited, its unsaved draft is discarded simply
-     * by replacing the edit state with the newly selected saved group.
+     * Property editing replaces any temporary manual-selection workflow.
      */
-    cancelSavingGroup();
+    if (isManualSelecting) {
+      cancelManualSelection();
+    }
+
+    propertyEditor.cancelSavingPropertyGroup();
+    manualEditor.cancelSavingManualGroup();
+
     setEditingGroupId(savedGroup.id);
     setEditGroupName(savedGroup.name);
     setEditGroupDescription(savedGroup.description ?? "");
-    setSelectedGroupingProperty(groupingProperty);
-    setSelectedValues(new Set(propertySource.values));
+
+    if (savedGroup.source.type === "property") {
+      onApplySavedGroup(savedGroup.source);
+      onSetActiveSavedGroup(savedGroup.id);
+
+      scrollPanelToBottom();
+
+      return;
+    }
 
     /*
-     * The group being edited is also the active saved group and map preview.
+     * Manual editing requires Full Quiz visibility so features outside the
+     * persisted group remain available for selection.
      */
-    onApplySavedGroup(propertySource);
+    propertyEditor.clearPropertySelection();
+
+    onBeginEditingManualGroup(savedGroup.source.featureIds);
     onSetActiveSavedGroup(savedGroup.id);
+
+    scrollPanelToBottom();
   }
 
   /**
-   * Applies a property selection immediately to the map and quiz.
-   *
-   * Changes made during saved-group editing preserve the active saved-group
-   * identity. Ordinary property changes become an unsaved active group.
-   *
-   * An empty ordinary selection returns to Full Quiz.
-   *
-   * @param values - Raw GeoJSON values that should currently be active.
-   */
-  function applySelectedValues(values: Set<string>): void {
-    if (!selectedGroupingProperty) {
-      return;
-    }
-
-    /*
-     * Outside Edit mode, clearing every checkbox means there is no custom
-     * grouping and therefore restores Full Quiz.
-     */
-    if (values.size === 0 && !isEditingGroup) {
-      onUseFullQuiz();
-
-      return;
-    }
-
-    const group: ActiveQuizGroup = {
-      type: "property",
-
-      property: selectedGroupingProperty.property,
-
-      values: Array.from(values),
-    };
-
-    if (isEditingGroup) {
-      onApplySavedGroup(group);
-
-      return;
-    }
-
-    onApplyGroup(group);
-  }
-
-  /**
-   * Cancels saved-group editing and restores the group's persisted selection.
+   * Cancels saved-group editing and restores the group's persisted state.
    */
   function cancelEditingSavedGroup(): void {
-    if (editingGroup?.source.type === "property") {
-      /*
-       * Store the narrowed source in a local variable so TypeScript preserves the
-       * property-group type inside callbacks below.
-       */
-      const propertySource = editingGroup.source;
+    if (!editingGroup) {
+      clearSavedGroupEditState();
 
-      const groupingProperty = quiz.grouping?.properties.find(
-        (property) => property.property === propertySource.property,
-      );
-
-      if (groupingProperty) {
-        setSelectedGroupingProperty(groupingProperty);
-      }
-
-      setSelectedValues(new Set(editingGroup.source.values));
-
-      onApplySavedGroup(editingGroup.source);
-    }
-
-    setEditingGroupId(null);
-    setEditGroupName("");
-    setEditGroupDescription("");
-  }
-
-  /**
-   * Commits the current edit draft to the active saved group and reapplies its
-   * updated selection to the quiz.
-   */
-  function updateEditingSavedGroup(): void {
-    if (
-      !canUpdateGroup ||
-      !editingGroup ||
-      !selectedGroupingProperty
-    ) {
       return;
     }
 
-    const updatedSource: QuizGroupSource = {
-      type: "property",
+    if (editingGroup.source.type === "property") {
+      const restored = propertyEditor.loadPropertyGroup(
+        editingGroup.source,
+      );
 
-      property: selectedGroupingProperty.property,
+      if (restored) {
+        onApplySavedGroup(editingGroup.source);
+        onSetActiveSavedGroup(editingGroup.id);
+      }
 
-      values: Array.from(selectedValues),
-    };
+      clearSavedGroupEditState();
 
-    onUpdateGroup(
-      editingGroup.id,
-      editGroupName,
-      editGroupDescription.trim() || undefined,
-      updatedSource,
-    );
+      return;
+    }
 
     /*
-     * The persisted saved group remains the active group after its definition
-     * changes.
+     * Discard the temporary manual-selection draft and restore the persisted
+     * manual saved group.
      */
-    onApplySavedGroup(updatedSource);
+    onCancelManualSelection();
+    onApplySavedGroup(editingGroup.source);
     onSetActiveSavedGroup(editingGroup.id);
 
-    setEditingGroupId(null);
-    setEditGroupName("");
-    setEditGroupDescription("");
+    clearSavedGroupEditState();
   }
 
   /**
-   * Deletes the saved group currently being edited and returns to Full Quiz.
+   * Persists the current saved property-group edit and exits edit mode.
+   */
+  function updateEditingPropertyGroup(): void {
+    if (!propertyEditor.canUpdatePropertyGroup) {
+      return;
+    }
+
+    propertyEditor.updateEditingPropertyGroup();
+
+    clearSavedGroupEditState();
+  }
+
+  /**
+   * Persists the current saved manual-group edit and exits edit mode.
+   */
+  function updateEditingManualGroup(): void {
+    if (!manualEditor.canUpdateManualGroup) {
+      return;
+    }
+
+    manualEditor.updateEditingManualGroup();
+
+    clearSavedGroupEditState();
+  }
+
+  /**
+   * Deletes the saved group currently being edited and restores Full Quiz.
    */
   function deleteEditingSavedGroup(): void {
     if (!editingGroup) {
@@ -653,52 +496,46 @@ export default function QuizGroupsPanel({
 
     onDeleteGroup(editingGroup.id);
 
-    setEditingGroupId(null);
-    setEditGroupName("");
-    setEditGroupDescription("");
-    setSelectedValues(new Set());
+    /*
+     * Only manual edit sessions own temporary map-selection state.
+     */
+    if (editingGroup.source.type === "features") {
+      onCancelManualSelection();
+    }
+
+    propertyEditor.clearPropertySelection();
+
+    clearSavedGroupEditState();
 
     onUseFullQuiz();
   }
 
   /**
-   * Saves the current property selection, immediately applies the persisted
-   * group, and marks it as the active saved group.
+   * Selects every feature available to manual grouping and keeps the expanded
+   * manual-selection content visible in the Groups panel.
    */
-  function saveCurrentPropertyGroup(): void {
-    if (!canSaveGroup || !selectedGroupingProperty) {
-      return;
-    }
+  function selectAllManualFeatures(): void {
+    onSelectAllManualFeatures(manualEditor.allFeatureIds);
 
-    const source: QuizGroupSource = {
-      type: "property",
+    scrollPanelToBottom();
+  }
 
-      property: selectedGroupingProperty.property,
+  /**
+   * Cancels the complete new manual-selection workflow.
+   */
+  function cancelManualSelection(): void {
+    manualEditor.cancelSavingManualGroup();
 
-      values: Array.from(selectedValues),
-    };
-
-    const savedGroup = onSaveGroup(
-      saveGroupName,
-      saveGroupDescription.trim() || undefined,
-      source,
-    );
-
-    /*
-     * Apply the persisted source without treating it as an unsaved group.
-     * This keeps the newly created saved group active and highlighted.
-     */
-    onApplySavedGroup(savedGroup.source);
-
-    onSetActiveSavedGroup(savedGroup.id);
-
-    cancelSavingGroup();
+    onCancelManualSelection();
   }
 
   return (
     <div className="max-h-[calc(100vh-9.5rem)] w-80 overflow-hidden rounded-xl bg-white/95 shadow-lg backdrop-blur-md">
-      {/* Scrollable panel content */}
-      <div className="panel-scrollbar max-h-[calc(100vh-9.5rem)] overflow-y-auto overscroll-contain p-4">
+      {/* Scrollable Groups panel content */}
+      <div
+        ref={panelScrollRef}
+        className="panel-scrollbar max-h-[calc(100vh-9.5rem)] overflow-y-auto overscroll-contain px-5 py-4"
+      >
         {/* Panel heading */}
         <div className="mb-4">
           <h2 className="text-base font-bold text-gray-900">
@@ -712,491 +549,113 @@ export default function QuizGroupsPanel({
         </div>
 
         {/* Full Quiz */}
-        <section className="border-b border-gray-300 pb-4">
-          <h3 className="mb-2 text-sm font-semibold text-gray-800">
-            Full Quiz
-          </h3>
-
-          <button
-            type="button"
-            disabled={isDisabled || activeGroup.type === "full"}
-            onClick={handleUseFullQuiz}
-            className={[
-              "w-full rounded-lg border px-3 py-2 text-sm font-semibold transition",
-
-              activeGroup.type === "full"
-                ? "border-gray-900 bg-gray-900 text-white"
-                : "border-gray-300 bg-white text-gray-800 hover:bg-gray-100",
-
-              isDisabled ? "cursor-not-allowed opacity-50" : "",
-            ].join(" ")}
-          >
-            Use Full Quiz
-          </button>
-        </section>
+        <FullQuizSection
+          isActive={activeGroup.type === "full"}
+          isDisabled={isDisabled}
+          onUseFullQuiz={handleUseFullQuiz}
+        />
 
         {/* Saved Groups */}
-        <section className="border-b border-gray-300 py-4">
-          <h3 className="mb-2 text-sm font-semibold text-gray-800">
-            Saved Groups
-          </h3>
+        <SavedGroupsSection
+          savedGroups={savedGroups}
+          activeSavedGroupId={activeSavedGroupId}
+          editingGroupId={editingGroupId}
+          openDescriptionGroupId={expandedDescriptionGroupId}
+          isDisabled={isDisabled}
+          onToggleGroup={handleToggleSavedGroup}
+          onToggleDescription={toggleSavedGroupDescription}
+          onToggleEditing={toggleSavedGroupEditing}
+        />
 
-          {savedGroups.length === 0 ? (
-            /* Empty saved-groups state */
-            <p className="text-xs text-gray-500">
-              Saved groups will appear here.
-            </p>
-          ) : (
-            /* Saved group list */
-            <div className="space-y-2">
-              {savedGroups.map((savedGroup) => {
-                const isActive = activeSavedGroupId === savedGroup.id;
-
-                const isDescriptionOpen =
-                  openDescriptionGroupId === savedGroup.id;
-
-                const isBeingEdited =
-                  editingGroupId === savedGroup.id;
-
-                return (
-                  <div
-                    key={savedGroup.id}
-                    className={[
-                      "overflow-hidden rounded-lg border transition",
-
-                      isActive
-                        ? "border-gray-900 bg-gray-900 text-white"
-                        : "border-gray-300 bg-white text-gray-800",
-                    ].join(" ")}
-                  >
-                    {/* Saved group controls */}
-                    <div className="flex items-center">
-                      {/* Saved group toggle */}
-                      <button
-                        type="button"
-                        disabled={isDisabled}
-                        onClick={() =>
-                          handleToggleSavedGroup(savedGroup)
-                        }
-                        className={[
-                          "flex min-w-0 flex-1 items-center px-3 py-2 text-left transition",
-
-                          !isActive ? "hover:bg-gray-100" : "",
-
-                          isDisabled
-                            ? "cursor-not-allowed opacity-50"
-                            : "",
-                        ].join(" ")}
-                      >
-                        <span className="truncate text-sm font-semibold">
-                          {savedGroup.name}
-                        </span>
-                      </button>
-
-                      {/* Saved group secondary controls */}
-                      <div className="flex shrink-0 items-center gap-1 pr-2">
-                        {/* Description toggle */}
-                        {savedGroup.description && (
-                          <button
-                            type="button"
-                            disabled={isDisabled}
-                            onClick={() =>
-                              toggleSavedGroupDescription(
-                                savedGroup.id,
-                              )
-                            }
-                            title="Show group description"
-                            aria-label={`Show description for ${savedGroup.name}`}
-                            aria-expanded={
-                              openDescriptionGroupId === savedGroup.id
-                            }
-                            className={[
-                              "flex h-6 w-6 items-center justify-center rounded-md text-xs font-bold transition",
-
-                              isDescriptionOpen
-                                ? isActive
-                                  ? "bg-white/25 text-white"
-                                  : "bg-gray-300 text-gray-900"
-                                : isActive
-                                  ? "text-white/80 hover:bg-white/20 hover:text-white"
-                                  : "text-gray-500 hover:bg-gray-300 hover:text-gray-900",
-                            ].join(" ")}
-                          >
-                            ?
-                          </button>
-                        )}
-                        <button
-                          type="button"
-                          disabled={isDisabled}
-                          onClick={() =>
-                            toggleSavedGroupEditing(savedGroup)
-                          }
-                          title="Edit saved group"
-                          aria-label={`Edit ${savedGroup.name}`}
-                          className={[
-                            "flex h-6 w-6 items-center justify-center rounded-md transition",
-
-                            isBeingEdited
-                              ? isActive
-                                ? "bg-white/25 text-white"
-                                : "bg-gray-300 text-gray-900"
-                              : isActive
-                                ? "text-white/80 hover:bg-white/20 hover:text-white"
-                                : "text-gray-500 hover:bg-gray-300 hover:text-gray-900",
-                          ].join(" ")}
-                        >
-                          {/* Pencil icon */}
-                          <svg
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            className="h-3.5 w-3.5"
-                            aria-hidden="true"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M16.862 3.487a2.1 2.1 0 0 1 2.97 2.97L8.25 18.04 4 19l.96-4.25L16.862 3.487Z"
-                            />
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-
-                    {/* Saved group description */}
-                    {savedGroup.description &&
-                      openDescriptionGroupId === savedGroup.id && (
-                        <div
-                          className={[
-                            "border-t px-3 py-2 text-xs leading-relaxed",
-
-                            isActive
-                              ? "border-white/20 text-white/80"
-                              : "border-gray-300 text-gray-600",
-                          ].join(" ")}
-                        >
-                          {savedGroup.description}
-                        </div>
-                      )}
-                  </div>
-                );
-              })}
-            </div>
-          )}
-        </section>
-
-        {/* Saved-group editing metadata */}
-        {isEditingGroup && (
-          <div className="mb-4 rounded-lg border border-gray-300 bg-white p-3">
-            {/* Editable group name */}
-            <label className="block">
-              <span className="text-xs font-medium text-gray-600">
-                Name
-              </span>
-
-              <input
-                type="text"
-                value={editGroupName}
-                onChange={(event) =>
-                  setEditGroupName(event.target.value)
-                }
-                className="mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 outline-none"
-              />
-            </label>
-
-            {/* Editable group description */}
-            <label className="mt-3 block">
-              <span className="text-xs font-medium text-gray-600">
-                Description
-                <span className="ml-1 font-normal text-gray-400">
-                  Optional
-                </span>
-              </span>
-
-              <textarea
-                value={editGroupDescription}
-                onChange={(event) =>
-                  setEditGroupDescription(event.target.value)
-                }
-                rows={3}
-                className="mt-1 w-full resize-none rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 outline-none"
-              />
-            </label>
+        {/* Shared saved-group edit metadata */}
+        {editingGroup && (
+          <div className="my-4 rounded-lg border border-gray-300 bg-white p-3">
+            <GroupMetadataFields
+              name={editGroupName}
+              description={editGroupDescription}
+              onNameChange={setEditGroupName}
+              onDescriptionChange={setEditGroupDescription}
+            />
           </div>
         )}
 
         {/* Property Groups */}
         {quiz.grouping?.properties.length ? (
-          <section className="border-b border-gray-300 py-4">
-            <h3 className="mb-2 text-sm font-semibold text-gray-800">
-              Property Groups
-            </h3>
-
-            {/* Grouping property selector */}
-            {quiz.grouping.properties.length > 1 && (
-              <select
-                value={selectedGroupingProperty?.property ?? ""}
-                disabled={isDisabled}
-                onChange={(event) =>
-                  changeGroupingProperty(event.target.value)
-                }
-                className="mb-3 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-800"
-              >
-                {quiz.grouping.properties.map((property) => (
-                  <option
-                    key={property.property}
-                    value={property.property}
-                  >
-                    {property.label}
-                  </option>
-                ))}
-              </select>
-            )}
-
-            {/* Selected grouping dimension */}
-            <div className="mb-2 flex items-center justify-between">
-              <div className="text-xs font-medium text-gray-500">
-                {selectedGroupingProperty
-                  ? `Group by ${selectedGroupingProperty.label}`
-                  : "Select a group"}
-              </div>
-
-              {/* Selected / total count */}
-              <p className="text-xs font-medium text-gray-500">
-                {selectedValues.size} / {groupingOptions.length}
-              </p>
-
-              {/* Deselect all selections button */}
-              <button
-                type="button"
-                disabled={isDisabled || selectedValues.size === 0}
-                onClick={deselectAllGroupingValues}
-                className={[
-                  "text-xs font-medium underline transition",
-
-                  isDisabled || selectedValues.size === 0
-                    ? "text-gray-400"
-                    : "text-gray-600 hover:text-gray-900",
-                ].join(" ")}
-              >
-                Deselect All
-              </button>
-            </div>
-
-            {/* Available property values */}
-            <div className="max-h-64 space-y-2 overflow-y-auto pr-1">
-              {groupingOptions.map(({ value, label }) => {
-                const isSelected = selectedValues.has(value);
-
-                return (
-                  <label
-                    key={value}
-                    className="flex cursor-pointer items-center gap-2 text-sm text-gray-700"
-                  >
-                    {/* Grouping value checkbox */}
-                    <input
-                      type="checkbox"
-                      checked={isSelected}
-                      disabled={isDisabled}
-                      onChange={() => toggleGroupingValue(value)}
-                      className="h-4 w-4"
-                    />
-
-                    {/* Grouping value label */}
-                    <span>{label}</span>
-                  </label>
-                );
-              })}
-            </div>
-
-            {/* Property-group actions */}
-            <div className="mt-4 space-y-2">
-              {isEditingGroup ? (
-                <>
-                  {/* Update / Delete saved group */}
-                  <div className="flex gap-2">
-                    {/* Update saved group */}
-                    <button
-                      type="button"
-                      disabled={!canUpdateGroup}
-                      onClick={updateEditingSavedGroup}
-                      className={[
-                        "flex-1 rounded-lg px-3 py-2 text-sm font-semibold transition",
-
-                        canUpdateGroup
-                          ? "bg-gray-900 text-white hover:bg-gray-700"
-                          : "bg-gray-300 text-gray-500",
-                      ].join(" ")}
-                    >
-                      Update
-                    </button>
-
-                    {/* Delete saved group */}
-                    <button
-                      type="button"
-                      disabled={isDisabled}
-                      onClick={deleteEditingSavedGroup}
-                      title="Delete saved group"
-                      aria-label="Delete saved group"
-                      className={[
-                        "flex h-9 w-9 shrink-0 items-center justify-center rounded-lg transition",
-
-                        isDisabled
-                          ? "bg-gray-300 text-gray-500"
-                          : "bg-red-600 text-white hover:bg-red-700",
-                      ].join(" ")}
-                    >
-                      {/* Trash icon */}
-                      <svg
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        className="h-4 w-4"
-                        aria-hidden="true"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M3 6h18"
-                        />
-
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M8 6V4h8v2"
-                        />
-
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M19 6l-1 14H6L5 6"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-
-                  {/* Cancel saved-group editing */}
-                  <div className="flex justify-end">
-                    <button
-                      type="button"
-                      onClick={cancelEditingSavedGroup}
-                      className="text-xs font-medium text-gray-600 underline transition hover:text-gray-900"
-                    >
-                      Cancel
-                    </button>
-                  </div>
-                </>
-              ) : (
-                <>
-                  {/* Save property group */}
-                  <button
-                    type="button"
-                    disabled={
-                      isSavingGroup
-                        ? !canSaveGroup
-                        : !canBeginSavingGroup
-                    }
-                    onClick={
-                      isSavingGroup
-                        ? saveCurrentPropertyGroup
-                        : beginSavingGroup
-                    }
-                    className={[
-                      "w-full rounded-lg px-3 py-2 text-sm font-semibold transition",
-
-                      (
-                        isSavingGroup
-                          ? canSaveGroup
-                          : canBeginSavingGroup
-                      )
-                        ? "bg-gray-900 text-white hover:bg-gray-700"
-                        : "bg-gray-300 text-gray-500",
-                    ].join(" ")}
-                  >
-                    {isSavingGroup ? "Save" : "Save Group"}
-                  </button>
-
-                  {/* Saved-group creation fields */}
-                  {isSavingGroup && (
-                    <div className="rounded-lg border border-gray-300 bg-white p-3">
-                      {/* Group name */}
-                      <label className="block">
-                        <span className="text-xs font-medium text-gray-600">
-                          Name
-                        </span>
-
-                        <input
-                          type="text"
-                          value={saveGroupName}
-                          onChange={(event) =>
-                            setSaveGroupName(event.target.value)
-                          }
-                          placeholder="Group name"
-                          className="mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 outline-none"
-                        />
-                      </label>
-
-                      {/* Optional group description */}
-                      <label className="mt-3 block">
-                        <span className="text-xs font-medium text-gray-600">
-                          Description
-                          <span className="ml-1 font-normal text-gray-400">
-                            Optional
-                          </span>
-                        </span>
-
-                        <textarea
-                          value={saveGroupDescription}
-                          onChange={(event) =>
-                            setSaveGroupDescription(
-                              event.target.value,
-                            )
-                          }
-                          placeholder="Describe this group"
-                          rows={3}
-                          className="mt-1 w-full resize-none rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 outline-none"
-                        />
-                      </label>
-
-                      {/* Cancel saved-group creation */}
-                      <div className="mt-2 flex justify-end">
-                        <button
-                          type="button"
-                          onClick={cancelSavingGroup}
-                          className="text-xs font-medium text-gray-600 underline transition hover:text-gray-900"
-                        >
-                          Cancel
-                        </button>
-                      </div>
-                    </div>
-                  )}
-                </>
-              )}
-            </div>
-          </section>
+          <PropertyGroupsSection
+            groupingProperties={quiz.grouping.properties}
+            selectedGroupingProperty={
+              propertyEditor.selectedGroupingProperty
+            }
+            selectedValues={propertyEditor.selectedValues}
+            groupingOptions={propertyEditor.groupingOptions}
+            isDisabled={isDisabled || isManualSelecting}
+            isEditingGroup={isEditingPropertyGroup}
+            canUpdateGroup={propertyEditor.canUpdatePropertyGroup}
+            canBeginSavingGroup={
+              propertyEditor.canBeginSavingPropertyGroup
+            }
+            canSaveGroup={propertyEditor.canSavePropertyGroup}
+            isSavingGroup={propertyEditor.isSavingPropertyGroup}
+            saveGroupName={propertyEditor.newPropertyGroupName}
+            saveGroupDescription={
+              propertyEditor.newPropertyGroupDescription
+            }
+            onChangeGroupingProperty={
+              propertyEditor.changeGroupingProperty
+            }
+            onToggleGroupingValue={propertyEditor.togglePropertyValue}
+            onDeselectAll={propertyEditor.clearPropertySelection}
+            onBeginSaving={beginSavingPropertyGroup}
+            onSave={propertyEditor.saveCurrentPropertyGroup}
+            onCancelSaving={propertyEditor.cancelSavingPropertyGroup}
+            onUpdate={updateEditingPropertyGroup}
+            onDelete={deleteEditingSavedGroup}
+            onCancelEditing={cancelEditingSavedGroup}
+            onSaveGroupNameChange={
+              propertyEditor.setNewPropertyGroupName
+            }
+            onSaveGroupDescriptionChange={
+              propertyEditor.setNewPropertyGroupDescription
+            }
+            onRequestPanelScroll={scrollPanelToBottom}
+          />
         ) : null}
 
         {/* Manual feature selection */}
-        <section className="pt-4">
-          <h3 className="text-sm font-semibold text-gray-800">
-            Manual Selection
-          </h3>
-
-          <p className="mt-1 text-xs leading-relaxed text-gray-500">
-            Create a custom group by selecting individual geographic
-            features on the map.
-          </p>
-
-          <button
-            type="button"
-            disabled
-            className="mt-3 w-full cursor-not-allowed rounded-lg bg-gray-300 px-3 py-2 text-sm font-semibold text-gray-500"
-          >
-            Select Features
-          </button>
-        </section>
+        <ManualSelectionSection
+          isSelecting={isManualSelecting}
+          selectionItems={manualEditor.selectionItems}
+          selectedAnswerCount={manualEditor.selectionAnswerCount}
+          showAnswers={showManualSelectionAnswers}
+          canSave={manualEditor.canSaveManualGroup}
+          isSavingGroup={manualEditor.isSavingManualGroup}
+          isEditingGroup={isEditingManualGroup}
+          canUpdate={manualEditor.canUpdateManualGroup}
+          groupName={manualEditor.newManualGroupName}
+          groupDescription={manualEditor.newManualGroupDescription}
+          canConfirmSave={manualEditor.canConfirmManualSave}
+          onBeginSelection={beginManualSelection}
+          onRemoveFeature={onRemoveManualFeature}
+          onDeselectAll={onClearManualSelection}
+          canSelectAll={
+            manualSelectedFeatureIds.size <
+            manualEditor.allFeatureIds.length
+          }
+          onSelectAll={selectAllManualFeatures}
+          onToggleShowAnswers={onToggleManualSelectionAnswers}
+          onBeginSaving={beginSavingManualGroup}
+          onSave={manualEditor.saveCurrentManualGroup}
+          onCancelSaving={manualEditor.cancelSavingManualGroup}
+          onCancelEditing={cancelEditingSavedGroup}
+          onGroupNameChange={manualEditor.setNewManualGroupName}
+          onGroupDescriptionChange={
+            manualEditor.setNewManualGroupDescription
+          }
+          onCancel={cancelManualSelection}
+          onUpdate={updateEditingManualGroup}
+          onDelete={deleteEditingSavedGroup}
+          onRequestPanelScroll={scrollPanelToBottom}
+        />
       </div>
     </div>
   );

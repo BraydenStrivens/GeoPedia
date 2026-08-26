@@ -1,13 +1,16 @@
 /**
  * Defines the United States 2-digit ZIP-code prefix quiz.
  *
- * Each question represents the first 2 digits
- * of a five-digit ZIP code. The remaining digits are displayed as hyphens
- * so the user can see that the question represents a ZIP-code prefix rather
- * than a complete ZIP code.
+ * Each question represents the first two digits of a five-digit ZIP code. The
+ * remaining digits are displayed as hyphens so the user can clearly see that
+ * the question represents a ZIP-code prefix rather than a complete ZIP code.
+ *
+ * The quiz also supports property-based grouping by state. Because one ZIP
+ * prefix region may overlap multiple states, the GeoJSON stores `states` as a
+ * string array.
  */
 
-import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usStates";
+import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usSubdivisions";
 import type { Quiz } from "@/types/quiz";
 
 /**
@@ -20,6 +23,15 @@ export const usZip2Quiz: Quiz = {
   answerProperty: "zip",
   answerType: "single",
 
+  /**
+   * Allows users to create groups containing one or more US subdivisions.
+   *
+   * Each geographic feature may belong to multiple states, so the configured
+   * grouping property uses the `string-array` value type.
+   *
+   * Raw subdivision abbreviations remain unchanged for matching and
+   * persistence, while the Groups UI displays full subdivision names.
+   */
   grouping: {
     properties: [
       {

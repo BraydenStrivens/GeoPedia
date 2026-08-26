@@ -1,12 +1,21 @@
 /**
- * Restricts GeoPedia's geographic layers to a selected set of feature IDs.
+ * Restricts GeoPedia's geographic quiz layers to a selected set of feature IDs.
  *
- * Quiz grouping uses this hook to display and interact with only the
- * geographic features belonging to the currently active group.
+ * Quiz grouping uses this hook to keep the rendered and interactive geography
+ * synchronized with the feature subset resolved by the active quiz group.
  *
- * The underlying GeoJSON source remains unchanged. Filtering is applied
- * directly to GeoPedia's existing MapLibre layers.
+ * The underlying GeoJSON source is never modified. Filtering is applied only
+ * to GeoPedia's normal geographic layers:
+ *
+ * - Feature fill.
+ * - Hover overlay.
+ * - Geographic borders.
+ *
+ * The dedicated manual-selection overlay is intentionally excluded because its
+ * filtering is owned independently by `useManualSelectionColors`.
  */
+
+"use client";
 
 import type {
   FilterSpecification,
@@ -15,48 +24,83 @@ import type {
 import type { RefObject } from "react";
 import { useEffect } from "react";
 
+import {
+  FEATURE_BORDER_LAYER_ID,
+  FEATURE_FILL_LAYER_ID,
+  FEATURE_HOVER_LAYER_ID,
+} from "../constants/mapLayerIds";
+
 /**
- * GeoPedia layers that represent the quiz's geographic feature set.
+ * GeoPedia layers whose visible feature set follows the currently active quiz
+ * group.
  */
-const FILTERED_FEATURE_LAYER_IDS = [
-  "features-fill",
-  "features-hover",
-  "features-borders",
+const GROUP_FILTER_LAYER_IDS = [
+  FEATURE_BORDER_LAYER_ID,
+  FEATURE_FILL_LAYER_ID,
+  FEATURE_HOVER_LAYER_ID,
 ] as const;
 
 /**
- * Values required to synchronize an active feature filter.
+ * Values required to synchronize an active geographic feature filter.
  */
 type UseMapFeatureFilterParams = {
-  /** Current MapLibre map instance. */
+  /** Ref containing the current MapLibre map instance. */
   mapRef: RefObject<MapLibreMap | null>;
 
-  /** Whether GeoPedia's geographic layers are ready. */
+  /** Whether GeoPedia's geographic source and layers are ready for updates. */
   isMapReady: boolean;
 
   /**
-   * GeoJSON property used by MapLibre as the stable feature ID.
+   * GeoJSON property used as the stable geographic feature identifier.
    *
-   * Group filtering uses the same property so the resolver and rendered map
-   * identify geographic features consistently.
+   * Group filtering reads this same source property used by MapLibre's
+   * `promoteId` configuration so React-side resolution and rendered geography
+   * identify features consistently.
    */
   promoteId?: string;
 
   /**
-   * Feature IDs belonging to the active group.
+   * Stable feature IDs belonging to the active group.
    *
    * `null` represents Full Quiz and removes all grouping filters.
+   *
+   * An empty array represents a resolved group containing no features and
+   * therefore intentionally hides every group-filtered geographic feature.
    */
   featureIds: string[] | null;
 };
 
 /**
- * Applies the active quiz group's feature IDs to all GeoPedia geographic
- * layers.
+ * Applies one filter to every normal geographic layer controlled by active
+ * quiz grouping.
  *
- * Full Quiz clears the filters so every source feature is displayed.
+ * Missing layers are ignored so synchronization remains safe during map-style
+ * lifecycle transitions.
  *
- * @param params - Map readiness and active feature IDs.
+ * @param map - MapLibre map receiving the filter.
+ * @param filter - Filter to apply, or `null` to restore the complete source.
+ */
+function applyGroupFilter(
+  map: MapLibreMap,
+  filter: FilterSpecification | null,
+): void {
+  for (const layerId of GROUP_FILTER_LAYER_IDS) {
+    if (!map.getLayer(layerId)) {
+      continue;
+    }
+
+    map.setFilter(layerId, filter);
+  }
+}
+
+/**
+ * Synchronizes the active quiz group's resolved feature IDs with GeoPedia's
+ * normal geographic MapLibre layers.
+ *
+ * Full Quiz clears all group filters. Filtered groups match the configured
+ * promoted-ID source property against the resolved feature-ID list.
+ *
+ * @param params - Map state, stable-ID property, and active feature IDs.
  */
 export function useMapFeatureFilter({
   mapRef,
@@ -67,45 +111,39 @@ export function useMapFeatureFilter({
   useEffect(() => {
     const map = mapRef.current;
 
-    if (!isMapReady || !map) {
+    if (!map || !isMapReady) {
       return;
     }
 
-    /**
-     * Full Quiz uses the entire GeoJSON source and therefore needs no filter.
+    /*
+     * Full Quiz uses the complete GeoJSON source and therefore requires no
+     * active-group filter.
      */
     if (featureIds === null) {
-      for (const layerId of FILTERED_FEATURE_LAYER_IDS) {
-        if (map.getLayer(layerId)) {
-          map.setFilter(layerId, null);
-        }
-      }
+      applyGroupFilter(map, null);
 
       return;
     }
 
     /*
-     * Filtered groups require the same stable source property used to promote
-     * feature IDs.
+     * Filtered groups require the stable source property used to identify
+     * geographic features consistently with React-side group resolution.
      */
     if (!promoteId) {
       return;
     }
 
     /*
-     * Restrict each geographic layer to features whose promoted-ID source
-     * property belongs to the active group.
+     * Stable feature IDs are normalized to strings throughout the grouping
+     * system, so normalize the GeoJSON source value before comparing it with
+     * the resolved ID list.
      */
     const featureFilter: FilterSpecification = [
       "in",
-      ["get", promoteId],
+      ["to-string", ["get", promoteId]],
       ["literal", featureIds],
     ];
 
-    for (const layerId of FILTERED_FEATURE_LAYER_IDS) {
-      if (map.getLayer(layerId)) {
-        map.setFilter(layerId, featureFilter);
-      }
-    }
+    applyGroupFilter(map, featureFilter);
   }, [mapRef, isMapReady, promoteId, featureIds]);
 }

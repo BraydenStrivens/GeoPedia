@@ -1,17 +1,24 @@
 /**
- * Provides reusable constants for identifying and displaying US states.
+ * Provides reusable names for US subdivisions identified by postal
+ * abbreviation.
  *
  * GeoJSON datasets should prefer two-letter postal abbreviations when
- * practical. These mappings allow those compact identifiers to be converted
- * into user-facing state names without duplicating that information across
- * quiz configurations.
+ * practical. This mapping allows those compact identifiers to be converted
+ * into user-facing subdivision names without duplicating display information
+ * across quiz configurations.
+ *
+ * The mapping includes:
+ *
+ * - The 50 states.
+ * - The District of Columbia.
+ * - US territories represented by standard postal abbreviations.
  */
 
 /**
- * Maps US postal abbreviations to their full state names.
+ * Maps US postal abbreviations to their full subdivision names.
  *
- * This is useful when a GeoJSON property stores state identifiers as postal
- * abbreviations while the interface should display full state names.
+ * This is used when a GeoJSON property stores subdivision identifiers as
+ * postal abbreviations while the interface should display their full names.
  */
 export const US_SUBDIVISION_NAMES_BY_ABBREVIATION: Record<
   string,
@@ -69,7 +76,7 @@ export const US_SUBDIVISION_NAMES_BY_ABBREVIATION: Record<
   WI: "Wisconsin",
   WY: "Wyoming",
 
-  // Territories
+  // District and territories
   AS: "American Samoa",
   DC: "District of Columbia",
   GU: "Guam",
