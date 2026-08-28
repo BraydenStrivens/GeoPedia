@@ -24,7 +24,13 @@ import type { RefObject } from "react";
 import { useEffect, useRef, useState } from "react";
 
 import { setupMapInteractions } from "@/maps/interactions/setupMapInteractions";
+import {
+  addCountryLabelLayers,
+  updateCountryLabelFilter,
+} from "@/maps/layers/countryLabelLayers";
 import { addMapLayers } from "@/maps/layers/mapLayers";
+import { addTownLayers } from "@/maps/layers/townLayers";
+import { registerPmtilesProtocol } from "@/maps/pmtiles/registerPmtilesProtocol";
 import { createMapStyle } from "@/maps/style/mapStyle";
 import {
   setBaseMapBordersVisible,
@@ -194,8 +200,15 @@ export function useMap({
    * from the map configuration. Changing runtime values are supplied through
    * refs instead.
    */
-  const { style, initialView, geojsonUrl, promoteId, layers, hover } =
-    mapConfig;
+  const {
+    style,
+    initialView,
+    geojsonUrl,
+    promoteId,
+    layers,
+    hover,
+    townLabels,
+  } = mapConfig;
 
   /**
    * Creates, configures, and eventually destroys the MapLibre instance.
@@ -214,139 +227,189 @@ export function useMap({
       return;
     }
 
-    /*
-     * Convert GeoPedia's map-style configuration into the representation
-     * expected by MapLibre.
-     */
-    const mapStyle = createMapStyle(style);
+    registerPmtilesProtocol();
 
     /*
-     * Create the MapLibre map inside the React-owned container.
+     * Store the already-validated container in a separate constant so TypeScript
+     * does not need to reason about the React ref across the async boundary.
      */
-    const map = new maplibregl.Map({
-      container,
-      style: mapStyle,
-      center: initialView.center,
-      zoom: initialView.zoom,
-      attributionControl: false,
-    });
+    const mapContainer = container;
 
-    /*
-     * GeoPedia quizzes rely heavily on rapid geographic feature selection, so
-     * disable MapLibre's default double-click-to-zoom behavior.
-     */
-    map.doubleClickZoom.disable();
+    let map: maplibregl.Map | null = null;
 
-    mapRef.current = map;
+    let isCancelled = false;
 
     /**
-     * Configures GeoPedia-specific map functionality after MapLibre's base
-     * style has loaded.
+     * Creates and configures the MapLibre instance after GeoPedia has prepared
+     * the base style.
      *
-     * Sources and layers cannot safely be added before `style.load`.
+     * MapTiler styles are fetched before map creation so persisted visibility
+     * settings and quiz-sensitive label suppression can be applied before the
+     * first rendered frame.
      */
-    function handleStyleLoad(): void {
-      /*
-       * Add GeoPedia's geographic source and custom layers.
-       *
-       * Persisted Shading and Borders settings are read before layer creation
-       * so the first rendered state already reflects the user's preferences.
-       */
-      addMapLayers(map, {
-        geojsonUrl,
-        promoteId,
-        layers,
-
-        showShading: showShadingRef.current,
-
-        showBorders: showBordersRef.current,
-      });
+    async function initializeMap(): Promise<void> {
+      const mapStyle = await createMapStyle(
+        style,
+        showLabelsRef.current,
+      );
 
       /*
-       * Apply persisted visibility settings to layers supplied by the base-map
-       * style before the map is declared ready.
-       *
-       * Doing this during initial setup prevents a visible flash of default
-       * administrative borders or labels.
+       * The component may have unmounted while the remote MapTiler style was
+       * loading.
        */
-      setBaseMapBordersVisible(map, showBordersRef.current);
-
-      setBaseMapLabelsVisible(map, showLabelsRef.current);
-
-      /*
-       * Register GeoPedia's long-lived geographic interaction handlers.
-       *
-       * Changing React values are read through refs so these listeners remain
-       * installed for the lifetime of this MapLibre instance.
-       */
-      setupMapInteractions({
-        map,
-
-        clickBehaviorRef,
-        hover,
-        hoverEnabledRef,
-
-        quizRef,
-        quizModeRef,
-        currentQuestionRef,
-        answerStatusesRef,
-        answerQuestionRef,
-
-        onFeatureSelectRef,
-
-        navigateToCountry,
-        setHoveredFeatureId,
-        setHoveredFeature,
-        setIncorrectSelection,
-
-        showIncorrectSelectionRef,
-      });
-
-      /**
-       * Marks GeoPedia's custom map layers ready once the geographic source has
-       * completely loaded.
-       *
-       * `style.load` guarantees that the base style exists, but the GeoJSON
-       * source added above may still be loading asynchronously.
-       *
-       * @param event - MapLibre source-data event.
-       */
-      function handleSourceData(
-        event: maplibregl.MapSourceDataEvent,
-      ): void {
-        if (
-          event.sourceId !== FEATURE_SOURCE_ID ||
-          !event.isSourceLoaded
-        ) {
-          return;
-        }
-
-        setIsMapReady(true);
-
-        /*
-         * Readiness is only needed for the initial source load. Remove the
-         * listener once that state has been reached.
-         */
-        map.off("sourcedata", handleSourceData);
+      if (isCancelled) {
+        return;
       }
 
-      map.on("sourcedata", handleSourceData);
+      /*
+       * Use a non-null local variable for the lifetime of map setup.
+       *
+       * The outer nullable `map` exists only so the effect cleanup can remove the
+       * instance if one was successfully created.
+       */
+      const createdMap = new maplibregl.Map({
+        container: mapContainer,
+        style: mapStyle,
+        center: initialView.center,
+        zoom: initialView.zoom,
+        attributionControl: false,
+      });
+
+      map = createdMap;
+
+      mapRef.current = createdMap;
+
+      /*
+       * GeoPedia quizzes rely heavily on rapid geographic feature selection, so
+       * disable MapLibre's default double-click-to-zoom behavior.
+       */
+      createdMap.doubleClickZoom.disable();
+
+      const handleCountryLabelZoom = (): void => {
+        updateCountryLabelFilter(createdMap, createdMap.getZoom());
+      };
+
+      createdMap.on("zoomend", handleCountryLabelZoom);
+
+      /**
+       * Configures GeoPedia-specific functionality after MapLibre's prepared
+       * base style has loaded.
+       *
+       * Sources and layers cannot safely be added before `style.load`.
+       */
+      function handleStyleLoad(): void {
+        /*
+         * Add GeoPedia's geographic source and custom layers.
+         *
+         * Persisted Shading and Borders settings are read before layer creation
+         * so the first rendered state already reflects the user's preferences.
+         */
+        addMapLayers(createdMap, {
+          geojsonUrl,
+          promoteId,
+          layers,
+          showShading: showShadingRef.current,
+          showBorders: showBordersRef.current,
+        });
+
+        /*
+         * Add GeoPedia-controlled contextual town labels when this map enables
+         * them.
+         */
+        if (townLabels) {
+          addTownLayers(createdMap, townLabels);
+
+          addCountryLabelLayers(createdMap);
+          updateCountryLabelFilter(createdMap, createdMap.getZoom());
+        }
+
+        /*
+         * Apply persisted visibility settings to layers supplied by the base-map
+         * style.
+         *
+         * The initial style was already prepared with these values before map
+         * creation. These calls keep runtime layer state consistent after style
+         * loading.
+         */
+        setBaseMapBordersVisible(createdMap, showBordersRef.current);
+
+        setBaseMapLabelsVisible(createdMap, showLabelsRef.current);
+
+        /*
+         * Register GeoPedia's long-lived geographic interaction handlers.
+         *
+         * Changing React values are read through refs so these listeners remain
+         * installed for the lifetime of this MapLibre instance.
+         */
+        setupMapInteractions({
+          map: createdMap,
+          clickBehaviorRef,
+          hover,
+
+          hoverEnabledRef,
+          quizRef,
+          quizModeRef,
+          currentQuestionRef,
+          answerStatusesRef,
+          answerQuestionRef,
+          onFeatureSelectRef,
+
+          navigateToCountry,
+
+          setHoveredFeatureId,
+          setHoveredFeature,
+          setIncorrectSelection,
+
+          showIncorrectSelectionRef,
+        });
+
+        /**
+         * Marks GeoPedia's custom map layers ready once the geographic source has
+         * completely loaded.
+         *
+         * `style.load` guarantees that the base style exists, but the GeoJSON
+         * source added above may still be loading asynchronously.
+         *
+         * @param event - MapLibre source-data event.
+         */
+        function handleSourceData(
+          event: maplibregl.MapSourceDataEvent,
+        ): void {
+          if (
+            event.sourceId !== FEATURE_SOURCE_ID ||
+            !event.isSourceLoaded
+          ) {
+            return;
+          }
+
+          setIsMapReady(true);
+
+          /* Readiness is only needed for the initial source load. */
+          createdMap.off("sourcedata", handleSourceData);
+        }
+
+        createdMap.on("sourcedata", handleSourceData);
+      }
+
+      createdMap.on("style.load", handleStyleLoad);
     }
 
-    map.on("style.load", handleStyleLoad);
+    void initializeMap();
 
     /**
      * Destroys everything owned by this MapLibre instance.
      *
-     * Cleanup runs when the component unmounts or when a static map dependency
-     * changes and this effect must create a replacement map.
+     * Cleanup may run before the asynchronous style fetch finishes. In that
+     * situation `map` remains null and no MapLibre instance needs removal.
      */
     return () => {
+      isCancelled = true;
+
       mapRef.current = null;
 
       setIsMapReady(false);
 
-      map.remove();
+      map?.remove();
     };
   }, [
     containerRef,
@@ -357,10 +420,11 @@ export function useMap({
     promoteId,
     layers,
     hover,
+    townLabels,
 
     /*
-     * These dependencies are stable refs or callbacks. Their `.current`
-     * values may change without causing this lifecycle effect to rerun.
+     * These dependencies are stable refs or callbacks. Their `.current` values
+     * may change without causing this lifecycle effect to rerun.
      */
     clickBehaviorRef,
     hoverEnabledRef,

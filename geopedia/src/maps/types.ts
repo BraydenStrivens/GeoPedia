@@ -147,6 +147,21 @@ export type IncorrectSelection = {
 };
 
 /**
+ * Defines optional GeoPedia-controlled town labels rendered above the base map.
+ *
+ * Town labels use a separate point GeoJSON source from the quiz's geographic
+ * feature source so the same town dataset can be reused across many maps and
+ * future point-distance town quizzes.
+ */
+export type TownLabelConfig = {
+  /** URL of the PMTiles archive containing contextual town labels. */
+  pmtilesUrl: string;
+
+  /** Vector-tile layer containing settlement features. */
+  sourceLayer: string;
+};
+
+/**
  * Defines the data, appearance, initial camera state, and supported
  * interactions of a GeoPedia map.
  *
@@ -196,4 +211,11 @@ export type MapConfig = {
 
   /** Optional Show Answers label-density configuration for large maps. */
   answerLabels?: AnswerLabelConfig;
+
+  /**
+   * Optional GeoPedia-controlled town-label configuration.
+   *
+   * Maps without this configuration rely entirely on the base style's labels.
+   */
+  townLabels?: TownLabelConfig;
 };

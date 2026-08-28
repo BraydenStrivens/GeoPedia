@@ -17,7 +17,7 @@ import type { MapConfig } from "../../types";
  */
 export const usStatesMap: MapConfig = {
   id: "us-states",
-  geojsonUrl: "/data/us-states.geojson",
+  geojsonUrl: "/data/geojson/usa/us-states.geojson",
   featureProperty: "name",
 
   style: {
@@ -52,5 +52,11 @@ export const usStatesMap: MapConfig = {
     enabled: true,
     color: "#4e4e4e",
     labelProperty: "name",
+  },
+
+  townLabels: {
+    pmtilesUrl: "pmtiles:///data/tiles/world_towns.pmtiles",
+
+    sourceLayer: "town_labels",
   },
 };

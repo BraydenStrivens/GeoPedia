@@ -12,9 +12,12 @@
     "process-geojson": "tsx scripts/process-us-states.ts"
   },
   "dependencies": {
+    "@turf/area": "^7.4.0",
+    "@turf/boolean-point-in-polygon": "^7.4.0",
     "@turf/point-on-feature": "^7.4.0",
     "maplibre-gl": "^6.4.1",
     "next": "16.3.1",
+    "pmtiles": "^4.5.0",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
@@ -29,6 +32,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-simple-import-sort": "^14.0.0",
     "mapshaper": "^0.7.54",
+    "osm-pbf-parser": "^2.3.0",
     "prettier": "^3.9.6",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "tailwindcss": "^4",

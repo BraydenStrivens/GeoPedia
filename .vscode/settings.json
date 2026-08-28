@@ -1,4 +1,9 @@
 {
+  "java.project.sourcePaths": ["scripts/process/towns/vector"],
+
+  "java.project.outputPath": "tools/planetiler/classes",
+
+  "java.project.referencedLibraries": ["tools/planetiler/planetiler.jar"],
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "css.lint.unknownAtRules": "ignore",

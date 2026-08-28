@@ -11,10 +11,69 @@
 import type * as maplibregl from "maplibre-gl";
 
 /**
- * Shows or hides all symbol layers supplied by the base-map style.
+ * Determines whether a MapTiler base-map symbol layer should always remain
+ * hidden in GeoPedia.
  *
- * MapLibre styles generally use symbol layers for city names, state names,
- * road labels, water labels, points of interest, and similar map text/icons.
+ * GeoPedia supplies its own settlement labels, and administrative place labels
+ * can reveal quiz answers. Only layers originating from MapTiler's `place`
+ * source-layer are considered here, so GeoPedia's own custom symbol layers are
+ * never accidentally hidden.
+ *
+ * Country and continent labels are allowed to remain visible.
+ *
+ * @param layer - MapLibre style layer being inspected.
+ * @returns Whether GeoPedia should permanently suppress the layer.
+ */
+export function isQuizRelevantBaseMapLabelLayer(
+  layer: maplibregl.LayerSpecification,
+): boolean {
+  if (layer.type !== "symbol") {
+    return false;
+  }
+
+  const source = layer.source;
+
+  const sourceLayer = layer["source-layer"];
+
+  /*
+   * Ignore every GeoPedia-controlled symbol layer.
+   *
+   * MapTiler's streets style uses the `maptiler_planet` vector source and
+   * `place` source-layer for geographic place labels.
+   */
+  if (source !== "maptiler_planet" || sourceLayer !== "place") {
+    return false;
+  }
+
+  const layerId = layer.id.toLowerCase();
+
+  /*
+   * Country/continent names are contextual rather than quiz-feature labels and
+   * may remain visible.
+   */
+  if (layerId.includes("continent")) {
+    return false;
+  }
+
+  /*
+   * Hide all other MapTiler `place` labels:
+   *
+   * - cities
+   * - capitals
+   * - towns
+   * - villages
+   * - hamlets
+   * - states/provinces
+   * - other local populated-place labels
+   */
+  return true;
+}
+
+/**
+ * Shows or hides non-quiz-relevant symbol layers supplied by the base map.
+ *
+ * Settlement and state/province labels always remain hidden because GeoPedia
+ * either replaces them or must prevent them from revealing quiz answers.
  *
  * @param map - MapLibre map whose base-style labels should be updated.
  * @param shouldShowLabels - Whether base-map symbol layers should be visible.
@@ -27,6 +86,12 @@ export function setBaseMapLabelsVisible(
 
   for (const layer of styleLayers) {
     if (layer.type !== "symbol") {
+      continue;
+    }
+
+    if (isQuizRelevantBaseMapLabelLayer(layer)) {
+      map.setLayoutProperty(layer.id, "visibility", "none");
+
       continue;
     }
 

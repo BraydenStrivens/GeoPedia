@@ -12,6 +12,16 @@
 export const FEATURE_SOURCE_ID = "features";
 
 /**
+ * GeoJSON source containing GeoPedia's contextual town-label points.
+ */
+export const TOWN_SOURCE_ID = "towns";
+
+/**
+ * Symbol layer displaying GeoPedia-controlled town names.
+ */
+export const TOWN_LABEL_LAYER_ID = "town-labels";
+
+/**
  * Main geographic fill layer used for normal map shading and quiz-result
  * coloring.
  */
