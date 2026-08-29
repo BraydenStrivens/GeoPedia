@@ -355,6 +355,8 @@ export default function Map({
     mapRef,
     isMapReady,
 
+    baseMapLayers: mapConfig.baseMapLayers,
+
     showLabels: shouldShowLabels,
 
     showBorders: shouldShowBorders,

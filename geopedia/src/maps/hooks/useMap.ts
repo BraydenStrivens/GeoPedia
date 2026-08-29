@@ -26,10 +26,7 @@ import { useEffect, useRef, useState } from "react";
 import { setupMapInteractions } from "@/maps/interactions/setupMapInteractions";
 import { addMapLayers } from "@/maps/layers/mapLayers";
 import { createMapStyle } from "@/maps/style/mapStyle";
-import {
-  setBaseMapBordersVisible,
-  setBaseMapLabelsVisible,
-} from "@/maps/style/mapStyleVisibility";
+import { applyBaseMapLayerVisibility } from "@/maps/style/mapStyleVisibility";
 import type {
   HoveredFeature,
   IncorrectSelection,
@@ -142,6 +139,70 @@ type UseMapResult = {
 };
 
 /**
+ * Configures MapTiler place labels to show a Latin/English name together with
+ * the native-script name when MapTiler provides both forms.
+ *
+ * The existing MapTiler layers retain all of their original placement,
+ * collision, ranking, zoom, font-size, and marker behavior. Only their
+ * `text-field` expressions are changed.
+ */
+function configureBaseMapPlaceNames(map: maplibregl.Map): void {
+  const placeLabelLayerIds = [
+    "Country labels",
+    "State labels",
+    "Capital city labels",
+    "City labels",
+    "Town labels",
+    "Place labels",
+  ];
+
+  const bilingualNameExpression: maplibregl.ExpressionSpecification =
+    [
+      "case",
+
+      /*
+       * MapTiler supplies `name:nonlatin` for places whose native name uses a
+       * non-Latin writing system. In that case, display the Latin name first and
+       * the native-script name underneath it.
+       */
+      ["has", "name:nonlatin"],
+      [
+        "concat",
+        [
+          "coalesce",
+          ["get", "name:latin"],
+          ["get", "name:en"],
+          ["get", "name"],
+        ],
+        "\n",
+        ["get", "name:nonlatin"],
+      ],
+
+      /*
+       * Places without a non-Latin native name remain single-line labels.
+       */
+      [
+        "coalesce",
+        ["get", "name:latin"],
+        ["get", "name:en"],
+        ["get", "name"],
+      ],
+    ];
+
+  for (const layerId of placeLabelLayerIds) {
+    if (!map.getLayer(layerId)) {
+      continue;
+    }
+
+    map.setLayoutProperty(
+      layerId,
+      "text-field",
+      bilingualNameExpression,
+    );
+  }
+}
+
+/**
  * Creates, configures, and owns a MapLibre map instance.
  *
  * The map is recreated only when dependencies that fundamentally define the
@@ -194,8 +255,15 @@ export function useMap({
    * from the map configuration. Changing runtime values are supplied through
    * refs instead.
    */
-  const { style, initialView, geojsonUrl, promoteId, layers, hover } =
-    mapConfig;
+  const {
+    style,
+    baseMapLayers,
+    initialView,
+    geojsonUrl,
+    promoteId,
+    layers,
+    hover,
+  } = mapConfig;
 
   /**
    * Creates, configures, and eventually destroys the MapLibre instance.
@@ -247,6 +315,12 @@ export function useMap({
      */
     function handleStyleLoad(): void {
       /*
+       * Configure MapTiler's existing place labels before adding GeoPedia's
+       * geographic layers.
+       */
+      configureBaseMapPlaceNames(map);
+
+      /*
        * Add GeoPedia's geographic source and custom layers.
        *
        * Persisted Shading and Borders settings are read before layer creation
@@ -265,13 +339,13 @@ export function useMap({
       /*
        * Apply persisted visibility settings to layers supplied by the base-map
        * style before the map is declared ready.
-       *
-       * Doing this during initial setup prevents a visible flash of default
-       * administrative borders or labels.
        */
-      setBaseMapBordersVisible(map, showBordersRef.current);
-
-      setBaseMapLabelsVisible(map, showLabelsRef.current);
+      applyBaseMapLayerVisibility(
+        map,
+        baseMapLayers,
+        showLabelsRef.current,
+        showBordersRef.current,
+      );
 
       /*
        * Register GeoPedia's long-lived geographic interaction handlers.
@@ -352,6 +426,7 @@ export function useMap({
     containerRef,
 
     style,
+    baseMapLayers,
     initialView,
     geojsonUrl,
     promoteId,

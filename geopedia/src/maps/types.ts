@@ -147,6 +147,34 @@ export type IncorrectSelection = {
 };
 
 /**
+ * Controls which contextual labels and administrative boundaries supplied by
+ * the base-map style are available on a GeoPedia map.
+ *
+ * Every property is optional and defaults to `true`. Map configurations only
+ * need to specify categories they want to hide.
+ *
+ * These values describe the map itself rather than a user's runtime display
+ * preferences. Global settings such as Show Labels and Show Borders may still
+ * hide categories that a map configuration allows.
+ */
+export type BaseMapLayerVisibilityConfig = {
+  /** Whether country-name labels supplied by the base map are visible. */
+  countryLabels?: boolean;
+
+  /** Whether state, province, and other first-level subdivision labels are visible. */
+  subdivisionLabels?: boolean;
+
+  /** Whether settlement labels such as capitals, cities, towns, and villages are visible. */
+  townLabels?: boolean;
+
+  /** Whether international/country boundaries supplied by the base map are visible. */
+  countryBorders?: boolean;
+
+  /** Whether internal administrative subdivision boundaries are visible. */
+  subdivisionBorders?: boolean;
+};
+
+/**
  * Defines the data, appearance, initial camera state, and supported
  * interactions of a GeoPedia map.
  *
@@ -171,6 +199,14 @@ export type MapConfig = {
 
   /** Base visual style rendered underneath GeoPedia's geographic layers. */
   style: MapStyle;
+
+  /**
+   * Optional visibility overrides for labels and administrative boundaries
+   * supplied by the base-map style.
+   *
+   * Omitted values default to visible.
+   */
+  baseMapLayers?: BaseMapLayerVisibilityConfig;
 
   /**
    * GeoJSON property promoted by MapLibre to `feature.id`.

@@ -24,6 +24,15 @@ export const usStatesMap: MapConfig = {
     type: "maptiler",
   },
 
+  baseMapLayers: {
+    countryLabels: true,
+    subdivisionLabels: false,
+    townLabels: true,
+
+    countryBorders: true,
+    subdivisionBorders: true,
+  },
+
   /*
    * Promotes each state's abbreviation to MapLibre's feature ID so
    * feature-state operations such as hover highlighting can reliably

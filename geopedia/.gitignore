@@ -22,6 +22,8 @@
 
 # large data files
 /data
+/public/data/geojson/world/towns.geojson
+/public/data/tiles/world_towns.pmtiles
 
 # misc
 .DS_Store

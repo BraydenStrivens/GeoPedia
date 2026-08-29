@@ -9,10 +9,8 @@ import type { Map as MapLibreMap } from "maplibre-gl";
 import type { RefObject } from "react";
 import { useEffect } from "react";
 
-import {
-  setBaseMapBordersVisible,
-  setBaseMapLabelsVisible,
-} from "@/maps/style/mapStyleVisibility";
+import { applyBaseMapLayerVisibility } from "@/maps/style/mapStyleVisibility";
+import type { BaseMapLayerVisibilityConfig } from "@/maps/types";
 
 /**
  * Values required to synchronize runtime display settings.
@@ -24,26 +22,39 @@ type UseMapDisplaySettingsParams = {
   /** Whether GeoPedia's geographic source and layers are ready. */
   isMapReady: boolean;
 
-  /** Whether base-map labels should be visible. */
+  /**
+   * Map-specific visibility permissions for contextual base-map layers.
+   *
+   * Omitted values default to visible.
+   */
+  baseMapLayers?: BaseMapLayerVisibilityConfig;
+
+  /** Global master switch controlling base-map labels. */
   showLabels: boolean;
 
-  /** Whether geographic borders should be visible. */
+  /** Global master switch controlling geographic borders. */
   showBorders: boolean;
 };
 
 /**
  * Applies runtime label and border setting changes to the existing map.
  *
+ * Map-specific base-layer visibility and user display settings are combined
+ * rather than applied independently. A layer is visible only when both the
+ * map configuration permits it and the corresponding global setting is on.
+ *
  * @param params - Map readiness and display settings to synchronize.
  */
 export function useMapDisplaySettings({
   mapRef,
   isMapReady,
+  baseMapLayers,
   showLabels,
   showBorders,
 }: UseMapDisplaySettingsParams): void {
   /**
-   * Synchronizes the visibility of symbol layers supplied by the base style.
+   * Synchronizes contextual labels and administrative boundaries supplied by
+   * the base-map style.
    */
   useEffect(() => {
     const map = mapRef.current;
@@ -52,12 +63,20 @@ export function useMapDisplaySettings({
       return;
     }
 
-    setBaseMapLabelsVisible(map, showLabels);
-  }, [mapRef, isMapReady, showLabels]);
+    applyBaseMapLayerVisibility(
+      map,
+      baseMapLayers,
+      showLabels,
+      showBorders,
+    );
+  }, [mapRef, isMapReady, baseMapLayers, showLabels, showBorders]);
 
   /**
-   * Synchronizes both GeoPedia feature borders and administrative boundaries
-   * supplied by the base-map style.
+   * Synchronizes GeoPedia's own geographic feature-border layer.
+   *
+   * This layer is separate from administrative boundaries supplied by the
+   * base-map style and therefore follows only GeoPedia's global Borders
+   * setting.
    */
   useEffect(() => {
     const map = mapRef.current;
@@ -66,14 +85,10 @@ export function useMapDisplaySettings({
       return;
     }
 
-    /* GeoPedia geographic feature borders */
     map.setLayoutProperty(
       "features-borders",
       "visibility",
       showBorders ? "visible" : "none",
     );
-
-    /* Administrative boundaries supplied by the base-map style */
-    setBaseMapBordersVisible(map, showBorders);
   }, [mapRef, isMapReady, showBorders]);
 }
