@@ -7,7 +7,6 @@
  */
 
 import BaseWorldNavigationMap from "@/components/map/BaseWorldNavigationMap";
-import Map from "@/components/map/QuizMap";
 import { worldMap } from "@/maps/configs/worldMap";
 
 /**
