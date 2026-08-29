@@ -178,9 +178,7 @@ function configureBaseMapPlaceNames(map: maplibregl.Map): void {
         ["get", "name:nonlatin"],
       ],
 
-      /*
-       * Places without a non-Latin native name remain single-line labels.
-       */
+      /* Places without a non-Latin native name remain single-line labels. */
       [
         "coalesce",
         ["get", "name:latin"],

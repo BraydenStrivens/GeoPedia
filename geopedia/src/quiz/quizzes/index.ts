@@ -23,6 +23,27 @@ const countryQuizzes = {
 };
 
 /**
+ * Determines whether a country currently has at least one registered quiz.
+ *
+ * @param countryId - Country to check.
+ * @returns Whether at least one quiz is registered for the country.
+ */
+export function hasCountryQuizzes(countryId: string): boolean {
+  return getCountryQuizzes(countryId).length > 0;
+}
+
+/**
+ * Returns the IDs of every country that currently has registered quizzes.
+ *
+ * @returns Country IDs containing at least one quiz.
+ */
+export function getCountryIdsWithQuizzes(): string[] {
+  return Object.entries(countryQuizzes)
+    .filter(([, quizzes]) => quizzes.length > 0)
+    .map(([countryId]) => countryId);
+}
+
+/**
  * Returns every quiz registered for a country.
  *
  * Country IDs are normalized to lowercase so routing and map data can use

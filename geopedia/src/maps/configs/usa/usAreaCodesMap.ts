@@ -11,7 +11,7 @@ import type { MapConfig } from "@/maps/types";
 
 export const usAreaCodesMap: MapConfig = {
   id: "us-area-codes",
-  geojsonUrl: "/data/us-area-codes.geojson",
+  geojsonUrl: "/data/geojson/usa/us-area-codes.geojson",
 
   featureProperty: "id",
 
