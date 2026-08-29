@@ -1,35 +1,29 @@
 /**
- * Defines the shared state and dependencies used by GeoPedia's MapLibre
- * interaction modules.
+ * Defines the state and dependencies used by GeoPedia's quiz-map interaction
+ * modules.
  *
- * Click and hover handlers are installed for the lifetime of a MapLibre map.
- * React values that may change during that lifetime are therefore supplied
- * through refs so handlers can always read current state without requiring the
- * map or its listeners to be recreated.
- *
- * This shared context is consumed by:
- *
- * - Click interactions.
- * - Hover interactions.
- * - Navigation-map behavior.
- * - Quiz interaction.
- * - Manual feature selection.
+ * Quiz interaction listeners remain installed for the lifetime of the current
+ * MapLibre map. React values that may change during that lifetime are supplied
+ * through refs so handlers can read current state without being recreated.
  */
 
 import type * as maplibregl from "maplibre-gl";
 import type { RefObject } from "react";
 
-import type {
-  HoverConfig,
-  HoveredFeature,
-  IncorrectSelection,
-  MapClickBehavior,
-} from "@/maps/types";
+import type { HoverConfig, IncorrectSelection } from "@/maps/types";
 import type { AnswerStatus, Quiz, QuizQuestion } from "@/types/quiz";
 import type { QuizMode } from "@/types/quizSettings";
 
 /**
- * Mutable hover identity shared by click and hover interaction handlers.
+ * Click behaviors supported specifically by `QuizMap`.
+ *
+ * Navigation is intentionally absent because the world-navigation map owns its
+ * own interaction system.
+ */
+export type QuizMapClickBehavior = "quiz" | "select" | "none";
+
+/**
+ * Mutable hover identity shared by quiz click and hover handlers.
  *
  * GeoPedia stores this identity as a normalized string so React-side hover
  * state, Show Answers labels, and quiz interaction all use one consistent
@@ -41,27 +35,22 @@ export type FeatureHoverState = {
 };
 
 /**
- * Dependencies required by GeoPedia's geographic map interaction system.
+ * Dependencies required by GeoPedia's quiz-map interaction system.
  */
-export type MapInteractionContext = {
+export type QuizMapInteractionContext = {
   /*
    * Map instance.
    */
 
-  /** MapLibre map receiving geographic interaction handlers. */
+  /** MapLibre map receiving quiz interaction handlers. */
   map: maplibregl.Map;
 
   /*
    * Runtime interaction state.
    */
 
-  /**
-   * Current behavior performed when a geographic feature is clicked.
-   *
-   * The value may switch between navigation, quiz, manual selection, and
-   * disabled interaction without reinstalling MapLibre listeners.
-   */
-  clickBehaviorRef: RefObject<MapClickBehavior>;
+  /** Current behavior performed when a geographic feature is clicked. */
+  clickBehaviorRef: RefObject<QuizMapClickBehavior>;
 
   /** Static hover configuration supported by the map. */
   hover?: HoverConfig;
@@ -74,7 +63,7 @@ export type MapInteractionContext = {
    */
 
   /** Latest quiz definition associated with the map. */
-  quizRef: RefObject<Quiz | undefined>;
+  quizRef: RefObject<Quiz>;
 
   /** Latest Normal/Hard quiz mode. */
   quizModeRef: RefObject<QuizMode>;
@@ -85,7 +74,7 @@ export type MapInteractionContext = {
   /** Latest completion result for every answered quiz question. */
   answerStatusesRef: RefObject<Record<string, AnswerStatus>>;
 
-  /** Current function used to submit the result of a geographic quiz selection. */
+  /** Current function used to submit a geographic quiz selection. */
   answerQuestionRef: RefObject<(isCorrect: boolean) => void>;
 
   /** Determines whether incorrect selections display their actual answer. */
@@ -109,10 +98,4 @@ export type MapInteractionContext = {
   setIncorrectSelection: (
     selection: IncorrectSelection | null,
   ) => void;
-
-  /** Navigates to the country represented by a navigation-map feature. */
-  navigateToCountry: (countryId: string) => void;
-
-  /** Updates the floating hover label used by navigation maps. */
-  setHoveredFeature: (feature: HoveredFeature | null) => void;
 };

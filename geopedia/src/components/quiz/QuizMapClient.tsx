@@ -21,11 +21,11 @@
 
 import { useState, useSyncExternalStore } from "react";
 
-import Map from "@/components/map/Map";
+import QuizMap from "@/components/map/QuizMap";
 import QuizPanelControls from "@/components/quiz/controls/QuizPanelControls";
 import QuizGroupsPanel from "@/components/quiz/groupings/QuizGroupsPanel";
 import QuizSettingsPanel from "@/components/quiz/QuizSettingsPanel";
-import type { MapClickBehavior, MapConfig } from "@/maps/types";
+import type { MapConfig, QuizMapClickBehavior } from "@/maps/types";
 import { useActiveQuizGroup } from "@/quiz/groupings/hooks/useActiveQuizGroup";
 import { useManualGroupSelection } from "@/quiz/groupings/hooks/useManualGroupSelection";
 import { useQuizGroupingData } from "@/quiz/groupings/hooks/useQuizGroupingData";
@@ -165,7 +165,7 @@ function HydratedQuizMapClient({
    * Manual-selection mode temporarily replaces normal quiz clicking with
    * feature-selection behavior.
    */
-  const mapClickBehavior: MapClickBehavior = isSelecting
+  const mapClickBehavior: QuizMapClickBehavior = isSelecting
     ? "select"
     : "quiz";
 
@@ -387,7 +387,7 @@ function HydratedQuizMapClient({
   return (
     <div className="relative h-full w-full">
       {/* Interactive quiz map */}
-      <Map
+      <QuizMap
         mapConfig={mapConfig}
         quiz={activeQuiz}
         quizSettings={settings}

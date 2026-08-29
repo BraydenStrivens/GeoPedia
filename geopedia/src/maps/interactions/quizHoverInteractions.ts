@@ -1,16 +1,17 @@
 /**
- * Registers and manages geographic feature hover behavior.
+ * Registers and manages quiz-map geographic hover behavior.
  *
  * Hover interactions control:
  *
  * - MapLibre feature-state highlighting.
- * - Navigation-map hover labels.
  * - Completed-feature restrictions in Normal Mode.
  * - The hovered feature ID used by Show Answers labels.
  *
- * Runtime values are read through refs so hover behavior can change without
- * reinstalling the MapLibre event handlers.
+ * Navigation-map hover labels are intentionally handled by the separate world
+ * navigation interaction system.
  */
+
+import type * as maplibregl from "maplibre-gl";
 
 import {
   FEATURE_FILL_LAYER_ID,
@@ -23,21 +24,25 @@ import {
 } from "./featureAnswers";
 import type {
   FeatureHoverState,
-  MapInteractionContext,
-} from "./interactionTypes";
+  QuizMapInteractionContext,
+} from "./quizInteractionTypes";
+
+/**
+ * MapLibre mouse event produced by an event registered against a geographic
+ * layer.
+ */
+type FeatureMouseEvent = maplibregl.MapMouseEvent & {
+  features?: maplibregl.MapGeoJSONFeature[];
+};
 
 /**
  * Clears MapLibre and React hover state for the currently hovered feature.
  *
- * @param context - Shared map interaction dependencies.
+ * @param context - Shared quiz-map interaction dependencies.
  * @param hoverState - Mutable feature hover state.
  */
 function clearFeatureHover(
-  {
-    map,
-    setHoveredFeature,
-    setHoveredFeatureId,
-  }: MapInteractionContext,
+  { map, setHoveredFeatureId }: QuizMapInteractionContext,
   hoverState: FeatureHoverState,
 ): void {
   if (hoverState.featureId !== null) {
@@ -55,20 +60,20 @@ function clearFeatureHover(
   }
 
   setHoveredFeatureId(null);
-  setHoveredFeature(null);
 }
 
 /**
- * Registers mousemove and mouseleave behavior for GeoPedia's primary
+ * Registers mousemove and mouseleave behavior for a quiz map's primary
  * geographic feature layer.
  *
- * @param context - Shared map interaction dependencies.
+ * @param context - Shared quiz-map interaction dependencies.
  * @param hoverState - Mutable hover state shared with click interactions.
+ * @returns Cleanup function removing the registered listeners.
  */
-export function registerHoverInteractions(
-  context: MapInteractionContext,
+export function registerQuizHoverInteractions(
+  context: QuizMapInteractionContext,
   hoverState: FeatureHoverState,
-): void {
+): () => void {
   const {
     map,
     hover,
@@ -77,15 +82,14 @@ export function registerHoverInteractions(
     quizRef,
     quizModeRef,
     answerStatusesRef,
-    setHoveredFeature,
     setHoveredFeatureId,
   } = context;
 
   if (!hover?.enabled) {
-    return;
+    return () => {};
   }
 
-  map.on("mousemove", FEATURE_FILL_LAYER_ID, (event) => {
+  function handleMouseMove(event: FeatureMouseEvent): void {
     /*
      * Runtime settings may disable hover after these event handlers were
      * installed. Clear any existing hover immediately when that happens.
@@ -112,15 +116,11 @@ export function registerHoverInteractions(
       return;
     }
 
-    /*
-     * GeoPedia normalizes stable feature identity to strings for React-side
-     * state and Show Answers label matching.
-     */
     const normalizedFeatureId = String(featureId);
 
     /*
-     * Remove hover from the previously highlighted feature before moving
-     * hover state to another feature.
+     * Remove hover from the previously highlighted feature before moving hover
+     * state to another feature.
      */
     if (
       hoverState.featureId !== null &&
@@ -146,12 +146,13 @@ export function registerHoverInteractions(
      * Hard Mode keeps all features hoverable to avoid revealing information
      * through answer elimination.
      *
-     * Show Answers uses click behavior "none", so it bypasses this completed-
-     * feature restriction and keeps hover available for answer labels.
+     * Show Answers uses click behavior `none`, so it bypasses this restriction
+     * while retaining hover for answer labels.
      */
-    if (clickBehavior === "quiz" && quizRef.current) {
-      const featureValue =
-        feature.properties?.[quizRef.current.answerProperty];
+    if (clickBehavior === "quiz") {
+      const quiz = quizRef.current;
+
+      const featureValue = feature.properties?.[quiz.answerProperty];
 
       const featureAnswers = getFeatureAnswers(featureValue);
 
@@ -174,10 +175,6 @@ export function registerHoverInteractions(
 
     setHoveredFeatureId(normalizedFeatureId);
 
-    /*
-     * MapLibre receives the original string-or-number feature ID, while React
-     * stores the normalized string representation.
-     */
     map.setFeatureState(
       {
         source: FEATURE_SOURCE_ID,
@@ -187,29 +184,21 @@ export function registerHoverInteractions(
         hover: true,
       },
     );
+  }
 
-    /*
-     * Navigation maps additionally display a floating geographic name beside
-     * the pointer. Quiz maps and Show Answers use hover without this label.
-     */
-    if (clickBehavior !== "navigate") {
-      return;
-    }
-
-    const hoverLabel = feature.properties?.[hover.labelProperty];
-
-    if (typeof hoverLabel !== "string") {
-      return;
-    }
-
-    setHoveredFeature({
-      name: hoverLabel,
-      x: event.point.x,
-      y: event.point.y,
-    });
-  });
-
-  map.on("mouseleave", FEATURE_FILL_LAYER_ID, () => {
+  function handleMouseLeave(): void {
     clearFeatureHover(context, hoverState);
-  });
+  }
+
+  map.on("mousemove", FEATURE_FILL_LAYER_ID, handleMouseMove);
+
+  map.on("mouseleave", FEATURE_FILL_LAYER_ID, handleMouseLeave);
+
+  return () => {
+    map.off("mousemove", FEATURE_FILL_LAYER_ID, handleMouseMove);
+
+    map.off("mouseleave", FEATURE_FILL_LAYER_ID, handleMouseLeave);
+
+    clearFeatureHover(context, hoverState);
+  };
 }

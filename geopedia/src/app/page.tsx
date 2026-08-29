@@ -6,7 +6,8 @@
  * country navigates the user to that country's page.
  */
 
-import Map from "@/components/map/Map";
+import BaseWorldNavigationMap from "@/components/map/BaseWorldNavigationMap";
+import Map from "@/components/map/QuizMap";
 import { worldMap } from "@/maps/configs/worldMap";
 
 /**
@@ -21,7 +22,7 @@ export default function Home() {
   return (
     <main className="h-[calc(100vh-3.5rem)] w-screen">
       {/* Interactive world navigation map */}
-      <Map mapConfig={worldMap} clickBehavior="navigate" />
+      <BaseWorldNavigationMap mapConfig={worldMap} />
     </main>
   );
 }

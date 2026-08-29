@@ -1,17 +1,16 @@
 /**
- * Registers geographic feature click behavior for GeoPedia maps.
+ * Registers geographic feature click behavior specifically for quiz maps.
  *
- * A single long-lived MapLibre click handler supports multiple interaction
- * modes:
+ * Supported behaviors are:
  *
- * - Navigation maps route the selected feature to its country page.
- * - Quiz maps submit geographic answers.
- * - Manual-selection mode toggles geographic features in a draft group.
- * - Show Answers disables feature clicks entirely.
+ * - Submitting quiz answers.
+ * - Toggling features during manual group selection.
+ * - Disabling feature clicks while Show Answers is active.
  *
- * Current behavior is read through React refs so these modes can change
- * without recreating the MapLibre instance or reinstalling event listeners.
+ * Country navigation is handled independently by `BaseWorldNavigationMap`.
  */
+
+import type * as maplibregl from "maplibre-gl";
 
 import {
   FEATURE_FILL_LAYER_ID,
@@ -26,11 +25,11 @@ import {
 } from "./featureAnswers";
 import type {
   FeatureHoverState,
-  MapInteractionContext,
-} from "./interactionTypes";
+  QuizMapInteractionContext,
+} from "./quizInteractionTypes";
 
 /**
- * MapLibre feature information required by GeoPedia's click handlers.
+ * MapLibre feature information required by GeoPedia's quiz click handlers.
  */
 type ClickedMapFeature = {
   /** Stable feature ID supplied by MapLibre. */
@@ -41,26 +40,12 @@ type ClickedMapFeature = {
 };
 
 /**
- * Handles a navigation-map feature selection.
- *
- * Geographic IDs are normalized to lowercase strings because navigation map
- * IDs correspond to GeoPedia country route IDs.
- *
- * @param featureId - Geographic feature ID selected on the map.
- * @param navigateToCountry - Navigation callback.
+ * MapLibre click event produced by an event registered against a geographic
+ * layer.
  */
-function handleNavigationSelection(
-  featureId: unknown,
-  navigateToCountry: (countryId: string) => void,
-): void {
-  if (featureId === undefined || featureId === null) {
-    return;
-  }
-
-  const countryId = String(featureId).toLowerCase();
-
-  navigateToCountry(countryId);
-}
+type FeatureClickEvent = maplibregl.MapMouseEvent & {
+  features?: maplibregl.MapGeoJSONFeature[];
+};
 
 /**
  * Handles a manual-group feature selection.
@@ -91,14 +76,14 @@ function handleManualFeatureSelection(
  * Mode keeps them interactive so completed geography does not reveal
  * information about unanswered questions.
  *
- * @param context - Shared map interaction dependencies.
+ * @param context - Shared quiz-map interaction dependencies.
  * @param hoverState - Mutable hover state shared with hover interactions.
  * @param feature - Geographic feature selected by the user.
  * @param pointX - Horizontal click position used by incorrect-answer feedback.
  * @param pointY - Vertical click position used by incorrect-answer feedback.
  */
 function handleQuizSelection(
-  context: MapInteractionContext,
+  context: QuizMapInteractionContext,
   hoverState: FeatureHoverState,
   feature: ClickedMapFeature,
   pointX: number,
@@ -120,7 +105,7 @@ function handleQuizSelection(
 
   const currentQuestion = currentQuestionRef.current;
 
-  if (!quiz || !currentQuestion) {
+  if (!currentQuestion) {
     return;
   }
 
@@ -200,7 +185,6 @@ function handleQuizSelection(
   map.setFeatureState(
     {
       source: FEATURE_SOURCE_ID,
-
       id: feature.id,
     },
     {
@@ -208,10 +192,6 @@ function handleQuizSelection(
     },
   );
 
-  /*
-   * React-side hover identity is normalized to strings, matching the rest of
-   * GeoPedia's stable feature-ID handling.
-   */
   const normalizedFeatureId = String(feature.id);
 
   if (hoverState.featureId === normalizedFeatureId) {
@@ -222,27 +202,19 @@ function handleQuizSelection(
 }
 
 /**
- * Registers click behavior on GeoPedia's primary geographic feature layer.
+ * Registers click behavior on a quiz map's primary geographic feature layer.
  *
- * The handler is installed once for the lifetime of the MapLibre map. Current
- * interaction mode and quiz state are read through refs supplied by
- * `MapInteractionContext`.
- *
- * @param context - Shared MapLibre, React-ref, and callback dependencies.
+ * @param context - Shared quiz-map interaction dependencies.
  * @param hoverState - Mutable hover state shared with hover interactions.
+ * @returns Cleanup function removing the registered listener.
  */
-export function registerClickInteractions(
-  context: MapInteractionContext,
+export function registerQuizClickInteractions(
+  context: QuizMapInteractionContext,
   hoverState: FeatureHoverState,
-): void {
-  const {
-    map,
-    clickBehaviorRef,
-    onFeatureSelectRef,
-    navigateToCountry,
-  } = context;
+): () => void {
+  const { map, clickBehaviorRef, onFeatureSelectRef } = context;
 
-  map.on("click", FEATURE_FILL_LAYER_ID, (event) => {
+  function handleClick(event: FeatureClickEvent): void {
     const feature = event.features?.[0];
 
     if (!feature) {
@@ -252,20 +224,10 @@ export function registerClickInteractions(
     const clickBehavior = clickBehaviorRef.current;
 
     /*
-     * Normal Show Answers uses "none" so selecting visible answer geography
+     * Normal Show Answers uses `none` so selecting visible answer geography
      * cannot accidentally submit a quiz response.
      */
     if (clickBehavior === "none") {
-      return;
-    }
-
-    /*
-     * Navigation maps route the selected geographic feature to its country
-     * page.
-     */
-    if (clickBehavior === "navigate") {
-      handleNavigationSelection(feature.id, navigateToCountry);
-
       return;
     }
 
@@ -283,7 +245,7 @@ export function registerClickInteractions(
     }
 
     /*
-     * Any remaining supported click behavior must be quiz interaction.
+     * The only remaining supported behavior is normal quiz interaction.
      */
     if (clickBehavior !== "quiz") {
       return;
@@ -296,5 +258,11 @@ export function registerClickInteractions(
       event.point.x,
       event.point.y,
     );
-  });
+  }
+
+  map.on("click", FEATURE_FILL_LAYER_ID, handleClick);
+
+  return () => {
+    map.off("click", FEATURE_FILL_LAYER_ID, handleClick);
+  };
 }

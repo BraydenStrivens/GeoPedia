@@ -33,15 +33,13 @@ export type MapStyle =
     };
 
 /**
- * Determines what happens when the user clicks a geographic feature.
+ * Determines what happens when the user clicks a geographic feature on a QuizMap.
  *
  * - `quiz` treats the selected feature as an attempted quiz answer.
- * - `navigate` uses the feature to navigate elsewhere in GeoPedia.
  * - `select` toggles the feature in a manual quiz-group selection.
  * - `none` disables geographic feature click behavior.
  */
-export type MapClickBehavior =
-  "quiz" | "navigate" | "select" | "none";
+export type QuizMapClickBehavior = "quiz" | "select" | "none";
 
 /**
  * Defines the camera position used when a map is first displayed.
