@@ -44,7 +44,7 @@ export default function IncorrectSelectionPopup({
         "rounded-md",
         "border",
         "border-gray-300",
-        "bg-gray-300",
+        "bg-white",
         "font-semibold",
         "text-gray-900",
         "shadow-sm",
@@ -65,7 +65,7 @@ export default function IncorrectSelectionPopup({
           alt={image.alt}
           width={56}
           height={32}
-          className="block h-auto max-h-8 w-auto max-w-14 object-contain"
+          className="block h-auto max-h-8 w-auto max-w-14 object-contain border border-black"
         />
       ))}
 
