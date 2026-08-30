@@ -86,7 +86,6 @@ export const GEOGUESSR_COUNTRY_CODES = new Set<string>([
   "LTU", // Lithuania
   "LUX", // Luxembourg
   "MLT", // Malta
-  "MDA", // Moldova
   "MCO", // Monaco
   "MNE", // Montenegro
   "NLD", // Netherlands

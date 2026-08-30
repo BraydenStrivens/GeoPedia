@@ -8,4 +8,7 @@
  * available through GeoPedia's centralized global quiz registry.
  */
 
+export { callingCodesQuiz } from "./callingCodes";
+export { countryCapitalsQuiz } from "./countryCapitals";
 export { countryFlagsQuiz } from "./countryFlags";
+export { countryNamesQuiz } from "./countryNames";

@@ -1,41 +1,26 @@
 /**
- * Displays temporary feedback beside the cursor after the user selects an
- * incorrect geographic feature during a quiz.
+ * Displays temporary answer feedback above a selected geographic feature.
  *
- * The popup shows the label of the feature that was actually selected and
- * follows the cursor position captured when the incorrect selection occurred.
- * It does not capture pointer events, allowing map interaction to continue
- * normally while the feedback is visible.
+ * The popup supports the same text and image content used by Show Answers
+ * labels so image-based quizzes such as Country Flags retain the same compact
+ * visual presentation.
  */
+
+import Image from "next/image";
 
 import type { IncorrectSelection } from "@/maps/types";
 
-/**
- * Distance in pixels between the recorded cursor position and the incorrect
- * selection popup.
- *
- * The offset prevents the popup from appearing directly underneath the
- * pointer or obscuring the geographic feature that was selected.
- */
-const INCORRECT_SELECTION_POPUP_OFFSET = 12;
-
-/**
- * Props required by the incorrect selection popup.
- */
 type IncorrectSelectionPopupProps = {
-  /** Incorrect selection to display, or null when no feedback is visible. */
+  /** Temporary selected-feature feedback, or null when hidden. */
   selection: IncorrectSelection | null;
 };
 
 /**
- * Displays the label of an incorrectly selected geographic feature beside
- * the cursor.
+ * Renders temporary answer feedback at the map click position.
  *
- * Nothing is rendered when there is no active incorrect selection.
- *
- * @param props - Incorrect selection popup properties.
- * @param props.selection - Incorrect selection and its recorded cursor position.
- * @returns The incorrect-selection popup, or null when no feedback is active.
+ * @param props - Popup state.
+ * @param props.selection - Selected feature's answer content and screen position.
+ * @returns Temporary answer label, or null when no feedback is active.
  */
 export default function IncorrectSelectionPopup({
   selection,
@@ -44,17 +29,47 @@ export default function IncorrectSelectionPopup({
     return null;
   }
 
-  return (
-    /* Incorrect selection feedback */
-    <div
-      className="pointer-events-none absolute z-20 rounded-md bg-red-600/90 px-3 py-1.5 text-sm font-semibold text-white shadow-md backdrop-blur-sm"
-      style={{
-        left: selection.x + INCORRECT_SELECTION_POPUP_OFFSET,
+  const { content, x, y } = selection;
 
-        top: selection.y + INCORRECT_SELECTION_POPUP_OFFSET,
+  const hasImages = content.images.length > 0;
+
+  return (
+    <div
+      className={[
+        "pointer-events-none",
+        "absolute",
+        "z-40",
+        "-translate-x-1/2",
+        "-translate-y-full",
+        "rounded-md",
+        "border",
+        "border-gray-300",
+        "bg-gray-300",
+        "font-semibold",
+        "text-gray-900",
+        "shadow-sm",
+
+        hasImages
+          ? "flex flex-col items-center gap-0.5 px-1.5 py-1 text-[10px] leading-tight"
+          : "whitespace-nowrap px-2 py-1 text-xs",
+      ].join(" ")}
+      style={{
+        left: x,
+        top: y - 8,
       }}
     >
-      {selection.label}
+      {content.images.map((image) => (
+        <Image
+          key={image.imageUrl}
+          src={image.imageUrl}
+          alt={image.alt}
+          width={56}
+          height={32}
+          className="block h-auto max-h-8 w-auto max-w-14 object-contain"
+        />
+      ))}
+
+      {content.label && <span>{content.label}</span>}
     </div>
   );
 }

@@ -16,6 +16,8 @@
  * shared map system to remain independent of individual countries and quizzes.
  */
 
+import { AnswerLabelContent } from "./labels/answerLabelTypes";
+
 /**
  * Defines the base visual style rendered underneath GeoPedia's geographic
  * feature layers.
@@ -134,8 +136,8 @@ export type HoveredFeature = {
  * Represents temporary feedback displayed after an incorrect map selection.
  */
 export type IncorrectSelection = {
-  /** User-facing label of the incorrectly selected geographic feature. */
-  label: string;
+  /** Complete answer-label content belonging to the selected feature. */
+  content: AnswerLabelContent;
 
   /** Horizontal cursor position at which the selection occurred. */
   x: number;

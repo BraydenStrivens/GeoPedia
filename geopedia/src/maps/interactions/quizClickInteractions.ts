@@ -18,8 +18,8 @@ import {
 } from "@/maps/constants/mapLayerIds";
 
 import {
+  getFeatureAnswerLabelContent,
   getFeatureAnswers,
-  getFeatureDisplayLabel,
   isFeatureFullyAnswered,
   willFeatureBeFullyAnswered,
 } from "../labels/featureAnswers";
@@ -93,6 +93,7 @@ function handleQuizSelection(
     map,
     quizRef,
     quizModeRef,
+    isQuizRunningRef,
     currentQuestionRef,
     answerQuestionRef,
     answerStatusesRef,
@@ -103,15 +104,44 @@ function handleQuizSelection(
 
   const quiz = quizRef.current;
 
+  const featureValue = feature.properties?.[quiz.answerProperty];
+
+  const featureAnswers = getFeatureAnswers(featureValue);
+
+  if (featureAnswers.length === 0) {
+    return;
+  }
+
+  /*
+   * Inactive quiz maps act as lightweight study maps.
+   *
+   * Selecting any feature reveals that feature's answer without modifying quiz
+   * progress, answer statuses, score, or current-question state.
+   *
+   * This works both before a quiz has ever started and after a quiz has ended.
+   */
+  if (!isQuizRunningRef.current) {
+    if (showIncorrectSelectionRef.current) {
+      const selectedFeatureContent = getFeatureAnswerLabelContent(
+        featureAnswers,
+        quiz,
+      );
+
+      setIncorrectSelection({
+        content: selectedFeatureContent,
+        x: pointX,
+        y: pointY,
+      });
+    }
+
+    return;
+  }
+
   const currentQuestion = currentQuestionRef.current;
 
   if (!currentQuestion) {
     return;
   }
-
-  const featureValue = feature.properties?.[quiz.answerProperty];
-
-  const featureAnswers = getFeatureAnswers(featureValue);
 
   if (featureAnswers.length === 0) {
     return;
@@ -141,13 +171,13 @@ function handleQuizSelection(
    * setting is enabled.
    */
   if (!isCorrect && showIncorrectSelectionRef.current) {
-    const selectedFeatureLabel = getFeatureDisplayLabel(
+    const selectedFeatureContent = getFeatureAnswerLabelContent(
       featureAnswers,
       quiz,
     );
 
     setIncorrectSelection({
-      label: selectedFeatureLabel,
+      content: selectedFeatureContent,
       x: pointX,
       y: pointY,
     });

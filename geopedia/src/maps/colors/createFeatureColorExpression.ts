@@ -210,9 +210,7 @@ export function createFeatureColorExpression(
    */
   const completion = ["/", completedAnswerCount, totalAnswerCount];
 
-  /*
-   * Blend WRONG_RGB and CORRECT_RGB according to accuracy.
-   */
+  /* Blend WRONG_RGB and CORRECT_RGB according to accuracy. */
   const resultRed = [
     "+",
     ["*", WRONG_RGB[0], ["-", 1, accuracy]],

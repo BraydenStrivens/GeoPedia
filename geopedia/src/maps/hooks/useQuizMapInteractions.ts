@@ -39,6 +39,14 @@ type UseQuizMapInteractionsParams = {
   /** Current quiz definition. */
   quizRef: RefObject<Quiz>;
 
+  /**
+   * Whether the quiz is currently accepting scored answers.
+   *
+   * Inactive quiz maps remain clickable for answer-preview feedback without
+   * submitting quiz responses.
+   */
+  isQuizRunningRef: RefObject<boolean>;
+
   /** Current Normal/Hard quiz mode. */
   quizModeRef: RefObject<QuizMode>;
 
@@ -78,6 +86,7 @@ export function useQuizMapInteractions({
   clickBehaviorRef,
   hoverEnabledRef,
   quizRef,
+  isQuizRunningRef,
   quizModeRef,
   currentQuestionRef,
   answerStatusesRef,
@@ -100,6 +109,7 @@ export function useQuizMapInteractions({
       clickBehaviorRef,
       hoverEnabledRef,
       quizRef,
+      isQuizRunningRef,
       quizModeRef,
       currentQuestionRef,
       answerStatusesRef,
@@ -116,6 +126,7 @@ export function useQuizMapInteractions({
     clickBehaviorRef,
     hoverEnabledRef,
     quizRef,
+    isQuizRunningRef,
     quizModeRef,
     currentQuestionRef,
     answerStatusesRef,

@@ -25,6 +25,7 @@ import QuizMap from "@/components/map/QuizMap";
 import QuizPanelControls from "@/components/quiz/controls/QuizPanelControls";
 import QuizGroupsPanel from "@/components/quiz/groupings/QuizGroupsPanel";
 import QuizSettingsPanel from "@/components/quiz/QuizSettingsPanel";
+import { getFeatureAnswers } from "@/maps/labels/featureAnswers";
 import type { MapConfig, QuizMapClickBehavior } from "@/maps/types";
 import { useActiveQuizGroup } from "@/quiz/groupings/hooks/useActiveQuizGroup";
 import { useManualGroupSelection } from "@/quiz/groupings/hooks/useManualGroupSelection";
@@ -208,11 +209,15 @@ function HydratedQuizMapClient({
         continue;
       }
 
-      const answer = feature.properties?.[quiz.answerProperty];
+      const featureValue = feature.properties?.[quiz.answerProperty];
+      const featureAnswers = getFeatureAnswers(featureValue);
 
-      if (typeof answer === "string" || typeof answer === "number") {
-        answers.add(String(answer));
+      for (const answer of featureAnswers) {
+        answers.add(answer);
       }
+      // if (typeof answer === "string" || typeof answer === "number") {
+      //   answers.add(String(answer));
+      // }
     }
 
     return answers;

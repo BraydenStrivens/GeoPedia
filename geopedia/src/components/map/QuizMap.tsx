@@ -184,10 +184,13 @@ export default function QuizMap({
 
   const questionPrompt = getQuizQuestionPrompt(currentQuestion);
 
+  const isQuizRunning = isActive && !isFinished;
+
   /**
    * Stable refs expose current React values to long-lived MapLibre handlers
    * without recreating their event listeners.
    */
+  const isQuizRunningRef = useLatestRef(isQuizRunning);
   const clickBehaviorRef = useLatestRef(effectiveClickBehavior);
   const quizRef = useLatestRef(quiz);
   const quizModeRef = useLatestRef(quizSettings?.mode ?? "normal");
@@ -268,6 +271,7 @@ export default function QuizMap({
     hoverEnabledRef,
 
     quizRef,
+    isQuizRunningRef,
     quizModeRef,
     currentQuestionRef,
     answerStatusesRef,

@@ -35,7 +35,7 @@ export function createAnswerLabelElement(
     "rounded-md",
     "border",
     "border-gray-300",
-    "bg-white",
+    "bg-gray-300",
     "font-semibold",
     "text-gray-900",
     "shadow-sm",
@@ -136,7 +136,7 @@ export function setAnswerLabelHovered(
      * Remove the normal appearance while hovered so conflicting Tailwind
      * background, text, and border classes are never active simultaneously.
      */
-    labelMarker.element.classList.toggle("bg-white", !isHovered);
+    labelMarker.element.classList.toggle("bg-gray-300", !isHovered);
 
     labelMarker.element.classList.toggle("text-gray-900", !isHovered);
 

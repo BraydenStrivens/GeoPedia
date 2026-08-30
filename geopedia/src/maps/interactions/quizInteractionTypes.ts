@@ -65,6 +65,14 @@ export type QuizMapInteractionContext = {
   /** Latest quiz definition associated with the map. */
   quizRef: RefObject<Quiz>;
 
+  /**
+   * Whether the quiz is currently accepting scored answers.
+   *
+   * When false, quiz-map clicks reveal the selected feature's answer rather than
+   * submitting a response.
+   */
+  isQuizRunningRef: RefObject<boolean>;
+
   /** Latest Normal/Hard quiz mode. */
   quizModeRef: RefObject<QuizMode>;
 
