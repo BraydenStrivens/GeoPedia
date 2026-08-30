@@ -17,8 +17,17 @@ type FullQuizSectionProps = {
   /** Whether grouping interactions are currently disabled. */
   isDisabled: boolean;
 
+  /** Whether GeoGuessr-only filtering is currently enabled. */
+  isGeoGuessrOnly: boolean;
+
+  /** Whether this quiz supports GeoGuessr-only filtering. */
+  supportsGeoGuessrFilter: boolean;
+
   /** Restores the complete unfiltered quiz. */
   onUseFullQuiz: () => void;
+
+  /** Enables or disables GeoGuessr-only filtering. */
+  onGeoGuessrOnlyChange: (isEnabled: boolean) => void;
 };
 
 /**
@@ -30,7 +39,10 @@ type FullQuizSectionProps = {
 export default function FullQuizSection({
   isActive,
   isDisabled,
+  isGeoGuessrOnly,
+  supportsGeoGuessrFilter,
   onUseFullQuiz,
+  onGeoGuessrOnlyChange,
 }: FullQuizSectionProps) {
   return (
     <section className="border-b border-gray-300 pb-4">
@@ -56,6 +68,32 @@ export default function FullQuizSection({
       >
         Use Full Quiz
       </button>
+
+      {supportsGeoGuessrFilter && (
+        /* Optional GeoGuessr eligibility filter */
+        <div className="flex w-full items-center justify-end py-2">
+          <label
+            className={[
+              "flex items-center gap-2 text-sm font-medium",
+              isDisabled
+                ? "cursor-not-allowed opacity-50"
+                : "cursor-pointer",
+            ].join(" ")}
+          >
+            <span className="text-gray-600">GeoGuessr Only</span>
+
+            <input
+              type="checkbox"
+              checked={isGeoGuessrOnly}
+              disabled={isDisabled}
+              onChange={(event) =>
+                onGeoGuessrOnlyChange(event.target.checked)
+              }
+              className="h-4 w-4 cursor-pointer disabled:cursor-not-allowed"
+            />
+          </label>
+        </div>
+      )}
     </section>
   );
 }

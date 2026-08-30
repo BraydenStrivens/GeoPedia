@@ -200,6 +200,7 @@ export function useMap({
      * so disable MapLibre's default double-click-to-zoom interaction.
      */
     map.doubleClickZoom.disable();
+    map.scrollZoom.setWheelZoomRate(1 / 300);
 
     mapRef.current = map;
 

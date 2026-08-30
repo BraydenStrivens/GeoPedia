@@ -19,7 +19,7 @@
 
 "use client";
 
-import { useState, useSyncExternalStore } from "react";
+import { useMemo, useState, useSyncExternalStore } from "react";
 
 import QuizMap from "@/components/map/QuizMap";
 import QuizPanelControls from "@/components/quiz/controls/QuizPanelControls";
@@ -131,6 +131,17 @@ function HydratedQuizMapClient({
   >(null);
 
   /**
+   * Whether the current quiz should include only geographic features available
+   * in GeoGuessr.
+   *
+   * This filter is independent of the active quiz group, allowing it to combine
+   * with Full Quiz, property groups, saved groups, and manual groups.
+   *
+   * This feature is only available for global quizzes.
+   */
+  const [isGeoGuessrOnly, setIsGeoGuessrOnly] = useState(false);
+
+  /**
    * Owns the group currently applied to the quiz and derives its geographic
    * feature and question subsets.
    */
@@ -145,6 +156,88 @@ function HydratedQuizMapClient({
     mapConfig,
     featureCollection,
   });
+
+  /**
+   * Stable map feature IDs belonging to countries currently included in
+   * GeoGuessr.
+   *
+   * The GeoGuessr flag is stored directly on the world-country GeoJSON features.
+   * Maps without that property naturally produce an empty set and therefore do
+   * not expose any GeoGuessr-only filtering behavior.
+   */
+  const geoGuessrFeatureIds = useMemo(() => {
+    const featureIds = new Set<string>();
+
+    if (!featureCollection || !mapConfig.promoteId) {
+      return featureIds;
+    }
+
+    for (const feature of featureCollection.features) {
+      if (feature.properties?.geoguessr !== true) {
+        continue;
+      }
+
+      const featureId = feature.properties?.[mapConfig.promoteId];
+
+      if (
+        typeof featureId === "string" ||
+        typeof featureId === "number"
+      ) {
+        featureIds.add(String(featureId));
+      }
+    }
+
+    return featureIds;
+  }, [featureCollection, mapConfig.promoteId]);
+
+  /**
+   * Quiz answer values belonging to GeoGuessr-enabled geographic features.
+   *
+   * Question answers are matched using the quiz's configured answer property
+   * rather than assuming the map feature ID is also the quiz answer.
+   */
+  const geoGuessrAnswers = useMemo(() => {
+    const answers = new Set<string>();
+
+    if (!featureCollection) {
+      return answers;
+    }
+
+    for (const feature of featureCollection.features) {
+      if (feature.properties?.geoguessr !== true) {
+        continue;
+      }
+
+      const answer = feature.properties?.[quiz.answerProperty];
+
+      if (typeof answer === "string" || typeof answer === "number") {
+        answers.add(String(answer));
+      }
+    }
+
+    return answers;
+  }, [featureCollection, quiz.answerProperty]);
+
+  /**
+   * Quiz definition actually supplied to the interactive map.
+   *
+   * The active group is resolved first by `useActiveQuizGroup`. GeoGuessr Only
+   * then acts as a second independent filter over that already-resolved question
+   * set.
+   */
+  const filteredActiveQuiz = useMemo(() => {
+    if (!isGeoGuessrOnly) {
+      return activeQuiz;
+    }
+
+    return {
+      ...activeQuiz,
+
+      questions: activeQuiz.questions.filter((question) =>
+        geoGuessrAnswers.has(String(question.answer)),
+      ),
+    };
+  }, [activeQuiz, isGeoGuessrOnly, geoGuessrAnswers]);
 
   /**
    * Owns the temporary feature selection used while manually constructing or
@@ -174,14 +267,36 @@ function HydratedQuizMapClient({
     useSavedQuizGroups(countryId, quiz.id);
 
   /**
-   * Feature IDs rendered by the map for the active group.
+   * Feature IDs rendered by the map for the currently active group and optional
+   * GeoGuessr-only filter.
    *
-   * Full Quiz uses `null` so MapLibre removes all grouping filters.
+   * Without GeoGuessr filtering, Full Quiz continues to use `null` so MapLibre
+   * removes all grouping filters. When GeoGuessr Only is enabled, even Full Quiz
+   * supplies an explicit feature set because non-GeoGuessr countries must be
+   * removed.
    */
-  const activeFeatureIds =
-    activeGroup.type === "full"
-      ? null
-      : Array.from(resolvedGroup?.featureIds ?? []);
+  const activeFeatureIds = useMemo(() => {
+    if (!isGeoGuessrOnly) {
+      return activeGroup.type === "full"
+        ? null
+        : Array.from(resolvedGroup?.featureIds ?? []);
+    }
+
+    /* Full Quiz becomes every GeoGuessr-enabled feature. */
+    if (activeGroup.type === "full") {
+      return Array.from(geoGuessrFeatureIds);
+    }
+
+    /* Property and manual groups are intersected with the GeoGuessr feature set. */
+    return Array.from(resolvedGroup?.featureIds ?? []).filter(
+      (featureId) => geoGuessrFeatureIds.has(String(featureId)),
+    );
+  }, [
+    activeGroup,
+    resolvedGroup,
+    isGeoGuessrOnly,
+    geoGuessrFeatureIds,
+  ]);
 
   /**
    * Whether the inactive quiz is currently displaying its normal Show Answers
@@ -389,7 +504,7 @@ function HydratedQuizMapClient({
       {/* Interactive quiz map */}
       <QuizMap
         mapConfig={mapConfig}
-        quiz={activeQuiz}
+        quiz={filteredActiveQuiz}
         quizSettings={settings}
         areInactiveQuizActionsDisabled={isSelecting}
         clickBehavior={mapClickBehavior}
@@ -431,11 +546,13 @@ function HydratedQuizMapClient({
             onApplyGroup={applyUnsavedGroup}
             onApplySavedGroup={applySavedGroup}
             onUseFullQuiz={handleUseFullQuiz}
+            onGeoGuessrOnlyChange={setIsGeoGuessrOnly}
             onToggleSavedGroup={toggleSavedGroup}
             onSaveGroup={saveGroup}
             onUpdateGroup={updateGroup}
             onDeleteGroup={deleteGroup}
             isManualSelecting={isSelecting}
+            isGeoGuessrOnly={isGeoGuessrOnly}
             manualSelectedFeatureIds={selectedFeatureIds}
             showManualSelectionAnswers={showManualSelectionAnswers}
             onBeginManualSelection={beginManualSelection}

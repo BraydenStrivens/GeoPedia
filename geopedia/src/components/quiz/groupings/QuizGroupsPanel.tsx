@@ -64,6 +64,9 @@ type QuizGroupsPanelProps = {
   /** Whether answer labels are visible during manual selection. */
   showManualSelectionAnswers: boolean;
 
+  /** Whether GeoGuessr-only filtering is currently enabled. */
+  isGeoGuessrOnly: boolean;
+
   /** Applies an unsaved group to the quiz. */
   onApplyGroup: (group: ActiveQuizGroup) => void;
 
@@ -115,6 +118,9 @@ type QuizGroupsPanelProps = {
   /** Restores the complete unfiltered quiz. */
   onUseFullQuiz: () => void;
 
+  /** Enables or disables GeoGuessr-only filtering. */
+  onGeoGuessrOnlyChange: (isEnabled: boolean) => void;
+
   /** Loads or unloads a saved group. */
   onToggleSavedGroup: (group: SavedQuizGroup) => void;
 
@@ -142,6 +148,7 @@ export default function QuizGroupsPanel({
   isManualSelecting,
   manualSelectedFeatureIds,
   showManualSelectionAnswers,
+  isGeoGuessrOnly,
 
   onApplyGroup,
   onApplySavedGroup,
@@ -158,6 +165,7 @@ export default function QuizGroupsPanel({
   onDeleteGroup,
   onSetActiveSavedGroup,
   onUseFullQuiz,
+  onGeoGuessrOnlyChange,
   onToggleSavedGroup,
 
   isDisabled,
@@ -220,6 +228,21 @@ export default function QuizGroupsPanel({
   /** Whether the current edit target is manually feature-selected. */
   const isEditingManualGroup =
     editingGroup?.source.type === "features";
+
+  /**
+   * Whether the loaded map data provides GeoGuessr eligibility information.
+   *
+   * The GeoGuessr Only control is hidden completely for quizzes whose geographic
+   * data does not define the `geoguessr` property.
+   */
+  const supportsGeoGuessrFilter = useMemo(() => {
+    return (
+      featureCollection?.features.some(
+        (feature) =>
+          typeof feature.properties?.geoguessr === "boolean",
+      ) ?? false
+    );
+  }, [featureCollection]);
 
   /**
    * Property-group creation, selection, validation, and updating.
@@ -552,7 +575,10 @@ export default function QuizGroupsPanel({
         <FullQuizSection
           isActive={activeGroup.type === "full"}
           isDisabled={isDisabled}
+          isGeoGuessrOnly={isGeoGuessrOnly}
+          supportsGeoGuessrFilter={supportsGeoGuessrFilter}
           onUseFullQuiz={handleUseFullQuiz}
+          onGeoGuessrOnlyChange={onGeoGuessrOnlyChange}
         />
 
         {/* Saved Groups */}
