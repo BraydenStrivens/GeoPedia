@@ -18,6 +18,7 @@ export const usCountiesMap: MapConfig = {
   },
 
   promoteId: "geoid",
+
   answerLabels: {
     densityThreshold: 500,
     initialMaxLabels: 100,

@@ -1,14 +1,16 @@
 /**
  * Provides centralized access to GeoPedia's quiz definitions.
  *
- * Individual quiz definitions are organized by country. Each country's
- * folder exports its quizzes through a country-level index file, while this
- * module combines those exports into one registry.
+ * Individual quiz definitions are organized by country or by the Global
+ * section. Each folder exports its quizzes through a section-level index file,
+ * while this module combines those exports into centralized registries.
  *
- * Application code can therefore retrieve quizzes by country and quiz ID
- * without knowing where the underlying quiz definition files are stored.
+ * Application code can therefore retrieve quizzes by country, global quiz ID,
+ * or both without knowing where the underlying quiz definition files are
+ * stored.
  */
 
+import * as globalQuizzes from "./global";
 import * as usaQuizzes from "./usa";
 
 /**
@@ -21,6 +23,14 @@ import * as usaQuizzes from "./usa";
 const countryQuizzes = {
   usa: Object.values(usaQuizzes),
 };
+
+/**
+ * Every quiz currently registered in GeoPedia's Global section.
+ *
+ * The Global index module is converted to an array so adding another exported
+ * global quiz automatically makes it available through the registry.
+ */
+const registeredGlobalQuizzes = Object.values(globalQuizzes);
 
 /**
  * Determines whether a country currently has at least one registered quiz.
@@ -71,8 +81,28 @@ export function getCountryQuizzes(countryId: string) {
  * @returns The matching quiz, or `undefined` when either the country or quiz
  * is not registered.
  */
-export function getQuiz(countryId: string, quizId: string) {
+export function getCountryQuiz(countryId: string, quizId: string) {
   return getCountryQuizzes(countryId).find(
     (quiz) => quiz.id === quizId,
   );
+}
+
+/**
+ * Returns every quiz currently registered in GeoPedia's Global section.
+ *
+ * @returns All registered global quizzes.
+ */
+export function getGlobalQuizzes() {
+  return registeredGlobalQuizzes;
+}
+
+/**
+ * Finds a specific quiz registered in GeoPedia's Global section.
+ *
+ * @param quizId - Unique identifier of the global quiz to retrieve.
+ * @returns The matching global quiz, or `undefined` when no registered global
+ * quiz uses the requested ID.
+ */
+export function getGlobalQuiz(quizId: string) {
+  return registeredGlobalQuizzes.find((quiz) => quiz.id === quizId);
 }

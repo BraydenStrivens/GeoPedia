@@ -12,8 +12,8 @@
 import { notFound } from "next/navigation";
 
 import QuizMapClient from "@/components/quiz/QuizMapClient";
-import { getMap } from "@/maps";
-import { getQuiz } from "@/quiz/quizzes";
+import { getCountryMap } from "@/maps/configs";
+import { getCountryQuiz } from "@/quiz/quizzes";
 
 /**
  * Dynamic route parameters supplied by Next.js for a quiz page.
@@ -42,13 +42,13 @@ type QuizPageProps = {
 export default async function QuizPage({ params }: QuizPageProps) {
   const { country: countryId, quiz: quizId } = await params;
 
-  const quiz = getQuiz(countryId, quizId);
+  const quiz = getCountryQuiz(countryId, quizId);
 
   if (!quiz) {
     notFound();
   }
 
-  const mapConfig = getMap(countryId, quiz.mapId);
+  const mapConfig = getCountryMap(countryId, quiz.mapId);
 
   if (!mapConfig) {
     notFound();

@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 
+import { GEOGUESSR_COUNTRY_CODES } from "@/constants/geoguessrCountryCodes";
+
 /* -------------------------------------------------------------------------- */
 /*                                   Types                                    */
 /* -------------------------------------------------------------------------- */
@@ -97,6 +99,7 @@ type GeneratedCountryProperties = {
   continent: string;
   region: string;
   subregion: string;
+  geoguessr: boolean;
 };
 
 /**
@@ -476,6 +479,7 @@ function createCountryFeature(
       region:
         source.REGION_UN ?? restCountry.continents?.join(", ") ?? "",
       subregion: source.SUBREGION ?? restCountry.subregion ?? "",
+      geoguessr: GEOGUESSR_COUNTRY_CODES.has(countryId.toUpperCase()),
     },
 
     geometry: mergeGeometries(geometryData.geometries),

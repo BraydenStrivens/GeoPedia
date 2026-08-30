@@ -15,6 +15,7 @@
  */
 
 "use client";
+import Image from "next/image";
 
 import QuizActionButton from "@/components/quiz/overlay/QuizActionButton";
 import QuizControlButton from "@/components/quiz/overlay/QuizControlButton";
@@ -23,6 +24,7 @@ import {
   SkipIcon,
   StopIcon,
 } from "@/components/quiz/overlay/QuizControlIcons";
+import { QuizQuestionPrompt } from "@/types/quiz";
 
 /**
  * Values and callbacks required to display and control the quiz overlay.
@@ -32,7 +34,7 @@ type QuizOverlayProps = {
   quizName: string;
 
   /** Current question text displayed while the quiz is active. */
-  question: string;
+  question: QuizQuestionPrompt;
 
   /** Number of questions completed during the current attempt. */
   answeredCount: number;
@@ -82,6 +84,28 @@ type QuizOverlayProps = {
   /** Toggles Show Answers while the quiz is inactive. */
   onToggleShowAnswers: () => void;
 };
+
+function QuizQuestionDisplay({
+  question,
+}: {
+  question: QuizQuestionPrompt;
+}) {
+  if (question.type === "image") {
+    return (
+      <div className="flex items-center justify-center">
+        <Image
+          src={question.imageUrl}
+          alt={question.alt}
+          width={224}
+          height={128}
+          className="max-h-32 max-w-56 object-contain"
+        />
+      </div>
+    );
+  }
+
+  return <div className="text-center">{question.text}</div>;
+}
 
 /**
  * Displays the current quiz status and the controls available for the current
@@ -148,7 +172,7 @@ export default function QuizOverlay({
         {isActive && !isFinished && (
           <div className="rounded-lg bg-white/80 px-5 py-1.5 text-center backdrop-blur-md">
             <div className="text-lg font-bold leading-tight text-gray-900">
-              {question}
+              <QuizQuestionDisplay question={question} />
             </div>
           </div>
         )}

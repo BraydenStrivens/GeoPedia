@@ -25,6 +25,17 @@ export type AnswerStatus = "correct" | "wrong";
  */
 export type AnswerType = "single" | "multiple";
 
+export type QuizQuestionPrompt =
+  | {
+      type: "text";
+      text: string;
+    }
+  | {
+      type: "image";
+      imageUrl: string;
+      alt: string;
+    };
+
 /**
  * Represents one question that can be asked during a quiz.
  *
@@ -41,6 +52,14 @@ export interface QuizQuestion {
    * The raw `answer` value is displayed when this is omitted.
    */
   display?: string;
+
+  /**
+   * Optional explicit question prompt.
+   *
+   * When omitted, GeoPedia falls back to `display` and then `answer`, preserving
+   * the behavior of all existing quizzes.
+   */
+  prompt?: QuizQuestionPrompt;
 }
 
 /**

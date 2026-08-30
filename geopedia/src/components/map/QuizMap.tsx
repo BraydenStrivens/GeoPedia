@@ -40,6 +40,7 @@ import { useQuizFeatureColors } from "@/maps/hooks/useQuizFeatureColors";
 import { useQuizMapInteractions } from "@/maps/hooks/useQuizMapInteractions";
 import type { MapConfig, QuizMapClickBehavior } from "@/maps/types";
 import { useQuiz } from "@/quiz/hooks/useQuiz";
+import { getQuizQuestionPrompt } from "@/quiz/questions/getQuizQuestionPrompt";
 import type { Quiz } from "@/types/quiz";
 import type { QuizSettings } from "@/types/quizSettings";
 
@@ -180,6 +181,8 @@ export default function QuizMap({
    */
   const effectiveClickBehavior: QuizMapClickBehavior =
     isShowingAnswers ? "none" : clickBehavior;
+
+  const questionPrompt = getQuizQuestionPrompt(currentQuestion);
 
   /**
    * Stable refs expose current React values to long-lived MapLibre handlers
@@ -351,11 +354,7 @@ export default function QuizMap({
       {/* Quiz interface */}
       <QuizOverlay
         quizName={quiz.name}
-        question={
-          currentQuestion?.display ??
-          currentQuestion?.answer ??
-          "Finished!"
-        }
+        question={questionPrompt}
         answeredCount={answeredCount}
         questionCount={questionCount}
         correctCount={correctCount}
