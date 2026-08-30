@@ -23,10 +23,10 @@ import {
 import type { AnswerLabelConfig } from "@/maps/types";
 import type { Quiz } from "@/types/quiz";
 
-import { getAnswerLabelAnchor } from "./answerLabelAnchors";
-import { limitAnswerLabelFeatures } from "./answerLabelDensity";
-import { createAnswerLabelElement } from "./answerLabelElements";
-import type { AnswerLabelMarkers } from "./answerLabelTypes";
+import { getAnswerLabelAnchor } from "../labels/answerLabelAnchors";
+import { limitAnswerLabelFeatures } from "../labels/answerLabelDensity";
+import { createAnswerLabelElement } from "../labels/answerLabelElements";
+import type { AnswerLabelMarkers } from "../labels/answerLabelTypes";
 
 /**
  * Removes every currently rendered Show Answers marker from the map and

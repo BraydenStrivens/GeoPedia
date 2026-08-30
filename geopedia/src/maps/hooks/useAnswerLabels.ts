@@ -19,7 +19,6 @@ import {
 import type { AnswerLabelMarkers } from "@/maps/labels/answerLabelTypes";
 import type { MapConfig } from "@/maps/types";
 import type { Quiz } from "@/types/quiz";
-
 /**
  * Values required to manage Show Answers labels.
  */
