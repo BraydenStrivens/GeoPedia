@@ -3,8 +3,8 @@
  *
  * Show Answers uses HTML markers rather than a MapLibre symbol layer so
  * GeoPedia can create exactly one styled label per geographic feature,
- * combine multi-answer values into a readable label, and synchronize label
- * appearance with feature hover state.
+ * combine multi-answer values into a readable label, display question imagery,
+ * and synchronize label appearance with feature hover state.
  *
  * Marker positioning, density limiting, HTML styling, and answer formatting
  * are delegated to focused helper modules.
@@ -19,14 +19,18 @@ import * as maplibregl from "maplibre-gl";
 import {
   getFeatureAnswers,
   getFeatureDisplayLabel,
-} from "@/maps/interactions/featureAnswers";
+  getFeatureQuestions,
+} from "@/maps/labels/featureAnswers";
 import type { AnswerLabelConfig } from "@/maps/types";
 import type { Quiz } from "@/types/quiz";
 
 import { getAnswerLabelAnchor } from "../labels/answerLabelAnchors";
 import { limitAnswerLabelFeatures } from "../labels/answerLabelDensity";
 import { createAnswerLabelElement } from "../labels/answerLabelElements";
-import type { AnswerLabelMarkers } from "../labels/answerLabelTypes";
+import type {
+  AnswerLabelContent,
+  AnswerLabelMarkers,
+} from "../labels/answerLabelTypes";
 
 /**
  * Removes every currently rendered Show Answers marker from the map and
@@ -45,24 +49,54 @@ export function clearAnswerLabels(
 }
 
 /**
- * Creates the user-facing Show Answers text for a geographic feature.
+ * Creates the complete user-facing Show Answers content for a geographic
+ * feature.
  *
- * Quiz display values are preferred when available. Multi-answer features
- * combine their answers using ` / `.
+ * Every marker receives its normal textual answer. When the corresponding quiz
+ * question uses an image prompt, that image is also included beneath the text.
+ *
+ * Text-only quizzes therefore continue using the same answer-label system
+ * without requiring quiz-specific configuration.
  *
  * @param feature - Geographic feature whose answer should be displayed.
- * @param quiz - Quiz definition used to interpret the answer property.
- * @returns User-facing answer label.
+ * @param quiz - Quiz definition used to interpret the feature.
+ * @returns Text and optional images belonging to the answer marker.
  */
-function getAnswerLabelText(
+function getAnswerLabelContent(
   feature: MapGeoJSONFeature,
   quiz: Quiz,
-): string {
+): AnswerLabelContent {
   const featureValue = feature.properties?.[quiz.answerProperty];
 
   const featureAnswers = getFeatureAnswers(featureValue);
 
-  return getFeatureDisplayLabel(featureAnswers, quiz);
+  const label = getFeatureDisplayLabel(featureAnswers, quiz);
+
+  const matchingQuestions = getFeatureQuestions(featureAnswers, quiz);
+
+  const images = matchingQuestions.flatMap((question) => {
+    /**
+     * Only image prompts belong inside Show Answers labels.
+     *
+     * Text-based or absent prompts continue to use the normal text-only
+     * marker presentation.
+     */
+    if (question.prompt?.type !== "image") {
+      return [];
+    }
+
+    return [
+      {
+        imageUrl: question.prompt.imageUrl,
+        alt: question.prompt.alt,
+      },
+    ];
+  });
+
+  return {
+    label,
+    images,
+  };
 }
 
 /**
@@ -110,7 +144,7 @@ function getUniqueVisibleFeatures(
  * the map.
  *
  * Visible features are deduplicated, optionally limited according to the
- * map's density configuration, converted into user-facing answer text, and
+ * map's density configuration, converted into user-facing answer content, and
  * positioned using safe geographic anchors.
  *
  * Invalid geometry suppresses only the affected feature's label rather than
@@ -141,9 +175,9 @@ export function updateAnswerLabels(
   );
 
   for (const [featureId, feature] of featuresToLabel) {
-    const label = getAnswerLabelText(feature, quiz);
+    const content = getAnswerLabelContent(feature, quiz);
 
-    if (!label) {
+    if (!content.label) {
       continue;
     }
 
@@ -159,7 +193,7 @@ export function updateAnswerLabels(
 
     const [longitude, latitude] = anchor;
 
-    const element = createAnswerLabelElement(label);
+    const element = createAnswerLabelElement(content);
 
     const marker = new maplibregl.Marker({
       element,

@@ -21,7 +21,7 @@ import {
 import {
   getFeatureAnswers,
   isFeatureFullyAnswered,
-} from "./featureAnswers";
+} from "../labels/featureAnswers";
 import type {
   FeatureHoverState,
   QuizMapInteractionContext,

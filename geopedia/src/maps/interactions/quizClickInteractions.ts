@@ -22,7 +22,7 @@ import {
   getFeatureDisplayLabel,
   isFeatureFullyAnswered,
   willFeatureBeFullyAnswered,
-} from "./featureAnswers";
+} from "../labels/featureAnswers";
 import type {
   FeatureHoverState,
   QuizMapInteractionContext,
