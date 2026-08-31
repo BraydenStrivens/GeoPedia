@@ -243,19 +243,24 @@ export default function QuizOverlay({
             <QuizControlButton title="Skip question" onClick={onSkip}>
               <SkipIcon />
             </QuizControlButton>
+          </>
+        )}
 
+        {isActive && (
+          <>
             {/* Stop current quiz */}
             <QuizControlButton title="Stop quiz" onClick={onStop}>
               <StopIcon />
             </QuizControlButton>
-          </>
-        )}
 
-        {/* Restart quiz */}
-        {isActive && (
-          <QuizControlButton title="Restart quiz" onClick={onRestart}>
-            <RestartIcon />
-          </QuizControlButton>
+            {/* Restart quiz */}
+            <QuizControlButton
+              title="Restart quiz"
+              onClick={onRestart}
+            >
+              <RestartIcon />
+            </QuizControlButton>
+          </>
         )}
       </div>
     </div>
