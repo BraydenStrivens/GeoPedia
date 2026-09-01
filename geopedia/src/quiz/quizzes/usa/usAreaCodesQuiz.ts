@@ -19,19 +19,13 @@ import type { Quiz } from "@/types/quiz";
 export const usAreaCodesQuiz: Quiz = {
   id: "us-area-codes",
   name: "US Area Codes",
+
   mapId: "us-area-codes",
+  kind: "feature",
+
   answerProperty: "area_codes",
   answerType: "multiple",
 
-  /**
-   * Allows users to create groups containing one or more US subdivisions.
-   *
-   * Each geographic feature may overlap multiple states, so the configured
-   * grouping property uses the `string-array` value type.
-   *
-   * Raw subdivision abbreviations remain unchanged for matching and
-   * persistence, while the Groups UI displays full subdivision names.
-   */
   grouping: {
     properties: [
       {

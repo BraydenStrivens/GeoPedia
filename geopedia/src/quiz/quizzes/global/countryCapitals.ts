@@ -21,6 +21,7 @@ export const countryCapitalsQuiz: Quiz = {
   id: "country-capitals",
   name: "Country Capitals",
 
+  kind: "feature",
   mapId: "world-country-capitals",
 
   answerProperty: "iso_a3",

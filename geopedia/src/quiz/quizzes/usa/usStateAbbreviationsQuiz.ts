@@ -16,13 +16,13 @@ import type { Quiz } from "@/types/quiz";
 export const usStateAbbreviationsQuiz: Quiz = {
   id: "us-state-abbreviations",
   name: "US State Abbreviations",
+
   mapId: "us-states",
+  kind: "feature",
+
   answerProperty: "abbreviation",
   answerType: "single",
 
-  /**
-   * Allows users to create groups containing one or more US regions.
-   */
   grouping: {
     properties: [
       {

@@ -21,22 +21,22 @@
 
 import { useMemo, useState, useSyncExternalStore } from "react";
 
-import QuizMap from "@/components/map/QuizMap";
+import QuizMap from "@/components/map/FeatureQuizMap";
 import QuizPanelControls from "@/components/quiz/controls/QuizPanelControls";
-import QuizGroupsPanel from "@/components/quiz/groupings/QuizGroupsPanel";
+import QuizGroupsPanel from "@/components/quiz/groupings/feature/FeatureQuizGroupsPanel";
 import QuizSettingsPanel from "@/components/quiz/QuizSettingsPanel";
-import { getFeatureAnswers } from "@/maps/labels/featureAnswers";
+import { getFeatureAnswers } from "@/maps/labels/feature/featureAnswers";
 import type { MapConfig, QuizMapClickBehavior } from "@/maps/types";
-import { useActiveQuizGroup } from "@/quiz/groupings/hooks/useActiveQuizGroup";
-import { useManualGroupSelection } from "@/quiz/groupings/hooks/useManualGroupSelection";
-import { useQuizGroupingData } from "@/quiz/groupings/hooks/useQuizGroupingData";
-import { useSavedQuizGroups } from "@/quiz/groupings/hooks/useSavedQuizGroups";
+import { useActiveQuizGroup } from "@/quiz/groupings/feature/hooks/useActiveQuizGroup";
+import { useManualGroupSelection } from "@/quiz/groupings/feature/hooks/useManualGroupSelection";
+import { useQuizGroupingData } from "@/quiz/groupings/feature/hooks/useQuizGroupingData";
+import { useSavedQuizGroups } from "@/quiz/groupings/feature/hooks/useSavedQuizGroups";
 import type {
   ActiveQuizGroup,
   SavedQuizGroup,
-} from "@/quiz/groupings/types";
+} from "@/quiz/groupings/feature/types";
 import { useQuizSettings } from "@/quiz/hooks/useQuizSettings";
-import type { Quiz } from "@/types/quiz";
+import type { FeatureQuiz, Quiz, TownQuiz } from "@/types/quiz";
 
 /**
  * Props required to render a client-side quiz map.
@@ -50,6 +50,22 @@ type QuizMapClientProps = {
 
   /** Geographic map configuration used by the quiz. */
   mapConfig: MapConfig;
+};
+
+/**
+ * Props used by the existing feature-based quiz map implementation.
+ */
+type FeatureQuizMapClientProps = Omit<QuizMapClientProps, "quiz"> & {
+  /** Feature-based quiz displayed and controlled by the map. */
+  quiz: FeatureQuiz;
+};
+
+/**
+ * Props used by the location-based town quiz map implementation.
+ */
+type TownQuizMapClientProps = Omit<QuizMapClientProps, "quiz"> & {
+  /** Town quiz displayed and controlled by the map. */
+  quiz: TownQuiz;
 };
 
 /**
@@ -95,22 +111,53 @@ export default function QuizMapClient(props: QuizMapClientProps) {
 }
 
 /**
- * Renders the interactive quiz map after client hydration has completed.
+ * Routes a hydrated quiz to the interaction model required by its quiz kind.
  *
- * This component coordinates persisted quiz settings, grouping state, saved
- * groups, manual feature selection, and temporary floating-panel state.
+ * Keeping the feature and town implementations in separate components allows
+ * each implementation to use its own hooks and data model without weakening
+ * the shared `Quiz` type or conditionally calling React hooks.
  *
- * @param props - Quiz map configuration.
- * @param props.countryId - Country used to identify persisted quiz data.
- * @param props.quiz - Complete quiz definition.
- * @param props.mapConfig - Geographic configuration rendered by the map.
- * @returns The hydrated quiz map and its floating controls.
+ * @param props - Hydrated quiz map configuration.
+ * @returns The map implementation belonging to the quiz kind.
  */
-function HydratedQuizMapClient({
+function HydratedQuizMapClient(props: QuizMapClientProps) {
+  if (props.quiz.kind === "town") {
+    return (
+      <HydratedTownQuizMapClient
+        countryId={props.countryId}
+        quiz={props.quiz}
+        mapConfig={props.mapConfig}
+      />
+    );
+  }
+
+  return (
+    <HydratedFeatureQuizMapClient
+      countryId={props.countryId}
+      quiz={props.quiz}
+      mapConfig={props.mapConfig}
+    />
+  );
+}
+
+/**
+ * Renders the existing GeoJSON feature-based quiz experience.
+ *
+ * This component owns feature grouping, saved groups, manual feature
+ * selection, GeoGuessr-only filtering, feature-answer visibility, and the
+ * feature-based interactive map.
+ *
+ * @param props - Feature quiz map configuration.
+ * @param props.countryId - Country used to identify persisted quiz data.
+ * @param props.quiz - Feature-based quiz definition.
+ * @param props.mapConfig - Geographic configuration rendered by the map.
+ * @returns The hydrated feature quiz map and its floating controls.
+ */
+function HydratedFeatureQuizMapClient({
   countryId,
   quiz,
   mapConfig,
-}: QuizMapClientProps) {
+}: FeatureQuizMapClientProps) {
   /** Persisted settings belonging specifically to this country and quiz. */
   const { settings, setSettings } = useQuizSettings(
     countryId,
@@ -576,4 +623,31 @@ function HydratedQuizMapClient({
       />
     </div>
   );
+}
+
+/**
+ * Temporary hydrated implementation for location-based town quizzes.
+ *
+ * The town interaction engine will be implemented separately from the existing
+ * GeoJSON feature-selection engine. This placeholder establishes that boundary
+ * while feature-quiz behavior remains unchanged.
+ *
+ * @param props - Town quiz map configuration.
+ * @returns An empty map-sized container until the town quiz engine is added.
+ */
+function HydratedTownQuizMapClient({
+  countryId,
+  quiz,
+  mapConfig,
+}: TownQuizMapClientProps) {
+  /*
+   * These values will be used when the town quiz map implementation is added.
+   * Referencing them here avoids leaving the component's intended inputs
+   * undocumented while it is temporarily a placeholder.
+   */
+  void countryId;
+  void quiz;
+  void mapConfig;
+
+  return <div className="h-full w-full" />;
 }

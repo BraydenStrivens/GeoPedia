@@ -7,7 +7,7 @@
  * the application.
  */
 
-import type { QuizGroupingConfig } from "@/quiz/groupings/types";
+import type { QuizGroupingConfig } from "@/quiz/groupings/feature/types";
 
 /**
  * Represents the result of a completed quiz question.
@@ -25,19 +25,51 @@ export type AnswerStatus = "correct" | "wrong";
  */
 export type AnswerType = "single" | "multiple";
 
+/**
+ * Identifies the interaction model used by a quiz.
+ *
+ * - `feature` indicates that questions are answered by selecting geographic
+ *   features represented by the quiz's GeoJSON data.
+ *
+ * - `town` indicates that questions are answered by selecting a geographic
+ *   location for a town rather than selecting a GeoJSON feature.
+ *
+ * The quiz kind acts as a discriminant for the `Quiz` union, allowing quiz
+ * logic and UI components to safely determine which properties and interaction
+ * behavior are available for a particular quiz.
+ */
+export type QuizKind = "feature" | "town";
+
+/**
+ * Defines the user-facing content displayed as a quiz question prompt.
+ *
+ * A prompt can either display text directly or display an image with
+ * alternative text for accessibility.
+ *
+ * - `text` displays the supplied text as the question prompt.
+ * - `image` displays the supplied image and uses `alt` to describe it.
+ */
 export type QuizQuestionPrompt =
   | {
+      /** Identifies this prompt as a text prompt. */
       type: "text";
+
+      /** Text displayed to the user for the question. */
       text: string;
     }
   | {
+      /** Identifies this prompt as an image prompt. */
       type: "image";
+
+      /** URL of the image displayed for the question. */
       imageUrl: string;
+
+      /** Alternative text describing the image for accessibility. */
       alt: string;
     };
 
 /**
- * Represents one question that can be asked during a quiz.
+ * Represents one question that can be asked during a feature-based quiz.
  *
  * The answer corresponds to a value stored in the GeoJSON property identified
  * by the parent quiz's `answerProperty`.
@@ -63,17 +95,9 @@ export interface QuizQuestion {
 }
 
 /**
- * Defines the complete configuration and question set for a quiz.
- *
- * A quiz identifies:
- *
- * - The map it uses.
- * - The GeoJSON property containing its answers.
- * - Whether one feature may represent multiple answers.
- * - Optional property-based grouping capabilities.
- * - Every question available to the quiz.
+ * Defines properties shared by every GeoPedia quiz type.
  */
-export interface Quiz {
+interface BaseQuiz {
   /** Unique identifier for the quiz. */
   id: string;
 
@@ -82,6 +106,17 @@ export interface Quiz {
 
   /** ID of the map configuration used by this quiz. */
   mapId: string;
+}
+
+/**
+ * Defines a feature-based quiz whose answers correspond to GeoJSON features.
+ *
+ * Feature quizzes identify answers through properties stored on map features
+ * and support the existing region-based interaction system.
+ */
+export interface FeatureQuiz extends BaseQuiz {
+  /** Identifies this quiz as a GeoJSON feature-based quiz. */
+  kind: "feature";
 
   /** GeoJSON property containing the feature values used as quiz answers. */
   answerProperty: string;
@@ -100,3 +135,60 @@ export interface Quiz {
   /** Complete set of questions available to the quiz. */
   questions: QuizQuestion[];
 }
+
+/**
+ * Represents one town available to a location-based town quiz.
+ */
+export interface TownQuizTown {
+  /** Stable GeoNames identifier for the settlement. */
+  id: string;
+
+  /** User-facing settlement name. */
+  name: string;
+
+  /** Latitude of the settlement's target location. */
+  latitude: number;
+
+  /** Longitude of the settlement's target location. */
+  longitude: number;
+
+  /** Population value used when ranking towns. */
+  population: number;
+
+  /** Population-based rank within the generated country dataset. */
+  populationRank: number;
+
+  /** Whether this settlement is the country's national capital. */
+  isCapital: boolean;
+}
+
+/**
+ * Defines a location-based town quiz.
+ *
+ * Unlike feature quizzes, town quizzes are answered by clicking a geographic
+ * coordinate rather than selecting a GeoJSON feature.
+ */
+export interface TownQuiz extends BaseQuiz {
+  /** Identifies this quiz as a town/location quiz. */
+  kind: "town";
+
+  /**
+   * Maximum distance from the target that can contribute toward the question's
+   * score.
+   *
+   * The exact scoring function can use this value together with the perfect
+   * answer radius.
+   */
+  maxErrorKm: number;
+
+  /** Complete set of towns available to the quiz. */
+  towns: TownQuizTown[];
+}
+
+/**
+ * Defines any quiz supported by GeoPedia.
+ *
+ * The `kind` property allows quiz logic and UI components to safely distinguish
+ * feature-selection quizzes from location-based town quizzes.
+ */
+export type Quiz = FeatureQuiz | TownQuiz;

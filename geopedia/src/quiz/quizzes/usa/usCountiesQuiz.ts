@@ -19,16 +19,13 @@ import type { Quiz } from "@/types/quiz";
 export const usCountiesQuiz: Quiz = {
   id: "us-counties",
   name: "US Counties",
+
   mapId: "us-counties",
+  kind: "feature",
+
   answerProperty: "geoid",
   answerType: "single",
 
-  /**
-   * Allows users to create groups containing one or more US subdivisions.
-   *
-   * Raw GeoJSON abbreviations remain unchanged for matching and persistence,
-   * while the Groups UI displays full subdivision names.
-   */
   grouping: {
     properties: [
       {

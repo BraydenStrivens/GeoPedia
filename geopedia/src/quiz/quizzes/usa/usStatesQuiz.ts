@@ -16,13 +16,13 @@ import type { Quiz } from "@/types/quiz";
 export const usStatesQuiz: Quiz = {
   id: "us-states",
   name: "US States",
+
   mapId: "us-states",
+  kind: "feature",
+
   answerProperty: "name",
   answerType: "single",
 
-  /**
-   * Allows users to create groups containing one or more US regions.
-   */
   grouping: {
     properties: [
       {

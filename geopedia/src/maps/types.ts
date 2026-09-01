@@ -16,7 +16,7 @@
  * shared map system to remain independent of individual countries and quizzes.
  */
 
-import { AnswerLabelContent } from "./labels/answerLabelTypes";
+import { AnswerLabelContent } from "./labels/feature/answerLabelTypes";
 
 /**
  * Defines the base visual style rendered underneath GeoPedia's geographic

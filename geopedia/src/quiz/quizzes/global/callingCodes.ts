@@ -23,6 +23,7 @@ export const callingCodesQuiz: Quiz = {
   id: "calling-codes",
   name: "Calling Codes",
 
+  kind: "feature",
   mapId: "world-countries",
 
   answerProperty: "calling_codes",

@@ -19,19 +19,13 @@ import type { Quiz } from "@/types/quiz";
 export const usZip2Quiz: Quiz = {
   id: "us-zip-2",
   name: "US 2-Digit ZIP Codes",
+
   mapId: "us-zip-2",
+  kind: "feature",
+
   answerProperty: "zip",
   answerType: "single",
 
-  /**
-   * Allows users to create groups containing one or more US subdivisions.
-   *
-   * Each geographic feature may belong to multiple states, so the configured
-   * grouping property uses the `string-array` value type.
-   *
-   * Raw subdivision abbreviations remain unchanged for matching and
-   * persistence, while the Groups UI displays full subdivision names.
-   */
   grouping: {
     properties: [
       {

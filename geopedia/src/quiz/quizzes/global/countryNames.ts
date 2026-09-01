@@ -22,6 +22,7 @@ export const countryNamesQuiz: Quiz = {
   name: "Country Names",
 
   mapId: "world-country-names",
+  kind: "feature",
 
   answerProperty: "iso_a3",
   answerType: "single",

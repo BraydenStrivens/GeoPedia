@@ -15,7 +15,10 @@ import type { Quiz } from "@/types/quiz";
 export const usZip1Quiz: Quiz = {
   id: "us-zip-1",
   name: "US 1-Digit ZIP Codes",
+
   mapId: "us-zip-1",
+  kind: "feature",
+
   answerProperty: "zip",
   answerType: "single",
 
