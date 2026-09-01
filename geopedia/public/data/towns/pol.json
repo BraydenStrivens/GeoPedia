@@ -1,0 +1,1804 @@
+{
+  "towns": [
+    {
+      "id": "756135",
+      "name": "Warsaw",
+      "latitude": 52.22977,
+      "longitude": 21.01178,
+      "population": 1702139,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3094802",
+      "name": "Kraków",
+      "latitude": 50.06143,
+      "longitude": 19.93658,
+      "population": 816614,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3081368",
+      "name": "Wrocław",
+      "latitude": 51.10286,
+      "longitude": 17.03006,
+      "population": 672545,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3093133",
+      "name": "Łódź",
+      "latitude": 51.77058,
+      "longitude": 19.47395,
+      "population": 639890,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3088171",
+      "name": "Poznań",
+      "latitude": 52.40692,
+      "longitude": 16.92993,
+      "population": 536151,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3099434",
+      "name": "Gdańsk",
+      "latitude": 54.35227,
+      "longitude": 18.64912,
+      "population": 487371,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3083829",
+      "name": "Szczecin",
+      "latitude": 53.42894,
+      "longitude": 14.55302,
+      "population": 395513,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "765876",
+      "name": "Lublin",
+      "latitude": 51.25058,
+      "longitude": 22.57009,
+      "population": 336339,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3102014",
+      "name": "Bydgoszcz",
+      "latitude": 53.1235,
+      "longitude": 18.00762,
+      "population": 330038,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "776069",
+      "name": "Białystok",
+      "latitude": 53.13333,
+      "longitude": 23.16433,
+      "population": 295683,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3096472",
+      "name": "Katowice",
+      "latitude": 50.2597,
+      "longitude": 19.02173,
+      "population": 286960,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3099424",
+      "name": "Gdynia",
+      "latitude": 54.51889,
+      "longitude": 18.53188,
+      "population": 257000,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3100946",
+      "name": "Częstochowa",
+      "latitude": 50.79646,
+      "longitude": 19.12409,
+      "population": 248125,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3085128",
+      "name": "Sosnowiec",
+      "latitude": 50.28682,
+      "longitude": 19.10385,
+      "population": 227295,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "760778",
+      "name": "Radom",
+      "latitude": 51.40253,
+      "longitude": 21.14714,
+      "population": 226794,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3099230",
+      "name": "Gliwice",
+      "latitude": 50.29761,
+      "longitude": 18.67658,
+      "population": 198835,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "759734",
+      "name": "Rzeszów",
+      "latitude": 50.04132,
+      "longitude": 21.99901,
+      "population": 198317,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "3083271",
+      "name": "Toruń",
+      "latitude": 53.01375,
+      "longitude": 18.59814,
+      "population": 196935,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "769250",
+      "name": "Kielce",
+      "latitude": 50.87033,
+      "longitude": 20.62752,
+      "population": 192468,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3080985",
+      "name": "Zabrze",
+      "latitude": 50.32492,
+      "longitude": 18.78576,
+      "population": 192177,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3101950",
+      "name": "Bytom",
+      "latitude": 50.34802,
+      "longitude": 18.93282,
+      "population": 189186,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3103402",
+      "name": "Bielsko-Biala",
+      "latitude": 49.82245,
+      "longitude": 19.04686,
+      "population": 176515,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "763166",
+      "name": "Olsztyn",
+      "latitude": 53.78376,
+      "longitude": 20.49272,
+      "population": 169793,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3086800",
+      "name": "Ruda Śląska",
+      "latitude": 50.2584,
+      "longitude": 18.85632,
+      "population": 146189,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "3086586",
+      "name": "Rybnik",
+      "latitude": 50.09713,
+      "longitude": 18.54179,
+      "population": 142510,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "3082914",
+      "name": "Tychy",
+      "latitude": 50.13717,
+      "longitude": 18.96641,
+      "population": 130000,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "3090048",
+      "name": "Opole",
+      "latitude": 50.67119,
+      "longitude": 17.92604,
+      "population": 127676,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "3099759",
+      "name": "Elbląg",
+      "latitude": 54.1522,
+      "longitude": 19.40884,
+      "population": 127558,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "3088825",
+      "name": "Płock",
+      "latitude": 52.54682,
+      "longitude": 19.70638,
+      "population": 127474,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "3082707",
+      "name": "Wałbrzych",
+      "latitude": 50.77141,
+      "longitude": 16.28432,
+      "population": 127431,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "3081741",
+      "name": "Włocławek",
+      "latitude": 52.64817,
+      "longitude": 19.0678,
+      "population": 120339,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "3080165",
+      "name": "Zielona Góra",
+      "latitude": 51.93548,
+      "longitude": 15.50643,
+      "population": 118433,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "757026",
+      "name": "Tarnów",
+      "latitude": 50.01381,
+      "longitude": 20.98698,
+      "population": 117799,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "3100796",
+      "name": "Dąbrowa Górnicza",
+      "latitude": 50.33394,
+      "longitude": 19.20479,
+      "population": 116971,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "3098722",
+      "name": "Gorzów Wielkopolski",
+      "latitude": 52.73371,
+      "longitude": 15.22505,
+      "population": 114567,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "3101619",
+      "name": "Chorzów",
+      "latitude": 50.30582,
+      "longitude": 18.9742,
+      "population": 113430,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "3096880",
+      "name": "Kalisz",
+      "latitude": 51.76109,
+      "longitude": 18.09102,
+      "population": 108759,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "3095049",
+      "name": "Koszalin",
+      "latitude": 54.19438,
+      "longitude": 16.17222,
+      "population": 107450,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "3093692",
+      "name": "Legnica",
+      "latitude": 51.21006,
+      "longitude": 16.1619,
+      "population": 106033,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "3085450",
+      "name": "Słupsk",
+      "latitude": 54.46405,
+      "longitude": 17.02872,
+      "population": 98608,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "3097333",
+      "name": "Jaworzno",
+      "latitude": 50.20528,
+      "longitude": 19.27498,
+      "population": 96541,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "3097391",
+      "name": "Jastrzębie Zdrój",
+      "latitude": 49.95542,
+      "longitude": 18.57479,
+      "population": 95813,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "3098218",
+      "name": "Grudziądz",
+      "latitude": 53.48411,
+      "longitude": 18.75366,
+      "population": 92552,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "763534",
+      "name": "Nowy Sącz",
+      "latitude": 49.62177,
+      "longitude": 20.69705,
+      "population": 84376,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "3095321",
+      "name": "Konin",
+      "latitude": 52.22338,
+      "longitude": 18.25121,
+      "population": 81258,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "3088972",
+      "name": "Piotrków Trybunalski",
+      "latitude": 51.40547,
+      "longitude": 19.70321,
+      "population": 80128,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "3097872",
+      "name": "Inowrocław",
+      "latitude": 52.79886,
+      "longitude": 18.26387,
+      "population": 77597,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "3092931",
+      "name": "Lubin",
+      "latitude": 51.40089,
+      "longitude": 16.20149,
+      "population": 77532,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "3097257",
+      "name": "Jelenia Góra",
+      "latitude": 50.89973,
+      "longitude": 15.72899,
+      "population": 77366,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "759412",
+      "name": "Siedlce",
+      "latitude": 52.16772,
+      "longitude": 22.29006,
+      "population": 77185,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "3089033",
+      "name": "Piła",
+      "latitude": 53.15145,
+      "longitude": 16.73782,
+      "population": 75532,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "762863",
+      "name": "Ostrowiec Świętokrzyski",
+      "latitude": 50.92936,
+      "longitude": 21.38525,
+      "population": 73989,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "3086024",
+      "name": "Siemianowice Śląskie",
+      "latitude": 50.32738,
+      "longitude": 19.02901,
+      "population": 73121,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "3089684",
+      "name": "Ostrów Wielkopolski",
+      "latitude": 51.65501,
+      "longitude": 17.80686,
+      "population": 72898,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "3091232",
+      "name": "Mysłowice",
+      "latitude": 50.20745,
+      "longitude": 19.16668,
+      "population": 72124,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "3084840",
+      "name": "Stargard",
+      "latitude": 53.33672,
+      "longitude": 15.0499,
+      "population": 71224,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "3089578",
+      "name": "Pabianice",
+      "latitude": 51.66446,
+      "longitude": 19.35473,
+      "population": 70542,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "3099112",
+      "name": "Gniezno",
+      "latitude": 52.53481,
+      "longitude": 17.58259,
+      "population": 70269,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "757718",
+      "name": "Suwałki",
+      "latitude": 54.11175,
+      "longitude": 22.93087,
+      "population": 69222,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "756867",
+      "name": "Tomaszów Mazowiecki",
+      "latitude": 51.53131,
+      "longitude": 20.00855,
+      "population": 67197,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "761168",
+      "name": "Przemyśl",
+      "latitude": 49.78498,
+      "longitude": 22.76728,
+      "population": 67013,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "758445",
+      "name": "Stalowa Wola",
+      "latitude": 50.58286,
+      "longitude": 22.05334,
+      "population": 66495,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "753866",
+      "name": "Zamość",
+      "latitude": 50.72314,
+      "longitude": 23.25196,
+      "population": 66034,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "3096372",
+      "name": "Kędzierzyn-Koźle",
+      "latitude": 50.34984,
+      "longitude": 18.22606,
+      "population": 65636,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "3099213",
+      "name": "Głogów",
+      "latitude": 51.66361,
+      "longitude": 16.0845,
+      "population": 65400,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "3093524",
+      "name": "Leszno",
+      "latitude": 51.84034,
+      "longitude": 16.57494,
+      "population": 63565,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "3080004",
+      "name": "Żory",
+      "latitude": 50.04523,
+      "longitude": 18.70062,
+      "population": 63174,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "3103709",
+      "name": "Bełchatów",
+      "latitude": 51.36883,
+      "longitude": 19.35671,
+      "population": 62896,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "766027",
+      "name": "Łomża",
+      "latitude": 53.17806,
+      "longitude": 22.05935,
+      "population": 62019,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "3083440",
+      "name": "Tarnowskie Góry",
+      "latitude": 50.44548,
+      "longitude": 18.86147,
+      "population": 60938,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "3084093",
+      "name": "Świdnica",
+      "latitude": 50.84378,
+      "longitude": 16.48859,
+      "population": 60351,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "774558",
+      "name": "Chełm",
+      "latitude": 51.14312,
+      "longitude": 23.4716,
+      "population": 60231,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "3083426",
+      "name": "Tczew",
+      "latitude": 54.09242,
+      "longitude": 18.77787,
+      "population": 60133,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "3089125",
+      "name": "Piekary Śląskie",
+      "latitude": 50.38017,
+      "longitude": 18.92653,
+      "population": 59757,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "764849",
+      "name": "Mielec",
+      "latitude": 50.28709,
+      "longitude": 21.4239,
+      "population": 59509,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "3087584",
+      "name": "Racibórz",
+      "latitude": 50.09195,
+      "longitude": 18.21928,
+      "population": 58464,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "3103719",
+      "name": "Będzin",
+      "latitude": 50.32607,
+      "longitude": 19.12565,
+      "population": 58236,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "3080251",
+      "name": "Zgierz",
+      "latitude": 51.85561,
+      "longitude": 19.40623,
+      "population": 58036,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "776175",
+      "name": "Biała Podlaska",
+      "latitude": 52.03238,
+      "longitude": 23.11652,
+      "population": 57541,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "772621",
+      "name": "Ełk",
+      "latitude": 53.82824,
+      "longitude": 22.36469,
+      "population": 55769,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "3083988",
+      "name": "Świętochłowice",
+      "latitude": 50.29636,
+      "longitude": 18.91726,
+      "population": 55600,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "761228",
+      "name": "Pruszków",
+      "latitude": 52.17072,
+      "longitude": 20.81214,
+      "population": 55371,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "762909",
+      "name": "Ostrołęka",
+      "latitude": 53.08621,
+      "longitude": 21.57566,
+      "population": 53740,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "758390",
+      "name": "Starachowice",
+      "latitude": 51.0374,
+      "longitude": 21.07126,
+      "population": 53739,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "3080526",
+      "name": "Zawiercie",
+      "latitude": 50.48766,
+      "longitude": 19.41679,
+      "population": 53159,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "766555",
+      "name": "Legionowo",
+      "latitude": 52.40149,
+      "longitude": 20.92664,
+      "population": 50786,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "757033",
+      "name": "Tarnobrzeg",
+      "latitude": 50.57304,
+      "longitude": 21.67937,
+      "population": 50459,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "760924",
+      "name": "Puławy",
+      "latitude": 51.41655,
+      "longitude": 21.96939,
+      "population": 49759,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "3081677",
+      "name": "Wodzisław Śląski",
+      "latitude": 50.00377,
+      "longitude": 18.47205,
+      "population": 49521,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "759141",
+      "name": "Skarżysko-Kamienna",
+      "latitude": 51.11311,
+      "longitude": 20.87162,
+      "population": 49410,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "759123",
+      "name": "Skierniewice",
+      "latitude": 51.95485,
+      "longitude": 20.15837,
+      "population": 49042,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "3094170",
+      "name": "Kutno",
+      "latitude": 52.23064,
+      "longitude": 19.36409,
+      "population": 48323,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "767470",
+      "name": "Krosno",
+      "latitude": 49.68866,
+      "longitude": 21.77058,
+      "population": 47784,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "773380",
+      "name": "Dębica",
+      "latitude": 50.05146,
+      "longitude": 21.41141,
+      "population": 47366,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "3090436",
+      "name": "Nysa",
+      "latitude": 50.47379,
+      "longitude": 17.33437,
+      "population": 47283,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "3084826",
+      "name": "Starogard Gdański",
+      "latitude": 53.96396,
+      "longitude": 18.52638,
+      "population": 47272,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "3082473",
+      "name": "Wejherowo",
+      "latitude": 54.60568,
+      "longitude": 18.23559,
+      "population": 46820,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "774208",
+      "name": "Ciechanów",
+      "latitude": 52.88141,
+      "longitude": 20.61996,
+      "population": 46438,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "3086706",
+      "name": "Rumia",
+      "latitude": 54.57092,
+      "longitude": 18.38802,
+      "population": 44791,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "3087497",
+      "name": "Radomsko",
+      "latitude": 51.06713,
+      "longitude": 19.44477,
+      "population": 44700,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "3080414",
+      "name": "Zduńska Wola",
+      "latitude": 51.59915,
+      "longitude": 18.93974,
+      "population": 44515,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "3085978",
+      "name": "Sieradz",
+      "latitude": 51.59584,
+      "longitude": 18.73023,
+      "population": 44436,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "3095795",
+      "name": "Kołobrzeg",
+      "latitude": 54.17565,
+      "longitude": 15.58342,
+      "population": 44377,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "762788",
+      "name": "Otwock",
+      "latitude": 52.10577,
+      "longitude": 21.26129,
+      "population": 43388,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "752967",
+      "name": "Żyrardów",
+      "latitude": 52.0488,
+      "longitude": 20.44599,
+      "population": 41179,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "3083955",
+      "name": "Świnoujście",
+      "latitude": 53.91053,
+      "longitude": 14.24712,
+      "population": 40919,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "3102987",
+      "name": "Bolesławiec",
+      "latitude": 51.26418,
+      "longitude": 15.5697,
+      "population": 40682,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "3090764",
+      "name": "Nowa Sól",
+      "latitude": 51.80333,
+      "longitude": 15.71702,
+      "population": 40354,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "757692",
+      "name": "Świdnik",
+      "latitude": 51.21898,
+      "longitude": 22.69621,
+      "population": 40050,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "3101547",
+      "name": "Chrzanów",
+      "latitude": 50.13546,
+      "longitude": 19.40203,
+      "population": 39973,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "3095971",
+      "name": "Knurów",
+      "latitude": 50.21971,
+      "longitude": 18.65067,
+      "population": 39744,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "759591",
+      "name": "Sanok",
+      "latitude": 49.55573,
+      "longitude": 22.2056,
+      "population": 39684,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "3091831",
+      "name": "Mikołów",
+      "latitude": 50.17103,
+      "longitude": 18.9041,
+      "population": 38821,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "3101672",
+      "name": "Chojnice",
+      "latitude": 53.69554,
+      "longitude": 17.55701,
+      "population": 38789,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "3080644",
+      "name": "Żary",
+      "latitude": 51.64205,
+      "longitude": 15.13727,
+      "population": 38779,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "3083826",
+      "name": "Szczecinek",
+      "latitude": 53.70791,
+      "longitude": 16.69937,
+      "population": 38496,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "758682",
+      "name": "Sochaczew",
+      "latitude": 52.22944,
+      "longitude": 20.23838,
+      "population": 38267,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "3102459",
+      "name": "Brzeg",
+      "latitude": 50.86079,
+      "longitude": 17.4674,
+      "population": 38259,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "770293",
+      "name": "Jasło",
+      "latitude": 49.74506,
+      "longitude": 21.47252,
+      "population": 37851,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "3090146",
+      "name": "Olkusz",
+      "latitude": 50.2813,
+      "longitude": 19.56503,
+      "population": 37744,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "3094086",
+      "name": "Kwidzyn",
+      "latitude": 53.72495,
+      "longitude": 18.93114,
+      "population": 37601,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "764679",
+      "name": "Mińsk Mazowiecki",
+      "latitude": 52.17935,
+      "longitude": 21.57251,
+      "population": 37027,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "3090170",
+      "name": "Oleśnica",
+      "latitude": 51.21338,
+      "longitude": 17.38986,
+      "population": 36956,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "3092472",
+      "name": "Malbork",
+      "latitude": 54.03591,
+      "longitude": 19.0266,
+      "population": 36709,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "754800",
+      "name": "Wołomin",
+      "latitude": 52.34006,
+      "longitude": 21.24207,
+      "population": 36592,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "762423",
+      "name": "Piaseczno",
+      "latitude": 52.0814,
+      "longitude": 21.02397,
+      "population": 36278,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "767623",
+      "name": "Kraśnik",
+      "latitude": 50.9236,
+      "longitude": 22.22706,
+      "population": 35834,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "3101321",
+      "name": "Cieszyn",
+      "latitude": 49.75133,
+      "longitude": 18.63213,
+      "population": 35586,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "770380",
+      "name": "Jarosław",
+      "latitude": 50.01623,
+      "longitude": 22.67776,
+      "population": 35475,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "3093739",
+      "name": "Lębork",
+      "latitude": 54.53921,
+      "longitude": 17.75012,
+      "population": 35161,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "3085151",
+      "name": "Sopot",
+      "latitude": 54.4418,
+      "longitude": 18.56003,
+      "population": 35049,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "3101076",
+      "name": "Czechowice-Dziedzice",
+      "latitude": 49.91342,
+      "longitude": 19.00479,
+      "population": 34703,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "3088461",
+      "name": "Police",
+      "latitude": 53.55214,
+      "longitude": 14.57182,
+      "population": 34350,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "3101057",
+      "name": "Czeladź",
+      "latitude": 50.31542,
+      "longitude": 19.07824,
+      "population": 34308,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "3089658",
+      "name": "Oświęcim",
+      "latitude": 50.03437,
+      "longitude": 19.21037,
+      "population": 34170,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "3099828",
+      "name": "Dzierżoniów",
+      "latitude": 50.7282,
+      "longitude": 16.65141,
+      "population": 34168,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "763523",
+      "name": "Nowy Targ",
+      "latitude": 49.47783,
+      "longitude": 20.03228,
+      "population": 33763,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "3089779",
+      "name": "Ostróda",
+      "latitude": 53.69671,
+      "longitude": 19.96486,
+      "population": 33524,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "3091217",
+      "name": "Myszków",
+      "latitude": 50.5752,
+      "longitude": 19.32461,
+      "population": 33273,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "3080231",
+      "name": "Zgorzelec",
+      "latitude": 51.14942,
+      "longitude": 15.00835,
+      "population": 33247,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "3090205",
+      "name": "Oława",
+      "latitude": 50.9466,
+      "longitude": 17.2926,
+      "population": 33029,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "3097902",
+      "name": "Iława",
+      "latitude": 53.59601,
+      "longitude": 19.56849,
+      "population": 32557,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "3079855",
+      "name": "Żywiec",
+      "latitude": 49.68529,
+      "longitude": 19.19243,
+      "population": 32132,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "765749",
+      "name": "Łuków",
+      "latitude": 51.929,
+      "longitude": 22.37956,
+      "population": 30465,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "3085056",
+      "name": "Śrem",
+      "latitude": 52.08868,
+      "longitude": 17.01508,
+      "population": 30404,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "772195",
+      "name": "Giżycko",
+      "latitude": 54.03811,
+      "longitude": 21.76441,
+      "population": 29972,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "3093066",
+      "name": "Łowicz",
+      "latitude": 52.10714,
+      "longitude": 19.94525,
+      "population": 29809,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "776597",
+      "name": "Augustów",
+      "latitude": 53.84321,
+      "longitude": 22.97979,
+      "population": 29752,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "3082998",
+      "name": "Turek",
+      "latitude": 52.01548,
+      "longitude": 18.50055,
+      "population": 29533,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "764634",
+      "name": "Mława",
+      "latitude": 53.11278,
+      "longitude": 20.3841,
+      "population": 29398,
+      "populationRank": 150,
+      "isCapital": false
+    },
+    {
+      "id": "3103476",
+      "name": "Bielawa",
+      "latitude": 50.69075,
+      "longitude": 16.623,
+      "population": 29232,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "3094625",
+      "name": "Krotoszyn",
+      "latitude": 51.69868,
+      "longitude": 17.43738,
+      "population": 29231,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "775758",
+      "name": "Bochnia",
+      "latitude": 49.96905,
+      "longitude": 20.43028,
+      "population": 29184,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "3084130",
+      "name": "Swarzędz",
+      "latitude": 52.41289,
+      "longitude": 17.08503,
+      "population": 29010,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "3100974",
+      "name": "Czerwionka-Leszczyny",
+      "latitude": 50.15007,
+      "longitude": 18.67762,
+      "population": 28740,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "3081324",
+      "name": "Września",
+      "latitude": 52.32512,
+      "longitude": 17.56519,
+      "population": 28703,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "771804",
+      "name": "Gorlice",
+      "latitude": 49.65563,
+      "longitude": 21.16035,
+      "population": 28609,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "763556",
+      "name": "Nowy Dwór Mazowiecki",
+      "latitude": 52.43022,
+      "longitude": 20.71652,
+      "population": 27633,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "769274",
+      "name": "Kętrzyn",
+      "latitude": 54.07676,
+      "longitude": 21.37527,
+      "population": 27478,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "3102627",
+      "name": "Brodnica",
+      "latitude": 53.25967,
+      "longitude": 19.39653,
+      "population": 27341,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "3080866",
+      "name": "Zakopane",
+      "latitude": 49.29899,
+      "longitude": 19.94885,
+      "population": 27266,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "775922",
+      "name": "Biłgoraj",
+      "latitude": 50.54114,
+      "longitude": 22.72204,
+      "population": 26987,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "771401",
+      "name": "Grodzisk Mazowiecki",
+      "latitude": 52.10387,
+      "longitude": 20.6337,
+      "population": 26684,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "754454",
+      "name": "Wyszków",
+      "latitude": 52.59278,
+      "longitude": 21.4584,
+      "population": 26500,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "775986",
+      "name": "Bielsk Podlaski",
+      "latitude": 52.76512,
+      "longitude": 23.18647,
+      "population": 26493,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "3092856",
+      "name": "Luboń",
+      "latitude": 52.34705,
+      "longitude": 16.89267,
+      "population": 26431,
+      "populationRank": 166,
+      "isCapital": false
+    },
+    {
+      "id": "757357",
+      "name": "Szczytno",
+      "latitude": 53.56259,
+      "longitude": 20.98747,
+      "population": 26044,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "3096003",
+      "name": "Kluczbork",
+      "latitude": 50.97281,
+      "longitude": 18.21816,
+      "population": 25978,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "3082704",
+      "name": "Wałcz",
+      "latitude": 53.27787,
+      "longitude": 16.47122,
+      "population": 25971,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "3084074",
+      "name": "Świecie",
+      "latitude": 53.40953,
+      "longitude": 18.44742,
+      "population": 25843,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "3080944",
+      "name": "Żagań",
+      "latitude": 51.61759,
+      "longitude": 15.31486,
+      "population": 25731,
+      "populationRank": 171,
+      "isCapital": false
+    },
+    {
+      "id": "3096053",
+      "name": "Kłodzko",
+      "latitude": 50.43488,
+      "longitude": 16.66145,
+      "population": 25717,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "3082712",
+      "name": "Wągrowiec",
+      "latitude": 52.80842,
+      "longitude": 17.19961,
+      "population": 25648,
+      "populationRank": 173,
+      "isCapital": false
+    },
+    {
+      "id": "3097528",
+      "name": "Jarocin",
+      "latitude": 51.97266,
+      "longitude": 17.50256,
+      "population": 25582,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "3087705",
+      "name": "Pszczyna",
+      "latitude": 49.98037,
+      "longitude": 18.95382,
+      "population": 25288,
+      "populationRank": 175,
+      "isCapital": false
+    },
+    {
+      "id": "759603",
+      "name": "Sandomierz",
+      "latitude": 50.68265,
+      "longitude": 21.74898,
+      "population": 25087,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "3090768",
+      "name": "Nowa Ruda",
+      "latitude": 50.58008,
+      "longitude": 16.50164,
+      "population": 24753,
+      "populationRank": 177,
+      "isCapital": false
+    },
+    {
+      "id": "3103556",
+      "name": "Białogard",
+      "latitude": 54.00696,
+      "longitude": 15.98751,
+      "population": 24368,
+      "populationRank": 178,
+      "isCapital": false
+    },
+    {
+      "id": "3095151",
+      "name": "Kościan",
+      "latitude": 52.08829,
+      "longitude": 16.64866,
+      "population": 24096,
+      "populationRank": 179,
+      "isCapital": false
+    },
+    {
+      "id": "3097367",
+      "name": "Jawor",
+      "latitude": 51.05132,
+      "longitude": 16.19347,
+      "population": 23865,
+      "populationRank": 180,
+      "isCapital": false
+    },
+    {
+      "id": "3092906",
+      "name": "Lubliniec",
+      "latitude": 50.66897,
+      "longitude": 18.6844,
+      "population": 23784,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "3085807",
+      "name": "Skawina",
+      "latitude": 49.97524,
+      "longitude": 19.82869,
+      "population": 23647,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "3088034",
+      "name": "Pruszcz Gdański",
+      "latitude": 54.26217,
+      "longitude": 18.63625,
+      "population": 23618,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "3095797",
+      "name": "Koło",
+      "latitude": 52.20024,
+      "longitude": 18.63865,
+      "population": 23493,
+      "populationRank": 184,
+      "isCapital": false
+    },
+    {
+      "id": "776337",
+      "name": "Bartoszyce",
+      "latitude": 54.25354,
+      "longitude": 20.80819,
+      "population": 23482,
+      "populationRank": 185,
+      "isCapital": false
+    },
+    {
+      "id": "754351",
+      "name": "Ząbki",
+      "latitude": 52.29271,
+      "longitude": 21.10539,
+      "population": 23473,
+      "populationRank": 186,
+      "isCapital": false
+    },
+    {
+      "id": "3088065",
+      "name": "Prudnik",
+      "latitude": 50.32124,
+      "longitude": 17.57461,
+      "population": 23343,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "3095126",
+      "name": "Kościerzyna",
+      "latitude": 54.12226,
+      "longitude": 17.98119,
+      "population": 23327,
+      "populationRank": 188,
+      "isCapital": false
+    },
+    {
+      "id": "762381",
+      "name": "Piastów",
+      "latitude": 52.18435,
+      "longitude": 20.83952,
+      "population": 23290,
+      "populationRank": 189,
+      "isCapital": false
+    },
+    {
+      "id": "3084084",
+      "name": "Świebodzice",
+      "latitude": 50.85974,
+      "longitude": 16.31966,
+      "population": 23228,
+      "populationRank": 190,
+      "isCapital": false
+    },
+    {
+      "id": "765191",
+      "name": "Marki",
+      "latitude": 52.32065,
+      "longitude": 21.10474,
+      "population": 23177,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "753895",
+      "name": "Zambrów",
+      "latitude": 52.9855,
+      "longitude": 22.24319,
+      "population": 22857,
+      "populationRank": 192,
+      "isCapital": false
+    },
+    {
+      "id": "765927",
+      "name": "Lubartów",
+      "latitude": 51.46026,
+      "longitude": 22.60952,
+      "population": 22839,
+      "populationRank": 193,
+      "isCapital": false
+    },
+    {
+      "id": "771506",
+      "name": "Grajewo",
+      "latitude": 53.64728,
+      "longitude": 22.45537,
+      "population": 22803,
+      "populationRank": 194,
+      "isCapital": false
+    },
+    {
+      "id": "762850",
+      "name": "Ostrów Mazowiecka",
+      "latitude": 52.80245,
+      "longitude": 21.89507,
+      "population": 22653,
+      "populationRank": 195,
+      "isCapital": false
+    },
+    {
+      "id": "763111",
+      "name": "Opoczno",
+      "latitude": 51.37569,
+      "longitude": 20.27827,
+      "population": 22592,
+      "populationRank": 196,
+      "isCapital": false
+    },
+    {
+      "id": "3098966",
+      "name": "Goleniów",
+      "latitude": 53.56392,
+      "longitude": 14.82854,
+      "population": 22505,
+      "populationRank": 197,
+      "isCapital": false
+    },
+    {
+      "id": "3093040",
+      "name": "Lubań",
+      "latitude": 51.12014,
+      "longitude": 15.28768,
+      "population": 22245,
+      "populationRank": 198,
+      "isCapital": false
+    },
+    {
+      "id": "762021",
+      "name": "Płońsk",
+      "latitude": 52.62348,
+      "longitude": 20.37552,
+      "population": 22217,
+      "populationRank": 199,
+      "isCapital": false
+    },
+    {
+      "id": "771158",
+      "name": "Hajnówka",
+      "latitude": 52.74328,
+      "longitude": 23.58122,
+      "population": 22157,
+      "populationRank": 200,
+      "isCapital": false
+    }
+  ]
+}

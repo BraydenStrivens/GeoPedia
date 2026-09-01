@@ -1,0 +1,112 @@
+{
+  "towns": [
+    {
+      "id": "8740209",
+      "name": "Nasinu",
+      "latitude": -18.07051,
+      "longitude": 178.51313,
+      "population": 92043,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "2198148",
+      "name": "Suva",
+      "latitude": -18.13683,
+      "longitude": 178.42531,
+      "population": 77366,
+      "populationRank": 2,
+      "isCapital": true
+    },
+    {
+      "id": "2204506",
+      "name": "Lautoka",
+      "latitude": -17.61686,
+      "longitude": 177.45049,
+      "population": 52500,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2202064",
+      "name": "Nadi",
+      "latitude": -17.80309,
+      "longitude": 177.41617,
+      "population": 42284,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2204582",
+      "name": "Labasa",
+      "latitude": -16.4332,
+      "longitude": 179.36451,
+      "population": 27949,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2204575",
+      "name": "Lami",
+      "latitude": -18.11094,
+      "longitude": 178.40943,
+      "population": 24639,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2198365",
+      "name": "Sigatoka",
+      "latitude": -18.14307,
+      "longitude": 177.50691,
+      "population": 17622,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "8335413",
+      "name": "Ba",
+      "latitude": -17.5343,
+      "longitude": 177.67407,
+      "population": 14596,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2197895",
+      "name": "Tavua",
+      "latitude": -17.44221,
+      "longitude": 177.86221,
+      "population": 8810,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2198520",
+      "name": "Savusavu",
+      "latitude": -16.77942,
+      "longitude": 179.33564,
+      "population": 6833,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2197277",
+      "name": "Vaileka",
+      "latitude": -17.37894,
+      "longitude": 178.15329,
+      "population": 5964,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "2200478",
+      "name": "Navua",
+      "latitude": -18.22271,
+      "longitude": 178.17002,
+      "population": 5812,
+      "populationRank": 12,
+      "isCapital": false
+    }
+  ]
+}

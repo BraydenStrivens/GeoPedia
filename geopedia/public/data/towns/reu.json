@@ -1,0 +1,193 @@
+{
+  "towns": [
+    {
+      "id": "935264",
+      "name": "Saint-Denis",
+      "latitude": -20.88231,
+      "longitude": 55.4504,
+      "population": 154765,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "935221",
+      "name": "Saint-Paul",
+      "latitude": -21.00961,
+      "longitude": 55.27134,
+      "population": 105240,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "935214",
+      "name": "Saint-Pierre",
+      "latitude": -21.3393,
+      "longitude": 55.47811,
+      "population": 84077,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "935582",
+      "name": "Le Tampon",
+      "latitude": -21.2766,
+      "longitude": 55.51766,
+      "population": 81943,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "935268",
+      "name": "Saint-André",
+      "latitude": -20.96333,
+      "longitude": 55.65031,
+      "population": 57150,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "935223",
+      "name": "Saint-Louis",
+      "latitude": -21.28585,
+      "longitude": 55.41124,
+      "population": 53935,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "935227",
+      "name": "Saint-Joseph",
+      "latitude": -21.3777,
+      "longitude": 55.61691,
+      "population": 38807,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "935267",
+      "name": "Saint-Benoît",
+      "latitude": -21.03795,
+      "longitude": 55.71546,
+      "population": 37023,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "935691",
+      "name": "La Possession",
+      "latitude": -20.92909,
+      "longitude": 55.3348,
+      "population": 35245,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "935225",
+      "name": "Saint-Leu",
+      "latitude": -21.17059,
+      "longitude": 55.28824,
+      "population": 34893,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "935255",
+      "name": "Sainte-Marie",
+      "latitude": -20.89686,
+      "longitude": 55.55056,
+      "population": 34344,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "935616",
+      "name": "Le Port",
+      "latitude": -20.93752,
+      "longitude": 55.29415,
+      "population": 33336,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "935248",
+      "name": "Sainte-Suzanne",
+      "latitude": -20.90616,
+      "longitude": 55.60788,
+      "population": 24293,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "935902",
+      "name": "L'Étang-Salé",
+      "latitude": -21.25,
+      "longitude": 55.38333,
+      "population": 13836,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "936048",
+      "name": "Bras-Panon",
+      "latitude": -20.99667,
+      "longitude": 55.67823,
+      "population": 13344,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "935416",
+      "name": "Petite-Île",
+      "latitude": -21.35327,
+      "longitude": 55.56427,
+      "population": 12617,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "935608",
+      "name": "Les Avirons",
+      "latitude": -21.24063,
+      "longitude": 55.33685,
+      "population": 11434,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "935251",
+      "name": "Sainte-Rose",
+      "latitude": -21.12858,
+      "longitude": 55.79616,
+      "population": 7035,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "935694",
+      "name": "La Plaine-des-Palmistes",
+      "latitude": -21.13425,
+      "longitude": 55.62819,
+      "population": 6821,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "935975",
+      "name": "Cilaos",
+      "latitude": -21.13641,
+      "longitude": 55.47187,
+      "population": 6225,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "935215",
+      "name": "Saint-Philippe",
+      "latitude": -21.36086,
+      "longitude": 55.7679,
+      "population": 5441,
+      "populationRank": 21,
+      "isCapital": false
+    }
+  ]
+}

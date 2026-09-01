@@ -1,0 +1,787 @@
+{
+  "towns": [
+    {
+      "id": "1871859",
+      "name": "Pyongyang",
+      "latitude": 39.03385,
+      "longitude": 125.75432,
+      "population": 3222000,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "1877449",
+      "name": "Hamhŭng",
+      "latitude": 39.91833,
+      "longitude": 127.53639,
+      "population": 559056,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "1873757",
+      "name": "Namp’o",
+      "latitude": 38.7375,
+      "longitude": 125.40778,
+      "population": 455000,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "1869012",
+      "name": "Sunch’ŏn",
+      "latitude": 39.43167,
+      "longitude": 125.93278,
+      "population": 437000,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "1876373",
+      "name": "Kaesŏng",
+      "latitude": 37.97083,
+      "longitude": 126.55444,
+      "population": 338155,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "1866923",
+      "name": "Wŏnsan",
+      "latitude": 39.15278,
+      "longitude": 127.44361,
+      "population": 329207,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2044757",
+      "name": "Chongjin",
+      "latitude": 41.79556,
+      "longitude": 129.77583,
+      "population": 327000,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "1876401",
+      "name": "Kaech’ŏn",
+      "latitude": 39.70056,
+      "longitude": 125.89333,
+      "population": 319554,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "1870883",
+      "name": "Sariwŏn-si",
+      "latitude": 38.50722,
+      "longitude": 125.75583,
+      "population": 310100,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2040893",
+      "name": "Sinŭiju",
+      "latitude": 40.10056,
+      "longitude": 124.39806,
+      "population": 288112,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "1868144",
+      "name": "Tŏkch’ŏn",
+      "latitude": 39.75261,
+      "longitude": 126.25798,
+      "population": 237133,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "1877615",
+      "name": "Haeju",
+      "latitude": 38.04056,
+      "longitude": 125.71472,
+      "population": 222396,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2043572",
+      "name": "Kanggye",
+      "latitude": 40.96946,
+      "longitude": 126.58523,
+      "population": 209530,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2043837",
+      "name": "Hyesan",
+      "latitude": 41.40167,
+      "longitude": 128.17778,
+      "population": 192680,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "1873014",
+      "name": "Paech’ŏn-ŭp",
+      "latitude": 37.99306,
+      "longitude": 126.30139,
+      "population": 159825,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "2040959",
+      "name": "Sinp’o",
+      "latitude": 40.03971,
+      "longitude": 128.1943,
+      "population": 152759,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "1869446",
+      "name": "Songnim-ni",
+      "latitude": 38.76349,
+      "longitude": 125.64096,
+      "population": 152425,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "1878458",
+      "name": "Ch’ŏngdan-ŭp",
+      "latitude": 37.97028,
+      "longitude": 125.9375,
+      "population": 142607,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "1870648",
+      "name": "Sinch’ŏn-ŭp",
+      "latitude": 38.35323,
+      "longitude": 125.48423,
+      "population": 141407,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2042893",
+      "name": "Manp’o",
+      "latitude": 41.15472,
+      "longitude": 126.28944,
+      "population": 116760,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "1867429",
+      "name": "Ŭllyul",
+      "latitude": 38.51389,
+      "longitude": 125.18972,
+      "population": 107997,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "1876124",
+      "name": "Kangnyŏng",
+      "latitude": 37.9075,
+      "longitude": 125.51,
+      "population": 106827,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "1876105",
+      "name": "Kangsŏn",
+      "latitude": 38.93639,
+      "longitude": 125.58111,
+      "population": 102436,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "1871871",
+      "name": "P’yŏngsŏng",
+      "latitude": 39.24639,
+      "longitude": 125.87194,
+      "population": 100000,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2042709",
+      "name": "Hwasŏng",
+      "latitude": 41.25556,
+      "longitude": 129.49278,
+      "population": 99557,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "1867377",
+      "name": "Ŭnch’ŏn-ŭp",
+      "latitude": 38.56556,
+      "longitude": 125.42722,
+      "population": 95597,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "1875060",
+      "name": "Kwail-ŭp",
+      "latitude": 38.44611,
+      "longitude": 125.01861,
+      "population": 89895,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2039589",
+      "name": "Ŭndŏk",
+      "latitude": 42.51878,
+      "longitude": 130.33479,
+      "population": 89244,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2042255",
+      "name": "Ŏrang",
+      "latitude": 41.44778,
+      "longitude": 129.65556,
+      "population": 87757,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "1871537",
+      "name": "Samch’ŏn",
+      "latitude": 38.35944,
+      "longitude": 125.32586,
+      "population": 86042,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "1870277",
+      "name": "Sinwŏn-ŭp",
+      "latitude": 38.23532,
+      "longitude": 125.76244,
+      "population": 83161,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "1871932",
+      "name": "Pongch’ŏn-ŭp",
+      "latitude": 38.12389,
+      "longitude": 126.20472,
+      "population": 79740,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2044050",
+      "name": "Hongwŏn",
+      "latitude": 40.02528,
+      "longitude": 127.95583,
+      "population": 70923,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "2043962",
+      "name": "Hwadae",
+      "latitude": 40.83806,
+      "longitude": 129.49694,
+      "population": 67677,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "2042500",
+      "name": "Namyang-nodongjagu",
+      "latitude": 42.95389,
+      "longitude": 129.85722,
+      "population": 65956,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "2042718",
+      "name": "Myŏngch’ŏn",
+      "latitude": 41.07056,
+      "longitude": 129.42917,
+      "population": 65797,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "1868578",
+      "name": "T’aet’an-ŭp",
+      "latitude": 38.08822,
+      "longitude": 125.2983,
+      "population": 64258,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "1873172",
+      "name": "Ongjin",
+      "latitude": 37.93472,
+      "longitude": 125.36194,
+      "population": 64247,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "2043484",
+      "name": "Kilju",
+      "latitude": 40.96417,
+      "longitude": 129.32778,
+      "population": 63652,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "1879487",
+      "name": "Chaeryŏng-ŭp",
+      "latitude": 38.39917,
+      "longitude": 125.61556,
+      "population": 53330,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "1879613",
+      "name": "Anju",
+      "latitude": 39.61778,
+      "longitude": 125.66472,
+      "population": 50196,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "2039623",
+      "name": "Uiju",
+      "latitude": 40.19944,
+      "longitude": 124.53167,
+      "population": 50081,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "2041702",
+      "name": "Puryŏng-ŭp",
+      "latitude": 42.06224,
+      "longitude": 129.70457,
+      "population": 48958,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "1869577",
+      "name": "Songhwa",
+      "latitude": 38.36028,
+      "longitude": 125.13722,
+      "population": 44274,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "2044091",
+      "name": "Hoeryŏng",
+      "latitude": 42.44113,
+      "longitude": 129.74601,
+      "population": 43831,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "2041137",
+      "name": "Sijung",
+      "latitude": 41.07889,
+      "longitude": 126.375,
+      "population": 41842,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "2044489",
+      "name": "Chunggang",
+      "latitude": 41.77722,
+      "longitude": 126.87361,
+      "population": 41022,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "1879029",
+      "name": "Changyŏn",
+      "latitude": 38.25083,
+      "longitude": 125.09611,
+      "population": 39368,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "2042704",
+      "name": "Songwŏn-ŭp",
+      "latitude": 40.37278,
+      "longitude": 126.30833,
+      "population": 38051,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "2038902",
+      "name": "Yŏnsa-ŭp",
+      "latitude": 41.90806,
+      "longitude": 129.01111,
+      "population": 37876,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "1869021",
+      "name": "Sunan",
+      "latitude": 39.20323,
+      "longitude": 125.69312,
+      "population": 36671,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "2042987",
+      "name": "Kyŏngsŏng",
+      "latitude": 41.58778,
+      "longitude": 129.60611,
+      "population": 35604,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "2042498",
+      "name": "Ranam",
+      "latitude": 41.71361,
+      "longitude": 129.68444,
+      "population": 34055,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "1879672",
+      "name": "Anbyŏn-ŭp",
+      "latitude": 39.0425,
+      "longitude": 127.52389,
+      "population": 31845,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "2043335",
+      "name": "Kop’ung",
+      "latitude": 40.60389,
+      "longitude": 125.94667,
+      "population": 31572,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "2041442",
+      "name": "Samjiyŏn-ŭp",
+      "latitude": 41.80356,
+      "longitude": 128.31886,
+      "population": 31471,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "1875107",
+      "name": "Kusŏng-si",
+      "latitude": 39.97969,
+      "longitude": 125.2529,
+      "population": 30902,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "1878389",
+      "name": "Chŏngju-si",
+      "latitude": 39.69252,
+      "longitude": 125.21355,
+      "population": 29065,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "1876153",
+      "name": "Kangdong-ŭp",
+      "latitude": 39.1425,
+      "longitude": 126.09611,
+      "population": 28922,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "2040674",
+      "name": "Sŏnbong",
+      "latitude": 42.35118,
+      "longitude": 130.38307,
+      "population": 27331,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "2043677",
+      "name": "Iwŏn-ŭp",
+      "latitude": 40.32306,
+      "longitude": 128.65528,
+      "population": 26364,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "1875632",
+      "name": "Kosan",
+      "latitude": 38.85583,
+      "longitude": 127.41806,
+      "population": 24822,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "1866569",
+      "name": "Yŏnan-ŭp",
+      "latitude": 37.90889,
+      "longitude": 126.16111,
+      "population": 22665,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "2042249",
+      "name": "Yŏnggwang-ŭp",
+      "latitude": 40.01833,
+      "longitude": 127.45472,
+      "population": 21882,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "2042738",
+      "name": "Musan-ŭp",
+      "latitude": 42.22609,
+      "longitude": 129.20776,
+      "population": 21739,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "1875588",
+      "name": "Kowŏn-ŭp",
+      "latitude": 39.43806,
+      "longitude": 127.24306,
+      "population": 21490,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "1877148",
+      "name": "Hoeyang",
+      "latitude": 38.71028,
+      "longitude": 127.59833,
+      "population": 21111,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "1867927",
+      "name": "T’ongch’ŏn-ŭp",
+      "latitude": 38.95389,
+      "longitude": 127.89167,
+      "population": 20575,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "2043531",
+      "name": "Kapsan-ŭp",
+      "latitude": 41.09028,
+      "longitude": 128.29333,
+      "population": 20406,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "1879682",
+      "name": "Anak",
+      "latitude": 38.51083,
+      "longitude": 125.49417,
+      "population": 19995,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "2042267",
+      "name": "Onsŏng",
+      "latitude": 42.95722,
+      "longitude": 129.99333,
+      "population": 19806,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "1875506",
+      "name": "Kujang-ŭp",
+      "latitude": 39.86722,
+      "longitude": 126.03028,
+      "population": 19522,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "1877872",
+      "name": "Chunghwa",
+      "latitude": 38.86389,
+      "longitude": 125.8,
+      "population": 19346,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "1870434",
+      "name": "Sinmak",
+      "latitude": 38.41667,
+      "longitude": 126.23333,
+      "population": 18669,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "2041533",
+      "name": "Sakchu-ŭp",
+      "latitude": 40.38944,
+      "longitude": 125.04667,
+      "population": 18001,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "1870742",
+      "name": "Sinanju",
+      "latitude": 39.59806,
+      "longitude": 125.60972,
+      "population": 15693,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "2041817",
+      "name": "Pukchin-rodongjagu",
+      "latitude": 40.20194,
+      "longitude": 125.74833,
+      "population": 14129,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "1866362",
+      "name": "Ryonggang-ŭp",
+      "latitude": 38.85611,
+      "longitude": 125.42444,
+      "population": 13440,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "1871967",
+      "name": "Pyŏksŏng-ŭp",
+      "latitude": 38.0475,
+      "longitude": 125.55667,
+      "population": 12937,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "1875790",
+      "name": "Koksan-ŭp",
+      "latitude": 38.78194,
+      "longitude": 126.66639,
+      "population": 12923,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "2045005",
+      "name": "Chasŏng",
+      "latitude": 41.46083,
+      "longitude": 126.64139,
+      "population": 12736,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "1870586",
+      "name": "Sindo",
+      "latitude": 39.80573,
+      "longitude": 124.23311,
+      "population": 11810,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "2049653",
+      "name": "Sŭngjibaegam",
+      "latitude": 41.24278,
+      "longitude": 128.79889,
+      "population": 11786,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "1872726",
+      "name": "Panghyŏn-dong",
+      "latitude": 39.88722,
+      "longitude": 125.24139,
+      "population": 11026,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "1875054",
+      "name": "Kwaksan",
+      "latitude": 39.6875,
+      "longitude": 125.08278,
+      "population": 10478,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "1866453",
+      "name": "Yŏngbyŏn",
+      "latitude": 39.81333,
+      "longitude": 125.80417,
+      "population": 9584,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "1866587",
+      "name": "Yŏmju",
+      "latitude": 39.89297,
+      "longitude": 124.59756,
+      "population": 9437,
+      "populationRank": 87,
+      "isCapital": false
+    }
+  ]
+}

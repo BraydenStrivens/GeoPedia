@@ -1,0 +1,517 @@
+{
+  "towns": [
+    {
+      "id": "53654",
+      "name": "Mogadishu",
+      "latitude": 2.03711,
+      "longitude": 45.34375,
+      "population": 2587183,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "64021",
+      "name": "Borama",
+      "latitude": 9.93611,
+      "longitude": 43.18278,
+      "population": 597842,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "57289",
+      "name": "Hargeysa",
+      "latitude": 9.56,
+      "longitude": 44.065,
+      "population": 477876,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "64435",
+      "name": "Berbera",
+      "latitude": 10.43959,
+      "longitude": 45.01432,
+      "population": 242344,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "55671",
+      "name": "Kismayo",
+      "latitude": -0.35817,
+      "longitude": 42.54536,
+      "population": 234852,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "54225",
+      "name": "Marka",
+      "latitude": 1.71594,
+      "longitude": 44.77166,
+      "population": 230100,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "64536",
+      "name": "Baidoa",
+      "latitude": 3.11383,
+      "longitude": 43.6498,
+      "population": 129839,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "63400",
+      "name": "Cabudwaaq",
+      "latitude": 6.24585,
+      "longitude": 46.2247,
+      "population": 120000,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "63795",
+      "name": "Burao",
+      "latitude": 9.52213,
+      "longitude": 45.53363,
+      "population": 99270,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "58831",
+      "name": "Gebiley",
+      "latitude": 9.70028,
+      "longitude": 43.62444,
+      "population": 77320,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "64013",
+      "name": "Bosaso",
+      "latitude": 11.28421,
+      "longitude": 49.18158,
+      "population": 74287,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "12212406",
+      "name": "Beled Hawo",
+      "latitude": 3.9284,
+      "longitude": 41.87997,
+      "population": 73000,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "342803",
+      "name": "Balanbale",
+      "latitude": 5.76897,
+      "longitude": 45.76297,
+      "population": 68000,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "65785",
+      "name": "Afgooye",
+      "latitude": 2.1381,
+      "longitude": 45.1212,
+      "population": 65461,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "59611",
+      "name": "Gaalkacyo",
+      "latitude": 6.76972,
+      "longitude": 47.43083,
+      "population": 61200,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "400769",
+      "name": "Laascaanood",
+      "latitude": 8.47738,
+      "longitude": 47.35971,
+      "population": 60100,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "58933",
+      "name": "Garoowe",
+      "latitude": 8.40207,
+      "longitude": 48.48284,
+      "population": 57300,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "64460",
+      "name": "Beledweyne",
+      "latitude": 4.73583,
+      "longitude": 45.20361,
+      "population": 55410,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "52867",
+      "name": "Qoryooley",
+      "latitude": 1.78784,
+      "longitude": 44.52999,
+      "population": 51720,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "56335",
+      "name": "Jawhar",
+      "latitude": 2.78087,
+      "longitude": 45.50048,
+      "population": 47086,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "56166",
+      "name": "Jilib",
+      "latitude": 0.48829,
+      "longitude": 42.78535,
+      "population": 43694,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "56399",
+      "name": "Jamaame",
+      "latitude": 0.06968,
+      "longitude": 42.74497,
+      "population": 42270,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "6311126",
+      "name": "Dhabad",
+      "latitude": 6.43167,
+      "longitude": 46.46194,
+      "population": 36000,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "62691",
+      "name": "Ceerigaabo",
+      "latitude": 10.61616,
+      "longitude": 47.36795,
+      "population": 33853,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "54715",
+      "name": "Luuq",
+      "latitude": 3.80315,
+      "longitude": 42.54417,
+      "population": 33820,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "63571",
+      "name": "Buurhakaba",
+      "latitude": 2.80257,
+      "longitude": 44.07805,
+      "population": 27792,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "61360",
+      "name": "Dhamas",
+      "latitude": 3.15296,
+      "longitude": 41.33565,
+      "population": 27000,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "62788",
+      "name": "Ceeldheer",
+      "latitude": 3.84878,
+      "longitude": 47.18064,
+      "population": 26562,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "6311111",
+      "name": "Saaxo",
+      "latitude": 6.77287,
+      "longitude": 46.79689,
+      "population": 26000,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "51228",
+      "name": "Tog Wajaale",
+      "latitude": 9.59972,
+      "longitude": 43.335,
+      "population": 22700,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "50672",
+      "name": "Wanlaweyn",
+      "latitude": 2.6185,
+      "longitude": 44.8938,
+      "population": 22022,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "60809",
+      "name": "Diinsoor",
+      "latitude": 2.4085,
+      "longitude": 42.9771,
+      "population": 20000,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "8045596",
+      "name": "Baki",
+      "latitude": 9.89206,
+      "longitude": 43.38531,
+      "population": 20000,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "53157",
+      "name": "Qandala",
+      "latitude": 11.47197,
+      "longitude": 49.87282,
+      "population": 19300,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "52078",
+      "name": "Saylac",
+      "latitude": 11.3539,
+      "longitude": 43.4731,
+      "population": 18600,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "63949",
+      "name": "Bu’aale",
+      "latitude": 1.08333,
+      "longitude": 42.58333,
+      "population": 17475,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "63689",
+      "name": "Buulobarde",
+      "latitude": 3.85375,
+      "longitude": 45.56744,
+      "population": 16928,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "58994",
+      "name": "Garbahaarrey",
+      "latitude": 3.32892,
+      "longitude": 42.22091,
+      "population": 12652,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "57000",
+      "name": "Hobyo",
+      "latitude": 5.3505,
+      "longitude": 48.5268,
+      "population": 12564,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "49747",
+      "name": "Xuddur",
+      "latitude": 4.12129,
+      "longitude": 43.88945,
+      "population": 12500,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "63707",
+      "name": "Buhodle",
+      "latitude": 8.23056,
+      "longitude": 46.32667,
+      "population": 11373,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "59140",
+      "name": "Garadag",
+      "latitude": 9.48828,
+      "longitude": 46.8674,
+      "population": 10000,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "56414",
+      "name": "Jalalaqsi",
+      "latitude": 3.3766,
+      "longitude": 45.5996,
+      "population": 9743,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "62821",
+      "name": "Ceelbuur",
+      "latitude": 4.68501,
+      "longitude": 46.6176,
+      "population": 9031,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "60928",
+      "name": "Dhuusamarreeb",
+      "latitude": 5.53597,
+      "longitude": 46.38666,
+      "population": 9000,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "49593",
+      "name": "Yeed",
+      "latitude": 4.55,
+      "longitude": 43.03333,
+      "population": 8429,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "54460",
+      "name": "Mahaddayweyne",
+      "latitude": 2.9726,
+      "longitude": 45.5347,
+      "population": 8273,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "55223",
+      "name": "Las Khorey",
+      "latitude": 11.1595,
+      "longitude": 48.1967,
+      "population": 6941,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "64670",
+      "name": "Bargaal",
+      "latitude": 11.28636,
+      "longitude": 51.0773,
+      "population": 6798,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "50814",
+      "name": "Waajid",
+      "latitude": 3.80958,
+      "longitude": 43.24627,
+      "population": 6666,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "65722",
+      "name": "Agabar",
+      "latitude": 9.92618,
+      "longitude": 43.91673,
+      "population": 6547,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "56505",
+      "name": "Iskushuban",
+      "latitude": 10.2837,
+      "longitude": 50.23,
+      "population": 5759,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "53372",
+      "name": "Oodweyne",
+      "latitude": 9.4092,
+      "longitude": 45.06397,
+      "population": 5491,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "63344",
+      "name": "Cadale",
+      "latitude": 2.7603,
+      "longitude": 46.3222,
+      "population": 5385,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "10228788",
+      "name": "Dhobley",
+      "latitude": 0.40997,
+      "longitude": 41.00995,
+      "population": 5000,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "51299",
+      "name": "Tayeeglow",
+      "latitude": 4.01897,
+      "longitude": 44.51111,
+      "population": 2119,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "50064",
+      "name": "Xarardheere",
+      "latitude": 4.6544,
+      "longitude": 47.8575,
+      "population": 2018,
+      "populationRank": 57,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,823 @@
+{
+  "towns": [
+    {
+      "id": "584923",
+      "name": "Sumgayit",
+      "latitude": 40.58972,
+      "longitude": 49.66861,
+      "population": 427000,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "586523",
+      "name": "Ganja",
+      "latitude": 40.68157,
+      "longitude": 46.36134,
+      "population": 330663,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "585915",
+      "name": "Khirdalan",
+      "latitude": 40.44808,
+      "longitude": 49.75502,
+      "population": 196200,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "584649",
+      "name": "Yevlakh",
+      "latitude": 40.61832,
+      "longitude": 47.15014,
+      "population": 127400,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "585514",
+      "name": "Mingachevir",
+      "latitude": 40.76422,
+      "longitude": 47.06227,
+      "population": 106048,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "147429",
+      "name": "Naxçıvan",
+      "latitude": 39.20889,
+      "longitude": 45.41222,
+      "population": 97200,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "147622",
+      "name": "Lankaran",
+      "latitude": 38.75428,
+      "longitude": 48.85062,
+      "population": 89300,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "147611",
+      "name": "Lerik",
+      "latitude": 38.77388,
+      "longitude": 48.41497,
+      "population": 87000,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "148565",
+      "name": "Şirvan",
+      "latitude": 39.93778,
+      "longitude": 48.929,
+      "population": 70220,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "585170",
+      "name": "Sheki",
+      "latitude": 41.19194,
+      "longitude": 47.17056,
+      "population": 68400,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "584717",
+      "name": "Xaçmaz",
+      "latitude": 41.46426,
+      "longitude": 48.80565,
+      "population": 67600,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "586427",
+      "name": "Göyçay",
+      "latitude": 40.65055,
+      "longitude": 47.74219,
+      "population": 42500,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "587057",
+      "name": "Barda",
+      "latitude": 40.37577,
+      "longitude": 47.12619,
+      "population": 41600,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "585152",
+      "name": "Shamkhir",
+      "latitude": 40.82975,
+      "longitude": 46.0178,
+      "population": 41300,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "587384",
+      "name": "Aghjabadi",
+      "latitude": 40.05015,
+      "longitude": 47.45937,
+      "population": 41200,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "585156",
+      "name": "Shamakhi",
+      "latitude": 40.63141,
+      "longitude": 48.64137,
+      "population": 40300,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "148619",
+      "name": "Aghdam",
+      "latitude": 39.99096,
+      "longitude": 46.92736,
+      "population": 37700,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "147271",
+      "name": "Salyan",
+      "latitude": 39.59621,
+      "longitude": 48.98479,
+      "population": 36555,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "148290",
+      "name": "Jalilabad",
+      "latitude": 39.20963,
+      "longitude": 48.49186,
+      "population": 36259,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "147982",
+      "name": "Imishli",
+      "latitude": 39.87095,
+      "longitude": 48.05995,
+      "population": 34178,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "584596",
+      "name": "Zaqatala",
+      "latitude": 41.6316,
+      "longitude": 46.64479,
+      "population": 32171,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "585630",
+      "name": "Lokbatan",
+      "latitude": 40.3256,
+      "longitude": 49.73376,
+      "population": 30694,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "585187",
+      "name": "Sabirabad",
+      "latitude": 40.00869,
+      "longitude": 48.47701,
+      "population": 30612,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "586318",
+      "name": "Ismayilli",
+      "latitude": 40.78485,
+      "longitude": 48.15141,
+      "population": 27500,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "584954",
+      "name": "Siyazan",
+      "latitude": 41.07811,
+      "longitude": 49.11564,
+      "population": 25900,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "148106",
+      "name": "Fuzuli",
+      "latitude": 39.60094,
+      "longitude": 47.14529,
+      "population": 25100,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "587378",
+      "name": "Ağdaş",
+      "latitude": 40.64699,
+      "longitude": 47.4738,
+      "population": 23528,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "586763",
+      "name": "Divichibazar",
+      "latitude": 41.20117,
+      "longitude": 48.98712,
+      "population": 23248,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "585225",
+      "name": "Hacıqabul",
+      "latitude": 40.03874,
+      "longitude": 48.94286,
+      "population": 23102,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "585221",
+      "name": "Quba",
+      "latitude": 41.36108,
+      "longitude": 48.51341,
+      "population": 22405,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "587361",
+      "name": "Aghsu",
+      "latitude": 40.57028,
+      "longitude": 48.40087,
+      "population": 22300,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "585226",
+      "name": "Gazakh",
+      "latitude": 41.09246,
+      "longitude": 45.36561,
+      "population": 20800,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "584871",
+      "name": "Tartar",
+      "latitude": 40.34201,
+      "longitude": 46.93161,
+      "population": 20400,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "147288",
+      "name": "Saatlı",
+      "latitude": 39.93214,
+      "longitude": 48.36892,
+      "population": 20300,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "584716",
+      "name": "Goygol",
+      "latitude": 40.58584,
+      "longitude": 46.3189,
+      "population": 19800,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "147105",
+      "name": "Shusha",
+      "latitude": 39.76006,
+      "longitude": 46.74989,
+      "population": 19400,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "585763",
+      "name": "Kyurdarmir",
+      "latitude": 40.34257,
+      "longitude": 48.15649,
+      "population": 19088,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "147425",
+      "name": "Neftçala",
+      "latitude": 39.3768,
+      "longitude": 49.247,
+      "population": 18661,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "148340",
+      "name": "Pushkino",
+      "latitude": 39.45833,
+      "longitude": 48.545,
+      "population": 18182,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "147420",
+      "name": "Nehram",
+      "latitude": 39.11597,
+      "longitude": 45.46168,
+      "population": 17200,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "585220",
+      "name": "Qusar",
+      "latitude": 41.4275,
+      "longitude": 48.4302,
+      "population": 16022,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "584791",
+      "name": "Ujar",
+      "latitude": 40.51902,
+      "longitude": 47.65423,
+      "population": 15741,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "585802",
+      "name": "Govlar",
+      "latitude": 40.94595,
+      "longitude": 45.73175,
+      "population": 15600,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "148354",
+      "name": "Beylagan",
+      "latitude": 39.77556,
+      "longitude": 47.61861,
+      "population": 15599,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "585568",
+      "name": "Mardakan",
+      "latitude": 40.49182,
+      "longitude": 50.14292,
+      "population": 15267,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "148445",
+      "name": "Astara",
+      "latitude": 38.45598,
+      "longitude": 48.87498,
+      "population": 15190,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "587070",
+      "name": "Belokany",
+      "latitude": 41.72626,
+      "longitude": 46.40478,
+      "population": 14800,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "586573",
+      "name": "Gadabay",
+      "latitude": 40.57055,
+      "longitude": 45.81229,
+      "population": 14500,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "586967",
+      "name": "Binagadi",
+      "latitude": 40.46602,
+      "longitude": 49.82783,
+      "population": 14012,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "148251",
+      "name": "Julfa",
+      "latitude": 38.95397,
+      "longitude": 45.62961,
+      "population": 13700,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "584715",
+      "name": "Xudat",
+      "latitude": 41.63052,
+      "longitude": 48.68161,
+      "population": 13625,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "587207",
+      "name": "Pirallahı",
+      "latitude": 40.47013,
+      "longitude": 50.32476,
+      "population": 13435,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "585223",
+      "name": "Qobustan",
+      "latitude": 40.08238,
+      "longitude": 49.41205,
+      "population": 13398,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "146862",
+      "name": "Geytepe",
+      "latitude": 39.11998,
+      "longitude": 48.59383,
+      "population": 13340,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "584821",
+      "name": "Tovuz",
+      "latitude": 40.99249,
+      "longitude": 45.62838,
+      "population": 12626,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "587362",
+      "name": "Aghstafa",
+      "latitude": 41.11889,
+      "longitude": 45.45389,
+      "population": 12200,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "585227",
+      "name": "Qax",
+      "latitude": 41.41826,
+      "longitude": 46.92043,
+      "population": 11992,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "585177",
+      "name": "Samukh",
+      "latitude": 40.76485,
+      "longitude": 46.40868,
+      "population": 11100,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "147368",
+      "name": "Ordubad",
+      "latitude": 38.90961,
+      "longitude": 46.02274,
+      "population": 10800,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "584586",
+      "name": "Zardob",
+      "latitude": 40.2184,
+      "longitude": 47.71214,
+      "population": 10612,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "586765",
+      "name": "Dashkasan",
+      "latitude": 40.52393,
+      "longitude": 46.08186,
+      "population": 10600,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "585570",
+      "name": "Gobustan",
+      "latitude": 40.5336,
+      "longitude": 48.92819,
+      "population": 10100,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "147552",
+      "name": "Masally",
+      "latitude": 39.03532,
+      "longitude": 48.6654,
+      "population": 9604,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "148141",
+      "name": "Jabrayil",
+      "latitude": 39.39917,
+      "longitude": 47.02835,
+      "population": 9600,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "586430",
+      "name": "Goranboy",
+      "latitude": 40.61028,
+      "longitude": 46.78972,
+      "population": 9200,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "585400",
+      "name": "Naftalan",
+      "latitude": 40.50821,
+      "longitude": 46.8203,
+      "population": 8600,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "146958",
+      "name": "Yaycı",
+      "latitude": 38.94052,
+      "longitude": 45.73244,
+      "population": 8500,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "586268",
+      "name": "Kalbajar",
+      "latitude": 40.10984,
+      "longitude": 46.04446,
+      "population": 8400,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "148003",
+      "name": "Horadiz",
+      "latitude": 39.45015,
+      "longitude": 47.33496,
+      "population": 7700,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "146961",
+      "name": "Yardımlı",
+      "latitude": 38.90771,
+      "longitude": 48.24052,
+      "population": 7623,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "146858",
+      "name": "Sharur City",
+      "latitude": 39.55298,
+      "longitude": 44.97993,
+      "population": 7500,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "146901",
+      "name": "Zangilan",
+      "latitude": 39.08371,
+      "longitude": 46.65988,
+      "population": 7483,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "148375",
+      "name": "Severo-Vostotchnyi Bank",
+      "latitude": 39.41117,
+      "longitude": 49.24792,
+      "population": 7075,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "147305",
+      "name": "Qubadlı",
+      "latitude": 39.34441,
+      "longitude": 46.58183,
+      "population": 6890,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "585333",
+      "name": "Oğuz",
+      "latitude": 41.07128,
+      "longitude": 47.46528,
+      "population": 6600,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "147637",
+      "name": "Givrag",
+      "latitude": 39.39939,
+      "longitude": 45.11513,
+      "population": 6500,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "147504",
+      "name": "Mincivan",
+      "latitude": 39.03023,
+      "longitude": 46.72329,
+      "population": 6353,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "148413",
+      "name": "Babak",
+      "latitude": 39.15459,
+      "longitude": 45.44282,
+      "population": 6000,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "147774",
+      "name": "Khojaly",
+      "latitude": 39.91361,
+      "longitude": 46.79213,
+      "population": 5810,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "147278",
+      "name": "Shahbuz",
+      "latitude": 39.40722,
+      "longitude": 45.57389,
+      "population": 4600,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "146969",
+      "name": "Khojavend",
+      "latitude": 39.79496,
+      "longitude": 47.1117,
+      "population": 3700,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "585736",
+      "name": "Guzanli",
+      "latitude": 40.15911,
+      "longitude": 47.16527,
+      "population": 3200,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "147625",
+      "name": "Laçın",
+      "latitude": 39.63742,
+      "longitude": 46.54977,
+      "population": 2300,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "147736",
+      "name": "Karkijahan",
+      "latitude": 39.80271,
+      "longitude": 46.73642,
+      "population": 2300,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "8326746",
+      "name": "Heydarabad",
+      "latitude": 39.72286,
+      "longitude": 44.84846,
+      "population": 2300,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "146970",
+      "name": "Khankendi",
+      "latitude": 39.8177,
+      "longitude": 46.7528,
+      "population": 2100,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "148450",
+      "name": "Askyaran",
+      "latitude": 39.9391,
+      "longitude": 46.83161,
+      "population": 1639,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "585909",
+      "name": "Khizi",
+      "latitude": 40.90847,
+      "longitude": 49.07481,
+      "population": 1600,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "393875",
+      "name": "Turshsu",
+      "latitude": 39.6875,
+      "longitude": 46.64306,
+      "population": 900,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "587379",
+      "name": "Martakert",
+      "latitude": 40.21127,
+      "longitude": 46.82135,
+      "population": 200,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "148105",
+      "name": "Hadrut",
+      "latitude": 39.52003,
+      "longitude": 47.0319,
+      "population": 50,
+      "populationRank": 91,
+      "isCapital": false
+    }
+  ]
+}

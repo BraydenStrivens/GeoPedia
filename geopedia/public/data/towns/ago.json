@@ -1,0 +1,832 @@
+{
+  "towns": [
+    {
+      "id": "2240449",
+      "name": "Luanda",
+      "latitude": -8.83682,
+      "longitude": 13.23432,
+      "population": 2776168,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3347762",
+      "name": "Lubango",
+      "latitude": -14.91717,
+      "longitude": 13.4925,
+      "population": 600751,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3348313",
+      "name": "Huambo",
+      "latitude": -12.77611,
+      "longitude": 15.73917,
+      "population": 595304,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3351663",
+      "name": "Benguela",
+      "latitude": -12.57674,
+      "longitude": 13.40268,
+      "population": 555124,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2243271",
+      "name": "Cabinda",
+      "latitude": -5.56198,
+      "longitude": 12.19476,
+      "population": 550000,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2239862",
+      "name": "Malanje",
+      "latitude": -9.54015,
+      "longitude": 16.34096,
+      "population": 455000,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3347939",
+      "name": "Lobito",
+      "latitude": -12.3644,
+      "longitude": 13.53601,
+      "population": 393079,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "145531",
+      "name": "Saurimo",
+      "latitude": -9.66078,
+      "longitude": 20.39155,
+      "population": 393000,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3348078",
+      "name": "Cuíto",
+      "latitude": -12.38333,
+      "longitude": 16.93333,
+      "population": 355423,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2236568",
+      "name": "Uíge",
+      "latitude": -7.60874,
+      "longitude": 15.06131,
+      "population": 322531,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3347719",
+      "name": "Luena",
+      "latitude": -11.78333,
+      "longitude": 19.91667,
+      "population": 273675,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3347019",
+      "name": "Mossamedes",
+      "latitude": -15.19611,
+      "longitude": 12.15222,
+      "population": 255000,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3347353",
+      "name": "Menongue",
+      "latitude": -14.6585,
+      "longitude": 17.69099,
+      "population": 251178,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2236967",
+      "name": "Soyo",
+      "latitude": -6.1349,
+      "longitude": 12.36894,
+      "population": 221555,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3346015",
+      "name": "Sumbe",
+      "latitude": -11.20605,
+      "longitude": 13.84371,
+      "population": 205832,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "145757",
+      "name": "Dundo",
+      "latitude": -7.36643,
+      "longitude": 20.81557,
+      "population": 177604,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3351599",
+      "name": "Bocoio",
+      "latitude": -12.47017,
+      "longitude": 14.13688,
+      "population": 164685,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2239076",
+      "name": "N'dalatando",
+      "latitude": -9.29782,
+      "longitude": 14.91162,
+      "population": 161584,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "13631347",
+      "name": "Panguíla",
+      "latitude": -8.69335,
+      "longitude": 13.44914,
+      "population": 158068,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2239520",
+      "name": "Mbanza Kongo",
+      "latitude": -6.26667,
+      "longitude": 14.23833,
+      "population": 148000,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2243173",
+      "name": "Cacuaco",
+      "latitude": -8.7798,
+      "longitude": 13.37478,
+      "population": 146867,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3351500",
+      "name": "Caála",
+      "latitude": -12.8525,
+      "longitude": 15.56056,
+      "population": 130000,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "3346821",
+      "name": "Ondjiva",
+      "latitude": -17.06667,
+      "longitude": 15.73333,
+      "population": 121537,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3348094",
+      "name": "Catchiungo",
+      "latitude": -12.56598,
+      "longitude": 16.22589,
+      "population": 120677,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "3348613",
+      "name": "Gabela",
+      "latitude": -10.85147,
+      "longitude": 14.37993,
+      "population": 116903,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "145724",
+      "name": "Lucapa",
+      "latitude": -8.41915,
+      "longitude": 20.74466,
+      "population": 110000,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "3351764",
+      "name": "Balombo",
+      "latitude": -12.35426,
+      "longitude": 14.77232,
+      "population": 108965,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "3350246",
+      "name": "Catumbela",
+      "latitude": -12.43002,
+      "longitude": 13.54677,
+      "population": 95034,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2239069",
+      "name": "Negage",
+      "latitude": -7.75938,
+      "longitude": 15.2722,
+      "population": 92950,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "3347853",
+      "name": "Longonjo",
+      "latitude": -12.90795,
+      "longitude": 15.24845,
+      "population": 92103,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "3346661",
+      "name": "Porto Amboim",
+      "latitude": -10.73251,
+      "longitude": 13.76844,
+      "population": 91605,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "3349229",
+      "name": "Cubal",
+      "latitude": -13.03865,
+      "longitude": 14.2455,
+      "population": 90367,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "3350123",
+      "name": "Cela",
+      "latitude": -11.42173,
+      "longitude": 15.12345,
+      "population": 90000,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "7768322",
+      "name": "Cafunfo",
+      "latitude": -8.7672,
+      "longitude": 17.99572,
+      "population": 90000,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "3348774",
+      "name": "Ecunna",
+      "latitude": -12.67889,
+      "longitude": 15.50556,
+      "population": 82541,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "3347424",
+      "name": "Matala",
+      "latitude": -14.73272,
+      "longitude": 15.03479,
+      "population": 78000,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "3351307",
+      "name": "Cahama",
+      "latitude": -16.28556,
+      "longitude": 14.30962,
+      "population": 70061,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "3348581",
+      "name": "Ganda",
+      "latitude": -13.01592,
+      "longitude": 14.63502,
+      "population": 65000,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "2241371",
+      "name": "Dondo",
+      "latitude": -9.68456,
+      "longitude": 14.42788,
+      "population": 64643,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "3351014",
+      "name": "Camacupa",
+      "latitude": -12.01667,
+      "longitude": 17.48333,
+      "population": 59000,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "876177",
+      "name": "Luau",
+      "latitude": -10.70727,
+      "longitude": 22.22466,
+      "population": 55432,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "2241668",
+      "name": "Cuango-Luzamba",
+      "latitude": -9.14583,
+      "longitude": 18.04453,
+      "population": 55000,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "2242001",
+      "name": "Caxito",
+      "latitude": -8.57848,
+      "longitude": 13.66425,
+      "population": 55000,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "2242584",
+      "name": "Cangandala",
+      "latitude": -9.78333,
+      "longitude": 16.43333,
+      "population": 52220,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "3351884",
+      "name": "Andulo",
+      "latitude": -11.48676,
+      "longitude": 16.69663,
+      "population": 50000,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "3345669",
+      "name": "Ucu Seles",
+      "latitude": -11.41237,
+      "longitude": 14.30663,
+      "population": 47421,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "3345790",
+      "name": "Tômbua",
+      "latitude": -15.80394,
+      "longitude": 11.84485,
+      "population": 46573,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "3351064",
+      "name": "Calulo",
+      "latitude": -10.00055,
+      "longitude": 14.89519,
+      "population": 44000,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "3345517",
+      "name": "Virei",
+      "latitude": -15.727,
+      "longitude": 12.94961,
+      "population": 42607,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "2239732",
+      "name": "Maquela do Zombo",
+      "latitude": -6.05716,
+      "longitude": 15.10971,
+      "population": 42000,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "2241623",
+      "name": "Cuímba",
+      "latitude": -6.12085,
+      "longitude": 14.62086,
+      "population": 41878,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "2243458",
+      "name": "Buco Zau",
+      "latitude": -4.76667,
+      "longitude": 12.55,
+      "population": 40953,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "2243127",
+      "name": "Cacuso",
+      "latitude": -9.42102,
+      "longitude": 15.74668,
+      "population": 39302,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "3345495",
+      "name": "Alto Hama",
+      "latitude": -12.23333,
+      "longitude": 15.55,
+      "population": 36661,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "3345492",
+      "name": "Xangongo",
+      "latitude": -16.7444,
+      "longitude": 14.97494,
+      "population": 35000,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "876482",
+      "name": "Cazombo",
+      "latitude": -11.89914,
+      "longitude": 22.90216,
+      "population": 34000,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "2239149",
+      "name": "Mussende",
+      "latitude": -10.5143,
+      "longitude": 16.0199,
+      "population": 33558,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "2236991",
+      "name": "Songo",
+      "latitude": -7.35207,
+      "longitude": 14.84629,
+      "population": 31382,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "2239001",
+      "name": "N'zeto",
+      "latitude": -7.228,
+      "longitude": 12.86956,
+      "population": 28840,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "3350372",
+      "name": "Catabola",
+      "latitude": -12.15,
+      "longitude": 17.28333,
+      "population": 28831,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "3346598",
+      "name": "Quibala",
+      "latitude": -10.73366,
+      "longitude": 14.97995,
+      "population": 27128,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "3349723",
+      "name": "Chinguar",
+      "latitude": -12.55708,
+      "longitude": 16.33805,
+      "population": 26811,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "2241635",
+      "name": "Cuilo",
+      "latitude": -8.23619,
+      "longitude": 19.52566,
+      "population": 26577,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "3348896",
+      "name": "Dombe Grande",
+      "latitude": -12.95167,
+      "longitude": 13.1025,
+      "population": 25000,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "3346497",
+      "name": "Quipungo",
+      "latitude": -14.81909,
+      "longitude": 14.53504,
+      "population": 23014,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "2237128",
+      "name": "Sanza Pombo",
+      "latitude": -7.31473,
+      "longitude": 16.0024,
+      "population": 23000,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "2242885",
+      "name": "Camabatela",
+      "latitude": -8.18812,
+      "longitude": 15.37495,
+      "population": 21767,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "3347111",
+      "name": "Mungo",
+      "latitude": -11.83268,
+      "longitude": 16.23613,
+      "population": 21662,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "2239106",
+      "name": "Muxaluando",
+      "latitude": -8.12307,
+      "longitude": 14.28838,
+      "population": 21052,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "2236716",
+      "name": "Tombôco",
+      "latitude": -6.80517,
+      "longitude": 13.33017,
+      "population": 20358,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "3349181",
+      "name": "Cuemba",
+      "latitude": -12.15,
+      "longitude": 18.08333,
+      "population": 19995,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "2240975",
+      "name": "Golungo Alto",
+      "latitude": -9.13333,
+      "longitude": 14.76667,
+      "population": 19992,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "2240393",
+      "name": "Lucala",
+      "latitude": -9.27268,
+      "longitude": 15.25206,
+      "population": 19422,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "3350917",
+      "name": "Cambundi Catembo",
+      "latitude": -10.07531,
+      "longitude": 17.55058,
+      "population": 17212,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "2240686",
+      "name": "Kunda dya Baze",
+      "latitude": -8.90769,
+      "longitude": 17.05339,
+      "population": 15965,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "2243181",
+      "name": "Cacongo",
+      "latitude": -5.23864,
+      "longitude": 12.14428,
+      "population": 15000,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "3349201",
+      "name": "Cuchi",
+      "latitude": -14.64978,
+      "longitude": 16.89929,
+      "population": 15000,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "3351380",
+      "name": "Caconda",
+      "latitude": -13.73564,
+      "longitude": 15.0618,
+      "population": 15000,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "876632",
+      "name": "Camanongue",
+      "latitude": -11.4361,
+      "longitude": 20.16459,
+      "population": 12930,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "2241502",
+      "name": "Damba",
+      "latitude": -6.67868,
+      "longitude": 15.13128,
+      "population": 12000,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "3349406",
+      "name": "Chongoroi",
+      "latitude": -13.57418,
+      "longitude": 13.94062,
+      "population": 12000,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "3349080",
+      "name": "Cunhinga",
+      "latitude": -12.23333,
+      "longitude": 16.78333,
+      "population": 11812,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "2243914",
+      "name": "Ambriz",
+      "latitude": -7.84632,
+      "longitude": 13.10784,
+      "population": 11640,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "3351647",
+      "name": "Bibala",
+      "latitude": -14.7665,
+      "longitude": 13.34912,
+      "population": 10500,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "3349649",
+      "name": "Chipindo",
+      "latitude": -13.81419,
+      "longitude": 15.79041,
+      "population": 10000,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "3349997",
+      "name": "Chibia",
+      "latitude": -15.18315,
+      "longitude": 13.69909,
+      "population": 10000,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "876019",
+      "name": "Mavinga",
+      "latitude": -15.79347,
+      "longitude": 20.36374,
+      "population": 10000,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "2242999",
+      "name": "Calandula",
+      "latitude": -9.08981,
+      "longitude": 15.95382,
+      "population": 9000,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "3351215",
+      "name": "Calai",
+      "latitude": -17.88896,
+      "longitude": 19.7706,
+      "population": 8741,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "2238655",
+      "name": "Quibaxe",
+      "latitude": -8.50055,
+      "longitude": 14.58589,
+      "population": 8268,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "2238828",
+      "name": "Puri",
+      "latitude": -7.69468,
+      "longitude": 15.65416,
+      "population": 7598,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "876233",
+      "name": "Léua",
+      "latitude": -11.65753,
+      "longitude": 20.44772,
+      "population": 5168,
+      "populationRank": 92,
+      "isCapital": false
+    }
+  ]
+}

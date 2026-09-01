@@ -1,0 +1,22 @@
+{
+  "towns": [
+    {
+      "id": "3166645",
+      "name": "Serravalle",
+      "latitude": 43.96897,
+      "longitude": 12.48167,
+      "population": 9258,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "3168070",
+      "name": "San Marino",
+      "latitude": 43.93667,
+      "longitude": 12.44639,
+      "population": 4500,
+      "populationRank": 2,
+      "isCapital": true
+    }
+  ]
+}

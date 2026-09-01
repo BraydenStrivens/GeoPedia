@@ -1,0 +1,229 @@
+{
+  "towns": [
+    {
+      "id": "276781",
+      "name": "Beirut",
+      "latitude": 33.89332,
+      "longitude": 35.50157,
+      "population": 1916100,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "266826",
+      "name": "Tripoli",
+      "latitude": 34.43352,
+      "longitude": 35.84415,
+      "population": 229398,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "268064",
+      "name": "Sidon",
+      "latitude": 33.55751,
+      "longitude": 35.37148,
+      "population": 163554,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "267008",
+      "name": "Tyre",
+      "latitude": 33.27333,
+      "longitude": 35.19389,
+      "population": 135204,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "280425",
+      "name": "Aley",
+      "latitude": 33.80528,
+      "longitude": 35.6,
+      "population": 130000,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "278913",
+      "name": "Nabatîyé et Tahta",
+      "latitude": 33.37889,
+      "longitude": 35.48389,
+      "population": 120000,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "274874",
+      "name": "Habboûch",
+      "latitude": 33.40753,
+      "longitude": 35.48177,
+      "population": 98433,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "273140",
+      "name": "Jounieh",
+      "latitude": 33.98083,
+      "longitude": 35.61778,
+      "population": 96315,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "266045",
+      "name": "Zahlé",
+      "latitude": 33.84675,
+      "longitude": 35.90203,
+      "population": 78145,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "273675",
+      "name": "Aarsâl",
+      "latitude": 34.17944,
+      "longitude": 36.42083,
+      "population": 50000,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "280155",
+      "name": "Ghazieh",
+      "latitude": 33.5175,
+      "longitude": 35.36889,
+      "population": 50000,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "277130",
+      "name": "Baalbek",
+      "latitude": 34.00583,
+      "longitude": 36.21806,
+      "population": 30916,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "279997",
+      "name": "El Hermel",
+      "latitude": 34.39417,
+      "longitude": 36.38472,
+      "population": 22250,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "273203",
+      "name": "Byblos",
+      "latitude": 34.12111,
+      "longitude": 35.64806,
+      "population": 20784,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "276359",
+      "name": "Bsharri",
+      "latitude": 34.25083,
+      "longitude": 36.01056,
+      "population": 20000,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "280328",
+      "name": "Batroûn",
+      "latitude": 34.25528,
+      "longitude": 35.65806,
+      "population": 10852,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "280602",
+      "name": "Aajaltoûn",
+      "latitude": 33.96528,
+      "longitude": 35.68278,
+      "population": 10000,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "277226",
+      "name": "Baabda",
+      "latitude": 33.83389,
+      "longitude": 35.54417,
+      "population": 9000,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "275666",
+      "name": "Deïr el Ahmar",
+      "latitude": 34.12528,
+      "longitude": 36.13111,
+      "population": 5947,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "276632",
+      "name": "Bhamdoûn el Mhatta",
+      "latitude": 33.80861,
+      "longitude": 35.65972,
+      "population": 5000,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "7869857",
+      "name": "Tebnine",
+      "latitude": 33.19399,
+      "longitude": 35.40967,
+      "population": 5000,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "274723",
+      "name": "Halba",
+      "latitude": 34.54278,
+      "longitude": 36.07972,
+      "population": 4500,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "278925",
+      "name": "Aanjar",
+      "latitude": 33.72778,
+      "longitude": 35.93111,
+      "population": 2400,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "276633",
+      "name": "Bhamdoun",
+      "latitude": 33.795,
+      "longitude": 35.65111,
+      "population": 1500,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "275368",
+      "name": "Fadous",
+      "latitude": 34.22833,
+      "longitude": 35.65584,
+      "population": 750,
+      "populationRank": 25,
+      "isCapital": false
+    }
+  ]
+}

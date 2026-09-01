@@ -1,0 +1,112 @@
+{
+  "towns": [
+    {
+      "id": "4034561",
+      "name": "Faaa",
+      "latitude": -17.55933,
+      "longitude": -149.60352,
+      "population": 29851,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "4033936",
+      "name": "Papeete",
+      "latitude": -17.5347,
+      "longitude": -149.56843,
+      "population": 26357,
+      "populationRank": 2,
+      "isCapital": true
+    },
+    {
+      "id": "4033779",
+      "name": "Punaauia",
+      "latitude": -17.63333,
+      "longitude": -149.6,
+      "population": 25750,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "4033838",
+      "name": "Pirae",
+      "latitude": -17.52985,
+      "longitude": -149.55119,
+      "population": 14475,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "4034307",
+      "name": "Mahina",
+      "latitude": -17.50648,
+      "longitude": -149.48899,
+      "population": 14369,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "4034005",
+      "name": "Paea",
+      "latitude": -17.68333,
+      "longitude": -149.58333,
+      "population": 12084,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "4034636",
+      "name": "Arue",
+      "latitude": -17.52764,
+      "longitude": -149.53437,
+      "population": 9458,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "4033077",
+      "name": "Vaitape",
+      "latitude": -16.50741,
+      "longitude": -151.74913,
+      "population": 4927,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "4033205",
+      "name": "Uturoa",
+      "latitude": -16.73022,
+      "longitude": -151.44256,
+      "population": 3668,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "4020109",
+      "name": "Atuona",
+      "latitude": -9.80342,
+      "longitude": -139.04202,
+      "population": 1762,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "4034496",
+      "name": "Fare",
+      "latitude": -16.7123,
+      "longitude": -151.03493,
+      "population": 1540,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "8063344",
+      "name": "Taiohae",
+      "latitude": -8.91093,
+      "longitude": -140.09972,
+      "population": 1224,
+      "populationRank": 12,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,1804 @@
+{
+  "towns": [
+    {
+      "id": "1172451",
+      "name": "Lahore",
+      "latitude": 31.558,
+      "longitude": 74.35071,
+      "population": 13004135,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "1174872",
+      "name": "Karachi",
+      "latitude": 24.8608,
+      "longitude": 67.0104,
+      "population": 11624219,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "1168197",
+      "name": "Peshawar",
+      "latitude": 34.008,
+      "longitude": 71.57849,
+      "population": 4758762,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "1179400",
+      "name": "Faisalabad",
+      "latitude": 31.41554,
+      "longitude": 73.08969,
+      "population": 3800193,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "1166993",
+      "name": "Rawalpindi",
+      "latitude": 33.59733,
+      "longitude": 73.0479,
+      "population": 3357612,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "1177662",
+      "name": "Gujranwala",
+      "latitude": 32.15567,
+      "longitude": 74.18705,
+      "population": 2511118,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "1169825",
+      "name": "Multan",
+      "latitude": 30.19679,
+      "longitude": 71.47824,
+      "population": 2169915,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "1176734",
+      "name": "Hyderabad",
+      "latitude": 25.39689,
+      "longitude": 68.37718,
+      "population": 1921275,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "1167528",
+      "name": "Quetta",
+      "latitude": 30.18414,
+      "longitude": 67.00141,
+      "population": 1565546,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "1183460",
+      "name": "Bannu",
+      "latitude": 32.98527,
+      "longitude": 70.60403,
+      "population": 1357890,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "1166000",
+      "name": "Sargodha",
+      "latitude": 32.08586,
+      "longitude": 72.67418,
+      "population": 975886,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "1164909",
+      "name": "Sialkot",
+      "latitude": 32.49268,
+      "longitude": 74.53134,
+      "population": 911817,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "1183880",
+      "name": "Bahawalpur",
+      "latitude": 29.39779,
+      "longitude": 71.6752,
+      "population": 903795,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "1184370",
+      "name": "Arifwala",
+      "latitude": 30.29058,
+      "longitude": 73.06574,
+      "population": 854462,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "1180281",
+      "name": "Dera Ismail Khan",
+      "latitude": 31.83129,
+      "longitude": 70.9017,
+      "population": 763195,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "1169607",
+      "name": "Muzaffarābād",
+      "latitude": 34.37002,
+      "longitude": 73.47082,
+      "population": 725000,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "1183105",
+      "name": "Battagram",
+      "latitude": 34.67719,
+      "longitude": 73.02329,
+      "population": 700000,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "1180942",
+      "name": "Chunian",
+      "latitude": 30.96621,
+      "longitude": 73.97908,
+      "population": 634236,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "1175892",
+      "name": "Jhang Sadr",
+      "latitude": 31.26981,
+      "longitude": 72.31687,
+      "population": 606533,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1176615",
+      "name": "Islamabad",
+      "latitude": 33.72148,
+      "longitude": 73.04329,
+      "population": 601600,
+      "populationRank": 20,
+      "isCapital": true
+    },
+    {
+      "id": "1165221",
+      "name": "Shekhupura",
+      "latitude": 31.71287,
+      "longitude": 73.98556,
+      "population": 591424,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "1177654",
+      "name": "Gujrat",
+      "latitude": 32.5742,
+      "longitude": 74.07542,
+      "population": 574240,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "1164408",
+      "name": "Sukkur",
+      "latitude": 27.70323,
+      "longitude": 68.85889,
+      "population": 563851,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "1166547",
+      "name": "Sahiwal",
+      "latitude": 31.97386,
+      "longitude": 72.33109,
+      "population": 538344,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "1166548",
+      "name": "Sahiwal",
+      "latitude": 30.66595,
+      "longitude": 73.10186,
+      "population": 538344,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "1168718",
+      "name": "Okara",
+      "latitude": 30.81029,
+      "longitude": 73.45155,
+      "population": 533693,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "1167460",
+      "name": "Rahim Yar Khan",
+      "latitude": 28.41987,
+      "longitude": 70.30345,
+      "population": 517000,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "1174625",
+      "name": "Kasur",
+      "latitude": 31.11866,
+      "longitude": 74.45025,
+      "population": 510875,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "1176358",
+      "name": "Jalalpur Pirwala",
+      "latitude": 29.5051,
+      "longitude": 71.22202,
+      "population": 500000,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "1180289",
+      "name": "Dera Ghazi Khan",
+      "latitude": 30.04587,
+      "longitude": 70.64029,
+      "population": 494464,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "1168021",
+      "name": "Pindi Bhattian",
+      "latitude": 31.89844,
+      "longitude": 73.27339,
+      "population": 493222,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "1163964",
+      "name": "Tando Bago",
+      "latitude": 24.78914,
+      "longitude": 68.96535,
+      "population": 426535,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "1163965",
+      "name": "Tando Allahyar",
+      "latitude": 25.4605,
+      "longitude": 68.71745,
+      "population": 421923,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "1175748",
+      "name": "Chak Jhumra",
+      "latitude": 31.56808,
+      "longitude": 73.18317,
+      "population": 385169,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "1182682",
+      "name": "Bhawana",
+      "latitude": 31.56884,
+      "longitude": 72.64917,
+      "population": 373841,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "1172128",
+      "name": "Larkana",
+      "latitude": 27.55898,
+      "longitude": 68.21204,
+      "population": 364033,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "1169116",
+      "name": "Nawabshah",
+      "latitude": 26.23939,
+      "longitude": 68.40369,
+      "population": 363138,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "1182092",
+      "name": "Burewala",
+      "latitude": 30.16667,
+      "longitude": 72.65,
+      "population": 361664,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "1170395",
+      "name": "Mingora",
+      "latitude": 34.7795,
+      "longitude": 72.36265,
+      "population": 361112,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "1164776",
+      "name": "Sinjhoro",
+      "latitude": 26.03008,
+      "longitude": 68.80867,
+      "population": 354709,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "1177384",
+      "name": "Hafizabad",
+      "latitude": 32.07095,
+      "longitude": 73.68802,
+      "population": 318621,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "1181096",
+      "name": "Chiniot",
+      "latitude": 31.72091,
+      "longitude": 72.97836,
+      "population": 318165,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "1170880",
+      "name": "Mardan",
+      "latitude": 34.19794,
+      "longitude": 72.04965,
+      "population": 300424,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "1175088",
+      "name": "Kamoke",
+      "latitude": 31.97526,
+      "longitude": 74.22304,
+      "population": 292023,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "1185056",
+      "name": "Abbottabad",
+      "latitude": 34.1463,
+      "longitude": 73.21168,
+      "population": 275890,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "1166652",
+      "name": "Saddiqabad",
+      "latitude": 28.3091,
+      "longitude": 70.12652,
+      "population": 274210,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "1170295",
+      "name": "Mirpur Khas",
+      "latitude": 25.5276,
+      "longitude": 69.01255,
+      "population": 267833,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "1164709",
+      "name": "Skardu",
+      "latitude": 35.29787,
+      "longitude": 75.63372,
+      "population": 260000,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "1169692",
+      "name": "Muridke",
+      "latitude": 31.80258,
+      "longitude": 74.25772,
+      "population": 254291,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "1165569",
+      "name": "Shahkot",
+      "latitude": 31.5709,
+      "longitude": 73.48531,
+      "population": 244868,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "1183883",
+      "name": "Bahawalnagar",
+      "latitude": 29.99835,
+      "longitude": 73.25272,
+      "population": 241873,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "1172657",
+      "name": "Kunri",
+      "latitude": 25.17874,
+      "longitude": 69.56572,
+      "population": 237063,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "1169605",
+      "name": "Muzaffargarh",
+      "latitude": 30.07258,
+      "longitude": 71.19379,
+      "population": 235541,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "1179837",
+      "name": "Digri",
+      "latitude": 25.15657,
+      "longitude": 69.11098,
+      "population": 234578,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "1176515",
+      "name": "Jacobabad",
+      "latitude": 28.28187,
+      "longitude": 68.43761,
+      "population": 219315,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "1173664",
+      "name": "Khuzdar",
+      "latitude": 27.81193,
+      "longitude": 66.61096,
+      "population": 218112,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "1178338",
+      "name": "Gilgit",
+      "latitude": 35.91869,
+      "longitude": 74.31245,
+      "population": 216760,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "1178231",
+      "name": "Gojra",
+      "latitude": 31.14926,
+      "longitude": 72.68323,
+      "population": 214000,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "1165108",
+      "name": "Shikarpur",
+      "latitude": 27.95558,
+      "longitude": 68.63823,
+      "population": 204938,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "1180809",
+      "name": "Dadu",
+      "latitude": 26.73033,
+      "longitude": 67.7769,
+      "population": 201017,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "1164045",
+      "name": "Talhar",
+      "latitude": 24.88454,
+      "longitude": 68.81437,
+      "population": 200014,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "1167648",
+      "name": "Qadirpur Ran",
+      "latitude": 30.29184,
+      "longitude": 71.67164,
+      "population": 200000,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "1184845",
+      "name": "Ahmadpur East",
+      "latitude": 29.14269,
+      "longitude": 71.25771,
+      "population": 196718,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "12524485",
+      "name": "Hub",
+      "latitude": 25.02555,
+      "longitude": 66.88534,
+      "population": 195661,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "8986037",
+      "name": "Dhirkot",
+      "latitude": 34.03917,
+      "longitude": 73.57694,
+      "population": 195000,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "1174376",
+      "name": "Garhi Khairo",
+      "latitude": 28.05717,
+      "longitude": 67.97898,
+      "population": 193297,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "1162004",
+      "name": "Khairpur Mir’s",
+      "latitude": 27.52948,
+      "longitude": 68.75915,
+      "population": 191044,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "1175864",
+      "name": "Jhelum",
+      "latitude": 32.93448,
+      "longitude": 73.73102,
+      "population": 190425,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "1163967",
+      "name": "Tando Adam",
+      "latitude": 25.76818,
+      "longitude": 68.66196,
+      "population": 174291,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "1177042",
+      "name": "Hasilpur",
+      "latitude": 29.69221,
+      "longitude": 72.54566,
+      "population": 168146,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "1175156",
+      "name": "Kamalia",
+      "latitude": 30.72708,
+      "longitude": 72.64607,
+      "population": 166617,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "1176241",
+      "name": "Jampur",
+      "latitude": 29.64235,
+      "longitude": 70.59518,
+      "population": 155243,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "1162456",
+      "name": "Wazirabad",
+      "latitude": 32.44324,
+      "longitude": 74.12,
+      "population": 152624,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "1173491",
+      "name": "Kohat",
+      "latitude": 33.58196,
+      "longitude": 71.44929,
+      "population": 151427,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "1172035",
+      "name": "Layyah",
+      "latitude": 30.96128,
+      "longitude": 70.93904,
+      "population": 151274,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "1164970",
+      "name": "Shujaabad",
+      "latitude": 29.88092,
+      "longitude": 71.29344,
+      "population": 151115,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "1179406",
+      "name": "Eminabad",
+      "latitude": 32.04237,
+      "longitude": 74.25996,
+      "population": 150646,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "1176106",
+      "name": "Jaranwala",
+      "latitude": 31.3332,
+      "longitude": 73.41868,
+      "population": 150380,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "1163198",
+      "name": "Tordher",
+      "latitude": 33.99047,
+      "longitude": 72.2863,
+      "population": 150000,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "1181073",
+      "name": "Chishtian",
+      "latitude": 29.79713,
+      "longitude": 72.85772,
+      "population": 149939,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "1177073",
+      "name": "Harunabad",
+      "latitude": 29.61206,
+      "longitude": 73.13802,
+      "population": 149679,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "1176368",
+      "name": "Jalalpur Jattan",
+      "latitude": 32.64118,
+      "longitude": 74.20561,
+      "population": 146743,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "1162959",
+      "name": "Umarkot",
+      "latitude": 25.36329,
+      "longitude": 69.74184,
+      "population": 144558,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "1171965",
+      "name": "Lodhran",
+      "latitude": 29.5339,
+      "longitude": 71.63244,
+      "population": 144512,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "1170013",
+      "name": "Moro",
+      "latitude": 26.66317,
+      "longitude": 68.00016,
+      "population": 142685,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "1174167",
+      "name": "Khanpur",
+      "latitude": 28.64739,
+      "longitude": 70.65694,
+      "population": 142426,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "1184249",
+      "name": "Attock City",
+      "latitude": 33.76671,
+      "longitude": 72.35977,
+      "population": 141945,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "1170989",
+      "name": "Manjhand",
+      "latitude": 25.90827,
+      "longitude": 68.23683,
+      "population": 140766,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "1170486",
+      "name": "Mian Channun",
+      "latitude": 30.44067,
+      "longitude": 72.35679,
+      "population": 140112,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "1182815",
+      "name": "Bhakkar",
+      "latitude": 31.62685,
+      "longitude": 71.06471,
+      "population": 131658,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "1169278",
+      "name": "Narowal",
+      "latitude": 32.10197,
+      "longitude": 74.87303,
+      "population": 130692,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "1181611",
+      "name": "Chaman",
+      "latitude": 30.91769,
+      "longitude": 66.45259,
+      "population": 130139,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "1169372",
+      "name": "Nankana Sahib",
+      "latitude": 31.4501,
+      "longitude": 73.70653,
+      "population": 130041,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "1171123",
+      "name": "Mandi Bahauddin",
+      "latitude": 32.58704,
+      "longitude": 73.49123,
+      "population": 129733,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "1170425",
+      "name": "Mianwali",
+      "latitude": 32.57756,
+      "longitude": 71.52847,
+      "population": 129500,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "1180374",
+      "name": "Daur",
+      "latitude": 26.45528,
+      "longitude": 68.31835,
+      "population": 128958,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "1165388",
+      "name": "Shakargarh",
+      "latitude": 32.26361,
+      "longitude": 75.16008,
+      "population": 126742,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "1168555",
+      "name": "Pakpattan",
+      "latitude": 30.34314,
+      "longitude": 73.38944,
+      "population": 126706,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "1171502",
+      "name": "Mailsi",
+      "latitude": 29.80123,
+      "longitude": 72.17398,
+      "population": 125431,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "1179660",
+      "name": "Dokri",
+      "latitude": 27.37421,
+      "longitude": 68.09715,
+      "population": 125000,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "1169027",
+      "name": "New Mirpur City",
+      "latitude": 33.14782,
+      "longitude": 73.75187,
+      "population": 124352,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "1163272",
+      "name": "Toba Tek Singh",
+      "latitude": 30.97127,
+      "longitude": 72.48275,
+      "population": 123102,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "1176997",
+      "name": "Haveli Lakha",
+      "latitude": 30.45097,
+      "longitude": 73.69371,
+      "population": 122389,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "1165638",
+      "name": "Shahdad Kot",
+      "latitude": 27.84726,
+      "longitude": 67.90679,
+      "population": 120687,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "1181439",
+      "name": "Charsadda",
+      "latitude": 34.14822,
+      "longitude": 71.7406,
+      "population": 120170,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "1178456",
+      "name": "Ghotki",
+      "latitude": 28.00437,
+      "longitude": 69.31569,
+      "population": 119879,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "1166265",
+      "name": "Sambrial",
+      "latitude": 32.47835,
+      "longitude": 74.35338,
+      "population": 119571,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "1184055",
+      "name": "Badin",
+      "latitude": 24.656,
+      "longitude": 68.837,
+      "population": 117455,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "1163724",
+      "name": "Taunsa",
+      "latitude": 30.70358,
+      "longitude": 70.65054,
+      "population": 115704,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "1182829",
+      "name": "Phool Nagar",
+      "latitude": 31.2024,
+      "longitude": 73.94857,
+      "population": 114530,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "1163952",
+      "name": "Tando Muhammad Khan",
+      "latitude": 25.12384,
+      "longitude": 68.53677,
+      "population": 114406,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "1168226",
+      "name": "Pattoki",
+      "latitude": 31.02021,
+      "longitude": 73.85333,
+      "population": 113735,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "1165635",
+      "name": "Shahdadpur",
+      "latitude": 25.92539,
+      "longitude": 68.6228,
+      "population": 113342,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "1176022",
+      "name": "Jauharabad",
+      "latitude": 32.29016,
+      "longitude": 72.28182,
+      "population": 113188,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "1162813",
+      "name": "Vihari",
+      "latitude": 30.0445,
+      "longitude": 72.3556,
+      "population": 112840,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "1181163",
+      "name": "Chichawatni",
+      "latitude": 30.5301,
+      "longitude": 72.69155,
+      "population": 112191,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "1397479",
+      "name": "Dera Murad Jamali",
+      "latitude": 28.54657,
+      "longitude": 68.22308,
+      "population": 106952,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "1172904",
+      "name": "Kotri",
+      "latitude": 25.36566,
+      "longitude": 68.30831,
+      "population": 106615,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "1173378",
+      "name": "Kot Addu",
+      "latitude": 30.46907,
+      "longitude": 70.96699,
+      "population": 104217,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "1166146",
+      "name": "Sangla Hill",
+      "latitude": 31.71667,
+      "longitude": 73.38333,
+      "population": 103709,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "1174042",
+      "name": "Kharian",
+      "latitude": 32.81612,
+      "longitude": 73.88697,
+      "population": 103036,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "1173687",
+      "name": "Khushāb",
+      "latitude": 32.29667,
+      "longitude": 72.3525,
+      "population": 102793,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "1168307",
+      "name": "Pasrur",
+      "latitude": 32.26286,
+      "longitude": 74.66327,
+      "population": 102717,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "1168412",
+      "name": "Pano Aqil",
+      "latitude": 27.85619,
+      "longitude": 69.11111,
+      "population": 102701,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "1165744",
+      "name": "Shabqadar",
+      "latitude": 34.21599,
+      "longitude": 71.5548,
+      "population": 102340,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "1172915",
+      "name": "Kot Radha Kishan",
+      "latitude": 31.17068,
+      "longitude": 74.10126,
+      "population": 102057,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "1181636",
+      "name": "Chakwal",
+      "latitude": 32.93286,
+      "longitude": 72.85394,
+      "population": 101200,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "1166933",
+      "name": "Renala Khurd",
+      "latitude": 30.87878,
+      "longitude": 73.59857,
+      "population": 100054,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "1167386",
+      "name": "Raja Jang",
+      "latitude": 31.22078,
+      "longitude": 74.25483,
+      "population": 100000,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "1179760",
+      "name": "Dipalpur",
+      "latitude": 30.66984,
+      "longitude": 73.65306,
+      "population": 99858,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "1167534",
+      "name": "Qubo Saeed Khan",
+      "latitude": 27.87437,
+      "longitude": 67.70886,
+      "population": 99308,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "1175021",
+      "name": "Kandhkot",
+      "latitude": 28.24574,
+      "longitude": 69.17974,
+      "population": 99155,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "1164216",
+      "name": "Swabi",
+      "latitude": 34.12018,
+      "longitude": 72.46982,
+      "population": 97363,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "1179834",
+      "name": "Dijkot",
+      "latitude": 31.21735,
+      "longitude": 72.99621,
+      "population": 96934,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "1173692",
+      "name": "Khurarianwala",
+      "latitude": 31.49936,
+      "longitude": 73.26763,
+      "population": 96743,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "1179061",
+      "name": "Gambat",
+      "latitude": 27.3517,
+      "longitude": 68.5215,
+      "population": 93884,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "1166827",
+      "name": "Rohri",
+      "latitude": 27.69203,
+      "longitude": 68.89503,
+      "population": 92135,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "1175560",
+      "name": "Kabirwala",
+      "latitude": 30.40472,
+      "longitude": 71.86269,
+      "population": 91932,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "1172663",
+      "name": "Kunjah",
+      "latitude": 32.52982,
+      "longitude": 73.97486,
+      "population": 90905,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "11179544",
+      "name": "Daharki",
+      "latitude": 28.05361,
+      "longitude": 69.70249,
+      "population": 90177,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "1179790",
+      "name": "Dinga",
+      "latitude": 32.64101,
+      "longitude": 73.72039,
+      "population": 89922,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "1163414",
+      "name": "Thul",
+      "latitude": 28.2403,
+      "longitude": 68.7755,
+      "population": 88554,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "11124382",
+      "name": "Nowshera Kalan",
+      "latitude": 34.0191,
+      "longitude": 71.97445,
+      "population": 88003,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "1179223",
+      "name": "Fort Abbas",
+      "latitude": 29.19344,
+      "longitude": 72.85525,
+      "population": 83192,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "1167031",
+      "name": "Ratodero",
+      "latitude": 27.80227,
+      "longitude": 68.28902,
+      "population": 81935,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "1179331",
+      "name": "Fatehjang",
+      "latitude": 33.56492,
+      "longitude": 72.64281,
+      "population": 81321,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "11535259",
+      "name": "Alahabad",
+      "latitude": 30.87696,
+      "longitude": 74.05524,
+      "population": 80084,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "1173920",
+      "name": "Khewra",
+      "latitude": 32.6491,
+      "longitude": 73.01059,
+      "population": 80000,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "1164069",
+      "name": "Talagang",
+      "latitude": 32.92766,
+      "longitude": 72.41594,
+      "population": 79431,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "1167622",
+      "name": "Kambar",
+      "latitude": 27.58753,
+      "longitude": 68.00066,
+      "population": 77481,
+      "populationRank": 150,
+      "isCapital": false
+    },
+    {
+      "id": "1162275",
+      "name": "Zahir Pir",
+      "latitude": 28.81284,
+      "longitude": 70.52341,
+      "population": 76979,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "1176800",
+      "name": "Hujra Shah Muqim",
+      "latitude": 30.74168,
+      "longitude": 73.82327,
+      "population": 76462,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "1168633",
+      "name": "Paharpur",
+      "latitude": 32.10502,
+      "longitude": 70.97055,
+      "population": 76027,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "1163054",
+      "name": "Turbat",
+      "latitude": 26.00122,
+      "longitude": 63.04849,
+      "population": 75694,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "1163224",
+      "name": "Topi",
+      "latitude": 34.07034,
+      "longitude": 72.62147,
+      "population": 74867,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "1182787",
+      "name": "Bhalwal",
+      "latitude": 32.26576,
+      "longitude": 72.89809,
+      "population": 74744,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "1170294",
+      "name": "Mirpur Mathelo",
+      "latitude": 28.02136,
+      "longitude": 69.54914,
+      "population": 74651,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "1166073",
+      "name": "Sarai Alamgir",
+      "latitude": 32.90495,
+      "longitude": 73.75518,
+      "population": 73967,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "1183090",
+      "name": "Bat Khela",
+      "latitude": 34.6178,
+      "longitude": 71.97247,
+      "population": 73525,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "1166381",
+      "name": "Sakrand",
+      "latitude": 26.13845,
+      "longitude": 68.27444,
+      "population": 72040,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "1163958",
+      "name": "Tando Jam",
+      "latitude": 25.42813,
+      "longitude": 68.52923,
+      "population": 71760,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "1177278",
+      "name": "Hala",
+      "latitude": 25.81459,
+      "longitude": 68.42198,
+      "population": 71094,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "1177446",
+      "name": "Gwadar",
+      "latitude": 25.12163,
+      "longitude": 62.32541,
+      "population": 70852,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "1167507",
+      "name": "Rabwah",
+      "latitude": 31.75511,
+      "longitude": 72.91403,
+      "population": 70000,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "1175446",
+      "name": "Kahror Pakka",
+      "latitude": 29.6243,
+      "longitude": 71.91437,
+      "population": 69743,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "1177682",
+      "name": "Gujar Khan",
+      "latitude": 33.25411,
+      "longitude": 73.30433,
+      "population": 69374,
+      "populationRank": 166,
+      "isCapital": false
+    },
+    {
+      "id": "1180983",
+      "name": "Chuhar Kana",
+      "latitude": 31.75,
+      "longitude": 73.8,
+      "population": 69321,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "1180454",
+      "name": "Darya Khan",
+      "latitude": 31.78447,
+      "longitude": 71.10197,
+      "population": 68622,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "1164987",
+      "name": "Shorkot",
+      "latitude": 31.91023,
+      "longitude": 70.87757,
+      "population": 67439,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "1170398",
+      "name": "Minchinabad",
+      "latitude": 30.16356,
+      "longitude": 73.56858,
+      "population": 67164,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "1170951",
+      "name": "Mansehra",
+      "latitude": 34.33023,
+      "longitude": 73.19679,
+      "population": 66486,
+      "populationRank": 171,
+      "isCapital": false
+    },
+    {
+      "id": "1183224",
+      "name": "Basirpur",
+      "latitude": 30.57759,
+      "longitude": 73.83912,
+      "population": 65541,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "1172318",
+      "name": "Lala Musa",
+      "latitude": 32.70138,
+      "longitude": 73.95746,
+      "population": 65197,
+      "populationRank": 173,
+      "isCapital": false
+    },
+    {
+      "id": "1162868",
+      "name": "Usta Muhammad",
+      "latitude": 28.17723,
+      "longitude": 68.04367,
+      "population": 64632,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "1164896",
+      "name": "Sibi",
+      "latitude": 29.54299,
+      "longitude": 67.87726,
+      "population": 64069,
+      "populationRank": 175,
+      "isCapital": false
+    },
+    {
+      "id": "1168015",
+      "name": "Pindi Gheb",
+      "latitude": 33.24095,
+      "longitude": 72.2648,
+      "population": 63810,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "1168166",
+      "name": "Phalia",
+      "latitude": 32.43104,
+      "longitude": 73.579,
+      "population": 62453,
+      "populationRank": 177,
+      "isCapital": false
+    },
+    {
+      "id": "1166164",
+      "name": "Sanghar",
+      "latitude": 26.04694,
+      "longitude": 68.94917,
+      "population": 62033,
+      "populationRank": 178,
+      "isCapital": false
+    },
+    {
+      "id": "1179377",
+      "name": "Faqirwali",
+      "latitude": 29.46799,
+      "longitude": 73.03489,
+      "population": 61586,
+      "populationRank": 179,
+      "isCapital": false
+    },
+    {
+      "id": "1162316",
+      "name": "Yazman",
+      "latitude": 29.12122,
+      "longitude": 71.74459,
+      "population": 60738,
+      "populationRank": 180,
+      "isCapital": false
+    },
+    {
+      "id": "1179346",
+      "name": "Faruka",
+      "latitude": 31.88642,
+      "longitude": 72.41362,
+      "population": 60000,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "1181065",
+      "name": "Chitral",
+      "latitude": 35.8518,
+      "longitude": 71.78636,
+      "population": 57157,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "1176452",
+      "name": "Jahangira",
+      "latitude": 33.96416,
+      "longitude": 72.22097,
+      "population": 57011,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "1177107",
+      "name": "Haripur",
+      "latitude": 33.99783,
+      "longitude": 72.93493,
+      "population": 56977,
+      "populationRank": 184,
+      "isCapital": false
+    },
+    {
+      "id": "1176233",
+      "name": "Jamrud",
+      "latitude": 34.00152,
+      "longitude": 71.38007,
+      "population": 56642,
+      "populationRank": 185,
+      "isCapital": false
+    },
+    {
+      "id": "1179496",
+      "name": "Dullewala",
+      "latitude": 31.83439,
+      "longitude": 71.43639,
+      "population": 54277,
+      "populationRank": 186,
+      "isCapital": false
+    },
+    {
+      "id": "1161991",
+      "name": "Pir Jo Goth",
+      "latitude": 27.59178,
+      "longitude": 68.61848,
+      "population": 54266,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "1168680",
+      "name": "Pabbi",
+      "latitude": 34.00968,
+      "longitude": 71.79445,
+      "population": 52701,
+      "populationRank": 188,
+      "isCapital": false
+    },
+    {
+      "id": "1172295",
+      "name": "Lalian",
+      "latitude": 31.82462,
+      "longitude": 72.80116,
+      "population": 52542,
+      "populationRank": 189,
+      "isCapital": false
+    },
+    {
+      "id": "1167669",
+      "name": "Qabula",
+      "latitude": 30.17784,
+      "longitude": 73.0651,
+      "population": 52495,
+      "populationRank": 190,
+      "isCapital": false
+    },
+    {
+      "id": "1167873",
+      "name": "Pir Mahal",
+      "latitude": 30.76663,
+      "longitude": 72.43455,
+      "population": 52476,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "1170219",
+      "name": "Mithi",
+      "latitude": 24.73701,
+      "longitude": 69.79707,
+      "population": 52376,
+      "populationRank": 192,
+      "isCapital": false
+    },
+    {
+      "id": "1172964",
+      "name": "Kot Mumin",
+      "latitude": 32.18843,
+      "longitude": 73.02987,
+      "population": 51021,
+      "populationRank": 193,
+      "isCapital": false
+    },
+    {
+      "id": "1163021",
+      "name": "Ubauro",
+      "latitude": 28.16429,
+      "longitude": 69.73114,
+      "population": 50981,
+      "populationRank": 194,
+      "isCapital": false
+    },
+    {
+      "id": "1167380",
+      "name": "Rajanpur",
+      "latitude": 29.10408,
+      "longitude": 70.32969,
+      "population": 50682,
+      "populationRank": 195,
+      "isCapital": false
+    },
+    {
+      "id": "1162105",
+      "name": "Zhob",
+      "latitude": 31.34082,
+      "longitude": 69.4493,
+      "population": 50537,
+      "populationRank": 196,
+      "isCapital": false
+    },
+    {
+      "id": "1170667",
+      "name": "Matli",
+      "latitude": 25.0429,
+      "longitude": 68.65591,
+      "population": 50398,
+      "populationRank": 197,
+      "isCapital": false
+    },
+    {
+      "id": "1176445",
+      "name": "Jahanian",
+      "latitude": 30.03928,
+      "longitude": 71.8167,
+      "population": 50318,
+      "populationRank": 198,
+      "isCapital": false
+    },
+    {
+      "id": "1161983",
+      "name": "Rawalakot",
+      "latitude": 33.85782,
+      "longitude": 73.76043,
+      "population": 50000,
+      "populationRank": 199,
+      "isCapital": false
+    },
+    {
+      "id": "1182122",
+      "name": "Buni",
+      "latitude": 36.27333,
+      "longitude": 72.25929,
+      "population": 50000,
+      "populationRank": 200,
+      "isCapital": false
+    }
+  ]
+}

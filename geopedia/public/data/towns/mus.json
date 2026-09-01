@@ -1,0 +1,193 @@
+{
+  "towns": [
+    {
+      "id": "934154",
+      "name": "Port Louis",
+      "latitude": -20.16194,
+      "longitude": 57.49889,
+      "population": 155226,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "934765",
+      "name": "Beau Bassin-Rose Hill",
+      "latitude": -20.23325,
+      "longitude": 57.46609,
+      "population": 111355,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "934570",
+      "name": "Curepipe",
+      "latitude": -20.31628,
+      "longitude": 57.52594,
+      "population": 78618,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "934131",
+      "name": "Quatre Bornes",
+      "latitude": -20.26381,
+      "longitude": 57.4791,
+      "population": 77308,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "933959",
+      "name": "Triolet",
+      "latitude": -20.0576,
+      "longitude": 57.55025,
+      "population": 24361,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "934488",
+      "name": "Goodlands",
+      "latitude": -20.03841,
+      "longitude": 57.65055,
+      "population": 21063,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "934750",
+      "name": "Bel Air Rivière Sèche",
+      "latitude": -20.25777,
+      "longitude": 57.74976,
+      "population": 18036,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "934778",
+      "name": "Bambous",
+      "latitude": -20.25667,
+      "longitude": 57.40611,
+      "population": 17818,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "934631",
+      "name": "Centre de Flacq",
+      "latitude": -20.18972,
+      "longitude": 57.71444,
+      "population": 17710,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "934322",
+      "name": "Mahébourg",
+      "latitude": -20.40806,
+      "longitude": 57.7,
+      "population": 17042,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "934032",
+      "name": "Saint Pierre",
+      "latitude": -20.2215,
+      "longitude": 57.53431,
+      "population": 16704,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "1106616",
+      "name": "Baie du Tombeau",
+      "latitude": -20.11944,
+      "longitude": 57.49139,
+      "population": 15301,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "934072",
+      "name": "Rose Belle",
+      "latitude": -20.40028,
+      "longitude": 57.59667,
+      "population": 12619,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "934614",
+      "name": "Chemin Grenier",
+      "latitude": -20.48722,
+      "longitude": 57.46556,
+      "population": 12457,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "934482",
+      "name": "Grand Baie",
+      "latitude": -20.01816,
+      "longitude": 57.58015,
+      "population": 12173,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "934091",
+      "name": "Rivière du Rempart",
+      "latitude": -20.10306,
+      "longitude": 57.68472,
+      "population": 10825,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "933988",
+      "name": "Surinam",
+      "latitude": -20.50972,
+      "longitude": 57.50528,
+      "population": 10621,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "934277",
+      "name": "Moka",
+      "latitude": -20.21904,
+      "longitude": 57.51083,
+      "population": 9364,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "1545752",
+      "name": "Port Mathurin",
+      "latitude": -19.68333,
+      "longitude": 63.41667,
+      "population": 8350,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1106614",
+      "name": "Pointe aux Piments",
+      "latitude": -20.06494,
+      "longitude": 57.52347,
+      "population": 7556,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "933995",
+      "name": "Souillac",
+      "latitude": -20.51667,
+      "longitude": 57.51667,
+      "population": 4434,
+      "populationRank": 21,
+      "isCapital": false
+    }
+  ]
+}

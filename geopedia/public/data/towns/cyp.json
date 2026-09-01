@@ -1,0 +1,346 @@
+{
+  "towns": [
+    {
+      "id": "146268",
+      "name": "Nicosia",
+      "latitude": 35.17284,
+      "longitude": 33.35397,
+      "population": 200452,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "146384",
+      "name": "Limassol",
+      "latitude": 34.68406,
+      "longitude": 33.03794,
+      "population": 154000,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "146400",
+      "name": "Larnaca",
+      "latitude": 34.9221,
+      "longitude": 33.62794,
+      "population": 72000,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "146054",
+      "name": "Stróvolos",
+      "latitude": 35.14867,
+      "longitude": 33.33384,
+      "population": 67904,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "146617",
+      "name": "Famagusta",
+      "latitude": 35.12489,
+      "longitude": 33.94135,
+      "population": 42526,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "146523",
+      "name": "Káto Lakatámeia",
+      "latitude": 35.11755,
+      "longitude": 33.32539,
+      "population": 40000,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "146214",
+      "name": "Paphos",
+      "latitude": 34.77679,
+      "longitude": 32.42451,
+      "population": 35961,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "146412",
+      "name": "Kyrenia",
+      "latitude": 35.33634,
+      "longitude": 33.31729,
+      "population": 26701,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "146286",
+      "name": "Mórfou",
+      "latitude": 35.19869,
+      "longitude": 32.99338,
+      "population": 24070,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "146516",
+      "name": "Káto Polemídia",
+      "latitude": 34.69721,
+      "longitude": 32.99324,
+      "population": 23231,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "146796",
+      "name": "Aradíppou",
+      "latitude": 34.94779,
+      "longitude": 33.58813,
+      "population": 22934,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "18918",
+      "name": "Protaras",
+      "latitude": 35.0125,
+      "longitude": 34.05833,
+      "population": 20230,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "145963",
+      "name": "Germasógeia",
+      "latitude": 34.72073,
+      "longitude": 33.08447,
+      "population": 17325,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "146666",
+      "name": "Dáli",
+      "latitude": 35.02294,
+      "longitude": 33.42195,
+      "population": 12350,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "146209",
+      "name": "Paralímni",
+      "latitude": 35.03945,
+      "longitude": 33.98181,
+      "population": 11836,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "145964",
+      "name": "Géri",
+      "latitude": 35.1056,
+      "longitude": 33.41977,
+      "population": 9651,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "11919534",
+      "name": "Geroskipou",
+      "latitude": 34.76091,
+      "longitude": 32.44844,
+      "population": 8355,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "146392",
+      "name": "Léfka",
+      "latitude": 35.11199,
+      "longitude": 32.84997,
+      "population": 7835,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "145952",
+      "name": "Ýpsonas",
+      "latitude": 34.68797,
+      "longitude": 32.96191,
+      "population": 7348,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "146654",
+      "name": "Dhromolaxia",
+      "latitude": 34.87551,
+      "longitude": 33.58684,
+      "population": 6866,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "146490",
+      "name": "Chlórakas",
+      "latitude": 34.79836,
+      "longitude": 32.40653,
+      "population": 6421,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "146661",
+      "name": "Derýneia",
+      "latitude": 35.06484,
+      "longitude": 33.96083,
+      "population": 6229,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "145972",
+      "name": "Xylofágou",
+      "latitude": 34.97743,
+      "longitude": 33.84894,
+      "population": 6000,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "146639",
+      "name": "Emba",
+      "latitude": 34.807,
+      "longitude": 32.42406,
+      "population": 5505,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "145981",
+      "name": "Tséri",
+      "latitude": 35.07307,
+      "longitude": 33.32344,
+      "population": 5498,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "146105",
+      "name": "Rizokárpaso",
+      "latitude": 35.59719,
+      "longitude": 34.37916,
+      "population": 5215,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "146403",
+      "name": "Lápithos",
+      "latitude": 35.33823,
+      "longitude": 33.17368,
+      "population": 5215,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "146768",
+      "name": "Athíenou",
+      "latitude": 35.06183,
+      "longitude": 33.54166,
+      "population": 5202,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "146469",
+      "name": "Kíti",
+      "latitude": 34.84898,
+      "longitude": 33.57523,
+      "population": 5136,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "146748",
+      "name": "Ayia Napa",
+      "latitude": 34.98213,
+      "longitude": 34.00183,
+      "population": 4717,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "146027",
+      "name": "Tríkomo",
+      "latitude": 35.28628,
+      "longitude": 33.89167,
+      "population": 4490,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "146033",
+      "name": "Trachóni",
+      "latitude": 34.65756,
+      "longitude": 32.96534,
+      "population": 4113,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "145987",
+      "name": "Voróklini",
+      "latitude": 34.98138,
+      "longitude": 33.65648,
+      "population": 3446,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "146391",
+      "name": "Lefkónoiko",
+      "latitude": 35.2598,
+      "longitude": 33.73189,
+      "population": 3187,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "146175",
+      "name": "Pégeia",
+      "latitude": 34.88385,
+      "longitude": 32.38188,
+      "population": 2462,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "146137",
+      "name": "Pólis",
+      "latitude": 35.03403,
+      "longitude": 32.4255,
+      "population": 1975,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "146628",
+      "name": "Erími",
+      "latitude": 34.67766,
+      "longitude": 32.91815,
+      "population": 1493,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "146220",
+      "name": "Páno Léfkara",
+      "latitude": 34.81667,
+      "longitude": 33.28333,
+      "population": 957,
+      "populationRank": 38,
+      "isCapital": false
+    }
+  ]
+}

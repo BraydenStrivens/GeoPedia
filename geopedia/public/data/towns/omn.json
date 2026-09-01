@@ -1,0 +1,256 @@
+{
+  "towns": [
+    {
+      "id": "287286",
+      "name": "Muscat",
+      "latitude": 23.58413,
+      "longitude": 58.40778,
+      "population": 797000,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "288967",
+      "name": "Seeb",
+      "latitude": 23.67027,
+      "longitude": 58.18911,
+      "population": 470878,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "288764",
+      "name": "Bawshar",
+      "latitude": 23.57769,
+      "longitude": 58.39982,
+      "population": 383257,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "287830",
+      "name": "‘Ibrī",
+      "latitude": 23.22573,
+      "longitude": 56.51572,
+      "population": 163473,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "286621",
+      "name": "Şalālah",
+      "latitude": 17.01505,
+      "longitude": 54.09237,
+      "population": 163140,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "286647",
+      "name": "Şaḩam",
+      "latitude": 24.17222,
+      "longitude": 56.88861,
+      "population": 140000,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "289011",
+      "name": "Rustaq",
+      "latitude": 23.39083,
+      "longitude": 57.42444,
+      "population": 120000,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "286282",
+      "name": "Sohar",
+      "latitude": 24.34745,
+      "longitude": 56.70937,
+      "population": 108274,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "286590",
+      "name": "Samā’il",
+      "latitude": 23.29838,
+      "longitude": 57.9531,
+      "population": 80538,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "289317",
+      "name": "Al Buraymī",
+      "latitude": 24.25088,
+      "longitude": 55.79312,
+      "population": 73670,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "286987",
+      "name": "Nizwá",
+      "latitude": 22.93333,
+      "longitude": 57.53333,
+      "population": 72076,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "286245",
+      "name": "Sur",
+      "latitude": 22.56667,
+      "longitude": 59.52889,
+      "population": 71152,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "286839",
+      "name": "Qurayyāt",
+      "latitude": 23.26298,
+      "longitude": 58.92014,
+      "population": 63133,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "288899",
+      "name": "Bahlā’",
+      "latitude": 22.97886,
+      "longitude": 57.3047,
+      "population": 54338,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "289199",
+      "name": "Al Khābūrah",
+      "latitude": 23.97144,
+      "longitude": 57.09313,
+      "population": 50223,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "286402",
+      "name": "Shināş",
+      "latitude": 24.7426,
+      "longitude": 56.46698,
+      "population": 48009,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "287814",
+      "name": "Izkī",
+      "latitude": 22.93333,
+      "longitude": 57.76667,
+      "population": 36203,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "289174",
+      "name": "Liwá",
+      "latitude": 24.53077,
+      "longitude": 56.563,
+      "population": 26372,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "287832",
+      "name": "Ibrā’",
+      "latitude": 22.69057,
+      "longitude": 58.53337,
+      "population": 25265,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "288721",
+      "name": "Bidbid",
+      "latitude": 23.40787,
+      "longitude": 58.1283,
+      "population": 21188,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "287614",
+      "name": "Khasab",
+      "latitude": 26.17993,
+      "longitude": 56.24774,
+      "population": 17904,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "289433",
+      "name": "Adam",
+      "latitude": 22.37934,
+      "longitude": 57.52718,
+      "population": 17283,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "411849",
+      "name": "Yanqul",
+      "latitude": 23.58645,
+      "longitude": 56.53969,
+      "population": 16599,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "289142",
+      "name": "Al Qābil",
+      "latitude": 22.571,
+      "longitude": 58.69472,
+      "population": 14008,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "11764763",
+      "name": "Mīnā’ Dabā",
+      "latitude": 25.65056,
+      "longitude": 56.26516,
+      "population": 9863,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "13440142",
+      "name": "Madḩā’",
+      "latitude": 25.28357,
+      "longitude": 56.33196,
+      "population": 3217,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "287480",
+      "name": "Līmā’",
+      "latitude": 25.94205,
+      "longitude": 56.42419,
+      "population": 2067,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "287939",
+      "name": "Haymā’",
+      "latitude": 19.95931,
+      "longitude": 56.27575,
+      "population": 1294,
+      "populationRank": 28,
+      "isCapital": false
+    }
+  ]
+}

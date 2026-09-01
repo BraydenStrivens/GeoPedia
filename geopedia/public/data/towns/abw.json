@@ -1,0 +1,31 @@
+{
+  "towns": [
+    {
+      "id": "3577154",
+      "name": "Oranjestad",
+      "latitude": 12.52398,
+      "longitude": -70.02703,
+      "population": 29998,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3577102",
+      "name": "Santa Cruz",
+      "latitude": 12.50953,
+      "longitude": -69.98094,
+      "population": 15236,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3577089",
+      "name": "San Nicolas",
+      "latitude": 12.43624,
+      "longitude": -69.90713,
+      "population": 14175,
+      "populationRank": 3,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,1129 @@
+{
+  "towns": [
+    {
+      "id": "3186886",
+      "name": "Zagreb",
+      "latitude": 45.81444,
+      "longitude": 15.97798,
+      "population": 663592,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3190261",
+      "name": "Split",
+      "latitude": 43.50891,
+      "longitude": 16.43915,
+      "population": 149830,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3191648",
+      "name": "Rijeka",
+      "latitude": 45.32673,
+      "longitude": 14.44241,
+      "population": 107964,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3193935",
+      "name": "Osijek",
+      "latitude": 45.55066,
+      "longitude": 18.6942,
+      "population": 75535,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3186952",
+      "name": "Zadar",
+      "latitude": 44.11578,
+      "longitude": 15.22514,
+      "population": 67309,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3192224",
+      "name": "Pula",
+      "latitude": 44.86833,
+      "longitude": 13.84806,
+      "population": 52220,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3190586",
+      "name": "Slavonski Brod",
+      "latitude": 45.16158,
+      "longitude": 18.0163,
+      "population": 45005,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3345300",
+      "name": "Karlovac",
+      "latitude": 45.49167,
+      "longitude": 15.55,
+      "population": 41869,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3188383",
+      "name": "Varaždin",
+      "latitude": 46.30444,
+      "longitude": 16.33778,
+      "population": 36187,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3190941",
+      "name": "Šibenik",
+      "latitude": 43.73429,
+      "longitude": 15.8942,
+      "population": 31115,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3188244",
+      "name": "Velika Gorica",
+      "latitude": 45.7125,
+      "longitude": 16.07556,
+      "population": 30036,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3187719",
+      "name": "Vinkovci",
+      "latitude": 45.28833,
+      "longitude": 18.80472,
+      "population": 28111,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3190813",
+      "name": "Sisak",
+      "latitude": 45.46608,
+      "longitude": 16.37748,
+      "population": 27859,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3201047",
+      "name": "Dubrovnik",
+      "latitude": 42.64125,
+      "longitude": 18.10909,
+      "population": 26922,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3203982",
+      "name": "Bjelovar",
+      "latitude": 45.89789,
+      "longitude": 16.85071,
+      "population": 24392,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3197728",
+      "name": "Koprivnica",
+      "latitude": 46.16364,
+      "longitude": 16.8297,
+      "population": 22262,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3187047",
+      "name": "Vukovar",
+      "latitude": 45.35161,
+      "longitude": 19.00225,
+      "population": 22255,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "3190359",
+      "name": "Solin",
+      "latitude": 43.5432,
+      "longitude": 16.49314,
+      "population": 20996,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3186781",
+      "name": "Zaprešić",
+      "latitude": 45.85639,
+      "longitude": 15.80778,
+      "population": 18768,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3191316",
+      "name": "Samobor",
+      "latitude": 45.80306,
+      "longitude": 15.71806,
+      "population": 16911,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3202220",
+      "name": "Đakovo",
+      "latitude": 45.30833,
+      "longitude": 18.41056,
+      "population": 16875,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3190589",
+      "name": "Požega",
+      "latitude": 45.34028,
+      "longitude": 17.68528,
+      "population": 16867,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "3202888",
+      "name": "Čakovec",
+      "latitude": 46.38444,
+      "longitude": 16.43389,
+      "population": 15078,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3195222",
+      "name": "Metković",
+      "latitude": 43.05417,
+      "longitude": 17.64833,
+      "population": 13971,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "3187694",
+      "name": "Virovitica",
+      "latitude": 45.83448,
+      "longitude": 17.38555,
+      "population": 13486,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "3193420",
+      "name": "Petrinja",
+      "latitude": 45.4375,
+      "longitude": 16.29,
+      "population": 12963,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "3195890",
+      "name": "Makarska",
+      "latitude": 43.29694,
+      "longitude": 17.01778,
+      "population": 12809,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "3196864",
+      "name": "Kutina",
+      "latitude": 45.475,
+      "longitude": 16.78194,
+      "population": 12012,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "3191518",
+      "name": "Rovinj",
+      "latitude": 45.08268,
+      "longitude": 13.63457,
+      "population": 11629,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "3201009",
+      "name": "Dugo Selo",
+      "latitude": 45.80611,
+      "longitude": 16.24444,
+      "population": 11097,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "3190865",
+      "name": "Sinj",
+      "latitude": 43.70361,
+      "longitude": 16.63944,
+      "population": 10771,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "3197230",
+      "name": "Križevci",
+      "latitude": 46.02194,
+      "longitude": 16.5425,
+      "population": 10522,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "3198227",
+      "name": "Kastav",
+      "latitude": 45.37528,
+      "longitude": 14.34861,
+      "population": 10202,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "3188763",
+      "name": "Trogir",
+      "latitude": 43.5125,
+      "longitude": 16.25167,
+      "population": 10107,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "3194449",
+      "name": "Nova Gradiška",
+      "latitude": 45.255,
+      "longitude": 17.38306,
+      "population": 9820,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "3186294",
+      "name": "Županja",
+      "latitude": 45.0775,
+      "longitude": 18.6975,
+      "population": 9153,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "3192699",
+      "name": "Poreč",
+      "latitude": 45.22567,
+      "longitude": 13.59511,
+      "population": 8841,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "3192932",
+      "name": "Slatina",
+      "latitude": 45.70333,
+      "longitude": 17.70278,
+      "population": 8722,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "3199069",
+      "name": "Ivanić-Grad",
+      "latitude": 45.70833,
+      "longitude": 16.39694,
+      "population": 8452,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "3197986",
+      "name": "Knin",
+      "latitude": 44.04063,
+      "longitude": 16.19662,
+      "population": 8262,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "3202184",
+      "name": "Daruvar",
+      "latitude": 45.59056,
+      "longitude": 17.225,
+      "population": 7440,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "3194183",
+      "name": "Ogulin",
+      "latitude": 45.26611,
+      "longitude": 15.22861,
+      "population": 7374,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "3194581",
+      "name": "Našice",
+      "latitude": 45.48861,
+      "longitude": 18.08778,
+      "population": 7307,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "3188498",
+      "name": "Umag",
+      "latitude": 45.43139,
+      "longitude": 13.52389,
+      "population": 6751,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "3187489",
+      "name": "Vodice",
+      "latitude": 43.76083,
+      "longitude": 15.78278,
+      "population": 6592,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "3199873",
+      "name": "Gospić",
+      "latitude": 44.54611,
+      "longitude": 15.37472,
+      "population": 6362,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "3188395",
+      "name": "Valpovo",
+      "latitude": 45.66083,
+      "longitude": 18.41861,
+      "population": 6332,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "3204320",
+      "name": "Beli Manastir",
+      "latitude": 45.77,
+      "longitude": 18.60361,
+      "population": 6327,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "3202507",
+      "name": "Crikvenica",
+      "latitude": 45.17722,
+      "longitude": 14.69278,
+      "population": 6239,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "3194114",
+      "name": "Omiš",
+      "latitude": 43.44472,
+      "longitude": 16.68861,
+      "population": 5985,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "3194319",
+      "name": "Novska",
+      "latitude": 45.34056,
+      "longitude": 16.97694,
+      "population": 5922,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "3200961",
+      "name": "Đurđevac",
+      "latitude": 46.04111,
+      "longitude": 17.06972,
+      "population": 5834,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "3196834",
+      "name": "Labin",
+      "latitude": 45.095,
+      "longitude": 14.11972,
+      "population": 5806,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "3194099",
+      "name": "Opatija",
+      "latitude": 45.33658,
+      "longitude": 14.30782,
+      "population": 5701,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "3204121",
+      "name": "Biograd na Moru",
+      "latitude": 43.94333,
+      "longitude": 15.45194,
+      "population": 5601,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "3195674",
+      "name": "Mali Lošinj",
+      "latitude": 44.53056,
+      "longitude": 14.46861,
+      "population": 5561,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "3201030",
+      "name": "Duga Resa",
+      "latitude": 45.44614,
+      "longitude": 15.49871,
+      "population": 5380,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "3204317",
+      "name": "Belišće",
+      "latitude": 45.68028,
+      "longitude": 18.40583,
+      "population": 5354,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "3201432",
+      "name": "Donji Miholjac",
+      "latitude": 45.76083,
+      "longitude": 18.16722,
+      "population": 5330,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "3198799",
+      "name": "Jastrebarsko",
+      "latitude": 45.66833,
+      "longitude": 15.64861,
+      "population": 5312,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "3198215",
+      "name": "Kaštel Lukšić",
+      "latitude": 43.55528,
+      "longitude": 16.3675,
+      "population": 5221,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "3199076",
+      "name": "Ivanec",
+      "latitude": 46.22306,
+      "longitude": 16.12,
+      "population": 4997,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "3193150",
+      "name": "Ploče",
+      "latitude": 43.05611,
+      "longitude": 17.43278,
+      "population": 4711,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "3187265",
+      "name": "Vrbovec",
+      "latitude": 45.88333,
+      "longitude": 16.42167,
+      "population": 4551,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "3197369",
+      "name": "Krapina",
+      "latitude": 46.16076,
+      "longitude": 15.8737,
+      "population": 4201,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "3191055",
+      "name": "Senj",
+      "latitude": 44.98944,
+      "longitude": 14.90583,
+      "population": 4164,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "3193706",
+      "name": "Pakrac",
+      "latitude": 45.43639,
+      "longitude": 17.18889,
+      "population": 4151,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "3192532",
+      "name": "Prelog",
+      "latitude": 46.335,
+      "longitude": 16.61556,
+      "population": 4042,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "3200600",
+      "name": "Glina",
+      "latitude": 45.33806,
+      "longitude": 16.08806,
+      "population": 4028,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "3199111",
+      "name": "Imotski",
+      "latitude": 43.44667,
+      "longitude": 17.21667,
+      "population": 4008,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "3193561",
+      "name": "Pazin",
+      "latitude": 45.23917,
+      "longitude": 13.93945,
+      "population": 3981,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "3197208",
+      "name": "Krk",
+      "latitude": 45.02744,
+      "longitude": 14.57542,
+      "population": 3935,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "3202104",
+      "name": "Delnice",
+      "latitude": 45.40083,
+      "longitude": 14.79972,
+      "population": 3861,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "3193788",
+      "name": "Otočac",
+      "latitude": 44.86944,
+      "longitude": 15.2375,
+      "population": 3852,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "3199128",
+      "name": "Ilok",
+      "latitude": 45.22222,
+      "longitude": 19.37694,
+      "population": 3842,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "3192724",
+      "name": "Popovača",
+      "latitude": 45.56972,
+      "longitude": 16.625,
+      "population": 3633,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "3193781",
+      "name": "Otok",
+      "latitude": 45.14667,
+      "longitude": 18.88389,
+      "population": 3571,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "3199180",
+      "name": "Hvar",
+      "latitude": 43.1725,
+      "longitude": 16.44278,
+      "population": 3519,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "3196120",
+      "name": "Ludbreg",
+      "latitude": 46.25194,
+      "longitude": 16.61472,
+      "population": 3463,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "3189492",
+      "name": "Supetar",
+      "latitude": 43.38417,
+      "longitude": 16.55083,
+      "population": 3415,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "3186984",
+      "name": "Zabok",
+      "latitude": 46.02626,
+      "longitude": 15.90391,
+      "population": 3408,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "3196657",
+      "name": "Lepoglava",
+      "latitude": 46.21056,
+      "longitude": 16.03556,
+      "population": 3400,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "3194064",
+      "name": "Orahovica",
+      "latitude": 45.52954,
+      "longitude": 17.87977,
+      "population": 3384,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "3194355",
+      "name": "Novi Vinodolski",
+      "latitude": 45.12806,
+      "longitude": 14.78889,
+      "population": 3336,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "3194626",
+      "name": "Mursko Središće",
+      "latitude": 46.5121,
+      "longitude": 16.43938,
+      "population": 3321,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "3200711",
+      "name": "Garešnica",
+      "latitude": 45.57444,
+      "longitude": 16.94139,
+      "population": 3294,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "3193962",
+      "name": "Oroslavje",
+      "latitude": 45.99672,
+      "longitude": 15.91507,
+      "population": 3253,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "3187477",
+      "name": "Vodnjan",
+      "latitude": 44.95944,
+      "longitude": 13.85167,
+      "population": 3133,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "3193187",
+      "name": "Pleternica",
+      "latitude": 45.28861,
+      "longitude": 17.80639,
+      "population": 2895,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "3186406",
+      "name": "Zlatar",
+      "latitude": 46.09417,
+      "longitude": 16.07083,
+      "population": 2825,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "3201162",
+      "name": "Drniš",
+      "latitude": 43.8625,
+      "longitude": 16.15556,
+      "population": 2752,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "3197710",
+      "name": "Korčula",
+      "latitude": 42.96038,
+      "longitude": 17.13525,
+      "population": 2659,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "3199515",
+      "name": "Grubišno Polje",
+      "latitude": 45.70214,
+      "longitude": 17.17268,
+      "population": 2588,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "3186604",
+      "name": "Sveti Ivan Zelina",
+      "latitude": 45.95985,
+      "longitude": 16.24327,
+      "population": 2583,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "3204293",
+      "name": "Benkovac",
+      "latitude": 44.03444,
+      "longitude": 15.61278,
+      "population": 2484,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "3202820",
+      "name": "Čazma",
+      "latitude": 45.74818,
+      "longitude": 16.6139,
+      "population": 2417,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "3194422",
+      "name": "Novalja",
+      "latitude": 44.55778,
+      "longitude": 14.88667,
+      "population": 2415,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "3197390",
+      "name": "Kraljevica",
+      "latitude": 45.27395,
+      "longitude": 14.5683,
+      "population": 2415,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "3194075",
+      "name": "Opuzen",
+      "latitude": 43.01528,
+      "longitude": 17.56556,
+      "population": 2355,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "3202942",
+      "name": "Buzet",
+      "latitude": 45.40944,
+      "longitude": 13.96667,
+      "population": 2339,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "3193726",
+      "name": "Pag",
+      "latitude": 44.445,
+      "longitude": 15.0575,
+      "population": 2322,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "3194379",
+      "name": "Novigrad",
+      "latitude": 45.315,
+      "longitude": 13.55806,
+      "population": 2292,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "3202523",
+      "name": "Cres",
+      "latitude": 44.96092,
+      "longitude": 14.41246,
+      "population": 2185,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "3187230",
+      "name": "Vrgorac",
+      "latitude": 43.20583,
+      "longitude": 17.37111,
+      "population": 2132,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "3201621",
+      "name": "Donja Stubica",
+      "latitude": 45.98333,
+      "longitude": 15.96667,
+      "population": 2121,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "3203090",
+      "name": "Buje",
+      "latitude": 45.41,
+      "longitude": 13.66194,
+      "population": 2087,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "3196534",
+      "name": "Lipik",
+      "latitude": 45.41139,
+      "longitude": 17.15222,
+      "population": 1967,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "3196855",
+      "name": "Kutjevo",
+      "latitude": 45.42611,
+      "longitude": 17.8825,
+      "population": 1941,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "3189965",
+      "name": "Stari Grad",
+      "latitude": 43.18387,
+      "longitude": 16.59784,
+      "population": 1921,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "3188830",
+      "name": "Trilj",
+      "latitude": 43.61833,
+      "longitude": 16.72417,
+      "population": 1906,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "3192545",
+      "name": "Pregrada",
+      "latitude": 46.16417,
+      "longitude": 15.75083,
+      "population": 1870,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "3194367",
+      "name": "Novi Marof",
+      "latitude": 46.16194,
+      "longitude": 16.33028,
+      "population": 1810,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "3188380",
+      "name": "Varaždinske Toplice",
+      "latitude": 46.20917,
+      "longitude": 16.41917,
+      "population": 1606,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "3187685",
+      "name": "Vis",
+      "latitude": 43.06194,
+      "longitude": 16.18306,
+      "population": 1582,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "3190523",
+      "name": "Slunj",
+      "latitude": 45.11456,
+      "longitude": 15.5843,
+      "population": 1576,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "3197594",
+      "name": "Hrvatska Kostajnica",
+      "latitude": 45.23167,
+      "longitude": 16.53917,
+      "population": 1439,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "3189386",
+      "name": "Sveta Nedjelja",
+      "latitude": 45.79833,
+      "longitude": 15.78056,
+      "population": 1363,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "3197834",
+      "name": "Komiža",
+      "latitude": 43.04306,
+      "longitude": 16.09306,
+      "population": 1261,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "3187257",
+      "name": "Vrbovsko",
+      "latitude": 45.36861,
+      "longitude": 15.07833,
+      "population": 1257,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "3204612",
+      "name": "Bakar",
+      "latitude": 45.30861,
+      "longitude": 14.53028,
+      "population": 1187,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "3216446",
+      "name": "Nin",
+      "latitude": 44.24139,
+      "longitude": 15.17833,
+      "population": 1101,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "3193754",
+      "name": "Ozalj",
+      "latitude": 45.61293,
+      "longitude": 15.47771,
+      "population": 1053,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "3194245",
+      "name": "Obrovac",
+      "latitude": 44.20056,
+      "longitude": 15.68222,
+      "population": 793,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "3191326",
+      "name": "Slavonski Šamac",
+      "latitude": 45.06667,
+      "longitude": 18.48889,
+      "population": 768,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "3187169",
+      "name": "Vrlika",
+      "latitude": 43.90828,
+      "longitude": 16.3983,
+      "population": 718,
+      "populationRank": 125,
+      "isCapital": false
+    }
+  ]
+}

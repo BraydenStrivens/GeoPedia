@@ -1,0 +1,328 @@
+{
+  "towns": [
+    {
+      "id": "2409306",
+      "name": "Freetown",
+      "latitude": 8.48714,
+      "longitude": -13.2356,
+      "population": 802639,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "2407790",
+      "name": "Kenema",
+      "latitude": 7.87687,
+      "longitude": -11.19025,
+      "population": 255110,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2410048",
+      "name": "Bo",
+      "latitude": 7.96472,
+      "longitude": -11.73833,
+      "population": 233684,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2407656",
+      "name": "Koidu",
+      "latitude": 8.64387,
+      "longitude": -10.9714,
+      "population": 128030,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2406407",
+      "name": "Makeni",
+      "latitude": 8.88605,
+      "longitude": -12.04417,
+      "population": 85116,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2403094",
+      "name": "Waterloo",
+      "latitude": 8.3389,
+      "longitude": -13.07091,
+      "population": 55000,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2404433",
+      "name": "Port Loko",
+      "latitude": 8.76609,
+      "longitude": -12.78696,
+      "population": 44900,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "2404837",
+      "name": "Njala",
+      "latitude": 8.23231,
+      "longitude": -12.01558,
+      "population": 40000,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2406916",
+      "name": "Lunsar",
+      "latitude": 8.68439,
+      "longitude": -12.53499,
+      "population": 22461,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2408329",
+      "name": "Kabala",
+      "latitude": 9.58893,
+      "longitude": -11.55256,
+      "population": 17948,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2404041",
+      "name": "Segbwema",
+      "latitude": 7.99471,
+      "longitude": -10.9502,
+      "population": 16532,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "2409823",
+      "name": "Bumpe",
+      "latitude": 7.89209,
+      "longitude": -11.90541,
+      "population": 16123,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "12718740",
+      "name": "Mile 91",
+      "latitude": 8.46596,
+      "longitude": -12.21457,
+      "population": 15491,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2406576",
+      "name": "Magburaka",
+      "latitude": 8.72306,
+      "longitude": -11.9488,
+      "population": 14915,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2408250",
+      "name": "Kailahun",
+      "latitude": 8.2789,
+      "longitude": -10.573,
+      "population": 14085,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "2410090",
+      "name": "Binkolo",
+      "latitude": 8.95225,
+      "longitude": -11.98029,
+      "population": 13867,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "2402816",
+      "name": "Yengema",
+      "latitude": 8.71441,
+      "longitude": -11.17057,
+      "population": 13358,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2408088",
+      "name": "Kambia",
+      "latitude": 9.12504,
+      "longitude": -12.91816,
+      "population": 11520,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2409914",
+      "name": "Bonthe",
+      "latitude": 7.52639,
+      "longitude": -12.505,
+      "population": 10206,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2404614",
+      "name": "Pendembu",
+      "latitude": 8.09807,
+      "longitude": -10.69429,
+      "population": 8780,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "8468758",
+      "name": "Mattru Jong",
+      "latitude": 7.59973,
+      "longitude": -12.16667,
+      "population": 8199,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "2410065",
+      "name": "Blama",
+      "latitude": 7.87481,
+      "longitude": -11.34548,
+      "population": 8146,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2408154",
+      "name": "Kamakwie",
+      "latitude": 9.49689,
+      "longitude": -12.24061,
+      "population": 8098,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "2404663",
+      "name": "Panguma",
+      "latitude": 8.18507,
+      "longitude": -11.1329,
+      "population": 7965,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2571039",
+      "name": "Pujehun",
+      "latitude": 7.35806,
+      "longitude": -11.72083,
+      "population": 7926,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "2407262",
+      "name": "Kukuna",
+      "latitude": 9.39841,
+      "longitude": -12.66476,
+      "population": 7676,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "2403698",
+      "name": "Sumbuya",
+      "latitude": 7.64789,
+      "longitude": -11.9606,
+      "population": 7074,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2405013",
+      "name": "Moyamba",
+      "latitude": 8.15898,
+      "longitude": -12.43168,
+      "population": 6700,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2409663",
+      "name": "Daru",
+      "latitude": 7.98976,
+      "longitude": -10.84223,
+      "population": 5958,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2403407",
+      "name": "Tintafor",
+      "latitude": 8.62667,
+      "longitude": -13.215,
+      "population": 5460,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "2408582",
+      "name": "Hastings",
+      "latitude": 8.37994,
+      "longitude": -13.13693,
+      "population": 5121,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2404423",
+      "name": "Potoru",
+      "latitude": 7.50596,
+      "longitude": -11.47897,
+      "population": 4937,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2402689",
+      "name": "Zimmi",
+      "latitude": 7.31356,
+      "longitude": -11.30818,
+      "population": 4796,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "2404607",
+      "name": "Pepel",
+      "latitude": 8.58611,
+      "longitude": -13.05444,
+      "population": 4462,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "2403896",
+      "name": "Serabu",
+      "latitude": 7.79311,
+      "longitude": -12.05294,
+      "population": 4261,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "2410624",
+      "name": "Baiima",
+      "latitude": 8.10826,
+      "longitude": -11.84772,
+      "population": 3771,
+      "populationRank": 36,
+      "isCapital": false
+    }
+  ]
+}

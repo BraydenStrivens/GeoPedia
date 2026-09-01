@@ -1,0 +1,1714 @@
+{
+  "towns": [
+    {
+      "id": "2193733",
+      "name": "Auckland",
+      "latitude": -36.84853,
+      "longitude": 174.76349,
+      "population": 1547200,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "2192362",
+      "name": "Christchurch",
+      "latitude": -43.53333,
+      "longitude": 172.63333,
+      "population": 419200,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2179537",
+      "name": "Wellington",
+      "latitude": -41.28664,
+      "longitude": 174.77557,
+      "population": 381900,
+      "populationRank": 3,
+      "isCapital": true
+    },
+    {
+      "id": "2190324",
+      "name": "Hamilton",
+      "latitude": -37.78333,
+      "longitude": 175.28333,
+      "population": 192100,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2208032",
+      "name": "Tauranga",
+      "latitude": -37.68611,
+      "longitude": 176.16667,
+      "population": 161000,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2191562",
+      "name": "Dunedin",
+      "latitude": -45.87416,
+      "longitude": 170.50361,
+      "population": 132800,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2188164",
+      "name": "Lower Hutt",
+      "latitude": -41.21667,
+      "longitude": 174.91667,
+      "population": 114200,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "2185018",
+      "name": "Palmerston North",
+      "latitude": -40.35636,
+      "longitude": 175.61113,
+      "population": 90500,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2186239",
+      "name": "New Plymouth",
+      "latitude": -39.06667,
+      "longitude": 174.08333,
+      "population": 90100,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2190224",
+      "name": "Hastings",
+      "latitude": -39.6381,
+      "longitude": 176.84918,
+      "population": 88300,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2186313",
+      "name": "Napier",
+      "latitude": -39.4926,
+      "longitude": 176.91233,
+      "population": 66400,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "6241325",
+      "name": "Rotorua",
+      "latitude": -38.13874,
+      "longitude": 176.24516,
+      "population": 65901,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2184397",
+      "name": "Porirua",
+      "latitude": -41.13333,
+      "longitude": 174.85,
+      "population": 61500,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2189529",
+      "name": "Invercargill",
+      "latitude": -46.4,
+      "longitude": 168.35,
+      "population": 58000,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2186280",
+      "name": "Nelson",
+      "latitude": -41.27078,
+      "longitude": 173.28404,
+      "population": 54400,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "6230919",
+      "name": "Whangarei",
+      "latitude": -35.73167,
+      "longitude": 174.32391,
+      "population": 50900,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "2179670",
+      "name": "Whanganui",
+      "latitude": -39.93333,
+      "longitude": 175.05,
+      "population": 49200,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "6244895",
+      "name": "Upper Hutt",
+      "latitude": -41.13827,
+      "longitude": 175.0502,
+      "population": 47400,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2206854",
+      "name": "Gisborne",
+      "latitude": -38.65333,
+      "longitude": 178.00417,
+      "population": 38100,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2183310",
+      "name": "Rolleston",
+      "latitude": -43.58333,
+      "longitude": 172.38333,
+      "population": 34100,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2184904",
+      "name": "Paraparaumu",
+      "latitude": -40.91667,
+      "longitude": 175.01667,
+      "population": 29900,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "6243926",
+      "name": "Blenheim",
+      "latitude": -41.51603,
+      "longitude": 173.9528,
+      "population": 29800,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2181133",
+      "name": "Timaru",
+      "latitude": -44.39672,
+      "longitude": 171.25364,
+      "population": 29300,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "2206890",
+      "name": "Masterton",
+      "latitude": -40.95972,
+      "longitude": 175.6575,
+      "population": 28900,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2181742",
+      "name": "Taupo",
+      "latitude": -38.68333,
+      "longitude": 176.08333,
+      "population": 27000,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "6217081",
+      "name": "Ashburton",
+      "latitude": -43.89834,
+      "longitude": 171.73011,
+      "population": 21600,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "2183472",
+      "name": "Richmond",
+      "latitude": -41.33333,
+      "longitude": 173.18333,
+      "population": 19950,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2206371",
+      "name": "Levin",
+      "latitude": -40.63333,
+      "longitude": 175.275,
+      "population": 19789,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "6220565",
+      "name": "Rangiora",
+      "latitude": -43.30437,
+      "longitude": 172.58356,
+      "population": 19300,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2208330",
+      "name": "Whakatane",
+      "latitude": -37.95855,
+      "longitude": 176.98545,
+      "population": 18602,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "6240770",
+      "name": "Cambridge",
+      "latitude": -37.87822,
+      "longitude": 175.4402,
+      "population": 15192,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2190169",
+      "name": "Havelock North",
+      "latitude": -39.66667,
+      "longitude": 176.88333,
+      "population": 14900,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2208241",
+      "name": "Mosgiel",
+      "latitude": -45.875,
+      "longitude": 170.34722,
+      "population": 14800,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "2180995",
+      "name": "Tokoroa",
+      "latitude": -38.23333,
+      "longitude": 175.86667,
+      "population": 14500,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "6240801",
+      "name": "Te Awamutu",
+      "latitude": -38.00822,
+      "longitude": 175.3302,
+      "population": 14000,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "6220587",
+      "name": "Kaiapoi",
+      "latitude": -43.37832,
+      "longitude": 172.64013,
+      "population": 13700,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "2180320",
+      "name": "Waikanae",
+      "latitude": -40.88333,
+      "longitude": 175.06667,
+      "population": 13600,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "2184707",
+      "name": "Wanaka",
+      "latitude": -44.7,
+      "longitude": 169.15,
+      "population": 13200,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "6201424",
+      "name": "Gore",
+      "latitude": -46.10282,
+      "longitude": 168.94357,
+      "population": 13050,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "6215045",
+      "name": "Oamaru",
+      "latitude": -45.09758,
+      "longitude": 170.97087,
+      "population": 13000,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "2185445",
+      "name": "Orewa",
+      "latitude": -36.581,
+      "longitude": 174.679,
+      "population": 12630,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "2206359",
+      "name": "Hawera",
+      "latitude": -39.59167,
+      "longitude": 174.28333,
+      "population": 10700,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "6245055",
+      "name": "Te Puke",
+      "latitude": -37.77822,
+      "longitude": 176.33021,
+      "population": 10500,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "6204696",
+      "name": "Queenstown",
+      "latitude": -45.03023,
+      "longitude": 168.66271,
+      "population": 10442,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "6226000",
+      "name": "Carterton",
+      "latitude": -41.01827,
+      "longitude": 175.5302,
+      "population": 10300,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "2179756",
+      "name": "Waiuku",
+      "latitude": -37.24806,
+      "longitude": 174.73489,
+      "population": 9860,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "6235745",
+      "name": "Morrinsville",
+      "latitude": -37.64821,
+      "longitude": 175.5202,
+      "population": 9710,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "2206895",
+      "name": "Greymouth",
+      "latitude": -42.46667,
+      "longitude": 171.2,
+      "population": 9419,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "2193370",
+      "name": "Bethlehem",
+      "latitude": -37.69496,
+      "longitude": 176.10861,
+      "population": 9270,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "2188371",
+      "name": "Lincoln",
+      "latitude": -43.65,
+      "longitude": 172.48333,
+      "population": 9180,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "6249343",
+      "name": "Huntly",
+      "latitude": -37.55821,
+      "longitude": 175.1602,
+      "population": 8850,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "2188591",
+      "name": "Kumeu",
+      "latitude": -36.76667,
+      "longitude": 174.56667,
+      "population": 8510,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "6247826",
+      "name": "Ngaruawahia",
+      "latitude": -37.66738,
+      "longitude": 175.15554,
+      "population": 8500,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "2188874",
+      "name": "Kerikeri",
+      "latitude": -35.22676,
+      "longitude": 173.94739,
+      "population": 8380,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "2193497",
+      "name": "Beachlands",
+      "latitude": -36.88333,
+      "longitude": 175,
+      "population": 8340,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "2208091",
+      "name": "Waitara",
+      "latitude": -39.00158,
+      "longitude": 174.23836,
+      "population": 7730,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "2188942",
+      "name": "Kawerau",
+      "latitude": -38.1,
+      "longitude": 176.7,
+      "population": 7670,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "2184361",
+      "name": "Motueka",
+      "latitude": -41.13333,
+      "longitude": 173.01667,
+      "population": 7485,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "2208041",
+      "name": "Mount Maunganui",
+      "latitude": -37.64167,
+      "longitude": 176.18611,
+      "population": 7250,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "2208333",
+      "name": "Thames",
+      "latitude": -37.13832,
+      "longitude": 175.54011,
+      "population": 7136,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "2179639",
+      "name": "Warkworth",
+      "latitude": -36.4,
+      "longitude": 174.66667,
+      "population": 6960,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "6223846",
+      "name": "Stratford",
+      "latitude": -39.33762,
+      "longitude": 174.28368,
+      "population": 6430,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "6235764",
+      "name": "Matamata",
+      "latitude": -37.8106,
+      "longitude": 175.76237,
+      "population": 6306,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "2179103",
+      "name": "Whitianga",
+      "latitude": -36.83333,
+      "longitude": 175.7,
+      "population": 6230,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "2180831",
+      "name": "Tuakau",
+      "latitude": -37.27047,
+      "longitude": 174.94384,
+      "population": 6180,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "2206372",
+      "name": "Otaki",
+      "latitude": -40.75833,
+      "longitude": 175.15,
+      "population": 6086,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "2189016",
+      "name": "Katikati",
+      "latitude": -37.55,
+      "longitude": 175.91667,
+      "population": 6000,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "2185613",
+      "name": "Omokoroa",
+      "latitude": -37.64849,
+      "longitude": 176.03497,
+      "population": 5990,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "6207905",
+      "name": "Alexandra",
+      "latitude": -45.24837,
+      "longitude": 169.37008,
+      "population": 5830,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "2184297",
+      "name": "Prebbleton",
+      "latitude": -43.58333,
+      "longitude": 172.51667,
+      "population": 5750,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "6224624",
+      "name": "Marton",
+      "latitude": -40.0692,
+      "longitude": 175.37823,
+      "population": 5740,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "6246205",
+      "name": "Dannevirke",
+      "latitude": -40.20549,
+      "longitude": 176.10084,
+      "population": 5640,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "2178982",
+      "name": "Woodend",
+      "latitude": -43.31667,
+      "longitude": 172.66667,
+      "population": 5430,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "2186116",
+      "name": "Ngongotaha",
+      "latitude": -38.08333,
+      "longitude": 176.2,
+      "population": 5240,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "2191911",
+      "name": "Dargaville",
+      "latitude": -35.93333,
+      "longitude": 173.88333,
+      "population": 5170,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "6207775",
+      "name": "Cromwell",
+      "latitude": -45.03837,
+      "longitude": 169.20008,
+      "population": 5160,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "2184459",
+      "name": "Pokeno",
+      "latitude": -37.24502,
+      "longitude": 175.02049,
+      "population": 5060,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "6234582",
+      "name": "Taumarunui",
+      "latitude": -38.87823,
+      "longitude": 175.2602,
+      "population": 4950,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "6247603",
+      "name": "Wairoa",
+      "latitude": -39.03823,
+      "longitude": 177.42022,
+      "population": 4940,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "2208332",
+      "name": "Opotiki",
+      "latitude": -38.00915,
+      "longitude": 177.28706,
+      "population": 4900,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "6229575",
+      "name": "Kaikohe",
+      "latitude": -35.39818,
+      "longitude": 173.80018,
+      "population": 4890,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "6234244",
+      "name": "Te Kuiti",
+      "latitude": -38.33627,
+      "longitude": 175.17014,
+      "population": 4890,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "6243776",
+      "name": "Picton",
+      "latitude": -41.29067,
+      "longitude": 174.00801,
+      "population": 4850,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "6217261",
+      "name": "Temuka",
+      "latitude": -44.22834,
+      "longitude": 171.2801,
+      "population": 4840,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "2206369",
+      "name": "Foxton",
+      "latitude": -40.47277,
+      "longitude": 175.28601,
+      "population": 4780,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "6235636",
+      "name": "Te Aroha",
+      "latitude": -37.52821,
+      "longitude": 175.71021,
+      "population": 4700,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "6235878",
+      "name": "Putaruru",
+      "latitude": -38.04822,
+      "longitude": 175.78021,
+      "population": 4670,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "2208328",
+      "name": "Waihi",
+      "latitude": -37.38333,
+      "longitude": 175.83333,
+      "population": 4619,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "2206900",
+      "name": "Westport",
+      "latitude": -41.75262,
+      "longitude": 171.6037,
+      "population": 4600,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "2190450",
+      "name": "Greerton",
+      "latitude": -37.72541,
+      "longitude": 176.13346,
+      "population": 4590,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "2208248",
+      "name": "Balclutha",
+      "latitude": -46.23389,
+      "longitude": 169.75,
+      "population": 4441,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "2179328",
+      "name": "Whangamata",
+      "latitude": -37.2,
+      "longitude": 175.86667,
+      "population": 4270,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "6251532",
+      "name": "Pegasus",
+      "latitude": -43.30832,
+      "longitude": 172.69013,
+      "population": 4170,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "2208327",
+      "name": "Paeroa",
+      "latitude": -37.36667,
+      "longitude": 175.66667,
+      "population": 3994,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "2180737",
+      "name": "Turangi",
+      "latitude": -38.99037,
+      "longitude": 175.80837,
+      "population": 3960,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "6223708",
+      "name": "Inglewood",
+      "latitude": -39.15824,
+      "longitude": 174.1802,
+      "population": 3960,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "2183854",
+      "name": "Raglan",
+      "latitude": -37.8,
+      "longitude": 174.88333,
+      "population": 3840,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "2179313",
+      "name": "Whangaparaoa",
+      "latitude": -36.63333,
+      "longitude": 174.76667,
+      "population": 3786,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "2188853",
+      "name": "Kihikihi",
+      "latitude": -38.03333,
+      "longitude": 175.35,
+      "population": 3760,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "6244556",
+      "name": "Snells Beach",
+      "latitude": -36.40819,
+      "longitude": 174.72019,
+      "population": 3760,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "2181511",
+      "name": "Te Kauwhata",
+      "latitude": -37.4,
+      "longitude": 175.15,
+      "population": 3740,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "2183413",
+      "name": "Riverhead",
+      "latitude": -36.75,
+      "longitude": 174.6,
+      "population": 3700,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "6214808",
+      "name": "Waimate",
+      "latitude": -44.72836,
+      "longitude": 171.05009,
+      "population": 3650,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "6231124",
+      "name": "Helensville",
+      "latitude": -36.67819,
+      "longitude": 174.45019,
+      "population": 3420,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "2191913",
+      "name": "Darfield",
+      "latitude": -43.48333,
+      "longitude": 172.11667,
+      "population": 3380,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "2193767",
+      "name": "Ashhurst",
+      "latitude": -40.29108,
+      "longitude": 175.75471,
+      "population": 3350,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "2206894",
+      "name": "Hokitika",
+      "latitude": -42.71667,
+      "longitude": 170.96667,
+      "population": 3350,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "2185245",
+      "name": "Otorohanga",
+      "latitude": -38.18333,
+      "longitude": 175.2,
+      "population": 3280,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "2185814",
+      "name": "Ohope Beach",
+      "latitude": -37.97519,
+      "longitude": 177.07588,
+      "population": 3250,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "6220981",
+      "name": "Lyttelton",
+      "latitude": -43.60314,
+      "longitude": 172.71765,
+      "population": 3220,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "6225996",
+      "name": "Greytown",
+      "latitude": -41.07827,
+      "longitude": 175.4602,
+      "population": 2940,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "2181625",
+      "name": "Te Anau",
+      "latitude": -45.41667,
+      "longitude": 167.71667,
+      "population": 2910,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "6231027",
+      "name": "Ruakaka",
+      "latitude": -35.90818,
+      "longitude": 174.45019,
+      "population": 2910,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "6227686",
+      "name": "Pahiatua",
+      "latitude": -40.45345,
+      "longitude": 175.8406,
+      "population": 2860,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "6244383",
+      "name": "Mangawhai Heads",
+      "latitude": -36.08819,
+      "longitude": 174.57019,
+      "population": 2850,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "2193968",
+      "name": "Amberley",
+      "latitude": -43.15589,
+      "longitude": 172.72975,
+      "population": 2780,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "2187356",
+      "name": "Maraetai",
+      "latitude": -36.88333,
+      "longitude": 175.05,
+      "population": 2770,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "6226307",
+      "name": "Featherston",
+      "latitude": -41.10827,
+      "longitude": 175.3202,
+      "population": 2760,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "2179460",
+      "name": "West Melton",
+      "latitude": -43.51667,
+      "longitude": 172.36667,
+      "population": 2710,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "2179702",
+      "name": "Wakefield",
+      "latitude": -41.4,
+      "longitude": 173.05,
+      "population": 2680,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "2180393",
+      "name": "Waihi Beach",
+      "latitude": -37.4,
+      "longitude": 175.93333,
+      "population": 2670,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "2183526",
+      "name": "Renwick",
+      "latitude": -41.5,
+      "longitude": 173.83333,
+      "population": 2550,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "2188444",
+      "name": "Leeston",
+      "latitude": -43.76667,
+      "longitude": 172.3,
+      "population": 2490,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "2192964",
+      "name": "Brightwater",
+      "latitude": -41.38333,
+      "longitude": 173.11667,
+      "population": 2390,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "6214317",
+      "name": "Geraldine",
+      "latitude": -44.09061,
+      "longitude": 171.24458,
+      "population": 2301,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "2185148",
+      "name": "Oxford",
+      "latitude": -43.3,
+      "longitude": 172.18333,
+      "population": 2240,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "2206968",
+      "name": "Winton",
+      "latitude": -46.15,
+      "longitude": 168.33333,
+      "population": 2193,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "2190948",
+      "name": "Foxton Beach",
+      "latitude": -40.46384,
+      "longitude": 175.22716,
+      "population": 2190,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "6207712",
+      "name": "Lake Hawea",
+      "latitude": -44.60836,
+      "longitude": 169.26008,
+      "population": 2190,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "6206253",
+      "name": "Arrowtown",
+      "latitude": -44.93837,
+      "longitude": 168.81007,
+      "population": 2151,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "2192828",
+      "name": "Bulls",
+      "latitude": -40.17487,
+      "longitude": 175.38463,
+      "population": 2150,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "2206358",
+      "name": "Eltham",
+      "latitude": -39.42917,
+      "longitude": 174.3,
+      "population": 2150,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "2186895",
+      "name": "Methven",
+      "latitude": -43.63333,
+      "longitude": 171.65,
+      "population": 2130,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "2185360",
+      "name": "Otaki Beach",
+      "latitude": -40.75,
+      "longitude": 175.11667,
+      "population": 2120,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "2192282",
+      "name": "Clive",
+      "latitude": -39.58333,
+      "longitude": 176.91667,
+      "population": 2120,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "2179532",
+      "name": "Wellsford",
+      "latitude": -36.28333,
+      "longitude": 174.51667,
+      "population": 2110,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "6226278",
+      "name": "Martinborough",
+      "latitude": -41.20827,
+      "longitude": 175.4302,
+      "population": 2050,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "2208242",
+      "name": "Milton",
+      "latitude": -46.12083,
+      "longitude": 169.96944,
+      "population": 2009,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "2206939",
+      "name": "Bluff",
+      "latitude": -46.6,
+      "longitude": 168.33333,
+      "population": 1938,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "2186722",
+      "name": "Moerewa",
+      "latitude": -35.38333,
+      "longitude": 174.03333,
+      "population": 1920,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "2191451",
+      "name": "Edgecumbe",
+      "latitude": -37.98333,
+      "longitude": 176.83333,
+      "population": 1900,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "2186338",
+      "name": "Murupara",
+      "latitude": -38.46667,
+      "longitude": 176.7,
+      "population": 1876,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "2187365",
+      "name": "Mapua",
+      "latitude": -41.25,
+      "longitude": 173.1,
+      "population": 1819,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "6227202",
+      "name": "Taihape",
+      "latitude": -39.67819,
+      "longitude": 175.79799,
+      "population": 1810,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "2189978",
+      "name": "Hikurangi",
+      "latitude": -35.6,
+      "longitude": 174.3,
+      "population": 1800,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "2192093",
+      "name": "Coromandel",
+      "latitude": -36.7611,
+      "longitude": 175.49634,
+      "population": 1780,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "6209526",
+      "name": "Twizel",
+      "latitude": -44.25842,
+      "longitude": 170.10063,
+      "population": 1780,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "2185134",
+      "name": "Paekakariki",
+      "latitude": -40.98544,
+      "longitude": 174.95449,
+      "population": 1730,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "2185922",
+      "name": "Oakura",
+      "latitude": -39.11667,
+      "longitude": 173.95,
+      "population": 1720,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "6220836",
+      "name": "Diamond Harbour",
+      "latitude": -43.62888,
+      "longitude": 172.7254,
+      "population": 1720,
+      "populationRank": 150,
+      "isCapital": false
+    },
+    {
+      "id": "2183824",
+      "name": "Rakaia",
+      "latitude": -43.75,
+      "longitude": 172.01667,
+      "population": 1680,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "2206957",
+      "name": "Riverton",
+      "latitude": -46.35,
+      "longitude": 168.01667,
+      "population": 1680,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "6206745",
+      "name": "Mataura",
+      "latitude": -46.1784,
+      "longitude": 168.85009,
+      "population": 1680,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "6227728",
+      "name": "Woodville",
+      "latitude": -40.33719,
+      "longitude": 175.86678,
+      "population": 1680,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "2185081",
+      "name": "Paihia",
+      "latitude": -35.28067,
+      "longitude": 174.09103,
+      "population": 1670,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "6225657",
+      "name": "Shannon",
+      "latitude": -40.54826,
+      "longitude": 175.42021,
+      "population": 1610,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "2182010",
+      "name": "Tairua",
+      "latitude": -37.01667,
+      "longitude": 175.85,
+      "population": 1588,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "2192965",
+      "name": "Brighton",
+      "latitude": -45.95,
+      "longitude": 170.33333,
+      "population": 1580,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "6225082",
+      "name": "Ohakune",
+      "latitude": -39.40824,
+      "longitude": 175.40021,
+      "population": 1570,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "12524410",
+      "name": "Clarks Beach",
+      "latitude": -37.14173,
+      "longitude": 174.71463,
+      "population": 1560,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "2188966",
+      "name": "Kawakawa",
+      "latitude": -35.38333,
+      "longitude": 174.06667,
+      "population": 1500,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "2206357",
+      "name": "Opunake",
+      "latitude": -39.45556,
+      "longitude": 173.85833,
+      "population": 1495,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "2184512",
+      "name": "Pleasant Point",
+      "latitude": -44.26667,
+      "longitude": 171.13333,
+      "population": 1470,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "2184778",
+      "name": "Patumahoe",
+      "latitude": -37.18333,
+      "longitude": 174.83333,
+      "population": 1450,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "2181997",
+      "name": "Takaka",
+      "latitude": -40.85,
+      "longitude": 172.8,
+      "population": 1430,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "2179985",
+      "name": "Waipu",
+      "latitude": -35.98333,
+      "longitude": 174.45,
+      "population": 1410,
+      "populationRank": 166,
+      "isCapital": false
+    },
+    {
+      "id": "2187908",
+      "name": "Maketu",
+      "latitude": -37.76667,
+      "longitude": 176.45,
+      "population": 1410,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "2187476",
+      "name": "Mangawhai",
+      "latitude": -36.11667,
+      "longitude": 174.56667,
+      "population": 1370,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "2184539",
+      "name": "Pirongia",
+      "latitude": -38,
+      "longitude": 175.2,
+      "population": 1360,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "2186111",
+      "name": "Ngunguru",
+      "latitude": -35.61667,
+      "longitude": 174.5,
+      "population": 1358,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "6212017",
+      "name": "Waikouaiti",
+      "latitude": -45.58837,
+      "longitude": 170.6501,
+      "population": 1330,
+      "populationRank": 171,
+      "isCapital": false
+    },
+    {
+      "id": "2180167",
+      "name": "Waimauku",
+      "latitude": -36.75,
+      "longitude": 174.5,
+      "population": 1320,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "2206361",
+      "name": "Patea",
+      "latitude": -39.75833,
+      "longitude": 174.48333,
+      "population": 1286,
+      "populationRank": 173,
+      "isCapital": false
+    },
+    {
+      "id": "2185493",
+      "name": "Opua",
+      "latitude": -35.31667,
+      "longitude": 174.11667,
+      "population": 1280,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "6212566",
+      "name": "Runanga",
+      "latitude": -42.39828,
+      "longitude": 171.25013,
+      "population": 1270,
+      "populationRank": 175,
+      "isCapital": false
+    },
+    {
+      "id": "2192797",
+      "name": "Burnham",
+      "latitude": -43.61667,
+      "longitude": 172.31667,
+      "population": 1239,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "2190227",
+      "name": "Haruru",
+      "latitude": -35.28066,
+      "longitude": 174.05434,
+      "population": 1230,
+      "populationRank": 177,
+      "isCapital": false
+    },
+    {
+      "id": "2190299",
+      "name": "Hanmer Springs",
+      "latitude": -42.51667,
+      "longitude": 172.81667,
+      "population": 1180,
+      "populationRank": 178,
+      "isCapital": false
+    },
+    {
+      "id": "2190202",
+      "name": "Haumoana",
+      "latitude": -39.6037,
+      "longitude": 176.94571,
+      "population": 1161,
+      "populationRank": 179,
+      "isCapital": false
+    },
+    {
+      "id": "2186152",
+      "name": "Ngatea",
+      "latitude": -37.28333,
+      "longitude": 175.5,
+      "population": 1151,
+      "populationRank": 180,
+      "isCapital": false
+    },
+    {
+      "id": "2186363",
+      "name": "Muriwai Beach",
+      "latitude": -36.83659,
+      "longitude": 174.43298,
+      "population": 1130,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "6225059",
+      "name": "Raetihi",
+      "latitude": -39.42877,
+      "longitude": 175.27725,
+      "population": 1130,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "2184927",
+      "name": "Parakai",
+      "latitude": -36.65,
+      "longitude": 174.43333,
+      "population": 1100,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "2194098",
+      "name": "Ahipara",
+      "latitude": -35.16604,
+      "longitude": 173.15563,
+      "population": 1093,
+      "populationRank": 184,
+      "isCapital": false
+    },
+    {
+      "id": "2184766",
+      "name": "Pauanui",
+      "latitude": -37.01667,
+      "longitude": 175.86667,
+      "population": 1070,
+      "populationRank": 185,
+      "isCapital": false
+    },
+    {
+      "id": "2186049",
+      "name": "Normanby",
+      "latitude": -39.53333,
+      "longitude": 174.28333,
+      "population": 1070,
+      "populationRank": 186,
+      "isCapital": false
+    },
+    {
+      "id": "2189819",
+      "name": "Hope",
+      "latitude": -41.36667,
+      "longitude": 173.15,
+      "population": 990,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "2183551",
+      "name": "Reefton",
+      "latitude": -42.11667,
+      "longitude": 171.86667,
+      "population": 927,
+      "populationRank": 188,
+      "isCapital": false
+    },
+    {
+      "id": "2192264",
+      "name": "Clyde",
+      "latitude": -45.18651,
+      "longitude": 169.31545,
+      "population": 890,
+      "populationRank": 189,
+      "isCapital": false
+    },
+    {
+      "id": "2189272",
+      "name": "Kaikoura",
+      "latitude": -42.41667,
+      "longitude": 173.68333,
+      "population": 685,
+      "populationRank": 190,
+      "isCapital": false
+    }
+  ]
+}

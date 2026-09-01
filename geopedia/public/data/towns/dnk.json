@@ -1,0 +1,994 @@
+{
+  "towns": [
+    {
+      "id": "2618425",
+      "name": "Copenhagen",
+      "latitude": 55.67594,
+      "longitude": 12.56553,
+      "population": 1153615,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "2624652",
+      "name": "Århus",
+      "latitude": 56.15674,
+      "longitude": 10.21076,
+      "population": 285273,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2615876",
+      "name": "Odense",
+      "latitude": 55.39594,
+      "longitude": 10.38831,
+      "population": 180863,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2624886",
+      "name": "Aalborg",
+      "latitude": 57.048,
+      "longitude": 9.9187,
+      "population": 142937,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2621942",
+      "name": "Frederiksberg",
+      "latitude": 55.67938,
+      "longitude": 12.53463,
+      "population": 95029,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2622447",
+      "name": "Esbjerg",
+      "latitude": 55.47028,
+      "longitude": 8.45187,
+      "population": 71698,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2615006",
+      "name": "Randers",
+      "latitude": 56.4607,
+      "longitude": 10.03639,
+      "population": 62802,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "2618528",
+      "name": "Kolding",
+      "latitude": 55.4904,
+      "longitude": 9.47216,
+      "population": 61638,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2619771",
+      "name": "Horsens",
+      "latitude": 55.86066,
+      "longitude": 9.85034,
+      "population": 61074,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2610613",
+      "name": "Vejle",
+      "latitude": 55.70927,
+      "longitude": 9.5357,
+      "population": 60231,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2614481",
+      "name": "Roskilde",
+      "latitude": 55.64152,
+      "longitude": 12.08035,
+      "population": 51916,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "2620425",
+      "name": "Herning",
+      "latitude": 56.13615,
+      "longitude": 8.97662,
+      "population": 50565,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2614030",
+      "name": "Silkeborg",
+      "latitude": 56.1697,
+      "longitude": 9.54508,
+      "population": 49747,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2619856",
+      "name": "Hørsholm",
+      "latitude": 55.88098,
+      "longitude": 12.50111,
+      "population": 47680,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2621215",
+      "name": "Greve",
+      "latitude": 55.58333,
+      "longitude": 12.3,
+      "population": 47671,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "2620583",
+      "name": "Hedensted",
+      "latitude": 55.77043,
+      "longitude": 9.7011,
+      "population": 47099,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "2616038",
+      "name": "Næstved",
+      "latitude": 55.22992,
+      "longitude": 11.76092,
+      "population": 44331,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2610319",
+      "name": "Viborg",
+      "latitude": 56.45319,
+      "longitude": 9.40201,
+      "population": 41239,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2621951",
+      "name": "Fredericia",
+      "latitude": 55.56568,
+      "longitude": 9.75257,
+      "population": 40886,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2624341",
+      "name": "Ballerup",
+      "latitude": 55.73165,
+      "longitude": 12.36328,
+      "population": 40000,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2618415",
+      "name": "Køge",
+      "latitude": 55.45802,
+      "longitude": 12.18214,
+      "population": 38304,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "2620320",
+      "name": "Hillerød",
+      "latitude": 55.92791,
+      "longitude": 12.30081,
+      "population": 35357,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2611828",
+      "name": "Taastrup",
+      "latitude": 55.65006,
+      "longitude": 12.3016,
+      "population": 35238,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "2620473",
+      "name": "Helsingør",
+      "latitude": 56.03606,
+      "longitude": 12.6136,
+      "population": 35048,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2620046",
+      "name": "Holstebro",
+      "latitude": 56.36009,
+      "longitude": 8.61607,
+      "population": 32072,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "2613460",
+      "name": "Slagelse",
+      "latitude": 55.40276,
+      "longitude": 11.35459,
+      "population": 31896,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "2620147",
+      "name": "Holbæk",
+      "latitude": 55.7175,
+      "longitude": 11.71279,
+      "population": 29608,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2613102",
+      "name": "Sønderborg",
+      "latitude": 54.90896,
+      "longitude": 9.78917,
+      "population": 27766,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2612045",
+      "name": "Svendborg",
+      "latitude": 55.05982,
+      "longitude": 10.60677,
+      "population": 27300,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2620214",
+      "name": "Hjørring",
+      "latitude": 57.46417,
+      "longitude": 9.98229,
+      "population": 25644,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "2616235",
+      "name": "Nørresundby",
+      "latitude": 57.05877,
+      "longitude": 9.92284,
+      "population": 23718,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2621356",
+      "name": "Glostrup",
+      "latitude": 55.6666,
+      "longitude": 12.40377,
+      "population": 23128,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2614764",
+      "name": "Ringsted",
+      "latitude": 55.4426,
+      "longitude": 11.79011,
+      "population": 23086,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "2621927",
+      "name": "Frederikshavn",
+      "latitude": 57.44073,
+      "longitude": 10.53661,
+      "population": 22672,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "2620964",
+      "name": "Haderslev",
+      "latitude": 55.24943,
+      "longitude": 9.48771,
+      "population": 22011,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "2624112",
+      "name": "Birkerød",
+      "latitude": 55.84759,
+      "longitude": 12.42791,
+      "population": 20877,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "2622306",
+      "name": "Farum",
+      "latitude": 55.80858,
+      "longitude": 12.36066,
+      "population": 20312,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "2613731",
+      "name": "Skive",
+      "latitude": 56.56699,
+      "longitude": 9.02707,
+      "population": 20190,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "2615961",
+      "name": "Nykøbing Falster",
+      "latitude": 54.76906,
+      "longitude": 11.87425,
+      "population": 19976,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "2610020",
+      "name": "Vordingborg",
+      "latitude": 55.00801,
+      "longitude": 11.91057,
+      "population": 17868,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "2616015",
+      "name": "Nyborg",
+      "latitude": 55.31274,
+      "longitude": 10.78964,
+      "population": 17525,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "2621912",
+      "name": "Frederikssund",
+      "latitude": 55.83956,
+      "longitude": 12.06896,
+      "population": 16850,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "2617658",
+      "name": "Lillerød",
+      "latitude": 55.87496,
+      "longitude": 12.34579,
+      "population": 16741,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "2611497",
+      "name": "Tønder",
+      "latitude": 54.93306,
+      "longitude": 8.86674,
+      "population": 16401,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "2625070",
+      "name": "Aabenraa",
+      "latitude": 55.04434,
+      "longitude": 9.41741,
+      "population": 16401,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "2616933",
+      "name": "Middelfart",
+      "latitude": 55.50591,
+      "longitude": 9.73054,
+      "population": 16277,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "2619154",
+      "name": "Kalundborg",
+      "latitude": 55.67954,
+      "longitude": 11.08864,
+      "population": 16211,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "2611720",
+      "name": "Tilst",
+      "latitude": 56.19376,
+      "longitude": 10.11283,
+      "population": 15617,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "2619426",
+      "name": "Ikast",
+      "latitude": 56.13883,
+      "longitude": 9.15768,
+      "population": 14692,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "2618361",
+      "name": "Korsør",
+      "latitude": 55.32993,
+      "longitude": 11.13857,
+      "population": 14463,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "2621230",
+      "name": "Grenaa",
+      "latitude": 56.41578,
+      "longitude": 10.87825,
+      "population": 14176,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "2610726",
+      "name": "Varde",
+      "latitude": 55.62112,
+      "longitude": 8.48069,
+      "population": 14039,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "2614553",
+      "name": "Rønne",
+      "latitude": 55.10091,
+      "longitude": 14.70664,
+      "population": 13807,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "2620587",
+      "name": "Hedehusene",
+      "latitude": 55.64951,
+      "longitude": 12.19827,
+      "population": 13663,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "2613887",
+      "name": "Skanderborg",
+      "latitude": 56.03434,
+      "longitude": 9.93177,
+      "population": 13543,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "2611755",
+      "name": "Thisted",
+      "latitude": 56.95523,
+      "longitude": 8.69491,
+      "population": 13461,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "2617626",
+      "name": "Værløse",
+      "latitude": 55.78251,
+      "longitude": 12.36856,
+      "population": 13069,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "2621910",
+      "name": "Frederiksværk",
+      "latitude": 55.97073,
+      "longitude": 12.0225,
+      "population": 12718,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "2623337",
+      "name": "Brønderslev",
+      "latitude": 57.27021,
+      "longitude": 9.94102,
+      "population": 12549,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "2616599",
+      "name": "Nakskov",
+      "latitude": 54.83038,
+      "longitude": 11.13567,
+      "population": 12495,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "2615886",
+      "name": "Odder",
+      "latitude": 55.97313,
+      "longitude": 10.153,
+      "population": 12454,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "2622937",
+      "name": "Dragør",
+      "latitude": 55.5928,
+      "longitude": 12.67221,
+      "population": 12401,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "2620712",
+      "name": "Haslev",
+      "latitude": 55.32346,
+      "longitude": 11.96389,
+      "population": 12119,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "2620167",
+      "name": "Hobro",
+      "latitude": 56.64306,
+      "longitude": 9.79029,
+      "population": 12071,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "2612204",
+      "name": "Struer",
+      "latitude": 56.49205,
+      "longitude": 8.59397,
+      "population": 11317,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "2618468",
+      "name": "Kongens Lyngby",
+      "latitude": 55.77044,
+      "longitude": 12.50378,
+      "population": 10600,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "2617176",
+      "name": "Lystrup",
+      "latitude": 56.2375,
+      "longitude": 10.23778,
+      "population": 10273,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "2619216",
+      "name": "Jyllinge",
+      "latitude": 55.75295,
+      "longitude": 12.10315,
+      "population": 10134,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "2611862",
+      "name": "Tårnby",
+      "latitude": 55.6303,
+      "longitude": 12.60035,
+      "population": 10000,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "2614776",
+      "name": "Ringkøbing",
+      "latitude": 56.09006,
+      "longitude": 8.24402,
+      "population": 9894,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "2621193",
+      "name": "Grindsted",
+      "latitude": 55.75726,
+      "longitude": 8.9275,
+      "population": 9750,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "2613345",
+      "name": "Smørumnedre",
+      "latitude": 55.74232,
+      "longitude": 12.30276,
+      "population": 9507,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "2612500",
+      "name": "Støvring",
+      "latitude": 56.88536,
+      "longitude": 9.83839,
+      "population": 9089,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "2615964",
+      "name": "Nykøbing Mors",
+      "latitude": 56.79334,
+      "longitude": 8.85282,
+      "population": 9033,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "2619669",
+      "name": "Humlebæk",
+      "latitude": 55.9618,
+      "longitude": 12.5341,
+      "population": 8965,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "2621956",
+      "name": "Fredensborg",
+      "latitude": 55.97558,
+      "longitude": 12.40314,
+      "population": 8965,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "2614172",
+      "name": "Sæby",
+      "latitude": 57.33188,
+      "longitude": 10.52251,
+      "population": 8838,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "2617112",
+      "name": "Måløv",
+      "latitude": 55.75528,
+      "longitude": 12.32327,
+      "population": 8787,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "2620476",
+      "name": "Helsinge",
+      "latitude": 56.02283,
+      "longitude": 12.19752,
+      "population": 8616,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "2619650",
+      "name": "Hundested",
+      "latitude": 55.96397,
+      "longitude": 11.85044,
+      "population": 8543,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "2610634",
+      "name": "Vejen",
+      "latitude": 55.48117,
+      "longitude": 9.13795,
+      "population": 8525,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "2624602",
+      "name": "Aars",
+      "latitude": 56.80399,
+      "longitude": 9.51441,
+      "population": 8474,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "2614813",
+      "name": "Ribe",
+      "latitude": 55.33051,
+      "longitude": 8.76966,
+      "population": 8257,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "2620956",
+      "name": "Hadsten",
+      "latitude": 56.32819,
+      "longitude": 10.04931,
+      "population": 8254,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "2620288",
+      "name": "Hinnerup",
+      "latitude": 56.26608,
+      "longitude": 10.06299,
+      "population": 8164,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "2612862",
+      "name": "Sorø",
+      "latitude": 55.43184,
+      "longitude": 11.55547,
+      "population": 7999,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "2616450",
+      "name": "Nivå",
+      "latitude": 55.93405,
+      "longitude": 12.50485,
+      "population": 7997,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "2612021",
+      "name": "Svenstrup",
+      "latitude": 56.9723,
+      "longitude": 9.84806,
+      "population": 7650,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "2613939",
+      "name": "Skagen",
+      "latitude": 57.72093,
+      "longitude": 10.58394,
+      "population": 7571,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "2610075",
+      "name": "Vojens",
+      "latitude": 55.24639,
+      "longitude": 9.30603,
+      "population": 7475,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "2623554",
+      "name": "Brande",
+      "latitude": 55.94316,
+      "longitude": 9.12798,
+      "population": 7449,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "2624019",
+      "name": "Bjerringbro",
+      "latitude": 56.37797,
+      "longitude": 9.66065,
+      "population": 7437,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "2617812",
+      "name": "Lemvig",
+      "latitude": 56.54856,
+      "longitude": 8.31019,
+      "population": 7330,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "2611316",
+      "name": "Tranbjerg",
+      "latitude": 56.09519,
+      "longitude": 10.13605,
+      "population": 7307,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "2622793",
+      "name": "Ebeltoft",
+      "latitude": 56.19442,
+      "longitude": 10.6821,
+      "population": 7204,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "2613715",
+      "name": "Skjern",
+      "latitude": 55.95,
+      "longitude": 8.5,
+      "population": 7145,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "2622383",
+      "name": "Faaborg",
+      "latitude": 55.0951,
+      "longitude": 10.24226,
+      "population": 6944,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "2624144",
+      "name": "Billund",
+      "latitude": 55.73349,
+      "longitude": 9.10785,
+      "population": 6725,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "2614790",
+      "name": "Ringe",
+      "latitude": 55.23828,
+      "longitude": 10.4786,
+      "population": 6474,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "2617072",
+      "name": "Maribo",
+      "latitude": 54.77662,
+      "longitude": 11.50017,
+      "population": 5722,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "2615730",
+      "name": "Ølstykke",
+      "latitude": 55.79567,
+      "longitude": 12.15509,
+      "population": 5348,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "2620952",
+      "name": "Hadsund",
+      "latitude": 56.71482,
+      "longitude": 10.11682,
+      "population": 5066,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "2614328",
+      "name": "Sakskøbing",
+      "latitude": 54.7997,
+      "longitude": 11.62599,
+      "population": 4595,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "2614432",
+      "name": "Rudkøbing",
+      "latitude": 54.93639,
+      "longitude": 10.71019,
+      "population": 4521,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "2619882",
+      "name": "Høng",
+      "latitude": 55.50736,
+      "longitude": 11.28873,
+      "population": 4355,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "2622372",
+      "name": "Faxe",
+      "latitude": 55.25561,
+      "longitude": 12.11926,
+      "population": 4246,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "2624587",
+      "name": "Årup",
+      "latitude": 55.37315,
+      "longitude": 10.04131,
+      "population": 3259,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "2614623",
+      "name": "Rødding",
+      "latitude": 55.36569,
+      "longitude": 9.06316,
+      "population": 2712,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "2617030",
+      "name": "Marstal",
+      "latitude": 54.85621,
+      "longitude": 10.51726,
+      "population": 2120,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "2623486",
+      "name": "Bredsten",
+      "latitude": 55.70129,
+      "longitude": 9.385,
+      "population": 1711,
+      "populationRank": 110,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "towns": [
+    {
+      "id": "290332",
+      "name": "Al Muharraq",
+      "latitude": 26.25722,
+      "longitude": 50.61194,
+      "population": 176583,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "290340",
+      "name": "Manama",
+      "latitude": 26.22787,
+      "longitude": 50.58565,
+      "population": 147074,
+      "populationRank": 2,
+      "isCapital": true
+    },
+    {
+      "id": "290247",
+      "name": "Madīnat Ḩamad",
+      "latitude": 26.11528,
+      "longitude": 50.50694,
+      "population": 133550,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "385038",
+      "name": "Ar Rifā‘",
+      "latitude": 26.13,
+      "longitude": 50.555,
+      "population": 115495,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "290215",
+      "name": "Jidd Ḩafş",
+      "latitude": 26.21861,
+      "longitude": 50.54778,
+      "population": 66588,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "290269",
+      "name": "Dār Kulayb",
+      "latitude": 26.06861,
+      "longitude": 50.50389,
+      "population": 65466,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "290187",
+      "name": "Madīnat ‘Īsá",
+      "latitude": 26.17361,
+      "longitude": 50.54778,
+      "population": 38090,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "290363",
+      "name": "Al Ḩadd",
+      "latitude": 26.24556,
+      "longitude": 50.65417,
+      "population": 12797,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "290296",
+      "name": "Az Zallāq",
+      "latitude": 26.0475,
+      "longitude": 50.48639,
+      "population": 9095,
+      "populationRank": 9,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "towns": [
+    {
+      "id": "202061",
+      "name": "Kigali",
+      "latitude": -1.94995,
+      "longitude": 30.05885,
+      "population": 1132686,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "202905",
+      "name": "Gisenyi",
+      "latitude": -1.70278,
+      "longitude": 29.25639,
+      "population": 172357,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "201521",
+      "name": "Musanze",
+      "latitude": -1.49984,
+      "longitude": 29.63497,
+      "population": 153368,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "201650",
+      "name": "Nyagatare",
+      "latitude": -1.2952,
+      "longitude": 30.3226,
+      "population": 100000,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "203112",
+      "name": "Butare",
+      "latitude": -2.59667,
+      "longitude": 29.73944,
+      "population": 62823,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "202065",
+      "name": "Kibuye",
+      "latitude": -2.06028,
+      "longitude": 29.34778,
+      "population": 48024,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "201463",
+      "name": "Rwamagana",
+      "latitude": -1.9487,
+      "longitude": 30.4347,
+      "population": 47203,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "202068",
+      "name": "Kibungo",
+      "latitude": -2.1597,
+      "longitude": 30.5427,
+      "population": 46240,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "202326",
+      "name": "Cyangugu",
+      "latitude": -2.4846,
+      "longitude": 28.9075,
+      "population": 43866,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "203104",
+      "name": "Byumba",
+      "latitude": -1.5763,
+      "longitude": 30.0675,
+      "population": 43134,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "202572",
+      "name": "Ndera",
+      "latitude": -1.9495,
+      "longitude": 30.1697,
+      "population": 41764,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "202557",
+      "name": "Ngororero",
+      "latitude": -1.8628,
+      "longitude": 29.62541,
+      "population": 38823,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "202865",
+      "name": "Karengera",
+      "latitude": -2.5169,
+      "longitude": 29.0326,
+      "population": 32504,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "7062967",
+      "name": "Nyanza",
+      "latitude": -2.35187,
+      "longitude": 29.75089,
+      "population": 32016,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "203141",
+      "name": "Bugarama",
+      "latitude": -2.6924,
+      "longitude": 29.0077,
+      "population": 31086,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "384535",
+      "name": "Kayonza",
+      "latitude": -1.9509,
+      "longitude": 30.5205,
+      "population": 27059,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "384311",
+      "name": "Mukamira",
+      "latitude": -1.61112,
+      "longitude": 29.49687,
+      "population": 19021,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "202039",
+      "name": "Kinigi",
+      "latitude": -1.4426,
+      "longitude": 29.5902,
+      "population": 14523,
+      "populationRank": 18,
+      "isCapital": false
+    }
+  ]
+}

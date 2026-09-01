@@ -1,0 +1,697 @@
+{
+  "towns": [
+    {
+      "id": "379252",
+      "name": "Khartoum",
+      "latitude": 15.55177,
+      "longitude": 32.53241,
+      "population": 1974647,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "365137",
+      "name": "Omdurman",
+      "latitude": 15.64453,
+      "longitude": 32.47773,
+      "population": 1849659,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "379251",
+      "name": "Khartoum North",
+      "latitude": 15.64925,
+      "longitude": 32.53458,
+      "population": 1012211,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "369004",
+      "name": "Nyala",
+      "latitude": 12.04888,
+      "longitude": 24.88069,
+      "population": 565734,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "377039",
+      "name": "Port Sudan",
+      "latitude": 19.61745,
+      "longitude": 37.21644,
+      "population": 489725,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "372753",
+      "name": "Kassala",
+      "latitude": 15.45099,
+      "longitude": 36.39998,
+      "population": 401477,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "379003",
+      "name": "El Obeid",
+      "latitude": 13.18421,
+      "longitude": 30.21669,
+      "population": 393311,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "379062",
+      "name": "Al Qadarif",
+      "latitude": 14.03493,
+      "longitude": 35.38344,
+      "population": 363945,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "371760",
+      "name": "Kosti",
+      "latitude": 13.1629,
+      "longitude": 32.66347,
+      "population": 345068,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "364103",
+      "name": "Wad Medani",
+      "latitude": 14.40118,
+      "longitude": 33.51989,
+      "population": 332714,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "380148",
+      "name": "El Daein",
+      "latitude": 11.46186,
+      "longitude": 26.12583,
+      "population": 264734,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "379555",
+      "name": "El Fasher",
+      "latitude": 13.62793,
+      "longitude": 25.34936,
+      "population": 252609,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "366847",
+      "name": "Singa",
+      "latitude": 13.1483,
+      "longitude": 33.93117,
+      "population": 250000,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "380174",
+      "name": "Ad-Damazin",
+      "latitude": 11.7891,
+      "longitude": 34.3592,
+      "population": 186051,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "379303",
+      "name": "Al-Junaynah",
+      "latitude": 13.45262,
+      "longitude": 22.44725,
+      "population": 162981,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "368277",
+      "name": "Rabak",
+      "latitude": 13.18087,
+      "longitude": 32.73999,
+      "population": 135281,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "367644",
+      "name": "Sennar",
+      "latitude": 13.56907,
+      "longitude": 33.56718,
+      "population": 130122,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "379149",
+      "name": "Al Manāqil",
+      "latitude": 14.2459,
+      "longitude": 32.9891,
+      "population": 128297,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "8504621",
+      "name": "Gereida",
+      "latitude": 11.27543,
+      "longitude": 25.14026,
+      "population": 120000,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "378231",
+      "name": "Atbara",
+      "latitude": 17.70217,
+      "longitude": 33.98638,
+      "population": 112021,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "378699",
+      "name": "An Nuhūd",
+      "latitude": 12.7,
+      "longitude": 28.43333,
+      "population": 108008,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "380173",
+      "name": "Ad-Damir",
+      "latitude": 17.59898,
+      "longitude": 33.97205,
+      "population": 103941,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "373141",
+      "name": "Kadugli",
+      "latitude": 11.01111,
+      "longitude": 29.71833,
+      "population": 87666,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "380129",
+      "name": "Ad Douiem",
+      "latitude": 14.0012,
+      "longitude": 32.3116,
+      "population": 87068,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "377108",
+      "name": "Burām",
+      "latitude": 10.85826,
+      "longitude": 25.15921,
+      "population": 65473,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "367308",
+      "name": "Shendi",
+      "latitude": 16.6915,
+      "longitude": 33.4341,
+      "population": 63746,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "374272",
+      "name": "New Halfa",
+      "latitude": 15.33021,
+      "longitude": 35.59854,
+      "population": 63589,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "376450",
+      "name": "Dilling",
+      "latitude": 12.05,
+      "longitude": 29.65,
+      "population": 59089,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "378459",
+      "name": "Er Roseires",
+      "latitude": 11.8659,
+      "longitude": 34.3869,
+      "population": 58712,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "364706",
+      "name": "Umm Ruwaba",
+      "latitude": 12.9061,
+      "longitude": 31.2158,
+      "population": 56833,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "363417",
+      "name": "Dongola",
+      "latitude": 19.18163,
+      "longitude": 30.47689,
+      "population": 56167,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "13132452",
+      "name": "'Ārdamatā",
+      "latitude": 13.47546,
+      "longitude": 22.48531,
+      "population": 55637,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "372773",
+      "name": "Kas",
+      "latitude": 12.50974,
+      "longitude": 24.28519,
+      "population": 55255,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "370181",
+      "name": "Mellit",
+      "latitude": 14.13333,
+      "longitude": 25.55,
+      "population": 50165,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "13132453",
+      "name": "Sh'īarīah",
+      "latitude": 12.43883,
+      "longitude": 25.58112,
+      "population": 48966,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "379427",
+      "name": "Al Hasaheisa",
+      "latitude": 14.75264,
+      "longitude": 33.29836,
+      "population": 47408,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "380757",
+      "name": "Abu Jibeha",
+      "latitude": 11.4562,
+      "longitude": 31.2285,
+      "population": 47188,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "367544",
+      "name": "Suakin",
+      "latitude": 19.1059,
+      "longitude": 37.3321,
+      "population": 42456,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "373198",
+      "name": "Kabkābīyah",
+      "latitude": 13.65,
+      "longitude": 24.08333,
+      "population": 42376,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "365641",
+      "name": "Tullus",
+      "latitude": 11.0904,
+      "longitude": 24.53015,
+      "population": 41807,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "366323",
+      "name": "Tokār",
+      "latitude": 18.4254,
+      "longitude": 37.729,
+      "population": 37051,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "378493",
+      "name": "Ar Rahad",
+      "latitude": 12.71667,
+      "longitude": 30.65,
+      "population": 36518,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "366846",
+      "name": "Sinkat",
+      "latitude": 18.8405,
+      "longitude": 36.8351,
+      "population": 35617,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "363533",
+      "name": "Zalinjay",
+      "latitude": 12.90918,
+      "longitude": 23.47058,
+      "population": 35061,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "371745",
+      "name": "Kutum",
+      "latitude": 14.2,
+      "longitude": 24.66667,
+      "population": 34694,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "377962",
+      "name": "Babanūsah",
+      "latitude": 11.33333,
+      "longitude": 27.8,
+      "population": 32759,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "366426",
+      "name": "Tandaltī",
+      "latitude": 13.01667,
+      "longitude": 31.86667,
+      "population": 31329,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "373296",
+      "name": "Jubayt",
+      "latitude": 18.9533,
+      "longitude": 36.8336,
+      "population": 30856,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "13132450",
+      "name": "Al-Fāw",
+      "latitude": 14.10776,
+      "longitude": 34.09197,
+      "population": 30629,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "379416",
+      "name": "Al Ḩawātah",
+      "latitude": 13.41667,
+      "longitude": 34.63333,
+      "population": 30184,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "367972",
+      "name": "Rufā‘a",
+      "latitude": 14.75969,
+      "longitude": 33.36754,
+      "population": 28374,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "377690",
+      "name": "Berber",
+      "latitude": 18.02158,
+      "longitude": 33.98299,
+      "population": 26203,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "13132448",
+      "name": "Ad-Dindar",
+      "latitude": 13.334,
+      "longitude": 34.09268,
+      "population": 25567,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "368230",
+      "name": "Rahad al Bardi",
+      "latitude": 11.3,
+      "longitude": 23.88333,
+      "population": 24768,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "380348",
+      "name": "Abū Zabad",
+      "latitude": 12.35,
+      "longitude": 29.25,
+      "population": 23317,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "374866",
+      "name": "Ghubaysh",
+      "latitude": 12.15,
+      "longitude": 27.35,
+      "population": 22733,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "13132449",
+      "name": "Al-Fashaqah",
+      "latitude": 14.39729,
+      "longitude": 35.86668,
+      "population": 21106,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "364621",
+      "name": "Umm Shawkah",
+      "latitude": 13.31667,
+      "longitude": 33.76667,
+      "population": 20302,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "380308",
+      "name": "Abyei",
+      "latitude": 9.59525,
+      "longitude": 28.43493,
+      "population": 20000,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "376332",
+      "name": "Doka",
+      "latitude": 13.51667,
+      "longitude": 35.76667,
+      "population": 19821,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "371870",
+      "name": "Kuraymah",
+      "latitude": 18.55,
+      "longitude": 31.85,
+      "population": 19593,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "379630",
+      "name": "El Bauga",
+      "latitude": 18.26197,
+      "longitude": 33.90812,
+      "population": 19141,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "377724",
+      "name": "Bārah",
+      "latitude": 13.7,
+      "longitude": 30.36667,
+      "population": 16969,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "364132",
+      "name": "Wadi Halfa",
+      "latitude": 21.79577,
+      "longitude": 31.37129,
+      "population": 14675,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "366487",
+      "name": "Talodi",
+      "latitude": 10.63246,
+      "longitude": 30.3797,
+      "population": 13188,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "378502",
+      "name": "Aroma",
+      "latitude": 15.81667,
+      "longitude": 36.13333,
+      "population": 12708,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "364027",
+      "name": "Wagar",
+      "latitude": 16.1525,
+      "longitude": 36.2032,
+      "population": 11950,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "380186",
+      "name": "Ad Dabbah",
+      "latitude": 18.05,
+      "longitude": 30.95,
+      "population": 11626,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "379127",
+      "name": "El Matama",
+      "latitude": 16.7095,
+      "longitude": 33.3565,
+      "population": 11366,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "379198",
+      "name": "Al Lagowa",
+      "latitude": 11.4,
+      "longitude": 29.13333,
+      "population": 11024,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "364933",
+      "name": "Umm Kaddadah",
+      "latitude": 13.60169,
+      "longitude": 26.68759,
+      "population": 10979,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "371827",
+      "name": "Kurmuk",
+      "latitude": 10.557,
+      "longitude": 34.287,
+      "population": 10375,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "370481",
+      "name": "Merowe",
+      "latitude": 18.47036,
+      "longitude": 31.81126,
+      "population": 10234,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "379272",
+      "name": "Al Kawa",
+      "latitude": 13.7463,
+      "longitude": 32.4996,
+      "population": 10167,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "379261",
+      "name": "Al Kiremit al ‘Arakiyyīn",
+      "latitude": 14.3476,
+      "longitude": 32.9437,
+      "population": 9775,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "378543",
+      "name": "Argo",
+      "latitude": 19.51667,
+      "longitude": 30.41667,
+      "population": 7716,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "365390",
+      "name": "Umm Dafog",
+      "latitude": 10.46339,
+      "longitude": 23.31748,
+      "population": 6700,
+      "populationRank": 77,
+      "isCapital": false
+    }
+  ]
+}

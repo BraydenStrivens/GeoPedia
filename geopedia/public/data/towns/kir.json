@@ -1,0 +1,49 @@
+{
+  "towns": [
+    {
+      "id": "2110248",
+      "name": "Betio Village",
+      "latitude": 1.35797,
+      "longitude": 172.92105,
+      "population": 12509,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "7601774",
+      "name": "Bikenibeu Village",
+      "latitude": 1.3673,
+      "longitude": 173.12415,
+      "population": 6170,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "7601762",
+      "name": "Bairiki Village",
+      "latitude": 1.32924,
+      "longitude": 172.97522,
+      "population": 2766,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "7576909",
+      "name": "Makin Village",
+      "latitude": 3.3644,
+      "longitude": 172.98352,
+      "population": 1834,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2110254",
+      "name": "Banraeaba Village",
+      "latitude": 1.3454,
+      "longitude": 173.03464,
+      "population": 1789,
+      "populationRank": 5,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "towns": [
+    {
+      "id": "2410763",
+      "name": "São Tomé",
+      "latitude": 0.33756,
+      "longitude": 6.7299,
+      "population": 53300,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "2410972",
+      "name": "Neves",
+      "latitude": 0.35671,
+      "longitude": 6.54897,
+      "population": 8391,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2410805",
+      "name": "Santo António",
+      "latitude": 1.63943,
+      "longitude": 7.41951,
+      "population": 1156,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "12718720",
+      "name": "Belém",
+      "latitude": 0.30154,
+      "longitude": 6.67423,
+      "population": 932,
+      "populationRank": 4,
+      "isCapital": false
+    }
+  ]
+}

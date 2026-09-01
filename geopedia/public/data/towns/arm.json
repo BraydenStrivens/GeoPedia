@@ -1,0 +1,436 @@
+{
+  "towns": [
+    {
+      "id": "616052",
+      "name": "Yerevan",
+      "latitude": 40.17765,
+      "longitude": 44.5126,
+      "population": 1144700,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "616635",
+      "name": "Gyumri",
+      "latitude": 40.79305,
+      "longitude": 43.84635,
+      "population": 114667,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "616530",
+      "name": "Vanadzor",
+      "latitude": 40.8074,
+      "longitude": 44.49704,
+      "population": 78100,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "617026",
+      "name": "Abovyan",
+      "latitude": 40.2717,
+      "longitude": 44.63342,
+      "population": 50556,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "616629",
+      "name": "Hrazdan",
+      "latitude": 40.5169,
+      "longitude": 44.75591,
+      "population": 49500,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "616062",
+      "name": "Vagharshapat",
+      "latitude": 40.16557,
+      "longitude": 44.29462,
+      "population": 47989,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "174875",
+      "name": "Kapan",
+      "latitude": 39.20762,
+      "longitude": 46.40678,
+      "population": 32900,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "616631",
+      "name": "Armavir",
+      "latitude": 40.15553,
+      "longitude": 44.0388,
+      "population": 29700,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "616435",
+      "name": "Masis",
+      "latitude": 40.06595,
+      "longitude": 44.43669,
+      "population": 23136,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "174979",
+      "name": "Artashat",
+      "latitude": 39.95484,
+      "longitude": 44.54874,
+      "population": 22800,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "616785",
+      "name": "Charentsavan",
+      "latitude": 40.40289,
+      "longitude": 44.64447,
+      "population": 22071,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "616250",
+      "name": "Sevan",
+      "latitude": 40.548,
+      "longitude": 44.95314,
+      "population": 19652,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "616627",
+      "name": "Ijevan",
+      "latitude": 40.88037,
+      "longitude": 45.14776,
+      "population": 19500,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "616599",
+      "name": "Gavar",
+      "latitude": 40.35398,
+      "longitude": 45.12386,
+      "population": 18900,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "616887",
+      "name": "Artik",
+      "latitude": 40.61918,
+      "longitude": 43.97207,
+      "population": 18145,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "616877",
+      "name": "Ashtarak",
+      "latitude": 40.2976,
+      "longitude": 44.36152,
+      "population": 17600,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "174991",
+      "name": "Ararat",
+      "latitude": 39.85494,
+      "longitude": 44.6947,
+      "population": 17598,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "174895",
+      "name": "Goris",
+      "latitude": 39.51111,
+      "longitude": 46.34168,
+      "population": 17592,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "616752",
+      "name": "Dilijan",
+      "latitude": 40.74037,
+      "longitude": 44.86344,
+      "population": 15914,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "616199",
+      "name": "Spitak",
+      "latitude": 40.83131,
+      "longitude": 44.27019,
+      "population": 13574,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "616065",
+      "name": "Yeghvard",
+      "latitude": 40.32293,
+      "longitude": 44.48418,
+      "population": 13238,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "174763",
+      "name": "Sisian",
+      "latitude": 39.52191,
+      "longitude": 46.02696,
+      "population": 13176,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "616108",
+      "name": "Vardenis",
+      "latitude": 40.1827,
+      "longitude": 45.73156,
+      "population": 12651,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "616974",
+      "name": "Alaverdi",
+      "latitude": 41.09766,
+      "longitude": 44.67316,
+      "population": 12152,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "174725",
+      "name": "Vedi",
+      "latitude": 39.91291,
+      "longitude": 44.72083,
+      "population": 12060,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "616438",
+      "name": "Martuni",
+      "latitude": 40.14028,
+      "longitude": 45.30232,
+      "population": 12034,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "616194",
+      "name": "Stepanavan",
+      "latitude": 41.00995,
+      "longitude": 44.38531,
+      "population": 11982,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "616790",
+      "name": "Byureghavan",
+      "latitude": 40.31335,
+      "longitude": 44.59685,
+      "population": 11819,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "616362",
+      "name": "Nor Hachn",
+      "latitude": 40.30296,
+      "longitude": 44.58314,
+      "population": 10460,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "823807",
+      "name": "Metsamor",
+      "latitude": 40.14459,
+      "longitude": 44.11484,
+      "population": 9450,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "616178",
+      "name": "Tashir",
+      "latitude": 41.11922,
+      "longitude": 44.28649,
+      "population": 7840,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "174710",
+      "name": "Yeghegnadzor",
+      "latitude": 39.7644,
+      "longitude": 45.33268,
+      "population": 7300,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "616802",
+      "name": "Berd",
+      "latitude": 40.88066,
+      "longitude": 45.38901,
+      "population": 6900,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "616945",
+      "name": "Aragatsavan",
+      "latitude": 40.32121,
+      "longitude": 43.66205,
+      "population": 6580,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "174880",
+      "name": "Kajaran",
+      "latitude": 39.15091,
+      "longitude": 46.15673,
+      "population": 6519,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "616953",
+      "name": "Aparan",
+      "latitude": 40.59297,
+      "longitude": 44.35945,
+      "population": 6167,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "616786",
+      "name": "Chambarak",
+      "latitude": 40.59655,
+      "longitude": 45.35498,
+      "population": 5481,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "616446",
+      "name": "Maralik",
+      "latitude": 40.57595,
+      "longitude": 43.87059,
+      "population": 5462,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "174726",
+      "name": "Vayk",
+      "latitude": 39.69026,
+      "longitude": 45.46919,
+      "population": 5453,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "616333",
+      "name": "Noyemberyan",
+      "latitude": 41.17319,
+      "longitude": 44.99851,
+      "population": 4560,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "616187",
+      "name": "Talin",
+      "latitude": 40.39172,
+      "longitude": 43.87793,
+      "population": 4541,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "174884",
+      "name": "Jermuk",
+      "latitude": 39.83948,
+      "longitude": 45.67112,
+      "population": 4095,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "174823",
+      "name": "Meghri",
+      "latitude": 38.90123,
+      "longitude": 46.24308,
+      "population": 3770,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "175008",
+      "name": "Agarak",
+      "latitude": 38.86506,
+      "longitude": 46.19463,
+      "population": 3035,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "616995",
+      "name": "Akhtala",
+      "latitude": 41.14952,
+      "longitude": 44.78168,
+      "population": 2395,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "616840",
+      "name": "Ayrum",
+      "latitude": 41.18826,
+      "longitude": 44.90404,
+      "population": 1870,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "616132",
+      "name": "Tumanyan",
+      "latitude": 41.0019,
+      "longitude": 44.6494,
+      "population": 1456,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "616160",
+      "name": "Tsaghkadzor",
+      "latitude": 40.5325,
+      "longitude": 44.72323,
+      "population": 1127,
+      "populationRank": 48,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "towns": [
+    {
+      "id": "1651944",
+      "name": "Vientiane",
+      "latitude": 17.96667,
+      "longitude": 102.6,
+      "population": 840940,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "1653316",
+      "name": "Savannakhet",
+      "latitude": 16.5703,
+      "longitude": 104.7622,
+      "population": 125760,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "1655199",
+      "name": "Thakhèk",
+      "latitude": 17.41027,
+      "longitude": 104.83068,
+      "population": 90800,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "1654379",
+      "name": "Pakse",
+      "latitude": 15.12022,
+      "longitude": 105.79898,
+      "population": 77900,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "11244752",
+      "name": "Ban Khoan",
+      "latitude": 20.35008,
+      "longitude": 100.09022,
+      "population": 65348,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "1652203",
+      "name": "Xam Nua",
+      "latitude": 20.4164,
+      "longitude": 104.045,
+      "population": 56900,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "1655559",
+      "name": "Luang Prabang",
+      "latitude": 19.8933,
+      "longitude": 102.1525,
+      "population": 55027,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "1655123",
+      "name": "Muang Phônsavan",
+      "latitude": 19.4494,
+      "longitude": 103.1917,
+      "population": 37507,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "1655078",
+      "name": "Muang Xay",
+      "latitude": 20.69229,
+      "longitude": 101.98368,
+      "population": 25000,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "1655087",
+      "name": "Vang Vieng",
+      "latitude": 18.9235,
+      "longitude": 102.44784,
+      "population": 25000,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "1655107",
+      "name": "Muang Sing",
+      "latitude": 21.19206,
+      "longitude": 101.14789,
+      "population": 23500,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "1655140",
+      "name": "Pakxan",
+      "latitude": 18.3942,
+      "longitude": 103.6611,
+      "population": 21967,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "1662589",
+      "name": "Ban Laongam",
+      "latitude": 15.46549,
+      "longitude": 106.16682,
+      "population": 21304,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "9948272",
+      "name": "Sekong",
+      "latitude": 15.34582,
+      "longitude": 106.72368,
+      "population": 20116,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "1657897",
+      "name": "Borikhan",
+      "latitude": 18.56286,
+      "longitude": 103.72671,
+      "population": 18354,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "1663246",
+      "name": "Ban Kèngkok",
+      "latitude": 16.44369,
+      "longitude": 105.19798,
+      "population": 15658,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "1655192",
+      "name": "Muang Không",
+      "latitude": 14.11785,
+      "longitude": 105.85469,
+      "population": 15000,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "1662662",
+      "name": "Ban Lak Xao",
+      "latitude": 18.19381,
+      "longitude": 104.97127,
+      "population": 14117,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "1653894",
+      "name": "Phôngsali",
+      "latitude": 21.6808,
+      "longitude": 102.1003,
+      "population": 13500,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1655084",
+      "name": "Sainyabuli",
+      "latitude": 19.25756,
+      "longitude": 101.71032,
+      "population": 13500,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "1657819",
+      "name": "Champasak",
+      "latitude": 14.89204,
+      "longitude": 105.87787,
+      "population": 12994,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "1663526",
+      "name": "Ban Houayxay",
+      "latitude": 20.27,
+      "longitude": 100.4178,
+      "population": 12500,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "1655165",
+      "name": "Ban Muang-Nan",
+      "latitude": 19.49767,
+      "longitude": 101.87979,
+      "population": 11104,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "1655124",
+      "name": "Muang Phôn-Hông",
+      "latitude": 18.4953,
+      "longitude": 102.4153,
+      "population": 10112,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "1652200",
+      "name": "Ban Xamtai",
+      "latitude": 19.99,
+      "longitude": 104.6347,
+      "population": 6244,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "1655210",
+      "name": "Muang Hôngsa",
+      "latitude": 19.7025,
+      "longitude": 101.33972,
+      "population": 6000,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "1653334",
+      "name": "Salavan",
+      "latitude": 15.71652,
+      "longitude": 106.41744,
+      "population": 5521,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "1655139",
+      "name": "Pakxong",
+      "latitude": 15.18154,
+      "longitude": 106.23038,
+      "population": 5000,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "1665046",
+      "name": "Attapeu",
+      "latitude": 14.81071,
+      "longitude": 106.83184,
+      "population": 4297,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "1657871",
+      "name": "Ban Boun-Nua",
+      "latitude": 21.63556,
+      "longitude": 101.90325,
+      "population": 3855,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "7648072",
+      "name": "Dak Cheung",
+      "latitude": 15.46667,
+      "longitude": 107.26667,
+      "population": 3625,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "1661607",
+      "name": "Ban Nambak",
+      "latitude": 20.62666,
+      "longitude": 102.45255,
+      "population": 3571,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "1655562",
+      "name": "Luang Namtha",
+      "latitude": 20.9486,
+      "longitude": 101.40188,
+      "population": 3225,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "13631657",
+      "name": "Oudomsouk",
+      "latitude": 17.71406,
+      "longitude": 105.15049,
+      "population": 2783,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "1654401",
+      "name": "Pakkading",
+      "latitude": 18.32459,
+      "longitude": 103.99378,
+      "population": 2176,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "1655053",
+      "name": "Ban Muang-Èt",
+      "latitude": 20.81496,
+      "longitude": 104.00448,
+      "population": 1880,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "13546106",
+      "name": "Ban Dansavan",
+      "latitude": 16.62478,
+      "longitude": 106.57752,
+      "population": 1868,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "1664870",
+      "name": "Ban Botèn",
+      "latitude": 21.17642,
+      "longitude": 101.66563,
+      "population": 1525,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "1655493",
+      "name": "Ban Mahaxai",
+      "latitude": 17.41659,
+      "longitude": 105.19815,
+      "population": 1267,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "1655143",
+      "name": "Muang Pakbèng",
+      "latitude": 19.8929,
+      "longitude": 101.13647,
+      "population": 500,
+      "populationRank": 40,
+      "isCapital": false
+    }
+  ]
+}

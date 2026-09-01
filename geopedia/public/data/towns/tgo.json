@@ -1,0 +1,229 @@
+{
+  "towns": [
+    {
+      "id": "2365267",
+      "name": "Lomé",
+      "latitude": 6.12874,
+      "longitude": 1.22154,
+      "population": 2188376,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "2364104",
+      "name": "Sokodé",
+      "latitude": 8.98333,
+      "longitude": 1.13333,
+      "population": 117811,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2366152",
+      "name": "Kara",
+      "latitude": 9.55111,
+      "longitude": 1.18611,
+      "population": 104207,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2367886",
+      "name": "Atakpamé",
+      "latitude": 7.53333,
+      "longitude": 1.13333,
+      "population": 80683,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2365560",
+      "name": "Kpalimé",
+      "latitude": 6.9,
+      "longitude": 0.63333,
+      "population": 75084,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2367568",
+      "name": "Bassar",
+      "latitude": 9.25025,
+      "longitude": 0.78213,
+      "population": 61845,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2367164",
+      "name": "Dapaong",
+      "latitude": 10.86225,
+      "longitude": 0.20762,
+      "population": 58071,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "2363534",
+      "name": "Tsévié",
+      "latitude": 6.42611,
+      "longitude": 1.21333,
+      "population": 55775,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2367990",
+      "name": "Aného",
+      "latitude": 6.22798,
+      "longitude": 1.5919,
+      "population": 47579,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2365190",
+      "name": "Mango",
+      "latitude": 10.35917,
+      "longitude": 0.47083,
+      "population": 37748,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2367981",
+      "name": "Anié",
+      "latitude": 7.75,
+      "longitude": 1.2,
+      "population": 37398,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "2364752",
+      "name": "Notsé",
+      "latitude": 6.95,
+      "longitude": 1.16667,
+      "population": 35039,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2367226",
+      "name": "Sinkassé",
+      "latitude": 11.10389,
+      "longitude": 0.00944,
+      "population": 26926,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2363908",
+      "name": "Tchamba",
+      "latitude": 9.03333,
+      "longitude": 1.41667,
+      "population": 25668,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2364079",
+      "name": "Sotouboua",
+      "latitude": 8.5634,
+      "longitude": 0.98399,
+      "population": 24332,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "2367660",
+      "name": "Badou",
+      "latitude": 7.58333,
+      "longitude": 0.6,
+      "population": 24000,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "2364812",
+      "name": "Niamtougou",
+      "latitude": 9.76806,
+      "longitude": 1.10528,
+      "population": 23261,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2364041",
+      "name": "Tabligbo",
+      "latitude": 6.58333,
+      "longitude": 1.5,
+      "population": 22304,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2363490",
+      "name": "Vogan",
+      "latitude": 6.33333,
+      "longitude": 1.53333,
+      "population": 20569,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2366168",
+      "name": "Kandé",
+      "latitude": 9.95778,
+      "longitude": 1.04472,
+      "population": 12970,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2368035",
+      "name": "Amlamé",
+      "latitude": 7.46667,
+      "longitude": 0.9,
+      "population": 9870,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "2367423",
+      "name": "Blitta",
+      "latitude": 8.32335,
+      "longitude": 0.98595,
+      "population": 9735,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2366445",
+      "name": "Guérin-Kouka",
+      "latitude": 9.69056,
+      "longitude": 0.61139,
+      "population": 9570,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "2363669",
+      "name": "Tohoun",
+      "latitude": 7.03333,
+      "longitude": 1.61667,
+      "population": 6767,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2365195",
+      "name": "Mandouri",
+      "latitude": 10.85,
+      "longitude": 0.81667,
+      "population": 5203,
+      "populationRank": 25,
+      "isCapital": false
+    }
+  ]
+}

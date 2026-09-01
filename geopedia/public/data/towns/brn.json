@@ -1,0 +1,76 @@
+{
+  "towns": [
+    {
+      "id": "1820906",
+      "name": "Bandar Seri Begawan",
+      "latitude": 4.89035,
+      "longitude": 114.94006,
+      "population": 64409,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "1820575",
+      "name": "Sengkurong",
+      "latitude": 4.88333,
+      "longitude": 114.83333,
+      "population": 40972,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "1820491",
+      "name": "Kuala Belait",
+      "latitude": 4.58361,
+      "longitude": 114.2312,
+      "population": 31178,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "1820071",
+      "name": "Tutong",
+      "latitude": 4.80278,
+      "longitude": 114.64917,
+      "population": 19151,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "1820653",
+      "name": "Kampong Lambak A",
+      "latitude": 4.96611,
+      "longitude": 114.94296,
+      "population": 7293,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "1820903",
+      "name": "Bangar",
+      "latitude": 4.70861,
+      "longitude": 115.07167,
+      "population": 3970,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "1820187",
+      "name": "Seria",
+      "latitude": 4.60637,
+      "longitude": 114.32476,
+      "population": 2659,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "1820363",
+      "name": "Muara",
+      "latitude": 5.02699,
+      "longitude": 115.06913,
+      "population": 2539,
+      "populationRank": 8,
+      "isCapital": false
+    }
+  ]
+}

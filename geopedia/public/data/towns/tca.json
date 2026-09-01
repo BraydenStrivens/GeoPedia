@@ -1,0 +1,31 @@
+{
+  "towns": [
+    {
+      "id": "11703857",
+      "name": "Providenciales",
+      "latitude": 21.78254,
+      "longitude": -72.25206,
+      "population": 23769,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "3576994",
+      "name": "Cockburn Town",
+      "latitude": 21.46122,
+      "longitude": -71.14188,
+      "population": 3720,
+      "populationRank": 2,
+      "isCapital": true
+    },
+    {
+      "id": "3577027",
+      "name": "Cockburn Harbour",
+      "latitude": 21.49293,
+      "longitude": -71.53304,
+      "population": 811,
+      "populationRank": 3,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "towns": [
+    {
+      "id": "588409",
+      "name": "Tallinn",
+      "latitude": 59.43696,
+      "longitude": 24.75353,
+      "population": 394024,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "588335",
+      "name": "Tartu",
+      "latitude": 58.38062,
+      "longitude": 26.72509,
+      "population": 91407,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "590031",
+      "name": "Narva",
+      "latitude": 59.37722,
+      "longitude": 28.19028,
+      "population": 54409,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "589580",
+      "name": "Pärnu",
+      "latitude": 58.38588,
+      "longitude": 24.49711,
+      "population": 40228,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "591260",
+      "name": "Kohtla-Järve",
+      "latitude": 59.39861,
+      "longitude": 27.27306,
+      "population": 35395,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "587577",
+      "name": "Viljandi",
+      "latitude": 58.36319,
+      "longitude": 25.59159,
+      "population": 17407,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "590447",
+      "name": "Maardu",
+      "latitude": 59.46529,
+      "longitude": 24.98215,
+      "population": 16630,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "589165",
+      "name": "Rakvere",
+      "latitude": 59.34808,
+      "longitude": 26.35784,
+      "population": 14984,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "590939",
+      "name": "Kuressaare",
+      "latitude": 58.25382,
+      "longitude": 22.49217,
+      "population": 12698,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "588686",
+      "name": "Sillamäe",
+      "latitude": 59.39697,
+      "longitude": 27.76331,
+      "population": 12480,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "587450",
+      "name": "Võru",
+      "latitude": 57.83389,
+      "longitude": 27.01944,
+      "population": 12367,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "587876",
+      "name": "Valga",
+      "latitude": 57.77781,
+      "longitude": 26.0473,
+      "population": 11792,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "591893",
+      "name": "Jõhvi",
+      "latitude": 59.35917,
+      "longitude": 27.42111,
+      "population": 10130,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "591472",
+      "name": "Keila",
+      "latitude": 59.30361,
+      "longitude": 24.41306,
+      "population": 10068,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "592225",
+      "name": "Haapsalu",
+      "latitude": 58.93937,
+      "longitude": 23.54127,
+      "population": 9595,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "589709",
+      "name": "Paide",
+      "latitude": 58.88768,
+      "longitude": 25.54042,
+      "population": 7793,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "591902",
+      "name": "Jõgeva",
+      "latitude": 58.74667,
+      "longitude": 26.39389,
+      "population": 6396,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "588780",
+      "name": "Saue",
+      "latitude": 59.32258,
+      "longitude": 24.54967,
+      "population": 5810,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "592279",
+      "name": "Elva",
+      "latitude": 58.2225,
+      "longitude": 26.42111,
+      "population": 5616,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "588348",
+      "name": "Tapa",
+      "latitude": 59.26056,
+      "longitude": 25.95861,
+      "population": 5168,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "589116",
+      "name": "Rapla",
+      "latitude": 59.00759,
+      "longitude": 24.79386,
+      "population": 5132,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "589375",
+      "name": "Põlva",
+      "latitude": 58.06028,
+      "longitude": 27.06944,
+      "population": 5115,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "588153",
+      "name": "Türi",
+      "latitude": 58.80861,
+      "longitude": 25.4325,
+      "population": 5064,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "591313",
+      "name": "Kiviõli",
+      "latitude": 59.35306,
+      "longitude": 26.97111,
+      "population": 4725,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "589379",
+      "name": "Põltsamaa",
+      "latitude": 58.6525,
+      "longitude": 25.97056,
+      "population": 3933,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "588673",
+      "name": "Sindi",
+      "latitude": 58.40056,
+      "longitude": 24.6675,
+      "population": 3906,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "589663",
+      "name": "Paldiski",
+      "latitude": 59.35667,
+      "longitude": 24.05306,
+      "population": 3542,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "590552",
+      "name": "Loksa",
+      "latitude": 59.57639,
+      "longitude": 25.72139,
+      "population": 3463,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "591632",
+      "name": "Kärdla",
+      "latitude": 58.99778,
+      "longitude": 22.74917,
+      "population": 3160,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "590975",
+      "name": "Kunda",
+      "latitude": 59.49861,
+      "longitude": 26.52611,
+      "population": 2865,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "591476",
+      "name": "Kehra",
+      "latitude": 59.33611,
+      "longitude": 25.32111,
+      "population": 2694,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "588204",
+      "name": "Tõrva",
+      "latitude": 58.00278,
+      "longitude": 25.935,
+      "population": 2690,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "590030",
+      "name": "Narva-Jõesuu",
+      "latitude": 59.45889,
+      "longitude": 28.04083,
+      "population": 2681,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "589782",
+      "name": "Otepää",
+      "latitude": 58.05833,
+      "longitude": 26.49667,
+      "population": 2167,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "588365",
+      "name": "Tamsalu",
+      "latitude": 59.15861,
+      "longitude": 26.11528,
+      "population": 2119,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "589117",
+      "name": "Räpina",
+      "latitude": 58.09806,
+      "longitude": 27.46361,
+      "population": 2066,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "591381",
+      "name": "Kilingi-Nõmme",
+      "latitude": 58.15028,
+      "longitude": 24.96417,
+      "population": 1671,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "590067",
+      "name": "Mustvee",
+      "latitude": 58.84861,
+      "longitude": 26.93972,
+      "population": 1662,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "589922",
+      "name": "Karksi-Nuia",
+      "latitude": 58.10333,
+      "longitude": 25.56278,
+      "population": 1554,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "590657",
+      "name": "Lihula",
+      "latitude": 58.68139,
+      "longitude": 23.84528,
+      "population": 1457,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "587517",
+      "name": "Võhma",
+      "latitude": 58.62833,
+      "longitude": 25.54833,
+      "population": 1280,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "588532",
+      "name": "Suure-Jaani",
+      "latitude": 58.53611,
+      "longitude": 25.47056,
+      "population": 1173,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "592626",
+      "name": "Abja-Paluoja",
+      "latitude": 58.12528,
+      "longitude": 25.34972,
+      "population": 1057,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "589253",
+      "name": "Püssi",
+      "latitude": 59.36,
+      "longitude": 27.04972,
+      "population": 917,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "590186",
+      "name": "Mõisaküla",
+      "latitude": 58.09222,
+      "longitude": 25.18639,
+      "population": 745,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "591703",
+      "name": "Kallaste",
+      "latitude": 58.66312,
+      "longitude": 27.16164,
+      "population": 714,
+      "populationRank": 46,
+      "isCapital": false
+    }
+  ]
+}

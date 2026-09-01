@@ -1,0 +1,706 @@
+{
+  "towns": [
+    {
+      "id": "1040652",
+      "name": "Maputo",
+      "latitude": -25.96553,
+      "longitude": 32.58322,
+      "population": 1254837,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "1039854",
+      "name": "Matola",
+      "latitude": -25.96222,
+      "longitude": 32.45889,
+      "population": 1198988,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "1033356",
+      "name": "Nampula",
+      "latitude": -15.11646,
+      "longitude": 39.2666,
+      "population": 770379,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "1052373",
+      "name": "Beira",
+      "latitude": -19.84361,
+      "longitude": 34.83889,
+      "population": 687764,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "1049261",
+      "name": "Chimoio",
+      "latitude": -19.11639,
+      "longitude": 33.48333,
+      "population": 422046,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "1026014",
+      "name": "Tete",
+      "latitude": -16.15639,
+      "longitude": 33.58667,
+      "population": 357000,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "1028434",
+      "name": "Quelimane",
+      "latitude": -17.87861,
+      "longitude": 36.88833,
+      "population": 349842,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "1043893",
+      "name": "Lichinga",
+      "latitude": -13.31278,
+      "longitude": 35.24056,
+      "population": 281341,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "1035025",
+      "name": "Nacala",
+      "latitude": -14.56257,
+      "longitude": 40.68538,
+      "population": 239808,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "1028918",
+      "name": "Pemba",
+      "latitude": -12.97395,
+      "longitude": 40.51775,
+      "population": 232932,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "1024694",
+      "name": "Mocuba",
+      "latitude": -16.8375,
+      "longitude": 36.98556,
+      "population": 196001,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "1045512",
+      "name": "Gurúè",
+      "latitude": -15.46694,
+      "longitude": 36.97778,
+      "population": 168971,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "1024552",
+      "name": "Xai-Xai",
+      "latitude": -25.05194,
+      "longitude": 33.64417,
+      "population": 154356,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "1039536",
+      "name": "Maxixe",
+      "latitude": -23.85972,
+      "longitude": 35.34722,
+      "population": 126408,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "1041190",
+      "name": "Mandimba",
+      "latitude": -14.3525,
+      "longitude": 35.65056,
+      "population": 118922,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "1028079",
+      "name": "Ressano Garcia",
+      "latitude": -25.44278,
+      "longitude": 31.99528,
+      "population": 110000,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "1052944",
+      "name": "Angoche",
+      "latitude": -16.2325,
+      "longitude": 39.90861,
+      "population": 104540,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "1045114",
+      "name": "Inhambane",
+      "latitude": -23.865,
+      "longitude": 35.38333,
+      "population": 95388,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "1047660",
+      "name": "Cuamba",
+      "latitude": -14.80306,
+      "longitude": 36.53722,
+      "population": 91780,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1037125",
+      "name": "Montepuez",
+      "latitude": -13.12556,
+      "longitude": 38.99972,
+      "population": 88442,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "1024696",
+      "name": "Dondo",
+      "latitude": -19.60944,
+      "longitude": 34.74306,
+      "population": 82260,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "1049861",
+      "name": "Chibuto",
+      "latitude": -24.68667,
+      "longitude": 33.53056,
+      "population": 73393,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "1048364",
+      "name": "Chokwé",
+      "latitude": -24.53333,
+      "longitude": 32.98333,
+      "population": 63695,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "1037390",
+      "name": "Mozambique",
+      "latitude": -15.03466,
+      "longitude": 40.73447,
+      "population": 55829,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "1033827",
+      "name": "Nametil",
+      "latitude": -15.72028,
+      "longitude": 39.3425,
+      "population": 52457,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "1037180",
+      "name": "Monapo",
+      "latitude": -14.91694,
+      "longitude": 40.30222,
+      "population": 50134,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "1053143",
+      "name": "Alto Molocue",
+      "latitude": -15.63556,
+      "longitude": 37.68833,
+      "population": 49019,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "1040397",
+      "name": "Marromeu",
+      "latitude": -18.29083,
+      "longitude": 35.94528,
+      "population": 45777,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "1024699",
+      "name": "Mocímboa da Praia",
+      "latitude": -11.35172,
+      "longitude": 40.35158,
+      "population": 45313,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "1024685",
+      "name": "Moatize",
+      "latitude": -16.11528,
+      "longitude": 33.72944,
+      "population": 45213,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "1024683",
+      "name": "Vilankulo",
+      "latitude": -22,
+      "longitude": 35.31667,
+      "population": 43183,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "1040950",
+      "name": "Manica",
+      "latitude": -18.93444,
+      "longitude": 32.87556,
+      "population": 41961,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "1045826",
+      "name": "Gondola",
+      "latitude": -19.08833,
+      "longitude": 33.64861,
+      "population": 39351,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "1048468",
+      "name": "Chiúre",
+      "latitude": -13.3825,
+      "longitude": 39.78167,
+      "population": 37871,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "1033797",
+      "name": "Namialo",
+      "latitude": -14.92056,
+      "longitude": 39.98361,
+      "population": 37226,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "1037721",
+      "name": "Milange",
+      "latitude": -16.09861,
+      "longitude": 35.77,
+      "population": 35146,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "1088155",
+      "name": "Mutuáli",
+      "latitude": -14.87056,
+      "longitude": 37.00444,
+      "population": 32921,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "1024701",
+      "name": "Macia",
+      "latitude": -25.02694,
+      "longitude": 33.09889,
+      "population": 32286,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "1026755",
+      "name": "Songo",
+      "latitude": -15.59583,
+      "longitude": 32.76472,
+      "population": 31101,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "12718698",
+      "name": "Ribáuè",
+      "latitude": -14.94473,
+      "longitude": 38.32362,
+      "population": 30241,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "1024687",
+      "name": "Nhamatanda",
+      "latitude": -19.26917,
+      "longitude": 34.21278,
+      "population": 30087,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "1052191",
+      "name": "Boane",
+      "latitude": -26.04236,
+      "longitude": 32.33027,
+      "population": 27325,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "1036263",
+      "name": "Mueda",
+      "latitude": -11.66278,
+      "longitude": 39.55056,
+      "population": 27274,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "1050871",
+      "name": "Catandica",
+      "latitude": -18.0575,
+      "longitude": 33.17361,
+      "population": 25869,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "1040201",
+      "name": "Massinga",
+      "latitude": -23.32917,
+      "longitude": 35.38139,
+      "population": 24312,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "1037044",
+      "name": "Morrumbala",
+      "latitude": -17.32694,
+      "longitude": 35.58417,
+      "population": 24076,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "12718696",
+      "name": "Malema",
+      "latitude": -14.94747,
+      "longitude": 37.41591,
+      "population": 23553,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "1042456",
+      "name": "Macomia",
+      "latitude": -12.24667,
+      "longitude": 40.12083,
+      "population": 23228,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "1034311",
+      "name": "Namacurra",
+      "latitude": -17.49194,
+      "longitude": 37.02889,
+      "population": 22647,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "1024680",
+      "name": "Gorongosa",
+      "latitude": -18.67556,
+      "longitude": 34.07278,
+      "population": 21792,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "1024692",
+      "name": "Caia",
+      "latitude": -17.82028,
+      "longitude": 35.34417,
+      "population": 21179,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "1091197",
+      "name": "Iapala",
+      "latitude": -15.025,
+      "longitude": 38.0425,
+      "population": 20146,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "1035471",
+      "name": "Murrupula",
+      "latitude": -15.45694,
+      "longitude": 38.67722,
+      "population": 19504,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "1024697",
+      "name": "Chinde",
+      "latitude": -18.58111,
+      "longitude": 36.45861,
+      "population": 17558,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "1028970",
+      "name": "Pebane",
+      "latitude": -17.26417,
+      "longitude": 38.135,
+      "population": 17167,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "12718693",
+      "name": "Búzi",
+      "latitude": -19.86439,
+      "longitude": 34.46735,
+      "population": 16369,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "1095961",
+      "name": "Machipanda",
+      "latitude": -18.98604,
+      "longitude": 32.73553,
+      "population": 15962,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "12718697",
+      "name": "Messica",
+      "latitude": -18.99161,
+      "longitude": 33.08226,
+      "population": 15907,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "1025104",
+      "name": "Ulongué",
+      "latitude": -14.72278,
+      "longitude": 34.36083,
+      "population": 15820,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "1037408",
+      "name": "Moamba",
+      "latitude": -25.60268,
+      "longitude": 32.24607,
+      "population": 14940,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "1052702",
+      "name": "Metangula",
+      "latitude": -12.695,
+      "longitude": 34.81583,
+      "population": 14835,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "1044995",
+      "name": "Inhassoro",
+      "latitude": -21.53472,
+      "longitude": 35.20222,
+      "population": 13122,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "1024688",
+      "name": "Marracuene",
+      "latitude": -25.73694,
+      "longitude": 32.67639,
+      "population": 13051,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "1037042",
+      "name": "Morrumbene",
+      "latitude": -23.65778,
+      "longitude": 35.345,
+      "population": 12532,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "1041867",
+      "name": "Magude",
+      "latitude": -25.02306,
+      "longitude": 32.64806,
+      "population": 12419,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "1028307",
+      "name": "Quissico",
+      "latitude": -24.72028,
+      "longitude": 34.7425,
+      "population": 12070,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "1040937",
+      "name": "Manjacaze",
+      "latitude": -24.72389,
+      "longitude": 33.85639,
+      "population": 11984,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "1045088",
+      "name": "Inhaminga",
+      "latitude": -18.41528,
+      "longitude": 35.0225,
+      "population": 11564,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "12718701",
+      "name": "Xinavane",
+      "latitude": -25.16047,
+      "longitude": 32.80038,
+      "population": 11534,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "1049629",
+      "name": "Vila Eduardo Mondlane",
+      "latitude": -22.07917,
+      "longitude": 31.67861,
+      "population": 9665,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "1040370",
+      "name": "Marrupa",
+      "latitude": -13.18877,
+      "longitude": 37.50453,
+      "population": 9565,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "1045007",
+      "name": "Inharrime",
+      "latitude": -24.47694,
+      "longitude": 35.03028,
+      "population": 9415,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "1028576",
+      "name": "Bilene",
+      "latitude": -25.27264,
+      "longitude": 33.24205,
+      "population": 9235,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "1045449",
+      "name": "Homoíne",
+      "latitude": -23.88444,
+      "longitude": 35.15139,
+      "population": 8447,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "1024695",
+      "name": "Ibo",
+      "latitude": -12.3426,
+      "longitude": 40.5859,
+      "population": 5701,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "1052365",
+      "name": "Bela Vista",
+      "latitude": -26.34065,
+      "longitude": 32.66746,
+      "population": 3006,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "6942241",
+      "name": "Ponta d'Ouro",
+      "latitude": -26.84781,
+      "longitude": 32.88783,
+      "population": 2738,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "1029537",
+      "name": "Nova Mambone",
+      "latitude": -20.98806,
+      "longitude": 35.02222,
+      "population": 2482,
+      "populationRank": 78,
+      "isCapital": false
+    }
+  ]
+}

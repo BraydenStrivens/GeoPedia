@@ -1,0 +1,85 @@
+{
+  "towns": [
+    {
+      "id": "2108502",
+      "name": "Honiara",
+      "latitude": -9.43333,
+      "longitude": 159.95,
+      "population": 56298,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "2104863",
+      "name": "Noro",
+      "latitude": -8.22274,
+      "longitude": 157.19978,
+      "population": 7204,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2108857",
+      "name": "Gizo",
+      "latitude": -8.10303,
+      "longitude": 156.84186,
+      "population": 7177,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2109701",
+      "name": "Auki",
+      "latitude": -8.76778,
+      "longitude": 160.69778,
+      "population": 7020,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2105575",
+      "name": "Munda",
+      "latitude": -8.32799,
+      "longitude": 157.26652,
+      "population": 3144,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2109528",
+      "name": "Buala",
+      "latitude": -8.14497,
+      "longitude": 159.59212,
+      "population": 2700,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2102384",
+      "name": "Tulagi",
+      "latitude": -9.10306,
+      "longitude": 160.15056,
+      "population": 1750,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "11423653",
+      "name": "Taro",
+      "latitude": -6.71111,
+      "longitude": 156.39722,
+      "population": 1053,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2178750",
+      "name": "Lata",
+      "latitude": -10.725,
+      "longitude": 165.79722,
+      "population": 553,
+      "populationRank": 9,
+      "isCapital": false
+    }
+  ]
+}

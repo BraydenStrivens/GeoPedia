@@ -1,0 +1,31 @@
+{
+  "towns": [
+    {
+      "id": "4043909",
+      "name": "Dededo Village",
+      "latitude": 13.51777,
+      "longitude": 144.8391,
+      "population": 44943,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "4038647",
+      "name": "Talofofo Village",
+      "latitude": 13.35513,
+      "longitude": 144.75835,
+      "population": 3215,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "4044012",
+      "name": "Hagåtña",
+      "latitude": 13.47567,
+      "longitude": 144.74886,
+      "population": 1051,
+      "populationRank": 3,
+      "isCapital": true
+    }
+  ]
+}

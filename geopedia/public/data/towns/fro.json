@@ -1,0 +1,40 @@
+{
+  "towns": [
+    {
+      "id": "2611396",
+      "name": "Tórshavn",
+      "latitude": 62.00973,
+      "longitude": -6.77164,
+      "population": 13200,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "2618795",
+      "name": "Klaksvík",
+      "latitude": 62.22655,
+      "longitude": -6.58901,
+      "population": 5013,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2621808",
+      "name": "Fuglafjørður",
+      "latitude": 62.24398,
+      "longitude": -6.81395,
+      "population": 1542,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2611060",
+      "name": "Tvøroyri",
+      "latitude": 61.55557,
+      "longitude": -6.81109,
+      "population": 862,
+      "populationRank": 4,
+      "isCapital": false
+    }
+  ]
+}

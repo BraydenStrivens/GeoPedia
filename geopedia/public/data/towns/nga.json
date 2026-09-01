@@ -1,0 +1,1804 @@
+{
+  "towns": [
+    {
+      "id": "2332459",
+      "name": "Lagos",
+      "latitude": 6.45407,
+      "longitude": 3.39467,
+      "population": 15388000,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "2335204",
+      "name": "Kano",
+      "latitude": 12.00012,
+      "longitude": 8.51672,
+      "population": 4910000,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2339354",
+      "name": "Ibadan",
+      "latitude": 7.37756,
+      "longitude": 3.90591,
+      "population": 3649000,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2352778",
+      "name": "Abuja",
+      "latitude": 9.05785,
+      "longitude": 7.49508,
+      "population": 2690000,
+      "populationRank": 4,
+      "isCapital": true
+    },
+    {
+      "id": "2324774",
+      "name": "Port Harcourt",
+      "latitude": 4.77742,
+      "longitude": 7.0134,
+      "population": 2120000,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2335727",
+      "name": "Kaduna",
+      "latitude": 10.52641,
+      "longitude": 7.43879,
+      "population": 1850000,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2347283",
+      "name": "Benin City",
+      "latitude": 6.33815,
+      "longitude": 5.62575,
+      "population": 1782000,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "2326016",
+      "name": "Onitsha",
+      "latitude": 6.14978,
+      "longitude": 6.78569,
+      "population": 1553000,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2353151",
+      "name": "Aba",
+      "latitude": 5.10658,
+      "longitude": 7.36667,
+      "population": 1160000,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2331447",
+      "name": "Maiduguri",
+      "latitude": 11.84692,
+      "longitude": 13.15712,
+      "population": 1110000,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2337639",
+      "name": "Ilorin",
+      "latitude": 8.49664,
+      "longitude": 4.54214,
+      "population": 1080000,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "2322911",
+      "name": "Sokoto",
+      "latitude": 13.06269,
+      "longitude": 5.24322,
+      "population": 1040000,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2335953",
+      "name": "Jos",
+      "latitude": 9.92849,
+      "longitude": 8.89212,
+      "population": 1040000,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2317765",
+      "name": "Zaria",
+      "latitude": 11.11128,
+      "longitude": 7.7227,
+      "population": 980000,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2343279",
+      "name": "Enugu",
+      "latitude": 6.44132,
+      "longitude": 7.49883,
+      "population": 950000,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "2319133",
+      "name": "Warri",
+      "latitude": 5.51737,
+      "longitude": 5.75006,
+      "population": 910000,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "2325200",
+      "name": "Oyo",
+      "latitude": 7.85367,
+      "longitude": 3.93235,
+      "population": 736072,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2352947",
+      "name": "Abeokuta",
+      "latitude": 7.15571,
+      "longitude": 3.34509,
+      "population": 735000,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2350841",
+      "name": "Akure",
+      "latitude": 7.25256,
+      "longitude": 5.19312,
+      "population": 730000,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2347470",
+      "name": "Bauchi",
+      "latitude": 10.31032,
+      "longitude": 9.84388,
+      "population": 693700,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2334802",
+      "name": "Katsina",
+      "latitude": 12.99082,
+      "longitude": 7.60177,
+      "population": 670000,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "2325590",
+      "name": "Osogbo",
+      "latitude": 7.77104,
+      "longitude": 4.55698,
+      "population": 645000,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2338900",
+      "name": "Ile-Ife",
+      "latitude": 7.4824,
+      "longitude": 4.56032,
+      "population": 560000,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "2340451",
+      "name": "Gombe",
+      "latitude": 10.28969,
+      "longitude": 11.16729,
+      "population": 560000,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2325330",
+      "name": "Owerri",
+      "latitude": 5.48363,
+      "longitude": 7.03325,
+      "population": 545000,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "2346229",
+      "name": "Calabar",
+      "latitude": 4.95893,
+      "longitude": 8.32695,
+      "population": 540000,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "2338325",
+      "name": "Ikare",
+      "latitude": 7.52591,
+      "longitude": 5.75342,
+      "population": 465000,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2318044",
+      "name": "Yola",
+      "latitude": 9.20839,
+      "longitude": 12.48146,
+      "population": 460000,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2319480",
+      "name": "Uyo",
+      "latitude": 5.05127,
+      "longitude": 7.9335,
+      "population": 436606,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2352379",
+      "name": "Ado-Ekiti",
+      "latitude": 7.62329,
+      "longitude": 5.22087,
+      "population": 435000,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "2327735",
+      "name": "Ogbomoso",
+      "latitude": 8.13373,
+      "longitude": 4.24014,
+      "population": 433030,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2330100",
+      "name": "Minna",
+      "latitude": 9.61524,
+      "longitude": 6.54776,
+      "population": 425000,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2347209",
+      "name": "Bida",
+      "latitude": 9.08044,
+      "longitude": 6.0099,
+      "population": 400000,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "2331140",
+      "name": "Makurdi",
+      "latitude": 7.73375,
+      "longitude": 8.52139,
+      "population": 390000,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "2326171",
+      "name": "Ondo",
+      "latitude": 7.09316,
+      "longitude": 4.83528,
+      "population": 375000,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "2320576",
+      "name": "Umuahia",
+      "latitude": 5.52491,
+      "longitude": 7.49461,
+      "population": 370000,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "2337181",
+      "name": "Iseyin",
+      "latitude": 7.97022,
+      "longitude": 3.59626,
+      "population": 365300,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "2318123",
+      "name": "Yenagoa",
+      "latitude": 4.92675,
+      "longitude": 6.26764,
+      "population": 365000,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "2341374",
+      "name": "Gboko",
+      "latitude": 7.32275,
+      "longitude": 9.00108,
+      "population": 365000,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "2338400",
+      "name": "Ijebu Ode",
+      "latitude": 6.81944,
+      "longitude": 3.91731,
+      "population": 360000,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "2337704",
+      "name": "Ilesa",
+      "latitude": 7.62789,
+      "longitude": 4.74161,
+      "population": 325000,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "2338313",
+      "name": "Ikeja",
+      "latitude": 6.59651,
+      "longitude": 3.34205,
+      "population": 313196,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "2323675",
+      "name": "Sapele",
+      "latitude": 5.89405,
+      "longitude": 5.67666,
+      "population": 305000,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "2325314",
+      "name": "Owo",
+      "latitude": 7.1962,
+      "longitude": 5.58681,
+      "population": 276574,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "2338106",
+      "name": "Ikot Ekpene",
+      "latitude": 5.18194,
+      "longitude": 7.71481,
+      "population": 254806,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "2336905",
+      "name": "Iwo",
+      "latitude": 7.63527,
+      "longitude": 4.18156,
+      "population": 250443,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "2336056",
+      "name": "Jimeta",
+      "latitude": 9.27949,
+      "longitude": 12.45819,
+      "population": 248148,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "2349019",
+      "name": "Atani",
+      "latitude": 6.01277,
+      "longitude": 6.74768,
+      "population": 230000,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "2339937",
+      "name": "Gusau",
+      "latitude": 12.17024,
+      "longitude": 6.66412,
+      "population": 226857,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "2329821",
+      "name": "Mubi",
+      "latitude": 10.26858,
+      "longitude": 13.26701,
+      "population": 225705,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "2338273",
+      "name": "Ikire",
+      "latitude": 7.36983,
+      "longitude": 4.1863,
+      "population": 222160,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "2323411",
+      "name": "Shagamu",
+      "latitude": 6.8485,
+      "longitude": 3.64633,
+      "population": 214558,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "2320831",
+      "name": "Ugep",
+      "latitude": 5.80865,
+      "longitude": 8.08098,
+      "population": 200276,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "2328765",
+      "name": "Nnewi",
+      "latitude": 6.01962,
+      "longitude": 6.91729,
+      "population": 193987,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "2337207",
+      "name": "Ise-Ekiti",
+      "latitude": 7.46478,
+      "longitude": 5.42333,
+      "population": 190063,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "2337765",
+      "name": "Ila Orangun",
+      "latitude": 8.01714,
+      "longitude": 4.90421,
+      "population": 179192,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "2323390",
+      "name": "Saki",
+      "latitude": 8.66762,
+      "longitude": 3.39393,
+      "population": 178677,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "2348773",
+      "name": "Awka",
+      "latitude": 6.21269,
+      "longitude": 7.07199,
+      "population": 167738,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "2334327",
+      "name": "Kisi",
+      "latitude": 9.08297,
+      "longitude": 3.85196,
+      "population": 155510,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "2343784",
+      "name": "Ejigbo",
+      "latitude": 7.90303,
+      "longitude": 4.31364,
+      "population": 138357,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "2342490",
+      "name": "Funtua",
+      "latitude": 11.52351,
+      "longitude": 7.31174,
+      "population": 136811,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "2346615",
+      "name": "Buguma",
+      "latitude": 4.73614,
+      "longitude": 6.86236,
+      "population": 135404,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "2353099",
+      "name": "Abakaliki",
+      "latitude": 6.32485,
+      "longitude": 8.11368,
+      "population": 134102,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "2326899",
+      "name": "Okrika",
+      "latitude": 4.74215,
+      "longitude": 7.08368,
+      "population": 133271,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "2332515",
+      "name": "Lafia",
+      "latitude": 8.4939,
+      "longitude": 8.51532,
+      "population": 127236,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "2341656",
+      "name": "Gashua",
+      "latitude": 12.87398,
+      "longitude": 11.04057,
+      "population": 125817,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "2347954",
+      "name": "Bama",
+      "latitude": 11.52134,
+      "longitude": 13.68952,
+      "population": 118121,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "2337659",
+      "name": "Ilobu",
+      "latitude": 7.83879,
+      "longitude": 4.48672,
+      "population": 118089,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "2336589",
+      "name": "Jalingo",
+      "latitude": 8.89367,
+      "longitude": 11.3596,
+      "population": 117757,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "2327879",
+      "name": "Offa",
+      "latitude": 8.14911,
+      "longitude": 4.72074,
+      "population": 113830,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "2328684",
+      "name": "Nsukka",
+      "latitude": 6.85783,
+      "longitude": 7.39577,
+      "population": 111017,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "2328952",
+      "name": "Nguru",
+      "latitude": 12.87695,
+      "longitude": 10.45536,
+      "population": 111014,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "2339631",
+      "name": "Hadejia",
+      "latitude": 12.45347,
+      "longitude": 10.04115,
+      "population": 110753,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "2338403",
+      "name": "Ijebu-Igbo",
+      "latitude": 6.97198,
+      "longitude": 3.99938,
+      "population": 109261,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "2319668",
+      "name": "Uromi",
+      "latitude": 6.7,
+      "longitude": 6.33333,
+      "population": 108608,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "2347059",
+      "name": "Birnin Kebbi",
+      "latitude": 12.45389,
+      "longitude": 4.1975,
+      "population": 108164,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "2324857",
+      "name": "Pindiga",
+      "latitude": 9.98433,
+      "longitude": 10.95229,
+      "population": 106322,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "2348595",
+      "name": "Azare",
+      "latitude": 11.67478,
+      "longitude": 10.19069,
+      "population": 105687,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "2328811",
+      "name": "Nkpor",
+      "latitude": 6.15038,
+      "longitude": 6.83042,
+      "population": 103733,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "2338287",
+      "name": "Ikere-Ekiti",
+      "latitude": 7.49748,
+      "longitude": 5.23041,
+      "population": 103054,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "2332504",
+      "name": "Lafiagi",
+      "latitude": 8.85299,
+      "longitude": 5.41641,
+      "population": 102779,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "2350523",
+      "name": "Alasia",
+      "latitude": 6.47489,
+      "longitude": 3.16914,
+      "population": 100000,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "2334008",
+      "name": "Kontagora",
+      "latitude": 10.40319,
+      "longitude": 5.4708,
+      "population": 98754,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "2333604",
+      "name": "Kuje",
+      "latitude": 8.87952,
+      "longitude": 7.22756,
+      "population": 97367,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "2346995",
+      "name": "Biu",
+      "latitude": 10.61285,
+      "longitude": 12.19458,
+      "population": 95005,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "2318921",
+      "name": "Wukari",
+      "latitude": 7.87139,
+      "longitude": 9.77786,
+      "population": 92933,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "2338669",
+      "name": "Igbo-Ora",
+      "latitude": 7.43383,
+      "longitude": 3.28788,
+      "population": 92719,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "2337148",
+      "name": "Isieke",
+      "latitude": 6.38186,
+      "longitude": 8.03736,
+      "population": 89990,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "2338876",
+      "name": "Ifo",
+      "latitude": 6.81491,
+      "longitude": 3.19518,
+      "population": 88272,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "2338630",
+      "name": "Igede-Ekiti",
+      "latitude": 7.6685,
+      "longitude": 5.12627,
+      "population": 87282,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "2343985",
+      "name": "Effium",
+      "latitude": 6.63105,
+      "longitude": 8.05814,
+      "population": 86945,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "2339150",
+      "name": "Idanre",
+      "latitude": 7.1127,
+      "longitude": 5.1159,
+      "population": 86468,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "2324767",
+      "name": "Potiskum",
+      "latitude": 11.71391,
+      "longitude": 11.08108,
+      "population": 86002,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "2334652",
+      "name": "Keffi",
+      "latitude": 8.84651,
+      "longitude": 7.87354,
+      "population": 85911,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "2343252",
+      "name": "Epe",
+      "latitude": 6.58412,
+      "longitude": 3.98336,
+      "population": 84711,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "2342192",
+      "name": "Gamboru",
+      "latitude": 12.37299,
+      "longitude": 14.2069,
+      "population": 84672,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "2338497",
+      "name": "Ihiala",
+      "latitude": 5.85475,
+      "longitude": 6.85944,
+      "population": 83265,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "2320829",
+      "name": "Ughelli",
+      "latitude": 5.48956,
+      "longitude": 6.00407,
+      "population": 79986,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "2347303",
+      "name": "Bende",
+      "latitude": 5.55874,
+      "longitude": 7.63359,
+      "population": 79618,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "2335713",
+      "name": "Kafanchan",
+      "latitude": 9.58126,
+      "longitude": 8.2926,
+      "population": 79522,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "2338242",
+      "name": "Ikom",
+      "latitude": 5.96669,
+      "longitude": 8.70632,
+      "population": 79103,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "2328617",
+      "name": "Numan",
+      "latitude": 9.46374,
+      "longitude": 12.03062,
+      "population": 77617,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "2338640",
+      "name": "Igbo-Ukwu",
+      "latitude": 6.01798,
+      "longitude": 7.02027,
+      "population": 75224,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "2325161",
+      "name": "Ozubulu",
+      "latitude": 5.95753,
+      "longitude": 6.85305,
+      "population": 73812,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "2336237",
+      "name": "Jega",
+      "latitude": 12.22336,
+      "longitude": 4.37971,
+      "population": 73495,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "2349276",
+      "name": "Asaba",
+      "latitude": 6.19824,
+      "longitude": 6.73187,
+      "population": 73374,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "2352250",
+      "name": "Afikpo",
+      "latitude": 5.89258,
+      "longitude": 7.93534,
+      "population": 71866,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "2343822",
+      "name": "Eha Amufu",
+      "latitude": 6.65915,
+      "longitude": 7.75961,
+      "population": 70779,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "2331005",
+      "name": "Malumfashi",
+      "latitude": 11.78935,
+      "longitude": 7.62061,
+      "population": 70709,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "2334756",
+      "name": "Kaura Namoda",
+      "latitude": 12.59371,
+      "longitude": 6.58648,
+      "population": 69725,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "2343270",
+      "name": "Enugu-Ukwu",
+      "latitude": 6.17146,
+      "longitude": 7.00525,
+      "population": 68785,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "2339156",
+      "name": "Idah",
+      "latitude": 7.11345,
+      "longitude": 6.73866,
+      "population": 68703,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "2351979",
+      "name": "Agbor",
+      "latitude": 6.25375,
+      "longitude": 6.1942,
+      "population": 67610,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "2328790",
+      "name": "Nkwerre",
+      "latitude": 5.75917,
+      "longitude": 7.10384,
+      "population": 62973,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "2348892",
+      "name": "Auchi",
+      "latitude": 7.06756,
+      "longitude": 6.2636,
+      "population": 62907,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "2331939",
+      "name": "Lokoja",
+      "latitude": 7.79688,
+      "longitude": 6.74048,
+      "population": 60579,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "2343641",
+      "name": "Ekpoma",
+      "latitude": 6.743,
+      "longitude": 6.14029,
+      "population": 59618,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "2337759",
+      "name": "Ilaro",
+      "latitude": 6.88901,
+      "longitude": 3.01416,
+      "population": 46999,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "2345521",
+      "name": "Damaturu",
+      "latitude": 11.74697,
+      "longitude": 11.96083,
+      "population": 46000,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "2349431",
+      "name": "Argungu",
+      "latitude": 12.74482,
+      "longitude": 4.52514,
+      "population": 45584,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "2340091",
+      "name": "Gumel",
+      "latitude": 12.6269,
+      "longitude": 9.38807,
+      "population": 42742,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "2341294",
+      "name": "Geidam",
+      "latitude": 12.89439,
+      "longitude": 11.92649,
+      "population": 41367,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "2322529",
+      "name": "Talata Mafara",
+      "latitude": 12.56841,
+      "longitude": 6.06225,
+      "population": 39045,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "2325506",
+      "name": "Otan Ayegbaju",
+      "latitude": 7.94783,
+      "longitude": 4.78836,
+      "population": 37783,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "2327650",
+      "name": "Ogoja",
+      "latitude": 6.6584,
+      "longitude": 8.79923,
+      "population": 37466,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "2334801",
+      "name": "Katsina-Ala",
+      "latitude": 7.16938,
+      "longitude": 9.28465,
+      "population": 36722,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "2336985",
+      "name": "Itu",
+      "latitude": 5.20131,
+      "longitude": 7.98373,
+      "population": 36358,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "2333451",
+      "name": "Kumo",
+      "latitude": 10.04807,
+      "longitude": 11.21055,
+      "population": 35712,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "2343144",
+      "name": "Eruwa",
+      "latitude": 7.53906,
+      "longitude": 3.42453,
+      "population": 34802,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "2329451",
+      "name": "Nasarawa",
+      "latitude": 8.53895,
+      "longitude": 7.70821,
+      "population": 30949,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "2335798",
+      "name": "Kachia",
+      "latitude": 9.87342,
+      "longitude": 7.95407,
+      "population": 30893,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "2344854",
+      "name": "Dikwa",
+      "latitude": 12.03609,
+      "longitude": 13.91815,
+      "population": 29026,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "2324960",
+      "name": "Patigi",
+      "latitude": 8.72851,
+      "longitude": 5.75561,
+      "population": 28285,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "2347592",
+      "name": "Baro",
+      "latitude": 8.61565,
+      "longitude": 6.4185,
+      "population": 26821,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "2347057",
+      "name": "Birnin Kudu",
+      "latitude": 11.45207,
+      "longitude": 9.47856,
+      "population": 26565,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "2348395",
+      "name": "Badagry",
+      "latitude": 6.41502,
+      "longitude": 2.88132,
+      "population": 26383,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "2327513",
+      "name": "Ogwashi-Uku",
+      "latitude": 6.17811,
+      "longitude": 6.52461,
+      "population": 26137,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "2343720",
+      "name": "Eket",
+      "latitude": 4.64231,
+      "longitude": 7.92438,
+      "population": 25569,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "2335333",
+      "name": "Kamba",
+      "latitude": 11.85172,
+      "longitude": 3.65478,
+      "population": 25568,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "2345094",
+      "name": "Daura",
+      "latitude": 13.03299,
+      "longitude": 8.32351,
+      "population": 25289,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "2322552",
+      "name": "Takum",
+      "latitude": 7.26667,
+      "longitude": 9.98333,
+      "population": 24822,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "2317548",
+      "name": "Zuru",
+      "latitude": 11.43522,
+      "longitude": 5.23494,
+      "population": 24338,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "2322263",
+      "name": "Tegina",
+      "latitude": 10.0706,
+      "longitude": 6.1906,
+      "population": 24037,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "2348783",
+      "name": "Awgu",
+      "latitude": 6.07278,
+      "longitude": 7.47739,
+      "population": 23175,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "2318933",
+      "name": "Wudil",
+      "latitude": 11.80937,
+      "longitude": 8.84422,
+      "population": 23066,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "2339287",
+      "name": "Ibi",
+      "latitude": 8.18122,
+      "longitude": 9.74431,
+      "population": 22757,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "2335596",
+      "name": "Kaiama",
+      "latitude": 9.6053,
+      "longitude": 3.94101,
+      "population": 21897,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "2321031",
+      "name": "Ubiaja",
+      "latitude": 6.65581,
+      "longitude": 6.38494,
+      "population": 21782,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "2325437",
+      "name": "Otukpa",
+      "latitude": 7.10168,
+      "longitude": 7.65945,
+      "population": 21686,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "2327521",
+      "name": "Oguta",
+      "latitude": 5.71044,
+      "longitude": 6.80936,
+      "population": 21639,
+      "populationRank": 150,
+      "isCapital": false
+    },
+    {
+      "id": "2345498",
+      "name": "Damboa",
+      "latitude": 11.15534,
+      "longitude": 12.75638,
+      "population": 21571,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "2336251",
+      "name": "Jebba",
+      "latitude": 9.11972,
+      "longitude": 4.8236,
+      "population": 21488,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "2329981",
+      "name": "Mokwa",
+      "latitude": 9.29482,
+      "longitude": 5.05412,
+      "population": 21128,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "2341580",
+      "name": "Gaya",
+      "latitude": 11.86064,
+      "longitude": 9.0027,
+      "population": 20959,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "2322495",
+      "name": "Tambuwal",
+      "latitude": 12.40592,
+      "longitude": 4.64605,
+      "population": 20932,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "2343512",
+      "name": "Elele",
+      "latitude": 5.1009,
+      "longitude": 6.81411,
+      "population": 20620,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "2329946",
+      "name": "Monguno",
+      "latitude": 12.67059,
+      "longitude": 13.61224,
+      "population": 20297,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "2332871",
+      "name": "Kwale",
+      "latitude": 5.70773,
+      "longitude": 6.43402,
+      "population": 20226,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "2341275",
+      "name": "Gembu",
+      "latitude": 6.72556,
+      "longitude": 11.25652,
+      "population": 19881,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "2328151",
+      "name": "Obudu",
+      "latitude": 6.66819,
+      "longitude": 9.16453,
+      "population": 19668,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "2340446",
+      "name": "Gombi",
+      "latitude": 10.16756,
+      "longitude": 12.73684,
+      "population": 19616,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "2343273",
+      "name": "Enugu-Ezike",
+      "latitude": 6.9827,
+      "longitude": 7.45534,
+      "population": 18989,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "2335015",
+      "name": "Kari",
+      "latitude": 11.2471,
+      "longitude": 10.561,
+      "population": 18812,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "2324575",
+      "name": "Rano",
+      "latitude": 11.55684,
+      "longitude": 8.58065,
+      "population": 17972,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "2348507",
+      "name": "Babana",
+      "latitude": 10.42949,
+      "longitude": 3.81495,
+      "population": 17617,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "2343943",
+      "name": "Egbe",
+      "latitude": 8.21896,
+      "longitude": 5.50757,
+      "population": 17612,
+      "populationRank": 166,
+      "isCapital": false
+    },
+    {
+      "id": "2339892",
+      "name": "Gwadabawa",
+      "latitude": 13.35819,
+      "longitude": 5.23812,
+      "population": 17486,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "2344245",
+      "name": "Dutse",
+      "latitude": 11.75618,
+      "longitude": 9.33896,
+      "population": 17129,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "2344418",
+      "name": "Dukku",
+      "latitude": 10.82379,
+      "longitude": 10.77221,
+      "population": 16961,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "2346812",
+      "name": "Bonny",
+      "latitude": 4.4516,
+      "longitude": 7.17074,
+      "population": 16868,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "2346317",
+      "name": "Burutu",
+      "latitude": 5.35328,
+      "longitude": 5.50826,
+      "population": 16410,
+      "populationRank": 171,
+      "isCapital": false
+    },
+    {
+      "id": "2339756",
+      "name": "Gwarzo",
+      "latitude": 11.91597,
+      "longitude": 7.9337,
+      "population": 16303,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "2333563",
+      "name": "Kukawa",
+      "latitude": 12.92475,
+      "longitude": 13.56617,
+      "population": 16077,
+      "populationRank": 173,
+      "isCapital": false
+    },
+    {
+      "id": "2350806",
+      "name": "Akwanga",
+      "latitude": 8.91077,
+      "longitude": 8.40655,
+      "population": 15985,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "2347155",
+      "name": "Biliri",
+      "latitude": 9.86709,
+      "longitude": 11.22594,
+      "population": 15976,
+      "populationRank": 175,
+      "isCapital": false
+    },
+    {
+      "id": "2337379",
+      "name": "Iperu",
+      "latitude": 6.91002,
+      "longitude": 3.66557,
+      "population": 15935,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "2339293",
+      "name": "Ibeto",
+      "latitude": 10.48536,
+      "longitude": 5.14501,
+      "population": 15565,
+      "populationRank": 177,
+      "isCapital": false
+    },
+    {
+      "id": "2341955",
+      "name": "Ganye",
+      "latitude": 8.43497,
+      "longitude": 12.05107,
+      "population": 15178,
+      "populationRank": 178,
+      "isCapital": false
+    },
+    {
+      "id": "2339665",
+      "name": "Gwoza",
+      "latitude": 11.08313,
+      "longitude": 13.69595,
+      "population": 15176,
+      "populationRank": 179,
+      "isCapital": false
+    },
+    {
+      "id": "2351470",
+      "name": "Ajaokuta",
+      "latitude": 7.56229,
+      "longitude": 6.65497,
+      "population": 15144,
+      "populationRank": 180,
+      "isCapital": false
+    },
+    {
+      "id": "2344600",
+      "name": "Doma",
+      "latitude": 8.39307,
+      "longitude": 8.35544,
+      "population": 15097,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "2320966",
+      "name": "Udi",
+      "latitude": 6.31592,
+      "longitude": 7.42086,
+      "population": 14998,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "2349788",
+      "name": "Ankpa",
+      "latitude": 7.40249,
+      "longitude": 7.63196,
+      "population": 14630,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "2326200",
+      "name": "Omu-Aran",
+      "latitude": 8.13385,
+      "longitude": 5.10029,
+      "population": 14477,
+      "populationRank": 184,
+      "isCapital": false
+    },
+    {
+      "id": "2341641",
+      "name": "Gassol",
+      "latitude": 8.53535,
+      "longitude": 10.44615,
+      "population": 14326,
+      "populationRank": 185,
+      "isCapital": false
+    },
+    {
+      "id": "2323344",
+      "name": "Shani",
+      "latitude": 10.21824,
+      "longitude": 12.06059,
+      "population": 14305,
+      "populationRank": 186,
+      "isCapital": false
+    },
+    {
+      "id": "2325821",
+      "name": "Ore",
+      "latitude": 6.74716,
+      "longitude": 4.8761,
+      "population": 13905,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "2345526",
+      "name": "Damasak",
+      "latitude": 13.10518,
+      "longitude": 12.50854,
+      "population": 13874,
+      "populationRank": 188,
+      "isCapital": false
+    },
+    {
+      "id": "2342199",
+      "name": "Gamawa",
+      "latitude": 12.13379,
+      "longitude": 10.53785,
+      "population": 13549,
+      "populationRank": 189,
+      "isCapital": false
+    },
+    {
+      "id": "2338334",
+      "name": "Ikang",
+      "latitude": 4.78978,
+      "longitude": 8.5316,
+      "population": 13305,
+      "populationRank": 190,
+      "isCapital": false
+    },
+    {
+      "id": "2334674",
+      "name": "Kazaure",
+      "latitude": 12.64846,
+      "longitude": 8.41178,
+      "population": 13169,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "2318858",
+      "name": "Wurno",
+      "latitude": 13.29048,
+      "longitude": 5.42373,
+      "population": 13087,
+      "populationRank": 192,
+      "isCapital": false
+    },
+    {
+      "id": "2333606",
+      "name": "Kujama",
+      "latitude": 10.45767,
+      "longitude": 7.63808,
+      "population": 12967,
+      "populationRank": 193,
+      "isCapital": false
+    },
+    {
+      "id": "2327236",
+      "name": "Okeho",
+      "latitude": 8.03453,
+      "longitude": 3.34759,
+      "population": 12964,
+      "populationRank": 194,
+      "isCapital": false
+    },
+    {
+      "id": "2328153",
+      "name": "Obubra",
+      "latitude": 6.07672,
+      "longitude": 8.33241,
+      "population": 12885,
+      "populationRank": 195,
+      "isCapital": false
+    },
+    {
+      "id": "2351657",
+      "name": "Ahoada",
+      "latitude": 5.0828,
+      "longitude": 6.64981,
+      "population": 12848,
+      "populationRank": 196,
+      "isCapital": false
+    },
+    {
+      "id": "2351927",
+      "name": "Agenebode",
+      "latitude": 7.10512,
+      "longitude": 6.69381,
+      "population": 12730,
+      "populationRank": 197,
+      "isCapital": false
+    },
+    {
+      "id": "2351461",
+      "name": "Ajasse Ipo",
+      "latitude": 8.23333,
+      "longitude": 4.81667,
+      "population": 12718,
+      "populationRank": 198,
+      "isCapital": false
+    },
+    {
+      "id": "2332197",
+      "name": "Lau",
+      "latitude": 9.20827,
+      "longitude": 11.27541,
+      "population": 12657,
+      "populationRank": 199,
+      "isCapital": false
+    },
+    {
+      "id": "2344217",
+      "name": "Dutsin-Ma",
+      "latitude": 12.45392,
+      "longitude": 7.49723,
+      "population": 12595,
+      "populationRank": 200,
+      "isCapital": false
+    }
+  ]
+}

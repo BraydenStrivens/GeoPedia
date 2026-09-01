@@ -1,0 +1,130 @@
+{
+  "towns": [
+    {
+      "id": "3570675",
+      "name": "Fort-de-France",
+      "latitude": 14.60365,
+      "longitude": -61.07418,
+      "population": 89995,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3570428",
+      "name": "Le Lamentin",
+      "latitude": 14.61341,
+      "longitude": -60.99964,
+      "population": 40581,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3570412",
+      "name": "Le Robert",
+      "latitude": 14.67751,
+      "longitude": -60.94228,
+      "population": 23814,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3569926",
+      "name": "Sainte-Marie",
+      "latitude": 14.78352,
+      "longitude": -60.99227,
+      "population": 20380,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3570429",
+      "name": "Le François",
+      "latitude": 14.61513,
+      "longitude": -60.90311,
+      "population": 19682,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3570785",
+      "name": "Ducos",
+      "latitude": 14.57529,
+      "longitude": -60.97453,
+      "population": 17394,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3569915",
+      "name": "Saint-Joseph",
+      "latitude": 14.67099,
+      "longitude": -61.03905,
+      "population": 16974,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3570446",
+      "name": "La Trinité",
+      "latitude": 14.73807,
+      "longitude": -60.96319,
+      "population": 15040,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3569970",
+      "name": "Rivière-Pilote",
+      "latitude": 14.48738,
+      "longitude": -60.90257,
+      "population": 13359,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3570584",
+      "name": "Le Gros-Morne",
+      "latitude": 14.7,
+      "longitude": -61,
+      "population": 11025,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3569928",
+      "name": "Sainte-Luce",
+      "latitude": 14.46848,
+      "longitude": -60.92138,
+      "population": 9196,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3570410",
+      "name": "Saint-Esprit",
+      "latitude": 14.55,
+      "longitude": -60.93333,
+      "population": 8508,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3570426",
+      "name": "Le Marin",
+      "latitude": 14.47158,
+      "longitude": -60.86989,
+      "population": 7943,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3570392",
+      "name": "Le Vauclin",
+      "latitude": 14.5454,
+      "longitude": -60.83831,
+      "population": 7812,
+      "populationRank": 14,
+      "isCapital": false
+    }
+  ]
+}

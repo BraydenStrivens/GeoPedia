@@ -1,0 +1,58 @@
+{
+  "towns": [
+    {
+      "id": "4795467",
+      "name": "Charlotte Amalie",
+      "latitude": 18.3419,
+      "longitude": -64.9307,
+      "population": 20000,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "4796736",
+      "name": "Tutu",
+      "latitude": 18.33884,
+      "longitude": -64.88653,
+      "population": 5519,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "4795577",
+      "name": "Cruz Bay",
+      "latitude": 18.33134,
+      "longitude": -64.79375,
+      "population": 2743,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "4795479",
+      "name": "Christiansted",
+      "latitude": 17.74681,
+      "longitude": -64.70557,
+      "population": 1866,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "4795549",
+      "name": "Coral Bay",
+      "latitude": 18.34801,
+      "longitude": -64.71319,
+      "population": 615,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "4795761",
+      "name": "Frederiksted",
+      "latitude": 17.71233,
+      "longitude": -64.88179,
+      "population": 528,
+      "populationRank": 6,
+      "isCapital": false
+    }
+  ]
+}

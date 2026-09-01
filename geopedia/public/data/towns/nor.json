@@ -1,0 +1,1192 @@
+{
+  "towns": [
+    {
+      "id": "3143244",
+      "name": "Oslo",
+      "latitude": 59.91273,
+      "longitude": 10.74609,
+      "population": 1082575,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3161732",
+      "name": "Bergen",
+      "latitude": 60.39299,
+      "longitude": 5.32415,
+      "population": 294029,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3133880",
+      "name": "Trondheim",
+      "latitude": 63.43049,
+      "longitude": 10.39506,
+      "population": 216518,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3137115",
+      "name": "Stavanger",
+      "latitude": 58.97005,
+      "longitude": 5.73332,
+      "population": 151669,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3149318",
+      "name": "Kristiansand",
+      "latitude": 58.14671,
+      "longitude": 7.9956,
+      "population": 117237,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3159016",
+      "name": "Drammen",
+      "latitude": 59.74389,
+      "longitude": 10.20449,
+      "population": 106013,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3147465",
+      "name": "Lillestrøm",
+      "latitude": 59.95597,
+      "longitude": 11.04918,
+      "population": 89684,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3140321",
+      "name": "Sandnes",
+      "latitude": 58.85244,
+      "longitude": 5.73521,
+      "population": 85386,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3156529",
+      "name": "Fredrikstad",
+      "latitude": 59.2181,
+      "longitude": 10.9298,
+      "population": 83761,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3140390",
+      "name": "Sandefjord",
+      "latitude": 59.13118,
+      "longitude": 10.21665,
+      "population": 64345,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3162657",
+      "name": "Asker",
+      "latitude": 59.83333,
+      "longitude": 10.43721,
+      "population": 61906,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3140084",
+      "name": "Sarpsborg",
+      "latitude": 59.28391,
+      "longitude": 11.10962,
+      "population": 59038,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3134331",
+      "name": "Tønsberg",
+      "latitude": 59.26754,
+      "longitude": 10.40762,
+      "population": 55387,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3163392",
+      "name": "Ålesund",
+      "latitude": 62.47225,
+      "longitude": 6.15492,
+      "population": 52626,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3139075",
+      "name": "Skien",
+      "latitude": 59.20962,
+      "longitude": 9.60897,
+      "population": 50595,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3145375",
+      "name": "Moss",
+      "latitude": 59.43403,
+      "longitude": 10.65771,
+      "population": 49668,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3133895",
+      "name": "Tromsø",
+      "latitude": 69.6489,
+      "longitude": 18.95508,
+      "population": 41915,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "3153623",
+      "name": "Haugesund",
+      "latitude": 59.41378,
+      "longitude": 5.268,
+      "population": 40321,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3142657",
+      "name": "Porsgrunn",
+      "latitude": 59.14054,
+      "longitude": 9.6561,
+      "population": 34377,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3160881",
+      "name": "Bodø",
+      "latitude": 67.28267,
+      "longitude": 14.37513,
+      "population": 34073,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3162955",
+      "name": "Arendal",
+      "latitude": 58.46151,
+      "longitude": 8.77253,
+      "population": 30916,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3137942",
+      "name": "Sola",
+      "latitude": 58.88854,
+      "longitude": 5.65285,
+      "population": 29541,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "3154084",
+      "name": "Hamar",
+      "latitude": 60.7945,
+      "longitude": 11.06798,
+      "population": 29479,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3147474",
+      "name": "Lillehammer",
+      "latitude": 61.11514,
+      "longitude": 10.46628,
+      "population": 29011,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "3151770",
+      "name": "Horten",
+      "latitude": 59.41721,
+      "longitude": 10.48343,
+      "population": 27178,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "3155041",
+      "name": "Grimstad",
+      "latitude": 58.3405,
+      "longitude": 8.59343,
+      "population": 24017,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "3149312",
+      "name": "Kristiansund",
+      "latitude": 63.11045,
+      "longitude": 7.72795,
+      "population": 24013,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "3148129",
+      "name": "Larvik",
+      "latitude": 59.05328,
+      "longitude": 10.03517,
+      "population": 23113,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "3145580",
+      "name": "Molde",
+      "latitude": 62.73752,
+      "longitude": 7.15912,
+      "population": 22410,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "3154209",
+      "name": "Halden",
+      "latitude": 59.12478,
+      "longitude": 11.38754,
+      "population": 21970,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "3153823",
+      "name": "Harstad",
+      "latitude": 68.79833,
+      "longitude": 16.54165,
+      "population": 20953,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "3147698",
+      "name": "Levanger",
+      "latitude": 63.74644,
+      "longitude": 11.29963,
+      "population": 20171,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "3145614",
+      "name": "Mo i Rana",
+      "latitude": 66.31278,
+      "longitude": 14.14278,
+      "population": 18866,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "3149563",
+      "name": "Kongsberg",
+      "latitude": 59.66858,
+      "longitude": 9.65017,
+      "population": 17667,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "3155573",
+      "name": "Gjøvik",
+      "latitude": 60.79574,
+      "longitude": 10.69155,
+      "population": 17596,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "847633",
+      "name": "Alta",
+      "latitude": 69.96887,
+      "longitude": 23.27165,
+      "population": 15094,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "3144987",
+      "name": "Narvik",
+      "latitude": 68.43838,
+      "longitude": 17.4272,
+      "population": 14141,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "3147822",
+      "name": "Leirvik",
+      "latitude": 59.77977,
+      "longitude": 5.50051,
+      "population": 14126,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "3151917",
+      "name": "Hønefoss",
+      "latitude": 60.16804,
+      "longitude": 10.25647,
+      "population": 13678,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "3136947",
+      "name": "Steinkjer",
+      "latitude": 64.01487,
+      "longitude": 11.49537,
+      "population": 13060,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "6951004",
+      "name": "Stjørdal",
+      "latitude": 63.46803,
+      "longitude": 10.91776,
+      "population": 13032,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "3132208",
+      "name": "Vennesla",
+      "latitude": 58.26856,
+      "longitude": 7.97314,
+      "population": 12816,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "3139081",
+      "name": "Ski",
+      "latitude": 59.71949,
+      "longitude": 10.83576,
+      "population": 12513,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "3158300",
+      "name": "Elverum",
+      "latitude": 60.88191,
+      "longitude": 11.56231,
+      "population": 12490,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "3162651",
+      "name": "Askim",
+      "latitude": 59.58326,
+      "longitude": 11.16286,
+      "population": 12482,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "3159822",
+      "name": "Bryne",
+      "latitude": 58.73536,
+      "longitude": 5.64766,
+      "population": 12465,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "3150851",
+      "name": "Jessheim",
+      "latitude": 60.14151,
+      "longitude": 11.17515,
+      "population": 12365,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "3144075",
+      "name": "Notodden",
+      "latitude": 59.55936,
+      "longitude": 9.25853,
+      "population": 12359,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "3149533",
+      "name": "Kongsvinger",
+      "latitude": 60.19049,
+      "longitude": 11.99772,
+      "population": 12338,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "3149512",
+      "name": "Kopervik",
+      "latitude": 59.28354,
+      "longitude": 5.30669,
+      "population": 11561,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "779683",
+      "name": "Hammerfest",
+      "latitude": 70.66313,
+      "longitude": 23.68092,
+      "population": 11448,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "3158792",
+      "name": "Egersund",
+      "latitude": 58.45133,
+      "longitude": 5.9997,
+      "population": 11433,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "3158960",
+      "name": "Drøbak",
+      "latitude": 59.66239,
+      "longitude": 10.62801,
+      "population": 11363,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "3146463",
+      "name": "Mandal",
+      "latitude": 58.0274,
+      "longitude": 7.45342,
+      "population": 11053,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "3159894",
+      "name": "Brumunddal",
+      "latitude": 60.88095,
+      "longitude": 10.93948,
+      "population": 11019,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "3336585",
+      "name": "Nesoddtangen",
+      "latitude": 59.86244,
+      "longitude": 10.66308,
+      "population": 10911,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "3131449",
+      "name": "Volda",
+      "latitude": 62.146,
+      "longitude": 6.07108,
+      "population": 10809,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "3137405",
+      "name": "Sortland",
+      "latitude": 68.69569,
+      "longitude": 15.40498,
+      "population": 10468,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "3156804",
+      "name": "Førde",
+      "latitude": 61.45217,
+      "longitude": 5.85717,
+      "population": 10339,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "3145386",
+      "name": "Mosjøen",
+      "latitude": 65.83599,
+      "longitude": 13.19076,
+      "population": 9636,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "3157090",
+      "name": "Flekkefjord",
+      "latitude": 58.29705,
+      "longitude": 6.66069,
+      "population": 9048,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "3156980",
+      "name": "Florø",
+      "latitude": 61.59957,
+      "longitude": 5.0328,
+      "population": 9024,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "3142539",
+      "name": "Råholt",
+      "latitude": 60.27513,
+      "longitude": 11.17901,
+      "population": 8593,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "3145023",
+      "name": "Namsos",
+      "latitude": 64.46624,
+      "longitude": 11.49572,
+      "population": 8413,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "3132176",
+      "name": "Verdal",
+      "latitude": 63.79332,
+      "longitude": 11.4817,
+      "population": 8308,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "3143423",
+      "name": "Orkanger",
+      "latitude": 63.30668,
+      "longitude": 9.85025,
+      "population": 8204,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "3147467",
+      "name": "Lillesand",
+      "latitude": 58.24879,
+      "longitude": 8.3778,
+      "population": 7966,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "3162797",
+      "name": "Ås",
+      "latitude": 59.66472,
+      "longitude": 10.79465,
+      "population": 7961,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "3142228",
+      "name": "Raufoss",
+      "latitude": 60.72604,
+      "longitude": 10.6133,
+      "population": 7839,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "3150742",
+      "name": "Jørpeland",
+      "latitude": 59.02251,
+      "longitude": 6.04078,
+      "population": 7230,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "3336588",
+      "name": "Ørsta",
+      "latitude": 62.19983,
+      "longitude": 6.12904,
+      "population": 6337,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "3152132",
+      "name": "Holmestrand",
+      "latitude": 59.48761,
+      "longitude": 10.31761,
+      "population": 6135,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "3133681",
+      "name": "Tvedestrand",
+      "latitude": 58.62203,
+      "longitude": 8.93147,
+      "population": 6115,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "3157781",
+      "name": "Fauske",
+      "latitude": 67.25883,
+      "longitude": 15.39181,
+      "population": 5953,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "3137091",
+      "name": "Stavern",
+      "latitude": 59,
+      "longitude": 10.03333,
+      "population": 5902,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "3149720",
+      "name": "Knarvik",
+      "latitude": 60.5453,
+      "longitude": 5.28208,
+      "population": 5875,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "3133349",
+      "name": "Ulsteinvik",
+      "latitude": 62.34317,
+      "longitude": 5.84869,
+      "population": 5788,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "3140301",
+      "name": "Sandnessjøen",
+      "latitude": 66.02166,
+      "longitude": 12.63158,
+      "population": 5778,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "3141332",
+      "name": "Røros",
+      "latitude": 62.57468,
+      "longitude": 11.3842,
+      "population": 5572,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "3131329",
+      "name": "Voss",
+      "latitude": 60.62869,
+      "longitude": 6.41474,
+      "population": 5571,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "3145094",
+      "name": "Mysen",
+      "latitude": 59.55354,
+      "longitude": 11.32578,
+      "population": 5516,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "3132058",
+      "name": "Vestby",
+      "latitude": 59.60511,
+      "longitude": 10.75233,
+      "population": 5330,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "3149412",
+      "name": "Kragerø",
+      "latitude": 58.8693,
+      "longitude": 9.41494,
+      "population": 5158,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "3159954",
+      "name": "Brønnøysund",
+      "latitude": 65.47487,
+      "longitude": 12.21285,
+      "population": 5045,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "3163443",
+      "name": "Åkrehamn",
+      "latitude": 59.26053,
+      "longitude": 5.18689,
+      "population": 5018,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "3143830",
+      "name": "Odda",
+      "latitude": 60.06912,
+      "longitude": 6.54565,
+      "population": 4876,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "3135020",
+      "name": "Svolvær",
+      "latitude": 68.23417,
+      "longitude": 14.56834,
+      "population": 4720,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "777073",
+      "name": "Vadsø",
+      "latitude": 70.07348,
+      "longitude": 29.74943,
+      "population": 4654,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "3141747",
+      "name": "Risør",
+      "latitude": 58.72057,
+      "longitude": 9.23422,
+      "population": 4609,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "3145689",
+      "name": "Moelv",
+      "latitude": 60.93333,
+      "longitude": 10.7,
+      "population": 4547,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "3143513",
+      "name": "Oppdal",
+      "latitude": 62.59431,
+      "longitude": 9.6912,
+      "population": 4310,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "3150842",
+      "name": "Jevnaker",
+      "latitude": 60.23979,
+      "longitude": 10.38709,
+      "population": 4308,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "3140056",
+      "name": "Sauda",
+      "latitude": 59.65059,
+      "longitude": 6.35415,
+      "population": 4174,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "3135377",
+      "name": "Sunndalsøra",
+      "latitude": 62.67519,
+      "longitude": 8.56327,
+      "population": 4054,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "7288345",
+      "name": "Sogndal",
+      "latitude": 61.22908,
+      "longitude": 7.09674,
+      "population": 3995,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "3135124",
+      "name": "Svelvik",
+      "latitude": 59.6137,
+      "longitude": 10.40872,
+      "population": 3926,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "3157549",
+      "name": "Finnsnes",
+      "latitude": 69.22959,
+      "longitude": 17.98114,
+      "population": 3907,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "3142520",
+      "name": "Rakkestad",
+      "latitude": 59.42513,
+      "longitude": 11.34535,
+      "population": 3779,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "3146684",
+      "name": "Lyngdal",
+      "latitude": 58.1376,
+      "longitude": 7.07002,
+      "population": 3671,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "3141682",
+      "name": "Rjukan",
+      "latitude": 59.87891,
+      "longitude": 8.59411,
+      "population": 3568,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "7626400",
+      "name": "Leknes",
+      "latitude": 68.14746,
+      "longitude": 13.61151,
+      "population": 3556,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "779303",
+      "name": "Kirkenes",
+      "latitude": 69.72706,
+      "longitude": 30.04578,
+      "population": 3529,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "3157799",
+      "name": "Farsund",
+      "latitude": 58.09479,
+      "longitude": 6.80468,
+      "population": 3377,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "3136690",
+      "name": "Stokmarknes",
+      "latitude": 68.56462,
+      "longitude": 14.91075,
+      "population": 3367,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "3146487",
+      "name": "Måløy",
+      "latitude": 61.93535,
+      "longitude": 5.11362,
+      "population": 3343,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "3138429",
+      "name": "Skudeneshavn",
+      "latitude": 59.14945,
+      "longitude": 5.25913,
+      "population": 3334,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "3131684",
+      "name": "Vikersund",
+      "latitude": 59.96838,
+      "longitude": 9.99107,
+      "population": 3232,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "3144369",
+      "name": "Nordfjordeid",
+      "latitude": 61.9122,
+      "longitude": 5.98557,
+      "population": 2974,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "3162682",
+      "name": "Åsgårdstrand",
+      "latitude": 59.34938,
+      "longitude": 10.46948,
+      "population": 2959,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "3133498",
+      "name": "Tynset",
+      "latitude": 62.27594,
+      "longitude": 10.78241,
+      "population": 2779,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "3131538",
+      "name": "Vinstra",
+      "latitude": 61.59496,
+      "longitude": 9.75134,
+      "population": 2678,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "3141310",
+      "name": "Rørvik",
+      "latitude": 64.86201,
+      "longitude": 11.23734,
+      "population": 2615,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "3141548",
+      "name": "Rognan",
+      "latitude": 67.10021,
+      "longitude": 15.39086,
+      "population": 2584,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "3155422",
+      "name": "Gol",
+      "latitude": 60.7014,
+      "longitude": 8.94572,
+      "population": 2530,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "3160911",
+      "name": "Bø",
+      "latitude": 59.41299,
+      "longitude": 9.0693,
+      "population": 2522,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "779554",
+      "name": "Honningsvåg",
+      "latitude": 70.98209,
+      "longitude": 25.97037,
+      "population": 2484,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "3137169",
+      "name": "Stange",
+      "latitude": 60.71803,
+      "longitude": 11.19417,
+      "population": 2416,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "3163155",
+      "name": "Åndalsnes",
+      "latitude": 62.56749,
+      "longitude": 7.68709,
+      "population": 2403,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "3143120",
+      "name": "Otta",
+      "latitude": 61.7712,
+      "longitude": 9.53529,
+      "population": 2283,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "779082",
+      "name": "Lakselv",
+      "latitude": 70.05133,
+      "longitude": 24.97182,
+      "population": 2283,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "779330",
+      "name": "Kautokeino",
+      "latitude": 69.01247,
+      "longitude": 23.04116,
+      "population": 2000,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "3157897",
+      "name": "Fagernes",
+      "latitude": 60.98584,
+      "longitude": 9.23236,
+      "population": 1951,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "777019",
+      "name": "Vardø",
+      "latitude": 70.37048,
+      "longitude": 31.11066,
+      "population": 1875,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "779350",
+      "name": "Kárášjohka",
+      "latitude": 69.47187,
+      "longitude": 25.51122,
+      "population": 1844,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "3160100",
+      "name": "Brekstad",
+      "latitude": 63.68697,
+      "longitude": 9.66541,
+      "population": 1835,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "3143368",
+      "name": "Ørnes",
+      "latitude": 66.86878,
+      "longitude": 13.70579,
+      "population": 1624,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "3149577",
+      "name": "Kolvereid",
+      "latitude": 64.86549,
+      "longitude": 11.60465,
+      "population": 1467,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "777381",
+      "name": "Storslett",
+      "latitude": 69.76783,
+      "longitude": 21.02466,
+      "population": 1455,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "3160491",
+      "name": "Botngård",
+      "latitude": 63.76484,
+      "longitude": 9.80863,
+      "population": 1144,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "3155487",
+      "name": "Glomfjord",
+      "latitude": 66.81663,
+      "longitude": 13.94404,
+      "population": 1089,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "780687",
+      "name": "Berlevåg",
+      "latitude": 70.85778,
+      "longitude": 29.08636,
+      "population": 906,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "3163094",
+      "name": "Andselv",
+      "latitude": 69.06554,
+      "longitude": 18.51552,
+      "population": 741,
+      "populationRank": 132,
+      "isCapital": false
+    }
+  ]
+}

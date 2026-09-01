@@ -1,0 +1,499 @@
+{
+  "towns": [
+    {
+      "id": "2422465",
+      "name": "Conakry",
+      "latitude": 9.53795,
+      "longitude": -13.67729,
+      "population": 1928389,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "2416969",
+      "name": "Nzérékoré",
+      "latitude": 7.75624,
+      "longitude": -8.8179,
+      "population": 226426,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2419992",
+      "name": "Kankan",
+      "latitude": 10.38542,
+      "longitude": -9.30568,
+      "population": 221428,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2421535",
+      "name": "Dubréka",
+      "latitude": 9.79111,
+      "longitude": -13.52333,
+      "population": 182296,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2419533",
+      "name": "Kindia",
+      "latitude": 10.05692,
+      "longitude": -12.86576,
+      "population": 161024,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2415703",
+      "name": "Siguiri",
+      "latitude": 11.42282,
+      "longitude": -9.16852,
+      "population": 148018,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2419472",
+      "name": "Kissidougou",
+      "latitude": 9.1848,
+      "longitude": -10.09987,
+      "population": 116019,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "2416402",
+      "name": "Kamsar",
+      "latitude": 10.65,
+      "longitude": -14.61667,
+      "population": 113350,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2418362",
+      "name": "Labé",
+      "latitude": 11.31823,
+      "longitude": -12.28332,
+      "population": 107571,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2420562",
+      "name": "Gueckedou",
+      "latitude": 8.56744,
+      "longitude": -10.1336,
+      "population": 79140,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2417833",
+      "name": "Mamou",
+      "latitude": 10.37546,
+      "longitude": -12.09148,
+      "population": 79109,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "2422457",
+      "name": "Coyah",
+      "latitude": 9.70643,
+      "longitude": -13.38465,
+      "population": 77103,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2421273",
+      "name": "Faranah",
+      "latitude": 10.04036,
+      "longitude": -10.74343,
+      "population": 70181,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2417988",
+      "name": "Macenta",
+      "latitude": 8.54351,
+      "longitude": -9.47099,
+      "population": 68020,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2420884",
+      "name": "Fria",
+      "latitude": 10.36676,
+      "longitude": -13.58253,
+      "population": 64169,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "2422924",
+      "name": "Boké",
+      "latitude": 10.93217,
+      "longitude": -14.29055,
+      "population": 63736,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "13562381",
+      "name": "Kolaboui",
+      "latitude": 10.79569,
+      "longitude": -14.39966,
+      "population": 57251,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2416085",
+      "name": "Sangarédi",
+      "latitude": 11.1,
+      "longitude": -13.76667,
+      "population": 54824,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2418623",
+      "name": "Koumbia",
+      "latitude": 11.8,
+      "longitude": -13.5,
+      "population": 45970,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2418437",
+      "name": "Kouroussa",
+      "latitude": 10.65,
+      "longitude": -9.88333,
+      "population": 36295,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2418092",
+      "name": "Lola",
+      "latitude": 7.8,
+      "longitude": -8.53333,
+      "population": 32555,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "13562331",
+      "name": "Kolenté",
+      "latitude": 10.28578,
+      "longitude": -12.43699,
+      "population": 31312,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2414926",
+      "name": "Télimélé",
+      "latitude": 10.9,
+      "longitude": -13.03333,
+      "population": 30311,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "2422442",
+      "name": "Dabola",
+      "latitude": 10.7433,
+      "longitude": -11.10778,
+      "population": 29449,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2423018",
+      "name": "Bissikrima",
+      "latitude": 10.85,
+      "longitude": -10.93333,
+      "population": 28840,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "2419498",
+      "name": "Kintinian",
+      "latitude": 11.6,
+      "longitude": -9.38333,
+      "population": 27969,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "2419622",
+      "name": "Kérouané",
+      "latitude": 9.26667,
+      "longitude": -9.01667,
+      "population": 26990,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2414545",
+      "name": "Tougué",
+      "latitude": 11.44503,
+      "longitude": -11.66422,
+      "population": 25531,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2416443",
+      "name": "Pita",
+      "latitude": 11.05915,
+      "longitude": -12.39498,
+      "population": 25355,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2414341",
+      "name": "Wendou Borou",
+      "latitude": 11.43333,
+      "longitude": -13.88333,
+      "population": 25150,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "2423459",
+      "name": "Banko",
+      "latitude": 10.71667,
+      "longitude": -10.71667,
+      "population": 23638,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2421690",
+      "name": "Douako",
+      "latitude": 9.73333,
+      "longitude": -10.18333,
+      "population": 23416,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2420985",
+      "name": "Forécariah",
+      "latitude": 9.43056,
+      "longitude": -13.08806,
+      "population": 23350,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "2418596",
+      "name": "Koundara",
+      "latitude": 12.48333,
+      "longitude": -13.3,
+      "population": 22326,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "2421903",
+      "name": "Dinguiraye",
+      "latitude": 11.29062,
+      "longitude": -10.7121,
+      "population": 20993,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "2423126",
+      "name": "Beyla",
+      "latitude": 8.69011,
+      "longitude": -8.64869,
+      "population": 19848,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "2417795",
+      "name": "Mandiana",
+      "latitude": 10.62577,
+      "longitude": -8.69413,
+      "population": 19110,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "2417394",
+      "name": "Moussadou",
+      "latitude": 8.76667,
+      "longitude": -8.61667,
+      "population": 16725,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "2414635",
+      "name": "Tomba-kanssa",
+      "latitude": 11.72321,
+      "longitude": -10.18899,
+      "population": 13560,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "2414758",
+      "name": "Timbo",
+      "latitude": 10.63333,
+      "longitude": -11.83333,
+      "population": 13364,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "2415825",
+      "name": "Selouma",
+      "latitude": 11.11667,
+      "longitude": -10.98333,
+      "population": 13188,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "2414616",
+      "name": "Tondon",
+      "latitude": 10.36667,
+      "longitude": -13.35,
+      "population": 12235,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "2422968",
+      "name": "Boffa",
+      "latitude": 10.16667,
+      "longitude": -14.03333,
+      "population": 10020,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "2422383",
+      "name": "Dalaba",
+      "latitude": 10.69249,
+      "longitude": -12.24967,
+      "population": 9925,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "2418764",
+      "name": "Koubia",
+      "latitude": 11.58632,
+      "longitude": -11.89485,
+      "population": 9909,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "2414079",
+      "name": "Yomou",
+      "latitude": 7.56748,
+      "longitude": -9.26283,
+      "population": 8674,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "2420826",
+      "name": "Gaoual",
+      "latitude": 11.75,
+      "longitude": -13.2,
+      "population": 7461,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "2414659",
+      "name": "Tokonou",
+      "latitude": 9.65,
+      "longitude": -9.78333,
+      "population": 6729,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "2417886",
+      "name": "Mali",
+      "latitude": 12.079,
+      "longitude": -12.2982,
+      "population": 6293,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "2578880",
+      "name": "Lélouma",
+      "latitude": 11.42383,
+      "longitude": -12.68183,
+      "population": 5337,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "2415697",
+      "name": "Siguirini",
+      "latitude": 11.8288,
+      "longitude": -10.04548,
+      "population": 2054,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "2416168",
+      "name": "Samoé",
+      "latitude": 7.80528,
+      "longitude": -8.8675,
+      "population": 2054,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "2417005",
+      "name": "Norassouba",
+      "latitude": 10.91667,
+      "longitude": -9.48333,
+      "population": 1445,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "2420161",
+      "name": "Kalinko",
+      "latitude": 11.11667,
+      "longitude": -11.18333,
+      "population": 436,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "2418289",
+      "name": "Lansanaya",
+      "latitude": 11.38333,
+      "longitude": -10.88333,
+      "population": 423,
+      "populationRank": 55,
+      "isCapital": false
+    }
+  ]
+}

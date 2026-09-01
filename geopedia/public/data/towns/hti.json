@@ -1,0 +1,787 @@
+{
+  "towns": [
+    {
+      "id": "3718426",
+      "name": "Port-au-Prince",
+      "latitude": 18.54349,
+      "longitude": -72.33881,
+      "population": 1234742,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "6201369",
+      "name": "Carrefour",
+      "latitude": 18.53333,
+      "longitude": -72.4,
+      "population": 511345,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3726786",
+      "name": "Delmas",
+      "latitude": 18.54478,
+      "longitude": -72.30036,
+      "population": 395260,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3719028",
+      "name": "Pétionville",
+      "latitude": 18.5125,
+      "longitude": -72.28528,
+      "population": 376834,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3718420",
+      "name": "Port-de-Paix",
+      "latitude": 19.93984,
+      "longitude": -72.83037,
+      "population": 306217,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3717588",
+      "name": "Saint-Marc",
+      "latitude": 19.11136,
+      "longitude": -72.70078,
+      "population": 266642,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3740007",
+      "name": "Cité Soleil",
+      "latitude": 18.58028,
+      "longitude": -72.33806,
+      "population": 265072,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3727135",
+      "name": "Croix-des-Bouquets",
+      "latitude": 18.57677,
+      "longitude": -72.22625,
+      "population": 229127,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3726540",
+      "name": "Dessalines",
+      "latitude": 19.26177,
+      "longitude": -72.51611,
+      "population": 181903,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3723779",
+      "name": "Jacmel",
+      "latitude": 18.23569,
+      "longitude": -72.53686,
+      "population": 137966,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3728474",
+      "name": "Cap-Haïtien",
+      "latitude": 19.75938,
+      "longitude": -72.19815,
+      "population": 134815,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3722286",
+      "name": "Léogâne",
+      "latitude": 18.5111,
+      "longitude": -72.63343,
+      "population": 134190,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3731088",
+      "name": "Arcahaie",
+      "latitude": 18.77019,
+      "longitude": -72.51226,
+      "population": 130306,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3728097",
+      "name": "Les Cayes",
+      "latitude": 18.19199,
+      "longitude": -73.74948,
+      "population": 125799,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3718962",
+      "name": "Tigwav",
+      "latitude": 18.43117,
+      "longitude": -72.86521,
+      "population": 117504,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3723593",
+      "name": "Jérémie",
+      "latitude": 18.65,
+      "longitude": -74.11667,
+      "population": 97503,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3717560",
+      "name": "Saint-Michel de l'Atalaye",
+      "latitude": 19.37084,
+      "longitude": -72.33472,
+      "population": 95216,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "3720824",
+      "name": "Miragoâne",
+      "latitude": 18.44599,
+      "longitude": -73.08957,
+      "population": 89202,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3724696",
+      "name": "Gonaïves",
+      "latitude": 19.44755,
+      "longitude": -72.68928,
+      "population": 84961,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3716667",
+      "name": "Thomazeau",
+      "latitude": 18.65297,
+      "longitude": -72.09391,
+      "population": 52017,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3724337",
+      "name": "Grangwav",
+      "latitude": 18.4259,
+      "longitude": -72.76995,
+      "population": 49288,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3716044",
+      "name": "Verrettes",
+      "latitude": 19.0505,
+      "longitude": -72.46585,
+      "population": 48724,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "3717546",
+      "name": "Saint-Raphaël",
+      "latitude": 19.43877,
+      "longitude": -72.1991,
+      "population": 37739,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3722124",
+      "name": "Lenbe",
+      "latitude": 19.70603,
+      "longitude": -72.40336,
+      "population": 32645,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "3716737",
+      "name": "Terrier Rouge",
+      "latitude": 19.63634,
+      "longitude": -71.95483,
+      "population": 21328,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "3723841",
+      "name": "Hinche",
+      "latitude": 19.1409,
+      "longitude": -72.01194,
+      "population": 18590,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "3725276",
+      "name": "Fond Parisien",
+      "latitude": 18.50547,
+      "longitude": -71.98122,
+      "population": 18256,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "3724331",
+      "name": "Grand Gosier",
+      "latitude": 18.18543,
+      "longitude": -71.9182,
+      "population": 17059,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "3717600",
+      "name": "Saint-Louis du Nord",
+      "latitude": 19.93397,
+      "longitude": -72.72138,
+      "population": 11849,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "3725170",
+      "name": "Fort Liberté",
+      "latitude": 19.66254,
+      "longitude": -71.8351,
+      "population": 11465,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "3716224",
+      "name": "Trou du Nord",
+      "latitude": 19.61668,
+      "longitude": -72.02442,
+      "population": 10569,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "3719436",
+      "name": "Ouanaminthe",
+      "latitude": 19.54934,
+      "longitude": -71.72475,
+      "population": 10118,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "3720811",
+      "name": "Mirebalais",
+      "latitude": 18.83455,
+      "longitude": -72.1048,
+      "population": 9082,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "3724439",
+      "name": "Grande Rivière du Nord",
+      "latitude": 19.57744,
+      "longitude": -72.16872,
+      "population": 8836,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "3722253",
+      "name": "Les Anglais",
+      "latitude": 18.3054,
+      "longitude": -74.21968,
+      "population": 8247,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "3722579",
+      "name": "Lascahobas",
+      "latitude": 18.83047,
+      "longitude": -71.93563,
+      "population": 7574,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "3724145",
+      "name": "Gros Morne",
+      "latitude": 19.6708,
+      "longitude": -72.67808,
+      "population": 7294,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "3731132",
+      "name": "Anse à Galets",
+      "latitude": 18.83449,
+      "longitude": -72.86644,
+      "population": 7178,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "3718834",
+      "name": "Pignon",
+      "latitude": 19.33594,
+      "longitude": -72.11662,
+      "population": 6731,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "3727055",
+      "name": "Dame-Marie",
+      "latitude": 18.56107,
+      "longitude": -74.42167,
+      "population": 6036,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "3720854",
+      "name": "Milot",
+      "latitude": 19.60837,
+      "longitude": -72.21319,
+      "population": 5534,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "3723618",
+      "name": "Jean-Rabel",
+      "latitude": 19.85379,
+      "longitude": -73.19131,
+      "population": 5419,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "3731095",
+      "name": "Aquin",
+      "latitude": 18.27974,
+      "longitude": -73.39433,
+      "population": 5246,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "3721711",
+      "name": "Mayisad",
+      "latitude": 19.17607,
+      "longitude": -72.13958,
+      "population": 5204,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "3726263",
+      "name": "Dondon",
+      "latitude": 19.52734,
+      "longitude": -72.24337,
+      "population": 5029,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "3716669",
+      "name": "Thomassique",
+      "latitude": 19.08209,
+      "longitude": -71.83855,
+      "population": 4857,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "3731105",
+      "name": "Anse Rouge",
+      "latitude": 19.63382,
+      "longitude": -73.0553,
+      "population": 4437,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "3722339",
+      "name": "Borgne",
+      "latitude": 19.84507,
+      "longitude": -72.52349,
+      "population": 4288,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "3718666",
+      "name": "Plaisance",
+      "latitude": 19.59795,
+      "longitude": -72.46994,
+      "population": 4152,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "3728964",
+      "name": "Cabaret",
+      "latitude": 18.73582,
+      "longitude": -72.41929,
+      "population": 3951,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "3727902",
+      "name": "Chardonnière",
+      "latitude": 18.27484,
+      "longitude": -74.16613,
+      "population": 3930,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "3718431",
+      "name": "Port-à-Piment",
+      "latitude": 18.24963,
+      "longitude": -74.0971,
+      "population": 3819,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "3722110",
+      "name": "Limonade",
+      "latitude": 19.67014,
+      "longitude": -72.1243,
+      "population": 3810,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "3716663",
+      "name": "Thomonde",
+      "latitude": 19.0173,
+      "longitude": -71.96235,
+      "population": 3696,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "3731233",
+      "name": "Acul du Nord",
+      "latitude": 19.68075,
+      "longitude": -72.31978,
+      "population": 3454,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "3720765",
+      "name": "Môle Saint-Nicolas",
+      "latitude": 19.80794,
+      "longitude": -73.37786,
+      "population": 3224,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "3728054",
+      "name": "Cerca la Source",
+      "latitude": 19.16696,
+      "longitude": -71.79015,
+      "population": 2792,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "3725222",
+      "name": "Fonds Verrettes",
+      "latitude": 18.39566,
+      "longitude": -71.85634,
+      "population": 2789,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "3727398",
+      "name": "Corail",
+      "latitude": 18.56766,
+      "longitude": -73.88942,
+      "population": 2782,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "3725364",
+      "name": "Fond des Blancs",
+      "latitude": 18.27782,
+      "longitude": -73.12733,
+      "population": 2653,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "3730363",
+      "name": "Belle-Anse",
+      "latitude": 18.23768,
+      "longitude": -72.06638,
+      "population": 2611,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "3716679",
+      "name": "Thiotte",
+      "latitude": 18.24384,
+      "longitude": -71.84157,
+      "population": 2461,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "3721280",
+      "name": "Marmelade",
+      "latitude": 19.51736,
+      "longitude": -72.36133,
+      "population": 2184,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "3718938",
+      "name": "Petit Trou de Nippes",
+      "latitude": 18.52535,
+      "longitude": -73.50815,
+      "population": 2130,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "3720667",
+      "name": "Montòrganize",
+      "latitude": 19.40815,
+      "longitude": -71.78132,
+      "population": 2104,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "3728386",
+      "name": "Carice",
+      "latitude": 19.37795,
+      "longitude": -71.8303,
+      "population": 2104,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "3727297",
+      "name": "Koto",
+      "latitude": 18.20601,
+      "longitude": -74.04013,
+      "population": 2065,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "3729548",
+      "name": "Bombardopolis",
+      "latitude": 19.69142,
+      "longitude": -73.33769,
+      "population": 1974,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "3719099",
+      "name": "Perches",
+      "latitude": 19.52201,
+      "longitude": -71.92323,
+      "population": 1889,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "3726728",
+      "name": "Dérac",
+      "latitude": 19.65476,
+      "longitude": -71.81451,
+      "population": 1855,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "3720455",
+      "name": "Moron",
+      "latitude": 18.56039,
+      "longitude": -74.25777,
+      "population": 1830,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "3724432",
+      "name": "Grande Saline",
+      "latitude": 19.26513,
+      "longitude": -72.76897,
+      "population": 1787,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "3731126",
+      "name": "Anse-à-Pitre",
+      "latitude": 18.05,
+      "longitude": -71.75,
+      "population": 1736,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "3731123",
+      "name": "Anse-à-Veau",
+      "latitude": 18.5011,
+      "longitude": -73.3449,
+      "population": 1731,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "3721313",
+      "name": "Marigot",
+      "latitude": 18.23167,
+      "longitude": -72.32289,
+      "population": 1698,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "3730800",
+      "name": "Baradères",
+      "latitude": 18.48255,
+      "longitude": -73.63884,
+      "population": 1666,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "3730932",
+      "name": "Baie de Henne",
+      "latitude": 19.66307,
+      "longitude": -73.20943,
+      "population": 1660,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "3730937",
+      "name": "Bahon",
+      "latitude": 19.46959,
+      "longitude": -72.11466,
+      "population": 1618,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "3728093",
+      "name": "Cayes-Jacmel",
+      "latitude": 18.2311,
+      "longitude": -72.39545,
+      "population": 1609,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "3728428",
+      "name": "Caracol",
+      "latitude": 19.69274,
+      "longitude": -72.01733,
+      "population": 1549,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "3717596",
+      "name": "Saint-Louis du Sud",
+      "latitude": 18.26241,
+      "longitude": -73.54603,
+      "population": 1528,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "3725663",
+      "name": "Ennery",
+      "latitude": 19.48342,
+      "longitude": -72.48537,
+      "population": 1511,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "3718199",
+      "name": "Ranquitte",
+      "latitude": 19.41327,
+      "longitude": -72.08077,
+      "population": 1391,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "3718278",
+      "name": "Quartier Morin",
+      "latitude": 19.69696,
+      "longitude": -72.15712,
+      "population": 1299,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "3728122",
+      "name": "Cavaillon",
+      "latitude": 18.29987,
+      "longitude": -73.65455,
+      "population": 1023,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "3716785",
+      "name": "Terre Neuve",
+      "latitude": 19.59946,
+      "longitude": -72.78088,
+      "population": 911,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "3722563",
+      "name": "L'Asile",
+      "latitude": 18.38398,
+      "longitude": -73.41435,
+      "population": 778,
+      "populationRank": 87,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,1129 @@
+{
+  "towns": [
+    {
+      "id": "3441575",
+      "name": "Montevideo",
+      "latitude": -34.90328,
+      "longitude": -56.18816,
+      "population": 1270737,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3440714",
+      "name": "Salto",
+      "latitude": -31.38811,
+      "longitude": -57.95983,
+      "population": 114084,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3441894",
+      "name": "Maldonado",
+      "latitude": -34.89791,
+      "longitude": -54.95021,
+      "population": 102000,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3440781",
+      "name": "Rivera",
+      "latitude": -30.90534,
+      "longitude": -55.55076,
+      "population": 84775,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3441243",
+      "name": "Paysandú",
+      "latitude": -32.3171,
+      "longitude": -58.08072,
+      "population": 81550,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3442057",
+      "name": "Las Piedras",
+      "latitude": -34.7302,
+      "longitude": -56.21915,
+      "population": 69682,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3440034",
+      "name": "Tacuarembó",
+      "latitude": -31.71882,
+      "longitude": -55.97925,
+      "population": 60586,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3441702",
+      "name": "Melo",
+      "latitude": -32.3682,
+      "longitude": -54.16409,
+      "population": 56013,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3443758",
+      "name": "Artigas",
+      "latitude": -30.40431,
+      "longitude": -56.46926,
+      "population": 43897,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3441684",
+      "name": "Mercedes",
+      "latitude": -33.2524,
+      "longitude": -58.03047,
+      "population": 43543,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3442727",
+      "name": "Durazno",
+      "latitude": -33.38063,
+      "longitude": -56.52312,
+      "population": 40279,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3441665",
+      "name": "Minas",
+      "latitude": -34.37589,
+      "longitude": -55.23771,
+      "population": 38645,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3442585",
+      "name": "Florida",
+      "latitude": -34.10032,
+      "longitude": -56.21477,
+      "population": 36471,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3440639",
+      "name": "San José de Mayo",
+      "latitude": -34.33898,
+      "longitude": -56.71339,
+      "population": 35883,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3443013",
+      "name": "Colonia del Sacramento",
+      "latitude": -34.46262,
+      "longitude": -57.83976,
+      "population": 32164,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "10098279",
+      "name": "Barros Blancos",
+      "latitude": -34.7524,
+      "longitude": -56.00259,
+      "population": 31650,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3440696",
+      "name": "San Carlos",
+      "latitude": -34.79123,
+      "longitude": -54.91824,
+      "population": 27471,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "3440777",
+      "name": "Rocha",
+      "latitude": -34.47995,
+      "longitude": -54.33064,
+      "population": 26784,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3442568",
+      "name": "Fray Bentos",
+      "latitude": -33.11651,
+      "longitude": -58.31067,
+      "population": 26297,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3439781",
+      "name": "Treinta y Tres",
+      "latitude": -33.231,
+      "longitude": -54.38577,
+      "population": 25890,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3443413",
+      "name": "Canelones",
+      "latitude": -34.52381,
+      "longitude": -56.28215,
+      "population": 24185,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3441354",
+      "name": "Pando",
+      "latitude": -34.71716,
+      "longitude": -55.9584,
+      "population": 24047,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "3439748",
+      "name": "Trinidad",
+      "latitude": -33.5165,
+      "longitude": -56.89957,
+      "population": 22897,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3442098",
+      "name": "La Paz",
+      "latitude": -34.76031,
+      "longitude": -56.2259,
+      "population": 19913,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "3443341",
+      "name": "Carmelo",
+      "latitude": -34.00023,
+      "longitude": -58.28402,
+      "population": 18041,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "3442750",
+      "name": "Dolores",
+      "latitude": -33.53009,
+      "longitude": -58.21701,
+      "population": 17174,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "3439525",
+      "name": "Young",
+      "latitude": -32.69844,
+      "longitude": -57.62693,
+      "population": 16756,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "3440571",
+      "name": "Santa Lucía",
+      "latitude": -34.45333,
+      "longitude": -56.39056,
+      "population": 16438,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "3440963",
+      "name": "Progreso",
+      "latitude": -34.66737,
+      "longitude": -56.21758,
+      "population": 16244,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "3441292",
+      "name": "Paso de Carrasco",
+      "latitude": -34.86028,
+      "longitude": -56.05222,
+      "population": 15393,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "3440791",
+      "name": "Río Branco",
+      "latitude": -32.59802,
+      "longitude": -53.38583,
+      "population": 14604,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "3441273",
+      "name": "Paso de los Toros",
+      "latitude": -32.81667,
+      "longitude": -56.51667,
+      "population": 12985,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "3443631",
+      "name": "Bella Unión",
+      "latitude": -30.25966,
+      "longitude": -57.59919,
+      "population": 12200,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "3441988",
+      "name": "Libertad",
+      "latitude": -34.63459,
+      "longitude": -56.61739,
+      "population": 10166,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "3440747",
+      "name": "Rosario",
+      "latitude": -34.31667,
+      "longitude": -57.35,
+      "population": 10085,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "3441483",
+      "name": "Nueva Helvecia",
+      "latitude": -34.3,
+      "longitude": -57.23333,
+      "population": 10054,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "3441481",
+      "name": "Nueva Palmira",
+      "latitude": -33.87031,
+      "longitude": -58.41176,
+      "population": 9857,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "3443061",
+      "name": "Chui",
+      "latitude": -33.69792,
+      "longitude": -53.45926,
+      "population": 9675,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "3440939",
+      "name": "Punta del Este",
+      "latitude": -34.94747,
+      "longitude": -54.93382,
+      "population": 9277,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "3440722",
+      "name": "Salinas",
+      "latitude": -34.77731,
+      "longitude": -55.83954,
+      "population": 8626,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "3441074",
+      "name": "Piriápolis",
+      "latitude": -34.86287,
+      "longitude": -55.27471,
+      "population": 7968,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "3443289",
+      "name": "Castillos",
+      "latitude": -34.19871,
+      "longitude": -53.85919,
+      "population": 7541,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "3439787",
+      "name": "Tranqueras",
+      "latitude": -31.2,
+      "longitude": -55.75,
+      "population": 7235,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "3440400",
+      "name": "Sarandí del Yi",
+      "latitude": -33.35,
+      "longitude": -55.63333,
+      "population": 7176,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "3440596",
+      "name": "San Ramón",
+      "latitude": -34.29155,
+      "longitude": -55.95571,
+      "population": 7133,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "3442071",
+      "name": "Lascano",
+      "latitude": -33.67235,
+      "longitude": -54.2065,
+      "population": 6976,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "3439902",
+      "name": "Tarariras",
+      "latitude": -34.26555,
+      "longitude": -57.61866,
+      "population": 6632,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "3441358",
+      "name": "Pan de Azúcar",
+      "latitude": -34.7787,
+      "longitude": -55.23582,
+      "population": 6597,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "3442236",
+      "name": "Joaquín Suárez",
+      "latitude": -34.73501,
+      "longitude": -56.0347,
+      "population": 6570,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "3440394",
+      "name": "Sarandí Grande",
+      "latitude": -33.73333,
+      "longitude": -56.33333,
+      "population": 6130,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "3440379",
+      "name": "Sauce",
+      "latitude": -34.65191,
+      "longitude": -56.06431,
+      "population": 5910,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "3443737",
+      "name": "Atlántida",
+      "latitude": -34.7719,
+      "longitude": -55.7584,
+      "population": 5562,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "3442221",
+      "name": "José Pedro Varela",
+      "latitude": -33.45451,
+      "longitude": -54.53586,
+      "population": 5118,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "3442398",
+      "name": "Guichón",
+      "latitude": -32.35846,
+      "longitude": -57.19778,
+      "population": 5051,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "3440021",
+      "name": "Tala",
+      "latitude": -34.34349,
+      "longitude": -55.76375,
+      "population": 4949,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "3443352",
+      "name": "Cardona",
+      "latitude": -33.87049,
+      "longitude": -57.36954,
+      "population": 4600,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "3439838",
+      "name": "Toledo",
+      "latitude": -34.73807,
+      "longitude": -56.09469,
+      "population": 4397,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "3442683",
+      "name": "Empalme Olmos",
+      "latitude": -34.69753,
+      "longitude": -55.89268,
+      "population": 4199,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "3440654",
+      "name": "San Jacinto",
+      "latitude": -34.54465,
+      "longitude": -55.87151,
+      "population": 3954,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "3439622",
+      "name": "Vergara",
+      "latitude": -32.94419,
+      "longitude": -53.9381,
+      "population": 3810,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "3441659",
+      "name": "Minas de Corrales",
+      "latitude": -31.57375,
+      "longitude": -55.47075,
+      "population": 3788,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "3440554",
+      "name": "Santa Rosa",
+      "latitude": -34.49819,
+      "longitude": -56.03795,
+      "population": 3727,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "3442597",
+      "name": "Florencio Sánchez",
+      "latitude": -33.87785,
+      "longitude": -57.37166,
+      "population": 3716,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "3439619",
+      "name": "Vichadero",
+      "latitude": -31.77794,
+      "longitude": -54.69183,
+      "population": 3698,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "10861467",
+      "name": "Marindia",
+      "latitude": -34.77433,
+      "longitude": -55.82406,
+      "population": 3543,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "3442105",
+      "name": "La Paloma",
+      "latitude": -34.66268,
+      "longitude": -54.16452,
+      "population": 3495,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "3440656",
+      "name": "San Gregorio de Polanco",
+      "latitude": -32.61667,
+      "longitude": -55.83333,
+      "population": 3415,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "3441442",
+      "name": "Ombúes de Lavalle",
+      "latitude": -33.93783,
+      "longitude": -57.80959,
+      "population": 3390,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "3439696",
+      "name": "Colonia Valdense",
+      "latitude": -34.33957,
+      "longitude": -57.26246,
+      "population": 3235,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "3442582",
+      "name": "Fraile Muerto",
+      "latitude": -32.51667,
+      "longitude": -54.53333,
+      "population": 3168,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "3442050",
+      "name": "Las Toscas",
+      "latitude": -34.73333,
+      "longitude": -55.71667,
+      "population": 3146,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "3439831",
+      "name": "Tomás Gomensoro",
+      "latitude": -30.4287,
+      "longitude": -57.43609,
+      "population": 2872,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "3440925",
+      "name": "Quebracho",
+      "latitude": -31.93526,
+      "longitude": -57.9014,
+      "population": 2853,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "3442939",
+      "name": "Villa Constitución",
+      "latitude": -31.06913,
+      "longitude": -57.84946,
+      "population": 2846,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "3440063",
+      "name": "Solís de Mataojo",
+      "latitude": -34.59951,
+      "longitude": -55.46808,
+      "population": 2825,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "3439598",
+      "name": "Villa del Carmen",
+      "latitude": -33.23943,
+      "longitude": -56.00936,
+      "population": 2703,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "3440762",
+      "name": "Rodríguez",
+      "latitude": -34.381,
+      "longitude": -56.53797,
+      "population": 2604,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "3442716",
+      "name": "Ecilda Paullier",
+      "latitude": -34.35778,
+      "longitude": -57.04883,
+      "population": 2585,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "3443697",
+      "name": "Baltasar Brum",
+      "latitude": -30.71905,
+      "longitude": -57.32596,
+      "population": 2531,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "3441954",
+      "name": "Los Cerrillos",
+      "latitude": -34.605,
+      "longitude": -56.35639,
+      "population": 2508,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "3443909",
+      "name": "Aiguá",
+      "latitude": -34.20498,
+      "longitude": -54.75665,
+      "population": 2465,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "3441476",
+      "name": "Nuevo Berlín",
+      "latitude": -32.97974,
+      "longitude": -58.05858,
+      "population": 2450,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "3443280",
+      "name": "Casupá",
+      "latitude": -34.09994,
+      "longitude": -55.64811,
+      "population": 2402,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "3440577",
+      "name": "Santa Clara de Olimar",
+      "latitude": -32.92254,
+      "longitude": -54.94447,
+      "population": 2341,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "3442299",
+      "name": "Isidoro Noblía",
+      "latitude": -31.96218,
+      "longitude": -54.12309,
+      "population": 2331,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "3442233",
+      "name": "José Batlle y Ordóñez",
+      "latitude": -33.46667,
+      "longitude": -55.11667,
+      "population": 2203,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "3441377",
+      "name": "Palmitas",
+      "latitude": -33.50719,
+      "longitude": -57.80079,
+      "population": 2123,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "3442231",
+      "name": "José Enrique Rodó",
+      "latitude": -33.69618,
+      "longitude": -57.53153,
+      "population": 2120,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "3441674",
+      "name": "Migues",
+      "latitude": -34.48759,
+      "longitude": -55.62793,
+      "population": 2109,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "3443644",
+      "name": "Belén",
+      "latitude": -30.78716,
+      "longitude": -57.77577,
+      "population": 2033,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "3440698",
+      "name": "San Bautista",
+      "latitude": -34.44016,
+      "longitude": -55.95861,
+      "population": 1905,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "3439659",
+      "name": "25 de Mayo",
+      "latitude": -34.18917,
+      "longitude": -56.33944,
+      "population": 1852,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "3439661",
+      "name": "25 de Agosto",
+      "latitude": -34.41167,
+      "longitude": -56.40222,
+      "population": 1849,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "3440653",
+      "name": "San Javier",
+      "latitude": -32.66523,
+      "longitude": -58.1332,
+      "population": 1781,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "3441577",
+      "name": "Montes",
+      "latitude": -34.49339,
+      "longitude": -55.56219,
+      "population": 1760,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "3440076",
+      "name": "Soca",
+      "latitude": -34.68432,
+      "longitude": -55.702,
+      "population": 1742,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "3440684",
+      "name": "San Félix",
+      "latitude": -32.34631,
+      "longitude": -58.10094,
+      "population": 1718,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "3441803",
+      "name": "Mariscala",
+      "latitude": -34.04085,
+      "longitude": -54.77732,
+      "population": 1626,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "3443256",
+      "name": "Cebollatí",
+      "latitude": -33.26703,
+      "longitude": -53.79425,
+      "population": 1609,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "3442106",
+      "name": "La Paloma",
+      "latitude": -32.72689,
+      "longitude": -55.5827,
+      "population": 1567,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "3439925",
+      "name": "Tambores",
+      "latitude": -31.87743,
+      "longitude": -56.24438,
+      "population": 1561,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "3443952",
+      "name": "Aceguá",
+      "latitude": -31.87178,
+      "longitude": -54.16351,
+      "population": 1511,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "3480812",
+      "name": "Puntas de Valdéz",
+      "latitude": -34.5855,
+      "longitude": -56.70097,
+      "population": 1491,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "3440705",
+      "name": "San Antonio",
+      "latitude": -34.4513,
+      "longitude": -56.08036,
+      "population": 1453,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "3442528",
+      "name": "General Enrique Martínez",
+      "latitude": -33.20388,
+      "longitude": -53.80524,
+      "population": 1430,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "3443183",
+      "name": "Alejandro Gallinal",
+      "latitude": -33.86252,
+      "longitude": -55.54264,
+      "population": 1357,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "10636508",
+      "name": "Puimayen",
+      "latitude": -33.77411,
+      "longitude": -53.40925,
+      "population": 1346,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "3442238",
+      "name": "Juanicó",
+      "latitude": -34.59454,
+      "longitude": -56.25334,
+      "population": 1305,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "3443356",
+      "name": "Cardal",
+      "latitude": -34.29056,
+      "longitude": -56.38889,
+      "population": 1291,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "3440879",
+      "name": "Rafael Perazza",
+      "latitude": -34.52335,
+      "longitude": -56.7971,
+      "population": 1274,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "3439590",
+      "name": "Villa Sara",
+      "latitude": -33.2534,
+      "longitude": -54.41947,
+      "population": 1199,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "3440984",
+      "name": "Porvenir",
+      "latitude": -32.39273,
+      "longitude": -57.96961,
+      "population": 1159,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "3440092",
+      "name": "Pueblo Sequeira",
+      "latitude": -30.9892,
+      "longitude": -56.87044,
+      "population": 1149,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "3440055",
+      "name": "Villa Soriano",
+      "latitude": -33.39811,
+      "longitude": -58.32177,
+      "population": 1124,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "3439725",
+      "name": "Tupambaé",
+      "latitude": -32.83333,
+      "longitude": -54.76667,
+      "population": 1122,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "3442138",
+      "name": "La Floresta",
+      "latitude": -34.75572,
+      "longitude": -55.68141,
+      "population": 1107,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "3441114",
+      "name": "Piedras Coloradas",
+      "latitude": -32.37183,
+      "longitude": -57.60901,
+      "population": 1094,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "3443588",
+      "name": "Blanquillo",
+      "latitude": -32.76667,
+      "longitude": -55.63333,
+      "population": 1084,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "3440580",
+      "name": "Santa Catalina",
+      "latitude": -33.791,
+      "longitude": -57.48824,
+      "population": 1067,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "3443928",
+      "name": "Aguas Corrientes",
+      "latitude": -34.52194,
+      "longitude": -56.39361,
+      "population": 1047,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "3442803",
+      "name": "Curtina",
+      "latitude": -32.15,
+      "longitude": -56.11667,
+      "population": 1037,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "3442766",
+      "name": "Dieciocho de Julio",
+      "latitude": -33.68216,
+      "longitude": -53.55325,
+      "population": 977,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "3443342",
+      "name": "Carlos Reyles",
+      "latitude": -33.05658,
+      "longitude": -56.47652,
+      "population": 976,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "3442993",
+      "name": "Colonia Lavalleja",
+      "latitude": -31.09386,
+      "longitude": -57.02332,
+      "population": 956,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "6691980",
+      "name": "Punta del Diablo",
+      "latitude": -34.04583,
+      "longitude": -53.5405,
+      "population": 300,
+      "populationRank": 125,
+      "isCapital": false
+    }
+  ]
+}

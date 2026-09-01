@@ -1,0 +1,1804 @@
+{
+  "towns": [
+    {
+      "id": "1275339",
+      "name": "Mumbai",
+      "latitude": 19.07283,
+      "longitude": 72.88261,
+      "population": 12691836,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "1273294",
+      "name": "Delhi",
+      "latitude": 28.65195,
+      "longitude": 77.23149,
+      "population": 11034555,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "1277333",
+      "name": "Bengaluru",
+      "latitude": 12.97194,
+      "longitude": 77.59369,
+      "population": 8495492,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "1269843",
+      "name": "Hyderabad",
+      "latitude": 17.38405,
+      "longitude": 78.45636,
+      "population": 6993262,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "1279233",
+      "name": "Ahmedabad",
+      "latitude": 23.02579,
+      "longitude": 72.58727,
+      "population": 6357693,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "1264527",
+      "name": "Chennai",
+      "latitude": 13.08784,
+      "longitude": 80.27847,
+      "population": 4681087,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "1275004",
+      "name": "Kolkata",
+      "latitude": 22.56263,
+      "longitude": 88.36304,
+      "population": 4631392,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "1255364",
+      "name": "Surat",
+      "latitude": 21.19594,
+      "longitude": 72.83023,
+      "population": 4591246,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "1259229",
+      "name": "Pune",
+      "latitude": 18.51957,
+      "longitude": 73.85535,
+      "population": 3124458,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "1269515",
+      "name": "Jaipur",
+      "latitude": 26.91962,
+      "longitude": 75.78781,
+      "population": 3046163,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "1267995",
+      "name": "Kanpur",
+      "latitude": 26.46523,
+      "longitude": 80.34975,
+      "population": 2823249,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "1264733",
+      "name": "Lucknow",
+      "latitude": 26.83928,
+      "longitude": 80.92313,
+      "population": 2472011,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "1262180",
+      "name": "Nagpur",
+      "latitude": 21.14631,
+      "longitude": 79.08491,
+      "population": 2405665,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "1273865",
+      "name": "Coimbatore",
+      "latitude": 11.00555,
+      "longitude": 76.96612,
+      "population": 2136916,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "1269743",
+      "name": "Indore",
+      "latitude": 22.71792,
+      "longitude": 75.8333,
+      "population": 1994397,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "1254661",
+      "name": "Thāne",
+      "latitude": 19.19704,
+      "longitude": 72.96355,
+      "population": 1841488,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "1253573",
+      "name": "Vadodara",
+      "latitude": 22.29941,
+      "longitude": 73.20812,
+      "population": 1822221,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "1275841",
+      "name": "Bhopal",
+      "latitude": 23.25469,
+      "longitude": 77.40289,
+      "population": 1798218,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "7626690",
+      "name": "Pimpri-Chinchwad",
+      "latitude": 18.61867,
+      "longitude": 73.80375,
+      "population": 1727692,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1260086",
+      "name": "Patna",
+      "latitude": 25.59408,
+      "longitude": 85.13563,
+      "population": 1684297,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "12165956",
+      "name": "Kallakurichi",
+      "latitude": 11.73379,
+      "longitude": 78.95925,
+      "population": 1682687,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "1264728",
+      "name": "Ludhiana",
+      "latitude": 30.91204,
+      "longitude": 75.85379,
+      "population": 1618879,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "1261731",
+      "name": "Nashik",
+      "latitude": 19.99727,
+      "longitude": 73.79096,
+      "population": 1486053,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "1264521",
+      "name": "Madurai",
+      "latitude": 9.919,
+      "longitude": 78.11953,
+      "population": 1465625,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "1254361",
+      "name": "Tirunelveli",
+      "latitude": 8.72742,
+      "longitude": 77.6838,
+      "population": 1435844,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "1279259",
+      "name": "Agra",
+      "latitude": 27.18333,
+      "longitude": 78.01667,
+      "population": 1430055,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "1271951",
+      "name": "Faridabad",
+      "latitude": 28.41124,
+      "longitude": 77.31316,
+      "population": 1414050,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "1258847",
+      "name": "Rājkot",
+      "latitude": 22.29161,
+      "longitude": 70.79322,
+      "population": 1390640,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "1262111",
+      "name": "Najafgarh",
+      "latitude": 28.60922,
+      "longitude": 76.97982,
+      "population": 1365000,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "1269300",
+      "name": "Jamshedpur",
+      "latitude": 22.80278,
+      "longitude": 86.18545,
+      "population": 1339438,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "1268295",
+      "name": "Kalyān",
+      "latitude": 19.2437,
+      "longitude": 73.13554,
+      "population": 1262255,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "1263214",
+      "name": "Meerut",
+      "latitude": 28.98002,
+      "longitude": 77.70636,
+      "population": 1223184,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "1261162",
+      "name": "Nowrangapur",
+      "latitude": 19.23114,
+      "longitude": 82.54826,
+      "population": 1220946,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "1255634",
+      "name": "Srinagar",
+      "latitude": 34.08565,
+      "longitude": 74.80555,
+      "population": 1206419,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "1271308",
+      "name": "Ghāziābād",
+      "latitude": 28.66535,
+      "longitude": 77.43915,
+      "population": 1199191,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "1272979",
+      "name": "Dhanbad",
+      "latitude": 23.79759,
+      "longitude": 86.42992,
+      "population": 1196214,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "1278149",
+      "name": "Aurangabad",
+      "latitude": 19.87757,
+      "longitude": 75.34226,
+      "population": 1175116,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "1253405",
+      "name": "Varanasi",
+      "latitude": 25.31668,
+      "longitude": 83.01041,
+      "population": 1164404,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "1278710",
+      "name": "Amritsar",
+      "latitude": 31.62234,
+      "longitude": 74.87534,
+      "population": 1159227,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "1253184",
+      "name": "Vijayawada",
+      "latitude": 16.50745,
+      "longitude": 80.6466,
+      "population": 1143232,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "1258526",
+      "name": "Ranchi",
+      "latitude": 23.34316,
+      "longitude": 85.3094,
+      "population": 1120374,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "1269633",
+      "name": "Jabalpur",
+      "latitude": 23.16697,
+      "longitude": 79.95006,
+      "population": 1081677,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "1278994",
+      "name": "Prayagraj",
+      "latitude": 25.44478,
+      "longitude": 81.84322,
+      "population": 1073438,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "1253102",
+      "name": "Visakhapatnam",
+      "latitude": 17.68009,
+      "longitude": 83.20161,
+      "population": 1063178,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "1268865",
+      "name": "Jodhpur",
+      "latitude": 26.26841,
+      "longitude": 73.00594,
+      "population": 1056191,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "1270583",
+      "name": "Gwalior",
+      "latitude": 26.22983,
+      "longitude": 78.17337,
+      "population": 1054420,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "1270396",
+      "name": "Howrah",
+      "latitude": 22.57688,
+      "longitude": 88.31857,
+      "population": 1027672,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "1258980",
+      "name": "Raipur",
+      "latitude": 21.23333,
+      "longitude": 81.63333,
+      "population": 1027264,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "1254388",
+      "name": "Tiruchirappalli",
+      "latitude": 10.8155,
+      "longitude": 78.69651,
+      "population": 1022518,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "1266049",
+      "name": "Kota",
+      "latitude": 25.18254,
+      "longitude": 75.83907,
+      "population": 1001694,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "1256436",
+      "name": "Sholapur",
+      "latitude": 17.67152,
+      "longitude": 75.91044,
+      "population": 997281,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "1274746",
+      "name": "Chandigarh",
+      "latitude": 30.73629,
+      "longitude": 76.7884,
+      "population": 970602,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "1254348",
+      "name": "Tiruppur",
+      "latitude": 11.11541,
+      "longitude": 77.35456,
+      "population": 963173,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "1271476",
+      "name": "Guwahati",
+      "latitude": 26.1844,
+      "longitude": 91.7458,
+      "population": 962334,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "1269920",
+      "name": "Hubballi",
+      "latitude": 15.34776,
+      "longitude": 75.13378,
+      "population": 943788,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "1262321",
+      "name": "Mysuru",
+      "latitude": 12.29791,
+      "longitude": 76.63925,
+      "population": 920550,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "1257629",
+      "name": "Salem",
+      "latitude": 11.65376,
+      "longitude": 78.15538,
+      "population": 917414,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "1270642",
+      "name": "Gurugram",
+      "latitude": 28.4601,
+      "longitude": 77.02635,
+      "population": 886519,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "1275817",
+      "name": "Bhubaneswar",
+      "latitude": 20.27241,
+      "longitude": 85.83385,
+      "population": 885363,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "1275901",
+      "name": "Bhiwandi",
+      "latitude": 19.30023,
+      "longitude": 73.05881,
+      "population": 874032,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "1268782",
+      "name": "Jalandhar",
+      "latitude": 31.32556,
+      "longitude": 75.57917,
+      "population": 868929,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "1276014",
+      "name": "Bhayandar",
+      "latitude": 19.30157,
+      "longitude": 72.85107,
+      "population": 809378,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "1254163",
+      "name": "Thiruvananthapuram",
+      "latitude": 8.4855,
+      "longitude": 76.94924,
+      "population": 788271,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "1279017",
+      "name": "Alīgarh",
+      "latitude": 27.88145,
+      "longitude": 78.07464,
+      "population": 753207,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "1277013",
+      "name": "Bareilly",
+      "latitude": 28.36678,
+      "longitude": 79.43167,
+      "population": 745435,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "1262801",
+      "name": "Morādābād",
+      "latitude": 28.83893,
+      "longitude": 78.77684,
+      "population": 721139,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "1252948",
+      "name": "Warangal",
+      "latitude": 18,
+      "longitude": 79.58333,
+      "population": 704570,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "1270927",
+      "name": "Gorakhpur",
+      "latitude": 26.76628,
+      "longitude": 83.36889,
+      "population": 674246,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "1270668",
+      "name": "Guntur",
+      "latitude": 16.29974,
+      "longitude": 80.45729,
+      "population": 670073,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "1259425",
+      "name": "Puducherry",
+      "latitude": 11.93381,
+      "longitude": 79.82979,
+      "population": 657209,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "1278718",
+      "name": "Amravati",
+      "latitude": 20.93333,
+      "longitude": 77.75,
+      "population": 647057,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "1275665",
+      "name": "Bikaner",
+      "latitude": 28.01762,
+      "longitude": 73.31495,
+      "population": 644406,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "1273874",
+      "name": "Kochi",
+      "latitude": 9.93988,
+      "longitude": 76.26022,
+      "population": 633553,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "1275971",
+      "name": "Bhilai",
+      "latitude": 21.20919,
+      "longitude": 81.4285,
+      "population": 627734,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "1273780",
+      "name": "Cuttack",
+      "latitude": 20.46497,
+      "longitude": 85.87927,
+      "population": 610189,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "1276032",
+      "name": "Bhavnagar",
+      "latitude": 21.76287,
+      "longitude": 72.15331,
+      "population": 605882,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "1257416",
+      "name": "Sāngli",
+      "latitude": 16.85438,
+      "longitude": 74.56417,
+      "population": 601214,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "1269317",
+      "name": "Jamnagar",
+      "latitude": 22.47292,
+      "longitude": 70.06673,
+      "population": 600943,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "1269321",
+      "name": "Jammu",
+      "latitude": 32.73528,
+      "longitude": 74.86167,
+      "population": 576198,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "1275362",
+      "name": "Bokāro",
+      "latitude": 23.66934,
+      "longitude": 86.15161,
+      "population": 564319,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "1261977",
+      "name": "Nanded",
+      "latitude": 19.16023,
+      "longitude": 77.31497,
+      "population": 550564,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "1265873",
+      "name": "Kozhikode",
+      "latitude": 11.24802,
+      "longitude": 75.7804,
+      "population": 550440,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "1266285",
+      "name": "Kolhāpur",
+      "latitude": 16.69563,
+      "longitude": 74.23167,
+      "population": 549236,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "1261529",
+      "name": "Nellore",
+      "latitude": 14.44992,
+      "longitude": 79.98697,
+      "population": 547621,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "1270752",
+      "name": "Kalaburagi",
+      "latitude": 17.33583,
+      "longitude": 76.83757,
+      "population": 543147,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "1279159",
+      "name": "Ajmer",
+      "latitude": 26.4521,
+      "longitude": 74.63867,
+      "population": 542321,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "1273313",
+      "name": "Dehradun",
+      "latitude": 30.32443,
+      "longitude": 78.03392,
+      "population": 522081,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "1272013",
+      "name": "Erode",
+      "latitude": 11.3428,
+      "longitude": 77.72741,
+      "population": 521891,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "1272175",
+      "name": "Durgapur",
+      "latitude": 23.51583,
+      "longitude": 87.30801,
+      "population": 518872,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "1253894",
+      "name": "Ulhasnagar",
+      "latitude": 19.21667,
+      "longitude": 73.15,
+      "population": 516584,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "1264773",
+      "name": "Loni",
+      "latitude": 28.75143,
+      "longitude": 77.29023,
+      "population": 516082,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "1256525",
+      "name": "Siliguri",
+      "latitude": 26.71004,
+      "longitude": 88.42851,
+      "population": 515574,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "1253914",
+      "name": "Ujjain",
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "population": 515215,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "1275610",
+      "name": "Bilimora",
+      "latitude": 20.76957,
+      "longitude": 72.96134,
+      "population": 510879,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "1278314",
+      "name": "Āsansol",
+      "latitude": 23.68333,
+      "longitude": 86.98333,
+      "population": 504271,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "1263780",
+      "name": "Mangaluru",
+      "latitude": 12.91723,
+      "longitude": 74.85603,
+      "population": 499487,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "1276533",
+      "name": "Belagavi",
+      "latitude": 15.85212,
+      "longitude": 74.50447,
+      "population": 490045,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "1257806",
+      "name": "Sahāranpur",
+      "latitude": 29.9679,
+      "longitude": 77.54522,
+      "population": 484873,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "1253286",
+      "name": "Vellore",
+      "latitude": 12.9184,
+      "longitude": 79.13255,
+      "population": 484690,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "1276058",
+      "name": "Bhātpāra",
+      "latitude": 22.86643,
+      "longitude": 88.40113,
+      "population": 483129,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "1264115",
+      "name": "Malegaon",
+      "latitude": 20.54966,
+      "longitude": 74.53462,
+      "population": 481228,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "8440756",
+      "name": "Modīnagar",
+      "latitude": 28.83059,
+      "longitude": 77.57295,
+      "population": 475843,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "1271439",
+      "name": "Gaya",
+      "latitude": 24.79686,
+      "longitude": 85.00385,
+      "population": 474093,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "1278840",
+      "name": "Ambattur",
+      "latitude": 13.09818,
+      "longitude": 80.16152,
+      "population": 466205,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "1269407",
+      "name": "Jalgaon",
+      "latitude": 21.00292,
+      "longitude": 75.56602,
+      "population": 460228,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "1265491",
+      "name": "Kurnool",
+      "latitude": 15.82887,
+      "longitude": 78.03602,
+      "population": 460184,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "1253986",
+      "name": "Udaipur",
+      "latitude": 24.58584,
+      "longitude": 73.71346,
+      "population": 451100,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "1348843",
+      "name": "Maheshtala",
+      "latitude": 22.50862,
+      "longitude": 88.25322,
+      "population": 448317,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "1260107",
+      "name": "Patiāla",
+      "latitude": 30.33625,
+      "longitude": 76.3922,
+      "population": 446246,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "1273368",
+      "name": "Davangere",
+      "latitude": 14.46693,
+      "longitude": 75.92694,
+      "population": 435128,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "1279105",
+      "name": "Akola",
+      "latitude": 20.70957,
+      "longitude": 76.9981,
+      "population": 428857,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "1255783",
+      "name": "Rajpur Sonarpur",
+      "latitude": 22.4382,
+      "longitude": 88.43205,
+      "population": 424368,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "1266122",
+      "name": "Korba",
+      "latitude": 22.3458,
+      "longitude": 82.69633,
+      "population": 419146,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "1269006",
+      "name": "Jhānsi",
+      "latitude": 25.45887,
+      "longitude": 78.57994,
+      "population": 412927,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "8629640",
+      "name": "Thoothukudi",
+      "latitude": 8.76735,
+      "longitude": 78.13425,
+      "population": 410760,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "1276509",
+      "name": "Ballari",
+      "latitude": 15.14205,
+      "longitude": 76.92398,
+      "population": 410445,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "1276300",
+      "name": "Bhāgalpur",
+      "latitude": 25.24446,
+      "longitude": 86.97183,
+      "population": 400146,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "1279290",
+      "name": "Agartala",
+      "latitude": 23.83605,
+      "longitude": 91.27939,
+      "population": 400004,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "1268561",
+      "name": "Kākināda",
+      "latitude": 16.96036,
+      "longitude": 82.23809,
+      "population": 384182,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "1265014",
+      "name": "Latur",
+      "latitude": 18.39721,
+      "longitude": 76.56784,
+      "population": 382940,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "1260482",
+      "name": "Pānihāti",
+      "latitude": 22.69089,
+      "longitude": 88.37404,
+      "population": 378705,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "1258932",
+      "name": "Rajamahendravaram",
+      "latitude": 17.00517,
+      "longitude": 81.77784,
+      "population": 376333,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "1272691",
+      "name": "Dhule",
+      "latitude": 20.9013,
+      "longitude": 74.77737,
+      "population": 375559,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "1258076",
+      "name": "Rohtak",
+      "latitude": 28.89447,
+      "longitude": 76.58917,
+      "population": 374292,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "1279228",
+      "name": "Ahilyanagar",
+      "latitude": 19.09457,
+      "longitude": 74.73843,
+      "population": 367140,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "1259091",
+      "name": "Kollam",
+      "latitude": 8.88113,
+      "longitude": 76.58469,
+      "population": 367107,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "1275637",
+      "name": "Bilāspur",
+      "latitude": 22.08005,
+      "longitude": 82.15543,
+      "population": 365579,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "1275960",
+      "name": "Bhilwara",
+      "latitude": 25.34707,
+      "longitude": 74.64081,
+      "population": 359483,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "1275198",
+      "name": "Brahmapur",
+      "latitude": 19.31151,
+      "longitude": 84.7929,
+      "population": 356598,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "1262330",
+      "name": "Muzaffarpur",
+      "latitude": 26.12259,
+      "longitude": 85.39055,
+      "population": 354462,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "1262332",
+      "name": "Muzaffarnagar",
+      "latitude": 29.47091,
+      "longitude": 77.70332,
+      "population": 349706,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "1278130",
+      "name": "Avadi",
+      "latitude": 13.1147,
+      "longitude": 80.10981,
+      "population": 345996,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "1273800",
+      "name": "Kadapa",
+      "latitude": 14.47995,
+      "longitude": 78.82346,
+      "population": 344893,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "1268257",
+      "name": "Kāmārhāti",
+      "latitude": 22.67111,
+      "longitude": 88.37472,
+      "population": 332965,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "1263364",
+      "name": "Mathura",
+      "latitude": 27.5035,
+      "longitude": 77.67215,
+      "population": 330511,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "1274693",
+      "name": "Chānda",
+      "latitude": 19.95076,
+      "longitude": 79.29523,
+      "population": 328351,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "1275701",
+      "name": "Vijayapura",
+      "latitude": 16.82442,
+      "longitude": 75.71537,
+      "population": 327427,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "1256515",
+      "name": "Shivamogga",
+      "latitude": 13.93157,
+      "longitude": 75.56791,
+      "population": 322650,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "1278946",
+      "name": "Alwar",
+      "latitude": 27.56246,
+      "longitude": 76.625,
+      "population": 322568,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "1256728",
+      "name": "Shāhjānpur",
+      "latitude": 27.88165,
+      "longitude": 79.90918,
+      "population": 320434,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "1268773",
+      "name": "Jūnāgadh",
+      "latitude": 21.51966,
+      "longitude": 70.45981,
+      "population": 319462,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "1261481",
+      "name": "New Delhi",
+      "latitude": 28.62137,
+      "longitude": 77.2148,
+      "population": 317797,
+      "populationRank": 142,
+      "isCapital": true
+    },
+    {
+      "id": "1254187",
+      "name": "Thrissur",
+      "latitude": 10.51667,
+      "longitude": 76.21667,
+      "population": 315957,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "1261258",
+      "name": "Nizāmābād",
+      "latitude": 18.67154,
+      "longitude": 78.0988,
+      "population": 311152,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "1254089",
+      "name": "Tumkūr",
+      "latitude": 13.34136,
+      "longitude": 77.1022,
+      "population": 307359,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "1260341",
+      "name": "Parbhani",
+      "latitude": 19.26855,
+      "longitude": 76.77081,
+      "population": 307170,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "1270022",
+      "name": "Hisar",
+      "latitude": 29.15394,
+      "longitude": 75.72294,
+      "population": 307024,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "1271885",
+      "name": "Fīrozābād",
+      "latitude": 27.15092,
+      "longitude": 78.39781,
+      "population": 306409,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "1267708",
+      "name": "Karnāl",
+      "latitude": 29.69197,
+      "longitude": 76.98448,
+      "population": 302140,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "1277029",
+      "name": "Barddhamān",
+      "latitude": 23.25572,
+      "longitude": 87.85691,
+      "population": 301725,
+      "populationRank": 150,
+      "isCapital": false
+    },
+    {
+      "id": "11679708",
+      "name": "Gundupālaiyam",
+      "latitude": 11.94096,
+      "longitude": 79.80294,
+      "population": 300104,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "1277065",
+      "name": "Bārāsat",
+      "latitude": 22.72154,
+      "longitude": 88.48198,
+      "population": 298127,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "12165955",
+      "name": "Mulugu",
+      "latitude": 18.191,
+      "longitude": 79.943,
+      "population": 297671,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "1275716",
+      "name": "Bihār Sharīf",
+      "latitude": 25.20084,
+      "longitude": 85.52389,
+      "population": 297268,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "1277539",
+      "name": "Bāli",
+      "latitude": 22.64859,
+      "longitude": 88.34115,
+      "population": 296973,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "1258599",
+      "name": "Rāmpur",
+      "latitude": 28.81014,
+      "longitude": 79.02699,
+      "population": 296418,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "1273491",
+      "name": "Darbhanga",
+      "latitude": 26.15216,
+      "longitude": 85.89707,
+      "population": 296039,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "1260476",
+      "name": "Panipat",
+      "latitude": 29.38747,
+      "longitude": 76.96825,
+      "population": 295970,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "1254360",
+      "name": "Tirupati",
+      "latitude": 13.63551,
+      "longitude": 79.41989,
+      "population": 295323,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "6954929",
+      "name": "Greater Noida",
+      "latitude": 28.49615,
+      "longitude": 77.53601,
+      "population": 293908,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "7279746",
+      "name": "Noida",
+      "latitude": 28.58,
+      "longitude": 77.33,
+      "population": 293908,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "1279186",
+      "name": "Aizawl",
+      "latitude": 23.72894,
+      "longitude": 92.71791,
+      "population": 293416,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "1271715",
+      "name": "Gandhinagar",
+      "latitude": 23.21667,
+      "longitude": 72.68333,
+      "population": 292797,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "1272543",
+      "name": "Dindigul",
+      "latitude": 10.36896,
+      "longitude": 77.98036,
+      "population": 292512,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "1254649",
+      "name": "Thanjavur",
+      "latitude": 10.78523,
+      "longitude": 79.13909,
+      "population": 291067,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "1267755",
+      "name": "Karīmnagar",
+      "latitude": 18.43915,
+      "longitude": 79.12856,
+      "population": 289821,
+      "populationRank": 166,
+      "isCapital": false
+    },
+    {
+      "id": "1273066",
+      "name": "Dewas",
+      "latitude": 22.96585,
+      "longitude": 76.05526,
+      "population": 289550,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "1255744",
+      "name": "Sonīpat",
+      "latitude": 28.99478,
+      "longitude": 77.01937,
+      "population": 289333,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "1269834",
+      "name": "Ichalkaranji",
+      "latitude": 16.69117,
+      "longitude": 74.46054,
+      "population": 287353,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "1276070",
+      "name": "Bathinda",
+      "latitude": 30.20747,
+      "longitude": 74.93893,
+      "population": 285788,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "1269395",
+      "name": "Jālna",
+      "latitude": 19.84102,
+      "longitude": 75.88636,
+      "population": 285577,
+      "populationRank": 171,
+      "isCapital": false
+    },
+    {
+      "id": "1257022",
+      "name": "Satna",
+      "latitude": 24.57726,
+      "longitude": 80.82719,
+      "population": 282977,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "1259166",
+      "name": "Purnia",
+      "latitude": 25.77895,
+      "longitude": 87.47422,
+      "population": 282248,
+      "populationRank": 173,
+      "isCapital": false
+    },
+    {
+      "id": "1269771",
+      "name": "Imphal",
+      "latitude": 24.80805,
+      "longitude": 93.9442,
+      "population": 277196,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "1257845",
+      "name": "Saugor",
+      "latitude": 23.83877,
+      "longitude": 78.73874,
+      "population": 274556,
+      "populationRank": 175,
+      "isCapital": false
+    },
+    {
+      "id": "12032137",
+      "name": "Kushinagar",
+      "latitude": 26.74134,
+      "longitude": 83.88689,
+      "population": 274403,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "1258315",
+      "name": "Rourkela",
+      "latitude": 22.22496,
+      "longitude": 84.86414,
+      "population": 273317,
+      "populationRank": 177,
+      "isCapital": false
+    },
+    {
+      "id": "1272181",
+      "name": "Durg",
+      "latitude": 21.19147,
+      "longitude": 81.27619,
+      "population": 268806,
+      "populationRank": 178,
+      "isCapital": false
+    },
+    {
+      "id": "1278672",
+      "name": "Anantapur",
+      "latitude": 14.67784,
+      "longitude": 77.60813,
+      "population": 267161,
+      "populationRank": 179,
+      "isCapital": false
+    },
+    {
+      "id": "1258342",
+      "name": "Ratlām",
+      "latitude": 23.33033,
+      "longitude": 75.04032,
+      "population": 264914,
+      "populationRank": 180,
+      "isCapital": false
+    },
+    {
+      "id": "1258451",
+      "name": "Rānipet",
+      "latitude": 12.92471,
+      "longitude": 79.33331,
+      "population": 264330,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "1278483",
+      "name": "Arrah",
+      "latitude": 25.55629,
+      "longitude": 84.66335,
+      "population": 261430,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "7302833",
+      "name": "Gajuwaka",
+      "latitude": 17.7,
+      "longitude": 83.21667,
+      "population": 258944,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "1271987",
+      "name": "Etāwah",
+      "latitude": 26.77615,
+      "longitude": 79.02133,
+      "population": 257448,
+      "populationRank": 184,
+      "isCapital": false
+    },
+    {
+      "id": "1262131",
+      "name": "Naihāti",
+      "latitude": 22.89396,
+      "longitude": 88.41521,
+      "population": 253221,
+      "populationRank": 185,
+      "isCapital": false
+    },
+    {
+      "id": "1276128",
+      "name": "Bharatpur",
+      "latitude": 27.21731,
+      "longitude": 77.49009,
+      "population": 252838,
+      "populationRank": 186,
+      "isCapital": false
+    },
+    {
+      "id": "1276609",
+      "name": "Begusarai",
+      "latitude": 25.41853,
+      "longitude": 86.13389,
+      "population": 252008,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "1254320",
+      "name": "Tiruvottiyūr",
+      "latitude": 13.15823,
+      "longitude": 80.30181,
+      "population": 249446,
+      "populationRank": 188,
+      "isCapital": false
+    },
+    {
+      "id": "1271717",
+      "name": "Gāndhīdhām",
+      "latitude": 23.08333,
+      "longitude": 70.13333,
+      "population": 247992,
+      "populationRank": 189,
+      "isCapital": false
+    },
+    {
+      "id": "1263311",
+      "name": "Mau",
+      "latitude": 25.94167,
+      "longitude": 83.56111,
+      "population": 246050,
+      "populationRank": 190,
+      "isCapital": false
+    },
+    {
+      "id": "1256320",
+      "name": "Sīkar",
+      "latitude": 27.61206,
+      "longitude": 75.13996,
+      "population": 244497,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "8347656",
+      "name": "Ramagundam",
+      "latitude": 18.755,
+      "longitude": 79.474,
+      "population": 242979,
+      "populationRank": 192,
+      "isCapital": false
+    },
+    {
+      "id": "1270393",
+      "name": "Hāpur",
+      "latitude": 28.72985,
+      "longitude": 77.78068,
+      "population": 242920,
+      "populationRank": 193,
+      "isCapital": false
+    },
+    {
+      "id": "1271942",
+      "name": "Farrukhābād",
+      "latitude": 27.39134,
+      "longitude": 79.5793,
+      "population": 241152,
+      "populationRank": 194,
+      "isCapital": false
+    },
+    {
+      "id": "1278985",
+      "name": "Alappuzha",
+      "latitude": 9.49004,
+      "longitude": 76.3264,
+      "population": 240991,
+      "populationRank": 195,
+      "isCapital": false
+    },
+    {
+      "id": "1267480",
+      "name": "Katihar",
+      "latitude": 25.53852,
+      "longitude": 87.57044,
+      "population": 240838,
+      "populationRank": 196,
+      "isCapital": false
+    },
+    {
+      "id": "1271685",
+      "name": "Sri Ganganagar",
+      "latitude": 29.92009,
+      "longitude": 73.87496,
+      "population": 237780,
+      "populationRank": 197,
+      "isCapital": false
+    },
+    {
+      "id": "1258182",
+      "name": "Rewa",
+      "latitude": 24.53256,
+      "longitude": 81.29234,
+      "population": 235654,
+      "populationRank": 198,
+      "isCapital": false
+    },
+    {
+      "id": "1253880",
+      "name": "Uluberiya",
+      "latitude": 22.4756,
+      "longitude": 88.09898,
+      "population": 235345,
+      "populationRank": 199,
+      "isCapital": false
+    },
+    {
+      "id": "1255947",
+      "name": "Sivakasi",
+      "latitude": 9.44999,
+      "longitude": 77.79797,
+      "population": 234704,
+      "populationRank": 200,
+      "isCapital": false
+    }
+  ]
+}

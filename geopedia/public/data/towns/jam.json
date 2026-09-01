@@ -1,0 +1,229 @@
+{
+  "towns": [
+    {
+      "id": "3489854",
+      "name": "Kingston",
+      "latitude": 17.99702,
+      "longitude": -76.79358,
+      "population": 937700,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3488465",
+      "name": "Spanish Town",
+      "latitude": 17.99107,
+      "longitude": -76.95742,
+      "population": 145018,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3488981",
+      "name": "Portmore",
+      "latitude": 17.97102,
+      "longitude": -76.88691,
+      "population": 102861,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3489460",
+      "name": "Montego Bay",
+      "latitude": 18.47116,
+      "longitude": -77.91883,
+      "population": 82867,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3489577",
+      "name": "Mandeville",
+      "latitude": 18.04168,
+      "longitude": -77.50714,
+      "population": 47115,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3489523",
+      "name": "May Pen",
+      "latitude": 17.96454,
+      "longitude": -77.24515,
+      "population": 44755,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3489239",
+      "name": "Ocho Rios",
+      "latitude": 18.4076,
+      "longitude": -77.10312,
+      "population": 26503,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3489227",
+      "name": "Old Harbour",
+      "latitude": 17.94144,
+      "longitude": -77.10898,
+      "population": 26024,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3490165",
+      "name": "Half Way Tree",
+      "latitude": 18.01248,
+      "longitude": -76.79928,
+      "population": 18552,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3488613",
+      "name": "Savanna-la-Mar",
+      "latitude": 18.21895,
+      "longitude": -78.1332,
+      "population": 16553,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3489005",
+      "name": "Port Antonio",
+      "latitude": 18.17889,
+      "longitude": -76.45215,
+      "population": 14400,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3489331",
+      "name": "Negril",
+      "latitude": 18.26844,
+      "longitude": -78.3481,
+      "population": 13779,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3488726",
+      "name": "Runaway Bay",
+      "latitude": 18.45962,
+      "longitude": -77.3357,
+      "population": 12358,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3490106",
+      "name": "Hayes",
+      "latitude": 17.87569,
+      "longitude": -77.23711,
+      "population": 9701,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3490716",
+      "name": "Discovery Bay",
+      "latitude": 18.45873,
+      "longitude": -77.39997,
+      "population": 8257,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3488620",
+      "name": "Santa Cruz",
+      "latitude": 18.05336,
+      "longitude": -77.69836,
+      "population": 8217,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3488985",
+      "name": "Port Maria",
+      "latitude": 18.36849,
+      "longitude": -76.88946,
+      "population": 7906,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "3490520",
+      "name": "Falmouth",
+      "latitude": 18.49358,
+      "longitude": -77.65587,
+      "population": 7779,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3489657",
+      "name": "Lucea",
+      "latitude": 18.45095,
+      "longitude": -78.17356,
+      "population": 7377,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3491556",
+      "name": "Annotto Bay",
+      "latitude": 18.2717,
+      "longitude": -76.76523,
+      "population": 5504,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3489741",
+      "name": "Little London",
+      "latitude": 18.2483,
+      "longitude": -78.21641,
+      "population": 4954,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3491381",
+      "name": "Bethel Town",
+      "latitude": 18.29503,
+      "longitude": -77.95112,
+      "population": 2416,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "3490758",
+      "name": "Darliston",
+      "latitude": 18.23731,
+      "longitude": -77.97626,
+      "population": 2076,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3491586",
+      "name": "Alligator Pond",
+      "latitude": 17.86932,
+      "longitude": -77.56769,
+      "population": 1793,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "3490390",
+      "name": "Frome",
+      "latitude": 18.29407,
+      "longitude": -78.15469,
+      "population": 993,
+      "populationRank": 25,
+      "isCapital": false
+    }
+  ]
+}

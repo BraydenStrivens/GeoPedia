@@ -1,0 +1,67 @@
+{
+  "towns": [
+    {
+      "id": "3575635",
+      "name": "Roseau",
+      "latitude": 15.30174,
+      "longitude": -61.38808,
+      "population": 16571,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3575654",
+      "name": "Portsmouth",
+      "latitude": 15.58288,
+      "longitude": -61.45592,
+      "population": 3633,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3575899",
+      "name": "Berekua",
+      "latitude": 15.23333,
+      "longitude": -61.31667,
+      "population": 2608,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3575733",
+      "name": "Mahaut",
+      "latitude": 15.36357,
+      "longitude": -61.39701,
+      "population": 2369,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3575624",
+      "name": "Saint Joseph",
+      "latitude": 15.4061,
+      "longitude": -61.42374,
+      "population": 2184,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3575660",
+      "name": "Pointe Michel",
+      "latitude": 15.25976,
+      "longitude": -61.37452,
+      "population": 1202,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3575857",
+      "name": "Colihaut",
+      "latitude": 15.48478,
+      "longitude": -61.46215,
+      "population": 890,
+      "populationRank": 7,
+      "isCapital": false
+    }
+  ]
+}

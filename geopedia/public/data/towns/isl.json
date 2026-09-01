@@ -1,0 +1,373 @@
+{
+  "towns": [
+    {
+      "id": "3413829",
+      "name": "Reykjavík",
+      "latitude": 64.13548,
+      "longitude": -21.89541,
+      "population": 118918,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3415212",
+      "name": "Kópavogur",
+      "latitude": 64.11234,
+      "longitude": -21.91298,
+      "population": 40040,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3416706",
+      "name": "Hafnarfjörður",
+      "latitude": 64.0671,
+      "longitude": -21.93774,
+      "population": 31525,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "8644037",
+      "name": "Reykjanesbær",
+      "latitude": 63.99813,
+      "longitude": -22.56111,
+      "population": 19724,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2633274",
+      "name": "Akureyri",
+      "latitude": 65.68353,
+      "longitude": -18.0878,
+      "population": 19219,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3415496",
+      "name": "Keflavík",
+      "latitude": 64.00492,
+      "longitude": -22.56242,
+      "population": 15930,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3415021",
+      "name": "Mosfellsbær",
+      "latitude": 64.16667,
+      "longitude": -21.7,
+      "population": 13715,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3417195",
+      "name": "Garðabær",
+      "latitude": 64.08865,
+      "longitude": -21.92298,
+      "population": 11421,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3413604",
+      "name": "Selfoss",
+      "latitude": 63.93311,
+      "longitude": -20.99712,
+      "population": 9000,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3418653",
+      "name": "Akranes",
+      "latitude": 64.32179,
+      "longitude": -22.0749,
+      "population": 7411,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3414979",
+      "name": "Seltjarnarnes",
+      "latitude": 64.15309,
+      "longitude": -21.99499,
+      "population": 4726,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3412093",
+      "name": "Vestmannaeyjar",
+      "latitude": 63.44273,
+      "longitude": -20.27339,
+      "population": 4639,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2629833",
+      "name": "Norðurþing",
+      "latitude": 66.04148,
+      "longitude": -17.33834,
+      "population": 3234,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3416888",
+      "name": "Grindavík",
+      "latitude": 63.83849,
+      "longitude": -22.43931,
+      "population": 2856,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3415667",
+      "name": "Ísafjörður",
+      "latitude": 66.07475,
+      "longitude": -23.13498,
+      "population": 2736,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3415761",
+      "name": "Hveragerði",
+      "latitude": 64.00039,
+      "longitude": -21.18602,
+      "population": 2657,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "2627309",
+      "name": "Sauðárkrókur",
+      "latitude": 65.74611,
+      "longitude": -19.63944,
+      "population": 2614,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2632132",
+      "name": "Egilsstaðir",
+      "latitude": 65.26687,
+      "longitude": -14.39485,
+      "population": 2572,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3412589",
+      "name": "Þorlákshöfn",
+      "latitude": 63.85591,
+      "longitude": -21.38337,
+      "population": 2037,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3418076",
+      "name": "Borgarnes",
+      "latitude": 64.53834,
+      "longitude": -21.92064,
+      "population": 1875,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2630299",
+      "name": "Höfn",
+      "latitude": 64.25388,
+      "longitude": -15.21212,
+      "population": 1690,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3413727",
+      "name": "Sandgerði",
+      "latitude": 64.03762,
+      "longitude": -22.70799,
+      "population": 1609,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2628020",
+      "name": "Neskaupstaður",
+      "latitude": 65.14819,
+      "longitude": -13.68368,
+      "population": 1481,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3417079",
+      "name": "Garður",
+      "latitude": 64.07055,
+      "longitude": -22.6513,
+      "population": 1409,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2632428",
+      "name": "Reyðarfjörður",
+      "latitude": 65.03164,
+      "longitude": -14.21832,
+      "population": 1368,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "2632287",
+      "name": "Dalvík",
+      "latitude": 65.97018,
+      "longitude": -18.52861,
+      "population": 1359,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "3412888",
+      "name": "Stykkishólmur",
+      "latitude": 65.07537,
+      "longitude": -22.72977,
+      "population": 1200,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2627130",
+      "name": "Siglufjörður",
+      "latitude": 66.15198,
+      "longitude": -18.90815,
+      "population": 1164,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "3415720",
+      "name": "Hvolsvöllur",
+      "latitude": 63.75069,
+      "longitude": -20.22454,
+      "population": 1108,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2632028",
+      "name": "Eskifjörður",
+      "latitude": 65.07306,
+      "longitude": -14.01525,
+      "population": 1043,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "3412011",
+      "name": "Vogar",
+      "latitude": 63.9816,
+      "longitude": -22.38473,
+      "population": 1029,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "3414079",
+      "name": "Ólafsvík",
+      "latitude": 64.89429,
+      "longitude": -23.70918,
+      "population": 1010,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "3418112",
+      "name": "Bolungarvík",
+      "latitude": 66.15917,
+      "longitude": -23.24941,
+      "population": 955,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "3418130",
+      "name": "Blönduós",
+      "latitude": 65.65932,
+      "longitude": -20.28083,
+      "population": 895,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "3416839",
+      "name": "Grundarfjörður",
+      "latitude": 64.92427,
+      "longitude": -23.26313,
+      "population": 872,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "3416453",
+      "name": "Hella",
+      "latitude": 63.8348,
+      "longitude": -20.40084,
+      "population": 865,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "2627843",
+      "name": "Ólafsfjörður",
+      "latitude": 66.06722,
+      "longitude": -18.64399,
+      "population": 785,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "3412173",
+      "name": "Patreksfjörður",
+      "latitude": 65.59783,
+      "longitude": -23.99596,
+      "population": 720,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "2625189",
+      "name": "Vopnafjörður",
+      "latitude": 65.75658,
+      "longitude": -14.82777,
+      "population": 695,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "2627140",
+      "name": "Seyðisfjörður",
+      "latitude": 65.26008,
+      "longitude": -14.00577,
+      "population": 676,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "2632418",
+      "name": "Fáskrúðsfjörður",
+      "latitude": 64.93128,
+      "longitude": -14.0189,
+      "population": 654,
+      "populationRank": 41,
+      "isCapital": false
+    }
+  ]
+}

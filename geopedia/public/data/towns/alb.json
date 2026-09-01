@@ -1,0 +1,553 @@
+{
+  "towns": [
+    {
+      "id": "3183875",
+      "name": "Tirana",
+      "latitude": 41.32744,
+      "longitude": 19.81866,
+      "population": 418495,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3185728",
+      "name": "Durrës",
+      "latitude": 41.32355,
+      "longitude": 19.45469,
+      "population": 195920,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3183719",
+      "name": "Vlorë",
+      "latitude": 40.4696,
+      "longitude": 19.48379,
+      "population": 115261,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "783263",
+      "name": "Elbasan",
+      "latitude": 41.11138,
+      "longitude": 20.08224,
+      "population": 100903,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3184081",
+      "name": "Shkodër",
+      "latitude": 42.06828,
+      "longitude": 19.51258,
+      "population": 95553,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3184862",
+      "name": "Lushnjë",
+      "latitude": 40.94194,
+      "longitude": 19.705,
+      "population": 63135,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3186084",
+      "name": "Berat",
+      "latitude": 40.70583,
+      "longitude": 19.95222,
+      "population": 62232,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "782756",
+      "name": "Korçë",
+      "latitude": 40.61861,
+      "longitude": 20.78083,
+      "population": 58259,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3185672",
+      "name": "Fier",
+      "latitude": 40.7251,
+      "longitude": 19.55823,
+      "population": 56297,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3185082",
+      "name": "Krujë",
+      "latitude": 41.50917,
+      "longitude": 19.79278,
+      "population": 51191,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "781988",
+      "name": "Pogradec",
+      "latitude": 40.9025,
+      "longitude": 20.6525,
+      "population": 46070,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "782661",
+      "name": "Kukës",
+      "latitude": 42.07694,
+      "longitude": 20.42194,
+      "population": 36125,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3185060",
+      "name": "Kuçovë",
+      "latitude": 40.80028,
+      "longitude": 19.91667,
+      "population": 31077,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3185211",
+      "name": "Kavajë",
+      "latitude": 41.18556,
+      "longitude": 19.55694,
+      "population": 30012,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "783508",
+      "name": "Bulqizë",
+      "latitude": 41.49167,
+      "longitude": 20.22194,
+      "population": 26826,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "783148",
+      "name": "Gjirokastër",
+      "latitude": 40.07583,
+      "longitude": 20.13889,
+      "population": 23437,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "782519",
+      "name": "Librazhd",
+      "latitude": 41.17944,
+      "longitude": 20.315,
+      "population": 23312,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "363243",
+      "name": "Sarandë",
+      "latitude": 39.87534,
+      "longitude": 20.00477,
+      "population": 22613,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3184935",
+      "name": "Lezhë",
+      "latitude": 41.78361,
+      "longitude": 19.64361,
+      "population": 18695,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3185638",
+      "name": "Fushë-Krujë",
+      "latitude": 41.47833,
+      "longitude": 19.71778,
+      "population": 17877,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3184497",
+      "name": "Peqin",
+      "latitude": 41.04611,
+      "longitude": 19.75111,
+      "population": 16580,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3184518",
+      "name": "Patos",
+      "latitude": 40.68333,
+      "longitude": 19.61944,
+      "population": 16000,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "782061",
+      "name": "Peshkopi",
+      "latitude": 41.685,
+      "longitude": 20.42858,
+      "population": 14710,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3185897",
+      "name": "Cërrik",
+      "latitude": 41.03167,
+      "longitude": 19.97583,
+      "population": 14269,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "3184099",
+      "name": "Shijak",
+      "latitude": 41.34556,
+      "longitude": 19.56722,
+      "population": 14138,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "3185012",
+      "name": "Laç",
+      "latitude": 41.63556,
+      "longitude": 19.71306,
+      "population": 12854,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "781443",
+      "name": "Tepelenë",
+      "latitude": 40.29583,
+      "longitude": 20.01917,
+      "population": 11955,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "783059",
+      "name": "Gramsh",
+      "latitude": 40.86972,
+      "longitude": 20.18444,
+      "population": 11556,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "3185270",
+      "name": "Kamëz",
+      "latitude": 41.38167,
+      "longitude": 19.76028,
+      "population": 11026,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "3184806",
+      "name": "Mamurras",
+      "latitude": 41.5775,
+      "longitude": 19.69222,
+      "population": 8282,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "782070",
+      "name": "Përmet",
+      "latitude": 40.23361,
+      "longitude": 20.35167,
+      "population": 7980,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "783493",
+      "name": "Burrel",
+      "latitude": 41.61028,
+      "longitude": 20.00889,
+      "population": 7928,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "783259",
+      "name": "Ersekë",
+      "latitude": 40.33778,
+      "longitude": 20.67889,
+      "population": 7890,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "782806",
+      "name": "Klos",
+      "latitude": 41.50694,
+      "longitude": 20.08667,
+      "population": 7873,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "783606",
+      "name": "Bilisht",
+      "latitude": 40.6275,
+      "longitude": 20.99,
+      "population": 7287,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "3183814",
+      "name": "Ura Vajgurore",
+      "latitude": 40.76889,
+      "longitude": 19.87778,
+      "population": 7232,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "3184252",
+      "name": "Rrogozhinë",
+      "latitude": 41.07639,
+      "longitude": 19.66528,
+      "population": 7049,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "3184136",
+      "name": "Shëngjin",
+      "latitude": 41.81361,
+      "longitude": 19.59389,
+      "population": 6963,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "3184197",
+      "name": "Selenicë",
+      "latitude": 40.53056,
+      "longitude": 19.63583,
+      "population": 6912,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "3184264",
+      "name": "Rrëshen",
+      "latitude": 41.7675,
+      "longitude": 19.87556,
+      "population": 6773,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "3185797",
+      "name": "Divjakë",
+      "latitude": 40.99667,
+      "longitude": 19.52944,
+      "population": 6713,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "3184290",
+      "name": "Roskovec",
+      "latitude": 40.7375,
+      "longitude": 19.70222,
+      "population": 6657,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "3184388",
+      "name": "Pukë",
+      "latitude": 42.04444,
+      "longitude": 19.89972,
+      "population": 6495,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "363383",
+      "name": "Delvinë",
+      "latitude": 39.95111,
+      "longitude": 20.09778,
+      "population": 6166,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "781920",
+      "name": "Përrenjas",
+      "latitude": 41.07306,
+      "longitude": 20.54889,
+      "population": 5847,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "3184743",
+      "name": "Memaliaj",
+      "latitude": 40.35167,
+      "longitude": 19.98028,
+      "population": 4951,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "3186145",
+      "name": "Ballsh",
+      "latitude": 40.59889,
+      "longitude": 19.73472,
+      "population": 4944,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "782843",
+      "name": "Këlcyrë",
+      "latitude": 40.31306,
+      "longitude": 20.18944,
+      "population": 4900,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "782685",
+      "name": "Krumë",
+      "latitude": 42.19694,
+      "longitude": 20.41333,
+      "population": 4814,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "3185377",
+      "name": "Himarë",
+      "latitude": 40.10167,
+      "longitude": 19.74472,
+      "population": 4596,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "781979",
+      "name": "Poliçan",
+      "latitude": 40.61222,
+      "longitude": 20.09806,
+      "population": 4318,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "7932375",
+      "name": "Bajram Curri",
+      "latitude": 42.35734,
+      "longitude": 20.07679,
+      "population": 4113,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "3185133",
+      "name": "Koplik",
+      "latitude": 42.21361,
+      "longitude": 19.43639,
+      "population": 4078,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "783408",
+      "name": "Çorovodë",
+      "latitude": 40.50417,
+      "longitude": 20.22722,
+      "population": 3918,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "782393",
+      "name": "Maliq",
+      "latitude": 40.70583,
+      "longitude": 20.69972,
+      "population": 3735,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "3184575",
+      "name": "Orikum",
+      "latitude": 40.32528,
+      "longitude": 19.47139,
+      "population": 2604,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "783214",
+      "name": "Fushë-Arrëz",
+      "latitude": 42.06222,
+      "longitude": 20.01667,
+      "population": 2438,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "3184238",
+      "name": "Rubik",
+      "latitude": 41.77444,
+      "longitude": 19.78611,
+      "population": 2332,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "3184702",
+      "name": "Milot",
+      "latitude": 41.68389,
+      "longitude": 19.71556,
+      "population": 2157,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "363320",
+      "name": "Konispol",
+      "latitude": 39.65889,
+      "longitude": 20.18139,
+      "population": 1349,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "782535",
+      "name": "Leskovik",
+      "latitude": 40.15139,
+      "longitude": 20.59722,
+      "population": 939,
+      "populationRank": 61,
+      "isCapital": false
+    }
+  ]
+}

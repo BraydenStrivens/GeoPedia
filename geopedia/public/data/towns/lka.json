@@ -1,0 +1,607 @@
+{
+  "towns": [
+    {
+      "id": "1248991",
+      "name": "Colombo",
+      "latitude": 6.93548,
+      "longitude": 79.84868,
+      "population": 648034,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "1236854",
+      "name": "Maharagama",
+      "latitude": 6.848,
+      "longitude": 79.9265,
+      "population": 195355,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "1242833",
+      "name": "Jaffna",
+      "latitude": 9.66845,
+      "longitude": 80.00742,
+      "population": 169102,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "1234633",
+      "name": "Moratuwa",
+      "latitude": 6.773,
+      "longitude": 79.8816,
+      "population": 168280,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "1233369",
+      "name": "Negombo",
+      "latitude": 7.2083,
+      "longitude": 79.8358,
+      "population": 137223,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "1238992",
+      "name": "Sri Jayewardenepura Kotte",
+      "latitude": 6.88297,
+      "longitude": 79.90708,
+      "population": 115826,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "1241622",
+      "name": "Kandy",
+      "latitude": 7.2906,
+      "longitude": 80.6336,
+      "population": 111701,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "1226260",
+      "name": "Trincomalee",
+      "latitude": 8.5778,
+      "longitude": 81.2289,
+      "population": 108420,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "1242110",
+      "name": "Kalmunai",
+      "latitude": 7.40902,
+      "longitude": 81.83472,
+      "population": 100171,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "1246294",
+      "name": "Galle",
+      "latitude": 6.0461,
+      "longitude": 80.2103,
+      "population": 93118,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "1229989",
+      "name": "Point Pedro",
+      "latitude": 9.81667,
+      "longitude": 80.23333,
+      "population": 89810,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "1250161",
+      "name": "Batticaloa",
+      "latitude": 7.7102,
+      "longitude": 81.6924,
+      "population": 86742,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "1251568",
+      "name": "Ambalantota",
+      "latitude": 6.1196,
+      "longitude": 81.0214,
+      "population": 80506,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "1225142",
+      "name": "Valvedditturai",
+      "latitude": 9.81667,
+      "longitude": 80.16667,
+      "population": 78205,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "1235846",
+      "name": "Matara",
+      "latitude": 5.94851,
+      "longitude": 80.53528,
+      "population": 76254,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "1250164",
+      "name": "Battaramulla South",
+      "latitude": 6.8964,
+      "longitude": 79.9181,
+      "population": 75633,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "1248749",
+      "name": "Dambulla",
+      "latitude": 7.86,
+      "longitude": 80.65167,
+      "population": 66716,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "1239593",
+      "name": "Kolonnawa",
+      "latitude": 6.9329,
+      "longitude": 79.8848,
+      "population": 64887,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "1239047",
+      "name": "Kotikawatta",
+      "latitude": 6.9269,
+      "longitude": 79.9095,
+      "population": 64565,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1251081",
+      "name": "Anuradhapura",
+      "latitude": 8.31223,
+      "longitude": 80.41306,
+      "population": 60943,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "1225018",
+      "name": "Vavuniya",
+      "latitude": 8.7514,
+      "longitude": 80.4971,
+      "population": 60176,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "1250066",
+      "name": "Beliatta",
+      "latitude": 6.0496,
+      "longitude": 80.73252,
+      "population": 58675,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "1251574",
+      "name": "Ambalangoda",
+      "latitude": 6.2355,
+      "longitude": 80.0538,
+      "population": 56783,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "1228730",
+      "name": "Ratnapura",
+      "latitude": 6.6858,
+      "longitude": 80.4036,
+      "population": 47832,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "1250615",
+      "name": "Badulla",
+      "latitude": 6.9802,
+      "longitude": 81.0577,
+      "population": 47587,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "1229724",
+      "name": "Pottuvil",
+      "latitude": 6.8762,
+      "longitude": 81.8267,
+      "population": 45727,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "1229293",
+      "name": "Puttalam",
+      "latitude": 8.0362,
+      "longitude": 79.8283,
+      "population": 45661,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "1248158",
+      "name": "Devinuwara",
+      "latitude": 5.92825,
+      "longitude": 80.5888,
+      "population": 45000,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "1251459",
+      "name": "Ampara",
+      "latitude": 7.29754,
+      "longitude": 81.68202,
+      "population": 43720,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "1241964",
+      "name": "Kalutara",
+      "latitude": 6.5831,
+      "longitude": 79.9593,
+      "population": 37081,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "1249978",
+      "name": "Bentota",
+      "latitude": 6.42598,
+      "longitude": 79.99575,
+      "population": 37000,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "1235855",
+      "name": "Matale",
+      "latitude": 7.4698,
+      "longitude": 80.6217,
+      "population": 36462,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "1236150",
+      "name": "Mannar",
+      "latitude": 8.98945,
+      "longitude": 79.87842,
+      "population": 35817,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "1243936",
+      "name": "Homagama",
+      "latitude": 6.844,
+      "longitude": 80.0024,
+      "population": 34664,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "1249931",
+      "name": "Beruwala",
+      "latitude": 6.4788,
+      "longitude": 79.9828,
+      "population": 34250,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "1234378",
+      "name": "Mulleriyawa",
+      "latitude": 6.933,
+      "longitude": 79.9297,
+      "population": 33540,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "1241750",
+      "name": "Kandana",
+      "latitude": 7.048,
+      "longitude": 79.8937,
+      "population": 33424,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "1242835",
+      "name": "Ja Ela",
+      "latitude": 7.0744,
+      "longitude": 79.8919,
+      "population": 32175,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "1224085",
+      "name": "Wattala",
+      "latitude": 6.98918,
+      "longitude": 79.89167,
+      "population": 30725,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "1234393",
+      "name": "Mullaittivu",
+      "latitude": 9.268,
+      "longitude": 80.815,
+      "population": 28973,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "1240622",
+      "name": "Kelaniya",
+      "latitude": 6.9553,
+      "longitude": 79.922,
+      "population": 28846,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "1237980",
+      "name": "Kurunegala",
+      "latitude": 7.4839,
+      "longitude": 80.3683,
+      "population": 28571,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "1232783",
+      "name": "Nuwara Eliya",
+      "latitude": 6.97078,
+      "longitude": 80.78286,
+      "population": 27500,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "1249145",
+      "name": "Chilaw",
+      "latitude": 7.57583,
+      "longitude": 79.79528,
+      "population": 24712,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "1246000",
+      "name": "Gampola",
+      "latitude": 7.1643,
+      "longitude": 80.5696,
+      "population": 24283,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "1246924",
+      "name": "Eravur Town",
+      "latitude": 7.7782,
+      "longitude": 81.6038,
+      "population": 22982,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "1244773",
+      "name": "Hanwella Ihala",
+      "latitude": 6.9012,
+      "longitude": 80.0852,
+      "population": 22918,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "1223738",
+      "name": "Weligama",
+      "latitude": 5.97501,
+      "longitude": 80.42968,
+      "population": 22179,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "1241076",
+      "name": "Kataragama",
+      "latitude": 6.4134,
+      "longitude": 81.3346,
+      "population": 20935,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "1244926",
+      "name": "Hambantota",
+      "latitude": 6.1241,
+      "longitude": 81.1185,
+      "population": 19999,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "1240723",
+      "name": "Kegalle",
+      "latitude": 7.2523,
+      "longitude": 80.3436,
+      "population": 17962,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "1244596",
+      "name": "Hatton",
+      "latitude": 6.8916,
+      "longitude": 80.5955,
+      "population": 15073,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "1229901",
+      "name": "Polonnaruwa",
+      "latitude": 7.93965,
+      "longitude": 81.00274,
+      "population": 13900,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "1240372",
+      "name": "Kilinochchi",
+      "latitude": 9.3961,
+      "longitude": 80.3982,
+      "population": 13006,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "1227037",
+      "name": "Tangalle",
+      "latitude": 6.02338,
+      "longitude": 80.79738,
+      "population": 10497,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "1234808",
+      "name": "Monaragala",
+      "latitude": 6.8714,
+      "longitude": 81.3487,
+      "population": 10236,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "11126122",
+      "name": "Wellawaya",
+      "latitude": 6.73694,
+      "longitude": 81.10279,
+      "population": 10000,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "1246007",
+      "name": "Gampaha",
+      "latitude": 7.0897,
+      "longitude": 79.9925,
+      "population": 9350,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "1235000",
+      "name": "Minuwangoda",
+      "latitude": 7.1663,
+      "longitude": 79.9533,
+      "population": 7772,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "1238427",
+      "name": "Kuliyapitiya",
+      "latitude": 7.4688,
+      "longitude": 80.0401,
+      "population": 6877,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "1235107",
+      "name": "Mihintale",
+      "latitude": 8.3593,
+      "longitude": 80.5103,
+      "population": 5000,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "1247148",
+      "name": "Ella Town",
+      "latitude": 6.8756,
+      "longitude": 81.0463,
+      "population": 5000,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "1244713",
+      "name": "Haputale",
+      "latitude": 6.76566,
+      "longitude": 80.95104,
+      "population": 4721,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "11979654",
+      "name": "Mirissa city",
+      "latitude": 5.94655,
+      "longitude": 80.45831,
+      "population": 4695,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "1227300",
+      "name": "Talawakele",
+      "latitude": 6.9371,
+      "longitude": 80.6581,
+      "population": 3545,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "1244178",
+      "name": "Hikkaduwa",
+      "latitude": 6.1407,
+      "longitude": 80.1012,
+      "population": 1300,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "1242571",
+      "name": "Kadugannawa",
+      "latitude": 7.2547,
+      "longitude": 80.5242,
+      "population": 1214,
+      "populationRank": 67,
+      "isCapital": false
+    }
+  ]
+}

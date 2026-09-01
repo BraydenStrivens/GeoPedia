@@ -1,0 +1,283 @@
+{
+  "towns": [
+    {
+      "id": "2562541",
+      "name": "San Pawl il-Baħar",
+      "latitude": 35.95064,
+      "longitude": 14.41561,
+      "population": 32042,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "2563191",
+      "name": "Birkirkara",
+      "latitude": 35.89706,
+      "longitude": 14.46115,
+      "population": 24356,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2562704",
+      "name": "Mosta",
+      "latitude": 35.90942,
+      "longitude": 14.42566,
+      "population": 23482,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2562501",
+      "name": "Sliema",
+      "latitude": 35.91247,
+      "longitude": 14.50175,
+      "population": 22591,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2562629",
+      "name": "Qormi",
+      "latitude": 35.87601,
+      "longitude": 14.472,
+      "population": 16801,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2562266",
+      "name": "Żabbar",
+      "latitude": 35.87687,
+      "longitude": 14.53592,
+      "population": 15648,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2562683",
+      "name": "Naxxar",
+      "latitude": 35.91368,
+      "longitude": 14.44382,
+      "population": 14890,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "2567539",
+      "name": "San Ġwann",
+      "latitude": 35.90556,
+      "longitude": 14.47611,
+      "population": 14720,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2562850",
+      "name": "Swieqi",
+      "latitude": 35.92154,
+      "longitude": 14.47998,
+      "population": 14452,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2562557",
+      "name": "San Ġiljan",
+      "latitude": 35.91839,
+      "longitude": 14.48977,
+      "population": 13792,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2562698",
+      "name": "Imsida",
+      "latitude": 35.8925,
+      "longitude": 14.48278,
+      "population": 13713,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "2563189",
+      "name": "Birżebbuġa",
+      "latitude": 35.82546,
+      "longitude": 14.52685,
+      "population": 12915,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2563115",
+      "name": "Fgura",
+      "latitude": 35.87028,
+      "longitude": 14.51333,
+      "population": 12877,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2562620",
+      "name": "Rabat",
+      "latitude": 35.88152,
+      "longitude": 14.39872,
+      "population": 11936,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2562946",
+      "name": "Gżira",
+      "latitude": 35.90583,
+      "longitude": 14.48806,
+      "population": 11669,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "2562258",
+      "name": "Żejtun",
+      "latitude": 35.85547,
+      "longitude": 14.53341,
+      "population": 11549,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "2563232",
+      "name": "Attard",
+      "latitude": 35.88967,
+      "longitude": 14.4425,
+      "population": 11377,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2562261",
+      "name": "Haz-Zebbug",
+      "latitude": 35.87194,
+      "longitude": 14.44111,
+      "population": 11079,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2562250",
+      "name": "Żurrieq",
+      "latitude": 35.8296,
+      "longitude": 14.47588,
+      "population": 10962,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2562750",
+      "name": "Marsaskala",
+      "latitude": 35.8622,
+      "longitude": 14.56701,
+      "population": 10024,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2562998",
+      "name": "Ħamrun",
+      "latitude": 35.88452,
+      "longitude": 14.48498,
+      "population": 9743,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "2562617",
+      "name": "Paola",
+      "latitude": 35.87297,
+      "longitude": 14.49897,
+      "population": 8706,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2562305",
+      "name": "Valletta",
+      "latitude": 35.89968,
+      "longitude": 14.5148,
+      "population": 6794,
+      "populationRank": 23,
+      "isCapital": true
+    },
+    {
+      "id": "2562619",
+      "name": "Victoria",
+      "latitude": 36.04473,
+      "longitude": 14.24118,
+      "population": 6596,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2563181",
+      "name": "Cospicua",
+      "latitude": 35.88556,
+      "longitude": 14.5275,
+      "population": 6096,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "8337353",
+      "name": "Pembroke",
+      "latitude": 35.93024,
+      "longitude": 14.47793,
+      "population": 3842,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "2562792",
+      "name": "Senglea",
+      "latitude": 35.88777,
+      "longitude": 14.51588,
+      "population": 2720,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2562966",
+      "name": "Vittoriosa",
+      "latitude": 35.89157,
+      "longitude": 14.51765,
+      "population": 2489,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2562955",
+      "name": "Floriana",
+      "latitude": 35.89583,
+      "longitude": 14.50833,
+      "population": 2032,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2562320",
+      "name": "Ta’ Xbiex",
+      "latitude": 35.89907,
+      "longitude": 14.49456,
+      "population": 2012,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "2562746",
+      "name": "Imdina",
+      "latitude": 35.88636,
+      "longitude": 14.40312,
+      "population": 193,
+      "populationRank": 31,
+      "isCapital": false
+    }
+  ]
+}

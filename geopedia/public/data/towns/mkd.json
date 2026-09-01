@@ -1,0 +1,310 @@
+{
+  "towns": [
+    {
+      "id": "785842",
+      "name": "Skopje",
+      "latitude": 41.99646,
+      "longitude": 21.43141,
+      "population": 474889,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "788886",
+      "name": "Kumanovo",
+      "latitude": 42.13279,
+      "longitude": 21.71585,
+      "population": 75051,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "786735",
+      "name": "Prilep",
+      "latitude": 41.34558,
+      "longitude": 21.5537,
+      "population": 73814,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "792578",
+      "name": "Bitola",
+      "latitude": 41.03226,
+      "longitude": 21.33553,
+      "population": 69287,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "785082",
+      "name": "Tetovo",
+      "latitude": 42.00989,
+      "longitude": 20.97138,
+      "population": 63176,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "785058",
+      "name": "Veles",
+      "latitude": 41.71719,
+      "longitude": 21.77196,
+      "population": 57873,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "790295",
+      "name": "Gostivar",
+      "latitude": 41.79627,
+      "longitude": 20.90799,
+      "population": 50974,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "785482",
+      "name": "Shtip",
+      "latitude": 41.74583,
+      "longitude": 22.19583,
+      "population": 48279,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "787487",
+      "name": "Ohrid",
+      "latitude": 41.11701,
+      "longitude": 20.80175,
+      "population": 42033,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "789541",
+      "name": "Kavadarci",
+      "latitude": 41.43344,
+      "longitude": 22.01218,
+      "population": 38799,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "785387",
+      "name": "Struga",
+      "latitude": 41.17787,
+      "longitude": 20.67894,
+      "population": 37387,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "789403",
+      "name": "Kochani",
+      "latitude": 41.91639,
+      "longitude": 22.41278,
+      "population": 34258,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "785380",
+      "name": "Strumica",
+      "latitude": 41.43763,
+      "longitude": 22.64288,
+      "population": 33825,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "789527",
+      "name": "Kičevo",
+      "latitude": 41.51274,
+      "longitude": 20.95867,
+      "population": 31123,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "786565",
+      "name": "Radovis",
+      "latitude": 41.63833,
+      "longitude": 22.46472,
+      "population": 24984,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "789045",
+      "name": "Kriva Palanka",
+      "latitude": 42.20197,
+      "longitude": 22.33385,
+      "population": 20820,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "790744",
+      "name": "Gevgelija",
+      "latitude": 41.14289,
+      "longitude": 22.50108,
+      "population": 20664,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "787716",
+      "name": "Negotino",
+      "latitude": 41.48456,
+      "longitude": 22.09056,
+      "population": 19515,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "784424",
+      "name": "Vinica",
+      "latitude": 41.8812,
+      "longitude": 22.51074,
+      "population": 18218,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "791606",
+      "name": "Debar",
+      "latitude": 41.52286,
+      "longitude": 20.52198,
+      "population": 18074,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "791559",
+      "name": "Delcevo",
+      "latitude": 41.96722,
+      "longitude": 22.76944,
+      "population": 17415,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "786341",
+      "name": "Resen",
+      "latitude": 41.08999,
+      "longitude": 21.00885,
+      "population": 16539,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "792656",
+      "name": "Berovo",
+      "latitude": 41.70182,
+      "longitude": 22.85716,
+      "population": 13847,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "785201",
+      "name": "Sveti Nikole",
+      "latitude": 41.86956,
+      "longitude": 21.95274,
+      "population": 13292,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "786700",
+      "name": "Probishtip",
+      "latitude": 42.00306,
+      "longitude": 22.17861,
+      "population": 12702,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "789091",
+      "name": "Kratovo",
+      "latitude": 42.07906,
+      "longitude": 22.18167,
+      "population": 10288,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "792523",
+      "name": "Bogdanci",
+      "latitude": 41.20363,
+      "longitude": 22.57586,
+      "population": 8636,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "789629",
+      "name": "Makedonska Kamenica",
+      "latitude": 42.02141,
+      "longitude": 22.58981,
+      "population": 8114,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "792257",
+      "name": "Makedonski Brod",
+      "latitude": 41.51328,
+      "longitude": 21.21641,
+      "population": 5607,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "788961",
+      "name": "Krusevo",
+      "latitude": 41.36889,
+      "longitude": 21.24889,
+      "population": 5211,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "791542",
+      "name": "Demir Kapija",
+      "latitude": 41.40633,
+      "longitude": 22.24305,
+      "population": 4451,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "784733",
+      "name": "Valandovo",
+      "latitude": 41.31761,
+      "longitude": 22.56303,
+      "population": 3798,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "787147",
+      "name": "Pehčevo",
+      "latitude": 41.76252,
+      "longitude": 22.88982,
+      "population": 2440,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "787778",
+      "name": "Demir Hisar",
+      "latitude": 41.22029,
+      "longitude": 21.20405,
+      "population": 2283,
+      "populationRank": 34,
+      "isCapital": false
+    }
+  ]
+}

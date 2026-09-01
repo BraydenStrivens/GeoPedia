@@ -1,0 +1,589 @@
+{
+  "towns": [
+    {
+      "id": "2427123",
+      "name": "N'Djamena",
+      "latitude": 12.10672,
+      "longitude": 15.0444,
+      "population": 1359526,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "2427455",
+      "name": "Moundou",
+      "latitude": 8.57437,
+      "longitude": 16.07722,
+      "population": 196124,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "245785",
+      "name": "Abéché",
+      "latitude": 13.82916,
+      "longitude": 20.8324,
+      "population": 139983,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2425791",
+      "name": "Sarh",
+      "latitude": 9.14555,
+      "longitude": 18.38331,
+      "population": 138928,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2430506",
+      "name": "Kelo",
+      "latitude": 9.30859,
+      "longitude": 15.80658,
+      "population": 82677,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "245338",
+      "name": "Am Timan",
+      "latitude": 11.0433,
+      "longitude": 20.28342,
+      "population": 74691,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2433437",
+      "name": "Doba",
+      "latitude": 8.66389,
+      "longitude": 16.85324,
+      "population": 70942,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "2426240",
+      "name": "Pala",
+      "latitude": 9.3646,
+      "longitude": 14.90725,
+      "population": 70677,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2434910",
+      "name": "Bongor",
+      "latitude": 10.28088,
+      "longitude": 15.37425,
+      "population": 63699,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "243787",
+      "name": "Goz Beida",
+      "latitude": 12.22643,
+      "longitude": 21.40983,
+      "population": 58941,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2429605",
+      "name": "Koumra",
+      "latitude": 8.91587,
+      "longitude": 17.55046,
+      "population": 54109,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "2427637",
+      "name": "Mongo",
+      "latitude": 12.18514,
+      "longitude": 18.6884,
+      "population": 53768,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2434979",
+      "name": "Bol",
+      "latitude": 13.46729,
+      "longitude": 14.71352,
+      "population": 51389,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2428394",
+      "name": "Mao",
+      "latitude": 14.12286,
+      "longitude": 15.31189,
+      "population": 50681,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2434011",
+      "name": "Déressia",
+      "latitude": 9.7602,
+      "longitude": 16.2698,
+      "population": 50113,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "243590",
+      "name": "Iriba",
+      "latitude": 15.11667,
+      "longitude": 22.25,
+      "population": 47972,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "2432678",
+      "name": "Faya-Largeau",
+      "latitude": 17.9257,
+      "longitude": 19.10428,
+      "population": 44011,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2435124",
+      "name": "Bitkine",
+      "latitude": 11.9801,
+      "longitude": 18.2138,
+      "population": 41871,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2435854",
+      "name": "Bébédja",
+      "latitude": 8.6761,
+      "longitude": 16.566,
+      "population": 40289,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2428228",
+      "name": "Massakory",
+      "latitude": 12.99809,
+      "longitude": 15.73195,
+      "population": 39944,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2426370",
+      "name": "Umm Hājar",
+      "latitude": 13.2954,
+      "longitude": 19.6966,
+      "population": 37941,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "2427336",
+      "name": "Moussoro",
+      "latitude": 13.64436,
+      "longitude": 16.48954,
+      "population": 35100,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "244878",
+      "name": "Biltine",
+      "latitude": 14.52727,
+      "longitude": 20.92603,
+      "population": 33540,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "2429158",
+      "name": "Léré",
+      "latitude": 9.6447,
+      "longitude": 14.2151,
+      "population": 32721,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2432639",
+      "name": "Fianga",
+      "latitude": 9.9146,
+      "longitude": 15.1399,
+      "population": 31668,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "2436400",
+      "name": "Ati",
+      "latitude": 13.2138,
+      "longitude": 18.3393,
+      "population": 29867,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "9534257",
+      "name": "Amdjarass",
+      "latitude": 16.06666,
+      "longitude": 22.83536,
+      "population": 29793,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2431724",
+      "name": "Gounou Gaya",
+      "latitude": 9.6294,
+      "longitude": 15.5132,
+      "population": 29742,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2428231",
+      "name": "Massaguet",
+      "latitude": 12.47554,
+      "longitude": 15.43647,
+      "population": 28401,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2429296",
+      "name": "Laï",
+      "latitude": 9.3972,
+      "longitude": 16.30066,
+      "population": 27071,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "2434985",
+      "name": "Bokoro",
+      "latitude": 12.37813,
+      "longitude": 17.05876,
+      "population": 26095,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2431573",
+      "name": "Guelendeng",
+      "latitude": 10.91762,
+      "longitude": 15.55011,
+      "population": 23320,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2429344",
+      "name": "Kyabé",
+      "latitude": 9.45149,
+      "longitude": 18.94493,
+      "population": 22806,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "245669",
+      "name": "Adré",
+      "latitude": 13.46648,
+      "longitude": 22.19875,
+      "population": 21950,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "2428480",
+      "name": "Mandelia",
+      "latitude": 11.73017,
+      "longitude": 15.24468,
+      "population": 19373,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "2433055",
+      "name": "Dourbali",
+      "latitude": 11.80617,
+      "longitude": 15.8669,
+      "population": 18604,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "2435508",
+      "name": "Benoy",
+      "latitude": 8.98327,
+      "longitude": 16.31991,
+      "population": 17285,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "2427697",
+      "name": "Moïssala",
+      "latitude": 8.3404,
+      "longitude": 17.7663,
+      "population": 17281,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "244128",
+      "name": "Fada",
+      "latitude": 17.19186,
+      "longitude": 21.58081,
+      "population": 17240,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "2434584",
+      "name": "Bousso",
+      "latitude": 10.48473,
+      "longitude": 16.71076,
+      "population": 16732,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "2428450",
+      "name": "Mangalmé",
+      "latitude": 12.3546,
+      "longitude": 19.6139,
+      "population": 15939,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "2435779",
+      "name": "Bédiondo",
+      "latitude": 8.62891,
+      "longitude": 17.18643,
+      "population": 15841,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "2435474",
+      "name": "Béré",
+      "latitude": 9.3202,
+      "longitude": 16.1552,
+      "population": 15431,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "2436212",
+      "name": "Baïbokoum",
+      "latitude": 7.74231,
+      "longitude": 15.68999,
+      "population": 13217,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "2427034",
+      "name": "Ngama",
+      "latitude": 11.78729,
+      "longitude": 17.15925,
+      "population": 13087,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "2427949",
+      "name": "Melfi",
+      "latitude": 11.0598,
+      "longitude": 17.9355,
+      "population": 12924,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "2435708",
+      "name": "Beïnamar",
+      "latitude": 8.6698,
+      "longitude": 15.3813,
+      "population": 12901,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "2429359",
+      "name": "Krim Krim",
+      "latitude": 8.97225,
+      "longitude": 15.80359,
+      "population": 11294,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "2437601",
+      "name": "Abou Déïa",
+      "latitude": 11.448,
+      "longitude": 19.2789,
+      "population": 10749,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "2431736",
+      "name": "Goundi",
+      "latitude": 9.36267,
+      "longitude": 17.36597,
+      "population": 10577,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "242179",
+      "name": "Ounianga Kébir",
+      "latitude": 19.05263,
+      "longitude": 20.48887,
+      "population": 10000,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "12640347",
+      "name": "Kirdimi",
+      "latitude": 18.15223,
+      "longitude": 18.5385,
+      "population": 9345,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "2435837",
+      "name": "Béboto",
+      "latitude": 8.26681,
+      "longitude": 16.93898,
+      "population": 9321,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "245791",
+      "name": "Abdi",
+      "latitude": 12.8,
+      "longitude": 21.3,
+      "population": 9190,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "8299879",
+      "name": "Haraze",
+      "latitude": 9.93969,
+      "longitude": 20.90524,
+      "population": 8799,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "2426784",
+      "name": "Nokou",
+      "latitude": 14.57901,
+      "longitude": 14.7793,
+      "population": 8792,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "245501",
+      "name": "Am Dam",
+      "latitude": 12.76667,
+      "longitude": 20.48333,
+      "population": 7729,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "2424324",
+      "name": "Yao",
+      "latitude": 12.8488,
+      "longitude": 17.55656,
+      "population": 7639,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "2425906",
+      "name": "Salal",
+      "latitude": 14.8439,
+      "longitude": 17.2254,
+      "population": 7139,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "243760",
+      "name": "Guéréda",
+      "latitude": 14.51667,
+      "longitude": 22.08333,
+      "population": 6598,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "2428216",
+      "name": "Massenya",
+      "latitude": 11.40345,
+      "longitude": 16.17037,
+      "population": 4611,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "2435976",
+      "name": "Bardaï",
+      "latitude": 21.35468,
+      "longitude": 17.00158,
+      "population": 4078,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "2427640",
+      "name": "Mondo",
+      "latitude": 13.78224,
+      "longitude": 15.5352,
+      "population": 1608,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "2424015",
+      "name": "Zouar",
+      "latitude": 20.45833,
+      "longitude": 16.52778,
+      "population": 1237,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "2426037",
+      "name": "Rig-Rig",
+      "latitude": 14.26471,
+      "longitude": 14.35216,
+      "population": 600,
+      "populationRank": 65,
+      "isCapital": false
+    }
+  ]
+}

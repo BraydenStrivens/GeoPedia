@@ -1,0 +1,103 @@
+{
+  "towns": [
+    {
+      "id": "223817",
+      "name": "Djibouti",
+      "latitude": 11.58901,
+      "longitude": 43.14503,
+      "population": 626512,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "7648070",
+      "name": "Balbala",
+      "latitude": 11.56194,
+      "longitude": 43.10666,
+      "population": 554350,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "225284",
+      "name": "Ali Sabih",
+      "latitude": 11.15583,
+      "longitude": 42.7125,
+      "population": 50006,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "223890",
+      "name": "Dikhil",
+      "latitude": 11.10454,
+      "longitude": 42.36971,
+      "population": 32801,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "220782",
+      "name": "Tadjoura",
+      "latitude": 11.78778,
+      "longitude": 42.88222,
+      "population": 19533,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "225037",
+      "name": "Arta",
+      "latitude": 11.52639,
+      "longitude": 42.85194,
+      "population": 17477,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "221527",
+      "name": "Obock",
+      "latitude": 11.96693,
+      "longitude": 43.28835,
+      "population": 15429,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "225310",
+      "name": "‘Ali ‘Addé",
+      "latitude": 11.13333,
+      "longitude": 42.88583,
+      "population": 3700,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "222596",
+      "name": "Holhol",
+      "latitude": 11.31028,
+      "longitude": 42.92944,
+      "population": 3519,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "220552",
+      "name": "Yoboki",
+      "latitude": 11.51139,
+      "longitude": 42.10639,
+      "population": 3147,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "223773",
+      "name": "Dorra",
+      "latitude": 12.15028,
+      "longitude": 42.47624,
+      "population": 1873,
+      "populationRank": 11,
+      "isCapital": false
+    }
+  ]
+}

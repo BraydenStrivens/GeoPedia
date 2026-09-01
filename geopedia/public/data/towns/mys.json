@@ -1,0 +1,1804 @@
+{
+  "towns": [
+    {
+      "id": "1735161",
+      "name": "Kuala Lumpur",
+      "latitude": 3.1412,
+      "longitude": 101.68653,
+      "population": 1453975,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "1732752",
+      "name": "Johor Bahru",
+      "latitude": 1.4655,
+      "longitude": 103.7578,
+      "population": 858118,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "1735158",
+      "name": "Petaling Jaya",
+      "latitude": 3.10726,
+      "longitude": 101.60671,
+      "population": 807879,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "1734634",
+      "name": "Ipoh",
+      "latitude": 4.5841,
+      "longitude": 101.0829,
+      "population": 759952,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "1732903",
+      "name": "Shah Alam",
+      "latitude": 3.08507,
+      "longitude": 101.53281,
+      "population": 740750,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "1732747",
+      "name": "Pelentong",
+      "latitude": 1.5243,
+      "longitude": 103.824,
+      "population": 583640,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "1734759",
+      "name": "Malacca",
+      "latitude": 2.196,
+      "longitude": 102.2405,
+      "population": 579000,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "10063567",
+      "name": "Iskandar Puteri",
+      "latitude": 1.39324,
+      "longitude": 103.62322,
+      "population": 575977,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "1736376",
+      "name": "Kota Bharu",
+      "latitude": 6.12361,
+      "longitude": 102.24333,
+      "population": 568900,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "1735227",
+      "name": "Kuantan",
+      "latitude": 3.8077,
+      "longitude": 103.326,
+      "population": 548014,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "1735498",
+      "name": "Sungai Petani",
+      "latitude": 5.647,
+      "longitude": 100.48772,
+      "population": 544851,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "7795834",
+      "name": "Selayang Baru Utara",
+      "latitude": 3.2549,
+      "longitude": 101.6668,
+      "population": 542409,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "1732722",
+      "name": "Pasir Gudang",
+      "latitude": 1.462,
+      "longitude": 103.9053,
+      "population": 534659,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "12750654",
+      "name": "Mukim Pulai",
+      "latitude": 1.53333,
+      "longitude": 103.66667,
+      "population": 505661,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "1733432",
+      "name": "Kota Kinabalu",
+      "latitude": 5.9749,
+      "longitude": 116.0724,
+      "population": 500421,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "1734052",
+      "name": "Sandakan",
+      "latitude": 5.8402,
+      "longitude": 118.1179,
+      "population": 439050,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "1734705",
+      "name": "Kuala Terengganu",
+      "latitude": 5.3302,
+      "longitude": 103.1408,
+      "population": 426500,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "1736309",
+      "name": "Alor Setar",
+      "latitude": 6.12104,
+      "longitude": 100.36014,
+      "population": 417800,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "1762110",
+      "name": "Kampung Kangkar Teberau",
+      "latitude": 1.532,
+      "longitude": 103.7549,
+      "population": 412373,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1735634",
+      "name": "Kuching",
+      "latitude": 1.55,
+      "longitude": 110.33333,
+      "population": 402738,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "1749822",
+      "name": "Puchong",
+      "latitude": 3,
+      "longitude": 101.61667,
+      "population": 375181,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "1734810",
+      "name": "Seremban",
+      "latitude": 2.7297,
+      "longitude": 101.9381,
+      "population": 372917,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "1734199",
+      "name": "Tawau",
+      "latitude": 4.24482,
+      "longitude": 117.89115,
+      "population": 372615,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "1732811",
+      "name": "Kluang",
+      "latitude": 2.03046,
+      "longitude": 103.31689,
+      "population": 323762,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "1732869",
+      "name": "Muar",
+      "latitude": 2.0442,
+      "longitude": 102.5689,
+      "population": 314776,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "1738050",
+      "name": "Miri",
+      "latitude": 4.39928,
+      "longitude": 113.99163,
+      "population": 300543,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "1732901",
+      "name": "Kapar",
+      "latitude": 3.13333,
+      "longitude": 101.38333,
+      "population": 269627,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "1735166",
+      "name": "Batu Caves",
+      "latitude": 3.238,
+      "longitude": 101.682,
+      "population": 254083,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "1732905",
+      "name": "Klang",
+      "latitude": 3.03667,
+      "longitude": 101.44333,
+      "population": 240016,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "10941913",
+      "name": "Kajang",
+      "latitude": 2.99424,
+      "longitude": 101.78875,
+      "population": 236240,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "1735459",
+      "name": "Teluk Intan",
+      "latitude": 4.02219,
+      "longitude": 101.02083,
+      "population": 232800,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "1736372",
+      "name": "Pasir Mas",
+      "latitude": 6.04934,
+      "longitude": 102.13987,
+      "population": 230424,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "1735153",
+      "name": "Sungai Buloh",
+      "latitude": 3.21,
+      "longitude": 101.561,
+      "population": 222858,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "1734586",
+      "name": "Taiping",
+      "latitude": 4.85,
+      "longitude": 100.73333,
+      "population": 217647,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "1735079",
+      "name": "Bukit Mertajam",
+      "latitude": 5.36301,
+      "longitude": 100.4667,
+      "population": 212329,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "1734821",
+      "name": "Sepang",
+      "latitude": 2.6931,
+      "longitude": 101.7498,
+      "population": 212050,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "1735150",
+      "name": "Rawang",
+      "latitude": 3.3213,
+      "longitude": 101.5767,
+      "population": 199095,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "1735902",
+      "name": "Sibu",
+      "latitude": 2.3,
+      "longitude": 111.81667,
+      "population": 198239,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "1732676",
+      "name": "Kuala Kubu Baharu",
+      "latitude": 3.5638,
+      "longitude": 101.6581,
+      "population": 194387,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "1734393",
+      "name": "Kulim",
+      "latitude": 5.36499,
+      "longitude": 100.56177,
+      "population": 170889,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "1735106",
+      "name": "George Town",
+      "latitude": 5.41123,
+      "longitude": 100.33543,
+      "population": 158336,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "1732687",
+      "name": "Batu Pahat",
+      "latitude": 1.8548,
+      "longitude": 102.9325,
+      "population": 156236,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "1735453",
+      "name": "Sitiawan",
+      "latitude": 4.2168,
+      "longitude": 100.6996,
+      "population": 156234,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "1737486",
+      "name": "Bintulu",
+      "latitude": 3.16667,
+      "longitude": 113.03333,
+      "population": 151617,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "1732750",
+      "name": "Masai",
+      "latitude": 1.4907,
+      "longitude": 103.8788,
+      "population": 141730,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "1735545",
+      "name": "Pasir Puteh",
+      "latitude": 5.83333,
+      "longitude": 102.4,
+      "population": 137400,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "1735093",
+      "name": "Tasek Glugor",
+      "latitude": 5.48032,
+      "longitude": 100.49849,
+      "population": 135786,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "1735102",
+      "name": "Bayan Lepas",
+      "latitude": 5.29992,
+      "longitude": 100.26052,
+      "population": 130455,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "1744246",
+      "name": "Seri Kembangan",
+      "latitude": 3.03333,
+      "longitude": 101.71667,
+      "population": 130252,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "1734815",
+      "name": "Port Dickson",
+      "latitude": 2.52462,
+      "longitude": 101.79651,
+      "population": 119300,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "1732637",
+      "name": "Maran",
+      "latitude": 3.586,
+      "longitude": 102.773,
+      "population": 111056,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "1735076",
+      "name": "Butterworth",
+      "latitude": 5.3991,
+      "longitude": 100.36382,
+      "population": 107591,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "1733953",
+      "name": "Lahad Datu",
+      "latitude": 5.02298,
+      "longitude": 118.32897,
+      "population": 105622,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "1735572",
+      "name": "Kuala Krai",
+      "latitude": 5.5313,
+      "longitude": 102.19925,
+      "population": 105007,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "1769014",
+      "name": "Ijok",
+      "latitude": 3.31667,
+      "longitude": 101.4,
+      "population": 100899,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "7792200",
+      "name": "Seri Manjung",
+      "latitude": 4.1987,
+      "longitude": 100.67,
+      "population": 100000,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "1732859",
+      "name": "Pagoh",
+      "latitude": 2.1495,
+      "longitude": 102.7704,
+      "population": 95202,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "1733782",
+      "name": "Labuan",
+      "latitude": 5.28028,
+      "longitude": 115.2475,
+      "population": 95120,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "1765769",
+      "name": "Pendang",
+      "latitude": 5.99516,
+      "longitude": 100.47885,
+      "population": 94033,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "1734798",
+      "name": "Semenyih",
+      "latitude": 2.9516,
+      "longitude": 101.843,
+      "population": 92491,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "1737919",
+      "name": "Marudi",
+      "latitude": 4.18333,
+      "longitude": 114.31667,
+      "population": 90100,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "1760605",
+      "name": "Kepong",
+      "latitude": 3.21398,
+      "longitude": 101.64018,
+      "population": 85960,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "1732680",
+      "name": "Parit Sulung",
+      "latitude": 1.976,
+      "longitude": 102.8835,
+      "population": 82399,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "6930887",
+      "name": "Cyberjaya",
+      "latitude": 2.92281,
+      "longitude": 101.65718,
+      "population": 79200,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "1733440",
+      "name": "Putatan",
+      "latitude": 5.9258,
+      "longitude": 116.06094,
+      "population": 78340,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "1733438",
+      "name": "Donggongon",
+      "latitude": 5.90702,
+      "longitude": 116.10146,
+      "population": 78086,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "1734098",
+      "name": "Keningau",
+      "latitude": 5.3378,
+      "longitude": 116.1602,
+      "population": 77650,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "1738294",
+      "name": "Ulu Tiram",
+      "latitude": 1.6,
+      "longitude": 103.81667,
+      "population": 75350,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "1735148",
+      "name": "Serendah",
+      "latitude": 3.3646,
+      "longitude": 101.6041,
+      "population": 71202,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "1732846",
+      "name": "Segamat",
+      "latitude": 2.5148,
+      "longitude": 102.8158,
+      "population": 69816,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "1735489",
+      "name": "Yan Besar",
+      "latitude": 5.7989,
+      "longitude": 100.37264,
+      "population": 67653,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "1732672",
+      "name": "Tanjong Malim",
+      "latitude": 3.681,
+      "longitude": 101.5198,
+      "population": 66103,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "1732755",
+      "name": "Gelang Patah",
+      "latitude": 1.4484,
+      "longitude": 103.5873,
+      "population": 64375,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "1736278",
+      "name": "Kangar",
+      "latitude": 6.4414,
+      "longitude": 100.19862,
+      "population": 63869,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "1732742",
+      "name": "Kulai",
+      "latitude": 1.6561,
+      "longitude": 103.6032,
+      "population": 63762,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "1736302",
+      "name": "Jitra",
+      "latitude": 6.26812,
+      "longitude": 100.42167,
+      "population": 63489,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "1733697",
+      "name": "Semporna",
+      "latitude": 4.48178,
+      "longitude": 118.61119,
+      "population": 62641,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "1735433",
+      "name": "Parit",
+      "latitude": 4.48333,
+      "longitude": 100.91667,
+      "population": 60988,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "1735022",
+      "name": "Temerluh",
+      "latitude": 3.4506,
+      "longitude": 102.4176,
+      "population": 59916,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "1732700",
+      "name": "Simpang Renggam",
+      "latitude": 1.825,
+      "longitude": 103.3107,
+      "population": 59033,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "1744288",
+      "name": "Serian",
+      "latitude": 1.16667,
+      "longitude": 110.56667,
+      "population": 58059,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "1732891",
+      "name": "Kuala Selangor",
+      "latitude": 3.35,
+      "longitude": 101.25,
+      "population": 55887,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "1735172",
+      "name": "Hulu Langat",
+      "latitude": 3.1137,
+      "longitude": 101.8142,
+      "population": 55251,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "1732738",
+      "name": "Kota Tinggi",
+      "latitude": 1.7381,
+      "longitude": 103.8999,
+      "population": 52743,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "1734539",
+      "name": "Bau",
+      "latitude": 1.41667,
+      "longitude": 110.15,
+      "population": 52643,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "1734418",
+      "name": "Padang Serai",
+      "latitude": 5.51307,
+      "longitude": 100.55356,
+      "population": 50757,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "1734768",
+      "name": "Teluk Panglima Garang",
+      "latitude": 2.90796,
+      "longitude": 101.46877,
+      "population": 49155,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "1737247",
+      "name": "Niah",
+      "latitude": 3.86203,
+      "longitude": 113.71521,
+      "population": 48875,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "1734781",
+      "name": "Banting",
+      "latitude": 2.8136,
+      "longitude": 101.50185,
+      "population": 48240,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "1734439",
+      "name": "Bedong",
+      "latitude": 5.72743,
+      "longitude": 100.50876,
+      "population": 47585,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "1735799",
+      "name": "Sri Aman",
+      "latitude": 1.24722,
+      "longitude": 111.45278,
+      "population": 47313,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "1735268",
+      "name": "Batu Gajah",
+      "latitude": 4.46916,
+      "longitude": 101.04107,
+      "population": 46183,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "1734797",
+      "name": "Bangi",
+      "latitude": 2.9,
+      "longitude": 101.78333,
+      "population": 45042,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "1734407",
+      "name": "Bandar Baharu",
+      "latitude": 5.13428,
+      "longitude": 100.49549,
+      "population": 44412,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "1735837",
+      "name": "Sarikei",
+      "latitude": 2.11667,
+      "longitude": 111.51667,
+      "population": 44039,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "1735018",
+      "name": "Mentakab",
+      "latitude": 3.4854,
+      "longitude": 102.3484,
+      "population": 42171,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "1734883",
+      "name": "Rompin",
+      "latitude": 2.7083,
+      "longitude": 102.5047,
+      "population": 41931,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "1732667",
+      "name": "Bentung",
+      "latitude": 3.5316,
+      "longitude": 101.9038,
+      "population": 40373,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "1735086",
+      "name": "Nibong Tebal",
+      "latitude": 5.16586,
+      "longitude": 100.47793,
+      "population": 40072,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "1732663",
+      "name": "Raub",
+      "latitude": 3.7899,
+      "longitude": 101.857,
+      "population": 40024,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "1778385",
+      "name": "Bukit Gambir",
+      "latitude": 2.211,
+      "longitude": 102.6546,
+      "population": 40000,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "1735450",
+      "name": "Lumut",
+      "latitude": 4.2323,
+      "longitude": 100.6298,
+      "population": 39595,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "1734599",
+      "name": "Kuala Kangsar",
+      "latitude": 4.76667,
+      "longitude": 100.93333,
+      "population": 39331,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "1733868",
+      "name": "Sipitang",
+      "latitude": 5.07903,
+      "longitude": 115.54964,
+      "population": 39300,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "1771287",
+      "name": "Kampung Baharu Nilai",
+      "latitude": 2.8033,
+      "longitude": 101.7972,
+      "population": 38612,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "1737714",
+      "name": "Limbang",
+      "latitude": 4.75477,
+      "longitude": 115.01011,
+      "population": 38093,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "1734753",
+      "name": "Kampung Ayer Keroh",
+      "latitude": 2.2654,
+      "longitude": 102.2801,
+      "population": 37716,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "1736902",
+      "name": "Betong",
+      "latitude": 1.4,
+      "longitude": 111.51667,
+      "population": 36303,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "1734577",
+      "name": "Kamunting",
+      "latitude": 4.88333,
+      "longitude": 100.73333,
+      "population": 36243,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "1732857",
+      "name": "Tangkak",
+      "latitude": 2.2673,
+      "longitude": 102.5453,
+      "population": 35109,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "13118085",
+      "name": "Sibu Jaya",
+      "latitude": 2.24026,
+      "longitude": 111.97135,
+      "population": 35000,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "1742731",
+      "name": "Sungai Lalang",
+      "latitude": 5.6998,
+      "longitude": 100.51449,
+      "population": 34947,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "1734399",
+      "name": "Selama",
+      "latitude": 5.2236,
+      "longitude": 100.69262,
+      "population": 34800,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "1734308",
+      "name": "Dungun",
+      "latitude": 4.775,
+      "longitude": 103.4162,
+      "population": 34767,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "1732602",
+      "name": "Jerantut",
+      "latitude": 3.936,
+      "longitude": 102.3626,
+      "population": 33606,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "1735339",
+      "name": "Mukah",
+      "latitude": 2.89435,
+      "longitude": 112.09145,
+      "population": 33478,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "1737185",
+      "name": "Kapit",
+      "latitude": 1.99546,
+      "longitude": 112.93254,
+      "population": 33014,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "1732927",
+      "name": "Sungkai",
+      "latitude": 4,
+      "longitude": 101.31667,
+      "population": 32700,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "6805124",
+      "name": "Sik",
+      "latitude": 5.83333,
+      "longitude": 100.75,
+      "population": 32565,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "1736458",
+      "name": "Kudat",
+      "latitude": 6.88732,
+      "longitude": 116.82364,
+      "population": 32393,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "1735404",
+      "name": "Tatau",
+      "latitude": 2.88333,
+      "longitude": 112.85,
+      "population": 31920,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "1734971",
+      "name": "Pekan",
+      "latitude": 3.4836,
+      "longitude": 103.3996,
+      "population": 31826,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "1734114",
+      "name": "Bandar Nabawan",
+      "latitude": 5.0393,
+      "longitude": 116.4274,
+      "population": 31807,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "1734839",
+      "name": "Bahau",
+      "latitude": 2.8079,
+      "longitude": 102.4049,
+      "population": 31273,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "1735092",
+      "name": "Kuala Kurau",
+      "latitude": 5.01821,
+      "longitude": 100.42824,
+      "population": 31065,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "1734372",
+      "name": "Gerik",
+      "latitude": 5.41667,
+      "longitude": 101.13333,
+      "population": 30868,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "1734626",
+      "name": "Chemor",
+      "latitude": 4.7211,
+      "longitude": 101.1189,
+      "population": 30461,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "1732871",
+      "name": "Bakri",
+      "latitude": 2.0441,
+      "longitude": 102.6527,
+      "population": 30280,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "1222396",
+      "name": "Kuah",
+      "latitude": 6.32649,
+      "longitude": 99.8432,
+      "population": 30212,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "1735287",
+      "name": "Bidur",
+      "latitude": 4.11667,
+      "longitude": 101.28333,
+      "population": 30016,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "1734885",
+      "name": "Gemas",
+      "latitude": 2.5832,
+      "longitude": 102.6117,
+      "population": 29777,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "1737489",
+      "name": "Sebauh",
+      "latitude": 3.11667,
+      "longitude": 113.26667,
+      "population": 29606,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "1734854",
+      "name": "Rembau",
+      "latitude": 2.5897,
+      "longitude": 102.0913,
+      "population": 29595,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "1733468",
+      "name": "Tambunan",
+      "latitude": 5.71667,
+      "longitude": 116.4,
+      "population": 29294,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "1767021",
+      "name": "Kampong Masjid Tanah",
+      "latitude": 2.35,
+      "longitude": 102.11667,
+      "population": 29185,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "1735553",
+      "name": "Tanah Merah",
+      "latitude": 5.8,
+      "longitude": 102.15,
+      "population": 29116,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "1737936",
+      "name": "Beluru",
+      "latitude": 3.98333,
+      "longitude": 114.1,
+      "population": 28695,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "1735188",
+      "name": "Hutan Melintang",
+      "latitude": 3.8766,
+      "longitude": 100.9328,
+      "population": 28357,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "1734738",
+      "name": "Tampin",
+      "latitude": 2.4701,
+      "longitude": 102.2302,
+      "population": 28238,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "1735282",
+      "name": "Tapah Road",
+      "latitude": 4.16667,
+      "longitude": 101.2,
+      "population": 27863,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "1735089",
+      "name": "Parit Buntar",
+      "latitude": 5.12671,
+      "longitude": 100.49316,
+      "population": 27313,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "1734506",
+      "name": "Siburan",
+      "latitude": 1.36667,
+      "longitude": 110.4,
+      "population": 27286,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "1759378",
+      "name": "Kubang Semang",
+      "latitude": 5.40375,
+      "longitude": 100.45745,
+      "population": 27194,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "1732814",
+      "name": "Yong Peng",
+      "latitude": 2.0136,
+      "longitude": 103.0659,
+      "population": 27138,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "1735199",
+      "name": "Sungai Besar",
+      "latitude": 3.6746,
+      "longitude": 100.9867,
+      "population": 26939,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "1737012",
+      "name": "Lundu",
+      "latitude": 1.67439,
+      "longitude": 109.85171,
+      "population": 26372,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "1737589",
+      "name": "Lawas",
+      "latitude": 4.8604,
+      "longitude": 115.409,
+      "population": 26002,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "1734537",
+      "name": "Tebedu",
+      "latitude": 1.02656,
+      "longitude": 110.36331,
+      "population": 25232,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "11429145",
+      "name": "Bandar Puncak Alam",
+      "latitude": 3.2389,
+      "longitude": 101.42793,
+      "population": 25000,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "1734793",
+      "name": "Jenjarum",
+      "latitude": 2.8724,
+      "longitude": 101.49484,
+      "population": 24857,
+      "populationRank": 150,
+      "isCapital": false
+    },
+    {
+      "id": "1736973",
+      "name": "Kanowit",
+      "latitude": 2.1,
+      "longitude": 112.15,
+      "population": 24700,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "1734316",
+      "name": "Kertih",
+      "latitude": 4.5141,
+      "longitude": 103.4483,
+      "population": 24401,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "1733376",
+      "name": "Kuala Penyu",
+      "latitude": 5.5714,
+      "longitude": 115.5984,
+      "population": 24200,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "1735096",
+      "name": "Balik Pulau",
+      "latitude": 5.34916,
+      "longitude": 100.23938,
+      "population": 23559,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "1732706",
+      "name": "Pekan Nenas",
+      "latitude": 1.51,
+      "longitude": 103.5141,
+      "population": 23292,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "7697762",
+      "name": "Bandar Tun Razak",
+      "latitude": 2.9029,
+      "longitude": 102.8877,
+      "population": 23247,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "1735681",
+      "name": "Simunjan",
+      "latitude": 1.38333,
+      "longitude": 110.75,
+      "population": 23011,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "1737314",
+      "name": "Belaga",
+      "latitude": 2.7,
+      "longitude": 113.78333,
+      "population": 22502,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "1732826",
+      "name": "Mersing",
+      "latitude": 2.4312,
+      "longitude": 103.8405,
+      "population": 22007,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "1734881",
+      "name": "Batu Anam",
+      "latitude": 2.5825,
+      "longitude": 102.711,
+      "population": 21923,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "1732877",
+      "name": "Labis",
+      "latitude": 2.385,
+      "longitude": 103.021,
+      "population": 21906,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "13118276",
+      "name": "Bandar Baru Salak Tinggi",
+      "latitude": 2.81232,
+      "longitude": 101.73562,
+      "population": 21534,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "1734715",
+      "name": "Marang",
+      "latitude": 5.2056,
+      "longitude": 103.2059,
+      "population": 21410,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "1759486",
+      "name": "Kuang",
+      "latitude": 3.2594,
+      "longitude": 101.5541,
+      "population": 21185,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "1736929",
+      "name": "Dalat",
+      "latitude": 2.66667,
+      "longitude": 112.08333,
+      "population": 21147,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "1734313",
+      "name": "Paka",
+      "latitude": 4.6374,
+      "longitude": 103.4368,
+      "population": 21044,
+      "populationRank": 166,
+      "isCapital": false
+    },
+    {
+      "id": "1734409",
+      "name": "Bagan Serai",
+      "latitude": 5.0108,
+      "longitude": 100.54101,
+      "population": 20476,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "1734745",
+      "name": "Alor Gajah",
+      "latitude": 2.3804,
+      "longitude": 102.2089,
+      "population": 20163,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "13118055",
+      "name": "Bukit Beruntung",
+      "latitude": 3.41558,
+      "longitude": 101.55709,
+      "population": 20023,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "1732892",
+      "name": "Batang Berjuntai",
+      "latitude": 3.38333,
+      "longitude": 101.41667,
+      "population": 20001,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "1734769",
+      "name": "Pelabuhan Klang",
+      "latitude": 2.99959,
+      "longitude": 101.39287,
+      "population": 20000,
+      "populationRank": 171,
+      "isCapital": false
+    },
+    {
+      "id": "6819209",
+      "name": "Kampung Hutan Arau",
+      "latitude": 6.42942,
+      "longitude": 100.28174,
+      "population": 20000,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "12547009",
+      "name": "Selangau",
+      "latitude": 2.52477,
+      "longitude": 112.32543,
+      "population": 19844,
+      "populationRank": 173,
+      "isCapital": false
+    },
+    {
+      "id": "1734651",
+      "name": "Gua Musang",
+      "latitude": 4.88441,
+      "longitude": 101.96857,
+      "population": 19731,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "1736338",
+      "name": "Pokok Sena",
+      "latitude": 6.17055,
+      "longitude": 100.51885,
+      "population": 19677,
+      "populationRank": 175,
+      "isCapital": false
+    },
+    {
+      "id": "1734841",
+      "name": "Kuala Pilah",
+      "latitude": 2.7389,
+      "longitude": 102.2487,
+      "population": 19510,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "1736781",
+      "name": "Daro",
+      "latitude": 2.51688,
+      "longitude": 111.43002,
+      "population": 19477,
+      "populationRank": 177,
+      "isCapital": false
+    },
+    {
+      "id": "1733502",
+      "name": "Ranau",
+      "latitude": 5.9538,
+      "longitude": 116.6641,
+      "population": 19294,
+      "populationRank": 178,
+      "isCapital": false
+    },
+    {
+      "id": "1733353",
+      "name": "Papar",
+      "latitude": 5.73333,
+      "longitude": 115.93333,
+      "population": 19278,
+      "populationRank": 179,
+      "isCapital": false
+    },
+    {
+      "id": "1736305",
+      "name": "Kuala Kedah",
+      "latitude": 6.1,
+      "longitude": 100.3,
+      "population": 19231,
+      "populationRank": 180,
+      "isCapital": false
+    },
+    {
+      "id": "1759564",
+      "name": "Kuala Ketil",
+      "latitude": 5.6,
+      "longitude": 100.65,
+      "population": 19209,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "1735274",
+      "name": "Kampar",
+      "latitude": 4.3,
+      "longitude": 101.15,
+      "population": 19056,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "1736760",
+      "name": "Saratok",
+      "latitude": 1.73333,
+      "longitude": 111.33333,
+      "population": 19009,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "1736284",
+      "name": "Changloon",
+      "latitude": 6.43422,
+      "longitude": 100.43133,
+      "population": 18872,
+      "populationRank": 184,
+      "isCapital": false
+    },
+    {
+      "id": "1734444",
+      "name": "Kampung Kupang",
+      "latitude": 5.63638,
+      "longitude": 100.84517,
+      "population": 18844,
+      "populationRank": 185,
+      "isCapital": false
+    },
+    {
+      "id": "1734762",
+      "name": "Merlimau",
+      "latitude": 2.1449,
+      "longitude": 102.4251,
+      "population": 18632,
+      "populationRank": 186,
+      "isCapital": false
+    },
+    {
+      "id": "1734389",
+      "name": "Lunas",
+      "latitude": 5.43058,
+      "longitude": 100.53012,
+      "population": 18236,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "1734464",
+      "name": "Kampung Jeli",
+      "latitude": 5.7,
+      "longitude": 101.83333,
+      "population": 17734,
+      "populationRank": 188,
+      "isCapital": false
+    },
+    {
+      "id": "1732698",
+      "name": "Parit Raja",
+      "latitude": 1.8681,
+      "longitude": 103.1124,
+      "population": 17441,
+      "populationRank": 189,
+      "isCapital": false
+    },
+    {
+      "id": "1735506",
+      "name": "Kepala Batas",
+      "latitude": 5.51707,
+      "longitude": 100.4265,
+      "population": 17131,
+      "populationRank": 190,
+      "isCapital": false
+    },
+    {
+      "id": "1736366",
+      "name": "Wakaf Baharu",
+      "latitude": 6.11667,
+      "longitude": 102.2,
+      "population": 17033,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "1782366",
+      "name": "Ayer Itam",
+      "latitude": 5.40158,
+      "longitude": 100.27815,
+      "population": 16974,
+      "populationRank": 192,
+      "isCapital": false
+    },
+    {
+      "id": "1763412",
+      "name": "Kampung Tanjung Karang",
+      "latitude": 3.4242,
+      "longitude": 101.1849,
+      "population": 16393,
+      "populationRank": 193,
+      "isCapital": false
+    },
+    {
+      "id": "1735485",
+      "name": "Gurun",
+      "latitude": 5.81717,
+      "longitude": 100.47381,
+      "population": 15964,
+      "populationRank": 194,
+      "isCapital": false
+    },
+    {
+      "id": "1733874",
+      "name": "Beaufort",
+      "latitude": 5.3473,
+      "longitude": 115.7455,
+      "population": 15855,
+      "populationRank": 195,
+      "isCapital": false
+    },
+    {
+      "id": "1733449",
+      "name": "Kinarut",
+      "latitude": 5.8231,
+      "longitude": 116.0466,
+      "population": 15716,
+      "populationRank": 196,
+      "isCapital": false
+    },
+    {
+      "id": "1732785",
+      "name": "Pengerang",
+      "latitude": 1.3651,
+      "longitude": 104.1118,
+      "population": 15494,
+      "populationRank": 197,
+      "isCapital": false
+    },
+    {
+      "id": "1735963",
+      "name": "Pakan",
+      "latitude": 1.88333,
+      "longitude": 111.68333,
+      "population": 15462,
+      "populationRank": 198,
+      "isCapital": false
+    },
+    {
+      "id": "1733023",
+      "name": "Kuala Lipis",
+      "latitude": 4.1842,
+      "longitude": 102.0468,
+      "population": 15448,
+      "populationRank": 199,
+      "isCapital": false
+    },
+    {
+      "id": "1735889",
+      "name": "Julau",
+      "latitude": 2.01667,
+      "longitude": 111.91667,
+      "population": 15333,
+      "populationRank": 200,
+      "isCapital": false
+    }
+  ]
+}

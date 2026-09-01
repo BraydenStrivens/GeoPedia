@@ -1,0 +1,40 @@
+{
+  "towns": [
+    {
+      "id": "2135171",
+      "name": "Port-Vila",
+      "latitude": -17.73648,
+      "longitude": 168.31366,
+      "population": 35901,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "2136150",
+      "name": "Luganville",
+      "latitude": -15.51989,
+      "longitude": 167.16235,
+      "population": 13397,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2136825",
+      "name": "Isangel",
+      "latitude": -19.54167,
+      "longitude": 169.28167,
+      "population": 1437,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2134814",
+      "name": "Sola",
+      "latitude": -13.87611,
+      "longitude": 167.55167,
+      "population": 1171,
+      "populationRank": 4,
+      "isCapital": false
+    }
+  ]
+}

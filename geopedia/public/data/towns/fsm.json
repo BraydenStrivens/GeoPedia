@@ -1,0 +1,40 @@
+{
+  "towns": [
+    {
+      "id": "7648112",
+      "name": "Colonia",
+      "latitude": 9.51638,
+      "longitude": 138.12167,
+      "population": 7371,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "2081986",
+      "name": "Palikir",
+      "latitude": 6.92477,
+      "longitude": 158.16109,
+      "population": 6942,
+      "populationRank": 2,
+      "isCapital": true
+    },
+    {
+      "id": "4043034",
+      "name": "Kolonia",
+      "latitude": 6.964,
+      "longitude": 158.2062,
+      "population": 6074,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "4045305",
+      "name": "Nukuoro Village",
+      "latitude": 3.83626,
+      "longitude": 154.97141,
+      "population": 362,
+      "populationRank": 4,
+      "isCapital": false
+    }
+  ]
+}

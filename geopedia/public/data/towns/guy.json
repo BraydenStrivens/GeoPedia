@@ -1,0 +1,175 @@
+{
+  "towns": [
+    {
+      "id": "3378644",
+      "name": "Georgetown",
+      "latitude": 6.80448,
+      "longitude": -58.15527,
+      "population": 235017,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3377408",
+      "name": "Linden",
+      "latitude": 6.00815,
+      "longitude": -58.30724,
+      "population": 44690,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3376762",
+      "name": "New Amsterdam",
+      "latitude": 6.24924,
+      "longitude": -57.51578,
+      "population": 35039,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "7303406",
+      "name": "Anna Regina",
+      "latitude": 7.26555,
+      "longitude": -58.48265,
+      "population": 12448,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "13589438",
+      "name": "Corriverton",
+      "latitude": 5.933,
+      "longitude": -57.14939,
+      "population": 11488,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3379507",
+      "name": "Bartica",
+      "latitude": 6.40539,
+      "longitude": -58.62334,
+      "population": 11486,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3376227",
+      "name": "Rose Hall",
+      "latitude": 6.25577,
+      "longitude": -57.35502,
+      "population": 8000,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3377301",
+      "name": "Mabaruma",
+      "latitude": 8.20377,
+      "longitude": -59.78117,
+      "population": 6366,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3376223",
+      "name": "Rosignol",
+      "latitude": 6.27095,
+      "longitude": -57.53697,
+      "population": 5782,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3377267",
+      "name": "Mahaica Village",
+      "latitude": 6.6817,
+      "longitude": -57.92181,
+      "population": 4867,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3377263",
+      "name": "Mahdia",
+      "latitude": 5.28473,
+      "longitude": -59.14982,
+      "population": 4200,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3376520",
+      "name": "Parika",
+      "latitude": 6.83712,
+      "longitude": -58.42941,
+      "population": 4081,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3375409",
+      "name": "Vreed-en-Hoop",
+      "latitude": 6.8109,
+      "longitude": -58.19375,
+      "population": 3073,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3377265",
+      "name": "Mahaicony Village",
+      "latitude": 6.57212,
+      "longitude": -57.80624,
+      "population": 2130,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3375103",
+      "name": "Windsor Forest",
+      "latitude": 6.84568,
+      "longitude": -58.23521,
+      "population": 1602,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3377425",
+      "name": "Lethem",
+      "latitude": 3.3726,
+      "longitude": -59.79967,
+      "population": 716,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3378198",
+      "name": "Ituni",
+      "latitude": 5.53671,
+      "longitude": -58.25632,
+      "population": 676,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "8314122",
+      "name": "Fort Wellington",
+      "latitude": 6.39185,
+      "longitude": -57.59628,
+      "population": 118,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3376472",
+      "name": "Perth",
+      "latitude": 6.55435,
+      "longitude": -57.80143,
+      "population": 28,
+      "populationRank": 19,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "towns": [
+    {
+      "id": "290030",
+      "name": "Doha",
+      "latitude": 25.28545,
+      "longitude": 51.53096,
+      "population": 344939,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "289888",
+      "name": "Ar Rayyān",
+      "latitude": 25.29194,
+      "longitude": 51.42444,
+      "population": 272465,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "13512674",
+      "name": "Lusail",
+      "latitude": 25.4175,
+      "longitude": 51.5075,
+      "population": 198600,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "289847",
+      "name": "Az̧ Z̧a‘āyin",
+      "latitude": 25.57744,
+      "longitude": 51.48306,
+      "population": 54339,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "289523",
+      "name": "Umm Şalāl Muḩammad",
+      "latitude": 25.41524,
+      "longitude": 51.40647,
+      "population": 29391,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "289915",
+      "name": "Al Wakrah",
+      "latitude": 25.17151,
+      "longitude": 51.60337,
+      "population": 26436,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "289962",
+      "name": "Al Khawr",
+      "latitude": 25.68389,
+      "longitude": 51.50583,
+      "population": 18923,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "289877",
+      "name": "Ash Shīḩānīyah",
+      "latitude": 25.37088,
+      "longitude": 51.22264,
+      "population": 8380,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "289813",
+      "name": "Dukhān",
+      "latitude": 25.42485,
+      "longitude": 50.78227,
+      "population": 7250,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "289525",
+      "name": "Musay‘īd",
+      "latitude": 24.99226,
+      "longitude": 51.55067,
+      "population": 5769,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "289739",
+      "name": "Madīnat ash Shamāl",
+      "latitude": 26.12933,
+      "longitude": 51.2009,
+      "population": 5267,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "289913",
+      "name": "Al Wukayr",
+      "latitude": 25.15107,
+      "longitude": 51.53718,
+      "population": 5146,
+      "populationRank": 12,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "towns": [
+    {
+      "id": "3576022",
+      "name": "Saint John’s",
+      "latitude": 17.12096,
+      "longitude": -61.84329,
+      "population": 51737,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3576397",
+      "name": "All Saints",
+      "latitude": 17.06671,
+      "longitude": -61.79303,
+      "population": 2526,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3576057",
+      "name": "Piggotts",
+      "latitude": 17.11667,
+      "longitude": -61.8,
+      "population": 1878,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3576361",
+      "name": "Bolands",
+      "latitude": 17.06565,
+      "longitude": -61.87466,
+      "population": 1657,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3576311",
+      "name": "Codrington",
+      "latitude": 17.6394,
+      "longitude": -61.82437,
+      "population": 1325,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3576074",
+      "name": "Parham",
+      "latitude": 17.09682,
+      "longitude": -61.77046,
+      "population": 969,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3576264",
+      "name": "English Harbour Town",
+      "latitude": 17.01637,
+      "longitude": -61.7674,
+      "population": 778,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3576236",
+      "name": "Freetown",
+      "latitude": 17.04791,
+      "longitude": -61.70332,
+      "population": 623,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3576080",
+      "name": "Osbourn",
+      "latitude": 17.12591,
+      "longitude": -61.8044,
+      "population": 35,
+      "populationRank": 9,
+      "isCapital": false
+    }
+  ]
+}

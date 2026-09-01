@@ -1,0 +1,103 @@
+{
+  "towns": [
+    {
+      "id": "934995",
+      "name": "Manzini",
+      "latitude": -26.49884,
+      "longitude": 31.38004,
+      "population": 110537,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "934985",
+      "name": "Mbabane",
+      "latitude": -26.31667,
+      "longitude": 31.13333,
+      "population": 76218,
+      "populationRank": 2,
+      "isCapital": true
+    },
+    {
+      "id": "935005",
+      "name": "Malkerns",
+      "latitude": -26.52872,
+      "longitude": 31.19193,
+      "population": 9724,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "934913",
+      "name": "Nhlangano",
+      "latitude": -27.11222,
+      "longitude": 31.19833,
+      "population": 9016,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "935076",
+      "name": "Hluti",
+      "latitude": -27.221,
+      "longitude": 31.58685,
+      "population": 6763,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "13645255",
+      "name": "Big Bend",
+      "latitude": -26.7905,
+      "longitude": 31.93736,
+      "population": 6433,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "934851",
+      "name": "Siteki",
+      "latitude": -26.4525,
+      "longitude": 31.94722,
+      "population": 6152,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "934881",
+      "name": "Piggs Peak",
+      "latitude": -25.96082,
+      "longitude": 31.24666,
+      "population": 5750,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "935114",
+      "name": "Bhunya",
+      "latitude": -26.53847,
+      "longitude": 31.01176,
+      "population": 3046,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "935081",
+      "name": "Hlathikhulu",
+      "latitude": -26.97991,
+      "longitude": 31.32569,
+      "population": 2748,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "935096",
+      "name": "Ezulwini",
+      "latitude": -26.4,
+      "longitude": 31.16667,
+      "population": 2661,
+      "populationRank": 11,
+      "isCapital": false
+    }
+  ]
+}

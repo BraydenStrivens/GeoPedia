@@ -1,0 +1,1291 @@
+{
+  "towns": [
+    {
+      "id": "1526384",
+      "name": "Almaty",
+      "latitude": 43.25249,
+      "longitude": 76.9115,
+      "population": 1977011,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "1526273",
+      "name": "Astana",
+      "latitude": 51.1801,
+      "longitude": 71.44598,
+      "population": 1544142,
+      "populationRank": 2,
+      "isCapital": true
+    },
+    {
+      "id": "1518980",
+      "name": "Shymkent",
+      "latitude": 42.30988,
+      "longitude": 69.60042,
+      "population": 1200000,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "610611",
+      "name": "Aktobe",
+      "latitude": 50.27969,
+      "longitude": 57.20718,
+      "population": 500757,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "609655",
+      "name": "Karagandy",
+      "latitude": 49.80187,
+      "longitude": 73.10211,
+      "population": 497777,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "1516905",
+      "name": "Taraz",
+      "latitude": 42.89799,
+      "longitude": 71.37334,
+      "population": 358153,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "1519922",
+      "name": "Kyzylorda",
+      "latitude": 44.85278,
+      "longitude": 65.50917,
+      "population": 354800,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "608668",
+      "name": "Oral",
+      "latitude": 51.24601,
+      "longitude": 51.42558,
+      "population": 330000,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "1520240",
+      "name": "Pavlodar",
+      "latitude": 52.27601,
+      "longitude": 76.96881,
+      "population": 329002,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "1519422",
+      "name": "Semey",
+      "latitude": 50.42064,
+      "longitude": 80.25025,
+      "population": 292780,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "610529",
+      "name": "Atyrau",
+      "latitude": 47.1048,
+      "longitude": 51.88427,
+      "population": 290700,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "1517945",
+      "name": "Turkistan",
+      "latitude": 43.29458,
+      "longitude": 68.25685,
+      "population": 227098,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "1519928",
+      "name": "Kostanay",
+      "latitude": 53.21435,
+      "longitude": 63.62463,
+      "population": 210000,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "1520172",
+      "name": "Petropavl",
+      "latitude": 54.87343,
+      "longitude": 69.15065,
+      "population": 200920,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "1518262",
+      "name": "Temirtau",
+      "latitude": 50.05197,
+      "longitude": 72.95497,
+      "population": 170600,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "1522203",
+      "name": "Kokshetau",
+      "latitude": 53.28414,
+      "longitude": 69.39364,
+      "population": 150649,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "610612",
+      "name": "Aktau",
+      "latitude": 43.66105,
+      "longitude": 51.17392,
+      "population": 147443,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "1519843",
+      "name": "Rudnyy",
+      "latitude": 52.97244,
+      "longitude": 63.11055,
+      "population": 124000,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "1524325",
+      "name": "Ekibastuz",
+      "latitude": 51.72371,
+      "longitude": 75.32287,
+      "population": 121470,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1518542",
+      "name": "Taldykorgan",
+      "latitude": 45.01556,
+      "longitude": 78.37389,
+      "population": 116558,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "1516589",
+      "name": "Zhezqazghan",
+      "latitude": 47.79411,
+      "longitude": 67.70628,
+      "population": 104357,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "607610",
+      "name": "Zhanaozen",
+      "latitude": 43.34116,
+      "longitude": 52.86192,
+      "population": 103598,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "1525798",
+      "name": "Balqash",
+      "latitude": 46.84546,
+      "longitude": 74.98213,
+      "population": 81364,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "1519691",
+      "name": "Sarqant",
+      "latitude": 45.41322,
+      "longitude": 79.91713,
+      "population": 76919,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "1521368",
+      "name": "Baikonur",
+      "latitude": 45.61667,
+      "longitude": 63.31667,
+      "population": 70000,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "1520692",
+      "name": "Satpayev",
+      "latitude": 47.90409,
+      "longitude": 67.54112,
+      "population": 69782,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "1522751",
+      "name": "Kentau",
+      "latitude": 43.51672,
+      "longitude": 68.50463,
+      "population": 57408,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "1521370",
+      "name": "Ridder",
+      "latitude": 50.34524,
+      "longitude": 83.51562,
+      "population": 52664,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "609123",
+      "name": "Qulsary",
+      "latitude": 46.95307,
+      "longitude": 54.01978,
+      "population": 51216,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "1519244",
+      "name": "Shchuchinsk",
+      "latitude": 52.93592,
+      "longitude": 70.18895,
+      "population": 47290,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "1537939",
+      "name": "Stepnogorsk",
+      "latitude": 52.35062,
+      "longitude": 71.88161,
+      "population": 46736,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "1524298",
+      "name": "Aksu",
+      "latitude": 52.04023,
+      "longitude": 76.92748,
+      "population": 44808,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "1516601",
+      "name": "Zhitikara",
+      "latitude": 52.19019,
+      "longitude": 61.19894,
+      "population": 43104,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "1519725",
+      "name": "Saran",
+      "latitude": 49.80245,
+      "longitude": 72.83186,
+      "population": 42552,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "1518518",
+      "name": "Talghar",
+      "latitude": 43.30235,
+      "longitude": 77.23811,
+      "population": 42194,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "1519948",
+      "name": "Konayev",
+      "latitude": 43.86681,
+      "longitude": 77.06304,
+      "population": 42167,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "1526193",
+      "name": "Arkalyk",
+      "latitude": 50.25031,
+      "longitude": 66.90384,
+      "population": 42000,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "1519327",
+      "name": "Shakhtinsk",
+      "latitude": 49.70713,
+      "longitude": 72.59321,
+      "population": 41602,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "1521315",
+      "name": "Lisakovsk",
+      "latitude": 52.54488,
+      "longitude": 62.49893,
+      "population": 40000,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "1519030",
+      "name": "Shu",
+      "latitude": 43.60507,
+      "longitude": 73.76221,
+      "population": 39785,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "1519938",
+      "name": "Karatau",
+      "latitude": 43.17959,
+      "longitude": 70.4592,
+      "population": 37881,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "1524385",
+      "name": "Zhetysay",
+      "latitude": 40.77631,
+      "longitude": 68.32774,
+      "population": 36494,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "1526168",
+      "name": "Arys",
+      "latitude": 42.43015,
+      "longitude": 68.8087,
+      "population": 36285,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "1516789",
+      "name": "Novokazalinsk",
+      "latitude": 45.84806,
+      "longitude": 62.15254,
+      "population": 35883,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "1526970",
+      "name": "Abay",
+      "latitude": 49.63539,
+      "longitude": 72.86523,
+      "population": 35454,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "610613",
+      "name": "Aqsay",
+      "latitude": 51.1681,
+      "longitude": 52.99782,
+      "population": 34799,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "1526038",
+      "name": "Atbasar",
+      "latitude": 51.80854,
+      "longitude": 68.35823,
+      "population": 34797,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "1520253",
+      "name": "Zharkent",
+      "latitude": 44.16619,
+      "longitude": 80.00736,
+      "population": 34422,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "1516788",
+      "name": "Zhangatas",
+      "latitude": 43.56274,
+      "longitude": 69.73209,
+      "population": 33492,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "1525988",
+      "name": "Ayagoz",
+      "latitude": 47.96447,
+      "longitude": 80.43437,
+      "population": 33479,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "1526265",
+      "name": "Aral",
+      "latitude": 46.80174,
+      "longitude": 61.66312,
+      "population": 33017,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "1523741",
+      "name": "Esik",
+      "latitude": 43.3552,
+      "longitude": 77.45245,
+      "population": 32995,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "608880",
+      "name": "Mangistau",
+      "latitude": 43.69088,
+      "longitude": 51.32237,
+      "population": 31368,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "1524801",
+      "name": "Shiyeli",
+      "latitude": 44.17057,
+      "longitude": 66.73376,
+      "population": 29832,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "1519230",
+      "name": "Shelek",
+      "latitude": 43.59623,
+      "longitude": 78.25745,
+      "population": 29032,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "608679",
+      "name": "Kandyagash",
+      "latitude": 49.46917,
+      "longitude": 57.41865,
+      "population": 28196,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "608359",
+      "name": "Shalqar",
+      "latitude": 47.83154,
+      "longitude": 59.61926,
+      "population": 27399,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "1524889",
+      "name": "Shardara",
+      "latitude": 41.25832,
+      "longitude": 67.96991,
+      "population": 25356,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "1519673",
+      "name": "Saryaghash",
+      "latitude": 41.46042,
+      "longitude": 69.16791,
+      "population": 25139,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "609404",
+      "name": "Khromtau",
+      "latitude": 50.25161,
+      "longitude": 58.43574,
+      "population": 23715,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "1524245",
+      "name": "Kalbatau",
+      "latitude": 49.33009,
+      "longitude": 81.57275,
+      "population": 22047,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "1517323",
+      "name": "Zhangaqorghan",
+      "latitude": 43.90652,
+      "longitude": 67.24637,
+      "population": 21339,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "1521379",
+      "name": "Lenger",
+      "latitude": 42.18152,
+      "longitude": 69.88582,
+      "population": 21238,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "1524958",
+      "name": "Burunday",
+      "latitude": 43.35567,
+      "longitude": 76.85477,
+      "population": 20996,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "1517637",
+      "name": "Ushtobe",
+      "latitude": 45.25258,
+      "longitude": 77.98284,
+      "population": 20492,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "1519226",
+      "name": "Shemonaikha",
+      "latitude": 50.62899,
+      "longitude": 81.91092,
+      "population": 20087,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "1516519",
+      "name": "Zhosaly",
+      "latitude": 45.48778,
+      "longitude": 64.07806,
+      "population": 20065,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "609924",
+      "name": "Embi",
+      "latitude": 48.82981,
+      "longitude": 58.15042,
+      "population": 18760,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "1521126",
+      "name": "Maqanshy",
+      "latitude": 46.78166,
+      "longitude": 82.02258,
+      "population": 18754,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "1517501",
+      "name": "Turar Ryskulov",
+      "latitude": 42.5334,
+      "longitude": 70.3496,
+      "population": 18421,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "1521230",
+      "name": "Makinsk",
+      "latitude": 52.6329,
+      "longitude": 70.41911,
+      "population": 17711,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "1517060",
+      "name": "Zaysan",
+      "latitude": 47.46657,
+      "longitude": 84.87144,
+      "population": 17600,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "1520969",
+      "name": "Merke",
+      "latitude": 42.87183,
+      "longitude": 73.19648,
+      "population": 15934,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "1517721",
+      "name": "Urzhar",
+      "latitude": 47.09302,
+      "longitude": 81.62939,
+      "population": 14826,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "1521351",
+      "name": "Kazygurt",
+      "latitude": 41.7564,
+      "longitude": 69.3839,
+      "population": 14737,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "610298",
+      "name": "Beyneu",
+      "latitude": 45.31667,
+      "longitude": 55.2,
+      "population": 14245,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "1524478",
+      "name": "Zhalagash",
+      "latitude": 45.07958,
+      "longitude": 64.68175,
+      "population": 14226,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "1524302",
+      "name": "Yereymentau",
+      "latitude": 51.62364,
+      "longitude": 73.10265,
+      "population": 14169,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "608872",
+      "name": "Maqat",
+      "latitude": 47.64967,
+      "longitude": 53.34291,
+      "population": 14082,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "1519580",
+      "name": "Saryozek",
+      "latitude": 44.36178,
+      "longitude": 77.97279,
+      "population": 13930,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "1524606",
+      "name": "Derzhavinsk",
+      "latitude": 51.09718,
+      "longitude": 66.31875,
+      "population": 13856,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "1519935",
+      "name": "Qarazhal",
+      "latitude": 48.01085,
+      "longitude": 70.80058,
+      "population": 13807,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "1539153",
+      "name": "Jıbek joly",
+      "latitude": 43.37484,
+      "longitude": 76.62436,
+      "population": 13616,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "1524296",
+      "name": "Esil",
+      "latitude": 51.95453,
+      "longitude": 66.40772,
+      "population": 13504,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "7536148",
+      "name": "Priozersk",
+      "latitude": 46.03106,
+      "longitude": 73.70247,
+      "population": 13457,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "1519333",
+      "name": "Shakhan",
+      "latitude": 49.81958,
+      "longitude": 72.65407,
+      "population": 13273,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "609798",
+      "name": "Inderbor",
+      "latitude": 48.55,
+      "longitude": 51.78333,
+      "population": 13254,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "1526041",
+      "name": "Zhangaarqa",
+      "latitude": 48.68659,
+      "longitude": 71.64469,
+      "population": 13184,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "1522035",
+      "name": "Taiynsha",
+      "latitude": 53.84796,
+      "longitude": 69.76773,
+      "population": 13148,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "1524138",
+      "name": "Atakent",
+      "latitude": 40.84782,
+      "longitude": 68.50643,
+      "population": 12895,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "608324",
+      "name": "Shetpe",
+      "latitude": 44.13922,
+      "longitude": 52.15305,
+      "population": 11836,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "609919",
+      "name": "Kuryk",
+      "latitude": 43.18032,
+      "longitude": 51.68116,
+      "population": 11836,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "1522642",
+      "name": "Balpyk Bi",
+      "latitude": 44.90115,
+      "longitude": 78.22933,
+      "population": 11810,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "608271",
+      "name": "Shubarkuduk",
+      "latitude": 49.14391,
+      "longitude": 56.48196,
+      "population": 11733,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "1522643",
+      "name": "Asyqata",
+      "latitude": 40.8946,
+      "longitude": 68.3643,
+      "population": 11378,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "1524703",
+      "name": "Sholakkorgan",
+      "latitude": 43.76453,
+      "longitude": 69.17856,
+      "population": 10836,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "1520885",
+      "name": "Kurchatov",
+      "latitude": 50.75617,
+      "longitude": 78.54188,
+      "population": 10747,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "1519932",
+      "name": "Qashar",
+      "latitude": 53.36799,
+      "longitude": 62.86839,
+      "population": 10285,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "1522818",
+      "name": "Kegen",
+      "latitude": 43.01451,
+      "longitude": 79.22638,
+      "population": 9993,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "1525014",
+      "name": "Bulayevo",
+      "latitude": 54.90596,
+      "longitude": 70.44155,
+      "population": 9886,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "1522348",
+      "name": "Qarabalyq",
+      "latitude": 53.75019,
+      "longitude": 62.0584,
+      "population": 9838,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "1524243",
+      "name": "Korday",
+      "latitude": 43.03882,
+      "longitude": 74.71287,
+      "population": 9821,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "1518945",
+      "name": "Myrzakent",
+      "latitude": 40.66338,
+      "longitude": 68.5451,
+      "population": 9752,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "1526274",
+      "name": "Aqadyr",
+      "latitude": 48.26014,
+      "longitude": 72.85851,
+      "population": 9710,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "1518203",
+      "name": "Terenozek",
+      "latitude": 45.05048,
+      "longitude": 64.98258,
+      "population": 9661,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "610023",
+      "name": "Dossor",
+      "latitude": 47.53234,
+      "longitude": 52.9709,
+      "population": 9526,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "1526269",
+      "name": "Aktau",
+      "latitude": 50.23466,
+      "longitude": 73.06662,
+      "population": 9500,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "1523768",
+      "name": "Irtyshsk",
+      "latitude": 53.33365,
+      "longitude": 75.45775,
+      "population": 9216,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "1519275",
+      "name": "Shar",
+      "latitude": 49.5872,
+      "longitude": 81.04883,
+      "population": 9087,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "608915",
+      "name": "Makhambet",
+      "latitude": 47.67061,
+      "longitude": 51.58598,
+      "population": 8905,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "1519385",
+      "name": "Sergeyevka",
+      "latitude": 53.88139,
+      "longitude": 67.40882,
+      "population": 8845,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "1521365",
+      "name": "Leninskiy",
+      "latitude": 52.25346,
+      "longitude": 76.78211,
+      "population": 8646,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "1519934",
+      "name": "Qarqaraly",
+      "latitude": 49.41244,
+      "longitude": 75.47228,
+      "population": 8195,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "1519924",
+      "name": "Qusmuryn",
+      "latitude": 52.45144,
+      "longitude": 64.61682,
+      "population": 8049,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "608867",
+      "name": "Martuk",
+      "latitude": 50.74746,
+      "longitude": 56.50611,
+      "population": 7756,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "1520747",
+      "name": "Narynkol",
+      "latitude": 42.72636,
+      "longitude": 80.17495,
+      "population": 7731,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "1521048",
+      "name": "Mayqayyng",
+      "latitude": 51.45981,
+      "longitude": 75.80232,
+      "population": 7695,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "1522862",
+      "name": "Kazalinsk",
+      "latitude": 45.76257,
+      "longitude": 62.10334,
+      "population": 7686,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "610386",
+      "name": "Bayganin",
+      "latitude": 48.68975,
+      "longitude": 55.87512,
+      "population": 7657,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "1525376",
+      "name": "Bestobe",
+      "latitude": 52.49795,
+      "longitude": 73.09592,
+      "population": 7189,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "1518139",
+      "name": "Tobol",
+      "latitude": 52.69366,
+      "longitude": 62.5914,
+      "population": 7155,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "1519050",
+      "name": "Shortandy",
+      "latitude": 51.69934,
+      "longitude": 70.99129,
+      "population": 6980,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "1525850",
+      "name": "Bakanas",
+      "latitude": 44.80595,
+      "longitude": 76.27464,
+      "population": 6965,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "1525126",
+      "name": "Būrabay",
+      "latitude": 53.08382,
+      "longitude": 70.31379,
+      "population": 6500,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "608647",
+      "name": "Oyyl",
+      "latitude": 49.0725,
+      "longitude": 54.66304,
+      "population": 6472,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "610416",
+      "name": "Badamsha",
+      "latitude": 50.56183,
+      "longitude": 58.2772,
+      "population": 5668,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "1519277",
+      "name": "Shantobe",
+      "latitude": 52.45376,
+      "longitude": 68.17475,
+      "population": 5626,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "609906",
+      "name": "Fort-Shevchenko",
+      "latitude": 44.50654,
+      "longitude": 50.26388,
+      "population": 5213,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "1518768",
+      "name": "Stepnyak",
+      "latitude": 52.83489,
+      "longitude": 70.78861,
+      "population": 4928,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "1517808",
+      "name": "Ul’ba",
+      "latitude": 50.26581,
+      "longitude": 83.37804,
+      "population": 4759,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "1517136",
+      "name": "Yrghyz",
+      "latitude": 48.61958,
+      "longitude": 61.26067,
+      "population": 4673,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "1526650",
+      "name": "Aksuat",
+      "latitude": 47.76124,
+      "longitude": 82.80858,
+      "population": 4549,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "1516984",
+      "name": "Zhalghyztobe",
+      "latitude": 49.21094,
+      "longitude": 81.21596,
+      "population": 4400,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "1526021",
+      "name": "Auezov",
+      "latitude": 49.71003,
+      "longitude": 81.58018,
+      "population": 4209,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "1522026",
+      "name": "Krasnogorskiy",
+      "latitude": 52.2456,
+      "longitude": 66.52081,
+      "population": 3646,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "609167",
+      "name": "Krugloozërnoye",
+      "latitude": 51.08167,
+      "longitude": 51.29052,
+      "population": 2977,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "1516678",
+      "name": "Zharyk",
+      "latitude": 48.85692,
+      "longitude": 72.83598,
+      "population": 2940,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "1526443",
+      "name": "Akkol",
+      "latitude": 51.99374,
+      "longitude": 70.94704,
+      "population": 2605,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "608036",
+      "name": "Temir",
+      "latitude": 49.14284,
+      "longitude": 57.12736,
+      "population": 2560,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "1520844",
+      "name": "Moyynty",
+      "latitude": 47.21968,
+      "longitude": 73.35437,
+      "population": 2049,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "1519933",
+      "name": "Qarsaqbay",
+      "latitude": 47.83678,
+      "longitude": 66.72639,
+      "population": 1668,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "1521333",
+      "name": "Lepsi",
+      "latitude": 46.23426,
+      "longitude": 78.94034,
+      "population": 933,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "1524917",
+      "name": "Chagan",
+      "latitude": 50.62178,
+      "longitude": 79.24743,
+      "population": 478,
+      "populationRank": 143,
+      "isCapital": false
+    }
+  ]
+}

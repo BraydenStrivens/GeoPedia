@@ -1,0 +1,40 @@
+{
+  "towns": [
+    {
+      "id": "7267949",
+      "name": "San Jose Village",
+      "latitude": 14.96823,
+      "longitude": 145.61998,
+      "population": 15000,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "13527050",
+      "name": "Garapan",
+      "latitude": 15.21107,
+      "longitude": 145.72038,
+      "population": 3096,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "13645574",
+      "name": "Chalan Piao village",
+      "latitude": 15.14118,
+      "longitude": 145.70049,
+      "population": 1338,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "4041579",
+      "name": "Songsong",
+      "latitude": 14.13972,
+      "longitude": 145.14111,
+      "population": 593,
+      "populationRank": 4,
+      "isCapital": false
+    }
+  ]
+}

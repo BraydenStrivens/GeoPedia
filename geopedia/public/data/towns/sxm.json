@@ -1,0 +1,22 @@
+{
+  "towns": [
+    {
+      "id": "10793920",
+      "name": "Little Bay",
+      "latitude": 18.0264,
+      "longitude": -63.06461,
+      "population": 5581,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "3513392",
+      "name": "Philipsburg",
+      "latitude": 18.026,
+      "longitude": -63.04582,
+      "population": 1400,
+      "populationRank": 2,
+      "isCapital": true
+    }
+  ]
+}

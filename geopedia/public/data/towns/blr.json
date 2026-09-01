@@ -1,0 +1,1570 @@
+{
+  "towns": [
+    {
+      "id": "625144",
+      "name": "Minsk",
+      "latitude": 53.90019,
+      "longitude": 27.56653,
+      "population": 1742124,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "627904",
+      "name": "Hrodna",
+      "latitude": 53.6758,
+      "longitude": 23.82887,
+      "population": 363718,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "620127",
+      "name": "Vitebsk",
+      "latitude": 55.1904,
+      "longitude": 30.2049,
+      "population": 358927,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "625665",
+      "name": "Mahilyow",
+      "latitude": 53.90876,
+      "longitude": 30.34044,
+      "population": 352896,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "629634",
+      "name": "Brest",
+      "latitude": 52.10894,
+      "longitude": 23.71749,
+      "population": 347138,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "630468",
+      "name": "Bobruysk",
+      "latitude": 53.14676,
+      "longitude": 29.20548,
+      "population": 205502,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "630429",
+      "name": "Baranovichi",
+      "latitude": 53.13255,
+      "longitude": 26.00775,
+      "population": 170039,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "630376",
+      "name": "Barysaw",
+      "latitude": 54.2279,
+      "longitude": 28.505,
+      "population": 133700,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "623549",
+      "name": "Pinsk",
+      "latitude": 52.12153,
+      "longitude": 26.06726,
+      "population": 123283,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "625324",
+      "name": "Mazyr",
+      "latitude": 52.04162,
+      "longitude": 29.21631,
+      "population": 104517,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "626081",
+      "name": "Lida",
+      "latitude": 53.88333,
+      "longitude": 25.29972,
+      "population": 103262,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "624079",
+      "name": "Orsha",
+      "latitude": 54.51362,
+      "longitude": 30.40365,
+      "population": 101662,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "622428",
+      "name": "Soligorsk",
+      "latitude": 52.78981,
+      "longitude": 27.53583,
+      "population": 96418,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "625625",
+      "name": "Maladziečna",
+      "latitude": 54.3167,
+      "longitude": 26.854,
+      "population": 87339,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "623317",
+      "name": "Polotsk",
+      "latitude": 55.4879,
+      "longitude": 28.7856,
+      "population": 79285,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "618806",
+      "name": "Zhlobin",
+      "latitude": 52.8926,
+      "longitude": 30.024,
+      "population": 76304,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "622794",
+      "name": "Rechytsa",
+      "latitude": 52.3617,
+      "longitude": 30.3916,
+      "population": 64733,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "618800",
+      "name": "Horad Zhodzina",
+      "latitude": 54.0985,
+      "longitude": 28.3331,
+      "population": 62983,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "621074",
+      "name": "Svetlogorsk",
+      "latitude": 52.6329,
+      "longitude": 29.7389,
+      "population": 61812,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "621741",
+      "name": "Slutsk",
+      "latitude": 53.01522,
+      "longitude": 27.54159,
+      "population": 58995,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "627145",
+      "name": "Kobryn",
+      "latitude": 52.21173,
+      "longitude": 24.3563,
+      "population": 52235,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "621754",
+      "name": "Slonim",
+      "latitude": 53.08751,
+      "longitude": 25.31707,
+      "population": 48402,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "620391",
+      "name": "Vaukavysk",
+      "latitude": 53.1561,
+      "longitude": 24.4513,
+      "population": 41020,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "627751",
+      "name": "Kalinkovichi",
+      "latitude": 52.1323,
+      "longitude": 29.3257,
+      "population": 36656,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "621713",
+      "name": "Smarhoń",
+      "latitude": 54.4798,
+      "longitude": 26.3957,
+      "population": 35072,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "622739",
+      "name": "Rahachow",
+      "latitude": 53.09255,
+      "longitude": 30.04862,
+      "population": 31490,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "628634",
+      "name": "Dzyarzhynsk",
+      "latitude": 53.68477,
+      "longitude": 27.13171,
+      "population": 29607,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "624034",
+      "name": "Osipovichi",
+      "latitude": 53.30588,
+      "longitude": 28.62872,
+      "population": 28745,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "627905",
+      "name": "Horki",
+      "latitude": 54.28606,
+      "longitude": 30.98604,
+      "population": 28626,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "629454",
+      "name": "Byaroza",
+      "latitude": 52.53129,
+      "longitude": 24.9782,
+      "population": 27986,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "624785",
+      "name": "Novogrudok",
+      "latitude": 53.5942,
+      "longitude": 25.8191,
+      "population": 27624,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "620181",
+      "name": "Vileyka",
+      "latitude": 54.4914,
+      "longitude": 26.9111,
+      "population": 26015,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "621729",
+      "name": "Smaliavičy",
+      "latitude": 54.0249,
+      "longitude": 28.0894,
+      "population": 24402,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "625818",
+      "name": "Luninyets",
+      "latitude": 52.24864,
+      "longitude": 26.80061,
+      "population": 23396,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "627800",
+      "name": "Ivatsevichi",
+      "latitude": 52.70793,
+      "longitude": 25.33509,
+      "population": 22189,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "625409",
+      "name": "Mar’ina Gorka",
+      "latitude": 53.509,
+      "longitude": 28.147,
+      "population": 19892,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "6846555",
+      "name": "Fanipol",
+      "latitude": 53.74998,
+      "longitude": 27.33338,
+      "population": 19006,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "622997",
+      "name": "Pruzhany",
+      "latitude": 52.55464,
+      "longitude": 24.45483,
+      "population": 18994,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "623760",
+      "name": "Pastavy",
+      "latitude": 55.11676,
+      "longitude": 26.83263,
+      "population": 18450,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "629018",
+      "name": "Dobrush",
+      "latitude": 52.41471,
+      "longitude": 31.31429,
+      "population": 17901,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "627908",
+      "name": "Hlybokaye",
+      "latitude": 55.13933,
+      "longitude": 27.69143,
+      "population": 17807,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "621266",
+      "name": "Stowbtsy",
+      "latitude": 53.47994,
+      "longitude": 26.7351,
+      "population": 17603,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "625743",
+      "name": "Lyepyel’",
+      "latitude": 54.8814,
+      "longitude": 28.699,
+      "population": 17400,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "619066",
+      "name": "Zaslawye",
+      "latitude": 54.0114,
+      "longitude": 27.2695,
+      "population": 17166,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "627083",
+      "name": "Kalodzishchy",
+      "latitude": 53.944,
+      "longitude": 27.7823,
+      "population": 17000,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "630515",
+      "name": "Oshmyany",
+      "latitude": 54.41815,
+      "longitude": 25.93734,
+      "population": 16804,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "629447",
+      "name": "Bykhov",
+      "latitude": 53.52131,
+      "longitude": 30.23078,
+      "population": 16296,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "624700",
+      "name": "Nesvizh",
+      "latitude": 53.22186,
+      "longitude": 26.67679,
+      "population": 15897,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "627811",
+      "name": "Ivanovo",
+      "latitude": 52.14724,
+      "longitude": 25.53198,
+      "population": 15833,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "618815",
+      "name": "Žytkavičy",
+      "latitude": 52.2168,
+      "longitude": 27.8561,
+      "population": 15788,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "625972",
+      "name": "Logoysk",
+      "latitude": 54.2064,
+      "longitude": 27.8512,
+      "population": 15543,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "623941",
+      "name": "Astraviec",
+      "latitude": 54.61378,
+      "longitude": 25.95537,
+      "population": 15265,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "622113",
+      "name": "Shchuchyn",
+      "latitude": 53.6014,
+      "longitude": 24.7465,
+      "population": 15127,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "627202",
+      "name": "Klimovichi",
+      "latitude": 53.60492,
+      "longitude": 31.95632,
+      "population": 14868,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "626808",
+      "name": "Kostyukovichi",
+      "latitude": 53.35488,
+      "longitude": 32.05128,
+      "population": 14757,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "622034",
+      "name": "Shklov",
+      "latitude": 54.21298,
+      "longitude": 30.28724,
+      "population": 14738,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "628884",
+      "name": "Drogichin",
+      "latitude": 52.1874,
+      "longitude": 25.1597,
+      "population": 14659,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "618913",
+      "name": "Zhabinka",
+      "latitude": 52.19857,
+      "longitude": 24.01064,
+      "population": 14430,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "625367",
+      "name": "Mosty",
+      "latitude": 53.4122,
+      "longitude": 24.5387,
+      "population": 14239,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "621277",
+      "name": "Stolin",
+      "latitude": 51.89008,
+      "longitude": 26.83596,
+      "population": 14034,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "627909",
+      "name": "Hantsavichy",
+      "latitude": 52.75874,
+      "longitude": 26.43096,
+      "population": 13155,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "625539",
+      "name": "Malorita",
+      "latitude": 51.79467,
+      "longitude": 24.07461,
+      "population": 12593,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "625228",
+      "name": "Mikashevichy",
+      "latitude": 52.2173,
+      "longitude": 27.476,
+      "population": 11823,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "630166",
+      "name": "Byarozawka",
+      "latitude": 53.72406,
+      "longitude": 25.49709,
+      "population": 11800,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "624494",
+      "name": "Novolukoml’",
+      "latitude": 54.66192,
+      "longitude": 29.15016,
+      "population": 11598,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "628155",
+      "name": "Gorodok",
+      "latitude": 55.4624,
+      "longitude": 29.98451,
+      "population": 11321,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "625721",
+      "name": "Lyuban’",
+      "latitude": 52.7985,
+      "longitude": 28.0048,
+      "population": 11165,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "630197",
+      "name": "Bierazino",
+      "latitude": 53.8391,
+      "longitude": 28.9879,
+      "population": 11125,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "627214",
+      "name": "Kletsk",
+      "latitude": 53.06379,
+      "longitude": 26.63922,
+      "population": 11072,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "630279",
+      "name": "Byelaazyorsk",
+      "latitude": 52.4731,
+      "longitude": 25.1784,
+      "population": 10984,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "625671",
+      "name": "Machulishchy",
+      "latitude": 53.7788,
+      "longitude": 27.5948,
+      "population": 10869,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "621396",
+      "name": "Staryye Dorogi",
+      "latitude": 53.0402,
+      "longitude": 28.267,
+      "population": 10683,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "629273",
+      "name": "Červień",
+      "latitude": 53.7059,
+      "longitude": 28.4313,
+      "population": 10617,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "620483",
+      "name": "Uzda",
+      "latitude": 53.4627,
+      "longitude": 27.2137,
+      "population": 10474,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "625772",
+      "name": "Lyakhovichi",
+      "latitude": 53.03931,
+      "longitude": 26.26311,
+      "population": 10473,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "623581",
+      "name": "Petrikov",
+      "latitude": 52.1299,
+      "longitude": 28.49625,
+      "population": 10278,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "630431",
+      "name": "Baran’",
+      "latitude": 54.47737,
+      "longitude": 30.30936,
+      "population": 10131,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "624889",
+      "name": "Mscislau",
+      "latitude": 54.0185,
+      "longitude": 31.7217,
+      "population": 9959,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "620445",
+      "name": "Volozhin",
+      "latitude": 54.08911,
+      "longitude": 26.52731,
+      "population": 9840,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "626956",
+      "name": "Kopyl’",
+      "latitude": 53.1516,
+      "longitude": 27.0913,
+      "population": 9767,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "611866",
+      "name": "Skidel’",
+      "latitude": 53.5904,
+      "longitude": 24.2478,
+      "population": 9707,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "629395",
+      "name": "Chausy",
+      "latitude": 53.80737,
+      "longitude": 30.96584,
+      "population": 9690,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "630245",
+      "name": "Belynichi",
+      "latitude": 53.9952,
+      "longitude": 29.7091,
+      "population": 9553,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "620833",
+      "name": "Tolochin",
+      "latitude": 54.40988,
+      "longitude": 29.69348,
+      "population": 9542,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "629640",
+      "name": "Braslav",
+      "latitude": 55.64387,
+      "longitude": 27.05715,
+      "population": 9338,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "629390",
+      "name": "Chachersk",
+      "latitude": 52.9164,
+      "longitude": 30.9179,
+      "population": 8926,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "619598",
+      "name": "Yel’sk",
+      "latitude": 51.81363,
+      "longitude": 29.1544,
+      "population": 8623,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "620214",
+      "name": "Vyetka",
+      "latitude": 52.55428,
+      "longitude": 31.18067,
+      "population": 8580,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "629564",
+      "name": "Buda-Kashalyova",
+      "latitude": 52.71725,
+      "longitude": 30.5679,
+      "population": 8534,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "624799",
+      "name": "Narovlya",
+      "latitude": 51.79724,
+      "longitude": 29.49784,
+      "population": 8388,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "626471",
+      "name": "Krupki",
+      "latitude": 54.3178,
+      "longitude": 29.1374,
+      "population": 8276,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "627711",
+      "name": "Kamenets",
+      "latitude": 52.40013,
+      "longitude": 23.81,
+      "population": 8114,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "627272",
+      "name": "Kirovsk",
+      "latitude": 53.27003,
+      "longitude": 29.47064,
+      "population": 7806,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "623512",
+      "name": "Plyeshchanitsy",
+      "latitude": 54.4235,
+      "longitude": 27.8301,
+      "population": 7800,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "628387",
+      "name": "Glusk",
+      "latitude": 52.90197,
+      "longitude": 28.68308,
+      "population": 7800,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "625130",
+      "name": "Miory",
+      "latitude": 55.6222,
+      "longitude": 27.6281,
+      "population": 7756,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "629347",
+      "name": "Cherikov",
+      "latitude": 53.56855,
+      "longitude": 31.38467,
+      "population": 7710,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "621838",
+      "name": "Slawharad",
+      "latitude": 53.44312,
+      "longitude": 31.00025,
+      "population": 7647,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "628658",
+      "name": "Dyatlovo",
+      "latitude": 53.46215,
+      "longitude": 25.40757,
+      "population": 7596,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "629400",
+      "name": "Chashniki",
+      "latitude": 54.85096,
+      "longitude": 29.16645,
+      "population": 7573,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "626491",
+      "name": "Krugloye",
+      "latitude": 54.2531,
+      "longitude": 29.79567,
+      "population": 7300,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "626621",
+      "name": "Krasnosel’skiy",
+      "latitude": 53.26494,
+      "longitude": 24.42398,
+      "population": 7300,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "621986",
+      "name": "Shumilino",
+      "latitude": 55.29841,
+      "longitude": 29.61279,
+      "population": 7223,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "624199",
+      "name": "Aktsyabrski",
+      "latitude": 52.64844,
+      "longitude": 28.87993,
+      "population": 7167,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "622258",
+      "name": "Senno",
+      "latitude": 54.81175,
+      "longitude": 29.70061,
+      "population": 6974,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "628758",
+      "name": "Dubrowna",
+      "latitude": 54.57187,
+      "longitude": 30.69117,
+      "population": 6945,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "627793",
+      "name": "Iwye",
+      "latitude": 53.93173,
+      "longitude": 25.7763,
+      "population": 6906,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "624861",
+      "name": "Myadzyel",
+      "latitude": 54.87894,
+      "longitude": 26.93619,
+      "population": 6822,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "630136",
+      "name": "Beshenkovichi",
+      "latitude": 55.04335,
+      "longitude": 29.45738,
+      "population": 6819,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "620255",
+      "name": "Verkhnedvinsk",
+      "latitude": 55.77655,
+      "longitude": 27.93657,
+      "population": 6771,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "629002",
+      "name": "Dokshytsy",
+      "latitude": 54.89097,
+      "longitude": 27.76654,
+      "population": 6601,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "626064",
+      "name": "Liozno",
+      "latitude": 55.0199,
+      "longitude": 30.7969,
+      "population": 6515,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "622700",
+      "name": "Ross’",
+      "latitude": 53.28411,
+      "longitude": 24.40721,
+      "population": 6200,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "618932",
+      "name": "Zel’va",
+      "latitude": 53.14931,
+      "longitude": 24.81201,
+      "population": 6193,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "622877",
+      "name": "Radaškovičy",
+      "latitude": 54.1554,
+      "longitude": 27.2412,
+      "population": 6100,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "626625",
+      "name": "Krasnapollye",
+      "latitude": 53.33578,
+      "longitude": 31.40065,
+      "population": 6100,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "625907",
+      "name": "Loyev",
+      "latitude": 51.94115,
+      "longitude": 30.79343,
+      "population": 6028,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "621462",
+      "name": "Starobin",
+      "latitude": 52.7267,
+      "longitude": 27.4606,
+      "population": 6000,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "622179",
+      "name": "Sharkovshchina",
+      "latitude": 55.36807,
+      "longitude": 27.46971,
+      "population": 5945,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "621048",
+      "name": "Svislach",
+      "latitude": 53.03431,
+      "longitude": 24.09717,
+      "population": 5851,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "620540",
+      "name": "Ushachi",
+      "latitude": 55.17611,
+      "longitude": 28.61949,
+      "population": 5773,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "629159",
+      "name": "Davyd-Haradok",
+      "latitude": 52.0566,
+      "longitude": 27.2161,
+      "population": 5658,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "629986",
+      "name": "Vyalikaya Byerastavitsa",
+      "latitude": 53.19563,
+      "longitude": 24.01992,
+      "population": 5647,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "626939",
+      "name": "Korelichi",
+      "latitude": 53.5648,
+      "longitude": 26.1406,
+      "population": 5546,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "619979",
+      "name": "Voronovo",
+      "latitude": 54.15387,
+      "longitude": 25.31226,
+      "population": 5532,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "622690",
+      "name": "Rossony",
+      "latitude": 55.90603,
+      "longitude": 28.81332,
+      "population": 5400,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "621732",
+      "name": "Smilavičy",
+      "latitude": 53.7496,
+      "longitude": 28.0115,
+      "population": 5200,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "618883",
+      "name": "Zhdanovichy",
+      "latitude": 53.9432,
+      "longitude": 27.425,
+      "population": 5000,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "8247183",
+      "name": "Borovlyany",
+      "latitude": 54.0022,
+      "longitude": 27.6754,
+      "population": 5000,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "619818",
+      "name": "Vysokaye",
+      "latitude": 52.37091,
+      "longitude": 23.37083,
+      "population": 4940,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "626660",
+      "name": "Chyrvonaya Slabada",
+      "latitude": 52.8522,
+      "longitude": 27.1698,
+      "population": 4700,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "629646",
+      "name": "Bragin",
+      "latitude": 51.79067,
+      "longitude": 30.26709,
+      "population": 4579,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "627123",
+      "name": "Kokhanovo",
+      "latitude": 54.46061,
+      "longitude": 29.99935,
+      "population": 4300,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "627798",
+      "name": "Ivyanyets",
+      "latitude": 53.8864,
+      "longitude": 26.7432,
+      "population": 4206,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "8020001",
+      "name": "Svislach",
+      "latitude": 53.6404,
+      "longitude": 27.9199,
+      "population": 4200,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "620945",
+      "name": "Tsyelyakhany",
+      "latitude": 52.5175,
+      "longitude": 25.8429,
+      "population": 3625,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "793279",
+      "name": "Bolbasovo",
+      "latitude": 54.4168,
+      "longitude": 30.28839,
+      "population": 3600,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "628182",
+      "name": "Gorodeya",
+      "latitude": 53.31195,
+      "longitude": 26.53986,
+      "population": 3576,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "624804",
+      "name": "Narach",
+      "latitude": 54.9102,
+      "longitude": 26.708,
+      "population": 3400,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "620558",
+      "name": "Urechcha",
+      "latitude": 52.9479,
+      "longitude": 27.893,
+      "population": 3300,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "620425",
+      "name": "Vasilyevichy",
+      "latitude": 52.2512,
+      "longitude": 29.8288,
+      "population": 3143,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "620676",
+      "name": "Turaŭ",
+      "latitude": 52.0683,
+      "longitude": 27.735,
+      "population": 3100,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "622614",
+      "name": "Rudzyensk",
+      "latitude": 53.5983,
+      "longitude": 27.8621,
+      "population": 2900,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "623129",
+      "name": "Prawdzinski",
+      "latitude": 53.5248,
+      "longitude": 27.8303,
+      "population": 2900,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "628865",
+      "name": "Drybin",
+      "latitude": 54.12063,
+      "longitude": 31.09037,
+      "population": 2900,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "626266",
+      "name": "Lahishyn",
+      "latitude": 52.339,
+      "longitude": 25.9867,
+      "population": 2800,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "622500",
+      "name": "Ruzhany",
+      "latitude": 52.86322,
+      "longitude": 24.89357,
+      "population": 2642,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "619616",
+      "name": "Yalizava",
+      "latitude": 53.3994,
+      "longitude": 29.0048,
+      "population": 2600,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "628175",
+      "name": "Gorodishche",
+      "latitude": 53.32462,
+      "longitude": 26.00789,
+      "population": 2600,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "621605",
+      "name": "Sasnovy Bor",
+      "latitude": 52.5194,
+      "longitude": 29.5988,
+      "population": 2500,
+      "populationRank": 150,
+      "isCapital": false
+    },
+    {
+      "id": "630343",
+      "name": "Byahoml’",
+      "latitude": 54.7316,
+      "longitude": 28.0577,
+      "population": 2457,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "623788",
+      "name": "Parychy",
+      "latitude": 52.8042,
+      "longitude": 29.4176,
+      "population": 2300,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "625128",
+      "name": "Mir",
+      "latitude": 53.4544,
+      "longitude": 26.467,
+      "population": 2248,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "626829",
+      "name": "Kosava",
+      "latitude": 52.7583,
+      "longitude": 25.1554,
+      "population": 1770,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "625737",
+      "name": "Lyntupy",
+      "latitude": 55.0516,
+      "longitude": 26.3103,
+      "population": 1600,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "620191",
+      "name": "Vidzy",
+      "latitude": 55.3945,
+      "longitude": 26.6305,
+      "population": 1546,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "623904",
+      "name": "Ostryna",
+      "latitude": 53.7322,
+      "longitude": 24.5305,
+      "population": 1529,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "629055",
+      "name": "Dzisna",
+      "latitude": 55.5676,
+      "longitude": 28.21095,
+      "population": 1500,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "627424",
+      "name": "Kholopenichi",
+      "latitude": 54.51746,
+      "longitude": 28.95645,
+      "population": 1385,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "630543",
+      "name": "Antopal’",
+      "latitude": 52.2038,
+      "longitude": 24.7863,
+      "population": 1369,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "623902",
+      "name": "Asvieja",
+      "latitude": 56.0147,
+      "longitude": 28.11049,
+      "population": 1300,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "626523",
+      "name": "Kryvichy",
+      "latitude": 54.7132,
+      "longitude": 27.2886,
+      "population": 1298,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "628968",
+      "name": "Damachava",
+      "latitude": 51.74374,
+      "longitude": 23.60482,
+      "population": 1162,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "630070",
+      "name": "Bobr",
+      "latitude": 54.33992,
+      "longitude": 29.27288,
+      "population": 1100,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "618863",
+      "name": "Zhaludok",
+      "latitude": 53.5974,
+      "longitude": 24.9828,
+      "population": 1017,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "618945",
+      "name": "Zyalyony Bor",
+      "latitude": 54.0119,
+      "longitude": 28.4843,
+      "population": 1000,
+      "populationRank": 166,
+      "isCapital": false
+    },
+    {
+      "id": "625712",
+      "name": "Lyubcha",
+      "latitude": 53.7522,
+      "longitude": 26.0603,
+      "population": 988,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "621128",
+      "name": "Surazh",
+      "latitude": 55.4092,
+      "longitude": 30.7246,
+      "population": 960,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "621634",
+      "name": "Sopotskin",
+      "latitude": 53.83138,
+      "longitude": 23.65657,
+      "population": 901,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "626949",
+      "name": "Kopys’",
+      "latitude": 54.32087,
+      "longitude": 30.28847,
+      "population": 900,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "621058",
+      "name": "Svir",
+      "latitude": 54.8517,
+      "longitude": 26.395,
+      "population": 896,
+      "populationRank": 171,
+      "isCapital": false
+    },
+    {
+      "id": "620959",
+      "name": "Tatarka",
+      "latitude": 53.2533,
+      "longitude": 28.8193,
+      "population": 770,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "623192",
+      "name": "Porazava",
+      "latitude": 52.9367,
+      "longitude": 24.3656,
+      "population": 616,
+      "populationRank": 173,
+      "isCapital": false
+    },
+    {
+      "id": "8379256",
+      "name": "Станция Нясята",
+      "latitude": 53.50745,
+      "longitude": 29.23908,
+      "population": 211,
+      "populationRank": 174,
+      "isCapital": false
+    }
+  ]
+}

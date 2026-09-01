@@ -1,0 +1,148 @@
+{
+  "towns": [
+    {
+      "id": "3574810",
+      "name": "Chaguanas",
+      "latitude": 10.51667,
+      "longitude": -61.41667,
+      "population": 67433,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "3573738",
+      "name": "San Fernando",
+      "latitude": 10.27969,
+      "longitude": -61.46835,
+      "population": 55419,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3573890",
+      "name": "Port of Spain",
+      "latitude": 10.66668,
+      "longitude": -61.51889,
+      "population": 49031,
+      "populationRank": 3,
+      "isCapital": true
+    },
+    {
+      "id": "3573840",
+      "name": "Rio Claro",
+      "latitude": 10.30594,
+      "longitude": -61.17556,
+      "population": 35650,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3575051",
+      "name": "Arima",
+      "latitude": 10.63737,
+      "longitude": -61.28228,
+      "population": 35000,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3574636",
+      "name": "Diego Martin",
+      "latitude": 10.72081,
+      "longitude": -61.56616,
+      "population": 25370,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3573899",
+      "name": "Point Fortin",
+      "latitude": 10.17411,
+      "longitude": -61.68407,
+      "population": 19056,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3573576",
+      "name": "Tunapuna",
+      "latitude": 10.65245,
+      "longitude": -61.38878,
+      "population": 17758,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3573703",
+      "name": "Scarborough",
+      "latitude": 11.18229,
+      "longitude": -60.73525,
+      "population": 17000,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3573732",
+      "name": "Sangre Grande",
+      "latitude": 10.58705,
+      "longitude": -61.13008,
+      "population": 15968,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3573965",
+      "name": "Peñal",
+      "latitude": 10.16667,
+      "longitude": -61.46667,
+      "population": 12281,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3573882",
+      "name": "Princes Town",
+      "latitude": 10.27184,
+      "longitude": -61.37103,
+      "population": 10000,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3574524",
+      "name": "Gasparillo",
+      "latitude": 10.31704,
+      "longitude": -61.42603,
+      "population": 9925,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3573681",
+      "name": "Siparia",
+      "latitude": 10.14525,
+      "longitude": -61.5074,
+      "population": 8568,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3574724",
+      "name": "Couva",
+      "latitude": 10.42248,
+      "longitude": -61.46748,
+      "population": 5178,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3574659",
+      "name": "Debe",
+      "latitude": 10.20846,
+      "longitude": -61.45273,
+      "population": 3127,
+      "populationRank": 16,
+      "isCapital": false
+    }
+  ]
+}

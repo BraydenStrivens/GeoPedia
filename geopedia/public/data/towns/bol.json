@@ -1,0 +1,625 @@
+{
+  "towns": [
+    {
+      "id": "3904906",
+      "name": "Santa Cruz de la Sierra",
+      "latitude": -17.78629,
+      "longitude": -63.18117,
+      "population": 1831434,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "3919968",
+      "name": "Cochabamba",
+      "latitude": -17.38195,
+      "longitude": -66.15995,
+      "population": 841276,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3903987",
+      "name": "Sucre",
+      "latitude": -19.03332,
+      "longitude": -65.26274,
+      "population": 224838,
+      "populationRank": 3,
+      "isCapital": true
+    },
+    {
+      "id": "3909234",
+      "name": "Oruro",
+      "latitude": -17.97153,
+      "longitude": -67.0932,
+      "population": 208684,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3906194",
+      "name": "Sacaba",
+      "latitude": -17.39799,
+      "longitude": -66.03825,
+      "population": 180726,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3906791",
+      "name": "Quillacollo",
+      "latitude": -17.39228,
+      "longitude": -66.27838,
+      "population": 172405,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3903320",
+      "name": "Tarija",
+      "latitude": -21.53549,
+      "longitude": -64.72956,
+      "population": 159269,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3907584",
+      "name": "Potosí",
+      "latitude": -19.58361,
+      "longitude": -65.75306,
+      "population": 141251,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3906466",
+      "name": "Riberalta",
+      "latitude": -11.01026,
+      "longitude": -66.05257,
+      "population": 99070,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3910027",
+      "name": "Montero",
+      "latitude": -17.33874,
+      "longitude": -63.25093,
+      "population": 88616,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3901742",
+      "name": "Viacha",
+      "latitude": -16.65,
+      "longitude": -68.3,
+      "population": 86218,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3902377",
+      "name": "Trinidad",
+      "latitude": -14.83223,
+      "longitude": -64.90335,
+      "population": 84259,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3901178",
+      "name": "Yacuiba",
+      "latitude": -22.01643,
+      "longitude": -63.67753,
+      "population": 82803,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3902949",
+      "name": "Tiquipaya",
+      "latitude": -17.33801,
+      "longitude": -66.21579,
+      "population": 62675,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3901435",
+      "name": "Vinto",
+      "latitude": -17.39141,
+      "longitude": -66.31681,
+      "population": 58739,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3919902",
+      "name": "Colcapirhua",
+      "latitude": -17.3857,
+      "longitude": -66.23814,
+      "population": 52732,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3904221",
+      "name": "Sipe Sipe",
+      "latitude": -17.45419,
+      "longitude": -66.35737,
+      "population": 47000,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "3922037",
+      "name": "Caranavi",
+      "latitude": -15.83403,
+      "longitude": -67.56586,
+      "population": 45747,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3901547",
+      "name": "Villamontes",
+      "latitude": -21.26235,
+      "longitude": -63.46903,
+      "population": 39800,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3915350",
+      "name": "Guayaramerín",
+      "latitude": -10.8258,
+      "longitude": -65.3581,
+      "population": 36008,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3923154",
+      "name": "Bermejo",
+      "latitude": -22.73206,
+      "longitude": -64.33724,
+      "population": 35411,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3901501",
+      "name": "Villazón",
+      "latitude": -22.08659,
+      "longitude": -65.59422,
+      "population": 30253,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "3911409",
+      "name": "Llallagua",
+      "latitude": -18.42494,
+      "longitude": -66.57778,
+      "population": 28069,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3922414",
+      "name": "Camiri",
+      "latitude": -20.04063,
+      "longitude": -63.52396,
+      "population": 27961,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "3919998",
+      "name": "Cobija",
+      "latitude": -11.02671,
+      "longitude": -68.76918,
+      "population": 26585,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "11467676",
+      "name": "San Borja",
+      "latitude": -14.85195,
+      "longitude": -66.74954,
+      "population": 24610,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "3905658",
+      "name": "San Ignacio de Velasco",
+      "latitude": -16.37767,
+      "longitude": -60.96472,
+      "population": 23569,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "3902202",
+      "name": "Tupiza",
+      "latitude": -21.44345,
+      "longitude": -65.71875,
+      "population": 22233,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "3901301",
+      "name": "Warnes",
+      "latitude": -17.5163,
+      "longitude": -63.16778,
+      "population": 22036,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "3924569",
+      "name": "Achocalla",
+      "latitude": -16.57386,
+      "longitude": -68.15112,
+      "population": 19583,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "3918937",
+      "name": "Cotoca",
+      "latitude": -17.81667,
+      "longitude": -63.05,
+      "population": 18347,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "3901504",
+      "name": "Villa Yapacaní",
+      "latitude": -17.4,
+      "longitude": -63.83333,
+      "population": 18187,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "3904666",
+      "name": "El Torno",
+      "latitude": -18.00014,
+      "longitude": -63.38712,
+      "population": 15543,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "3914839",
+      "name": "Huanuni",
+      "latitude": -18.289,
+      "longitude": -66.83583,
+      "population": 15492,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "3907080",
+      "name": "Punata",
+      "latitude": -17.54234,
+      "longitude": -65.83472,
+      "population": 15194,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "3910343",
+      "name": "Mineros",
+      "latitude": -17.11918,
+      "longitude": -63.23226,
+      "population": 14385,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "3905007",
+      "name": "Santa Ana de Yacuma",
+      "latitude": -13.74406,
+      "longitude": -65.42688,
+      "population": 12783,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "3444199",
+      "name": "Puerto Suárez",
+      "latitude": -18.96722,
+      "longitude": -57.80127,
+      "population": 12546,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "12522475",
+      "name": "Okinawa Uno",
+      "latitude": -17.21889,
+      "longitude": -62.89528,
+      "population": 12482,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "3908339",
+      "name": "Patacamaya",
+      "latitude": -17.23611,
+      "longitude": -67.91443,
+      "population": 12260,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "3906209",
+      "name": "Rurrenabaque",
+      "latitude": -14.44125,
+      "longitude": -67.52781,
+      "population": 11749,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "3907646",
+      "name": "Portachuelo",
+      "latitude": -17.35374,
+      "longitude": -63.39571,
+      "population": 11485,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "3901903",
+      "name": "Uyuni",
+      "latitude": -20.45967,
+      "longitude": -66.82503,
+      "population": 10293,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "3905660",
+      "name": "San Ignacio de Moxo",
+      "latitude": -14.9947,
+      "longitude": -65.64074,
+      "population": 10054,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "3444176",
+      "name": "Roboré",
+      "latitude": -18.33473,
+      "longitude": -59.76142,
+      "population": 9882,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "3909010",
+      "name": "Pailón",
+      "latitude": -17.66395,
+      "longitude": -62.71804,
+      "population": 9304,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "3902024",
+      "name": "Uncía",
+      "latitude": -18.46713,
+      "longitude": -66.5671,
+      "population": 8902,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "3920016",
+      "name": "Cliza",
+      "latitude": -17.58777,
+      "longitude": -65.93253,
+      "population": 8654,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "3918477",
+      "name": "Desaguadero",
+      "latitude": -16.56834,
+      "longitude": -69.03415,
+      "population": 8635,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "3924610",
+      "name": "Achacachi",
+      "latitude": -16.04707,
+      "longitude": -68.68534,
+      "population": 8447,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "3901874",
+      "name": "Vallegrande",
+      "latitude": -18.48887,
+      "longitude": -64.10827,
+      "population": 8422,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "3910094",
+      "name": "Monteagudo",
+      "latitude": -19.79998,
+      "longitude": -63.95617,
+      "population": 8289,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "3924341",
+      "name": "Aiquile",
+      "latitude": -18.20408,
+      "longitude": -65.18068,
+      "population": 8224,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "3903342",
+      "name": "Tarata",
+      "latitude": -17.60898,
+      "longitude": -66.02135,
+      "population": 8043,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "3921355",
+      "name": "Challapata",
+      "latitude": -18.90208,
+      "longitude": -66.77048,
+      "population": 8016,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "3906478",
+      "name": "Reyes",
+      "latitude": -14.2952,
+      "longitude": -67.33624,
+      "population": 7376,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "3444105",
+      "name": "San Matías",
+      "latitude": -16.3597,
+      "longitude": -58.40039,
+      "population": 6352,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "3919189",
+      "name": "Copacabana",
+      "latitude": -16.1699,
+      "longitude": -69.07919,
+      "population": 6000,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "3904729",
+      "name": "Santa Rosa del Sara",
+      "latitude": -17.10805,
+      "longitude": -63.59967,
+      "population": 5251,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "3922125",
+      "name": "Capinota",
+      "latitude": -17.71113,
+      "longitude": -66.26082,
+      "population": 5157,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "3920736",
+      "name": "Chimoré",
+      "latitude": -16.99417,
+      "longitude": -65.1533,
+      "population": 5147,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "3923145",
+      "name": "Betanzos",
+      "latitude": -19.55293,
+      "longitude": -65.45395,
+      "population": 4847,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "3922451",
+      "name": "Camargo",
+      "latitude": -20.64064,
+      "longitude": -65.20893,
+      "population": 4715,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "3919703",
+      "name": "Comarapa",
+      "latitude": -17.91537,
+      "longitude": -64.53163,
+      "population": 4445,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "3910901",
+      "name": "Mairana",
+      "latitude": -18.1199,
+      "longitude": -63.96058,
+      "population": 4298,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "3919715",
+      "name": "Campamento Colquiri",
+      "latitude": -17.39169,
+      "longitude": -67.12526,
+      "population": 3933,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "3919813",
+      "name": "Colomi",
+      "latitude": -17.35,
+      "longitude": -65.86667,
+      "population": 3921,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "3905951",
+      "name": "Samaipata",
+      "latitude": -18.17754,
+      "longitude": -63.87563,
+      "population": 3500,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "3912119",
+      "name": "Lahuachaca",
+      "latitude": -17.37692,
+      "longitude": -67.67488,
+      "population": 3235,
+      "populationRank": 69,
+      "isCapital": false
+    }
+  ]
+}

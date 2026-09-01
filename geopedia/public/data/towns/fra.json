@@ -1,0 +1,1804 @@
+{
+  "towns": [
+    {
+      "id": "2988507",
+      "name": "Paris",
+      "latitude": 48.85341,
+      "longitude": 2.3488,
+      "population": 2138551,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "2995469",
+      "name": "Marseille",
+      "latitude": 43.29695,
+      "longitude": 5.38107,
+      "population": 877215,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2996944",
+      "name": "Lyon",
+      "latitude": 45.74906,
+      "longitude": 4.84789,
+      "population": 520774,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2972315",
+      "name": "Toulouse",
+      "latitude": 43.60426,
+      "longitude": 1.44367,
+      "population": 511684,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2990440",
+      "name": "Nice",
+      "latitude": 43.70313,
+      "longitude": 7.26608,
+      "population": 342669,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2990969",
+      "name": "Nantes",
+      "latitude": 47.21725,
+      "longitude": -1.55336,
+      "population": 325070,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2973783",
+      "name": "Strasbourg",
+      "latitude": 48.58392,
+      "longitude": 7.74553,
+      "population": 274845,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3031582",
+      "name": "Bordeaux",
+      "latitude": 44.84124,
+      "longitude": -0.58046,
+      "population": 265328,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2992166",
+      "name": "Montpellier",
+      "latitude": 43.61093,
+      "longitude": 3.87635,
+      "population": 248252,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2998324",
+      "name": "Lille",
+      "latitude": 50.63391,
+      "longitude": 3.05512,
+      "population": 238695,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2983990",
+      "name": "Rennes",
+      "latitude": 48.11109,
+      "longitude": -1.67431,
+      "population": 227830,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "2984114",
+      "name": "Reims",
+      "latitude": 49.26526,
+      "longitude": 4.02853,
+      "population": 196565,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3003796",
+      "name": "Le Havre",
+      "latitude": 49.49346,
+      "longitude": 0.10785,
+      "population": 185972,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2980291",
+      "name": "Saint-Étienne",
+      "latitude": 45.43389,
+      "longitude": 4.39,
+      "population": 176280,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2972328",
+      "name": "Toulon",
+      "latitude": 43.12442,
+      "longitude": 5.92836,
+      "population": 168701,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3037656",
+      "name": "Angers",
+      "latitude": 47.47156,
+      "longitude": -0.55202,
+      "population": 168279,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3021372",
+      "name": "Dijon",
+      "latitude": 47.31344,
+      "longitude": 5.01391,
+      "population": 159941,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "3014728",
+      "name": "Grenoble",
+      "latitude": 45.17869,
+      "longitude": 5.71479,
+      "population": 158552,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2990363",
+      "name": "Nîmes",
+      "latitude": 43.83665,
+      "longitude": 4.35788,
+      "population": 148236,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3024635",
+      "name": "Clermont-Ferrand",
+      "latitude": 45.77969,
+      "longitude": 3.08682,
+      "population": 147865,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3038354",
+      "name": "Aix-en-Provence",
+      "latitude": 43.5283,
+      "longitude": 5.44973,
+      "population": 146821,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3030300",
+      "name": "Brest",
+      "latitude": 48.39029,
+      "longitude": -4.48628,
+      "population": 144899,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "3003603",
+      "name": "Le Mans",
+      "latitude": 48.0021,
+      "longitude": 0.20251,
+      "population": 144515,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3037854",
+      "name": "Amiens",
+      "latitude": 49.9,
+      "longitude": 2.3,
+      "population": 143086,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2972191",
+      "name": "Tours",
+      "latitude": 47.39484,
+      "longitude": 0.70398,
+      "population": 141621,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "2998286",
+      "name": "Limoges",
+      "latitude": 45.83362,
+      "longitude": 1.24759,
+      "population": 141176,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "2968254",
+      "name": "Villeurbanne",
+      "latitude": 45.76601,
+      "longitude": 4.8795,
+      "population": 131445,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "3033123",
+      "name": "Besançon",
+      "latitude": 47.24878,
+      "longitude": 6.01815,
+      "population": 128426,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2994160",
+      "name": "Metz",
+      "latitude": 49.11911,
+      "longitude": 6.17269,
+      "population": 123914,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2989317",
+      "name": "Orléans",
+      "latitude": 47.90248,
+      "longitude": 1.90407,
+      "population": 116344,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "2982652",
+      "name": "Rouen",
+      "latitude": 49.44313,
+      "longitude": 1.09932,
+      "population": 116331,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2991214",
+      "name": "Mulhouse",
+      "latitude": 47.75205,
+      "longitude": 7.32866,
+      "population": 111430,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2992090",
+      "name": "Montreuil",
+      "latitude": 48.86415,
+      "longitude": 2.44322,
+      "population": 111240,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "2987914",
+      "name": "Perpignan",
+      "latitude": 42.69764,
+      "longitude": 2.89541,
+      "population": 110706,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "3029241",
+      "name": "Caen",
+      "latitude": 49.18585,
+      "longitude": -0.35912,
+      "population": 110624,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "3031137",
+      "name": "Boulogne-Billancourt",
+      "latitude": 48.83545,
+      "longitude": 2.24128,
+      "population": 108782,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "2990999",
+      "name": "Nancy",
+      "latitude": 48.68439,
+      "longitude": 6.18496,
+      "population": 105058,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "3037044",
+      "name": "Argenteuil",
+      "latitude": 48.94788,
+      "longitude": 2.24744,
+      "population": 101475,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "2982681",
+      "name": "Roubaix",
+      "latitude": 50.69421,
+      "longitude": 3.17456,
+      "population": 99507,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "2972284",
+      "name": "Tourcoing",
+      "latitude": 50.72391,
+      "longitude": 3.16117,
+      "population": 99160,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "2980916",
+      "name": "Saint-Denis",
+      "latitude": 48.93564,
+      "longitude": 2.35387,
+      "population": 96128,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "3035681",
+      "name": "Avignon",
+      "latitude": 43.94834,
+      "longitude": 4.80892,
+      "population": 89769,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "3036572",
+      "name": "Asnières-sur-Seine",
+      "latitude": 48.91667,
+      "longitude": 2.28333,
+      "population": 86742,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "2990970",
+      "name": "Nanterre",
+      "latitude": 48.89198,
+      "longitude": 2.20675,
+      "population": 86719,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "3020686",
+      "name": "Dunkirk",
+      "latitude": 51.0344,
+      "longitude": 2.37681,
+      "population": 86263,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "2986495",
+      "name": "Poitiers",
+      "latitude": 46.58261,
+      "longitude": 0.34348,
+      "population": 85960,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "2969679",
+      "name": "Versailles",
+      "latitude": 48.80359,
+      "longitude": 2.13424,
+      "population": 85416,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "3023141",
+      "name": "Courbevoie",
+      "latitude": 48.89672,
+      "longitude": 2.25666,
+      "population": 85158,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "3022530",
+      "name": "Créteil",
+      "latitude": 48.79266,
+      "longitude": 2.46569,
+      "population": 84833,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "2988358",
+      "name": "Pau",
+      "latitude": 43.31117,
+      "longitude": -0.35583,
+      "population": 82697,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "3024266",
+      "name": "Colombes",
+      "latitude": 48.91882,
+      "longitude": 2.25404,
+      "population": 82300,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "2967849",
+      "name": "Vitry-sur-Seine",
+      "latitude": 48.78716,
+      "longitude": 2.40332,
+      "population": 81001,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "3036145",
+      "name": "Aulnay-sous-Bois",
+      "latitude": 48.93814,
+      "longitude": 2.49402,
+      "population": 80615,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "3006787",
+      "name": "La Rochelle",
+      "latitude": 46.16308,
+      "longitude": -1.15222,
+      "population": 76810,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "3027105",
+      "name": "Champigny-sur-Marne",
+      "latitude": 48.81642,
+      "longitude": 2.49366,
+      "population": 76726,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "2982235",
+      "name": "Rueil-Malmaison",
+      "latitude": 48.8765,
+      "longitude": 2.18967,
+      "population": 76616,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "3037456",
+      "name": "Antibes",
+      "latitude": 43.58127,
+      "longitude": 7.12487,
+      "population": 76393,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "2978179",
+      "name": "Saint-Maur-des-Fossés",
+      "latitude": 48.79395,
+      "longitude": 2.49323,
+      "population": 75402,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "3028808",
+      "name": "Cannes",
+      "latitude": 43.55135,
+      "longitude": 7.01275,
+      "population": 74545,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "3029162",
+      "name": "Calais",
+      "latitude": 50.95194,
+      "longitude": 1.85635,
+      "population": 74433,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "3032833",
+      "name": "Béziers",
+      "latitude": 43.34122,
+      "longitude": 3.21402,
+      "population": 74081,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "3036386",
+      "name": "Aubervilliers",
+      "latitude": 48.91667,
+      "longitude": 2.38333,
+      "population": 70914,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "2994393",
+      "name": "Mérignac",
+      "latitude": 44.84247,
+      "longitude": -0.64512,
+      "population": 69791,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "3031005",
+      "name": "Bourges",
+      "latitude": 47.08333,
+      "longitude": 2.4,
+      "population": 67987,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "2977921",
+      "name": "Saint-Nazaire",
+      "latitude": 47.27506,
+      "longitude": -2.2179,
+      "population": 67054,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "3024297",
+      "name": "Colmar",
+      "latitude": 48.08078,
+      "longitude": 7.35584,
+      "population": 65405,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "2971053",
+      "name": "Valence",
+      "latitude": 44.9256,
+      "longitude": 4.90956,
+      "population": 63864,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "2984701",
+      "name": "Quimper",
+      "latitude": 47.99597,
+      "longitude": -4.09795,
+      "population": 63849,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "3020839",
+      "name": "Drancy",
+      "latitude": 48.92578,
+      "longitude": 2.44533,
+      "population": 62488,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "2990189",
+      "name": "Noisy-le-Grand",
+      "latitude": 48.84979,
+      "longitude": 2.56266,
+      "population": 62420,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "6543862",
+      "name": "Villeneuve-d'Ascq",
+      "latitude": 50.61669,
+      "longitude": 3.16664,
+      "population": 62400,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "3006414",
+      "name": "La Seyne-sur-Mer",
+      "latitude": 43.10322,
+      "longitude": 5.87816,
+      "population": 62330,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "2998975",
+      "name": "Levallois-Perret",
+      "latitude": 48.89389,
+      "longitude": 2.28864,
+      "population": 62178,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "3027422",
+      "name": "Chambéry",
+      "latitude": 45.56628,
+      "longitude": 5.92079,
+      "population": 61640,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "3012649",
+      "name": "Issy-les-Moulineaux",
+      "latitude": 48.82104,
+      "longitude": 2.27718,
+      "population": 61447,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "2990611",
+      "name": "Neuilly-sur-Seine",
+      "latitude": 48.8846,
+      "longitude": 2.26965,
+      "population": 61300,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "2971549",
+      "name": "Troyes",
+      "latitude": 48.30073,
+      "longitude": 4.08524,
+      "population": 60785,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "3037423",
+      "name": "Antony",
+      "latitude": 48.75329,
+      "longitude": 2.29668,
+      "population": 59845,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "3006767",
+      "name": "La Roche-sur-Yon",
+      "latitude": 46.66974,
+      "longitude": -1.42757,
+      "population": 59410,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "2997577",
+      "name": "Lorient",
+      "latitude": 47.74817,
+      "longitude": -3.37177,
+      "population": 58112,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "2976043",
+      "name": "Sarcelles",
+      "latitude": 48.99739,
+      "longitude": 2.37821,
+      "population": 57979,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "2987805",
+      "name": "Pessac",
+      "latitude": 44.80565,
+      "longitude": -0.6324,
+      "population": 57944,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "3012621",
+      "name": "Ivry-sur-Seine",
+      "latitude": 48.81568,
+      "longitude": 2.38487,
+      "population": 57897,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "3019265",
+      "name": "Évreux",
+      "latitude": 49.02414,
+      "longitude": 1.15082,
+      "population": 57795,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "2970072",
+      "name": "Vénissieux",
+      "latitude": 45.69706,
+      "longitude": 4.88593,
+      "population": 57584,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "3027883",
+      "name": "Cergy",
+      "latitude": 49.03645,
+      "longitude": 2.07613,
+      "population": 57576,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "3024597",
+      "name": "Clichy",
+      "latitude": 48.90018,
+      "longitude": 2.30952,
+      "population": 57467,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "2977295",
+      "name": "Saint-Quentin",
+      "latitude": 49.84889,
+      "longitude": 3.28757,
+      "population": 55407,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "2990355",
+      "name": "Niort",
+      "latitude": 46.32313,
+      "longitude": -0.45877,
+      "population": 54660,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "3033791",
+      "name": "Belfort",
+      "latitude": 47.64218,
+      "longitude": 6.85385,
+      "population": 54562,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "3038334",
+      "name": "Ajaccio",
+      "latitude": 41.91886,
+      "longitude": 8.73812,
+      "population": 54364,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "2970777",
+      "name": "Vannes",
+      "latitude": 47.65688,
+      "longitude": -2.76205,
+      "population": 54020,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "2975921",
+      "name": "Sartrouville",
+      "latitude": 48.9482,
+      "longitude": 2.19169,
+      "population": 53980,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "2996568",
+      "name": "Maisons-Alfort",
+      "latitude": 48.81171,
+      "longitude": 2.43945,
+      "population": 53964,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "2994798",
+      "name": "Meaux",
+      "latitude": 48.96014,
+      "longitude": 2.87885,
+      "population": 53811,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "3032213",
+      "name": "Blois",
+      "latitude": 47.59432,
+      "longitude": 1.32912,
+      "population": 53660,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "3029974",
+      "name": "Brive-la-Gaillarde",
+      "latitude": 45.1589,
+      "longitude": 1.53326,
+      "population": 53466,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "3036938",
+      "name": "Arles",
+      "latitude": 43.67681,
+      "longitude": 4.63031,
+      "population": 53431,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "3034006",
+      "name": "Beauvais",
+      "latitude": 49.43333,
+      "longitude": 2.08333,
+      "population": 53393,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "3026204",
+      "name": "Châteauroux",
+      "latitude": 46.81248,
+      "longitude": 1.69362,
+      "population": 53301,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "3025053",
+      "name": "Cholet",
+      "latitude": 47.05893,
+      "longitude": -0.87974,
+      "population": 53160,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "3017253",
+      "name": "Fréjus",
+      "latitude": 43.43325,
+      "longitude": 6.73555,
+      "population": 53098,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "2988621",
+      "name": "Pantin",
+      "latitude": 48.89437,
+      "longitude": 2.40935,
+      "population": 52922,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "2981280",
+      "name": "Saint-Brieuc",
+      "latitude": 48.51513,
+      "longitude": -2.76838,
+      "population": 52774,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "2993002",
+      "name": "Montauban",
+      "latitude": 44.01759,
+      "longitude": 1.3542,
+      "population": 52434,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "3026613",
+      "name": "Charleville-Mézières",
+      "latitude": 49.7685,
+      "longitude": 4.72487,
+      "population": 52415,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "3038261",
+      "name": "Albi",
+      "latitude": 43.9298,
+      "longitude": 2.148,
+      "population": 52409,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "2973385",
+      "name": "Tarbes",
+      "latitude": 43.23407,
+      "longitude": 0.07139,
+      "population": 52106,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "3017910",
+      "name": "Fontenay-sous-Bois",
+      "latitude": 48.85442,
+      "longitude": 2.48268,
+      "population": 52075,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "3019256",
+      "name": "Évry",
+      "latitude": 48.6328,
+      "longitude": 2.44049,
+      "population": 51900,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "3024783",
+      "name": "Clamart",
+      "latitude": 48.80299,
+      "longitude": 2.26692,
+      "population": 51400,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "3027487",
+      "name": "Châlons-en-Champagne",
+      "latitude": 48.95393,
+      "longitude": 4.36724,
+      "population": 51257,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "2990919",
+      "name": "Narbonne",
+      "latitude": 43.18396,
+      "longitude": 3.00141,
+      "population": 50776,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "2978640",
+      "name": "Saint-Malo",
+      "latitude": 48.64738,
+      "longitude": -2.00877,
+      "population": 50676,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "3005866",
+      "name": "Laval",
+      "latitude": 48.07247,
+      "longitude": -0.77019,
+      "population": 50489,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "3012937",
+      "name": "Hyères",
+      "latitude": 43.12038,
+      "longitude": 6.12857,
+      "population": 50487,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "3028641",
+      "name": "Carcassonne",
+      "latitude": 43.21649,
+      "longitude": 2.34863,
+      "population": 49600,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "3037598",
+      "name": "Angoulême",
+      "latitude": 45.64997,
+      "longitude": 0.15345,
+      "population": 49468,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "3037543",
+      "name": "Annecy",
+      "latitude": 45.90878,
+      "longitude": 6.12565,
+      "population": 49232,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "3031815",
+      "name": "Bondy",
+      "latitude": 48.9018,
+      "longitude": 2.48931,
+      "population": 48268,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "3005269",
+      "name": "Le Blanc-Mesnil",
+      "latitude": 48.93872,
+      "longitude": 2.46138,
+      "population": 48077,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "2968705",
+      "name": "Villejuif",
+      "latitude": 48.7939,
+      "longitude": 2.35992,
+      "population": 48048,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "3014856",
+      "name": "Grasse",
+      "latitude": 43.65783,
+      "longitude": 6.92537,
+      "population": 47581,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "2974681",
+      "name": "Sevran",
+      "latitude": 48.94472,
+      "longitude": 2.52746,
+      "population": 47334,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "3028263",
+      "name": "Castres",
+      "latitude": 43.60527,
+      "longitude": 2.24088,
+      "population": 47275,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "3027484",
+      "name": "Chalon-sur-Saône",
+      "latitude": 46.78112,
+      "longitude": 4.85372,
+      "population": 47251,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "3036784",
+      "name": "Arras",
+      "latitude": 50.29301,
+      "longitude": 2.78186,
+      "population": 47052,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "3031133",
+      "name": "Boulogne-sur-Mer",
+      "latitude": 50.72485,
+      "longitude": 1.61373,
+      "population": 47013,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "3025622",
+      "name": "Chelles",
+      "latitude": 48.88109,
+      "longitude": 2.59295,
+      "population": 46947,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "3029227",
+      "name": "Cagnes-sur-Mer",
+      "latitude": 43.66352,
+      "longitude": 7.1479,
+      "population": 46923,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "2979590",
+      "name": "Saint-Herblain",
+      "latitude": 47.21154,
+      "longitude": -1.651,
+      "population": 46898,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "3021000",
+      "name": "Douai",
+      "latitude": 50.37069,
+      "longitude": 3.07922,
+      "population": 46531,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "3020020",
+      "name": "Épinay-sur-Seine",
+      "latitude": 48.9535,
+      "longitude": 2.31514,
+      "population": 46145,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "2968054",
+      "name": "Vincennes",
+      "latitude": 48.8486,
+      "longitude": 2.43769,
+      "population": 45923,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "2995387",
+      "name": "Martigues",
+      "latitude": 43.40735,
+      "longitude": 5.05526,
+      "population": 45749,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "3031009",
+      "name": "Bourg-en-Bresse",
+      "latitude": 46.20574,
+      "longitude": 5.2258,
+      "population": 45340,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "3032179",
+      "name": "Bobigny",
+      "latitude": 48.90982,
+      "longitude": 2.45012,
+      "population": 44962,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "2992292",
+      "name": "Montluçon",
+      "latitude": 46.34015,
+      "longitude": 2.60254,
+      "population": 44960,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "3036433",
+      "name": "Aubagne",
+      "latitude": 43.29276,
+      "longitude": 5.57067,
+      "population": 44844,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "2971041",
+      "name": "Valenciennes",
+      "latitude": 50.35909,
+      "longitude": 3.52506,
+      "population": 44821,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "2973675",
+      "name": "Suresnes",
+      "latitude": 48.87143,
+      "longitude": 2.22929,
+      "population": 44697,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "2994144",
+      "name": "Meudon",
+      "latitude": 48.81381,
+      "longitude": 2.235,
+      "population": 44652,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "3034475",
+      "name": "Bayonne",
+      "latitude": 43.49316,
+      "longitude": -1.473,
+      "population": 44396,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "3012647",
+      "name": "Istres",
+      "latitude": 43.51345,
+      "longitude": 4.98747,
+      "population": 44373,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "2972811",
+      "name": "Thionville",
+      "latitude": 49.35994,
+      "longitude": 6.16044,
+      "population": 44311,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "2996148",
+      "name": "Mantes-la-Jolie",
+      "latitude": 48.99048,
+      "longitude": 1.7167,
+      "population": 44263,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "3024066",
+      "name": "Compiègne",
+      "latitude": 49.41794,
+      "longitude": 2.82606,
+      "population": 44243,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "2990474",
+      "name": "Nevers",
+      "latitude": 46.98956,
+      "longitude": 3.159,
+      "population": 43988,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "3026467",
+      "name": "Chartres",
+      "latitude": 48.44685,
+      "longitude": 1.48925,
+      "population": 43838,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "3004871",
+      "name": "Le Cannet",
+      "latitude": 43.57662,
+      "longitude": 7.01912,
+      "population": 43353,
+      "populationRank": 150,
+      "isCapital": false
+    },
+    {
+      "id": "2967421",
+      "name": "Wattrelos",
+      "latitude": 50.70118,
+      "longitude": 3.21812,
+      "population": 42826,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "3029096",
+      "name": "Caluire-et-Cuire",
+      "latitude": 45.79462,
+      "longitude": 4.8464,
+      "population": 42763,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "3016702",
+      "name": "Gap",
+      "latitude": 44.55858,
+      "longitude": 6.07868,
+      "population": 42715,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "2973495",
+      "name": "Talence",
+      "latitude": 44.80849,
+      "longitude": -0.58915,
+      "population": 42579,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "3038224",
+      "name": "Alès",
+      "latitude": 44.12489,
+      "longitude": 4.08082,
+      "population": 42410,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "3016321",
+      "name": "Gennevilliers",
+      "latitude": 48.93333,
+      "longitude": 2.3,
+      "population": 42294,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "2977356",
+      "name": "Saint-Priest",
+      "latitude": 45.69651,
+      "longitude": 4.94385,
+      "population": 41641,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "2982757",
+      "name": "Rosny-sous-Bois",
+      "latitude": 48.87017,
+      "longitude": 2.4991,
+      "population": 41627,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "3035843",
+      "name": "Auxerre",
+      "latitude": 47.7996,
+      "longitude": 3.57033,
+      "population": 41516,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "2976341",
+      "name": "Salon-de-Provence",
+      "latitude": 43.64229,
+      "longitude": 5.09478,
+      "population": 41397,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "2979783",
+      "name": "Saint-Germain-en-Laye",
+      "latitude": 48.89643,
+      "longitude": 2.0904,
+      "population": 41142,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "3034640",
+      "name": "Bastia",
+      "latitude": 42.70219,
+      "longitude": 9.45123,
+      "population": 41001,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "2974733",
+      "name": "Sète",
+      "latitude": 43.4028,
+      "longitude": 3.69278,
+      "population": 40736,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "3037612",
+      "name": "Anglet",
+      "latitude": 43.48921,
+      "longitude": -1.51921,
+      "population": 40658,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "2985034",
+      "name": "Puteaux",
+      "latitude": 48.88341,
+      "longitude": 2.23894,
+      "population": 40646,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "3023763",
+      "name": "Corbeil-Essonnes",
+      "latitude": 48.60603,
+      "longitude": 2.48757,
+      "population": 40527,
+      "populationRank": 166,
+      "isCapital": false
+    },
+    {
+      "id": "3016621",
+      "name": "Garges-lès-Gonesse",
+      "latitude": 48.96791,
+      "longitude": 2.39781,
+      "population": 39847,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "2983362",
+      "name": "Roanne",
+      "latitude": 46.03624,
+      "longitude": 4.06802,
+      "population": 39840,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "2975525",
+      "name": "Savigny-sur-Orge",
+      "latitude": 48.67677,
+      "longitude": 2.34835,
+      "population": 39698,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "2998056",
+      "name": "Livry-Gargan",
+      "latitude": 48.9193,
+      "longitude": 2.54305,
+      "population": 39518,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "3020035",
+      "name": "Épinal",
+      "latitude": 48.18324,
+      "longitude": 6.45304,
+      "population": 39518,
+      "populationRank": 171,
+      "isCapital": false
+    },
+    {
+      "id": "2977824",
+      "name": "Saint-Ouen",
+      "latitude": 48.90654,
+      "longitude": 2.33339,
+      "population": 39353,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "2983770",
+      "name": "Rezé",
+      "latitude": 47.19058,
+      "longitude": -1.56885,
+      "population": 39248,
+      "populationRank": 173,
+      "isCapital": false
+    },
+    {
+      "id": "2992415",
+      "name": "Montigny-le-Bretonneux",
+      "latitude": 48.76636,
+      "longitude": 2.03405,
+      "population": 39063,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "2990187",
+      "name": "Noisy-le-Sec",
+      "latitude": 48.89148,
+      "longitude": 2.46451,
+      "population": 38955,
+      "populationRank": 175,
+      "isCapital": false
+    },
+    {
+      "id": "2994651",
+      "name": "Melun",
+      "latitude": 48.5457,
+      "longitude": 2.65356,
+      "population": 38953,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "3035409",
+      "name": "Bagneux",
+      "latitude": 48.79565,
+      "longitude": 2.30796,
+      "population": 38900,
+      "populationRank": 177,
+      "isCapital": false
+    },
+    {
+      "id": "2995206",
+      "name": "Massy",
+      "latitude": 48.72692,
+      "longitude": 2.28301,
+      "population": 38768,
+      "populationRank": 178,
+      "isCapital": false
+    },
+    {
+      "id": "3014078",
+      "name": "Haguenau",
+      "latitude": 48.81557,
+      "longitude": 7.79051,
+      "population": 38721,
+      "populationRank": 179,
+      "isCapital": false
+    },
+    {
+      "id": "2992017",
+      "name": "Montrouge",
+      "latitude": 48.8162,
+      "longitude": 2.31393,
+      "population": 38708,
+      "populationRank": 180,
+      "isCapital": false
+    },
+    {
+      "id": "2995908",
+      "name": "Marcq-en-Barœul",
+      "latitude": 50.66667,
+      "longitude": 3.08333,
+      "population": 38629,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "2967870",
+      "name": "Vitrolles",
+      "latitude": 43.46,
+      "longitude": 5.24861,
+      "population": 38591,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "3020850",
+      "name": "Draguignan",
+      "latitude": 43.53692,
+      "longitude": 6.46458,
+      "population": 38573,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "3003093",
+      "name": "Lens",
+      "latitude": 50.43302,
+      "longitude": 2.82791,
+      "population": 38265,
+      "populationRank": 184,
+      "isCapital": false
+    },
+    {
+      "id": "3016830",
+      "name": "Gagny",
+      "latitude": 48.88333,
+      "longitude": 2.53333,
+      "population": 38134,
+      "populationRank": 185,
+      "isCapital": false
+    },
+    {
+      "id": "2981206",
+      "name": "Saint-Chamond",
+      "latitude": 45.4759,
+      "longitude": 4.51294,
+      "population": 38014,
+      "populationRank": 186,
+      "isCapital": false
+    },
+    {
+      "id": "3029931",
+      "name": "Bron",
+      "latitude": 45.73865,
+      "longitude": 4.91303,
+      "population": 37825,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "2970456",
+      "name": "Vaulx-en-Velin",
+      "latitude": 45.78693,
+      "longitude": 4.9251,
+      "population": 37489,
+      "populationRank": 188,
+      "isCapital": false
+    },
+    {
+      "id": "3012219",
+      "name": "Joué-lès-Tours",
+      "latitude": 47.34907,
+      "longitude": 0.66513,
+      "population": 37466,
+      "populationRank": 189,
+      "isCapital": false
+    },
+    {
+      "id": "3038213",
+      "name": "Alfortville",
+      "latitude": 48.80575,
+      "longitude": 2.4204,
+      "population": 37290,
+      "populationRank": 190,
+      "isCapital": false
+    },
+    {
+      "id": "3009824",
+      "name": "La Courneuve",
+      "latitude": 48.92805,
+      "longitude": 2.39627,
+      "population": 37287,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "3026141",
+      "name": "Châtellerault",
+      "latitude": 46.81705,
+      "longitude": 0.54518,
+      "population": 37210,
+      "populationRank": 192,
+      "isCapital": false
+    },
+    {
+      "id": "2968482",
+      "name": "Villepinte",
+      "latitude": 48.96203,
+      "longitude": 2.53253,
+      "population": 37114,
+      "populationRank": 193,
+      "isCapital": false
+    },
+    {
+      "id": "3029030",
+      "name": "Cambrai",
+      "latitude": 50.17596,
+      "longitude": 3.23472,
+      "population": 36492,
+      "populationRank": 194,
+      "isCapital": false
+    },
+    {
+      "id": "2986501",
+      "name": "Poissy",
+      "latitude": 48.92902,
+      "longitude": 2.04952,
+      "population": 36431,
+      "populationRank": 195,
+      "isCapital": false
+    },
+    {
+      "id": "3023924",
+      "name": "Conflans-Sainte-Honorine",
+      "latitude": 49.00158,
+      "longitude": 2.09694,
+      "population": 36358,
+      "populationRank": 196,
+      "isCapital": false
+    },
+    {
+      "id": "2992771",
+      "name": "Mont-de-Marsan",
+      "latitude": 43.89022,
+      "longitude": -0.49713,
+      "population": 36205,
+      "populationRank": 197,
+      "isCapital": false
+    },
+    {
+      "id": "2986930",
+      "name": "Plaisir",
+      "latitude": 48.82319,
+      "longitude": 1.9541,
+      "population": 36121,
+      "populationRank": 198,
+      "isCapital": false
+    },
+    {
+      "id": "2995750",
+      "name": "Marignane",
+      "latitude": 43.41727,
+      "longitude": 5.21462,
+      "population": 35873,
+      "populationRank": 199,
+      "isCapital": false
+    },
+    {
+      "id": "3021411",
+      "name": "Dieppe",
+      "latitude": 49.9216,
+      "longitude": 1.07772,
+      "population": 35707,
+      "populationRank": 200,
+      "isCapital": false
+    }
+  ]
+}

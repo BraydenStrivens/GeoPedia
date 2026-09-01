@@ -1,0 +1,265 @@
+{
+  "towns": [
+    {
+      "id": "786714",
+      "name": "Pristina",
+      "latitude": 42.67272,
+      "longitude": 21.16688,
+      "population": 550000,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "786712",
+      "name": "Prizren",
+      "latitude": 42.21389,
+      "longitude": 20.73972,
+      "population": 171464,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "789225",
+      "name": "Mitrovicë",
+      "latitude": 42.88333,
+      "longitude": 20.86667,
+      "population": 107045,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "791646",
+      "name": "Gjakovë",
+      "latitude": 42.38028,
+      "longitude": 20.43083,
+      "population": 94158,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "785238",
+      "name": "Suva Reka",
+      "latitude": 42.35861,
+      "longitude": 20.825,
+      "population": 72229,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "784759",
+      "name": "Ferizaj",
+      "latitude": 42.37056,
+      "longitude": 21.15528,
+      "population": 59504,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "790701",
+      "name": "Glogovac",
+      "latitude": 42.62833,
+      "longitude": 20.89389,
+      "population": 58579,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "790674",
+      "name": "Gjilan",
+      "latitude": 42.46045,
+      "longitude": 21.46986,
+      "population": 51912,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "791580",
+      "name": "Deçan",
+      "latitude": 42.54018,
+      "longitude": 20.28793,
+      "population": 50500,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "787157",
+      "name": "Pejë",
+      "latitude": 42.65913,
+      "longitude": 20.28828,
+      "population": 48962,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "784372",
+      "name": "Vitina",
+      "latitude": 42.32139,
+      "longitude": 21.35833,
+      "population": 46959,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "789996",
+      "name": "Istok",
+      "latitude": 42.78083,
+      "longitude": 20.4875,
+      "population": 40000,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "785485",
+      "name": "Shtime",
+      "latitude": 42.43306,
+      "longitude": 21.03972,
+      "population": 35000,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "786950",
+      "name": "Podujeva",
+      "latitude": 42.91056,
+      "longitude": 21.19306,
+      "population": 35000,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "791122",
+      "name": "Dragash",
+      "latitude": 42.0265,
+      "longitude": 20.65333,
+      "population": 35000,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "784097",
+      "name": "Vushtrri",
+      "latitude": 42.82306,
+      "longitude": 20.9675,
+      "population": 30651,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "787456",
+      "name": "Orahovac",
+      "latitude": 42.39944,
+      "longitude": 20.65472,
+      "population": 22049,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "788731",
+      "name": "Leposaviq",
+      "latitude": 43.10389,
+      "longitude": 20.80278,
+      "population": 19000,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "783770",
+      "name": "Zvečan",
+      "latitude": 42.9075,
+      "longitude": 20.84028,
+      "population": 17000,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "783802",
+      "name": "Zubin Potok",
+      "latitude": 42.91444,
+      "longitude": 20.68972,
+      "population": 14900,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "787534",
+      "name": "Obiliq",
+      "latitude": 42.68694,
+      "longitude": 21.07028,
+      "population": 11612,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "789721",
+      "name": "Kačanik",
+      "latitude": 42.23194,
+      "longitude": 21.25944,
+      "population": 9800,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "789227",
+      "name": "Kamenica",
+      "latitude": 42.57806,
+      "longitude": 21.58028,
+      "population": 9312,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "788652",
+      "name": "Lipljan",
+      "latitude": 42.52167,
+      "longitude": 21.12583,
+      "population": 9047,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "789455",
+      "name": "Klina",
+      "latitude": 42.62167,
+      "longitude": 20.57778,
+      "population": 8050,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "785388",
+      "name": "Štrpce",
+      "latitude": 42.23944,
+      "longitude": 21.02722,
+      "population": 6913,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "785642",
+      "name": "Srbica",
+      "latitude": 42.74667,
+      "longitude": 20.78861,
+      "population": 5089,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "788239",
+      "name": "Mališevo",
+      "latitude": 42.48222,
+      "longitude": 20.74583,
+      "population": 2300,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "790265",
+      "name": "Gračanica",
+      "latitude": 42.60111,
+      "longitude": 21.19583,
+      "population": 1000,
+      "populationRank": 29,
+      "isCapital": false
+    }
+  ]
+}

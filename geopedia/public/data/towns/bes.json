@@ -1,0 +1,31 @@
+{
+  "towns": [
+    {
+      "id": "3513563",
+      "name": "Kralendijk",
+      "latitude": 12.15,
+      "longitude": -68.26667,
+      "population": 10620,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3513765",
+      "name": "Dorp Rincon",
+      "latitude": 12.23762,
+      "longitude": -68.33059,
+      "population": 1875,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3513426",
+      "name": "Oranjestad",
+      "latitude": 17.48303,
+      "longitude": -62.9864,
+      "population": 1097,
+      "populationRank": 3,
+      "isCapital": false
+    }
+  ]
+}

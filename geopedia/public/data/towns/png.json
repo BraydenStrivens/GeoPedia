@@ -1,0 +1,382 @@
+{
+  "towns": [
+    {
+      "id": "2088122",
+      "name": "Port Moresby",
+      "latitude": -9.47723,
+      "longitude": 147.15089,
+      "population": 283733,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "2092740",
+      "name": "Lae",
+      "latitude": -6.72333,
+      "longitude": 146.99611,
+      "population": 76255,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2100633",
+      "name": "Arawa",
+      "latitude": -6.22977,
+      "longitude": 155.56598,
+      "population": 40266,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2090409",
+      "name": "Mount Hagen",
+      "latitude": -5.85746,
+      "longitude": 144.23058,
+      "population": 33623,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2088163",
+      "name": "Popondetta",
+      "latitude": -8.76536,
+      "longitude": 148.23252,
+      "population": 28198,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2091996",
+      "name": "Madang",
+      "latitude": -5.22152,
+      "longitude": 145.78695,
+      "population": 27419,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2093685",
+      "name": "Kokopo",
+      "latitude": -4.3432,
+      "longitude": 152.26867,
+      "population": 26273,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "2090990",
+      "name": "Mendi",
+      "latitude": -6.14755,
+      "longitude": 143.65633,
+      "population": 26252,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2093967",
+      "name": "Kimbe",
+      "latitude": -5.55085,
+      "longitude": 150.13766,
+      "population": 18847,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2096742",
+      "name": "Goroka",
+      "latitude": -6.085,
+      "longitude": 145.38667,
+      "population": 18503,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2083537",
+      "name": "Wewak",
+      "latitude": -3.54964,
+      "longitude": 143.63229,
+      "population": 18230,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "2098869",
+      "name": "Bulolo",
+      "latitude": -7.2036,
+      "longitude": 146.64014,
+      "population": 16042,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2098329",
+      "name": "Daru",
+      "latitude": -9.07786,
+      "longitude": 143.20893,
+      "population": 15214,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2083653",
+      "name": "Wau",
+      "latitude": -7.342,
+      "longitude": 146.724,
+      "population": 14629,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2094342",
+      "name": "Kavieng",
+      "latitude": -2.57337,
+      "longitude": 150.79516,
+      "population": 14490,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "2093846",
+      "name": "Kiunga",
+      "latitude": -6.12193,
+      "longitude": 141.29061,
+      "population": 11536,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "2084442",
+      "name": "Vanimo",
+      "latitude": -2.68372,
+      "longitude": 141.30195,
+      "population": 11204,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2133990",
+      "name": "Alotau",
+      "latitude": -10.31509,
+      "longitude": 150.45742,
+      "population": 10025,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2093059",
+      "name": "Kundiawa",
+      "latitude": -6.01972,
+      "longitude": 144.96917,
+      "population": 9383,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2095038",
+      "name": "Kainantu",
+      "latitude": -6.28872,
+      "longitude": 145.86548,
+      "population": 8509,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2085772",
+      "name": "Tari",
+      "latitude": -5.845,
+      "longitude": 142.94667,
+      "population": 8186,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "2087894",
+      "name": "Rabaul",
+      "latitude": -4.20037,
+      "longitude": 152.16297,
+      "population": 8074,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2095925",
+      "name": "Ialibu",
+      "latitude": -6.28208,
+      "longitude": 143.99354,
+      "population": 6915,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "2093691",
+      "name": "Kokoda",
+      "latitude": -8.87778,
+      "longitude": 147.73642,
+      "population": 6199,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2092164",
+      "name": "Lorengau",
+      "latitude": -2.0341,
+      "longitude": 147.27173,
+      "population": 5806,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "2094144",
+      "name": "Kerema",
+      "latitude": -7.96028,
+      "longitude": 145.77278,
+      "population": 5646,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "2101169",
+      "name": "Aitape",
+      "latitude": -3.13697,
+      "longitude": 142.34913,
+      "population": 5547,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2084246",
+      "name": "Wabag",
+      "latitude": -5.49119,
+      "longitude": 143.72151,
+      "population": 3958,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2094027",
+      "name": "Kieta",
+      "latitude": -6.21462,
+      "longitude": 155.63251,
+      "population": 3611,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2090495",
+      "name": "Morehead",
+      "latitude": -8.71065,
+      "longitude": 141.63668,
+      "population": 2246,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "2100933",
+      "name": "Ambunti",
+      "latitude": -4.21717,
+      "longitude": 142.81832,
+      "population": 2073,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2092188",
+      "name": "Londolovit",
+      "latitude": -3.06767,
+      "longitude": 152.637,
+      "population": 1644,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2132606",
+      "name": "Samarai",
+      "latitude": -10.61038,
+      "longitude": 150.66207,
+      "population": 1638,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "2088143",
+      "name": "Porgera",
+      "latitude": -5.463,
+      "longitude": 143.148,
+      "population": 1578,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "2099612",
+      "name": "Bereina",
+      "latitude": -8.63173,
+      "longitude": 146.50719,
+      "population": 1565,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "2090020",
+      "name": "Namatanai",
+      "latitude": -3.66372,
+      "longitude": 152.44101,
+      "population": 1542,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "2097418",
+      "name": "Finschhafen",
+      "latitude": -6.604,
+      "longitude": 147.848,
+      "population": 1054,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "2094746",
+      "name": "Kandrian",
+      "latitude": -6.20655,
+      "longitude": 149.54744,
+      "population": 1014,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "2098923",
+      "name": "Buin",
+      "latitude": -6.74864,
+      "longitude": 155.69147,
+      "population": 750,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "2095746",
+      "name": "Ihu",
+      "latitude": -7.89569,
+      "longitude": 145.39405,
+      "population": 712,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "2084041",
+      "name": "Wakunai",
+      "latitude": -5.87005,
+      "longitude": 155.20961,
+      "population": 558,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "2086447",
+      "name": "Sogeri",
+      "latitude": -9.42111,
+      "longitude": 147.42111,
+      "population": 435,
+      "populationRank": 42,
+      "isCapital": false
+    }
+  ]
+}

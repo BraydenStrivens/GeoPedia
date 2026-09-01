@@ -1,0 +1,202 @@
+{
+  "towns": [
+    {
+      "id": "1645457",
+      "name": "Dili",
+      "latitude": -8.55861,
+      "longitude": 125.57361,
+      "population": 150000,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "1636670",
+      "name": "Maliana",
+      "latitude": -8.99167,
+      "longitude": 125.21972,
+      "population": 22000,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "1626459",
+      "name": "Suai",
+      "latitude": -9.31286,
+      "longitude": 125.25648,
+      "population": 21539,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "1637730",
+      "name": "Likisá",
+      "latitude": -8.5875,
+      "longitude": 125.34194,
+      "population": 19000,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "1651816",
+      "name": "Aileu",
+      "latitude": -8.72806,
+      "longitude": 125.56639,
+      "population": 17356,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "1937274",
+      "name": "Lospalos",
+      "latitude": -8.52167,
+      "longitude": 126.99833,
+      "population": 17186,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "1651079",
+      "name": "Atsabe",
+      "latitude": -8.925,
+      "longitude": 125.39806,
+      "population": 16304,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "1635826",
+      "name": "Maubara",
+      "latitude": -8.61194,
+      "longitude": 125.20611,
+      "population": 16300,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "1649539",
+      "name": "Baukau",
+      "latitude": -8.47572,
+      "longitude": 126.45633,
+      "population": 16000,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "1943235",
+      "name": "Venilale",
+      "latitude": -8.64306,
+      "longitude": 126.37833,
+      "population": 16000,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "1651810",
+      "name": "Ainaro",
+      "latitude": -8.99241,
+      "longitude": 125.50816,
+      "population": 12000,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "1635814",
+      "name": "Atauro",
+      "latitude": -8.26667,
+      "longitude": 125.60139,
+      "population": 9274,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "1942811",
+      "name": "Gleno",
+      "latitude": -8.72389,
+      "longitude": 125.43611,
+      "population": 8133,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "1623886",
+      "name": "Tilomar",
+      "latitude": -9.34001,
+      "longitude": 125.11278,
+      "population": 7885,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "1628926",
+      "name": "Same",
+      "latitude": -9.00417,
+      "longitude": 125.64861,
+      "population": 7500,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "1945206",
+      "name": "Bobonaro",
+      "latitude": -9.03194,
+      "longitude": 125.325,
+      "population": 6110,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "1622471",
+      "name": "Viqueque",
+      "latitude": -8.8575,
+      "longitude": 126.36472,
+      "population": 6078,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "1649996",
+      "name": "Barique",
+      "latitude": -8.83333,
+      "longitude": 126.06667,
+      "population": 5438,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "1632533",
+      "name": "Pante Makasar",
+      "latitude": -9.2,
+      "longitude": 124.38333,
+      "population": 4730,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1635288",
+      "name": "Metinaro",
+      "latitude": -8.53007,
+      "longitude": 125.74163,
+      "population": 4000,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "1636526",
+      "name": "Manatutu",
+      "latitude": -8.51139,
+      "longitude": 126.01306,
+      "population": 1924,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "1943121",
+      "name": "Ritutu",
+      "latitude": -8.6669,
+      "longitude": 125.63723,
+      "population": 5,
+      "populationRank": 22,
+      "isCapital": false
+    }
+  ]
+}

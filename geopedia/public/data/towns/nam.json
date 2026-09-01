@@ -1,0 +1,382 @@
+{
+  "towns": [
+    {
+      "id": "3352136",
+      "name": "Windhoek",
+      "latitude": -22.55941,
+      "longitude": 17.08323,
+      "population": 386219,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3353383",
+      "name": "Rundu",
+      "latitude": -17.91796,
+      "longitude": 19.77314,
+      "population": 75180,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3359638",
+      "name": "Walvis Bay",
+      "latitude": -22.9575,
+      "longitude": 14.50528,
+      "population": 73598,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3352844",
+      "name": "Swakopmund",
+      "latitude": -22.67842,
+      "longitude": 14.52663,
+      "population": 53009,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3354021",
+      "name": "Oshakati",
+      "latitude": -17.78833,
+      "longitude": 15.70436,
+      "population": 43309,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3353540",
+      "name": "Rehoboth",
+      "latitude": -23.317,
+      "longitude": 17.09,
+      "population": 34185,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "877178",
+      "name": "Katima Mulilo",
+      "latitude": -17.50467,
+      "longitude": 24.27574,
+      "population": 33615,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3353811",
+      "name": "Otjiwarongo",
+      "latitude": -20.46369,
+      "longitude": 16.64772,
+      "population": 33481,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3354247",
+      "name": "Ondangwa",
+      "latitude": -17.90824,
+      "longitude": 15.98037,
+      "population": 27049,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3354898",
+      "name": "Okahandja",
+      "latitude": -21.98141,
+      "longitude": 16.9029,
+      "population": 26832,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3357114",
+      "name": "Grootfontein",
+      "latitude": -19.57328,
+      "longitude": 18.1003,
+      "population": 24099,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3354147",
+      "name": "Ongwediva",
+      "latitude": -17.77198,
+      "longitude": 15.76564,
+      "population": 24012,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3356264",
+      "name": "Keetmanshoop",
+      "latitude": -26.57654,
+      "longitude": 18.13359,
+      "population": 23049,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "12718704",
+      "name": "Helao Nafidi",
+      "latitude": -17.39321,
+      "longitude": 15.89107,
+      "population": 22963,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3352593",
+      "name": "Tsumeb",
+      "latitude": -19.24842,
+      "longitude": 17.71345,
+      "population": 22845,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3357247",
+      "name": "Gobabis",
+      "latitude": -22.45338,
+      "longitude": 18.97159,
+      "population": 22639,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3355672",
+      "name": "Lüderitz",
+      "latitude": -26.64807,
+      "longitude": 15.15383,
+      "population": 15137,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "3355595",
+      "name": "Mariental",
+      "latitude": -24.62705,
+      "longitude": 17.96471,
+      "population": 14789,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3356213",
+      "name": "Khorixas",
+      "latitude": -20.37711,
+      "longitude": 14.96203,
+      "population": 12021,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3354540",
+      "name": "Omaruru",
+      "latitude": -21.42403,
+      "longitude": 15.94611,
+      "population": 11547,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3353715",
+      "name": "Outjo",
+      "latitude": -20.10691,
+      "longitude": 16.15415,
+      "population": 10009,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3352461",
+      "name": "Usakos",
+      "latitude": -22.00219,
+      "longitude": 15.58601,
+      "population": 9147,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "3354077",
+      "name": "Opuwo",
+      "latitude": -18.06068,
+      "longitude": 13.83998,
+      "population": 9075,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3371197",
+      "name": "Outapi",
+      "latitude": -17.50375,
+      "longitude": 14.98383,
+      "population": 7629,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "3354897",
+      "name": "Okahao",
+      "latitude": -17.88758,
+      "longitude": 15.06677,
+      "population": 7000,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "3356332",
+      "name": "Karibib",
+      "latitude": -21.93554,
+      "longitude": 15.85654,
+      "population": 6898,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "3357804",
+      "name": "Eenhana",
+      "latitude": -17.48535,
+      "longitude": 16.3294,
+      "population": 6551,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "3353934",
+      "name": "Otavi",
+      "latitude": -19.63805,
+      "longitude": 17.33986,
+      "population": 6213,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "3358670",
+      "name": "Arandis",
+      "latitude": -22.41749,
+      "longitude": 14.97385,
+      "population": 6127,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "3356343",
+      "name": "Karasburg",
+      "latitude": -28.01658,
+      "longitude": 18.74797,
+      "population": 6054,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "3356832",
+      "name": "Henties Bay",
+      "latitude": -22.11609,
+      "longitude": 14.28394,
+      "population": 5594,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "3354367",
+      "name": "Omuthiya",
+      "latitude": -18.36463,
+      "longitude": 16.58146,
+      "population": 5000,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "3354130",
+      "name": "Oniipa",
+      "latitude": -17.91667,
+      "longitude": 16.03333,
+      "population": 4740,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "3358666",
+      "name": "Aranos",
+      "latitude": -24.14126,
+      "longitude": 19.11754,
+      "population": 4365,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "3353400",
+      "name": "Ruacana",
+      "latitude": -17.42817,
+      "longitude": 14.41504,
+      "population": 3537,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "3353989",
+      "name": "Oshikuku",
+      "latitude": -17.63584,
+      "longitude": 15.48173,
+      "population": 3272,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "3354650",
+      "name": "Ekongo",
+      "latitude": -17.56667,
+      "longitude": 17.21667,
+      "population": 2650,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "3353962",
+      "name": "Oshivelo",
+      "latitude": -18.61972,
+      "longitude": 17.16743,
+      "population": 2287,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "876747",
+      "name": "Tsumkwe",
+      "latitude": -19.59363,
+      "longitude": 20.50203,
+      "population": 1664,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "3353172",
+      "name": "Sesfontein",
+      "latitude": -19.12279,
+      "longitude": 13.6205,
+      "population": 1088,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "3358633",
+      "name": "Ariamsvlei",
+      "latitude": -28.11895,
+      "longitude": 19.83612,
+      "population": 737,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "3355137",
+      "name": "Nkurenkuru",
+      "latitude": -17.64182,
+      "longitude": 18.61966,
+      "population": 732,
+      "populationRank": 42,
+      "isCapital": false
+    }
+  ]
+}

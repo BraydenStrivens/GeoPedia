@@ -1,0 +1,40 @@
+{
+  "towns": [
+    {
+      "id": "3042237",
+      "name": "Douglas",
+      "latitude": 54.15,
+      "longitude": -4.48333,
+      "population": 26218,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3042192",
+      "name": "Ramsey",
+      "latitude": 54.32273,
+      "longitude": -4.38526,
+      "population": 7845,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3042198",
+      "name": "Peel",
+      "latitude": 54.22209,
+      "longitude": -4.69099,
+      "population": 5374,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3042255",
+      "name": "Castletown",
+      "latitude": 54.07445,
+      "longitude": -4.65365,
+      "population": 3100,
+      "populationRank": 4,
+      "isCapital": false
+    }
+  ]
+}

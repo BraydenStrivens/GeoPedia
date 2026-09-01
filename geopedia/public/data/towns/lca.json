@@ -1,0 +1,94 @@
+{
+  "towns": [
+    {
+      "id": "3576686",
+      "name": "Gros Islet",
+      "latitude": 14.06667,
+      "longitude": -60.95,
+      "population": 25210,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "3576812",
+      "name": "Castries",
+      "latitude": 13.9957,
+      "longitude": -61.00614,
+      "population": 20000,
+      "populationRank": 2,
+      "isCapital": true
+    },
+    {
+      "id": "3576765",
+      "name": "Dennery",
+      "latitude": 13.91409,
+      "longitude": -60.89132,
+      "population": 12589,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3576663",
+      "name": "Laborie",
+      "latitude": 13.75,
+      "longitude": -60.98333,
+      "population": 6701,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3576795",
+      "name": "Choiseul",
+      "latitude": 13.77273,
+      "longitude": -61.04931,
+      "population": 6098,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3576414",
+      "name": "Vieux Fort",
+      "latitude": 13.71667,
+      "longitude": -60.95,
+      "population": 4574,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3576569",
+      "name": "Micoud",
+      "latitude": 13.81667,
+      "longitude": -60.9,
+      "population": 3406,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3576442",
+      "name": "Soufrière",
+      "latitude": 13.85616,
+      "longitude": -61.0566,
+      "population": 2918,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3576830",
+      "name": "Canaries",
+      "latitude": 13.90224,
+      "longitude": -61.06459,
+      "population": 1862,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3576894",
+      "name": "Anse La Raye",
+      "latitude": 13.94619,
+      "longitude": -61.03879,
+      "population": 1256,
+      "populationRank": 10,
+      "isCapital": false
+    }
+  ]
+}

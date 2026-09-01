@@ -1,0 +1,130 @@
+{
+  "towns": [
+    {
+      "id": "3575551",
+      "name": "Basseterre",
+      "latitude": 17.2955,
+      "longitude": -62.72499,
+      "population": 12920,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3575156",
+      "name": "Sandy Point Town",
+      "latitude": 17.35908,
+      "longitude": -62.84858,
+      "population": 3140,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3575423",
+      "name": "Fig Tree",
+      "latitude": 17.12623,
+      "longitude": -62.60265,
+      "population": 2922,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3575296",
+      "name": "Market Shop",
+      "latitude": 17.13218,
+      "longitude": -62.57267,
+      "population": 2568,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3575170",
+      "name": "Saint Paul’s",
+      "latitude": 17.40605,
+      "longitude": -62.83562,
+      "population": 2460,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3575251",
+      "name": "Nicola Town",
+      "latitude": 17.37956,
+      "longitude": -62.75318,
+      "population": 2059,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3575240",
+      "name": "Old Road Town",
+      "latitude": 17.32215,
+      "longitude": -62.80337,
+      "population": 1647,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3575479",
+      "name": "Charlestown",
+      "latitude": 17.13333,
+      "longitude": -62.61667,
+      "population": 1538,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3575186",
+      "name": "Sadlers",
+      "latitude": 17.40454,
+      "longitude": -62.79296,
+      "population": 1205,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3575487",
+      "name": "Cayon",
+      "latitude": 17.35,
+      "longitude": -62.73333,
+      "population": 788,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3575300",
+      "name": "Mansion",
+      "latitude": 17.38271,
+      "longitude": -62.75747,
+      "population": 690,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3575284",
+      "name": "Monkey Hill",
+      "latitude": 17.32327,
+      "longitude": -62.72914,
+      "population": 592,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3575441",
+      "name": "Dieppe Bay Town",
+      "latitude": 17.41473,
+      "longitude": -62.8139,
+      "population": 592,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3575531",
+      "name": "Boyd’s",
+      "latitude": 17.29779,
+      "longitude": -62.77021,
+      "population": 591,
+      "populationRank": 14,
+      "isCapital": false
+    }
+  ]
+}

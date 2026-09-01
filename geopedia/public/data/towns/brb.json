@@ -1,0 +1,49 @@
+{
+  "towns": [
+    {
+      "id": "3374036",
+      "name": "Bridgetown",
+      "latitude": 13.10732,
+      "longitude": -59.62021,
+      "population": 98511,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3373505",
+      "name": "Speightstown",
+      "latitude": 13.25072,
+      "longitude": -59.64396,
+      "population": 3634,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3373652",
+      "name": "Oistins",
+      "latitude": 13.07067,
+      "longitude": -59.54637,
+      "population": 2285,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3373790",
+      "name": "Holetown",
+      "latitude": 13.18672,
+      "longitude": -59.63808,
+      "population": 1350,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3373515",
+      "name": "Six Cross Roads",
+      "latitude": 13.11772,
+      "longitude": -59.477,
+      "population": 1005,
+      "populationRank": 5,
+      "isCapital": false
+    }
+  ]
+}

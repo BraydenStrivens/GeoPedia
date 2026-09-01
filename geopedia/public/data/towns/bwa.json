@@ -1,0 +1,301 @@
+{
+  "towns": [
+    {
+      "id": "933773",
+      "name": "Gaborone",
+      "latitude": -24.65451,
+      "longitude": 25.90859,
+      "population": 246325,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "933778",
+      "name": "Francistown",
+      "latitude": -21.17,
+      "longitude": 27.50778,
+      "population": 103417,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "933331",
+      "name": "Mogoditshane",
+      "latitude": -24.62694,
+      "longitude": 25.86556,
+      "population": 88004,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "933366",
+      "name": "Maun",
+      "latitude": -19.98333,
+      "longitude": 23.41667,
+      "population": 85350,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "933305",
+      "name": "Molepolole",
+      "latitude": -24.40659,
+      "longitude": 25.49508,
+      "population": 74861,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "933088",
+      "name": "Serowe",
+      "latitude": -22.38754,
+      "longitude": 26.71077,
+      "population": 55676,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "933004",
+      "name": "Tlokweng",
+      "latitude": -24.66861,
+      "longitude": 25.97111,
+      "population": 55508,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "933182",
+      "name": "Palapye",
+      "latitude": -22.54605,
+      "longitude": 27.12507,
+      "population": 52636,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "933340",
+      "name": "Mochudi",
+      "latitude": -24.41667,
+      "longitude": 26.15,
+      "population": 50321,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "933471",
+      "name": "Mahalapye",
+      "latitude": -23.10407,
+      "longitude": 26.81421,
+      "population": 48431,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "933685",
+      "name": "Kanye",
+      "latitude": -24.96675,
+      "longitude": 25.33273,
+      "population": 48028,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "933099",
+      "name": "Selebi-Phikwe",
+      "latitude": -21.97895,
+      "longitude": 27.84296,
+      "population": 42488,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "933141",
+      "name": "Ramotswa",
+      "latitude": -24.87158,
+      "longitude": 25.86989,
+      "population": 33271,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "933521",
+      "name": "Lobatse",
+      "latitude": -25.22435,
+      "longitude": 25.67728,
+      "population": 29772,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "1106213",
+      "name": "Mmopone",
+      "latitude": -24.56694,
+      "longitude": 25.87417,
+      "population": 25460,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "933018",
+      "name": "Thamaga",
+      "latitude": -24.67014,
+      "longitude": 25.53975,
+      "population": 25300,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "933271",
+      "name": "Mosopa",
+      "latitude": -24.7718,
+      "longitude": 25.42156,
+      "population": 23858,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "933000",
+      "name": "Tonota",
+      "latitude": -21.44236,
+      "longitude": 27.46153,
+      "population": 23296,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "933777",
+      "name": "Gabane",
+      "latitude": -24.66667,
+      "longitude": 25.78222,
+      "population": 20027,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "933759",
+      "name": "Ghanzi",
+      "latitude": -21.69785,
+      "longitude": 21.64581,
+      "population": 19012,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "8308627",
+      "name": "Jwaneng",
+      "latitude": -24.60167,
+      "longitude": 24.72806,
+      "population": 18784,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "7573818",
+      "name": "Tutume",
+      "latitude": -20.4943,
+      "longitude": 27.03479,
+      "population": 18582,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "933596",
+      "name": "Kopong",
+      "latitude": -24.48333,
+      "longitude": 25.88333,
+      "population": 13823,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "12640340",
+      "name": "Mmadinare",
+      "latitude": -21.8765,
+      "longitude": 27.7518,
+      "population": 13198,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "933077",
+      "name": "Shakawe",
+      "latitude": -18.36536,
+      "longitude": 21.84219,
+      "population": 10589,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "933881",
+      "name": "Bokaa",
+      "latitude": -24.45,
+      "longitude": 26.01667,
+      "population": 9146,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "933677",
+      "name": "Kasane",
+      "latitude": -17.80165,
+      "longitude": 25.16024,
+      "population": 9143,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "933186",
+      "name": "Orapa",
+      "latitude": -21.3115,
+      "longitude": 25.37642,
+      "population": 8648,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "933534",
+      "name": "Letlhakeng",
+      "latitude": -24.09442,
+      "longitude": 25.02977,
+      "population": 8343,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "933238",
+      "name": "Nata",
+      "latitude": -20.21667,
+      "longitude": 26.18333,
+      "population": 7779,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "933390",
+      "name": "Masunga",
+      "latitude": -20.62455,
+      "longitude": 27.44875,
+      "population": 6216,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "11593974",
+      "name": "Sowa",
+      "latitude": -20.564,
+      "longitude": 26.224,
+      "population": 2914,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "933178",
+      "name": "Pandamatenga",
+      "latitude": -18.52779,
+      "longitude": 25.62698,
+      "population": 1685,
+      "populationRank": 33,
+      "isCapital": false
+    }
+  ]
+}

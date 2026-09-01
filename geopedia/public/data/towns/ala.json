@@ -1,0 +1,148 @@
+{
+  "towns": [
+    {
+      "id": "3041732",
+      "name": "Mariehamn",
+      "latitude": 60.09726,
+      "longitude": 19.93481,
+      "population": 10682,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3041760",
+      "name": "Jomala",
+      "latitude": 60.14902,
+      "longitude": 19.951,
+      "population": 3662,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "648382",
+      "name": "Lemland",
+      "latitude": 60.07178,
+      "longitude": 20.08472,
+      "population": 1829,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "637878",
+      "name": "Saltvik",
+      "latitude": 60.28333,
+      "longitude": 20.05,
+      "population": 1691,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3041776",
+      "name": "Hammarland",
+      "latitude": 60.21667,
+      "longitude": 19.75,
+      "population": 1395,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "659823",
+      "name": "Godby",
+      "latitude": 60.22995,
+      "longitude": 19.9881,
+      "population": 1369,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "635815",
+      "name": "Sund",
+      "latitude": 60.25,
+      "longitude": 20.11667,
+      "population": 1016,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3041807",
+      "name": "Eckerö",
+      "latitude": 60.21249,
+      "longitude": 19.61442,
+      "population": 959,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "659949",
+      "name": "Föglö",
+      "latitude": 60.01392,
+      "longitude": 20.41377,
+      "population": 632,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "660521",
+      "name": "Brändö",
+      "latitude": 60.41165,
+      "longitude": 21.04534,
+      "population": 515,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3041792",
+      "name": "Geta",
+      "latitude": 60.37453,
+      "longitude": 19.84455,
+      "population": 452,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "632421",
+      "name": "Vårdö",
+      "latitude": 60.25,
+      "longitude": 20.38333,
+      "population": 411,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "650395",
+      "name": "Kumlinge",
+      "latitude": 60.26013,
+      "longitude": 20.77892,
+      "population": 384,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "651986",
+      "name": "Kökar",
+      "latitude": 59.92051,
+      "longitude": 20.90883,
+      "population": 355,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "647455",
+      "name": "Lumparland",
+      "latitude": 60.11695,
+      "longitude": 20.25819,
+      "population": 335,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "636158",
+      "name": "Sottunga",
+      "latitude": 60.13023,
+      "longitude": 20.66683,
+      "population": 144,
+      "populationRank": 16,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "towns": [
+    {
+      "id": "3193044",
+      "name": "Podgorica",
+      "latitude": 42.44124,
+      "longitude": 19.26309,
+      "population": 236852,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3194494",
+      "name": "Nikšić",
+      "latitude": 42.7731,
+      "longitude": 18.94446,
+      "population": 58212,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3199394",
+      "name": "Herceg Novi",
+      "latitude": 42.45306,
+      "longitude": 18.5375,
+      "population": 19536,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3193161",
+      "name": "Pljevlja",
+      "latitude": 43.3567,
+      "longitude": 19.35843,
+      "population": 19489,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3203106",
+      "name": "Budva",
+      "latitude": 42.28721,
+      "longitude": 18.83922,
+      "population": 18000,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3204509",
+      "name": "Bar",
+      "latitude": 42.0937,
+      "longitude": 19.09841,
+      "population": 17727,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3204176",
+      "name": "Bijelo Polje",
+      "latitude": 43.03834,
+      "longitude": 19.74758,
+      "population": 15400,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3202641",
+      "name": "Cetinje",
+      "latitude": 42.39063,
+      "longitude": 18.91417,
+      "population": 15137,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3199071",
+      "name": "Berane",
+      "latitude": 42.84333,
+      "longitude": 19.87281,
+      "population": 11073,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "786234",
+      "name": "Rožaje",
+      "latitude": 42.83299,
+      "longitude": 20.16652,
+      "population": 9121,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3189073",
+      "name": "Tivat",
+      "latitude": 42.43623,
+      "longitude": 18.69361,
+      "population": 6280,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3197538",
+      "name": "Kotor",
+      "latitude": 42.42067,
+      "longitude": 18.76825,
+      "population": 5345,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3202194",
+      "name": "Danilovgrad",
+      "latitude": 42.55384,
+      "longitude": 19.14608,
+      "population": 5208,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3194926",
+      "name": "Mojkovac",
+      "latitude": 42.96044,
+      "longitude": 19.5833,
+      "population": 4120,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3188584",
+      "name": "Tuzi",
+      "latitude": 42.36578,
+      "longitude": 19.3297,
+      "population": 3789,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3199161",
+      "name": "Igalo",
+      "latitude": 42.46007,
+      "longitude": 18.50647,
+      "population": 3754,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3193228",
+      "name": "Plav",
+      "latitude": 42.5969,
+      "longitude": 19.94415,
+      "population": 3615,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "3197896",
+      "name": "Kolašin",
+      "latitude": 42.82229,
+      "longitude": 19.51653,
+      "population": 2989,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3204214",
+      "name": "Bijela",
+      "latitude": 42.45333,
+      "longitude": 18.65556,
+      "population": 2395,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3191631",
+      "name": "Risan",
+      "latitude": 42.515,
+      "longitude": 18.69556,
+      "population": 2083,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3186999",
+      "name": "Žabljak",
+      "latitude": 43.15423,
+      "longitude": 19.12325,
+      "population": 1937,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3189429",
+      "name": "Sutomore",
+      "latitude": 42.14278,
+      "longitude": 19.04667,
+      "population": 1827,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "3199463",
+      "name": "Gusinje",
+      "latitude": 42.56194,
+      "longitude": 19.83389,
+      "population": 1673,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3189979",
+      "name": "Stari Bar",
+      "latitude": 42.097,
+      "longitude": 19.136,
+      "population": 1514,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "3193131",
+      "name": "Plužine",
+      "latitude": 43.15211,
+      "longitude": 18.83902,
+      "population": 1494,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "3193413",
+      "name": "Petrovac na Moru",
+      "latitude": 42.20556,
+      "longitude": 18.9425,
+      "population": 1485,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "3192576",
+      "name": "Prčanj",
+      "latitude": 42.4575,
+      "longitude": 18.74222,
+      "population": 1244,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "3190178",
+      "name": "Spuž",
+      "latitude": 42.515,
+      "longitude": 19.195,
+      "population": 1241,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "3204816",
+      "name": "Andrijevica",
+      "latitude": 42.73389,
+      "longitude": 19.79194,
+      "population": 1073,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "3191222",
+      "name": "Šavnik",
+      "latitude": 42.95692,
+      "longitude": 19.09605,
+      "population": 633,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "3193504",
+      "name": "Perast",
+      "latitude": 42.48694,
+      "longitude": 18.69917,
+      "population": 551,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "3191646",
+      "name": "Rijeka Crnojevića",
+      "latitude": 42.35639,
+      "longitude": 19.02528,
+      "population": 484,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "3189282",
+      "name": "Sveti Stefan",
+      "latitude": 42.25611,
+      "longitude": 18.89139,
+      "population": 410,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "3187691",
+      "name": "Virpazar",
+      "latitude": 42.24556,
+      "longitude": 19.0925,
+      "population": 337,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "3318240",
+      "name": "Tripkovići",
+      "latitude": 42.46306,
+      "longitude": 18.76417,
+      "population": 5,
+      "populationRank": 35,
+      "isCapital": false
+    }
+  ]
+}

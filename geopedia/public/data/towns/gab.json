@@ -1,0 +1,382 @@
+{
+  "towns": [
+    {
+      "id": "2399697",
+      "name": "Libreville",
+      "latitude": 0.39241,
+      "longitude": 9.45356,
+      "population": 846090,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "2396518",
+      "name": "Port-Gentil",
+      "latitude": -0.71933,
+      "longitude": 8.78151,
+      "population": 164018,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2400555",
+      "name": "Franceville",
+      "latitude": -1.63333,
+      "longitude": 13.58357,
+      "population": 132895,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2396657",
+      "name": "Owendo",
+      "latitude": 0.29123,
+      "longitude": 9.50465,
+      "population": 95313,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2396646",
+      "name": "Oyem",
+      "latitude": 1.5995,
+      "longitude": 11.57933,
+      "population": 72939,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2398269",
+      "name": "Moanda",
+      "latitude": -1.56652,
+      "longitude": 13.1987,
+      "population": 71099,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2397169",
+      "name": "Ntoum",
+      "latitude": 0.39051,
+      "longitude": 9.76096,
+      "population": 62445,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "2399888",
+      "name": "Lambaréné",
+      "latitude": -0.7001,
+      "longitude": 10.24055,
+      "population": 46605,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2398073",
+      "name": "Mouila",
+      "latitude": -1.86846,
+      "longitude": 11.05594,
+      "population": 43342,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "12640495",
+      "name": "Akanda",
+      "latitude": 0.60732,
+      "longitude": 9.32933,
+      "population": 41524,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2396253",
+      "name": "Tchibanga",
+      "latitude": -2.93323,
+      "longitude": 10.98178,
+      "population": 36108,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "2401578",
+      "name": "Bitam",
+      "latitude": 2.07597,
+      "longitude": 11.50065,
+      "population": 33561,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2399959",
+      "name": "Koulamoutou",
+      "latitude": -1.13667,
+      "longitude": 12.46399,
+      "population": 30830,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2399371",
+      "name": "Makokou",
+      "latitude": 0.57381,
+      "longitude": 12.86419,
+      "population": 24823,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2399870",
+      "name": "Lastoursville",
+      "latitude": -0.81742,
+      "longitude": 12.70818,
+      "population": 14411,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "2396898",
+      "name": "Okondja",
+      "latitude": -0.65487,
+      "longitude": 13.67533,
+      "population": 12962,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "2400547",
+      "name": "Gamba",
+      "latitude": -2.65,
+      "longitude": 10,
+      "population": 12565,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2398283",
+      "name": "Mitzic",
+      "latitude": 0.78205,
+      "longitude": 11.54904,
+      "population": 10522,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2399857",
+      "name": "Lébamba",
+      "latitude": -2.21213,
+      "longitude": 11.46978,
+      "population": 9287,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2399831",
+      "name": "Lékoni",
+      "latitude": -1.58431,
+      "longitude": 14.25905,
+      "population": 8810,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2397978",
+      "name": "Mounana",
+      "latitude": -1.4085,
+      "longitude": 13.15857,
+      "population": 8780,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "2400578",
+      "name": "Fougamou",
+      "latitude": -1.21544,
+      "longitude": 10.58378,
+      "population": 8629,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2397674",
+      "name": "Ndjolé",
+      "latitude": -0.17827,
+      "longitude": 10.76488,
+      "population": 8265,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "2402493",
+      "name": "Akiéni",
+      "latitude": -1.17454,
+      "longitude": 13.87562,
+      "population": 8241,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2398764",
+      "name": "Mékambo",
+      "latitude": 1.00652,
+      "longitude": 13.95938,
+      "population": 8105,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "2401495",
+      "name": "Booué",
+      "latitude": -0.09207,
+      "longitude": 11.93846,
+      "population": 7259,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "2397614",
+      "name": "Ndendé",
+      "latitude": -2.40077,
+      "longitude": 11.35813,
+      "population": 7238,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2398929",
+      "name": "Mbigou",
+      "latitude": -1.90046,
+      "longitude": 11.906,
+      "population": 7069,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2399001",
+      "name": "Mayumba",
+      "latitude": -3.43198,
+      "longitude": 10.6554,
+      "population": 6274,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2400132",
+      "name": "Kango",
+      "latitude": 0.17175,
+      "longitude": 10.10905,
+      "population": 5734,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "8260633",
+      "name": "Bakoumba",
+      "latitude": -1.82703,
+      "longitude": 13.02052,
+      "population": 4861,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2398363",
+      "name": "Minvoul",
+      "latitude": 2.15161,
+      "longitude": 12.132,
+      "population": 4469,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2398273",
+      "name": "Moabi",
+      "latitude": -2.42245,
+      "longitude": 11.00068,
+      "population": 4108,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "2398430",
+      "name": "Mimongo",
+      "latitude": -1.61952,
+      "longitude": 11.60675,
+      "population": 3307,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "12640496",
+      "name": "Bongoville",
+      "latitude": -1.6472,
+      "longitude": 13.8633,
+      "population": 3164,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "2401357",
+      "name": "Cocobeach",
+      "latitude": 1.00019,
+      "longitude": 9.58229,
+      "population": 3114,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "2398787",
+      "name": "Médouneu",
+      "latitude": 1.01619,
+      "longitude": 10.79598,
+      "population": 3001,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "2397438",
+      "name": "Ngwoni",
+      "latitude": -1.50021,
+      "longitude": 13.79245,
+      "population": 2691,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "2396853",
+      "name": "Omboué",
+      "latitude": -1.57464,
+      "longitude": 9.26184,
+      "population": 2414,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "2399309",
+      "name": "Malinga",
+      "latitude": -2.41815,
+      "longitude": 12.22294,
+      "population": 1382,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "2401444",
+      "name": "Boumango",
+      "latitude": -2.22678,
+      "longitude": 13.61429,
+      "population": 1316,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "12640498",
+      "name": "Aboumi",
+      "latitude": -0.65522,
+      "longitude": 14.13827,
+      "population": 1050,
+      "populationRank": 42,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "towns": [
+    {
+      "id": "4035715",
+      "name": "Avarua",
+      "latitude": -21.2075,
+      "longitude": -159.77546,
+      "population": 13373,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "4036498",
+      "name": "Matavera",
+      "latitude": -21.22444,
+      "longitude": -159.73333,
+      "population": 1018,
+      "populationRank": 2,
+      "isCapital": false
+    }
+  ]
+}

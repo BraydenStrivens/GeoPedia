@@ -1,0 +1,22 @@
+{
+  "towns": [
+    {
+      "id": "2411397",
+      "name": "Georgetown",
+      "latitude": -7.92861,
+      "longitude": -14.41194,
+      "population": 5012,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "3370903",
+      "name": "Jamestown",
+      "latitude": -15.92488,
+      "longitude": -5.71816,
+      "population": 637,
+      "populationRank": 2,
+      "isCapital": true
+    }
+  ]
+}

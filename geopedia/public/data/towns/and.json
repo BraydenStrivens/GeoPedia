@@ -1,0 +1,67 @@
+{
+  "towns": [
+    {
+      "id": "3041563",
+      "name": "Andorra la Vella",
+      "latitude": 42.50779,
+      "longitude": 1.52109,
+      "population": 20430,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3040051",
+      "name": "les Escaldes",
+      "latitude": 42.50729,
+      "longitude": 1.53414,
+      "population": 15853,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3040686",
+      "name": "Encamp",
+      "latitude": 42.53474,
+      "longitude": 1.58014,
+      "population": 11223,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3039163",
+      "name": "Sant Julià de Lòria",
+      "latitude": 42.46372,
+      "longitude": 1.49129,
+      "population": 8022,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3040132",
+      "name": "la Massana",
+      "latitude": 42.54499,
+      "longitude": 1.51483,
+      "population": 7211,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3041204",
+      "name": "Canillo",
+      "latitude": 42.5676,
+      "longitude": 1.59756,
+      "population": 3292,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3039678",
+      "name": "Ordino",
+      "latitude": 42.55623,
+      "longitude": 1.53319,
+      "population": 3066,
+      "populationRank": 7,
+      "isCapital": false
+    }
+  ]
+}

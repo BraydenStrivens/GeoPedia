@@ -1,0 +1,238 @@
+{
+  "towns": [
+    {
+      "id": "2411989",
+      "name": "Serekunda",
+      "latitude": 13.43833,
+      "longitude": -16.67806,
+      "population": 340000,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "2413753",
+      "name": "Brikama",
+      "latitude": 13.27136,
+      "longitude": -16.64944,
+      "population": 97233,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2411880",
+      "name": "Sukuta",
+      "latitude": 13.41033,
+      "longitude": -16.70815,
+      "population": 56472,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2413876",
+      "name": "Banjul",
+      "latitude": 13.45274,
+      "longitude": -16.57803,
+      "population": 37274,
+      "populationRank": 4,
+      "isCapital": true
+    },
+    {
+      "id": "2413515",
+      "name": "Farafenni",
+      "latitude": 13.56667,
+      "longitude": -15.6,
+      "population": 32883,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2413696",
+      "name": "Busumbala",
+      "latitude": 13.33917,
+      "longitude": -16.6875,
+      "population": 28829,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2411700",
+      "name": "Welingara",
+      "latitude": 13.40361,
+      "longitude": -16.67361,
+      "population": 27856,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "2413419",
+      "name": "Gunjur",
+      "latitude": 13.20194,
+      "longitude": -16.73389,
+      "population": 22741,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2413990",
+      "name": "Abuko",
+      "latitude": 13.40417,
+      "longitude": -16.65583,
+      "population": 18978,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2413106",
+      "name": "Kanifing",
+      "latitude": 13.44639,
+      "longitude": -16.67444,
+      "population": 17159,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2411905",
+      "name": "Soma",
+      "latitude": 13.43333,
+      "longitude": -15.53333,
+      "population": 15210,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "2413818",
+      "name": "Basse Santa Su",
+      "latitude": 13.30995,
+      "longitude": -14.21373,
+      "population": 14380,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2411653",
+      "name": "Yundum",
+      "latitude": 13.34556,
+      "longitude": -16.67278,
+      "population": 13162,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2411652",
+      "name": "Old Yundum",
+      "latitude": 13.3625,
+      "longitude": -16.68611,
+      "population": 12042,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2413866",
+      "name": "Bansang",
+      "latitude": 13.43333,
+      "longitude": -14.65,
+      "population": 9528,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "2413564",
+      "name": "Djalabango",
+      "latitude": 13.28056,
+      "longitude": -16.67861,
+      "population": 8139,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "2413955",
+      "name": "Badja Kunda",
+      "latitude": 13.46667,
+      "longitude": -14.05,
+      "population": 7403,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2413874",
+      "name": "Banjul NDing",
+      "latitude": 13.37333,
+      "longitude": -16.65722,
+      "population": 7110,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2413827",
+      "name": "Barra",
+      "latitude": 13.48278,
+      "longitude": -16.54556,
+      "population": 6020,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2413061",
+      "name": "Kartung",
+      "latitude": 13.09472,
+      "longitude": -16.76222,
+      "population": 5213,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2413749",
+      "name": "Brikama Ba",
+      "latitude": 13.53333,
+      "longitude": -14.93333,
+      "population": 5086,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "2413437",
+      "name": "Janjanbureh",
+      "latitude": 13.54039,
+      "longitude": -14.76374,
+      "population": 4547,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2412778",
+      "name": "Kuntaur",
+      "latitude": 13.67085,
+      "longitude": -14.88977,
+      "population": 2534,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "2412344",
+      "name": "Nyamanari",
+      "latitude": 13.33333,
+      "longitude": -13.86667,
+      "population": 2090,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2411703",
+      "name": "Wassu",
+      "latitude": 13.69094,
+      "longitude": -14.87884,
+      "population": 1380,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "2411955",
+      "name": "Sinchang",
+      "latitude": 13.4,
+      "longitude": -13.88333,
+      "population": 125,
+      "populationRank": 26,
+      "isCapital": false
+    }
+  ]
+}

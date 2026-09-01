@@ -1,0 +1,1804 @@
+{
+  "towns": [
+    {
+      "id": "2507480",
+      "name": "Algiers",
+      "latitude": 36.73225,
+      "longitude": 3.08746,
+      "population": 2364230,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "2485926",
+      "name": "Oran",
+      "latitude": 35.69906,
+      "longitude": -0.63588,
+      "population": 803329,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2501152",
+      "name": "Constantine",
+      "latitude": 36.365,
+      "longitude": 6.61472,
+      "population": 448028,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "2506999",
+      "name": "Annaba",
+      "latitude": 36.9,
+      "longitude": 7.76667,
+      "population": 342703,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2503769",
+      "name": "Blida",
+      "latitude": 36.47004,
+      "longitude": 2.8277,
+      "population": 331779,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2505572",
+      "name": "Batna",
+      "latitude": 35.55597,
+      "longitude": 6.17414,
+      "population": 289504,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2505854",
+      "name": "Bab Ezzouar",
+      "latitude": 36.72615,
+      "longitude": 3.18291,
+      "population": 275630,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "2500017",
+      "name": "Djelfa",
+      "latitude": 34.67279,
+      "longitude": 3.263,
+      "population": 265833,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2481700",
+      "name": "Sétif",
+      "latitude": 36.19112,
+      "longitude": 5.41373,
+      "population": 252127,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2481007",
+      "name": "Sidi Bel Abbes",
+      "latitude": 35.18994,
+      "longitude": -0.63085,
+      "population": 210146,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2503826",
+      "name": "Biskra",
+      "latitude": 34.85038,
+      "longitude": 5.72805,
+      "population": 204661,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "2477461",
+      "name": "Tébessa",
+      "latitude": 35.40417,
+      "longitude": 8.12417,
+      "population": 194461,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2497411",
+      "name": "El Oued",
+      "latitude": 33.35608,
+      "longitude": 6.86319,
+      "population": 186525,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2479536",
+      "name": "Skikda",
+      "latitude": 36.87617,
+      "longitude": 6.90921,
+      "population": 182903,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2476897",
+      "name": "Tiaret",
+      "latitude": 35.37103,
+      "longitude": 1.31699,
+      "population": 178915,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "2498611",
+      "name": "Chlef",
+      "latitude": 36.16525,
+      "longitude": 1.33452,
+      "population": 178616,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "2505329",
+      "name": "Béjaïa",
+      "latitude": 36.75587,
+      "longitude": 5.08433,
+      "population": 176139,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2475687",
+      "name": "Tlemcen",
+      "latitude": 34.87833,
+      "longitude": -1.315,
+      "population": 173531,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2485801",
+      "name": "Ouargla",
+      "latitude": 31.94932,
+      "longitude": 5.32502,
+      "population": 169928,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2505530",
+      "name": "Béchar",
+      "latitude": 31.61667,
+      "longitude": -2.21667,
+      "population": 165241,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2487134",
+      "name": "Mostaganem",
+      "latitude": 35.93115,
+      "longitude": 0.08918,
+      "population": 162885,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "2503701",
+      "name": "Bordj Bou Arreridj",
+      "latitude": 36.07389,
+      "longitude": 4.76139,
+      "population": 158812,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2498766",
+      "name": "El Achir",
+      "latitude": 36.06386,
+      "longitude": 4.62744,
+      "population": 158333,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "2479215",
+      "name": "Souk Ahras",
+      "latitude": 36.28639,
+      "longitude": 7.95111,
+      "population": 153479,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2488835",
+      "name": "Médéa",
+      "latitude": 36.26417,
+      "longitude": 2.75393,
+      "population": 145441,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "2498392",
+      "name": "El Eulma",
+      "latitude": 36.15281,
+      "longitude": 5.69016,
+      "population": 145380,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "2475475",
+      "name": "Touggourt",
+      "latitude": 33.11083,
+      "longitude": 6.07,
+      "population": 143270,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2496049",
+      "name": "Ghardaïa",
+      "latitude": 32.49094,
+      "longitude": 3.67347,
+      "population": 142913,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2482572",
+      "name": "Saïda",
+      "latitude": 34.83033,
+      "longitude": 0.15171,
+      "population": 142497,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2491191",
+      "name": "Laghouat",
+      "latitude": 33.8,
+      "longitude": 2.86514,
+      "population": 134372,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "2486690",
+      "name": "M'Sila",
+      "latitude": 35.70889,
+      "longitude": 4.53722,
+      "population": 132975,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2492913",
+      "name": "Jijel",
+      "latitude": 36.821,
+      "longitude": 5.76352,
+      "population": 131513,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2483668",
+      "name": "Relizane",
+      "latitude": 35.73734,
+      "longitude": 0.55599,
+      "population": 123255,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "2503661",
+      "name": "Bordj el Kiffan",
+      "latitude": 36.74871,
+      "longitude": 3.19249,
+      "population": 123246,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "2495662",
+      "name": "Guelma",
+      "latitude": 36.46214,
+      "longitude": 7.42608,
+      "population": 120004,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "2482908",
+      "name": "Rouiba",
+      "latitude": 36.73829,
+      "longitude": 3.28079,
+      "population": 117558,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "2508287",
+      "name": "Aïn Beïda",
+      "latitude": 35.79639,
+      "longitude": 7.39278,
+      "population": 116064,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "2491889",
+      "name": "Khenchela",
+      "latitude": 35.43583,
+      "longitude": 7.14333,
+      "population": 114472,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "2502385",
+      "name": "Bou Saâda",
+      "latitude": 35.20855,
+      "longitude": 4.17402,
+      "population": 111787,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "2490098",
+      "name": "Mascara",
+      "latitude": 35.39664,
+      "longitude": 0.14027,
+      "population": 108629,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "2505653",
+      "name": "Baraki",
+      "latitude": 36.66655,
+      "longitude": 3.09606,
+      "population": 105402,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "2475744",
+      "name": "Tizi Ouzou",
+      "latitude": 36.71182,
+      "longitude": 4.04591,
+      "population": 104312,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "2505629",
+      "name": "Barika",
+      "latitude": 35.38901,
+      "longitude": 5.36584,
+      "population": 98141,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "2507972",
+      "name": "Aïn Oussera",
+      "latitude": 35.45139,
+      "longitude": 2.90583,
+      "population": 98107,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "2487772",
+      "name": "Messaad",
+      "latitude": 34.15429,
+      "longitude": 3.50309,
+      "population": 97091,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "2508737",
+      "name": "Aflou",
+      "latitude": 34.11279,
+      "longitude": 2.10228,
+      "population": 93585,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "2504622",
+      "name": "Beni Mered",
+      "latitude": 36.52389,
+      "longitude": 2.86131,
+      "population": 92749,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "2497849",
+      "name": "El Khroub",
+      "latitude": 36.26333,
+      "longitude": 6.69361,
+      "population": 90122,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "2490584",
+      "name": "Maghnia",
+      "latitude": 34.84969,
+      "longitude": -1.72753,
+      "population": 87373,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "2498543",
+      "name": "El Bayadh",
+      "latitude": 33.68318,
+      "longitude": 1.01927,
+      "population": 85577,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "2494610",
+      "name": "Hamma Bouziane",
+      "latitude": 36.41205,
+      "longitude": 6.59603,
+      "population": 83603,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "2478216",
+      "name": "Tamanghasset",
+      "latitude": 22.785,
+      "longitude": 5.52278,
+      "population": 81752,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "2482886",
+      "name": "Rouissat",
+      "latitude": 31.92427,
+      "longitude": 5.35018,
+      "population": 80784,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "2494073",
+      "name": "Hassi Bahbah",
+      "latitude": 35.07109,
+      "longitude": 3.0299,
+      "population": 77000,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "2479247",
+      "name": "Sougueur",
+      "latitude": 35.18568,
+      "longitude": 1.49612,
+      "population": 71036,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "2507901",
+      "name": "Aïn Temouchent",
+      "latitude": 35.29749,
+      "longitude": -1.14037,
+      "population": 70810,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "2503878",
+      "name": "Bir el Ater",
+      "latitude": 34.74488,
+      "longitude": 8.06024,
+      "population": 70749,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "2502958",
+      "name": "Bouïra",
+      "latitude": 36.37489,
+      "longitude": 3.902,
+      "population": 68545,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "2508813",
+      "name": "Adrar",
+      "latitude": 27.87429,
+      "longitude": -0.29388,
+      "population": 68276,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "2503874",
+      "name": "Bir el Djir",
+      "latitude": 35.72,
+      "longitude": -0.545,
+      "population": 68032,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "2484620",
+      "name": "Oum el Bouaghi",
+      "latitude": 35.87541,
+      "longitude": 7.11353,
+      "population": 67201,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "2481246",
+      "name": "Sidi Aïssa",
+      "latitude": 35.88548,
+      "longitude": 3.77236,
+      "population": 66856,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "2504072",
+      "name": "Besbes",
+      "latitude": 36.70222,
+      "longitude": 7.84722,
+      "population": 66287,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "2501404",
+      "name": "Cheria",
+      "latitude": 35.27306,
+      "longitude": 7.75194,
+      "population": 66160,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "2475860",
+      "name": "Tissemsilt",
+      "latitude": 35.60722,
+      "longitude": 1.81081,
+      "population": 66084,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "2508002",
+      "name": "Aïn M’Lila",
+      "latitude": 36.03687,
+      "longitude": 6.57219,
+      "population": 65371,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "2489865",
+      "name": "Mecheria",
+      "latitude": 33.54453,
+      "longitude": -0.28117,
+      "population": 65043,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "11204500",
+      "name": "Ali Mendjeli",
+      "latitude": 36.2459,
+      "longitude": 6.5671,
+      "population": 64120,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "2487452",
+      "name": "Mila",
+      "latitude": 36.45028,
+      "longitude": 6.26444,
+      "population": 63251,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "2487293",
+      "name": "Mohammadia",
+      "latitude": 35.58861,
+      "longitude": 0.06861,
+      "population": 62410,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "2491578",
+      "name": "Kolea",
+      "latitude": 36.63888,
+      "longitude": 2.76845,
+      "population": 61643,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "2479609",
+      "name": "Sig",
+      "latitude": 35.52832,
+      "longitude": -0.19369,
+      "population": 61373,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "12326384",
+      "name": "District of Taher",
+      "latitude": 36.772,
+      "longitude": 5.8982,
+      "population": 60426,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "2498954",
+      "name": "Ech Chettia",
+      "latitude": 36.19591,
+      "longitude": 1.25537,
+      "population": 60170,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "2491323",
+      "name": "Ksar el Boukhari",
+      "latitude": 35.88889,
+      "longitude": 2.74905,
+      "population": 59634,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "2484933",
+      "name": "Ouled Djellal",
+      "latitude": 34.43,
+      "longitude": 5.06139,
+      "population": 58481,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "2491050",
+      "name": "Larbaâ",
+      "latitude": 36.56471,
+      "longitude": 3.15434,
+      "population": 58295,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "2506385",
+      "name": "Arzew",
+      "latitude": 35.85048,
+      "longitude": -0.318,
+      "population": 58162,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "2498305",
+      "name": "El Menia",
+      "latitude": 30.57556,
+      "longitude": 2.88417,
+      "population": 57344,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "2503181",
+      "name": "Boufarik",
+      "latitude": 36.57413,
+      "longitude": 2.91214,
+      "population": 57162,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "2503229",
+      "name": "Boudouaou",
+      "latitude": 36.72735,
+      "longitude": 3.40995,
+      "population": 56398,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "2504099",
+      "name": "Berrouaghia",
+      "latitude": 36.13516,
+      "longitude": 2.91085,
+      "population": 55775,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "2507877",
+      "name": "Aïn Touta",
+      "latitude": 35.37675,
+      "longitude": 5.90001,
+      "population": 55736,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "2485582",
+      "name": "Oued Rhiou",
+      "latitude": 35.96124,
+      "longitude": 0.91896,
+      "population": 55430,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "2508228",
+      "name": "Aïn Defla",
+      "latitude": 36.26405,
+      "longitude": 1.9679,
+      "population": 55259,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "2499055",
+      "name": "Drean",
+      "latitude": 36.68482,
+      "longitude": 7.75111,
+      "population": 55147,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "2483757",
+      "name": "Reghaïa",
+      "latitude": 36.73587,
+      "longitude": 3.34018,
+      "population": 54962,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "2503755",
+      "name": "Boghni",
+      "latitude": 36.54222,
+      "longitude": 3.95306,
+      "population": 54666,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "2501541",
+      "name": "Chelghoum el Aïd",
+      "latitude": 36.16286,
+      "longitude": 6.16651,
+      "population": 54495,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "2494065",
+      "name": "Assi Bou Nif",
+      "latitude": 35.69222,
+      "longitude": -0.49944,
+      "population": 53700,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "2503669",
+      "name": "Bordj el Bahri",
+      "latitude": 36.79068,
+      "longitude": 3.24952,
+      "population": 52816,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "2490183",
+      "name": "Mansoûra",
+      "latitude": 34.86158,
+      "longitude": -1.33935,
+      "population": 52285,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "2491335",
+      "name": "Ksar Chellala",
+      "latitude": 35.21222,
+      "longitude": 2.31889,
+      "population": 51451,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "2507979",
+      "name": "Aïn Oulmene",
+      "latitude": 35.92296,
+      "longitude": 5.29604,
+      "population": 51207,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "2475612",
+      "name": "Tolga",
+      "latitude": 34.72224,
+      "longitude": 5.37845,
+      "population": 50575,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "2496232",
+      "name": "Frenda",
+      "latitude": 35.06544,
+      "longitude": 1.04945,
+      "population": 49376,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "2508102",
+      "name": "Aïn Fakroun",
+      "latitude": 35.97108,
+      "longitude": 6.87374,
+      "population": 48804,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "2495601",
+      "name": "Guemar",
+      "latitude": 33.48529,
+      "longitude": 6.79693,
+      "population": 48413,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "2487882",
+      "name": "Merouana",
+      "latitude": 35.63106,
+      "longitude": 5.91186,
+      "population": 47646,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "2507943",
+      "name": "Aïn Sefra",
+      "latitude": 32.75,
+      "longitude": -0.58333,
+      "population": 47415,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "2491913",
+      "name": "Khemis el Khechna",
+      "latitude": 36.64997,
+      "longitude": 3.3308,
+      "population": 46965,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "2499193",
+      "name": "Douéra",
+      "latitude": 36.67,
+      "longitude": 2.94444,
+      "population": 46266,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "2497509",
+      "name": "El Milia",
+      "latitude": 36.75472,
+      "longitude": 6.2725,
+      "population": 45945,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "2476301",
+      "name": "Tindouf",
+      "latitude": 27.67111,
+      "longitude": -8.14743,
+      "population": 45610,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "2482090",
+      "name": "Sedrata",
+      "latitude": 36.12868,
+      "longitude": 7.53376,
+      "population": 45300,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "2483936",
+      "name": "Râs el Oued",
+      "latitude": 35.9441,
+      "longitude": 5.03107,
+      "population": 44947,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "2503641",
+      "name": "Bordj Menaïel",
+      "latitude": 36.74328,
+      "longitude": 3.7173,
+      "population": 44572,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "2485618",
+      "name": "Oued Fodda",
+      "latitude": 36.18503,
+      "longitude": 1.53299,
+      "population": 44523,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "2494029",
+      "name": "Hassi Messaoud",
+      "latitude": 31.68041,
+      "longitude": 6.07286,
+      "population": 44478,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "2503468",
+      "name": "Boû Arfa",
+      "latitude": 36.46298,
+      "longitude": 2.81464,
+      "population": 44143,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "2479161",
+      "name": "Sour el Ghozlane",
+      "latitude": 36.14766,
+      "longitude": 3.69123,
+      "population": 43985,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "2487444",
+      "name": "Miliana",
+      "latitude": 36.30554,
+      "longitude": 2.2248,
+      "population": 43366,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "2491134",
+      "name": "Lakhdaria",
+      "latitude": 36.56463,
+      "longitude": 3.5933,
+      "population": 42886,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "2478876",
+      "name": "Tadjenanet",
+      "latitude": 36.12129,
+      "longitude": 5.9867,
+      "population": 41833,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "2477528",
+      "name": "Tazoult-Lambese",
+      "latitude": 35.48171,
+      "longitude": 6.26074,
+      "population": 41636,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "2499104",
+      "name": "Draa el Mizan",
+      "latitude": 36.53628,
+      "longitude": 3.8334,
+      "population": 41263,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "2477462",
+      "name": "Tebesbest",
+      "latitude": 33.11667,
+      "longitude": 6.08333,
+      "population": 41091,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "2502939",
+      "name": "Bou Ismaïl",
+      "latitude": 36.64262,
+      "longitude": 2.69007,
+      "population": 40984,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "2488722",
+      "name": "Meftah",
+      "latitude": 36.6204,
+      "longitude": 3.22248,
+      "population": 40878,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "2479183",
+      "name": "Souma",
+      "latitude": 36.51833,
+      "longitude": 2.90528,
+      "population": 40745,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "2484835",
+      "name": "Ouled Moussa",
+      "latitude": 36.68394,
+      "longitude": 3.36661,
+      "population": 40692,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "2482939",
+      "name": "Rouached",
+      "latitude": 36.45774,
+      "longitude": 6.04267,
+      "population": 40263,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "2493956",
+      "name": "Héliopolis",
+      "latitude": 36.50361,
+      "longitude": 7.44278,
+      "population": 40139,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "2476700",
+      "name": "Tighenif",
+      "latitude": 35.41722,
+      "longitude": 0.32982,
+      "population": 39938,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "2504581",
+      "name": "Beni Saf",
+      "latitude": 35.30099,
+      "longitude": -1.38226,
+      "population": 39749,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "2498172",
+      "name": "El Hadjira",
+      "latitude": 32.61336,
+      "longitude": 5.51259,
+      "population": 39744,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "2487620",
+      "name": "Metlili Chaamba",
+      "latitude": 32.26667,
+      "longitude": 3.63333,
+      "population": 39588,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "2498775",
+      "name": "El Abiodh Sidi Cheikh",
+      "latitude": 32.893,
+      "longitude": 0.54839,
+      "population": 39283,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "2497655",
+      "name": "El Meghaïer",
+      "latitude": 33.95139,
+      "longitude": 5.92222,
+      "population": 39106,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "2497060",
+      "name": "Es Senia",
+      "latitude": 35.64779,
+      "longitude": -0.62397,
+      "population": 39064,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "2480368",
+      "name": "Sidi Khaled",
+      "latitude": 34.387,
+      "longitude": 4.98785,
+      "population": 38987,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "2503147",
+      "name": "Bougara",
+      "latitude": 36.54178,
+      "longitude": 3.081,
+      "population": 38352,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "2507646",
+      "name": "Akbou",
+      "latitude": 36.4575,
+      "longitude": 4.53494,
+      "population": 38291,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "2508295",
+      "name": "’Aïn Azel",
+      "latitude": 35.81846,
+      "longitude": 5.51115,
+      "population": 37970,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "2508174",
+      "name": "Aïn el Bya",
+      "latitude": 35.80389,
+      "longitude": -0.30178,
+      "population": 37241,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "2500737",
+      "name": "Debila",
+      "latitude": 33.51667,
+      "longitude": 6.95,
+      "population": 36834,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "2501362",
+      "name": "Chetouane",
+      "latitude": 34.92129,
+      "longitude": -1.29512,
+      "population": 36776,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "2506404",
+      "name": "Arris",
+      "latitude": 35.25881,
+      "longitude": 6.34706,
+      "population": 36641,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "2489922",
+      "name": "M’Daourouch",
+      "latitude": 36.07821,
+      "longitude": 7.8196,
+      "population": 36351,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "2508225",
+      "name": "’Aïn Deheb",
+      "latitude": 34.84218,
+      "longitude": 1.54697,
+      "population": 36146,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "2480618",
+      "name": "Sidi ech Chahmi",
+      "latitude": 35.65903,
+      "longitude": -0.52168,
+      "population": 35512,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "2497988",
+      "name": "El Kala",
+      "latitude": 36.89556,
+      "longitude": 8.44333,
+      "population": 35449,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "2498752",
+      "name": "El Affroun",
+      "latitude": 36.4701,
+      "longitude": 2.62528,
+      "population": 35074,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "2500282",
+      "name": "Djamaa",
+      "latitude": 33.53388,
+      "longitude": 5.99306,
+      "population": 34920,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "2508010",
+      "name": "’Aïn Merane",
+      "latitude": 36.16277,
+      "longitude": 0.97037,
+      "population": 34413,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "2501440",
+      "name": "Cherchell",
+      "latitude": 36.605,
+      "longitude": 2.19083,
+      "population": 34372,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "2483968",
+      "name": "Râs el Aïoun",
+      "latitude": 35.67384,
+      "longitude": 5.6453,
+      "population": 34167,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "2503654",
+      "name": "Bordj Ghdir",
+      "latitude": 35.90111,
+      "longitude": 4.89806,
+      "population": 34136,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "2504553",
+      "name": "Beni Tamou",
+      "latitude": 36.53833,
+      "longitude": 2.82174,
+      "population": 33846,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "2494962",
+      "name": "Hadjout",
+      "latitude": 36.51257,
+      "longitude": 2.41382,
+      "population": 33830,
+      "populationRank": 150,
+      "isCapital": false
+    },
+    {
+      "id": "2505915",
+      "name": "Azzaba",
+      "latitude": 36.73944,
+      "longitude": 7.10528,
+      "population": 33766,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "2504703",
+      "name": "Beni Douala",
+      "latitude": 36.61954,
+      "longitude": 4.08282,
+      "population": 33611,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "2507912",
+      "name": "Aïn Taya",
+      "latitude": 36.79333,
+      "longitude": 3.28694,
+      "population": 33575,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "2498590",
+      "name": "El Attaf",
+      "latitude": 36.22393,
+      "longitude": 1.67187,
+      "population": 33349,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "2498614",
+      "name": "El Arrouch",
+      "latitude": 36.65306,
+      "longitude": 6.83639,
+      "population": 33085,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "2483761",
+      "name": "Reggane",
+      "latitude": 26.71576,
+      "longitude": 0.1714,
+      "population": 32974,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "2498667",
+      "name": "El Aouinet",
+      "latitude": 35.86691,
+      "longitude": 7.88673,
+      "population": 32971,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "2508130",
+      "name": "’Aïn el Melh",
+      "latitude": 34.84146,
+      "longitude": 4.16383,
+      "population": 32880,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "2496059",
+      "name": "Gdyel",
+      "latitude": 35.78111,
+      "longitude": -0.42581,
+      "population": 32774,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "2492809",
+      "name": "Kaïs",
+      "latitude": 35.49474,
+      "longitude": 6.92492,
+      "population": 32668,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "2478226",
+      "name": "Tamalous",
+      "latitude": 36.83763,
+      "longitude": 6.64018,
+      "population": 32579,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "2482211",
+      "name": "Sebdou",
+      "latitude": 34.63703,
+      "longitude": -1.33143,
+      "population": 32570,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "2508268",
+      "name": "Aïn Bessem",
+      "latitude": 36.29333,
+      "longitude": 3.67319,
+      "population": 32548,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "6930641",
+      "name": "In Salah",
+      "latitude": 27.19678,
+      "longitude": 2.47913,
+      "population": 32518,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "2507926",
+      "name": "Aïn Smara",
+      "latitude": 36.2674,
+      "longitude": 6.50135,
+      "population": 32057,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "2492920",
+      "name": "Djidiouia",
+      "latitude": 35.92989,
+      "longitude": 0.82871,
+      "population": 31996,
+      "populationRank": 166,
+      "isCapital": false
+    },
+    {
+      "id": "2505651",
+      "name": "Barbacha",
+      "latitude": 36.56667,
+      "longitude": 4.96667,
+      "population": 31983,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "2503156",
+      "name": "Bougaa",
+      "latitude": 36.33293,
+      "longitude": 5.08843,
+      "population": 31922,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "2508184",
+      "name": "’Aïn el Bell",
+      "latitude": 34.34381,
+      "longitude": 3.22475,
+      "population": 31916,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "2476412",
+      "name": "el hed",
+      "latitude": 36.65,
+      "longitude": 4.77361,
+      "population": 31890,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "2483649",
+      "name": "Remchi",
+      "latitude": 35.06196,
+      "longitude": -1.43362,
+      "population": 31837,
+      "populationRank": 171,
+      "isCapital": false
+    },
+    {
+      "id": "2488716",
+      "name": "Megarine",
+      "latitude": 33.19195,
+      "longitude": 6.08695,
+      "population": 31711,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "2488616",
+      "name": "Mehdia daira de meghila",
+      "latitude": 35.43058,
+      "longitude": 1.75714,
+      "population": 31396,
+      "populationRank": 173,
+      "isCapital": false
+    },
+    {
+      "id": "2508275",
+      "name": "’Aïn Benian",
+      "latitude": 36.80277,
+      "longitude": 2.92185,
+      "population": 31102,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "2496241",
+      "name": "Freha",
+      "latitude": 36.75234,
+      "longitude": 4.3155,
+      "population": 31068,
+      "populationRank": 175,
+      "isCapital": false
+    },
+    {
+      "id": "2479966",
+      "name": "Sidi Moussa",
+      "latitude": 36.60637,
+      "longitude": 3.08783,
+      "population": 30887,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "2491042",
+      "name": "L’Arbaa Naït Irathen",
+      "latitude": 36.63112,
+      "longitude": 4.19864,
+      "population": 30609,
+      "populationRank": 177,
+      "isCapital": false
+    },
+    {
+      "id": "2508059",
+      "name": "Aïn Kercha",
+      "latitude": 35.92472,
+      "longitude": 6.69528,
+      "population": 30575,
+      "populationRank": 178,
+      "isCapital": false
+    },
+    {
+      "id": "2485572",
+      "name": "Oued Sly",
+      "latitude": 36.10124,
+      "longitude": 1.19949,
+      "population": 30504,
+      "populationRank": 179,
+      "isCapital": false
+    },
+    {
+      "id": "2483000",
+      "name": "Robbah",
+      "latitude": 33.27967,
+      "longitude": 6.90984,
+      "population": 30446,
+      "populationRank": 180,
+      "isCapital": false
+    },
+    {
+      "id": "2502962",
+      "name": "Bouinan",
+      "latitude": 36.53167,
+      "longitude": 2.99194,
+      "population": 30271,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "2504110",
+      "name": "Berriane",
+      "latitude": 32.82648,
+      "longitude": 3.76689,
+      "population": 30170,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "2487805",
+      "name": "Meskiana",
+      "latitude": 35.63058,
+      "longitude": 7.66606,
+      "population": 30071,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "2479203",
+      "name": "Lardjem",
+      "latitude": 35.74922,
+      "longitude": 1.54778,
+      "population": 30000,
+      "populationRank": 184,
+      "isCapital": false
+    },
+    {
+      "id": "2498000",
+      "name": "El Idrissia",
+      "latitude": 34.44542,
+      "longitude": 2.52749,
+      "population": 29856,
+      "populationRank": 185,
+      "isCapital": false
+    },
+    {
+      "id": "2481058",
+      "name": "Sidi Amrane",
+      "latitude": 33.49885,
+      "longitude": 6.00803,
+      "population": 29734,
+      "populationRank": 186,
+      "isCapital": false
+    },
+    {
+      "id": "2488500",
+      "name": "Mekla",
+      "latitude": 36.68178,
+      "longitude": 4.26378,
+      "population": 29560,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "2479916",
+      "name": "Sidi Okba",
+      "latitude": 34.74512,
+      "longitude": 5.89833,
+      "population": 29499,
+      "populationRank": 188,
+      "isCapital": false
+    },
+    {
+      "id": "2508309",
+      "name": "’Aïn Abid",
+      "latitude": 36.23194,
+      "longitude": 6.94333,
+      "population": 29486,
+      "populationRank": 189,
+      "isCapital": false
+    },
+    {
+      "id": "2486177",
+      "name": "N’Gaous",
+      "latitude": 35.555,
+      "longitude": 5.61056,
+      "population": 29453,
+      "populationRank": 190,
+      "isCapital": false
+    },
+    {
+      "id": "2499116",
+      "name": "Draa Ben Khedda",
+      "latitude": 36.73436,
+      "longitude": 3.96223,
+      "population": 29403,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "12640237",
+      "name": "Collo",
+      "latitude": 37.00563,
+      "longitude": 6.56049,
+      "population": 29354,
+      "populationRank": 192,
+      "isCapital": false
+    },
+    {
+      "id": "2477148",
+      "name": "Ténès",
+      "latitude": 36.51076,
+      "longitude": 1.30809,
+      "population": 29220,
+      "populationRank": 193,
+      "isCapital": false
+    },
+    {
+      "id": "2484891",
+      "name": "Ouled Haddaj",
+      "latitude": 36.71461,
+      "longitude": 3.3422,
+      "population": 29012,
+      "populationRank": 194,
+      "isCapital": false
+    },
+    {
+      "id": "2474141",
+      "name": "Boumerdas",
+      "latitude": 36.76639,
+      "longitude": 3.47717,
+      "population": 28996,
+      "populationRank": 195,
+      "isCapital": false
+    },
+    {
+      "id": "2474399",
+      "name": "Zighout Youcef",
+      "latitude": 36.53307,
+      "longitude": 6.71237,
+      "population": 28764,
+      "populationRank": 196,
+      "isCapital": false
+    },
+    {
+      "id": "2508157",
+      "name": "Ain el Hadjel",
+      "latitude": 35.67003,
+      "longitude": 3.88153,
+      "population": 28728,
+      "populationRank": 197,
+      "isCapital": false
+    },
+    {
+      "id": "2502924",
+      "name": "Boukadir",
+      "latitude": 36.06629,
+      "longitude": 1.12602,
+      "population": 28652,
+      "populationRank": 198,
+      "isCapital": false
+    },
+    {
+      "id": "2486825",
+      "name": "Mouzaïa",
+      "latitude": 36.46695,
+      "longitude": 2.68991,
+      "population": 28552,
+      "populationRank": 199,
+      "isCapital": false
+    },
+    {
+      "id": "2495846",
+      "name": "Grarem",
+      "latitude": 36.51611,
+      "longitude": 6.32722,
+      "population": 28551,
+      "populationRank": 200,
+      "isCapital": false
+    }
+  ]
+}

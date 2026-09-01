@@ -1,0 +1,1327 @@
+{
+  "towns": [
+    {
+      "id": "593116",
+      "name": "Vilnius",
+      "latitude": 54.68916,
+      "longitude": 25.2798,
+      "population": 542366,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "598316",
+      "name": "Kaunas",
+      "latitude": 54.90156,
+      "longitude": 23.90909,
+      "population": 289380,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "598098",
+      "name": "Klaipėda",
+      "latitude": 55.7068,
+      "longitude": 21.13912,
+      "population": 172292,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "594739",
+      "name": "Šiauliai",
+      "latitude": 55.93333,
+      "longitude": 23.31667,
+      "population": 99462,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "596128",
+      "name": "Panevėžys",
+      "latitude": 55.73186,
+      "longitude": 24.35983,
+      "population": 85885,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "601084",
+      "name": "Alytus",
+      "latitude": 54.39574,
+      "longitude": 24.03885,
+      "population": 49195,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "597231",
+      "name": "Marijampolė",
+      "latitude": 54.55787,
+      "longitude": 23.35004,
+      "population": 34975,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "597188",
+      "name": "Mazeikiai",
+      "latitude": 56.31667,
+      "longitude": 22.33333,
+      "population": 32470,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "598818",
+      "name": "Jonava",
+      "latitude": 55.08014,
+      "longitude": 24.27544,
+      "population": 26423,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "593672",
+      "name": "Utena",
+      "latitude": 55.4978,
+      "longitude": 25.60462,
+      "population": 25397,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "598272",
+      "name": "Kėdainiai",
+      "latitude": 55.28782,
+      "longitude": 23.97275,
+      "population": 22677,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "593926",
+      "name": "Telsiai",
+      "latitude": 55.98139,
+      "longitude": 22.24722,
+      "population": 21294,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "593959",
+      "name": "Taurage",
+      "latitude": 55.25222,
+      "longitude": 22.28972,
+      "population": 21203,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "593733",
+      "name": "Ukmerge",
+      "latitude": 55.25,
+      "longitude": 24.75,
+      "population": 20154,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "595689",
+      "name": "Plunge",
+      "latitude": 55.91139,
+      "longitude": 21.84417,
+      "population": 18904,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "596238",
+      "name": "Palanga",
+      "latitude": 55.9175,
+      "longitude": 21.06861,
+      "population": 18207,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "593063",
+      "name": "Visaginas",
+      "latitude": 55.59678,
+      "longitude": 26.43984,
+      "population": 18024,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "597989",
+      "name": "Kretinga",
+      "latitude": 55.8888,
+      "longitude": 21.24448,
+      "population": 17249,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "599506",
+      "name": "Gargždai",
+      "latitude": 55.70951,
+      "longitude": 21.39441,
+      "population": 16433,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "595449",
+      "name": "Radviliskis",
+      "latitude": 55.81667,
+      "longitude": 23.53333,
+      "population": 16344,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "594656",
+      "name": "Silute",
+      "latitude": 55.34889,
+      "longitude": 21.48306,
+      "population": 14968,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "600438",
+      "name": "Birzai",
+      "latitude": 56.2,
+      "longitude": 24.75,
+      "population": 14911,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "599602",
+      "name": "Elektrėnai",
+      "latitude": 54.78544,
+      "longitude": 24.66302,
+      "population": 13501,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "599757",
+      "name": "Druskininkai",
+      "latitude": 54.01573,
+      "longitude": 23.98703,
+      "population": 12055,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "596719",
+      "name": "Naujoji Akmene",
+      "latitude": 56.31667,
+      "longitude": 22.9,
+      "population": 11922,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "595213",
+      "name": "Rokiškis",
+      "latitude": 55.95867,
+      "longitude": 25.59466,
+      "population": 11765,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "598796",
+      "name": "Joniškis",
+      "latitude": 56.23939,
+      "longitude": 23.61541,
+      "population": 11113,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "597769",
+      "name": "Kuršėnai",
+      "latitude": 56.00318,
+      "longitude": 22.93662,
+      "population": 10829,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "600994",
+      "name": "Anykščiai",
+      "latitude": 55.52557,
+      "longitude": 25.10264,
+      "population": 10575,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "598655",
+      "name": "Jurbarkas",
+      "latitude": 55.07556,
+      "longitude": 22.76416,
+      "population": 10186,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "597532",
+      "name": "Lentvaris",
+      "latitude": 54.64364,
+      "longitude": 25.05162,
+      "population": 10004,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "599504",
+      "name": "Garliava",
+      "latitude": 54.82139,
+      "longitude": 23.8713,
+      "population": 9873,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "598567",
+      "name": "Kaišiadorys",
+      "latitude": 54.86528,
+      "longitude": 24.46815,
+      "population": 9867,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "595378",
+      "name": "Raseiniai",
+      "latitude": 55.37973,
+      "longitude": 23.12386,
+      "population": 9686,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "593153",
+      "name": "Vilkaviskis",
+      "latitude": 54.65167,
+      "longitude": 23.03222,
+      "population": 9444,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "595596",
+      "name": "Prienai",
+      "latitude": 54.636,
+      "longitude": 23.94585,
+      "population": 8610,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "597806",
+      "name": "Kupiskis",
+      "latitude": 55.84027,
+      "longitude": 24.97976,
+      "population": 8263,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "598257",
+      "name": "Kelmė",
+      "latitude": 55.63009,
+      "longitude": 22.9349,
+      "population": 8245,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "593406",
+      "name": "Varėna",
+      "latitude": 54.21546,
+      "longitude": 24.57538,
+      "population": 7892,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "594607",
+      "name": "Širvintos",
+      "latitude": 55.044,
+      "longitude": 24.95446,
+      "population": 7321,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "596867",
+      "name": "Molėtai",
+      "latitude": 55.22469,
+      "longitude": 25.41688,
+      "population": 7243,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "595016",
+      "name": "Šalčininkai",
+      "latitude": 54.30864,
+      "longitude": 25.38677,
+      "population": 6891,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "596473",
+      "name": "Pabradė",
+      "latitude": 54.981,
+      "longitude": 25.761,
+      "population": 6375,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "595997",
+      "name": "Pasvalys",
+      "latitude": 56.06251,
+      "longitude": 24.39965,
+      "population": 6361,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "592891",
+      "name": "Zarasai",
+      "latitude": 55.73225,
+      "longitude": 26.25115,
+      "population": 6051,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "598286",
+      "name": "Kazlų Rūda",
+      "latitude": 54.749,
+      "longitude": 23.49,
+      "population": 5666,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "597729",
+      "name": "Kybartai",
+      "latitude": 54.63858,
+      "longitude": 22.76316,
+      "population": 5631,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "594064",
+      "name": "Švenčionys",
+      "latitude": 55.135,
+      "longitude": 26.159,
+      "population": 5538,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "593871",
+      "name": "Trakai",
+      "latitude": 54.63783,
+      "longitude": 24.93433,
+      "population": 5530,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "594488",
+      "name": "Skuodas",
+      "latitude": 56.27057,
+      "longitude": 21.53208,
+      "population": 5508,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "598998",
+      "name": "Ignalina",
+      "latitude": 55.34063,
+      "longitude": 26.16049,
+      "population": 5106,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "596664",
+      "name": "Nemenčinė",
+      "latitude": 54.84776,
+      "longitude": 25.46992,
+      "population": 5054,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "595044",
+      "name": "Šakiai",
+      "latitude": 54.95339,
+      "longitude": 23.04779,
+      "population": 4998,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "594067",
+      "name": "Švenčionėliai",
+      "latitude": 55.16163,
+      "longitude": 26.00177,
+      "population": 4726,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "594693",
+      "name": "Šilalė",
+      "latitude": 55.4898,
+      "longitude": 22.18692,
+      "population": 4640,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "593191",
+      "name": "Vievis",
+      "latitude": 54.77258,
+      "longitude": 24.81129,
+      "population": 4521,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "598512",
+      "name": "Kalvarija",
+      "latitude": 54.417,
+      "longitude": 23.223,
+      "population": 4457,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "596260",
+      "name": "Pakruojis",
+      "latitude": 55.97889,
+      "longitude": 23.85508,
+      "population": 4352,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "600962",
+      "name": "Ariogala",
+      "latitude": 55.262,
+      "longitude": 23.477,
+      "population": 3653,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "597596",
+      "name": "Lazdijai",
+      "latitude": 54.23326,
+      "longitude": 23.51466,
+      "population": 3629,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "596612",
+      "name": "Nida",
+      "latitude": 55.3086,
+      "longitude": 20.99651,
+      "population": 3530,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "599614",
+      "name": "Eišiškės",
+      "latitude": 54.17414,
+      "longitude": 24.99917,
+      "population": 3416,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "594861",
+      "name": "Šeduva",
+      "latitude": 55.7493,
+      "longitude": 23.7561,
+      "population": 3321,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "593303",
+      "name": "Venta",
+      "latitude": 56.19162,
+      "longitude": 22.69528,
+      "population": 3270,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "592778",
+      "name": "Žiežmariai",
+      "latitude": 54.80725,
+      "longitude": 24.44073,
+      "population": 3268,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "595284",
+      "name": "Rietavas",
+      "latitude": 55.72708,
+      "longitude": 21.92343,
+      "population": 3234,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "601182",
+      "name": "Akmenė",
+      "latitude": 56.25,
+      "longitude": 22.75,
+      "population": 3026,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "9610015",
+      "name": "Akademija (Kaunas)",
+      "latitude": 54.8964,
+      "longitude": 23.82411,
+      "population": 2807,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "595087",
+      "name": "Rusnė",
+      "latitude": 55.2982,
+      "longitude": 21.3712,
+      "population": 2484,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "600443",
+      "name": "Birštonas",
+      "latitude": 54.608,
+      "longitude": 24.034,
+      "population": 2331,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "595160",
+      "name": "Rūdiškės",
+      "latitude": 54.51609,
+      "longitude": 24.83084,
+      "population": 2300,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "593144",
+      "name": "Vilkija",
+      "latitude": 55.04609,
+      "longitude": 23.58552,
+      "population": 2289,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "599579",
+      "name": "Ežerėlis",
+      "latitude": 54.88315,
+      "longitude": 23.60396,
+      "population": 2051,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "598690",
+      "name": "Juodupė",
+      "latitude": 56.087,
+      "longitude": 25.607,
+      "population": 1989,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "597904",
+      "name": "Kudirkos Naumiestis",
+      "latitude": 54.77353,
+      "longitude": 22.86138,
+      "population": 1961,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "593218",
+      "name": "Viekšniai",
+      "latitude": 56.23598,
+      "longitude": 22.51667,
+      "population": 1938,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "594639",
+      "name": "Simnas",
+      "latitude": 54.382,
+      "longitude": 23.646,
+      "population": 1864,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "599420",
+      "name": "Gelgaudiškis",
+      "latitude": 55.07688,
+      "longitude": 22.97699,
+      "population": 1839,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "595020",
+      "name": "Salantai",
+      "latitude": 56.0565,
+      "longitude": 21.5689,
+      "population": 1829,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "593748",
+      "name": "Tytuvėnai",
+      "latitude": 55.59791,
+      "longitude": 23.20212,
+      "population": 1805,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "593222",
+      "name": "Viečiūnai",
+      "latitude": 54.055,
+      "longitude": 24.055,
+      "population": 1788,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "597440",
+      "name": "Linkuva",
+      "latitude": 56.08596,
+      "longitude": 23.97061,
+      "population": 1719,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "595598",
+      "name": "Priekulė",
+      "latitude": 55.55427,
+      "longitude": 21.31903,
+      "population": 1710,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "600765",
+      "name": "Baisogala",
+      "latitude": 55.64,
+      "longitude": 23.733,
+      "population": 1694,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "593338",
+      "name": "Veisiejai",
+      "latitude": 54.1011,
+      "longitude": 23.69614,
+      "population": 1654,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "596399",
+      "name": "Pagėgiai",
+      "latitude": 55.13793,
+      "longitude": 21.91378,
+      "population": 1576,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "597568",
+      "name": "Leipalingis",
+      "latitude": 54.09091,
+      "longitude": 23.8587,
+      "population": 1552,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "595387",
+      "name": "Ramygala",
+      "latitude": 55.514,
+      "longitude": 24.3,
+      "population": 1440,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "597881",
+      "name": "Kulautuva",
+      "latitude": 54.94212,
+      "longitude": 23.64218,
+      "population": 1425,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "598392",
+      "name": "Karmėlava",
+      "latitude": 54.97055,
+      "longitude": 24.06182,
+      "population": 1395,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "592942",
+      "name": "Žagarė",
+      "latitude": 56.36149,
+      "longitude": 23.25094,
+      "population": 1309,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "592828",
+      "name": "Žemaičių Naumiestis",
+      "latitude": 55.35941,
+      "longitude": 21.70364,
+      "population": 1284,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "600040",
+      "name": "Daugai",
+      "latitude": 54.36667,
+      "longitude": 24.33333,
+      "population": 1279,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "594867",
+      "name": "Seda",
+      "latitude": 56.16854,
+      "longitude": 22.09071,
+      "population": 1224,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "595726",
+      "name": "Plateliai",
+      "latitude": 56.04657,
+      "longitude": 21.81615,
+      "population": 1100,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "600688",
+      "name": "Baltoji Vokė",
+      "latitude": 54.60002,
+      "longitude": 25.19318,
+      "population": 1071,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "598854",
+      "name": "Jieznas",
+      "latitude": 54.59937,
+      "longitude": 24.17593,
+      "population": 1032,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "596102",
+      "name": "Papilė",
+      "latitude": 56.15091,
+      "longitude": 22.79502,
+      "population": 1007,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "600896",
+      "name": "Aukstadvaris",
+      "latitude": 54.57946,
+      "longitude": 24.52683,
+      "population": 977,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "596144",
+      "name": "Pandėlys",
+      "latitude": 56.0265,
+      "longitude": 25.2264,
+      "population": 973,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "597070",
+      "name": "Merkinė",
+      "latitude": 54.16252,
+      "longitude": 24.18523,
+      "population": 963,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "593378",
+      "name": "Varniai",
+      "latitude": 55.74435,
+      "longitude": 22.37251,
+      "population": 961,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "600213",
+      "name": "Butrimonys",
+      "latitude": 54.50321,
+      "longitude": 24.25549,
+      "population": 941,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "594767",
+      "name": "Šėta",
+      "latitude": 55.28063,
+      "longitude": 24.25423,
+      "population": 935,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "593086",
+      "name": "Virbalis",
+      "latitude": 54.62858,
+      "longitude": 22.82272,
+      "population": 895,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "599727",
+      "name": "Dūkštas",
+      "latitude": 55.522,
+      "longitude": 26.321,
+      "population": 888,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "593561",
+      "name": "Vabalninkas",
+      "latitude": 55.98151,
+      "longitude": 24.74828,
+      "population": 852,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "599686",
+      "name": "Dusetos",
+      "latitude": 55.74635,
+      "longitude": 25.84562,
+      "population": 833,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "593572",
+      "name": "Užventis",
+      "latitude": 55.78264,
+      "longitude": 22.65142,
+      "population": 827,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "594848",
+      "name": "Seirijai",
+      "latitude": 54.22864,
+      "longitude": 23.81735,
+      "population": 788,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "596758",
+      "name": "Naujamiestis",
+      "latitude": 55.68691,
+      "longitude": 24.15369,
+      "population": 770,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "598304",
+      "name": "Kavarskas",
+      "latitude": 55.434,
+      "longitude": 24.928,
+      "population": 755,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "594744",
+      "name": "Šiaulėnai",
+      "latitude": 55.67835,
+      "longitude": 23.40219,
+      "population": 751,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "599808",
+      "name": "Dotnuva",
+      "latitude": 55.36832,
+      "longitude": 23.88408,
+      "population": 687,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "599628",
+      "name": "Eigirdžiai",
+      "latitude": 56.00978,
+      "longitude": 22.37662,
+      "population": 630,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "594429",
+      "name": "Smalininkai",
+      "latitude": 55.07567,
+      "longitude": 22.58363,
+      "population": 599,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "593295",
+      "name": "Vepriai",
+      "latitude": 55.15079,
+      "longitude": 24.57384,
+      "population": 549,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "594776",
+      "name": "Šeštokai",
+      "latitude": 54.35842,
+      "longitude": 23.44545,
+      "population": 516,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "599142",
+      "name": "Grinkiškis",
+      "latitude": 55.55516,
+      "longitude": 23.63659,
+      "population": 513,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "599061",
+      "name": "Gudžiūnai",
+      "latitude": 55.50933,
+      "longitude": 23.77339,
+      "population": 491,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "596475",
+      "name": "Pabiržė",
+      "latitude": 56.19335,
+      "longitude": 24.63434,
+      "population": 490,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "597556",
+      "name": "Leliūnai",
+      "latitude": 55.47503,
+      "longitude": 25.39278,
+      "population": 483,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "593821",
+      "name": "Troškūnai",
+      "latitude": 55.58627,
+      "longitude": 24.87772,
+      "population": 480,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "598446",
+      "name": "Kapčiamiestis",
+      "latitude": 54.0027,
+      "longitude": 23.65652,
+      "population": 478,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "595666",
+      "name": "Pociūnėliai",
+      "latitude": 55.57084,
+      "longitude": 23.87448,
+      "population": 475,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "596656",
+      "name": "Nemunėlio Radviliškis",
+      "latitude": 56.39607,
+      "longitude": 24.77626,
+      "population": 458,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "594891",
+      "name": "Šaukotas",
+      "latitude": 55.5812,
+      "longitude": 23.41534,
+      "population": 445,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "597885",
+      "name": "Kuktiškės",
+      "latitude": 55.39462,
+      "longitude": 25.67886,
+      "population": 435,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "594726",
+      "name": "Sidabravas",
+      "latitude": 55.69693,
+      "longitude": 23.92998,
+      "population": 426,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "594168",
+      "name": "Sudeikiai",
+      "latitude": 55.582,
+      "longitude": 25.68415,
+      "population": 407,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "598245",
+      "name": "Kena",
+      "latitude": 54.64918,
+      "longitude": 25.62218,
+      "population": 400,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "593752",
+      "name": "Tyruliai",
+      "latitude": 55.77354,
+      "longitude": 23.34489,
+      "population": 372,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "596188",
+      "name": "Palonai",
+      "latitude": 55.64504,
+      "longitude": 23.8225,
+      "population": 345,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "600038",
+      "name": "Daugailiai",
+      "latitude": 55.58717,
+      "longitude": 25.83329,
+      "population": 325,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "596143",
+      "name": "Panemunė",
+      "latitude": 55.08707,
+      "longitude": 21.90602,
+      "population": 313,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "596099",
+      "name": "Papilys",
+      "latitude": 56.11481,
+      "longitude": 25.00931,
+      "population": 309,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "594053",
+      "name": "Šventežeris",
+      "latitude": 54.24205,
+      "longitude": 23.64811,
+      "population": 295,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "593776",
+      "name": "Turmantas",
+      "latitude": 55.69403,
+      "longitude": 26.46077,
+      "population": 282,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "598226",
+      "name": "Kernavė",
+      "latitude": 54.88757,
+      "longitude": 24.85326,
+      "population": 272,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "592893",
+      "name": "Zapyškis",
+      "latitude": 54.92565,
+      "longitude": 23.66199,
+      "population": 264,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "596003",
+      "name": "Pašušvys",
+      "latitude": 55.58324,
+      "longitude": 23.59537,
+      "population": 252,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "597947",
+      "name": "Krosna",
+      "latitude": 54.37811,
+      "longitude": 23.52983,
+      "population": 244,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "595848",
+      "name": "Pernarava",
+      "latitude": 55.26754,
+      "longitude": 23.64376,
+      "population": 232,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "593439",
+      "name": "Valkininkai",
+      "latitude": 54.36091,
+      "longitude": 24.84082,
+      "population": 229,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "597952",
+      "name": "Krokialaukis",
+      "latitude": 54.43444,
+      "longitude": 23.76235,
+      "population": 218,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "595175",
+      "name": "Rudamina",
+      "latitude": 54.2886,
+      "longitude": 23.45068,
+      "population": 197,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "596658",
+      "name": "Nemunaitis",
+      "latitude": 54.30053,
+      "longitude": 24.02441,
+      "population": 153,
+      "populationRank": 147,
+      "isCapital": false
+    }
+  ]
+}

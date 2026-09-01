@@ -1,0 +1,220 @@
+{
+  "towns": [
+    {
+      "id": "921772",
+      "name": "Moroni",
+      "latitude": -11.70216,
+      "longitude": 43.25506,
+      "population": 74749,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "921753",
+      "name": "Moutsamoudou",
+      "latitude": -12.16672,
+      "longitude": 44.39944,
+      "population": 26313,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "921889",
+      "name": "Fomboni",
+      "latitude": -12.28759,
+      "longitude": 43.74344,
+      "population": 17291,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "921664",
+      "name": "Tsimbeo",
+      "latitude": -12.20583,
+      "longitude": 44.46472,
+      "population": 12590,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "921906",
+      "name": "Domoni",
+      "latitude": -12.26067,
+      "longitude": 44.52947,
+      "population": 12262,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "1091401",
+      "name": "Adda-Douéni",
+      "latitude": -12.2925,
+      "longitude": 44.49722,
+      "population": 10858,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "921721",
+      "name": "Ouani",
+      "latitude": -12.13554,
+      "longitude": 44.42493,
+      "population": 10073,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "921675",
+      "name": "Sima",
+      "latitude": -12.19556,
+      "longitude": 44.27667,
+      "population": 8737,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "921946",
+      "name": "Chandra",
+      "latitude": -12.195,
+      "longitude": 44.46472,
+      "population": 5645,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "1092369",
+      "name": "Ikoni",
+      "latitude": -11.74487,
+      "longitude": 43.2371,
+      "population": 5474,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "921884",
+      "name": "Foumbouni",
+      "latitude": -11.86537,
+      "longitude": 43.49529,
+      "population": 3386,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "921785",
+      "name": "Mitsoudjé",
+      "latitude": -11.81209,
+      "longitude": 43.28043,
+      "population": 3129,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "921992",
+      "name": "Bambao",
+      "latitude": -12.20325,
+      "longitude": 44.51638,
+      "population": 2699,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "921745",
+      "name": "Nioumachoua",
+      "latitude": -12.36139,
+      "longitude": 43.71528,
+      "population": 2687,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "1091076",
+      "name": "Hajoho",
+      "latitude": -12.12434,
+      "longitude": 44.48881,
+      "population": 2505,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "921939",
+      "name": "Chironkamba",
+      "latitude": -12.19111,
+      "longitude": 44.3525,
+      "population": 2391,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "1091390",
+      "name": "Magnassini-Nindri",
+      "latitude": -12.27806,
+      "longitude": 44.41583,
+      "population": 2213,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "921913",
+      "name": "Djoyézi",
+      "latitude": -12.30587,
+      "longitude": 43.77425,
+      "population": 2096,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "921777",
+      "name": "Mohoro",
+      "latitude": -11.82701,
+      "longitude": 43.45436,
+      "population": 2014,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1091102",
+      "name": "Harembo",
+      "latitude": -12.15108,
+      "longitude": 44.49828,
+      "population": 1698,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "921870",
+      "name": "Hoani",
+      "latitude": -12.25083,
+      "longitude": 43.67472,
+      "population": 1114,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "921801",
+      "name": "Mdjoyézi",
+      "latitude": -11.83642,
+      "longitude": 43.31388,
+      "population": 957,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "921790",
+      "name": "Miringoni",
+      "latitude": -12.29667,
+      "longitude": 43.63528,
+      "population": 834,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "921907",
+      "name": "Domoni",
+      "latitude": -12.25194,
+      "longitude": 43.64222,
+      "population": 309,
+      "populationRank": 24,
+      "isCapital": false
+    }
+  ]
+}

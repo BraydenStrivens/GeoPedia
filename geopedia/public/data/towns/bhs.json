@@ -1,0 +1,103 @@
+{
+  "towns": [
+    {
+      "id": "3571824",
+      "name": "Nassau",
+      "latitude": 25.05823,
+      "longitude": -77.34306,
+      "population": 227940,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3572375",
+      "name": "Freeport",
+      "latitude": 26.53333,
+      "longitude": -78.7,
+      "population": 26910,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3571224",
+      "name": "West End",
+      "latitude": 26.68711,
+      "longitude": -78.97702,
+      "population": 12724,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3571913",
+      "name": "Marsh Harbour",
+      "latitude": 26.54124,
+      "longitude": -77.0636,
+      "population": 5314,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3572189",
+      "name": "High Rock",
+      "latitude": 26.62651,
+      "longitude": -78.28209,
+      "population": 3744,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3572640",
+      "name": "Clarence Town",
+      "latitude": 23.1,
+      "longitude": -74.98333,
+      "population": 1752,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "7535668",
+      "name": "Treasure Cay",
+      "latitude": 26.67691,
+      "longitude": -77.28581,
+      "population": 1187,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3572924",
+      "name": "Alice Town",
+      "latitude": 25.728,
+      "longitude": -79.29721,
+      "population": 949,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3571898",
+      "name": "Matthew Town",
+      "latitude": 20.94982,
+      "longitude": -73.67346,
+      "population": 452,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3571426",
+      "name": "Snug Corner",
+      "latitude": 22.55501,
+      "longitude": -73.87829,
+      "population": 407,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3571810",
+      "name": "Nicholls Town",
+      "latitude": 25.14534,
+      "longitude": -78.0016,
+      "population": 270,
+      "populationRank": 11,
+      "isCapital": false
+    }
+  ]
+}

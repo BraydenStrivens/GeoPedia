@@ -1,0 +1,913 @@
+{
+  "towns": [
+    {
+      "id": "3583361",
+      "name": "San Salvador",
+      "latitude": 13.68935,
+      "longitude": -89.18718,
+      "population": 525990,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3583096",
+      "name": "Soyapango",
+      "latitude": 13.71024,
+      "longitude": -89.13989,
+      "population": 329708,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3583446",
+      "name": "San Miguel",
+      "latitude": 13.48261,
+      "longitude": -88.18211,
+      "population": 247126,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3583334",
+      "name": "Santa Ana",
+      "latitude": 13.98827,
+      "longitude": -89.55685,
+      "population": 176661,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3584399",
+      "name": "Mejicanos",
+      "latitude": 13.72397,
+      "longitude": -89.188,
+      "population": 160317,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3584257",
+      "name": "Santa Tecla",
+      "latitude": 13.67741,
+      "longitude": -89.28335,
+      "population": 124694,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3587345",
+      "name": "Apopa",
+      "latitude": 13.80722,
+      "longitude": -89.17917,
+      "population": 112158,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3586814",
+      "name": "Delgado",
+      "latitude": 13.72171,
+      "longitude": -89.16874,
+      "population": 71594,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3583102",
+      "name": "Sonsonate",
+      "latitude": 13.71726,
+      "longitude": -89.72304,
+      "population": 59468,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3583480",
+      "name": "San Marcos",
+      "latitude": 13.66108,
+      "longitude": -89.18252,
+      "population": 54615,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3582883",
+      "name": "Usulután",
+      "latitude": 13.34467,
+      "longitude": -88.43994,
+      "population": 51910,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3586977",
+      "name": "Cojutepeque",
+      "latitude": 13.71971,
+      "longitude": -88.93309,
+      "population": 48411,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3586833",
+      "name": "Cuscatancingo",
+      "latitude": 13.72702,
+      "longitude": -89.18161,
+      "population": 44369,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3583178",
+      "name": "San Vicente",
+      "latitude": 13.64114,
+      "longitude": -88.78459,
+      "population": 41504,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3582805",
+      "name": "Zacatecoluca",
+      "latitude": 13.50872,
+      "longitude": -88.87017,
+      "population": 39613,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3583471",
+      "name": "San Martín",
+      "latitude": 13.78333,
+      "longitude": -88.91667,
+      "population": 39361,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3585484",
+      "name": "Ilopango",
+      "latitude": 13.70167,
+      "longitude": -89.10944,
+      "population": 38890,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "3587426",
+      "name": "Ahuachapán",
+      "latitude": 13.92403,
+      "longitude": -89.84344,
+      "population": 34102,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3587362",
+      "name": "Antiguo Cuscatlán",
+      "latitude": 13.66492,
+      "longitude": -89.25319,
+      "population": 33767,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3587086",
+      "name": "Chalchuapa",
+      "latitude": 13.98667,
+      "longitude": -89.68111,
+      "population": 32282,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3583981",
+      "name": "Quezaltepeque",
+      "latitude": 13.83124,
+      "longitude": -89.27221,
+      "population": 28886,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3584772",
+      "name": "La Unión",
+      "latitude": 13.33915,
+      "longitude": -87.84328,
+      "population": 26807,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "3587308",
+      "name": "Ayutuxtepeque",
+      "latitude": 13.73538,
+      "longitude": -89.20221,
+      "population": 25426,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3587498",
+      "name": "Acajutla",
+      "latitude": 13.59278,
+      "longitude": -89.8275,
+      "population": 22763,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "3587428",
+      "name": "Aguilares",
+      "latitude": 13.95722,
+      "longitude": -89.18972,
+      "population": 21445,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "3583158",
+      "name": "Sensuntepeque",
+      "latitude": 13.87583,
+      "longitude": -88.62727,
+      "population": 20386,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "3587091",
+      "name": "Chalatenango",
+      "latitude": 14.04138,
+      "longitude": -88.93951,
+      "population": 19364,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "3585473",
+      "name": "Izalco",
+      "latitude": 13.74472,
+      "longitude": -89.67306,
+      "population": 19197,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "3584384",
+      "name": "Metapán",
+      "latitude": 14.33333,
+      "longitude": -89.45,
+      "population": 19143,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "3583379",
+      "name": "San Rafael Oriente",
+      "latitude": 13.38333,
+      "longitude": -88.35,
+      "population": 19095,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "3584003",
+      "name": "Puerto El Triunfo",
+      "latitude": 13.28333,
+      "longitude": -88.55,
+      "population": 19074,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "3585157",
+      "name": "La Libertad",
+      "latitude": 13.48833,
+      "longitude": -89.32222,
+      "population": 16855,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "3583747",
+      "name": "San Francisco",
+      "latitude": 13.69408,
+      "longitude": -88.10407,
+      "population": 16152,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "3583098",
+      "name": "Sonzacate",
+      "latitude": 13.73417,
+      "longitude": -89.71472,
+      "population": 15446,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "3583199",
+      "name": "Santiago de María",
+      "latitude": 13.48333,
+      "longitude": -88.46667,
+      "population": 15032,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "3587333",
+      "name": "Armenia",
+      "latitude": 13.74361,
+      "longitude": -89.49889,
+      "population": 14997,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "3583183",
+      "name": "Santo Tomás",
+      "latitude": 13.64083,
+      "longitude": -89.13333,
+      "population": 14581,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "3583214",
+      "name": "Santa Rosa de Lima",
+      "latitude": 13.62472,
+      "longitude": -87.89361,
+      "population": 13249,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "3582896",
+      "name": "Turín",
+      "latitude": 13.96639,
+      "longitude": -89.76611,
+      "population": 11829,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "3582790",
+      "name": "Zaragoza",
+      "latitude": 13.58944,
+      "longitude": -89.28889,
+      "population": 11749,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "3587266",
+      "name": "Berlín",
+      "latitude": 13.5,
+      "longitude": -88.53333,
+      "population": 11313,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "3585636",
+      "name": "Guazapa",
+      "latitude": 13.87694,
+      "longitude": -89.17306,
+      "population": 10995,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "3585398",
+      "name": "Jucuapa",
+      "latitude": 13.51667,
+      "longitude": -88.38333,
+      "population": 10601,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "3586985",
+      "name": "Ciudad Arce",
+      "latitude": 13.84028,
+      "longitude": -89.44722,
+      "population": 10095,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "3584266",
+      "name": "Nueva Concepción",
+      "latitude": 14.13333,
+      "longitude": -89.3,
+      "population": 9990,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "3585401",
+      "name": "Juayúa",
+      "latitude": 13.84139,
+      "longitude": -89.74556,
+      "population": 9936,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "3583196",
+      "name": "Santiago Nonualco",
+      "latitude": 13.51667,
+      "longitude": -88.95,
+      "population": 9490,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "3585856",
+      "name": "El Tránsito",
+      "latitude": 13.35,
+      "longitude": -88.35,
+      "population": 9485,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "3587317",
+      "name": "Atiquizaya",
+      "latitude": 13.97694,
+      "longitude": -89.7525,
+      "population": 9476,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "3583851",
+      "name": "San Antonio del Monte",
+      "latitude": 13.71639,
+      "longitude": -89.73833,
+      "population": 9135,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "3585438",
+      "name": "Jiquilisco",
+      "latitude": 13.31667,
+      "longitude": -88.58333,
+      "population": 9129,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "3586550",
+      "name": "El Congo",
+      "latitude": 13.90889,
+      "longitude": -89.49583,
+      "population": 8905,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "3587037",
+      "name": "Chinameca",
+      "latitude": 13.5,
+      "longitude": -88.35,
+      "population": 8646,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "3586983",
+      "name": "Ciudad Barrios",
+      "latitude": 13.76667,
+      "longitude": -88.26667,
+      "population": 8491,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "3586926",
+      "name": "Concepción de Ataco",
+      "latitude": 13.87028,
+      "longitude": -89.84861,
+      "population": 7797,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "3584297",
+      "name": "Nahuizalco",
+      "latitude": 13.7775,
+      "longitude": -89.73667,
+      "population": 7358,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "3583352",
+      "name": "San Sebastián",
+      "latitude": 13.73333,
+      "longitude": -88.83333,
+      "population": 7333,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "3583531",
+      "name": "San Juan Opico",
+      "latitude": 13.87611,
+      "longitude": -89.35972,
+      "population": 7127,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "3584156",
+      "name": "Panchimalco",
+      "latitude": 13.61278,
+      "longitude": -89.18,
+      "population": 6764,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "3584251",
+      "name": "Nuevo Cuscatlán",
+      "latitude": 13.64861,
+      "longitude": -89.26528,
+      "population": 6469,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "3587018",
+      "name": "Chirilagua",
+      "latitude": 13.22028,
+      "longitude": -88.13861,
+      "population": 6393,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "3584212",
+      "name": "Olocuilta",
+      "latitude": 13.56972,
+      "longitude": -89.11722,
+      "population": 6324,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "3587157",
+      "name": "Candelaria de La Frontera",
+      "latitude": 14.11667,
+      "longitude": -89.65,
+      "population": 6301,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "3582918",
+      "name": "Tonacatepeque",
+      "latitude": 13.78111,
+      "longitude": -89.11861,
+      "population": 6245,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "3583278",
+      "name": "Santa Elena",
+      "latitude": 13.38333,
+      "longitude": -88.41667,
+      "population": 5887,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "3584260",
+      "name": "Nueva Guadalupe",
+      "latitude": 13.53333,
+      "longitude": -88.35,
+      "population": 5798,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "3587349",
+      "name": "Apastepeque",
+      "latitude": 13.66667,
+      "longitude": -88.78333,
+      "population": 5785,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "3586981",
+      "name": "Coatepeque",
+      "latitude": 13.92861,
+      "longitude": -89.50417,
+      "population": 5773,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "3583090",
+      "name": "Suchitoto",
+      "latitude": 13.93806,
+      "longitude": -89.02778,
+      "population": 5735,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "3586021",
+      "name": "El Rosario",
+      "latitude": 13.49778,
+      "longitude": -89.02972,
+      "population": 5620,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "3585653",
+      "name": "Guatajiagua",
+      "latitude": 13.66667,
+      "longitude": -88.2,
+      "population": 5273,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "3583937",
+      "name": "Rosario de Mora",
+      "latitude": 13.57528,
+      "longitude": -89.20889,
+      "population": 5178,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "3583905",
+      "name": "San Alejo",
+      "latitude": 13.43139,
+      "longitude": -87.96306,
+      "population": 5149,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "3583065",
+      "name": "Tacuba",
+      "latitude": 13.90111,
+      "longitude": -89.92972,
+      "population": 5055,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "3585427",
+      "name": "Jocoro",
+      "latitude": 13.61667,
+      "longitude": -88.01667,
+      "population": 4298,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "3584190",
+      "name": "Ozatlán",
+      "latitude": 13.38333,
+      "longitude": -88.5,
+      "population": 4171,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "3585480",
+      "name": "Intipucá",
+      "latitude": 13.19694,
+      "longitude": -88.05444,
+      "population": 3540,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "3586930",
+      "name": "Concepción Batres",
+      "latitude": 13.35,
+      "longitude": -88.36667,
+      "population": 3286,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "3586884",
+      "name": "Corinto",
+      "latitude": 13.81083,
+      "longitude": -87.97139,
+      "population": 3160,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "3587064",
+      "name": "Chapeltique",
+      "latitude": 13.63333,
+      "longitude": -88.26667,
+      "population": 3159,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "3586917",
+      "name": "Conchagua",
+      "latitude": 13.30778,
+      "longitude": -87.86472,
+      "population": 3034,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "3583429",
+      "name": "San Pablo Tacachico",
+      "latitude": 13.97556,
+      "longitude": -89.34,
+      "population": 3033,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "3587372",
+      "name": "Anamorós",
+      "latitude": 13.74056,
+      "longitude": -87.87361,
+      "population": 2655,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "3583407",
+      "name": "San Pedro Masahuat",
+      "latitude": 13.54361,
+      "longitude": -89.03861,
+      "population": 2654,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "3584714",
+      "name": "Lolotique",
+      "latitude": 13.55,
+      "longitude": -88.35,
+      "population": 2654,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "3584264",
+      "name": "Nueva Esparta",
+      "latitude": 13.78361,
+      "longitude": -87.83861,
+      "population": 2528,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "3587208",
+      "name": "Cacaopera",
+      "latitude": 13.76667,
+      "longitude": -88.08333,
+      "population": 2528,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "3582954",
+      "name": "Texistepeque",
+      "latitude": 14.13333,
+      "longitude": -89.5,
+      "population": 2401,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "3583910",
+      "name": "San Agustín",
+      "latitude": 13.43333,
+      "longitude": -88.6,
+      "population": 2149,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "3584140",
+      "name": "Pasaquina",
+      "latitude": 13.58444,
+      "longitude": -87.84111,
+      "population": 2149,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "3584348",
+      "name": "Moncagua",
+      "latitude": 13.53333,
+      "longitude": -88.25,
+      "population": 2148,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "3582835",
+      "name": "Victoria",
+      "latitude": 13.95,
+      "longitude": -88.63333,
+      "population": 2023,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "3585392",
+      "name": "Jujutla",
+      "latitude": 13.78694,
+      "longitude": -89.85722,
+      "population": 2022,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "3583111",
+      "name": "Sociedad",
+      "latitude": 13.7,
+      "longitude": -88.01667,
+      "population": 1770,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "3585395",
+      "name": "Jucuarán",
+      "latitude": 13.25389,
+      "longitude": -88.24778,
+      "population": 1643,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "3586204",
+      "name": "El Paisnal",
+      "latitude": 13.97361,
+      "longitude": -89.21861,
+      "population": 1641,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "3585640",
+      "name": "Guaymango",
+      "latitude": 13.75028,
+      "longitude": -89.84222,
+      "population": 1517,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "3583155",
+      "name": "Sesori",
+      "latitude": 13.71667,
+      "longitude": -88.36667,
+      "population": 1390,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "3583716",
+      "name": "San Francisco Menéndez",
+      "latitude": 13.84306,
+      "longitude": -90.01583,
+      "population": 1264,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "3582987",
+      "name": "Tenancingo",
+      "latitude": 13.83333,
+      "longitude": -88.98333,
+      "population": 1011,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "3583714",
+      "name": "San Francisco Morazán",
+      "latitude": 14.18333,
+      "longitude": -89.05,
+      "population": 506,
+      "populationRank": 101,
+      "isCapital": false
+    }
+  ]
+}

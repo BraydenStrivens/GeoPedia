@@ -1,0 +1,85 @@
+{
+  "towns": [
+    {
+      "id": "3383330",
+      "name": "Paramaribo",
+      "latitude": 5.86638,
+      "longitude": -55.16682,
+      "population": 223757,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3383714",
+      "name": "Lelydorp",
+      "latitude": 5.7,
+      "longitude": -55.23333,
+      "population": 18223,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3384482",
+      "name": "Brokopondo",
+      "latitude": 5.05594,
+      "longitude": -54.98043,
+      "population": 14662,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3383427",
+      "name": "Nieuw Nickerie",
+      "latitude": 5.92606,
+      "longitude": -56.97297,
+      "population": 12818,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3383494",
+      "name": "Moengo",
+      "latitude": 5.61411,
+      "longitude": -54.40121,
+      "population": 10834,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3384792",
+      "name": "Albina",
+      "latitude": 5.49788,
+      "longitude": -54.05522,
+      "population": 3985,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3384125",
+      "name": "Groningen",
+      "latitude": 5.8,
+      "longitude": -55.46667,
+      "population": 3216,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3382867",
+      "name": "Totness",
+      "latitude": 5.87618,
+      "longitude": -56.32572,
+      "population": 2150,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3383384",
+      "name": "Onverwacht",
+      "latitude": 5.58983,
+      "longitude": -55.19462,
+      "population": 2105,
+      "populationRank": 9,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "towns": [
+    {
+      "id": "425378",
+      "name": "Bujumbura",
+      "latitude": -3.38193,
+      "longitude": 29.36142,
+      "population": 769317,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "426272",
+      "name": "Gitega",
+      "latitude": -3.42708,
+      "longitude": 29.92463,
+      "population": 64904,
+      "populationRank": 2,
+      "isCapital": true
+    },
+    {
+      "id": "430569",
+      "name": "Ngozi",
+      "latitude": -2.9075,
+      "longitude": 29.8306,
+      "population": 61716,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "428632",
+      "name": "Mpanda",
+      "latitude": -3.1703,
+      "longitude": 29.4026,
+      "population": 58913,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "423549",
+      "name": "Rumonge",
+      "latitude": -3.9736,
+      "longitude": 29.4386,
+      "population": 55599,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "430021",
+      "name": "Cibitoke",
+      "latitude": -2.8869,
+      "longitude": 29.1248,
+      "population": 36959,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "430952",
+      "name": "Kayanza",
+      "latitude": -2.9221,
+      "longitude": 29.6293,
+      "population": 33682,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "427204",
+      "name": "Cendajuru",
+      "latitude": -3.289,
+      "longitude": 30.6011,
+      "population": 32458,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "428515",
+      "name": "Bubanza",
+      "latitude": -3.0804,
+      "longitude": 29.391,
+      "population": 30996,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "421930",
+      "name": "Vyanda",
+      "latitude": -4.1024,
+      "longitude": 29.606,
+      "population": 29685,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "425309",
+      "name": "Gatumba",
+      "latitude": -3.33333,
+      "longitude": 29.25,
+      "population": 18104,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "428219",
+      "name": "Karusi",
+      "latitude": -3.10139,
+      "longitude": 30.16278,
+      "population": 15964,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "432456",
+      "name": "Kirundo",
+      "latitude": -2.5845,
+      "longitude": 30.0959,
+      "population": 15511,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "431748",
+      "name": "Muyinga",
+      "latitude": -2.8451,
+      "longitude": 30.3414,
+      "population": 14869,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "422232",
+      "name": "Makamba",
+      "latitude": -4.1348,
+      "longitude": 29.804,
+      "population": 14539,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "426700",
+      "name": "Ruyigi",
+      "latitude": -3.47639,
+      "longitude": 30.24861,
+      "population": 11046,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "433635",
+      "name": "Rutana",
+      "latitude": -3.9279,
+      "longitude": 29.992,
+      "population": 9075,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "425551",
+      "name": "Muramvya",
+      "latitude": -3.26776,
+      "longitude": 29.6162,
+      "population": 8445,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "425336",
+      "name": "Isale",
+      "latitude": -3.3489,
+      "longitude": 29.4839,
+      "population": 7701,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "423328",
+      "name": "Bururi",
+      "latitude": -3.94877,
+      "longitude": 29.62438,
+      "population": 6929,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "431417",
+      "name": "Bwambarangwe",
+      "latitude": -2.58314,
+      "longitude": 30.33284,
+      "population": 6257,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "427701",
+      "name": "Cankuzo",
+      "latitude": -3.2186,
+      "longitude": 30.5528,
+      "population": 5607,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "421722",
+      "name": "Mabanda",
+      "latitude": -4.2743,
+      "longitude": 29.7749,
+      "population": 5027,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "423794",
+      "name": "Mwaro",
+      "latitude": -3.51128,
+      "longitude": 29.70334,
+      "population": 3718,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "447830",
+      "name": "Giteranyi",
+      "latitude": -2.48417,
+      "longitude": 30.465,
+      "population": 3320,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "425897",
+      "name": "Mugongomanga",
+      "latitude": -3.4693,
+      "longitude": 29.5451,
+      "population": 3227,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "423038",
+      "name": "Matana",
+      "latitude": -3.76664,
+      "longitude": 29.68296,
+      "population": 3178,
+      "populationRank": 27,
+      "isCapital": false
+    }
+  ]
+}

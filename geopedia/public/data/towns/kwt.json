@@ -1,0 +1,31 @@
+{
+  "towns": [
+    {
+      "id": "285787",
+      "name": "Kuwait City",
+      "latitude": 29.367,
+      "longitude": 47.97429,
+      "population": 60064,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "285799",
+      "name": "Al Jahrā’",
+      "latitude": 29.3375,
+      "longitude": 47.65806,
+      "population": 24281,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "11593501",
+      "name": "Abu Al Hasaniya",
+      "latitude": 29.19076,
+      "longitude": 48.11355,
+      "population": 1350,
+      "populationRank": 3,
+      "isCapital": false
+    }
+  ]
+}

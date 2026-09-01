@@ -1,0 +1,1804 @@
+{
+  "towns": [
+    {
+      "id": "993800",
+      "name": "Johannesburg",
+      "latitude": -26.20227,
+      "longitude": 28.04363,
+      "population": 9418183,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "3369157",
+      "name": "Cape Town",
+      "latitude": -33.92584,
+      "longitude": 18.42322,
+      "population": 4772846,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "1007311",
+      "name": "Durban",
+      "latitude": -29.8579,
+      "longitude": 31.0292,
+      "population": 3338026,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "964137",
+      "name": "Pretoria",
+      "latitude": -25.74486,
+      "longitude": 28.18783,
+      "population": 2112693,
+      "populationRank": 4,
+      "isCapital": true
+    },
+    {
+      "id": "953781",
+      "name": "Soweto",
+      "latitude": -26.26781,
+      "longitude": 27.85849,
+      "population": 1695047,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "964420",
+      "name": "Gqeberha",
+      "latitude": -33.96109,
+      "longitude": 25.61494,
+      "population": 1050078,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "965301",
+      "name": "Pietermaritzburg",
+      "latitude": -29.61679,
+      "longitude": 30.39278,
+      "population": 839327,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "1004866",
+      "name": "Evaton",
+      "latitude": -26.53333,
+      "longitude": 27.85,
+      "population": 725468,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "1020098",
+      "name": "Benoni",
+      "latitude": -26.18848,
+      "longitude": 28.32078,
+      "population": 605344,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "1018725",
+      "name": "Bloemfontein",
+      "latitude": -29.12107,
+      "longitude": 26.214,
+      "population": 556637,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "949880",
+      "name": "Thembisa",
+      "latitude": -25.99636,
+      "longitude": 28.2268,
+      "population": 511655,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "1006984",
+      "name": "East London",
+      "latitude": -33.01529,
+      "longitude": 27.91162,
+      "population": 478676,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "944385",
+      "name": "Vereeniging",
+      "latitude": -26.67313,
+      "longitude": 27.92615,
+      "population": 474681,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "1017780",
+      "name": "Boksburg",
+      "latitude": -26.21197,
+      "longitude": 28.25958,
+      "population": 445168,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "940909",
+      "name": "Welkom",
+      "latitude": -27.97742,
+      "longitude": 26.73506,
+      "population": 431944,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "971421",
+      "name": "Newcastle",
+      "latitude": -27.75796,
+      "longitude": 29.9318,
+      "population": 404838,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "986822",
+      "name": "Krugersdorp",
+      "latitude": -26.08577,
+      "longitude": 27.77515,
+      "population": 378821,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "958724",
+      "name": "Rustenburg",
+      "latitude": -25.66756,
+      "longitude": 27.24208,
+      "population": 373695,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "939270",
+      "name": "Emalahleni",
+      "latitude": -25.87133,
+      "longitude": 29.23323,
+      "population": 373403,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "963241",
+      "name": "Randburg",
+      "latitude": -26.0941,
+      "longitude": 28.00123,
+      "population": 337053,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "936374",
+      "name": "Roodepoort",
+      "latitude": -26.1625,
+      "longitude": 27.8725,
+      "population": 326416,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "1016670",
+      "name": "Botshabelo",
+      "latitude": -29.26737,
+      "longitude": 26.72595,
+      "population": 309714,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "1016181",
+      "name": "Brakpan",
+      "latitude": -26.23656,
+      "longitude": 28.36938,
+      "population": 305692,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "946877",
+      "name": "Kariega",
+      "latitude": -33.75562,
+      "longitude": 25.40074,
+      "population": 291052,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "965289",
+      "name": "Polokwane",
+      "latitude": -23.90449,
+      "longitude": 29.46885,
+      "population": 272461,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "1002108",
+      "name": "Germiston",
+      "latitude": -26.23481,
+      "longitude": 28.17665,
+      "population": 255863,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "962367",
+      "name": "Richards Bay",
+      "latitude": -28.78301,
+      "longitude": 32.03768,
+      "population": 252968,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "944986",
+      "name": "Vanderbijlpark",
+      "latitude": -26.71171,
+      "longitude": 27.83795,
+      "population": 246754,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "3363094",
+      "name": "Paarl",
+      "latitude": -33.73378,
+      "longitude": 18.97523,
+      "population": 236910,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "1105777",
+      "name": "Centurion",
+      "latitude": -25.85891,
+      "longitude": 28.18577,
+      "population": 236580,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "989921",
+      "name": "Klerksdorp",
+      "latitude": -26.85213,
+      "longitude": 26.66672,
+      "population": 227039,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "6951112",
+      "name": "Somerset West",
+      "latitude": -34.08401,
+      "longitude": 18.82113,
+      "population": 225289,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "977432",
+      "name": "Mdantsane",
+      "latitude": -32.93324,
+      "longitude": 27.77656,
+      "population": 205504,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "976361",
+      "name": "Middelburg",
+      "latitude": -25.77507,
+      "longitude": 29.46482,
+      "population": 196263,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "1002145",
+      "name": "George",
+      "latitude": -33.963,
+      "longitude": 22.46173,
+      "population": 188580,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "1014073",
+      "name": "Carletonville",
+      "latitude": -26.36094,
+      "longitude": 27.39767,
+      "population": 182304,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "964349",
+      "name": "Potchefstroom",
+      "latitude": -26.71667,
+      "longitude": 27.1,
+      "population": 178285,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "946058",
+      "name": "Mthatha",
+      "latitude": -31.58893,
+      "longitude": 28.78443,
+      "population": 164848,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "952734",
+      "name": "KwaDukuza",
+      "latitude": -29.32816,
+      "longitude": 31.28954,
+      "population": 161177,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "942470",
+      "name": "Vryheid",
+      "latitude": -27.76952,
+      "longitude": 30.79165,
+      "population": 150012,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "965154",
+      "name": "Pinetown",
+      "latitude": -29.82068,
+      "longitude": 30.88674,
+      "population": 144026,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "984998",
+      "name": "Ladysmith",
+      "latitude": -28.55874,
+      "longitude": 29.77896,
+      "population": 143446,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "990930",
+      "name": "Kimberley",
+      "latitude": -28.73226,
+      "longitude": 24.76232,
+      "population": 142089,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "970566",
+      "name": "Nigel",
+      "latitude": -26.43138,
+      "longitude": 28.47713,
+      "population": 140644,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "973111",
+      "name": "Mpumalanga",
+      "latitude": -29.81292,
+      "longitude": 30.63646,
+      "population": 140121,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "1019330",
+      "name": "Bhisho",
+      "latitude": -32.84721,
+      "longitude": 27.44218,
+      "population": 137287,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "957487",
+      "name": "Sasolburg",
+      "latitude": -26.81358,
+      "longitude": 27.81695,
+      "population": 135828,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "963230",
+      "name": "Randfontein",
+      "latitude": -26.1844,
+      "longitude": 27.70203,
+      "population": 133654,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "3359041",
+      "name": "Worcester",
+      "latitude": -33.64651,
+      "longitude": 19.44852,
+      "population": 127597,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "943882",
+      "name": "Virginia",
+      "latitude": -28.10391,
+      "longitude": 26.86593,
+      "population": 122502,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "1015621",
+      "name": "Brits",
+      "latitude": -25.63473,
+      "longitude": 27.78022,
+      "population": 122497,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "1023441",
+      "name": "Alberton",
+      "latitude": -26.26786,
+      "longitude": 28.12225,
+      "population": 121536,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "963516",
+      "name": "Queenstown",
+      "latitude": -31.89756,
+      "longitude": 26.87533,
+      "population": 118599,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "986846",
+      "name": "Kroonstad",
+      "latitude": -27.65036,
+      "longitude": 27.23488,
+      "population": 117152,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "971534",
+      "name": "Mbombela",
+      "latitude": -25.47512,
+      "longitude": 30.96935,
+      "population": 110159,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "967476",
+      "name": "Orkney",
+      "latitude": -26.98023,
+      "longitude": 26.67272,
+      "population": 110052,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "965528",
+      "name": "Phalaborwa",
+      "latitude": -23.94299,
+      "longitude": 31.14107,
+      "population": 109468,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "949224",
+      "name": "Thohoyandou",
+      "latitude": -22.94564,
+      "longitude": 30.48497,
+      "population": 107144,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "952747",
+      "name": "Standerton",
+      "latitude": -26.93366,
+      "longitude": 29.24152,
+      "population": 101101,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "964315",
+      "name": "Mokopane",
+      "latitude": -24.19436,
+      "longitude": 29.00974,
+      "population": 101090,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "1005125",
+      "name": "Ermelo",
+      "latitude": -26.53333,
+      "longitude": 29.98333,
+      "population": 100324,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "3361025",
+      "name": "Stellenbosch",
+      "latitude": -33.93462,
+      "longitude": 18.86676,
+      "population": 96228,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "952192",
+      "name": "Stilfontein",
+      "latitude": -26.84493,
+      "longitude": 26.76829,
+      "population": 93110,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "990849",
+      "name": "Qonce",
+      "latitude": -32.88076,
+      "longitude": 27.39377,
+      "population": 93072,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "1011031",
+      "name": "Delmas",
+      "latitude": -26.1466,
+      "longitude": 28.68322,
+      "population": 92046,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "1000501",
+      "name": "Grahamstown",
+      "latitude": -33.30422,
+      "longitude": 26.53276,
+      "population": 91548,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "1019704",
+      "name": "Bethlehem",
+      "latitude": -28.23078,
+      "longitude": 28.30707,
+      "population": 91075,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "1002851",
+      "name": "Ga-Rankuwa",
+      "latitude": -25.61692,
+      "longitude": 27.99471,
+      "population": 90945,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "941966",
+      "name": "Bela Bela",
+      "latitude": -24.88333,
+      "longitude": 28.28333,
+      "population": 90210,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "1105776",
+      "name": "Midrand",
+      "latitude": -25.976,
+      "longitude": 28.118,
+      "population": 87387,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "981827",
+      "name": "Louis Trichardt",
+      "latitude": -23.04385,
+      "longitude": 29.90319,
+      "population": 86854,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "997151",
+      "name": "Heidelberg",
+      "latitude": -26.50476,
+      "longitude": 28.35921,
+      "population": 85858,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "1007400",
+      "name": "Dundee",
+      "latitude": -28.16678,
+      "longitude": 30.23371,
+      "population": 84413,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "965241",
+      "name": "Piet Retief",
+      "latitude": -27.00706,
+      "longitude": 30.81323,
+      "population": 84349,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "965401",
+      "name": "Phuthaditjhaba",
+      "latitude": -28.52423,
+      "longitude": 28.81582,
+      "population": 84258,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "3370352",
+      "name": "Atlantis",
+      "latitude": -33.56668,
+      "longitude": 18.48335,
+      "population": 82736,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "973709",
+      "name": "Mossel Bay",
+      "latitude": -34.18307,
+      "longitude": 22.14605,
+      "population": 78940,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "980595",
+      "name": "Mafikeng",
+      "latitude": -25.86522,
+      "longitude": 25.64421,
+      "population": 77110,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "968477",
+      "name": "Odendaalsrus",
+      "latitude": -27.87394,
+      "longitude": 26.69072,
+      "population": 76371,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "967106",
+      "name": "Oudtshoorn",
+      "latitude": -33.60047,
+      "longitude": 22.19955,
+      "population": 73694,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "1019760",
+      "name": "Bethal",
+      "latitude": -26.45794,
+      "longitude": 29.46553,
+      "population": 72821,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "949703",
+      "name": "Thaba Nchu",
+      "latitude": -29.20932,
+      "longitude": 26.83898,
+      "population": 72721,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "1016698",
+      "name": "Bothaville",
+      "latitude": -27.3887,
+      "longitude": 26.61701,
+      "population": 71934,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "945945",
+      "name": "Upington",
+      "latitude": -28.44776,
+      "longitude": 21.25612,
+      "population": 71373,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "966166",
+      "name": "Parys",
+      "latitude": -26.9033,
+      "longitude": 27.45727,
+      "population": 71319,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "956907",
+      "name": "Schweizer-Reneke",
+      "latitude": -27.18871,
+      "longitude": 25.32931,
+      "population": 70214,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "988698",
+      "name": "Knysna",
+      "latitude": -34.03627,
+      "longitude": 23.04713,
+      "population": 68659,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "3361934",
+      "name": "Saldanha",
+      "latitude": -33.01167,
+      "longitude": 17.9442,
+      "population": 68284,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "1021086",
+      "name": "Barberton",
+      "latitude": -25.78842,
+      "longitude": 31.05319,
+      "population": 67927,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "982899",
+      "name": "Lichtenburg",
+      "latitude": -26.152,
+      "longitude": 26.15968,
+      "population": 65863,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "948468",
+      "name": "Tongaat",
+      "latitude": -29.57366,
+      "longitude": 31.11552,
+      "population": 64829,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "1000543",
+      "name": "Graaff Reinet",
+      "latitude": -32.25215,
+      "longitude": 24.53075,
+      "population": 62896,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "988356",
+      "name": "Kokstad",
+      "latitude": -30.54723,
+      "longitude": 29.42412,
+      "population": 61751,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "1003953",
+      "name": "Fort Beaufort",
+      "latitude": -32.77477,
+      "longitude": 26.63376,
+      "population": 58419,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "3365083",
+      "name": "Kraaifontein",
+      "latitude": -33.84808,
+      "longitude": 18.71723,
+      "population": 57911,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "3366880",
+      "name": "Hermanus",
+      "latitude": -34.4187,
+      "longitude": 19.23446,
+      "population": 56139,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "942511",
+      "name": "Vryburg",
+      "latitude": -26.95659,
+      "longitude": 24.7284,
+      "population": 55879,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "3359510",
+      "name": "Wellington",
+      "latitude": -33.63981,
+      "longitude": 19.0112,
+      "population": 55543,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "943960",
+      "name": "Viljoenskroon",
+      "latitude": -27.20841,
+      "longitude": 26.94855,
+      "population": 54955,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "3368254",
+      "name": "Durbanville",
+      "latitude": -33.83079,
+      "longitude": 18.6486,
+      "population": 54286,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "974670",
+      "name": "Mondlo",
+      "latitude": -27.98299,
+      "longitude": 30.71769,
+      "population": 53892,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "1014489",
+      "name": "Butterworth",
+      "latitude": -32.33083,
+      "longitude": 28.14981,
+      "population": 53086,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "964406",
+      "name": "Port Shepstone",
+      "latitude": -30.74137,
+      "longitude": 30.45499,
+      "population": 52793,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "8030223",
+      "name": "Musina",
+      "latitude": -22.34881,
+      "longitude": 30.04074,
+      "population": 51132,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "968665",
+      "name": "Modimolle",
+      "latitude": -24.7,
+      "longitude": 28.4,
+      "population": 50306,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "12718846",
+      "name": "Letlhabile",
+      "latitude": -25.48238,
+      "longitude": 27.83925,
+      "population": 49718,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "981158",
+      "name": "Lydenburg",
+      "latitude": -25.09598,
+      "longitude": 30.44393,
+      "population": 49605,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "11204446",
+      "name": "Mankweng",
+      "latitude": -23.88384,
+      "longitude": 29.70557,
+      "population": 49480,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "1004303",
+      "name": "Ficksburg",
+      "latitude": -28.872,
+      "longitude": 27.87506,
+      "population": 49420,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "938457",
+      "name": "Wolmaransstad",
+      "latitude": -27.1974,
+      "longitude": 25.98311,
+      "population": 49366,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "977975",
+      "name": "Matsulu",
+      "latitude": -25.52297,
+      "longitude": 31.35693,
+      "population": 47306,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "1021396",
+      "name": "Balfour",
+      "latitude": -26.66331,
+      "longitude": 28.59016,
+      "population": 46008,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "3359741",
+      "name": "Vredenburg",
+      "latitude": -32.90719,
+      "longitude": 17.98997,
+      "population": 45986,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "1020641",
+      "name": "Beaufort West",
+      "latitude": -32.35671,
+      "longitude": 22.58295,
+      "population": 44737,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "1023309",
+      "name": "Aliwal North",
+      "latitude": -30.69366,
+      "longitude": 26.71141,
+      "population": 44436,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "955313",
+      "name": "Siyabuswa",
+      "latitude": -25.11319,
+      "longitude": 29.04454,
+      "population": 44189,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "1012600",
+      "name": "Cradock",
+      "latitude": -32.16422,
+      "longitude": 25.61918,
+      "population": 43936,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "943032",
+      "name": "Volksrust",
+      "latitude": -27.36541,
+      "longitude": 29.88175,
+      "population": 43378,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "3364346",
+      "name": "Malmesbury",
+      "latitude": -33.4608,
+      "longitude": 18.72714,
+      "population": 43009,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "11204552",
+      "name": "Mkhuhlu",
+      "latitude": -24.98776,
+      "longitude": 31.2385,
+      "population": 42969,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "940424",
+      "name": "Wesselsbron",
+      "latitude": -27.8549,
+      "longitude": 26.36583,
+      "population": 42552,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "12718813",
+      "name": "Lebowakgomo",
+      "latitude": -24.31457,
+      "longitude": 29.50078,
+      "population": 42040,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "3369129",
+      "name": "Ceres",
+      "latitude": -33.36889,
+      "longitude": 19.31095,
+      "population": 41596,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "1015504",
+      "name": "Bronkhorstspruit",
+      "latitude": -25.81015,
+      "longitude": 28.74248,
+      "population": 41209,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "956507",
+      "name": "Senekal",
+      "latitude": -28.31971,
+      "longitude": 27.62082,
+      "population": 39584,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "964712",
+      "name": "Plettenberg Bay",
+      "latitude": -34.05274,
+      "longitude": 23.3716,
+      "population": 38126,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "3367513",
+      "name": "Grabouw",
+      "latitude": -34.15152,
+      "longitude": 19.01509,
+      "population": 37490,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "1001860",
+      "name": "Giyani",
+      "latitude": -23.30246,
+      "longitude": 30.71868,
+      "population": 37024,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "951650",
+      "name": "Stutterheim",
+      "latitude": -32.57076,
+      "longitude": 27.42396,
+      "population": 35510,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "995094",
+      "name": "Humansdorp",
+      "latitude": -34.02903,
+      "longitude": 24.76912,
+      "population": 34733,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "949282",
+      "name": "Theunissen",
+      "latitude": -28.41098,
+      "longitude": 26.70107,
+      "population": 34718,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "949683",
+      "name": "Thabazimbi",
+      "latitude": -24.59165,
+      "longitude": 27.41155,
+      "population": 34561,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "978895",
+      "name": "Margate",
+      "latitude": -30.8636,
+      "longitude": 30.37052,
+      "population": 34407,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "1012413",
+      "name": "Cullinan",
+      "latitude": -25.67088,
+      "longitude": 28.52364,
+      "population": 34087,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "940186",
+      "name": "Whittlesea",
+      "latitude": -32.17588,
+      "longitude": 26.82437,
+      "population": 33844,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "1023713",
+      "name": "Acornhoek",
+      "latitude": -24.5878,
+      "longitude": 31.09467,
+      "population": 33529,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "1018673",
+      "name": "Bloemhof",
+      "latitude": -27.64685,
+      "longitude": 25.60697,
+      "population": 33432,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "3362349",
+      "name": "Robertson",
+      "latitude": -33.80342,
+      "longitude": 19.88537,
+      "population": 33204,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "972803",
+      "name": "Mtubatuba",
+      "latitude": -28.41789,
+      "longitude": 32.18483,
+      "population": 33182,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "1005544",
+      "name": "Empangeni",
+      "latitude": -28.76197,
+      "longitude": 31.89329,
+      "population": 33075,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "997140",
+      "name": "Heilbron",
+      "latitude": -27.28115,
+      "longitude": 27.9709,
+      "population": 32836,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "993910",
+      "name": "Jeffreys Bay",
+      "latitude": -34.04526,
+      "longitude": 24.92146,
+      "population": 32477,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "995202",
+      "name": "Howick",
+      "latitude": -29.47795,
+      "longitude": 30.23057,
+      "population": 32453,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "962330",
+      "name": "Richmond",
+      "latitude": -29.87196,
+      "longitude": 30.27235,
+      "population": 32445,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "1011632",
+      "name": "De Aar",
+      "latitude": -30.64966,
+      "longitude": 24.0123,
+      "population": 32318,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "946257",
+      "name": "Ulundi",
+      "latitude": -28.33523,
+      "longitude": 31.41617,
+      "population": 31795,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "1023287",
+      "name": "Allanridge",
+      "latitude": -27.75431,
+      "longitude": 26.64382,
+      "population": 31700,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "8604906",
+      "name": "Hartbeestfontein-A",
+      "latitude": -25.44141,
+      "longitude": 27.51114,
+      "population": 31554,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "964432",
+      "name": "Port Alfred",
+      "latitude": -33.58601,
+      "longitude": 26.88329,
+      "population": 30981,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "985015",
+      "name": "Ladybrand",
+      "latitude": -29.19448,
+      "longitude": 27.45739,
+      "population": 30930,
+      "populationRank": 150,
+      "isCapital": false
+    },
+    {
+      "id": "964363",
+      "name": "Postmasburg",
+      "latitude": -28.33392,
+      "longitude": 23.06541,
+      "population": 30089,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "972206",
+      "name": "Mookgophong",
+      "latitude": -24.51667,
+      "longitude": 28.71667,
+      "population": 29778,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "12750584",
+      "name": "Nhlazatje",
+      "latitude": -26.04027,
+      "longitude": 30.79268,
+      "population": 28224,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "1014747",
+      "name": "Bultfontein",
+      "latitude": -28.28756,
+      "longitude": 26.14996,
+      "population": 27994,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "1021360",
+      "name": "Ballitoville",
+      "latitude": -29.53897,
+      "longitude": 31.21439,
+      "population": 27718,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "956232",
+      "name": "Shakaskraal",
+      "latitude": -29.44931,
+      "longitude": 31.21532,
+      "population": 27345,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "996930",
+      "name": "Hendrina",
+      "latitude": -26.15881,
+      "longitude": 29.71528,
+      "population": 27300,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "997678",
+      "name": "Hartbeespoort",
+      "latitude": -25.7287,
+      "longitude": 27.87,
+      "population": 26732,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "12718812",
+      "name": "Praktiseer",
+      "latitude": -24.58398,
+      "longitude": 30.31684,
+      "population": 26675,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "944531",
+      "name": "Ventersdorp",
+      "latitude": -26.31401,
+      "longitude": 26.82223,
+      "population": 26446,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "1004962",
+      "name": "Estcourt",
+      "latitude": -29.01269,
+      "longitude": 29.86619,
+      "population": 26444,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "1009863",
+      "name": "Dimbaza",
+      "latitude": -32.83483,
+      "longitude": 27.21742,
+      "population": 26099,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "938694",
+      "name": "White River",
+      "latitude": -25.33177,
+      "longitude": 31.01166,
+      "population": 25607,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "11204695",
+      "name": "Kamaqhekeza",
+      "latitude": -25.67031,
+      "longitude": 31.86288,
+      "population": 25390,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "985011",
+      "name": "Lady Frere",
+      "latitude": -31.70312,
+      "longitude": 27.2329,
+      "population": 25041,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "1013550",
+      "name": "Christiana",
+      "latitude": -27.91402,
+      "longitude": 25.16111,
+      "population": 25019,
+      "populationRank": 166,
+      "isCapital": false
+    },
+    {
+      "id": "962847",
+      "name": "Reitz",
+      "latitude": -27.80138,
+      "longitude": 28.42726,
+      "population": 24181,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "956878",
+      "name": "Scottburgh",
+      "latitude": -30.28666,
+      "longitude": 30.75316,
+      "population": 23949,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "1000937",
+      "name": "Gonubie",
+      "latitude": -32.94433,
+      "longitude": 28.01496,
+      "population": 23733,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "11204123",
+      "name": "Marikana",
+      "latitude": -25.699,
+      "longitude": 27.47475,
+      "population": 23389,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "987648",
+      "name": "Koster",
+      "latitude": -25.86301,
+      "longitude": 26.89756,
+      "population": 23361,
+      "populationRank": 171,
+      "isCapital": false
+    },
+    {
+      "id": "1010962",
+      "name": "Deneysville",
+      "latitude": -26.8908,
+      "longitude": 28.09707,
+      "population": 23337,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "1000006",
+      "name": "Greytown",
+      "latitude": -29.06415,
+      "longitude": 30.59279,
+      "population": 23139,
+      "populationRank": 173,
+      "isCapital": false
+    },
+    {
+      "id": "996918",
+      "name": "Hennenman",
+      "latitude": -27.97654,
+      "longitude": 27.02423,
+      "population": 22847,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "954161",
+      "name": "Somerset East",
+      "latitude": -32.72173,
+      "longitude": 25.58804,
+      "population": 22553,
+      "populationRank": 175,
+      "isCapital": false
+    },
+    {
+      "id": "976358",
+      "name": "Middelburg",
+      "latitude": -31.49285,
+      "longitude": 25.00633,
+      "population": 22380,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "3359736",
+      "name": "Vredendal",
+      "latitude": -31.66833,
+      "longitude": 18.50119,
+      "population": 21769,
+      "populationRank": 177,
+      "isCapital": false
+    },
+    {
+      "id": "974222",
+      "name": "Mooi River",
+      "latitude": -29.20824,
+      "longitude": 29.9946,
+      "population": 21730,
+      "populationRank": 178,
+      "isCapital": false
+    },
+    {
+      "id": "944380",
+      "name": "Verena",
+      "latitude": -25.48251,
+      "longitude": 29.02763,
+      "population": 21252,
+      "populationRank": 179,
+      "isCapital": false
+    },
+    {
+      "id": "942701",
+      "name": "Vrede",
+      "latitude": -27.42573,
+      "longitude": 29.16585,
+      "population": 21193,
+      "populationRank": 180,
+      "isCapital": false
+    },
+    {
+      "id": "7730334",
+      "name": "Lephalale",
+      "latitude": -23.66607,
+      "longitude": 27.74477,
+      "population": 21133,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "1013266",
+      "name": "Hlohlolwane",
+      "latitude": -28.91588,
+      "longitude": 27.56957,
+      "population": 21089,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "1001736",
+      "name": "Glencoe",
+      "latitude": -28.17827,
+      "longitude": 30.14702,
+      "population": 21024,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "950709",
+      "name": "Swellendam",
+      "latitude": -34.02262,
+      "longitude": 20.44171,
+      "population": 20993,
+      "populationRank": 184,
+      "isCapital": false
+    },
+    {
+      "id": "943937",
+      "name": "Villiers",
+      "latitude": -27.03026,
+      "longitude": 28.60061,
+      "population": 20745,
+      "populationRank": 185,
+      "isCapital": false
+    },
+    {
+      "id": "1013067",
+      "name": "Coligny",
+      "latitude": -26.33172,
+      "longitude": 26.32065,
+      "population": 20701,
+      "populationRank": 186,
+      "isCapital": false
+    },
+    {
+      "id": "988290",
+      "name": "Komatipoort",
+      "latitude": -25.43321,
+      "longitude": 31.95478,
+      "population": 20508,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "956767",
+      "name": "Secunda",
+      "latitude": -26.55,
+      "longitude": 29.16667,
+      "population": 20418,
+      "populationRank": 188,
+      "isCapital": false
+    },
+    {
+      "id": "946128",
+      "name": "eMkhomazi",
+      "latitude": -30.20672,
+      "longitude": 30.79641,
+      "population": 20410,
+      "populationRank": 189,
+      "isCapital": false
+    },
+    {
+      "id": "1014012",
+      "name": "Carolina",
+      "latitude": -26.06927,
+      "longitude": 30.11489,
+      "population": 20184,
+      "populationRank": 190,
+      "isCapital": false
+    },
+    {
+      "id": "1020340",
+      "name": "Belfast",
+      "latitude": -25.68991,
+      "longitude": 30.03504,
+      "population": 20036,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "3367877",
+      "name": "Franschhoek",
+      "latitude": -33.91075,
+      "longitude": 19.1198,
+      "population": 20000,
+      "populationRank": 192,
+      "isCapital": false
+    },
+    {
+      "id": "945141",
+      "name": "Vaalwater",
+      "latitude": -24.2957,
+      "longitude": 28.11415,
+      "population": 19723,
+      "populationRank": 193,
+      "isCapital": false
+    },
+    {
+      "id": "961152",
+      "name": "Riversdale",
+      "latitude": -34.09345,
+      "longitude": 21.25725,
+      "population": 19382,
+      "populationRank": 194,
+      "isCapital": false
+    },
+    {
+      "id": "995573",
+      "name": "Hoopstad",
+      "latitude": -27.83273,
+      "longitude": 25.90833,
+      "population": 19209,
+      "populationRank": 195,
+      "isCapital": false
+    },
+    {
+      "id": "1014653",
+      "name": "Burgersdorp",
+      "latitude": -30.99766,
+      "longitude": 26.32862,
+      "population": 19159,
+      "populationRank": 196,
+      "isCapital": false
+    },
+    {
+      "id": "937136",
+      "name": "Zeerust",
+      "latitude": -25.53695,
+      "longitude": 26.07512,
+      "population": 19154,
+      "populationRank": 197,
+      "isCapital": false
+    },
+    {
+      "id": "958441",
+      "name": "Sabie",
+      "latitude": -25.0999,
+      "longitude": 30.78001,
+      "population": 18903,
+      "populationRank": 198,
+      "isCapital": false
+    },
+    {
+      "id": "937246",
+      "name": "Zastron",
+      "latitude": -30.30225,
+      "longitude": 27.08395,
+      "population": 18699,
+      "populationRank": 199,
+      "isCapital": false
+    },
+    {
+      "id": "1015776",
+      "name": "Bredasdorp",
+      "latitude": -34.53215,
+      "longitude": 20.04031,
+      "population": 18599,
+      "populationRank": 200,
+      "isCapital": false
+    }
+  ]
+}

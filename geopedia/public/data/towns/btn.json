@@ -1,0 +1,202 @@
+{
+  "towns": [
+    {
+      "id": "1252416",
+      "name": "Thimphu",
+      "latitude": 27.46609,
+      "longitude": 89.64191,
+      "population": 98676,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "1252484",
+      "name": "Phuntsholing",
+      "latitude": 26.85164,
+      "longitude": 89.38837,
+      "population": 27658,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "1252479",
+      "name": "Punākha",
+      "latitude": 27.59137,
+      "longitude": 89.87743,
+      "population": 21500,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "1252490",
+      "name": "Paro",
+      "latitude": 27.4305,
+      "longitude": 89.41334,
+      "population": 11448,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "1252460",
+      "name": "Sarpang",
+      "latitude": 26.86395,
+      "longitude": 90.26745,
+      "population": 10416,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "1252560",
+      "name": "Geylegphug",
+      "latitude": 26.86833,
+      "longitude": 90.48778,
+      "population": 9858,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "1337388",
+      "name": "Samdrup Jongkhar",
+      "latitude": 26.80069,
+      "longitude": 91.50519,
+      "population": 9325,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "1252395",
+      "name": "Wangdue Phodrang",
+      "latitude": 27.48615,
+      "longitude": 89.89915,
+      "population": 8954,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "1337301",
+      "name": "Jakar",
+      "latitude": 27.54918,
+      "longitude": 90.7525,
+      "population": 6243,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "1337360",
+      "name": "Samtse",
+      "latitude": 26.89903,
+      "longitude": 89.09951,
+      "population": 5396,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "1252422",
+      "name": "Trashi Yangtse",
+      "latitude": 27.6116,
+      "longitude": 91.498,
+      "population": 3025,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "1252514",
+      "name": "Mongar",
+      "latitude": 27.27471,
+      "longitude": 91.23963,
+      "population": 2969,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "1252408",
+      "name": "Trongsa",
+      "latitude": 27.5026,
+      "longitude": 90.50716,
+      "population": 2805,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "1252433",
+      "name": "Daga",
+      "latitude": 27.07529,
+      "longitude": 89.87688,
+      "population": 2243,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "1252526",
+      "name": "Lhuentse",
+      "latitude": 27.66787,
+      "longitude": 91.18393,
+      "population": 1935,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "1252563",
+      "name": "Ha",
+      "latitude": 27.38747,
+      "longitude": 89.28074,
+      "population": 1449,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "7701319",
+      "name": "Autsho",
+      "latitude": 27.44309,
+      "longitude": 91.17485,
+      "population": 1447,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "1337356",
+      "name": "Panbang",
+      "latitude": 26.86667,
+      "longitude": 90.98333,
+      "population": 1360,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "1252423",
+      "name": "Trashigang",
+      "latitude": 27.3331,
+      "longitude": 91.55424,
+      "population": 872,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1252451",
+      "name": "Shemgang",
+      "latitude": 27.21689,
+      "longitude": 90.65793,
+      "population": 852,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "1337357",
+      "name": "Nganglam",
+      "latitude": 26.78333,
+      "longitude": 91.25,
+      "population": 707,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "1252578",
+      "name": "Gasa",
+      "latitude": 27.90372,
+      "longitude": 89.72689,
+      "population": 548,
+      "populationRank": 22,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "towns": [
+    {
+      "id": "1221874",
+      "name": "Dushanbe",
+      "latitude": 38.53575,
+      "longitude": 68.77905,
+      "population": 679400,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "1514896",
+      "name": "Isfara",
+      "latitude": 40.12649,
+      "longitude": 70.62526,
+      "population": 274000,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "1220253",
+      "name": "Istaravshan",
+      "latitude": 39.9142,
+      "longitude": 69.00328,
+      "population": 273500,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "1221194",
+      "name": "Kŭlob",
+      "latitude": 37.91459,
+      "longitude": 69.78454,
+      "population": 214700,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "1514891",
+      "name": "Konibodom",
+      "latitude": 40.29414,
+      "longitude": 70.43122,
+      "population": 211100,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "1514879",
+      "name": "Khujand",
+      "latitude": 40.28256,
+      "longitude": 69.62216,
+      "population": 191000,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "1220747",
+      "name": "Bokhtar",
+      "latitude": 37.83654,
+      "longitude": 68.77762,
+      "population": 110800,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "1514883",
+      "name": "Qayroqqum",
+      "latitude": 40.26598,
+      "longitude": 69.79585,
+      "population": 49200,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "1220855",
+      "name": "Vahdat",
+      "latitude": 38.55632,
+      "longitude": 69.01354,
+      "population": 45693,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "1282601",
+      "name": "Tursunzoda",
+      "latitude": 38.51271,
+      "longitude": 68.23163,
+      "population": 37000,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "1538311",
+      "name": "Buston",
+      "latitude": 40.23417,
+      "longitude": 69.69481,
+      "population": 36900,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "1220798",
+      "name": "Panjakent",
+      "latitude": 39.49524,
+      "longitude": 67.60931,
+      "population": 35085,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "1221328",
+      "name": "Khorugh",
+      "latitude": 37.49039,
+      "longitude": 71.55337,
+      "population": 30500,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "1221714",
+      "name": "Hisor",
+      "latitude": 38.52504,
+      "longitude": 68.55124,
+      "population": 23978,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "1221965",
+      "name": "Danghara",
+      "latitude": 38.09578,
+      "longitude": 69.33998,
+      "population": 22824,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "1220163",
+      "name": "Hulbuk",
+      "latitude": 37.80542,
+      "longitude": 69.64516,
+      "population": 21736,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "1220826",
+      "name": "Farkhor",
+      "latitude": 37.49219,
+      "longitude": 69.40356,
+      "population": 21736,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "1221259",
+      "name": "Kolkhozobod",
+      "latitude": 37.58823,
+      "longitude": 68.65886,
+      "population": 18476,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "1220905",
+      "name": "Norak",
+      "latitude": 38.38917,
+      "longitude": 69.32272,
+      "population": 18122,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1514829",
+      "name": "Istiqlol",
+      "latitude": 40.57017,
+      "longitude": 69.64175,
+      "population": 17600,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "1220112",
+      "name": "Yovon",
+      "latitude": 38.31408,
+      "longitude": 69.03784,
+      "population": 17471,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "1514839",
+      "name": "Proletar",
+      "latitude": 40.16713,
+      "longitude": 69.50163,
+      "population": 16441,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "1220219",
+      "name": "Vakhsh",
+      "latitude": 37.71485,
+      "longitude": 68.83456,
+      "population": 15215,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "1514856",
+      "name": "Nov",
+      "latitude": 40.1522,
+      "longitude": 69.37076,
+      "population": 13833,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "1514929",
+      "name": "Adrasmon",
+      "latitude": 40.64928,
+      "longitude": 69.98472,
+      "population": 13372,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "1514913",
+      "name": "Bŭston",
+      "latitude": 40.52286,
+      "longitude": 69.33307,
+      "population": 13043,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "1220576",
+      "name": "Shahritus",
+      "latitude": 37.26206,
+      "longitude": 68.13849,
+      "population": 13042,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "1221091",
+      "name": "Mŭ’minobod",
+      "latitude": 38.10714,
+      "longitude": 70.03213,
+      "population": 11955,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "1514921",
+      "name": "Shaydon",
+      "latitude": 40.66992,
+      "longitude": 70.3502,
+      "population": 11705,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "1220962",
+      "name": "Murghob",
+      "latitude": 38.17023,
+      "longitude": 73.96674,
+      "population": 10815,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "1221740",
+      "name": "Rasht",
+      "latitude": 39.02871,
+      "longitude": 70.37446,
+      "population": 10771,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "1221136",
+      "name": "Abdurahmoni Jomí",
+      "latitude": 37.94636,
+      "longitude": 68.80878,
+      "population": 9943,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "1221871",
+      "name": "Dŭstí",
+      "latitude": 37.34812,
+      "longitude": 68.66398,
+      "population": 8700,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "1220446",
+      "name": "Sovet",
+      "latitude": 38.0467,
+      "longitude": 69.58822,
+      "population": 8695,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "1221748",
+      "name": "Gharavŭtí",
+      "latitude": 37.56703,
+      "longitude": 68.44668,
+      "population": 8474,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "1514844",
+      "name": "Pakhtakoron",
+      "latitude": 40.15709,
+      "longitude": 68.74659,
+      "population": 8220,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "1220750",
+      "name": "Panj",
+      "latitude": 37.23634,
+      "longitude": 69.09911,
+      "population": 8019,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "1221135",
+      "name": "Bokhtariyon",
+      "latitude": 37.88176,
+      "longitude": 68.7297,
+      "population": 7900,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "1220701",
+      "name": "Roghun",
+      "latitude": 38.78257,
+      "longitude": 69.87081,
+      "population": 7731,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "1221297",
+      "name": "Kirov",
+      "latitude": 37.81908,
+      "longitude": 68.85905,
+      "population": 7696,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "1220888",
+      "name": "Obigarm",
+      "latitude": 38.71731,
+      "longitude": 69.70885,
+      "population": 7400,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "1221802",
+      "name": "Vahdat",
+      "latitude": 39.21966,
+      "longitude": 71.19155,
+      "population": 6400,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "1220324",
+      "name": "Tavildara",
+      "latitude": 38.69529,
+      "longitude": 70.48422,
+      "population": 6071,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "1514889",
+      "name": "Konsoy",
+      "latitude": 40.49155,
+      "longitude": 69.70245,
+      "population": 6000,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "1220853",
+      "name": "Orzu",
+      "latitude": 37.5582,
+      "longitude": 68.81952,
+      "population": 5988,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "1220936",
+      "name": "Novobod",
+      "latitude": 39.01084,
+      "longitude": 70.15082,
+      "population": 5352,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "1222085",
+      "name": "Bŭstonqal’a",
+      "latitude": 37.84783,
+      "longitude": 68.83125,
+      "population": 4900,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "1514852",
+      "name": "Neftobod",
+      "latitude": 40.21524,
+      "longitude": 70.57193,
+      "population": 4603,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "1514870",
+      "name": "Quruqsoy",
+      "latitude": 40.57648,
+      "longitude": 69.37962,
+      "population": 3400,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "1514843",
+      "name": "Palos",
+      "latitude": 40.31628,
+      "longitude": 69.73743,
+      "population": 3288,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "1514831",
+      "name": "Shŭrob",
+      "latitude": 40.04605,
+      "longitude": 70.54117,
+      "population": 2900,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "1220401",
+      "name": "Tagob",
+      "latitude": 38.83827,
+      "longitude": 68.89847,
+      "population": 2565,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "1514877",
+      "name": "Kim",
+      "latitude": 40.20798,
+      "longitude": 70.46882,
+      "population": 1600,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "1221250",
+      "name": "Darband",
+      "latitude": 38.86776,
+      "longitude": 69.96642,
+      "population": 1115,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "1514854",
+      "name": "Navgarzan",
+      "latitude": 40.99827,
+      "longitude": 70.42749,
+      "population": 877,
+      "populationRank": 55,
+      "isCapital": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "towns": [
+    {
+      "id": "3042041",
+      "name": "Schaan",
+      "latitude": 47.16498,
+      "longitude": 9.50867,
+      "population": 5998,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "3042030",
+      "name": "Vaduz",
+      "latitude": 47.14151,
+      "longitude": 9.52154,
+      "population": 5197,
+      "populationRank": 2,
+      "isCapital": true
+    }
+  ]
+}

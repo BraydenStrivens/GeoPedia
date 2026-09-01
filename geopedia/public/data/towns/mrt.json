@@ -1,0 +1,562 @@
+{
+  "towns": [
+    {
+      "id": "2377450",
+      "name": "Nouakchott",
+      "latitude": 18.08581,
+      "longitude": -15.9785,
+      "population": 1184530,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "2377457",
+      "name": "Nouadhibou",
+      "latitude": 20.94188,
+      "longitude": -17.03842,
+      "population": 146048,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "2378538",
+      "name": "Kiffa",
+      "latitude": 16.62073,
+      "longitude": -11.40208,
+      "population": 62051,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "11496397",
+      "name": "Dar Naim",
+      "latitude": 18.10808,
+      "longitude": -15.92666,
+      "population": 61089,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2377539",
+      "name": "Néma",
+      "latitude": 16.61702,
+      "longitude": -7.25649,
+      "population": 60000,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "12718654",
+      "name": "Mbera",
+      "latitude": 15.85615,
+      "longitude": -5.79067,
+      "population": 58985,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2378736",
+      "name": "Kaédi",
+      "latitude": 16.15071,
+      "longitude": -13.50582,
+      "population": 56283,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "2375558",
+      "name": "Zouérat",
+      "latitude": 22.73542,
+      "longitude": -12.47134,
+      "population": 55183,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "2376719",
+      "name": "Sélibaby",
+      "latitude": 15.15846,
+      "longitude": -12.1843,
+      "population": 32653,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2381334",
+      "name": "Atar",
+      "latitude": 20.51875,
+      "longitude": -13.04637,
+      "population": 31133,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2381291",
+      "name": "Ayoun El Atrous",
+      "latitude": 16.6614,
+      "longitude": -9.6149,
+      "population": 28174,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "12718653",
+      "name": "Guerou",
+      "latitude": 17.07754,
+      "longitude": -12.03869,
+      "population": 27590,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2380670",
+      "name": "Boutilimitt",
+      "latitude": 17.54584,
+      "longitude": -14.69777,
+      "population": 27170,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "2376189",
+      "name": "Tékane",
+      "latitude": 16.60175,
+      "longitude": -15.34866,
+      "population": 22041,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2380954",
+      "name": "Bogué",
+      "latitude": 16.59153,
+      "longitude": -14.26309,
+      "population": 20291,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "2381659",
+      "name": "Aleg",
+      "latitude": 17.05314,
+      "longitude": -13.91312,
+      "population": 19183,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "2376115",
+      "name": "Tembedgha",
+      "latitude": 16.24137,
+      "longitude": -8.17321,
+      "population": 17465,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2376898",
+      "name": "Rosso",
+      "latitude": 16.51378,
+      "longitude": -15.80503,
+      "population": 15870,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2381690",
+      "name": "Akjoujt",
+      "latitude": 19.74163,
+      "longitude": -14.38534,
+      "population": 15851,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "6911696",
+      "name": "Ṭinṭâne",
+      "latitude": 16.3946,
+      "longitude": -10.1737,
+      "population": 15684,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2376976",
+      "name": "Elghabra",
+      "latitude": 16.64713,
+      "longitude": -12.67113,
+      "population": 15480,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "2378160",
+      "name": "Magṭa‘ Laḥjar",
+      "latitude": 17.506,
+      "longitude": -13.0927,
+      "population": 15446,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2380764",
+      "name": "Bouly",
+      "latitude": 15.31753,
+      "longitude": -11.80095,
+      "population": 14906,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "2378170",
+      "name": "Maghama",
+      "latitude": 15.51014,
+      "longitude": -12.85096,
+      "population": 13898,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2376193",
+      "name": "Tidjikja",
+      "latitude": 18.55644,
+      "longitude": -11.42715,
+      "population": 13479,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "2381152",
+      "name": "Basseknou",
+      "latitude": 15.86652,
+      "longitude": -5.94604,
+      "population": 12232,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "2377327",
+      "name": "Oualata",
+      "latitude": 17.29784,
+      "longitude": -7.02346,
+      "population": 11779,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2379886",
+      "name": "Lexeiba Un",
+      "latitude": 16.22506,
+      "longitude": -13.14089,
+      "population": 11417,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2379471",
+      "name": "Ganki Un",
+      "latitude": 16.21413,
+      "longitude": -13.24037,
+      "population": 11250,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2379619",
+      "name": "Vassala",
+      "latitude": 15.5571,
+      "longitude": -5.516,
+      "population": 10982,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "9224943",
+      "name": "R'kiz",
+      "latitude": 16.9151,
+      "longitude": -15.23701,
+      "population": 10688,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2597437",
+      "name": "Kobenni",
+      "latitude": 15.81722,
+      "longitude": -9.36528,
+      "population": 8979,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2381249",
+      "name": "Bababé",
+      "latitude": 16.3371,
+      "longitude": -13.95287,
+      "population": 8869,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "13527105",
+      "name": "Fondé Elimane",
+      "latitude": 16.31684,
+      "longitude": -13.91911,
+      "population": 8500,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "2377580",
+      "name": "Ndiago",
+      "latitude": 16.16763,
+      "longitude": -16.51026,
+      "population": 8440,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "2380225",
+      "name": "Djiguenni",
+      "latitude": 15.73208,
+      "longitude": -8.66561,
+      "population": 8293,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "2378716",
+      "name": "Kankossa",
+      "latitude": 15.93891,
+      "longitude": -11.52701,
+      "population": 8122,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "2380162",
+      "name": "Djowol",
+      "latitude": 16.06393,
+      "longitude": -13.37292,
+      "population": 7582,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "2380695",
+      "name": "Bousteila",
+      "latitude": 15.5754,
+      "longitude": -8.08563,
+      "population": 7520,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "2380894",
+      "name": "Bouanzé",
+      "latitude": 15.81852,
+      "longitude": -12.23218,
+      "population": 6955,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "2378000",
+      "name": "Mederdra",
+      "latitude": 16.92256,
+      "longitude": -15.65646,
+      "population": 6858,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "2378025",
+      "name": "Mboutt",
+      "latitude": 16.02322,
+      "longitude": -12.57872,
+      "population": 6733,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "2380306",
+      "name": "Diaguily",
+      "latitude": 14.84796,
+      "longitude": -12.39271,
+      "population": 6278,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "2380254",
+      "name": "Diogountourou",
+      "latitude": 14.77,
+      "longitude": -12.2509,
+      "population": 6226,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "2598228",
+      "name": "Amourj",
+      "latitude": 16.10916,
+      "longitude": -7.21387,
+      "population": 5509,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "12718656",
+      "name": "Ouad Naga",
+      "latitude": 17.96636,
+      "longitude": -15.51802,
+      "population": 5165,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "2377211",
+      "name": "Ould Yenjé",
+      "latitude": 15.54038,
+      "longitude": -11.71467,
+      "population": 5057,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "6910063",
+      "name": "Çangarâfa",
+      "latitude": 17.592,
+      "longitude": -12.8365,
+      "population": 4786,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "2380519",
+      "name": "Chingueṭṭi",
+      "latitude": 20.463,
+      "longitude": -12.362,
+      "population": 4711,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "2379615",
+      "name": "Fderîck",
+      "latitude": 22.678,
+      "longitude": -12.711,
+      "population": 4073,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "2378070",
+      "name": "Mbagne",
+      "latitude": 16.14497,
+      "longitude": -13.79258,
+      "population": 4004,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "2598196",
+      "name": "Nbeika",
+      "latitude": 17.98083,
+      "longitude": -12.25331,
+      "population": 4000,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "2375689",
+      "name": "Woumpou",
+      "latitude": 15.1308,
+      "longitude": -12.7253,
+      "population": 3746,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "2376486",
+      "name": "Tamchekett",
+      "latitude": 17.24475,
+      "longitude": -10.66983,
+      "population": 3131,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "2377822",
+      "name": "Mônguel",
+      "latitude": 16.42361,
+      "longitude": -13.14087,
+      "population": 2417,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "2597434",
+      "name": "Boulenouar",
+      "latitude": 21.28965,
+      "longitude": -16.52404,
+      "population": 1901,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "2377796",
+      "name": "Moudjeria",
+      "latitude": 17.87655,
+      "longitude": -12.33346,
+      "population": 1899,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "2377339",
+      "name": "Ouadane",
+      "latitude": 20.92767,
+      "longitude": -11.62138,
+      "population": 1638,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "2380975",
+      "name": "Bîr Mogreïn",
+      "latitude": 25.22125,
+      "longitude": -11.57928,
+      "population": 1613,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "2376218",
+      "name": "Tîchît",
+      "latitude": 18.44134,
+      "longitude": -9.49394,
+      "population": 1580,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "2597435",
+      "name": "Choum",
+      "latitude": 21.29957,
+      "longitude": -13.06684,
+      "population": 1153,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "12522846",
+      "name": "Chami",
+      "latitude": 20.15721,
+      "longitude": -15.97125,
+      "population": 63,
+      "populationRank": 62,
+      "isCapital": false
+    }
+  ]
+}

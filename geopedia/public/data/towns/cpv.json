@@ -1,0 +1,247 @@
+{
+  "towns": [
+    {
+      "id": "3374333",
+      "name": "Praia",
+      "latitude": 14.93152,
+      "longitude": -23.51254,
+      "population": 137868,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3374462",
+      "name": "Mindelo",
+      "latitude": 16.89014,
+      "longitude": -24.98042,
+      "population": 69013,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "8521418",
+      "name": "Espargos",
+      "latitude": 16.75524,
+      "longitude": -22.9446,
+      "population": 24500,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3374166",
+      "name": "Tarrafal",
+      "latitude": 15.27881,
+      "longitude": -23.75192,
+      "population": 13483,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3374336",
+      "name": "Porto Novo",
+      "latitude": 17.01969,
+      "longitude": -25.06471,
+      "population": 11138,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3374235",
+      "name": "Sal Rei",
+      "latitude": 16.17611,
+      "longitude": -22.91722,
+      "population": 10936,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3374210",
+      "name": "São Filipe",
+      "latitude": 14.8961,
+      "longitude": -24.49556,
+      "population": 10097,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "8441169",
+      "name": "Pedra Badejo",
+      "latitude": 15.1375,
+      "longitude": -23.53083,
+      "population": 10038,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3374218",
+      "name": "Santa Maria",
+      "latitude": 16.59796,
+      "longitude": -22.90509,
+      "population": 8400,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3374794",
+      "name": "Calheta de São Miguel",
+      "latitude": 15.18613,
+      "longitude": -23.59228,
+      "population": 6329,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3374120",
+      "name": "Vila do Maio",
+      "latitude": 15.13823,
+      "longitude": -23.21158,
+      "population": 4472,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3374165",
+      "name": "Tarrafal de São Nicolau",
+      "latitude": 16.56622,
+      "longitude": -24.35793,
+      "population": 4371,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3374555",
+      "name": "Igreja",
+      "latitude": 15.03333,
+      "longitude": -24.33333,
+      "population": 4084,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3374725",
+      "name": "Cidade Velha",
+      "latitude": 14.91531,
+      "longitude": -23.60527,
+      "population": 3319,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3374346",
+      "name": "Ponta do Sol",
+      "latitude": 17.20171,
+      "longitude": -25.09217,
+      "population": 3300,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3374275",
+      "name": "Ribeira Grande",
+      "latitude": 17.1825,
+      "longitude": -25.065,
+      "population": 3000,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3374211",
+      "name": "São Domingos",
+      "latitude": 15.02438,
+      "longitude": -23.5625,
+      "population": 2960,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "3374121",
+      "name": "Ribeira Brava",
+      "latitude": 16.61583,
+      "longitude": -24.29833,
+      "population": 2851,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3374403",
+      "name": "Palmeira",
+      "latitude": 16.75754,
+      "longitude": -22.98348,
+      "population": 2320,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3374117",
+      "name": "Nova Sintra",
+      "latitude": 14.87139,
+      "longitude": -24.69556,
+      "population": 2225,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3374351",
+      "name": "Pombas",
+      "latitude": 17.15026,
+      "longitude": -25.02007,
+      "population": 1429,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3374480",
+      "name": "Achada Monte",
+      "latitude": 15.23455,
+      "longitude": -23.64391,
+      "population": 1400,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "3374793",
+      "name": "Calheta",
+      "latitude": 15.23043,
+      "longitude": -23.21406,
+      "population": 1081,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "13645771",
+      "name": "Centro (Cidade)",
+      "latitude": 15.09606,
+      "longitude": -23.66557,
+      "population": 661,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "8441167",
+      "name": "João Teves",
+      "latitude": 15.06694,
+      "longitude": -23.58917,
+      "population": 627,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "3374589",
+      "name": "Furna",
+      "latitude": 14.887,
+      "longitude": -24.68093,
+      "population": 594,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "13163112",
+      "name": "Boca de Figueiral",
+      "latitude": 17.16434,
+      "longitude": -25.09595,
+      "population": 15,
+      "populationRank": 27,
+      "isCapital": false
+    }
+  ]
+}

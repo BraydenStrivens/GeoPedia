@@ -1,0 +1,22 @@
+{
+  "towns": [
+    {
+      "id": "3577430",
+      "name": "Road Town",
+      "latitude": 18.42693,
+      "longitude": -64.62079,
+      "population": 8449,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3577369",
+      "name": "Spanish Town",
+      "latitude": 18.4481,
+      "longitude": -64.43474,
+      "population": 3800,
+      "populationRank": 2,
+      "isCapital": false
+    }
+  ]
+}

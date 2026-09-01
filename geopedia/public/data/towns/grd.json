@@ -1,0 +1,58 @@
+{
+  "towns": [
+    {
+      "id": "3579925",
+      "name": "Saint George's",
+      "latitude": 12.05288,
+      "longitude": -61.75226,
+      "population": 7500,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "3580279",
+      "name": "Gouyave",
+      "latitude": 12.16462,
+      "longitude": -61.72965,
+      "population": 3378,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3580236",
+      "name": "Grenville",
+      "latitude": 12.12278,
+      "longitude": -61.62498,
+      "population": 2476,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3579833",
+      "name": "Victoria",
+      "latitude": 12.19021,
+      "longitude": -61.70677,
+      "population": 2256,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3579891",
+      "name": "Sauteurs",
+      "latitude": 12.21833,
+      "longitude": -61.63917,
+      "population": 1320,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3580215",
+      "name": "Hillsborough",
+      "latitude": 12.48292,
+      "longitude": -61.45597,
+      "population": 1000,
+      "populationRank": 6,
+      "isCapital": false
+    }
+  ]
+}
