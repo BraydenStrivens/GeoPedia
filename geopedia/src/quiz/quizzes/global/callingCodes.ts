@@ -9,7 +9,7 @@
  * and rerun the script instead.
  */
 
-import type { Quiz } from "@/types/quiz";
+import type { FeatureQuiz } from "@/types/quiz";
 
 /**
  * Tests recognition of countries and territories from their international
@@ -19,7 +19,7 @@ import type { Quiz } from "@/types/quiz";
  * feature whose `calling_codes` property contains the current answer is
  * considered a valid selection.
  */
-export const callingCodesQuiz: Quiz = {
+export const callingCodesQuiz: FeatureQuiz = {
   id: "calling-codes",
   name: "Calling Codes",
 

@@ -7,7 +7,7 @@
  *   scripts/generate/generate-global-country-flags-quiz.ts
  */
 
-import type { Quiz } from "@/types/quiz";
+import type { FeatureQuiz } from "@/types/quiz";
 
 /**
  * Global map quiz that displays a country flag and asks the player to select
@@ -17,7 +17,7 @@ import type { Quiz } from "@/types/quiz";
  * world-countries.geojson because that same property is used by the map's
  * feature interactions.
  */
-export const countryFlagsQuiz: Quiz = {
+export const countryFlagsQuiz: FeatureQuiz = {
   id: "country-flags",
   name: "Country Flags",
 

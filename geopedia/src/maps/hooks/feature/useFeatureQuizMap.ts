@@ -33,7 +33,7 @@ import type { MapConfig } from "@/maps/types";
 /**
  * Dependencies required to create and initialize a GeoPedia MapLibre map.
  */
-type UseMapParams = {
+type UseFeatureQuizMapParams = {
   /** HTML element into which MapLibre creates its canvas and map UI. */
   containerRef: RefObject<HTMLDivElement | null>;
 
@@ -53,7 +53,7 @@ type UseMapParams = {
 /**
  * Result returned by `useMap`.
  */
-type UseMapResult = {
+type UseFeatureQuizMapResult = {
   /** MapLibre instance, or `null` before creation and after cleanup. */
   mapRef: RefObject<maplibregl.Map | null>;
 
@@ -138,13 +138,13 @@ function configureBaseMapPlaceNames(map: maplibregl.Map): void {
  * @param params - Map configuration and initial display-setting refs.
  * @returns MapLibre instance ref and GeoPedia-source readiness state.
  */
-export function useMap({
+export function useFeatureQuizMap({
   containerRef,
   mapConfig,
   showShadingRef,
   showBordersRef,
   showLabelsRef,
-}: UseMapParams): UseMapResult {
+}: UseFeatureQuizMapParams): UseFeatureQuizMapResult {
   /**
    * Stores the MapLibre instance without causing React renders when the map
    * object itself changes.
@@ -275,6 +275,10 @@ export function useMap({
     }
 
     map.on("style.load", handleStyleLoad);
+
+    map.on("error", (event) => {
+      console.error("MAPLIBRE ERROR:", event.error);
+    });
 
     /**
      * Destroys everything owned by this MapLibre instance.

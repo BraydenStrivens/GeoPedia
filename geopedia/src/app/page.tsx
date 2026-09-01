@@ -8,6 +8,7 @@
 
 import BaseWorldNavigationMap from "@/components/map/BaseWorldNavigationMap";
 import { worldMap } from "@/maps/configs/worldMap";
+import { getCountryIdsWithQuizzes } from "@/quiz/quizzes";
 
 /**
  * Displays GeoPedia's interactive world map.
@@ -17,11 +18,16 @@ import { worldMap } from "@/maps/configs/worldMap";
  *
  * @returns GeoPedia's home page.
  */
-export default function Home() {
+export default async function Home() {
+  const countryIdsWithQuizzes = await getCountryIdsWithQuizzes();
+
   return (
     <main className="h-[calc(100vh-3.5rem)] w-screen">
       {/* Interactive world navigation map */}
-      <BaseWorldNavigationMap mapConfig={worldMap} />
+      <BaseWorldNavigationMap
+        mapConfig={worldMap}
+        countryIdsWithQuizzes={countryIdsWithQuizzes}
+      />
     </main>
   );
 }

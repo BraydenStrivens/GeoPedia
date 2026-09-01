@@ -95,6 +95,28 @@ export interface QuizQuestion {
 }
 
 /**
+ * Lightweight metadata describing a quiz that is available to the user.
+ *
+ * Quiz listings are used by navigation and selection interfaces that need to
+ * display or link to available quizzes without loading the complete quiz
+ * definition or its underlying question data.
+ *
+ * This is especially useful for generated town quizzes, whose full town
+ * datasets do not need to be loaded merely to display the quiz on a country
+ * page.
+ */
+export type QuizListing = {
+  /** Stable identifier used to identify and route to the quiz. */
+  id: string;
+
+  /** User-facing name displayed when presenting the quiz. */
+  name: string;
+
+  /** Quiz type used to distinguish feature and town quiz listings. */
+  kind: QuizKind;
+};
+
+/**
  * Defines properties shared by every GeoPedia quiz type.
  */
 interface BaseQuiz {
@@ -103,9 +125,6 @@ interface BaseQuiz {
 
   /** User-facing name of the quiz. */
   name: string;
-
-  /** ID of the map configuration used by this quiz. */
-  mapId: string;
 }
 
 /**
@@ -115,6 +134,9 @@ interface BaseQuiz {
  * and support the existing region-based interaction system.
  */
 export interface FeatureQuiz extends BaseQuiz {
+  /** ID of the map configuration used by a feature-based quiz. */
+  mapId: string;
+
   /** Identifies this quiz as a GeoJSON feature-based quiz. */
   kind: "feature";
 
@@ -163,6 +185,14 @@ export interface TownQuizTown {
 }
 
 /**
+ * Runtime contents of one generated country town dataset.
+ */
+export interface TownQuizData {
+  /** Towns available to the country's town quiz. */
+  towns: TownQuizTown[];
+}
+
+/**
  * Defines a location-based town quiz.
  *
  * Unlike feature quizzes, town quizzes are answered by clicking a geographic
@@ -179,7 +209,7 @@ export interface TownQuiz extends BaseQuiz {
    * The exact scoring function can use this value together with the perfect
    * answer radius.
    */
-  maxErrorKm: number;
+  // maxErrorKm: number;
 
   /** Complete set of towns available to the quiz. */
   towns: TownQuizTown[];

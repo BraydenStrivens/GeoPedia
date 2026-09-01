@@ -7,12 +7,12 @@
  * than a complete ZIP code.
  */
 
-import type { Quiz } from "@/types/quiz";
+import type { FeatureQuiz } from "@/types/quiz";
 
 /**
  * Quiz definition for identifying US 1-digit ZIP-code regions.
  */
-export const usZip1Quiz: Quiz = {
+export const usZip1Quiz: FeatureQuiz = {
   id: "us-zip-1",
   name: "US 1-Digit ZIP Codes",
 

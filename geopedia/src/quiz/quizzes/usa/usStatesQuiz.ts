@@ -8,17 +8,17 @@
  * The quiz also supports property-based grouping by US region.
  */
 
-import type { Quiz } from "@/types/quiz";
+import type { FeatureQuiz } from "@/types/quiz";
 
 /**
  * Quiz definition for identifying US states by name.
  */
-export const usStatesQuiz: Quiz = {
+export const usStatesQuiz: FeatureQuiz = {
   id: "us-states",
   name: "US States",
 
-  mapId: "us-states",
   kind: "feature",
+  mapId: "us-states",
 
   answerProperty: "name",
   answerType: "single",

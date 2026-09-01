@@ -21,7 +21,7 @@
 
 import { useMemo, useState, useSyncExternalStore } from "react";
 
-import QuizMap from "@/components/map/FeatureQuizMap";
+import FeatureQuizMap from "@/components/map/FeatureQuizMap";
 import QuizPanelControls from "@/components/quiz/controls/QuizPanelControls";
 import QuizGroupsPanel from "@/components/quiz/groupings/feature/FeatureQuizGroupsPanel";
 import QuizSettingsPanel from "@/components/quiz/QuizSettingsPanel";
@@ -36,37 +36,63 @@ import type {
   SavedQuizGroup,
 } from "@/quiz/groupings/feature/types";
 import { useQuizSettings } from "@/quiz/hooks/useQuizSettings";
-import type { FeatureQuiz, Quiz, TownQuiz } from "@/types/quiz";
+import { useTownQuiz } from "@/quiz/hooks/useTownQuiz";
+import { TownCountryConfig } from "@/quiz/town/townCountryConfigs";
+import type { FeatureQuiz, TownQuiz } from "@/types/quiz";
+
+import TownQuizMap from "../map/TownQuizMap";
+import TownQuizOverlay from "./overlay/TownQuizOverlay";
 
 /**
- * Props required to render a client-side quiz map.
+ * Props required when rendering a feature-based quiz map.
+ *
+ * Feature quizzes operate on GeoJSON map features and therefore require a
+ * complete `MapConfig` describing their source data, layers, interaction
+ * behavior, and initial map presentation.
  */
-type QuizMapClientProps = {
+type FeatureQuizMapClientProps = {
+  /** Identifies these props as belonging to a feature-based quiz. */
+  kind: "feature";
+
   /** Country containing the quiz. Used to identify persisted user data. */
   countryId: string;
 
-  /** Quiz displayed and controlled by the map. */
-  quiz: Quiz;
+  /** Feature-based quiz displayed and controlled by the map. */
+  quiz: FeatureQuiz;
 
-  /** Geographic map configuration used by the quiz. */
+  /** Geographic map configuration required by the feature quiz. */
   mapConfig: MapConfig;
 };
 
 /**
- * Props used by the existing feature-based quiz map implementation.
+ * Props required when rendering a town-based quiz map.
+ *
+ * Town quizzes use the shared MapTiler town-map implementation rather than a
+ * feature `MapConfig`. Their country-specific configuration supplies the
+ * initial camera position and geographic scoring distance.
  */
-type FeatureQuizMapClientProps = Omit<QuizMapClientProps, "quiz"> & {
-  /** Feature-based quiz displayed and controlled by the map. */
-  quiz: FeatureQuiz;
+type TownQuizMapClientProps = {
+  /** Identifies these props as belonging to a town-based quiz. */
+  kind: "town";
+
+  /** Country containing the quiz. Used to identify persisted user data. */
+  countryId: string;
+
+  /** Town-based quiz displayed and controlled by the map. */
+  quiz: TownQuiz;
+
+  /** Country-specific camera and scoring configuration for the town quiz. */
+  townConfig: TownCountryConfig;
 };
 
 /**
- * Props used by the location-based town quiz map implementation.
+ * Props accepted by the shared client-side quiz map boundary.
+ *
+ * The discriminated union guarantees that each quiz kind is paired with the
+ * configuration required by its corresponding map implementation.
  */
-type TownQuizMapClientProps = Omit<QuizMapClientProps, "quiz"> & {
-  /** Town quiz displayed and controlled by the map. */
-  quiz: TownQuiz;
-};
+type QuizMapClientProps =
+  FeatureQuizMapClientProps | TownQuizMapClientProps;
 
 /**
  * No-op subscription used by `useSyncExternalStore` to detect hydration.
@@ -111,28 +137,30 @@ export default function QuizMapClient(props: QuizMapClientProps) {
 }
 
 /**
- * Routes a hydrated quiz to the interaction model required by its quiz kind.
+ * Routes a hydrated quiz to the client implementation associated with its
+ * interaction model.
  *
- * Keeping the feature and town implementations in separate components allows
- * each implementation to use its own hooks and data model without weakening
- * the shared `Quiz` type or conditionally calling React hooks.
+ * Feature quizzes use the existing GeoJSON feature-map infrastructure, while
+ * town quizzes use the dedicated point-location quiz infrastructure.
  *
- * @param props - Hydrated quiz map configuration.
- * @returns The map implementation belonging to the quiz kind.
+ * @param props - Fully resolved quiz and configuration properties.
+ * @returns The hydrated client implementation for the requested quiz kind.
  */
 function HydratedQuizMapClient(props: QuizMapClientProps) {
-  if (props.quiz.kind === "town") {
+  if (props.kind === "town") {
     return (
       <HydratedTownQuizMapClient
+        kind={props.kind}
         countryId={props.countryId}
         quiz={props.quiz}
-        mapConfig={props.mapConfig}
+        townConfig={props.townConfig}
       />
     );
   }
 
   return (
     <HydratedFeatureQuizMapClient
+      kind={props.kind}
       countryId={props.countryId}
       quiz={props.quiz}
       mapConfig={props.mapConfig}
@@ -554,7 +582,7 @@ function HydratedFeatureQuizMapClient({
   return (
     <div className="relative h-full w-full">
       {/* Interactive quiz map */}
-      <QuizMap
+      <FeatureQuizMap
         mapConfig={mapConfig}
         quiz={filteredActiveQuiz}
         quizSettings={settings}
@@ -636,18 +664,70 @@ function HydratedFeatureQuizMapClient({
  * @returns An empty map-sized container until the town quiz engine is added.
  */
 function HydratedTownQuizMapClient({
-  countryId,
+  // countryId,
   quiz,
-  mapConfig,
+  townConfig,
 }: TownQuizMapClientProps) {
-  /*
-   * These values will be used when the town quiz map implementation is added.
-   * Referencing them here avoids leaving the component's intended inputs
-   * undocumented while it is temporarily a placeholder.
-   */
-  void countryId;
-  void quiz;
-  void mapConfig;
+  const {
+    currentQuestion,
+    lastResult,
 
-  return <div className="h-full w-full" />;
+    answeredCount,
+    questionCount,
+
+    averageScore,
+    totalDistanceKm,
+
+    isActive,
+    isFinished,
+
+    startQuiz,
+    skipQuestion,
+    stopQuiz,
+    restartQuiz,
+
+    submitGuess,
+  } = useTownQuiz({
+    towns: quiz.towns,
+    maxErrorKm: townConfig.maxErrorKm,
+  });
+
+  /**
+   * Starts a new town quiz after leaving Show Answers mode.
+   */
+  function handleStartQuiz(): void {
+    startQuiz();
+  }
+
+  return (
+    <div className="relative h-full w-full">
+      <TownQuizMap
+        townConfig={townConfig}
+        isGuessingEnabled={isActive && currentQuestion !== undefined}
+        onGuess={submitGuess}
+      />
+
+      <TownQuizOverlay
+        quizName={quiz.name}
+        currentTownName={currentQuestion?.name}
+
+        answeredCount={answeredCount}
+        questionCount={questionCount}
+
+        lastScore={lastResult?.score}
+        lastDistanceKm={lastResult?.distanceKm}
+
+        averageScore={averageScore}
+        totalDistanceKm={totalDistanceKm}
+
+        isActive={isActive}
+        isFinished={isFinished}
+
+        onStart={handleStartQuiz}
+        onSkip={skipQuestion}
+        onStop={stopQuiz}
+        onRestart={restartQuiz}
+      />
+    </div>
+  );
 }

@@ -17,7 +17,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { getCountry } from "@/countries";
-import { getCountryQuizzes } from "@/quiz/quizzes";
+import { getCountryQuizListings } from "@/quiz/quizzes";
 
 /**
  * Route parameters supplied by Next.js for a country page.
@@ -61,7 +61,10 @@ export default async function CountryPage({
     notFound();
   }
 
-  const quizzes = getCountryQuizzes(countryId);
+  const quizListings = await getCountryQuizListings(
+    countryId,
+    country.name,
+  );
 
   /**
    * General country information displayed in the information card.
@@ -171,7 +174,7 @@ export default async function CountryPage({
             Quizzes
           </h2>
 
-          {quizzes.length === 0 ? (
+          {quizListings.length === 0 ? (
             /* Empty quiz state */
             <p className="text-center text-lg text-gray-500">
               Quizzes coming soon
@@ -179,13 +182,13 @@ export default async function CountryPage({
           ) : (
             /* Quiz links */
             <div className="flex flex-col items-center gap-3">
-              {quizzes.map((quiz) => (
+              {quizListings.map((quizListing) => (
                 <Link
-                  key={quiz.id}
-                  href={`/${country.id}/${quiz.id}`}
+                  key={quizListing.id}
+                  href={`/${country.id}/${quizListing.id}`}
                   className="w-full max-w-xl rounded-lg border px-6 py-4 text-center font-medium shadow-sm transition hover:bg-gray-50 hover:text-black"
                 >
-                  {quiz.name}
+                  {quizListing.name}
                 </Link>
               ))}
             </div>

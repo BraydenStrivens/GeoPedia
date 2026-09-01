@@ -24,7 +24,7 @@ import type { QuizMode } from "@/types/quizSettings";
 /**
  * Dependencies required by `useQuizMapInteractions`.
  */
-type UseQuizMapInteractionsParams = {
+type UseFeatureQuizMapInteractionsParams = {
   /** MapLibre instance created by `useMap`. */
   mapRef: RefObject<maplibregl.Map | null>;
 
@@ -83,7 +83,7 @@ type UseQuizMapInteractionsParams = {
  *
  * @param params - Ready map state, runtime refs, and quiz callbacks.
  */
-export function useQuizMapInteractions({
+export function useFeatureQuizMapInteractions({
   mapRef,
   isMapReady,
   hover,
@@ -99,7 +99,7 @@ export function useQuizMapInteractions({
   setHoveredFeatureId,
   setIncorrectSelection,
   showIncorrectSelectionRef,
-}: UseQuizMapInteractionsParams): void {
+}: UseFeatureQuizMapInteractionsParams): void {
   useEffect(() => {
     const map = mapRef.current;
 

@@ -30,13 +30,13 @@ import { useEffect, useRef, useState } from "react";
 import IncorrectSelectionPopup from "@/components/map/IncorrectSelectionPopup";
 import QuizOverlay from "@/components/quiz/overlay/FeatureQuizOverlay";
 import { useAnswerLabels } from "@/maps/hooks/feature/useAnswerLabels";
-import { useQuizFeatureColors } from "@/maps/hooks/feature/useFeatureQuizColors";
-import { useQuizMapInteractions } from "@/maps/hooks/feature/useFeatureQuizMapInteractions";
+import { useFeatureQuizColors } from "@/maps/hooks/feature/useFeatureQuizColors";
+import { useFeatureQuizMap } from "@/maps/hooks/feature/useFeatureQuizMap";
+import { useFeatureQuizMapInteractions } from "@/maps/hooks/feature/useFeatureQuizMapInteractions";
 import { useIncorrectSelection } from "@/maps/hooks/feature/useIncorrectSelection";
 import { useManualSelectionColors } from "@/maps/hooks/feature/useManualSelectionColors";
 import { useMapFeatureFilter } from "@/maps/hooks/feature/useMapFeatureFilter";
 import { useLatestRef } from "@/maps/hooks/useLatestRef";
-import { useMap } from "@/maps/hooks/useMap";
 import { useMapDisplaySettings } from "@/maps/hooks/useMapDisplaySettings";
 import type { MapConfig, QuizMapClickBehavior } from "@/maps/types";
 import { useQuiz } from "@/quiz/hooks/useFeatureQuiz";
@@ -122,7 +122,7 @@ function ignoreFeatureSelection(_featureId: string): void {}
  * callbacks.
  * @returns Interactive quiz map and quiz-specific overlay UI.
  */
-export default function QuizMap({
+export default function FeatureQuizMap({
   mapConfig,
   quiz,
   quizSettings,
@@ -250,7 +250,7 @@ export default function QuizMap({
   }
 
   /** Creates and owns the generic MapLibre instance. */
-  const { mapRef, isMapReady } = useMap({
+  const { mapRef, isMapReady } = useFeatureQuizMap({
     containerRef: mapContainerRef,
 
     mapConfig,
@@ -261,7 +261,7 @@ export default function QuizMap({
   });
 
   /** Registers quiz-specific geographic hover and click interactions. */
-  useQuizMapInteractions({
+  useFeatureQuizMapInteractions({
     mapRef,
     isMapReady,
 
@@ -296,7 +296,7 @@ export default function QuizMap({
   });
 
   /** Synchronizes quiz-result feature coloring. */
-  useQuizFeatureColors({
+  useFeatureQuizColors({
     mapRef,
     isMapReady,
 

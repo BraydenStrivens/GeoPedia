@@ -18,7 +18,7 @@ import type { QuizSettings } from "@/types/quizSettings";
 /**
  * Values required to synchronize quiz-result feature coloring.
  */
-type UseQuizFeatureColorsParams = {
+type UseFeatureQuizColorsParams = {
   /** Current MapLibre map instance. */
   mapRef: RefObject<MapLibreMap | null>;
 
@@ -50,7 +50,7 @@ type UseQuizFeatureColorsParams = {
  *
  * @param params - Map, quiz, and result state used to calculate feature color.
  */
-export function useQuizFeatureColors({
+export function useFeatureQuizColors({
   mapRef,
   isMapReady,
   quiz,
@@ -59,7 +59,7 @@ export function useQuizFeatureColors({
   answerStatuses,
   lastAnsweredAnswer,
   isShowingAnswers,
-}: UseQuizFeatureColorsParams): void {
+}: UseFeatureQuizColorsParams): void {
   useEffect(() => {
     const map = mapRef.current;
 

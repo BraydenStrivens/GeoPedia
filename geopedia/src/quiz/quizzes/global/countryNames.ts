@@ -9,7 +9,7 @@
  * data or generator and rerun the script instead.
  */
 
-import type { Quiz } from "@/types/quiz";
+import type { FeatureQuiz } from "@/types/quiz";
 
 /**
  * Tests recognition of countries by name on GeoPedia's global country map.
@@ -17,7 +17,7 @@ import type { Quiz } from "@/types/quiz";
  * Each question displays a country name and expects the user to select the
  * corresponding geographic country.
  */
-export const countryNamesQuiz: Quiz = {
+export const countryNamesQuiz: FeatureQuiz = {
   id: "country-names",
   name: "Country Names",
 

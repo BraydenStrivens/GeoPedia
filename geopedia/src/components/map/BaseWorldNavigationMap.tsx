@@ -22,9 +22,9 @@ import "maplibre-gl/dist/maplibre-gl.css";
 
 import * as maplibregl from "maplibre-gl";
 import { useRouter } from "next/navigation";
-import { useCallback, useRef, useState } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 
-import { useMap } from "@/maps/hooks/useMap";
+import { useFeatureQuizMap } from "@/maps/hooks/feature/useFeatureQuizMap";
 import {
   type HoveredNavigationCountry,
   useWorldNavigationInteractions,
@@ -39,6 +39,15 @@ maplibregl.setWorkerUrl("/maplibre-gl-worker.mjs");
 type BaseWorldNavigationMapProps = {
   /** World-country map configuration used by the navigation map. */
   mapConfig: MapConfig;
+
+  /**
+   * Country IDs containing at least one available feature or town quiz.
+   *
+   * Quiz availability is resolved by the server before this client-side map
+   * renders so MapLibre interactions can perform synchronous availability
+   * checks.
+   */
+  countryIdsWithQuizzes: string[];
 };
 
 /**
@@ -49,8 +58,20 @@ type BaseWorldNavigationMapProps = {
  */
 export default function BaseWorldNavigationMap({
   mapConfig,
+  countryIdsWithQuizzes,
 }: BaseWorldNavigationMapProps) {
   const router = useRouter();
+
+  /** Provides constant-time quiz availability checks for MapLibre interactions. */
+  const countryQuizIds = useMemo(
+    () =>
+      new Set(
+        countryIdsWithQuizzes.map((countryId) =>
+          countryId.toLowerCase(),
+        ),
+      ),
+    [countryIdsWithQuizzes],
+  );
 
   /** DOM element into which MapLibre creates its map. */
   const mapContainerRef = useRef<HTMLDivElement>(null);
@@ -79,7 +100,7 @@ export default function BaseWorldNavigationMap({
   );
 
   /** Creates the generic MapLibre map and geographic source/layers. */
-  const { mapRef, isMapReady } = useMap({
+  const { mapRef, isMapReady } = useFeatureQuizMap({
     containerRef: mapContainerRef,
 
     mapConfig,
@@ -98,6 +119,7 @@ export default function BaseWorldNavigationMap({
     isMapReady,
 
     labelProperty: mapConfig.hover?.labelProperty ?? "name",
+    countryIdsWithQuizzes: countryQuizIds,
 
     navigateToCountry,
     setHoveredCountry,

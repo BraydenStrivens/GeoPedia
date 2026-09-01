@@ -11,12 +11,12 @@
  */
 
 import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usSubdivisions";
-import type { Quiz } from "@/types/quiz";
+import type { FeatureQuiz } from "@/types/quiz";
 
 /**
  * Quiz definition for identifying US telephone area codes.
  */
-export const usAreaCodesQuiz: Quiz = {
+export const usAreaCodesQuiz: FeatureQuiz = {
   id: "us-area-codes",
   name: "US Area Codes",
 

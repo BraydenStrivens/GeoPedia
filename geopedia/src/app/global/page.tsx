@@ -10,7 +10,7 @@
 
 import Link from "next/link";
 
-import { getGlobalQuizzes } from "@/quiz/quizzes";
+import { getGlobalQuizListings } from "@/quiz/quizzes";
 
 /**
  * Displays GeoPedia's available global geography quizzes.
@@ -18,7 +18,7 @@ import { getGlobalQuizzes } from "@/quiz/quizzes";
  * @returns The Global overview page.
  */
 export default function GlobalPage() {
-  const quizzes = getGlobalQuizzes();
+  const quizListings = getGlobalQuizListings();
 
   return (
     <main className="flex min-h-screen justify-center px-6 py-12">
@@ -40,7 +40,7 @@ export default function GlobalPage() {
             Quizzes
           </h2>
 
-          {quizzes.length === 0 ? (
+          {quizListings.length === 0 ? (
             /* Empty quiz state */
             <p className="text-center text-lg text-gray-500">
               Quizzes coming soon
@@ -48,13 +48,13 @@ export default function GlobalPage() {
           ) : (
             /* Quiz links */
             <div className="flex flex-col items-center gap-3">
-              {quizzes.map((quiz) => (
+              {quizListings.map((quizListing) => (
                 <Link
-                  key={quiz.id}
-                  href={`/global/${quiz.id}`}
+                  key={quizListing.id}
+                  href={`/global/${quizListing.id}`}
                   className="w-full max-w-xl rounded-lg border px-6 py-4 text-center font-medium shadow-sm transition hover:bg-gray-50 hover:text-black"
                 >
-                  {quiz.name}
+                  {quizListing.name}
                 </Link>
               ))}
             </div>

@@ -9,7 +9,7 @@
  * and rerun the script instead.
  */
 
-import type { Quiz } from "@/types/quiz";
+import type { FeatureQuiz } from "@/types/quiz";
 
 /**
  * Tests recognition of countries from their capitals.
@@ -17,7 +17,7 @@ import type { Quiz } from "@/types/quiz";
  * Each question displays a capital and expects the user to select the country
  * to which that capital belongs.
  */
-export const countryCapitalsQuiz: Quiz = {
+export const countryCapitalsQuiz: FeatureQuiz = {
   id: "country-capitals",
   name: "Country Capitals",
 

@@ -12,12 +12,12 @@
  */
 
 import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usSubdivisions";
-import type { Quiz } from "@/types/quiz";
+import type { FeatureQuiz } from "@/types/quiz";
 
 /**
  * Quiz definition for identifying US 3-digit ZIP-code regions.
  */
-export const usZip3Quiz: Quiz = {
+export const usZip3Quiz: FeatureQuiz = {
   id: "us-zip-3",
   name: "US 3-Digit ZIP Codes",
 

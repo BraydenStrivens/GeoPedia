@@ -11,12 +11,12 @@
  */
 
 import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usSubdivisions";
-import type { Quiz } from "@/types/quiz";
+import type { FeatureQuiz } from "@/types/quiz";
 
 /**
  * Quiz definition for identifying US counties nationwide.
  */
-export const usCountiesQuiz: Quiz = {
+export const usCountiesQuiz: FeatureQuiz = {
   id: "us-counties",
   name: "US Counties",
 

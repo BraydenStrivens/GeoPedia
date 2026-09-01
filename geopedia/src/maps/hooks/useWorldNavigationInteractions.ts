@@ -23,7 +23,6 @@ import {
   FEATURE_FILL_LAYER_ID,
   FEATURE_SOURCE_ID,
 } from "@/maps/constants/mapLayerIds";
-import { hasCountryQuizzes } from "@/quiz/quizzes";
 
 /**
  * Base fill placed over countries that currently have no registered quizzes.
@@ -72,6 +71,14 @@ type UseWorldNavigationInteractionsParams = {
 
   /** GeoJSON property containing the user-facing country name. */
   labelProperty: string;
+
+  /**
+   * Country IDs containing at least one available feature or town quiz.
+   *
+   * Quiz availability is resolved before the interaction hook runs so hover
+   * and click handlers can perform immediate synchronous availability checks.
+   */
+  countryIdsWithQuizzes: ReadonlySet<string>;
 
   /** Navigates to a country route after an available country is selected. */
   navigateToCountry: (countryId: string) => void;
@@ -152,11 +159,29 @@ function findFeatureBorderLayerId(
 }
 
 /**
+ * Determines whether a country belongs to the resolved set of countries with
+ * available quizzes.
+ *
+ * @param countryId - Country whose quiz availability should be checked.
+ * @param countryIdsWithQuizzes - Resolved set of quiz-enabled country IDs.
+ * @returns Whether the country contains at least one available quiz.
+ */
+function hasCountryQuizzes(
+  countryId: string,
+  countryIdsWithQuizzes: ReadonlySet<string>,
+): boolean {
+  return countryIdsWithQuizzes.has(countryId.toLowerCase());
+}
+
+/**
  * Marks each country feature with its current quiz availability.
  *
  * @param map - Ready MapLibre map.
  */
-function applyCountryAvailabilityState(map: maplibregl.Map): void {
+function applyCountryAvailabilityState(
+  map: maplibregl.Map,
+  countryIdsWithQuizzes: ReadonlySet<string>,
+): void {
   const features = map.querySourceFeatures(FEATURE_SOURCE_ID);
 
   const processedIds = new Set<string>();
@@ -180,7 +205,10 @@ function applyCountryAvailabilityState(map: maplibregl.Map): void {
         id: feature.id,
       },
       {
-        hasQuizzes: hasCountryQuizzes(featureId),
+        hasQuizzes: hasCountryQuizzes(
+          featureId,
+          countryIdsWithQuizzes,
+        ),
       },
     );
   }
@@ -249,6 +277,7 @@ export function useWorldNavigationInteractions({
   mapRef,
   isMapReady,
   labelProperty,
+  countryIdsWithQuizzes,
   navigateToCountry,
   setHoveredCountry,
 }: UseWorldNavigationInteractionsParams): void {
@@ -261,7 +290,7 @@ export function useWorldNavigationInteractions({
 
     const map = currentMap;
 
-    applyCountryAvailabilityState(map);
+    applyCountryAvailabilityState(map, countryIdsWithQuizzes);
 
     addUnavailableCountryLayers(map);
 
@@ -308,7 +337,10 @@ export function useWorldNavigationInteractions({
 
       const countryId = String(feature.id);
 
-      const countryHasQuizzes = hasCountryQuizzes(countryId);
+      const countryHasQuizzes = hasCountryQuizzes(
+        countryId,
+        countryIdsWithQuizzes,
+      );
 
       /*
        * Moving between countries always clears the previous visual hover state.
@@ -392,7 +424,7 @@ export function useWorldNavigationInteractions({
        * Unavailable countries remain visible and hoverable for identification,
        * but they do not navigate anywhere.
        */
-      if (!hasCountryQuizzes(countryId)) {
+      if (!hasCountryQuizzes(countryId, countryIdsWithQuizzes)) {
         return;
       }
 
@@ -421,6 +453,7 @@ export function useWorldNavigationInteractions({
     mapRef,
     isMapReady,
     labelProperty,
+    countryIdsWithQuizzes,
     navigateToCountry,
     setHoveredCountry,
   ]);

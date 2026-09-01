@@ -58,6 +58,7 @@ export default async function GlobalQuizPage({
     <main className="h-[calc(100vh-3.5rem)] w-screen">
       {/* Client-side interactive quiz map */}
       <QuizMapClient
+        kind={"feature"}
         countryId="global"
         mapConfig={mapConfig}
         quiz={quiz}

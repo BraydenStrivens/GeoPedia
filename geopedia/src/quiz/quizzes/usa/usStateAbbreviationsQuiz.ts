@@ -8,12 +8,12 @@
  * The quiz also supports property-based grouping by US region.
  */
 
-import type { Quiz } from "@/types/quiz";
+import type { FeatureQuiz } from "@/types/quiz";
 
 /**
  * Quiz definition for identifying US states by postal abbreviation.
  */
-export const usStateAbbreviationsQuiz: Quiz = {
+export const usStateAbbreviationsQuiz: FeatureQuiz = {
   id: "us-state-abbreviations",
   name: "US State Abbreviations",
 
