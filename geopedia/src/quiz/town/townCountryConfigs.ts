@@ -75,7 +75,7 @@ export const townCountryConfigs: Record<string, TownCountryConfig> = {
       center: [2.2, 46.2],
       zoom: 5,
     },
-    maxErrorKm: 150,
+    maxErrorKm: 500,
   },
 
   jpn: {
@@ -83,6 +83,6 @@ export const townCountryConfigs: Record<string, TownCountryConfig> = {
       center: [138, 37],
       zoom: 4.5,
     },
-    maxErrorKm: 250,
+    maxErrorKm: 600,
   },
 };

@@ -1,5 +1,5 @@
 /**
- * Displays GeoPedia's floating quiz Settings and Groups controls.
+ * Displays GeoPedia's floating quiz Settings and Groups controls for feature quizzes.
  *
  * This component owns presentation only. The quiz client remains responsible
  * for deciding whether panels are open, whether Groups may be opened, and how
@@ -10,12 +10,12 @@
 
 import type { ReactNode } from "react";
 
-import QuizPanelButton from "./QuizPanelButton";
+import QuizPanelButton from "../QuizPanelButton";
 
 /**
  * Props required by the floating quiz-panel controls.
  */
-type QuizPanelControlsProps = {
+type FeatureQuizPanelControlsProps = {
   /** Whether the Settings panel is currently open. */
   isSettingsOpen: boolean;
 
@@ -48,7 +48,7 @@ type QuizPanelControlsProps = {
  * @param props - Panel state, callbacks, and rendered panel content.
  * @returns Floating quiz-panel controls.
  */
-export default function QuizPanelControls({
+export default function FeatureQuizPanelControls({
   isSettingsOpen,
   isGroupsOpen,
   isGroupsBlockedMessageOpen,
@@ -57,7 +57,7 @@ export default function QuizPanelControls({
   onCloseGroupsBlockedMessage,
   settingsPanel,
   groupsPanel,
-}: QuizPanelControlsProps) {
+}: FeatureQuizPanelControlsProps) {
   return (
     <div className="absolute right-3 top-3 z-30 flex max-w-[calc(100vw-1.5rem)] flex-col items-end gap-5">
       {/* Panel toggle buttons */}

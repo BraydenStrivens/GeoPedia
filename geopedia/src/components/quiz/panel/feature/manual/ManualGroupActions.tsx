@@ -10,7 +10,7 @@
 
 "use client";
 
-import GroupMetadataFields from "../../shared/GroupMetadataFields";
+import GroupMetadataFields from "../shared/GroupMetadataFields";
 
 /**
  * Props required by the manual-group action controls.

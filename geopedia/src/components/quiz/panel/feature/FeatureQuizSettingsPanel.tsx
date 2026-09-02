@@ -1,5 +1,5 @@
 /**
- * Displays and updates user-configurable settings for a single quiz.
+ * Displays and updates user-configurable settings for a single feature quiz.
  *
  * The panel contains:
  *
@@ -22,7 +22,7 @@ import type { QuizMode, QuizSettings } from "@/types/quizSettings";
 /**
  * Props required by the quiz settings panel.
  */
-type QuizSettingsPanelProps = {
+type FeatureQuizSettingsPanelProps = {
   /** Current settings displayed by the panel. */
   settings: QuizSettings;
 
@@ -33,7 +33,7 @@ type QuizSettingsPanelProps = {
 /**
  * Describes one option displayed by the quiz-mode selector.
  */
-type QuizModeOption = {
+type FeatureQuizModeOption = {
   /** Quiz mode represented by the option. */
   value: QuizMode;
 
@@ -68,7 +68,7 @@ type BooleanSettingOption = {
 /**
  * Quiz modes available through the horizontal mode selector.
  */
-const quizModeOptions: QuizModeOption[] = [
+const quizModeOptions: FeatureQuizModeOption[] = [
   {
     value: "normal",
     label: "Normal",
@@ -139,10 +139,10 @@ function getModeBackgroundTransform(mode: QuizMode): string {
  * @param props.onChange - Callback receiving the complete updated settings.
  * @returns The quiz settings panel.
  */
-export default function QuizSettingsPanel({
+export default function FeatureQuizSettingsPanel({
   settings,
   onChange,
-}: QuizSettingsPanelProps) {
+}: FeatureQuizSettingsPanelProps) {
   /**
    * Setting whose contextual help popup is currently visible.
    *

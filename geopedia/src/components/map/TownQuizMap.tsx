@@ -1,14 +1,17 @@
 /**
  * Renders the interactive geographic map used by GeoPedia town quizzes.
  *
- * Unlike feature quizzes, town quizzes are answered by clicking arbitrary
- * geographic coordinates rather than selecting predefined GeoJSON polygons.
- * This component therefore owns only the town-specific map surface and exposes
- * raw MapLibre click coordinates to the town quiz engine.
+ * Town quizzes are answered by clicking arbitrary geographic coordinates rather
+ * than selecting predefined GeoJSON polygons. This component therefore owns the
+ * town-specific map surface, forwards raw MapLibre click coordinates to the quiz
+ * runtime, and synchronizes GeoPedia-controlled town labels.
  *
- * Guess scoring, question progression, and result visualization are kept
- * outside this component so the map remains focused on rendering and geographic
- * input.
+ * MapTiler's own settlement labels are always suppressed for town quizzes.
+ * Normal mode renders only towns belonging to the currently active quiz set,
+ * while Hard mode hides those custom labels.
+ *
+ * Guess scoring, question progression, filtering, and result visualization
+ * remain outside the map component.
  */
 
 "use client";
@@ -16,42 +19,63 @@
 import type { MapMouseEvent } from "maplibre-gl";
 import { useCallback, useEffect, useRef } from "react";
 
+import type { TownQuizMode } from "@/components/quiz/controls/town/TownQuizModeControl";
+import { useTownQuizLabels } from "@/maps/hooks/town/useTownQuizLabels";
 import { useTownQuizMap } from "@/maps/hooks/town/useTownQuizMap";
 import type { TownCountryConfig } from "@/quiz/town/townCountryConfigs";
-import { GeographicCoordinate } from "@/quiz/town/townScoring";
+import type { GeographicCoordinate } from "@/quiz/town/townScoring";
+import type { TownQuizTown } from "@/types/quiz";
 
+/**
+ * Props required by the town quiz map.
+ */
 type TownQuizMapProps = {
-  /** Country-specific geographic configuration for the town quiz. */
+  /** Country-specific camera and geographic scoring configuration. */
   townConfig: TownCountryConfig;
 
-  /** Called whenever the user selects a geographic location on the map. */
+  /** Towns currently included in the active quiz/filter. */
+  towns: TownQuizTown[];
+
+  /** Current learner-friendly or recall-only display mode. */
+  mode: TownQuizMode;
+
+  /** Called whenever the user submits a map coordinate as their answer. */
   onGuess: (guess: GeographicCoordinate) => void;
 
-  /** Determines whether map clicks should currently submit guesses. */
+  /** Whether map clicks should currently submit town guesses. */
   isGuessingEnabled: boolean;
 };
 
 /**
- * Displays the town quiz map and converts MapLibre click events into geographic
- * guesses.
- *
- * @param props - Town quiz map configuration and guess callback.
- * @returns Interactive MapLibre town quiz surface.
+ * Renders the shared MapLibre town quiz surface.
  */
 export default function TownQuizMap({
   townConfig,
+  towns,
+  mode,
   onGuess,
   isGuessingEnabled,
 }: TownQuizMapProps) {
+  /** DOM element into which MapLibre creates the map. */
   const mapContainerRef = useRef<HTMLDivElement | null>(null);
 
+  /** Creates and owns the country-specific town map. */
   const { mapRef, isMapReady } = useTownQuizMap({
     containerRef: mapContainerRef,
+
     initialView: townConfig.initialView,
   });
 
+  /** Ensures only GeoPedia-controlled quiz-town labels are available. */
+  useTownQuizLabels({
+    mapRef,
+    isMapReady,
+    towns,
+    mode,
+  });
+
   /**
-   * Converts a MapLibre click into the coordinate representation consumed by
+   * Converts a MapLibre click into the geographic-coordinate shape consumed by
    * the town quiz engine.
    */
   const handleMapClick = useCallback(
@@ -68,6 +92,10 @@ export default function TownQuizMap({
     [isGuessingEnabled, onGuess],
   );
 
+  /**
+   * Registers the town-guess click handler while preserving one listener across
+   * each React render.
+   */
   useEffect(() => {
     const map = mapRef.current;
 
@@ -80,7 +108,7 @@ export default function TownQuizMap({
     return () => {
       map.off("click", handleMapClick);
     };
-  });
+  }, [isMapReady, mapRef, handleMapClick]);
 
   return (
     <div className="relative h-full w-full">

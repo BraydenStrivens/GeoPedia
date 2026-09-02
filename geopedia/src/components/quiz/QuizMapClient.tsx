@@ -22,9 +22,10 @@
 import { useMemo, useState, useSyncExternalStore } from "react";
 
 import FeatureQuizMap from "@/components/map/FeatureQuizMap";
-import QuizPanelControls from "@/components/quiz/controls/QuizPanelControls";
-import QuizGroupsPanel from "@/components/quiz/groupings/feature/FeatureQuizGroupsPanel";
-import QuizSettingsPanel from "@/components/quiz/QuizSettingsPanel";
+import FeatureQuizPanelControls from "@/components/quiz/controls/feature/FeatureQuizPanelControls";
+import FeatureQuizGroupsPanel from "@/components/quiz/panel/feature/FeatureQuizGroupsPanel";
+import FeatureQuizSettingsPanel from "@/components/quiz/panel/feature/FeatureQuizSettingsPanel";
+import TownQuizFilterPanel from "@/components/quiz/panel/town/TownQuizFilterPanel";
 import { getFeatureAnswers } from "@/maps/labels/feature/featureAnswers";
 import type { MapConfig, QuizMapClickBehavior } from "@/maps/types";
 import { useActiveQuizGroup } from "@/quiz/groupings/feature/hooks/useActiveQuizGroup";
@@ -35,12 +36,17 @@ import type {
   ActiveQuizGroup,
   SavedQuizGroup,
 } from "@/quiz/groupings/feature/types";
-import { useQuizSettings } from "@/quiz/hooks/useQuizSettings";
+import { getTownPopulationGroup } from "@/quiz/groupings/town/townPopulationGroups";
+import { useFeatureQuizSettings } from "@/quiz/hooks/useFeatureQuizSettings";
 import { useTownQuiz } from "@/quiz/hooks/useTownQuiz";
 import { TownCountryConfig } from "@/quiz/town/townCountryConfigs";
 import type { FeatureQuiz, TownQuiz } from "@/types/quiz";
 
 import TownQuizMap from "../map/TownQuizMap";
+import TownQuizModeControl, {
+  type TownQuizMode,
+} from "./controls/town/TownQuizModeControl";
+import TownQuizPanelControls from "./controls/town/TownQuizPanelControls";
 import TownQuizOverlay from "./overlay/TownQuizOverlay";
 
 /**
@@ -187,7 +193,7 @@ function HydratedFeatureQuizMapClient({
   mapConfig,
 }: FeatureQuizMapClientProps) {
   /** Persisted settings belonging specifically to this country and quiz. */
-  const { settings, setSettings } = useQuizSettings(
+  const { settings, setSettings } = useFeatureQuizSettings(
     countryId,
     quiz.id,
   );
@@ -600,7 +606,7 @@ function HydratedFeatureQuizMapClient({
       />
 
       {/* Floating Settings and Groups controls */}
-      <QuizPanelControls
+      <FeatureQuizPanelControls
         isSettingsOpen={isSettingsOpen}
         isGroupsOpen={isGroupsOpen}
         isGroupsBlockedMessageOpen={isGroupsBlockedMessageOpen}
@@ -610,13 +616,13 @@ function HydratedFeatureQuizMapClient({
           setIsGroupsBlockedMessageOpen(false)
         }
         settingsPanel={
-          <QuizSettingsPanel
+          <FeatureQuizSettingsPanel
             settings={settings}
             onChange={setSettings}
           />
         }
         groupsPanel={
-          <QuizGroupsPanel
+          <FeatureQuizGroupsPanel
             quiz={quiz}
             promoteId={mapConfig.promoteId}
             featureCollection={featureCollection}
@@ -668,6 +674,40 @@ function HydratedTownQuizMapClient({
   quiz,
   townConfig,
 }: TownQuizMapClientProps) {
+  /**
+   * Number of population-ranked towns currently participating in the quiz.
+   *
+   * The complete generated dataset is active initially.
+   */
+  const [activeTownCount, setActiveTownCount] = useState(
+    quiz.towns.length,
+  );
+
+  /** Whether the floating town Filter panel is currently visible. */
+  const [isFilterOpen, setIsFilterOpen] = useState(false);
+
+  /**
+   * Whether the user is currently being told why the Filter panel cannot be
+   * opened.
+   */
+  const [isFilterBlockedMessageOpen, setIsFilterBlockedMessageOpen] =
+    useState(false);
+
+  /**
+   * Town records consumed by both the quiz engine and Normal-mode label layer.
+   *
+   * Full Quiz preserves the generated dataset exactly. Numeric filters use the
+   * shared population-group helper so the national capital is included even when
+   * it falls outside the requested population cutoff.
+   */
+  const activeTowns = useMemo(() => {
+    if (activeTownCount === quiz.towns.length) {
+      return quiz.towns;
+    }
+
+    return getTownPopulationGroup(quiz.towns, activeTownCount);
+  }, [quiz.towns, activeTownCount]);
+
   const {
     currentQuestion,
     lastResult,
@@ -688,14 +728,62 @@ function HydratedTownQuizMapClient({
 
     submitGuess,
   } = useTownQuiz({
-    towns: quiz.towns,
+    towns: activeTowns,
     maxErrorKm: townConfig.maxErrorKm,
   });
 
   /**
-   * Starts a new town quiz after leaving Show Answers mode.
+   * Controls whether the town quiz displays GeoPedia's custom town labels.
+   *
+   * Mode intentionally resets to Normal whenever the page is recreated rather
+   * than being persisted through the feature-quiz settings system.
+   */
+  const [townQuizMode, setTownQuizMode] =
+    useState<TownQuizMode>("normal");
+
+  /**
+   * Applies the complete generated town dataset.
+   */
+  function useFullTownQuiz(): void {
+    setActiveTownCount(quiz.towns.length);
+  }
+
+  /**
+   * Applies a population-ranked town count.
+   *
+   * @param count - Number of towns that should participate in the quiz.
+   */
+  function applyTownCount(count: number): void {
+    setActiveTownCount(count);
+  }
+
+  /**
+   * Attempts to open or close the town Filter panel.
+   *
+   * Filtering cannot change while a quiz attempt is active because doing so would
+   * change both the active question collection and the Normal-mode town labels
+   * during gameplay.
+   *
+   * When filtering is blocked, display the same style of explanatory warning used
+   * when feature quiz Groups cannot be opened.
+   */
+  function toggleFilterPanel(): void {
+    if (isActive) {
+      setIsFilterBlockedMessageOpen(true);
+
+      return;
+    }
+
+    setIsFilterBlockedMessageOpen(false);
+    setIsFilterOpen((wasOpen) => !wasOpen);
+  }
+
+  /**
+   * Starts a town quiz after closing all Filter-related floating UI.
    */
   function handleStartQuiz(): void {
+    setIsFilterOpen(false);
+    setIsFilterBlockedMessageOpen(false);
     startQuiz();
   }
 
@@ -703,8 +791,37 @@ function HydratedTownQuizMapClient({
     <div className="relative h-full w-full">
       <TownQuizMap
         townConfig={townConfig}
+        towns={activeTowns}
+        mode={townQuizMode}
         isGuessingEnabled={isActive && currentQuestion !== undefined}
         onGuess={submitGuess}
+      />
+
+      {/* Town quiz map controls. */}
+      <TownQuizPanelControls
+        isFilterOpen={isFilterOpen}
+        isFilterBlockedMessageOpen={isFilterBlockedMessageOpen}
+        onToggleFilter={toggleFilterPanel}
+        onCloseFilterBlockedMessage={() => {
+          setIsFilterBlockedMessageOpen(false);
+        }}
+        modeControl={
+          <TownQuizModeControl
+            mode={townQuizMode}
+            onModeChange={setTownQuizMode}
+          />
+        }
+        filterPanel={
+          <TownQuizFilterPanel
+            availableTownCount={quiz.towns.length}
+            activeTownCount={activeTownCount}
+            onUseFullQuiz={useFullTownQuiz}
+            onApplyTownCount={applyTownCount}
+            onClose={() => {
+              setIsFilterOpen(false);
+            }}
+          />
+        }
       />
 
       <TownQuizOverlay

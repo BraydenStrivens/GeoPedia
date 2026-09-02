@@ -27,8 +27,8 @@ import type {
 } from "@/quiz/groupings/feature/types";
 import type { FeatureQuiz } from "@/types/quiz";
 
+import ManualSelectionSection from "./manual/ManualSelectionSection";
 import FullQuizSection from "./sections/FullQuizSection";
-import ManualSelectionSection from "./sections/manual/ManualSelectionSection";
 import PropertyGroupsSection from "./sections/property/PropertyGroupsSection";
 import SavedGroupsSection from "./sections/SavedGroupsSection";
 import GroupMetadataFields from "./shared/GroupMetadataFields";
@@ -36,7 +36,7 @@ import GroupMetadataFields from "./shared/GroupMetadataFields";
 /**
  * Props required by the quiz Groups panel.
  */
-type QuizGroupsPanelProps = {
+type FeatureQuizGroupsPanelProps = {
   /** Complete feature-quiz definition containing optional grouping configuration. */
   quiz: FeatureQuiz;
 
@@ -136,7 +136,7 @@ type QuizGroupsPanelProps = {
  * persistence callbacks.
  * @returns The complete Groups panel.
  */
-export default function QuizGroupsPanel({
+export default function FeatureQuizGroupsPanel({
   quiz,
   promoteId,
   featureCollection,
@@ -169,7 +169,7 @@ export default function QuizGroupsPanel({
   onToggleSavedGroup,
 
   isDisabled,
-}: QuizGroupsPanelProps) {
+}: FeatureQuizGroupsPanelProps) {
   /**
    * Scrollable Groups panel element.
    *

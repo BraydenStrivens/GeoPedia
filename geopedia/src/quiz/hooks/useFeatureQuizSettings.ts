@@ -28,7 +28,7 @@ type StoredQuizSettings = Record<string, QuizSettings>;
  * @param quizId - Unique identifier of the quiz within that country.
  * @returns A stable key used to store and retrieve the quiz's settings.
  */
-function createQuizSettingsKey(
+function createFeatureQuizSettingsKey(
   countryId: string,
   quizId: string,
 ): string {
@@ -46,8 +46,14 @@ function createQuizSettingsKey(
  * @param quizId - Unique identifier of the quiz.
  * @returns The current settings and their React state setter.
  */
-export function useQuizSettings(countryId: string, quizId: string) {
-  const quizSettingsKey = createQuizSettingsKey(countryId, quizId);
+export function useFeatureQuizSettings(
+  countryId: string,
+  quizId: string,
+) {
+  const quizSettingsKey = createFeatureQuizSettingsKey(
+    countryId,
+    quizId,
+  );
 
   /**
    * Loads the initial settings exactly once when this hook instance mounts.

@@ -15,7 +15,6 @@
  */
 
 "use client";
-import Image from "next/image";
 
 import QuizActionButton from "@/components/quiz/overlay/shared/QuizActionButton";
 import QuizControlButton from "@/components/quiz/overlay/shared/QuizControlButton";
