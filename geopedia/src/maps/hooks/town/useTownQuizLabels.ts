@@ -25,6 +25,7 @@ import type { RefObject } from "react";
 import { useEffect } from "react";
 
 import type { TownQuizMode } from "@/components/quiz/controls/town/TownQuizModeControl";
+import { TownQuizGuessResult } from "@/quiz/hooks/useTownQuiz";
 import type { TownQuizTown } from "@/types/quiz";
 
 /** GeoJSON source containing towns from the currently active quiz group. */
@@ -34,7 +35,17 @@ const TOWN_QUIZ_LABEL_SOURCE_ID = "town-quiz-labels-source";
 const TOWN_QUIZ_LABEL_LAYER_ID = "town-quiz-labels";
 
 /** Circle layer marking the exact coordinate of every displayed quiz town. */
-const TOWN_QUIZ_MARKER_LAYER_ID = "town-quiz-markers";
+export const TOWN_QUIZ_MARKER_LAYER_ID = "town-quiz-markers";
+
+const CORRECT_TOWN_COLOR = "#16a34a";
+
+const NORMAL_TOWN_TEXT_COLOR = "#141414";
+
+const NORMAL_TOWN_TEXT_HALO_COLOR = "#ffffff";
+
+const NORMAL_TOWN_MARKER_COLOR = "#ffffff";
+
+const NORMAL_TOWN_MARKER_STROKE_COLOR = "#1f2937";
 
 /**
  * MapTiler place-label layers that must never be visible during a town quiz.
@@ -64,6 +75,12 @@ type UseTownQuizLabelsParams = {
 
   /** Current Normal / Hard town quiz display mode. */
   mode: TownQuizMode;
+
+  /**
+   * Object containing data about the last question and the user's answer
+   * or `undefined` if no previous question has been answered.
+   */
+  lastResult: TownQuizGuessResult | undefined;
 };
 
 /**
@@ -166,8 +183,8 @@ function ensureTownLabelLayer(
          * light and dark map geography without becoming visually dominant.
          */
         "circle-radius": 3,
-        "circle-color": "#ffffff",
-        "circle-stroke-color": "#1f2937",
+        "circle-color": NORMAL_TOWN_MARKER_COLOR,
+        "circle-stroke-color": NORMAL_TOWN_MARKER_STROKE_COLOR,
         "circle-stroke-width": 1.5,
       },
     });
@@ -219,14 +236,78 @@ function ensureTownLabelLayer(
     },
 
     paint: {
-      // "text-color": "#1f2937",
-      // "text-halo-color": "rgba(255, 255, 255, 0.95)",
-      "text-color": "rgba(255, 255, 255, 0.95)",
-      "text-halo-color": "#242c38d7",
+      "text-color": NORMAL_TOWN_TEXT_COLOR,
+      "text-halo-color": NORMAL_TOWN_TEXT_HALO_COLOR,
       "text-halo-width": 1.5,
       "text-halo-blur": 0.5,
     },
   });
+}
+
+/**
+ * Creates a MapLibre paint expression that highlights the most recently
+ * answered town while preserving the normal color for every other town.
+ */
+function createCorrectTownColorExpression(
+  correctTownId: string | undefined,
+  normalColor: string,
+): maplibregl.ExpressionSpecification | string {
+  if (!correctTownId) {
+    return normalColor;
+  }
+
+  return [
+    "case",
+
+    ["==", ["get", "id"], correctTownId],
+
+    CORRECT_TOWN_COLOR,
+
+    normalColor,
+  ];
+}
+
+/**
+ * Applies the current town-quiz mode to one custom town layer.
+ *
+ * Normal mode exposes every town contained by the active quiz group. Hard mode
+ * hides those hints before a question is answered, but reveals the most
+ * recently answered town afterward so the player receives useful geographic
+ * feedback.
+ *
+ * @param map - Active MapLibre map.
+ * @param layerId - Custom town layer being filtered.
+ * @param mode - Current town quiz difficulty mode.
+ * @param correctTownId - Most recently answered town, when one exists.
+ */
+function applyTownLayerFilter(
+  map: maplibregl.Map,
+  layerId: string,
+  mode: TownQuizMode,
+  correctTownId: string | undefined,
+): void {
+  if (!map.getLayer(layerId)) {
+    return;
+  }
+
+  if (mode === "normal") {
+    map.setFilter(layerId, null);
+
+    return;
+  }
+
+  if (!correctTownId) {
+    /*
+     * An impossible ID hides every custom quiz town while keeping the layer
+     * itself loaded and ready for immediate result feedback.
+     */
+    map.setFilter(layerId, ["==", ["get", "id"], "__no-town__"]);
+
+    return;
+  }
+
+  /* Hard mode reveals only the correct town from the most recent answer. */
+  map.setFilter(layerId, ["==", ["get", "id"], correctTownId]);
 }
 
 /**
@@ -266,6 +347,7 @@ export function useTownQuizLabels({
   isMapReady,
   towns,
   mode,
+  lastResult,
 }: UseTownQuizLabelsParams): void {
   /**
    * Creates the custom source/layer once the MapLibre style becomes ready.
@@ -312,7 +394,7 @@ export function useTownQuizLabels({
       return;
     }
 
-    const visibility = mode === "normal" ? "visible" : "none";
+    const visibility = mode === "normal" ? "visible" : "visible"; // -------
 
     if (map.getLayer(TOWN_QUIZ_MARKER_LAYER_ID)) {
       map.setLayoutProperty(
@@ -329,5 +411,55 @@ export function useTownQuizLabels({
         visibility,
       );
     }
-  }, [isMapReady, mapRef, mode]);
+
+    const correctTownId = lastResult?.town.id;
+
+    /*
+     * Normal mode displays the complete active town set. Hard mode displays only
+     * the most recently answered town.
+     */
+    applyTownLayerFilter(
+      map,
+      TOWN_QUIZ_MARKER_LAYER_ID,
+      mode,
+      correctTownId,
+    );
+
+    applyTownLayerFilter(
+      map,
+      TOWN_QUIZ_LABEL_LAYER_ID,
+      mode,
+      correctTownId,
+    );
+
+    /*
+     * Highlight the most recently answered town in both Normal and Hard modes.
+     */
+    map.setPaintProperty(
+      TOWN_QUIZ_MARKER_LAYER_ID,
+      "circle-color",
+      createCorrectTownColorExpression(
+        correctTownId,
+        NORMAL_TOWN_MARKER_COLOR,
+      ),
+    );
+
+    map.setPaintProperty(
+      TOWN_QUIZ_MARKER_LAYER_ID,
+      "circle-stroke-color",
+      createCorrectTownColorExpression(
+        correctTownId,
+        NORMAL_TOWN_MARKER_STROKE_COLOR,
+      ),
+    );
+
+    map.setPaintProperty(
+      TOWN_QUIZ_LABEL_LAYER_ID,
+      "text-color",
+      createCorrectTownColorExpression(
+        correctTownId,
+        NORMAL_TOWN_TEXT_COLOR,
+      ),
+    );
+  }, [isMapReady, mapRef, mode, lastResult]);
 }

@@ -22,6 +22,8 @@ import { useCallback, useEffect, useRef } from "react";
 import type { TownQuizMode } from "@/components/quiz/controls/town/TownQuizModeControl";
 import { useTownQuizLabels } from "@/maps/hooks/town/useTownQuizLabels";
 import { useTownQuizMap } from "@/maps/hooks/town/useTownQuizMap";
+import { useTownQuizResult } from "@/maps/hooks/town/useTownQuizResult";
+import { TownQuizGuessResult } from "@/quiz/hooks/useTownQuiz";
 import type { TownCountryConfig } from "@/quiz/town/townCountryConfigs";
 import type { GeographicCoordinate } from "@/quiz/town/townScoring";
 import type { TownQuizTown } from "@/types/quiz";
@@ -39,6 +41,12 @@ type TownQuizMapProps = {
   /** Current learner-friendly or recall-only display mode. */
   mode: TownQuizMode;
 
+  /**
+   * Object containing data about the last question and the user's answer
+   * or `undefined` if no previous question has been answered.
+   */
+  lastResult: TownQuizGuessResult | undefined;
+
   /** Called whenever the user submits a map coordinate as their answer. */
   onGuess: (guess: GeographicCoordinate) => void;
 
@@ -53,6 +61,7 @@ export default function TownQuizMap({
   townConfig,
   towns,
   mode,
+  lastResult,
   onGuess,
   isGuessingEnabled,
 }: TownQuizMapProps) {
@@ -72,6 +81,13 @@ export default function TownQuizMap({
     isMapReady,
     towns,
     mode,
+    lastResult,
+  });
+
+  useTownQuizResult({
+    mapRef,
+    isMapReady,
+    lastResult,
   });
 
   /**

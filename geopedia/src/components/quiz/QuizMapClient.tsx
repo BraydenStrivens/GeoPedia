@@ -793,6 +793,7 @@ function HydratedTownQuizMapClient({
         townConfig={townConfig}
         towns={activeTowns}
         mode={townQuizMode}
+        lastResult={lastResult}
         isGuessingEnabled={isActive && currentQuestion !== undefined}
         onGuess={submitGuess}
       />
