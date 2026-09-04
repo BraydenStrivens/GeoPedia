@@ -21,6 +21,7 @@
     {
       "id": "2339354",
       "name": "Ibadan",
+      "nativeName": "Ìbàdàn",
       "latitude": 7.37756,
       "longitude": 3.90591,
       "population": 3649000,
@@ -93,6 +94,7 @@
     {
       "id": "2337639",
       "name": "Ilorin",
+      "nativeName": "Ìlọrin",
       "latitude": 8.49664,
       "longitude": 4.54214,
       "population": 1080000,
@@ -147,6 +149,7 @@
     {
       "id": "2325200",
       "name": "Oyo",
+      "nativeName": "Ọ̀yọ́",
       "latitude": 7.85367,
       "longitude": 3.93235,
       "population": 736072,
@@ -191,7 +194,8 @@
     },
     {
       "id": "2325590",
-      "name": "Osogbo",
+      "name": "Oshogbo",
+      "nativeName": "Òṣogbo",
       "latitude": 7.77104,
       "longitude": 4.55698,
       "population": 645000,
@@ -200,7 +204,8 @@
     },
     {
       "id": "2338900",
-      "name": "Ile-Ife",
+      "name": "Ife",
+      "nativeName": "Ifẹ̀",
       "latitude": 7.4824,
       "longitude": 4.56032,
       "population": 560000,
@@ -264,6 +269,7 @@
     {
       "id": "2352379",
       "name": "Ado-Ekiti",
+      "nativeName": "Ado Ekiti",
       "latitude": 7.62329,
       "longitude": 5.22087,
       "population": 435000,
@@ -272,7 +278,7 @@
     },
     {
       "id": "2327735",
-      "name": "Ogbomoso",
+      "name": "Ogbomosho",
       "latitude": 8.13373,
       "longitude": 4.24014,
       "population": 433030,
@@ -354,6 +360,7 @@
     {
       "id": "2338400",
       "name": "Ijebu Ode",
+      "nativeName": "Ijebu-Ode",
       "latitude": 6.81944,
       "longitude": 3.91731,
       "population": 360000,
@@ -363,6 +370,7 @@
     {
       "id": "2337704",
       "name": "Ilesa",
+      "nativeName": "Iléṣà",
       "latitude": 7.62789,
       "longitude": 4.74161,
       "population": 325000,
@@ -462,6 +470,7 @@
     {
       "id": "2323411",
       "name": "Shagamu",
+      "nativeName": "Sagamu",
       "latitude": 6.8485,
       "longitude": 3.64633,
       "population": 214558,
@@ -489,6 +498,7 @@
     {
       "id": "2337207",
       "name": "Ise-Ekiti",
+      "nativeName": "Ise - Ekiti",
       "latitude": 7.46478,
       "longitude": 5.42333,
       "population": 190063,
@@ -525,6 +535,7 @@
     {
       "id": "2334327",
       "name": "Kisi",
+      "nativeName": "Kishi",
       "latitude": 9.08297,
       "longitude": 3.85196,
       "population": 155510,
@@ -624,6 +635,7 @@
     {
       "id": "2327879",
       "name": "Offa",
+      "nativeName": "Ijagbo Offa",
       "latitude": 8.14911,
       "longitude": 4.72074,
       "population": 113830,
@@ -660,6 +672,7 @@
     {
       "id": "2338403",
       "name": "Ijebu-Igbo",
+      "nativeName": "Ìjẹ̀bú-Ìgbò",
       "latitude": 6.97198,
       "longitude": 3.99938,
       "population": 109261,
@@ -714,6 +727,7 @@
     {
       "id": "2338287",
       "name": "Ikere-Ekiti",
+      "nativeName": "Ikere Ekiti",
       "latitude": 7.49748,
       "longitude": 5.23041,
       "population": 103054,
@@ -777,6 +791,7 @@
     {
       "id": "2338669",
       "name": "Igbo-Ora",
+      "nativeName": "Igbo Ora",
       "latitude": 7.43383,
       "longitude": 3.28788,
       "population": 92719,
@@ -822,6 +837,7 @@
     {
       "id": "2339150",
       "name": "Idanre",
+      "nativeName": "Ìdànrè",
       "latitude": 7.1127,
       "longitude": 5.1159,
       "population": 86468,
@@ -984,6 +1000,7 @@
     {
       "id": "2334756",
       "name": "Kaura Namoda",
+      "nativeName": "Kaura-Namoda",
       "latitude": 12.59371,
       "longitude": 6.58648,
       "population": 69725,
@@ -993,6 +1010,7 @@
     {
       "id": "2343270",
       "name": "Enugu-Ukwu",
+      "nativeName": "Enugwu-Ukwu",
       "latitude": 6.17146,
       "longitude": 7.00525,
       "population": 68785,
@@ -1101,6 +1119,7 @@
     {
       "id": "2322529",
       "name": "Talata Mafara",
+      "nativeName": "Mafara",
       "latitude": 12.56841,
       "longitude": 6.06225,
       "population": 39045,
@@ -1128,6 +1147,7 @@
     {
       "id": "2334801",
       "name": "Katsina-Ala",
+      "nativeName": "Katsina Ala",
       "latitude": 7.16938,
       "longitude": 9.28465,
       "population": 36722,
@@ -1164,6 +1184,7 @@
     {
       "id": "2329451",
       "name": "Nasarawa",
+      "nativeName": "Nassarawa",
       "latitude": 8.53895,
       "longitude": 7.70821,
       "population": 30949,
@@ -1191,6 +1212,7 @@
     {
       "id": "2324960",
       "name": "Patigi",
+      "nativeName": "Pategi",
       "latitude": 8.72851,
       "longitude": 5.75561,
       "population": 28285,
@@ -1299,6 +1321,7 @@
     {
       "id": "2318933",
       "name": "Wudil",
+      "nativeName": "Komi",
       "latitude": 11.80937,
       "longitude": 8.84422,
       "population": 23066,
@@ -1380,6 +1403,7 @@
     {
       "id": "2341580",
       "name": "Gaya",
+      "nativeName": "Unguwar Mahaukci",
       "latitude": 11.86064,
       "longitude": 9.0027,
       "population": 20959,
@@ -1389,6 +1413,7 @@
     {
       "id": "2322495",
       "name": "Tambuwal",
+      "nativeName": "Tambawal",
       "latitude": 12.40592,
       "longitude": 4.64605,
       "population": 20932,
@@ -1470,6 +1495,7 @@
     {
       "id": "2324575",
       "name": "Rano",
+      "nativeName": "Unguwar Findi",
       "latitude": 11.55684,
       "longitude": 8.58065,
       "population": 17972,
@@ -1596,6 +1622,7 @@
     {
       "id": "2341955",
       "name": "Ganye",
+      "nativeName": "Sangasumi",
       "latitude": 8.43497,
       "longitude": 12.05107,
       "population": 15178,
@@ -1650,6 +1677,7 @@
     {
       "id": "2326200",
       "name": "Omu-Aran",
+      "nativeName": "Omu Aran",
       "latitude": 8.13385,
       "longitude": 5.10029,
       "population": 14477,
@@ -1668,6 +1696,7 @@
     {
       "id": "2323344",
       "name": "Shani",
+      "nativeName": "Anguwar Babeto",
       "latitude": 10.21824,
       "longitude": 12.06059,
       "population": 14305,
@@ -1740,6 +1769,7 @@
     {
       "id": "2327236",
       "name": "Okeho",
+      "nativeName": "Oke Iho",
       "latitude": 8.03453,
       "longitude": 3.34759,
       "population": 12964,
@@ -1794,6 +1824,7 @@
     {
       "id": "2344217",
       "name": "Dutsin-Ma",
+      "nativeName": "Dutsin Ma",
       "latitude": 12.45392,
       "longitude": 7.49723,
       "population": 12595,

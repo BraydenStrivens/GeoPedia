@@ -3,6 +3,7 @@
     {
       "id": "1221874",
       "name": "Dushanbe",
+      "nativeName": "Душанбе",
       "latitude": 38.53575,
       "longitude": 68.77905,
       "population": 679400,
@@ -12,6 +13,7 @@
     {
       "id": "1514896",
       "name": "Isfara",
+      "nativeName": "Исфара",
       "latitude": 40.12649,
       "longitude": 70.62526,
       "population": 274000,
@@ -21,6 +23,7 @@
     {
       "id": "1220253",
       "name": "Istaravshan",
+      "nativeName": "Истаравшан",
       "latitude": 39.9142,
       "longitude": 69.00328,
       "population": 273500,
@@ -29,7 +32,8 @@
     },
     {
       "id": "1221194",
-      "name": "Kŭlob",
+      "name": "Kulob",
+      "nativeName": "Кӯлоб",
       "latitude": 37.91459,
       "longitude": 69.78454,
       "population": 214700,
@@ -39,6 +43,7 @@
     {
       "id": "1514891",
       "name": "Konibodom",
+      "nativeName": "Конибодом",
       "latitude": 40.29414,
       "longitude": 70.43122,
       "population": 211100,
@@ -48,6 +53,7 @@
     {
       "id": "1514879",
       "name": "Khujand",
+      "nativeName": "Хуҷанд",
       "latitude": 40.28256,
       "longitude": 69.62216,
       "population": 191000,
@@ -57,6 +63,7 @@
     {
       "id": "1220747",
       "name": "Bokhtar",
+      "nativeName": "Бохтар",
       "latitude": 37.83654,
       "longitude": 68.77762,
       "population": 110800,
@@ -65,7 +72,8 @@
     },
     {
       "id": "1514883",
-      "name": "Qayroqqum",
+      "name": "Gulistan",
+      "nativeName": "Гулистон",
       "latitude": 40.26598,
       "longitude": 69.79585,
       "population": 49200,
@@ -75,6 +83,7 @@
     {
       "id": "1220855",
       "name": "Vahdat",
+      "nativeName": "Ваҳдат",
       "latitude": 38.55632,
       "longitude": 69.01354,
       "population": 45693,
@@ -84,6 +93,7 @@
     {
       "id": "1282601",
       "name": "Tursunzoda",
+      "nativeName": "Турсунзода",
       "latitude": 38.51271,
       "longitude": 68.23163,
       "population": 37000,
@@ -93,6 +103,7 @@
     {
       "id": "1538311",
       "name": "Buston",
+      "nativeName": "Бӯстон",
       "latitude": 40.23417,
       "longitude": 69.69481,
       "population": 36900,
@@ -102,6 +113,7 @@
     {
       "id": "1220798",
       "name": "Panjakent",
+      "nativeName": "Панҷакент",
       "latitude": 39.49524,
       "longitude": 67.60931,
       "population": 35085,
@@ -111,6 +123,7 @@
     {
       "id": "1221328",
       "name": "Khorugh",
+      "nativeName": "Хоруғ",
       "latitude": 37.49039,
       "longitude": 71.55337,
       "population": 30500,
@@ -120,6 +133,7 @@
     {
       "id": "1221714",
       "name": "Hisor",
+      "nativeName": "Ҳисор",
       "latitude": 38.52504,
       "longitude": 68.55124,
       "population": 23978,
@@ -129,6 +143,7 @@
     {
       "id": "1221965",
       "name": "Danghara",
+      "nativeName": "Данғара",
       "latitude": 38.09578,
       "longitude": 69.33998,
       "population": 22824,
@@ -138,6 +153,7 @@
     {
       "id": "1220163",
       "name": "Hulbuk",
+      "nativeName": "Ҳулбук",
       "latitude": 37.80542,
       "longitude": 69.64516,
       "population": 21736,
@@ -147,6 +163,7 @@
     {
       "id": "1220826",
       "name": "Farkhor",
+      "nativeName": "Фархор",
       "latitude": 37.49219,
       "longitude": 69.40356,
       "population": 21736,
@@ -155,7 +172,8 @@
     },
     {
       "id": "1221259",
-      "name": "Kolkhozobod",
+      "name": "Balkh",
+      "nativeName": "Балх",
       "latitude": 37.58823,
       "longitude": 68.65886,
       "population": 18476,
@@ -165,6 +183,7 @@
     {
       "id": "1220905",
       "name": "Norak",
+      "nativeName": "Норак",
       "latitude": 38.38917,
       "longitude": 69.32272,
       "population": 18122,
@@ -173,7 +192,8 @@
     },
     {
       "id": "1514829",
-      "name": "Istiqlol",
+      "name": "Istiklol",
+      "nativeName": "Истиқлол",
       "latitude": 40.57017,
       "longitude": 69.64175,
       "population": 17600,
@@ -183,6 +203,7 @@
     {
       "id": "1220112",
       "name": "Yovon",
+      "nativeName": "Ёвон",
       "latitude": 38.31408,
       "longitude": 69.03784,
       "population": 17471,
@@ -191,7 +212,8 @@
     },
     {
       "id": "1514839",
-      "name": "Proletar",
+      "name": "Mekhrabad (Proletarsk)",
+      "nativeName": "Меҳробод",
       "latitude": 40.16713,
       "longitude": 69.50163,
       "population": 16441,
@@ -201,6 +223,7 @@
     {
       "id": "1220219",
       "name": "Vakhsh",
+      "nativeName": "Вахш",
       "latitude": 37.71485,
       "longitude": 68.83456,
       "population": 15215,
@@ -209,7 +232,8 @@
     },
     {
       "id": "1514856",
-      "name": "Nov",
+      "name": "Nau",
+      "nativeName": "Навкат",
       "latitude": 40.1522,
       "longitude": 69.37076,
       "population": 13833,
@@ -219,6 +243,7 @@
     {
       "id": "1514929",
       "name": "Adrasmon",
+      "nativeName": "Адрасмон",
       "latitude": 40.64928,
       "longitude": 69.98472,
       "population": 13372,
@@ -227,7 +252,8 @@
     },
     {
       "id": "1514913",
-      "name": "Bŭston",
+      "name": "Bustan",
+      "nativeName": "Бӯстон",
       "latitude": 40.52286,
       "longitude": 69.33307,
       "population": 13043,
@@ -236,7 +262,8 @@
     },
     {
       "id": "1220576",
-      "name": "Shahritus",
+      "name": "Shahrtuz",
+      "nativeName": "Шаҳритӯс",
       "latitude": 37.26206,
       "longitude": 68.13849,
       "population": 13042,
@@ -245,7 +272,8 @@
     },
     {
       "id": "1221091",
-      "name": "Mŭ’minobod",
+      "name": "Muminobod",
+      "nativeName": "Мӯъминобод",
       "latitude": 38.10714,
       "longitude": 70.03213,
       "population": 11955,
@@ -255,6 +283,7 @@
     {
       "id": "1514921",
       "name": "Shaydon",
+      "nativeName": "Шайдон",
       "latitude": 40.66992,
       "longitude": 70.3502,
       "population": 11705,
@@ -264,6 +293,7 @@
     {
       "id": "1220962",
       "name": "Murghob",
+      "nativeName": "Мурғоб",
       "latitude": 38.17023,
       "longitude": 73.96674,
       "population": 10815,
@@ -272,7 +302,8 @@
     },
     {
       "id": "1221740",
-      "name": "Rasht",
+      "name": "Gharm",
+      "nativeName": "Ғарм",
       "latitude": 39.02871,
       "longitude": 70.37446,
       "population": 10771,
@@ -281,7 +312,8 @@
     },
     {
       "id": "1221136",
-      "name": "Abdurahmoni Jomí",
+      "name": "Abdurahmoni Jomi",
+      "nativeName": "Абдураҳмони Ҷомӣ",
       "latitude": 37.94636,
       "longitude": 68.80878,
       "population": 9943,
@@ -290,7 +322,8 @@
     },
     {
       "id": "1221871",
-      "name": "Dŭstí",
+      "name": "Dusti",
+      "nativeName": "Дусти",
       "latitude": 37.34812,
       "longitude": 68.66398,
       "population": 8700,
@@ -299,7 +332,8 @@
     },
     {
       "id": "1220446",
-      "name": "Sovet",
+      "name": "Temurmalik",
+      "nativeName": "Темурмалик",
       "latitude": 38.0467,
       "longitude": 69.58822,
       "population": 8695,
@@ -309,6 +343,7 @@
     {
       "id": "1221748",
       "name": "Gharavŭtí",
+      "nativeName": "Хуррамдиёр",
       "latitude": 37.56703,
       "longitude": 68.44668,
       "population": 8474,
@@ -318,6 +353,7 @@
     {
       "id": "1514844",
       "name": "Pakhtakoron",
+      "nativeName": "Суғдиён",
       "latitude": 40.15709,
       "longitude": 68.74659,
       "population": 8220,
@@ -327,6 +363,7 @@
     {
       "id": "1220750",
       "name": "Panj",
+      "nativeName": "Панҷ",
       "latitude": 37.23634,
       "longitude": 69.09911,
       "population": 8019,
@@ -336,6 +373,7 @@
     {
       "id": "1221135",
       "name": "Bokhtariyon",
+      "nativeName": "Бохтариён",
       "latitude": 37.88176,
       "longitude": 68.7297,
       "population": 7900,
@@ -345,6 +383,7 @@
     {
       "id": "1220701",
       "name": "Roghun",
+      "nativeName": "Роғун",
       "latitude": 38.78257,
       "longitude": 69.87081,
       "population": 7731,
@@ -354,6 +393,7 @@
     {
       "id": "1221297",
       "name": "Kirov",
+      "nativeName": "Зарнисор",
       "latitude": 37.81908,
       "longitude": 68.85905,
       "population": 7696,
@@ -363,6 +403,7 @@
     {
       "id": "1220888",
       "name": "Obigarm",
+      "nativeName": "Обигарм",
       "latitude": 38.71731,
       "longitude": 69.70885,
       "population": 7400,
@@ -372,6 +413,7 @@
     {
       "id": "1221802",
       "name": "Vahdat",
+      "nativeName": "Ваҳдат",
       "latitude": 39.21966,
       "longitude": 71.19155,
       "population": 6400,
@@ -380,7 +422,8 @@
     },
     {
       "id": "1220324",
-      "name": "Tavildara",
+      "name": "Somondeh (Tavildara)",
+      "nativeName": "Сомондеҳ (Тавилдара)",
       "latitude": 38.69529,
       "longitude": 70.48422,
       "population": 6071,
@@ -390,6 +433,7 @@
     {
       "id": "1514889",
       "name": "Konsoy",
+      "nativeName": "Консой",
       "latitude": 40.49155,
       "longitude": 69.70245,
       "population": 6000,
@@ -399,6 +443,7 @@
     {
       "id": "1220853",
       "name": "Orzu",
+      "nativeName": "Орзу",
       "latitude": 37.5582,
       "longitude": 68.81952,
       "population": 5988,
@@ -407,7 +452,8 @@
     },
     {
       "id": "1220936",
-      "name": "Novobod",
+      "name": "Navobod",
+      "nativeName": "Навобод",
       "latitude": 39.01084,
       "longitude": 70.15082,
       "population": 5352,
@@ -416,7 +462,8 @@
     },
     {
       "id": "1222085",
-      "name": "Bŭstonqal’a",
+      "name": "Bustonqala",
+      "nativeName": "Бӯстонқалъа",
       "latitude": 37.84783,
       "longitude": 68.83125,
       "population": 4900,
@@ -426,6 +473,7 @@
     {
       "id": "1514852",
       "name": "Neftobod",
+      "nativeName": "Нафтобод",
       "latitude": 40.21524,
       "longitude": 70.57193,
       "population": 4603,
@@ -434,7 +482,7 @@
     },
     {
       "id": "1514870",
-      "name": "Quruqsoy",
+      "name": "Обшорон",
       "latitude": 40.57648,
       "longitude": 69.37962,
       "population": 3400,
@@ -444,6 +492,7 @@
     {
       "id": "1514843",
       "name": "Palos",
+      "nativeName": "Палос",
       "latitude": 40.31628,
       "longitude": 69.73743,
       "population": 3288,
@@ -452,7 +501,8 @@
     },
     {
       "id": "1514831",
-      "name": "Shŭrob",
+      "name": "Shurab",
+      "nativeName": "Шӯроб",
       "latitude": 40.04605,
       "longitude": 70.54117,
       "population": 2900,
@@ -461,7 +511,8 @@
     },
     {
       "id": "1220401",
-      "name": "Tagob",
+      "name": "Takob",
+      "nativeName": "Такоб",
       "latitude": 38.83827,
       "longitude": 68.89847,
       "population": 2565,
@@ -471,6 +522,7 @@
     {
       "id": "1514877",
       "name": "Kim",
+      "nativeName": "Нурафшон",
       "latitude": 40.20798,
       "longitude": 70.46882,
       "population": 1600,
@@ -480,6 +532,7 @@
     {
       "id": "1221250",
       "name": "Darband",
+      "nativeName": "Дарбанд",
       "latitude": 38.86776,
       "longitude": 69.96642,
       "population": 1115,
@@ -489,6 +542,7 @@
     {
       "id": "1514854",
       "name": "Navgarzan",
+      "nativeName": "Навгарзан",
       "latitude": 40.99827,
       "longitude": 70.42749,
       "population": 877,

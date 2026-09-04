@@ -3,6 +3,7 @@
     {
       "id": "2618425",
       "name": "Copenhagen",
+      "nativeName": "København",
       "latitude": 55.67594,
       "longitude": 12.56553,
       "population": 1153615,
@@ -12,6 +13,7 @@
     {
       "id": "2624652",
       "name": "Århus",
+      "nativeName": "Aarhus",
       "latitude": 56.15674,
       "longitude": 10.21076,
       "population": 285273,
@@ -129,6 +131,7 @@
     {
       "id": "2621215",
       "name": "Greve",
+      "nativeName": "Greve Strand",
       "latitude": 55.58333,
       "longitude": 12.3,
       "population": 47671,
@@ -209,7 +212,8 @@
     },
     {
       "id": "2620473",
-      "name": "Helsingør",
+      "name": "Elsinore",
+      "nativeName": "Helsingør",
       "latitude": 56.03606,
       "longitude": 12.6136,
       "population": 35048,
@@ -957,6 +961,7 @@
     {
       "id": "2624587",
       "name": "Årup",
+      "nativeName": "Aarup",
       "latitude": 55.37315,
       "longitude": 10.04131,
       "population": 3259,

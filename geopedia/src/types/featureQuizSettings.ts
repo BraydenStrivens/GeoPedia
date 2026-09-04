@@ -23,7 +23,7 @@ export type QuizMode = "normal" | "hard";
 /**
  * User-configurable behavior and display settings for a single quiz.
  * */
-export type QuizSettings = {
+export type FeatureQuizSettings = {
   /** Determines how completed answers are visually represented during the quiz. */
   mode: QuizMode;
 
@@ -72,7 +72,7 @@ export type QuizSettings = {
 /**
  * Settings used when a quiz has no previously saved configuration.
  */
-export const defaultQuizSettings: QuizSettings = {
+export const DEFAULT_FEATURE_QUIZ_SETTINGS: FeatureQuizSettings = {
   mode: "normal",
 
   recycleMissedAnswers: false,

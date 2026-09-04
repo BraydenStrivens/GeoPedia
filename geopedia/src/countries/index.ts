@@ -189,6 +189,7 @@ import { pry } from "./data/pry";
 import { pse } from "./data/pse";
 import { pyf } from "./data/pyf";
 import { qat } from "./data/qat";
+import { reu } from "./data/reu";
 import { rou } from "./data/rou";
 import { rus } from "./data/rus";
 import { rwa } from "./data/rwa";
@@ -433,6 +434,7 @@ const countries: Partial<Record<string, CountryData>> = {
   pse,
   pyf,
   qat,
+  reu,
   rou,
   rus,
   rwa,

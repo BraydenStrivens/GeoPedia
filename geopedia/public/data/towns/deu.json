@@ -21,6 +21,7 @@
     {
       "id": "2867714",
       "name": "Munich",
+      "nativeName": "München",
       "latitude": 48.13743,
       "longitude": 11.57549,
       "population": 1505005,
@@ -29,7 +30,8 @@
     },
     {
       "id": "2886242",
-      "name": "Köln",
+      "name": "Cologne",
+      "nativeName": "Köln",
       "latitude": 50.93333,
       "longitude": 6.95,
       "population": 1024621,
@@ -38,7 +40,8 @@
     },
     {
       "id": "2925533",
-      "name": "Frankfurt am Main",
+      "name": "Frankfurt",
+      "nativeName": "Frankfurt am Main",
       "latitude": 50.11552,
       "longitude": 8.68417,
       "population": 650000,
@@ -47,7 +50,8 @@
     },
     {
       "id": "2934246",
-      "name": "Düsseldorf",
+      "name": "Dusseldorf",
+      "nativeName": "Düsseldorf",
       "latitude": 51.22319,
       "longitude": 6.77927,
       "population": 618685,
@@ -102,6 +106,7 @@
     {
       "id": "2861650",
       "name": "Nuremberg",
+      "nativeName": "Nürnberg",
       "latitude": 49.45421,
       "longitude": 11.07752,
       "population": 515543,
@@ -110,7 +115,8 @@
     },
     {
       "id": "2910831",
-      "name": "Hannover",
+      "name": "Hanover",
+      "nativeName": "Hannover",
       "latitude": 52.37052,
       "longitude": 9.73322,
       "population": 515140,
@@ -263,7 +269,8 @@
     },
     {
       "id": "2945024",
-      "name": "Braunschweig",
+      "name": "Brunswick",
+      "nativeName": "Braunschweig",
       "latitude": 52.26594,
       "longitude": 10.52673,
       "population": 244715,
@@ -299,7 +306,7 @@
     },
     {
       "id": "2925177",
-      "name": "Freiburg",
+      "name": "Freiburg im Breisgau",
       "latitude": 47.9959,
       "longitude": 7.85222,
       "population": 237460,
@@ -380,7 +387,8 @@
     },
     {
       "id": "2842647",
-      "name": "Saarbrücken",
+      "name": "Saarbruecken",
+      "nativeName": "Saarbrücken",
       "latitude": 49.23262,
       "longitude": 7.00982,
       "population": 182971,
@@ -399,6 +407,7 @@
     {
       "id": "2867838",
       "name": "Mülheim",
+      "nativeName": "Mülheim an der Ruhr",
       "latitude": 51.43218,
       "longitude": 6.87967,
       "population": 173050,
@@ -597,6 +606,7 @@
     {
       "id": "2857807",
       "name": "Offenbach",
+      "nativeName": "Offenbach am Main",
       "latitude": 50.10061,
       "longitude": 8.76647,
       "population": 119192,
@@ -758,7 +768,8 @@
     },
     {
       "id": "2934486",
-      "name": "Düren",
+      "name": "Duren",
+      "nativeName": "Düren",
       "latitude": 50.80434,
       "longitude": 6.49299,
       "population": 93440,
@@ -768,6 +779,7 @@
     {
       "id": "2928751",
       "name": "Esslingen",
+      "nativeName": "Esslingen am Neckar",
       "latitude": 48.73961,
       "longitude": 9.30473,
       "population": 92390,
@@ -830,7 +842,8 @@
     },
     {
       "id": "2920512",
-      "name": "Gießen",
+      "name": "Giessen",
+      "nativeName": "Gießen",
       "latitude": 50.58727,
       "longitude": 8.67554,
       "population": 89179,
@@ -840,6 +853,7 @@
     {
       "id": "2911007",
       "name": "Hanau am Main",
+      "nativeName": "Hanau",
       "latitude": 50.13423,
       "longitude": 8.91418,
       "population": 88648,
@@ -876,6 +890,7 @@
     {
       "id": "2939811",
       "name": "Cottbus",
+      "nativeName": "Cottbus - Chóśebuz",
       "latitude": 51.75769,
       "longitude": 14.32888,
       "population": 84754,
@@ -920,7 +935,8 @@
     },
     {
       "id": "2885679",
-      "name": "Konstanz",
+      "name": "Constance",
+      "nativeName": "Konstanz",
       "latitude": 47.66033,
       "longitude": 9.17582,
       "population": 81275,
@@ -966,6 +982,7 @@
     {
       "id": "2873759",
       "name": "Marburg an der Lahn",
+      "nativeName": "Marburg",
       "latitude": 50.80904,
       "longitude": 8.77069,
       "population": 78895,
@@ -1352,7 +1369,8 @@
     },
     {
       "id": "2911271",
-      "name": "Hameln",
+      "name": "Hamelin",
+      "nativeName": "Hameln",
       "latitude": 52.10397,
       "longitude": 9.35623,
       "population": 58666,
@@ -1560,6 +1578,7 @@
     {
       "id": "2917788",
       "name": "Universitäts- und Hansestadt Greifswald",
+      "nativeName": "Greifswald",
       "latitude": 54.08905,
       "longitude": 13.40244,
       "population": 52731,
@@ -1641,6 +1660,7 @@
     {
       "id": "2877088",
       "name": "Lingen",
+      "nativeName": "Lingen (Ems)",
       "latitude": 52.52269,
       "longitude": 7.32555,
       "population": 51310,
@@ -1650,6 +1670,7 @@
     {
       "id": "2881885",
       "name": "Lahr",
+      "nativeName": "Lahr/Schwarzwald",
       "latitude": 48.34042,
       "longitude": 7.86886,
       "population": 50775,
@@ -1659,6 +1680,7 @@
     {
       "id": "2896817",
       "name": "Ibbenbueren",
+      "nativeName": "Ibbenbüren",
       "latitude": 52.27964,
       "longitude": 7.71457,
       "population": 50577,
@@ -1731,6 +1753,7 @@
     {
       "id": "2864435",
       "name": "Neunkirchen",
+      "nativeName": "Neunkirchen (Saar)",
       "latitude": 49.34449,
       "longitude": 7.18045,
       "population": 49843,

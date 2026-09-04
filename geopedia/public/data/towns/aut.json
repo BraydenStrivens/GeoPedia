@@ -3,6 +3,7 @@
     {
       "id": "2761369",
       "name": "Vienna",
+      "nativeName": "Wien",
       "latitude": 48.20849,
       "longitude": 16.37208,
       "population": 1691468,
@@ -47,7 +48,7 @@
     },
     {
       "id": "2774326",
-      "name": "Klagenfurt am Wörthersee",
+      "name": "Klagenfurt",
       "latitude": 46.62472,
       "longitude": 14.30528,
       "population": 100316,
@@ -147,6 +148,7 @@
     {
       "id": "2766429",
       "name": "Sankt Pölten",
+      "nativeName": "St. Pölten",
       "latitude": 48.20762,
       "longitude": 15.63725,
       "population": 21911,
@@ -309,6 +311,7 @@
     {
       "id": "2763266",
       "name": "Tulln",
+      "nativeName": "Tulln an der Donau",
       "latitude": 48.32829,
       "longitude": 16.05858,
       "population": 12421,
@@ -462,6 +465,7 @@
     {
       "id": "2766636",
       "name": "Sankt Johann in Tirol",
+      "nativeName": "St. Johann in Tirol",
       "latitude": 47.5233,
       "longitude": 12.4232,
       "population": 9428,
@@ -480,6 +484,7 @@
     {
       "id": "2766365",
       "name": "Sankt Valentin",
+      "nativeName": "St. Valentin",
       "latitude": 48.16667,
       "longitude": 14.51667,
       "population": 9340,
@@ -678,6 +683,7 @@
     {
       "id": "2769623",
       "name": "Oberwart",
+      "nativeName": "Oberwart/Felsőőr",
       "latitude": 47.28971,
       "longitude": 16.20595,
       "population": 7288,
@@ -1218,6 +1224,7 @@
     {
       "id": "2760416",
       "name": "Zwettl Stadt",
+      "nativeName": "Zwettl",
       "latitude": 48.60726,
       "longitude": 15.16714,
       "population": 3900,
@@ -1326,6 +1333,7 @@
     {
       "id": "2762318",
       "name": "Voldöpp",
+      "nativeName": "Rattenberg",
       "latitude": 47.44469,
       "longitude": 11.88343,
       "population": 3386,
@@ -1452,6 +1460,7 @@
     {
       "id": "2779669",
       "name": "Feldkirchen in Kärnten",
+      "nativeName": "Feldkirchen",
       "latitude": 46.72368,
       "longitude": 14.0958,
       "population": 2831,
@@ -1479,6 +1488,7 @@
     {
       "id": "2768497",
       "name": "Pörtschach am Wörthersee",
+      "nativeName": "Pörtschach",
       "latitude": 46.63639,
       "longitude": 14.14639,
       "population": 2751,
@@ -1587,6 +1597,7 @@
     {
       "id": "2767280",
       "name": "Rohrbach in Oberösterreich",
+      "nativeName": "Rohrbach",
       "latitude": 48.57275,
       "longitude": 13.98834,
       "population": 2432,
@@ -1623,6 +1634,7 @@
     {
       "id": "2762453",
       "name": "Velden am Wörther See",
+      "nativeName": "Velden",
       "latitude": 46.61301,
       "longitude": 14.0413,
       "population": 2325,
@@ -1686,6 +1698,7 @@
     {
       "id": "2781183",
       "name": "Burgfried",
+      "nativeName": "Bad Leonfelden",
       "latitude": 48.5199,
       "longitude": 14.2957,
       "population": 2075,
@@ -1713,6 +1726,7 @@
     {
       "id": "2769812",
       "name": "Oberpullendorf",
+      "nativeName": "Oberpullendorf/Felsőpulya",
       "latitude": 47.50352,
       "longitude": 16.50447,
       "population": 2019,

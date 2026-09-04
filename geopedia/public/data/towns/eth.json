@@ -3,6 +3,7 @@
     {
       "id": "344979",
       "name": "Addis Ababa",
+      "nativeName": "አዲስ አበባ",
       "latitude": 9.02497,
       "longitude": 38.74689,
       "population": 3860000,
@@ -12,6 +13,7 @@
     {
       "id": "333795",
       "name": "Jijiga",
+      "nativeName": "Jigjiga",
       "latitude": 9.35,
       "longitude": 42.8,
       "population": 483000,
@@ -21,6 +23,7 @@
     {
       "id": "336014",
       "name": "Gonder",
+      "nativeName": "ጎንደር",
       "latitude": 12.6,
       "longitude": 37.46667,
       "population": 466000,
@@ -29,7 +32,8 @@
     },
     {
       "id": "331180",
-      "name": "Mek'ele",
+      "name": "Mek'elē",
+      "nativeName": "መቐለ Mek'elē مقلى",
       "latitude": 13.49667,
       "longitude": 39.47528,
       "population": 457900,
@@ -37,57 +41,73 @@
       "isCapital": false
     },
     {
-      "id": "326282",
-      "name": "Warder",
-      "latitude": 6.97444,
-      "longitude": 45.34083,
-      "population": 450400,
+      "id": "330186",
+      "name": "Adama",
+      "nativeName": "Adaamaa",
+      "latitude": 8.55,
+      "longitude": 39.26667,
+      "population": 456900,
       "populationRank": 5,
       "isCapital": false
     },
     {
+      "id": "326282",
+      "name": "Warder",
+      "nativeName": "Werder",
+      "latitude": 6.97444,
+      "longitude": 45.34083,
+      "population": 450400,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
       "id": "343137",
-      "name": "Awasa",
+      "name": "Hawassa",
+      "nativeName": "ሀዋሳ Hawassa  حواسا",
       "latitude": 7.06205,
       "longitude": 38.47635,
       "population": 422200,
-      "populationRank": 6,
+      "populationRank": 7,
       "isCapital": false
     },
     {
       "id": "342884",
       "name": "Bahir Dar",
+      "nativeName": "ባሕር-ዳር",
       "latitude": 11.59364,
       "longitude": 37.39077,
       "population": 350000,
-      "populationRank": 7,
+      "populationRank": 8,
       "isCapital": false
     },
     {
       "id": "338832",
       "name": "Dire Dawa",
+      "nativeName": "Dirree Dhawaa / Dir Dhabe / ድሬዳዋ",
       "latitude": 9.59306,
       "longitude": 41.86611,
       "population": 343000,
-      "populationRank": 8,
+      "populationRank": 9,
       "isCapital": false
     },
     {
       "id": "339219",
       "name": "Dessie",
+      "nativeName": "ደሴ Dessie ديسى",
       "latitude": 11.13333,
       "longitude": 39.63333,
       "population": 270400,
-      "populationRank": 9,
+      "populationRank": 10,
       "isCapital": false
     },
     {
       "id": "333772",
       "name": "Jimma",
+      "nativeName": "ጂማ Jimma  جيمة",
       "latitude": 7.67344,
       "longitude": 36.83441,
       "population": 250900,
-      "populationRank": 10,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -96,70 +116,76 @@
       "latitude": 7.2,
       "longitude": 38.6,
       "population": 208400,
-      "populationRank": 11,
+      "populationRank": 12,
       "isCapital": false
     },
     {
       "id": "339666",
       "name": "Bishoftu",
+      "nativeName": "Bishooftuu",
       "latitude": 8.75225,
       "longitude": 38.97846,
       "population": 207400,
-      "populationRank": 12,
+      "populationRank": 13,
       "isCapital": false
     },
     {
       "id": "7910079",
-      "name": "Sodo",
+      "name": "Wolaita Sodo",
+      "nativeName": "ወላይታ ሶዶ Wolaita Sodo ولايتا سودو",
       "latitude": 6.86,
       "longitude": 37.76159,
       "population": 204100,
-      "populationRank": 13,
+      "populationRank": 14,
       "isCapital": false
     },
     {
       "id": "343663",
       "name": "Arba Minch",
+      "nativeName": "አርባ ምንጭ / Arba Minch",
       "latitude": 6.03333,
       "longitude": 37.55,
       "population": 201000,
-      "populationRank": 14,
-      "isCapital": false
-    },
-    {
-      "id": "334609",
-      "name": "Hosa’ina",
-      "latitude": 7.54978,
-      "longitude": 37.85374,
-      "population": 188200,
       "populationRank": 15,
       "isCapital": false
     },
     {
+      "id": "334609",
+      "name": "Hossana",
+      "latitude": 7.54978,
+      "longitude": 37.85374,
+      "population": 188200,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
       "id": "338998",
-      "name": "Dīla",
+      "name": "Dilla",
+      "nativeName": "ዲላ / Dilla",
       "latitude": 6.41667,
       "longitude": 38.31667,
       "population": 158800,
-      "populationRank": 16,
+      "populationRank": 17,
       "isCapital": false
     },
     {
       "id": "335035",
       "name": "Harar",
+      "nativeName": "Harar / ሐረር",
       "latitude": 9.31387,
       "longitude": 42.11815,
       "population": 157000,
-      "populationRank": 17,
+      "populationRank": 18,
       "isCapital": false
     },
     {
       "id": "330118",
-      "name": "Nek’emtē",
+      "name": "Naqamte",
+      "nativeName": "ነቀምት Nekemte نقمتى",
       "latitude": 9.08333,
       "longitude": 36.55,
       "population": 156000,
-      "populationRank": 18,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -168,34 +194,37 @@
       "latitude": 9.67954,
       "longitude": 39.53262,
       "population": 146900,
-      "populationRank": 19,
-      "isCapital": false
-    },
-    {
-      "id": "339708",
-      "name": "Debre Mark’os",
-      "latitude": 10.35,
-      "longitude": 37.73333,
-      "population": 140700,
       "populationRank": 20,
       "isCapital": false
     },
     {
+      "id": "339708",
+      "name": "Debre Markos",
+      "nativeName": "ደብረ ማርቆስ Debre Markos ديبرى مرقص",
+      "latitude": 10.35,
+      "longitude": 37.73333,
+      "population": 140700,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
       "id": "343370",
-      "name": "Āsela",
+      "name": "Asella",
+      "nativeName": "አሰላ Asella  عسيلة",
       "latitude": 7.95,
       "longitude": 39.13333,
       "population": 139500,
-      "populationRank": 21,
+      "populationRank": 22,
       "isCapital": false
     },
     {
       "id": "333373",
       "name": "Kombolcha",
+      "nativeName": "ኮምቦልቻ / Kombolcha",
       "latitude": 11.08155,
       "longitude": 39.74339,
       "population": 132100,
-      "populationRank": 22,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -204,34 +233,37 @@
       "latitude": 11.85,
       "longitude": 38.01667,
       "population": 125300,
-      "populationRank": 23,
+      "populationRank": 24,
       "isCapital": false
     },
     {
       "id": "345149",
-      "name": "Ādīgrat",
+      "name": "Adigrat",
+      "nativeName": "ዓዲግራት / Adigrat",
       "latitude": 14.277,
       "longitude": 39.462,
       "population": 121800,
-      "populationRank": 24,
+      "populationRank": 25,
       "isCapital": false
     },
     {
       "id": "326406",
       "name": "Weldiya",
+      "nativeName": "Woldia",
       "latitude": 11.8277,
       "longitude": 39.59164,
       "population": 104000,
-      "populationRank": 25,
+      "populationRank": 26,
       "isCapital": false
     },
     {
       "id": "329114",
       "name": "Sebeta",
+      "nativeName": "ሰበታ / Sebeta",
       "latitude": 8.91667,
       "longitude": 38.61667,
       "population": 102300,
-      "populationRank": 26,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -240,79 +272,87 @@
       "latitude": 9.03528,
       "longitude": 38.66083,
       "population": 101400,
-      "populationRank": 27,
-      "isCapital": false
-    },
-    {
-      "id": "334227",
-      "name": "Inda Silasē",
-      "latitude": 14.10307,
-      "longitude": 38.28289,
-      "population": 100100,
       "populationRank": 28,
       "isCapital": false
     },
     {
-      "id": "335288",
-      "name": "Hāgere Hiywet",
-      "latitude": 8.98333,
-      "longitude": 37.85,
-      "population": 99900,
+      "id": "334227",
+      "name": "Shire",
+      "nativeName": "ሽረ እንዳ ሥላሴ / Shire",
+      "latitude": 14.10307,
+      "longitude": 38.28289,
+      "population": 100100,
       "populationRank": 29,
       "isCapital": false
     },
     {
-      "id": "8643798",
-      "name": "Arsi Negele",
-      "latitude": 7.3547,
-      "longitude": 38.67465,
-      "population": 98100,
+      "id": "335288",
+      "name": "Ambo",
+      "nativeName": "አምቦ / Ambo",
+      "latitude": 8.98333,
+      "longitude": 37.85,
+      "population": 99900,
       "populationRank": 30,
       "isCapital": false
     },
     {
-      "id": "337405",
-      "name": "Gambēla",
-      "latitude": 8.25,
-      "longitude": 34.58333,
-      "population": 97600,
+      "id": "8643798",
+      "name": "Arsi Negelle",
+      "nativeName": "አርሲ ነገሌ / Arsi Negelle",
+      "latitude": 7.3547,
+      "longitude": 38.67465,
+      "population": 98100,
       "populationRank": 31,
       "isCapital": false
     },
     {
+      "id": "337405",
+      "name": "Gambela",
+      "nativeName": "ጋምቤላ / Gambela",
+      "latitude": 8.25,
+      "longitude": 34.58333,
+      "population": 97600,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
       "id": "344420",
-      "name": "Aksum",
+      "name": "Axum",
+      "nativeName": "ኣኽሱም / Axum",
       "latitude": 14.12109,
       "longitude": 38.72337,
       "population": 94500,
-      "populationRank": 32,
+      "populationRank": 33,
       "isCapital": false
     },
     {
       "id": "325579",
       "name": "Ziway",
+      "nativeName": "Batu",
       "latitude": 7.93333,
       "longitude": 38.71667,
       "population": 90500,
-      "populationRank": 33,
+      "populationRank": 34,
       "isCapital": false
     },
     {
       "id": "341297",
       "name": "Butajīra",
+      "nativeName": "Butajira",
       "latitude": 8.11667,
       "longitude": 38.36667,
       "population": 89800,
-      "populationRank": 34,
+      "populationRank": 35,
       "isCapital": false
     },
     {
       "id": "344797",
       "name": "Adwa",
+      "nativeName": "ዓድዋ / Adwa",
       "latitude": 14.16347,
       "longitude": 38.89924,
       "population": 85600,
-      "populationRank": 35,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -321,25 +361,27 @@
       "latitude": 6.92471,
       "longitude": 37.65263,
       "population": 84510,
-      "populationRank": 36,
+      "populationRank": 37,
       "isCapital": false
     },
     {
       "id": "343593",
       "name": "Āreka",
+      "nativeName": "Areka",
       "latitude": 7.06667,
       "longitude": 37.7,
       "population": 84500,
-      "populationRank": 37,
+      "populationRank": 38,
       "isCapital": false
     },
     {
       "id": "325780",
-      "name": "Yirga ‘Alem",
+      "name": "Irgalem",
+      "nativeName": "ይርጋለም / Yirgalem",
       "latitude": 6.75,
       "longitude": 38.41667,
       "population": 81600,
-      "populationRank": 38,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -348,61 +390,67 @@
       "latitude": 8.53417,
       "longitude": 37.96515,
       "population": 78600,
-      "populationRank": 39,
+      "populationRank": 40,
       "isCapital": false
     },
     {
       "id": "326355",
-      "name": "Welk’īt’ē",
+      "name": "Welkite",
+      "nativeName": "ወልቂጤ / Wolkite",
       "latitude": 8.28333,
       "longitude": 37.78333,
       "population": 77500,
-      "populationRank": 40,
+      "populationRank": 41,
       "isCapital": false
     },
     {
       "id": "331163",
       "name": "Mek’ī",
+      "nativeName": "Meki",
       "latitude": 8.15,
       "longitude": 38.81667,
       "population": 75200,
-      "populationRank": 41,
+      "populationRank": 42,
       "isCapital": false
     },
     {
       "id": "330134",
       "name": "Negēlē",
+      "nativeName": "Negele",
       "latitude": 5.31667,
       "longitude": 39.58333,
       "population": 73100,
-      "populationRank": 42,
+      "populationRank": 43,
       "isCapital": false
     },
     {
       "id": "332880",
-      "name": "K’olīto",
+      "name": "Halaba Kulito",
+      "nativeName": "ሀላባ ቁሊቶ / Halaba Kulito",
       "latitude": 7.31667,
       "longitude": 38.08333,
       "population": 72200,
-      "populationRank": 43,
+      "populationRank": 44,
       "isCapital": false
     },
     {
       "id": "344357",
       "name": "Alamata",
+      "nativeName": "ኣላማጣ / Alamata",
       "latitude": 12.416,
       "longitude": 39.55971,
       "population": 70400,
-      "populationRank": 44,
+      "populationRank": 45,
       "isCapital": false
     },
     {
       "id": "343292",
-      "name": "Āsosa",
+      "name": "Asosa",
+      "nativeName": "አሶሳ / Asosa",
       "latitude": 10.06667,
       "longitude": 34.53333,
       "population": 69700,
-      "populationRank": 45,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -411,16 +459,17 @@
       "latitude": 5.95056,
       "longitude": 43.55186,
       "population": 67900,
-      "populationRank": 46,
+      "populationRank": 47,
       "isCapital": false
     },
     {
       "id": "327694",
       "name": "Tēpī",
+      "nativeName": "Tepi",
       "latitude": 7.2,
       "longitude": 35.45,
       "population": 66700,
-      "populationRank": 47,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -429,151 +478,165 @@
       "latitude": 7.01667,
       "longitude": 39.98333,
       "population": 66500,
-      "populationRank": 48,
-      "isCapital": false
-    },
-    {
-      "id": "338404",
-      "name": "Duramē",
-      "latitude": 7.23333,
-      "longitude": 37.88333,
-      "population": 65900,
       "populationRank": 49,
       "isCapital": false
     },
     {
+      "id": "338404",
+      "name": "Durame",
+      "nativeName": "ዱራሜ / Durame",
+      "latitude": 7.23333,
+      "longitude": 37.88333,
+      "population": 65900,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
       "id": "341877",
-      "name": "Bodītī",
+      "name": "Boditi",
       "latitude": 6.96667,
       "longitude": 37.86667,
       "population": 64900,
-      "populationRank": 50,
+      "populationRank": 51,
       "isCapital": false
     },
     {
       "id": "336496",
       "name": "Gimbi",
+      "nativeName": "Ghimbi",
       "latitude": 9.17031,
       "longitude": 35.83491,
       "population": 64300,
-      "populationRank": 51,
+      "populationRank": 52,
       "isCapital": false
     },
     {
       "id": "326116",
-      "name": "Wik’ro",
+      "name": "Wukro",
+      "nativeName": "ውቕሮ",
       "latitude": 13.79525,
       "longitude": 39.60303,
       "population": 64000,
-      "populationRank": 52,
+      "populationRank": 53,
       "isCapital": false
     },
     {
       "id": "344282",
       "name": "‘Alemaya",
+      "nativeName": "`Alemaya",
       "latitude": 9.39334,
       "longitude": 42.00967,
       "population": 63700,
-      "populationRank": 53,
+      "populationRank": 54,
       "isCapital": false
     },
     {
       "id": "330534",
       "name": "Mīzan Teferī",
+      "nativeName": "Mizan Aman",
       "latitude": 6.99865,
       "longitude": 35.58879,
       "population": 62000,
-      "populationRank": 54,
+      "populationRank": 55,
       "isCapital": false
     },
     {
       "id": "330491",
       "name": "Mojo",
+      "nativeName": "Moojoo",
       "latitude": 8.58679,
       "longitude": 39.12111,
       "population": 61300,
-      "populationRank": 55,
+      "populationRank": 56,
       "isCapital": false
     },
     {
       "id": "339448",
       "name": "Dembī Dolo",
+      "nativeName": "Dambidollo",
       "latitude": 8.53333,
       "longitude": 34.8,
       "population": 61100,
-      "populationRank": 56,
+      "populationRank": 57,
       "isCapital": false
     },
     {
       "id": "337853",
       "name": "Felege Neway",
+      "nativeName": "Sawla",
       "latitude": 6.3,
       "longitude": 36.88333,
       "population": 61000,
-      "populationRank": 57,
+      "populationRank": 58,
       "isCapital": false
     },
     {
       "id": "330764",
       "name": "Metu",
+      "nativeName": "Mettu / Metu",
       "latitude": 8.3,
       "longitude": 35.58333,
       "population": 59700,
-      "populationRank": 58,
+      "populationRank": 59,
       "isCapital": false
     },
     {
       "id": "326321",
-      "name": "Wendo",
+      "name": "Aleta Wendo",
+      "nativeName": "አለታ ወንዶ / Aleta Wondo",
       "latitude": 6.6,
       "longitude": 38.41667,
       "population": 59300,
-      "populationRank": 59,
+      "populationRank": 60,
       "isCapital": false
     },
     {
       "id": "330425",
       "name": "Mot’a",
+      "nativeName": "Mota",
       "latitude": 11.08333,
       "longitude": 37.86667,
       "population": 59000,
-      "populationRank": 60,
+      "populationRank": 61,
       "isCapital": false
     },
     {
       "id": "337712",
       "name": "Finote Selam",
+      "nativeName": "ፍኖተ ሰላም",
       "latitude": 10.7,
       "longitude": 37.26667,
       "population": 58400,
-      "populationRank": 61,
+      "populationRank": 62,
       "isCapital": false
     },
     {
       "id": "344620",
-      "name": "Hagere Maryam",
+      "name": "Bule Hora",
       "latitude": 5.63418,
       "longitude": 38.23603,
       "population": 57700,
-      "populationRank": 62,
+      "populationRank": 63,
       "isCapital": false
     },
     {
       "id": "337771",
       "name": "Fichē",
+      "nativeName": "Fiche",
       "latitude": 9.8,
       "longitude": 38.73333,
       "population": 57100,
-      "populationRank": 63,
+      "populationRank": 64,
       "isCapital": false
     },
     {
       "id": "341742",
       "name": "Bonga",
+      "nativeName": "ቦንጋ / Bonga",
       "latitude": 7.28889,
       "longitude": 36.24167,
       "population": 56000,
-      "populationRank": 64,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -582,61 +645,67 @@
       "latitude": 5.65,
       "longitude": 36.65,
       "population": 54400,
-      "populationRank": 65,
+      "populationRank": 66,
       "isCapital": false
     },
     {
       "id": "344661",
       "name": "Āgaro",
+      "nativeName": "Agaro",
       "latitude": 7.85,
       "longitude": 36.65,
       "population": 52800,
-      "populationRank": 66,
+      "populationRank": 67,
       "isCapital": false
     },
     {
       "id": "328962",
       "name": "Sek’ot’a",
+      "nativeName": "ሰቆጣ / Sekota",
       "latitude": 12.63056,
       "longitude": 39.03472,
       "population": 50300,
-      "populationRank": 67,
-      "isCapital": false
-    },
-    {
-      "id": "6913519",
-      "name": "Samara",
-      "latitude": 11.79342,
-      "longitude": 41.00578,
-      "population": 50000,
       "populationRank": 68,
       "isCapital": false
     },
     {
+      "id": "6913519",
+      "name": "Semera",
+      "nativeName": "ሰመራ Semera  سميرة",
+      "latitude": 11.79342,
+      "longitude": 41.00578,
+      "population": 50000,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
       "id": "331416",
-      "name": "Maych’ew",
+      "name": "Maychew",
+      "nativeName": "ማይ ጨው / Maychew",
       "latitude": 12.7875,
       "longitude": 39.54222,
       "population": 49600,
-      "populationRank": 69,
+      "populationRank": 70,
       "isCapital": false
     },
     {
       "id": "340787",
       "name": "Ch’iko",
+      "nativeName": "Chucko",
       "latitude": 6.58333,
       "longitude": 38.33333,
       "population": 49500,
-      "populationRank": 70,
+      "populationRank": 71,
       "isCapital": false
     },
     {
       "id": "336931",
-      "name": "Genet",
+      "name": "Holeta Genet",
+      "nativeName": "ሆለታ / Holeta",
       "latitude": 9.06667,
       "longitude": 38.5,
       "population": 48300,
-      "populationRank": 71,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -645,16 +714,17 @@
       "latitude": 7.2,
       "longitude": 37.66667,
       "population": 48000,
-      "populationRank": 72,
+      "populationRank": 73,
       "isCapital": false
     },
     {
       "id": "326206",
       "name": "Werota",
+      "nativeName": "Wereta",
       "latitude": 11.91667,
       "longitude": 37.7,
       "population": 47800,
-      "populationRank": 73,
+      "populationRank": 74,
       "isCapital": false
     },
     {
@@ -663,7 +733,7 @@
       "latitude": 5.88333,
       "longitude": 38.98333,
       "population": 47600,
-      "populationRank": 74,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -672,160 +742,177 @@
       "latitude": 5.76494,
       "longitude": 38.91006,
       "population": 47500,
-      "populationRank": 75,
+      "populationRank": 76,
       "isCapital": false
     },
     {
       "id": "334152",
       "name": "Injibara",
+      "nativeName": "እንጂባራ",
       "latitude": 11,
       "longitude": 36.91667,
       "population": 47500,
-      "populationRank": 76,
+      "populationRank": 77,
       "isCapital": false
     },
     {
       "id": "339594",
       "name": "Degeh Bur",
+      "nativeName": "Degehabur",
       "latitude": 8.22056,
       "longitude": 43.55722,
       "population": 47200,
-      "populationRank": 77,
-      "isCapital": false
-    },
-    {
-      "id": "339823",
-      "name": "Debark’",
-      "latitude": 13.15611,
-      "longitude": 37.89806,
-      "population": 46800,
       "populationRank": 78,
       "isCapital": false
     },
     {
+      "id": "339823",
+      "name": "Debark",
+      "nativeName": "ደባርቅ / Debark",
+      "latitude": 13.15611,
+      "longitude": 37.89806,
+      "population": 46800,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
       "id": "341397",
-      "name": "Burē",
+      "name": "Burie",
+      "nativeName": "ቡሬ / Burie",
       "latitude": 10.7,
       "longitude": 37.06667,
       "population": 46000,
-      "populationRank": 79,
+      "populationRank": 80,
       "isCapital": false
     },
     {
       "id": "333516",
       "name": "Kebri Dahar",
+      "nativeName": "Kebri Dehar",
       "latitude": 6.74,
       "longitude": 44.27806,
       "population": 45900,
-      "populationRank": 80,
+      "populationRank": 81,
       "isCapital": false
     },
     {
       "id": "330158",
-      "name": "Nefas Mewch’a",
+      "name": "Nefas Meewcha",
+      "nativeName": "ነፋስ መውጫ / Nefas Mewcha",
       "latitude": 11.73333,
       "longitude": 38.46667,
       "population": 44200,
-      "populationRank": 81,
+      "populationRank": 82,
       "isCapital": false
     },
     {
       "id": "333356",
       "name": "Kemisē",
+      "nativeName": "Kamisee",
       "latitude": 10.71668,
       "longitude": 39.86997,
       "population": 43800,
-      "populationRank": 82,
-      "isCapital": false
-    },
-    {
-      "id": "338726",
-      "name": "Dodola",
-      "latitude": 6.98333,
-      "longitude": 39.18333,
-      "population": 43200,
       "populationRank": 83,
       "isCapital": false
     },
     {
-      "id": "345353",
-      "name": "Ādēt",
-      "latitude": 11.26667,
-      "longitude": 37.48333,
+      "id": "338726",
+      "name": "Dodolla",
+      "nativeName": "Magaalaa Dodola/ዶዶላ",
+      "latitude": 6.98333,
+      "longitude": 39.18333,
       "population": 43200,
       "populationRank": 84,
       "isCapital": false
     },
     {
+      "id": "345353",
+      "name": "Adet",
+      "nativeName": "አዴት / Adet",
+      "latitude": 11.26667,
+      "longitude": 37.48333,
+      "population": 43200,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
       "id": "343413",
       "name": "Āsasa",
+      "nativeName": "Asassa",
       "latitude": 7.1,
       "longitude": 39.2,
       "population": 42900,
-      "populationRank": 85,
+      "populationRank": 86,
       "isCapital": false
     },
     {
       "id": "330945",
       "name": "Mer’āwī",
+      "nativeName": "Merawi",
       "latitude": 11.41667,
       "longitude": 37.16667,
       "population": 42200,
-      "populationRank": 86,
+      "populationRank": 87,
       "isCapital": false
     },
     {
       "id": "328492",
-      "name": "Shonē",
+      "name": "Shone",
+      "nativeName": "ሾኔ / Shone",
       "latitude": 7.13333,
       "longitude": 37.95,
       "population": 41900,
-      "populationRank": 87,
+      "populationRank": 88,
       "isCapital": false
     },
     {
       "id": "337152",
       "name": "Gebre Guracha",
+      "nativeName": "ገብረ ጉራች",
       "latitude": 9.8,
       "longitude": 38.4,
       "population": 41200,
-      "populationRank": 88,
+      "populationRank": 89,
       "isCapital": false
     },
     {
       "id": "325779",
-      "name": "Yirga Ch’efē",
+      "name": "Yirga Cheffe",
+      "nativeName": "Yiriga Cheffe",
       "latitude": 6.16667,
       "longitude": 38.2,
       "population": 40600,
-      "populationRank": 89,
+      "populationRank": 90,
       "isCapital": false
     },
     {
       "id": "342567",
       "name": "Bedelē",
+      "nativeName": "Bedele",
       "latitude": 8.456,
       "longitude": 36.35302,
       "population": 40500,
-      "populationRank": 90,
+      "populationRank": 91,
       "isCapital": false
     },
     {
       "id": "329592",
       "name": "Robit",
+      "nativeName": "Shoa Robit",
       "latitude": 9.99461,
       "longitude": 39.89693,
       "population": 39600,
-      "populationRank": 91,
+      "populationRank": 92,
       "isCapital": false
     },
     {
       "id": "330120",
       "name": "Nejo",
+      "nativeName": "Nedjo",
       "latitude": 9.5,
       "longitude": 35.5,
       "population": 39400,
-      "populationRank": 92,
+      "populationRank": 93,
       "isCapital": false
     },
     {
@@ -834,34 +921,37 @@
       "latitude": 11.56838,
       "longitude": 41.43869,
       "population": 39400,
-      "populationRank": 93,
+      "populationRank": 94,
       "isCapital": false
     },
     {
       "id": "327472",
-      "name": "T’īs Isat",
+      "name": "Tis Abay",
+      "nativeName": "ጥስ እሳት",
       "latitude": 11.48333,
       "longitude": 37.58333,
       "population": 39200,
-      "populationRank": 94,
+      "populationRank": 95,
       "isCapital": false
     },
     {
       "id": "332288",
       "name": "Lalibela",
+      "nativeName": "ላሊበላ",
       "latitude": 12.03219,
       "longitude": 39.04756,
       "population": 39100,
-      "populationRank": 95,
+      "populationRank": 96,
       "isCapital": false
     },
     {
       "id": "12640449",
       "name": "Shinshicho",
+      "nativeName": "ሺንሺቾ/ Shinshicho",
       "latitude": 7.20556,
       "longitude": 37.77778,
       "population": 38400,
-      "populationRank": 96,
+      "populationRank": 97,
       "isCapital": false
     },
     {
@@ -870,34 +960,37 @@
       "latitude": 6.25532,
       "longitude": 45.3853,
       "population": 38000,
-      "populationRank": 97,
+      "populationRank": 98,
       "isCapital": false
     },
     {
       "id": "342559",
-      "name": "Bedēsa",
+      "name": "Bedessa",
+      "nativeName": "Bedesa",
       "latitude": 8.9,
       "longitude": 40.78333,
       "population": 37700,
-      "populationRank": 98,
+      "populationRank": 99,
       "isCapital": false
     },
     {
       "id": "336475",
       "name": "Gīnch’ī",
+      "nativeName": "Ginsi",
       "latitude": 9.03333,
       "longitude": 38.15,
       "population": 37600,
-      "populationRank": 99,
+      "populationRank": 100,
       "isCapital": false
     },
     {
       "id": "342641",
       "name": "Batī",
+      "nativeName": "Bati",
       "latitude": 11.19152,
       "longitude": 40.01675,
       "population": 37600,
-      "populationRank": 100,
+      "populationRank": 101,
       "isCapital": false
     },
     {
@@ -906,43 +999,46 @@
       "latitude": 6.58222,
       "longitude": 46.43333,
       "population": 37080,
-      "populationRank": 101,
-      "isCapital": false
-    },
-    {
-      "id": "342478",
-      "name": "Bek’ojī",
-      "latitude": 7.53333,
-      "longitude": 39.25,
-      "population": 36800,
       "populationRank": 102,
       "isCapital": false
     },
     {
-      "id": "342965",
-      "name": "Babīlē",
-      "latitude": 9.22556,
-      "longitude": 42.33222,
-      "population": 36700,
+      "id": "342478",
+      "name": "Bekoji",
+      "nativeName": "በቆጂ / Bekoji",
+      "latitude": 7.53333,
+      "longitude": 39.25,
+      "population": 36800,
       "populationRank": 103,
       "isCapital": false
     },
     {
-      "id": "342190",
-      "name": "Bichena",
-      "latitude": 10.45,
-      "longitude": 38.2,
-      "population": 36500,
+      "id": "342965",
+      "name": "Babille",
+      "nativeName": "Babiillee",
+      "latitude": 9.22556,
+      "longitude": 42.33222,
+      "population": 36700,
       "populationRank": 104,
       "isCapital": false
     },
     {
+      "id": "342190",
+      "name": "Bechena",
+      "nativeName": "ብቸና / Bichena",
+      "latitude": 10.45,
+      "longitude": 38.2,
+      "population": 36500,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
       "id": "343134",
-      "name": "Āwash",
+      "name": "Awash",
       "latitude": 8.99364,
       "longitude": 40.16637,
       "population": 36500,
-      "populationRank": 105,
+      "populationRank": 106,
       "isCapital": false
     },
     {
@@ -951,7 +1047,7 @@
       "latitude": 4.88333,
       "longitude": 38.08333,
       "population": 36300,
-      "populationRank": 106,
+      "populationRank": 107,
       "isCapital": false
     },
     {
@@ -960,21 +1056,13 @@
       "latitude": 11.66667,
       "longitude": 39.65,
       "population": 36300,
-      "populationRank": 107,
-      "isCapital": false
-    },
-    {
-      "id": "344923",
-      "name": "Ādīs Zemen",
-      "latitude": 12.11667,
-      "longitude": 37.78333,
-      "population": 36300,
       "populationRank": 108,
       "isCapital": false
     },
     {
       "id": "328592",
       "name": "Sheraro",
+      "nativeName": "ሸራሮ / Sheraro",
       "latitude": 14.40076,
       "longitude": 37.93399,
       "population": 36100,
@@ -993,6 +1081,7 @@
     {
       "id": "6311122",
       "name": "Yamarugley",
+      "nativeName": "Yamaaruglay",
       "latitude": 6.80768,
       "longitude": 46.08482,
       "population": 36000,
@@ -1002,6 +1091,7 @@
     {
       "id": "332746",
       "name": "Korem",
+      "nativeName": "ኮረም / Korem",
       "latitude": 12.50583,
       "longitude": 39.52278,
       "population": 35600,
@@ -1011,6 +1101,7 @@
     {
       "id": "336454",
       "name": "Ghinnir",
+      "nativeName": "Ginir",
       "latitude": 7.13952,
       "longitude": 40.71083,
       "population": 35500,
@@ -1020,6 +1111,7 @@
     {
       "id": "336526",
       "name": "Gīdolē",
+      "nativeName": "Gidole",
       "latitude": 5.65,
       "longitude": 37.36667,
       "population": 35500,
@@ -1037,7 +1129,8 @@
     },
     {
       "id": "331958",
-      "name": "Logīya",
+      "name": "Logiya",
+      "nativeName": "ሎግያ",
       "latitude": 11.72615,
       "longitude": 40.9797,
       "population": 34500,
@@ -1056,6 +1149,7 @@
     {
       "id": "343050",
       "name": "Āykel",
+      "nativeName": "Aykel",
       "latitude": 12.55,
       "longitude": 37.06667,
       "population": 34000,
@@ -1073,7 +1167,8 @@
     },
     {
       "id": "326383",
-      "name": "Welench’ītī",
+      "name": "Welenchiti",
+      "nativeName": "Walancitii",
       "latitude": 8.66667,
       "longitude": 39.43333,
       "population": 31500,
@@ -1082,7 +1177,8 @@
     },
     {
       "id": "329607",
-      "name": "Bale Robe",
+      "name": "Robe",
+      "nativeName": "ሮቤ / Robe",
       "latitude": 7.12294,
       "longitude": 40.00412,
       "population": 31400,
@@ -1101,6 +1197,7 @@
     {
       "id": "334043",
       "name": "Īteya",
+      "nativeName": "Itiya",
       "latitude": 8.13333,
       "longitude": 39.23333,
       "population": 31100,
@@ -1109,7 +1206,8 @@
     },
     {
       "id": "343402",
-      "name": "Āsbe Teferī",
+      "name": "Chiro",
+      "nativeName": "Ciroo",
       "latitude": 9.08569,
       "longitude": 40.86708,
       "population": 30772,
@@ -1119,6 +1217,7 @@
     {
       "id": "12640445",
       "name": "Guder",
+      "nativeName": "Gouder",
       "latitude": 8.97054,
       "longitude": 37.76117,
       "population": 30600,
@@ -1128,6 +1227,7 @@
     {
       "id": "334137",
       "name": "Insēno",
+      "nativeName": "Enseno",
       "latitude": 8.06667,
       "longitude": 38.46667,
       "population": 30500,
@@ -1146,6 +1246,7 @@
     {
       "id": "335808",
       "name": "Komtikas",
+      "nativeName": "Aman",
       "latitude": 6.95766,
       "longitude": 35.55746,
       "population": 29400,
@@ -1154,7 +1255,8 @@
     },
     {
       "id": "12640447",
-      "name": "Mehoni",
+      "name": "Mekoni",
+      "nativeName": "መኾኒ",
       "latitude": 12.79881,
       "longitude": 39.64448,
       "population": 29200,
@@ -1164,6 +1266,7 @@
     {
       "id": "331038",
       "name": "Mendī",
+      "nativeName": "Mendi",
       "latitude": 9.8,
       "longitude": 35.1,
       "population": 29100,
@@ -1182,6 +1285,7 @@
     {
       "id": "340358",
       "name": "Dabat",
+      "nativeName": "ዳባት / Dabat",
       "latitude": 12.98417,
       "longitude": 37.765,
       "population": 28300,
@@ -1191,6 +1295,7 @@
     {
       "id": "332938",
       "name": "Kofelē",
+      "nativeName": "Kefole",
       "latitude": 7.06667,
       "longitude": 38.78333,
       "population": 27900,
@@ -1208,7 +1313,8 @@
     },
     {
       "id": "330691",
-      "name": "Mī’ēso",
+      "name": "Mieso",
+      "nativeName": "Mi'eessoo",
       "latitude": 9.23478,
       "longitude": 40.75593,
       "population": 27700,
@@ -1218,6 +1324,7 @@
     {
       "id": "334529",
       "name": "Huruta",
+      "nativeName": "Huruta / ሁሩታ",
       "latitude": 8.15,
       "longitude": 39.35,
       "population": 27500,
@@ -1226,7 +1333,8 @@
     },
     {
       "id": "340897",
-      "name": "Ch’ench’a",
+      "name": "Chencha",
+      "nativeName": "ጨንቻ / Chencha",
       "latitude": 6.25,
       "longitude": 37.56667,
       "population": 27500,
@@ -1235,7 +1343,8 @@
     },
     {
       "id": "12640446",
-      "name": "May Cadera",
+      "name": "Mai Kadra",
+      "nativeName": "ማይ ኻድራ",
       "latitude": 14.07294,
       "longitude": 36.56828,
       "population": 27300,
@@ -1245,6 +1354,7 @@
     {
       "id": "332896",
       "name": "K’ola Diba",
+      "nativeName": "Kola Diba",
       "latitude": 12.42417,
       "longitude": 37.325,
       "population": 27300,
@@ -1253,7 +1363,8 @@
     },
     {
       "id": "344102",
-      "name": "Amba Giorgis",
+      "name": "Amba Georgis",
+      "nativeName": "አምባ ጊዮርጊስ",
       "latitude": 12.76889,
       "longitude": 37.62389,
       "population": 27300,
@@ -1263,6 +1374,7 @@
     {
       "id": "334495",
       "name": "Ibnat",
+      "nativeName": "Ebbenat",
       "latitude": 12.13333,
       "longitude": 38.05,
       "population": 27000,
@@ -1280,7 +1392,8 @@
     },
     {
       "id": "337748",
-      "name": "Filakit",
+      "name": "Filakit Gereger",
+      "nativeName": "Filakit",
       "latitude": 11.66667,
       "longitude": 38.8,
       "population": 26500,
@@ -1290,6 +1403,7 @@
     {
       "id": "343244",
       "name": "Āt’aye",
+      "nativeName": "Ataye",
       "latitude": 10.35028,
       "longitude": 39.93626,
       "population": 26300,
@@ -1299,6 +1413,7 @@
     {
       "id": "331671",
       "name": "Maksenyit",
+      "nativeName": "Maksegnit",
       "latitude": 12.38333,
       "longitude": 37.55,
       "population": 25800,
@@ -1308,6 +1423,7 @@
     {
       "id": "330789",
       "name": "Metemma",
+      "nativeName": "መተማ El Matamma المتمة",
       "latitude": 12.95479,
       "longitude": 36.15549,
       "population": 25600,
@@ -1317,6 +1433,7 @@
     {
       "id": "328880",
       "name": "Sendafa",
+      "nativeName": "ሰንዳፋ / Sendafa",
       "latitude": 9.15203,
       "longitude": 39.02335,
       "population": 25500,
@@ -1334,7 +1451,8 @@
     },
     {
       "id": "334478",
-      "name": "Idaga Hamus",
+      "name": "Edaga Hamus",
+      "nativeName": "ዕዳጋ ሓሙስ",
       "latitude": 14.18722,
       "longitude": 39.56389,
       "population": 25400,
@@ -1344,6 +1462,7 @@
     {
       "id": "340754",
       "name": "Chinahsen",
+      "nativeName": "Chinaksen",
       "latitude": 9.50619,
       "longitude": 42.60938,
       "population": 25400,
@@ -1370,7 +1489,8 @@
     },
     {
       "id": "329432",
-      "name": "Sagurē",
+      "name": "Sagure",
+      "nativeName": "ሳጉሬ / Sagure",
       "latitude": 7.75,
       "longitude": 39.15,
       "population": 24900,
@@ -1380,6 +1500,7 @@
     {
       "id": "331226",
       "name": "Mehal Mēda",
+      "nativeName": "Mehal Meda",
       "latitude": 10.3121,
       "longitude": 39.65888,
       "population": 24900,
@@ -1398,6 +1519,7 @@
     {
       "id": "327913",
       "name": "Tarch’a Sodo",
+      "nativeName": "Tarcha",
       "latitude": 7.15139,
       "longitude": 37.17184,
       "population": 24300,
@@ -1406,7 +1528,7 @@
     },
     {
       "id": "334700",
-      "name": "Hīrna",
+      "name": "Hirna",
       "latitude": 9.21667,
       "longitude": 41.1,
       "population": 24200,
@@ -1416,6 +1538,7 @@
     {
       "id": "344267",
       "name": "‘Alem T’ēna",
+      "nativeName": "Alemtena",
       "latitude": 8.3,
       "longitude": 38.95,
       "population": 23700,
@@ -1425,6 +1548,7 @@
     {
       "id": "344272",
       "name": "‘Alem Ketema",
+      "nativeName": "Alem Ketema",
       "latitude": 10.08333,
       "longitude": 39.03333,
       "population": 23500,
@@ -1433,7 +1557,8 @@
     },
     {
       "id": "330811",
-      "name": "Metahāra",
+      "name": "Metehara",
+      "nativeName": "Matahaaraa",
       "latitude": 8.9,
       "longitude": 39.91667,
       "population": 23403,
@@ -1443,6 +1568,7 @@
     {
       "id": "337083",
       "name": "Gēdo",
+      "nativeName": "Gedo",
       "latitude": 9.01667,
       "longitude": 37.45,
       "population": 23300,
@@ -1452,6 +1578,7 @@
     {
       "id": "336317",
       "name": "Gobēsa",
+      "nativeName": "Gobesa",
       "latitude": 7.61667,
       "longitude": 39.5,
       "population": 23200,
@@ -1461,6 +1588,7 @@
     {
       "id": "328598",
       "name": "Sheno",
+      "nativeName": "Shano",
       "latitude": 9.32936,
       "longitude": 39.29337,
       "population": 22900,
@@ -1470,6 +1598,7 @@
     {
       "id": "340799",
       "name": "Sifra",
+      "nativeName": "Chifra",
       "latitude": 11.60462,
       "longitude": 40.01662,
       "population": 22400,
@@ -1478,7 +1607,8 @@
     },
     {
       "id": "12640453",
-      "name": "Adebaye",
+      "name": "Adebay",
+      "nativeName": "አደባይ / Adebai",
       "latitude": 14.20226,
       "longitude": 36.75955,
       "population": 21800,
@@ -1488,6 +1618,7 @@
     {
       "id": "12640454",
       "name": "Damboya",
+      "nativeName": "Denboya",
       "latitude": 7.34813,
       "longitude": 37.95063,
       "population": 21800,
@@ -1496,7 +1627,8 @@
     },
     {
       "id": "334124",
-      "name": "Intich’o",
+      "name": "Inticho",
+      "nativeName": "እንትጮ",
       "latitude": 14.27889,
       "longitude": 39.15,
       "population": 21800,
@@ -1506,6 +1638,7 @@
     {
       "id": "343081",
       "name": "Āyana",
+      "nativeName": "Gida Ayana",
       "latitude": 9.88333,
       "longitude": 36.61667,
       "population": 21800,
@@ -1514,7 +1647,8 @@
     },
     {
       "id": "334252",
-      "name": "Indabaguna",
+      "name": "Inda Aba Guna",
+      "nativeName": "እንዳባጉና / Indabaguna",
       "latitude": 13.94944,
       "longitude": 38.18417,
       "population": 21400,
@@ -1524,6 +1658,7 @@
     {
       "id": "328316",
       "name": "Sīrē",
+      "nativeName": "Sire",
       "latitude": 8.31667,
       "longitude": 39.48333,
       "population": 21300,
@@ -1533,6 +1668,7 @@
     {
       "id": "332372",
       "name": "Kuyera",
+      "nativeName": "ኩየራ / Kuyera",
       "latitude": 7.3,
       "longitude": 38.65,
       "population": 21100,
@@ -1542,6 +1678,7 @@
     {
       "id": "331872",
       "name": "Lumamē",
+      "nativeName": "Lumame",
       "latitude": 10.25,
       "longitude": 37.93333,
       "population": 20900,
@@ -1551,6 +1688,7 @@
     {
       "id": "340938",
       "name": "Chelenko",
+      "nativeName": "Calanqoo",
       "latitude": 9.39749,
       "longitude": 41.56104,
       "population": 20900,
@@ -1560,6 +1698,7 @@
     {
       "id": "328069",
       "name": "Suntu",
+      "nativeName": "Genet",
       "latitude": 8.1,
       "longitude": 36.95,
       "population": 20700,
@@ -1587,6 +1726,7 @@
     {
       "id": "326308",
       "name": "Wenjī",
+      "nativeName": "Wenji",
       "latitude": 8.45,
       "longitude": 39.28333,
       "population": 17120,
@@ -1613,7 +1753,7 @@
     },
     {
       "id": "335943",
-      "name": "Gorē",
+      "name": "Gore",
       "latitude": 8.15,
       "longitude": 35.53333,
       "population": 12708,
@@ -1623,6 +1763,7 @@
     {
       "id": "334419",
       "name": "Ījajī",
+      "nativeName": "Ejaji",
       "latitude": 9,
       "longitude": 37.31667,
       "population": 12533,
@@ -1650,6 +1791,7 @@
     {
       "id": "336745",
       "name": "Gawanē",
+      "nativeName": "Gewane",
       "latitude": 10.16658,
       "longitude": 40.64689,
       "population": 11279,
@@ -1659,6 +1801,7 @@
     {
       "id": "339692",
       "name": "Debre Sīna",
+      "nativeName": "Debre Sina",
       "latitude": 9.84752,
       "longitude": 39.76027,
       "population": 9409,
@@ -1668,6 +1811,7 @@
     {
       "id": "333598",
       "name": "Kara K’orē",
+      "nativeName": "Karakore",
       "latitude": 10.42154,
       "longitude": 39.93512,
       "population": 7487,
@@ -1677,6 +1821,7 @@
     {
       "id": "331259",
       "name": "Mēga",
+      "nativeName": "Mega",
       "latitude": 4.05,
       "longitude": 38.3,
       "population": 6884,
@@ -1686,6 +1831,7 @@
     {
       "id": "339191",
       "name": "Dewelē",
+      "nativeName": "Dewele",
       "latitude": 11.03472,
       "longitude": 42.63139,
       "population": 3357,

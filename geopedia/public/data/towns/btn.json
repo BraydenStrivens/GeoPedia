@@ -3,6 +3,7 @@
     {
       "id": "1252416",
       "name": "Thimphu",
+      "nativeName": "ཐིམ་ཕུག",
       "latitude": 27.46609,
       "longitude": 89.64191,
       "population": 98676,
@@ -12,6 +13,7 @@
     {
       "id": "1252484",
       "name": "Phuntsholing",
+      "nativeName": "ཕུན་ཚོགས་གླིང།",
       "latitude": 26.85164,
       "longitude": 89.38837,
       "population": 27658,
@@ -20,7 +22,8 @@
     },
     {
       "id": "1252479",
-      "name": "Punākha",
+      "name": "Punakha",
+      "nativeName": "སྤུ་ན་ཁ་",
       "latitude": 27.59137,
       "longitude": 89.87743,
       "population": 21500,
@@ -30,6 +33,7 @@
     {
       "id": "1252490",
       "name": "Paro",
+      "nativeName": "སྤ་རོ།",
       "latitude": 27.4305,
       "longitude": 89.41334,
       "population": 11448,
@@ -39,6 +43,7 @@
     {
       "id": "1252460",
       "name": "Sarpang",
+      "nativeName": "གསར་སྤང་རྫོང་ཁག་Sarpang",
       "latitude": 26.86395,
       "longitude": 90.26745,
       "population": 10416,
@@ -47,7 +52,8 @@
     },
     {
       "id": "1252560",
-      "name": "Geylegphug",
+      "name": "Gelephu",
+      "nativeName": "དགེ་ལེགས་ཕུ་",
       "latitude": 26.86833,
       "longitude": 90.48778,
       "population": 9858,
@@ -57,6 +63,7 @@
     {
       "id": "1337388",
       "name": "Samdrup Jongkhar",
+      "nativeName": "བསམ་གྲུབ་ལྗོངས་མཁར་",
       "latitude": 26.80069,
       "longitude": 91.50519,
       "population": 9325,
@@ -66,6 +73,7 @@
     {
       "id": "1252395",
       "name": "Wangdue Phodrang",
+      "nativeName": "དབང་འདུས་ཕོ་བྲང་",
       "latitude": 27.48615,
       "longitude": 89.89915,
       "population": 8954,
@@ -75,6 +83,7 @@
     {
       "id": "1337301",
       "name": "Jakar",
+      "nativeName": "བྱ་ཀར་",
       "latitude": 27.54918,
       "longitude": 90.7525,
       "population": 6243,
@@ -84,6 +93,7 @@
     {
       "id": "1337360",
       "name": "Samtse",
+      "nativeName": "་བསམ་རྩེ",
       "latitude": 26.89903,
       "longitude": 89.09951,
       "population": 5396,
@@ -92,7 +102,7 @@
     },
     {
       "id": "1252422",
-      "name": "Trashi Yangtse",
+      "name": "Trashiyangtse",
       "latitude": 27.6116,
       "longitude": 91.498,
       "population": 3025,
@@ -102,6 +112,7 @@
     {
       "id": "1252514",
       "name": "Mongar",
+      "nativeName": "མོང་སྒར",
       "latitude": 27.27471,
       "longitude": 91.23963,
       "population": 2969,
@@ -111,6 +122,7 @@
     {
       "id": "1252408",
       "name": "Trongsa",
+      "nativeName": "ཀྲོང་གསར་",
       "latitude": 27.5026,
       "longitude": 90.50716,
       "population": 2805,
@@ -120,6 +132,7 @@
     {
       "id": "1252433",
       "name": "Daga",
+      "nativeName": "Dagana",
       "latitude": 27.07529,
       "longitude": 89.87688,
       "population": 2243,
@@ -129,6 +142,7 @@
     {
       "id": "1252526",
       "name": "Lhuentse",
+      "nativeName": "ལྷུན་རྩེ",
       "latitude": 27.66787,
       "longitude": 91.18393,
       "population": 1935,
@@ -138,6 +152,7 @@
     {
       "id": "1252563",
       "name": "Ha",
+      "nativeName": "ཧཱ།",
       "latitude": 27.38747,
       "longitude": 89.28074,
       "population": 1449,
@@ -156,6 +171,7 @@
     {
       "id": "1337356",
       "name": "Panbang",
+      "nativeName": "སྤན་བང་།",
       "latitude": 26.86667,
       "longitude": 90.98333,
       "population": 1360,
@@ -165,6 +181,7 @@
     {
       "id": "1252423",
       "name": "Trashigang",
+      "nativeName": "བཀྲ་ཤིས་སྒང་།",
       "latitude": 27.3331,
       "longitude": 91.55424,
       "population": 872,
@@ -174,6 +191,7 @@
     {
       "id": "1252451",
       "name": "Shemgang",
+      "nativeName": "Zhemgang",
       "latitude": 27.21689,
       "longitude": 90.65793,
       "population": 852,
@@ -192,6 +210,7 @@
     {
       "id": "1252578",
       "name": "Gasa",
+      "nativeName": "མགར་ས",
       "latitude": 27.90372,
       "longitude": 89.72689,
       "population": 548,

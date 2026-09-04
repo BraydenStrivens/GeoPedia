@@ -2,7 +2,8 @@
   "towns": [
     {
       "id": "3413829",
-      "name": "Reykjavík",
+      "name": "Reykjavik",
+      "nativeName": "Reykjavík",
       "latitude": 64.13548,
       "longitude": -21.89541,
       "population": 118918,
@@ -20,7 +21,8 @@
     },
     {
       "id": "3416706",
-      "name": "Hafnarfjörður",
+      "name": "Hafnarfjordur",
+      "nativeName": "Hafnarfjörður",
       "latitude": 64.0671,
       "longitude": -21.93774,
       "population": 31525,
@@ -102,6 +104,7 @@
     {
       "id": "3412093",
       "name": "Vestmannaeyjar",
+      "nativeName": "Vestmannaeyjabær",
       "latitude": 63.44273,
       "longitude": -20.27339,
       "population": 4639,
@@ -111,6 +114,7 @@
     {
       "id": "2629833",
       "name": "Norðurþing",
+      "nativeName": "Húsavík",
       "latitude": 66.04148,
       "longitude": -17.33834,
       "population": 3234,
@@ -353,7 +357,8 @@
     },
     {
       "id": "2627140",
-      "name": "Seyðisfjörður",
+      "name": "Seydisfjordur",
+      "nativeName": "Seyðisfjörður",
       "latitude": 65.26008,
       "longitude": -14.00577,
       "population": 676,

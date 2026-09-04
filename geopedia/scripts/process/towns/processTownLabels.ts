@@ -121,15 +121,26 @@ type RawOsmSettlement = {
 type ProcessedTown = {
   osmId: string;
 
+  /**
+   * Primary OSM settlement name.
+   *
+   * This normally represents the locally used/native name and may use either
+   * Latin or non-Latin script.
+   */
   name: string;
 
-  // nameEn?: string;
-
-  // intName?: string;
+  /**
+   * Explicit English or international OSM settlement name.
+   *
+   * Unlike `latinName`, this value is retained even when the primary name
+   * already uses Latin script. This allows town quizzes to distinguish names
+   * such as `Wien` / `Vienna` and `Firenze` / `Florence`.
+   */
+  englishName?: string;
 
   /**
-   * Latin-script companion name for settlements whose primary name uses
-   * another writing system.
+   * Latin-script companion name used by GeoPedia's world-map town labels when
+   * the primary settlement name uses a non-Latin script.
    */
   latinName?: string;
 
@@ -193,6 +204,36 @@ function isLatinScript(value: string): boolean {
   }
 
   return hasLetter;
+}
+
+/**
+ * Chooses the preferred explicit English/international OSM name.
+ *
+ * `name:en` is preferred because it explicitly represents the English name
+ * used for the settlement. `int_name` provides a useful fallback when an
+ * English-specific value is unavailable.
+ *
+ * Unlike `getLatinCompanionName`, this helper intentionally works for both
+ * Latin- and non-Latin-script primary names. Town quizzes need to distinguish
+ * Latin-script local names such as `Wien` from English names such as `Vienna`.
+ *
+ * @param settlement - Raw OSM settlement.
+ * @returns Preferred English/international name when available.
+ */
+function getEnglishName(
+  settlement: RawOsmSettlement,
+): string | undefined {
+  const candidates = [settlement.nameEn, settlement.intName];
+
+  for (const candidate of candidates) {
+    const trimmedCandidate = candidate?.trim();
+
+    if (trimmedCandidate) {
+      return trimmedCandidate;
+    }
+  }
+
+  return undefined;
 }
 
 /**
@@ -870,6 +911,8 @@ function createProcessedTown(
 
     name: settlement.name,
 
+    englishName: getEnglishName(settlement),
+
     latinName: getLatinCompanionName(settlement),
 
     place: settlement.place,
@@ -1001,6 +1044,10 @@ async function writeTownGeoJson(
         (town.labelMinZoom ?? MAX_LABEL_ZOOM).toFixed(3),
       ),
     };
+
+    if (town.englishName) {
+      properties.englishName = town.englishName;
+    }
 
     if (town.latinName) {
       properties.latinName = town.latinName;

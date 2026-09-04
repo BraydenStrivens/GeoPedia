@@ -1,5 +1,5 @@
 /**
- * Displays the quiz groups previously saved by the user.
+ * Displays quiz groups previously saved by the user.
  *
  * Saved-group rows support:
  *
@@ -8,9 +8,9 @@
  * - Entering or leaving saved-group edit mode.
  * - Visually identifying the active and currently edited groups.
  *
- * Persistence and editing logic are owned by QuizGroupsPanel. This component
- * is responsible only for presenting saved-group state and forwarding user
- * interactions.
+ * Persistence and editing coordination remain owned by
+ * `FeatureQuizGroupsPanel`. This component is responsible only for presenting
+ * saved-group state and forwarding user interactions.
  */
 
 "use client";
@@ -21,10 +21,10 @@ import type { SavedQuizGroup } from "@/quiz/groupings/feature/types";
  * Props required by the Saved Groups section.
  */
 type SavedGroupsSectionProps = {
-  /** Groups saved for the current quiz. */
+  /** Groups saved for the current feature quiz. */
   savedGroups: SavedQuizGroup[];
 
-  /** ID of the saved group currently active on the quiz. */
+  /** ID of the saved group currently applied to the quiz. */
   activeSavedGroupId: string | null;
 
   /** ID of the saved group currently being edited. */
@@ -32,9 +32,6 @@ type SavedGroupsSectionProps = {
 
   /** ID of the saved group whose description is currently expanded. */
   openDescriptionGroupId: string | null;
-
-  /** Whether saved-group controls are currently disabled. */
-  isDisabled: boolean;
 
   /** Activates or deactivates a saved group. */
   onToggleGroup: (group: SavedQuizGroup) => void;
@@ -47,10 +44,18 @@ type SavedGroupsSectionProps = {
 };
 
 /**
- * Displays saved quiz groups and their activation, description, and editing
- * controls.
+ * Displays saved feature quiz groups and their activation, description, and
+ * editing controls.
  *
- * @param props - Saved-group state and interaction callbacks.
+ * @param props - Saved-group section properties.
+ * @param props.savedGroups - Groups persisted for the current quiz.
+ * @param props.activeSavedGroupId - ID of the currently active saved group.
+ * @param props.editingGroupId - ID of the saved group currently being edited.
+ * @param props.openDescriptionGroupId - ID of the group whose description is
+ * expanded.
+ * @param props.onToggleGroup - Callback for activating or deactivating a group.
+ * @param props.onToggleDescription - Callback for toggling a group description.
+ * @param props.onToggleEditing - Callback for toggling saved-group edit mode.
  * @returns The Saved Groups section.
  */
 export default function SavedGroupsSection({
@@ -58,7 +63,6 @@ export default function SavedGroupsSection({
   activeSavedGroupId,
   editingGroupId,
   openDescriptionGroupId,
-  isDisabled,
   onToggleGroup,
   onToggleDescription,
   onToggleEditing,
@@ -67,29 +71,28 @@ export default function SavedGroupsSection({
   const hasSavedGroups = savedGroups.length > 0;
 
   return (
-    <section className="border-b border-gray-300 py-4">
+    <section className="border-b border-border py-4">
       {/* Section heading and saved-group count */}
       <div className="mb-2 flex items-center justify-between">
-        <h3 className="text-sm font-semibold text-gray-800">
+        <h3 className="text-sm font-semibold text-text">
           Saved Groups
         </h3>
 
-        {/* Saved-group count */}
-        <span className="text-xs text-gray-600">
+        <span className="text-xs text-text-secondary">
           {savedGroups.length}
         </span>
       </div>
 
       {!hasSavedGroups ? (
         /* Empty saved-groups state */
-        <p className="text-xs text-gray-500">
+        <p className="text-xs text-text-secondary">
           Saved groups will appear here.
         </p>
       ) : (
         /* Scrollable saved-group list */
-        <div className="panel-scrollbar max-h-48 space-y-2 overflow-y-auto overscroll-contain rounded-lg border border-gray-300 bg-transparent p-2 transition-colors hover:bg-gray-300/60">
+        <div className="panel-scrollbar max-h-48 space-y-2 overflow-y-auto overscroll-contain rounded-lg border border-border bg-transparent p-2 transition-colors hover:bg-background-3/60">
           {savedGroups.map((savedGroup) => {
-            /** Whether this group currently controls the quiz. */
+            /** Whether this saved group currently controls the quiz. */
             const isActive = activeSavedGroupId === savedGroup.id;
 
             /** Whether this group's optional description is expanded. */
@@ -104,10 +107,9 @@ export default function SavedGroupsSection({
                 key={savedGroup.id}
                 className={[
                   "overflow-hidden rounded-lg border transition-colors",
-
                   isActive
-                    ? "border-gray-900 bg-gray-900 text-white hover:bg-gray-800"
-                    : "border-gray-300 bg-white text-gray-800 hover:bg-gray-300/60",
+                    ? "border-selected-control bg-selected-control text-button-text hover:bg-selected-control-hover"
+                    : "border-border bg-background-1 text-text hover:bg-background-3/60",
                 ].join(" ")}
               >
                 {/* Saved-group primary and secondary controls */}
@@ -115,15 +117,9 @@ export default function SavedGroupsSection({
                   {/* Saved-group activation toggle */}
                   <button
                     type="button"
-                    disabled={isDisabled}
                     onClick={() => onToggleGroup(savedGroup)}
-                    className={[
-                      "flex min-w-0 flex-1 items-center px-3 py-2 text-left transition",
-
-                      isDisabled
-                        ? "cursor-not-allowed opacity-50"
-                        : "",
-                    ].join(" ")}
+                    aria-pressed={isActive}
+                    className="flex min-w-0 flex-1 items-center px-3 py-2 text-left transition"
                   >
                     <span className="truncate text-sm font-semibold">
                       {savedGroup.name}
@@ -136,7 +132,6 @@ export default function SavedGroupsSection({
                     {savedGroup.description && (
                       <button
                         type="button"
-                        disabled={isDisabled}
                         onClick={() =>
                           onToggleDescription(savedGroup.id)
                         }
@@ -152,15 +147,15 @@ export default function SavedGroupsSection({
                         }
                         aria-expanded={isDescriptionOpen}
                         className={[
-                          "flex h-6 w-6 items-center justify-center rounded-md text-xs font-bold transition",
-
+                          "flex h-6 w-6 items-center justify-center rounded-md",
+                          "text-xs font-bold transition",
                           isDescriptionOpen
                             ? isActive
-                              ? "bg-white/25 text-white"
-                              : "bg-gray-300 text-gray-900"
+                              ? "bg-background-1/25 text-button-text"
+                              : "bg-background-3 text-text"
                             : isActive
-                              ? "text-white/80 hover:bg-white/20 hover:text-white"
-                              : "text-gray-500 hover:bg-gray-300 hover:text-gray-900",
+                              ? "text-button-text/80 hover:bg-background-1/20 hover:text-button-text"
+                              : "text-text-secondary hover:bg-background-3 hover:text-text",
                         ].join(" ")}
                       >
                         ?
@@ -170,7 +165,6 @@ export default function SavedGroupsSection({
                     {/* Saved-group edit toggle */}
                     <button
                       type="button"
-                      disabled={isDisabled}
                       onClick={() => onToggleEditing(savedGroup)}
                       title={
                         isBeingEdited
@@ -182,16 +176,16 @@ export default function SavedGroupsSection({
                           ? `Stop editing ${savedGroup.name}`
                           : `Edit ${savedGroup.name}`
                       }
+                      aria-pressed={isBeingEdited}
                       className={[
                         "flex h-6 w-6 items-center justify-center rounded-md transition",
-
                         isBeingEdited
                           ? isActive
-                            ? "bg-white/25 text-white"
-                            : "bg-gray-300 text-gray-900"
+                            ? "bg-background-1/25 text-button-text"
+                            : "bg-background-3 text-text"
                           : isActive
-                            ? "text-white/80 hover:bg-white/20 hover:text-white"
-                            : "text-gray-500 hover:bg-gray-300 hover:text-gray-900",
+                            ? "text-button-text/80 hover:bg-background-1/20 hover:text-button-text"
+                            : "text-text-secondary hover:bg-background-3 hover:text-text",
                       ].join(" ")}
                     >
                       {/* Pencil icon */}
@@ -218,10 +212,9 @@ export default function SavedGroupsSection({
                   <div
                     className={[
                       "border-t px-3 py-2 text-xs leading-relaxed",
-
                       isActive
-                        ? "border-white/20 text-white/80"
-                        : "border-gray-300 text-gray-600",
+                        ? "border-background-1/20 text-button-text/80"
+                        : "border-border text-text-secondary",
                     ].join(" ")}
                   >
                     {savedGroup.description}

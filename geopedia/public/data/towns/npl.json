@@ -3,6 +3,7 @@
     {
       "id": "1283240",
       "name": "Kathmandu",
+      "nativeName": "काठमाडौं",
       "latitude": 27.70169,
       "longitude": 85.3206,
       "population": 1442271,
@@ -12,6 +13,7 @@
     {
       "id": "1282898",
       "name": "Pokhara",
+      "nativeName": "पोखरा",
       "latitude": 28.26689,
       "longitude": 83.96851,
       "population": 600051,
@@ -21,6 +23,7 @@
     {
       "id": "1283613",
       "name": "Bharatpur",
+      "nativeName": "भरतपुर",
       "latitude": 27.68027,
       "longitude": 84.43647,
       "population": 369377,
@@ -29,7 +32,8 @@
     },
     {
       "id": "1282931",
-      "name": "Pātan",
+      "name": "Lalitpur",
+      "nativeName": "ललितपुर",
       "latitude": 27.67658,
       "longitude": 85.31417,
       "population": 299283,
@@ -38,7 +42,8 @@
     },
     {
       "id": "1283581",
-      "name": "Birgañj",
+      "name": "Birgunj",
+      "nativeName": "वीरगञ्ज",
       "latitude": 27.01736,
       "longitude": 84.88047,
       "population": 268273,
@@ -48,6 +53,7 @@
     {
       "id": "1283582",
       "name": "Biratnagar",
+      "nativeName": "विराटनगर",
       "latitude": 26.45505,
       "longitude": 87.27007,
       "population": 244750,
@@ -56,7 +62,8 @@
     },
     {
       "id": "1283467",
-      "name": "Dhangaḍhi̇̄",
+      "name": "Dhangadhi",
+      "nativeName": "धनगढी",
       "latitude": 28.70159,
       "longitude": 80.58991,
       "population": 204788,
@@ -66,6 +73,7 @@
     {
       "id": "1283339",
       "name": "Hetauda",
+      "nativeName": "हेटौँडा",
       "latitude": 27.42839,
       "longitude": 85.03219,
       "population": 195951,
@@ -75,6 +83,7 @@
     {
       "id": "1283318",
       "name": "Janakpur",
+      "nativeName": "जनकपुर",
       "latitude": 26.72882,
       "longitude": 85.92628,
       "population": 195438,
@@ -83,7 +92,8 @@
     },
     {
       "id": "1283562",
-      "name": "Butwāl",
+      "name": "Butwal",
+      "nativeName": "बुटवल",
       "latitude": 27.69121,
       "longitude": 83.45251,
       "population": 195054,
@@ -92,7 +102,8 @@
     },
     {
       "id": "1283460",
-      "name": "Dharān",
+      "name": "Dharan",
+      "nativeName": "धरान",
       "latitude": 26.81436,
       "longitude": 87.27972,
       "population": 173096,
@@ -102,6 +113,7 @@
     {
       "id": "6941099",
       "name": "Nepalgunj",
+      "nativeName": "नेपालगञ्ज",
       "latitude": 28.05,
       "longitude": 81.61667,
       "population": 166258,
@@ -111,6 +123,7 @@
     {
       "id": "6254843",
       "name": "Birendranagar",
+      "nativeName": "वीरेन्द्रनगर",
       "latitude": 28.59669,
       "longitude": 81.61658,
       "population": 154886,
@@ -120,6 +133,7 @@
     {
       "id": "8411054",
       "name": "Madhyapur Thimi",
+      "nativeName": "मध्यपुर थिमि",
       "latitude": 27.68056,
       "longitude": 85.3875,
       "population": 119955,
@@ -128,7 +142,8 @@
     },
     {
       "id": "1283161",
-      "name": "Lahān",
+      "name": "Lahan",
+      "nativeName": "लहान",
       "latitude": 26.72022,
       "longitude": 86.48258,
       "population": 102955,
@@ -138,6 +153,7 @@
     {
       "id": "1283095",
       "name": "Bhimdatta",
+      "nativeName": "भिमदत्त",
       "latitude": 28.96399,
       "longitude": 80.17715,
       "population": 88381,
@@ -146,7 +162,8 @@
     },
     {
       "id": "1282884",
-      "name": "Rājbirāj",
+      "name": "Rajbiraj",
+      "nativeName": "राजविराज",
       "latitude": 26.53968,
       "longitude": 86.74796,
       "population": 69803,
@@ -155,7 +172,8 @@
     },
     {
       "id": "1283679",
-      "name": "Banepā",
+      "name": "Banepa",
+      "nativeName": "बनेपा",
       "latitude": 27.6327,
       "longitude": 85.52201,
       "population": 67629,
@@ -165,6 +183,7 @@
     {
       "id": "1283621",
       "name": "Siddharthanagar",
+      "nativeName": "सिद्धार्थनगर",
       "latitude": 27.5,
       "longitude": 83.45,
       "population": 63367,
@@ -173,7 +192,8 @@
     },
     {
       "id": "1283368",
-      "name": "Gulariyā",
+      "name": "Gulariya",
+      "nativeName": "गुलरिया",
       "latitude": 28.2058,
       "longitude": 81.34532,
       "population": 53107,
@@ -182,7 +202,8 @@
     },
     {
       "id": "1283539",
-      "name": "Chautārā",
+      "name": "Chautara Sangachok Gadhi",
+      "nativeName": "चौतारा साँगाचोकगढी",
       "latitude": 27.7763,
       "longitude": 85.7127,
       "population": 51347,
@@ -191,7 +212,8 @@
     },
     {
       "id": "1283329",
-      "name": "Īṭahari̇̄",
+      "name": "Itahari",
+      "nativeName": "इटहरी",
       "latitude": 26.66371,
       "longitude": 87.27403,
       "population": 47984,
@@ -200,7 +222,8 @@
     },
     {
       "id": "1282666",
-      "name": "Ṭikāpur",
+      "name": "Tikapur",
+      "nativeName": "टीकापुर",
       "latitude": 28.52819,
       "longitude": 81.11828,
       "population": 44758,
@@ -209,7 +232,8 @@
     },
     {
       "id": "1283190",
-      "name": "Ki̇̄rtipur",
+      "name": "Kirtipur",
+      "nativeName": "कीर्तिपुर",
       "latitude": 27.67851,
       "longitude": 85.27574,
       "population": 44632,
@@ -218,7 +242,8 @@
     },
     {
       "id": "1283546",
-      "name": "Chari̇̄koṭ",
+      "name": "Bhimeshwar",
+      "nativeName": "भीमेश्वर",
       "latitude": 27.66824,
       "longitude": 86.0519,
       "population": 40000,
@@ -227,7 +252,8 @@
     },
     {
       "id": "1282635",
-      "name": "Tulsi̇̄pur",
+      "name": "Tulsipur",
+      "nativeName": "तुलसीपुर",
       "latitude": 28.13328,
       "longitude": 82.29803,
       "population": 39058,
@@ -237,6 +263,7 @@
     {
       "id": "6254845",
       "name": "Dipayal",
+      "nativeName": "दिपायल",
       "latitude": 29.26083,
       "longitude": 80.94,
       "population": 33968,
@@ -245,7 +272,8 @@
     },
     {
       "id": "1282950",
-      "name": "Panauti̇̄",
+      "name": "Paunauti",
+      "nativeName": "पनौती",
       "latitude": 27.58447,
       "longitude": 85.51487,
       "population": 27602,
@@ -255,6 +283,7 @@
     {
       "id": "1283401",
       "name": "Gaur",
+      "nativeName": "गौर",
       "latitude": 26.76371,
       "longitude": 85.27659,
       "population": 27325,
@@ -264,6 +293,7 @@
     {
       "id": "1282770",
       "name": "Siraha",
+      "nativeName": "सिराहा",
       "latitude": 26.65422,
       "longitude": 86.20795,
       "population": 24657,
@@ -272,7 +302,7 @@
     },
     {
       "id": "1282714",
-      "name": "Tānsen",
+      "name": "Tansen",
       "latitude": 27.86655,
       "longitude": 83.54587,
       "population": 23693,
@@ -282,6 +312,7 @@
     {
       "id": "1283323",
       "name": "Jaleshwar",
+      "nativeName": "जलेश्वर",
       "latitude": 26.64874,
       "longitude": 85.79996,
       "population": 23573,
@@ -290,7 +321,8 @@
     },
     {
       "id": "1283711",
-      "name": "Bāgluṅ",
+      "name": "Baglung",
+      "nativeName": "बागलुङ",
       "latitude": 28.26728,
       "longitude": 83.59956,
       "population": 23296,
@@ -299,7 +331,8 @@
     },
     {
       "id": "1283217",
-      "name": "Khā̃dbāri̇̄",
+      "name": "Khandbari",
+      "nativeName": "खाँदबारी",
       "latitude": 27.37647,
       "longitude": 87.20773,
       "population": 22903,
@@ -308,7 +341,8 @@
     },
     {
       "id": "1283465",
-      "name": "Dhankutā",
+      "name": "Dhankuta",
+      "nativeName": "धनकुटा",
       "latitude": 26.98333,
       "longitude": 87.33333,
       "population": 22084,
@@ -317,7 +351,8 @@
     },
     {
       "id": "1282616",
-      "name": "Wāliṅ",
+      "name": "Waling",
+      "nativeName": "वालिङ",
       "latitude": 27.9837,
       "longitude": 83.75925,
       "population": 21867,
@@ -326,7 +361,8 @@
     },
     {
       "id": "1283496",
-      "name": "Dailekh",
+      "name": "Narayan",
+      "nativeName": "नारायण",
       "latitude": 28.84434,
       "longitude": 81.71011,
       "population": 20908,
@@ -335,7 +371,8 @@
     },
     {
       "id": "1283082",
-      "name": "Malaṅgawā",
+      "name": "Malangawa",
+      "nativeName": "मलंगवा",
       "latitude": 26.85622,
       "longitude": 85.56032,
       "population": 20284,
@@ -345,6 +382,7 @@
     {
       "id": "1283628",
       "name": "Bhadrapur",
+      "nativeName": "भद्रपुर",
       "latitude": 26.54404,
       "longitude": 88.09436,
       "population": 19523,
@@ -354,6 +392,7 @@
     {
       "id": "1283499",
       "name": "Amargaḍhi̇̄",
+      "nativeName": "Amargadhi",
       "latitude": 29.29922,
       "longitude": 80.58333,
       "population": 19014,
@@ -363,6 +402,7 @@
     {
       "id": "1283484",
       "name": "Dārchulā",
+      "nativeName": "Khalanga",
       "latitude": 29.83,
       "longitude": 80.55,
       "population": 18317,
@@ -371,7 +411,8 @@
     },
     {
       "id": "1283333",
-      "name": "Ilām",
+      "name": "Ilam",
+      "nativeName": "इलाम",
       "latitude": 26.90943,
       "longitude": 87.92824,
       "population": 17491,
@@ -381,6 +422,7 @@
     {
       "id": "1283448",
       "name": "Dhulikhel",
+      "nativeName": "धुलिखेल",
       "latitude": 27.6221,
       "longitude": 85.54281,
       "population": 16263,
@@ -389,7 +431,8 @@
     },
     {
       "id": "1283285",
-      "name": "Jumla",
+      "name": "Chandannath",
+      "nativeName": "चन्दननाथ",
       "latitude": 29.27472,
       "longitude": 82.18383,
       "population": 9073,
@@ -399,6 +442,7 @@
     {
       "id": "1283168",
       "name": "Kusma",
+      "nativeName": "कुश्मा",
       "latitude": 28.22266,
       "longitude": 83.6826,
       "population": 6758,
@@ -417,6 +461,7 @@
     {
       "id": "1283600",
       "name": "Bhojpur",
+      "nativeName": "भोजपुर",
       "latitude": 27.1715,
       "longitude": 87.04607,
       "population": 3250,
@@ -425,7 +470,7 @@
     },
     {
       "id": "1283022",
-      "name": "Mustāng",
+      "name": "Lo Manthang",
       "latitude": 29.18321,
       "longitude": 83.95634,
       "population": 1899,
@@ -434,7 +479,8 @@
     },
     {
       "id": "1282779",
-      "name": "Simikoṭ",
+      "name": "Simikot",
+      "nativeName": "सिमिकोट",
       "latitude": 29.97142,
       "longitude": 81.81968,
       "population": 568,

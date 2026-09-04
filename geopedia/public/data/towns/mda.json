@@ -2,7 +2,7 @@
   "towns": [
     {
       "id": "618426",
-      "name": "Chisinau",
+      "name": "Chișinău",
       "latitude": 47.00902,
       "longitude": 28.85938,
       "population": 635994,
@@ -12,6 +12,7 @@
     {
       "id": "617239",
       "name": "Tiraspol",
+      "nativeName": "Тирасполь",
       "latitude": 46.84275,
       "longitude": 29.6284,
       "population": 157000,
@@ -21,6 +22,7 @@
     {
       "id": "618605",
       "name": "Bălţi",
+      "nativeName": "Bălți",
       "latitude": 47.76291,
       "longitude": 27.92854,
       "population": 125000,
@@ -30,6 +32,7 @@
     {
       "id": "618577",
       "name": "Bender",
+      "nativeName": "Бендеры",
       "latitude": 46.83158,
       "longitude": 29.47671,
       "population": 110175,
@@ -38,7 +41,8 @@
     },
     {
       "id": "617486",
-      "name": "Rîbniţa",
+      "name": "Rybnitsa",
+      "nativeName": "Рыбница",
       "latitude": 47.76817,
       "longitude": 29.01,
       "population": 55455,
@@ -75,6 +79,7 @@
     {
       "id": "618356",
       "name": "Durleşti",
+      "nativeName": "Durlești",
       "latitude": 47.02156,
       "longitude": 28.76303,
       "population": 26308,
@@ -92,7 +97,8 @@
     },
     {
       "id": "618365",
-      "name": "Dubăsari",
+      "name": "Dubossary",
+      "nativeName": "Дубоссары",
       "latitude": 47.26562,
       "longitude": 29.16667,
       "population": 23254,
@@ -111,6 +117,7 @@
     {
       "id": "617076",
       "name": "Edineţ",
+      "nativeName": "Edineț",
       "latitude": 48.17319,
       "longitude": 27.30075,
       "population": 22872,
@@ -129,6 +136,7 @@
     {
       "id": "618120",
       "name": "Căuşeni",
+      "nativeName": "Căușeni",
       "latitude": 46.63738,
       "longitude": 29.41087,
       "population": 21690,
@@ -147,6 +155,7 @@
     {
       "id": "617993",
       "name": "Hînceşti",
+      "nativeName": "Hîncești",
       "latitude": 46.83089,
       "longitude": 28.58999,
       "population": 16900,
@@ -156,6 +165,7 @@
     {
       "id": "618329",
       "name": "Floreşti",
+      "nativeName": "Florești",
       "latitude": 47.89168,
       "longitude": 28.29339,
       "population": 16759,
@@ -183,6 +193,7 @@
     {
       "id": "617381",
       "name": "Slobozia",
+      "nativeName": "Слободзея",
       "latitude": 46.72927,
       "longitude": 29.70446,
       "population": 15356,
@@ -219,6 +230,7 @@
     {
       "id": "617096",
       "name": "Vulcăneşti",
+      "nativeName": "Vulcănești",
       "latitude": 45.68492,
       "longitude": 28.40613,
       "population": 14352,
@@ -237,6 +249,7 @@
     {
       "id": "618454",
       "name": "Călăraşi",
+      "nativeName": "Călărași",
       "latitude": 47.25548,
       "longitude": 28.30953,
       "population": 14066,
@@ -255,6 +268,7 @@
     {
       "id": "617482",
       "name": "Rîşcani",
+      "nativeName": "Rîșcani",
       "latitude": 47.94829,
       "longitude": 27.56669,
       "population": 12893,
@@ -264,6 +278,7 @@
     {
       "id": "618406",
       "name": "Cimişlia",
+      "nativeName": "Cimișlia",
       "latitude": 46.52629,
       "longitude": 28.7649,
       "population": 12464,
@@ -282,6 +297,7 @@
     {
       "id": "618453",
       "name": "Camenca",
+      "nativeName": "Каменка",
       "latitude": 48.03233,
       "longitude": 28.69899,
       "population": 11072,
@@ -299,7 +315,8 @@
     },
     {
       "id": "618387",
-      "name": "Dnestrovsc",
+      "name": "Dnestrovsk",
+      "nativeName": "Днестровск",
       "latitude": 46.624,
       "longitude": 29.906,
       "population": 10426,
@@ -335,7 +352,8 @@
     },
     {
       "id": "618234",
-      "name": "Hryhoriopol",
+      "name": "Grigoriopol",
+      "nativeName": "Григориополь",
       "latitude": 47.15413,
       "longitude": 29.30008,
       "population": 9456,
@@ -345,6 +363,7 @@
     {
       "id": "618382",
       "name": "Donduşeni",
+      "nativeName": "Dondușeni",
       "latitude": 48.24268,
       "longitude": 27.6101,
       "population": 9435,
@@ -354,6 +373,7 @@
     {
       "id": "617659",
       "name": "Ocniţa",
+      "nativeName": "Ocnița",
       "latitude": 48.38231,
       "longitude": 27.43864,
       "population": 9325,
@@ -380,7 +400,7 @@
     },
     {
       "id": "617284",
-      "name": "Ştefan Vodă",
+      "name": "Ștefan Vodă",
       "latitude": 46.51294,
       "longitude": 29.66223,
       "population": 7700,
@@ -398,7 +418,8 @@
     },
     {
       "id": "617602",
-      "name": "Pervomaisc",
+      "name": "Pervomaisk",
+      "nativeName": "Первомайск",
       "latitude": 46.73253,
       "longitude": 29.9617,
       "population": 7300,
@@ -425,7 +446,8 @@
     },
     {
       "id": "617254",
-      "name": "Teleneşti",
+      "name": "Telenesti",
+      "nativeName": "Telenești",
       "latitude": 47.50179,
       "longitude": 28.36478,
       "population": 6633,
@@ -435,6 +457,7 @@
     {
       "id": "617372",
       "name": "Şoldăneşti",
+      "nativeName": "Șoldănești",
       "latitude": 47.81618,
       "longitude": 28.79841,
       "population": 6160,
@@ -480,6 +503,7 @@
     {
       "id": "830975",
       "name": "Biruinţa",
+      "nativeName": "Biruința",
       "latitude": 47.81353,
       "longitude": 28.07004,
       "population": 4700,
@@ -488,7 +512,8 @@
     },
     {
       "id": "617973",
-      "name": "Crasnoe",
+      "name": "Krasnoe",
+      "nativeName": "Красное",
       "latitude": 46.643,
       "longitude": 29.823,
       "population": 4200,
@@ -516,6 +541,7 @@
     {
       "id": "617837",
       "name": "Mărculeşti",
+      "nativeName": "Mărculești",
       "latitude": 47.86897,
       "longitude": 28.24109,
       "population": 2400,
@@ -524,7 +550,8 @@
     },
     {
       "id": "617053",
-      "name": "Tiraspolul Nou",
+      "name": "Novotiraspolskiy",
+      "nativeName": "Новотираспольский",
       "latitude": 46.83,
       "longitude": 29.564,
       "population": 2200,
@@ -543,6 +570,7 @@
     {
       "id": "618459",
       "name": "Bucovăţ",
+      "nativeName": "Bucovăț",
       "latitude": 47.19064,
       "longitude": 28.45802,
       "population": 1600,
@@ -551,7 +579,8 @@
     },
     {
       "id": "617830",
-      "name": "Maiac",
+      "name": "Mayak",
+      "nativeName": "Маяк",
       "latitude": 47.23727,
       "longitude": 29.38498,
       "population": 1500,

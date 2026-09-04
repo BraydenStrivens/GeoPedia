@@ -24,9 +24,9 @@ import type * as maplibregl from "maplibre-gl";
 import type { RefObject } from "react";
 import { useEffect } from "react";
 
-import type { TownQuizMode } from "@/components/quiz/controls/town/TownQuizModeControl";
 import { TownQuizGuessResult } from "@/quiz/hooks/useTownQuiz";
 import type { TownQuizTown } from "@/types/quiz";
+import type { TownQuizMode } from "@/types/townQuizSettings";
 
 /** GeoJSON source containing towns from the currently active quiz group. */
 const TOWN_QUIZ_LABEL_SOURCE_ID = "town-quiz-labels-source";
@@ -109,7 +109,14 @@ function createTownLabelGeoJson(towns: TownQuizTown[]) {
 
       properties: {
         id: town.id,
-        name: town.name,
+        // name: town.name,
+
+        /**
+         * Render-ready quiz label.
+         *
+         * This may contain a newline when English and native names differ.
+         */
+        label: getTownLabelText(town),
 
         population: town.population,
 
@@ -137,6 +144,25 @@ function hideBaseTownLabels(map: maplibregl.Map): void {
 
     map.setLayoutProperty(layerId, "visibility", "none");
   }
+}
+
+/**
+ * Builds the label rendered for one custom town quiz marker.
+ *
+ * Settlements with distinct native and English names use a two-line label with
+ * the native/local form first and the English/international form second.
+ *
+ * Settlements whose names do not differ remain single-line labels.
+ *
+ * @param town - Town represented by the custom quiz layer.
+ * @returns MapLibre text displayed beside the town marker.
+ */
+function getTownLabelText(town: TownQuizTown): string {
+  if (!town.nativeName) {
+    return town.name;
+  }
+
+  return [town.name, town.nativeName].join("\n");
 }
 
 /**
@@ -202,7 +228,7 @@ function ensureTownLabelLayer(
     source: TOWN_QUIZ_LABEL_SOURCE_ID,
 
     layout: {
-      "text-field": ["get", "name"],
+      "text-field": ["get", "label"],
       "text-size": 14,
       "text-font": ["Open Sans Regular"],
 

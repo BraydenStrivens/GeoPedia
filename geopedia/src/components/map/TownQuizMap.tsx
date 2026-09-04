@@ -2,16 +2,19 @@
  * Renders the interactive geographic map used by GeoPedia town quizzes.
  *
  * Town quizzes are answered by clicking arbitrary geographic coordinates rather
- * than selecting predefined GeoJSON polygons. This component therefore owns the
- * town-specific map surface, forwards raw MapLibre click coordinates to the quiz
- * runtime, and synchronizes GeoPedia-controlled town labels.
+ * than selecting predefined GeoJSON features. This component therefore owns
+ * the town-specific MapLibre surface, forwards raw map clicks to the town quiz
+ * runtime, and synchronizes GeoPedia-controlled town labels and result
+ * visualization.
  *
- * MapTiler's own settlement labels are always suppressed for town quizzes.
- * Normal mode renders only towns belonging to the currently active quiz set,
- * while Hard mode hides those custom labels.
+ * MapTiler's own settlement labels are suppressed by the town-map
+ * infrastructure so GeoPedia can fully control which quiz towns are visible.
+ * Normal mode displays towns belonging to the currently active quiz set, while
+ * Hard mode hides those custom town labels until quiz feedback reveals them.
  *
- * Guess scoring, question progression, filtering, and result visualization
- * remain outside the map component.
+ * This component remains focused on map presentation and interaction. Town
+ * filtering, question progression, scoring logic, and quiz lifecycle state are
+ * managed outside the map and supplied through props.
  */
 
 "use client";
@@ -19,17 +22,17 @@
 import type { MapMouseEvent } from "maplibre-gl";
 import { useCallback, useEffect, useRef } from "react";
 
-import type { TownQuizMode } from "@/components/quiz/controls/town/TownQuizModeControl";
 import { useTownQuizLabels } from "@/maps/hooks/town/useTownQuizLabels";
 import { useTownQuizMap } from "@/maps/hooks/town/useTownQuizMap";
 import { useTownQuizResult } from "@/maps/hooks/town/useTownQuizResult";
-import { TownQuizGuessResult } from "@/quiz/hooks/useTownQuiz";
+import type { TownQuizGuessResult } from "@/quiz/hooks/useTownQuiz";
 import type { TownCountryConfig } from "@/quiz/town/townCountryConfigs";
 import type { GeographicCoordinate } from "@/quiz/town/townScoring";
 import type { TownQuizTown } from "@/types/quiz";
+import type { TownQuizSettings } from "@/types/townQuizSettings";
 
 /**
- * Props required by the town quiz map.
+ * Props required by GeoPedia's town quiz map.
  */
 type TownQuizMapProps = {
   /** Country-specific camera and geographic scoring configuration. */
@@ -38,12 +41,13 @@ type TownQuizMapProps = {
   /** Towns currently included in the active quiz/filter. */
   towns: TownQuizTown[];
 
-  /** Current learner-friendly or recall-only display mode. */
-  mode: TownQuizMode;
+  /** Persisted settings controlling the town quiz map. */
+  settings: TownQuizSettings;
 
   /**
-   * Object containing data about the last question and the user's answer
-   * or `undefined` if no previous question has been answered.
+   * Result of the most recently answered town question.
+   *
+   * `undefined` indicates that no question has yet produced result feedback.
    */
   lastResult: TownQuizGuessResult | undefined;
 
@@ -55,44 +59,73 @@ type TownQuizMapProps = {
 };
 
 /**
- * Renders the shared MapLibre town quiz surface.
+ * Renders the MapLibre surface used by a GeoPedia town quiz.
+ *
+ * The component creates the country-specific town map, synchronizes quiz-town
+ * labels and previous-answer result visualization, and converts enabled map
+ * clicks into the geographic-coordinate shape expected by the town quiz
+ * engine.
+ *
+ * @param props - Town map configuration, quiz towns, settings, result state,
+ * and guess callback.
+ * @returns Interactive town quiz map.
  */
 export default function TownQuizMap({
   townConfig,
   towns,
-  mode,
+  settings,
   lastResult,
   onGuess,
   isGuessingEnabled,
 }: TownQuizMapProps) {
-  /** DOM element into which MapLibre creates the map. */
+  /** DOM element into which MapLibre creates the town quiz map. */
   const mapContainerRef = useRef<HTMLDivElement | null>(null);
 
-  /** Creates and owns the country-specific town map. */
+  /**
+   * Creates and owns the country-specific MapLibre town quiz map.
+   */
   const { mapRef, isMapReady } = useTownQuizMap({
     containerRef: mapContainerRef,
 
     initialView: townConfig.initialView,
+
+    showLabels: settings.showLabels,
   });
 
-  /** Ensures only GeoPedia-controlled quiz-town labels are available. */
+  /**
+   * Synchronizes GeoPedia-controlled quiz-town labels with the active town set,
+   * quiz mode, and most recent answer result.
+   */
   useTownQuizLabels({
     mapRef,
     isMapReady,
-    towns,
-    mode,
-    lastResult,
-  });
 
-  useTownQuizResult({
-    mapRef,
-    isMapReady,
+    towns,
+
+    mode: settings.mode,
+
     lastResult,
   });
 
   /**
-   * Converts a MapLibre click into the geographic-coordinate shape consumed by
-   * the town quiz engine.
+   * Synchronizes map visualization for the most recently answered town
+   * question.
+   */
+  useTownQuizResult({
+    mapRef,
+    isMapReady,
+
+    lastResult,
+  });
+
+  /**
+   * Converts an enabled MapLibre click into the geographic-coordinate shape
+   * consumed by the town quiz engine.
+   *
+   * Clicks are ignored whenever the parent has disabled guess submission.
+   *
+   * @param event - MapLibre click event containing the selected longitude and
+   * latitude.
    */
   const handleMapClick = useCallback(
     (event: MapMouseEvent): void => {
@@ -109,8 +142,9 @@ export default function TownQuizMap({
   );
 
   /**
-   * Registers the town-guess click handler while preserving one listener across
-   * each React render.
+   * Registers the town-guess click handler once the MapLibre map is ready and
+   * removes the listener whenever its dependencies change or the component is
+   * unmounted.
    */
   useEffect(() => {
     const map = mapRef.current;
@@ -128,6 +162,7 @@ export default function TownQuizMap({
 
   return (
     <div className="relative h-full w-full">
+      {/* MapLibre town quiz map container */}
       <div ref={mapContainerRef} className="h-full w-full" />
     </div>
   );

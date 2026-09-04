@@ -21,6 +21,7 @@
     {
       "id": "2509954",
       "name": "Valencia",
+      "nativeName": "València",
       "latitude": 39.47391,
       "longitude": -0.37966,
       "population": 824340,
@@ -38,7 +39,8 @@
     },
     {
       "id": "2510911",
-      "name": "Sevilla",
+      "name": "Seville",
+      "nativeName": "Sevilla",
       "latitude": 37.38283,
       "longitude": -5.97317,
       "population": 686741,
@@ -65,7 +67,8 @@
     },
     {
       "id": "2512989",
-      "name": "Palma",
+      "name": "Palma de Mallorca",
+      "nativeName": "Palma",
       "latitude": 39.56939,
       "longitude": 2.65024,
       "population": 438234,
@@ -74,7 +77,8 @@
     },
     {
       "id": "2515270",
-      "name": "Las Palmas de Gran Canaria",
+      "name": "Las Palmas",
+      "nativeName": "Las Palmas de Gran Canaria",
       "latitude": 28.10178,
       "longitude": -15.41573,
       "population": 383516,
@@ -84,6 +88,7 @@
     {
       "id": "2521978",
       "name": "Alicante",
+      "nativeName": "Alacant / Alicante",
       "latitude": 38.34517,
       "longitude": -0.48149,
       "population": 348901,
@@ -129,6 +134,7 @@
     {
       "id": "3121424",
       "name": "Gijón",
+      "nativeName": "Gijón / Xixón",
       "latitude": 43.53573,
       "longitude": -5.66152,
       "population": 271780,
@@ -137,7 +143,7 @@
     },
     {
       "id": "3104499",
-      "name": "Gasteiz / Vitoria",
+      "name": "Vitoria-Gasteiz",
       "latitude": 42.84998,
       "longitude": -2.67268,
       "population": 257407,
@@ -165,6 +171,7 @@
     {
       "id": "2518559",
       "name": "Elche",
+      "nativeName": "Elx / Elche",
       "latitude": 38.26218,
       "longitude": -0.70107,
       "population": 234765,
@@ -183,6 +190,7 @@
     {
       "id": "3114711",
       "name": "Oviedo",
+      "nativeName": "Oviedo / Uviéu",
       "latitude": 43.36029,
       "longitude": -5.84476,
       "population": 220027,
@@ -218,7 +226,8 @@
     },
     {
       "id": "2516326",
-      "name": "Jerez de la Frontera",
+      "name": "Jerez",
+      "nativeName": "Jerez de la Frontera",
       "latitude": 36.68645,
       "longitude": -6.13606,
       "population": 212879,
@@ -246,6 +255,7 @@
     {
       "id": "3114472",
       "name": "Pamplona",
+      "nativeName": "Pamplona / Iruña",
       "latitude": 42.81687,
       "longitude": -1.64323,
       "population": 208243,
@@ -263,7 +273,8 @@
     },
     {
       "id": "2521886",
-      "name": "Almería",
+      "name": "Almeria",
+      "nativeName": "Almería",
       "latitude": 36.83814,
       "longitude": -2.45974,
       "population": 196851,
@@ -354,6 +365,7 @@
     {
       "id": "2519752",
       "name": "Castelló de la Plana",
+      "nativeName": "Castelló de la Plana / Castellón de la Plana",
       "latitude": 39.98567,
       "longitude": -0.04935,
       "population": 171857,
@@ -381,6 +393,7 @@
     {
       "id": "2511401",
       "name": "La Laguna",
+      "nativeName": "San Cristóbal de La Laguna",
       "latitude": 28.4853,
       "longitude": -16.32014,
       "population": 150661,
@@ -498,6 +511,7 @@
     {
       "id": "2520600",
       "name": "Cadiz",
+      "nativeName": "Cádiz",
       "latitude": 36.52672,
       "longitude": -6.2891,
       "population": 116979,
@@ -903,6 +917,7 @@
     {
       "id": "2522165",
       "name": "Alcalá de Guadaira",
+      "nativeName": "Alcalá de Guadaíra",
       "latitude": 37.33791,
       "longitude": -5.83951,
       "population": 70155,
@@ -982,12 +997,22 @@
       "isCapital": false
     },
     {
+      "id": "2511619",
+      "name": "Sagunto",
+      "nativeName": "Sagunt / Sagunto",
+      "latitude": 39.68333,
+      "longitude": -0.26667,
+      "population": 66070,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
       "id": "3105184",
       "name": "Vilanova i la Geltrú",
       "latitude": 41.22392,
       "longitude": 1.72511,
       "population": 65890,
-      "populationRank": 110,
+      "populationRank": 111,
       "isCapital": false
     },
     {
@@ -996,7 +1021,7 @@
       "latitude": 36.62035,
       "longitude": -4.49976,
       "population": 65448,
-      "populationRank": 111,
+      "populationRank": 112,
       "isCapital": false
     },
     {
@@ -1005,7 +1030,7 @@
       "latitude": 36.16809,
       "longitude": -5.34777,
       "population": 64595,
-      "populationRank": 112,
+      "populationRank": 113,
       "isCapital": false
     },
     {
@@ -1014,7 +1039,7 @@
       "latitude": 38.05456,
       "longitude": -1.20763,
       "population": 64065,
-      "populationRank": 113,
+      "populationRank": 114,
       "isCapital": false
     },
     {
@@ -1023,7 +1048,7 @@
       "latitude": 39.50263,
       "longitude": -0.44079,
       "population": 64023,
-      "populationRank": 114,
+      "populationRank": 115,
       "isCapital": false
     },
     {
@@ -1032,16 +1057,17 @@
       "latitude": 41.32784,
       "longitude": 2.09472,
       "population": 63418,
-      "populationRank": 115,
+      "populationRank": 116,
       "isCapital": false
     },
     {
       "id": "3124794",
       "name": "Collado-Villalba",
+      "nativeName": "Collado Villalba",
       "latitude": 40.63506,
       "longitude": -4.00486,
       "population": 63074,
-      "populationRank": 116,
+      "populationRank": 117,
       "isCapital": false
     },
     {
@@ -1050,7 +1076,7 @@
       "latitude": 43.33904,
       "longitude": -1.78938,
       "population": 61983,
-      "populationRank": 117,
+      "populationRank": 118,
       "isCapital": false
     },
     {
@@ -1059,16 +1085,17 @@
       "latitude": 41.50633,
       "longitude": -5.74456,
       "population": 61827,
-      "populationRank": 118,
+      "populationRank": 119,
       "isCapital": false
     },
     {
       "id": "2522098",
       "name": "Alcoy",
+      "nativeName": "Alcoi / Alcoy",
       "latitude": 38.70545,
       "longitude": -0.47432,
       "population": 61552,
-      "populationRank": 119,
+      "populationRank": 120,
       "isCapital": false
     },
     {
@@ -1077,7 +1104,7 @@
       "latitude": 28.96302,
       "longitude": -13.54769,
       "population": 61351,
-      "populationRank": 120,
+      "populationRank": 121,
       "isCapital": false
     },
     {
@@ -1086,7 +1113,7 @@
       "latitude": 41.60797,
       "longitude": 2.28773,
       "population": 60981,
-      "populationRank": 121,
+      "populationRank": 122,
       "isCapital": false
     },
     {
@@ -1095,7 +1122,7 @@
       "latitude": 36.75066,
       "longitude": -3.5179,
       "population": 60592,
-      "populationRank": 122,
+      "populationRank": 123,
       "isCapital": false
     },
     {
@@ -1104,7 +1131,7 @@
       "latitude": 38.91802,
       "longitude": -6.34292,
       "population": 59857,
-      "populationRank": 123,
+      "populationRank": 124,
       "isCapital": false
     },
     {
@@ -1113,7 +1140,7 @@
       "latitude": 41.49109,
       "longitude": 2.14079,
       "population": 58747,
-      "populationRank": 124,
+      "populationRank": 125,
       "isCapital": false
     },
     {
@@ -1122,7 +1149,7 @@
       "latitude": 40.65724,
       "longitude": -4.69951,
       "population": 57657,
-      "populationRank": 125,
+      "populationRank": 126,
       "isCapital": false
     },
     {
@@ -1131,16 +1158,17 @@
       "latitude": 38.09519,
       "longitude": -3.63602,
       "population": 57414,
-      "populationRank": 126,
+      "populationRank": 127,
       "isCapital": false
     },
     {
       "id": "2511032",
-      "name": "San Vicent del Raspeig",
+      "name": "Sant Vicent del Raspeig",
+      "nativeName": "Sant Vicent del Raspeig / San Vicente del Raspeig",
       "latitude": 38.3964,
       "longitude": -0.5255,
       "population": 56715,
-      "populationRank": 127,
+      "populationRank": 128,
       "isCapital": false
     },
     {
@@ -1149,7 +1177,7 @@
       "latitude": 43.34943,
       "longitude": -4.04785,
       "population": 55297,
-      "populationRank": 128,
+      "populationRank": 129,
       "isCapital": false
     },
     {
@@ -1158,7 +1186,7 @@
       "latitude": 38.47783,
       "longitude": -0.79157,
       "population": 55168,
-      "populationRank": 129,
+      "populationRank": 130,
       "isCapital": false
     },
     {
@@ -1167,7 +1195,7 @@
       "latitude": 40.06667,
       "longitude": -2.13333,
       "population": 54898,
-      "populationRank": 130,
+      "populationRank": 131,
       "isCapital": false
     },
     {
@@ -1176,7 +1204,7 @@
       "latitude": 40.03108,
       "longitude": -3.60246,
       "population": 54055,
-      "populationRank": 131,
+      "populationRank": 132,
       "isCapital": false
     },
     {
@@ -1185,7 +1213,7 @@
       "latitude": 42.13615,
       "longitude": -0.4087,
       "population": 53956,
-      "populationRank": 132,
+      "populationRank": 133,
       "isCapital": false
     },
     {
@@ -1194,7 +1222,7 @@
       "latitude": 27.92481,
       "longitude": -15.57329,
       "population": 53588,
-      "populationRank": 133,
+      "populationRank": 134,
       "isCapital": false
     },
     {
@@ -1203,7 +1231,7 @@
       "latitude": 40.405,
       "longitude": -3.87835,
       "population": 52626,
-      "populationRank": 134,
+      "populationRank": 135,
       "isCapital": false
     },
     {
@@ -1212,7 +1240,7 @@
       "latitude": 37.18516,
       "longitude": -5.78093,
       "population": 52617,
-      "populationRank": 135,
+      "populationRank": 136,
       "isCapital": false
     },
     {
@@ -1221,7 +1249,7 @@
       "latitude": 41.54026,
       "longitude": 2.21306,
       "population": 52484,
-      "populationRank": 136,
+      "populationRank": 137,
       "isCapital": false
     },
     {
@@ -1230,7 +1258,7 @@
       "latitude": 38.68712,
       "longitude": -4.10734,
       "population": 51842,
-      "populationRank": 137,
+      "populationRank": 138,
       "isCapital": false
     },
     {
@@ -1239,16 +1267,17 @@
       "latitude": 40.94808,
       "longitude": -4.11839,
       "population": 51683,
-      "populationRank": 138,
+      "populationRank": 139,
       "isCapital": false
     },
     {
       "id": "3129636",
       "name": "Arganda",
+      "nativeName": "Arganda del Rey",
       "latitude": 40.30076,
       "longitude": -3.43722,
       "population": 51489,
-      "populationRank": 139,
+      "populationRank": 140,
       "isCapital": false
     },
     {
@@ -1257,16 +1286,17 @@
       "latitude": 39.9383,
       "longitude": -0.10087,
       "population": 50577,
-      "populationRank": 140,
+      "populationRank": 141,
       "isCapital": false
     },
     {
       "id": "2516479",
       "name": "Ibiza",
+      "nativeName": "Eivissa",
       "latitude": 38.90883,
       "longitude": 1.43296,
       "population": 49727,
-      "populationRank": 141,
+      "populationRank": 142,
       "isCapital": false
     },
     {
@@ -1275,7 +1305,7 @@
       "latitude": 43.32842,
       "longitude": -3.03248,
       "population": 46978,
-      "populationRank": 142,
+      "populationRank": 143,
       "isCapital": false
     },
     {
@@ -1284,7 +1314,7 @@
       "latitude": 42.26645,
       "longitude": 2.96163,
       "population": 46381,
-      "populationRank": 143,
+      "populationRank": 144,
       "isCapital": false
     },
     {
@@ -1293,7 +1323,7 @@
       "latitude": 41.37732,
       "longitude": 2.08809,
       "population": 46355,
-      "populationRank": 144,
+      "populationRank": 145,
       "isCapital": false
     },
     {
@@ -1302,7 +1332,7 @@
       "latitude": 39.47523,
       "longitude": -0.41825,
       "population": 46131,
-      "populationRank": 145,
+      "populationRank": 146,
       "isCapital": false
     },
     {
@@ -1311,7 +1341,7 @@
       "latitude": 41.30605,
       "longitude": 2.00123,
       "population": 45994,
-      "populationRank": 146,
+      "populationRank": 147,
       "isCapital": false
     },
     {
@@ -1320,7 +1350,7 @@
       "latitude": 37.34461,
       "longitude": -6.06391,
       "population": 45890,
-      "populationRank": 147,
+      "populationRank": 148,
       "isCapital": false
     },
     {
@@ -1329,7 +1359,7 @@
       "latitude": 43.32099,
       "longitude": -3.02064,
       "population": 45826,
-      "populationRank": 148,
+      "populationRank": 149,
       "isCapital": false
     },
     {
@@ -1338,7 +1368,7 @@
       "latitude": 37.01938,
       "longitude": -4.56123,
       "population": 45168,
-      "populationRank": 149,
+      "populationRank": 150,
       "isCapital": false
     },
     {
@@ -1347,16 +1377,17 @@
       "latitude": 39.15,
       "longitude": -0.43333,
       "population": 44393,
-      "populationRank": 150,
+      "populationRank": 151,
       "isCapital": false
     },
     {
       "id": "3116789",
       "name": "Mieres",
+      "nativeName": "Mieres del Camín",
       "latitude": 43.25,
       "longitude": -5.76667,
       "population": 44070,
-      "populationRank": 151,
+      "populationRank": 152,
       "isCapital": false
     },
     {
@@ -1365,7 +1396,7 @@
       "latitude": 40.65909,
       "longitude": -3.76762,
       "population": 43700,
-      "populationRank": 152,
+      "populationRank": 153,
       "isCapital": false
     },
     {
@@ -1374,7 +1405,7 @@
       "latitude": 40.24147,
       "longitude": -3.69999,
       "population": 43501,
-      "populationRank": 153,
+      "populationRank": 154,
       "isCapital": false
     },
     {
@@ -1383,7 +1414,7 @@
       "latitude": 28.12271,
       "longitude": -16.726,
       "population": 43204,
-      "populationRank": 154,
+      "populationRank": 155,
       "isCapital": false
     },
     {
@@ -1392,7 +1423,7 @@
       "latitude": 41.38333,
       "longitude": 2.05,
       "population": 42919,
-      "populationRank": 155,
+      "populationRank": 156,
       "isCapital": false
     },
     {
@@ -1401,7 +1432,7 @@
       "latitude": 43.2397,
       "longitude": -2.8858,
       "population": 42657,
-      "populationRank": 156,
+      "populationRank": 157,
       "isCapital": false
     },
     {
@@ -1410,7 +1441,7 @@
       "latitude": 39.56964,
       "longitude": 3.20955,
       "population": 42631,
-      "populationRank": 157,
+      "populationRank": 158,
       "isCapital": false
     },
     {
@@ -1419,7 +1450,7 @@
       "latitude": 37.40881,
       "longitude": -4.48522,
       "population": 42248,
-      "populationRank": 158,
+      "populationRank": 159,
       "isCapital": false
     },
     {
@@ -1428,7 +1459,7 @@
       "latitude": 40.60092,
       "longitude": -3.70806,
       "population": 41896,
-      "populationRank": 159,
+      "populationRank": 160,
       "isCapital": false
     },
     {
@@ -1437,16 +1468,17 @@
       "latitude": 28.39076,
       "longitude": -16.52309,
       "population": 41833,
-      "populationRank": 160,
+      "populationRank": 161,
       "isCapital": false
     },
     {
       "id": "2518878",
       "name": "Denia",
+      "nativeName": "Dénia",
       "latitude": 38.84078,
       "longitude": 0.10574,
       "population": 41733,
-      "populationRank": 161,
+      "populationRank": 162,
       "isCapital": false
     },
     {
@@ -1455,7 +1487,7 @@
       "latitude": 37.96939,
       "longitude": -1.21714,
       "population": 41084,
-      "populationRank": 162,
+      "populationRank": 163,
       "isCapital": false
     },
     {
@@ -1464,7 +1496,7 @@
       "latitude": 36.52819,
       "longitude": -6.19011,
       "population": 40183,
-      "populationRank": 163,
+      "populationRank": 164,
       "isCapital": false
     },
     {
@@ -1473,7 +1505,7 @@
       "latitude": 40.03116,
       "longitude": -6.08845,
       "population": 40141,
-      "populationRank": 164,
+      "populationRank": 165,
       "isCapital": false
     },
     {
@@ -1482,7 +1514,7 @@
       "latitude": 41.67419,
       "longitude": 2.79036,
       "population": 40047,
-      "populationRank": 165,
+      "populationRank": 166,
       "isCapital": false
     },
     {
@@ -1491,16 +1523,17 @@
       "latitude": 28.11882,
       "longitude": -16.57599,
       "population": 39993,
-      "populationRank": 166,
+      "populationRank": 167,
       "isCapital": false
     },
     {
       "id": "3110962",
       "name": "Sama",
+      "nativeName": "Llangréu / Langreo",
       "latitude": 43.29568,
       "longitude": -5.68416,
       "population": 39984,
-      "populationRank": 167,
+      "populationRank": 168,
       "isCapital": false
     },
     {
@@ -1509,7 +1542,7 @@
       "latitude": 37.5422,
       "longitude": -5.0826,
       "population": 39882,
-      "populationRank": 168,
+      "populationRank": 169,
       "isCapital": false
     },
     {
@@ -1518,7 +1551,7 @@
       "latitude": 41.93012,
       "longitude": 2.25486,
       "population": 39844,
-      "populationRank": 169,
+      "populationRank": 170,
       "isCapital": false
     },
     {
@@ -1527,7 +1560,7 @@
       "latitude": 40.42386,
       "longitude": -3.53261,
       "population": 39466,
-      "populationRank": 170,
+      "populationRank": 171,
       "isCapital": false
     },
     {
@@ -1536,7 +1569,7 @@
       "latitude": 42.6865,
       "longitude": -2.94695,
       "population": 39264,
-      "populationRank": 171,
+      "populationRank": 172,
       "isCapital": false
     },
     {
@@ -1545,7 +1578,7 @@
       "latitude": 41.76401,
       "longitude": -2.46883,
       "population": 39112,
-      "populationRank": 172,
+      "populationRank": 173,
       "isCapital": false
     },
     {
@@ -1554,7 +1587,7 @@
       "latitude": 41.58098,
       "longitude": 1.6172,
       "population": 38918,
-      "populationRank": 173,
+      "populationRank": 174,
       "isCapital": false
     },
     {
@@ -1563,7 +1596,7 @@
       "latitude": 43.31195,
       "longitude": -1.90234,
       "population": 38767,
-      "populationRank": 174,
+      "populationRank": 175,
       "isCapital": false
     },
     {
@@ -1572,7 +1605,7 @@
       "latitude": 36.71715,
       "longitude": -4.27583,
       "population": 38666,
-      "populationRank": 175,
+      "populationRank": 176,
       "isCapital": false
     },
     {
@@ -1581,7 +1614,7 @@
       "latitude": 39.50984,
       "longitude": -0.41327,
       "population": 38433,
-      "populationRank": 176,
+      "populationRank": 177,
       "isCapital": false
     },
     {
@@ -1590,7 +1623,7 @@
       "latitude": 41.34618,
       "longitude": 1.69713,
       "population": 38425,
-      "populationRank": 177,
+      "populationRank": 178,
       "isCapital": false
     },
     {
@@ -1599,7 +1632,7 @@
       "latitude": 41.49686,
       "longitude": 2.15739,
       "population": 38347,
-      "populationRank": 178,
+      "populationRank": 179,
       "isCapital": false
     },
     {
@@ -1608,7 +1641,7 @@
       "latitude": 38.82191,
       "longitude": -0.60603,
       "population": 37735,
-      "populationRank": 179,
+      "populationRank": 180,
       "isCapital": false
     },
     {
@@ -1617,16 +1650,16 @@
       "latitude": 43.50175,
       "longitude": -8.19082,
       "population": 37712,
-      "populationRank": 180,
+      "populationRank": 181,
       "isCapital": false
     },
     {
       "id": "3105575",
-      "name": "Vilagarcía de Arousa",
+      "name": "Vilagarcía",
       "latitude": 42.59631,
       "longitude": -8.76426,
       "population": 37576,
-      "populationRank": 181,
+      "populationRank": 182,
       "isCapital": false
     },
     {
@@ -1635,7 +1668,7 @@
       "latitude": 41.69993,
       "longitude": 2.84565,
       "population": 37350,
-      "populationRank": 182,
+      "populationRank": 183,
       "isCapital": false
     },
     {
@@ -1644,7 +1677,7 @@
       "latitude": 38.03922,
       "longitude": -4.05077,
       "population": 37113,
-      "populationRank": 183,
+      "populationRank": 184,
       "isCapital": false
     },
     {
@@ -1653,7 +1686,7 @@
       "latitude": 38.95627,
       "longitude": -5.86162,
       "population": 37010,
-      "populationRank": 184,
+      "populationRank": 185,
       "isCapital": false
     },
     {
@@ -1662,7 +1695,7 @@
       "latitude": 36.74231,
       "longitude": -5.16709,
       "population": 36827,
-      "populationRank": 185,
+      "populationRank": 186,
       "isCapital": false
     },
     {
@@ -1671,7 +1704,7 @@
       "latitude": 37.16181,
       "longitude": -5.92433,
       "population": 36824,
-      "populationRank": 186,
+      "populationRank": 187,
       "isCapital": false
     },
     {
@@ -1680,7 +1713,7 @@
       "latitude": 39.62142,
       "longitude": 2.7253,
       "population": 36725,
-      "populationRank": 187,
+      "populationRank": 188,
       "isCapital": false
     },
     {
@@ -1689,7 +1722,7 @@
       "latitude": 41.43073,
       "longitude": 2.21855,
       "population": 36669,
-      "populationRank": 188,
+      "populationRank": 189,
       "isCapital": false
     },
     {
@@ -1698,7 +1731,7 @@
       "latitude": 28.38487,
       "longitude": -16.58275,
       "population": 36405,
-      "populationRank": 189,
+      "populationRank": 190,
       "isCapital": false
     },
     {
@@ -1707,7 +1740,7 @@
       "latitude": 28.11983,
       "longitude": -15.52325,
       "population": 36259,
-      "populationRank": 190,
+      "populationRank": 191,
       "isCapital": false
     },
     {
@@ -1716,7 +1749,7 @@
       "latitude": 40.3456,
       "longitude": -1.10646,
       "population": 36240,
-      "populationRank": 191,
+      "populationRank": 192,
       "isCapital": false
     },
     {
@@ -1725,7 +1758,7 @@
       "latitude": 39.15759,
       "longitude": -3.02156,
       "population": 36091,
-      "populationRank": 192,
+      "populationRank": 193,
       "isCapital": false
     },
     {
@@ -1734,7 +1767,7 @@
       "latitude": 39.49093,
       "longitude": 2.89108,
       "population": 36078,
-      "populationRank": 193,
+      "populationRank": 194,
       "isCapital": false
     },
     {
@@ -1743,7 +1776,7 @@
       "latitude": 37.48613,
       "longitude": -5.98091,
       "population": 35928,
-      "populationRank": 194,
+      "populationRank": 195,
       "isCapital": false
     },
     {
@@ -1752,7 +1785,7 @@
       "latitude": 41.21667,
       "longitude": 1.53333,
       "population": 35821,
-      "populationRank": 195,
+      "populationRank": 196,
       "isCapital": false
     },
     {
@@ -1761,7 +1794,7 @@
       "latitude": 28.50038,
       "longitude": -13.86272,
       "population": 35667,
-      "populationRank": 196,
+      "populationRank": 197,
       "isCapital": false
     },
     {
@@ -1770,7 +1803,7 @@
       "latitude": 37.74293,
       "longitude": -0.95396,
       "population": 35614,
-      "populationRank": 197,
+      "populationRank": 198,
       "isCapital": false
     },
     {
@@ -1779,7 +1812,7 @@
       "latitude": 38.6373,
       "longitude": -0.86568,
       "population": 35222,
-      "populationRank": 198,
+      "populationRank": 199,
       "isCapital": false
     },
     {
@@ -1788,15 +1821,6 @@
       "latitude": 37.5992,
       "longitude": -1.31493,
       "population": 35221,
-      "populationRank": 199,
-      "isCapital": false
-    },
-    {
-      "id": "3107677",
-      "name": "Tortosa",
-      "latitude": 40.81249,
-      "longitude": 0.5216,
-      "population": 35143,
       "populationRank": 200,
       "isCapital": false
     }

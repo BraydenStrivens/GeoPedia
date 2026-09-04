@@ -84,6 +84,7 @@
     {
       "id": "3493240",
       "name": "Salvaleón de Higüey",
+      "nativeName": "Higüey",
       "latitude": 18.61501,
       "longitude": -68.70798,
       "population": 123787,
@@ -174,6 +175,7 @@
     {
       "id": "3496831",
       "name": "Mao",
+      "nativeName": "Santa Cruz de Mao",
       "latitude": 19.54908,
       "longitude": -71.07808,
       "population": 48297,
@@ -246,6 +248,7 @@
     {
       "id": "3491948",
       "name": "Villa Bisonó",
+      "nativeName": "Bisonó",
       "latitude": 19.56378,
       "longitude": -70.87582,
       "population": 33137,
@@ -273,6 +276,7 @@
     {
       "id": "3492984",
       "name": "Santa Cruz de El Seibo",
+      "nativeName": "El Seibo",
       "latitude": 18.76484,
       "longitude": -69.03991,
       "population": 23547,
@@ -318,6 +322,7 @@
     {
       "id": "3496150",
       "name": "Monte Llano",
+      "nativeName": "Villa Montellano",
       "latitude": 19.7346,
       "longitude": -70.59915,
       "population": 19029,
@@ -461,7 +466,8 @@
     },
     {
       "id": "3492997",
-      "name": "Samaná",
+      "name": "Samana",
+      "nativeName": "Samaná",
       "latitude": 19.20404,
       "longitude": -69.33407,
       "population": 11432,
@@ -795,6 +801,7 @@
     {
       "id": "3491736",
       "name": "Yayas de Viajama",
+      "nativeName": "Las Yayas de Viajama",
       "latitude": 18.6071,
       "longitude": -70.92753,
       "population": 5669,
@@ -858,6 +865,7 @@
     {
       "id": "3505861",
       "name": "Esperalvillo",
+      "nativeName": "Peralvillo",
       "latitude": 18.81509,
       "longitude": -70.03557,
       "population": 5445,
@@ -876,6 +884,7 @@
     {
       "id": "3509882",
       "name": "Cercado Abajo",
+      "nativeName": "El Cercado",
       "latitude": 18.72681,
       "longitude": -71.51742,
       "population": 5316,
@@ -1074,6 +1083,7 @@
     {
       "id": "3492367",
       "name": "Tireo Arriba",
+      "nativeName": "Tireo",
       "latitude": 18.93537,
       "longitude": -70.6885,
       "population": 3816,
@@ -1083,6 +1093,7 @@
     {
       "id": "3492557",
       "name": "Tábara Arriba",
+      "nativeName": "Tabara Arriba",
       "latitude": 18.56999,
       "longitude": -70.87978,
       "population": 3736,
@@ -1173,6 +1184,7 @@
     {
       "id": "3507461",
       "name": "El Guayabal",
+      "nativeName": "Guayabal",
       "latitude": 18.7496,
       "longitude": -70.8369,
       "population": 2835,
@@ -1254,6 +1266,7 @@
     {
       "id": "3510363",
       "name": "Canoa",
+      "nativeName": "La Canoa",
       "latitude": 18.35499,
       "longitude": -71.15851,
       "population": 2371,
@@ -1290,6 +1303,7 @@
     {
       "id": "3500013",
       "name": "La Uvilla",
+      "nativeName": "Uvilla",
       "latitude": 18.36186,
       "longitude": -71.21046,
       "population": 2178,
@@ -1353,6 +1367,7 @@
     {
       "id": "3508286",
       "name": "El Cacao",
+      "nativeName": "Los Cacaos",
       "latitude": 18.52719,
       "longitude": -70.29585,
       "population": 1997,
@@ -1380,6 +1395,7 @@
     {
       "id": "3510822",
       "name": "Cachón",
+      "nativeName": "El Cachón",
       "latitude": 18.24833,
       "longitude": -71.18912,
       "population": 1903,
@@ -1398,6 +1414,7 @@
     {
       "id": "3504438",
       "name": "Hostos",
+      "nativeName": "Eugenio María de Hostos",
       "latitude": 19.18043,
       "longitude": -70.02046,
       "population": 1813,
@@ -1434,6 +1451,7 @@
     {
       "id": "3503845",
       "name": "Juan López Abajo",
+      "nativeName": "Juan López",
       "latitude": 19.43333,
       "longitude": -70.5,
       "population": 1535,

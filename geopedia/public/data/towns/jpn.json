@@ -3,6 +3,7 @@
     {
       "id": "1850147",
       "name": "Tokyo",
+      "nativeName": "東京都",
       "latitude": 35.6895,
       "longitude": 139.69171,
       "population": 9733276,
@@ -12,6 +13,7 @@
     {
       "id": "1848354",
       "name": "Yokohama",
+      "nativeName": "横浜市",
       "latitude": 35.43333,
       "longitude": 139.65,
       "population": 3777491,
@@ -21,6 +23,7 @@
     {
       "id": "1853909",
       "name": "Osaka",
+      "nativeName": "大阪市",
       "latitude": 34.69379,
       "longitude": 135.50107,
       "population": 2753862,
@@ -30,6 +33,7 @@
     {
       "id": "1856057",
       "name": "Nagoya",
+      "nativeName": "名古屋市",
       "latitude": 35.18147,
       "longitude": 136.90641,
       "population": 2332176,
@@ -39,6 +43,7 @@
     {
       "id": "2128295",
       "name": "Sapporo",
+      "nativeName": "札幌市",
       "latitude": 43.06667,
       "longitude": 141.35,
       "population": 1973832,
@@ -48,6 +53,7 @@
     {
       "id": "1863967",
       "name": "Fukuoka",
+      "nativeName": "福岡市",
       "latitude": 33.6,
       "longitude": 130.41667,
       "population": 1612392,
@@ -57,6 +63,7 @@
     {
       "id": "1859642",
       "name": "Kawasaki",
+      "nativeName": "川崎市",
       "latitude": 35.52056,
       "longitude": 139.71722,
       "population": 1538262,
@@ -66,6 +73,7 @@
     {
       "id": "1859171",
       "name": "Kobe",
+      "nativeName": "神戸市",
       "latitude": 34.6913,
       "longitude": 135.183,
       "population": 1525152,
@@ -75,6 +83,7 @@
     {
       "id": "1857910",
       "name": "Kyoto",
+      "nativeName": "京都市",
       "latitude": 35.02107,
       "longitude": 135.75385,
       "population": 1463723,
@@ -84,6 +93,7 @@
     {
       "id": "6940394",
       "name": "Saitama",
+      "nativeName": "さいたま市",
       "latitude": 35.90807,
       "longitude": 139.65657,
       "population": 1324854,
@@ -93,6 +103,7 @@
     {
       "id": "1862415",
       "name": "Hiroshima",
+      "nativeName": "広島市",
       "latitude": 34.4,
       "longitude": 132.45,
       "population": 1200754,
@@ -102,6 +113,7 @@
     {
       "id": "2111149",
       "name": "Sendai",
+      "nativeName": "仙台市",
       "latitude": 38.26667,
       "longitude": 140.86667,
       "population": 1096704,
@@ -111,6 +123,7 @@
     {
       "id": "2113015",
       "name": "Chiba",
+      "nativeName": "千葉市",
       "latitude": 35.6,
       "longitude": 140.11667,
       "population": 979768,
@@ -120,6 +133,7 @@
     {
       "id": "1859307",
       "name": "Kitakyushu",
+      "nativeName": "北九州市",
       "latitude": 33.85181,
       "longitude": 130.85034,
       "population": 940978,
@@ -129,6 +143,7 @@
     {
       "id": "1853195",
       "name": "Sakai",
+      "nativeName": "堺市",
       "latitude": 34.58216,
       "longitude": 135.46653,
       "population": 826161,
@@ -138,6 +153,7 @@
     {
       "id": "1855431",
       "name": "Niigata",
+      "nativeName": "新潟市",
       "latitude": 37.92259,
       "longitude": 139.04125,
       "population": 797591,
@@ -147,6 +163,7 @@
     {
       "id": "1863289",
       "name": "Hamamatsu",
+      "nativeName": "浜松市",
       "latitude": 34.7,
       "longitude": 137.73333,
       "population": 791707,
@@ -155,7 +172,8 @@
     },
     {
       "id": "8469289",
-      "name": "Ōta",
+      "name": "Ota",
+      "nativeName": "大田区",
       "latitude": 35.56126,
       "longitude": 139.71605,
       "population": 748081,
@@ -165,6 +183,7 @@
     {
       "id": "1858421",
       "name": "Kumamoto",
+      "nativeName": "熊本市",
       "latitude": 32.80589,
       "longitude": 130.69181,
       "population": 738907,
@@ -174,6 +193,7 @@
     {
       "id": "1854383",
       "name": "Okayama",
+      "nativeName": "岡山市",
       "latitude": 34.65,
       "longitude": 133.93333,
       "population": 724691,
@@ -183,6 +203,7 @@
     {
       "id": "11611609",
       "name": "Sagamihara",
+      "nativeName": "相模原市",
       "latitude": 35.56707,
       "longitude": 139.24167,
       "population": 720780,
@@ -192,6 +213,7 @@
     {
       "id": "1851717",
       "name": "Shizuoka",
+      "nativeName": "静岡市",
       "latitude": 34.98333,
       "longitude": 138.38333,
       "population": 693389,
@@ -201,6 +223,7 @@
     {
       "id": "1859730",
       "name": "Kawaguchi",
+      "nativeName": "川口市",
       "latitude": 35.80521,
       "longitude": 139.71072,
       "population": 607373,
@@ -210,6 +233,7 @@
     {
       "id": "1860827",
       "name": "Kagoshima",
+      "nativeName": "鹿児島市",
       "latitude": 31.56667,
       "longitude": 130.55,
       "population": 595049,
@@ -218,7 +242,8 @@
     },
     {
       "id": "1863440",
-      "name": "Hachiōji",
+      "name": "Hachioji",
+      "nativeName": "八王子市",
       "latitude": 35.65583,
       "longitude": 139.32389,
       "population": 579355,
@@ -228,6 +253,7 @@
     {
       "id": "1862627",
       "name": "Himeji",
+      "nativeName": "姫路市",
       "latitude": 34.81667,
       "longitude": 134.7,
       "population": 530495,
@@ -237,6 +263,7 @@
     {
       "id": "1849053",
       "name": "Utsunomiya",
+      "nativeName": "宇都宮市",
       "latitude": 36.56667,
       "longitude": 139.88333,
       "population": 518757,
@@ -246,6 +273,7 @@
     {
       "id": "1926099",
       "name": "Matsuyama",
+      "nativeName": "松山市",
       "latitude": 33.83916,
       "longitude": 132.76574,
       "population": 511192,
@@ -255,6 +283,7 @@
     {
       "id": "1857553",
       "name": "Matsudo",
+      "nativeName": "松戸市",
       "latitude": 35.77995,
       "longitude": 139.90144,
       "population": 498575,
@@ -264,6 +293,7 @@
     {
       "id": "1862752",
       "name": "Higashiosaka",
+      "nativeName": "東大阪市",
       "latitude": 34.66667,
       "longitude": 135.58333,
       "population": 493940,
@@ -273,6 +303,7 @@
     {
       "id": "1855207",
       "name": "Nishinomiya",
+      "nativeName": "西宮市",
       "latitude": 34.71562,
       "longitude": 135.33199,
       "population": 485587,
@@ -282,6 +313,7 @@
     {
       "id": "1858311",
       "name": "Kurashiki",
+      "nativeName": "倉敷市",
       "latitude": 34.58333,
       "longitude": 133.76667,
       "population": 483576,
@@ -290,7 +322,8 @@
     },
     {
       "id": "1854487",
-      "name": "Ōita",
+      "name": "Oita",
+      "nativeName": "大分市",
       "latitude": 33.23333,
       "longitude": 131.6,
       "population": 477715,
@@ -300,6 +333,7 @@
     {
       "id": "1863917",
       "name": "Fukuyama",
+      "nativeName": "福山市",
       "latitude": 34.48333,
       "longitude": 133.36667,
       "population": 468812,
@@ -309,6 +343,7 @@
     {
       "id": "1860243",
       "name": "Kanazawa",
+      "nativeName": "金沢市",
       "latitude": 36.6,
       "longitude": 136.61667,
       "population": 466029,
@@ -318,6 +353,7 @@
     {
       "id": "1865387",
       "name": "Amagasaki",
+      "nativeName": "尼崎市",
       "latitude": 34.71667,
       "longitude": 135.41667,
       "population": 459593,
@@ -327,6 +363,7 @@
     {
       "id": "8469284",
       "name": "Katsushika",
+      "nativeName": "葛飾区",
       "latitude": 35.73333,
       "longitude": 139.85,
       "population": 453093,
@@ -336,6 +373,7 @@
     {
       "id": "1864092",
       "name": "Fujisawa",
+      "nativeName": "藤沢市",
       "latitude": 35.34926,
       "longitude": 139.47666,
       "population": 439728,
@@ -345,6 +383,7 @@
     {
       "id": "1859924",
       "name": "Kashiwa",
+      "nativeName": "柏市",
       "latitude": 35.86224,
       "longitude": 139.97732,
       "population": 433436,
@@ -354,6 +393,7 @@
     {
       "id": "1857871",
       "name": "Machida",
+      "nativeName": "町田市",
       "latitude": 35.54028,
       "longitude": 139.45083,
       "population": 431079,
@@ -363,6 +403,7 @@
     {
       "id": "1849814",
       "name": "Toyota",
+      "nativeName": "豊田市",
       "latitude": 35.08333,
       "longitude": 137.15,
       "population": 426162,
@@ -372,6 +413,7 @@
     {
       "id": "1851100",
       "name": "Takamatsu",
+      "nativeName": "高松市",
       "latitude": 34.33333,
       "longitude": 134.05,
       "population": 418994,
@@ -381,6 +423,7 @@
     {
       "id": "1849876",
       "name": "Toyama",
+      "nativeName": "富山市",
       "latitude": 36.7,
       "longitude": 137.21667,
       "population": 415844,
@@ -390,6 +433,7 @@
     {
       "id": "1848313",
       "name": "Yokosuka",
+      "nativeName": "横須賀市",
       "latitude": 35.28361,
       "longitude": 139.66722,
       "population": 409478,
@@ -399,6 +443,7 @@
     {
       "id": "1856177",
       "name": "Nagasaki",
+      "nativeName": "長崎市",
       "latitude": 32.75,
       "longitude": 129.88333,
       "population": 409118,
@@ -408,6 +453,7 @@
     {
       "id": "1862540",
       "name": "Hirakata",
+      "nativeName": "枚方市",
       "latitude": 34.81352,
       "longitude": 135.64914,
       "population": 406331,
@@ -417,6 +463,7 @@
     {
       "id": "1863641",
       "name": "Gifu",
+      "nativeName": "岐阜市",
       "latitude": 35.42291,
       "longitude": 136.76039,
       "population": 402557,
@@ -426,6 +473,7 @@
     {
       "id": "1849837",
       "name": "Toyonaka",
+      "nativeName": "豊中市",
       "latitude": 34.78244,
       "longitude": 135.46932,
       "population": 401558,
@@ -435,6 +483,7 @@
     {
       "id": "1856717",
       "name": "Miyazaki",
+      "nativeName": "宮崎市",
       "latitude": 31.91667,
       "longitude": 131.41667,
       "population": 401339,
@@ -444,6 +493,7 @@
     {
       "id": "1851483",
       "name": "Suita",
+      "nativeName": "吹田市",
       "latitude": 34.76143,
       "longitude": 135.51567,
       "population": 385567,
@@ -453,6 +503,7 @@
     {
       "id": "1854376",
       "name": "Okazaki",
+      "nativeName": "岡崎市",
       "latitude": 34.95,
       "longitude": 137.16667,
       "population": 384654,
@@ -462,6 +513,7 @@
     {
       "id": "1861949",
       "name": "Ichinomiya",
+      "nativeName": "一宮市",
       "latitude": 35.3,
       "longitude": 136.8,
       "population": 380073,
@@ -471,6 +523,7 @@
     {
       "id": "1849846",
       "name": "Toyohashi",
+      "nativeName": "豊橋市",
       "latitude": 34.76667,
       "longitude": 137.38333,
       "population": 377453,
@@ -480,6 +533,7 @@
     {
       "id": "1851002",
       "name": "Takasaki",
+      "nativeName": "高崎市",
       "latitude": 36.33333,
       "longitude": 139.01667,
       "population": 372973,
@@ -489,6 +543,7 @@
     {
       "id": "1856215",
       "name": "Nagano",
+      "nativeName": "長野市",
       "latitude": 36.65,
       "longitude": 138.18333,
       "population": 372760,
@@ -497,7 +552,8 @@
     },
     {
       "id": "1855612",
-      "name": "Nara-shi",
+      "name": "Nara",
+      "nativeName": "奈良市",
       "latitude": 34.68505,
       "longitude": 135.80485,
       "population": 367353,
@@ -507,6 +563,7 @@
     {
       "id": "2112539",
       "name": "Iwaki",
+      "nativeName": "いわき市",
       "latitude": 37.05,
       "longitude": 140.88333,
       "population": 357309,
@@ -516,6 +573,7 @@
     {
       "id": "1926004",
       "name": "Wakayama",
+      "nativeName": "和歌山市",
       "latitude": 34.23333,
       "longitude": 135.16667,
       "population": 356729,
@@ -525,6 +583,7 @@
     {
       "id": "1859740",
       "name": "Kawagoe",
+      "nativeName": "川越市",
       "latitude": 35.90861,
       "longitude": 139.48528,
       "population": 354571,
@@ -534,6 +593,7 @@
     {
       "id": "1850910",
       "name": "Takatsuki",
+      "nativeName": "高槻市",
       "latitude": 34.84833,
       "longitude": 135.61678,
       "population": 354468,
@@ -543,6 +603,7 @@
     {
       "id": "1858729",
       "name": "Koshigaya",
+      "nativeName": "越谷市",
       "latitude": 35.89035,
       "longitude": 139.78916,
       "population": 345353,
@@ -551,7 +612,8 @@
     },
     {
       "id": "1853574",
-      "name": "Ōtsu",
+      "name": "Otsu",
+      "nativeName": "大津市",
       "latitude": 35,
       "longitude": 135.86667,
       "population": 345070,
@@ -561,6 +623,7 @@
     {
       "id": "8715035",
       "name": "Nakano",
+      "nativeName": "中野区",
       "latitude": 35.70449,
       "longitude": 139.66946,
       "population": 344880,
@@ -570,6 +633,7 @@
     {
       "id": "1850181",
       "name": "Tokorozawa",
+      "nativeName": "所沢市",
       "latitude": 35.79916,
       "longitude": 139.46903,
       "population": 344194,
@@ -579,6 +643,7 @@
     {
       "id": "2130629",
       "name": "Asahikawa",
+      "nativeName": "旭川市",
       "latitude": 43.77063,
       "longitude": 142.36489,
       "population": 333530,
@@ -588,6 +653,7 @@
     {
       "id": "1857843",
       "name": "Maebashi",
+      "nativeName": "前橋市",
       "latitude": 36.4,
       "longitude": 139.08333,
       "population": 332149,
@@ -597,6 +663,7 @@
     {
       "id": "8469285",
       "name": "Kita",
+      "nativeName": "北区",
       "latitude": 35.75264,
       "longitude": 139.73348,
       "population": 332140,
@@ -606,6 +673,7 @@
     {
       "id": "1859146",
       "name": "Kochi",
+      "nativeName": "高知市",
       "latitude": 33.55,
       "longitude": 133.53333,
       "population": 332059,
@@ -614,7 +682,8 @@
     },
     {
       "id": "2112141",
-      "name": "Kōriyama",
+      "name": "Koriyama",
+      "nativeName": "郡山市",
       "latitude": 37.4,
       "longitude": 140.38333,
       "population": 327692,
@@ -624,6 +693,7 @@
     {
       "id": "1856035",
       "name": "Naha",
+      "nativeName": "那覇市",
       "latitude": 26.213,
       "longitude": 127.67851,
       "population": 317625,
@@ -633,6 +703,7 @@
     {
       "id": "1859891",
       "name": "Kasugai",
+      "nativeName": "春日井市",
       "latitude": 35.24762,
       "longitude": 136.97229,
       "population": 308681,
@@ -642,6 +713,7 @@
     {
       "id": "2113126",
       "name": "Akita",
+      "nativeName": "秋田市",
       "latitude": 39.71667,
       "longitude": 140.11667,
       "population": 307672,
@@ -651,6 +723,7 @@
     {
       "id": "1848373",
       "name": "Yokkaichi",
+      "nativeName": "四日市市",
       "latitude": 34.96667,
       "longitude": 136.61667,
       "population": 305424,
@@ -660,6 +733,7 @@
     {
       "id": "1847966",
       "name": "Akashi",
+      "nativeName": "明石市",
       "latitude": 34.65524,
       "longitude": 135.00687,
       "population": 303601,
@@ -669,6 +743,7 @@
     {
       "id": "1858088",
       "name": "Kurume",
+      "nativeName": "久留米市",
       "latitude": 33.31667,
       "longitude": 130.51667,
       "population": 303579,
@@ -678,6 +753,7 @@
     {
       "id": "2130658",
       "name": "Aomori",
+      "nativeName": "青森市",
       "latitude": 40.81667,
       "longitude": 140.73333,
       "population": 298394,
@@ -687,6 +763,7 @@
     {
       "id": "2112923",
       "name": "Fukushima",
+      "nativeName": "福島市",
       "latitude": 37.75,
       "longitude": 140.46667,
       "population": 294237,
@@ -696,6 +773,7 @@
     {
       "id": "2111834",
       "name": "Morioka",
+      "nativeName": "盛岡市",
       "latitude": 39.7,
       "longitude": 141.15,
       "population": 290700,
@@ -705,6 +783,7 @@
     {
       "id": "1862033",
       "name": "Ibaraki",
+      "nativeName": "茨木市",
       "latitude": 34.81641,
       "longitude": 135.56828,
       "population": 287730,
@@ -714,6 +793,7 @@
     {
       "id": "2112664",
       "name": "Ichihara",
+      "nativeName": "市原市",
       "latitude": 35.51667,
       "longitude": 140.08333,
       "population": 283531,
@@ -723,6 +803,7 @@
     {
       "id": "2130188",
       "name": "Hakodate",
+      "nativeName": "函館市",
       "latitude": 41.77583,
       "longitude": 140.73667,
       "population": 275730,
@@ -732,6 +813,7 @@
     {
       "id": "1849796",
       "name": "Tsu",
+      "nativeName": "津市",
       "latitude": 34.73333,
       "longitude": 136.51667,
       "population": 274537,
@@ -741,6 +823,7 @@
     {
       "id": "1848522",
       "name": "Yao",
+      "nativeName": "八尾市",
       "latitude": 34.61667,
       "longitude": 135.6,
       "population": 273213,
@@ -749,7 +832,8 @@
     },
     {
       "id": "1860704",
-      "name": "Kakogawachō-honmachi",
+      "name": "Kakogawa",
+      "nativeName": "加古川市",
       "latitude": 34.76943,
       "longitude": 134.82905,
       "population": 271634,
@@ -759,6 +843,7 @@
     {
       "id": "2111901",
       "name": "Mito",
+      "nativeName": "水戸市",
       "latitude": 36.35,
       "longitude": 140.45,
       "population": 270685,
@@ -768,6 +853,7 @@
     {
       "id": "1850158",
       "name": "Tokushima",
+      "nativeName": "徳島市",
       "latitude": 34.06667,
       "longitude": 134.56667,
       "population": 267345,
@@ -777,6 +863,7 @@
     {
       "id": "1856199",
       "name": "Nagaoka",
+      "nativeName": "長岡市",
       "latitude": 37.45,
       "longitude": 138.85,
       "population": 266936,
@@ -786,6 +873,7 @@
     {
       "id": "1852225",
       "name": "Shimonoseki",
+      "nativeName": "下関市",
       "latitude": 33.95548,
       "longitude": 130.93713,
       "population": 265684,
@@ -794,7 +882,8 @@
     },
     {
       "id": "11611632",
-      "name": "Fuchū",
+      "name": "Fuchu",
+      "nativeName": "府中市",
       "latitude": 35.67452,
       "longitude": 139.48216,
       "population": 262790,
@@ -803,7 +892,8 @@
     },
     {
       "id": "1863985",
-      "name": "Fukui-shi",
+      "name": "Fukui",
+      "nativeName": "福井市",
       "latitude": 36.06443,
       "longitude": 136.22257,
       "population": 262328,
@@ -812,7 +902,8 @@
     },
     {
       "id": "13353696",
-      "name": "Minato City",
+      "name": "Minato",
+      "nativeName": "港区",
       "latitude": 35.6581,
       "longitude": 139.7515,
       "population": 260486,
@@ -822,6 +913,7 @@
     {
       "id": "1862462",
       "name": "Hiratsuka",
+      "nativeName": "平塚市",
       "latitude": 35.32785,
       "longitude": 139.33735,
       "population": 258422,
@@ -830,7 +922,8 @@
     },
     {
       "id": "1851604",
-      "name": "Sōka",
+      "name": "Soka",
+      "nativeName": "草加市",
       "latitude": 35.83643,
       "longitude": 139.79957,
       "population": 249645,
@@ -840,6 +933,7 @@
     {
       "id": "2110556",
       "name": "Yamagata",
+      "nativeName": "山形市",
       "latitude": 38.23333,
       "longitude": 140.36667,
       "population": 248772,
@@ -849,6 +943,7 @@
     {
       "id": "1864134",
       "name": "Fuji",
+      "nativeName": "富士市",
       "latitude": 35.16667,
       "longitude": 138.68333,
       "population": 245392,
@@ -858,6 +953,7 @@
     {
       "id": "1852899",
       "name": "Sasebo",
+      "nativeName": "佐世保市",
       "latitude": 33.16834,
       "longitude": 129.72502,
       "population": 243223,
@@ -867,6 +963,7 @@
     {
       "id": "1864624",
       "name": "Chigasaki",
+      "nativeName": "茅ヶ崎市",
       "latitude": 35.33638,
       "longitude": 139.40434,
       "population": 242798,
@@ -875,7 +972,8 @@
     },
     {
       "id": "1864518",
-      "name": "Chōfu",
+      "name": "Chofu",
+      "nativeName": "調布市",
       "latitude": 35.65924,
       "longitude": 139.54837,
       "population": 242614,
@@ -885,6 +983,7 @@
     {
       "id": "11611478",
       "name": "Yamato",
+      "nativeName": "大和市",
       "latitude": 35.47276,
       "longitude": 139.45101,
       "population": 242065,
@@ -894,6 +993,7 @@
     {
       "id": "2110681",
       "name": "Tsukuba",
+      "nativeName": "つくば市",
       "latitude": 36.08333,
       "longitude": 140.11667,
       "population": 241656,
@@ -903,6 +1003,7 @@
     {
       "id": "1857519",
       "name": "Matsumoto",
+      "nativeName": "松本市",
       "latitude": 36.23333,
       "longitude": 137.96667,
       "population": 241145,
@@ -912,6 +1013,7 @@
     {
       "id": "2130203",
       "name": "Hachinohe",
+      "nativeName": "八戸市",
       "latitude": 40.5,
       "longitude": 141.5,
       "population": 239046,
@@ -921,6 +1023,7 @@
     {
       "id": "6697563",
       "name": "Neyagawa",
+      "nativeName": "寝屋川市",
       "latitude": 34.76615,
       "longitude": 135.62759,
       "population": 238549,
@@ -930,6 +1033,7 @@
     {
       "id": "1853303",
       "name": "Saga",
+      "nativeName": "佐賀市",
       "latitude": 33.23333,
       "longitude": 130.3,
       "population": 233301,
@@ -939,6 +1043,7 @@
     {
       "id": "1859884",
       "name": "Kasukabe",
+      "nativeName": "春日部市",
       "latitude": 35.98308,
       "longitude": 139.74966,
       "population": 229792,
@@ -948,6 +1053,7 @@
     {
       "id": "1865714",
       "name": "Ageo",
+      "nativeName": "上尾市",
       "latitude": 35.97145,
       "longitude": 139.61382,
       "population": 226940,
@@ -957,6 +1063,7 @@
     {
       "id": "1851012",
       "name": "Takarazuka",
+      "nativeName": "宝塚市",
       "latitude": 34.79936,
       "longitude": 135.35697,
       "population": 226432,
@@ -965,7 +1072,8 @@
     },
     {
       "id": "1853677",
-      "name": "Ōta",
+      "name": "Ota",
+      "nativeName": "太田市",
       "latitude": 36.3,
       "longitude": 139.36667,
       "population": 224358,
@@ -975,6 +1083,7 @@
     {
       "id": "1847963",
       "name": "Atsugi",
+      "nativeName": "厚木市",
       "latitude": 35.44272,
       "longitude": 139.36931,
       "population": 223960,
@@ -984,6 +1093,7 @@
     {
       "id": "1858296",
       "name": "Kure",
+      "nativeName": "呉市",
       "latitude": 34.23222,
       "longitude": 132.56658,
       "population": 214592,
@@ -993,6 +1103,7 @@
     {
       "id": "1861436",
       "name": "Isesaki",
+      "nativeName": "伊勢崎市",
       "latitude": 36.31667,
       "longitude": 139.2,
       "population": 211850,
@@ -1001,7 +1112,8 @@
     },
     {
       "id": "1850692",
-      "name": "Nishi-Tokyo-shi",
+      "name": "Nishitokyo",
+      "nativeName": "西東京市",
       "latitude": 35.72526,
       "longitude": 139.5383,
       "population": 207388,
@@ -1011,6 +1123,7 @@
     {
       "id": "1859383",
       "name": "Kishiwada",
+      "nativeName": "岸和田市",
       "latitude": 34.46667,
       "longitude": 135.36667,
       "population": 205561,
@@ -1020,6 +1133,7 @@
     {
       "id": "1857550",
       "name": "Matsue",
+      "nativeName": "松江市",
       "latitude": 35.48333,
       "longitude": 133.05,
       "population": 203616,
@@ -1029,6 +1143,7 @@
     {
       "id": "1856184",
       "name": "Nagareyama",
+      "nativeName": "流山市",
       "latitude": 35.8563,
       "longitude": 139.90266,
       "population": 200136,
@@ -1038,6 +1153,7 @@
     {
       "id": "6822182",
       "name": "Yachiyo",
+      "nativeName": "八千代市",
       "latitude": 35.73531,
       "longitude": 140.12445,
       "population": 199498,
@@ -1047,6 +1163,7 @@
     {
       "id": "11611930",
       "name": "Kodaira",
+      "nativeName": "小平市",
       "latitude": 35.72603,
       "longitude": 139.48508,
       "population": 198739,
@@ -1056,6 +1173,7 @@
     {
       "id": "1861310",
       "name": "Itami",
+      "nativeName": "伊丹市",
       "latitude": 34.78427,
       "longitude": 135.40126,
       "population": 198138,
@@ -1065,6 +1183,7 @@
     {
       "id": "11611627",
       "name": "Higashihiroshima",
+      "nativeName": "東広島市",
       "latitude": 34.40861,
       "longitude": 132.73682,
       "population": 196608,
@@ -1074,6 +1193,7 @@
     {
       "id": "1851348",
       "name": "Suzuka",
+      "nativeName": "鈴鹿市",
       "latitude": 34.88333,
       "longitude": 136.58333,
       "population": 195670,
@@ -1083,6 +1203,7 @@
     {
       "id": "1858428",
       "name": "Kumagaya",
+      "nativeName": "熊谷市",
       "latitude": 36.13497,
       "longitude": 139.39004,
       "population": 195277,
@@ -1092,6 +1213,7 @@
     {
       "id": "1848689",
       "name": "Yamaguchi",
+      "nativeName": "山口市",
       "latitude": 34.18333,
       "longitude": 131.46667,
       "population": 193966,
@@ -1101,6 +1223,7 @@
     {
       "id": "1849372",
       "name": "Uji",
+      "nativeName": "宇治市",
       "latitude": 34.89044,
       "longitude": 135.80325,
       "population": 192925,
@@ -1110,6 +1233,7 @@
     {
       "id": "1862599",
       "name": "Hino",
+      "nativeName": "日野市",
       "latitude": 35.67306,
       "longitude": 139.40028,
       "population": 190435,
@@ -1119,6 +1243,7 @@
     {
       "id": "1859100",
       "name": "Kofu",
+      "nativeName": "甲府市",
       "latitude": 35.66667,
       "longitude": 138.56667,
       "population": 189591,
@@ -1128,6 +1253,7 @@
     {
       "id": "1854902",
       "name": "Numazu",
+      "nativeName": "沼津市",
       "latitude": 35.1,
       "longitude": 138.86667,
       "population": 189486,
@@ -1136,7 +1262,8 @@
     },
     {
       "id": "6825489",
-      "name": "Jōetsu",
+      "name": "Joetsu",
+      "nativeName": "上越市",
       "latitude": 37.14828,
       "longitude": 138.23642,
       "population": 189430,
@@ -1146,6 +1273,7 @@
     {
       "id": "1854747",
       "name": "Odawara",
+      "nativeName": "小田原市",
       "latitude": 35.25556,
       "longitude": 139.15972,
       "population": 188856,
@@ -1154,7 +1282,8 @@
     },
     {
       "id": "1865294",
-      "name": "Anjō",
+      "name": "Anjo",
+      "nativeName": "安城市",
       "latitude": 34.95828,
       "longitude": 137.08054,
       "population": 188693,
@@ -1163,7 +1292,8 @@
     },
     {
       "id": "1849892",
-      "name": "Tottori-shi",
+      "name": "Tottori",
+      "nativeName": "鳥取市",
       "latitude": 35.5,
       "longitude": 134.23333,
       "population": 188465,
@@ -1173,6 +1303,7 @@
     {
       "id": "1849845",
       "name": "Toyokawa",
+      "nativeName": "豊川市",
       "latitude": 34.81667,
       "longitude": 137.4,
       "population": 184661,
@@ -1182,6 +1313,7 @@
     {
       "id": "1861107",
       "name": "Izumi",
+      "nativeName": "和泉市",
       "latitude": 34.48333,
       "longitude": 135.43333,
       "population": 184615,
@@ -1191,6 +1323,7 @@
     {
       "id": "11611487",
       "name": "Tachikawa",
+      "nativeName": "立川市",
       "latitude": 35.7091,
       "longitude": 139.41891,
       "population": 183581,
@@ -1200,6 +1333,7 @@
     {
       "id": "11612347",
       "name": "Narashino",
+      "nativeName": "習志野市",
       "latitude": 35.68184,
       "longitude": 140.04152,
       "population": 176197,
@@ -1209,6 +1343,7 @@
     {
       "id": "2127733",
       "name": "Tomakomai",
+      "nativeName": "苫小牧市",
       "latitude": 42.63694,
       "longitude": 141.60333,
       "population": 174806,
@@ -1218,6 +1353,7 @@
     {
       "id": "2112708",
       "name": "Hitachi",
+      "nativeName": "日立市",
       "latitude": 36.6,
       "longitude": 140.65,
       "population": 174508,
@@ -1227,6 +1363,7 @@
     {
       "id": "2111220",
       "name": "Sakura",
+      "nativeName": "佐倉市",
       "latitude": 35.71667,
       "longitude": 140.23333,
       "population": 173740,
@@ -1236,6 +1373,7 @@
     {
       "id": "1849498",
       "name": "Ube",
+      "nativeName": "宇部市",
       "latitude": 33.94306,
       "longitude": 131.25111,
       "population": 173733,
@@ -1245,6 +1383,7 @@
     {
       "id": "1860672",
       "name": "Kamakura",
+      "nativeName": "鎌倉市",
       "latitude": 35.31085,
       "longitude": 139.54698,
       "population": 172929,
@@ -1254,6 +1393,7 @@
     {
       "id": "1861084",
       "name": "Izumo",
+      "nativeName": "出雲市",
       "latitude": 35.36667,
       "longitude": 132.76667,
       "population": 172775,
@@ -1263,6 +1403,7 @@
     {
       "id": "1849186",
       "name": "Urayasu",
+      "nativeName": "浦安市",
       "latitude": 35.65879,
       "longitude": 139.90055,
       "population": 171362,
@@ -1272,6 +1413,7 @@
     {
       "id": "1926134",
       "name": "Imabari",
+      "nativeName": "今治市",
       "latitude": 34.07001,
       "longitude": 133.00023,
       "population": 170986,
@@ -1281,6 +1423,7 @@
     {
       "id": "1851032",
       "name": "Takaoka",
+      "nativeName": "高岡市",
       "latitude": 36.75,
       "longitude": 137.01667,
       "population": 170077,
@@ -1290,6 +1433,7 @@
     {
       "id": "1855189",
       "name": "Nishio",
+      "nativeName": "西尾市",
       "latitude": 34.86667,
       "longitude": 137.05,
       "population": 169984,
@@ -1298,7 +1442,8 @@
     },
     {
       "id": "13353695",
-      "name": "Chūō",
+      "name": "Chuo",
+      "nativeName": "中央区",
       "latitude": 35.67004,
       "longitude": 139.77544,
       "population": 169179,
@@ -1308,6 +1453,7 @@
     {
       "id": "2130057",
       "name": "Hirosaki",
+      "nativeName": "弘前市",
       "latitude": 40.59306,
       "longitude": 140.4725,
       "population": 168739,
@@ -1317,6 +1463,7 @@
     {
       "id": "2129376",
       "name": "Kushiro",
+      "nativeName": "釧路市",
       "latitude": 42.975,
       "longitude": 144.37472,
       "population": 167875,
@@ -1326,6 +1473,7 @@
     {
       "id": "1853483",
       "name": "Oyama",
+      "nativeName": "小山市",
       "latitude": 36.3,
       "longitude": 139.8,
       "population": 167647,
@@ -1335,6 +1483,7 @@
     {
       "id": "1861171",
       "name": "Iwata",
+      "nativeName": "磐田市",
       "latitude": 34.7,
       "longitude": 137.85,
       "population": 166672,
@@ -1344,6 +1493,7 @@
     {
       "id": "2128815",
       "name": "Obihiro",
+      "nativeName": "帯広市",
       "latitude": 42.91722,
       "longitude": 143.20444,
       "population": 166536,
@@ -1353,6 +1503,7 @@
     {
       "id": "6822138",
       "name": "Niiza",
+      "nativeName": "新座市",
       "latitude": 35.82088,
       "longitude": 139.55791,
       "population": 166017,
@@ -1362,6 +1513,7 @@
     {
       "id": "1863431",
       "name": "Hadano",
+      "nativeName": "秦野市",
       "latitude": 35.37111,
       "longitude": 139.22361,
       "population": 163787,
@@ -1370,7 +1522,8 @@
     },
     {
       "id": "1854703",
-      "name": "Ōgaki",
+      "name": "Ogaki",
+      "nativeName": "大垣市",
       "latitude": 35.35,
       "longitude": 136.61667,
       "population": 161539,
@@ -1379,7 +1532,8 @@
     },
     {
       "id": "1856775",
-      "name": "Miyakonojō",
+      "name": "Miyakonojo",
+      "nativeName": "都城市",
       "latitude": 31.73333,
       "longitude": 131.06667,
       "population": 161137,
@@ -1389,6 +1543,7 @@
     {
       "id": "1907146",
       "name": "Sayama",
+      "nativeName": "狭山市",
       "latitude": 35.85295,
       "longitude": 139.41212,
       "population": 160843,
@@ -1398,6 +1553,7 @@
     {
       "id": "11468431",
       "name": "Matsusaka",
+      "nativeName": "松阪市",
       "latitude": 34.57895,
       "longitude": 136.53706,
       "population": 159145,
@@ -1407,6 +1563,7 @@
     {
       "id": "1850311",
       "name": "Tochigi",
+      "nativeName": "栃木市",
       "latitude": 36.38333,
       "longitude": 139.73333,
       "population": 159056,
@@ -1416,6 +1573,7 @@
     {
       "id": "1849429",
       "name": "Ueda",
+      "nativeName": "上田市",
       "latitude": 36.40265,
       "longitude": 138.28161,
       "population": 157480,
@@ -1424,7 +1582,8 @@
     },
     {
       "id": "6822096",
-      "name": "Hitachi-Naka",
+      "name": "Hitachinaka",
+      "nativeName": "ひたちなか市",
       "latitude": 36.39659,
       "longitude": 140.53479,
       "population": 156581,
@@ -1434,6 +1593,7 @@
     {
       "id": "1859675",
       "name": "Kawanishi",
+      "nativeName": "川西市",
       "latitude": 34.81667,
       "longitude": 135.41667,
       "population": 155165,
@@ -1443,6 +1603,7 @@
     {
       "id": "1855078",
       "name": "Noda",
+      "nativeName": "野田市",
       "latitude": 35.94897,
       "longitude": 139.86793,
       "population": 154114,
@@ -1452,6 +1613,7 @@
     {
       "id": "1860034",
       "name": "Kariya",
+      "nativeName": "刈谷市",
       "latitude": 34.98333,
       "longitude": 136.98333,
       "population": 153834,
@@ -1461,6 +1623,7 @@
     {
       "id": "7279570",
       "name": "Higashimurayama",
+      "nativeName": "東村山市",
       "latitude": 35.75459,
       "longitude": 139.46852,
       "population": 151815,
@@ -1469,7 +1632,8 @@
     },
     {
       "id": "1858445",
-      "name": "Kukichūō",
+      "name": "Kuki",
+      "nativeName": "久喜市",
       "latitude": 36.06739,
       "longitude": 139.67498,
       "population": 150582,
@@ -1479,6 +1643,7 @@
     {
       "id": "1856367",
       "name": "Musashino",
+      "nativeName": "武蔵野市",
       "latitude": 35.70611,
       "longitude": 139.55944,
       "population": 150149,
@@ -1487,7 +1652,8 @@
     },
     {
       "id": "11612583",
-      "name": "Shūnan",
+      "name": "Shunan",
+      "nativeName": "周南市",
       "latitude": 34.08053,
       "longitude": 131.82564,
       "population": 149632,
@@ -1497,6 +1663,7 @@
     {
       "id": "1858926",
       "name": "Komaki",
+      "nativeName": "小牧市",
       "latitude": 35.28333,
       "longitude": 136.91667,
       "population": 148872,
@@ -1506,6 +1673,7 @@
     {
       "id": "1848277",
       "name": "Yonago",
+      "nativeName": "米子市",
       "latitude": 35.43333,
       "longitude": 133.33333,
       "population": 148720,
@@ -1515,6 +1683,7 @@
     {
       "id": "6822129",
       "name": "Tama",
+      "nativeName": "多摩市",
       "latitude": 35.6436,
       "longitude": 139.46844,
       "population": 148285,
@@ -1524,6 +1693,7 @@
     {
       "id": "6822163",
       "name": "Iruma",
+      "nativeName": "入間市",
       "latitude": 35.818,
       "longitude": 139.368,
       "population": 147166,
@@ -1533,6 +1703,7 @@
     {
       "id": "1864132",
       "name": "Fujieda",
+      "nativeName": "藤枝市",
       "latitude": 34.86667,
       "longitude": 138.26667,
       "population": 145032,
@@ -1542,6 +1713,7 @@
     {
       "id": "1865005",
       "name": "Ashikaga",
+      "nativeName": "足利市",
       "latitude": 36.33333,
       "longitude": 139.45,
       "population": 144746,
@@ -1551,6 +1723,7 @@
     {
       "id": "1860735",
       "name": "Kakamigahara",
+      "nativeName": "各務原市",
       "latitude": 35.41667,
       "longitude": 136.86667,
       "population": 144521,
@@ -1560,6 +1733,7 @@
     {
       "id": "6822099",
       "name": "Tsuchiura",
+      "nativeName": "土浦市",
       "latitude": 36.09047,
       "longitude": 140.21047,
       "population": 144399,
@@ -1569,6 +1743,7 @@
     {
       "id": "1858067",
       "name": "Kusatsu",
+      "nativeName": "草津市",
       "latitude": 35.01667,
       "longitude": 135.96667,
       "population": 143913,
@@ -1578,6 +1753,7 @@
     {
       "id": "1856584",
       "name": "Moriguchi",
+      "nativeName": "守口市",
       "latitude": 34.73333,
       "longitude": 135.56667,
       "population": 143096,
@@ -1587,6 +1763,7 @@
     {
       "id": "1894616",
       "name": "Okinawa",
+      "nativeName": "沖縄市",
       "latitude": 26.33583,
       "longitude": 127.80139,
       "population": 142752,
@@ -1595,7 +1772,8 @@
     },
     {
       "id": "6822137",
-      "name": "Misato, Saitama",
+      "name": "Misato",
+      "nativeName": "三郷市",
       "latitude": 35.84373,
       "longitude": 139.88347,
       "population": 142145,
@@ -1605,6 +1783,7 @@
     {
       "id": "1907299",
       "name": "Asaka",
+      "nativeName": "朝霞市",
       "latitude": 35.80472,
       "longitude": 139.60194,
       "population": 141083,
@@ -1613,7 +1792,8 @@
     },
     {
       "id": "1907301",
-      "name": "Shimotoda",
+      "name": "Toda",
+      "nativeName": "戸田市",
       "latitude": 35.815,
       "longitude": 139.6853,
       "population": 140899,
@@ -1623,6 +1803,7 @@
     {
       "id": "2112576",
       "name": "Ishinomaki",
+      "nativeName": "石巻市",
       "latitude": 38.41667,
       "longitude": 141.3,
       "population": 140151,
@@ -1632,6 +1813,7 @@
     {
       "id": "11468429",
       "name": "Kuwana",
+      "nativeName": "桑名市",
       "latitude": 35.05192,
       "longitude": 136.66958,
       "population": 140051,
@@ -1641,6 +1823,7 @@
     {
       "id": "1848774",
       "name": "Yaizu",
+      "nativeName": "焼津市",
       "latitude": 34.86877,
       "longitude": 138.31952,
       "population": 139578,
@@ -1650,6 +1833,7 @@
     {
       "id": "1859093",
       "name": "Koga",
+      "nativeName": "古河市",
       "latitude": 36.18333,
       "longitude": 139.71667,
       "population": 139344,
@@ -1659,6 +1843,7 @@
     {
       "id": "1857046",
       "name": "Minoh",
+      "nativeName": "箕面市",
       "latitude": 34.82691,
       "longitude": 135.47057,
       "population": 136868,
@@ -1668,6 +1853,7 @@
     {
       "id": "6822128",
       "name": "Ebina",
+      "nativeName": "海老名市",
       "latitude": 35.38121,
       "longitude": 139.39651,
       "population": 136516,
@@ -1677,6 +1863,7 @@
     {
       "id": "1859393",
       "name": "Kisarazu",
+      "nativeName": "木更津市",
       "latitude": 35.38329,
       "longitude": 139.93254,
       "population": 136166,
@@ -1686,6 +1873,7 @@
     {
       "id": "1861464",
       "name": "Isahaya",
+      "nativeName": "諫早市",
       "latitude": 32.84111,
       "longitude": 130.04306,
       "population": 135546,
@@ -1695,6 +1883,7 @@
     {
       "id": "1861602",
       "name": "Inazawa",
+      "nativeName": "稲沢市",
       "latitude": 35.25,
       "longitude": 136.78333,
       "population": 134751,
@@ -1704,6 +1893,7 @@
     {
       "id": "2130404",
       "name": "Ebetsu",
+      "nativeName": "江別市",
       "latitude": 43.10806,
       "longitude": 141.55056,
       "population": 133953,
@@ -1712,7 +1902,8 @@
     },
     {
       "id": "1854162",
-      "name": "Ōme",
+      "name": "Ome",
+      "nativeName": "青梅市",
       "latitude": 35.78389,
       "longitude": 139.24306,
       "population": 133535,
@@ -1722,6 +1913,7 @@
     {
       "id": "2111684",
       "name": "Narita",
+      "nativeName": "成田市",
       "latitude": 35.78333,
       "longitude": 140.31667,
       "population": 132906,
@@ -1730,7 +1922,8 @@
     },
     {
       "id": "1850034",
-      "name": "Tondabayashichō",
+      "name": "Tondabayashi",
+      "nativeName": "富田林市",
       "latitude": 34.50065,
       "longitude": 135.60211,
       "population": 132873,
@@ -1739,7 +1932,8 @@
     },
     {
       "id": "1853008",
-      "name": "Sandachō",
+      "name": "Sanda",
+      "nativeName": "三田市",
       "latitude": 34.88444,
       "longitude": 135.22694,
       "population": 132858,
@@ -1749,6 +1943,7 @@
     {
       "id": "1864105",
       "name": "Fujinomiya",
+      "nativeName": "富士宮市",
       "latitude": 35.21667,
       "longitude": 138.61667,
       "population": 132507,
@@ -1758,6 +1953,7 @@
     {
       "id": "1848004",
       "name": "Zama",
+      "nativeName": "座間市",
       "latitude": 35.4879,
       "longitude": 139.39101,
       "population": 132325,
@@ -1766,7 +1962,8 @@
     },
     {
       "id": "1854083",
-      "name": "Ōmuta",
+      "name": "Omuta",
+      "nativeName": "大牟田市",
       "latitude": 33.03333,
       "longitude": 130.45,
       "population": 131974,
@@ -1776,6 +1973,7 @@
     {
       "id": "2113164",
       "name": "Abiko",
+      "nativeName": "我孫子市",
       "latitude": 35.86667,
       "longitude": 140.01667,
       "population": 131771,
@@ -1785,6 +1983,7 @@
     {
       "id": "1860871",
       "name": "Kadoma",
+      "nativeName": "門真市",
       "latitude": 34.7381,
       "longitude": 135.57442,
       "population": 131727,
@@ -1794,6 +1993,7 @@
     {
       "id": "1853992",
       "name": "Onomichi",
+      "nativeName": "尾道市",
       "latitude": 34.41667,
       "longitude": 133.2,
       "population": 131170,

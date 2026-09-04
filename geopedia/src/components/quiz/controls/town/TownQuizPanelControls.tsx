@@ -1,101 +1,120 @@
 /**
- * Displays GeoPedia's floating Filter control and mode selector for town quizzes.
+ * Displays the floating auxiliary panel controls used by GeoPedia town quizzes.
  *
- * This component owns presentation only. The town quiz client remains
- * responsible for deciding whether the Filter panel is open, whether filtering
- * may currently be changed, whether the blocked warning is visible, and how
- * Filter panel contents modify the active town set.
+ * Town quizzes currently expose:
  *
- * The Normal / Hard selector is supplied as rendered content so town-specific
- * mode behavior remains independent from the generic floating-panel
- * presentation.
+ * - A Settings panel toggle.
+ * - A Filter panel toggle.
+ * - A warning when Filter cannot be opened during an active quiz.
+ * - The currently open Settings and Filter panel contents.
+ *
+ * This component owns presentation only. The hydrated town quiz client remains
+ * responsible for panel state, determining when Filter interactions are
+ * blocked, controlling the blocked warning, and supplying the rendered panel
+ * contents.
+ *
+ * Shared panel-toggle styling, Settings icon presentation, and blocked-panel
+ * warning presentation are delegated to reusable quiz control components.
  */
 
 "use client";
 
 import type { ReactNode } from "react";
 
-import QuizPanelButton from "../QuizPanelButton";
+import QuizBlockedPanelMessage from "../shared/QuizBlockedPanelMessage";
+import QuizSettingsIcon from "../shared/QuizSettingsIcon";
+import QuizTogglePanelButton from "../shared/QuizTogglePanelButton";
 
 /**
- * Props required by the floating town quiz controls.
+ * Props required by the floating town quiz panel controls.
  */
 type TownQuizPanelControlsProps = {
+  /** Whether the Settings panel is currently open. */
+  isSettingsOpen: boolean;
+
   /** Whether the Filter panel is currently open. */
   isFilterOpen: boolean;
 
   /** Whether the warning explaining why Filter is unavailable is visible. */
   isFilterBlockedMessageOpen: boolean;
 
-  /** Attempts to open or close the Filter panel. */
+  /** Opens or closes the Settings panel. */
+  onToggleSettings: () => void;
+
+  /**
+   * Attempts to open or close the Filter panel.
+   *
+   * The parent town quiz client determines whether this action is currently
+   * allowed and may show the blocked warning instead.
+   */
   onToggleFilter: () => void;
 
-  /** Closes the Filter unavailable warning. */
+  /** Closes the warning explaining why Filter is unavailable. */
   onCloseFilterBlockedMessage: () => void;
+
+  /** Rendered Settings panel content. */
+  settingsPanel: ReactNode;
 
   /** Rendered Filter panel content. */
   filterPanel: ReactNode;
-
-  /** Rendered Normal / Hard town quiz mode selector. */
-  modeControl: ReactNode;
 };
 
 /**
- * Displays floating town quiz controls, the Filter warning, and the currently
- * open Filter panel.
+ * Renders the floating town quiz panel toggles, blocked Filter warning, and
+ * currently open auxiliary panels.
  *
- * @param props - Panel state, callbacks, and rendered town-control content.
- * @returns Floating town quiz controls.
+ * @param props - Town panel state, callbacks, and rendered panel contents.
+ * @returns Floating town quiz panel controls.
  */
 export default function TownQuizPanelControls({
+  isSettingsOpen,
   isFilterOpen,
   isFilterBlockedMessageOpen,
+  onToggleSettings,
   onToggleFilter,
   onCloseFilterBlockedMessage,
+  settingsPanel,
   filterPanel,
-  modeControl,
 }: TownQuizPanelControlsProps) {
   return (
     <div className="absolute right-3 top-3 z-30 flex max-w-[calc(100vw-1.5rem)] flex-col items-end gap-5">
-      {/* Panel and mode controls */}
+      {/* Floating panel toggle controls */}
       <div className="relative z-30 flex max-w-full flex-row items-start gap-5">
-        {/* Normal / Hard selector */}
-        {modeControl}
+        {/* Settings panel toggle */}
+        <QuizTogglePanelButton
+          label="Quiz settings"
+          isOpen={isSettingsOpen}
+          onClick={onToggleSettings}
+        >
+          <QuizSettingsIcon />
+        </QuizTogglePanelButton>
 
         {/* Filter panel toggle */}
-        <QuizPanelButton
+        <QuizTogglePanelButton
           label="Quiz filter"
           isOpen={isFilterOpen}
           onClick={onToggleFilter}
         >
           Filter
-        </QuizPanelButton>
+        </QuizTogglePanelButton>
 
-        {/* Running-quiz Filter warning */}
+        {/* Warning displayed when Filter cannot be opened during a quiz */}
         {isFilterBlockedMessageOpen && (
-          <div className="absolute right-0 top-12 w-56 rounded-lg border border-gray-300 bg-white p-3 text-xs text-gray-700 shadow-lg">
-            <div className="flex items-start gap-2">
-              {/* Warning message */}
-              <p className="flex-1 leading-relaxed">
-                Finish or end the current quiz before using Filter.
-              </p>
-
-              {/* Close warning */}
-              <button
-                type="button"
-                onClick={onCloseFilterBlockedMessage}
-                aria-label="Close message"
-                className="shrink-0 text-sm font-bold text-gray-400 transition hover:text-gray-900"
-              >
-                ×
-              </button>
-            </div>
-          </div>
+          <QuizBlockedPanelMessage
+            message="Finish or end the current quiz before filtering the quiz questions."
+            onClose={onCloseFilterBlockedMessage}
+          />
         )}
       </div>
 
-      {/* Floating Filter panel */}
+      {/* Currently open auxiliary panels */}
       <div className="relative z-30 flex flex-row items-start gap-5">
+        {/* Quiz Settings panel */}
+        {isSettingsOpen && (
+          <div className="mt-2">{settingsPanel}</div>
+        )}
+
+        {/* Town Filter panel */}
         {isFilterOpen && <div className="mt-2">{filterPanel}</div>}
       </div>
     </div>

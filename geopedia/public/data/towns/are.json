@@ -3,6 +3,7 @@
     {
       "id": "292968",
       "name": "Abu Dhabi",
+      "nativeName": "أبو ظبي",
       "latitude": 24.45118,
       "longitude": 54.39696,
       "population": 1807000,
@@ -12,6 +13,7 @@
     {
       "id": "292672",
       "name": "Sharjah",
+      "nativeName": "الشارقة",
       "latitude": 25.3342,
       "longitude": 55.41221,
       "population": 1800000,
@@ -21,6 +23,7 @@
     {
       "id": "292932",
       "name": "Ajman",
+      "nativeName": "عجمان",
       "latitude": 25.40177,
       "longitude": 55.47878,
       "population": 490035,
@@ -30,6 +33,7 @@
     {
       "id": "291074",
       "name": "Ras Al Khaimah",
+      "nativeName": "رأس الخيمة",
       "latitude": 25.78953,
       "longitude": 55.9432,
       "population": 351943,
@@ -39,6 +43,7 @@
     {
       "id": "292878",
       "name": "Fujairah",
+      "nativeName": "الفجيرة",
       "latitude": 25.11641,
       "longitude": 56.34141,
       "population": 118933,
@@ -47,7 +52,8 @@
     },
     {
       "id": "12047417",
-      "name": "Reef Al Fujairah City",
+      "name": "Al Farfar",
+      "nativeName": "الفرفار",
       "latitude": 25.14479,
       "longitude": 56.24764,
       "population": 82310,
@@ -57,6 +63,7 @@
     {
       "id": "291580",
       "name": "Zayed City",
+      "nativeName": "مدينة زايد",
       "latitude": 23.65416,
       "longitude": 53.70522,
       "population": 63482,
@@ -65,7 +72,8 @@
     },
     {
       "id": "290594",
-      "name": "Umm Al Quwain City",
+      "name": "Umm Al Quwain",
+      "nativeName": "أم القيوين",
       "latitude": 25.56473,
       "longitude": 55.55517,
       "population": 59098,
@@ -75,6 +83,7 @@
     {
       "id": "13118439",
       "name": "Lahbab",
+      "nativeName": "لهباب",
       "latitude": 25.03763,
       "longitude": 55.59135,
       "population": 53079,
@@ -83,7 +92,8 @@
     },
     {
       "id": "291763",
-      "name": "Kalbā",
+      "name": "Kalba",
+      "nativeName": "كلباء",
       "latitude": 25.0513,
       "longitude": 56.35422,
       "population": 37545,
@@ -92,7 +102,8 @@
     },
     {
       "id": "292231",
-      "name": "Dibba Al-Fujairah",
+      "name": "Dibba Al Fujairah",
+      "nativeName": "دبا الفجيرة",
       "latitude": 25.59246,
       "longitude": 56.26176,
       "population": 30000,
@@ -101,7 +112,8 @@
     },
     {
       "id": "292239",
-      "name": "Dibba Al-Hisn",
+      "name": "Dibba Al Hisn",
+      "nativeName": "دبا الحصن",
       "latitude": 25.61955,
       "longitude": 56.27291,
       "population": 26395,
@@ -110,7 +122,8 @@
     },
     {
       "id": "292953",
-      "name": "Adh Dhayd",
+      "name": "Al Dhaid",
+      "nativeName": "الذيد",
       "latitude": 25.28812,
       "longitude": 55.88157,
       "population": 20165,
@@ -119,7 +132,8 @@
     },
     {
       "id": "7289825",
-      "name": "Bur Dubai",
+      "name": "Dubai",
+      "nativeName": "دبي",
       "latitude": 25.26038,
       "longitude": 55.29891,
       "population": 18698,
@@ -128,7 +142,8 @@
     },
     {
       "id": "292862",
-      "name": "Ḩattā",
+      "name": "Hatta",
+      "nativeName": "حتا",
       "latitude": 24.80073,
       "longitude": 56.12726,
       "population": 15324,
@@ -137,7 +152,8 @@
     },
     {
       "id": "291279",
-      "name": "Muzayri‘",
+      "name": "Liwa",
+      "nativeName": "ليوا",
       "latitude": 23.14355,
       "longitude": 53.7881,
       "population": 10000,
@@ -146,7 +162,8 @@
     },
     {
       "id": "291489",
-      "name": "Maşfūţ",
+      "name": "Masfut",
+      "nativeName": "مصفوت",
       "latitude": 24.81089,
       "longitude": 56.10657,
       "population": 8988,
@@ -156,6 +173,7 @@
     {
       "id": "13118445",
       "name": "Al Madam",
+      "nativeName": "المدام",
       "latitude": 24.97355,
       "longitude": 55.77781,
       "population": 8652,
@@ -164,7 +182,8 @@
     },
     {
       "id": "292799",
-      "name": "Al Manāmah",
+      "name": "Manama",
+      "nativeName": "المنامة",
       "latitude": 25.3299,
       "longitude": 56.02188,
       "population": 5823,
@@ -173,7 +192,8 @@
     },
     {
       "id": "413256",
-      "name": "Suwayḩān",
+      "name": "Sweihan",
+      "nativeName": "سويحان",
       "latitude": 24.46235,
       "longitude": 55.33715,
       "population": 5403,
@@ -182,7 +202,8 @@
     },
     {
       "id": "13117825",
-      "name": "Sha'biyyat Milе̄hah",
+      "name": "Milehah",
+      "nativeName": "مليحة",
       "latitude": 25.13518,
       "longitude": 55.8843,
       "population": 4768,
@@ -191,7 +212,8 @@
     },
     {
       "id": "292856",
-      "name": "Al Ḩamrīyah",
+      "name": "Al Hamriyah",
+      "nativeName": "الحمرية",
       "latitude": 25.47819,
       "longitude": 55.53377,
       "population": 3297,
@@ -201,6 +223,7 @@
     {
       "id": "12470174",
       "name": "Al Wiqan",
+      "nativeName": "الوقن",
       "latitude": 23.75355,
       "longitude": 55.32739,
       "population": 2000,
@@ -209,7 +232,8 @@
     },
     {
       "id": "291339",
-      "name": "Murbaḩ",
+      "name": "Mirbah",
+      "nativeName": "مربح",
       "latitude": 25.27623,
       "longitude": 56.36256,
       "population": 2000,
@@ -218,7 +242,8 @@
     },
     {
       "id": "292674",
-      "name": "Ash Sha‘m",
+      "name": "Sha'am",
+      "nativeName": "شعم",
       "latitude": 26.0279,
       "longitude": 56.08352,
       "population": 1550,
@@ -227,7 +252,8 @@
     },
     {
       "id": "12470175",
-      "name": "Al'Arad",
+      "name": "Al 'Arad",
+      "nativeName": "العراد",
       "latitude": 23.8472,
       "longitude": 55.52719,
       "population": 1000,
@@ -237,6 +263,7 @@
     {
       "id": "291265",
       "name": "Nahwa",
+      "nativeName": "النحوة",
       "latitude": 25.26822,
       "longitude": 56.28013,
       "population": 302,

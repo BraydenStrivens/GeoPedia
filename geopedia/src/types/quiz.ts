@@ -165,8 +165,15 @@ export interface TownQuizTown {
   /** Stable GeoNames identifier for the settlement. */
   id: string;
 
-  /** User-facing settlement name. */
+  /**
+   * Preferred English/international settlement name.
+   *
+   * This is the default question name and remains available for every town.
+   */
   name: string;
+
+  /**  Locally used/native settlement name when it differs from `name`. */
+  nativeName?: string;
 
   /** Latitude of the settlement's target location. */
   latitude: number;

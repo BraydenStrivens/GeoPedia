@@ -3,6 +3,7 @@
     {
       "id": "703448",
       "name": "Kyiv",
+      "nativeName": "Київ",
       "latitude": 50.45466,
       "longitude": 30.5238,
       "population": 2952301,
@@ -12,6 +13,7 @@
     {
       "id": "706483",
       "name": "Kharkiv",
+      "nativeName": "Харків",
       "latitude": 49.98177,
       "longitude": 36.25475,
       "population": 1421125,
@@ -21,6 +23,7 @@
     {
       "id": "698740",
       "name": "Odesa",
+      "nativeName": "Одеса",
       "latitude": 46.48572,
       "longitude": 30.74383,
       "population": 1010537,
@@ -30,6 +33,7 @@
     {
       "id": "709930",
       "name": "Dnipro",
+      "nativeName": "Дніпро",
       "latitude": 48.46664,
       "longitude": 35.04066,
       "population": 968502,
@@ -39,6 +43,7 @@
     {
       "id": "709717",
       "name": "Donetsk",
+      "nativeName": "Донецьк",
       "latitude": 48.023,
       "longitude": 37.80224,
       "population": 901645,
@@ -48,6 +53,7 @@
     {
       "id": "702550",
       "name": "Lviv",
+      "nativeName": "Львів",
       "latitude": 49.83826,
       "longitude": 24.02324,
       "population": 717273,
@@ -56,7 +62,8 @@
     },
     {
       "id": "687700",
-      "name": "Zaporizhzhya",
+      "name": "Zaporizhzhia",
+      "nativeName": "Запоріжжя",
       "latitude": 47.85167,
       "longitude": 35.11714,
       "population": 710052,
@@ -65,7 +72,8 @@
     },
     {
       "id": "703845",
-      "name": "Kryvyy Rih",
+      "name": "Kryvyi Rih",
+      "nativeName": "Кривий Ріг",
       "latitude": 47.90572,
       "longitude": 33.39404,
       "population": 603904,
@@ -75,6 +83,7 @@
     {
       "id": "694423",
       "name": "Sevastopol",
+      "nativeName": "Севастополь",
       "latitude": 44.60795,
       "longitude": 33.52134,
       "population": 547820,
@@ -83,7 +92,8 @@
     },
     {
       "id": "700569",
-      "name": "Mykolayiv",
+      "name": "Mykolaiv",
+      "nativeName": "Миколаїв",
       "latitude": 46.97625,
       "longitude": 31.99296,
       "population": 470011,
@@ -92,7 +102,8 @@
     },
     {
       "id": "689558",
-      "name": "Vinnytsya",
+      "name": "Vinnytsia",
+      "nativeName": "Вінниця",
       "latitude": 49.2322,
       "longitude": 28.46871,
       "population": 430091,
@@ -102,6 +113,7 @@
     {
       "id": "702658",
       "name": "Luhansk",
+      "nativeName": "Луганськ",
       "latitude": 48.56814,
       "longitude": 39.30553,
       "population": 397677,
@@ -111,6 +123,7 @@
     {
       "id": "693805",
       "name": "Simferopol",
+      "nativeName": "Симферополь",
       "latitude": 44.95719,
       "longitude": 34.11079,
       "population": 336460,
@@ -120,6 +133,7 @@
     {
       "id": "710735",
       "name": "Chernihiv",
+      "nativeName": "Чернігів",
       "latitude": 51.50541,
       "longitude": 31.28656,
       "population": 282747,
@@ -129,6 +143,7 @@
     {
       "id": "696643",
       "name": "Poltava",
+      "nativeName": "Полтава",
       "latitude": 49.58925,
       "longitude": 34.55367,
       "population": 279593,
@@ -138,6 +153,7 @@
     {
       "id": "706369",
       "name": "Khmelnytskyi",
+      "nativeName": "Хмельницький",
       "latitude": 49.41835,
       "longitude": 26.97936,
       "population": 274452,
@@ -147,6 +163,7 @@
     {
       "id": "710791",
       "name": "Cherkasy",
+      "nativeName": "Черкаси",
       "latitude": 49.44452,
       "longitude": 32.05738,
       "population": 269836,
@@ -156,6 +173,7 @@
     {
       "id": "710719",
       "name": "Chernivtsi",
+      "nativeName": "Чернівці",
       "latitude": 48.29045,
       "longitude": 25.93241,
       "population": 264298,
@@ -165,6 +183,7 @@
     {
       "id": "686967",
       "name": "Zhytomyr",
+      "nativeName": "Житомир",
       "latitude": 50.26235,
       "longitude": 28.67913,
       "population": 261624,
@@ -174,6 +193,7 @@
     {
       "id": "692194",
       "name": "Sumy",
+      "nativeName": "Суми",
       "latitude": 50.91741,
       "longitude": 34.79906,
       "population": 256474,
@@ -183,6 +203,7 @@
     {
       "id": "695594",
       "name": "Rivne",
+      "nativeName": "Рівне",
       "latitude": 50.62036,
       "longitude": 26.23695,
       "population": 243873,
@@ -192,6 +213,7 @@
     {
       "id": "707753",
       "name": "Horlivka",
+      "nativeName": "Горлівка",
       "latitude": 48.29986,
       "longitude": 38.01709,
       "population": 239828,
@@ -201,6 +223,7 @@
     {
       "id": "707471",
       "name": "Ivano-Frankivsk",
+      "nativeName": "Івано-Франківськ",
       "latitude": 48.92312,
       "longitude": 24.71248,
       "population": 238196,
@@ -210,6 +233,7 @@
     {
       "id": "701822",
       "name": "Mariupol",
+      "nativeName": "Маріуполь",
       "latitude": 47.09514,
       "longitude": 37.54131,
       "population": 230000,
@@ -218,7 +242,8 @@
     },
     {
       "id": "709932",
-      "name": "Kamyanske",
+      "name": "Kamianske",
+      "nativeName": "Кам’янське",
       "latitude": 48.51716,
       "longitude": 34.60617,
       "population": 226845,
@@ -228,6 +253,7 @@
     {
       "id": "691650",
       "name": "Ternopil",
+      "nativeName": "Тернопіль",
       "latitude": 49.55404,
       "longitude": 25.59067,
       "population": 225238,
@@ -237,6 +263,7 @@
     {
       "id": "704147",
       "name": "Kremenchuk",
+      "nativeName": "Кременчук",
       "latitude": 49.06253,
       "longitude": 33.40484,
       "population": 224997,
@@ -246,6 +273,7 @@
     {
       "id": "705812",
       "name": "Kropyvnytskyi",
+      "nativeName": "Кропивницький",
       "latitude": 48.50834,
       "longitude": 32.26618,
       "population": 219676,
@@ -255,6 +283,7 @@
     {
       "id": "702569",
       "name": "Lutsk",
+      "nativeName": "Луцьк",
       "latitude": 50.75784,
       "longitude": 25.35024,
       "population": 215986,
@@ -264,6 +293,7 @@
     {
       "id": "712165",
       "name": "Bila Tserkva",
+      "nativeName": "Біла Церква",
       "latitude": 49.7994,
       "longitude": 30.1165,
       "population": 207273,
@@ -273,6 +303,7 @@
     {
       "id": "706524",
       "name": "Kerch",
+      "nativeName": "Керчь",
       "latitude": 45.35675,
       "longitude": 36.47542,
       "population": 148932,
@@ -282,6 +313,7 @@
     {
       "id": "701404",
       "name": "Melitopol",
+      "nativeName": "Мелітополь",
       "latitude": 46.84735,
       "longitude": 35.38196,
       "population": 148851,
@@ -291,6 +323,7 @@
     {
       "id": "704508",
       "name": "Kramatorsk",
+      "nativeName": "Краматорськ",
       "latitude": 48.73106,
       "longitude": 37.56779,
       "population": 147145,
@@ -300,6 +333,7 @@
     {
       "id": "690548",
       "name": "Uzhhorod",
+      "nativeName": "Ужгород",
       "latitude": 48.6242,
       "longitude": 22.2947,
       "population": 115449,
@@ -309,6 +343,7 @@
     {
       "id": "711390",
       "name": "Brovary",
+      "nativeName": "Бровари",
       "latitude": 50.51097,
       "longitude": 30.79106,
       "population": 109806,
@@ -318,6 +353,7 @@
     {
       "id": "688105",
       "name": "Yevpatoriya",
+      "nativeName": "Евпатория",
       "latitude": 45.20091,
       "longitude": 33.36655,
       "population": 107040,
@@ -326,7 +362,8 @@
     },
     {
       "id": "712451",
-      "name": "Berdyansk",
+      "name": "Berdiansk",
+      "nativeName": "Бердянськ",
       "latitude": 46.75578,
       "longitude": 36.78815,
       "population": 106311,
@@ -336,6 +373,7 @@
     {
       "id": "713716",
       "name": "Alchevsk",
+      "nativeName": "Алчевськ",
       "latitude": 48.46906,
       "longitude": 38.79744,
       "population": 106062,
@@ -345,6 +383,7 @@
     {
       "id": "700051",
       "name": "Nikopol",
+      "nativeName": "Нікополь",
       "latitude": 47.56826,
       "longitude": 34.39126,
       "population": 105160,
@@ -353,7 +392,8 @@
     },
     {
       "id": "693468",
-      "name": "Slovyansk",
+      "name": "Sloviansk",
+      "nativeName": "Слов’янськ",
       "latitude": 48.84974,
       "longitude": 37.59739,
       "population": 105141,
@@ -363,6 +403,7 @@
     {
       "id": "697889",
       "name": "Pavlohrad",
+      "nativeName": "Павлоград",
       "latitude": 48.53214,
       "longitude": 35.86878,
       "population": 101430,
@@ -372,6 +413,7 @@
     {
       "id": "691999",
       "name": "Siverskodonetsk",
+      "nativeName": "Сіверськодонецьк",
       "latitude": 48.94414,
       "longitude": 38.48754,
       "population": 99067,
@@ -380,7 +422,8 @@
     },
     {
       "id": "706950",
-      "name": "Kamyanets-Podilskyi",
+      "name": "Kamianets-Podilskyi",
+      "nativeName": "Кам'янець-Подільський",
       "latitude": 48.67882,
       "longitude": 26.58516,
       "population": 97908,
@@ -390,6 +433,7 @@
     {
       "id": "702972",
       "name": "Lysychansk",
+      "nativeName": "Лисичанськ",
       "latitude": 48.91211,
       "longitude": 38.42088,
       "population": 93340,
@@ -399,6 +443,7 @@
     {
       "id": "700646",
       "name": "Mukachevo",
+      "nativeName": "Мукачево",
       "latitude": 48.44248,
       "longitude": 22.718,
       "population": 85569,
@@ -408,6 +453,7 @@
     {
       "id": "705135",
       "name": "Konotop",
+      "nativeName": "Конотоп",
       "latitude": 51.23251,
       "longitude": 33.2004,
       "population": 84787,
@@ -417,6 +463,7 @@
     {
       "id": "690688",
       "name": "Uman",
+      "nativeName": "Умань",
       "latitude": 48.7501,
       "longitude": 30.21944,
       "population": 81525,
@@ -426,6 +473,7 @@
     {
       "id": "713174",
       "name": "Bakhmut",
+      "nativeName": "Бахмут",
       "latitude": 48.59419,
       "longitude": 37.99886,
       "population": 80500,
@@ -435,6 +483,7 @@
     {
       "id": "704202",
       "name": "Khrustalnyi",
+      "nativeName": "Хрустальний",
       "latitude": 48.14241,
       "longitude": 38.92369,
       "population": 79533,
@@ -444,6 +493,7 @@
     {
       "id": "688533",
       "name": "Yalta",
+      "nativeName": "Ялта",
       "latitude": 44.50218,
       "longitude": 34.16624,
       "population": 77003,
@@ -452,7 +502,8 @@
     },
     {
       "id": "688148",
-      "name": "Yenakiyeve",
+      "name": "Yenakiieve",
+      "nativeName": "Єнакієве",
       "latitude": 48.23857,
       "longitude": 38.20403,
       "population": 76673,
@@ -461,7 +512,8 @@
     },
     {
       "id": "698625",
-      "name": "Oleksandriya",
+      "name": "Oleksandriia",
+      "nativeName": "Олександрія",
       "latitude": 48.67466,
       "longitude": 33.11761,
       "population": 76097,
@@ -471,6 +523,7 @@
     {
       "id": "709611",
       "name": "Drohobych",
+      "nativeName": "Дрогобич",
       "latitude": 49.35196,
       "longitude": 23.51121,
       "population": 73682,
@@ -479,7 +532,8 @@
     },
     {
       "id": "692975",
-      "name": "Kadiyivka",
+      "name": "Kadiivka",
+      "nativeName": "Кадіївка",
       "latitude": 48.56818,
       "longitude": 38.64352,
       "population": 73248,
@@ -489,6 +543,7 @@
     {
       "id": "693942",
       "name": "Shostka",
+      "nativeName": "Шостка",
       "latitude": 51.86434,
       "longitude": 33.47283,
       "population": 73197,
@@ -498,6 +553,7 @@
     {
       "id": "712441",
       "name": "Berdychiv",
+      "nativeName": "Бердичів",
       "latitude": 49.89421,
       "longitude": 28.58236,
       "population": 73046,
@@ -507,6 +563,7 @@
     {
       "id": "694382",
       "name": "Shakhtarsk",
+      "nativeName": "Шахтарськ",
       "latitude": 48.05657,
       "longitude": 38.43826,
       "population": 71700,
@@ -516,6 +573,7 @@
     {
       "id": "699445",
       "name": "Samar",
+      "nativeName": "Самар",
       "latitude": 48.62893,
       "longitude": 35.2589,
       "population": 70550,
@@ -524,7 +582,8 @@
     },
     {
       "id": "707308",
-      "name": "Izmayil",
+      "name": "Izmail",
+      "nativeName": "Ізмаїл",
       "latitude": 45.35058,
       "longitude": 28.83751,
       "population": 69932,
@@ -533,7 +592,8 @@
     },
     {
       "id": "709161",
-      "name": "Feodosiya",
+      "name": "Feodosia",
+      "nativeName": "Феодосия",
       "latitude": 45.03199,
       "longitude": 35.38153,
       "population": 68562,
@@ -543,6 +603,7 @@
     {
       "id": "704617",
       "name": "Kovel",
+      "nativeName": "Ковель",
       "latitude": 51.21548,
       "longitude": 24.70077,
       "population": 67575,
@@ -551,7 +612,8 @@
     },
     {
       "id": "705104",
-      "name": "Kostyantynivka",
+      "name": "Kostiantynivka",
+      "nativeName": "Костянтинівка",
       "latitude": 48.52728,
       "longitude": 37.70594,
       "population": 67350,
@@ -561,6 +623,7 @@
     {
       "id": "699942",
       "name": "Nizhyn",
+      "nativeName": "Ніжин",
       "latitude": 51.04772,
       "longitude": 31.88844,
       "population": 66983,
@@ -570,6 +633,7 @@
     {
       "id": "693457",
       "name": "Smila",
+      "nativeName": "Сміла",
       "latitude": 49.23295,
       "longitude": 31.88427,
       "population": 66475,
@@ -579,6 +643,7 @@
     {
       "id": "706448",
       "name": "Kherson",
+      "nativeName": "Херсон",
       "latitude": 46.63695,
       "longitude": 32.61458,
       "population": 66000,
@@ -588,6 +653,7 @@
     {
       "id": "707565",
       "name": "Irpin",
+      "nativeName": "Ірпінь",
       "latitude": 50.52201,
       "longitude": 30.24037,
       "population": 65167,
@@ -597,6 +663,7 @@
     {
       "id": "707099",
       "name": "Kalush",
+      "nativeName": "Калуш",
       "latitude": 49.02398,
       "longitude": 24.37206,
       "population": 65088,
@@ -606,6 +673,7 @@
     {
       "id": "710554",
       "name": "Sheptytskyi",
+      "nativeName": "Шептицький",
       "latitude": 50.39403,
       "longitude": 24.23935,
       "population": 64297,
@@ -615,6 +683,7 @@
     {
       "id": "711660",
       "name": "Boryspil",
+      "nativeName": "Бориспіль",
       "latitude": 50.35051,
       "longitude": 30.95263,
       "population": 64117,
@@ -624,6 +693,7 @@
     {
       "id": "692105",
       "name": "Dovzhansk",
+      "nativeName": "Довжанськ",
       "latitude": 48.07615,
       "longitude": 39.64744,
       "population": 62691,
@@ -632,7 +702,8 @@
     },
     {
       "id": "697593",
-      "name": "Pervomaysk",
+      "name": "Pervomaisk",
+      "nativeName": "Первомайськ",
       "latitude": 48.04478,
       "longitude": 30.84784,
       "population": 62426,
@@ -642,6 +713,7 @@
     {
       "id": "704901",
       "name": "Korosten",
+      "nativeName": "Коростень",
       "latitude": 50.9512,
       "longitude": 28.63859,
       "population": 61496,
@@ -651,6 +723,7 @@
     {
       "id": "692372",
       "name": "Stryi",
+      "nativeName": "Стрий",
       "latitude": 49.26103,
       "longitude": 23.84845,
       "population": 61404,
@@ -660,6 +733,7 @@
     {
       "id": "705392",
       "name": "Kolomyia",
+      "nativeName": "Коломия",
       "latitude": 48.52496,
       "longitude": 25.03712,
       "population": 60821,
@@ -669,6 +743,7 @@
     {
       "id": "704422",
       "name": "Pokrovsk",
+      "nativeName": "Покровськ",
       "latitude": 48.28014,
       "longitude": 37.17706,
       "population": 60127,
@@ -677,7 +752,8 @@
     },
     {
       "id": "707688",
-      "name": "Chornomors’k",
+      "name": "Chornomorsk",
+      "nativeName": "Чорноморськ",
       "latitude": 46.29914,
       "longitude": 30.65529,
       "population": 57983,
@@ -687,6 +763,7 @@
     {
       "id": "706466",
       "name": "Khartsyzk",
+      "nativeName": "Харцизьк",
       "latitude": 48.04277,
       "longitude": 38.14025,
       "population": 56182,
@@ -695,7 +772,8 @@
     },
     {
       "id": "699553",
-      "name": "Zvyahel",
+      "name": "Zviahel",
+      "nativeName": "Звягель",
       "latitude": 50.59141,
       "longitude": 27.60884,
       "population": 55925,
@@ -705,6 +783,7 @@
     {
       "id": "693381",
       "name": "Snizhne",
+      "nativeName": "Сніжне",
       "latitude": 48.02328,
       "longitude": 38.76205,
       "population": 55587,
@@ -714,6 +793,7 @@
     {
       "id": "695274",
       "name": "Rubizhne",
+      "nativeName": "Рубіжне",
       "latitude": 49.00849,
       "longitude": 38.37972,
       "population": 55247,
@@ -723,6 +803,7 @@
     {
       "id": "702760",
       "name": "Lozova",
+      "nativeName": "Лозова",
       "latitude": 48.89066,
       "longitude": 36.31412,
       "population": 54026,
@@ -732,6 +813,7 @@
     {
       "id": "616743",
       "name": "Druzhkivka",
+      "nativeName": "Дружківка",
       "latitude": 48.61995,
       "longitude": 37.52537,
       "population": 53977,
@@ -741,6 +823,7 @@
     {
       "id": "709276",
       "name": "Enerhodar",
+      "nativeName": "Енергодар",
       "latitude": 47.49048,
       "longitude": 34.66199,
       "population": 52887,
@@ -750,6 +833,7 @@
     {
       "id": "696108",
       "name": "Pryluky",
+      "nativeName": "Прилуки",
       "latitude": 50.59525,
       "longitude": 32.38382,
       "population": 52553,
@@ -759,6 +843,7 @@
     {
       "id": "713259",
       "name": "Antratsyt",
+      "nativeName": "Антрацит",
       "latitude": 48.11638,
       "longitude": 39.08863,
       "population": 52150,
@@ -768,6 +853,7 @@
     {
       "id": "6559559",
       "name": "Horishni Plavni",
+      "nativeName": "Горішні Плавні",
       "latitude": 49.00835,
       "longitude": 33.62926,
       "population": 49854,
@@ -777,6 +863,7 @@
     {
       "id": "699035",
       "name": "Novovolynsk",
+      "nativeName": "Нововолинськ",
       "latitude": 50.72949,
       "longitude": 24.15976,
       "population": 49772,
@@ -786,6 +873,7 @@
     {
       "id": "704403",
       "name": "Sorokyne",
+      "nativeName": "Сорокине",
       "latitude": 48.29329,
       "longitude": 39.7332,
       "population": 49352,
@@ -795,6 +883,7 @@
     {
       "id": "712160",
       "name": "Bilhorod-Dnistrovskyi",
+      "nativeName": "Білгород-Дністровський",
       "latitude": 46.19484,
       "longitude": 30.34827,
       "population": 47727,
@@ -804,6 +893,7 @@
     {
       "id": "713749",
       "name": "Okhtyrka",
+      "nativeName": "Охтирка",
       "latitude": 50.30852,
       "longitude": 34.89468,
       "population": 47216,
@@ -813,6 +903,7 @@
     {
       "id": "710035",
       "name": "Myrnohrad",
+      "nativeName": "Мирноград",
       "latitude": 48.3099,
       "longitude": 37.26513,
       "population": 46098,
@@ -821,7 +912,8 @@
     },
     {
       "id": "707292",
-      "name": "Izyum",
+      "name": "Izium",
+      "nativeName": "Ізюм",
       "latitude": 49.20697,
       "longitude": 37.27679,
       "population": 45884,
@@ -831,6 +923,7 @@
     {
       "id": "695379",
       "name": "Rovenky",
+      "nativeName": "Ровеньки",
       "latitude": 48.08277,
       "longitude": 39.37696,
       "population": 45514,
@@ -840,6 +933,7 @@
     {
       "id": "701855",
       "name": "Marhanets",
+      "nativeName": "Марганець",
       "latitude": 47.63088,
       "longitude": 34.6245,
       "population": 44980,
@@ -848,7 +942,8 @@
     },
     {
       "id": "711369",
-      "name": "Bryanka",
+      "name": "Brianka",
+      "nativeName": "Брянка",
       "latitude": 48.511,
       "longitude": 38.67222,
       "population": 44760,
@@ -858,6 +953,7 @@
     {
       "id": "702723",
       "name": "Lubny",
+      "nativeName": "Лубни",
       "latitude": 50.01413,
       "longitude": 32.99975,
       "population": 44595,
@@ -867,6 +963,7 @@
     {
       "id": "699839",
       "name": "Nova Kakhovka",
+      "nativeName": "Нова Каховка",
       "latitude": 46.75966,
       "longitude": 33.35591,
       "population": 44427,
@@ -876,6 +973,7 @@
     {
       "id": "709248",
       "name": "Fastiv",
+      "nativeName": "Фастів",
       "latitude": 50.07796,
       "longitude": 29.91963,
       "population": 44014,
@@ -885,6 +983,7 @@
     {
       "id": "692087",
       "name": "Svitlovodsk",
+      "nativeName": "Світловодськ",
       "latitude": 49.06287,
       "longitude": 33.2458,
       "population": 43130,
@@ -894,6 +993,7 @@
     {
       "id": "689487",
       "name": "Vyshneve",
+      "nativeName": "Вишневе",
       "latitude": 50.38834,
       "longitude": 30.36809,
       "population": 42983,
@@ -903,6 +1003,7 @@
     {
       "id": "711350",
       "name": "Bucha",
+      "nativeName": "Буча",
       "latitude": 50.54741,
       "longitude": 30.20879,
       "population": 42279,
@@ -912,6 +1013,7 @@
     {
       "id": "687196",
       "name": "Zhovti Vody",
+      "nativeName": "Жовті Води",
       "latitude": 48.34518,
       "longitude": 33.49743,
       "population": 42052,
@@ -921,6 +1023,7 @@
     {
       "id": "8341919",
       "name": "Varash",
+      "nativeName": "Вараш",
       "latitude": 51.34038,
       "longitude": 25.85547,
       "population": 42000,
@@ -930,6 +1033,7 @@
     {
       "id": "709334",
       "name": "Dzhankoy",
+      "nativeName": "Джанкой",
       "latitude": 45.7131,
       "longitude": 34.39273,
       "population": 41731,
@@ -939,6 +1043,7 @@
     {
       "id": "694216",
       "name": "Shepetivka",
+      "nativeName": "Шепетівка",
       "latitude": 50.18118,
       "longitude": 27.06517,
       "population": 40802,
@@ -948,6 +1053,7 @@
     {
       "id": "701075",
       "name": "Myrhorod",
+      "nativeName": "Миргород",
       "latitude": 49.96464,
       "longitude": 33.60861,
       "population": 39575,
@@ -957,6 +1063,7 @@
     {
       "id": "704679",
       "name": "Podilsk",
+      "nativeName": "Подільськ",
       "latitude": 47.74988,
       "longitude": 29.53074,
       "population": 39220,
@@ -966,6 +1073,7 @@
     {
       "id": "7525990",
       "name": "Pivdennoukrainsk",
+      "nativeName": "Південноукраїнськ",
       "latitude": 47.82879,
       "longitude": 31.17513,
       "population": 38560,
@@ -975,6 +1083,7 @@
     {
       "id": "695464",
       "name": "Romny",
+      "nativeName": "Ромни",
       "latitude": 50.74025,
       "longitude": 33.4952,
       "population": 38305,
@@ -983,7 +1092,8 @@
     },
     {
       "id": "689378",
-      "name": "Volodymyr-Volynskyi",
+      "name": "Volodymyr",
+      "nativeName": "Володимир",
       "latitude": 50.85033,
       "longitude": 24.32119,
       "population": 37910,
@@ -993,6 +1103,7 @@
     {
       "id": "688373",
       "name": "Yasynuvata",
+      "nativeName": "Ясинувата",
       "latitude": 48.12678,
       "longitude": 37.85924,
       "population": 37600,
@@ -1002,6 +1113,7 @@
     {
       "id": "698436",
       "name": "Pokrov",
+      "nativeName": "Покров",
       "latitude": 47.65361,
       "longitude": 34.11488,
       "population": 37493,
@@ -1011,6 +1123,7 @@
     {
       "id": "709540",
       "name": "Dubno",
+      "nativeName": "Дубно",
       "latitude": 50.40752,
       "longitude": 25.7624,
       "population": 37257,
@@ -1020,6 +1133,7 @@
     {
       "id": "690412",
       "name": "Vasylkiv",
+      "nativeName": "Васильків",
       "latitude": 50.18023,
       "longitude": 30.31189,
       "population": 37068,
@@ -1028,7 +1142,8 @@
     },
     {
       "id": "710374",
-      "name": "Chuhuyiv",
+      "name": "Chuhuiv",
+      "nativeName": "Чугуїв",
       "latitude": 49.83538,
       "longitude": 36.6865,
       "population": 36519,
@@ -1038,6 +1153,7 @@
     {
       "id": "700261",
       "name": "Netishyn",
+      "nativeName": "Нетішин",
       "latitude": 50.32863,
       "longitude": 26.64872,
       "population": 36492,
@@ -1047,6 +1163,7 @@
     {
       "id": "697592",
       "name": "Sokolohirsk",
+      "nativeName": "Сокологірськ",
       "latitude": 48.6279,
       "longitude": 38.52389,
       "population": 36091,
@@ -1056,6 +1173,7 @@
     {
       "id": "707244",
       "name": "Kakhovka",
+      "nativeName": "Каховка",
       "latitude": 46.81601,
       "longitude": 33.47862,
       "population": 35983,
@@ -1064,7 +1182,8 @@
     },
     {
       "id": "713122",
-      "name": "Avdiyivka",
+      "name": "Avdiivka",
+      "nativeName": "Авдіївка",
       "latitude": 48.14019,
       "longitude": 37.75008,
       "population": 35826,
@@ -1074,6 +1193,7 @@
     {
       "id": "693581",
       "name": "Slavuta",
+      "nativeName": "Славута",
       "latitude": 50.29609,
       "longitude": 26.86613,
       "population": 35068,
@@ -1083,6 +1203,7 @@
     {
       "id": "687116",
       "name": "Zhmerynka",
+      "nativeName": "Жмеринка",
       "latitude": 49.03523,
       "longitude": 28.11405,
       "population": 34498,
@@ -1091,7 +1212,8 @@
     },
     {
       "id": "692818",
-      "name": "Starokostyantyniv",
+      "name": "Starokostiantyniv",
+      "nativeName": "Старокостянтинів",
       "latitude": 49.75522,
       "longitude": 27.21229,
       "population": 34232,
@@ -1101,6 +1223,7 @@
     {
       "id": "694864",
       "name": "Sambir",
+      "nativeName": "Самбір",
       "latitude": 49.51624,
       "longitude": 23.20133,
       "population": 34152,
@@ -1110,6 +1233,7 @@
     {
       "id": "688860",
       "name": "Voznesensk",
+      "nativeName": "Вознесенськ",
       "latitude": 47.56218,
       "longitude": 31.33602,
       "population": 33442,
@@ -1119,6 +1243,7 @@
     {
       "id": "688723",
       "name": "Vyshhorod",
+      "nativeName": "Вишгород",
       "latitude": 50.58312,
       "longitude": 30.48566,
       "population": 33109,
@@ -1128,6 +1253,7 @@
     {
       "id": "687997",
       "name": "Pivdenne",
+      "nativeName": "Південне",
       "latitude": 46.62472,
       "longitude": 31.10182,
       "population": 32677,
@@ -1137,6 +1263,7 @@
     {
       "id": "711669",
       "name": "Boryslav",
+      "nativeName": "Борислав",
       "latitude": 49.28998,
       "longitude": 23.42889,
       "population": 32473,
@@ -1146,6 +1273,7 @@
     {
       "id": "707758",
       "name": "Hlukhiv",
+      "nativeName": "Глухів",
       "latitude": 51.67982,
       "longitude": 33.91682,
       "population": 31789,
@@ -1155,6 +1283,7 @@
     {
       "id": "698782",
       "name": "Obukhiv",
+      "nativeName": "Обухів",
       "latitude": 50.11632,
       "longitude": 30.63329,
       "population": 31557,
@@ -1163,7 +1292,8 @@
     },
     {
       "id": "8468760",
-      "name": "Novoyavorivs'k",
+      "name": "Novoiavorivsk",
+      "nativeName": "Новояворівськ",
       "latitude": 49.93023,
       "longitude": 23.57357,
       "population": 31366,
@@ -1173,6 +1303,7 @@
     {
       "id": "709354",
       "name": "Toretsk",
+      "nativeName": "Торецьк",
       "latitude": 48.39477,
       "longitude": 37.8478,
       "population": 30914,
@@ -1182,6 +1313,7 @@
     {
       "id": "704737",
       "name": "Kostopil",
+      "nativeName": "Костопіль",
       "latitude": 50.87732,
       "longitude": 26.44797,
       "population": 30838,
@@ -1190,7 +1322,8 @@
     },
     {
       "id": "704362",
-      "name": "Yany Kapu",
+      "name": "Krasnoperekopsk",
+      "nativeName": "Красноперекопск",
       "latitude": 45.95547,
       "longitude": 33.79261,
       "population": 30700,
@@ -1199,7 +1332,8 @@
     },
     {
       "id": "700918",
-      "name": "Mohyliv-Podilskyy",
+      "name": "Mohyliv-Podilskyi",
+      "nativeName": "Могилів-Подільський",
       "latitude": 48.44278,
       "longitude": 27.79975,
       "population": 30589,
@@ -1209,6 +1343,7 @@
     {
       "id": "693796",
       "name": "Synelnykove",
+      "nativeName": "Синельникове",
       "latitude": 48.32362,
       "longitude": 35.52612,
       "population": 30556,
@@ -1218,6 +1353,7 @@
     {
       "id": "713513",
       "name": "Alushta",
+      "nativeName": "Алушта",
       "latitude": 44.67728,
       "longitude": 34.4097,
       "population": 29586,
@@ -1227,6 +1363,7 @@
     {
       "id": "691469",
       "name": "Tokmak",
+      "nativeName": "Токмак",
       "latitude": 47.25554,
       "longitude": 35.70836,
       "population": 29573,
@@ -1236,6 +1373,7 @@
     {
       "id": "694792",
       "name": "Sarny",
+      "nativeName": "Сарни",
       "latitude": 51.33898,
       "longitude": 26.60693,
       "population": 28865,
@@ -1245,6 +1383,7 @@
     {
       "id": "697576",
       "name": "Zlatopil",
+      "nativeName": "Златопіль",
       "latitude": 49.37646,
       "longitude": 36.21848,
       "population": 28510,
@@ -1254,6 +1393,7 @@
     {
       "id": "706165",
       "name": "Khust",
+      "nativeName": "Хуст",
       "latitude": 48.17193,
       "longitude": 23.29791,
       "population": 28424,
@@ -1263,6 +1403,7 @@
     {
       "id": "710400",
       "name": "Chortkiv",
+      "nativeName": "Чортків",
       "latitude": 49.01701,
       "longitude": 25.79808,
       "population": 28393,
@@ -1272,6 +1413,7 @@
     {
       "id": "694910",
       "name": "Saky",
+      "nativeName": "Саки",
       "latitude": 45.13424,
       "longitude": 33.59996,
       "population": 28322,
@@ -1281,6 +1423,7 @@
     {
       "id": "698874",
       "name": "Novyi Rozdil",
+      "nativeName": "Новий Розділ",
       "latitude": 49.47136,
       "longitude": 24.13352,
       "population": 28304,
@@ -1290,6 +1433,7 @@
     {
       "id": "691179",
       "name": "Truskavets",
+      "nativeName": "Трускавець",
       "latitude": 49.28067,
       "longitude": 23.50365,
       "population": 28287,
@@ -1298,7 +1442,8 @@
     },
     {
       "id": "709900",
-      "name": "Dobropillya",
+      "name": "Dobropillia",
+      "nativeName": "Добропілля",
       "latitude": 48.46674,
       "longitude": 37.08567,
       "population": 28170,
@@ -1308,6 +1453,7 @@
     {
       "id": "686875",
       "name": "Zolotonosha",
+      "nativeName": "Золотоноша",
       "latitude": 49.66926,
       "longitude": 32.03637,
       "population": 27818,
@@ -1317,6 +1463,7 @@
     {
       "id": "706380",
       "name": "Khmilnyk",
+      "nativeName": "Хмільник",
       "latitude": 49.5581,
       "longitude": 27.95682,
       "population": 27707,
@@ -1326,6 +1473,7 @@
     {
       "id": "697616",
       "name": "Shakhtarske",
+      "nativeName": "Шахтарське",
       "latitude": 48.3479,
       "longitude": 36.39637,
       "population": 27573,
@@ -1334,7 +1482,8 @@
     },
     {
       "id": "712969",
-      "name": "Bakhchysaray",
+      "name": "Bakhchysarai",
+      "nativeName": "Бахчисарай",
       "latitude": 44.75525,
       "longitude": 33.85782,
       "population": 27448,
@@ -1344,6 +1493,7 @@
     {
       "id": "705797",
       "name": "Khrestivka",
+      "nativeName": "Хрестівка",
       "latitude": 48.14969,
       "longitude": 38.35941,
       "population": 27370,
@@ -1352,7 +1502,8 @@
     },
     {
       "id": "703656",
-      "name": "Kupyansk",
+      "name": "Kupiansk",
+      "nativeName": "Куп’янськ",
       "latitude": 49.71003,
       "longitude": 37.61581,
       "population": 27169,
@@ -1362,6 +1513,7 @@
     {
       "id": "691628",
       "name": "Ternivka",
+      "nativeName": "Тернівка",
       "latitude": 48.52656,
       "longitude": 36.07051,
       "population": 26961,
@@ -1371,6 +1523,7 @@
     {
       "id": "705809",
       "name": "Holubivka",
+      "nativeName": "Голубівка",
       "latitude": 48.63751,
       "longitude": 38.6428,
       "population": 26654,
@@ -1379,7 +1532,8 @@
     },
     {
       "id": "712926",
-      "name": "Balakliya",
+      "name": "Balakliia",
+      "nativeName": "Балаклія",
       "latitude": 49.45595,
       "longitude": 36.84433,
       "population": 26334,
@@ -1389,6 +1543,7 @@
     {
       "id": "697637",
       "name": "Pereiaslav",
+      "nativeName": "Переяслав",
       "latitude": 50.06739,
       "longitude": 31.44969,
       "population": 26273,
@@ -1397,7 +1552,8 @@
     },
     {
       "id": "708901",
-      "name": "Haysyn",
+      "name": "Haisyn",
+      "nativeName": "Гайсин",
       "latitude": 48.81294,
       "longitude": 29.37917,
       "population": 25735,
@@ -1407,6 +1563,7 @@
     {
       "id": "709782",
       "name": "Dolynska",
+      "nativeName": "Долинська",
       "latitude": 48.11725,
       "longitude": 32.77691,
       "population": 25362,
@@ -1416,6 +1573,7 @@
     {
       "id": "688746",
       "name": "Vynohradiv",
+      "nativeName": "Виноградів",
       "latitude": 48.14126,
       "longitude": 23.03623,
       "population": 25317,
@@ -1425,6 +1583,7 @@
     {
       "id": "702116",
       "name": "Malyn",
+      "nativeName": "Малин",
       "latitude": 50.76756,
       "longitude": 29.24225,
       "population": 25172,
@@ -1434,6 +1593,7 @@
     {
       "id": "697650",
       "name": "Perevalsk",
+      "nativeName": "Перевальськ",
       "latitude": 48.43921,
       "longitude": 38.82839,
       "population": 24817,
@@ -1443,6 +1603,7 @@
     {
       "id": "691037",
       "name": "Oleshky",
+      "nativeName": "Олешки",
       "latitude": 46.62553,
       "longitude": 32.72426,
       "population": 24639,
@@ -1452,6 +1613,7 @@
     {
       "id": "687432",
       "name": "Zdolbuniv",
+      "nativeName": "Здолбунів",
       "latitude": 50.52205,
       "longitude": 26.24823,
       "population": 24501,
@@ -1461,6 +1623,7 @@
     {
       "id": "6930327",
       "name": "Slavutych",
+      "nativeName": "Славутич",
       "latitude": 51.5225,
       "longitude": 30.71806,
       "population": 24464,
@@ -1470,6 +1633,7 @@
     {
       "id": "713203",
       "name": "Armyansk",
+      "nativeName": "Армянск",
       "latitude": 46.10919,
       "longitude": 33.69206,
       "population": 24442,
@@ -1479,6 +1643,7 @@
     {
       "id": "710229",
       "name": "Debaltseve",
+      "nativeName": "Дебальцеве",
       "latitude": 48.33592,
       "longitude": 38.40261,
       "population": 24209,
@@ -1488,6 +1653,7 @@
     {
       "id": "704885",
       "name": "Korostyshiv",
+      "nativeName": "Коростишів",
       "latitude": 50.31686,
       "longitude": 29.05774,
       "population": 24129,
@@ -1497,6 +1663,7 @@
     {
       "id": "704000",
       "name": "Krolevets",
+      "nativeName": "Кролевець",
       "latitude": 51.55181,
       "longitude": 33.38044,
       "population": 24115,
@@ -1506,6 +1673,7 @@
     {
       "id": "613273",
       "name": "Lebedyn",
+      "nativeName": "Лебедин",
       "latitude": 50.58228,
       "longitude": 34.48258,
       "population": 23892,
@@ -1515,6 +1683,7 @@
     {
       "id": "697488",
       "name": "Pisochyn",
+      "nativeName": "Пісочин",
       "latitude": 49.9516,
       "longitude": 36.10262,
       "population": 23509,
@@ -1524,6 +1693,7 @@
     {
       "id": "706900",
       "name": "Kaniv",
+      "nativeName": "Канів",
       "latitude": 49.75187,
       "longitude": 31.47003,
       "population": 23503,
@@ -1532,7 +1702,8 @@
     },
     {
       "id": "709054",
-      "name": "Hadyach",
+      "name": "Hadiach",
+      "nativeName": "Гадяч",
       "latitude": 50.36912,
       "longitude": 33.997,
       "population": 23480,
@@ -1542,6 +1713,7 @@
     {
       "id": "712423",
       "name": "Berehove",
+      "nativeName": "Берегове",
       "latitude": 48.20514,
       "longitude": 22.64453,
       "population": 23325,
@@ -1550,7 +1722,8 @@
     },
     {
       "id": "706571",
-      "name": "Kozyatyn",
+      "name": "Koziatyn",
+      "nativeName": "Козятин",
       "latitude": 49.7164,
       "longitude": 28.83858,
       "population": 23241,
@@ -1560,6 +1733,7 @@
     {
       "id": "711416",
       "name": "Brody",
+      "nativeName": "Броди",
       "latitude": 50.08854,
       "longitude": 25.14606,
       "population": 23134,
@@ -1568,7 +1742,8 @@
     },
     {
       "id": "709835",
-      "name": "Dokuchayevsk",
+      "name": "Dokuchaievsk",
+      "nativeName": "Докучаєвськ",
       "latitude": 47.7522,
       "longitude": 37.67761,
       "population": 22835,
@@ -1578,6 +1753,7 @@
     {
       "id": "686896",
       "name": "Zolochiv",
+      "nativeName": "Золочів",
       "latitude": 49.8074,
       "longitude": 24.90376,
       "population": 22608,
@@ -1587,6 +1763,7 @@
     {
       "id": "700507",
       "name": "Nadvirna",
+      "nativeName": "Надвірна",
       "latitude": 48.63659,
       "longitude": 24.5714,
       "population": 22504,
@@ -1596,6 +1773,7 @@
     {
       "id": "703428",
       "name": "Ladyzhyn",
+      "nativeName": "Ладижин",
       "latitude": 48.68437,
       "longitude": 29.23636,
       "population": 22459,
@@ -1605,6 +1783,7 @@
     {
       "id": "700829",
       "name": "Otamanivka",
+      "nativeName": "Отаманівка",
       "latitude": 48.34586,
       "longitude": 39.65233,
       "population": 22449,
@@ -1613,7 +1792,8 @@
     },
     {
       "id": "686919",
-      "name": "Znamyanka",
+      "name": "Znamianka",
+      "nativeName": "Знам’янка",
       "latitude": 48.72066,
       "longitude": 32.65822,
       "population": 22444,
@@ -1623,6 +1803,7 @@
     {
       "id": "689200",
       "name": "Vilnohirsk",
+      "nativeName": "Вільногірськ",
       "latitude": 48.48416,
       "longitude": 34.01708,
       "population": 22079,
@@ -1632,6 +1813,7 @@
     {
       "id": "694677",
       "name": "Selydove",
+      "nativeName": "Селидове",
       "latitude": 48.1465,
       "longitude": 37.3022,
       "population": 21521,
@@ -1641,6 +1823,7 @@
     {
       "id": "704388",
       "name": "Berestyn",
+      "nativeName": "Берестин",
       "latitude": 49.3776,
       "longitude": 35.44485,
       "population": 21426,
@@ -1650,6 +1833,7 @@
     {
       "id": "701347",
       "name": "Merefa",
+      "nativeName": "Мерефа",
       "latitude": 49.82107,
       "longitude": 36.0567,
       "population": 21202,
@@ -1659,6 +1843,7 @@
     {
       "id": "689198",
       "name": "Volnovakha",
+      "nativeName": "Волноваха",
       "latitude": 47.6008,
       "longitude": 37.49358,
       "population": 21166,
@@ -1668,6 +1853,7 @@
     {
       "id": "704143",
       "name": "Kremenets",
+      "nativeName": "Кременець",
       "latitude": 50.09864,
       "longitude": 25.72787,
       "population": 21063,
@@ -1677,6 +1863,7 @@
     {
       "id": "696660",
       "name": "Polonne",
+      "nativeName": "Полонне",
       "latitude": 50.11944,
       "longitude": 27.50856,
       "population": 20785,
@@ -1686,6 +1873,7 @@
     {
       "id": "709755",
       "name": "Dolyna",
+      "nativeName": "Долина",
       "latitude": 48.97158,
       "longitude": 23.96558,
       "population": 20417,
@@ -1695,6 +1883,7 @@
     {
       "id": "692254",
       "name": "Sukhodilsk",
+      "nativeName": "Суходільськ",
       "latitude": 48.35083,
       "longitude": 39.72573,
       "population": 20390,
@@ -1704,6 +1893,7 @@
     {
       "id": "693301",
       "name": "Sokal",
+      "nativeName": "Сокаль",
       "latitude": 50.47452,
       "longitude": 24.28088,
       "population": 20373,
@@ -1713,6 +1903,7 @@
     {
       "id": "692632",
       "name": "Stebnyk",
+      "nativeName": "Стебник",
       "latitude": 49.30098,
       "longitude": 23.55197,
       "population": 20200,
@@ -1722,6 +1913,7 @@
     {
       "id": "704204",
       "name": "Lyman",
+      "nativeName": "Лиман",
       "latitude": 48.99012,
       "longitude": 37.80843,
       "population": 20066,
@@ -1731,6 +1923,7 @@
     {
       "id": "702417",
       "name": "Liubotyn",
+      "nativeName": "Люботин",
       "latitude": 49.94691,
       "longitude": 35.92907,
       "population": 20001,
@@ -1740,6 +1933,7 @@
     {
       "id": "704608",
       "name": "Kivsharivka",
+      "nativeName": "Ківшарівка",
       "latitude": 49.63026,
       "longitude": 37.6775,
       "population": 19738,
@@ -1748,7 +1942,8 @@
     },
     {
       "id": "691255",
-      "name": "Trostyanets",
+      "name": "Trostianets",
+      "nativeName": "Тростянець",
       "latitude": 50.48478,
       "longitude": 34.96567,
       "population": 19544,
@@ -1757,7 +1952,8 @@
     },
     {
       "id": "705883",
-      "name": "Kiliya",
+      "name": "Kiliia",
+      "nativeName": "Кілія",
       "latitude": 45.44445,
       "longitude": 29.26396,
       "population": 19540,
@@ -1767,6 +1963,7 @@
     {
       "id": "708878",
       "name": "Henichesk",
+      "nativeName": "Генічеськ",
       "latitude": 46.16824,
       "longitude": 34.80861,
       "population": 19501,
@@ -1776,6 +1973,7 @@
     {
       "id": "696566",
       "name": "Popasna",
+      "nativeName": "Попасна",
       "latitude": 48.63168,
       "longitude": 38.37104,
       "population": 19199,
@@ -1784,7 +1982,8 @@
     },
     {
       "id": "696943",
-      "name": "Pidhorodnye",
+      "name": "Pidhorodne",
+      "nativeName": "Підгороднє",
       "latitude": 48.57422,
       "longitude": 35.09702,
       "population": 19138,
@@ -1794,6 +1993,7 @@
     {
       "id": "689564",
       "name": "Vynnyky",
+      "nativeName": "Винники",
       "latitude": 49.81672,
       "longitude": 24.14417,
       "population": 19037,

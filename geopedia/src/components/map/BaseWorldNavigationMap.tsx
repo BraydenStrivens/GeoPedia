@@ -1,19 +1,20 @@
 /**
- * Renders GeoPedia's home world-country navigation map.
+ * Renders GeoPedia's Home world-country navigation map.
  *
- * This component is intentionally specific to the application's base world
+ * This component is intentionally specific to the application's world
  * navigation experience. It is responsible for:
  *
- * - Creating the shared MapLibre map infrastructure through `useMap`.
+ * - Creating the shared MapLibre map infrastructure.
  * - Displaying all countries from the world-country geometry source.
  * - Styling countries according to whether they currently contain quizzes.
  * - Displaying a diagonal hatch over countries without quizzes.
- * - Showing country names beside the pointer.
+ * - Showing country information beside the pointer.
  * - Showing `No quizzes available` for unavailable countries.
  * - Applying hover highlighting only to navigable countries.
  * - Navigating to available country pages when selected.
  *
- * Quiz behavior belongs exclusively to `QuizMap`.
+ * Feature and town quiz behavior is implemented separately by their dedicated
+ * quiz-map components and interaction systems.
  */
 
 "use client";
@@ -34,7 +35,13 @@ import type { MapConfig } from "@/maps/types";
 maplibregl.setWorkerUrl("/maplibre-gl-worker.mjs");
 
 /**
- * Props required by the home world-navigation map.
+ * Distance in pixels between the pointer and the floating country information
+ * popup.
+ */
+const COUNTRY_HOVER_POPUP_OFFSET = 12;
+
+/**
+ * Props required by the Home world-navigation map.
  */
 type BaseWorldNavigationMapProps = {
   /** World-country map configuration used by the navigation map. */
@@ -43,18 +50,21 @@ type BaseWorldNavigationMapProps = {
   /**
    * Country IDs containing at least one available feature or town quiz.
    *
-   * Quiz availability is resolved by the server before this client-side map
-   * renders so MapLibre interactions can perform synchronous availability
-   * checks.
+   * Quiz availability is resolved before this client-side map renders so
+   * MapLibre interactions can perform synchronous availability checks.
    */
   countryIdsWithQuizzes: string[];
 };
 
 /**
- * Renders the application's base world-country navigation experience.
+ * Renders GeoPedia's interactive world-country navigation map.
  *
- * @param props - World map configuration.
- * @returns Interactive world navigation map.
+ * Available countries can be hovered and selected to navigate to their country
+ * pages. Countries without quizzes remain visible but are visually marked as
+ * unavailable and do not navigate when selected.
+ *
+ * @param props - World map configuration and available-country IDs.
+ * @returns Interactive Home world-navigation map.
  */
 export default function BaseWorldNavigationMap({
   mapConfig,
@@ -62,7 +72,12 @@ export default function BaseWorldNavigationMap({
 }: BaseWorldNavigationMapProps) {
   const router = useRouter();
 
-  /** Provides constant-time quiz availability checks for MapLibre interactions. */
+  /**
+   * Provides constant-time quiz availability checks for MapLibre interactions.
+   *
+   * IDs are normalized to lowercase so availability checks remain consistent
+   * regardless of the casing used by incoming configuration data.
+   */
   const countryQuizIds = useMemo(
     () =>
       new Set(
@@ -73,7 +88,7 @@ export default function BaseWorldNavigationMap({
     [countryIdsWithQuizzes],
   );
 
-  /** DOM element into which MapLibre creates its map. */
+  /** DOM element into which MapLibre creates the world-navigation map. */
   const mapContainerRef = useRef<HTMLDivElement>(null);
 
   /** Country information displayed beside the pointer while hovering. */
@@ -81,17 +96,21 @@ export default function BaseWorldNavigationMap({
     useState<HoveredNavigationCountry | null>(null);
 
   /*
-   * The world navigation map always displays its geographic shading and borders.
-   * Its style contains no base-map place labels.
+   * The world-navigation map always displays geographic shading and borders.
+   * Its style intentionally contains no base-map place labels.
    *
-   * These stable refs satisfy the generic map lifecycle API without introducing
-   * quiz display settings into this component.
+   * These stable refs satisfy the shared map lifecycle API without introducing
+   * user-configurable quiz display settings into this component.
    */
   const showShadingRef = useRef(true);
   const showBordersRef = useRef(true);
   const showLabelsRef = useRef(false);
 
-  /** Provides stable Next.js navigation behavior to the MapLibre click handler. */
+  /**
+   * Provides stable Next.js navigation behavior to the MapLibre click handler.
+   *
+   * @param countryId - Country route identifier selected on the map.
+   */
   const navigateToCountry = useCallback(
     (countryId: string) => {
       router.push(`/${countryId}`);
@@ -99,7 +118,10 @@ export default function BaseWorldNavigationMap({
     [router],
   );
 
-  /** Creates the generic MapLibre map and geographic source/layers. */
+  /**
+   * Creates the MapLibre instance and shared geographic source/layers used by
+   * the world-navigation map.
+   */
   const { mapRef, isMapReady } = useFeatureQuizMap({
     containerRef: mapContainerRef,
 
@@ -119,6 +141,7 @@ export default function BaseWorldNavigationMap({
     isMapReady,
 
     labelProperty: mapConfig.hover?.labelProperty ?? "name",
+
     countryIdsWithQuizzes: countryQuizIds,
 
     navigateToCountry,
@@ -127,37 +150,39 @@ export default function BaseWorldNavigationMap({
 
   return (
     <div className="relative h-full w-full">
-      {/* Floating country label displayed beside the pointer. */}
+      {/* Floating country information displayed beside the pointer. */}
       {hoveredCountry && (
         <div
-          className="
-            pointer-events-none
-            absolute
-            z-10
-            rounded-md
-            bg-white
-            px-3
-            py-2
-            shadow-md
-          "
+          className={[
+            "pointer-events-none",
+            "absolute",
+            "z-10",
+            "rounded-md",
+            "bg-background-1",
+            "px-3",
+            "py-2",
+            "shadow-md",
+          ].join(" ")}
           style={{
-            left: hoveredCountry.x + 12,
-            top: hoveredCountry.y + 12,
+            left: hoveredCountry.x + COUNTRY_HOVER_POPUP_OFFSET,
+            top: hoveredCountry.y + COUNTRY_HOVER_POPUP_OFFSET,
           }}
         >
-          <div className="font-medium text-black">
+          {/* Country name */}
+          <div className="font-medium text-text">
             {hoveredCountry.name}
           </div>
 
+          {/* Availability message for countries without quizzes */}
           {!hoveredCountry.hasQuizzes && (
-            <div className="mt-0.5 text-sm text-gray-500">
+            <div className="mt-0.5 text-sm text-text-secondary">
               No quizzes available
             </div>
           )}
         </div>
       )}
 
-      {/* MapLibre map container */}
+      {/* MapLibre world-navigation map container */}
       <div ref={mapContainerRef} className="h-full w-full" />
     </div>
   );

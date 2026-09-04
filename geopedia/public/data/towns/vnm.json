@@ -1,21 +1,33 @@
 {
   "towns": [
     {
+      "id": "1566083",
+      "name": "Ho Chi Minh City",
+      "nativeName": "Thành phố Hồ Chí Minh",
+      "latitude": 10.82302,
+      "longitude": 106.62965,
+      "population": 14002598,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
       "id": "1581130",
       "name": "Hanoi",
+      "nativeName": "Hà Nội",
       "latitude": 21.0245,
       "longitude": 105.84117,
       "population": 8053663,
-      "populationRank": 1,
+      "populationRank": 2,
       "isCapital": true
     },
     {
       "id": "1581298",
       "name": "Haiphong",
+      "nativeName": "Hải Phòng",
       "latitude": 20.86481,
       "longitude": 106.68345,
       "population": 2625200,
-      "populationRank": 2,
+      "populationRank": 3,
       "isCapital": false
     },
     {
@@ -24,7 +36,7 @@
       "latitude": 10.03711,
       "longitude": 105.78825,
       "population": 1507187,
-      "populationRank": 3,
+      "populationRank": 4,
       "isCapital": false
     },
     {
@@ -33,16 +45,17 @@
       "latitude": 16.4619,
       "longitude": 107.59546,
       "population": 1380000,
-      "populationRank": 4,
+      "populationRank": 5,
       "isCapital": false
     },
     {
       "id": "1583992",
       "name": "Da Nang",
+      "nativeName": "Đà Nẵng",
       "latitude": 16.06778,
       "longitude": 108.22083,
       "population": 1276000,
-      "populationRank": 5,
+      "populationRank": 6,
       "isCapital": false
     },
     {
@@ -51,16 +64,17 @@
       "latitude": 12.24507,
       "longitude": 109.19432,
       "population": 579000,
-      "populationRank": 6,
+      "populationRank": 7,
       "isCapital": false
     },
     {
       "id": "1568574",
-      "name": "Qui Nhon",
+      "name": "Quy Nhon",
+      "nativeName": "Quy Nhơn",
       "latitude": 13.77648,
       "longitude": 109.22367,
       "population": 519208,
-      "populationRank": 7,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -69,16 +83,17 @@
       "latitude": 10.01245,
       "longitude": 105.08091,
       "population": 459860,
-      "populationRank": 8,
+      "populationRank": 9,
       "isCapital": false
     },
     {
       "id": "1591527",
-      "name": "Bắc Giang",
+      "name": "Bac Giang Ward",
+      "nativeName": "Bắc Giang",
       "latitude": 21.27307,
       "longitude": 106.1946,
       "population": 450000,
-      "populationRank": 9,
+      "populationRank": 10,
       "isCapital": false
     },
     {
@@ -87,16 +102,17 @@
       "latitude": 20.43389,
       "longitude": 106.17729,
       "population": 448225,
-      "populationRank": 10,
+      "populationRank": 11,
       "isCapital": false
     },
     {
       "id": "1586896",
-      "name": "Buôn Ma Thuột",
+      "name": "Buon Ma Thuot",
+      "nativeName": "Buôn Ma Thuột",
       "latitude": 12.66747,
       "longitude": 108.03775,
       "population": 434256,
-      "populationRank": 11,
+      "populationRank": 12,
       "isCapital": false
     },
     {
@@ -105,7 +121,7 @@
       "latitude": 21.59422,
       "longitude": 105.84817,
       "population": 420000,
-      "populationRank": 12,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -114,7 +130,7 @@
       "latitude": 21.32274,
       "longitude": 105.40198,
       "population": 415280,
-      "populationRank": 13,
+      "populationRank": 14,
       "isCapital": false
     },
     {
@@ -123,7 +139,7 @@
       "latitude": 13.88579,
       "longitude": 109.10823,
       "population": 308396,
-      "populationRank": 14,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -132,25 +148,26 @@
       "latitude": 19.32746,
       "longitude": 105.82145,
       "population": 302210,
-      "populationRank": 15,
-      "isCapital": false
-    },
-    {
-      "id": "8531735",
-      "name": "Phu Quoc",
-      "latitude": 10.22409,
-      "longitude": 103.97156,
-      "population": 294419,
       "populationRank": 16,
       "isCapital": false
     },
     {
+      "id": "8531735",
+      "name": "Phú Quốc",
+      "latitude": 10.22409,
+      "longitude": 103.97156,
+      "population": 294419,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
       "id": "1591449",
-      "name": "Bắc Ninh",
+      "name": "Bac Ninh",
+      "nativeName": "Bắc Ninh",
       "latitude": 21.18608,
       "longitude": 106.07631,
       "population": 287658,
-      "populationRank": 17,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -159,7 +176,7 @@
       "latitude": 10.38639,
       "longitude": 105.43518,
       "population": 286140,
-      "populationRank": 18,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -168,7 +185,7 @@
       "latitude": 15.12047,
       "longitude": 108.79232,
       "population": 278496,
-      "populationRank": 19,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -177,43 +194,47 @@
       "latitude": 10.36004,
       "longitude": 106.35996,
       "population": 270700,
-      "populationRank": 20,
-      "isCapital": false
-    },
-    {
-      "id": "1580410",
-      "name": "Hạ Long",
-      "latitude": 20.95045,
-      "longitude": 107.07336,
-      "population": 270054,
       "populationRank": 21,
       "isCapital": false
     },
     {
-      "id": "1581047",
-      "name": "Hà Tĩnh",
-      "latitude": 18.34282,
-      "longitude": 105.90569,
-      "population": 266321,
+      "id": "1580410",
+      "name": "Quang Ninh",
+      "nativeName": "Quảng Ninh",
+      "latitude": 20.95045,
+      "longitude": 107.07336,
+      "population": 270054,
       "populationRank": 22,
       "isCapital": false
     },
     {
-      "id": "1584071",
-      "name": "Ðà Lạt",
-      "latitude": 11.94646,
-      "longitude": 108.44193,
-      "population": 258014,
+      "id": "1581047",
+      "name": "Thành Sen Ward",
+      "nativeName": "Thành Sen",
+      "latitude": 18.34282,
+      "longitude": 105.90569,
+      "population": 266321,
       "populationRank": 23,
       "isCapital": false
     },
     {
+      "id": "1584071",
+      "name": "Da Lat",
+      "nativeName": "Đà Lạt",
+      "latitude": 11.94646,
+      "longitude": 108.44193,
+      "population": 258014,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
       "id": "1582497",
-      "name": "Thị Trấn Đông Triều",
+      "name": "Dong Trieu",
+      "nativeName": "Đông Triều",
       "latitude": 21.08242,
       "longitude": 106.5138,
       "population": 248896,
-      "populationRank": 24,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -222,7 +243,7 @@
       "latitude": 20.94099,
       "longitude": 106.33302,
       "population": 241373,
-      "populationRank": 25,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -231,7 +252,7 @@
       "latitude": 21.41978,
       "longitude": 105.8899,
       "population": 231363,
-      "populationRank": 26,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -240,7 +261,7 @@
       "latitude": 21.14053,
       "longitude": 105.50686,
       "population": 230577,
-      "populationRank": 27,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -249,7 +270,7 @@
       "latitude": 12.49187,
       "longitude": 109.12495,
       "population": 230566,
-      "populationRank": 28,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -258,16 +279,17 @@
       "latitude": 10.92889,
       "longitude": 108.10208,
       "population": 228536,
-      "populationRank": 29,
+      "populationRank": 30,
       "isCapital": false
     },
     {
       "id": "1583478",
-      "name": "Điện Bàn",
+      "name": "Dien Ban",
+      "nativeName": "Điện Bàn",
       "latitude": 15.88853,
       "longitude": 108.25447,
       "population": 226564,
-      "populationRank": 30,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -276,7 +298,7 @@
       "latitude": 9.17682,
       "longitude": 105.15242,
       "population": 226372,
-      "populationRank": 31,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -285,7 +307,7 @@
       "latitude": 9.59995,
       "longitude": 105.97193,
       "population": 221430,
-      "populationRank": 32,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -294,7 +316,7 @@
       "latitude": 21.06667,
       "longitude": 106.31667,
       "population": 220421,
-      "populationRank": 33,
+      "populationRank": 34,
       "isCapital": false
     },
     {
@@ -303,16 +325,17 @@
       "latitude": 10.53589,
       "longitude": 106.41366,
       "population": 215250,
-      "populationRank": 34,
+      "populationRank": 35,
       "isCapital": false
     },
     {
       "id": "1568212",
       "name": "Sa Dec",
+      "nativeName": "Sa Đéc",
       "latitude": 10.29085,
       "longitude": 105.75635,
       "population": 214610,
-      "populationRank": 35,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -321,16 +344,16 @@
       "latitude": 10.46017,
       "longitude": 105.63294,
       "population": 211912,
-      "populationRank": 36,
+      "populationRank": 37,
       "isCapital": false
     },
     {
       "id": "1571067",
-      "name": "Phan Rang-Tháp Chàm",
+      "name": "Phan Rang – Tháp Chàm",
       "latitude": 11.56432,
       "longitude": 108.98858,
       "population": 207998,
-      "populationRank": 37,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -339,7 +362,7 @@
       "latitude": 14.35451,
       "longitude": 108.00759,
       "population": 205762,
-      "populationRank": 38,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -348,25 +371,27 @@
       "latitude": 21.85264,
       "longitude": 106.76101,
       "population": 200108,
-      "populationRank": 39,
-      "isCapital": false
-    },
-    {
-      "id": "1586360",
-      "name": "Cẩm Phả",
-      "latitude": 21.01004,
-      "longitude": 107.27345,
-      "population": 190232,
       "populationRank": 40,
       "isCapital": false
     },
     {
+      "id": "1586360",
+      "name": "Cam Pha Ward",
+      "nativeName": "Cẩm Phả",
+      "latitude": 21.01004,
+      "longitude": 107.27345,
+      "population": 190232,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
       "id": "1562773",
-      "name": "Vĩnh Châu",
+      "name": "Vinh Chau",
+      "nativeName": "Vĩnh Châu",
       "latitude": 9.32439,
       "longitude": 105.98006,
       "population": 183918,
-      "populationRank": 41,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -375,16 +400,16 @@
       "latitude": 21.23695,
       "longitude": 105.70483,
       "population": 180000,
-      "populationRank": 42,
+      "populationRank": 43,
       "isCapital": false
     },
     {
       "id": "1584242",
-      "name": "Thị Trấn Đại Từ",
+      "name": "Hùng Sơn",
       "latitude": 21.63384,
       "longitude": 105.63766,
       "population": 179192,
-      "populationRank": 43,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -393,7 +418,7 @@
       "latitude": 10.79832,
       "longitude": 105.23887,
       "population": 175211,
-      "populationRank": 44,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -402,7 +427,7 @@
       "latitude": 10.92655,
       "longitude": 107.24783,
       "population": 171276,
-      "populationRank": 45,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -411,7 +436,7 @@
       "latitude": 11.54798,
       "longitude": 107.80772,
       "population": 170920,
-      "populationRank": 46,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -420,7 +445,7 @@
       "latitude": 11.53495,
       "longitude": 106.88324,
       "population": 168000,
-      "populationRank": 47,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -429,16 +454,17 @@
       "latitude": 15.57364,
       "longitude": 108.47403,
       "population": 165240,
-      "populationRank": 48,
+      "populationRank": 49,
       "isCapital": false
     },
     {
       "id": "1582926",
-      "name": "Ðông Hà",
+      "name": "Đông Hà Ward",
+      "nativeName": "Đông Hà",
       "latitude": 16.81625,
       "longitude": 107.10031,
       "population": 164228,
-      "populationRank": 49,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -447,16 +473,17 @@
       "latitude": 11.02987,
       "longitude": 106.35751,
       "population": 161831,
-      "populationRank": 50,
+      "populationRank": 51,
       "isCapital": false
     },
     {
       "id": "1582173",
       "name": "Đưc Trọng",
+      "nativeName": "Liên Nghĩa",
       "latitude": 11.73559,
       "longitude": 108.3733,
       "population": 161232,
-      "populationRank": 51,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -465,7 +492,7 @@
       "latitude": 10.65993,
       "longitude": 107.77206,
       "population": 160652,
-      "populationRank": 52,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -474,7 +501,7 @@
       "latitude": 9.94719,
       "longitude": 106.34225,
       "population": 160310,
-      "populationRank": 53,
+      "populationRank": 54,
       "isCapital": false
     },
     {
@@ -483,34 +510,36 @@
       "latitude": 9.29414,
       "longitude": 105.72776,
       "population": 156110,
-      "populationRank": 54,
-      "isCapital": false
-    },
-    {
-      "id": "1563281",
-      "name": "Tuy Hòa",
-      "latitude": 13.09546,
-      "longitude": 109.32094,
-      "population": 155921,
       "populationRank": 55,
       "isCapital": false
     },
     {
-      "id": "1582190",
-      "name": "Đức Phổ",
-      "latitude": 14.81355,
-      "longitude": 108.95931,
-      "population": 155743,
+      "id": "1563281",
+      "name": "Tuy Hoa",
+      "nativeName": "Tuy Hòa",
+      "latitude": 13.09546,
+      "longitude": 109.32094,
+      "population": 155921,
       "populationRank": 56,
       "isCapital": false
     },
     {
+      "id": "1582190",
+      "name": "Duc Pho",
+      "nativeName": "Đức Phổ",
+      "latitude": 14.81355,
+      "longitude": 108.95931,
+      "population": 155743,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
       "id": "1590900",
-      "name": "Thị Trấn Thuận Châu",
+      "name": "Thuận Châu",
       "latitude": 21.43849,
       "longitude": 103.69,
       "population": 153000,
-      "populationRank": 57,
+      "populationRank": 58,
       "isCapital": false
     },
     {
@@ -519,7 +548,7 @@
       "latitude": 10.60857,
       "longitude": 106.67135,
       "population": 152200,
-      "populationRank": 58,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -528,7 +557,7 @@
       "latitude": 18.06243,
       "longitude": 106.29832,
       "population": 150226,
-      "populationRank": 59,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -537,7 +566,7 @@
       "latitude": 11.28696,
       "longitude": 106.12936,
       "population": 147666,
-      "populationRank": 60,
+      "populationRank": 61,
       "isCapital": false
     },
     {
@@ -546,16 +575,17 @@
       "latitude": 11.92144,
       "longitude": 109.15913,
       "population": 146771,
-      "populationRank": 61,
+      "populationRank": 62,
       "isCapital": false
     },
     {
       "id": "1581755",
-      "name": "Giá Rai",
+      "name": "Gia Rai",
+      "nativeName": "Giá Rai",
       "latitude": 9.23444,
       "longitude": 105.45833,
       "population": 145340,
-      "populationRank": 62,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -564,7 +594,7 @@
       "latitude": 10.59591,
       "longitude": 104.93669,
       "population": 143098,
-      "populationRank": 63,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -573,7 +603,7 @@
       "latitude": 10.4,
       "longitude": 106.11667,
       "population": 143050,
-      "populationRank": 64,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -582,7 +612,7 @@
       "latitude": 10.25369,
       "longitude": 105.9722,
       "population": 137870,
-      "populationRank": 65,
+      "populationRank": 66,
       "isCapital": false
     },
     {
@@ -591,7 +621,7 @@
       "latitude": 20.54531,
       "longitude": 105.91221,
       "population": 136654,
-      "populationRank": 66,
+      "populationRank": 67,
       "isCapital": false
     },
     {
@@ -600,25 +630,27 @@
       "latitude": 11.31004,
       "longitude": 106.09828,
       "population": 135254,
-      "populationRank": 67,
-      "isCapital": false
-    },
-    {
-      "id": "1582886",
-      "name": "Đồng Hới",
-      "latitude": 17.46885,
-      "longitude": 106.62226,
-      "population": 133672,
       "populationRank": 68,
       "isCapital": false
     },
     {
+      "id": "1582886",
+      "name": "Đồng Hới Ward",
+      "nativeName": "Đồng Hới",
+      "latitude": 17.46885,
+      "longitude": 106.62226,
+      "population": 133672,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
       "id": "1576303",
-      "name": "Lào Cai",
+      "name": "Lao Cai",
+      "nativeName": "Lào Cai",
       "latitude": 22.48556,
       "longitude": 103.97066,
       "population": 130671,
-      "populationRank": 69,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -627,25 +659,26 @@
       "latitude": 19.73333,
       "longitude": 105.9,
       "population": 129801,
-      "populationRank": 70,
-      "isCapital": false
-    },
-    {
-      "id": "13513037",
-      "name": "Thành phố Sông Công",
-      "latitude": 21.4772,
-      "longitude": 105.84137,
-      "population": 128357,
       "populationRank": 71,
       "isCapital": false
     },
     {
+      "id": "13513037",
+      "name": "Sông Công",
+      "latitude": 21.4772,
+      "longitude": 105.84137,
+      "population": 128357,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
       "id": "1586989",
-      "name": "Buôn Hồ",
+      "name": "Buon Ho",
+      "nativeName": "Buôn Hồ",
       "latitude": 12.95226,
       "longitude": 108.2962,
       "population": 127920,
-      "populationRank": 72,
+      "populationRank": 73,
       "isCapital": false
     },
     {
@@ -654,7 +687,7 @@
       "latitude": 10.24147,
       "longitude": 106.37585,
       "population": 124449,
-      "populationRank": 73,
+      "populationRank": 74,
       "isCapital": false
     },
     {
@@ -663,7 +696,7 @@
       "latitude": 11.42821,
       "longitude": 106.63536,
       "population": 121083,
-      "populationRank": 74,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -672,7 +705,7 @@
       "latitude": 21.30891,
       "longitude": 105.60489,
       "population": 119128,
-      "populationRank": 75,
+      "populationRank": 76,
       "isCapital": false
     },
     {
@@ -681,7 +714,7 @@
       "latitude": 22.48333,
       "longitude": 104.86667,
       "population": 118690,
-      "populationRank": 76,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -690,7 +723,7 @@
       "latitude": 10.09377,
       "longitude": 105.42916,
       "population": 116576,
-      "populationRank": 77,
+      "populationRank": 78,
       "isCapital": false
     },
     {
@@ -699,16 +732,17 @@
       "latitude": 20.91667,
       "longitude": 106.08333,
       "population": 115608,
-      "populationRank": 78,
+      "populationRank": 79,
       "isCapital": false
     },
     {
       "id": "1570863",
-      "name": "Phong Điền",
+      "name": "Phong Dien Ward",
+      "nativeName": "Phong Điền",
       "latitude": 16.58321,
       "longitude": 107.36438,
       "population": 114820,
-      "populationRank": 79,
+      "populationRank": 80,
       "isCapital": false
     },
     {
@@ -717,16 +751,17 @@
       "latitude": 13.98333,
       "longitude": 108,
       "population": 114225,
-      "populationRank": 80,
+      "populationRank": 81,
       "isCapital": false
     },
     {
       "id": "13562438",
-      "name": "Hoàng Mai",
+      "name": "Hoàng Mai Ward",
+      "nativeName": "Hoàng Mai",
       "latitude": 19.26758,
       "longitude": 105.71594,
       "population": 113360,
-      "populationRank": 81,
+      "populationRank": 82,
       "isCapital": false
     },
     {
@@ -735,7 +770,7 @@
       "latitude": 10.06522,
       "longitude": 105.55863,
       "population": 109684,
-      "populationRank": 82,
+      "populationRank": 83,
       "isCapital": false
     },
     {
@@ -744,25 +779,27 @@
       "latitude": 21.52471,
       "longitude": 107.96619,
       "population": 108553,
-      "populationRank": 83,
-      "isCapital": false
-    },
-    {
-      "id": "1560037",
-      "name": "Yên Vinh",
-      "latitude": 18.66667,
-      "longitude": 105.66667,
-      "population": 107082,
       "populationRank": 84,
       "isCapital": false
     },
     {
+      "id": "1560037",
+      "name": "Thanh Vinh Ward",
+      "nativeName": "Thành Vinh",
+      "latitude": 18.66667,
+      "longitude": 105.66667,
+      "population": 107082,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
       "id": "1568737",
-      "name": "Ba Đồn",
+      "name": "Ba Đồn Ward",
+      "nativeName": "Ba Đồn",
       "latitude": 17.75353,
       "longitude": 106.42355,
       "population": 106413,
-      "populationRank": 85,
+      "populationRank": 86,
       "isCapital": false
     },
     {
@@ -771,7 +808,7 @@
       "latitude": 21.3256,
       "longitude": 103.91882,
       "population": 106052,
-      "populationRank": 86,
+      "populationRank": 87,
       "isCapital": false
     },
     {
@@ -780,7 +817,7 @@
       "latitude": 20.81717,
       "longitude": 105.33759,
       "population": 105260,
-      "populationRank": 87,
+      "populationRank": 88,
       "isCapital": false
     },
     {
@@ -789,7 +826,7 @@
       "latitude": 21.82356,
       "longitude": 105.21424,
       "population": 104645,
-      "populationRank": 88,
+      "populationRank": 89,
       "isCapital": false
     },
     {
@@ -798,7 +835,7 @@
       "latitude": 9.81371,
       "longitude": 105.82096,
       "population": 101192,
-      "populationRank": 89,
+      "populationRank": 90,
       "isCapital": false
     },
     {
@@ -807,16 +844,17 @@
       "latitude": 10.8,
       "longitude": 105.35,
       "population": 101155,
-      "populationRank": 90,
+      "populationRank": 91,
       "isCapital": false
     },
     {
       "id": "1560349",
-      "name": "Yên Bái",
+      "name": "Yen Bai Ward",
+      "nativeName": "Yên Bái",
       "latitude": 21.72288,
       "longitude": 104.9113,
       "population": 100631,
-      "populationRank": 91,
+      "populationRank": 92,
       "isCapital": false
     },
     {
@@ -825,7 +863,7 @@
       "latitude": 10.3831,
       "longitude": 104.48753,
       "population": 100560,
-      "populationRank": 92,
+      "populationRank": 93,
       "isCapital": false
     },
     {
@@ -834,7 +872,7 @@
       "latitude": 9.99753,
       "longitude": 105.6673,
       "population": 98424,
-      "populationRank": 93,
+      "populationRank": 94,
       "isCapital": false
     },
     {
@@ -843,7 +881,7 @@
       "latitude": 10.22263,
       "longitude": 105.39841,
       "population": 98399,
-      "populationRank": 94,
+      "populationRank": 95,
       "isCapital": false
     },
     {
@@ -852,34 +890,37 @@
       "latitude": 10.36667,
       "longitude": 106.66667,
       "population": 97709,
-      "populationRank": 95,
-      "isCapital": false
-    },
-    {
-      "id": "1580093",
-      "name": "Hương Thủy",
-      "latitude": 16.42184,
-      "longitude": 107.63999,
-      "population": 95299,
       "populationRank": 96,
       "isCapital": false
     },
     {
-      "id": "8539621",
-      "name": "Bình Minh",
-      "latitude": 10.06821,
-      "longitude": 105.82221,
-      "population": 94862,
+      "id": "1580093",
+      "name": "Huong Thuy Ward",
+      "nativeName": "Hương Thủy",
+      "latitude": 16.42184,
+      "longitude": 107.63999,
+      "population": 95299,
       "populationRank": 97,
       "isCapital": false
     },
     {
+      "id": "8539621",
+      "name": "Binh Minh",
+      "nativeName": "Bình Minh",
+      "latitude": 10.06821,
+      "longitude": 105.82221,
+      "population": 94862,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
       "id": "1567723",
-      "name": "Sông Cầu",
+      "name": "Song Cau",
+      "nativeName": "Sông Cầu",
       "latitude": 13.4556,
       "longitude": 109.22348,
       "population": 94066,
-      "populationRank": 98,
+      "populationRank": 99,
       "isCapital": false
     },
     {
@@ -888,7 +929,7 @@
       "latitude": 21.39963,
       "longitude": 105.22221,
       "population": 91650,
-      "populationRank": 99,
+      "populationRank": 100,
       "isCapital": false
     },
     {
@@ -897,7 +938,7 @@
       "latitude": 21.25782,
       "longitude": 105.84894,
       "population": 85431,
-      "populationRank": 100,
+      "populationRank": 101,
       "isCapital": false
     },
     {
@@ -906,16 +947,16 @@
       "latitude": 12.00423,
       "longitude": 107.69074,
       "population": 85082,
-      "populationRank": 101,
+      "populationRank": 102,
       "isCapital": false
     },
     {
       "id": "1583477",
-      "name": "Dien Bien Phu",
+      "name": "Điện Biên Phủ",
       "latitude": 21.38602,
       "longitude": 103.02301,
       "population": 84672,
-      "populationRank": 102,
+      "populationRank": 103,
       "isCapital": false
     },
     {
@@ -924,7 +965,7 @@
       "latitude": 13.95,
       "longitude": 108.65,
       "population": 81600,
-      "populationRank": 103,
+      "populationRank": 104,
       "isCapital": false
     },
     {
@@ -933,7 +974,7 @@
       "latitude": 10.25664,
       "longitude": 105.59329,
       "population": 80649,
-      "populationRank": 104,
+      "populationRank": 105,
       "isCapital": false
     },
     {
@@ -942,7 +983,7 @@
       "latitude": 10.97333,
       "longitude": 106.49325,
       "population": 75000,
-      "populationRank": 105,
+      "populationRank": 106,
       "isCapital": false
     },
     {
@@ -951,16 +992,17 @@
       "latitude": 22.66568,
       "longitude": 106.25786,
       "population": 73549,
-      "populationRank": 106,
+      "populationRank": 107,
       "isCapital": false
     },
     {
       "id": "1580092",
-      "name": "Hương Trà",
+      "name": "Huong Tra Ward",
+      "nativeName": "Hương Trà",
       "latitude": 16.52539,
       "longitude": 107.4755,
       "population": 72677,
-      "populationRank": 107,
+      "populationRank": 108,
       "isCapital": false
     },
     {
@@ -969,7 +1011,7 @@
       "latitude": 10.7,
       "longitude": 105.11667,
       "population": 70239,
-      "populationRank": 108,
+      "populationRank": 109,
       "isCapital": false
     },
     {
@@ -978,7 +1020,7 @@
       "latitude": 9.63497,
       "longitude": 106.49237,
       "population": 69961,
-      "populationRank": 109,
+      "populationRank": 110,
       "isCapital": false
     },
     {
@@ -987,34 +1029,37 @@
       "latitude": 15.43194,
       "longitude": 108.65946,
       "population": 69406,
-      "populationRank": 110,
-      "isCapital": false
-    },
-    {
-      "id": "1572565",
-      "name": "Nghĩa Lộ",
-      "latitude": 21.6,
-      "longitude": 104.51667,
-      "population": 68206,
       "populationRank": 111,
       "isCapital": false
     },
     {
-      "id": "1569856",
-      "name": "Từ Sơn",
-      "latitude": 21.1,
-      "longitude": 105.96667,
-      "population": 65697,
+      "id": "1572565",
+      "name": "Nghia Lo Ward",
+      "nativeName": "Nghĩa Lộ",
+      "latitude": 21.6,
+      "longitude": 104.51667,
+      "population": 68206,
       "populationRank": 112,
       "isCapital": false
     },
     {
+      "id": "1569856",
+      "name": "Tu Son",
+      "nativeName": "Từ Sơn",
+      "latitude": 21.1,
+      "longitude": 105.96667,
+      "population": 65697,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
       "id": "1563241",
-      "name": "Thành Phố Uông Bí",
+      "name": "Uong Bi Ward",
+      "nativeName": "Uông Bí",
       "latitude": 21.03433,
       "longitude": 106.77049,
       "population": 63829,
-      "populationRank": 113,
+      "populationRank": 114,
       "isCapital": false
     },
     {
@@ -1023,7 +1068,7 @@
       "latitude": 9.68141,
       "longitude": 105.57226,
       "population": 61781,
-      "populationRank": 114,
+      "populationRank": 115,
       "isCapital": false
     },
     {
@@ -1032,7 +1077,7 @@
       "latitude": 9.56513,
       "longitude": 105.59897,
       "population": 58588,
-      "populationRank": 115,
+      "populationRank": 116,
       "isCapital": false
     },
     {
@@ -1041,7 +1086,7 @@
       "latitude": 9.07713,
       "longitude": 104.97914,
       "population": 55897,
-      "populationRank": 116,
+      "populationRank": 117,
       "isCapital": false
     },
     {
@@ -1050,16 +1095,17 @@
       "latitude": 22.82333,
       "longitude": 104.98357,
       "population": 55559,
-      "populationRank": 117,
+      "populationRank": 118,
       "isCapital": false
     },
     {
       "id": "1586288",
       "name": "Cần Giờ",
+      "nativeName": "Cần Thạnh",
       "latitude": 10.41115,
       "longitude": 106.95474,
       "population": 55137,
-      "populationRank": 118,
+      "populationRank": 119,
       "isCapital": false
     },
     {
@@ -1068,7 +1114,7 @@
       "latitude": 20.07806,
       "longitude": 105.86028,
       "population": 53754,
-      "populationRank": 119,
+      "populationRank": 120,
       "isCapital": false
     },
     {
@@ -1077,16 +1123,16 @@
       "latitude": 20.45,
       "longitude": 106.34002,
       "population": 53071,
-      "populationRank": 120,
+      "populationRank": 121,
       "isCapital": false
     },
     {
       "id": "1576757",
-      "name": "Thị Trấn Phước Bửu",
+      "name": "Phước Bửu",
       "latitude": 10.53472,
       "longitude": 107.40202,
       "population": 51895,
-      "populationRank": 121,
+      "populationRank": 122,
       "isCapital": false
     },
     {
@@ -1095,16 +1141,17 @@
       "latitude": 10.50966,
       "longitude": 106.60308,
       "population": 50473,
-      "populationRank": 122,
+      "populationRank": 123,
       "isCapital": false
     },
     {
       "id": "1572696",
-      "name": "Thị Trấn Ngải Giao",
+      "name": "Ngai Giao",
+      "nativeName": "Ngãi Giao",
       "latitude": 10.6471,
       "longitude": 107.24577,
       "population": 49065,
-      "populationRank": 123,
+      "populationRank": 124,
       "isCapital": false
     },
     {
@@ -1113,16 +1160,17 @@
       "latitude": 20.00722,
       "longitude": 105.97044,
       "population": 47176,
-      "populationRank": 124,
+      "populationRank": 125,
       "isCapital": false
     },
     {
       "id": "1584023",
-      "name": "Thị Trấn Đầm Hà",
+      "name": "Dam Ha Commune",
+      "nativeName": "Đầm Hà",
       "latitude": 21.35314,
       "longitude": 107.59722,
       "population": 47060,
-      "populationRank": 125,
+      "populationRank": 126,
       "isCapital": false
     },
     {
@@ -1131,25 +1179,26 @@
       "latitude": 22.14701,
       "longitude": 105.83481,
       "population": 45036,
-      "populationRank": 126,
-      "isCapital": false
-    },
-    {
-      "id": "8550302",
-      "name": "Thị Trấn Sao Vàng",
-      "latitude": 19.88862,
-      "longitude": 105.46189,
-      "population": 44643,
       "populationRank": 127,
       "isCapital": false
     },
     {
+      "id": "8550302",
+      "name": "Sao Vàng",
+      "latitude": 19.88862,
+      "longitude": 105.46189,
+      "population": 44643,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
       "id": "1587406",
-      "name": "Hoàn Lão",
+      "name": "Hoàn Lão Commune",
+      "nativeName": "Hoàn Lão",
       "latitude": 17.58436,
       "longitude": 106.53425,
       "population": 43554,
-      "populationRank": 128,
+      "populationRank": 129,
       "isCapital": false
     },
     {
@@ -1158,16 +1207,17 @@
       "latitude": 22.39644,
       "longitude": 103.45824,
       "population": 42973,
-      "populationRank": 129,
+      "populationRank": 130,
       "isCapital": false
     },
     {
       "id": "1583882",
       "name": "Đan Phượng",
+      "nativeName": "Phùng",
       "latitude": 21.08917,
       "longitude": 105.6625,
       "population": 39917,
-      "populationRank": 130,
+      "populationRank": 131,
       "isCapital": false
     },
     {
@@ -1176,7 +1226,7 @@
       "latitude": 10.24212,
       "longitude": 105.155,
       "population": 39481,
-      "populationRank": 131,
+      "populationRank": 132,
       "isCapital": false
     },
     {
@@ -1185,7 +1235,7 @@
       "latitude": 20.74003,
       "longitude": 106.05998,
       "population": 39420,
-      "populationRank": 132,
+      "populationRank": 133,
       "isCapital": false
     },
     {
@@ -1194,7 +1244,7 @@
       "latitude": 9.35584,
       "longitude": 105.09929,
       "population": 38116,
-      "populationRank": 133,
+      "populationRank": 134,
       "isCapital": false
     },
     {
@@ -1203,16 +1253,16 @@
       "latitude": 18.52861,
       "longitude": 105.70636,
       "population": 36940,
-      "populationRank": 134,
+      "populationRank": 135,
       "isCapital": false
     },
     {
       "id": "1571968",
-      "name": "Ninh Bình",
+      "name": "Hoa Lư",
       "latitude": 20.25809,
       "longitude": 105.97965,
       "population": 36864,
-      "populationRank": 135,
+      "populationRank": 136,
       "isCapital": false
     },
     {
@@ -1221,16 +1271,17 @@
       "latitude": 8.85707,
       "longitude": 104.81199,
       "population": 36444,
-      "populationRank": 136,
+      "populationRank": 137,
       "isCapital": false
     },
     {
       "id": "1568759",
-      "name": "Quán Hàu",
+      "name": "Quảng Ninh Commune",
+      "nativeName": "Quảng Ninh",
       "latitude": 17.40438,
       "longitude": 106.64072,
       "population": 36210,
-      "populationRank": 137,
+      "populationRank": 138,
       "isCapital": false
     },
     {
@@ -1239,52 +1290,54 @@
       "latitude": 11.38414,
       "longitude": 106.23078,
       "population": 35878,
-      "populationRank": 138,
-      "isCapital": false
-    },
-    {
-      "id": "8701253",
-      "name": "A Yun Pa",
-      "latitude": 13.40025,
-      "longitude": 108.43503,
-      "population": 35058,
       "populationRank": 139,
       "isCapital": false
     },
     {
-      "id": "1568616",
-      "name": "Đông Phú",
-      "latitude": 15.67356,
-      "longitude": 108.2201,
-      "population": 34122,
+      "id": "8701253",
+      "name": "Ayun Pa",
+      "latitude": 13.40025,
+      "longitude": 108.43503,
+      "population": 35058,
       "populationRank": 140,
       "isCapital": false
     },
     {
-      "id": "1577859",
-      "name": "Thị Trấn Lam Sơn",
-      "latitude": 19.9047,
-      "longitude": 105.40562,
-      "population": 33117,
+      "id": "1568616",
+      "name": "Dong Phu",
+      "nativeName": "Đông Phú",
+      "latitude": 15.67356,
+      "longitude": 108.2201,
+      "population": 34122,
       "populationRank": 141,
       "isCapital": false
     },
     {
+      "id": "1577859",
+      "name": "Lam Sơn",
+      "latitude": 19.9047,
+      "longitude": 105.40562,
+      "population": 33117,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
       "id": "1570880",
-      "name": "Thị Trấn Phố Lu",
+      "name": "Phố Lu",
       "latitude": 22.31918,
       "longitude": 104.18719,
       "population": 32800,
-      "populationRank": 142,
+      "populationRank": 143,
       "isCapital": false
     },
     {
       "id": "1580541",
       "name": "Hoi An",
+      "nativeName": "Hội An",
       "latitude": 15.87944,
       "longitude": 108.335,
       "population": 32757,
-      "populationRank": 143,
+      "populationRank": 144,
       "isCapital": false
     },
     {
@@ -1293,7 +1346,7 @@
       "latitude": 9.02827,
       "longitude": 105.42116,
       "population": 31552,
-      "populationRank": 144,
+      "populationRank": 145,
       "isCapital": false
     },
     {
@@ -1302,7 +1355,7 @@
       "latitude": 10.35,
       "longitude": 105.01667,
       "population": 31278,
-      "populationRank": 145,
+      "populationRank": 146,
       "isCapital": false
     },
     {
@@ -1311,25 +1364,27 @@
       "latitude": 8.75899,
       "longitude": 104.99285,
       "population": 30135,
-      "populationRank": 146,
-      "isCapital": false
-    },
-    {
-      "id": "1586384",
-      "name": "Cam Lộ",
-      "latitude": 16.80797,
-      "longitude": 106.99405,
-      "population": 30111,
       "populationRank": 147,
       "isCapital": false
     },
     {
+      "id": "1586384",
+      "name": "Cam Lộ Commune",
+      "nativeName": "Cam Lộ",
+      "latitude": 16.80797,
+      "longitude": 106.99405,
+      "population": 30111,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
       "id": "1586052",
-      "name": "Cát Bà",
+      "name": "Cát Hải Special Administrative Region",
+      "nativeName": "Đặc khu Cát Hải",
       "latitude": 20.72779,
       "longitude": 107.04819,
       "population": 30000,
-      "populationRank": 148,
+      "populationRank": 149,
       "isCapital": false
     },
     {
@@ -1338,7 +1393,7 @@
       "latitude": 10.78909,
       "longitude": 106.95029,
       "population": 27084,
-      "populationRank": 149,
+      "populationRank": 150,
       "isCapital": false
     },
     {
@@ -1347,16 +1402,17 @@
       "latitude": 12.81965,
       "longitude": 108.07738,
       "population": 26733,
-      "populationRank": 150,
+      "populationRank": 151,
       "isCapital": false
     },
     {
       "id": "8336885",
       "name": "Núi Sập",
+      "nativeName": "Thoại Sơn",
       "latitude": 10.26478,
       "longitude": 105.26676,
       "population": 25633,
-      "populationRank": 151,
+      "populationRank": 152,
       "isCapital": false
     },
     {
@@ -1365,7 +1421,7 @@
       "latitude": 12.71298,
       "longitude": 108.30148,
       "population": 25120,
-      "populationRank": 152,
+      "populationRank": 153,
       "isCapital": false
     },
     {
@@ -1374,25 +1430,25 @@
       "latitude": 9.78449,
       "longitude": 105.47012,
       "population": 24477,
-      "populationRank": 153,
-      "isCapital": false
-    },
-    {
-      "id": "1573844",
-      "name": "Thị Trấn Na Dương",
-      "latitude": 21.7025,
-      "longitude": 106.95552,
-      "population": 24369,
       "populationRank": 154,
       "isCapital": false
     },
     {
+      "id": "1573844",
+      "name": "Na Dương",
+      "latitude": 21.7025,
+      "longitude": 106.95552,
+      "population": 24369,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
       "id": "8549745",
-      "name": "Thị Trấn Vân Du",
+      "name": "Vân Du",
       "latitude": 20.15186,
       "longitude": 105.73097,
       "population": 24146,
-      "populationRank": 155,
+      "populationRank": 156,
       "isCapital": false
     },
     {
@@ -1401,25 +1457,27 @@
       "latitude": 12.48478,
       "longitude": 108.02982,
       "population": 23683,
-      "populationRank": 156,
+      "populationRank": 157,
       "isCapital": false
     },
     {
       "id": "12261368",
-      "name": "thị xã Quảng Trị",
+      "name": "Quảng Trị Ward",
+      "nativeName": "Quảng Trị",
       "latitude": 16.75083,
       "longitude": 107.18278,
       "population": 23356,
-      "populationRank": 157,
+      "populationRank": 158,
       "isCapital": false
     },
     {
       "id": "11496088",
       "name": "Kiên Hải",
+      "nativeName": "Hòn Tre",
       "latitude": 9.97274,
       "longitude": 104.8475,
       "population": 23179,
-      "populationRank": 158,
+      "populationRank": 159,
       "isCapital": false
     },
     {
@@ -1428,25 +1486,27 @@
       "latitude": 10.67001,
       "longitude": 105.56469,
       "population": 22725,
-      "populationRank": 159,
-      "isCapital": false
-    },
-    {
-      "id": "1564589",
-      "name": "Thị Trấn Tiên Yên",
-      "latitude": 21.33133,
-      "longitude": 107.40533,
-      "population": 22164,
       "populationRank": 160,
       "isCapital": false
     },
     {
+      "id": "1564589",
+      "name": "Tien Yen Commune",
+      "nativeName": "Tiên Yên",
+      "latitude": 21.33133,
+      "longitude": 107.40533,
+      "population": 22164,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
       "id": "1583475",
-      "name": "Diễn Thành",
+      "name": "Dien Chau Commune",
+      "nativeName": "Diễn Châu",
       "latitude": 18.97652,
       "longitude": 105.60034,
       "population": 21605,
-      "populationRank": 161,
+      "populationRank": 162,
       "isCapital": false
     },
     {
@@ -1455,7 +1515,7 @@
       "latitude": 13.2045,
       "longitude": 108.21029,
       "population": 20600,
-      "populationRank": 162,
+      "populationRank": 163,
       "isCapital": false
     },
     {
@@ -1464,52 +1524,55 @@
       "latitude": 22,
       "longitude": 103.13333,
       "population": 20450,
-      "populationRank": 163,
-      "isCapital": false
-    },
-    {
-      "id": "1583752",
-      "name": "Thị Trấn Đất Đỏ",
-      "latitude": 10.49093,
-      "longitude": 107.27014,
-      "population": 20187,
       "populationRank": 164,
       "isCapital": false
     },
     {
-      "id": "1565969",
-      "name": "Thị Trấn Thất Khê",
-      "latitude": 22.25525,
-      "longitude": 106.47359,
-      "population": 20153,
+      "id": "1583752",
+      "name": "Dat Do",
+      "nativeName": "Đất Đỏ",
+      "latitude": 10.49093,
+      "longitude": 107.27014,
+      "population": 20187,
       "populationRank": 165,
       "isCapital": false
     },
     {
-      "id": "1562279",
-      "name": "Long Diền",
-      "latitude": 10.48333,
-      "longitude": 107.21667,
-      "population": 18093,
+      "id": "1565969",
+      "name": "Thất Khê",
+      "latitude": 22.25525,
+      "longitude": 106.47359,
+      "population": 20153,
       "populationRank": 166,
       "isCapital": false
     },
     {
-      "id": "1563704",
-      "name": "Thị Trấn Trùng Khánh",
-      "latitude": 22.83514,
-      "longitude": 106.52496,
-      "population": 17849,
+      "id": "1562279",
+      "name": "Long Dien",
+      "nativeName": "Long Điền",
+      "latitude": 10.48333,
+      "longitude": 107.21667,
+      "population": 18093,
       "populationRank": 167,
       "isCapital": false
     },
     {
+      "id": "1563704",
+      "name": "Trùng Khánh",
+      "latitude": 22.83514,
+      "longitude": 106.52496,
+      "population": 17849,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
       "id": "1570909",
-      "name": "Thị Trấn Ba Chẽ",
+      "name": "Ba Che Commune",
+      "nativeName": "Ba Chẽ",
       "latitude": 21.27158,
       "longitude": 107.28358,
       "population": 17504,
-      "populationRank": 168,
+      "populationRank": 169,
       "isCapital": false
     },
     {
@@ -1518,16 +1581,26 @@
       "latitude": 10.69672,
       "longitude": 106.74032,
       "population": 17264,
-      "populationRank": 169,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "1584301",
+      "name": "Ái Nghĩa",
+      "latitude": 15.88214,
+      "longitude": 108.12092,
+      "population": 16215,
+      "populationRank": 171,
       "isCapital": false
     },
     {
       "id": "1590225",
       "name": "Ít Ong",
+      "nativeName": "Mường La",
       "latitude": 21.5175,
       "longitude": 104.02701,
       "population": 16153,
-      "populationRank": 170,
+      "populationRank": 172,
       "isCapital": false
     },
     {
@@ -1536,7 +1609,7 @@
       "latitude": 11.78624,
       "longitude": 108.24282,
       "population": 16036,
-      "populationRank": 171,
+      "populationRank": 173,
       "isCapital": false
     },
     {
@@ -1545,16 +1618,17 @@
       "latitude": 20.67264,
       "longitude": 105.53625,
       "population": 15408,
-      "populationRank": 172,
+      "populationRank": 174,
       "isCapital": false
     },
     {
       "id": "8746448",
       "name": "Ea T’ling",
+      "nativeName": "Ea T'Ling",
       "latitude": 12.58904,
       "longitude": 107.89578,
       "population": 15342,
-      "populationRank": 173,
+      "populationRank": 175,
       "isCapital": false
     },
     {
@@ -1563,7 +1637,7 @@
       "latitude": 9.42838,
       "longitude": 105.74111,
       "population": 15099,
-      "populationRank": 174,
+      "populationRank": 176,
       "isCapital": false
     },
     {
@@ -1572,70 +1646,73 @@
       "latitude": 11.64711,
       "longitude": 106.60586,
       "population": 15000,
-      "populationRank": 175,
-      "isCapital": false
-    },
-    {
-      "id": "1580914",
-      "name": "Hiệp Đức",
-      "latitude": 15.58224,
-      "longitude": 108.11422,
-      "population": 14931,
-      "populationRank": 176,
-      "isCapital": false
-    },
-    {
-      "id": "1572898",
-      "name": "Thị Trấn Na Sầm",
-      "latitude": 22.05639,
-      "longitude": 106.6151,
-      "population": 14117,
       "populationRank": 177,
       "isCapital": false
     },
     {
-      "id": "1565140",
-      "name": "Thổ Tăng",
-      "latitude": 21.25532,
-      "longitude": 105.48938,
-      "population": 14049,
+      "id": "1580914",
+      "name": "Tân Bình",
+      "latitude": 15.58224,
+      "longitude": 108.11422,
+      "population": 14931,
       "populationRank": 178,
       "isCapital": false
     },
     {
-      "id": "1579363",
-      "name": "Khe Sanh",
-      "latitude": 16.62825,
-      "longitude": 106.73884,
-      "population": 13927,
+      "id": "1572898",
+      "name": "Na Sầm",
+      "latitude": 22.05639,
+      "longitude": 106.6151,
+      "population": 14117,
       "populationRank": 179,
       "isCapital": false
     },
     {
-      "id": "8425634",
-      "name": "Mường Chà",
-      "latitude": 21.76172,
-      "longitude": 103.09783,
-      "population": 13884,
+      "id": "1565140",
+      "name": "Thổ Tang",
+      "latitude": 21.25532,
+      "longitude": 105.48938,
+      "population": 14049,
       "populationRank": 180,
       "isCapital": false
     },
     {
-      "id": "1566411",
-      "name": "Thạch Hà",
-      "latitude": 18.36788,
-      "longitude": 105.86122,
-      "population": 13647,
+      "id": "1579363",
+      "name": "Khe Sanh Commune",
+      "nativeName": "Khe Sanh",
+      "latitude": 16.62825,
+      "longitude": 106.73884,
+      "population": 13927,
       "populationRank": 181,
       "isCapital": false
     },
     {
+      "id": "8425634",
+      "name": "Na Sang",
+      "latitude": 21.76172,
+      "longitude": 103.09783,
+      "population": 13884,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "1566411",
+      "name": "Thach Ha Commune",
+      "nativeName": "Thạch Hà",
+      "latitude": 18.36788,
+      "longitude": 105.86122,
+      "population": 13647,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
       "id": "1587826",
-      "name": "Thị Trấn Bình Liêu",
+      "name": "Binh Lieu Commune",
+      "nativeName": "Bình Liêu",
       "latitude": 21.52365,
       "longitude": 107.39811,
       "population": 13330,
-      "populationRank": 182,
+      "populationRank": 184,
       "isCapital": false
     },
     {
@@ -1644,7 +1721,7 @@
       "latitude": 8.61187,
       "longitude": 105.00507,
       "population": 13144,
-      "populationRank": 183,
+      "populationRank": 185,
       "isCapital": false
     },
     {
@@ -1653,16 +1730,17 @@
       "latitude": 10.49427,
       "longitude": 104.9072,
       "population": 13122,
-      "populationRank": 184,
+      "populationRank": 186,
       "isCapital": false
     },
     {
       "id": "1580262",
-      "name": "Hồ Xá",
+      "name": "Vĩnh Linh Commune",
+      "nativeName": "Vĩnh Linh",
       "latitude": 17.06836,
       "longitude": 107.0052,
       "population": 13000,
-      "populationRank": 185,
+      "populationRank": 187,
       "isCapital": false
     },
     {
@@ -1671,25 +1749,27 @@
       "latitude": 21.19809,
       "longitude": 105.42217,
       "population": 12877,
-      "populationRank": 186,
+      "populationRank": 188,
       "isCapital": false
     },
     {
       "id": "1576304",
-      "name": "Lao Bảo",
+      "name": "Lao Bảo Commune",
+      "nativeName": "Lao Bảo",
       "latitude": 16.61406,
       "longitude": 106.60065,
       "population": 12862,
-      "populationRank": 187,
+      "populationRank": 189,
       "isCapital": false
     },
     {
       "id": "1586316",
-      "name": "Cẩm Xuyên",
+      "name": "Cam Xuyen Commune",
+      "nativeName": "Cẩm Xuyên",
       "latitude": 18.25029,
       "longitude": 106.00132,
       "population": 12857,
-      "populationRank": 188,
+      "populationRank": 190,
       "isCapital": false
     },
     {
@@ -1698,7 +1778,7 @@
       "latitude": 10.55123,
       "longitude": 105.40441,
       "population": 12530,
-      "populationRank": 189,
+      "populationRank": 191,
       "isCapital": false
     },
     {
@@ -1707,16 +1787,16 @@
       "latitude": 12.80816,
       "longitude": 108.44901,
       "population": 12446,
-      "populationRank": 190,
+      "populationRank": 192,
       "isCapital": false
     },
     {
       "id": "1560344",
-      "name": "Thị Trấn Yên Bình",
+      "name": "Yên Bình",
       "latitude": 21.72585,
       "longitude": 104.96346,
       "population": 12282,
-      "populationRank": 191,
+      "populationRank": 193,
       "isCapital": false
     },
     {
@@ -1725,16 +1805,17 @@
       "latitude": 13.19682,
       "longitude": 108.69043,
       "population": 12000,
-      "populationRank": 192,
+      "populationRank": 194,
       "isCapital": false
     },
     {
       "id": "1584601",
-      "name": "Cửa Lô",
+      "name": "Cua Lo Ward",
+      "nativeName": "Cửa Lò",
       "latitude": 18.81667,
       "longitude": 105.71667,
       "population": 11884,
-      "populationRank": 193,
+      "populationRank": 195,
       "isCapital": false
     },
     {
@@ -1743,16 +1824,17 @@
       "latitude": 21.4,
       "longitude": 106.26667,
       "population": 11832,
-      "populationRank": 194,
+      "populationRank": 196,
       "isCapital": false
     },
     {
       "id": "1582175",
-      "name": "Đức Thọ",
+      "name": "Duc Tho Commune",
+      "nativeName": "Đức Thọ",
       "latitude": 18.53957,
       "longitude": 105.58302,
       "population": 11728,
-      "populationRank": 195,
+      "populationRank": 197,
       "isCapital": false
     },
     {
@@ -1761,42 +1843,26 @@
       "latitude": 20.39472,
       "longitude": 105.6224,
       "population": 11503,
-      "populationRank": 196,
-      "isCapital": false
-    },
-    {
-      "id": "8538202",
-      "name": "Thị Trấn Na Hang",
-      "latitude": 22.34917,
-      "longitude": 105.38241,
-      "population": 10921,
-      "populationRank": 197,
-      "isCapital": false
-    },
-    {
-      "id": "12489739",
-      "name": "Đại Nghĩa",
-      "latitude": 15.87901,
-      "longitude": 108.08903,
-      "population": 10808,
       "populationRank": 198,
       "isCapital": false
     },
     {
-      "id": "1580123",
-      "name": "Hương Khê",
-      "latitude": 18.17669,
-      "longitude": 105.70019,
-      "population": 10768,
+      "id": "8538202",
+      "name": "Na Hang",
+      "nativeName": "Nà Hang",
+      "latitude": 22.34917,
+      "longitude": 105.38241,
+      "population": 10921,
       "populationRank": 199,
       "isCapital": false
     },
     {
-      "id": "1568043",
-      "name": "Sa Pa",
-      "latitude": 22.34023,
-      "longitude": 103.84415,
-      "population": 10554,
+      "id": "1580123",
+      "name": "Huong Khe Commune",
+      "nativeName": "Hương Khê",
+      "latitude": 18.17669,
+      "longitude": 105.70019,
+      "population": 10768,
       "populationRank": 200,
       "isCapital": false
     }

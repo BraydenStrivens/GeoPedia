@@ -155,7 +155,7 @@
     },
     {
       "id": "2645425",
-      "name": "Kingston upon Hull",
+      "name": "Hull",
       "latitude": 53.7446,
       "longitude": -0.33525,
       "population": 314018,
@@ -263,7 +263,8 @@
     },
     {
       "id": "2634341",
-      "name": "City of Westminster",
+      "name": "Westminster",
+      "nativeName": "City of Westminster",
       "latitude": 51.4975,
       "longitude": -0.1357,
       "population": 247614,
@@ -480,6 +481,7 @@
     {
       "id": "2649997",
       "name": "Enfield Town",
+      "nativeName": "Enfield",
       "latitude": 51.65147,
       "longitude": -0.08497,
       "population": 156858,
@@ -677,7 +679,7 @@
     },
     {
       "id": "2641674",
-      "name": "Newcastle under Lyme",
+      "name": "Newcastle-under-Lyme",
       "latitude": 53,
       "longitude": -2.23333,
       "population": 127727,
@@ -1064,7 +1066,7 @@
     },
     {
       "id": "2643736",
-      "name": "Derry",
+      "name": "Derry/Londonderry",
       "latitude": 54.9981,
       "longitude": -7.30934,
       "population": 83652,
@@ -1361,7 +1363,7 @@
     },
     {
       "id": "2650096",
-      "name": "Ellesmere Port Town",
+      "name": "Ellesmere Port",
       "latitude": 53.27875,
       "longitude": -2.90134,
       "population": 65430,
@@ -1685,7 +1687,7 @@
     },
     {
       "id": "2656241",
-      "name": "Barrow in Furness",
+      "name": "Barrow-in-Furness",
       "latitude": 54.11094,
       "longitude": -3.22758,
       "population": 55489,

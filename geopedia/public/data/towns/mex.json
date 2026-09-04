@@ -3,6 +3,7 @@
     {
       "id": "3530597",
       "name": "Mexico City",
+      "nativeName": "Ciudad de México",
       "latitude": 19.42847,
       "longitude": -99.12766,
       "population": 12294193,
@@ -30,6 +31,7 @@
     {
       "id": "3529612",
       "name": "Ecatepec de Morelos",
+      "nativeName": "Ecatepec",
       "latitude": 19.60492,
       "longitude": -99.06064,
       "population": 1645352,
@@ -47,7 +49,7 @@
     },
     {
       "id": "3998655",
-      "name": "León de los Aldama",
+      "name": "León",
       "latitude": 21.12183,
       "longitude": -101.68253,
       "population": 1579803,
@@ -102,6 +104,7 @@
     {
       "id": "3530589",
       "name": "Ciudad Nezahualcoyotl",
+      "nativeName": "Nezahualcóyotl",
       "latitude": 19.40061,
       "longitude": -99.01483,
       "population": 1077208,
@@ -119,7 +122,8 @@
     },
     {
       "id": "4014338",
-      "name": "Chihuahua",
+      "name": "Chihuahua City",
+      "nativeName": "Chihuahua",
       "latitude": 28.63528,
       "longitude": -106.08889,
       "population": 925762,
@@ -182,7 +186,8 @@
     },
     {
       "id": "3985606",
-      "name": "San Luis Potosí",
+      "name": "San Luis Potosí City",
+      "nativeName": "San Luis Potosí",
       "latitude": 22.15234,
       "longitude": -100.97135,
       "population": 722772,
@@ -191,7 +196,8 @@
     },
     {
       "id": "4019233",
-      "name": "Aguascalientes",
+      "name": "Aguascalientes City",
+      "nativeName": "Aguascalientes",
       "latitude": 21.88262,
       "longitude": -102.2843,
       "population": 722250,
@@ -236,7 +242,7 @@
     },
     {
       "id": "3515001",
-      "name": "Tuxtla",
+      "name": "Tuxtla Gutiérrez",
       "latitude": 16.75357,
       "longitude": -93.11578,
       "population": 604147,
@@ -254,7 +260,8 @@
     },
     {
       "id": "3515807",
-      "name": "Cuautitlán Izcalli",
+      "name": "Cuautitlan Izcalli",
+      "nativeName": "Cuautitlán Izcalli",
       "latitude": 19.64388,
       "longitude": -99.21598,
       "population": 555163,
@@ -263,7 +270,8 @@
     },
     {
       "id": "4011743",
-      "name": "Victoria de Durango",
+      "name": "Durango City",
+      "nativeName": "Durango",
       "latitude": 24.02032,
       "longitude": -104.65756,
       "population": 518709,
@@ -272,7 +280,7 @@
     },
     {
       "id": "3523466",
-      "name": "Heroica Matamoros",
+      "name": "Matamoros",
       "latitude": 25.87972,
       "longitude": -97.50417,
       "population": 510739,
@@ -300,6 +308,7 @@
     {
       "id": "4018390",
       "name": "Ciudad Apodaca",
+      "nativeName": "Apodaca",
       "latitude": 25.78143,
       "longitude": -100.18911,
       "population": 467157,
@@ -309,6 +318,7 @@
     {
       "id": "4005867",
       "name": "Ciudad General Escobedo",
+      "nativeName": "General Escobedo",
       "latitude": 25.79663,
       "longitude": -100.31767,
       "population": 454967,
@@ -326,7 +336,8 @@
     },
     {
       "id": "3514783",
-      "name": "Veracruz",
+      "name": "Veracruz City",
+      "nativeName": "Veracruz",
       "latitude": 19.18095,
       "longitude": -96.1429,
       "population": 428323,
@@ -335,7 +346,7 @@
     },
     {
       "id": "3526617",
-      "name": "Xalapa de Enríquez",
+      "name": "Xalapa",
       "latitude": 19.53124,
       "longitude": -96.91589,
       "population": 424755,
@@ -353,7 +364,8 @@
     },
     {
       "id": "3985241",
-      "name": "San Nicolás de los Garza",
+      "name": "San Nicolas de los Garza",
+      "nativeName": "San Nicolás de los Garza",
       "latitude": 25.74167,
       "longitude": -100.30222,
       "population": 412199,
@@ -507,6 +519,7 @@
     {
       "id": "4003757",
       "name": "Ciudad Benito Juárez",
+      "nativeName": "Benito Juárez",
       "latitude": 25.6466,
       "longitude": -100.09142,
       "population": 308285,
@@ -588,6 +601,7 @@
     {
       "id": "3522210",
       "name": "Pachuca de Soto",
+      "nativeName": "Pachuca",
       "latitude": 20.11697,
       "longitude": -98.73329,
       "population": 256584,
@@ -596,7 +610,8 @@
     },
     {
       "id": "3522507",
-      "name": "Oaxaca",
+      "name": "Oaxaca City",
+      "nativeName": "Oaxaca",
       "latitude": 17.06025,
       "longitude": -96.72544,
       "population": 255029,
@@ -632,7 +647,8 @@
     },
     {
       "id": "3531732",
-      "name": "Campeche",
+      "name": "Campeche City",
+      "nativeName": "Campeche",
       "latitude": 19.84073,
       "longitude": -90.51676,
       "population": 220389,
@@ -660,6 +676,7 @@
     {
       "id": "3519537",
       "name": "San Cristóbal de las Casas",
+      "nativeName": "San Cristóbal",
       "latitude": 16.73006,
       "longitude": -92.63825,
       "population": 215874,
@@ -714,6 +731,7 @@
     {
       "id": "4026082",
       "name": "Ciudad Lázaro Cárdenas",
+      "nativeName": "Lázaro Cárdenas",
       "latitude": 17.96256,
       "longitude": -102.19887,
       "population": 196003,
@@ -741,6 +759,7 @@
     {
       "id": "3979802",
       "name": "Zamora de Hidalgo",
+      "nativeName": "Zamora",
       "latitude": 19.98404,
       "longitude": -102.28634,
       "population": 186102,
@@ -750,6 +769,7 @@
     {
       "id": "3521168",
       "name": "Poza Rica de Hidalgo",
+      "nativeName": "Poza Rica",
       "latitude": 20.53315,
       "longitude": -97.45946,
       "population": 185242,
@@ -813,6 +833,7 @@
     {
       "id": "3531200",
       "name": "Chalco",
+      "nativeName": "Chalco de Díaz Covarrubias",
       "latitude": 19.26174,
       "longitude": -98.89775,
       "population": 168720,
@@ -885,6 +906,7 @@
     {
       "id": "3518407",
       "name": "San Martin Texmelucan de Labastida",
+      "nativeName": "Texmelucan",
       "latitude": 19.28431,
       "longitude": -98.43885,
       "population": 155738,
@@ -912,6 +934,7 @@
     {
       "id": "4013720",
       "name": "Ciudad Delicias",
+      "nativeName": "Delicias",
       "latitude": 28.19013,
       "longitude": -105.47012,
       "population": 148045,
@@ -920,7 +943,8 @@
     },
     {
       "id": "4013516",
-      "name": "Colima",
+      "name": "Colima City",
+      "nativeName": "Colima",
       "latitude": 19.24473,
       "longitude": -103.7127,
       "population": 146965,
@@ -965,7 +989,8 @@
     },
     {
       "id": "3979844",
-      "name": "Zacatecas",
+      "name": "Zacatecas City",
+      "nativeName": "Zacatecas",
       "latitude": 22.76843,
       "longitude": -102.58141,
       "population": 129011,
@@ -1002,6 +1027,7 @@
     {
       "id": "3526798",
       "name": "Iguala de la Independencia",
+      "nativeName": "Iguala",
       "latitude": 18.34536,
       "longitude": -99.5413,
       "population": 118468,
@@ -1011,6 +1037,7 @@
     {
       "id": "3980194",
       "name": "Ciudad de Villa de Álvarez",
+      "nativeName": "Villa de Álvarez",
       "latitude": 19.26722,
       "longitude": -103.73778,
       "population": 117600,
@@ -1019,7 +1046,7 @@
     },
     {
       "id": "4005143",
-      "name": "Heroica Guaymas",
+      "name": "Guaymas",
       "latitude": 27.91989,
       "longitude": -110.89888,
       "population": 117253,
@@ -1083,6 +1110,7 @@
     {
       "id": "3515696",
       "name": "Teziutlan",
+      "nativeName": "Teziutlán",
       "latitude": 19.8173,
       "longitude": -97.35992,
       "population": 103583,
@@ -1146,6 +1174,7 @@
     {
       "id": "3520271",
       "name": "Ciudad Río Bravo",
+      "nativeName": "Río Bravo",
       "latitude": 25.98507,
       "longitude": -98.08964,
       "population": 95647,
@@ -1173,6 +1202,7 @@
     {
       "id": "3981984",
       "name": "Tepatitlán de Morelos",
+      "nativeName": "Tepatitlán",
       "latitude": 20.81692,
       "longitude": -102.76347,
       "population": 91959,
@@ -1191,6 +1221,7 @@
     {
       "id": "3526357",
       "name": "Heroica Ciudad de Juchitán de Zaragoza",
+      "nativeName": "Juchitán",
       "latitude": 16.43375,
       "longitude": -95.02181,
       "population": 88280,
@@ -1218,6 +1249,7 @@
     {
       "id": "3521912",
       "name": "Paraiso",
+      "nativeName": "Paraíso",
       "latitude": 18.40116,
       "longitude": -93.21406,
       "population": 86632,
@@ -1226,7 +1258,8 @@
     },
     {
       "id": "3982213",
-      "name": "Tecomán",
+      "name": "Tecoman",
+      "nativeName": "Tecomán",
       "latitude": 18.91614,
       "longitude": -103.87713,
       "population": 85689,
@@ -1254,6 +1287,7 @@
     {
       "id": "3515011",
       "name": "Túxpam de Rodríguez Cano",
+      "nativeName": "Tuxpan",
       "latitude": 20.95777,
       "longitude": -97.40805,
       "population": 84750,
@@ -1262,7 +1296,8 @@
     },
     {
       "id": "3815415",
-      "name": "Tlaxcala",
+      "name": "Tlaxcala City",
+      "nativeName": "Tlaxcala",
       "latitude": 19.31777,
       "longitude": -98.23846,
       "population": 84670,
@@ -1281,6 +1316,7 @@
     {
       "id": "4004885",
       "name": "Heróica Zitácuaro",
+      "nativeName": "Zitácuaro",
       "latitude": 19.43657,
       "longitude": -100.35639,
       "population": 84307,
@@ -1308,6 +1344,7 @@
     {
       "id": "3515887",
       "name": "Tepeji del Río de Ocampo",
+      "nativeName": "Tepeji del Río",
       "latitude": 19.90546,
       "longitude": -99.34229,
       "population": 80612,
@@ -1317,6 +1354,7 @@
     {
       "id": "4013706",
       "name": "Lerdo",
+      "nativeName": "Ciudad Lerdo",
       "latitude": 25.53611,
       "longitude": -103.52485,
       "population": 79669,
@@ -1353,6 +1391,7 @@
     {
       "id": "3530103",
       "name": "Cozumel",
+      "nativeName": "San Miguel de Cozumel",
       "latitude": 20.50038,
       "longitude": -86.94272,
       "population": 77236,
@@ -1362,6 +1401,7 @@
     {
       "id": "3983058",
       "name": "Silao de la Victoria",
+      "nativeName": "Silao",
       "latitude": 20.94361,
       "longitude": -101.42696,
       "population": 74242,
@@ -1388,7 +1428,8 @@
     },
     {
       "id": "4005270",
-      "name": "Guanajuato",
+      "name": "Guanajuato City",
+      "nativeName": "Guanajuato",
       "latitude": 21.01858,
       "longitude": -101.2591,
       "population": 72237,
@@ -1425,6 +1466,7 @@
     {
       "id": "3517270",
       "name": "Santa María Chimalhuacán",
+      "nativeName": "Chimalhuacán",
       "latitude": 19.42155,
       "longitude": -98.95038,
       "population": 70519,
@@ -1497,6 +1539,7 @@
     {
       "id": "3979673",
       "name": "Ixtapa-Zihuatanejo",
+      "nativeName": "Ixtapa Zihuatanejo",
       "latitude": 17.64344,
       "longitude": -101.55212,
       "population": 67408,
@@ -1559,7 +1602,8 @@
     },
     {
       "id": "3991347",
-      "name": "Puerto Peñasco",
+      "name": "Rocky Point",
+      "nativeName": "Puerto Peñasco",
       "latitude": 31.31716,
       "longitude": -113.53799,
       "population": 62689,
@@ -1605,6 +1649,7 @@
     {
       "id": "3815453",
       "name": "Villa Vicente Guerrero",
+      "nativeName": "San Pablo del Monte",
       "latitude": 19.12123,
       "longitude": -98.16572,
       "population": 60001,
@@ -1686,6 +1731,7 @@
     {
       "id": "3518221",
       "name": "Zinacantepec",
+      "nativeName": "San Miguel Zinacantepec",
       "latitude": 19.28428,
       "longitude": -99.73394,
       "population": 54220,
@@ -1731,6 +1777,7 @@
     {
       "id": "3527023",
       "name": "Ciudad de Huajuapan de León",
+      "nativeName": "Huajuapan",
       "latitude": 17.80787,
       "longitude": -97.77956,
       "population": 53043,
@@ -1794,6 +1841,7 @@
     {
       "id": "3516225",
       "name": "Taxco de Alarcón",
+      "nativeName": "Taxco",
       "latitude": 18.55462,
       "longitude": -99.60592,
       "population": 50399,

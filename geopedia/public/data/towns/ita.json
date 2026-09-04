@@ -1,21 +1,43 @@
 {
   "towns": [
     {
+      "id": "3169070",
+      "name": "Rome",
+      "nativeName": "Roma",
+      "latitude": 41.89193,
+      "longitude": 12.51133,
+      "population": 2318895,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
       "id": "3173435",
       "name": "Milan",
+      "nativeName": "Milano",
       "latitude": 45.46427,
       "longitude": 9.18951,
       "population": 1371498,
-      "populationRank": 1,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3172394",
+      "name": "Naples",
+      "nativeName": "Napoli",
+      "latitude": 40.85216,
+      "longitude": 14.26811,
+      "population": 909048,
+      "populationRank": 3,
       "isCapital": false
     },
     {
       "id": "3165524",
       "name": "Turin",
+      "nativeName": "Torino",
       "latitude": 45.07049,
       "longitude": 7.68682,
       "population": 847287,
-      "populationRank": 2,
+      "populationRank": 4,
       "isCapital": false
     },
     {
@@ -24,16 +46,17 @@
       "latitude": 38.1166,
       "longitude": 13.3636,
       "population": 648260,
-      "populationRank": 3,
+      "populationRank": 5,
       "isCapital": false
     },
     {
       "id": "3176219",
       "name": "Genoa",
+      "nativeName": "Genova",
       "latitude": 44.40478,
       "longitude": 8.94439,
       "population": 580097,
-      "populationRank": 4,
+      "populationRank": 6,
       "isCapital": false
     },
     {
@@ -42,16 +65,17 @@
       "latitude": 44.49381,
       "longitude": 11.33875,
       "population": 394843,
-      "populationRank": 5,
+      "populationRank": 7,
       "isCapital": false
     },
     {
       "id": "3176959",
       "name": "Florence",
+      "nativeName": "Firenze",
       "latitude": 43.77925,
       "longitude": 11.24626,
       "population": 367150,
-      "populationRank": 6,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -60,7 +84,7 @@
       "latitude": 41.12066,
       "longitude": 16.86982,
       "population": 316491,
-      "populationRank": 7,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -69,7 +93,7 @@
       "latitude": 37.49223,
       "longitude": 15.07041,
       "population": 311584,
-      "populationRank": 8,
+      "populationRank": 10,
       "isCapital": false
     },
     {
@@ -78,7 +102,7 @@
       "latitude": 45.43854,
       "longitude": 10.9938,
       "population": 258031,
-      "populationRank": 9,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -87,7 +111,7 @@
       "latitude": 38.19394,
       "longitude": 15.55256,
       "population": 219948,
-      "populationRank": 10,
+      "populationRank": 12,
       "isCapital": false
     },
     {
@@ -96,16 +120,17 @@
       "latitude": 45.64953,
       "longitude": 13.77678,
       "population": 204338,
-      "populationRank": 11,
+      "populationRank": 13,
       "isCapital": false
     },
     {
       "id": "3171728",
       "name": "Padua",
+      "nativeName": "Padova",
       "latitude": 45.40797,
       "longitude": 11.88586,
       "population": 203725,
-      "populationRank": 12,
+      "populationRank": 14,
       "isCapital": false
     },
     {
@@ -114,7 +139,7 @@
       "latitude": 45.53558,
       "longitude": 10.21472,
       "population": 200423,
-      "populationRank": 13,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -123,7 +148,7 @@
       "latitude": 40.46438,
       "longitude": 17.24707,
       "population": 198585,
-      "populationRank": 14,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -132,7 +157,7 @@
       "latitude": 44.79935,
       "longitude": 10.32618,
       "population": 198292,
-      "populationRank": 15,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -141,7 +166,7 @@
       "latitude": 43.8805,
       "longitude": 11.09699,
       "population": 195089,
-      "populationRank": 16,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -150,7 +175,7 @@
       "latitude": 44.64783,
       "longitude": 10.92539,
       "population": 184732,
-      "populationRank": 17,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -159,16 +184,17 @@
       "latitude": 38.11047,
       "longitude": 15.66129,
       "population": 182455,
-      "populationRank": 18,
+      "populationRank": 20,
       "isCapital": false
     },
     {
       "id": "3169522",
       "name": "Reggio nell'Emilia",
+      "nativeName": "Reggio Emilia",
       "latitude": 44.69825,
       "longitude": 10.63125,
       "population": 171944,
-      "populationRank": 19,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -177,7 +203,17 @@
       "latitude": 43.54427,
       "longitude": 10.32615,
       "population": 157017,
-      "populationRank": 20,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2525473",
+      "name": "Cagliari",
+      "nativeName": "Casteddu/Cagliari",
+      "latitude": 39.23054,
+      "longitude": 9.11917,
+      "population": 149257,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -186,7 +222,7 @@
       "latitude": 44.05755,
       "longitude": 12.56528,
       "population": 148688,
-      "populationRank": 21,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -195,7 +231,7 @@
       "latitude": 45.49167,
       "longitude": 12.24538,
       "population": 147662,
-      "populationRank": 22,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -204,7 +240,7 @@
       "latitude": 41.45845,
       "longitude": 15.55188,
       "population": 137032,
-      "populationRank": 23,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -213,7 +249,7 @@
       "latitude": 44.83804,
       "longitude": 11.62057,
       "population": 132009,
-      "populationRank": 24,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -222,7 +258,7 @@
       "latitude": 40.67545,
       "longitude": 14.79328,
       "population": 125797,
-      "populationRank": 25,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -231,16 +267,17 @@
       "latitude": 45.58005,
       "longitude": 9.27246,
       "population": 124398,
-      "populationRank": 26,
+      "populationRank": 29,
       "isCapital": false
     },
     {
       "id": "2523083",
-      "name": "Siracusa",
+      "name": "Syracuse",
+      "nativeName": "Siracusa",
       "latitude": 37.07542,
       "longitude": 15.28664,
       "population": 121605,
-      "populationRank": 27,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -249,7 +286,7 @@
       "latitude": 45.69601,
       "longitude": 9.66721,
       "population": 121200,
-      "populationRank": 28,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -258,7 +295,7 @@
       "latitude": 46.06787,
       "longitude": 11.12108,
       "population": 120709,
-      "populationRank": 29,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -267,7 +304,7 @@
       "latitude": 43.1122,
       "longitude": 12.38878,
       "population": 120137,
-      "populationRank": 30,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -276,7 +313,7 @@
       "latitude": 42.4584,
       "longitude": 14.20283,
       "population": 119554,
-      "populationRank": 31,
+      "populationRank": 34,
       "isCapital": false
     },
     {
@@ -285,7 +322,7 @@
       "latitude": 44.22177,
       "longitude": 12.04144,
       "population": 116696,
-      "populationRank": 32,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -294,7 +331,7 @@
       "latitude": 45.54672,
       "longitude": 11.5475,
       "population": 111980,
-      "populationRank": 33,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -303,7 +340,7 @@
       "latitude": 42.56335,
       "longitude": 12.64329,
       "population": 111189,
-      "populationRank": 34,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -312,7 +349,17 @@
       "latitude": 43.70853,
       "longitude": 10.4036,
       "population": 109960,
-      "populationRank": 35,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "3181913",
+      "name": "Bolzano",
+      "nativeName": "Bolzano - Bozen",
+      "latitude": 46.49067,
+      "longitude": 11.33982,
+      "population": 107436,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -321,7 +368,7 @@
       "latitude": 45.05242,
       "longitude": 9.69342,
       "population": 103607,
-      "populationRank": 36,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -330,7 +377,7 @@
       "latitude": 45.44694,
       "longitude": 8.62118,
       "population": 101916,
-      "populationRank": 37,
+      "populationRank": 41,
       "isCapital": false
     },
     {
@@ -339,7 +386,7 @@
       "latitude": 43.46276,
       "longitude": 11.88068,
       "population": 100734,
-      "populationRank": 38,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -348,7 +395,7 @@
       "latitude": 46.0693,
       "longitude": 13.23715,
       "population": 100170,
-      "populationRank": 39,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -357,7 +404,7 @@
       "latitude": 41.23117,
       "longitude": 16.29797,
       "population": 99784,
-      "populationRank": 40,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -366,7 +413,7 @@
       "latitude": 44.1391,
       "longitude": 12.24315,
       "population": 97137,
-      "populationRank": 41,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -375,7 +422,7 @@
       "latitude": 44.103,
       "longitude": 9.82375,
       "population": 93288,
-      "populationRank": 42,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -384,7 +431,7 @@
       "latitude": 41.31429,
       "longitude": 16.28165,
       "population": 93279,
-      "populationRank": 43,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -393,16 +440,17 @@
       "latitude": 44.90924,
       "longitude": 8.61007,
       "population": 92104,
-      "populationRank": 44,
+      "populationRank": 48,
       "isCapital": false
     },
     {
       "id": "3167096",
       "name": "Sassari",
+      "nativeName": "Tàttari/Sassari",
       "latitude": 40.72586,
       "longitude": 8.55552,
       "population": 91895,
-      "populationRank": 45,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -411,7 +459,7 @@
       "latitude": 43.60717,
       "longitude": 13.5103,
       "population": 89994,
-      "populationRank": 46,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -420,7 +468,7 @@
       "latitude": 40.63215,
       "longitude": 17.93607,
       "population": 87141,
-      "populationRank": 47,
+      "populationRank": 51,
       "isCapital": false
     },
     {
@@ -429,7 +477,7 @@
       "latitude": 45.66673,
       "longitude": 12.2416,
       "population": 85760,
-      "populationRank": 48,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -438,7 +486,7 @@
       "latitude": 40.78931,
       "longitude": 14.36806,
       "population": 85332,
-      "populationRank": 49,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -447,7 +495,7 @@
       "latitude": 41.73212,
       "longitude": 12.27654,
       "population": 85301,
-      "populationRank": 50,
+      "populationRank": 54,
       "isCapital": false
     },
     {
@@ -456,7 +504,7 @@
       "latitude": 45.80819,
       "longitude": 9.0832,
       "population": 84808,
-      "populationRank": 51,
+      "populationRank": 55,
       "isCapital": false
     },
     {
@@ -465,7 +513,7 @@
       "latitude": 45.61128,
       "longitude": 8.84914,
       "population": 83405,
-      "populationRank": 52,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -474,7 +522,7 @@
       "latitude": 45.53329,
       "longitude": 9.22585,
       "population": 81822,
-      "populationRank": 53,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -483,7 +531,7 @@
       "latitude": 43.84369,
       "longitude": 10.50447,
       "population": 81748,
-      "populationRank": 54,
+      "populationRank": 58,
       "isCapital": false
     },
     {
@@ -492,7 +540,7 @@
       "latitude": 40.84394,
       "longitude": 14.0952,
       "population": 81231,
-      "populationRank": 55,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -501,7 +549,7 @@
       "latitude": 44.41344,
       "longitude": 12.20121,
       "population": 80868,
-      "populationRank": 56,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -510,7 +558,7 @@
       "latitude": 41.77093,
       "longitude": 12.23662,
       "population": 80738,
-      "populationRank": 57,
+      "populationRank": 61,
       "isCapital": false
     },
     {
@@ -519,7 +567,7 @@
       "latitude": 40.35481,
       "longitude": 18.17244,
       "population": 80695,
-      "populationRank": 58,
+      "populationRank": 62,
       "isCapital": false
     },
     {
@@ -528,7 +576,7 @@
       "latitude": 45.82058,
       "longitude": 8.82511,
       "population": 80588,
-      "populationRank": 59,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -537,7 +585,7 @@
       "latitude": 40.92849,
       "longitude": 14.20197,
       "population": 80269,
-      "populationRank": 60,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -546,7 +594,7 @@
       "latitude": 38.88247,
       "longitude": 16.60086,
       "population": 78970,
-      "populationRank": 61,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -555,7 +603,7 @@
       "latitude": 37.7992,
       "longitude": 12.4367,
       "population": 77915,
-      "populationRank": 62,
+      "populationRank": 66,
       "isCapital": false
     },
     {
@@ -564,7 +612,7 @@
       "latitude": 43.90921,
       "longitude": 12.9164,
       "population": 77241,
-      "populationRank": 63,
+      "populationRank": 67,
       "isCapital": false
     },
     {
@@ -573,7 +621,7 @@
       "latitude": 41.46614,
       "longitude": 12.9043,
       "population": 76305,
-      "populationRank": 64,
+      "populationRank": 68,
       "isCapital": false
     },
     {
@@ -582,7 +630,7 @@
       "latitude": 45.55823,
       "longitude": 9.21495,
       "population": 75943,
-      "populationRank": 65,
+      "populationRank": 69,
       "isCapital": false
     },
     {
@@ -591,7 +639,7 @@
       "latitude": 37.07381,
       "longitude": 14.24038,
       "population": 75001,
-      "populationRank": 66,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -600,7 +648,7 @@
       "latitude": 41.59452,
       "longitude": 12.65419,
       "population": 74977,
-      "populationRank": 67,
+      "populationRank": 71,
       "isCapital": false
     },
     {
@@ -609,7 +657,7 @@
       "latitude": 44.90162,
       "longitude": 8.20751,
       "population": 74348,
-      "populationRank": 68,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -618,7 +666,7 @@
       "latitude": 36.92574,
       "longitude": 14.72443,
       "population": 74251,
-      "populationRank": 69,
+      "populationRank": 73,
       "isCapital": false
     },
     {
@@ -627,7 +675,7 @@
       "latitude": 40.90751,
       "longitude": 14.293,
       "population": 73918,
-      "populationRank": 70,
+      "populationRank": 74,
       "isCapital": false
     },
     {
@@ -636,7 +684,7 @@
       "latitude": 43.93064,
       "longitude": 10.92365,
       "population": 73832,
-      "populationRank": 71,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -645,7 +693,7 @@
       "latitude": 41.07262,
       "longitude": 14.33231,
       "population": 72844,
-      "populationRank": 72,
+      "populationRank": 76,
       "isCapital": false
     },
     {
@@ -654,7 +702,7 @@
       "latitude": 45.13325,
       "longitude": 10.02129,
       "population": 71223,
-      "populationRank": 73,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -663,7 +711,7 @@
       "latitude": 44.78237,
       "longitude": 10.8777,
       "population": 71148,
-      "populationRank": 74,
+      "populationRank": 78,
       "isCapital": false
     },
     {
@@ -672,7 +720,7 @@
       "latitude": 40.82664,
       "longitude": 16.54952,
       "population": 70539,
-      "populationRank": 75,
+      "populationRank": 79,
       "isCapital": false
     },
     {
@@ -681,7 +729,7 @@
       "latitude": 38.96255,
       "longitude": 16.30938,
       "population": 70501,
-      "populationRank": 76,
+      "populationRank": 80,
       "isCapital": false
     },
     {
@@ -690,7 +738,7 @@
       "latitude": 44.35916,
       "longitude": 11.7132,
       "population": 69953,
-      "populationRank": 77,
+      "populationRank": 81,
       "isCapital": false
     },
     {
@@ -699,7 +747,7 @@
       "latitude": 38.0176,
       "longitude": 12.53617,
       "population": 67531,
-      "populationRank": 78,
+      "populationRank": 82,
       "isCapital": false
     },
     {
@@ -708,7 +756,7 @@
       "latitude": 40.70211,
       "longitude": 14.48685,
       "population": 66164,
-      "populationRank": 79,
+      "populationRank": 83,
       "isCapital": false
     },
     {
@@ -717,7 +765,7 @@
       "latitude": 45.19205,
       "longitude": 9.15917,
       "population": 65734,
-      "populationRank": 80,
+      "populationRank": 84,
       "isCapital": false
     },
     {
@@ -726,7 +774,7 @@
       "latitude": 44.03541,
       "longitude": 10.13927,
       "population": 64783,
-      "populationRank": 81,
+      "populationRank": 85,
       "isCapital": false
     },
     {
@@ -735,7 +783,7 @@
       "latitude": 39.08077,
       "longitude": 17.12764,
       "population": 64603,
-      "populationRank": 82,
+      "populationRank": 86,
       "isCapital": false
     },
     {
@@ -744,7 +792,7 @@
       "latitude": 40.92298,
       "longitude": 14.30935,
       "population": 64470,
-      "populationRank": 83,
+      "populationRank": 87,
       "isCapital": false
     },
     {
@@ -753,7 +801,7 @@
       "latitude": 39.2989,
       "longitude": 16.25307,
       "population": 63852,
-      "populationRank": 84,
+      "populationRank": 88,
       "isCapital": false
     },
     {
@@ -762,7 +810,7 @@
       "latitude": 37.49025,
       "longitude": 14.06216,
       "population": 62797,
-      "populationRank": 85,
+      "populationRank": 89,
       "isCapital": false
     },
     {
@@ -771,7 +819,7 @@
       "latitude": 43.86693,
       "longitude": 10.2502,
       "population": 62169,
-      "populationRank": 86,
+      "populationRank": 90,
       "isCapital": false
     },
     {
@@ -780,7 +828,7 @@
       "latitude": 44.30905,
       "longitude": 8.47715,
       "population": 61345,
-      "populationRank": 87,
+      "populationRank": 91,
       "isCapital": false
     },
     {
@@ -789,7 +837,7 @@
       "latitude": 43.84052,
       "longitude": 13.01665,
       "population": 60978,
-      "populationRank": 88,
+      "populationRank": 92,
       "isCapital": false
     },
     {
@@ -798,7 +846,7 @@
       "latitude": 42.76296,
       "longitude": 11.10941,
       "population": 60922,
-      "populationRank": 89,
+      "populationRank": 93,
       "isCapital": false
     },
     {
@@ -807,16 +855,17 @@
       "latitude": 40.66599,
       "longitude": 16.60463,
       "population": 60403,
-      "populationRank": 90,
+      "populationRank": 94,
       "isCapital": false
     },
     {
       "id": "3172087",
       "name": "Olbia",
+      "nativeName": "Terranoa/Olbia",
       "latitude": 40.92337,
       "longitude": 9.49802,
       "population": 60345,
-      "populationRank": 91,
+      "populationRank": 95,
       "isCapital": false
     },
     {
@@ -825,7 +874,7 @@
       "latitude": 40.94477,
       "longitude": 14.3714,
       "population": 59910,
-      "populationRank": 92,
+      "populationRank": 96,
       "isCapital": false
     },
     {
@@ -834,7 +883,7 @@
       "latitude": 41.20036,
       "longitude": 16.59905,
       "population": 59557,
-      "populationRank": 93,
+      "populationRank": 97,
       "isCapital": false
     },
     {
@@ -843,7 +892,7 @@
       "latitude": 44.07926,
       "longitude": 10.09789,
       "population": 58666,
-      "populationRank": 94,
+      "populationRank": 98,
       "isCapital": false
     },
     {
@@ -852,7 +901,7 @@
       "latitude": 41.1307,
       "longitude": 14.77816,
       "population": 58418,
-      "populationRank": 95,
+      "populationRank": 99,
       "isCapital": false
     },
     {
@@ -861,7 +910,7 @@
       "latitude": 45.31407,
       "longitude": 8.85437,
       "population": 57970,
-      "populationRank": 96,
+      "populationRank": 100,
       "isCapital": false
     },
     {
@@ -870,7 +919,7 @@
       "latitude": 45.59788,
       "longitude": 8.91506,
       "population": 57589,
-      "populationRank": 97,
+      "populationRank": 101,
       "isCapital": false
     },
     {
@@ -879,7 +928,7 @@
       "latitude": 41.63065,
       "longitude": 15.91876,
       "population": 56932,
-      "populationRank": 98,
+      "populationRank": 102,
       "isCapital": false
     },
     {
@@ -888,7 +937,7 @@
       "latitude": 42.95488,
       "longitude": 12.70268,
       "population": 56918,
-      "populationRank": 99,
+      "populationRank": 103,
       "isCapital": false
     },
     {
@@ -897,7 +946,7 @@
       "latitude": 40.64175,
       "longitude": 15.80794,
       "population": 56433,
-      "populationRank": 100,
+      "populationRank": 104,
       "isCapital": false
     },
     {
@@ -906,7 +955,7 @@
       "latitude": 44.9994,
       "longitude": 7.68236,
       "population": 56134,
-      "populationRank": 101,
+      "populationRank": 105,
       "isCapital": false
     },
     {
@@ -915,7 +964,7 @@
       "latitude": 44.39071,
       "longitude": 7.54828,
       "population": 55980,
-      "populationRank": 102,
+      "populationRank": 106,
       "isCapital": false
     },
     {
@@ -924,7 +973,7 @@
       "latitude": 41.24264,
       "longitude": 16.50104,
       "population": 55385,
-      "populationRank": 103,
+      "populationRank": 107,
       "isCapital": false
     },
     {
@@ -933,7 +982,7 @@
       "latitude": 36.85868,
       "longitude": 14.75966,
       "population": 54456,
-      "populationRank": 104,
+      "populationRank": 108,
       "isCapital": false
     },
     {
@@ -942,7 +991,7 @@
       "latitude": 42.66123,
       "longitude": 13.69901,
       "population": 54338,
-      "populationRank": 105,
+      "populationRank": 109,
       "isCapital": false
     },
     {
@@ -951,7 +1000,7 @@
       "latitude": 41.26523,
       "longitude": 15.89559,
       "population": 54056,
-      "populationRank": 106,
+      "populationRank": 110,
       "isCapital": false
     },
     {
@@ -960,7 +1009,7 @@
       "latitude": 41.27733,
       "longitude": 16.41011,
       "population": 53981,
-      "populationRank": 107,
+      "populationRank": 111,
       "isCapital": false
     },
     {
@@ -969,7 +1018,7 @@
       "latitude": 43.31822,
       "longitude": 11.33064,
       "population": 53901,
-      "populationRank": 108,
+      "populationRank": 112,
       "isCapital": false
     },
     {
@@ -978,7 +1027,7 @@
       "latitude": 40.81563,
       "longitude": 14.33716,
       "population": 53801,
-      "populationRank": 109,
+      "populationRank": 113,
       "isCapital": false
     },
     {
@@ -987,7 +1036,7 @@
       "latitude": 40.80783,
       "longitude": 14.35012,
       "population": 53576,
-      "populationRank": 110,
+      "populationRank": 114,
       "isCapital": false
     },
     {
@@ -996,7 +1045,7 @@
       "latitude": 42.5114,
       "longitude": 14.14507,
       "population": 53275,
-      "populationRank": 111,
+      "populationRank": 115,
       "isCapital": false
     },
     {
@@ -1005,16 +1054,17 @@
       "latitude": 38.07892,
       "longitude": 13.51237,
       "population": 53149,
-      "populationRank": 112,
+      "populationRank": 116,
       "isCapital": false
     },
     {
       "id": "3179337",
       "name": "Cava Dè Tirreni",
+      "nativeName": "Cava de' Tirreni",
       "latitude": 40.69954,
       "longitude": 14.70773,
       "population": 53130,
-      "populationRank": 113,
+      "populationRank": 117,
       "isCapital": false
     },
     {
@@ -1023,7 +1073,7 @@
       "latitude": 40.97259,
       "longitude": 14.20745,
       "population": 52974,
-      "populationRank": 114,
+      "populationRank": 118,
       "isCapital": false
     },
     {
@@ -1032,7 +1082,7 @@
       "latitude": 41.68573,
       "longitude": 12.77753,
       "population": 52911,
-      "populationRank": 115,
+      "populationRank": 119,
       "isCapital": false
     },
     {
@@ -1041,7 +1091,7 @@
       "latitude": 41.68564,
       "longitude": 15.38148,
       "population": 51919,
-      "populationRank": 116,
+      "populationRank": 120,
       "isCapital": false
     },
     {
@@ -1050,7 +1100,7 @@
       "latitude": 41.11006,
       "longitude": 16.69086,
       "population": 51661,
-      "populationRank": 117,
+      "populationRank": 121,
       "isCapital": false
     },
     {
@@ -1059,16 +1109,17 @@
       "latitude": 37.65535,
       "longitude": 12.58986,
       "population": 51534,
-      "populationRank": 118,
+      "populationRank": 122,
       "isCapital": false
     },
     {
       "id": "3164603",
       "name": "Venice",
+      "nativeName": "Venezia",
       "latitude": 45.43713,
       "longitude": 12.33265,
       "population": 51298,
-      "populationRank": 119,
+      "populationRank": 123,
       "isCapital": false
     },
     {
@@ -1077,7 +1128,7 @@
       "latitude": 36.95151,
       "longitude": 14.52788,
       "population": 50852,
-      "populationRank": 120,
+      "populationRank": 124,
       "isCapital": false
     },
     {
@@ -1086,7 +1137,7 @@
       "latitude": 45.66019,
       "longitude": 8.79164,
       "population": 50439,
-      "populationRank": 121,
+      "populationRank": 125,
       "isCapital": false
     },
     {
@@ -1095,7 +1146,7 @@
       "latitude": 45.06982,
       "longitude": 11.79022,
       "population": 50279,
-      "populationRank": 122,
+      "populationRank": 126,
       "isCapital": false
     },
     {
@@ -1104,7 +1155,7 @@
       "latitude": 40.8971,
       "longitude": 14.18824,
       "population": 49920,
-      "populationRank": 123,
+      "populationRank": 127,
       "isCapital": false
     },
     {
@@ -1113,7 +1164,7 @@
       "latitude": 45.95689,
       "longitude": 12.66051,
       "population": 49878,
-      "populationRank": 124,
+      "populationRank": 128,
       "isCapital": false
     },
     {
@@ -1122,7 +1173,7 @@
       "latitude": 41.45794,
       "longitude": 12.66393,
       "population": 49873,
-      "populationRank": 125,
+      "populationRank": 129,
       "isCapital": false
     },
     {
@@ -1131,7 +1182,7 @@
       "latitude": 37.60886,
       "longitude": 15.16577,
       "population": 49477,
-      "populationRank": 126,
+      "populationRank": 130,
       "isCapital": false
     },
     {
@@ -1140,7 +1191,7 @@
       "latitude": 41.55947,
       "longitude": 14.66737,
       "population": 49230,
-      "populationRank": 127,
+      "populationRank": 131,
       "isCapital": false
     },
     {
@@ -1149,7 +1200,7 @@
       "latitude": 40.7602,
       "longitude": 14.53723,
       "population": 48702,
-      "populationRank": 128,
+      "populationRank": 132,
       "isCapital": false
     },
     {
@@ -1158,7 +1209,7 @@
       "latitude": 45.07073,
       "longitude": 7.51465,
       "population": 48629,
-      "populationRank": 129,
+      "populationRank": 133,
       "isCapital": false
     },
     {
@@ -1167,7 +1218,7 @@
       "latitude": 40.91494,
       "longitude": 14.79103,
       "population": 48104,
-      "populationRank": 130,
+      "populationRank": 134,
       "isCapital": false
     },
     {
@@ -1176,7 +1227,7 @@
       "latitude": 45.00031,
       "longitude": 7.65305,
       "population": 47760,
-      "populationRank": 131,
+      "populationRank": 135,
       "isCapital": false
     },
     {
@@ -1185,7 +1236,7 @@
       "latitude": 42.09325,
       "longitude": 11.79674,
       "population": 47543,
-      "populationRank": 132,
+      "populationRank": 136,
       "isCapital": false
     },
     {
@@ -1194,7 +1245,7 @@
       "latitude": 45.13925,
       "longitude": 7.77008,
       "population": 47485,
-      "populationRank": 133,
+      "populationRank": 137,
       "isCapital": false
     },
     {
@@ -1203,7 +1254,7 @@
       "latitude": 42.41937,
       "longitude": 12.1056,
       "population": 47134,
-      "populationRank": 134,
+      "populationRank": 138,
       "isCapital": false
     },
     {
@@ -1212,7 +1263,7 @@
       "latitude": 40.60861,
       "longitude": 14.98209,
       "population": 47104,
-      "populationRank": 135,
+      "populationRank": 139,
       "isCapital": false
     },
     {
@@ -1221,7 +1272,7 @@
       "latitude": 45.53245,
       "longitude": 9.0402,
       "population": 47086,
-      "populationRank": 136,
+      "populationRank": 140,
       "isCapital": false
     },
     {
@@ -1230,7 +1281,7 @@
       "latitude": 43.81725,
       "longitude": 7.7772,
       "population": 47043,
-      "populationRank": 137,
+      "populationRank": 141,
       "isCapital": false
     },
     {
@@ -1239,7 +1290,7 @@
       "latitude": 45.21857,
       "longitude": 12.27774,
       "population": 46951,
-      "populationRank": 138,
+      "populationRank": 142,
       "isCapital": false
     },
     {
@@ -1248,7 +1299,7 @@
       "latitude": 45.85589,
       "longitude": 9.39704,
       "population": 46580,
-      "populationRank": 139,
+      "populationRank": 143,
       "isCapital": false
     },
     {
@@ -1257,7 +1308,7 @@
       "latitude": 45.07873,
       "longitude": 7.56735,
       "population": 46524,
-      "populationRank": 140,
+      "populationRank": 144,
       "isCapital": false
     },
     {
@@ -1266,7 +1317,7 @@
       "latitude": 41.15171,
       "longitude": 16.41143,
       "population": 46505,
-      "populationRank": 141,
+      "populationRank": 145,
       "isCapital": false
     },
     {
@@ -1275,7 +1326,7 @@
       "latitude": 45.56899,
       "longitude": 9.16483,
       "population": 46235,
-      "populationRank": 142,
+      "populationRank": 146,
       "isCapital": false
     },
     {
@@ -1284,7 +1335,7 @@
       "latitude": 37.56675,
       "longitude": 14.90254,
       "population": 46030,
-      "populationRank": 143,
+      "populationRank": 147,
       "isCapital": false
     },
     {
@@ -1293,7 +1344,7 @@
       "latitude": 45.32163,
       "longitude": 8.41989,
       "population": 45875,
-      "populationRank": 144,
+      "populationRank": 148,
       "isCapital": false
     },
     {
@@ -1302,7 +1353,7 @@
       "latitude": 42.9568,
       "longitude": 13.87676,
       "population": 45873,
-      "populationRank": 145,
+      "populationRank": 149,
       "isCapital": false
     },
     {
@@ -1311,7 +1362,7 @@
       "latitude": 40.90969,
       "longitude": 14.34205,
       "population": 45796,
-      "populationRank": 146,
+      "populationRank": 150,
       "isCapital": false
     },
     {
@@ -1320,7 +1371,7 @@
       "latitude": 45.53004,
       "longitude": 9.27795,
       "population": 45786,
-      "populationRank": 147,
+      "populationRank": 151,
       "isCapital": false
     },
     {
@@ -1329,7 +1380,7 @@
       "latitude": 43.83193,
       "longitude": 11.19924,
       "population": 45656,
-      "populationRank": 148,
+      "populationRank": 152,
       "isCapital": false
     },
     {
@@ -1338,7 +1389,7 @@
       "latitude": 40.7454,
       "longitude": 14.64542,
       "population": 45608,
-      "populationRank": 149,
+      "populationRank": 153,
       "isCapital": false
     },
     {
@@ -1347,7 +1398,7 @@
       "latitude": 37.51803,
       "longitude": 15.00913,
       "population": 45542,
-      "populationRank": 150,
+      "populationRank": 154,
       "isCapital": false
     },
     {
@@ -1356,7 +1407,7 @@
       "latitude": 40.83261,
       "longitude": 14.34162,
       "population": 45463,
-      "populationRank": 151,
+      "populationRank": 155,
       "isCapital": false
     },
     {
@@ -1365,7 +1416,7 @@
       "latitude": 41.45263,
       "longitude": 12.62157,
       "population": 45403,
-      "populationRank": 152,
+      "populationRank": 156,
       "isCapital": false
     },
     {
@@ -1374,7 +1425,7 @@
       "latitude": 43.75423,
       "longitude": 11.18794,
       "population": 44951,
-      "populationRank": 153,
+      "populationRank": 157,
       "isCapital": false
     },
     {
@@ -1383,7 +1434,7 @@
       "latitude": 41.63976,
       "longitude": 13.34109,
       "population": 44505,
-      "populationRank": 154,
+      "populationRank": 158,
       "isCapital": false
     },
     {
@@ -1392,7 +1443,7 @@
       "latitude": 42.34827,
       "longitude": 14.16494,
       "population": 44444,
-      "populationRank": 155,
+      "populationRank": 159,
       "isCapital": false
     },
     {
@@ -1401,7 +1452,7 @@
       "latitude": 37.9779,
       "longitude": 12.96473,
       "population": 44431,
-      "populationRank": 156,
+      "populationRank": 160,
       "isCapital": false
     },
     {
@@ -1410,7 +1461,7 @@
       "latitude": 41.76984,
       "longitude": 12.65917,
       "population": 44142,
-      "populationRank": 157,
+      "populationRank": 161,
       "isCapital": false
     },
     {
@@ -1419,7 +1470,7 @@
       "latitude": 40.75337,
       "longitude": 14.45251,
       "population": 43521,
-      "populationRank": 158,
+      "populationRank": 162,
       "isCapital": false
     },
     {
@@ -1428,7 +1479,7 @@
       "latitude": 45.56304,
       "longitude": 8.05796,
       "population": 43030,
-      "populationRank": 159,
+      "populationRank": 163,
       "isCapital": false
     },
     {
@@ -1437,7 +1488,7 @@
       "latitude": 45.65002,
       "longitude": 9.20548,
       "population": 42760,
-      "populationRank": 160,
+      "populationRank": 164,
       "isCapital": false
     },
     {
@@ -1446,7 +1497,7 @@
       "latitude": 43.88917,
       "longitude": 8.03933,
       "population": 42328,
-      "populationRank": 161,
+      "populationRank": 165,
       "isCapital": false
     },
     {
@@ -1455,7 +1506,7 @@
       "latitude": 43.30491,
       "longitude": 13.72068,
       "population": 42251,
-      "populationRank": 162,
+      "populationRank": 166,
       "isCapital": false
     },
     {
@@ -1464,7 +1515,7 @@
       "latitude": 40.81748,
       "longitude": 16.41915,
       "population": 42210,
-      "populationRank": 163,
+      "populationRank": 167,
       "isCapital": false
     },
     {
@@ -1473,7 +1524,7 @@
       "latitude": 45.61831,
       "longitude": 9.20249,
       "population": 41960,
-      "populationRank": 164,
+      "populationRank": 168,
       "isCapital": false
     },
     {
@@ -1482,7 +1533,7 @@
       "latitude": 45.63019,
       "longitude": 12.5681,
       "population": 41856,
-      "populationRank": 165,
+      "populationRank": 169,
       "isCapital": false
     },
     {
@@ -1491,7 +1542,7 @@
       "latitude": 42.85351,
       "longitude": 13.57395,
       "population": 41741,
-      "populationRank": 166,
+      "populationRank": 170,
       "isCapital": false
     },
     {
@@ -1500,7 +1551,7 @@
       "latitude": 44.29007,
       "longitude": 11.87948,
       "population": 41714,
-      "populationRank": 167,
+      "populationRank": 171,
       "isCapital": false
     },
     {
@@ -1509,7 +1560,7 @@
       "latitude": 42.1115,
       "longitude": 14.70649,
       "population": 41409,
-      "populationRank": 168,
+      "populationRank": 172,
       "isCapital": false
     },
     {
@@ -1518,16 +1569,17 @@
       "latitude": 43.84171,
       "longitude": 10.57271,
       "population": 41116,
-      "populationRank": 169,
+      "populationRank": 173,
       "isCapital": false
     },
     {
       "id": "3173577",
       "name": "Merano",
+      "nativeName": "Merano - Meran",
       "latitude": 46.66817,
       "longitude": 11.15953,
       "population": 41051,
-      "populationRank": 170,
+      "populationRank": 174,
       "isCapital": false
     },
     {
@@ -1536,7 +1588,7 @@
       "latitude": 45.30989,
       "longitude": 9.50085,
       "population": 40767,
-      "populationRank": 171,
+      "populationRank": 175,
       "isCapital": false
     },
     {
@@ -1545,7 +1597,7 @@
       "latitude": 37.50693,
       "longitude": 13.08399,
       "population": 40569,
-      "populationRank": 172,
+      "populationRank": 176,
       "isCapital": false
     },
     {
@@ -1554,7 +1606,7 @@
       "latitude": 43.67557,
       "longitude": 10.55494,
       "population": 40512,
-      "populationRank": 173,
+      "populationRank": 177,
       "isCapital": false
     },
     {
@@ -1563,7 +1615,7 @@
       "latitude": 41.03064,
       "longitude": 14.29868,
       "population": 40239,
-      "populationRank": 174,
+      "populationRank": 178,
       "isCapital": false
     },
     {
@@ -1572,7 +1624,7 @@
       "latitude": 45.74096,
       "longitude": 9.13084,
       "population": 39917,
-      "populationRank": 175,
+      "populationRank": 179,
       "isCapital": false
     },
     {
@@ -1581,7 +1633,7 @@
       "latitude": 41.35787,
       "longitude": 13.42718,
       "population": 39762,
-      "populationRank": 176,
+      "populationRank": 180,
       "isCapital": false
     },
     {
@@ -1590,16 +1642,17 @@
       "latitude": 45.38193,
       "longitude": 9.1559,
       "population": 39731,
-      "populationRank": 177,
+      "populationRank": 181,
       "isCapital": false
     },
     {
       "id": "3174051",
       "name": "Mantua",
+      "nativeName": "Mantova",
       "latitude": 45.16031,
       "longitude": 10.79784,
       "population": 39260,
-      "populationRank": 178,
+      "populationRank": 182,
       "isCapital": false
     },
     {
@@ -1608,7 +1661,7 @@
       "latitude": 42.40476,
       "longitude": 12.85735,
       "population": 39068,
-      "populationRank": 179,
+      "populationRank": 183,
       "isCapital": false
     },
     {
@@ -1617,7 +1670,7 @@
       "latitude": 40.90975,
       "longitude": 14.38316,
       "population": 38921,
-      "populationRank": 180,
+      "populationRank": 184,
       "isCapital": false
     },
     {
@@ -1626,7 +1679,7 @@
       "latitude": 44.99151,
       "longitude": 9.01175,
       "population": 38464,
-      "populationRank": 181,
+      "populationRank": 185,
       "isCapital": false
     },
     {
@@ -1635,7 +1688,7 @@
       "latitude": 37.23785,
       "longitude": 14.51551,
       "population": 38391,
-      "populationRank": 182,
+      "populationRank": 186,
       "isCapital": false
     },
     {
@@ -1644,7 +1697,7 @@
       "latitude": 41.80064,
       "longitude": 12.60158,
       "population": 38277,
-      "populationRank": 183,
+      "populationRank": 187,
       "isCapital": false
     },
     {
@@ -1653,7 +1706,7 @@
       "latitude": 45.76656,
       "longitude": 11.72739,
       "population": 38224,
-      "populationRank": 184,
+      "populationRank": 188,
       "isCapital": false
     },
     {
@@ -1662,7 +1715,7 @@
       "latitude": 45.62513,
       "longitude": 9.03517,
       "population": 38099,
-      "populationRank": 185,
+      "populationRank": 189,
       "isCapital": false
     },
     {
@@ -1671,7 +1724,7 @@
       "latitude": 42.02896,
       "longitude": 13.42641,
       "population": 37808,
-      "populationRank": 186,
+      "populationRank": 190,
       "isCapital": false
     },
     {
@@ -1680,7 +1733,7 @@
       "latitude": 40.94918,
       "longitude": 17.29717,
       "population": 37738,
-      "populationRank": 187,
+      "populationRank": 191,
       "isCapital": false
     },
     {
@@ -1689,7 +1742,7 @@
       "latitude": 40.70355,
       "longitude": 17.33814,
       "population": 37685,
-      "populationRank": 188,
+      "populationRank": 192,
       "isCapital": false
     },
     {
@@ -1698,7 +1751,7 @@
       "latitude": 40.87822,
       "longitude": 14.14352,
       "population": 37683,
-      "populationRank": 189,
+      "populationRank": 193,
       "isCapital": false
     },
     {
@@ -1707,7 +1760,7 @@
       "latitude": 45.61236,
       "longitude": 9.23985,
       "population": 37353,
-      "populationRank": 190,
+      "populationRank": 194,
       "isCapital": false
     },
     {
@@ -1716,7 +1769,7 @@
       "latitude": 42.05159,
       "longitude": 12.61969,
       "population": 37225,
-      "populationRank": 191,
+      "populationRank": 195,
       "isCapital": false
     },
     {
@@ -1725,7 +1778,7 @@
       "latitude": 45.62915,
       "longitude": 9.15189,
       "population": 36986,
-      "populationRank": 192,
+      "populationRank": 196,
       "isCapital": false
     },
     {
@@ -1734,7 +1787,7 @@
       "latitude": 43.52142,
       "longitude": 13.24368,
       "population": 36985,
-      "populationRank": 193,
+      "populationRank": 197,
       "isCapital": false
     },
     {
@@ -1743,7 +1796,7 @@
       "latitude": 40.91948,
       "longitude": 14.23104,
       "population": 36933,
-      "populationRank": 194,
+      "populationRank": 198,
       "isCapital": false
     },
     {
@@ -1752,7 +1805,7 @@
       "latitude": 44.5432,
       "longitude": 10.7848,
       "population": 36926,
-      "populationRank": 195,
+      "populationRank": 199,
       "isCapital": false
     },
     {
@@ -1761,42 +1814,6 @@
       "latitude": 45.01054,
       "longitude": 7.82133,
       "population": 36749,
-      "populationRank": 196,
-      "isCapital": false
-    },
-    {
-      "id": "3175755",
-      "name": "Grugliasco",
-      "latitude": 45.06516,
-      "longitude": 7.57954,
-      "population": 36700,
-      "populationRank": 197,
-      "isCapital": false
-    },
-    {
-      "id": "2524393",
-      "name": "Licata",
-      "latitude": 37.10267,
-      "longitude": 13.93972,
-      "population": 36537,
-      "populationRank": 198,
-      "isCapital": false
-    },
-    {
-      "id": "3173326",
-      "name": "Modugno",
-      "latitude": 41.08433,
-      "longitude": 16.78342,
-      "population": 36384,
-      "populationRank": 199,
-      "isCapital": false
-    },
-    {
-      "id": "3172154",
-      "name": "Nuoro",
-      "latitude": 40.31991,
-      "longitude": 9.32568,
-      "population": 35948,
       "populationRank": 200,
       "isCapital": false
     }

@@ -3,6 +3,7 @@
     {
       "id": "786714",
       "name": "Pristina",
+      "nativeName": "Prishtinë",
       "latitude": 42.67272,
       "longitude": 21.16688,
       "population": 550000,
@@ -20,7 +21,8 @@
     },
     {
       "id": "789225",
-      "name": "Mitrovicë",
+      "name": "Mitrovica",
+      "nativeName": "Mitrovicë",
       "latitude": 42.88333,
       "longitude": 20.86667,
       "population": 107045,
@@ -29,7 +31,8 @@
     },
     {
       "id": "791646",
-      "name": "Gjakovë",
+      "name": "Gjakova",
+      "nativeName": "Gjakovë",
       "latitude": 42.38028,
       "longitude": 20.43083,
       "population": 94158,
@@ -39,6 +42,7 @@
     {
       "id": "785238",
       "name": "Suva Reka",
+      "nativeName": "Suharekë",
       "latitude": 42.35861,
       "longitude": 20.825,
       "population": 72229,
@@ -56,7 +60,7 @@
     },
     {
       "id": "790701",
-      "name": "Glogovac",
+      "name": "Drenas",
       "latitude": 42.62833,
       "longitude": 20.89389,
       "population": 58579,
@@ -92,7 +96,7 @@
     },
     {
       "id": "784372",
-      "name": "Vitina",
+      "name": "Viti",
       "latitude": 42.32139,
       "longitude": 21.35833,
       "population": 46959,
@@ -101,7 +105,7 @@
     },
     {
       "id": "789996",
-      "name": "Istok",
+      "name": "Istog",
       "latitude": 42.78083,
       "longitude": 20.4875,
       "population": 40000,
@@ -120,6 +124,7 @@
     {
       "id": "786950",
       "name": "Podujeva",
+      "nativeName": "Podujevë",
       "latitude": 42.91056,
       "longitude": 21.19306,
       "population": 35000,
@@ -147,6 +152,7 @@
     {
       "id": "787456",
       "name": "Orahovac",
+      "nativeName": "Rahovec",
       "latitude": 42.39944,
       "longitude": 20.65472,
       "population": 22049,
@@ -156,6 +162,7 @@
     {
       "id": "788731",
       "name": "Leposaviq",
+      "nativeName": "Leposavić",
       "latitude": 43.10389,
       "longitude": 20.80278,
       "population": 19000,
@@ -191,7 +198,7 @@
     },
     {
       "id": "789721",
-      "name": "Kačanik",
+      "name": "Kaçanik",
       "latitude": 42.23194,
       "longitude": 21.25944,
       "population": 9800,
@@ -201,6 +208,7 @@
     {
       "id": "789227",
       "name": "Kamenica",
+      "nativeName": "Kamenicë",
       "latitude": 42.57806,
       "longitude": 21.58028,
       "population": 9312,
@@ -209,7 +217,7 @@
     },
     {
       "id": "788652",
-      "name": "Lipljan",
+      "name": "Lipjan",
       "latitude": 42.52167,
       "longitude": 21.12583,
       "population": 9047,
@@ -219,6 +227,7 @@
     {
       "id": "789455",
       "name": "Klina",
+      "nativeName": "Klinë",
       "latitude": 42.62167,
       "longitude": 20.57778,
       "population": 8050,
@@ -237,6 +246,7 @@
     {
       "id": "785642",
       "name": "Srbica",
+      "nativeName": "Skënderaj",
       "latitude": 42.74667,
       "longitude": 20.78861,
       "population": 5089,
@@ -246,6 +256,7 @@
     {
       "id": "788239",
       "name": "Mališevo",
+      "nativeName": "Malishevë",
       "latitude": 42.48222,
       "longitude": 20.74583,
       "population": 2300,

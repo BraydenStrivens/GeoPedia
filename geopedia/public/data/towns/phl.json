@@ -11,7 +11,7 @@
     },
     {
       "id": "1715348",
-      "name": "Davao",
+      "name": "Davao City",
       "latitude": 7.07306,
       "longitude": 125.61278,
       "population": 1848947,
@@ -47,7 +47,7 @@
     },
     {
       "id": "1679432",
-      "name": "Zamboanga",
+      "name": "Zamboanga City",
       "latitude": 6.91028,
       "longitude": 122.07389,
       "population": 1018849,
@@ -128,7 +128,7 @@
     },
     {
       "id": "1703417",
-      "name": "Makati City",
+      "name": "Makati",
       "latitude": 14.55027,
       "longitude": 121.03269,
       "population": 510383,
@@ -137,7 +137,7 @@
     },
     {
       "id": "1707267",
-      "name": "Lapu-Lapu City",
+      "name": "Lapu-Lapu",
       "latitude": 10.31028,
       "longitude": 123.94944,
       "population": 497813,
@@ -146,7 +146,7 @@
     },
     {
       "id": "1730737",
-      "name": "Angeles City",
+      "name": "Angeles",
       "latitude": 15.15,
       "longitude": 120.58333,
       "population": 483452,
@@ -164,7 +164,7 @@
     },
     {
       "id": "1711005",
-      "name": "Iloilo",
+      "name": "Iloilo City",
       "latitude": 10.69694,
       "longitude": 122.56444,
       "population": 473728,
@@ -173,7 +173,7 @@
     },
     {
       "id": "1729564",
-      "name": "Bacolod City",
+      "name": "Bacolod",
       "latitude": 10.66667,
       "longitude": 122.95,
       "population": 454898,
@@ -218,7 +218,7 @@
     },
     {
       "id": "1716771",
-      "name": "Cotabato",
+      "name": "Cotabato City",
       "latitude": 7.22361,
       "longitude": 124.24639,
       "population": 383383,
@@ -264,6 +264,7 @@
     {
       "id": "1721906",
       "name": "Cabanatuan City",
+      "nativeName": "Cabanatuan",
       "latitude": 15.48586,
       "longitude": 120.96648,
       "population": 343672,
@@ -344,7 +345,7 @@
     },
     {
       "id": "1701053",
-      "name": "Marawi City",
+      "name": "Marawi",
       "latitude": 8.0034,
       "longitude": 124.28395,
       "population": 259993,
@@ -389,7 +390,7 @@
     },
     {
       "id": "1726280",
-      "name": "Batangas",
+      "name": "Batangas City",
       "latitude": 13.7567,
       "longitude": 121.0584,
       "population": 237370,
@@ -398,7 +399,7 @@
     },
     {
       "id": "1684269",
-      "name": "Magugpo Poblacion",
+      "name": "Tagum",
       "latitude": 7.4475,
       "longitude": 125.8046,
       "population": 233254,
@@ -434,7 +435,7 @@
     },
     {
       "id": "1680116",
-      "name": "NIA Valencia",
+      "name": "Valencia",
       "latitude": 7.90639,
       "longitude": 125.09417,
       "population": 223620,
@@ -480,6 +481,7 @@
     {
       "id": "1706090",
       "name": "Lipa City",
+      "nativeName": "Lipa",
       "latitude": 13.9411,
       "longitude": 121.1631,
       "population": 212287,
@@ -533,7 +535,7 @@
     },
     {
       "id": "1729085",
-      "name": "Bago City",
+      "name": "Bago",
       "latitude": 10.53333,
       "longitude": 122.83333,
       "population": 192993,
@@ -542,7 +544,7 @@
     },
     {
       "id": "1704703",
-      "name": "Mabalacat City",
+      "name": "Mabalacat",
       "latitude": 15.22303,
       "longitude": 120.57117,
       "population": 188050,
@@ -560,7 +562,7 @@
     },
     {
       "id": "1706889",
-      "name": "Legaspi",
+      "name": "Legazpi",
       "latitude": 13.14125,
       "longitude": 123.74073,
       "population": 179481,
@@ -705,6 +707,7 @@
     {
       "id": "1727995",
       "name": "Baliuag",
+      "nativeName": "Baliwag",
       "latitude": 14.95472,
       "longitude": 120.89694,
       "population": 135679,
@@ -938,7 +941,7 @@
     },
     {
       "id": "1710544",
-      "name": "Iriga City",
+      "name": "Iriga",
       "latitude": 13.4324,
       "longitude": 123.4115,
       "population": 115306,
@@ -1173,6 +1176,7 @@
     {
       "id": "1696899",
       "name": "Ozamiz City",
+      "nativeName": "Ozamiz",
       "latitude": 8.1481,
       "longitude": 123.8405,
       "population": 93082,
@@ -1280,7 +1284,7 @@
     },
     {
       "id": "1685218",
-      "name": "Surigao",
+      "name": "Surigao City",
       "latitude": 9.789,
       "longitude": 125.495,
       "population": 87832,
@@ -1334,7 +1338,7 @@
     },
     {
       "id": "1684497",
-      "name": "Tagbilaran City",
+      "name": "Tagbilaran",
       "latitude": 9.65556,
       "longitude": 123.85219,
       "population": 86411,
@@ -1370,7 +1374,7 @@
     },
     {
       "id": "1723066",
-      "name": "Bulacan",
+      "name": "Bulakan",
       "latitude": 14.79278,
       "longitude": 120.87889,
       "population": 83101,
@@ -1479,6 +1483,7 @@
     {
       "id": "1723763",
       "name": "Brookes Point",
+      "nativeName": "Brooke's Point",
       "latitude": 8.77201,
       "longitude": 117.8371,
       "population": 76715,
@@ -1694,7 +1699,7 @@
     },
     {
       "id": "1720402",
-      "name": "Calbayog City",
+      "name": "Calbayog",
       "latitude": 12.0668,
       "longitude": 124.5962,
       "population": 67921,
@@ -1739,7 +1744,7 @@
     },
     {
       "id": "1710519",
-      "name": "City of Isabela",
+      "name": "Isabela",
       "latitude": 6.70407,
       "longitude": 121.97117,
       "population": 67336,

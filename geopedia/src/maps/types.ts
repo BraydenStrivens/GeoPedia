@@ -135,7 +135,7 @@ export type HoveredFeature = {
 /**
  * Represents temporary feedback displayed after an incorrect map selection.
  */
-export type IncorrectSelection = {
+export type FeatureSelection = {
   /** Complete answer-label content belonging to the selected feature. */
   content: AnswerLabelContent;
 

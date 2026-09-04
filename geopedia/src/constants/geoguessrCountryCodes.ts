@@ -1,6 +1,6 @@
 /**
- * ISO-A3 codes for countries currently included in GeoGuessr's standard
- * country coverage.
+ * ISO-A3 codes for countries/territories currently included in GeoGuessr's standard
+ * country coverage as of September 4, 2026.
  *
  * These values use the same uppercase ISO-A3 format stored by the
  * `iso_a3` property in world-countries.geojson.
@@ -43,6 +43,7 @@ export const GEOGUESSR_COUNTRY_CODES = new Set<string>([
   "KGZ", // Kyrgyzstan
   "LAO", // Laos
   "LBN", // Lebanon
+  "MAC", // Macau
   "MYS", // Malaysia
   "MNG", // Mongolia
   "NPL", // Nepal

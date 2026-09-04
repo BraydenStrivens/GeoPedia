@@ -2,7 +2,8 @@
   "towns": [
     {
       "id": "4032402",
-      "name": "Nuku‘alofa",
+      "name": "Nuku'alofa",
+      "nativeName": "Nukuʻalofa",
       "latitude": -21.13683,
       "longitude": -175.20114,
       "population": 22400,
@@ -30,6 +31,7 @@
     {
       "id": "13527023",
       "name": "Tofoa-Koloua",
+      "nativeName": "Tofoa",
       "latitude": -21.15555,
       "longitude": -175.22922,
       "population": 3467,
@@ -129,6 +131,7 @@
     {
       "id": "4032384",
       "name": "'Ohonua",
+      "nativeName": "ʻOhonua",
       "latitude": -21.34135,
       "longitude": -174.95656,
       "population": 1466,
@@ -138,6 +141,7 @@
     {
       "id": "4032535",
       "name": "Leimātu'a",
+      "nativeName": "Leimatu'a",
       "latitude": -18.59964,
       "longitude": -173.98121,
       "population": 1425,
@@ -174,6 +178,7 @@
     {
       "id": "13527027",
       "name": "Ha'atu'a",
+      "nativeName": "'Eua Fo'ou",
       "latitude": -21.37662,
       "longitude": -174.95465,
       "population": 489,

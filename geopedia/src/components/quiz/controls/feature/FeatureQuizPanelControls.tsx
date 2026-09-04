@@ -1,19 +1,33 @@
 /**
- * Displays GeoPedia's floating quiz Settings and Groups controls for feature quizzes.
+ * Displays the floating auxiliary panel controls used by GeoPedia feature
+ * quizzes.
  *
- * This component owns presentation only. The quiz client remains responsible
- * for deciding whether panels are open, whether Groups may be opened, and how
- * panel contents modify quiz state.
+ * Feature quizzes currently expose:
+ *
+ * - A Settings panel toggle.
+ * - A Groups panel toggle.
+ * - A warning when Groups cannot be opened during an active quiz.
+ * - The currently open Settings and Groups panel contents.
+ *
+ * This component owns presentation only. The hydrated feature quiz client
+ * remains responsible for panel state, determining when Groups interactions
+ * are blocked, controlling the blocked warning, and supplying the rendered
+ * panel contents.
+ *
+ * Shared panel-toggle styling, Settings icon presentation, and blocked-panel
+ * warning presentation are delegated to reusable quiz control components.
  */
 
 "use client";
 
 import type { ReactNode } from "react";
 
-import QuizPanelButton from "../QuizPanelButton";
+import QuizBlockedPanelMessage from "../shared/QuizBlockedPanelMessage";
+import QuizSettingsIcon from "../shared/QuizSettingsIcon";
+import QuizTogglePanelButton from "../shared/QuizTogglePanelButton";
 
 /**
- * Props required by the floating quiz-panel controls.
+ * Props required by the floating feature quiz panel controls.
  */
 type FeatureQuizPanelControlsProps = {
   /** Whether the Settings panel is currently open. */
@@ -28,10 +42,15 @@ type FeatureQuizPanelControlsProps = {
   /** Opens or closes the Settings panel. */
   onToggleSettings: () => void;
 
-  /** Attempts to open or close the Groups panel. */
+  /**
+   * Attempts to open or close the Groups panel.
+   *
+   * The parent feature quiz client determines whether this action is currently
+   * allowed and may show the blocked warning instead.
+   */
   onToggleGroups: () => void;
 
-  /** Closes the Groups unavailable warning. */
+  /** Closes the warning explaining why Groups is unavailable. */
   onCloseGroupsBlockedMessage: () => void;
 
   /** Rendered Settings panel content. */
@@ -42,11 +61,11 @@ type FeatureQuizPanelControlsProps = {
 };
 
 /**
- * Displays floating panel buttons, the Groups warning, and any currently open
- * quiz panels.
+ * Renders the floating feature quiz panel toggles, blocked Groups warning, and
+ * currently open auxiliary panels.
  *
- * @param props - Panel state, callbacks, and rendered panel content.
- * @returns Floating quiz-panel controls.
+ * @param props - Feature panel state, callbacks, and rendered panel contents.
+ * @returns Floating feature quiz panel controls.
  */
 export default function FeatureQuizPanelControls({
   isSettingsOpen,
@@ -60,70 +79,36 @@ export default function FeatureQuizPanelControls({
 }: FeatureQuizPanelControlsProps) {
   return (
     <div className="absolute right-3 top-3 z-30 flex max-w-[calc(100vw-1.5rem)] flex-col items-end gap-5">
-      {/* Panel toggle buttons */}
+      {/* Floating panel toggle controls */}
       <div className="relative z-30 flex max-w-full flex-row items-start gap-5">
         {/* Settings panel toggle */}
-        <QuizPanelButton
+        <QuizTogglePanelButton
           label="Quiz settings"
           isOpen={isSettingsOpen}
           onClick={onToggleSettings}
         >
-          {/* Settings gear icon */}
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.8"
-            className="h-5 w-5"
-            aria-hidden="true"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.592c.55 0 1.02.398 1.11.94l.213 1.279c.063.379.313.696.645.889.09.052.18.107.268.164.325.21.72.275 1.082.139l1.223-.46a1.125 1.125 0 0 1 1.37.49l1.296 2.244a1.125 1.125 0 0 1-.26 1.431l-1.003.827a1.125 1.125 0 0 0-.38.95v.31c0 .374.137.735.38.95l1.003.827c.424.35.534.956.26 1.431l-1.296 2.244a1.125 1.125 0 0 1-1.37.49l-1.223-.46a1.125 1.125 0 0 0-1.082.139c-.088.057-.178.112-.268.164a1.125 1.125 0 0 0-.645.889l-.213 1.279c-.09.542-.56.94-1.11.94h-2.592c-.55 0-1.02-.398-1.11-.94l-.213-1.279a1.125 1.125 0 0 0-.645-.889 8.09 8.09 0 0 1-.268-.164 1.125 1.125 0 0 0-1.082-.139l-1.223.46a1.125 1.125 0 0 1-1.37-.49L3.447 15.3a1.125 1.125 0 0 1 .26-1.431l1.003-.827c.243-.2.38-.576.38-.95v-.31c0-.374-.137-.735-.38-.95l-1.003-.827a1.125 1.125 0 0 1-.26-1.431L4.743 6.33a1.125 1.125 0 0 1 1.37-.49l1.223.46c.362.136.757.071 1.082-.139.088-.057.178-.112.268-.164a1.125 1.125 0 0 0 .645-.889l.213-1.279Z"
-            />
-
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-            />
-          </svg>
-        </QuizPanelButton>
+          <QuizSettingsIcon />
+        </QuizTogglePanelButton>
 
         {/* Groups panel toggle */}
-        <QuizPanelButton
+        <QuizTogglePanelButton
           label="Quiz groups"
           isOpen={isGroupsOpen}
           onClick={onToggleGroups}
         >
           Groups
-        </QuizPanelButton>
+        </QuizTogglePanelButton>
 
-        {/* Running-quiz Groups warning */}
+        {/* Warning displayed when Groups cannot be opened during a quiz */}
         {isGroupsBlockedMessageOpen && (
-          <div className="absolute right-0 top-12 w-56 rounded-lg border border-gray-300 bg-white p-3 text-xs text-gray-700 shadow-lg">
-            <div className="flex items-start gap-2">
-              {/* Warning message */}
-              <p className="flex-1 leading-relaxed">
-                Finish or end the current quiz before using Groups.
-              </p>
-
-              {/* Close warning */}
-              <button
-                type="button"
-                onClick={onCloseGroupsBlockedMessage}
-                aria-label="Close message"
-                className="shrink-0 text-sm font-bold text-gray-400 transition hover:text-gray-900"
-              >
-                ×
-              </button>
-            </div>
-          </div>
+          <QuizBlockedPanelMessage
+            message="Finish or end the current quiz before using feature groups."
+            onClose={onCloseGroupsBlockedMessage}
+          />
         )}
       </div>
 
-      {/* Floating panels */}
+      {/* Currently open auxiliary panels */}
       <div className="relative z-30 flex flex-row items-start gap-5">
         {/* Quiz Settings panel */}
         {isSettingsOpen && (

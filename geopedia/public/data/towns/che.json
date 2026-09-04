@@ -2,7 +2,8 @@
   "towns": [
     {
       "id": "2657896",
-      "name": "Zürich",
+      "name": "Zurich",
+      "nativeName": "Zürich",
       "latitude": 47.36667,
       "longitude": 8.55,
       "population": 415367,
@@ -12,6 +13,7 @@
     {
       "id": "2660646",
       "name": "Geneva",
+      "nativeName": "Genève",
       "latitude": 46.20222,
       "longitude": 6.14569,
       "population": 201741,
@@ -56,7 +58,8 @@
     },
     {
       "id": "2659811",
-      "name": "Luzern",
+      "name": "Lucerne",
+      "nativeName": "Luzern",
       "latitude": 47.05048,
       "longitude": 8.30635,
       "population": 81691,
@@ -66,6 +69,7 @@
     {
       "id": "2658822",
       "name": "Sankt Gallen",
+      "nativeName": "St. Gallen",
       "latitude": 47.42391,
       "longitude": 9.37477,
       "population": 75833,
@@ -119,7 +123,8 @@
     },
     {
       "id": "2660718",
-      "name": "Fribourg",
+      "name": "Freiburg im Üechtland",
+      "nativeName": "Fribourg",
       "latitude": 46.80237,
       "longitude": 7.15128,
       "population": 38365,
@@ -174,6 +179,7 @@
     {
       "id": "2658576",
       "name": "Sitten",
+      "nativeName": "Sion",
       "latitude": 46.22739,
       "longitude": 7.35559,
       "population": 34708,
@@ -255,6 +261,7 @@
     {
       "id": "2658010",
       "name": "Wetzikon",
+      "nativeName": "Wetzikon ZH",
       "latitude": 47.3264,
       "longitude": 8.79779,
       "population": 24764,
@@ -264,6 +271,7 @@
     {
       "id": "2657996",
       "name": "Wil",
+      "nativeName": "Wil SG",
       "latitude": 47.46152,
       "longitude": 9.04552,
       "population": 23955,
@@ -318,6 +326,7 @@
     {
       "id": "2659070",
       "name": "Renens",
+      "nativeName": "Renens VD",
       "latitude": 46.53989,
       "longitude": 6.5881,
       "population": 20927,
@@ -371,7 +380,8 @@
     },
     {
       "id": "2660971",
-      "name": "Dübendorf",
+      "name": "Dubendorf",
+      "nativeName": "Dübendorf",
       "latitude": 47.39724,
       "longitude": 8.61872,
       "population": 19882,
@@ -426,6 +436,7 @@
     {
       "id": "2659748",
       "name": "Martigny-Ville",
+      "nativeName": "Martigny",
       "latitude": 46.10276,
       "longitude": 7.07245,
       "population": 18301,
@@ -480,6 +491,7 @@
     {
       "id": "2660549",
       "name": "Gossau",
+      "nativeName": "Gossau SG",
       "latitude": 47.41551,
       "longitude": 9.25482,
       "population": 17043,
@@ -723,6 +735,7 @@
     {
       "id": "2659532",
       "name": "Muri",
+      "nativeName": "Muri bei Bern",
       "latitude": 46.93122,
       "longitude": 7.48658,
       "population": 13054,
@@ -849,6 +862,7 @@
     {
       "id": "2660089",
       "name": "Küsnacht",
+      "nativeName": "Küsnacht ZH",
       "latitude": 47.31805,
       "longitude": 8.58401,
       "population": 11525,
@@ -948,6 +962,7 @@
     {
       "id": "2661766",
       "name": "Altstätten",
+      "nativeName": "Altstätten SG",
       "latitude": 47.37766,
       "longitude": 9.54746,
       "population": 10574,
@@ -1011,6 +1026,7 @@
     {
       "id": "2661349",
       "name": "Buchs",
+      "nativeName": "Buchs SG",
       "latitude": 47.16743,
       "longitude": 9.47794,
       "population": 10418,
@@ -1038,6 +1054,7 @@
     {
       "id": "6285791",
       "name": "Ecublens",
+      "nativeName": "Ecublens VD",
       "latitude": 46.52899,
       "longitude": 6.56261,
       "population": 10262,
@@ -1074,6 +1091,7 @@
     {
       "id": "2659321",
       "name": "Oberwil",
+      "nativeName": "Oberwil BL",
       "latitude": 47.51407,
       "longitude": 7.55786,
       "population": 10187,
@@ -1083,6 +1101,7 @@
     {
       "id": "2661852",
       "name": "Aesch",
+      "nativeName": "Aesch BL",
       "latitude": 47.47104,
       "longitude": 7.5973,
       "population": 10138,
@@ -1110,6 +1129,7 @@
     {
       "id": "2659485",
       "name": "Neuhausen",
+      "nativeName": "Neuhausen am Rheinfall",
       "latitude": 47.68579,
       "longitude": 8.61474,
       "population": 10019,
@@ -1173,6 +1193,7 @@
     {
       "id": "2658909",
       "name": "Rüti",
+      "nativeName": "Rüti ZH",
       "latitude": 47.25603,
       "longitude": 8.85552,
       "population": 9576,
@@ -1191,6 +1212,7 @@
     {
       "id": "2661780",
       "name": "Altdorf",
+      "nativeName": "Altdorf UR",
       "latitude": 46.88042,
       "longitude": 8.64441,
       "population": 9401,
@@ -1344,6 +1366,7 @@
     {
       "id": "2659220",
       "name": "Pfäffikon",
+      "nativeName": "Pfäffikon SZ",
       "latitude": 47.20109,
       "longitude": 8.77816,
       "population": 7310,
@@ -1389,6 +1412,7 @@
     {
       "id": "2661407",
       "name": "Bremgarten",
+      "nativeName": "Bremgarten AG",
       "latitude": 47.35109,
       "longitude": 8.34214,
       "population": 6543,
@@ -1407,6 +1431,7 @@
     {
       "id": "2659529",
       "name": "Murten/Morat",
+      "nativeName": "Murten",
       "latitude": 46.92827,
       "longitude": 7.11715,
       "population": 5800,
@@ -1470,6 +1495,7 @@
     {
       "id": "2660550",
       "name": "Gossau",
+      "nativeName": "Gossau ZH",
       "latitude": 47.3051,
       "longitude": 8.75831,
       "population": 4287,
@@ -1488,6 +1514,7 @@
     {
       "id": "2658073",
       "name": "Wald",
+      "nativeName": "Wald ZH",
       "latitude": 47.27595,
       "longitude": 8.91405,
       "population": 3061,
@@ -1506,6 +1533,7 @@
     {
       "id": "2658105",
       "name": "Volketswil / Volketswil (Dorf)",
+      "nativeName": "Volketswil",
       "latitude": 47.39016,
       "longitude": 8.69085,
       "population": 2723,

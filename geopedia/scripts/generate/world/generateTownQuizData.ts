@@ -182,9 +182,15 @@ type OsmTown = {
    */
   osmId: string;
 
+  /**
+   * Primary locally used OSM settlement name.
+   */
   name: string;
 
-  latinName?: string;
+  /**
+   * Explicit English/international OSM settlement name when available.
+   */
+  englishName?: string;
 
   place: SettlementPlaceType;
 
@@ -209,7 +215,15 @@ type MatchedTown = {
 type TownQuizTown = {
   id: string;
 
+  /**
+   * Preferred English/international quiz name.
+   */
   name: string;
+
+  /**
+   * Native/local settlement name when meaningfully different from `name`.
+   */
+  nativeName?: string;
 
   latitude: number;
   longitude: number;
@@ -247,8 +261,10 @@ type OsmTownFeature = {
 
   properties?: {
     osmId?: unknown;
+
     name?: unknown;
-    latinName?: unknown;
+    englishName?: unknown;
+
     place?: unknown;
   };
 };
@@ -321,14 +337,23 @@ const GEONAMES_COLUMNS = {
  * - punctuation
  * - whitespace
  *
- * It does not attempt fuzzy spelling correction.
+ * Unicode letters and numbers are preserved so names written in Cyrillic,
+ * Greek, Japanese, Bengali, Georgian, Armenian, and other scripts can
+ * participate in name-based matching rather than falling back unnecessarily
+ * to coordinate-only matching.
+ *
+ * This function does not transliterate between scripts or attempt fuzzy
+ * spelling correction.
+ *
+ * @param value - Settlement name to normalize.
+ * @returns Comparable Unicode settlement-name key.
  */
 function normalizeTownName(value: string): string {
   return value
     .normalize("NFD")
     .replace(/\p{Diacritic}/gu, "")
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "");
+    .replace(/[^\p{Letter}\p{Number}]+/gu, "");
 }
 
 /**
@@ -659,10 +684,11 @@ async function readOsmTownSpatialIndex(): Promise<
 
     const name = feature.properties?.name;
 
-    const latinName =
-      typeof feature.properties?.latinName === "string" &&
-      feature.properties?.latinName.trim()
-        ? feature.properties?.latinName
+    const englishNameValue = feature.properties?.englishName;
+
+    const englishName =
+      typeof englishNameValue === "string"
+        ? englishNameValue.trim() || undefined
         : undefined;
 
     const place = feature.properties?.place;
@@ -702,7 +728,7 @@ async function readOsmTownSpatialIndex(): Promise<
       osmId,
 
       name,
-      latinName,
+      englishName,
 
       place: place as SettlementPlaceType,
 
@@ -822,12 +848,17 @@ function getGeoNamesNameMatchType(
   town: GeoNamesTown,
   osmTown: OsmTown,
 ): NameMatchType {
-  const normalizedOsmNames = [osmTown.name, osmTown.latinName]
+  const normalizedOsmNames = [osmTown.name, osmTown.englishName]
     .filter(
       (name): name is string =>
-        typeof name === "string" && name.trim().length > 0,
+        typeof name === "string" && name.length > 0,
     )
-    .map(normalizeTownName);
+    .map(normalizeTownName)
+    .filter(Boolean);
+
+  // const namesMatch = normalizedOsmNames.some((normalizedName) =>
+  //   geoNamesNames.has(normalizedName),
+  // );
 
   /*
    * The primary GeoNames name provides the strongest identity match.
@@ -1170,8 +1201,77 @@ function printTownQualityDiagnostics(
       distanceKm: Number(match.distanceKm.toFixed(3)),
     });
 
-    console.log("OSM Latin name:", match.osmTown.latinName);
+    console.log("OSM English name:", match.osmTown.englishName);
   }
+}
+
+/**
+ * Returns whether two rendered settlement names should be treated as the same.
+ *
+ * Case and repeated whitespace are ignored because those differences do not
+ * justify offering a separate Native question or rendering a second map-label
+ * line.
+ *
+ * Diacritics and actual spelling differences are intentionally preserved.
+ * `Munchen` and `München`, for example, remain distinct display names.
+ *
+ * @param firstName - First display name.
+ * @param secondName - Second display name.
+ * @returns Whether the names are equivalent for quiz-display purposes.
+ */
+function areDisplayNamesEquivalent(
+  firstName: string,
+  secondName: string,
+): boolean {
+  function normalizeDisplayName(value: string): string {
+    return value.trim().replace(/\s+/g, " ").toLocaleLowerCase();
+  }
+
+  return (
+    normalizeDisplayName(firstName) ===
+    normalizeDisplayName(secondName)
+  );
+}
+
+/**
+ * Chooses the English/international name stored by a runtime town quiz.
+ *
+ * Explicit OSM English/international naming takes priority because it generally
+ * reflects the modern English map label. GeoNames remains the fallback so every
+ * generated town continues to have a valid question name.
+ *
+ * @param match - Matched GeoNames and OSM settlement.
+ * @returns Preferred English/international quiz name.
+ */
+function getQuizEnglishName(match: MatchedTown): string {
+  return match.osmTown.englishName ?? match.geoNamesTown.name;
+}
+
+/**
+ * Returns the native settlement name when it is meaningfully different from the
+ * preferred English/international name.
+ *
+ * Equal names intentionally omit `nativeName`. This keeps runtime JSON compact,
+ * allows individual map labels to remain one line, and lets the client determine
+ * whether a country needs the English/Native language control simply by checking
+ * whether any available town has `nativeName`.
+ *
+ * @param match - Matched GeoNames and OSM settlement.
+ * @returns Distinct native name, or `undefined` when both names are equivalent.
+ */
+function getQuizNativeName(match: MatchedTown): string | undefined {
+  const englishName = getQuizEnglishName(match);
+
+  const nativeName = match.osmTown.name.trim();
+
+  if (
+    !nativeName ||
+    areDisplayNamesEquivalent(englishName, nativeName)
+  ) {
+    return undefined;
+  }
+
+  return nativeName;
 }
 
 /**
@@ -1241,22 +1341,52 @@ function createCountryTownData(
     );
   });
 
+  // const rankedTowns = deduplicatedTowns.map(
+  //   (match, index): TownQuizTown => ({
+  //     id: match.geoNamesTown.id,
+
+  //     name: match.geoNamesTown.name,
+
+  //     latitude: match.geoNamesTown.latitude,
+
+  //     longitude: match.geoNamesTown.longitude,
+
+  //     population: match.geoNamesTown.population,
+
+  //     populationRank: index + 1,
+
+  //     isCapital: match.geoNamesTown.featureCode === "PPLC",
+  //   }),
+  // ); ----------------------------------------------------------------------- OLD
+
   const rankedTowns = deduplicatedTowns.map(
-    (match, index): TownQuizTown => ({
-      id: match.geoNamesTown.id,
+    (match, index): TownQuizTown => {
+      const name = getQuizEnglishName(match);
 
-      name: match.geoNamesTown.name,
+      const nativeName = getQuizNativeName(match);
 
-      latitude: match.geoNamesTown.latitude,
+      return {
+        id: match.geoNamesTown.id,
 
-      longitude: match.geoNamesTown.longitude,
+        name,
 
-      population: match.geoNamesTown.population,
+        ...(nativeName
+          ? {
+              nativeName,
+            }
+          : {}),
 
-      populationRank: index + 1,
+        latitude: match.geoNamesTown.latitude,
 
-      isCapital: match.geoNamesTown.featureCode === "PPLC",
-    }),
+        longitude: match.geoNamesTown.longitude,
+
+        population: match.geoNamesTown.population,
+
+        populationRank: index + 1,
+
+        isCapital: match.geoNamesTown.featureCode === "PPLC",
+      };
+    },
   );
 
   /*

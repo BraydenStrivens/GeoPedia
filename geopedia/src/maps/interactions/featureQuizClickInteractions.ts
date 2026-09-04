@@ -1,11 +1,19 @@
 /**
- * Registers geographic feature click behavior specifically for quiz maps.
+ * Registers geographic feature click behavior for GeoPedia's feature quiz
+ * maps.
  *
- * Supported behaviors are:
+ * Supported interactions include:
  *
- * - Submitting quiz answers.
+ * - Submitting answers during an active feature quiz.
+ * - Temporarily revealing an incorrectly selected feature.
+ * - Temporarily revealing a selected feature for inspection while the quiz is
+ *   inactive.
  * - Toggling features during manual group selection.
  * - Disabling feature clicks while Show Answers is active.
+ *
+ * Temporary feature-selection feedback is shared by active incorrect-answer
+ * feedback and inactive feature inspection. The presentation layer determines
+ * how that selection should be styled for the current quiz state.
  *
  * Country navigation is handled independently by `BaseWorldNavigationMap`.
  */
@@ -22,14 +30,14 @@ import {
   getFeatureAnswers,
   isFeatureFullyAnswered,
   willFeatureBeFullyAnswered,
-} from "../../labels/feature/featureAnswers";
+} from "../labels/feature/featureAnswers";
 import type {
   FeatureHoverState,
   QuizMapInteractionContext,
 } from "./featureQuizInteractionTypes";
 
 /**
- * MapLibre feature information required by GeoPedia's quiz click handlers.
+ * MapLibre feature information required by GeoPedia's feature click handlers.
  */
 type ClickedMapFeature = {
   /** Stable feature ID supplied by MapLibre. */
@@ -41,7 +49,7 @@ type ClickedMapFeature = {
 
 /**
  * MapLibre click event produced by an event registered against a geographic
- * layer.
+ * feature layer.
  */
 type FeatureClickEvent = maplibregl.MapMouseEvent & {
   features?: maplibregl.MapGeoJSONFeature[];
@@ -69,20 +77,28 @@ function handleManualFeatureSelection(
 }
 
 /**
- * Handles a geographic selection while quiz interaction is active.
+ * Handles a geographic feature selection during normal feature-quiz map
+ * interaction.
  *
- * The selected feature may represent one or multiple quiz answers. Normal Mode
- * prevents already completed features from being selected again, while Hard
- * Mode keeps them interactive so completed geography does not reveal
- * information about unanswered questions.
+ * While the quiz is inactive, selecting a feature acts as a lightweight study
+ * interaction and temporarily reveals that feature's answer without modifying
+ * quiz progress.
  *
- * @param context - Shared quiz-map interaction dependencies.
+ * During an active quiz, the selected feature may represent one or multiple
+ * quiz answers. Normal Mode prevents already completed features from being
+ * selected again, while Hard Mode keeps them interactive so completed
+ * geography does not reveal information about unanswered questions.
+ *
+ * Incorrect active-quiz selections can use the same temporary feature-selection
+ * state used by inactive inspection.
+ *
+ * @param context - Shared feature quiz map interaction dependencies.
  * @param hoverState - Mutable hover state shared with hover interactions.
  * @param feature - Geographic feature selected by the user.
- * @param pointX - Horizontal click position used by incorrect-answer feedback.
- * @param pointY - Vertical click position used by incorrect-answer feedback.
+ * @param pointX - Horizontal click position used by selection feedback.
+ * @param pointY - Vertical click position used by selection feedback.
  */
-function handleQuizSelection(
+function handleFeatureQuizSelection(
   context: QuizMapInteractionContext,
   hoverState: FeatureHoverState,
   feature: ClickedMapFeature,
@@ -98,7 +114,7 @@ function handleQuizSelection(
     answerQuestionRef,
     answerStatusesRef,
     showIncorrectSelectionRef,
-    setIncorrectSelection,
+    setFeatureSelection,
     setHoveredFeatureId,
   } = context;
 
@@ -113,12 +129,16 @@ function handleQuizSelection(
   }
 
   /*
-   * Inactive quiz maps act as lightweight study maps.
+   * Inactive feature quiz maps act as lightweight study maps.
    *
-   * Selecting any feature reveals that feature's answer without modifying quiz
+   * Selecting a feature temporarily reveals its answer without modifying quiz
    * progress, answer statuses, score, or current-question state.
    *
-   * This works both before a quiz has ever started and after a quiz has ended.
+   * This interaction is available both before a quiz has started and after a
+   * quiz has ended.
+   *
+   * The existing Show Incorrect Selection setting currently also determines
+   * whether this inactive inspection feedback is displayed.
    */
   if (!isQuizRunningRef.current) {
     if (showIncorrectSelectionRef.current) {
@@ -127,7 +147,7 @@ function handleQuizSelection(
         quiz,
       );
 
-      setIncorrectSelection({
+      setFeatureSelection({
         content: selectedFeatureContent,
         x: pointX,
         y: pointY,
@@ -140,10 +160,6 @@ function handleQuizSelection(
   const currentQuestion = currentQuestionRef.current;
 
   if (!currentQuestion) {
-    return;
-  }
-
-  if (featureAnswers.length === 0) {
     return;
   }
 
@@ -167,8 +183,11 @@ function handleQuizSelection(
   const isCorrect = featureAnswers.includes(currentAnswer);
 
   /*
-   * Incorrect-selection feedback identifies the selected geography when that
-   * setting is enabled.
+   * Incorrect-answer feedback identifies the selected geography when the
+   * corresponding setting is enabled.
+   *
+   * The popup uses the same feature-selection state as inactive inspection,
+   * while the React presentation layer supplies incorrect-answer styling.
    */
   if (!isCorrect && showIncorrectSelectionRef.current) {
     const selectedFeatureContent = getFeatureAnswerLabelContent(
@@ -176,7 +195,7 @@ function handleQuizSelection(
       quiz,
     );
 
-    setIncorrectSelection({
+    setFeatureSelection({
       content: selectedFeatureContent,
       x: pointX,
       y: pointY,
@@ -226,17 +245,20 @@ function handleQuizSelection(
 
   if (hoverState.featureId === normalizedFeatureId) {
     hoverState.featureId = null;
-
     setHoveredFeatureId(null);
   }
 }
 
 /**
- * Registers click behavior on a quiz map's primary geographic feature layer.
+ * Registers click behavior on a feature quiz map's primary geographic feature
+ * layer.
  *
- * @param context - Shared quiz-map interaction dependencies.
+ * The current click behavior determines whether a click is ignored, toggles a
+ * manual-group feature, or performs normal feature-quiz interaction.
+ *
+ * @param context - Shared feature quiz map interaction dependencies.
  * @param hoverState - Mutable hover state shared with hover interactions.
- * @returns Cleanup function removing the registered listener.
+ * @returns Cleanup function removing the registered click listener.
  */
 export function registerQuizClickInteractions(
   context: QuizMapInteractionContext,
@@ -275,13 +297,14 @@ export function registerQuizClickInteractions(
     }
 
     /*
-     * The only remaining supported behavior is normal quiz interaction.
+     * The only remaining supported behavior is normal feature quiz
+     * interaction.
      */
     if (clickBehavior !== "quiz") {
       return;
     }
 
-    handleQuizSelection(
+    handleFeatureQuizSelection(
       context,
       hoverState,
       feature,

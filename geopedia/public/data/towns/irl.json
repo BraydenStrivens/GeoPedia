@@ -155,7 +155,7 @@
     },
     {
       "id": "2962290",
-      "name": "Droichead Nua",
+      "name": "Newbridge",
       "latitude": 53.18194,
       "longitude": -6.79667,
       "population": 22742,
@@ -164,7 +164,7 @@
     },
     {
       "id": "2962361",
-      "name": "An Muileann gCearr",
+      "name": "Mullingar",
       "latitude": 53.52466,
       "longitude": -7.3385,
       "population": 22667,
@@ -245,7 +245,7 @@
     },
     {
       "id": "2965353",
-      "name": "Cluain Meala",
+      "name": "Clonmel",
       "latitude": 52.355,
       "longitude": -7.70389,
       "population": 18369,
@@ -434,7 +434,7 @@
     },
     {
       "id": "2961120",
-      "name": "Trá Mhór",
+      "name": "Tramore",
       "latitude": 52.16235,
       "longitude": -7.15244,
       "population": 10381,
@@ -515,7 +515,7 @@
     },
     {
       "id": "2961651",
-      "name": "An Ros",
+      "name": "Rush",
       "latitude": 53.52424,
       "longitude": -6.10497,
       "population": 9231,
@@ -1038,6 +1038,7 @@
     {
       "id": "2966800",
       "name": "Bagenalstown",
+      "nativeName": "Muine Bheag",
       "latitude": 52.70031,
       "longitude": -6.96181,
       "population": 2837,
@@ -1272,6 +1273,7 @@
     {
       "id": "2964782",
       "name": "Dingle",
+      "nativeName": "Dingle / Daingean Uí Chúis",
       "latitude": 52.14083,
       "longitude": -10.26889,
       "population": 2050,
@@ -1289,7 +1291,8 @@
     },
     {
       "id": "2966342",
-      "name": "Bearna",
+      "name": "Barna",
+      "nativeName": "Bearna",
       "latitude": 53.25194,
       "longitude": -9.14972,
       "population": 1998,
@@ -1434,6 +1437,7 @@
     {
       "id": "2962440",
       "name": "Moycullen",
+      "nativeName": "Maigh Cuilinn",
       "latitude": 53.33783,
       "longitude": -9.18002,
       "population": 1704,
@@ -1478,7 +1482,7 @@
     },
     {
       "id": "2962945",
-      "name": "Leifear",
+      "name": "Lifford",
       "latitude": 54.83194,
       "longitude": -7.48361,
       "population": 1613,
@@ -1658,7 +1662,7 @@
     },
     {
       "id": "2966658",
-      "name": "Ballybunnion",
+      "name": "Ballybunion",
       "latitude": 52.51108,
       "longitude": -9.67097,
       "population": 1354,
@@ -1740,6 +1744,7 @@
     {
       "id": "2965474",
       "name": "Claregalway",
+      "nativeName": "Baile Chláir",
       "latitude": 53.33861,
       "longitude": -8.945,
       "population": 1248,
@@ -1794,6 +1799,7 @@
     {
       "id": "2964524",
       "name": "Dungloe",
+      "nativeName": "An Clochán Liath",
       "latitude": 54.95111,
       "longitude": -8.35917,
       "population": 1164,

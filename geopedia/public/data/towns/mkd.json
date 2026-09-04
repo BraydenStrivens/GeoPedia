@@ -3,6 +3,7 @@
     {
       "id": "785842",
       "name": "Skopje",
+      "nativeName": "Скопје",
       "latitude": 41.99646,
       "longitude": 21.43141,
       "population": 474889,
@@ -12,6 +13,7 @@
     {
       "id": "788886",
       "name": "Kumanovo",
+      "nativeName": "Куманово",
       "latitude": 42.13279,
       "longitude": 21.71585,
       "population": 75051,
@@ -21,6 +23,7 @@
     {
       "id": "786735",
       "name": "Prilep",
+      "nativeName": "Прилеп",
       "latitude": 41.34558,
       "longitude": 21.5537,
       "population": 73814,
@@ -30,6 +33,7 @@
     {
       "id": "792578",
       "name": "Bitola",
+      "nativeName": "Битола",
       "latitude": 41.03226,
       "longitude": 21.33553,
       "population": 69287,
@@ -39,6 +43,7 @@
     {
       "id": "785082",
       "name": "Tetovo",
+      "nativeName": "Тетово",
       "latitude": 42.00989,
       "longitude": 20.97138,
       "population": 63176,
@@ -48,6 +53,7 @@
     {
       "id": "785058",
       "name": "Veles",
+      "nativeName": "Велес",
       "latitude": 41.71719,
       "longitude": 21.77196,
       "population": 57873,
@@ -57,6 +63,7 @@
     {
       "id": "790295",
       "name": "Gostivar",
+      "nativeName": "Гостивар",
       "latitude": 41.79627,
       "longitude": 20.90799,
       "population": 50974,
@@ -65,7 +72,8 @@
     },
     {
       "id": "785482",
-      "name": "Shtip",
+      "name": "Štip",
+      "nativeName": "Штип",
       "latitude": 41.74583,
       "longitude": 22.19583,
       "population": 48279,
@@ -75,6 +83,7 @@
     {
       "id": "787487",
       "name": "Ohrid",
+      "nativeName": "Охрид",
       "latitude": 41.11701,
       "longitude": 20.80175,
       "population": 42033,
@@ -84,6 +93,7 @@
     {
       "id": "789541",
       "name": "Kavadarci",
+      "nativeName": "Кавадарци",
       "latitude": 41.43344,
       "longitude": 22.01218,
       "population": 38799,
@@ -93,6 +103,7 @@
     {
       "id": "785387",
       "name": "Struga",
+      "nativeName": "Струга",
       "latitude": 41.17787,
       "longitude": 20.67894,
       "population": 37387,
@@ -102,6 +113,7 @@
     {
       "id": "789403",
       "name": "Kochani",
+      "nativeName": "Кочани",
       "latitude": 41.91639,
       "longitude": 22.41278,
       "population": 34258,
@@ -111,6 +123,7 @@
     {
       "id": "785380",
       "name": "Strumica",
+      "nativeName": "Струмица",
       "latitude": 41.43763,
       "longitude": 22.64288,
       "population": 33825,
@@ -120,6 +133,7 @@
     {
       "id": "789527",
       "name": "Kičevo",
+      "nativeName": "Кичево",
       "latitude": 41.51274,
       "longitude": 20.95867,
       "population": 31123,
@@ -128,7 +142,8 @@
     },
     {
       "id": "786565",
-      "name": "Radovis",
+      "name": "Radoviš",
+      "nativeName": "Радовиш",
       "latitude": 41.63833,
       "longitude": 22.46472,
       "population": 24984,
@@ -138,6 +153,7 @@
     {
       "id": "789045",
       "name": "Kriva Palanka",
+      "nativeName": "Крива Паланка",
       "latitude": 42.20197,
       "longitude": 22.33385,
       "population": 20820,
@@ -147,6 +163,7 @@
     {
       "id": "790744",
       "name": "Gevgelija",
+      "nativeName": "Гевгелија",
       "latitude": 41.14289,
       "longitude": 22.50108,
       "population": 20664,
@@ -156,6 +173,7 @@
     {
       "id": "787716",
       "name": "Negotino",
+      "nativeName": "Неготино",
       "latitude": 41.48456,
       "longitude": 22.09056,
       "population": 19515,
@@ -165,6 +183,7 @@
     {
       "id": "784424",
       "name": "Vinica",
+      "nativeName": "Виница",
       "latitude": 41.8812,
       "longitude": 22.51074,
       "population": 18218,
@@ -174,6 +193,7 @@
     {
       "id": "791606",
       "name": "Debar",
+      "nativeName": "Дебар",
       "latitude": 41.52286,
       "longitude": 20.52198,
       "population": 18074,
@@ -182,7 +202,8 @@
     },
     {
       "id": "791559",
-      "name": "Delcevo",
+      "name": "Delčevo",
+      "nativeName": "Делчево",
       "latitude": 41.96722,
       "longitude": 22.76944,
       "population": 17415,
@@ -192,6 +213,7 @@
     {
       "id": "786341",
       "name": "Resen",
+      "nativeName": "Ресен",
       "latitude": 41.08999,
       "longitude": 21.00885,
       "population": 16539,
@@ -201,6 +223,7 @@
     {
       "id": "792656",
       "name": "Berovo",
+      "nativeName": "Берово",
       "latitude": 41.70182,
       "longitude": 22.85716,
       "population": 13847,
@@ -210,6 +233,7 @@
     {
       "id": "785201",
       "name": "Sveti Nikole",
+      "nativeName": "Свети Николе",
       "latitude": 41.86956,
       "longitude": 21.95274,
       "population": 13292,
@@ -219,6 +243,7 @@
     {
       "id": "786700",
       "name": "Probishtip",
+      "nativeName": "Пробиштип",
       "latitude": 42.00306,
       "longitude": 22.17861,
       "population": 12702,
@@ -228,6 +253,7 @@
     {
       "id": "789091",
       "name": "Kratovo",
+      "nativeName": "Кратово",
       "latitude": 42.07906,
       "longitude": 22.18167,
       "population": 10288,
@@ -237,6 +263,7 @@
     {
       "id": "792523",
       "name": "Bogdanci",
+      "nativeName": "Богданци",
       "latitude": 41.20363,
       "longitude": 22.57586,
       "population": 8636,
@@ -246,6 +273,7 @@
     {
       "id": "789629",
       "name": "Makedonska Kamenica",
+      "nativeName": "Македонска Каменица",
       "latitude": 42.02141,
       "longitude": 22.58981,
       "population": 8114,
@@ -255,6 +283,7 @@
     {
       "id": "792257",
       "name": "Makedonski Brod",
+      "nativeName": "Македонски Брод",
       "latitude": 41.51328,
       "longitude": 21.21641,
       "population": 5607,
@@ -263,7 +292,8 @@
     },
     {
       "id": "788961",
-      "name": "Krusevo",
+      "name": "Kruševo",
+      "nativeName": "Крушево",
       "latitude": 41.36889,
       "longitude": 21.24889,
       "population": 5211,
@@ -273,6 +303,7 @@
     {
       "id": "791542",
       "name": "Demir Kapija",
+      "nativeName": "Демир Капија",
       "latitude": 41.40633,
       "longitude": 22.24305,
       "population": 4451,
@@ -282,6 +313,7 @@
     {
       "id": "784733",
       "name": "Valandovo",
+      "nativeName": "Валандово",
       "latitude": 41.31761,
       "longitude": 22.56303,
       "population": 3798,
@@ -291,6 +323,7 @@
     {
       "id": "787147",
       "name": "Pehčevo",
+      "nativeName": "Пехчево",
       "latitude": 41.76252,
       "longitude": 22.88982,
       "population": 2440,
@@ -300,6 +333,7 @@
     {
       "id": "787778",
       "name": "Demir Hisar",
+      "nativeName": "Демир Хисар",
       "latitude": 41.22029,
       "longitude": 21.20405,
       "population": 2283,

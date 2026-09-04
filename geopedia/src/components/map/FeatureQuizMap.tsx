@@ -1,20 +1,26 @@
 /**
- * Coordinates GeoPedia's reusable quiz map with React quiz state and
+ * Coordinates GeoPedia's reusable feature quiz map with React quiz state and
  * map-specific UI.
  *
  * This component acts as the React-level coordinator for:
  *
- * - Quiz state.
- * - Temporary quiz-map interaction state.
+ * - Feature quiz state.
+ * - Temporary feature-map interaction state.
  * - Long-lived MapLibre interaction refs.
- * - MapLibre lifecycle creation through `useMap`.
- * - Quiz-specific click and hover interactions.
+ * - MapLibre lifecycle creation through `useFeatureQuizMap`.
+ * - Feature quiz click and hover interactions.
  * - Active-group feature filtering.
  * - Manual-selection highlighting.
  * - Quiz-result feature coloring.
  * - Runtime display settings.
  * - Show Answers labels.
- * - Incorrect-selection feedback.
+ * - Temporary feature-selection feedback.
+ *
+ * Temporary feature-selection feedback is shared by two interactions:
+ *
+ * - During an active quiz, it can identify an incorrectly selected feature.
+ * - While the quiz is inactive, it can temporarily reveal the selected
+ *   feature's answer for inspection.
  *
  * World-country navigation is implemented separately by
  * `BaseWorldNavigationMap`.
@@ -27,13 +33,12 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import * as maplibregl from "maplibre-gl";
 import { useEffect, useRef, useState } from "react";
 
-import IncorrectSelectionPopup from "@/components/map/IncorrectSelectionPopup";
-import QuizOverlay from "@/components/quiz/overlay/FeatureQuizOverlay";
+import FeatureQuizOverlay from "@/components/quiz/overlay/FeatureQuizOverlay";
 import { useAnswerLabels } from "@/maps/hooks/feature/useAnswerLabels";
 import { useFeatureQuizColors } from "@/maps/hooks/feature/useFeatureQuizColors";
 import { useFeatureQuizMap } from "@/maps/hooks/feature/useFeatureQuizMap";
 import { useFeatureQuizMapInteractions } from "@/maps/hooks/feature/useFeatureQuizMapInteractions";
-import { useIncorrectSelection } from "@/maps/hooks/feature/useIncorrectSelection";
+import { useFeatureSelection } from "@/maps/hooks/feature/useFeatureSelection";
 import { useManualSelectionColors } from "@/maps/hooks/feature/useManualSelectionColors";
 import { useMapFeatureFilter } from "@/maps/hooks/feature/useMapFeatureFilter";
 import { useLatestRef } from "@/maps/hooks/useLatestRef";
@@ -41,15 +46,17 @@ import { useMapDisplaySettings } from "@/maps/hooks/useMapDisplaySettings";
 import type { MapConfig, QuizMapClickBehavior } from "@/maps/types";
 import { useQuiz } from "@/quiz/hooks/useFeatureQuiz";
 import { getQuizQuestionPrompt } from "@/quiz/questions/getQuizQuestionPrompt";
+import type { FeatureQuizSettings } from "@/types/featureQuizSettings";
 import type { FeatureQuiz } from "@/types/quiz";
-import type { QuizSettings } from "@/types/quizSettings";
+
+import FeatureSelectionPopup from "./FeatureSelectionPopup";
 
 maplibregl.setWorkerUrl("/maplibre-gl-worker.mjs");
 
 /**
- * Props required by GeoPedia's reusable quiz-map component.
+ * Props required by GeoPedia's reusable feature quiz map component.
  */
-type QuizMapProps = {
+type FeatureQuizMapProps = {
   /** Configuration describing the geographic map to render. */
   mapConfig: MapConfig;
 
@@ -63,17 +70,19 @@ type QuizMapProps = {
    */
   activeFeatureIds?: string[] | null;
 
-  /** Optional persisted settings belonging to the quiz. */
-  quizSettings?: QuizSettings;
+  /** Optional persisted settings belonging to the feature quiz. */
+  quizSettings?: FeatureQuizSettings;
 
-  /** Whether actions available before a quiz begins are temporarily unavailable. */
+  /**
+   * Whether actions available before a quiz begins are temporarily unavailable.
+   */
   areInactiveQuizActionsDisabled?: boolean;
 
-  /** Whether the inactive quiz is currently displaying normal answer labels. */
+  /** Whether the inactive feature quiz is displaying normal answer labels. */
   isShowingAnswers?: boolean;
 
   /**
-   * Current click behavior supported by the quiz map.
+   * Current click behavior supported by the feature quiz map.
    *
    * Navigation is intentionally not supported by this component.
    */
@@ -91,7 +100,7 @@ type QuizMapProps = {
    */
   showManualSelectionAnswers?: boolean;
 
-  /** Toggles the inactive quiz's normal Show Answers view. */
+  /** Toggles the inactive feature quiz's normal Show Answers view. */
   onToggleShowAnswers?: () => void;
 
   /**
@@ -100,11 +109,13 @@ type QuizMapProps = {
    */
   onFeatureSelect?: (featureId: string) => void;
 
-  /** Reports whether a quiz is currently in progress. */
+  /** Reports whether a feature quiz is currently in progress. */
   onQuizRunningChange?: (isRunning: boolean) => void;
 };
 
-/** Empty feature-selection set used when manual-selection state is absent. */
+/**
+ * Empty feature-selection set used when manual-selection state is absent.
+ */
 const EMPTY_MANUAL_FEATURE_SELECTION: ReadonlySet<string> =
   new Set<string>();
 
@@ -116,11 +127,12 @@ const EMPTY_MANUAL_FEATURE_SELECTION: ReadonlySet<string> =
 function ignoreFeatureSelection(_featureId: string): void {}
 
 /**
- * Renders a GeoPedia quiz map and connects it to quiz state and controls.
+ * Renders a GeoPedia feature quiz map and connects it to quiz state, map
+ * interactions, display settings, and quiz controls.
  *
  * @param props - Quiz, map configuration, display settings, and interaction
  * callbacks.
- * @returns Interactive quiz map and quiz-specific overlay UI.
+ * @returns Interactive feature quiz map and quiz-specific overlay UI.
  */
 export default function FeatureQuizMap({
   mapConfig,
@@ -135,11 +147,11 @@ export default function FeatureQuizMap({
   manualSelectedFeatureIds = EMPTY_MANUAL_FEATURE_SELECTION,
   showManualSelectionAnswers = false,
   onQuizRunningChange,
-}: QuizMapProps) {
-  /** DOM element into which MapLibre creates its map. */
+}: FeatureQuizMapProps) {
+  /** DOM element into which MapLibre creates the feature quiz map. */
   const mapContainerRef = useRef<HTMLDivElement>(null);
 
-  /** Runs the quiz state machine. */
+  /** Runs the feature quiz state machine. */
   const {
     currentQuestion,
     answerQuestion,
@@ -170,9 +182,15 @@ export default function FeatureQuizMap({
     string | null
   >(null);
 
-  /** Temporary incorrect-selection feedback and automatic dismissal. */
-  const { incorrectSelection, setIncorrectSelection } =
-    useIncorrectSelection();
+  /**
+   * Temporary feedback for the feature most recently selected on the map.
+   *
+   * During an active quiz, this may represent an incorrectly selected feature.
+   * While the quiz is inactive, it represents a feature selected for temporary
+   * answer inspection.
+   */
+  const { featureSelection, setFeatureSelection } =
+    useFeatureSelection();
 
   /**
    * Normal Show Answers disables geographic feature clicks.
@@ -197,6 +215,14 @@ export default function FeatureQuizMap({
   const currentQuestionRef = useLatestRef(currentQuestion);
   const answerQuestionRef = useLatestRef(answerQuestion);
   const answerStatusesRef = useLatestRef(answerStatuses);
+
+  /**
+   * Controls whether incorrect active-quiz selections reveal the selected
+   * feature's answer.
+   *
+   * The interaction system currently also uses this setting to determine
+   * whether inactive feature inspection feedback is shown.
+   */
   const showIncorrectSelectionRef = useLatestRef(
     quizSettings?.showIncorrectSelection ?? true,
   );
@@ -218,10 +244,10 @@ export default function FeatureQuizMap({
   const shouldShowShading = quizSettings?.showShading ?? true;
   const shouldShowBorders = quizSettings?.showBorders ?? true;
   const shouldShowLabels = quizSettings?.showLabels ?? true;
+
   const showShadingRef = useLatestRef(shouldShowShading);
   const showBordersRef = useLatestRef(shouldShowBorders);
   const showLabelsRef = useLatestRef(shouldShowLabels);
-
   const onFeatureSelectRef = useLatestRef(
     onFeatureSelect ?? ignoreFeatureSelection,
   );
@@ -235,7 +261,7 @@ export default function FeatureQuizMap({
   }, [isActive, isFinished, onQuizRunningChange]);
 
   /**
-   * Starts a quiz after first leaving normal Show Answers mode.
+   * Starts a feature quiz after first leaving normal Show Answers mode.
    */
   function startQuiz(): void {
     if (areInactiveQuizActionsDisabled) {
@@ -249,7 +275,9 @@ export default function FeatureQuizMap({
     restartQuiz();
   }
 
-  /** Creates and owns the generic MapLibre instance. */
+  /**
+   * Creates and owns the MapLibre instance used by the feature quiz.
+   */
   const { mapRef, isMapReady } = useFeatureQuizMap({
     containerRef: mapContainerRef,
 
@@ -260,7 +288,9 @@ export default function FeatureQuizMap({
     showLabelsRef,
   });
 
-  /** Registers quiz-specific geographic hover and click interactions. */
+  /**
+   * Registers feature-quiz geographic hover and click interactions.
+   */
   useFeatureQuizMapInteractions({
     mapRef,
     isMapReady,
@@ -280,12 +310,14 @@ export default function FeatureQuizMap({
     onFeatureSelectRef,
 
     setHoveredFeatureId,
-    setIncorrectSelection,
+    setFeatureSelection,
 
     showIncorrectSelectionRef,
   });
 
-  /** Synchronizes temporary manual-selection highlighting. */
+  /**
+   * Synchronizes temporary manual-selection highlighting.
+   */
   useManualSelectionColors({
     mapRef,
     isMapReady,
@@ -295,7 +327,10 @@ export default function FeatureQuizMap({
     selectedFeatureIds: manualSelectedFeatureIds,
   });
 
-  /** Synchronizes quiz-result feature coloring. */
+  /**
+   * Synchronizes feature coloring produced by quiz results and current quiz
+   * state.
+   */
   useFeatureQuizColors({
     mapRef,
     isMapReady,
@@ -308,7 +343,9 @@ export default function FeatureQuizMap({
     isShowingAnswers,
   });
 
-  /** Synchronizes runtime label and border settings. */
+  /**
+   * Synchronizes runtime base-map label and feature-border settings.
+   */
   useMapDisplaySettings({
     mapRef,
     isMapReady,
@@ -340,7 +377,9 @@ export default function FeatureQuizMap({
   const shouldShowAnswerLabels =
     isShowingAnswers || showManualSelectionAnswers;
 
-  /** Creates and synchronizes quiz-answer labels. */
+  /**
+   * Creates and synchronizes feature quiz answer labels.
+   */
   useAnswerLabels({
     mapRef,
     isMapReady,
@@ -355,8 +394,8 @@ export default function FeatureQuizMap({
 
   return (
     <div className="relative h-full w-full">
-      {/* Quiz interface */}
-      <QuizOverlay
+      {/* Feature quiz interface */}
+      <FeatureQuizOverlay
         quizName={quiz.name}
         question={questionPrompt}
         answeredCount={answeredCount}
@@ -381,10 +420,21 @@ export default function FeatureQuizMap({
         }}
       />
 
-      {/* Incorrect quiz-selection feedback */}
-      <IncorrectSelectionPopup selection={incorrectSelection} />
+      {/*
+        Temporary feature-selection feedback.
 
-      {/* MapLibre map container */}
+        During an active quiz, displays the incorrectly selected feature using
+        error styling. While the quiz is inactive, allows features to be
+        inspected by temporarily displaying their answer using the default
+        neutral styling.
+      */}
+      <FeatureSelectionPopup
+        selection={featureSelection}
+        backgroundClassName={isActive ? "bg-red-500" : undefined}
+        textClassName={isActive ? "text-white" : undefined}
+      />
+
+      {/* MapLibre feature quiz map container */}
       <div ref={mapContainerRef} className="h-full w-full" />
     </div>
   );

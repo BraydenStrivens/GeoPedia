@@ -3,6 +3,7 @@
     {
       "id": "524901",
       "name": "Moscow",
+      "nativeName": "Москва",
       "latitude": 55.75204,
       "longitude": 37.61781,
       "population": 10381222,
@@ -12,6 +13,7 @@
     {
       "id": "498817",
       "name": "Saint Petersburg",
+      "nativeName": "Санкт-Петербург",
       "latitude": 59.93863,
       "longitude": 30.31413,
       "population": 5351935,
@@ -21,6 +23,7 @@
     {
       "id": "1496747",
       "name": "Novosibirsk",
+      "nativeName": "Новосибирск",
       "latitude": 55.02259,
       "longitude": 82.93175,
       "population": 1612833,
@@ -30,6 +33,7 @@
     {
       "id": "1486209",
       "name": "Yekaterinburg",
+      "nativeName": "Екатеринбург",
       "latitude": 56.85733,
       "longitude": 60.61529,
       "population": 1495066,
@@ -38,7 +42,8 @@
     },
     {
       "id": "520555",
-      "name": "Nizhniy Novgorod",
+      "name": "Nizhny Novgorod",
+      "nativeName": "Нижний Новгород",
       "latitude": 56.32867,
       "longitude": 44.00205,
       "population": 1259013,
@@ -48,6 +53,7 @@
     {
       "id": "551487",
       "name": "Kazan",
+      "nativeName": "Казань",
       "latitude": 55.78874,
       "longitude": 49.12214,
       "population": 1243500,
@@ -57,6 +63,7 @@
     {
       "id": "1508291",
       "name": "Chelyabinsk",
+      "nativeName": "Челябинск",
       "latitude": 55.1611,
       "longitude": 61.42877,
       "population": 1202371,
@@ -66,6 +73,7 @@
     {
       "id": "1496153",
       "name": "Omsk",
+      "nativeName": "Омск",
       "latitude": 54.99244,
       "longitude": 73.36859,
       "population": 1172070,
@@ -75,6 +83,7 @@
     {
       "id": "499099",
       "name": "Samara",
+      "nativeName": "Самара",
       "latitude": 53.20767,
       "longitude": 50.13553,
       "population": 1163399,
@@ -84,6 +93,7 @@
     {
       "id": "501175",
       "name": "Rostov-on-Don",
+      "nativeName": "Ростов-на-Дону",
       "latitude": 47.21997,
       "longitude": 39.70769,
       "population": 1130305,
@@ -93,6 +103,7 @@
     {
       "id": "479561",
       "name": "Ufa",
+      "nativeName": "Уфа",
       "latitude": 54.74306,
       "longitude": 55.96779,
       "population": 1120547,
@@ -102,6 +113,7 @@
     {
       "id": "1502026",
       "name": "Krasnoyarsk",
+      "nativeName": "Красноярск",
       "latitude": 56.03742,
       "longitude": 92.93136,
       "population": 1090811,
@@ -111,6 +123,7 @@
     {
       "id": "472045",
       "name": "Voronezh",
+      "nativeName": "Воронеж",
       "latitude": 51.66833,
       "longitude": 39.19204,
       "population": 1047549,
@@ -120,6 +133,7 @@
     {
       "id": "472757",
       "name": "Volgograd",
+      "nativeName": "Волгоград",
       "latitude": 48.71378,
       "longitude": 44.4976,
       "population": 1013533,
@@ -129,6 +143,7 @@
     {
       "id": "511196",
       "name": "Perm",
+      "nativeName": "Пермь",
       "latitude": 58.01046,
       "longitude": 56.25017,
       "population": 982419,
@@ -138,6 +153,7 @@
     {
       "id": "542420",
       "name": "Krasnodar",
+      "nativeName": "Краснодар",
       "latitude": 45.04534,
       "longitude": 38.98178,
       "population": 899541,
@@ -147,6 +163,7 @@
     {
       "id": "498677",
       "name": "Saratov",
+      "nativeName": "Саратов",
       "latitude": 51.54048,
       "longitude": 45.9901,
       "population": 844858,
@@ -156,6 +173,7 @@
     {
       "id": "1488754",
       "name": "Tyumen",
+      "nativeName": "Тюмень",
       "latitude": 57.15222,
       "longitude": 65.52722,
       "population": 768358,
@@ -165,6 +183,7 @@
     {
       "id": "482283",
       "name": "Tolyatti",
+      "nativeName": "Тольятти",
       "latitude": 53.5303,
       "longitude": 49.3461,
       "population": 702879,
@@ -174,6 +193,7 @@
     {
       "id": "554840",
       "name": "Izhevsk",
+      "nativeName": "Ижевск",
       "latitude": 56.85225,
       "longitude": 53.19862,
       "population": 648213,
@@ -183,6 +203,7 @@
     {
       "id": "1510853",
       "name": "Barnaul",
+      "nativeName": "Барнаул",
       "latitude": 53.36199,
       "longitude": 83.72786,
       "population": 632372,
@@ -192,6 +213,7 @@
     {
       "id": "479123",
       "name": "Ulyanovsk",
+      "nativeName": "Ульяновск",
       "latitude": 54.32824,
       "longitude": 48.38657,
       "population": 626540,
@@ -201,6 +223,7 @@
     {
       "id": "2023469",
       "name": "Irkutsk",
+      "nativeName": "Иркутск",
       "latitude": 52.29566,
       "longitude": 104.29076,
       "population": 623869,
@@ -210,6 +233,7 @@
     {
       "id": "2022890",
       "name": "Khabarovsk",
+      "nativeName": "Хабаровск",
       "latitude": 48.46204,
       "longitude": 135.0971,
       "population": 618150,
@@ -219,6 +243,7 @@
     {
       "id": "468902",
       "name": "Yaroslavl",
+      "nativeName": "Ярославль",
       "latitude": 57.62987,
       "longitude": 39.87368,
       "population": 608722,
@@ -228,6 +253,7 @@
     {
       "id": "2013348",
       "name": "Vladivostok",
+      "nativeName": "Владивосток",
       "latitude": 43.10562,
       "longitude": 131.87353,
       "population": 604901,
@@ -237,6 +263,7 @@
     {
       "id": "532096",
       "name": "Makhachkala",
+      "nativeName": "Махачкала",
       "latitude": 42.97782,
       "longitude": 47.50027,
       "population": 596356,
@@ -246,6 +273,7 @@
     {
       "id": "1489425",
       "name": "Tomsk",
+      "nativeName": "Томск",
       "latitude": 56.50049,
       "longitude": 84.98216,
       "population": 574002,
@@ -255,6 +283,7 @@
     {
       "id": "515003",
       "name": "Orenburg",
+      "nativeName": "Оренбург",
       "latitude": 51.76712,
       "longitude": 55.09883,
       "population": 564773,
@@ -264,6 +293,7 @@
     {
       "id": "1503901",
       "name": "Kemerovo",
+      "nativeName": "Кемерово",
       "latitude": 55.35417,
       "longitude": 86.10435,
       "population": 558973,
@@ -273,6 +303,7 @@
     {
       "id": "1496990",
       "name": "Novokuznetsk",
+      "nativeName": "Новокузнецк",
       "latitude": 53.75752,
       "longitude": 87.13599,
       "population": 539616,
@@ -281,7 +312,8 @@
     },
     {
       "id": "500096",
-      "name": "Ryazan’",
+      "name": "Ryazan",
+      "nativeName": "Рязань",
       "latitude": 54.62696,
       "longitude": 39.70415,
       "population": 538962,
@@ -291,6 +323,7 @@
     {
       "id": "580497",
       "name": "Astrakhan",
+      "nativeName": "Астрахань",
       "latitude": 46.34968,
       "longitude": 48.04076,
       "population": 533925,
@@ -300,6 +333,7 @@
     {
       "id": "511565",
       "name": "Penza",
+      "nativeName": "Пенза",
       "latitude": 53.19568,
       "longitude": 45.01075,
       "population": 523553,
@@ -308,7 +342,8 @@
     },
     {
       "id": "523750",
-      "name": "Naberezhnyye Chelny",
+      "name": "Naberezhnye Chelny",
+      "nativeName": "Набережные Челны",
       "latitude": 55.73718,
       "longitude": 52.41961,
       "population": 509870,
@@ -318,6 +353,7 @@
     {
       "id": "535121",
       "name": "Lipetsk",
+      "nativeName": "Липецк",
       "latitude": 52.5876,
       "longitude": 39.55151,
       "population": 509735,
@@ -327,6 +363,7 @@
     {
       "id": "548408",
       "name": "Kirov",
+      "nativeName": "Киров",
       "latitude": 58.59809,
       "longitude": 49.65783,
       "population": 507155,
@@ -336,6 +373,7 @@
     {
       "id": "569696",
       "name": "Cheboksary",
+      "nativeName": "Чебоксары",
       "latitude": 56.13218,
       "longitude": 47.246,
       "population": 492331,
@@ -345,6 +383,7 @@
     {
       "id": "480562",
       "name": "Tula",
+      "nativeName": "Тула",
       "latitude": 54.19609,
       "longitude": 37.61822,
       "population": 482873,
@@ -354,6 +393,7 @@
     {
       "id": "554234",
       "name": "Kaliningrad",
+      "nativeName": "Калининград",
       "latitude": 54.70639,
       "longitude": 20.51102,
       "population": 475056,
@@ -363,6 +403,7 @@
     {
       "id": "538560",
       "name": "Kursk",
+      "nativeName": "Курск",
       "latitude": 51.72689,
       "longitude": 36.18457,
       "population": 448733,
@@ -372,6 +413,7 @@
     {
       "id": "487846",
       "name": "Stavropol",
+      "nativeName": "Ставрополь",
       "latitude": 45.03442,
       "longitude": 41.9642,
       "population": 433931,
@@ -381,6 +423,7 @@
     {
       "id": "571476",
       "name": "Bryansk",
+      "nativeName": "Брянск",
       "latitude": 53.27096,
       "longitude": 34.32143,
       "population": 427236,
@@ -390,6 +433,7 @@
     {
       "id": "480060",
       "name": "Tver",
+      "nativeName": "Тверь",
       "latitude": 56.85836,
       "longitude": 35.90057,
       "population": 420065,
@@ -399,6 +443,7 @@
     {
       "id": "532288",
       "name": "Magnitogorsk",
+      "nativeName": "Магнитогорск",
       "latitude": 53.39808,
       "longitude": 59.0066,
       "population": 413351,
@@ -408,6 +453,7 @@
     {
       "id": "555312",
       "name": "Ivanovo",
+      "nativeName": "Иваново",
       "latitude": 56.99988,
       "longitude": 40.97257,
       "population": 406113,
@@ -417,6 +463,7 @@
     {
       "id": "520494",
       "name": "Nizhny Tagil",
+      "nativeName": "Нижний Тагил",
       "latitude": 57.91944,
       "longitude": 59.965,
       "population": 381116,
@@ -426,6 +473,7 @@
     {
       "id": "2014407",
       "name": "Ulan-Ude",
+      "nativeName": "Улан-Удэ",
       "latitude": 51.82648,
       "longitude": 107.59979,
       "population": 360278,
@@ -435,6 +483,7 @@
     {
       "id": "473247",
       "name": "Vladimir",
+      "nativeName": "Владимир",
       "latitude": 56.13854,
       "longitude": 40.39976,
       "population": 357024,
@@ -443,7 +492,8 @@
     },
     {
       "id": "581049",
-      "name": "Arkhangel’sk",
+      "name": "Arkhangelsk",
+      "nativeName": "Архангельск",
       "latitude": 64.5461,
       "longitude": 40.55183,
       "population": 349742,
@@ -453,6 +503,7 @@
     {
       "id": "2025339",
       "name": "Chita",
+      "nativeName": "Чита",
       "latitude": 52.04311,
       "longitude": 113.49171,
       "population": 349005,
@@ -462,6 +513,7 @@
     {
       "id": "578072",
       "name": "Belgorod",
+      "nativeName": "Белгород",
       "latitude": 50.60343,
       "longitude": 36.58091,
       "population": 345289,
@@ -471,6 +523,7 @@
     {
       "id": "553915",
       "name": "Kaluga",
+      "nativeName": "Калуга",
       "latitude": 54.53063,
       "longitude": 36.27,
       "population": 340851,
@@ -480,6 +533,7 @@
     {
       "id": "491687",
       "name": "Smolensk",
+      "nativeName": "Смоленск",
       "latitude": 54.77826,
       "longitude": 32.05088,
       "population": 330025,
@@ -489,6 +543,7 @@
     {
       "id": "491422",
       "name": "Sochi",
+      "nativeName": "Сочи",
       "latitude": 43.59699,
       "longitude": 39.72477,
       "population": 327608,
@@ -498,6 +553,7 @@
     {
       "id": "498698",
       "name": "Saransk",
+      "nativeName": "Саранск",
       "latitude": 54.18485,
       "longitude": 45.17166,
       "population": 318841,
@@ -507,6 +563,7 @@
     {
       "id": "569223",
       "name": "Cherepovets",
+      "nativeName": "Череповец",
       "latitude": 59.13333,
       "longitude": 37.9,
       "population": 315738,
@@ -516,6 +573,7 @@
     {
       "id": "472459",
       "name": "Vologda",
+      "nativeName": "Вологда",
       "latitude": 59.2239,
       "longitude": 39.88398,
       "population": 312420,
@@ -525,6 +583,7 @@
     {
       "id": "1501321",
       "name": "Kurgan",
+      "nativeName": "Курган",
       "latitude": 55.44905,
       "longitude": 65.34344,
       "population": 309285,
@@ -534,6 +593,7 @@
     {
       "id": "473249",
       "name": "Vladikavkaz",
+      "nativeName": "Владикавказ",
       "latitude": 43.04101,
       "longitude": 44.66986,
       "population": 306258,
@@ -542,7 +602,8 @@
     },
     {
       "id": "515012",
-      "name": "Orël",
+      "name": "Oryol",
+      "nativeName": "Орёл",
       "latitude": 52.96879,
       "longitude": 36.0791,
       "population": 303696,
@@ -552,6 +613,7 @@
     {
       "id": "1490624",
       "name": "Surgut",
+      "nativeName": "Сургут",
       "latitude": 61.25757,
       "longitude": 73.41775,
       "population": 300367,
@@ -561,6 +623,7 @@
     {
       "id": "558418",
       "name": "Grozny",
+      "nativeName": "Грозный",
       "latitude": 43.31195,
       "longitude": 45.68895,
       "population": 297137,
@@ -570,6 +633,7 @@
     {
       "id": "524305",
       "name": "Murmansk",
+      "nativeName": "Мурманск",
       "latitude": 68.96778,
       "longitude": 33.09922,
       "population": 295374,
@@ -579,6 +643,7 @@
     {
       "id": "484646",
       "name": "Tambov",
+      "nativeName": "Тамбов",
       "latitude": 52.73632,
       "longitude": 41.44102,
       "population": 293661,
@@ -588,6 +653,7 @@
     {
       "id": "509820",
       "name": "Petrozavodsk",
+      "nativeName": "Петрозаводск",
       "latitude": 61.78491,
       "longitude": 34.34691,
       "population": 279190,
@@ -597,6 +663,7 @@
     {
       "id": "484907",
       "name": "Taganrog",
+      "nativeName": "Таганрог",
       "latitude": 47.23627,
       "longitude": 38.9053,
       "population": 279056,
@@ -606,6 +673,7 @@
     {
       "id": "543878",
       "name": "Kostroma",
+      "nativeName": "Кострома",
       "latitude": 57.76638,
       "longitude": 40.92828,
       "population": 277280,
@@ -615,6 +683,7 @@
     {
       "id": "2021851",
       "name": "Komsomolsk-on-Amur",
+      "nativeName": "Комсомольск-на-Амуре",
       "latitude": 50.55034,
       "longitude": 137.00995,
       "population": 275908,
@@ -624,6 +693,7 @@
     {
       "id": "466806",
       "name": "Yoshkar-Ola",
+      "nativeName": "Йошкар-Ола",
       "latitude": 56.63877,
       "longitude": 47.89078,
       "population": 268272,
@@ -633,6 +703,7 @@
     {
       "id": "487495",
       "name": "Sterlitamak",
+      "nativeName": "Стерлитамак",
       "latitude": 53.63793,
       "longitude": 55.9533,
       "population": 267231,
@@ -642,6 +713,7 @@
     {
       "id": "2051523",
       "name": "Bratsk",
+      "nativeName": "Братск",
       "latitude": 56.1325,
       "longitude": 101.61417,
       "population": 256600,
@@ -651,6 +723,7 @@
     {
       "id": "514734",
       "name": "Orsk",
+      "nativeName": "Орск",
       "latitude": 51.23206,
       "longitude": 58.48802,
       "population": 246836,
@@ -660,6 +733,7 @@
     {
       "id": "485239",
       "name": "Syktyvkar",
+      "nativeName": "Сыктывкар",
       "latitude": 61.66393,
       "longitude": 50.8163,
       "population": 245083,
@@ -669,6 +743,7 @@
     {
       "id": "1497543",
       "name": "Nizhnevartovsk",
+      "nativeName": "Нижневартовск",
       "latitude": 60.9344,
       "longitude": 76.5531,
       "population": 244937,
@@ -678,6 +753,7 @@
     {
       "id": "2027667",
       "name": "Angarsk",
+      "nativeName": "Ангарск",
       "latitude": 52.55968,
       "longitude": 103.91413,
       "population": 243158,
@@ -687,6 +763,7 @@
     {
       "id": "518255",
       "name": "Novorossiysk",
+      "nativeName": "Новороссийск",
       "latitude": 44.73188,
       "longitude": 37.76176,
       "population": 241856,
@@ -696,6 +773,7 @@
     {
       "id": "550280",
       "name": "Khimki",
+      "nativeName": "Химки",
       "latitude": 55.9001,
       "longitude": 37.42848,
       "population": 239967,
@@ -705,6 +783,7 @@
     {
       "id": "523523",
       "name": "Nalchik",
+      "nativeName": "Нальчик",
       "latitude": 43.49806,
       "longitude": 43.61889,
       "population": 239300,
@@ -714,6 +793,7 @@
     {
       "id": "2013159",
       "name": "Yakutsk",
+      "nativeName": "Якутск",
       "latitude": 62.03114,
       "longitude": 129.72288,
       "population": 235600,
@@ -723,6 +803,7 @@
     {
       "id": "521118",
       "name": "Nizhnekamsk",
+      "nativeName": "Нижнекамск",
       "latitude": 55.63794,
       "longitude": 51.81502,
       "population": 234297,
@@ -732,6 +813,7 @@
     {
       "id": "563708",
       "name": "Dzerzhinsk",
+      "nativeName": "Дзержинск",
       "latitude": 56.24422,
       "longitude": 43.45543,
       "population": 233126,
@@ -740,7 +822,8 @@
     },
     {
       "id": "487928",
-      "name": "Staryy Oskol",
+      "name": "Stary Oskol",
+      "nativeName": "Старый Оскол",
       "latitude": 51.3025,
       "longitude": 37.84613,
       "population": 226977,
@@ -750,6 +833,7 @@
     {
       "id": "2026609",
       "name": "Blagoveshchensk",
+      "nativeName": "Благовещенск",
       "latitude": 50.27593,
       "longitude": 127.52637,
       "population": 225091,
@@ -758,7 +842,8 @@
     },
     {
       "id": "519336",
-      "name": "Velikiy Novgorod",
+      "name": "Veliky Novgorod",
+      "nativeName": "Великий Новгород",
       "latitude": 58.52131,
       "longitude": 31.27104,
       "population": 222868,
@@ -768,6 +853,7 @@
     {
       "id": "496015",
       "name": "Shakhty",
+      "nativeName": "Шахты",
       "latitude": 47.71916,
       "longitude": 40.21603,
       "population": 221312,
@@ -776,7 +862,8 @@
     },
     {
       "id": "1494114",
-      "name": "Prokop’yevsk",
+      "name": "Prokopyevsk",
+      "nativeName": "Прокопьевск",
       "latitude": 53.91518,
       "longitude": 86.71891,
       "population": 219000,
@@ -786,6 +873,7 @@
     {
       "id": "500004",
       "name": "Rybinsk",
+      "nativeName": "Рыбинск",
       "latitude": 58.04562,
       "longitude": 38.83811,
       "population": 216724,
@@ -795,6 +883,7 @@
     {
       "id": "463829",
       "name": "Zelenograd",
+      "nativeName": "Зеленоград",
       "latitude": 55.9825,
       "longitude": 37.18139,
       "population": 215727,
@@ -804,6 +893,7 @@
     {
       "id": "1510018",
       "name": "Biysk",
+      "nativeName": "Бийск",
       "latitude": 52.53423,
       "longitude": 85.19661,
       "population": 215430,
@@ -813,6 +903,7 @@
     {
       "id": "504341",
       "name": "Pskov",
+      "nativeName": "Псков",
       "latitude": 57.81922,
       "longitude": 28.33181,
       "population": 210501,
@@ -822,6 +913,7 @@
     {
       "id": "579492",
       "name": "Balakovo",
+      "nativeName": "Балаково",
       "latitude": 52.02639,
       "longitude": 47.79671,
       "population": 199572,
@@ -831,6 +923,7 @@
     {
       "id": "580922",
       "name": "Armavir",
+      "nativeName": "Армавир",
       "latitude": 44.99849,
       "longitude": 41.11472,
       "population": 199548,
@@ -840,6 +933,7 @@
     {
       "id": "2119441",
       "name": "Yuzhno-Sakhalinsk",
+      "nativeName": "Южно-Сахалинск",
       "latitude": 46.9543,
       "longitude": 142.73559,
       "population": 198973,
@@ -849,6 +943,7 @@
     {
       "id": "563464",
       "name": "Engels",
+      "nativeName": "Энгельс",
       "latitude": 51.48389,
       "longitude": 46.10528,
       "population": 196011,
@@ -858,6 +953,7 @@
     {
       "id": "496285",
       "name": "Severodvinsk",
+      "nativeName": "Северодвинск",
       "latitude": 64.55825,
       "longitude": 39.82971,
       "population": 194292,
@@ -867,6 +963,7 @@
     {
       "id": "462444",
       "name": "Zlatoust",
+      "nativeName": "Златоуст",
       "latitude": 55.17182,
       "longitude": 59.65471,
       "population": 191366,
@@ -876,6 +973,7 @@
     {
       "id": "484972",
       "name": "Syzran",
+      "nativeName": "Сызрань",
       "latitude": 53.1585,
       "longitude": 48.4681,
       "population": 189338,
@@ -885,6 +983,7 @@
     {
       "id": "1512236",
       "name": "Abakan",
+      "nativeName": "Абакан",
       "latitude": 53.7154,
       "longitude": 91.42593,
       "population": 184168,
@@ -893,7 +992,8 @@
     },
     {
       "id": "1504826",
-      "name": "Kamensk-Ural’skiy",
+      "name": "Kamensk-Uralsky",
+      "nativeName": "Каменск-Уральский",
       "latitude": 56.40626,
       "longitude": 61.93347,
       "population": 182500,
@@ -903,6 +1003,7 @@
     {
       "id": "2122104",
       "name": "Petropavlovsk-Kamchatsky",
+      "nativeName": "Петропавловск-Камчатский",
       "latitude": 53.06393,
       "longitude": 158.62751,
       "population": 181216,
@@ -912,6 +1013,7 @@
     {
       "id": "508101",
       "name": "Podolsk",
+      "nativeName": "Подольск",
       "latitude": 55.42419,
       "longitude": 37.55472,
       "population": 179400,
@@ -921,6 +1023,7 @@
     {
       "id": "577206",
       "name": "Berezniki",
+      "nativeName": "Березники",
       "latitude": 59.4091,
       "longitude": 56.8204,
       "population": 167748,
@@ -930,6 +1033,7 @@
     {
       "id": "472761",
       "name": "Volgodonsk",
+      "nativeName": "Волгодонск",
       "latitude": 47.51141,
       "longitude": 42.15269,
       "population": 167731,
@@ -939,6 +1043,7 @@
     {
       "id": "1498894",
       "name": "Miass",
+      "nativeName": "Миасс",
       "latitude": 55.04552,
       "longitude": 60.10756,
       "population": 167500,
@@ -948,6 +1053,7 @@
     {
       "id": "518970",
       "name": "Novocherkassk",
+      "nativeName": "Новочеркасск",
       "latitude": 47.4222,
       "longitude": 40.09373,
       "population": 166974,
@@ -957,6 +1063,7 @@
     {
       "id": "523064",
       "name": "Nazran",
+      "nativeName": "Назрань",
       "latitude": 43.22597,
       "longitude": 44.77323,
       "population": 164131,
@@ -966,6 +1073,7 @@
     {
       "id": "1493467",
       "name": "Rubtsovsk",
+      "nativeName": "Рубцовск",
       "latitude": 51.51473,
       "longitude": 81.20613,
       "population": 161065,
@@ -975,6 +1083,7 @@
     {
       "id": "523812",
       "name": "Mytishchi",
+      "nativeName": "Мытищи",
       "latitude": 55.91099,
       "longitude": 37.72964,
       "population": 160542,
@@ -984,6 +1093,7 @@
     {
       "id": "499292",
       "name": "Salavat",
+      "nativeName": "Салават",
       "latitude": 53.3828,
       "longitude": 55.91094,
       "population": 159893,
@@ -992,7 +1102,8 @@
     },
     {
       "id": "2014006",
-      "name": "Ussuriysk",
+      "name": "Ussurijsk",
+      "nativeName": "Уссурийск",
       "latitude": 43.80467,
       "longitude": 131.95734,
       "population": 157068,
@@ -1002,6 +1113,7 @@
     {
       "id": "532615",
       "name": "Lyubertsy",
+      "nativeName": "Люберцы",
       "latitude": 55.67719,
       "longitude": 37.89322,
       "population": 154650,
@@ -1011,6 +1123,7 @@
     {
       "id": "543460",
       "name": "Kovrov",
+      "nativeName": "Ковров",
       "latitude": 56.35752,
       "longitude": 41.31893,
       "population": 154224,
@@ -1020,6 +1133,7 @@
     {
       "id": "579464",
       "name": "Balashikha",
+      "nativeName": "Балашиха",
       "latitude": 55.79479,
       "longitude": 37.94794,
       "population": 150103,
@@ -1029,6 +1143,7 @@
     {
       "id": "546230",
       "name": "Kolomna",
+      "nativeName": "Коломна",
       "latitude": 55.07108,
       "longitude": 38.78399,
       "population": 147690,
@@ -1038,6 +1153,7 @@
     {
       "id": "2019528",
       "name": "Nakhodka",
+      "nativeName": "Находка",
       "latitude": 42.8436,
       "longitude": 132.91831,
       "population": 146920,
@@ -1046,7 +1162,8 @@
     },
     {
       "id": "563523",
-      "name": "Elektrostal’",
+      "name": "Elektrostal",
+      "nativeName": "Электросталь",
       "latitude": 55.78647,
       "longitude": 38.45713,
       "population": 144387,
@@ -1056,6 +1173,7 @@
     {
       "id": "503550",
       "name": "Pyatigorsk",
+      "nativeName": "Пятигорск",
       "latitude": 44.05,
       "longitude": 43.05036,
       "population": 142865,
@@ -1065,6 +1183,7 @@
     {
       "id": "528293",
       "name": "Maykop",
+      "nativeName": "Майкоп",
       "latitude": 44.60789,
       "longitude": 40.10242,
       "population": 141970,
@@ -1074,6 +1193,7 @@
     {
       "id": "1497337",
       "name": "Norilsk",
+      "nativeName": "Норильск",
       "latitude": 69.3535,
       "longitude": 88.2027,
       "population": 140800,
@@ -1082,7 +1202,8 @@
     },
     {
       "id": "582432",
-      "name": "Al’met’yevsk",
+      "name": "Almetyevsk",
+      "nativeName": "Альметьевск",
       "latitude": 54.90395,
       "longitude": 52.31793,
       "population": 140437,
@@ -1091,7 +1212,8 @@
     },
     {
       "id": "554233",
-      "name": "Korolev",
+      "name": "Korolyov",
+      "nativeName": "Королёв",
       "latitude": 55.91417,
       "longitude": 37.82556,
       "population": 139798,
@@ -1101,6 +1223,7 @@
     {
       "id": "546105",
       "name": "Kolpino",
+      "nativeName": "Колпино",
       "latitude": 59.75069,
       "longitude": 30.58856,
       "population": 138979,
@@ -1110,6 +1233,7 @@
     {
       "id": "516215",
       "name": "Odintsovo",
+      "nativeName": "Одинцово",
       "latitude": 55.66977,
       "longitude": 37.27716,
       "population": 137041,
@@ -1119,6 +1243,7 @@
     {
       "id": "522377",
       "name": "Nevinnomyssk",
+      "nativeName": "Невинномысск",
       "latitude": 44.6333,
       "longitude": 41.9444,
       "population": 134345,
@@ -1128,6 +1253,7 @@
     {
       "id": "510808",
       "name": "Pervouralsk",
+      "nativeName": "Первоуральск",
       "latitude": 56.90528,
       "longitude": 59.94361,
       "population": 133600,
@@ -1137,6 +1263,7 @@
     {
       "id": "548114",
       "name": "Kislovodsk",
+      "nativeName": "Кисловодск",
       "latitude": 43.91333,
       "longitude": 42.72083,
       "population": 132771,
@@ -1146,6 +1273,7 @@
     {
       "id": "566199",
       "name": "Dimitrovgrad",
+      "nativeName": "Димитровград",
       "latitude": 54.21386,
       "longitude": 49.61838,
       "population": 132226,
@@ -1155,6 +1283,7 @@
     {
       "id": "518557",
       "name": "Novomoskovsk",
+      "nativeName": "Новомосковск",
       "latitude": 54.01098,
       "longitude": 38.29084,
       "population": 130982,
@@ -1164,6 +1293,7 @@
     {
       "id": "553287",
       "name": "Kamyshin",
+      "nativeName": "Камышин",
       "latitude": 50.0885,
       "longitude": 45.41277,
       "population": 128626,
@@ -1173,6 +1303,7 @@
     {
       "id": "518976",
       "name": "Novocheboksarsk",
+      "nativeName": "Новочебоксарск",
       "latitude": 56.11095,
       "longitude": 47.47755,
       "population": 128468,
@@ -1182,6 +1313,7 @@
     {
       "id": "496527",
       "name": "Serpukhov",
+      "nativeName": "Серпухов",
       "latitude": 54.9198,
       "longitude": 37.41618,
       "population": 128158,
@@ -1191,6 +1323,7 @@
     {
       "id": "524294",
       "name": "Murom",
+      "nativeName": "Муром",
       "latitude": 55.56853,
       "longitude": 42.02388,
       "population": 126931,
@@ -1200,6 +1333,7 @@
     {
       "id": "550478",
       "name": "Khasavyurt",
+      "nativeName": "Хасавюрт",
       "latitude": 43.24872,
       "longitude": 46.58571,
       "population": 126829,
@@ -1209,6 +1343,7 @@
     {
       "id": "522942",
       "name": "Neftekamsk",
+      "nativeName": "Нефтекамск",
       "latitude": 56.08879,
       "longitude": 54.26383,
       "population": 126805,
@@ -1218,6 +1353,7 @@
     {
       "id": "569154",
       "name": "Cherkessk",
+      "nativeName": "Черкесск",
       "latitude": 44.22375,
       "longitude": 42.04624,
       "population": 122395,
@@ -1227,6 +1363,7 @@
     {
       "id": "515024",
       "name": "Orekhovo-Zuyevo",
+      "nativeName": "Орехово-Зуево",
       "latitude": 55.81242,
       "longitude": 38.99155,
       "population": 120000,
@@ -1236,6 +1373,7 @@
     {
       "id": "1512165",
       "name": "Achinsk",
+      "nativeName": "Ачинск",
       "latitude": 56.26792,
       "longitude": 90.50145,
       "population": 117634,
@@ -1245,6 +1383,7 @@
     {
       "id": "1500973",
       "name": "Kyzyl",
+      "nativeName": "Кызыл",
       "latitude": 51.71108,
       "longitude": 94.43776,
       "population": 116983,
@@ -1254,6 +1393,7 @@
     {
       "id": "520068",
       "name": "Noginsk",
+      "nativeName": "Ногинск",
       "latitude": 55.86486,
       "longitude": 38.44853,
       "population": 115979,
@@ -1263,6 +1403,7 @@
     {
       "id": "467978",
       "name": "Yelets",
+      "nativeName": "Елец",
       "latitude": 52.61435,
       "longitude": 38.50935,
       "population": 115688,
@@ -1272,6 +1413,7 @@
     {
       "id": "1489530",
       "name": "Tobolsk",
+      "nativeName": "Тобольск",
       "latitude": 58.19807,
       "longitude": 68.25457,
       "population": 113800,
@@ -1281,6 +1423,7 @@
     {
       "id": "495344",
       "name": "Shchyolkovo",
+      "nativeName": "Щёлково",
       "latitude": 55.92497,
       "longitude": 37.97218,
       "population": 113000,
@@ -1290,6 +1433,7 @@
     {
       "id": "1497917",
       "name": "Nefteyugansk",
+      "nativeName": "Нефтеюганск",
       "latitude": 61.09979,
       "longitude": 72.60349,
       "population": 112632,
@@ -1299,6 +1443,7 @@
     {
       "id": "518659",
       "name": "Novokuybyshevsk",
+      "nativeName": "Новокуйбышевск",
       "latitude": 53.09709,
       "longitude": 49.94001,
       "population": 111800,
@@ -1308,6 +1453,7 @@
     {
       "id": "1496503",
       "name": "Noyabrsk",
+      "nativeName": "Ноябрьск",
       "latitude": 63.19309,
       "longitude": 75.43728,
       "population": 110000,
@@ -1317,6 +1463,7 @@
     {
       "id": "578740",
       "name": "Bataysk",
+      "nativeName": "Батайск",
       "latitude": 47.13746,
       "longitude": 39.75713,
       "population": 109962,
@@ -1326,6 +1473,7 @@
     {
       "id": "1538637",
       "name": "Seversk",
+      "nativeName": "Северск",
       "latitude": 56.60056,
       "longitude": 84.88639,
       "population": 109844,
@@ -1335,6 +1483,7 @@
     {
       "id": "580724",
       "name": "Arzamas",
+      "nativeName": "Арзамас",
       "latitude": 55.39563,
       "longitude": 43.8381,
       "population": 109479,
@@ -1344,6 +1493,7 @@
     {
       "id": "496638",
       "name": "Sergiyev Posad",
+      "nativeName": "Сергиев Посад",
       "latitude": 56.31204,
       "longitude": 38.13869,
       "population": 109252,
@@ -1353,6 +1503,7 @@
     {
       "id": "1500665",
       "name": "Leninsk-Kuznetsky",
+      "nativeName": "Ленинск-Кузнецкий",
       "latitude": 54.6567,
       "longitude": 86.1737,
       "population": 109023,
@@ -1362,6 +1513,7 @@
     {
       "id": "515879",
       "name": "Oktyabrsky",
+      "nativeName": "Октябрьский",
       "latitude": 54.48147,
       "longitude": 53.47103,
       "population": 108200,
@@ -1371,6 +1523,7 @@
     {
       "id": "516436",
       "name": "Obninsk",
+      "nativeName": "Обнинск",
       "latitude": 55.10993,
       "longitude": 36.61238,
       "population": 107392,
@@ -1380,6 +1533,7 @@
     {
       "id": "563514",
       "name": "Elista",
+      "nativeName": "Элиста",
       "latitude": 46.30794,
       "longitude": 44.25537,
       "population": 106971,
@@ -1389,6 +1543,7 @@
     {
       "id": "517836",
       "name": "Novotroitsk",
+      "nativeName": "Новотроицк",
       "latitude": 51.20099,
       "longitude": 58.31318,
       "population": 106186,
@@ -1398,6 +1553,7 @@
     {
       "id": "566532",
       "name": "Derbent",
+      "nativeName": "Дербент",
       "latitude": 42.06622,
       "longitude": 48.28759,
       "population": 105965,
@@ -1407,6 +1563,7 @@
     {
       "id": "476077",
       "name": "Velikiye Luki",
+      "nativeName": "Великие Луки",
       "latitude": 56.34063,
       "longitude": 30.54377,
       "population": 103149,
@@ -1416,6 +1573,7 @@
     {
       "id": "503977",
       "name": "Pushkino",
+      "nativeName": "Пушкино",
       "latitude": 55.99456,
       "longitude": 37.82897,
       "population": 102816,
@@ -1424,7 +1582,8 @@
     },
     {
       "id": "2027456",
-      "name": "Artëm",
+      "name": "Artyom",
+      "nativeName": "Артём",
       "latitude": 43.35757,
       "longitude": 132.19137,
       "population": 102300,
@@ -1434,6 +1593,7 @@
     {
       "id": "479411",
       "name": "Ukhta",
+      "nativeName": "Ухта",
       "latitude": 63.56904,
       "longitude": 53.69141,
       "population": 102187,
@@ -1443,6 +1603,7 @@
     {
       "id": "1504682",
       "name": "Kansk",
+      "nativeName": "Канск",
       "latitude": 56.20218,
       "longitude": 95.71848,
       "population": 101502,
@@ -1452,6 +1613,7 @@
     {
       "id": "1503772",
       "name": "Khanty-Mansiysk",
+      "nativeName": "Ханты-Мансийск",
       "latitude": 61.00187,
       "longitude": 69.02728,
       "population": 101466,
@@ -1461,6 +1623,7 @@
     {
       "id": "1498920",
       "name": "Mezhdurechensk",
+      "nativeName": "Междуреченск",
       "latitude": 53.68993,
       "longitude": 88.06221,
       "population": 101026,
@@ -1470,6 +1633,7 @@
     {
       "id": "491023",
       "name": "Solikamsk",
+      "nativeName": "Соликамск",
       "latitude": 59.66686,
       "longitude": 56.74267,
       "population": 100812,
@@ -1479,6 +1643,7 @@
     {
       "id": "561347",
       "name": "Glazov",
+      "nativeName": "Глазов",
       "latitude": 58.14,
       "longitude": 52.65619,
       "population": 100676,
@@ -1487,7 +1652,8 @@
     },
     {
       "id": "2013952",
-      "name": "Ust’-Ilimsk",
+      "name": "Ust-Ilimsk",
+      "nativeName": "Усть-Илимск",
       "latitude": 58.00056,
       "longitude": 102.66194,
       "population": 100271,
@@ -1496,7 +1662,8 @@
     },
     {
       "id": "463835",
-      "name": "Zelenodolsk",
+      "name": "Zelenodol'sk",
+      "nativeName": "Зеленодольск",
       "latitude": 55.84376,
       "longitude": 48.51784,
       "population": 99600,
@@ -1506,6 +1673,7 @@
     {
       "id": "517963",
       "name": "Novoshakhtinsk",
+      "nativeName": "Новошахтинск",
       "latitude": 47.76037,
       "longitude": 39.93335,
       "population": 99478,
@@ -1515,6 +1683,7 @@
     {
       "id": "498687",
       "name": "Sarapul",
+      "nativeName": "Сарапул",
       "latitude": 56.47633,
       "longitude": 53.79782,
       "population": 98830,
@@ -1524,6 +1693,7 @@
     {
       "id": "471430",
       "name": "Votkinsk",
+      "nativeName": "Воткинск",
       "latitude": 57.04867,
       "longitude": 53.9872,
       "population": 98633,
@@ -1533,6 +1703,7 @@
     {
       "id": "1492663",
       "name": "Serov",
+      "nativeName": "Серов",
       "latitude": 59.59737,
       "longitude": 60.58608,
       "population": 98438,
@@ -1542,6 +1713,7 @@
     {
       "id": "579460",
       "name": "Balashov",
+      "nativeName": "Балашов",
       "latitude": 51.55103,
       "longitude": 43.17069,
       "population": 98107,
@@ -1551,6 +1723,7 @@
     {
       "id": "463343",
       "name": "Zheleznogorsk",
+      "nativeName": "Железногорск",
       "latitude": 52.34198,
       "longitude": 35.35917,
       "population": 97900,
@@ -1560,6 +1733,7 @@
     {
       "id": "462755",
       "name": "Zhukovsky",
+      "nativeName": "Жуковский",
       "latitude": 55.59528,
       "longitude": 38.12028,
       "population": 97200,
@@ -1569,6 +1743,7 @@
     {
       "id": "502965",
       "name": "Ramenskoye",
+      "nativeName": "Раменское",
       "latitude": 55.56341,
       "longitude": 38.24152,
       "population": 96000,
@@ -1577,7 +1752,8 @@
     },
     {
       "id": "1538636",
-      "name": "Novoural’sk",
+      "name": "Novouralsk",
+      "nativeName": "Новоуральск",
       "latitude": 57.25483,
       "longitude": 60.09052,
       "population": 93849,
@@ -1587,6 +1763,7 @@
     {
       "id": "1538635",
       "name": "Zheleznogorsk",
+      "nativeName": "Железногорск",
       "latitude": 56.25109,
       "longitude": 93.53142,
       "population": 93834,
@@ -1596,6 +1773,7 @@
     {
       "id": "527191",
       "name": "Michurinsk",
+      "nativeName": "Мичуринск",
       "latitude": 52.90761,
       "longitude": 40.4823,
       "population": 93499,
@@ -1605,6 +1783,7 @@
     {
       "id": "548605",
       "name": "Kineshma",
+      "nativeName": "Кинешма",
       "latitude": 57.43665,
       "longitude": 42.12766,
       "population": 92983,
@@ -1614,6 +1793,7 @@
     {
       "id": "542374",
       "name": "Krasnogorsk",
+      "nativeName": "Красногорск",
       "latitude": 55.81904,
       "longitude": 37.32984,
       "population": 92932,
@@ -1623,6 +1803,7 @@
     {
       "id": "504003",
       "name": "Pushkin",
+      "nativeName": "Пушкин",
       "latitude": 59.71417,
       "longitude": 30.39642,
       "population": 92889,
@@ -1632,6 +1813,7 @@
     {
       "id": "2123628",
       "name": "Magadan",
+      "nativeName": "Магадан",
       "latitude": 59.56274,
       "longitude": 150.80211,
       "population": 92782,
@@ -1641,6 +1823,7 @@
     {
       "id": "571170",
       "name": "Bugulma",
+      "nativeName": "Бугульма",
       "latitude": 54.5378,
       "longitude": 52.7985,
       "population": 91900,
@@ -1650,6 +1833,7 @@
     {
       "id": "537737",
       "name": "Kuznetsk",
+      "nativeName": "Кузнецк",
       "latitude": 53.11675,
       "longitude": 46.60037,
       "population": 90480,
@@ -1659,6 +1843,7 @@
     {
       "id": "548395",
       "name": "Kirovo-Chepetsk",
+      "nativeName": "Кирово-Чепецк",
       "latitude": 58.55091,
       "longitude": 50.031,
       "population": 90252,
@@ -1668,6 +1853,7 @@
     {
       "id": "1510350",
       "name": "Berdsk",
+      "nativeName": "Бердск",
       "latitude": 54.75352,
       "longitude": 83.09624,
       "population": 90250,
@@ -1677,6 +1863,7 @@
     {
       "id": "561887",
       "name": "Gatchina",
+      "nativeName": "Гатчина",
       "latitude": 59.57639,
       "longitude": 30.12833,
       "population": 89761,
@@ -1686,6 +1873,7 @@
     {
       "id": "498525",
       "name": "Sarov",
+      "nativeName": "Саров",
       "latitude": 54.94802,
       "longitude": 43.31521,
       "population": 88000,
@@ -1695,6 +1883,7 @@
     {
       "id": "466885",
       "name": "Yeysk",
+      "nativeName": "Ейск",
       "latitude": 46.69263,
       "longitude": 38.27907,
       "population": 87814,
@@ -1704,6 +1893,7 @@
     {
       "id": "570427",
       "name": "Buzuluk",
+      "nativeName": "Бузулук",
       "latitude": 52.77825,
       "longitude": 52.25854,
       "population": 87714,
@@ -1713,6 +1903,7 @@
     {
       "id": "558146",
       "name": "Gubkin",
+      "nativeName": "Губкин",
       "latitude": 51.28375,
       "longitude": 37.5351,
       "population": 87000,
@@ -1721,7 +1912,8 @@
     },
     {
       "id": "2014022",
-      "name": "Usol’ye-Sibirskoye",
+      "name": "Usolye-Sibirskoye",
+      "nativeName": "Усолье-Сибирское",
       "latitude": 52.75194,
       "longitude": 103.64528,
       "population": 85900,
@@ -1730,7 +1922,8 @@
     },
     {
       "id": "468250",
-      "name": "Yegor’yevsk",
+      "name": "Yegoryevsk",
+      "nativeName": "Егорьевск",
       "latitude": 55.37952,
       "longitude": 39.04122,
       "population": 85200,
@@ -1740,6 +1933,7 @@
     {
       "id": "1511494",
       "name": "Anzhero-Sudzhensk",
+      "nativeName": "Анжеро-Судженск",
       "latitude": 56.07568,
       "longitude": 86.02434,
       "population": 82526,
@@ -1749,6 +1943,7 @@
     {
       "id": "1489246",
       "name": "Troitsk",
+      "nativeName": "Троицк",
       "latitude": 54.09224,
       "longitude": 61.56756,
       "population": 82338,
@@ -1758,6 +1953,7 @@
     {
       "id": "580054",
       "name": "Azov",
+      "nativeName": "Азов",
       "latitude": 47.1069,
       "longitude": 39.41486,
       "population": 82133,
@@ -1767,6 +1963,7 @@
     {
       "id": "551847",
       "name": "Kaspiysk",
+      "nativeName": "Каспийск",
       "latitude": 42.88165,
       "longitude": 47.63919,
       "population": 81752,
@@ -1775,7 +1972,8 @@
     },
     {
       "id": "1538634",
-      "name": "Ozersk",
+      "name": "Ozyorsk",
+      "nativeName": "Озёрск",
       "latitude": 55.75556,
       "longitude": 60.70278,
       "population": 81023,
@@ -1785,6 +1983,7 @@
     {
       "id": "466990",
       "name": "Yessentuki",
+      "nativeName": "Ессентуки",
       "latitude": 44.04826,
       "longitude": 42.85638,
       "population": 81015,
@@ -1794,6 +1993,7 @@
     {
       "id": "547523",
       "name": "Klin",
+      "nativeName": "Клин",
       "latitude": 56.33169,
       "longitude": 36.7292,
       "population": 80778,

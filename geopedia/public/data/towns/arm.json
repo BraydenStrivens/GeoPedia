@@ -3,6 +3,7 @@
     {
       "id": "616052",
       "name": "Yerevan",
+      "nativeName": "Երևան",
       "latitude": 40.17765,
       "longitude": 44.5126,
       "population": 1144700,
@@ -12,6 +13,7 @@
     {
       "id": "616635",
       "name": "Gyumri",
+      "nativeName": "Գյումրի",
       "latitude": 40.79305,
       "longitude": 43.84635,
       "population": 114667,
@@ -21,6 +23,7 @@
     {
       "id": "616530",
       "name": "Vanadzor",
+      "nativeName": "Վանաձոր",
       "latitude": 40.8074,
       "longitude": 44.49704,
       "population": 78100,
@@ -30,6 +33,7 @@
     {
       "id": "617026",
       "name": "Abovyan",
+      "nativeName": "Աբովյան",
       "latitude": 40.2717,
       "longitude": 44.63342,
       "population": 50556,
@@ -39,6 +43,7 @@
     {
       "id": "616629",
       "name": "Hrazdan",
+      "nativeName": "Հրազդան",
       "latitude": 40.5169,
       "longitude": 44.75591,
       "population": 49500,
@@ -48,6 +53,7 @@
     {
       "id": "616062",
       "name": "Vagharshapat",
+      "nativeName": "Վաղարշապատ",
       "latitude": 40.16557,
       "longitude": 44.29462,
       "population": 47989,
@@ -57,6 +63,7 @@
     {
       "id": "174875",
       "name": "Kapan",
+      "nativeName": "Կապան",
       "latitude": 39.20762,
       "longitude": 46.40678,
       "population": 32900,
@@ -66,6 +73,7 @@
     {
       "id": "616631",
       "name": "Armavir",
+      "nativeName": "Արմավիր",
       "latitude": 40.15553,
       "longitude": 44.0388,
       "population": 29700,
@@ -75,6 +83,7 @@
     {
       "id": "616435",
       "name": "Masis",
+      "nativeName": "Մասիս",
       "latitude": 40.06595,
       "longitude": 44.43669,
       "population": 23136,
@@ -84,6 +93,7 @@
     {
       "id": "174979",
       "name": "Artashat",
+      "nativeName": "Արտաշատ",
       "latitude": 39.95484,
       "longitude": 44.54874,
       "population": 22800,
@@ -93,6 +103,7 @@
     {
       "id": "616785",
       "name": "Charentsavan",
+      "nativeName": "Չարենցավան",
       "latitude": 40.40289,
       "longitude": 44.64447,
       "population": 22071,
@@ -102,6 +113,7 @@
     {
       "id": "616250",
       "name": "Sevan",
+      "nativeName": "Սևան",
       "latitude": 40.548,
       "longitude": 44.95314,
       "population": 19652,
@@ -111,6 +123,7 @@
     {
       "id": "616627",
       "name": "Ijevan",
+      "nativeName": "Իջևան",
       "latitude": 40.88037,
       "longitude": 45.14776,
       "population": 19500,
@@ -120,6 +133,7 @@
     {
       "id": "616599",
       "name": "Gavar",
+      "nativeName": "Գավառ",
       "latitude": 40.35398,
       "longitude": 45.12386,
       "population": 18900,
@@ -129,6 +143,7 @@
     {
       "id": "616887",
       "name": "Artik",
+      "nativeName": "Արթիկ",
       "latitude": 40.61918,
       "longitude": 43.97207,
       "population": 18145,
@@ -138,6 +153,7 @@
     {
       "id": "616877",
       "name": "Ashtarak",
+      "nativeName": "Աշտարակ",
       "latitude": 40.2976,
       "longitude": 44.36152,
       "population": 17600,
@@ -147,6 +163,7 @@
     {
       "id": "174991",
       "name": "Ararat",
+      "nativeName": "Արարատ",
       "latitude": 39.85494,
       "longitude": 44.6947,
       "population": 17598,
@@ -156,6 +173,7 @@
     {
       "id": "174895",
       "name": "Goris",
+      "nativeName": "Գորիս",
       "latitude": 39.51111,
       "longitude": 46.34168,
       "population": 17592,
@@ -165,6 +183,7 @@
     {
       "id": "616752",
       "name": "Dilijan",
+      "nativeName": "Դիլիջան",
       "latitude": 40.74037,
       "longitude": 44.86344,
       "population": 15914,
@@ -174,6 +193,7 @@
     {
       "id": "616199",
       "name": "Spitak",
+      "nativeName": "Սպիտակ",
       "latitude": 40.83131,
       "longitude": 44.27019,
       "population": 13574,
@@ -183,6 +203,7 @@
     {
       "id": "616065",
       "name": "Yeghvard",
+      "nativeName": "Եղվարդ",
       "latitude": 40.32293,
       "longitude": 44.48418,
       "population": 13238,
@@ -192,6 +213,7 @@
     {
       "id": "174763",
       "name": "Sisian",
+      "nativeName": "Սիսիան",
       "latitude": 39.52191,
       "longitude": 46.02696,
       "population": 13176,
@@ -201,6 +223,7 @@
     {
       "id": "616108",
       "name": "Vardenis",
+      "nativeName": "Վարդենիս",
       "latitude": 40.1827,
       "longitude": 45.73156,
       "population": 12651,
@@ -210,6 +233,7 @@
     {
       "id": "616974",
       "name": "Alaverdi",
+      "nativeName": "Ալավերդի",
       "latitude": 41.09766,
       "longitude": 44.67316,
       "population": 12152,
@@ -219,6 +243,7 @@
     {
       "id": "174725",
       "name": "Vedi",
+      "nativeName": "Վեդի",
       "latitude": 39.91291,
       "longitude": 44.72083,
       "population": 12060,
@@ -228,6 +253,7 @@
     {
       "id": "616438",
       "name": "Martuni",
+      "nativeName": "Մարտունի",
       "latitude": 40.14028,
       "longitude": 45.30232,
       "population": 12034,
@@ -237,6 +263,7 @@
     {
       "id": "616194",
       "name": "Stepanavan",
+      "nativeName": "Ստեփանավան",
       "latitude": 41.00995,
       "longitude": 44.38531,
       "population": 11982,
@@ -246,6 +273,7 @@
     {
       "id": "616790",
       "name": "Byureghavan",
+      "nativeName": "Բյուրեղավան",
       "latitude": 40.31335,
       "longitude": 44.59685,
       "population": 11819,
@@ -254,7 +282,8 @@
     },
     {
       "id": "616362",
-      "name": "Nor Hachn",
+      "name": "Nor Hachin",
+      "nativeName": "Նոր Հաճն",
       "latitude": 40.30296,
       "longitude": 44.58314,
       "population": 10460,
@@ -264,6 +293,7 @@
     {
       "id": "823807",
       "name": "Metsamor",
+      "nativeName": "Մեծամոր",
       "latitude": 40.14459,
       "longitude": 44.11484,
       "population": 9450,
@@ -273,6 +303,7 @@
     {
       "id": "616178",
       "name": "Tashir",
+      "nativeName": "Տաշիր",
       "latitude": 41.11922,
       "longitude": 44.28649,
       "population": 7840,
@@ -282,6 +313,7 @@
     {
       "id": "174710",
       "name": "Yeghegnadzor",
+      "nativeName": "Եղեգնաձոր",
       "latitude": 39.7644,
       "longitude": 45.33268,
       "population": 7300,
@@ -291,6 +323,7 @@
     {
       "id": "616802",
       "name": "Berd",
+      "nativeName": "Բերդ",
       "latitude": 40.88066,
       "longitude": 45.38901,
       "population": 6900,
@@ -300,6 +333,7 @@
     {
       "id": "616945",
       "name": "Aragatsavan",
+      "nativeName": "Արագածավան",
       "latitude": 40.32121,
       "longitude": 43.66205,
       "population": 6580,
@@ -309,6 +343,7 @@
     {
       "id": "174880",
       "name": "Kajaran",
+      "nativeName": "Քաջարան",
       "latitude": 39.15091,
       "longitude": 46.15673,
       "population": 6519,
@@ -318,6 +353,7 @@
     {
       "id": "616953",
       "name": "Aparan",
+      "nativeName": "Ապարան",
       "latitude": 40.59297,
       "longitude": 44.35945,
       "population": 6167,
@@ -327,6 +363,7 @@
     {
       "id": "616786",
       "name": "Chambarak",
+      "nativeName": "Ճամբարակ",
       "latitude": 40.59655,
       "longitude": 45.35498,
       "population": 5481,
@@ -336,6 +373,7 @@
     {
       "id": "616446",
       "name": "Maralik",
+      "nativeName": "Մարալիկ",
       "latitude": 40.57595,
       "longitude": 43.87059,
       "population": 5462,
@@ -345,6 +383,7 @@
     {
       "id": "174726",
       "name": "Vayk",
+      "nativeName": "Վայք",
       "latitude": 39.69026,
       "longitude": 45.46919,
       "population": 5453,
@@ -353,7 +392,8 @@
     },
     {
       "id": "616333",
-      "name": "Noyemberyan",
+      "name": "Noyemberian",
+      "nativeName": "Նոյեմբերյան",
       "latitude": 41.17319,
       "longitude": 44.99851,
       "population": 4560,
@@ -363,6 +403,7 @@
     {
       "id": "616187",
       "name": "Talin",
+      "nativeName": "Թալին",
       "latitude": 40.39172,
       "longitude": 43.87793,
       "population": 4541,
@@ -372,6 +413,7 @@
     {
       "id": "174884",
       "name": "Jermuk",
+      "nativeName": "Ջերմուկ",
       "latitude": 39.83948,
       "longitude": 45.67112,
       "population": 4095,
@@ -381,6 +423,7 @@
     {
       "id": "174823",
       "name": "Meghri",
+      "nativeName": "Մեղրի",
       "latitude": 38.90123,
       "longitude": 46.24308,
       "population": 3770,
@@ -390,6 +433,7 @@
     {
       "id": "175008",
       "name": "Agarak",
+      "nativeName": "Ագարակ",
       "latitude": 38.86506,
       "longitude": 46.19463,
       "population": 3035,
@@ -399,6 +443,7 @@
     {
       "id": "616995",
       "name": "Akhtala",
+      "nativeName": "Ախթալա",
       "latitude": 41.14952,
       "longitude": 44.78168,
       "population": 2395,
@@ -408,6 +453,7 @@
     {
       "id": "616840",
       "name": "Ayrum",
+      "nativeName": "Այրում",
       "latitude": 41.18826,
       "longitude": 44.90404,
       "population": 1870,
@@ -417,6 +463,7 @@
     {
       "id": "616132",
       "name": "Tumanyan",
+      "nativeName": "Թումանյան",
       "latitude": 41.0019,
       "longitude": 44.6494,
       "population": 1456,
@@ -425,7 +472,8 @@
     },
     {
       "id": "616160",
-      "name": "Tsaghkadzor",
+      "name": "Tsakhkadzor",
+      "nativeName": "Ծաղկա‎ձոր",
       "latitude": 40.5325,
       "longitude": 44.72323,
       "population": 1127,

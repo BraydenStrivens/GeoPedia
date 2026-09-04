@@ -1,45 +1,140 @@
 /**
- * Defines GeoPedia's global styles and Tailwind theme variables.
+ * Defines GeoPedia's global visual theme and shared site-wide styles.
  *
- * Site-wide colors and fonts are exposed to Tailwind through theme variables.
- * MapLibre cursor behavior is also normalized here so interactive maps use
- * GeoPedia's preferred default cursor.
+ * Semantic CSS variables provide a single source of truth for backgrounds,
+ * text, buttons, borders, interactive states, and typography. Tailwind theme
+ * variables expose those values as utility classes so components can use
+ * consistent styling without depending directly on specific gray shades or
+ * hexadecimal colors.
+ *
+ * This file also contains global document behavior and reusable styles that do
+ * not belong to a single component, including GeoPedia's hidden panel
+ * scrollbar and normalized MapLibre cursor behavior.
  */
 
 @import "tailwindcss";
 
-/* Default site colors */
+/**
+ * GeoPedia's semantic design tokens.
+ *
+ * Components should reference these values by purpose rather than introducing
+ * hardcoded black, white, or gray values. This allows the site's visual theme
+ * to be changed later without rewriting individual components.
+ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Background hierarchy */
+  --background-color-1: #ffffff;
+  --background-color-2: #e5e7eb;
+  --background-color-3: #d1d5db;
+
+  /* Primary and secondary text */
+  --text-color: #171717;
+  --text-hover-color: #ffffff;
+  --text-secondary-color: #6b7280;
+
+  /* Buttons and other prominent interactive surfaces */
+  --button-color: #171717;
+  --button-hover-color: #ffffff;
+  --button-text-color: #ffffff;
+  --button-hover-text-color: #171717;
+
+  /* Toggle buttons */
+  --selected-control-color: #171717;
+  --selected-control-hover-color: #374151;
+
+  /* Borders and dividers */
+  --border-color: #d1d5db;
+  --border-hover-color: #171717;
+
+  /* Disabled interactive states */
+  --disabled-color: #e5e7eb;
+  --disabled-text-color: #9ca3af;
+
+  /* Destructive actions */
+  --danger-color: #dc2626;
+  --danger-hover-color: #b91c1c;
+
+  /* Keyboard and other explicit focus indicators */
+  --focus-color: #171717;
 }
 
-/* Tailwind theme values backed by GeoPedia's CSS variables */
+/**
+ * Exposes GeoPedia's semantic design tokens to Tailwind.
+ *
+ * For example:
+ *
+ * `bg-background-1`
+ * `bg-background-2`
+ * `text-text`
+ * `text-text-secondary`
+ * `bg-button`
+ * `hover:bg-button-hover`
+ * `border-border`
+ * `font-text`
+ *
+ * Components should prefer these semantic utilities over raw Tailwind palette
+ * utilities such as `bg-gray-300` or `text-gray-500`.
+ */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  /* Background colors */
+  --color-background-1: var(--background-color-1);
+  --color-background-2: var(--background-color-2);
+  --color-background-3: var(--background-color-3);
 
-  --font-sans: var(--font-geist-sans);
+  /* Text colors */
+  --color-text: var(--text-color);
+  --color-text-hover: var(--text-hover-color);
+  --color-text-secondary: var(--text-secondary-color);
+
+  /* Button colors */
+  --color-button: var(--button-color);
+  --color-button-hover: var(--button-hover-color);
+  --color-button-text: var(--button-text-color);
+  --color-button-hover-text: var(--button-hover-text-color);
+
+  /* Toggle button colors */
+  --color-selected-control:
+    var(--selected-control-color);
+  --color-selected-control-hover:
+    var(--selected-control-hover-color);
+
+  /* Border colors */
+  --color-border: var(--border-color);
+  --color-border-hover: var(--border-hover-color);
+
+  /* Disabled states */
+  --color-disabled: var(--disabled-color);
+  --color-disabled-text: var(--disabled-text-color);
+
+  /* Destructive actions */
+  --color-danger: var(--danger-color);
+  --color-danger-hover: var(--danger-hover-color);
+
+  /* Focus state */
+  --color-focus: var(--focus-color);
+
+  /* Typography */
+  --font-text: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-/* System dark-mode colors */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-/* Global document appearance */
+/**
+ * Defines GeoPedia's default document appearance.
+ */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  background: var(--background-color-1);
+  color: var(--text-color);
+  font-family:
+    var(--font-geist-sans),
+    Arial,
+    Helvetica,
+    sans-serif;
   cursor: default;
 }
 
-/* Prevent MapLibre from replacing GeoPedia's default cursor */
+/**
+ * Prevents MapLibre from replacing GeoPedia's preferred default cursor.
+ */
 html,
 body,
 .maplibregl-canvas {

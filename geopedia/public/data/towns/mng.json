@@ -3,6 +3,7 @@
     {
       "id": "2031405",
       "name": "Erdenet",
+      "nativeName": "Эрдэнэт ᠡᠷᠳᠡᠨᠢᠲᠦ",
       "latitude": 49.03333,
       "longitude": 104.08333,
       "population": 97814,
@@ -11,7 +12,8 @@
     },
     {
       "id": "2031964",
-      "name": "Darhan",
+      "name": "Darkhan",
+      "nativeName": "Дархан ᠳᠠᠷᠬᠠᠨ",
       "latitude": 49.48667,
       "longitude": 105.92278,
       "population": 83883,
@@ -21,6 +23,7 @@
     {
       "id": "2032054",
       "name": "Choibalsan",
+      "nativeName": "Чойбалсан ᠴᠣᠶᠢ ᠪᠠᠯᠰᠠᠩ",
       "latitude": 48.07257,
       "longitude": 114.53264,
       "population": 44835,
@@ -29,7 +32,8 @@
     },
     {
       "id": "2029945",
-      "name": "Mörön",
+      "name": "Murun",
+      "nativeName": "Мөрөн ᠮᠥᠷᠡᠨ",
       "latitude": 49.63417,
       "longitude": 100.1625,
       "population": 39404,
@@ -38,7 +42,8 @@
     },
     {
       "id": "2032533",
-      "name": "Bayanhongor",
+      "name": "Bayankhongor",
+      "nativeName": "Баянхонгор ᠪᠠᠶᠠᠨ ᠬᠣᠩᠭᠣᠷ",
       "latitude": 46.19444,
       "longitude": 100.71806,
       "population": 30931,
@@ -48,6 +53,7 @@
     {
       "id": "1515029",
       "name": "Ulaangom",
+      "nativeName": "Улаангом ᠤᠯᠠᠭᠠᠨ ᠭᠣᠮ",
       "latitude": 49.98111,
       "longitude": 92.06667,
       "population": 30092,
@@ -57,6 +63,7 @@
     {
       "id": "1516048",
       "name": "Khovd",
+      "nativeName": "Ховд ᠬᠣᠪᠳᠤ",
       "latitude": 48.00556,
       "longitude": 91.64194,
       "population": 29800,
@@ -65,7 +72,8 @@
     },
     {
       "id": "2032814",
-      "name": "Arvayheer",
+      "name": "Arvaikheer",
+      "nativeName": "Арвайхээр ᠠᠷᠪᠠᠶ ᠬᠡᠭᠡᠷ᠎ᠡ",
       "latitude": 46.26389,
       "longitude": 102.775,
       "population": 29420,
@@ -75,6 +83,7 @@
     {
       "id": "1515436",
       "name": "Ölgii",
+      "nativeName": "Өлгий ᠥᠯᠦᠭᠡᠢ",
       "latitude": 48.96833,
       "longitude": 89.9625,
       "population": 28400,
@@ -84,6 +93,7 @@
     {
       "id": "2030474",
       "name": "Bogd",
+      "nativeName": "Богд ᠪᠣᠭᠳᠠ",
       "latitude": 44.67024,
       "longitude": 102.17491,
       "population": 27924,
@@ -92,7 +102,8 @@
     },
     {
       "id": "2032007",
-      "name": "Dalandzadgad",
+      "name": "Dalanzadgad",
+      "nativeName": "Даланзадгад ᠳᠠᠯᠠᠨ ᠵᠠᠳᠠᠭᠠᠳ",
       "latitude": 43.57083,
       "longitude": 104.425,
       "population": 24863,
@@ -101,7 +112,8 @@
     },
     {
       "id": "2029156",
-      "name": "Sühbaatar",
+      "name": "Sukhbaatar",
+      "nativeName": "Сүхбаатар ᠰᠦᠬᠡ ᠪᠠᠭᠠᠲᠤᠷ",
       "latitude": 50.23139,
       "longitude": 106.20778,
       "population": 22741,
@@ -110,7 +122,8 @@
     },
     {
       "id": "2029656",
-      "name": "Undurkhaan",
+      "name": "Chinggis City",
+      "nativeName": "Чингис хот ᠴᠢᠩᠭᠢᠰ ᠬᠣᠲᠠ",
       "latitude": 47.31944,
       "longitude": 110.65556,
       "population": 22741,
@@ -120,6 +133,7 @@
     {
       "id": "2028606",
       "name": "Tsetserleg",
+      "nativeName": "Цэцэрлэг ᠴᠡᠴᠡᠷᠯᠢᠭ",
       "latitude": 47.475,
       "longitude": 101.45417,
       "population": 21620,
@@ -128,7 +142,8 @@
     },
     {
       "id": "2031533",
-      "name": "Dzüünharaa",
+      "name": "Zuunkharaa",
+      "nativeName": "Зүүнхараа ᠵᠡᢉᠦᠨ ᠬᠠᠷᠠᠭ᠎ᠠ",
       "latitude": 48.85229,
       "longitude": 106.45786,
       "population": 18830,
@@ -138,6 +153,7 @@
     {
       "id": "2032614",
       "name": "Baruun-Urt",
+      "nativeName": "Баруун-Урт ᠪᠠᠷᠠᠭᠤᠨ ᠤᠷᠲᠤ",
       "latitude": 46.68056,
       "longitude": 113.27917,
       "population": 18190,
@@ -147,6 +163,7 @@
     {
       "id": "1516393",
       "name": "Altai",
+      "nativeName": "Алтай ᠠᠯᠲᠠᠢ",
       "latitude": 46.37222,
       "longitude": 96.25833,
       "population": 17617,
@@ -156,6 +173,7 @@
     {
       "id": "2032201",
       "name": "Bulgan",
+      "nativeName": "Булган ᠪᠤᠯᠠᠭᠠᠨ",
       "latitude": 48.8125,
       "longitude": 103.53472,
       "population": 17348,
@@ -165,6 +183,7 @@
     {
       "id": "7648817",
       "name": "Zuunmod",
+      "nativeName": "Зуунмод ᠵᠠᠭᠤᠨ ᠮᠣᠳᠤ",
       "latitude": 47.70693,
       "longitude": 106.95276,
       "population": 16953,
@@ -173,7 +192,8 @@
     },
     {
       "id": "1515007",
-      "name": "Uliastay",
+      "name": "Uliastai",
+      "nativeName": "Улиастай ᠤᠯᠢᠶᠠᠰᠤᠲᠠᠢ",
       "latitude": 47.74167,
       "longitude": 96.84444,
       "population": 16265,
@@ -183,6 +203,7 @@
     {
       "id": "7648891",
       "name": "Kharkhorin",
+      "nativeName": "Хархорин ᠬᠠᠷ᠎ᠠ ᠬᠣᠷᠢᠨ",
       "latitude": 47.19245,
       "longitude": 102.81349,
       "population": 14765,
@@ -191,7 +212,8 @@
     },
     {
       "id": "2030065",
-      "name": "Mandalgovi",
+      "name": "Mandalgobi",
+      "nativeName": "Мандалговь ᠮᠠᠨᠳᠠᠯ ᠭᠣᠪᠢ",
       "latitude": 45.7625,
       "longitude": 106.27083,
       "population": 12339,
@@ -200,7 +222,8 @@
     },
     {
       "id": "8468638",
-      "name": "Zamiin Uud",
+      "name": "Zamiin uud",
+      "nativeName": "Замын-Үүд ᠵᠠᠮ ᠤᠨ ᠡᠭᠦᠳᠡ",
       "latitude": 43.7193,
       "longitude": 111.90777,
       "population": 11527,
@@ -209,7 +232,8 @@
     },
     {
       "id": "2032050",
-      "name": "Choyr",
+      "name": "Choir",
+      "nativeName": "Чойр ᠴᠣᠶᠢᠷ",
       "latitude": 46.36111,
       "longitude": 108.36111,
       "population": 10434,
@@ -219,6 +243,7 @@
     {
       "id": "1515167",
       "name": "Tosontsengel",
+      "nativeName": "Тосонцэнгэл ᠲᠣᠰᠤᠨ ᠴᠡᠩᠭᠡᠯ",
       "latitude": 48.75667,
       "longitude": 98.28389,
       "population": 9526,
@@ -227,7 +252,8 @@
     },
     {
       "id": "2028614",
-      "name": "Tsengel",
+      "name": "Tosontsengel",
+      "nativeName": "Тосонцэнгэл ᠲᠣᠰᠤᠨ ᠴᠡᠩᠭᠡᠯ",
       "latitude": 49.47833,
       "longitude": 100.88944,
       "population": 8348,
@@ -236,7 +262,8 @@
     },
     {
       "id": "2029315",
-      "name": "Sharïngol",
+      "name": "Sharyn gol",
+      "nativeName": "Шарынгол ᠱᠠᠷ᠎ᠠ ᠶᠢᠨ ᠭᠣᠣᠯ",
       "latitude": 49.23733,
       "longitude": 106.43005,
       "population": 7795,
@@ -245,7 +272,8 @@
     },
     {
       "id": "1515579",
-      "name": "Jargalant",
+      "name": "Bulgan",
+      "nativeName": "Булган ᠪᠤᠯᠠᠭᠠᠨ",
       "latitude": 46.9267,
       "longitude": 91.08782,
       "population": 5137,
@@ -254,7 +282,8 @@
     },
     {
       "id": "2028313",
-      "name": "Urt",
+      "name": "Gurvantes",
+      "nativeName": "Гурвантэс ᠭᠤᠷᠪᠠᠨ ᠲᠡᠰ",
       "latitude": 43.23245,
       "longitude": 101.04813,
       "population": 5000,
@@ -263,7 +292,8 @@
     },
     {
       "id": "2030316",
-      "name": "Hutag",
+      "name": "Khutag-Undur",
+      "nativeName": "Хутаг-Өндөр ᠬᠤᠲᠤᠭ ᠥᠨᠳᠦᠷ",
       "latitude": 49.395,
       "longitude": 102.69333,
       "population": 4591,
@@ -272,7 +302,8 @@
     },
     {
       "id": "2032411",
-      "name": "Berh",
+      "name": "Berkh",
+      "nativeName": "Бэрх ᠪᠡᠷᠬᠡ",
       "latitude": 47.78333,
       "longitude": 111.16667,
       "population": 3890,
@@ -282,6 +313,7 @@
     {
       "id": "6618876",
       "name": "Jargalant",
+      "nativeName": "Жаргалант ᠵᠢᠷᠭᠠᠯᠠᠩᠲᠤ",
       "latitude": 49.05666,
       "longitude": 104.4017,
       "population": 3417,
@@ -290,7 +322,8 @@
     },
     {
       "id": "2030915",
-      "name": "Orhon",
+      "name": "Orkhon",
+      "nativeName": "Орхон ᠣᠷᠬᠤᠨ",
       "latitude": 49.8325,
       "longitude": 106.13639,
       "population": 3245,
@@ -299,7 +332,8 @@
     },
     {
       "id": "2029335",
-      "name": "Sharga",
+      "name": "Bayan-Agt",
+      "nativeName": "Баян-Агт ᠪᠠᠶ᠋ᠠᠨ ᠠᠭᠲᠠ",
       "latitude": 49.04192,
       "longitude": 102.08925,
       "population": 3048,
@@ -308,7 +342,8 @@
     },
     {
       "id": "2030512",
-      "name": "Horiult",
+      "name": "Bogd",
+      "nativeName": "Богд ᠪᠣᠭᠳᠠ",
       "latitude": 45.2,
       "longitude": 100.76667,
       "population": 2900,
@@ -317,7 +352,8 @@
     },
     {
       "id": "2031368",
-      "name": "Ergel",
+      "name": "Khtanbulag",
+      "nativeName": "Хатанбулаг ᠬᠠᠲᠤᠨ ᠪᠤᠯᠠᠭ",
       "latitude": 43.15,
       "longitude": 109.13333,
       "population": 2853,
@@ -326,7 +362,8 @@
     },
     {
       "id": "2029117",
-      "name": "Dashinchilling",
+      "name": "Dashinchilen",
+      "nativeName": "Дашинчилэн ᠳᠠᠰᠢᠨᠴᠢᠯᠢᠩ",
       "latitude": 47.85,
       "longitude": 104.05,
       "population": 2300,
@@ -335,7 +372,8 @@
     },
     {
       "id": "2028534",
-      "name": "Turt",
+      "name": "Khankh",
+      "nativeName": "Ханх ᠬᠠᠩᠬ᠎ᠠ",
       "latitude": 51.50725,
       "longitude": 100.66257,
       "population": 2140,
@@ -345,6 +383,7 @@
     {
       "id": "2032871",
       "name": "Argalant",
+      "nativeName": "Аргалант ᠠᠷᠭᠠᠯᠠᠩᠲᠤ",
       "latitude": 47.94211,
       "longitude": 105.89584,
       "population": 1955,
@@ -353,7 +392,8 @@
     },
     {
       "id": "2030570",
-      "name": "Hongor",
+      "name": "Delgerekh",
+      "nativeName": "Дэлгэрэх ᠳᠡᠯᠭᠡᠷᠡᠬᠦ",
       "latitude": 45.8,
       "longitude": 111.2,
       "population": 1781,
@@ -362,7 +402,8 @@
     },
     {
       "id": "1516173",
-      "name": "Bürenhayrhan",
+      "name": "Bulgan",
+      "nativeName": "Булган ᠪᠤᠯᠠᠭᠠᠨ",
       "latitude": 46.09237,
       "longitude": 91.54796,
       "population": 1768,
@@ -371,7 +412,8 @@
     },
     {
       "id": "2028429",
-      "name": "Ulaanhudag",
+      "name": "Erdenesant",
+      "nativeName": "Эрдэнэсант ᠡᠷᠳᠡᠨᠢ ᠰᠠᠩᠲᠤ",
       "latitude": 47.33333,
       "longitude": 104.5,
       "population": 1500,
@@ -381,6 +423,7 @@
     {
       "id": "2032960",
       "name": "Altanbulag",
+      "nativeName": "Алтанбулаг ᠠᠯᠲᠠᠨ ᠪᠤᠯᠠᠭ",
       "latitude": 50.31556,
       "longitude": 106.49861,
       "population": 500,
@@ -390,6 +433,7 @@
     {
       "id": "1515136",
       "name": "Tsagaannuur",
+      "nativeName": "Цагааннуур ᠴᠠᠭᠠᠨ ᠨᠠᠭᠤᠷ",
       "latitude": 49.50938,
       "longitude": 89.73289,
       "population": 200,

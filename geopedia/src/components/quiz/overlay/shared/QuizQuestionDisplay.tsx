@@ -1,3 +1,16 @@
+/**
+ * Renders the content of a GeoPedia quiz question prompt.
+ *
+ * Question prompts currently support:
+ *
+ * - Text prompts, displayed directly as centered text.
+ * - Image prompts, rendered through Next.js Image using the prompt's supplied
+ *   image URL and alternative text.
+ *
+ * This component is presentation-only. It does not own quiz state or question
+ * lifecycle behavior.
+ */
+
 "use client";
 
 import Image from "next/image";
@@ -5,21 +18,22 @@ import Image from "next/image";
 import type { QuizQuestionPrompt } from "@/types/quiz";
 
 /**
- * Displays a quiz question prompt using the presentation required by its
- * prompt type.
+ * Props required by the shared quiz question display.
+ */
+type QuizQuestionDisplayProps = {
+  /** Question prompt displayed to the user. */
+  question: QuizQuestionPrompt;
+};
+
+/**
+ * Displays a quiz question using the presentation required by its prompt type.
  *
- * Text prompts are rendered directly, while image prompts use Next.js Image
- * with the supplied alternative text.
- *
- * @param props - Question-display properties.
- * @param props.question - Prompt displayed to the user.
- * @returns Rendered quiz question content.
+ * @param props - Quiz question display properties.
+ * @returns Rendered text or image question content.
  */
 export default function QuizQuestionDisplay({
   question,
-}: {
-  question: QuizQuestionPrompt;
-}) {
+}: QuizQuestionDisplayProps) {
   if (question.type === "image") {
     return (
       <div className="flex items-center justify-center">

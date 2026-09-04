@@ -3,6 +3,7 @@
     {
       "id": "2427123",
       "name": "N'Djamena",
+      "nativeName": "N'Djaména انجمينا",
       "latitude": 12.10672,
       "longitude": 15.0444,
       "population": 1359526,
@@ -12,6 +13,7 @@
     {
       "id": "2427455",
       "name": "Moundou",
+      "nativeName": "Moundou موندو",
       "latitude": 8.57437,
       "longitude": 16.07722,
       "population": 196124,
@@ -21,6 +23,7 @@
     {
       "id": "245785",
       "name": "Abéché",
+      "nativeName": "Abéché أبشي",
       "latitude": 13.82916,
       "longitude": 20.8324,
       "population": 139983,
@@ -30,6 +33,7 @@
     {
       "id": "2425791",
       "name": "Sarh",
+      "nativeName": "Sarh سارة",
       "latitude": 9.14555,
       "longitude": 18.38331,
       "population": 138928,
@@ -39,6 +43,7 @@
     {
       "id": "2430506",
       "name": "Kelo",
+      "nativeName": "Kelo كيلو",
       "latitude": 9.30859,
       "longitude": 15.80658,
       "population": 82677,
@@ -48,6 +53,7 @@
     {
       "id": "245338",
       "name": "Am Timan",
+      "nativeName": "Am Timan أم تيمان",
       "latitude": 11.0433,
       "longitude": 20.28342,
       "population": 74691,
@@ -66,6 +72,7 @@
     {
       "id": "2426240",
       "name": "Pala",
+      "nativeName": "Pala بالا",
       "latitude": 9.3646,
       "longitude": 14.90725,
       "population": 70677,
@@ -83,7 +90,8 @@
     },
     {
       "id": "243787",
-      "name": "Goz Beida",
+      "name": "Goz Beïda",
+      "nativeName": "Goz Beïda قوز بيضة",
       "latitude": 12.22643,
       "longitude": 21.40983,
       "population": 58941,
@@ -93,6 +101,7 @@
     {
       "id": "2429605",
       "name": "Koumra",
+      "nativeName": "Koumra قمرة",
       "latitude": 8.91587,
       "longitude": 17.55046,
       "population": 54109,
@@ -102,6 +111,7 @@
     {
       "id": "2427637",
       "name": "Mongo",
+      "nativeName": "Mongo منقو",
       "latitude": 12.18514,
       "longitude": 18.6884,
       "population": 53768,
@@ -111,6 +121,7 @@
     {
       "id": "2434979",
       "name": "Bol",
+      "nativeName": "Bol بول",
       "latitude": 13.46729,
       "longitude": 14.71352,
       "population": 51389,
@@ -120,6 +131,7 @@
     {
       "id": "2428394",
       "name": "Mao",
+      "nativeName": "Mao ماو",
       "latitude": 14.12286,
       "longitude": 15.31189,
       "population": 50681,
@@ -138,6 +150,7 @@
     {
       "id": "243590",
       "name": "Iriba",
+      "nativeName": "Iriba إريبا",
       "latitude": 15.11667,
       "longitude": 22.25,
       "population": 47972,
@@ -147,6 +160,7 @@
     {
       "id": "2432678",
       "name": "Faya-Largeau",
+      "nativeName": "Faya-Largeau فايا لارجو",
       "latitude": 17.9257,
       "longitude": 19.10428,
       "population": 44011,
@@ -156,6 +170,7 @@
     {
       "id": "2435124",
       "name": "Bitkine",
+      "nativeName": "بتكين Bitkine",
       "latitude": 11.9801,
       "longitude": 18.2138,
       "population": 41871,
@@ -164,7 +179,8 @@
     },
     {
       "id": "2435854",
-      "name": "Bébédja",
+      "name": "Bebedjia",
+      "nativeName": "Bébédjia بيبيجيا",
       "latitude": 8.6761,
       "longitude": 16.566,
       "population": 40289,
@@ -174,6 +190,7 @@
     {
       "id": "2428228",
       "name": "Massakory",
+      "nativeName": "Massakory مسكوري",
       "latitude": 12.99809,
       "longitude": 15.73195,
       "population": 39944,
@@ -182,7 +199,8 @@
     },
     {
       "id": "2426370",
-      "name": "Umm Hājar",
+      "name": "Umm Hajar",
+      "nativeName": "Oum Hadjer أم هاجر",
       "latitude": 13.2954,
       "longitude": 19.6966,
       "population": 37941,
@@ -192,6 +210,7 @@
     {
       "id": "2427336",
       "name": "Moussoro",
+      "nativeName": "Moussoro موسورو",
       "latitude": 13.64436,
       "longitude": 16.48954,
       "population": 35100,
@@ -201,6 +220,7 @@
     {
       "id": "244878",
       "name": "Biltine",
+      "nativeName": "Biltine بلتن",
       "latitude": 14.52727,
       "longitude": 20.92603,
       "population": 33540,
@@ -208,237 +228,253 @@
       "isCapital": false
     },
     {
-      "id": "2429158",
-      "name": "Léré",
-      "latitude": 9.6447,
-      "longitude": 14.2151,
-      "population": 32721,
-      "populationRank": 24,
-      "isCapital": false
-    },
-    {
       "id": "2432639",
       "name": "Fianga",
+      "nativeName": "Fianga فيانكا",
       "latitude": 9.9146,
       "longitude": 15.1399,
       "population": 31668,
-      "populationRank": 25,
+      "populationRank": 24,
       "isCapital": false
     },
     {
       "id": "2436400",
       "name": "Ati",
+      "nativeName": "Ati أتي",
       "latitude": 13.2138,
       "longitude": 18.3393,
       "population": 29867,
-      "populationRank": 26,
+      "populationRank": 25,
       "isCapital": false
     },
     {
       "id": "9534257",
-      "name": "Amdjarass",
+      "name": "Am-Djarass",
+      "nativeName": "Amdjarass أم جرس",
       "latitude": 16.06666,
       "longitude": 22.83536,
       "population": 29793,
-      "populationRank": 27,
+      "populationRank": 26,
       "isCapital": false
     },
     {
       "id": "2431724",
       "name": "Gounou Gaya",
+      "nativeName": "Gounou Gaya قونو قايا",
       "latitude": 9.6294,
       "longitude": 15.5132,
       "population": 29742,
-      "populationRank": 28,
+      "populationRank": 27,
       "isCapital": false
     },
     {
       "id": "2428231",
       "name": "Massaguet",
+      "nativeName": "Massaguet مساقط",
       "latitude": 12.47554,
       "longitude": 15.43647,
       "population": 28401,
-      "populationRank": 29,
+      "populationRank": 28,
       "isCapital": false
     },
     {
       "id": "2429296",
       "name": "Laï",
+      "nativeName": "Laï لادي",
       "latitude": 9.3972,
       "longitude": 16.30066,
       "population": 27071,
-      "populationRank": 30,
+      "populationRank": 29,
       "isCapital": false
     },
     {
       "id": "2434985",
       "name": "Bokoro",
+      "nativeName": "Bokoro بوكورو",
       "latitude": 12.37813,
       "longitude": 17.05876,
       "population": 26095,
-      "populationRank": 31,
+      "populationRank": 30,
       "isCapital": false
     },
     {
       "id": "2431573",
-      "name": "Guelendeng",
+      "name": "Guélendeng",
+      "nativeName": "Guélendeng غيلندنك",
       "latitude": 10.91762,
       "longitude": 15.55011,
       "population": 23320,
-      "populationRank": 32,
+      "populationRank": 31,
       "isCapital": false
     },
     {
       "id": "2429344",
       "name": "Kyabé",
+      "nativeName": "Kyabé كيابي",
       "latitude": 9.45149,
       "longitude": 18.94493,
       "population": 22806,
-      "populationRank": 33,
+      "populationRank": 32,
       "isCapital": false
     },
     {
       "id": "245669",
       "name": "Adré",
+      "nativeName": "أدري Adré",
       "latitude": 13.46648,
       "longitude": 22.19875,
       "population": 21950,
-      "populationRank": 34,
+      "populationRank": 33,
       "isCapital": false
     },
     {
       "id": "2428480",
       "name": "Mandelia",
+      "nativeName": "مانديليا Mandelia",
       "latitude": 11.73017,
       "longitude": 15.24468,
       "population": 19373,
-      "populationRank": 35,
+      "populationRank": 34,
       "isCapital": false
     },
     {
       "id": "2433055",
       "name": "Dourbali",
+      "nativeName": "دوربالي Dourbali",
       "latitude": 11.80617,
       "longitude": 15.8669,
       "population": 18604,
-      "populationRank": 36,
+      "populationRank": 35,
       "isCapital": false
     },
     {
       "id": "2435508",
-      "name": "Benoy",
+      "name": "Bénoye",
+      "nativeName": "Bénoye بينوي",
       "latitude": 8.98327,
       "longitude": 16.31991,
       "population": 17285,
-      "populationRank": 37,
+      "populationRank": 36,
       "isCapital": false
     },
     {
       "id": "2427697",
-      "name": "Moïssala",
+      "name": "Moissala",
+      "nativeName": "Moïssala مويسالا",
       "latitude": 8.3404,
       "longitude": 17.7663,
       "population": 17281,
-      "populationRank": 38,
+      "populationRank": 37,
       "isCapital": false
     },
     {
       "id": "244128",
       "name": "Fada",
+      "nativeName": "Fada فادا",
       "latitude": 17.19186,
       "longitude": 21.58081,
       "population": 17240,
-      "populationRank": 39,
+      "populationRank": 38,
       "isCapital": false
     },
     {
       "id": "2434584",
       "name": "Bousso",
+      "nativeName": "Bousso بوسو",
       "latitude": 10.48473,
       "longitude": 16.71076,
       "population": 16732,
-      "populationRank": 40,
+      "populationRank": 39,
       "isCapital": false
     },
     {
       "id": "2428450",
       "name": "Mangalmé",
+      "nativeName": "Mangalmé مانكالمي",
       "latitude": 12.3546,
       "longitude": 19.6139,
       "population": 15939,
-      "populationRank": 41,
+      "populationRank": 40,
       "isCapital": false
     },
     {
       "id": "2435779",
-      "name": "Bédiondo",
+      "name": "Bedjondo",
+      "nativeName": "Bédjondo بيجوندو",
       "latitude": 8.62891,
       "longitude": 17.18643,
       "population": 15841,
-      "populationRank": 42,
+      "populationRank": 41,
       "isCapital": false
     },
     {
       "id": "2435474",
-      "name": "Béré",
+      "name": "Bere",
+      "nativeName": "Béré بيري",
       "latitude": 9.3202,
       "longitude": 16.1552,
       "population": 15431,
-      "populationRank": 43,
+      "populationRank": 42,
       "isCapital": false
     },
     {
       "id": "2436212",
       "name": "Baïbokoum",
+      "nativeName": "Baïbokoum بيبوكمم",
       "latitude": 7.74231,
       "longitude": 15.68999,
       "population": 13217,
-      "populationRank": 44,
+      "populationRank": 43,
       "isCapital": false
     },
     {
       "id": "2427034",
-      "name": "Ngama",
+      "name": "Gama",
+      "nativeName": "نجمة Gama",
       "latitude": 11.78729,
       "longitude": 17.15925,
       "population": 13087,
-      "populationRank": 45,
+      "populationRank": 44,
       "isCapital": false
     },
     {
       "id": "2427949",
       "name": "Melfi",
+      "nativeName": "Melfi ملفي",
       "latitude": 11.0598,
       "longitude": 17.9355,
       "population": 12924,
-      "populationRank": 46,
+      "populationRank": 45,
       "isCapital": false
     },
     {
       "id": "2435708",
-      "name": "Beïnamar",
+      "name": "Beinamar",
+      "nativeName": "Beïnamar بينامار",
       "latitude": 8.6698,
       "longitude": 15.3813,
       "population": 12901,
-      "populationRank": 47,
+      "populationRank": 46,
       "isCapital": false
     },
     {
       "id": "2429359",
-      "name": "Krim Krim",
+      "name": "Krim-Krim",
+      "nativeName": "Krim-Krim كريم كريم",
       "latitude": 8.97225,
       "longitude": 15.80359,
       "population": 11294,
-      "populationRank": 48,
+      "populationRank": 47,
       "isCapital": false
     },
     {
       "id": "2437601",
-      "name": "Abou Déïa",
+      "name": "Aboudéïa",
+      "nativeName": "Aboudéïa أبو ضياء",
       "latitude": 11.448,
       "longitude": 19.2789,
       "population": 10749,
-      "populationRank": 49,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -447,16 +483,17 @@
       "latitude": 9.36267,
       "longitude": 17.36597,
       "population": 10577,
-      "populationRank": 50,
+      "populationRank": 49,
       "isCapital": false
     },
     {
       "id": "242179",
-      "name": "Ounianga Kébir",
+      "name": "Ounianga Kebir",
+      "nativeName": "Ounianga Kebir أونيانقا كبير",
       "latitude": 19.05263,
       "longitude": 20.48887,
       "population": 10000,
-      "populationRank": 51,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -465,124 +502,137 @@
       "latitude": 18.15223,
       "longitude": 18.5385,
       "population": 9345,
-      "populationRank": 52,
+      "populationRank": 51,
       "isCapital": false
     },
     {
       "id": "2435837",
       "name": "Béboto",
+      "nativeName": "Beboto 1",
       "latitude": 8.26681,
       "longitude": 16.93898,
       "population": 9321,
-      "populationRank": 53,
+      "populationRank": 52,
       "isCapital": false
     },
     {
       "id": "245791",
       "name": "Abdi",
+      "nativeName": "Abdi أبدي",
       "latitude": 12.8,
       "longitude": 21.3,
       "population": 9190,
-      "populationRank": 54,
+      "populationRank": 53,
       "isCapital": false
     },
     {
       "id": "8299879",
       "name": "Haraze",
+      "nativeName": "Haraze حراز",
       "latitude": 9.93969,
       "longitude": 20.90524,
       "population": 8799,
-      "populationRank": 55,
+      "populationRank": 54,
       "isCapital": false
     },
     {
       "id": "2426784",
       "name": "Nokou",
+      "nativeName": "نكو Nokou",
       "latitude": 14.57901,
       "longitude": 14.7793,
       "population": 8792,
-      "populationRank": 56,
+      "populationRank": 55,
       "isCapital": false
     },
     {
       "id": "245501",
       "name": "Am Dam",
+      "nativeName": "Am Dam أم دام",
       "latitude": 12.76667,
       "longitude": 20.48333,
       "population": 7729,
-      "populationRank": 57,
+      "populationRank": 56,
       "isCapital": false
     },
     {
       "id": "2424324",
       "name": "Yao",
+      "nativeName": "Yao ياؤ",
       "latitude": 12.8488,
       "longitude": 17.55656,
       "population": 7639,
-      "populationRank": 58,
+      "populationRank": 57,
       "isCapital": false
     },
     {
       "id": "2425906",
       "name": "Salal",
+      "nativeName": "Salal سالل",
       "latitude": 14.8439,
       "longitude": 17.2254,
       "population": 7139,
-      "populationRank": 59,
+      "populationRank": 58,
       "isCapital": false
     },
     {
       "id": "243760",
-      "name": "Guéréda",
+      "name": "Guereda",
+      "nativeName": "Guereda غيريدا",
       "latitude": 14.51667,
       "longitude": 22.08333,
       "population": 6598,
-      "populationRank": 60,
+      "populationRank": 59,
       "isCapital": false
     },
     {
       "id": "2428216",
       "name": "Massenya",
+      "nativeName": "Massenya ماسينيا",
       "latitude": 11.40345,
       "longitude": 16.17037,
       "population": 4611,
-      "populationRank": 61,
+      "populationRank": 60,
       "isCapital": false
     },
     {
       "id": "2435976",
-      "name": "Bardaï",
+      "name": "Bardai",
+      "nativeName": "Bardaï برداي",
       "latitude": 21.35468,
       "longitude": 17.00158,
       "population": 4078,
-      "populationRank": 62,
+      "populationRank": 61,
       "isCapital": false
     },
     {
       "id": "2427640",
       "name": "Mondo",
+      "nativeName": "Mondo موندو",
       "latitude": 13.78224,
       "longitude": 15.5352,
       "population": 1608,
-      "populationRank": 63,
+      "populationRank": 62,
       "isCapital": false
     },
     {
       "id": "2424015",
       "name": "Zouar",
+      "nativeName": "زوار Zouar",
       "latitude": 20.45833,
       "longitude": 16.52778,
       "population": 1237,
-      "populationRank": 64,
+      "populationRank": 63,
       "isCapital": false
     },
     {
       "id": "2426037",
-      "name": "Rig-Rig",
+      "name": "Regeyga",
+      "nativeName": "Regeyga رقيقى",
       "latitude": 14.26471,
       "longitude": 14.35216,
       "population": 600,
-      "populationRank": 65,
+      "populationRank": 64,
       "isCapital": false
     }
   ]

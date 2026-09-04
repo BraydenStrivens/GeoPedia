@@ -1,8 +1,13 @@
 /**
- * Displays a compact icon-based control used while a quiz is active.
+ * Displays a compact icon-based control used by GeoPedia quiz overlays.
  *
- * Skip, Stop, and Restart share the same interaction styling, so this
- * component centralizes that appearance.
+ * Feature and town quizzes use these controls for lifecycle actions such as
+ * Skip, Stop, and Restart. Shared sizing, interaction behavior, accessibility,
+ * and visual styling are centralized here so those controls remain consistent
+ * across quiz types.
+ *
+ * The component owns no quiz state. Its parent supplies the accessible label,
+ * icon content, and action callback.
  */
 
 "use client";
@@ -10,7 +15,7 @@
 import type { ReactNode } from "react";
 
 /**
- * Props required by an active quiz control button.
+ * Props required by a compact quiz control button.
  */
 type QuizControlButtonProps = {
   /** Accessible description and browser tooltip for the control. */
@@ -24,10 +29,13 @@ type QuizControlButtonProps = {
 };
 
 /**
- * Displays a consistently styled compact quiz control.
+ * Displays a consistently styled compact quiz lifecycle control.
  *
- * @param props - Tooltip, icon content, and click callback.
- * @returns Compact active-quiz control button.
+ * The control uses GeoPedia's shared overlay background, text, and hover colors
+ * while preserving the existing pressed-scale interaction.
+ *
+ * @param props - Accessible label, icon content, and click callback.
+ * @returns Compact icon-based quiz control button.
  */
 export default function QuizControlButton({
   title,
@@ -42,8 +50,8 @@ export default function QuizControlButton({
       aria-label={title}
       className={[
         "pointer-events-auto flex h-6 w-6 items-center justify-center",
-        "rounded-md bg-white/80 text-gray-600 shadow-sm backdrop-blur-sm",
-        "transition hover:bg-gray-300 hover:text-black active:scale-90",
+        "rounded-md bg-background-1/80 text-text-secondary shadow-sm backdrop-blur-sm",
+        "transition hover:bg-background-3 hover:text-text active:scale-90",
       ].join(" ")}
     >
       {children}

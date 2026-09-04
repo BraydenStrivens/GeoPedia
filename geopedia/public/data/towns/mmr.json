@@ -3,6 +3,7 @@
     {
       "id": "1298824",
       "name": "Yangon",
+      "nativeName": "ရန်ကုန်",
       "latitude": 16.80528,
       "longitude": 96.15611,
       "population": 4477638,
@@ -12,6 +13,7 @@
     {
       "id": "1311874",
       "name": "Mandalay",
+      "nativeName": "မန္တလေး",
       "latitude": 21.97473,
       "longitude": 96.08359,
       "population": 1208099,
@@ -21,6 +23,7 @@
     {
       "id": "6611854",
       "name": "Nay Pyi Taw",
+      "nativeName": "နေပြည်တော်",
       "latitude": 19.745,
       "longitude": 96.12972,
       "population": 925000,
@@ -30,6 +33,7 @@
     {
       "id": "1308465",
       "name": "Mawlamyine",
+      "nativeName": "မော်လမြိုင်",
       "latitude": 16.49051,
       "longitude": 97.62825,
       "population": 438861,
@@ -39,6 +43,7 @@
     {
       "id": "1300466",
       "name": "Bago",
+      "nativeName": "ပဲခူး",
       "latitude": 17.33521,
       "longitude": 96.48135,
       "population": 244376,
@@ -48,6 +53,7 @@
     {
       "id": "1329221",
       "name": "Amarapura",
+      "nativeName": "အမရပူရ",
       "latitude": 21.90709,
       "longitude": 96.04894,
       "population": 237618,
@@ -57,6 +63,7 @@
     {
       "id": "1328421",
       "name": "Pathein",
+      "nativeName": "ပုသိမ်မြို့",
       "latitude": 16.77919,
       "longitude": 94.73212,
       "population": 237089,
@@ -66,6 +73,7 @@
     {
       "id": "1308522",
       "name": "Monywa",
+      "nativeName": "မုံရွာ",
       "latitude": 22.10856,
       "longitude": 95.13583,
       "population": 182011,
@@ -75,6 +83,7 @@
     {
       "id": "1316752",
       "name": "Kyaukpyu",
+      "nativeName": "ကျောက်ဖြူ",
       "latitude": 19.42793,
       "longitude": 93.55134,
       "population": 180000,
@@ -84,6 +93,7 @@
     {
       "id": "1295765",
       "name": "Sittwe",
+      "nativeName": "စစ်တွေမြို့",
       "latitude": 20.14624,
       "longitude": 92.89835,
       "population": 177743,
@@ -93,6 +103,7 @@
     {
       "id": "1309793",
       "name": "Meiktila",
+      "nativeName": "မိတ္ထီလာမြို့",
       "latitude": 20.87776,
       "longitude": 95.85844,
       "population": 177442,
@@ -102,6 +113,7 @@
     {
       "id": "1309611",
       "name": "Myeik",
+      "nativeName": "မြိတ်မြို့",
       "latitude": 12.43954,
       "longitude": 98.60028,
       "population": 173298,
@@ -110,7 +122,8 @@
     },
     {
       "id": "1319364",
-      "name": "Kēng Tung",
+      "name": "Mong Ma",
+      "nativeName": "မိုင်းမ 勐马",
       "latitude": 21.63093,
       "longitude": 99.92676,
       "population": 171620,
@@ -119,7 +132,8 @@
     },
     {
       "id": "1308318",
-      "name": "Mu-se",
+      "name": "Muse",
+      "nativeName": "မူဆယ်",
       "latitude": 23.99742,
       "longitude": 97.90109,
       "population": 165022,
@@ -129,6 +143,7 @@
     {
       "id": "1293960",
       "name": "Taunggyi",
+      "nativeName": "တောင်ကြီး",
       "latitude": 20.78919,
       "longitude": 97.03776,
       "population": 160115,
@@ -147,6 +162,7 @@
     {
       "id": "1293625",
       "name": "Dawei",
+      "nativeName": "ထားဝယ်",
       "latitude": 14.0823,
       "longitude": 98.19151,
       "population": 136783,
@@ -156,6 +172,7 @@
     {
       "id": "1299154",
       "name": "Pyay",
+      "nativeName": "ပြည်",
       "latitude": 18.81996,
       "longitude": 95.21562,
       "population": 135308,
@@ -165,6 +182,7 @@
     {
       "id": "1325211",
       "name": "Hinthada",
+      "nativeName": "ဟင်္သာတမြို့",
       "latitude": 17.64944,
       "longitude": 95.45705,
       "population": 134947,
@@ -174,6 +192,7 @@
     {
       "id": "1316574",
       "name": "Kyauktan",
+      "nativeName": "ကျောက်တန်း",
       "latitude": 16.63736,
       "longitude": 96.32512,
       "population": 132765,
@@ -183,6 +202,7 @@
     {
       "id": "1314759",
       "name": "Lashio",
+      "nativeName": "လားရှိုး",
       "latitude": 22.9359,
       "longitude": 97.7498,
       "population": 131000,
@@ -192,6 +212,7 @@
     {
       "id": "1302439",
       "name": "Pakokku",
+      "nativeName": "ပခုက္ကူ",
       "latitude": 21.33489,
       "longitude": 95.08438,
       "population": 126938,
@@ -201,6 +222,7 @@
     {
       "id": "1292288",
       "name": "Thaton",
+      "nativeName": "သထုံ",
       "latitude": 16.91867,
       "longitude": 97.37001,
       "population": 123727,
@@ -210,6 +232,7 @@
     {
       "id": "1328872",
       "name": "Ann",
+      "nativeName": "အမ်း",
       "latitude": 19.79537,
       "longitude": 94.04791,
       "population": 119714,
@@ -219,6 +242,7 @@
     {
       "id": "1309937",
       "name": "Pyin Oo Lwin",
+      "nativeName": "ပြင်ဦးလွင်",
       "latitude": 22.03501,
       "longitude": 96.45683,
       "population": 117303,
@@ -227,7 +251,8 @@
     },
     {
       "id": "1308567",
-      "name": "Möng Yang",
+      "name": "Mongyang",
+      "nativeName": "မိုင်းယန်း",
       "latitude": 21.8478,
       "longitude": 99.67651,
       "population": 117108,
@@ -237,6 +262,7 @@
     {
       "id": "1285173",
       "name": "Yenangyaung",
+      "nativeName": "ရေနံချောင်း",
       "latitude": 20.46504,
       "longitude": 94.8712,
       "population": 110553,
@@ -246,6 +272,7 @@
     {
       "id": "1290596",
       "name": "Taungoo",
+      "nativeName": "တောင်ငူ",
       "latitude": 18.94291,
       "longitude": 96.43408,
       "population": 106945,
@@ -254,7 +281,8 @@
     },
     {
       "id": "1292037",
-      "name": "Thayetmyo",
+      "name": "Thayet",
+      "nativeName": "သရက်",
       "latitude": 19.32076,
       "longitude": 95.18272,
       "population": 98185,
@@ -264,6 +292,7 @@
     {
       "id": "1298987",
       "name": "Pyinmana",
+      "nativeName": "ပျဉ်းမနား",
       "latitude": 19.7381,
       "longitude": 96.20742,
       "population": 97409,
@@ -273,6 +302,7 @@
     {
       "id": "1312609",
       "name": "Magway",
+      "nativeName": "မကွေး",
       "latitude": 20.14956,
       "longitude": 94.93246,
       "population": 96954,
@@ -282,6 +312,7 @@
     {
       "id": "1325259",
       "name": "Heho",
+      "nativeName": "ဟဲဟိုး",
       "latitude": 20.72315,
       "longitude": 96.82278,
       "population": 93041,
@@ -291,6 +322,7 @@
     {
       "id": "1321275",
       "name": "Kalaw",
+      "nativeName": "ကလော",
       "latitude": 20.63459,
       "longitude": 96.56454,
       "population": 93032,
@@ -300,6 +332,7 @@
     {
       "id": "1307741",
       "name": "Myitkyina",
+      "nativeName": "မြစ်ကြီးနားမြို့",
       "latitude": 25.38327,
       "longitude": 97.39637,
       "population": 90894,
@@ -309,6 +342,7 @@
     {
       "id": "1327659",
       "name": "Chauk",
+      "nativeName": "ချောက်",
       "latitude": 20.89921,
       "longitude": 94.81784,
       "population": 90870,
@@ -318,6 +352,7 @@
     {
       "id": "1308937",
       "name": "Mogok",
+      "nativeName": "မိုးကုတ်",
       "latitude": 22.91766,
       "longitude": 96.50982,
       "population": 89855,
@@ -327,6 +362,7 @@
     {
       "id": "1303406",
       "name": "Nyaunglebin",
+      "nativeName": "ညောင်လေးပင်",
       "latitude": 17.95363,
       "longitude": 96.72247,
       "population": 89626,
@@ -336,6 +372,7 @@
     {
       "id": "1308415",
       "name": "Mudon",
+      "nativeName": "မုဒုံ",
       "latitude": 16.25624,
       "longitude": 97.7246,
       "population": 89123,
@@ -345,6 +382,7 @@
     {
       "id": "1296736",
       "name": "Shwebo",
+      "nativeName": "ရွှေဘို",
       "latitude": 22.56925,
       "longitude": 95.69818,
       "population": 88914,
@@ -353,7 +391,8 @@
     },
     {
       "id": "1295087",
-      "name": "Taikkyi",
+      "name": "Taik Kyi",
+      "nativeName": "တိုက်ကြီး",
       "latitude": 17.31439,
       "longitude": 95.96293,
       "population": 88000,
@@ -363,6 +402,7 @@
     {
       "id": "1298482",
       "name": "Sagaing",
+      "nativeName": "စစ်ကိုင်း",
       "latitude": 21.8787,
       "longitude": 95.97965,
       "population": 78739,
@@ -372,6 +412,7 @@
     {
       "id": "1294041",
       "name": "Taungdwingyi",
+      "nativeName": "တောင်တွင်းကြီး",
       "latitude": 20.0065,
       "longitude": 95.54531,
       "population": 70094,
@@ -381,6 +422,7 @@
     {
       "id": "1295395",
       "name": "Thanlyin",
+      "nativeName": "သန်လျင်မြို့",
       "latitude": 16.76887,
       "longitude": 96.24503,
       "population": 69448,
@@ -390,6 +432,7 @@
     {
       "id": "1328121",
       "name": "Bogale",
+      "nativeName": "ဘိုကလေးမြို့",
       "latitude": 16.29415,
       "longitude": 95.39742,
       "population": 68938,
@@ -399,6 +442,7 @@
     {
       "id": "1325814",
       "name": "Gwa",
+      "nativeName": "ဂွ",
       "latitude": 17.59369,
       "longitude": 94.57996,
       "population": 66015,
@@ -407,7 +451,8 @@
     },
     {
       "id": "1323815",
-      "name": "Hpākān",
+      "name": "Hpakant",
+      "nativeName": "ဖားကန့်မြို့",
       "latitude": 25.6138,
       "longitude": 96.31482,
       "population": 60123,
@@ -417,6 +462,7 @@
     {
       "id": "1285899",
       "name": "Yamethin",
+      "nativeName": "ရမည်းသင်း",
       "latitude": 20.43189,
       "longitude": 96.13875,
       "population": 59867,
@@ -426,6 +472,7 @@
     {
       "id": "1296645",
       "name": "Shwegu",
+      "nativeName": "ရွှေကူမြို့",
       "latitude": 24.22673,
       "longitude": 96.79085,
       "population": 58696,
@@ -434,7 +481,8 @@
     },
     {
       "id": "1308078",
-      "name": "Myaungmya",
+      "name": "Myaung Mya",
+      "nativeName": "မြောင်းမြ",
       "latitude": 16.59875,
       "longitude": 94.92111,
       "population": 58205,
@@ -443,7 +491,8 @@
     },
     {
       "id": "1319573",
-      "name": "Kawthoung",
+      "name": "Kawthaung",
+      "nativeName": "ကော့သောင်း",
       "latitude": 9.98238,
       "longitude": 98.55034,
       "population": 57949,
@@ -452,7 +501,8 @@
     },
     {
       "id": "1329239",
-      "name": "Myaydo",
+      "name": "Aunglan",
+      "nativeName": "အောင်လံ",
       "latitude": 19.36838,
       "longitude": 95.21512,
       "population": 57395,
@@ -462,6 +512,7 @@
     {
       "id": "1309289",
       "name": "Minbu",
+      "nativeName": "မင်းဘူး",
       "latitude": 20.18059,
       "longitude": 94.87595,
       "population": 57342,
@@ -471,6 +522,7 @@
     {
       "id": "1292507",
       "name": "Thanbyuzayat",
+      "nativeName": "သံဖြူဇရပ်",
       "latitude": 15.96893,
       "longitude": 97.72745,
       "population": 57208,
@@ -479,7 +531,8 @@
     },
     {
       "id": "1327854",
-      "name": "Buthidaung Town",
+      "name": "Buthidaung",
+      "nativeName": "ဘူးသီးတောင်",
       "latitude": 20.87537,
       "longitude": 92.53,
       "population": 55545,
@@ -489,6 +542,7 @@
     {
       "id": "1328218",
       "name": "Bhamo",
+      "nativeName": "ဗန်းမော်မြို့",
       "latitude": 24.25256,
       "longitude": 97.23357,
       "population": 54721,
@@ -497,7 +551,8 @@
     },
     {
       "id": "1292313",
-      "name": "Tharyarwady",
+      "name": "Thayarwady",
+      "nativeName": "သာယာဝတီ",
       "latitude": 17.65399,
       "longitude": 95.78813,
       "population": 54386,
@@ -507,6 +562,7 @@
     {
       "id": "1291193",
       "name": "Thongwa",
+      "nativeName": "သုံးခွ",
       "latitude": 16.75998,
       "longitude": 96.52498,
       "population": 52496,
@@ -516,6 +572,7 @@
     {
       "id": "1317397",
       "name": "Kyaiklat",
+      "nativeName": "ကျိုက်လတ်မြို့",
       "latitude": 16.44502,
       "longitude": 95.72373,
       "population": 52425,
@@ -524,7 +581,8 @@
     },
     {
       "id": "1295301",
-      "name": "Tachilek",
+      "name": "Tachileik",
+      "nativeName": "တာချီလိတ်",
       "latitude": 20.4475,
       "longitude": 99.88083,
       "population": 51553,
@@ -534,6 +592,7 @@
     {
       "id": "1311909",
       "name": "Manaung",
+      "nativeName": "မာန်အောင်မြို့",
       "latitude": 18.85479,
       "longitude": 93.72913,
       "population": 50680,
@@ -543,6 +602,7 @@
     {
       "id": "1316703",
       "name": "Kyaukse",
+      "nativeName": "ကျောက်ဆည်",
       "latitude": 21.6056,
       "longitude": 96.13508,
       "population": 50480,
@@ -552,6 +612,7 @@
     {
       "id": "1302849",
       "name": "Hpa-An",
+      "nativeName": "ဘားအံမြို့",
       "latitude": 16.88953,
       "longitude": 97.63482,
       "population": 50000,
@@ -561,6 +622,7 @@
     {
       "id": "1317375",
       "name": "Kyaikto",
+      "nativeName": "ကျိုက်ထို",
       "latitude": 17.30858,
       "longitude": 97.01124,
       "population": 48658,
@@ -569,7 +631,8 @@
     },
     {
       "id": "1310460",
-      "name": "Martaban",
+      "name": "Mottama",
+      "nativeName": "မုတ္တမ",
       "latitude": 16.52834,
       "longitude": 97.6157,
       "population": 48629,
@@ -579,6 +642,7 @@
     {
       "id": "1303351",
       "name": "Nyaung-U",
+      "nativeName": "ညောင်ဦး",
       "latitude": 21.20056,
       "longitude": 94.90827,
       "population": 48528,
@@ -588,6 +652,7 @@
     {
       "id": "1319898",
       "name": "Kawkareik",
+      "nativeName": "ကော့ကရိတ်မြို့",
       "latitude": 16.55543,
       "longitude": 98.2371,
       "population": 48468,
@@ -597,6 +662,7 @@
     {
       "id": "1317402",
       "name": "Kyaikkami",
+      "nativeName": "ကျိုက္ခမီ",
       "latitude": 16.07686,
       "longitude": 97.56388,
       "population": 48100,
@@ -606,6 +672,7 @@
     {
       "id": "1299237",
       "name": "Pyapon",
+      "nativeName": "ဖျာပုံမြို့",
       "latitude": 16.28543,
       "longitude": 95.67882,
       "population": 47082,
@@ -615,6 +682,7 @@
     {
       "id": "1290374",
       "name": "Twante",
+      "nativeName": "တွံတေး",
       "latitude": 16.70836,
       "longitude": 95.9336,
       "population": 46516,
@@ -624,6 +692,7 @@
     {
       "id": "1308052",
       "name": "Myawaddy",
+      "nativeName": "မြဝတီမြို့",
       "latitude": 16.68911,
       "longitude": 98.50893,
       "population": 45000,
@@ -633,6 +702,7 @@
     {
       "id": "1310120",
       "name": "Mawlaik",
+      "nativeName": "မော်လိုက်",
       "latitude": 23.64254,
       "longitude": 94.40478,
       "population": 44540,
@@ -642,6 +712,7 @@
     {
       "id": "1294761",
       "name": "Tamu",
+      "nativeName": "တမူး",
       "latitude": 24.21663,
       "longitude": 94.31216,
       "population": 43737,
@@ -650,7 +721,8 @@
     },
     {
       "id": "1847826",
-      "name": "Möng La",
+      "name": "Mong La",
+      "nativeName": "မိုင်းလား 勐拉",
       "latitude": 21.67112,
       "longitude": 100.01267,
       "population": 43000,
@@ -660,6 +732,7 @@
     {
       "id": "1316870",
       "name": "Kyaukpadaung",
+      "nativeName": "ကျောက်ပန်းတောင်း",
       "latitude": 20.84158,
       "longitude": 95.1267,
       "population": 42817,
@@ -669,6 +742,7 @@
     {
       "id": "1289828",
       "name": "Wakema",
+      "nativeName": "ဝါးခယ်မ",
       "latitude": 16.60333,
       "longitude": 95.18278,
       "population": 42705,
@@ -678,6 +752,7 @@
     {
       "id": "1310362",
       "name": "Maubin",
+      "nativeName": "မအူပင်",
       "latitude": 16.73148,
       "longitude": 95.65441,
       "population": 42439,
@@ -686,7 +761,8 @@
     },
     {
       "id": "1308204",
-      "name": "Myanaung",
+      "name": "Myan Aung",
+      "nativeName": "မြန်အောင်မြို့",
       "latitude": 18.28651,
       "longitude": 95.32014,
       "population": 42252,
@@ -696,6 +772,7 @@
     {
       "id": "1298911",
       "name": "Pyu",
+      "nativeName": "ဖြူး",
       "latitude": 18.4813,
       "longitude": 96.43742,
       "population": 40386,
@@ -705,6 +782,7 @@
     {
       "id": "1319533",
       "name": "Kayan",
+      "nativeName": "ခရမ်း",
       "latitude": 16.90802,
       "longitude": 96.56037,
       "population": 40322,
@@ -714,6 +792,7 @@
     {
       "id": "1285871",
       "name": "Nyaungdon",
+      "nativeName": "ညောင်တုန်းမြို့",
       "latitude": 17.04459,
       "longitude": 95.63957,
       "population": 40092,
@@ -723,6 +802,7 @@
     {
       "id": "1316943",
       "name": "Kyaukme",
+      "nativeName": "ကျောက်မဲ",
       "latitude": 22.5392,
       "longitude": 97.03434,
       "population": 39930,
@@ -731,7 +811,8 @@
     },
     {
       "id": "1847816",
-      "name": "Möng Yawng",
+      "name": "Mongyawng",
+      "nativeName": "မိုင်းယောင်း",
       "latitude": 21.17924,
       "longitude": 100.35761,
       "population": 39102,
@@ -740,7 +821,8 @@
     },
     {
       "id": "1314042",
-      "name": "Letpandan",
+      "name": "Letpadan",
+      "nativeName": "လက်ပံတန်း",
       "latitude": 17.78664,
       "longitude": 95.75076,
       "population": 38936,
@@ -750,6 +832,7 @@
     {
       "id": "1324494",
       "name": "Hlegu",
+      "nativeName": "လှည်းကူးမြို့",
       "latitude": 17.09567,
       "longitude": 96.22056,
       "population": 38757,
@@ -758,7 +841,8 @@
     },
     {
       "id": "1326951",
-      "name": "Daik-u",
+      "name": "Daik-U",
+      "nativeName": "ဒိုက်ဦး",
       "latitude": 17.79506,
       "longitude": 96.66983,
       "population": 38477,
@@ -768,6 +852,7 @@
     {
       "id": "1292579",
       "name": "Thanatpin",
+      "nativeName": "သနပ်ပင်",
       "latitude": 17.29136,
       "longitude": 96.57523,
       "population": 38059,
@@ -777,6 +862,7 @@
     {
       "id": "1300969",
       "name": "Paungde",
+      "nativeName": "ပေါင်းတည်",
       "latitude": 18.49167,
       "longitude": 95.50591,
       "population": 36971,
@@ -786,6 +872,7 @@
     {
       "id": "1285606",
       "name": "Ye",
+      "nativeName": "ရေး",
       "latitude": 15.24645,
       "longitude": 97.85506,
       "population": 34430,
@@ -795,6 +882,7 @@
     {
       "id": "1308464",
       "name": "Mawlamyinegyunn",
+      "nativeName": "မော်လမြိုင်ကျွန်း",
       "latitude": 16.3772,
       "longitude": 95.26488,
       "population": 34107,
@@ -804,6 +892,7 @@
     {
       "id": "1294547",
       "name": "Tangyan",
+      "nativeName": "တန့်ယန်း",
       "latitude": 22.49441,
       "longitude": 98.39277,
       "population": 33603,
@@ -813,6 +902,7 @@
     {
       "id": "1307101",
       "name": "Namhkam",
+      "nativeName": "နမ့်ခမ်း",
       "latitude": 23.83342,
       "longitude": 97.67984,
       "population": 33382,
@@ -822,6 +912,7 @@
     {
       "id": "1308910",
       "name": "Mohnyin",
+      "nativeName": "မိုးညှင်းမြို့",
       "latitude": 24.77822,
       "longitude": 96.36863,
       "population": 33290,
@@ -831,6 +922,7 @@
     {
       "id": "1286026",
       "name": "Wundwin",
+      "nativeName": "ဝမ်းတွင်း",
       "latitude": 21.09417,
       "longitude": 96.02803,
       "population": 32558,
@@ -840,6 +932,7 @@
     {
       "id": "1299182",
       "name": "Pyawbwe",
+      "nativeName": "ပျော်ဘွယ်",
       "latitude": 20.59193,
       "longitude": 96.05202,
       "population": 32214,
@@ -848,7 +941,8 @@
     },
     {
       "id": "10793787",
-      "name": "Danai",
+      "name": "Tanai",
+      "nativeName": "တနိုင်းမြို့",
       "latitude": 26.35926,
       "longitude": 96.71997,
       "population": 31998,
@@ -857,7 +951,8 @@
     },
     {
       "id": "1328865",
-      "name": "Aungban",
+      "name": "Aungpan",
+      "nativeName": "အောင်ပန်း",
       "latitude": 20.6606,
       "longitude": 96.63488,
       "population": 30982,
@@ -867,6 +962,7 @@
     {
       "id": "1313795",
       "name": "Lewe",
+      "nativeName": "လယ်ဝေး",
       "latitude": 19.63606,
       "longitude": 96.10998,
       "population": 30208,
@@ -885,6 +981,7 @@
     {
       "id": "1314619",
       "name": "Lawksawk",
+      "nativeName": "ရပ်စောက်",
       "latitude": 21.2481,
       "longitude": 96.86731,
       "population": 29533,
@@ -894,6 +991,7 @@
     {
       "id": "1301005",
       "name": "Paung",
+      "nativeName": "ပေါင်",
       "latitude": 16.61753,
       "longitude": 97.45851,
       "population": 29434,
@@ -903,6 +1001,7 @@
     {
       "id": "1317511",
       "name": "Kungyangon",
+      "nativeName": "ကွမ်းခြံကုန်း",
       "latitude": 16.44258,
       "longitude": 96.0194,
       "population": 28352,
@@ -912,6 +1011,7 @@
     {
       "id": "11778166",
       "name": "Payathonzu",
+      "nativeName": "ဘုရားသုံးဆူမြို့",
       "latitude": 15.31771,
       "longitude": 98.38836,
       "population": 27311,
@@ -920,7 +1020,8 @@
     },
     {
       "id": "1301804",
-      "name": "Panglong",
+      "name": "Mong Ko",
+      "nativeName": "မုံးကိုး 勐古",
       "latitude": 24.10051,
       "longitude": 98.31264,
       "population": 27115,
@@ -930,6 +1031,7 @@
     {
       "id": "1293696",
       "name": "Taungup",
+      "nativeName": "တောင်ကုတ်",
       "latitude": 18.85609,
       "longitude": 94.24078,
       "population": 26854,
@@ -939,6 +1041,7 @@
     {
       "id": "1320155",
       "name": "Katha",
+      "nativeName": "ကသာမြို့",
       "latitude": 24.17541,
       "longitude": 96.34144,
       "population": 26732,
@@ -948,6 +1051,7 @@
     {
       "id": "1320974",
       "name": "Kanbalu",
+      "nativeName": "ကန့်ဘလူမြို့",
       "latitude": 23.20328,
       "longitude": 95.51695,
       "population": 25022,
@@ -957,6 +1061,7 @@
     {
       "id": "1308946",
       "name": "Mogaung",
+      "nativeName": "မိုးကောင်းမြို့",
       "latitude": 25.30543,
       "longitude": 96.93537,
       "population": 25012,
@@ -966,6 +1071,7 @@
     {
       "id": "1317682",
       "name": "Kutkai",
+      "nativeName": "ကွတ်ခိုင် 贵概",
       "latitude": 23.45789,
       "longitude": 97.93799,
       "population": 24963,
@@ -975,6 +1081,7 @@
     {
       "id": "1325443",
       "name": "Hakha",
+      "nativeName": "ဟားခါးမြို့",
       "latitude": 22.64452,
       "longitude": 93.61076,
       "population": 24926,
@@ -984,6 +1091,7 @@
     {
       "id": "1296614",
       "name": "Shwegyin",
+      "nativeName": "ရွှေကျင်",
       "latitude": 17.92118,
       "longitude": 96.87676,
       "population": 24579,
@@ -993,6 +1101,7 @@
     {
       "id": "1285457",
       "name": "Yedashe",
+      "nativeName": "ရေတာရှည်",
       "latitude": 19.15633,
       "longitude": 96.34593,
       "population": 24420,
@@ -1002,6 +1111,7 @@
     {
       "id": "1312649",
       "name": "Madaya",
+      "nativeName": "မတ္တရာ",
       "latitude": 22.21148,
       "longitude": 96.10387,
       "population": 24234,
@@ -1020,6 +1130,7 @@
     {
       "id": "1306443",
       "name": "Nansang",
+      "nativeName": "နမ့်စန်",
       "latitude": 20.89184,
       "longitude": 97.71672,
       "population": 23792,
@@ -1029,6 +1140,7 @@
     {
       "id": "1316173",
       "name": "Kyeintali",
+      "nativeName": "ကျိန္တလီ",
       "latitude": 18.00611,
       "longitude": 94.49,
       "population": 23581,
@@ -1037,7 +1149,8 @@
     },
     {
       "id": "13494766",
-      "name": "Laukkai",
+      "name": "Laukkaing",
+      "nativeName": "လောက်ကိုင် 老街",
       "latitude": 23.69611,
       "longitude": 98.76214,
       "population": 23435,
@@ -1047,6 +1160,7 @@
     {
       "id": "1323949",
       "name": "Hopin",
+      "nativeName": "ဟိုပင်မြို့",
       "latitude": 24.99146,
       "longitude": 96.52681,
       "population": 23352,
@@ -1056,6 +1170,7 @@
     {
       "id": "1285094",
       "name": "Yesagyo",
+      "nativeName": "ရေစကြို",
       "latitude": 21.63241,
       "longitude": 95.24619,
       "population": 23329,
@@ -1065,6 +1180,7 @@
     {
       "id": "1286591",
       "name": "Waw",
+      "nativeName": "ဝေါ",
       "latitude": 17.47702,
       "longitude": 96.67828,
       "population": 23143,
@@ -1073,7 +1189,8 @@
     },
     {
       "id": "1284225",
-      "name": "Zalun",
+      "name": "Za Lun",
+      "nativeName": "ဇလွန်",
       "latitude": 17.47941,
       "longitude": 95.55924,
       "population": 21947,
@@ -1082,7 +1199,8 @@
     },
     {
       "id": "1285002",
-      "name": "Ye-u",
+      "name": "Ye-U",
+      "nativeName": "ရေဦး",
       "latitude": 22.76722,
       "longitude": 95.42758,
       "population": 20458,
@@ -1091,7 +1209,8 @@
     },
     {
       "id": "1322148",
-      "name": "Ingabu",
+      "name": "Ingapu",
+      "nativeName": "အင်္ဂပူမြို့",
       "latitude": 17.81192,
       "longitude": 95.27044,
       "population": 19876,
@@ -1101,6 +1220,7 @@
     {
       "id": "1316499",
       "name": "Kyauktaw",
+      "nativeName": "ကျောက်တော်",
       "latitude": 20.84468,
       "longitude": 92.97527,
       "population": 19492,
@@ -1109,7 +1229,8 @@
     },
     {
       "id": "1301614",
-      "name": "Pangtara",
+      "name": "Pindaya",
+      "nativeName": "ပင်းတယ",
       "latitude": 20.94318,
       "longitude": 96.66266,
       "population": 17544,
@@ -1119,6 +1240,7 @@
     {
       "id": "1313479",
       "name": "Loikaw",
+      "nativeName": "လွိုင်ကော်မြို့",
       "latitude": 19.67798,
       "longitude": 97.20975,
       "population": 17293,
@@ -1128,6 +1250,7 @@
     {
       "id": "1288322",
       "name": "Pangkham",
+      "nativeName": "ပန်ခမ်း 邦康",
       "latitude": 22.17924,
       "longitude": 99.16666,
       "population": 15936,
@@ -1136,7 +1259,8 @@
     },
     {
       "id": "1300310",
-      "name": "Pèkon",
+      "name": "Pekon",
+      "nativeName": "ဖယ်ခုံမြို့",
       "latitude": 19.86766,
       "longitude": 97.00668,
       "population": 15323,
@@ -1146,6 +1270,7 @@
     {
       "id": "1283878",
       "name": "Zigon",
+      "nativeName": "ဇီးကုန်း",
       "latitude": 18.33559,
       "longitude": 95.6215,
       "population": 15233,
@@ -1155,6 +1280,7 @@
     {
       "id": "11072083",
       "name": "Tedim",
+      "nativeName": "တီးတိန်မြို့",
       "latitude": 23.37583,
       "longitude": 93.65389,
       "population": 13452,
@@ -1163,7 +1289,8 @@
     },
     {
       "id": "1481696",
-      "name": "Kyo Kone West",
+      "name": "Mayangon",
+      "nativeName": "မရမ်းကုန်း",
       "latitude": 16.87333,
       "longitude": 96.11306,
       "population": 12256,
@@ -1172,7 +1299,8 @@
     },
     {
       "id": "1294204",
-      "name": "Taukkyan",
+      "name": "Htauk Kyant",
+      "nativeName": "ထောက်ကြန့်",
       "latitude": 17.04351,
       "longitude": 96.13629,
       "population": 11497,
@@ -1181,7 +1309,8 @@
     },
     {
       "id": "1304530",
-      "name": "Ngapali",
+      "name": "Napali",
+      "nativeName": "ငပလီမြို့",
       "latitude": 18.43664,
       "longitude": 94.32215,
       "population": 11000,
@@ -1191,6 +1320,7 @@
     {
       "id": "10242629",
       "name": "Htantabin",
+      "nativeName": "ထန်းတပင်",
       "latitude": 17.1333,
       "longitude": 95.9167,
       "population": 10977,
@@ -1200,6 +1330,7 @@
     {
       "id": "1322192",
       "name": "Indaw",
+      "nativeName": "အင်းတော်",
       "latitude": 24.22052,
       "longitude": 96.14232,
       "population": 10706,
@@ -1209,6 +1340,7 @@
     {
       "id": "1299371",
       "name": "Putao",
+      "nativeName": "ပူတာအိုမြို့",
       "latitude": 27.35264,
       "longitude": 97.40038,
       "population": 10000,
@@ -1218,6 +1350,7 @@
     {
       "id": "13561226",
       "name": "Shwe Kokko",
+      "nativeName": "ရွှေကုက္ကိုလ်မြိုင်",
       "latitude": 16.82082,
       "longitude": 98.53085,
       "population": 9837,
@@ -1226,7 +1359,8 @@
     },
     {
       "id": "1323174",
-      "name": "Hsenwi",
+      "name": "Mupang",
+      "nativeName": "သႅၼ်ဝီ 木邦",
       "latitude": 23.3026,
       "longitude": 97.96569,
       "population": 9392,
@@ -1236,6 +1370,7 @@
     {
       "id": "1321209",
       "name": "Kalewa",
+      "nativeName": "ကလေးဝမြို့",
       "latitude": 23.19762,
       "longitude": 94.30221,
       "population": 8819,
@@ -1244,7 +1379,8 @@
     },
     {
       "id": "13562172",
-      "name": "Dimawso",
+      "name": "Demoso",
+      "nativeName": "ဒီးမော့ဆိုမြို့",
       "latitude": 19.54982,
       "longitude": 97.15604,
       "population": 5621,
@@ -1254,6 +1390,7 @@
     {
       "id": "1293120",
       "name": "Tanintharyi",
+      "nativeName": "တနင်္သာရီ",
       "latitude": 12.09032,
       "longitude": 99.01165,
       "population": 5514,
@@ -1263,6 +1400,7 @@
     {
       "id": "1326105",
       "name": "Falam",
+      "nativeName": "ဖလမ်းမြို့",
       "latitude": 22.91335,
       "longitude": 93.67779,
       "population": 5404,
@@ -1271,7 +1409,8 @@
     },
     {
       "id": "1328076",
-      "name": "Bokpyin",
+      "name": "Bokepyin",
+      "nativeName": "ဘုတ်ပြင်းမြို့",
       "latitude": 11.26576,
       "longitude": 98.76087,
       "population": 5324,
@@ -1281,6 +1420,7 @@
     {
       "id": "1285198",
       "name": "Ye Mun",
+      "nativeName": "ရဲမွန်",
       "latitude": 17.14281,
       "longitude": 96.28308,
       "population": 5013,
@@ -1289,7 +1429,8 @@
     },
     {
       "id": "11524872",
-      "name": "Tagondaing",
+      "name": "Ta Khun Taing",
+      "nativeName": "စံင်မံင်ထုင်း",
       "latitude": 16.0675,
       "longitude": 97.90694,
       "population": 4994,
@@ -1299,6 +1440,7 @@
     {
       "id": "1298063",
       "name": "Sane",
+      "nativeName": "စနဲမြို့",
       "latitude": 19.21628,
       "longitude": 93.73234,
       "population": 4821,
@@ -1307,7 +1449,8 @@
     },
     {
       "id": "12253851",
-      "name": "Thar Yar Kone",
+      "name": "Myitnge",
+      "nativeName": "မြစ်ငယ်",
       "latitude": 21.85717,
       "longitude": 96.06315,
       "population": 4777,
@@ -1317,6 +1460,7 @@
     {
       "id": "1305698",
       "name": "Nattalin",
+      "nativeName": "နတ်တလင်း",
       "latitude": 18.42958,
       "longitude": 95.55279,
       "population": 3945,
@@ -1324,93 +1468,93 @@
       "isCapital": false
     },
     {
-      "id": "1463297",
-      "name": "Ma Gyi Kan",
-      "latitude": 16.56483,
-      "longitude": 96.05889,
-      "population": 3608,
-      "populationRank": 148,
-      "isCapital": false
-    },
-    {
       "id": "1301321",
-      "name": "Papun",
+      "name": "Hpapun",
+      "nativeName": "ဖာပွန်မြို့",
       "latitude": 18.06207,
       "longitude": 97.44233,
       "population": 3028,
-      "populationRank": 149,
+      "populationRank": 148,
       "isCapital": false
     },
     {
       "id": "1305949",
       "name": "Nanyun",
+      "nativeName": "နန်းယွန်း",
       "latitude": 26.97997,
       "longitude": 96.16855,
       "population": 2444,
-      "populationRank": 150,
+      "populationRank": 149,
       "isCapital": false
     },
     {
       "id": "1308608",
-      "name": "Möng Pawk",
+      "name": "Mong Pawk",
+      "nativeName": "မိုင်းပေါက် 勐波",
       "latitude": 22.00648,
       "longitude": 99.3106,
       "population": 2069,
-      "populationRank": 151,
+      "populationRank": 150,
       "isCapital": false
     },
     {
       "id": "1324074",
       "name": "Homalin",
+      "nativeName": "ဟုမ္မလင်း",
       "latitude": 24.86667,
       "longitude": 94.90916,
       "population": 1500,
-      "populationRank": 152,
+      "populationRank": 151,
       "isCapital": false
     },
     {
       "id": "1303361",
-      "name": "Nyaungshwe",
+      "name": "Nyaung Shwe",
+      "nativeName": "ညောင်ရွှေ",
       "latitude": 20.66084,
       "longitude": 96.93405,
       "population": 1300,
-      "populationRank": 153,
+      "populationRank": 152,
       "isCapital": false
     },
     {
       "id": "1316313",
       "name": "Kyaw",
+      "nativeName": "ကျော",
       "latitude": 21.92772,
       "longitude": 94.35775,
       "population": 1294,
-      "populationRank": 154,
+      "populationRank": 153,
       "isCapital": false
     },
     {
       "id": "1286504",
       "name": "Webula",
+      "nativeName": "ဝေဘူလမြို့",
       "latitude": 23.01667,
       "longitude": 93.91667,
       "population": 1041,
-      "populationRank": 155,
+      "populationRank": 154,
       "isCapital": false
     },
     {
       "id": "1323954",
       "name": "Hopang",
+      "nativeName": "ဟိုပန် 富邦",
       "latitude": 23.42526,
       "longitude": 98.75187,
       "population": 738,
-      "populationRank": 156,
+      "populationRank": 155,
       "isCapital": false
     },
     {
       "id": "1312081",
-      "name": "Mākmang",
+      "name": "Matman",
+      "nativeName": "မက်မန်း",
       "latitude": 21.94228,
       "longitude": 98.87622,
       "population": 502,
-      "populationRank": 157,
+      "populationRank": 156,
       "isCapital": false
     }
   ]

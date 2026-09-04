@@ -66,6 +66,7 @@
     {
       "id": "597188",
       "name": "Mazeikiai",
+      "nativeName": "Mažeikiai",
       "latitude": 56.31667,
       "longitude": 22.33333,
       "population": 32470,
@@ -102,6 +103,7 @@
     {
       "id": "593926",
       "name": "Telsiai",
+      "nativeName": "Telšiai",
       "latitude": 55.98139,
       "longitude": 22.24722,
       "population": 21294,
@@ -111,6 +113,7 @@
     {
       "id": "593959",
       "name": "Taurage",
+      "nativeName": "Tauragė",
       "latitude": 55.25222,
       "longitude": 22.28972,
       "population": 21203,
@@ -120,6 +123,7 @@
     {
       "id": "593733",
       "name": "Ukmerge",
+      "nativeName": "Ukmergė",
       "latitude": 55.25,
       "longitude": 24.75,
       "population": 20154,
@@ -129,6 +133,7 @@
     {
       "id": "595689",
       "name": "Plunge",
+      "nativeName": "Plungė",
       "latitude": 55.91139,
       "longitude": 21.84417,
       "population": 18904,
@@ -174,6 +179,7 @@
     {
       "id": "595449",
       "name": "Radviliskis",
+      "nativeName": "Radviliškis",
       "latitude": 55.81667,
       "longitude": 23.53333,
       "population": 16344,
@@ -183,6 +189,7 @@
     {
       "id": "594656",
       "name": "Silute",
+      "nativeName": "Šilutė",
       "latitude": 55.34889,
       "longitude": 21.48306,
       "population": 14968,
@@ -192,6 +199,7 @@
     {
       "id": "600438",
       "name": "Birzai",
+      "nativeName": "Biržai",
       "latitude": 56.2,
       "longitude": 24.75,
       "population": 14911,
@@ -219,6 +227,7 @@
     {
       "id": "596719",
       "name": "Naujoji Akmene",
+      "nativeName": "Naujoji Akmenė",
       "latitude": 56.31667,
       "longitude": 22.9,
       "population": 11922,
@@ -309,6 +318,7 @@
     {
       "id": "593153",
       "name": "Vilkaviskis",
+      "nativeName": "Vilkaviškis",
       "latitude": 54.65167,
       "longitude": 23.03222,
       "population": 9444,
@@ -327,6 +337,7 @@
     {
       "id": "597806",
       "name": "Kupiskis",
+      "nativeName": "Kupiškis",
       "latitude": 55.84027,
       "longitude": 24.97976,
       "population": 8263,
@@ -344,7 +355,8 @@
     },
     {
       "id": "593406",
-      "name": "Varėna",
+      "name": "Varena",
+      "nativeName": "Varėna",
       "latitude": 54.21546,
       "longitude": 24.57538,
       "population": 7892,
@@ -542,7 +554,7 @@
     },
     {
       "id": "596612",
-      "name": "Nida",
+      "name": "Neringa",
       "latitude": 55.3086,
       "longitude": 20.99651,
       "population": 3530,
@@ -606,6 +618,7 @@
     {
       "id": "9610015",
       "name": "Akademija (Kaunas)",
+      "nativeName": "Akademija",
       "latitude": 54.8964,
       "longitude": 23.82411,
       "population": 2807,
@@ -885,6 +898,7 @@
     {
       "id": "600896",
       "name": "Aukstadvaris",
+      "nativeName": "Aukštadvaris",
       "latitude": 54.57946,
       "longitude": 24.52683,
       "population": 977,

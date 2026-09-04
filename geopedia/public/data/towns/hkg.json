@@ -3,6 +3,7 @@
     {
       "id": "1819729",
       "name": "Hong Kong",
+      "nativeName": "香港 Hong Kong",
       "latitude": 22.27832,
       "longitude": 114.17469,
       "population": 7396076,
@@ -12,6 +13,7 @@
     {
       "id": "1818446",
       "name": "Tuen Mun",
+      "nativeName": "屯門 Tuen Mun",
       "latitude": 22.39175,
       "longitude": 113.97157,
       "population": 507900,
@@ -21,6 +23,7 @@
     {
       "id": "1818920",
       "name": "Sha Tin",
+      "nativeName": "沙田 Sha Tin",
       "latitude": 22.38333,
       "longitude": 114.18333,
       "population": 495200,
@@ -30,6 +33,7 @@
     {
       "id": "1818506",
       "name": "Tseung Kwan O",
+      "nativeName": "將軍澳 Tseung Kwan O",
       "latitude": 22.32789,
       "longitude": 114.24992,
       "population": 412900,
@@ -39,6 +43,7 @@
     {
       "id": "1819595",
       "name": "Kwai Chung",
+      "nativeName": "葵涌 Kwai Chung",
       "latitude": 22.36828,
       "longitude": 114.13877,
       "population": 331600,
@@ -48,6 +53,7 @@
     {
       "id": "1818209",
       "name": "Tsuen Wan",
+      "nativeName": "荃灣 Tsuen Wan",
       "latitude": 22.37137,
       "longitude": 114.11329,
       "population": 318916,
@@ -57,6 +63,7 @@
     {
       "id": "1818558",
       "name": "Tin Shui Wai",
+      "nativeName": "天水圍 Tin Shui Wai",
       "latitude": 22.45679,
       "longitude": 114.00234,
       "population": 286232,
@@ -66,6 +73,7 @@
     {
       "id": "1818673",
       "name": "Tai Po",
+      "nativeName": "大埔 Tai Po",
       "latitude": 22.45007,
       "longitude": 114.16877,
       "population": 274100,
@@ -75,6 +83,7 @@
     {
       "id": "1819873",
       "name": "Fanling",
+      "nativeName": "粉嶺 Fanling",
       "latitude": 22.49487,
       "longitude": 114.13949,
       "population": 263200,
@@ -84,6 +93,7 @@
     {
       "id": "1819400",
       "name": "Ma On Shan",
+      "nativeName": "馬鞍山 Ma On Shan",
       "latitude": 22.40613,
       "longitude": 114.24079,
       "population": 215200,
@@ -93,6 +103,7 @@
     {
       "id": "1818225",
       "name": "Yuen Long",
+      "nativeName": "元朗 Yuen Long",
       "latitude": 22.44518,
       "longitude": 114.02621,
       "population": 200000,
@@ -101,7 +112,8 @@
     },
     {
       "id": "1818483",
-      "name": "Tsing Yi Town",
+      "name": "Tsing Yi",
+      "nativeName": "青衣 Tsing Yi",
       "latitude": 22.35,
       "longitude": 114.1,
       "population": 182100,
@@ -111,6 +123,7 @@
     {
       "id": "11101593",
       "name": "Tung Chung",
+      "nativeName": "東涌 Tung Chung",
       "latitude": 22.28783,
       "longitude": 113.94243,
       "population": 114100,
@@ -120,6 +133,7 @@
     {
       "id": "1819050",
       "name": "Sai Kung",
+      "nativeName": "西貢 Sai Kung",
       "latitude": 22.38333,
       "longitude": 114.26667,
       "population": 35800,
@@ -129,6 +143,7 @@
     {
       "id": "1818845",
       "name": "Sheung Shui",
+      "nativeName": "上水 Sheung Shui",
       "latitude": 22.51667,
       "longitude": 114.11667,
       "population": 20514,
@@ -138,6 +153,7 @@
     {
       "id": "1819374",
       "name": "Ma Wan",
+      "nativeName": "馬灣 Ma Wan",
       "latitude": 22.3523,
       "longitude": 114.06002,
       "population": 14409,
@@ -146,7 +162,8 @@
     },
     {
       "id": "1819333",
-      "name": "Mui Wo Kau Tsuen",
+      "name": "Mui Wo",
+      "nativeName": "梅窩 Mui Wo",
       "latitude": 22.26886,
       "longitude": 113.98609,
       "population": 5485,
@@ -156,6 +173,7 @@
     {
       "id": "1818923",
       "name": "Sha Tau Kok",
+      "nativeName": "沙頭角 Sha Tau Kok",
       "latitude": 22.54569,
       "longitude": 114.22379,
       "population": 5001,
@@ -165,6 +183,7 @@
     {
       "id": "1819230",
       "name": "Ngong Ping",
+      "nativeName": "昂坪 Ngong Ping",
       "latitude": 22.25556,
       "longitude": 113.90391,
       "population": 5001,
@@ -174,6 +193,7 @@
     {
       "id": "1818684",
       "name": "Tai O",
+      "nativeName": "大澳 Tai O",
       "latitude": 22.25515,
       "longitude": 113.86309,
       "population": 3300,

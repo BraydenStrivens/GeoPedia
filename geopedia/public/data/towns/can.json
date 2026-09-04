@@ -11,7 +11,8 @@
     },
     {
       "id": "6077243",
-      "name": "Montréal",
+      "name": "Montreal",
+      "nativeName": "Montréal",
       "latitude": 45.50884,
       "longitude": -73.58781,
       "population": 1762949,
@@ -101,7 +102,8 @@
     },
     {
       "id": "6325494",
-      "name": "Québec",
+      "name": "Quebec",
+      "nativeName": "Québec",
       "latitude": 46.81228,
       "longitude": -71.21454,
       "population": 531902,
@@ -273,6 +275,7 @@
     {
       "id": "5964700",
       "name": "Greater Sudbury",
+      "nativeName": "Sudbury",
       "latitude": 46.49,
       "longitude": -80.99001,
       "population": 166004,
@@ -381,6 +384,7 @@
     {
       "id": "6049429",
       "name": "Langley",
+      "nativeName": "Langley City",
       "latitude": 49.10107,
       "longitude": -122.65883,
       "population": 132603,
@@ -840,6 +844,7 @@
     {
       "id": "5940956",
       "name": "Dollard-Des Ormeaux",
+      "nativeName": "Dollard-des-Ormeaux",
       "latitude": 45.49452,
       "longitude": -73.82419,
       "population": 48930,
@@ -1199,7 +1204,8 @@
     },
     {
       "id": "5928488",
-      "name": "Côte-Saint-Luc",
+      "name": "Côte Saint-Luc",
+      "nativeName": "Côte-Saint-Luc",
       "latitude": 45.46536,
       "longitude": -73.66585,
       "population": 31395,
@@ -1398,6 +1404,7 @@
     {
       "id": "6943827",
       "name": "Thetford-Mines",
+      "nativeName": "Thetford Mines",
       "latitude": 46.09371,
       "longitude": -71.30539,
       "population": 25704,
@@ -1784,7 +1791,8 @@
     },
     {
       "id": "6077315",
-      "name": "Mont-Royal",
+      "name": "Town of Mount-Royal",
+      "nativeName": "Ville de Mont-Royal",
       "latitude": 45.51675,
       "longitude": -73.64918,
       "population": 18933,
@@ -1794,6 +1802,7 @@
     {
       "id": "5898138",
       "name": "Beloeil",
+      "nativeName": "Belœil",
       "latitude": 45.56839,
       "longitude": -73.20568,
       "population": 18927,

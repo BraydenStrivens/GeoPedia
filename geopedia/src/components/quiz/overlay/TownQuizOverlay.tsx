@@ -11,8 +11,12 @@
  * - Current question progress.
  * - Average percentage score and cumulative geographic error.
  * - A Start control while the quiz is inactive.
- * - Skip, Stop, and Restart controls beneath the main overlay while running.
+ * - Skip, Stop, and Restart controls while an attempt is active.
  * - A centered final summary after every question has been answered.
+ *
+ * Shared overlay positioning and title presentation are delegated to reusable
+ * overlay components. Town-specific statistics, formatting, results, and
+ * lifecycle behavior remain owned by this component.
  *
  * This component owns no quiz state. All quiz state and lifecycle actions are
  * supplied by the parent town quiz client.
@@ -27,6 +31,8 @@ import {
   SkipIcon,
   StopIcon,
 } from "./shared/QuizControlIcons";
+import QuizOverlayShell from "./shared/QuizOverlayShell";
+import QuizOverlayTitle from "./shared/QuizOverlayTitle";
 
 /**
  * Values and callbacks required to render the town quiz overlay.
@@ -56,7 +62,7 @@ type TownQuizOverlayProps = {
   /** Sum of geographic error across every answered question, in kilometers. */
   totalDistanceKm: number;
 
-  /** Whether the quiz is currently running. */
+  /** Whether the quiz is currently running or displaying completed results. */
   isActive: boolean;
 
   /** Whether every question in the current attempt has been completed. */
@@ -76,7 +82,18 @@ type TownQuizOverlayProps = {
 };
 
 /**
- * Formats a normalized score as a rounded percentage.
+ * Props required by one town quiz statistic display.
+ */
+type TownQuizStatisticProps = {
+  /** Primary, more prominent statistic. */
+  primary: string;
+
+  /** Secondary statistic displayed beneath the primary value. */
+  secondary: string;
+};
+
+/**
+ * Formats a normalized town quiz score as a rounded percentage.
  *
  * @param score - Score from 0 through 1.
  * @returns User-facing percentage.
@@ -109,190 +126,170 @@ function formatDistance(distanceKm: number): string {
 }
 
 /**
- * Renders one two-line town quiz statistic.
+ * Renders one two-line statistic used by the town quiz overlay.
+ *
+ * Town quiz statistics pair a prominent score with a secondary geographic
+ * distance, such as the previous guess result or cumulative attempt result.
+ *
+ * @param props - Primary and secondary statistic values.
+ * @returns Two-line town quiz statistic.
  */
-function Statistic({
+function TownQuizStatistic({
   primary,
   secondary,
-}: {
-  /** Primary, more prominent statistic. */
-  primary: string;
-
-  /** Secondary statistic displayed beneath it. */
-  secondary: string;
-}) {
+}: TownQuizStatisticProps) {
   return (
-    <div className="flex flex-col text-sm font-semibold leading-tight text-gray-700">
+    <div className="flex flex-col text-sm font-semibold leading-tight text-text">
       <span>{primary}</span>
 
-      <span className="text-xs text-gray-500">{secondary}</span>
+      <span className="text-xs text-text">{secondary}</span>
     </div>
   );
 }
 
 /**
  * Renders GeoPedia's town quiz information and lifecycle controls.
+ *
+ * @param props - Town quiz state, statistics, and lifecycle callbacks.
+ * @returns Floating town quiz interface rendered above the map.
  */
 export default function TownQuizOverlay({
   quizName,
   currentTownName,
-
   answeredCount,
   questionCount,
-
   lastScore,
   lastDistanceKm,
-
   averageScore,
   totalDistanceKm,
-
   isActive,
   isFinished,
-
   onStart,
   onSkip,
   onStop,
   onRestart,
 }: TownQuizOverlayProps) {
   /**
-   * While a question is active, `answeredCount` describes completed questions,
-   * so the question currently being shown is one position later.
+   * Question number currently represented by the overlay.
    *
+   * While a question is active, `answeredCount` describes only completed
+   * questions, so the currently displayed question is one position later.
    * Completed quizzes remain fixed at the total question count.
    */
   const currentQuestionNumber = isFinished
     ? questionCount
     : Math.min(answeredCount + 1, questionCount);
 
+  /**
+   * Shared lifecycle controls displayed beneath the town quiz information panel.
+   *
+   * Skip is available only while an unanswered question is active. Stop and
+   * Restart remain available for the duration of the active attempt, including
+   * the completed-results state.
+   */
+  const lifecycleControls =
+    isActive || isFinished ? (
+      <>
+        {isActive && !isFinished && (
+          <QuizControlButton title="Skip question" onClick={onSkip}>
+            <SkipIcon />
+          </QuizControlButton>
+        )}
+
+        <QuizControlButton title="Stop quiz" onClick={onStop}>
+          <StopIcon />
+        </QuizControlButton>
+
+        <QuizControlButton title="Restart quiz" onClick={onRestart}>
+          <RestartIcon />
+        </QuizControlButton>
+      </>
+    ) : undefined;
+
   return (
-    <div className="pointer-events-none absolute inset-x-0 top-3 z-10 flex flex-col items-center">
-      {/* Main town quiz information panel */}
-      <div className="pointer-events-auto min-w-[320px] rounded-xl bg-black/20 p-2 backdrop-blur-sm">
-        {/* Quiz title */}
-        <div className="rounded-lg bg-white/80 px-6 py-2 text-center backdrop-blur-md">
-          <h1 className="text-xl font-bold leading-tight text-gray-900">
-            {quizName}
-          </h1>
+    <QuizOverlayShell
+      minWidthClassName="min-w-[320px]"
+      controls={lifecycleControls}
+    >
+      {/* Shared quiz title */}
+      <QuizOverlayTitle quizName={quizName} />
+
+      {/* Inactive quiz actions */}
+      {!isActive && !isFinished && (
+        <div className="mt-2 flex justify-center">
+          <QuizActionButton onClick={onStart}>Start</QuizActionButton>
         </div>
+      )}
 
-        {/* Inactive quiz actions */}
-        {!isActive && !isFinished && (
-          <div className="mt-2 flex justify-center">
-            <QuizActionButton onClick={onStart}>
-              Start
-            </QuizActionButton>
-          </div>
-        )}
-
-        {/* Running quiz information */}
-        {isActive && !isFinished && (
-          <>
-            {/* Current town */}
-            <div className="mt-2 rounded-lg bg-white/80 px-5 py-1.5 text-center backdrop-blur-md">
-              <div className="text-lg font-bold leading-tight text-gray-900">
-                {currentTownName}
-              </div>
+      {/* Running quiz information */}
+      {isActive && !isFinished && (
+        <>
+          {/* Town currently being located */}
+          <div className="mt-2 rounded-lg bg-background-1/80 px-5 py-1.5 text-center backdrop-blur-md">
+            <div className="text-lg font-bold leading-tight text-text">
+              {currentTownName}
             </div>
+          </div>
 
-            {/* Previous result, progress, and cumulative result */}
-            <div className="mt-1 grid grid-cols-3 items-center px-2">
-              {/* Last answer */}
-              <div className="text-left">
-                <div className="mb-0.5 text-[10px] font-bold uppercase tracking-wide text-gray-500">
-                  Last
-                </div>
-
-                {lastScore !== undefined &&
-                lastDistanceKm !== undefined ? (
-                  <Statistic
-                    primary={formatScore(lastScore)}
-                    secondary={formatDistance(lastDistanceKm)}
-                  />
-                ) : (
-                  <Statistic primary="—" secondary="—" />
-                )}
+          {/* Previous result, question progress, and cumulative result */}
+          <div className="mt-1 grid grid-cols-3 items-center px-2">
+            {/* Most recently answered town */}
+            <div className="text-left">
+              <div className="mb-0.5 text-[10px] font-bold uppercase tracking-wide text-text-secondary">
+                Last
               </div>
 
-              {/* Current question */}
-              <div className="text-center text-sm font-semibold text-gray-700">
-                {currentQuestionNumber} / {questionCount}
-              </div>
-
-              {/* Aggregate attempt statistics */}
-              <div className="text-right">
-                <div className="mb-0.5 text-[10px] font-bold uppercase tracking-wide text-gray-500">
-                  Total
-                </div>
-
-                <Statistic
-                  primary={formatScore(averageScore)}
-                  secondary={formatDistance(totalDistanceKm)}
+              {lastScore !== undefined &&
+              lastDistanceKm !== undefined ? (
+                <TownQuizStatistic
+                  primary={formatScore(lastScore)}
+                  secondary={formatDistance(lastDistanceKm)}
                 />
-              </div>
-            </div>
-          </>
-        )}
-
-        {/* Finished quiz summary */}
-        {isFinished && (
-          <div className="mt-2 rounded-lg bg-white/80 px-5 py-2 text-center backdrop-blur-md">
-            {/* Final question counter */}
-            <div className="text-sm font-semibold text-gray-700">
-              {questionCount} / {questionCount}
+              ) : (
+                <TownQuizStatistic primary="—" secondary="—" />
+              )}
             </div>
 
-            {/* Final aggregate results */}
-            <div className="mt-1">
-              <div className="text-lg font-bold text-gray-900">
-                {formatScore(averageScore)}
+            {/* Current question position */}
+            <div className="text-center text-sm font-semibold text-text">
+              {currentQuestionNumber} / {questionCount}
+            </div>
+
+            {/* Aggregate attempt statistics */}
+            <div className="text-right">
+              <div className="mb-0.5 text-[10px] font-bold uppercase tracking-wide text-text-secondary">
+                Total
               </div>
 
-              <div className="text-sm font-semibold text-gray-600">
-                {formatDistance(totalDistanceKm)} total
-              </div>
+              <TownQuizStatistic
+                primary={formatScore(averageScore)}
+                secondary={formatDistance(totalDistanceKm)}
+              />
             </div>
           </div>
-        )}
-      </div>
+        </>
+      )}
 
-      {/* Quiz lifecycle controls beneath the main overlay */}
-      <div className="mt-1 flex justify-center gap-1">
-        {/* Running quiz controls */}
-        {isActive && !isFinished && (
-          <>
-            <QuizControlButton title="Skip question" onClick={onSkip}>
-              <SkipIcon />
-            </QuizControlButton>
+      {/* Finished quiz summary */}
+      {isFinished && (
+        <div className="mt-2 rounded-lg bg-background-1/80 px-5 py-2 text-center backdrop-blur-md">
+          {/* Final question counter */}
+          <div className="text-sm font-semibold text-text-secondary">
+            {questionCount} / {questionCount}
+          </div>
 
-            <QuizControlButton title="Stop quiz" onClick={onStop}>
-              <StopIcon />
-            </QuizControlButton>
+          {/* Final aggregate results */}
+          <div className="mt-1">
+            <div className="text-lg font-bold text-text">
+              {formatScore(averageScore)}
+            </div>
 
-            <QuizControlButton
-              title="Restart quiz"
-              onClick={onRestart}
-            >
-              <RestartIcon />
-            </QuizControlButton>
-          </>
-        )}
-
-        {/* Completed quiz controls */}
-        {isFinished && (
-          <>
-            <QuizControlButton title="Stop quiz" onClick={onStop}>
-              <StopIcon />
-            </QuizControlButton>
-
-            <QuizControlButton
-              title="Restart quiz"
-              onClick={onRestart}
-            >
-              <RestartIcon />
-            </QuizControlButton>
-          </>
-        )}
-      </div>
-    </div>
+            <div className="text-sm font-semibold text-text-secondary">
+              {formatDistance(totalDistanceKm)} total
+            </div>
+          </div>
+        </div>
+      )}
+    </QuizOverlayShell>
   );
 }

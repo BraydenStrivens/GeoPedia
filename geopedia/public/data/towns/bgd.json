@@ -3,6 +3,7 @@
     {
       "id": "1185241",
       "name": "Dhaka",
+      "nativeName": "ঢাকা",
       "latitude": 23.7104,
       "longitude": 90.40744,
       "population": 10356500,
@@ -12,6 +13,7 @@
     {
       "id": "1205733",
       "name": "Chattogram",
+      "nativeName": "চট্টগ্রাম",
       "latitude": 22.3384,
       "longitude": 91.83168,
       "population": 3920222,
@@ -21,6 +23,7 @@
     {
       "id": "1200109",
       "name": "Gazipur",
+      "nativeName": "গাজীপুর",
       "latitude": 23.99844,
       "longitude": 90.42234,
       "population": 2674697,
@@ -30,6 +33,7 @@
     {
       "id": "1336135",
       "name": "Khulna",
+      "nativeName": "খুলনা",
       "latitude": 22.80979,
       "longitude": 89.56439,
       "population": 1500689,
@@ -39,6 +43,7 @@
     {
       "id": "1185188",
       "name": "Rangpur",
+      "nativeName": "রংপুর",
       "latitude": 25.74664,
       "longitude": 89.25166,
       "population": 1031388,
@@ -48,6 +53,7 @@
     {
       "id": "1185128",
       "name": "Rajshahi",
+      "nativeName": "রাজশাহী",
       "latitude": 24.374,
       "longitude": 88.60114,
       "population": 763580,
@@ -56,7 +62,8 @@
     },
     {
       "id": "1185186",
-      "name": "Comilla",
+      "name": "Cumilla",
+      "nativeName": "কুমিল্লা",
       "latitude": 23.46186,
       "longitude": 91.18503,
       "population": 634654,
@@ -65,7 +72,8 @@
     },
     {
       "id": "1462674",
-      "name": "Hāthazāri",
+      "name": "Hathazari",
+      "nativeName": "হাটহাজারী",
       "latitude": 22.50515,
       "longitude": 91.81339,
       "population": 498179,
@@ -74,7 +82,8 @@
     },
     {
       "id": "1185270",
-      "name": "Bāndarban",
+      "name": "Bandarban",
+      "nativeName": "বান্দরবান",
       "latitude": 22.19534,
       "longitude": 92.21946,
       "population": 495272,
@@ -84,6 +93,7 @@
     {
       "id": "1185107",
       "name": "Shibganj",
+      "nativeName": "শিবগঞ্জ",
       "latitude": 25.00146,
       "longitude": 89.32266,
       "population": 378701,
@@ -93,6 +103,7 @@
     {
       "id": "7483813",
       "name": "Natore",
+      "nativeName": "নাটোর",
       "latitude": 24.41112,
       "longitude": 88.98673,
       "population": 369138,
@@ -101,7 +112,8 @@
     },
     {
       "id": "1185098",
-      "name": "Tungi",
+      "name": "Tongi",
+      "nativeName": "টঙ্গী",
       "latitude": 23.89154,
       "longitude": 90.40232,
       "population": 337579,
@@ -111,6 +123,7 @@
     {
       "id": "1349452",
       "name": "Savar",
+      "nativeName": "সাভার",
       "latitude": 23.84858,
       "longitude": 90.25002,
       "population": 286008,
@@ -120,6 +133,7 @@
     {
       "id": "1185117",
       "name": "Narsingdi",
+      "nativeName": "নরসিংদী",
       "latitude": 23.92298,
       "longitude": 90.71768,
       "population": 281080,
@@ -129,6 +143,7 @@
     {
       "id": "1185281",
       "name": "Bagerhat",
+      "nativeName": "বাগেরহাট",
       "latitude": 22.65657,
       "longitude": 89.79123,
       "population": 266388,
@@ -137,7 +152,8 @@
     },
     {
       "id": "1336142",
-      "name": "Brāhmanbāria",
+      "name": "Brahmanbaria",
+      "nativeName": "ব্রাহ্মণবাড়িয়া",
       "latitude": 23.97464,
       "longitude": 91.11228,
       "population": 264326,
@@ -146,7 +162,8 @@
     },
     {
       "id": "1336134",
-      "name": "Cox’s Bāzār",
+      "name": "Cox's Bazar",
+      "nativeName": "কক্সবাজার",
       "latitude": 21.43973,
       "longitude": 92.00955,
       "population": 253788,
@@ -155,7 +172,8 @@
     },
     {
       "id": "1336140",
-      "name": "Jessore",
+      "name": "Jashore",
+      "nativeName": "যশোর",
       "latitude": 23.16971,
       "longitude": 89.21371,
       "population": 243987,
@@ -164,7 +182,8 @@
     },
     {
       "id": "1185159",
-      "name": "Nāgarpur",
+      "name": "Nagarpur",
+      "nativeName": "নাগরপুর",
       "latitude": 24.05783,
       "longitude": 89.87696,
       "population": 238422,
@@ -174,6 +193,7 @@
     {
       "id": "1185099",
       "name": "Sylhet",
+      "nativeName": "সিলেট",
       "latitude": 24.89904,
       "longitude": 91.87198,
       "population": 237000,
@@ -183,6 +203,7 @@
     {
       "id": "1185162",
       "name": "Mymensingh",
+      "nativeName": "ময়মনসিংহ",
       "latitude": 24.75636,
       "longitude": 90.40646,
       "population": 225126,
@@ -192,6 +213,7 @@
     {
       "id": "1185155",
       "name": "Narayanganj",
+      "nativeName": "নারায়ণগঞ্জ",
       "latitude": 23.61352,
       "longitude": 90.50298,
       "population": 223622,
@@ -200,7 +222,8 @@
     },
     {
       "id": "1212405",
-      "name": "Ashuganj City",
+      "name": "Ashuganj",
+      "nativeName": "আশুগঞ্জ",
       "latitude": 24.04016,
       "longitude": 91.0117,
       "population": 210356,
@@ -209,7 +232,8 @@
     },
     {
       "id": "1337233",
-      "name": "Bogra",
+      "name": "Bogura",
+      "nativeName": "বগুড়া",
       "latitude": 24.85098,
       "longitude": 89.37108,
       "population": 210000,
@@ -219,6 +243,7 @@
     {
       "id": "1203891",
       "name": "Dinajpur",
+      "nativeName": "দিনাজপুর",
       "latitude": 25.62745,
       "longitude": 88.63779,
       "population": 206234,
@@ -227,7 +252,8 @@
     },
     {
       "id": "1207337",
-      "name": "Chāndpur",
+      "name": "Chandpur",
+      "nativeName": "চাঁদপুর",
       "latitude": 23.22714,
       "longitude": 90.65433,
       "population": 203000,
@@ -237,6 +263,7 @@
     {
       "id": "1336137",
       "name": "Barishal",
+      "nativeName": "বরিশাল",
       "latitude": 22.70497,
       "longitude": 90.37013,
       "population": 202242,
@@ -246,6 +273,7 @@
     {
       "id": "6545349",
       "name": "Saidpur",
+      "nativeName": "সৈয়দপুর",
       "latitude": 25.77769,
       "longitude": 88.89169,
       "population": 199422,
@@ -254,7 +282,8 @@
     },
     {
       "id": "1192366",
-      "name": "Pār Naogaon",
+      "name": "Naogaon",
+      "nativeName": "নওগাঁ",
       "latitude": 24.80418,
       "longitude": 88.94875,
       "population": 192464,
@@ -263,7 +292,8 @@
     },
     {
       "id": "1336143",
-      "name": "Pābna",
+      "name": "Pabna",
+      "nativeName": "পাবনা",
       "latitude": 24.00644,
       "longitude": 89.2372,
       "population": 186781,
@@ -273,6 +303,7 @@
     {
       "id": "1336144",
       "name": "Tangail",
+      "nativeName": "টাঙ্গাইল",
       "latitude": 24.24984,
       "longitude": 89.91655,
       "population": 180144,
@@ -281,7 +312,8 @@
     },
     {
       "id": "1185106",
-      "name": "Jamālpur",
+      "name": "Jamalpur",
+      "nativeName": "জামালপুর",
       "latitude": 24.91965,
       "longitude": 89.94812,
       "population": 167900,
@@ -291,6 +323,7 @@
     {
       "id": "7483743",
       "name": "Puthia",
+      "nativeName": "পুঠিয়া",
       "latitude": 24.36537,
       "longitude": 88.83431,
       "population": 159406,
@@ -299,7 +332,8 @@
     },
     {
       "id": "1337240",
-      "name": "Nawābganj",
+      "name": "Chapainawabganj",
+      "nativeName": "চাঁপাইনবাবগঞ্জ",
       "latitude": 24.59025,
       "longitude": 88.27444,
       "population": 142361,
@@ -309,6 +343,7 @@
     {
       "id": "1185191",
       "name": "Kushtia",
+      "nativeName": "কুষ্টিয়া",
       "latitude": 23.9028,
       "longitude": 89.11943,
       "population": 135724,
@@ -317,7 +352,8 @@
     },
     {
       "id": "1195434",
-      "name": "Maijdi",
+      "name": "Noakhali",
+      "nativeName": "নোয়াখালী",
       "latitude": 22.86667,
       "longitude": 91.1,
       "population": 132185,
@@ -326,7 +362,8 @@
     },
     {
       "id": "1187530",
-      "name": "Sonārgaon",
+      "name": "Sonargaon",
+      "nativeName": "সোনারগাঁও",
       "latitude": 23.65,
       "longitude": 90.61667,
       "population": 130000,
@@ -335,7 +372,8 @@
     },
     {
       "id": "1185111",
-      "name": "Sātkhira",
+      "name": "Satkhira",
+      "nativeName": "সাতক্ষীরা",
       "latitude": 22.70817,
       "longitude": 89.07185,
       "population": 128918,
@@ -345,6 +383,7 @@
     {
       "id": "1185115",
       "name": "Sirajganj",
+      "nativeName": "সিরাজগঞ্জ",
       "latitude": 24.45771,
       "longitude": 89.70802,
       "population": 127481,
@@ -354,6 +393,7 @@
     {
       "id": "1185920",
       "name": "Tungipara",
+      "nativeName": "টুঙ্গিপাড়া",
       "latitude": 22.89983,
       "longitude": 89.90326,
       "population": 114482,
@@ -362,7 +402,8 @@
     },
     {
       "id": "1203344",
-      "name": "Farīdpur",
+      "name": "Faridpur",
+      "nativeName": "ফরিদপুর",
       "latitude": 23.60612,
       "longitude": 89.84064,
       "population": 112187,
@@ -372,6 +413,7 @@
     {
       "id": "1337248",
       "name": "Sherpur",
+      "nativeName": "শেরপুর",
       "latitude": 25.01881,
       "longitude": 90.01751,
       "population": 107419,
@@ -381,6 +423,7 @@
     {
       "id": "1336139",
       "name": "Rangamati",
+      "nativeName": "রাঙ্গামাটি",
       "latitude": 22.64317,
       "longitude": 92.19186,
       "population": 106069,
@@ -389,7 +432,8 @@
     },
     {
       "id": "1185263",
-      "name": "Bhairab Bāzār",
+      "name": "Bhairab",
+      "nativeName": "ভৈরব",
       "latitude": 24.0524,
       "longitude": 90.9764,
       "population": 105457,
@@ -398,7 +442,8 @@
     },
     {
       "id": "1185121",
-      "name": "Shāhzādpur",
+      "name": "Shahajadpur",
+      "nativeName": "শাহজাদপুর",
       "latitude": 24.17687,
       "longitude": 89.5988,
       "population": 102420,
@@ -408,6 +453,7 @@
     {
       "id": "1336136",
       "name": "Bhola",
+      "nativeName": "ভোলা",
       "latitude": 22.68759,
       "longitude": 90.64403,
       "population": 99079,
@@ -416,7 +462,8 @@
     },
     {
       "id": "1337249",
-      "name": "Kishorganj",
+      "name": "Kishoreganj",
+      "nativeName": "কিশোরগঞ্জ",
       "latitude": 24.43944,
       "longitude": 90.78291,
       "population": 90690,
@@ -425,7 +472,8 @@
     },
     {
       "id": "6414184",
-      "name": "Bibir Hat",
+      "name": "Fatikchhari",
+      "nativeName": "ফটিকছড়ি",
       "latitude": 22.68347,
       "longitude": 91.79058,
       "population": 89030,
@@ -435,6 +483,7 @@
     {
       "id": "1185209",
       "name": "Habiganj",
+      "nativeName": "হবিগঞ্জ",
       "latitude": 24.38044,
       "longitude": 91.41299,
       "population": 88760,
@@ -444,6 +493,7 @@
     {
       "id": "1337245",
       "name": "Madaripur",
+      "nativeName": "মাদারীপুর",
       "latitude": 23.17097,
       "longitude": 90.20935,
       "population": 84789,
@@ -453,6 +503,7 @@
     {
       "id": "1185224",
       "name": "Feni",
+      "nativeName": "ফেনী",
       "latitude": 23.0144,
       "longitude": 91.3966,
       "population": 84028,
@@ -461,7 +512,8 @@
     },
     {
       "id": "1185183",
-      "name": "Lākshām",
+      "name": "Laksam",
+      "nativeName": "লাকসাম",
       "latitude": 23.24018,
       "longitude": 91.12143,
       "population": 82290,
@@ -471,6 +523,7 @@
     {
       "id": "1185207",
       "name": "Ishwardi",
+      "nativeName": "ঈশ্বরদী",
       "latitude": 24.12858,
       "longitude": 89.06573,
       "population": 81995,
@@ -479,7 +532,8 @@
     },
     {
       "id": "1188569",
-      "name": "Sarishābāri",
+      "name": "Sarishabari",
+      "nativeName": "সরিষাবাড়ী",
       "latitude": 24.75127,
       "longitude": 89.83126,
       "population": 81325,
@@ -488,7 +542,8 @@
     },
     {
       "id": "1185116",
-      "name": "Netrakona",
+      "name": "Netrokona",
+      "nativeName": "নেত্রকোনা",
       "latitude": 24.88352,
       "longitude": 90.72898,
       "population": 79016,
@@ -497,7 +552,8 @@
     },
     {
       "id": "1185105",
-      "name": "Sunāmganj",
+      "name": "Sunamganj",
+      "nativeName": "সুনামগঞ্জ",
       "latitude": 25.06889,
       "longitude": 91.40243,
       "population": 74570,
@@ -506,7 +562,8 @@
     },
     {
       "id": "1185206",
-      "name": "Joypur Hāt",
+      "name": "Joypurhat",
+      "nativeName": "জয়পুরহাট",
       "latitude": 25.10147,
       "longitude": 89.02734,
       "population": 73068,
@@ -515,7 +572,8 @@
     },
     {
       "id": "1348441",
-      "name": "Mānikganj",
+      "name": "Manikganj",
+      "nativeName": "মানিকগঞ্জ",
       "latitude": 23.85768,
       "longitude": 90.00957,
       "population": 71698,
@@ -524,7 +582,8 @@
     },
     {
       "id": "1185092",
-      "name": "Thākurgaon",
+      "name": "Thakurgaon",
+      "nativeName": "ঠাকুরগাঁও",
       "latitude": 26.03097,
       "longitude": 88.46989,
       "population": 71096,
@@ -533,7 +592,8 @@
     },
     {
       "id": "1191368",
-      "name": "Pālang",
+      "name": "Shariatpur",
+      "nativeName": "শরিয়তপুর",
       "latitude": 23.21824,
       "longitude": 90.35076,
       "population": 67652,
@@ -543,6 +603,7 @@
     {
       "id": "1185181",
       "name": "Lalmonirhat",
+      "nativeName": "লালমনিরহাট",
       "latitude": 25.91719,
       "longitude": 89.44595,
       "population": 65127,
@@ -552,6 +613,7 @@
     {
       "id": "7646711",
       "name": "Patuakhali",
+      "nativeName": "পটুয়াখালী",
       "latitude": 22.36833,
       "longitude": 90.3458,
       "population": 65000,
@@ -560,7 +622,8 @@
     },
     {
       "id": "1185236",
-      "name": "Rāipur",
+      "name": "Raypur",
+      "nativeName": "রায়পুর",
       "latitude": 23.0391,
       "longitude": 90.76808,
       "population": 64652,
@@ -569,7 +632,8 @@
     },
     {
       "id": "1196292",
-      "name": "Lakshmīpur",
+      "name": "Lakshmipur",
+      "nativeName": "লক্ষ্মীপুর",
       "latitude": 22.9443,
       "longitude": 90.83005,
       "population": 61703,
@@ -578,7 +642,8 @@
     },
     {
       "id": "1185166",
-      "name": "Maulavi Bāzār",
+      "name": "Moulvibazar",
+      "nativeName": "মৌলভীবাজার",
       "latitude": 24.48888,
       "longitude": 91.77075,
       "population": 57441,
@@ -587,7 +652,8 @@
     },
     {
       "id": "1185127",
-      "name": "Rāmganj",
+      "name": "Ramganj",
+      "nativeName": "রামগঞ্জ",
       "latitude": 23.1006,
       "longitude": 90.84989,
       "population": 55241,
@@ -597,6 +663,7 @@
     {
       "id": "1185293",
       "name": "Narail",
+      "nativeName": "নড়াইল",
       "latitude": 23.15509,
       "longitude": 89.49515,
       "population": 55112,
@@ -606,6 +673,7 @@
     {
       "id": "1185138",
       "name": "Pirojpur",
+      "nativeName": "পিরোজপুর",
       "latitude": 22.57965,
       "longitude": 89.97521,
       "population": 54418,
@@ -614,7 +682,8 @@
     },
     {
       "id": "1185120",
-      "name": "Sandwīp",
+      "name": "Sandwip",
+      "nativeName": "সন্দ্বীপ",
       "latitude": 22.51409,
       "longitude": 91.45491,
       "population": 52152,
@@ -623,7 +692,8 @@
     },
     {
       "id": "1336133",
-      "name": "Sātkania",
+      "name": "Satkania",
+      "nativeName": "সাতকানিয়া",
       "latitude": 22.07639,
       "longitude": 92.04955,
       "population": 52005,
@@ -633,6 +703,7 @@
     {
       "id": "1185148",
       "name": "Patiya",
+      "nativeName": "পটিয়া",
       "latitude": 22.29543,
       "longitude": 91.979,
       "population": 51360,
@@ -642,6 +713,7 @@
     {
       "id": "1185252",
       "name": "Khagrachhari",
+      "nativeName": "খাগড়াছড়ি",
       "latitude": 23.10787,
       "longitude": 91.97007,
       "population": 50364,
@@ -650,7 +722,8 @@
     },
     {
       "id": "1185247",
-      "name": "Chilmāri",
+      "name": "Chilmari",
+      "nativeName": "চিলমারী",
       "latitude": 25.55613,
       "longitude": 89.67097,
       "population": 49736,
@@ -659,7 +732,8 @@
     },
     {
       "id": "1185160",
-      "name": "Nageswari",
+      "name": "Nageshwari",
+      "nativeName": "নাগেশ্বরী",
       "latitude": 25.96817,
       "longitude": 89.69153,
       "population": 49425,
@@ -669,6 +743,7 @@
     {
       "id": "1185141",
       "name": "Panchagarh",
+      "nativeName": "পঞ্চগড়",
       "latitude": 26.33338,
       "longitude": 88.55777,
       "population": 48531,
@@ -678,6 +753,7 @@
     {
       "id": "1185149",
       "name": "Parbatipur",
+      "nativeName": "পার্বতীপুর",
       "latitude": 25.66369,
       "longitude": 88.93093,
       "population": 48020,
@@ -686,7 +762,8 @@
     },
     {
       "id": "1210565",
-      "name": "Burhānuddin",
+      "name": "Burhanuddin",
+      "nativeName": "বুরহানুদ্দিন",
       "latitude": 22.49518,
       "longitude": 90.72391,
       "population": 45670,
@@ -695,7 +772,8 @@
     },
     {
       "id": "1185199",
-      "name": "Kālīganj",
+      "name": "Kaliganj",
+      "nativeName": "কালীগঞ্জ",
       "latitude": 23.40964,
       "longitude": 89.13801,
       "population": 45631,
@@ -704,7 +782,8 @@
     },
     {
       "id": "1185100",
-      "name": "Dohār",
+      "name": "Dohar",
+      "nativeName": "দোহার",
       "latitude": 23.59311,
       "longitude": 90.14251,
       "population": 45543,
@@ -713,7 +792,8 @@
     },
     {
       "id": "1201753",
-      "name": "Hājīganj",
+      "name": "Hajiganj",
+      "nativeName": "হাজীগঞ্জ",
       "latitude": 23.25191,
       "longitude": 90.85508,
       "population": 44343,
@@ -723,6 +803,7 @@
     {
       "id": "8740356",
       "name": "Bhanga",
+      "nativeName": "ভাঙ্গা",
       "latitude": 23.39194,
       "longitude": 89.98389,
       "population": 43202,
@@ -731,7 +812,8 @@
     },
     {
       "id": "1185251",
-      "name": "Lālmohan",
+      "name": "Lalmohan",
+      "nativeName": "লালমোহন",
       "latitude": 22.33774,
       "longitude": 90.73708,
       "population": 42220,
@@ -740,7 +822,8 @@
     },
     {
       "id": "1185204",
-      "name": "Jhingergācha",
+      "name": "Jhikargacha",
+      "nativeName": "ঝিকরগাছা",
       "latitude": 23.11134,
       "longitude": 89.09061,
       "population": 41957,
@@ -749,7 +832,8 @@
     },
     {
       "id": "1185165",
-      "name": "Mirzāpur",
+      "name": "Mirzapur",
+      "nativeName": "মির্জাপুর",
       "latitude": 24.10287,
       "longitude": 90.09841,
       "population": 41137,
@@ -758,7 +842,8 @@
     },
     {
       "id": "1189056",
-      "name": "Sakhipur",
+      "name": "Shakhipur",
+      "nativeName": "সখীপুর",
       "latitude": 24.31988,
       "longitude": 90.16943,
       "population": 40869,
@@ -767,7 +852,8 @@
     },
     {
       "id": "1185095",
-      "name": "Teknāf",
+      "name": "Teknaf",
+      "nativeName": "টেকনাফ",
       "latitude": 20.85829,
       "longitude": 92.29773,
       "population": 40557,
@@ -776,7 +862,8 @@
     },
     {
       "id": "1185210",
-      "name": "Gaurnadi",
+      "name": "Gournadi",
+      "nativeName": "গৌরনদী",
       "latitude": 22.97372,
       "longitude": 90.22376,
       "population": 40519,
@@ -785,7 +872,8 @@
     },
     {
       "id": "1185272",
-      "name": "Kālia",
+      "name": "Kalia",
+      "nativeName": "কালিয়া",
       "latitude": 23.043,
       "longitude": 89.63094,
       "population": 40492,
@@ -794,7 +882,8 @@
     },
     {
       "id": "1203878",
-      "name": "Dohazāri",
+      "name": "Dohazari",
+      "nativeName": "দোহাজারি",
       "latitude": 22.16385,
       "longitude": 92.07333,
       "population": 40147,
@@ -804,6 +893,7 @@
     {
       "id": "1209562",
       "name": "Bera",
+      "nativeName": "বেড়া",
       "latitude": 24.07821,
       "longitude": 89.63262,
       "population": 39604,
@@ -813,6 +903,7 @@
     {
       "id": "1185171",
       "name": "Mehendiganj",
+      "nativeName": "মেহেন্দীগঞ্জ",
       "latitude": 22.82257,
       "longitude": 90.52859,
       "population": 39424,
@@ -821,7 +912,8 @@
     },
     {
       "id": "1185254",
-      "name": "Chhātak",
+      "name": "Chhatak",
+      "nativeName": "ছাতক",
       "latitude": 25.03852,
       "longitude": 91.66958,
       "population": 39218,
@@ -830,7 +922,8 @@
     },
     {
       "id": "1185156",
-      "name": "Nālchiti",
+      "name": "Nalchity",
+      "nativeName": "নলছিটি",
       "latitude": 22.63696,
       "longitude": 90.27195,
       "population": 38703,
@@ -839,7 +932,8 @@
     },
     {
       "id": "1185262",
-      "name": "Bherāmāra",
+      "name": "Bheramara",
+      "nativeName": "ভেড়ামারা",
       "latitude": 24.02452,
       "longitude": 88.99234,
       "population": 38159,
@@ -848,7 +942,8 @@
     },
     {
       "id": "1185274",
-      "name": "Baniachang",
+      "name": "Baniachong",
+      "nativeName": "বানিয়াচং",
       "latitude": 24.51863,
       "longitude": 91.35787,
       "population": 37807,
@@ -858,6 +953,7 @@
     {
       "id": "1185108",
       "name": "Shibganj",
+      "nativeName": "শিবগঞ্জ",
       "latitude": 24.68501,
       "longitude": 88.15638,
       "population": 35961,
@@ -866,7 +962,8 @@
     },
     {
       "id": "1337239",
-      "name": "Pīrgaaj",
+      "name": "Pirganj",
+      "nativeName": "পীরগঞ্জ",
       "latitude": 25.85587,
       "longitude": 88.35943,
       "population": 34606,
@@ -875,7 +972,8 @@
     },
     {
       "id": "1185276",
-      "name": "Bājitpur",
+      "name": "Bajitpur",
+      "nativeName": "বাজিতপুর",
       "latitude": 24.21623,
       "longitude": 90.95002,
       "population": 34560,
@@ -885,6 +983,7 @@
     {
       "id": "1185218",
       "name": "Gafargaon",
+      "nativeName": "গফরগাঁও",
       "latitude": 24.432,
       "longitude": 90.5585,
       "population": 34177,
@@ -894,6 +993,7 @@
     {
       "id": "1185283",
       "name": "Badarganj",
+      "nativeName": "বদরগঞ্জ",
       "latitude": 25.67419,
       "longitude": 89.05377,
       "population": 32600,
@@ -902,7 +1002,8 @@
     },
     {
       "id": "1193823",
-      "name": "Nabīnagar",
+      "name": "Nabinagar",
+      "nativeName": "নবীনগর",
       "latitude": 23.88791,
       "longitude": 90.96792,
       "population": 31671,
@@ -911,7 +1012,8 @@
     },
     {
       "id": "1185167",
-      "name": "Morrelgonj",
+      "name": "Morelganj",
+      "nativeName": "মোরেলগঞ্জ",
       "latitude": 22.45566,
       "longitude": 89.85584,
       "population": 31647,
@@ -920,7 +1022,8 @@
     },
     {
       "id": "1197895",
-      "name": "Kesabpur",
+      "name": "Keshabpur",
+      "nativeName": "কেশবপুর",
       "latitude": 22.90725,
       "longitude": 89.21954,
       "population": 30926,
@@ -929,7 +1032,8 @@
     },
     {
       "id": "1477498",
-      "name": "Bhāndāria",
+      "name": "Bhandaria",
+      "nativeName": "ভাণ্ডারিয়া",
       "latitude": 22.48898,
       "longitude": 90.06273,
       "population": 30219,
@@ -938,7 +1042,8 @@
     },
     {
       "id": "1185173",
-      "name": "Mathba",
+      "name": "Mathbaria",
+      "nativeName": "মঠবাড়ীয়া",
       "latitude": 22.28616,
       "longitude": 89.95883,
       "population": 29760,
@@ -947,7 +1052,8 @@
     },
     {
       "id": "1189638",
-      "name": "Raojān",
+      "name": "Raozan",
+      "nativeName": "রাউজান",
       "latitude": 22.53511,
       "longitude": 91.91919,
       "population": 25708,
@@ -957,6 +1063,7 @@
     {
       "id": "1462681",
       "name": "Manikchari",
+      "nativeName": "মানিকছড়ি",
       "latitude": 22.83957,
       "longitude": 91.84128,
       "population": 24813,
@@ -965,7 +1072,8 @@
     },
     {
       "id": "1185164",
-      "name": "Muktāgācha",
+      "name": "Muktagacha",
+      "nativeName": "মুক্তাগাছা",
       "latitude": 24.76484,
       "longitude": 90.25698,
       "population": 24684,
@@ -974,7 +1082,8 @@
     },
     {
       "id": "7646709",
-      "name": "Srimangal",
+      "name": "Sreemangal",
+      "nativeName": "শ্রীমঙ্গল",
       "latitude": 24.30652,
       "longitude": 91.72955,
       "population": 23332,
@@ -984,6 +1093,7 @@
     {
       "id": "1185287",
       "name": "Ajmiriganj",
+      "nativeName": "আজমিরীগঞ্জ",
       "latitude": 24.5573,
       "longitude": 91.24176,
       "population": 13487,
@@ -992,7 +1102,8 @@
     },
     {
       "id": "1200738",
-      "name": "Indurkani",
+      "name": "Zianagar",
+      "nativeName": "জিয়ানগর",
       "latitude": 22.4875,
       "longitude": 89.96869,
       "population": 1350,

@@ -1,13 +1,16 @@
 /**
- * Contains the small SVG icons used by GeoPedia's active quiz controls.
+ * Contains the small SVG icons used by GeoPedia's quiz lifecycle controls.
  *
- * These icons are presentation-only and intentionally contain no quiz logic.
+ * Skip, Restart, and Stop icons are presentation-only and intentionally contain
+ * no quiz state or interaction logic. Their color is inherited from the parent
+ * control through `currentColor`, allowing shared quiz control styling to
+ * determine both the normal and hover icon colors.
  */
 
 /**
- * Icon displayed by the Skip control.
+ * Renders the icon displayed by the Skip quiz control.
  *
- * @returns Skip icon SVG.
+ * @returns Skip icon SVG inheriting its stroke color from the parent control.
  */
 export function SkipIcon() {
   return (
@@ -35,9 +38,9 @@ export function SkipIcon() {
 }
 
 /**
- * Icon displayed by the Restart control.
+ * Renders the icon displayed by the Restart quiz control.
  *
- * @returns Restart icon SVG.
+ * @returns Restart icon SVG inheriting its stroke color from the parent control.
  */
 export function RestartIcon() {
   return (
@@ -65,9 +68,9 @@ export function RestartIcon() {
 }
 
 /**
- * Icon displayed by the Stop control.
+ * Renders the icon displayed by the Stop quiz control.
  *
- * @returns Stop icon SVG.
+ * @returns Stop icon SVG inheriting its fill color from the parent control.
  */
 export function StopIcon() {
   return (

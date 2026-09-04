@@ -1,8 +1,13 @@
 /**
  * Displays a large text action available while a quiz is inactive.
  *
- * Start and Show Answers use the same visual treatment and disabled behavior,
- * so this component keeps those actions visually consistent.
+ * Feature and town quiz overlays use this component for prominent actions such
+ * as Start and Show Answers. Shared styling and disabled behavior are
+ * centralized here so those actions remain visually consistent across quiz
+ * types.
+ *
+ * The component owns no quiz state. Its parent controls availability and
+ * supplies the action callback.
  */
 
 "use client";
@@ -29,6 +34,9 @@ type QuizActionButtonProps = {
 /**
  * Displays a consistently styled inactive quiz action.
  *
+ * Enabled buttons use GeoPedia's shared background and text colors. Disabled
+ * buttons use the global disabled-state colors and prevent interaction.
+ *
  * @param props - Button content, disabled state, tooltip, and callback.
  * @returns Large quiz action button.
  */
@@ -47,10 +55,9 @@ export default function QuizActionButton({
       className={[
         "rounded-lg px-5 py-1.5 text-center text-lg font-bold leading-tight",
         "backdrop-blur-md transition",
-
         isDisabled
-          ? "cursor-not-allowed bg-gray-300 text-gray-500"
-          : "bg-white/80 text-gray-900 hover:bg-gray-300",
+          ? "cursor-not-allowed bg-disabled text-disabled-text"
+          : "bg-background-1/80 text-text hover:bg-background-3",
       ].join(" ")}
     >
       {children}

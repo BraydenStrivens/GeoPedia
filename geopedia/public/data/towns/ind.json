@@ -138,6 +138,7 @@
     {
       "id": "1254661",
       "name": "Thāne",
+      "nativeName": "Thane",
       "latitude": 19.19704,
       "longitude": 72.96355,
       "population": 1841488,
@@ -182,7 +183,8 @@
     },
     {
       "id": "12165956",
-      "name": "Kallakurichi",
+      "name": "Kallakuruchi",
+      "nativeName": "Kallakurichi",
       "latitude": 11.73379,
       "longitude": 78.95925,
       "population": 1682687,
@@ -245,7 +247,7 @@
     },
     {
       "id": "1258847",
-      "name": "Rājkot",
+      "name": "Rajkot",
       "latitude": 22.29161,
       "longitude": 70.79322,
       "population": 1390640,
@@ -272,7 +274,7 @@
     },
     {
       "id": "1268295",
-      "name": "Kalyān",
+      "name": "Kalyan-Dombivli",
       "latitude": 19.2437,
       "longitude": 73.13554,
       "population": 1262255,
@@ -291,6 +293,7 @@
     {
       "id": "1261162",
       "name": "Nowrangapur",
+      "nativeName": "Nabarangapur",
       "latitude": 19.23114,
       "longitude": 82.54826,
       "population": 1220946,
@@ -308,7 +311,7 @@
     },
     {
       "id": "1271308",
-      "name": "Ghāziābād",
+      "name": "Ghaziabad",
       "latitude": 28.66535,
       "longitude": 77.43915,
       "population": 1199191,
@@ -327,6 +330,7 @@
     {
       "id": "1278149",
       "name": "Aurangabad",
+      "nativeName": "Chhatrapati Sambhajinagar",
       "latitude": 19.87757,
       "longitude": 75.34226,
       "population": 1175116,
@@ -452,7 +456,7 @@
     },
     {
       "id": "1256436",
-      "name": "Sholapur",
+      "name": "Solapur",
       "latitude": 17.67152,
       "longitude": 75.91044,
       "population": 997281,
@@ -488,7 +492,8 @@
     },
     {
       "id": "1269920",
-      "name": "Hubballi",
+      "name": "Hubli",
+      "nativeName": "Hubballi",
       "latitude": 15.34776,
       "longitude": 75.13378,
       "population": 943788,
@@ -515,7 +520,7 @@
     },
     {
       "id": "1270642",
-      "name": "Gurugram",
+      "name": "Gurgaon",
       "latitude": 28.4601,
       "longitude": 77.02635,
       "population": 886519,
@@ -524,7 +529,8 @@
     },
     {
       "id": "1275817",
-      "name": "Bhubaneswar",
+      "name": "Bhubaneshwar",
+      "nativeName": "Bhubaneswar",
       "latitude": 20.27241,
       "longitude": 85.83385,
       "population": 885363,
@@ -551,7 +557,7 @@
     },
     {
       "id": "1276014",
-      "name": "Bhayandar",
+      "name": "Mira-Bhayander",
       "latitude": 19.30157,
       "longitude": 72.85107,
       "population": 809378,
@@ -570,6 +576,7 @@
     {
       "id": "1279017",
       "name": "Alīgarh",
+      "nativeName": "Aligarh",
       "latitude": 27.88145,
       "longitude": 78.07464,
       "population": 753207,
@@ -587,7 +594,7 @@
     },
     {
       "id": "1262801",
-      "name": "Morādābād",
+      "name": "Moradabad",
       "latitude": 28.83893,
       "longitude": 78.77684,
       "population": 721139,
@@ -686,7 +693,7 @@
     },
     {
       "id": "1257416",
-      "name": "Sāngli",
+      "name": "Sangli",
       "latitude": 16.85438,
       "longitude": 74.56417,
       "population": 601214,
@@ -713,7 +720,7 @@
     },
     {
       "id": "1275362",
-      "name": "Bokāro",
+      "name": "Bokaro",
       "latitude": 23.66934,
       "longitude": 86.15161,
       "population": 564319,
@@ -741,6 +748,7 @@
     {
       "id": "1266285",
       "name": "Kolhāpur",
+      "nativeName": "Kolhapur",
       "latitude": 16.69563,
       "longitude": 74.23167,
       "population": 549236,
@@ -848,7 +856,7 @@
     },
     {
       "id": "1278314",
-      "name": "Āsansol",
+      "name": "Asansol",
       "latitude": 23.68333,
       "longitude": 86.98333,
       "population": 504271,
@@ -875,7 +883,7 @@
     },
     {
       "id": "1257806",
-      "name": "Sahāranpur",
+      "name": "Saharanpur",
       "latitude": 29.9679,
       "longitude": 77.54522,
       "population": 484873,
@@ -893,7 +901,7 @@
     },
     {
       "id": "1276058",
-      "name": "Bhātpāra",
+      "name": "Bhatpara",
       "latitude": 22.86643,
       "longitude": 88.40113,
       "population": 483129,
@@ -912,6 +920,7 @@
     {
       "id": "8440756",
       "name": "Modīnagar",
+      "nativeName": "Modinagar",
       "latitude": 28.83059,
       "longitude": 77.57295,
       "population": 475843,
@@ -974,7 +983,7 @@
     },
     {
       "id": "1260107",
-      "name": "Patiāla",
+      "name": "Patiala",
       "latitude": 30.33625,
       "longitude": 76.3922,
       "population": 446246,
@@ -983,7 +992,7 @@
     },
     {
       "id": "1273368",
-      "name": "Davangere",
+      "name": "Davanagere",
       "latitude": 14.46693,
       "longitude": 75.92694,
       "population": 435128,
@@ -1019,7 +1028,7 @@
     },
     {
       "id": "1269006",
-      "name": "Jhānsi",
+      "name": "Jhansi",
       "latitude": 25.45887,
       "longitude": 78.57994,
       "population": 412927,
@@ -1046,7 +1055,7 @@
     },
     {
       "id": "1276300",
-      "name": "Bhāgalpur",
+      "name": "Bhagalpur",
       "latitude": 25.24446,
       "longitude": 86.97183,
       "population": 400146,
@@ -1064,7 +1073,7 @@
     },
     {
       "id": "1268561",
-      "name": "Kākināda",
+      "name": "Kakinada",
       "latitude": 16.96036,
       "longitude": 82.23809,
       "population": 384182,
@@ -1083,6 +1092,7 @@
     {
       "id": "1260482",
       "name": "Pānihāti",
+      "nativeName": "Panihati",
       "latitude": 22.69089,
       "longitude": 88.37404,
       "population": 378705,
@@ -1136,7 +1146,7 @@
     },
     {
       "id": "1275637",
-      "name": "Bilāspur",
+      "name": "Bilaspur",
       "latitude": 22.08005,
       "longitude": 82.15543,
       "population": 365579,
@@ -1199,7 +1209,7 @@
     },
     {
       "id": "1268257",
-      "name": "Kāmārhāti",
+      "name": "Kamarhati",
       "latitude": 22.67111,
       "longitude": 88.37472,
       "population": 332965,
@@ -1217,7 +1227,7 @@
     },
     {
       "id": "1274693",
-      "name": "Chānda",
+      "name": "Chandrapur",
       "latitude": 19.95076,
       "longitude": 79.29523,
       "population": 328351,
@@ -1254,6 +1264,7 @@
     {
       "id": "1256728",
       "name": "Shāhjānpur",
+      "nativeName": "Shahjahanpur",
       "latitude": 27.88165,
       "longitude": 79.90918,
       "population": 320434,
@@ -1263,6 +1274,7 @@
     {
       "id": "1268773",
       "name": "Jūnāgadh",
+      "nativeName": "Junagadh",
       "latitude": 21.51966,
       "longitude": 70.45981,
       "population": 319462,
@@ -1289,7 +1301,7 @@
     },
     {
       "id": "1261258",
-      "name": "Nizāmābād",
+      "name": "Nizamabad",
       "latitude": 18.67154,
       "longitude": 78.0988,
       "population": 311152,
@@ -1298,7 +1310,7 @@
     },
     {
       "id": "1254089",
-      "name": "Tumkūr",
+      "name": "Tumakuru",
       "latitude": 13.34136,
       "longitude": 77.1022,
       "population": 307359,
@@ -1325,7 +1337,7 @@
     },
     {
       "id": "1271885",
-      "name": "Fīrozābād",
+      "name": "Firozabad",
       "latitude": 27.15092,
       "longitude": 78.39781,
       "population": 306409,
@@ -1335,6 +1347,7 @@
     {
       "id": "1267708",
       "name": "Karnāl",
+      "nativeName": "Karnal",
       "latitude": 29.69197,
       "longitude": 76.98448,
       "population": 302140,
@@ -1343,7 +1356,7 @@
     },
     {
       "id": "1277029",
-      "name": "Barddhamān",
+      "name": "Bardhaman",
       "latitude": 23.25572,
       "longitude": 87.85691,
       "population": 301725,
@@ -1352,7 +1365,8 @@
     },
     {
       "id": "11679708",
-      "name": "Gundupālaiyam",
+      "name": "Oulgaret",
+      "nativeName": "Ozhukarai",
       "latitude": 11.94096,
       "longitude": 79.80294,
       "population": 300104,
@@ -1362,6 +1376,7 @@
     {
       "id": "1277065",
       "name": "Bārāsat",
+      "nativeName": "Barasat",
       "latitude": 22.72154,
       "longitude": 88.48198,
       "population": 298127,
@@ -1379,7 +1394,7 @@
     },
     {
       "id": "1275716",
-      "name": "Bihār Sharīf",
+      "name": "Bihar Sharif",
       "latitude": 25.20084,
       "longitude": 85.52389,
       "population": 297268,
@@ -1389,6 +1404,7 @@
     {
       "id": "1277539",
       "name": "Bāli",
+      "nativeName": "Bally",
       "latitude": 22.64859,
       "longitude": 88.34115,
       "population": 296973,
@@ -1398,6 +1414,7 @@
     {
       "id": "1258599",
       "name": "Rāmpur",
+      "nativeName": "Rampur",
       "latitude": 28.81014,
       "longitude": 79.02699,
       "population": 296418,
@@ -1487,7 +1504,7 @@
     },
     {
       "id": "1267755",
-      "name": "Karīmnagar",
+      "name": "Karimnagar",
       "latitude": 18.43915,
       "longitude": 79.12856,
       "population": 289821,
@@ -1506,6 +1523,7 @@
     {
       "id": "1255744",
       "name": "Sonīpat",
+      "nativeName": "Sonipat",
       "latitude": 28.99478,
       "longitude": 77.01937,
       "population": 289333,
@@ -1532,7 +1550,7 @@
     },
     {
       "id": "1269395",
-      "name": "Jālna",
+      "name": "Jalna",
       "latitude": 19.84102,
       "longitude": 75.88636,
       "population": 285577,
@@ -1569,6 +1587,7 @@
     {
       "id": "1257845",
       "name": "Saugor",
+      "nativeName": "Sagar",
       "latitude": 23.83877,
       "longitude": 78.73874,
       "population": 274556,
@@ -1614,6 +1633,7 @@
     {
       "id": "1258342",
       "name": "Ratlām",
+      "nativeName": "Ratlam",
       "latitude": 23.33033,
       "longitude": 75.04032,
       "population": 264914,
@@ -1623,6 +1643,7 @@
     {
       "id": "1258451",
       "name": "Rānipet",
+      "nativeName": "Ranipet",
       "latitude": 12.92471,
       "longitude": 79.33331,
       "population": 264330,
@@ -1641,6 +1662,7 @@
     {
       "id": "7302833",
       "name": "Gajuwaka",
+      "nativeName": "Mulagada",
       "latitude": 17.7,
       "longitude": 83.21667,
       "population": 258944,
@@ -1649,7 +1671,7 @@
     },
     {
       "id": "1271987",
-      "name": "Etāwah",
+      "name": "Etawah",
       "latitude": 26.77615,
       "longitude": 79.02133,
       "population": 257448,
@@ -1659,6 +1681,7 @@
     {
       "id": "1262131",
       "name": "Naihāti",
+      "nativeName": "Naihati",
       "latitude": 22.89396,
       "longitude": 88.41521,
       "population": 253221,
@@ -1686,6 +1709,7 @@
     {
       "id": "1254320",
       "name": "Tiruvottiyūr",
+      "nativeName": "Tiruvottiyur",
       "latitude": 13.15823,
       "longitude": 80.30181,
       "population": 249446,
@@ -1694,7 +1718,8 @@
     },
     {
       "id": "1271717",
-      "name": "Gāndhīdhām",
+      "name": "Gandhidham",
+      "nativeName": "ગાંધીધામ",
       "latitude": 23.08333,
       "longitude": 70.13333,
       "population": 247992,
@@ -1713,6 +1738,7 @@
     {
       "id": "1256320",
       "name": "Sīkar",
+      "nativeName": "Sikar",
       "latitude": 27.61206,
       "longitude": 75.13996,
       "population": 244497,
@@ -1730,7 +1756,7 @@
     },
     {
       "id": "1270393",
-      "name": "Hāpur",
+      "name": "Hapur",
       "latitude": 28.72985,
       "longitude": 77.78068,
       "population": 242920,
@@ -1739,7 +1765,7 @@
     },
     {
       "id": "1271942",
-      "name": "Farrukhābād",
+      "name": "Farrukhabad",
       "latitude": 27.39134,
       "longitude": 79.5793,
       "population": 241152,
@@ -1785,6 +1811,7 @@
     {
       "id": "1253880",
       "name": "Uluberiya",
+      "nativeName": "Uluberia",
       "latitude": 22.4756,
       "longitude": 88.09898,
       "population": 235345,

@@ -2,7 +2,8 @@
   "towns": [
     {
       "id": "2562541",
-      "name": "San Pawl il-Baħar",
+      "name": "Saint Paul's Bay",
+      "nativeName": "San Pawl il-Baħar",
       "latitude": 35.95064,
       "longitude": 14.41561,
       "population": 32042,
@@ -21,6 +22,7 @@
     {
       "id": "2562704",
       "name": "Mosta",
+      "nativeName": "Il-Mosta",
       "latitude": 35.90942,
       "longitude": 14.42566,
       "population": 23482,
@@ -30,6 +32,7 @@
     {
       "id": "2562501",
       "name": "Sliema",
+      "nativeName": "Tas-Sliema",
       "latitude": 35.91247,
       "longitude": 14.50175,
       "population": 22591,
@@ -39,6 +42,7 @@
     {
       "id": "2562629",
       "name": "Qormi",
+      "nativeName": "Ħal Qormi",
       "latitude": 35.87601,
       "longitude": 14.472,
       "population": 16801,
@@ -47,7 +51,8 @@
     },
     {
       "id": "2562266",
-      "name": "Żabbar",
+      "name": "Zabbar",
+      "nativeName": "Ħaż-Żabbar",
       "latitude": 35.87687,
       "longitude": 14.53592,
       "population": 15648,
@@ -57,6 +62,7 @@
     {
       "id": "2562683",
       "name": "Naxxar",
+      "nativeName": "In-Naxxar",
       "latitude": 35.91368,
       "longitude": 14.44382,
       "population": 14890,
@@ -75,6 +81,7 @@
     {
       "id": "2562850",
       "name": "Swieqi",
+      "nativeName": "Is-Swieqi",
       "latitude": 35.92154,
       "longitude": 14.47998,
       "population": 14452,
@@ -83,7 +90,8 @@
     },
     {
       "id": "2562557",
-      "name": "San Ġiljan",
+      "name": "Saint Julian's",
+      "nativeName": "San Ġiljan",
       "latitude": 35.91839,
       "longitude": 14.48977,
       "population": 13792,
@@ -92,7 +100,8 @@
     },
     {
       "id": "2562698",
-      "name": "Imsida",
+      "name": "Msida",
+      "nativeName": "L-Imsida",
       "latitude": 35.8925,
       "longitude": 14.48278,
       "population": 13713,
@@ -101,7 +110,8 @@
     },
     {
       "id": "2563189",
-      "name": "Birżebbuġa",
+      "name": "Birzebbugia",
+      "nativeName": "Birżebbuġa",
       "latitude": 35.82546,
       "longitude": 14.52685,
       "population": 12915,
@@ -111,6 +121,7 @@
     {
       "id": "2563115",
       "name": "Fgura",
+      "nativeName": "Il-Fgura",
       "latitude": 35.87028,
       "longitude": 14.51333,
       "population": 12877,
@@ -120,6 +131,7 @@
     {
       "id": "2562620",
       "name": "Rabat",
+      "nativeName": "Ir-Rabat",
       "latitude": 35.88152,
       "longitude": 14.39872,
       "population": 11936,
@@ -129,6 +141,7 @@
     {
       "id": "2562946",
       "name": "Gżira",
+      "nativeName": "Il-Gżira",
       "latitude": 35.90583,
       "longitude": 14.48806,
       "population": 11669,
@@ -138,6 +151,7 @@
     {
       "id": "2562258",
       "name": "Żejtun",
+      "nativeName": "Iż-Żejtun",
       "latitude": 35.85547,
       "longitude": 14.53341,
       "population": 11549,
@@ -147,6 +161,7 @@
     {
       "id": "2563232",
       "name": "Attard",
+      "nativeName": "Ħ'Attard",
       "latitude": 35.88967,
       "longitude": 14.4425,
       "population": 11377,
@@ -156,6 +171,7 @@
     {
       "id": "2562261",
       "name": "Haz-Zebbug",
+      "nativeName": "Ħaż-Żebbuġ",
       "latitude": 35.87194,
       "longitude": 14.44111,
       "population": 11079,
@@ -165,6 +181,7 @@
     {
       "id": "2562250",
       "name": "Żurrieq",
+      "nativeName": "Iż-Żurrieq",
       "latitude": 35.8296,
       "longitude": 14.47588,
       "population": 10962,
@@ -173,7 +190,8 @@
     },
     {
       "id": "2562750",
-      "name": "Marsaskala",
+      "name": "Marsascala",
+      "nativeName": "Wied il-Għajn",
       "latitude": 35.8622,
       "longitude": 14.56701,
       "population": 10024,
@@ -182,7 +200,8 @@
     },
     {
       "id": "2562998",
-      "name": "Ħamrun",
+      "name": "Hamrun",
+      "nativeName": "Il-Ħamrun",
       "latitude": 35.88452,
       "longitude": 14.48498,
       "population": 9743,
@@ -192,6 +211,7 @@
     {
       "id": "2562617",
       "name": "Paola",
+      "nativeName": "Raħal Ġdid",
       "latitude": 35.87297,
       "longitude": 14.49897,
       "population": 8706,
@@ -210,6 +230,7 @@
     {
       "id": "2562619",
       "name": "Victoria",
+      "nativeName": "Ir-Rabat",
       "latitude": 36.04473,
       "longitude": 14.24118,
       "population": 6596,
@@ -219,6 +240,7 @@
     {
       "id": "2563181",
       "name": "Cospicua",
+      "nativeName": "Bormla",
       "latitude": 35.88556,
       "longitude": 14.5275,
       "population": 6096,
@@ -237,6 +259,7 @@
     {
       "id": "2562792",
       "name": "Senglea",
+      "nativeName": "L-Isla",
       "latitude": 35.88777,
       "longitude": 14.51588,
       "population": 2720,
@@ -245,7 +268,8 @@
     },
     {
       "id": "2562966",
-      "name": "Vittoriosa",
+      "name": "Birgu",
+      "nativeName": "Il-Birgu",
       "latitude": 35.89157,
       "longitude": 14.51765,
       "population": 2489,
@@ -255,6 +279,7 @@
     {
       "id": "2562955",
       "name": "Floriana",
+      "nativeName": "Il-Furjana",
       "latitude": 35.89583,
       "longitude": 14.50833,
       "population": 2032,
@@ -264,6 +289,7 @@
     {
       "id": "2562320",
       "name": "Ta’ Xbiex",
+      "nativeName": "Ta' Xbiex",
       "latitude": 35.89907,
       "longitude": 14.49456,
       "population": 2012,
@@ -272,7 +298,8 @@
     },
     {
       "id": "2562746",
-      "name": "Imdina",
+      "name": "Mdina",
+      "nativeName": "L-Imdina",
       "latitude": 35.88636,
       "longitude": 14.40312,
       "population": 193,

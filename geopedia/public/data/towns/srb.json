@@ -3,6 +3,7 @@
     {
       "id": "792680",
       "name": "Belgrade",
+      "nativeName": "Београд",
       "latitude": 44.80401,
       "longitude": 20.46513,
       "population": 1273651,
@@ -12,6 +13,7 @@
     {
       "id": "787657",
       "name": "Niš",
+      "nativeName": "Ниш",
       "latitude": 43.32472,
       "longitude": 21.90333,
       "population": 250000,
@@ -21,6 +23,7 @@
     {
       "id": "3194360",
       "name": "Novi Sad",
+      "nativeName": "Нови Сад",
       "latitude": 45.25167,
       "longitude": 19.83694,
       "population": 215400,
@@ -30,6 +33,7 @@
     {
       "id": "789128",
       "name": "Kragujevac",
+      "nativeName": "Крагујевац",
       "latitude": 44.01667,
       "longitude": 20.91667,
       "population": 147473,
@@ -39,6 +43,7 @@
     {
       "id": "792078",
       "name": "Čačak",
+      "nativeName": "Чачак",
       "latitude": 43.89139,
       "longitude": 20.34972,
       "population": 117072,
@@ -48,6 +53,7 @@
     {
       "id": "3189595",
       "name": "Subotica",
+      "nativeName": "Суботица",
       "latitude": 46.1,
       "longitude": 19.66667,
       "population": 100000,
@@ -57,6 +63,7 @@
     {
       "id": "788709",
       "name": "Leskovac",
+      "nativeName": "Лесковац",
       "latitude": 42.99806,
       "longitude": 21.94611,
       "population": 94758,
@@ -66,6 +73,7 @@
     {
       "id": "787595",
       "name": "Novi Pazar",
+      "nativeName": "Нови Пазар",
       "latitude": 43.13667,
       "longitude": 20.51222,
       "population": 85996,
@@ -75,6 +83,7 @@
     {
       "id": "789107",
       "name": "Kraljevo",
+      "nativeName": "Краљево",
       "latitude": 43.72583,
       "longitude": 20.68944,
       "population": 82846,
@@ -84,6 +93,7 @@
     {
       "id": "783814",
       "name": "Zrenjanin",
+      "nativeName": "Зрењанин",
       "latitude": 45.38361,
       "longitude": 20.38194,
       "population": 79773,
@@ -93,6 +103,7 @@
     {
       "id": "787237",
       "name": "Pančevo",
+      "nativeName": "Панчево",
       "latitude": 44.87177,
       "longitude": 20.64167,
       "population": 76654,
@@ -102,6 +113,7 @@
     {
       "id": "788975",
       "name": "Kruševac",
+      "nativeName": "Крушевац",
       "latitude": 43.58,
       "longitude": 21.33389,
       "population": 75256,
@@ -110,7 +122,8 @@
     },
     {
       "id": "3188434",
-      "name": "Užice",
+      "name": "Uzice",
+      "nativeName": "Ужице",
       "latitude": 43.85861,
       "longitude": 19.84878,
       "population": 63577,
@@ -120,6 +133,7 @@
     {
       "id": "785756",
       "name": "Smederevo",
+      "nativeName": "Смедерево",
       "latitude": 44.66436,
       "longitude": 20.92763,
       "population": 62000,
@@ -129,6 +143,7 @@
     {
       "id": "3188402",
       "name": "Valjevo",
+      "nativeName": "Ваљево",
       "latitude": 44.27513,
       "longitude": 19.89821,
       "population": 61035,
@@ -138,6 +153,7 @@
     {
       "id": "784227",
       "name": "Vranje",
+      "nativeName": "Врање",
       "latitude": 42.55139,
       "longitude": 21.90028,
       "population": 56199,
@@ -147,6 +163,7 @@
     {
       "id": "3191376",
       "name": "Šabac",
+      "nativeName": "Шабац",
       "latitude": 44.74667,
       "longitude": 19.69,
       "population": 55114,
@@ -156,6 +173,7 @@
     {
       "id": "784024",
       "name": "Zaječar",
+      "nativeName": "Зајечар",
       "latitude": 43.90358,
       "longitude": 22.26405,
       "population": 49800,
@@ -165,6 +183,7 @@
     {
       "id": "784873",
       "name": "Trstenik",
+      "nativeName": "Трстеник",
       "latitude": 43.61694,
       "longitude": 21.0025,
       "population": 49043,
@@ -174,6 +193,7 @@
     {
       "id": "3190342",
       "name": "Sombor",
+      "nativeName": "Сомбор",
       "latitude": 45.77417,
       "longitude": 19.11222,
       "population": 48454,
@@ -183,6 +203,7 @@
     {
       "id": "789518",
       "name": "Kikinda",
+      "nativeName": "Кикинда",
       "latitude": 45.82972,
       "longitude": 20.46528,
       "population": 41935,
@@ -192,6 +213,7 @@
     {
       "id": "786827",
       "name": "Požarevac",
+      "nativeName": "Пожаревац",
       "latitude": 44.62133,
       "longitude": 21.18782,
       "population": 41736,
@@ -201,6 +223,7 @@
     {
       "id": "787050",
       "name": "Pirot",
+      "nativeName": "Пирот",
       "latitude": 43.15306,
       "longitude": 22.58611,
       "population": 40678,
@@ -210,6 +233,7 @@
     {
       "id": "792456",
       "name": "Bor",
+      "nativeName": "Бор",
       "latitude": 44.07488,
       "longitude": 22.09591,
       "population": 39387,
@@ -219,6 +243,7 @@
     {
       "id": "3190103",
       "name": "Sremska Mitrovica",
+      "nativeName": "Сремска Митровица",
       "latitude": 44.97639,
       "longitude": 19.61222,
       "population": 39084,
@@ -228,6 +253,7 @@
     {
       "id": "784136",
       "name": "Vršac",
+      "nativeName": "Вршац",
       "latitude": 45.11667,
       "longitude": 21.30361,
       "population": 36300,
@@ -237,6 +263,7 @@
     {
       "id": "789923",
       "name": "Jagodina",
+      "nativeName": "Јагодина",
       "latitude": 43.97713,
       "longitude": 21.26121,
       "population": 35589,
@@ -246,6 +273,7 @@
     {
       "id": "3191429",
       "name": "Ruma",
+      "nativeName": "Рума",
       "latitude": 45.00806,
       "longitude": 19.82222,
       "population": 32229,
@@ -255,6 +283,7 @@
     {
       "id": "3204674",
       "name": "Bačka Palanka",
+      "nativeName": "Бачка Паланка",
       "latitude": 45.24966,
       "longitude": 19.39664,
       "population": 29449,
@@ -264,6 +293,7 @@
     {
       "id": "786690",
       "name": "Prokuplje",
+      "nativeName": "Прокупље",
       "latitude": 43.23417,
       "longitude": 21.58806,
       "population": 27673,
@@ -273,6 +303,7 @@
     {
       "id": "785753",
       "name": "Smederevska Palanka",
+      "nativeName": "Смедеревска Паланка",
       "latitude": 44.36548,
       "longitude": 20.95885,
       "population": 27000,
@@ -282,6 +313,7 @@
     {
       "id": "3187297",
       "name": "Vrbas",
+      "nativeName": "Врбас",
       "latitude": 45.57139,
       "longitude": 19.64083,
       "population": 25907,
@@ -290,7 +322,8 @@
     },
     {
       "id": "792814",
-      "name": "Bečej",
+      "name": "Becej",
+      "nativeName": "Бечеј",
       "latitude": 45.61632,
       "longitude": 20.03331,
       "population": 25774,
@@ -299,7 +332,8 @@
     },
     {
       "id": "6619277",
-      "name": "Knjazevac",
+      "name": "Knjaževac",
+      "nativeName": "Књажевац",
       "latitude": 43.56634,
       "longitude": 22.25701,
       "population": 25000,
@@ -308,7 +342,8 @@
     },
     {
       "id": "790015",
-      "name": "Inđija",
+      "name": "Indjija",
+      "nativeName": "Инђија",
       "latitude": 45.04816,
       "longitude": 20.08165,
       "population": 24450,
@@ -317,7 +352,8 @@
     },
     {
       "id": "793111",
-      "name": "Aranđelovac",
+      "name": "Arandjelovac",
+      "nativeName": "Аранђеловац",
       "latitude": 44.30694,
       "longitude": 20.56,
       "population": 24309,
@@ -327,6 +363,7 @@
     {
       "id": "790367",
       "name": "Gornji Milanovac",
+      "nativeName": "Горњи Милановац",
       "latitude": 44.02603,
       "longitude": 20.46152,
       "population": 23982,
@@ -336,6 +373,7 @@
     {
       "id": "788771",
       "name": "Lazarevac",
+      "nativeName": "Лазаревац",
       "latitude": 44.38534,
       "longitude": 20.2557,
       "population": 23551,
@@ -345,6 +383,7 @@
     {
       "id": "791678",
       "name": "Ćuprija",
+      "nativeName": "Ћуприја",
       "latitude": 43.9275,
       "longitude": 21.37,
       "population": 20585,
@@ -354,6 +393,7 @@
     {
       "id": "785965",
       "name": "Senta",
+      "nativeName": "Сента",
       "latitude": 45.9275,
       "longitude": 20.07722,
       "population": 20302,
@@ -363,6 +403,7 @@
     {
       "id": "3196153",
       "name": "Loznica",
+      "nativeName": "Лозница",
       "latitude": 44.53118,
       "longitude": 19.24267,
       "population": 19515,
@@ -372,6 +413,7 @@
     {
       "id": "3204793",
       "name": "Apatin",
+      "nativeName": "Апатин",
       "latitude": 45.6726,
       "longitude": 18.978,
       "population": 18320,
@@ -381,6 +423,7 @@
     {
       "id": "3200802",
       "name": "Futog",
+      "nativeName": "Футог",
       "latitude": 45.23874,
       "longitude": 19.71416,
       "population": 18018,
@@ -390,6 +433,7 @@
     {
       "id": "787718",
       "name": "Negotin",
+      "nativeName": "Неготин",
       "latitude": 44.22639,
       "longitude": 22.53083,
       "population": 17612,
@@ -399,6 +443,7 @@
     {
       "id": "787516",
       "name": "Obrenovac",
+      "nativeName": "Обреновац",
       "latitude": 44.65486,
       "longitude": 20.20017,
       "population": 16821,
@@ -408,6 +453,7 @@
     {
       "id": "785559",
       "name": "Stara Pazova",
+      "nativeName": "Стара Пазова",
       "latitude": 44.985,
       "longitude": 20.16083,
       "population": 16217,
@@ -417,6 +463,7 @@
     {
       "id": "3204672",
       "name": "Bačka Topola",
+      "nativeName": "Бачка Топола",
       "latitude": 45.81516,
       "longitude": 19.6318,
       "population": 16154,
@@ -426,6 +473,7 @@
     {
       "id": "793138",
       "name": "Aleksinac",
+      "nativeName": "Алексинац",
       "latitude": 43.54167,
       "longitude": 21.70778,
       "population": 14593,
@@ -435,6 +483,7 @@
     {
       "id": "789168",
       "name": "Kovin",
+      "nativeName": "Ковин",
       "latitude": 44.7475,
       "longitude": 20.97611,
       "population": 14250,
@@ -444,6 +493,7 @@
     {
       "id": "3190104",
       "name": "Sremska Kamenica",
+      "nativeName": "Сремска Каменица",
       "latitude": 45.22334,
       "longitude": 19.84263,
       "population": 14205,
@@ -453,6 +503,7 @@
     {
       "id": "3193406",
       "name": "Petrovaradin",
+      "nativeName": "Петроварадин",
       "latitude": 45.24667,
       "longitude": 19.87944,
       "population": 13917,
@@ -461,7 +512,8 @@
     },
     {
       "id": "785288",
-      "name": "Surčin",
+      "name": "Surchin",
+      "nativeName": "Сурчин",
       "latitude": 44.79306,
       "longitude": 20.28028,
       "population": 12575,
@@ -471,6 +523,7 @@
     {
       "id": "792794",
       "name": "Bela Crkva",
+      "nativeName": "Бела Црква",
       "latitude": 44.8975,
       "longitude": 21.41722,
       "population": 10675,
@@ -480,6 +533,7 @@
     {
       "id": "784141",
       "name": "Vrnjačka Banja",
+      "nativeName": "Врњачка Бања",
       "latitude": 43.62725,
       "longitude": 20.89634,
       "population": 10207,
@@ -489,6 +543,7 @@
     {
       "id": "789600",
       "name": "Kanjiža",
+      "nativeName": "Кањижа",
       "latitude": 46.06667,
       "longitude": 20.05,
       "population": 10200,
@@ -498,6 +553,7 @@
     {
       "id": "788357",
       "name": "Majdanpek",
+      "nativeName": "Мајданпек",
       "latitude": 44.42771,
       "longitude": 21.94596,
       "population": 10071,
@@ -507,6 +563,7 @@
     {
       "id": "3190101",
       "name": "Sremski Karlovci",
+      "nativeName": "Сремски Карловци",
       "latitude": 45.20285,
       "longitude": 19.93373,
       "population": 8839,
@@ -515,7 +572,8 @@
     },
     {
       "id": "3204623",
-      "name": "Bajina Bašta",
+      "name": "Bajina Basta",
+      "nativeName": "Бајина Башта",
       "latitude": 43.97083,
       "longitude": 19.5675,
       "population": 8533,
@@ -525,6 +583,7 @@
     {
       "id": "3202318",
       "name": "Crvenka",
+      "nativeName": "Црвенка",
       "latitude": 45.66098,
       "longitude": 19.45435,
       "population": 8532,
@@ -534,6 +593,7 @@
     {
       "id": "784068",
       "name": "Žabalj",
+      "nativeName": "Жабаљ",
       "latitude": 45.37222,
       "longitude": 20.06389,
       "population": 8503,
@@ -542,7 +602,8 @@
     },
     {
       "id": "787600",
-      "name": "Novi Kneževac",
+      "name": "Novi Knezevac",
+      "nativeName": "Нови Кнежевац",
       "latitude": 46.05,
       "longitude": 20.1,
       "population": 8166,
@@ -552,6 +613,7 @@
     {
       "id": "787855",
       "name": "Mol",
+      "nativeName": "Мол",
       "latitude": 45.76457,
       "longitude": 20.13286,
       "population": 7950,
@@ -561,6 +623,7 @@
     {
       "id": "791471",
       "name": "Dobanovci",
+      "nativeName": "Добановци",
       "latitude": 44.82631,
       "longitude": 20.22487,
       "population": 7592,
@@ -570,6 +633,7 @@
     {
       "id": "788792",
       "name": "Lapovo",
+      "nativeName": "Лапово",
       "latitude": 44.18424,
       "longitude": 21.09727,
       "population": 7422,
@@ -579,6 +643,7 @@
     {
       "id": "789178",
       "name": "Kovačica",
+      "nativeName": "Ковачица",
       "latitude": 45.11167,
       "longitude": 20.62139,
       "population": 7357,
@@ -587,7 +652,8 @@
     },
     {
       "id": "3204665",
-      "name": "Bački Petrovac",
+      "name": "Backi Petrovac",
+      "nativeName": "Бачки Петровац",
       "latitude": 45.36056,
       "longitude": 19.59167,
       "population": 7229,
@@ -597,6 +663,7 @@
     {
       "id": "793093",
       "name": "Arilje",
+      "nativeName": "Ариље",
       "latitude": 43.75306,
       "longitude": 20.09556,
       "population": 6762,
@@ -606,6 +673,7 @@
     {
       "id": "785544",
       "name": "Starčevo",
+      "nativeName": "Старчево",
       "latitude": 44.80729,
       "longitude": 20.70546,
       "population": 6661,
@@ -615,6 +683,7 @@
     {
       "id": "792945",
       "name": "Banatski Karlovac",
+      "nativeName": "Банатски Карловац",
       "latitude": 45.04987,
       "longitude": 21.018,
       "population": 6319,
@@ -624,6 +693,7 @@
     {
       "id": "785062",
       "name": "Titel",
+      "nativeName": "Тител",
       "latitude": 45.20611,
       "longitude": 20.29444,
       "population": 6227,
@@ -633,6 +703,7 @@
     {
       "id": "787215",
       "name": "Paraćin",
+      "nativeName": "Параћин",
       "latitude": 43.86083,
       "longitude": 21.40778,
       "population": 6000,
@@ -642,6 +713,7 @@
     {
       "id": "784764",
       "name": "Umka",
+      "nativeName": "Умка",
       "latitude": 44.67806,
       "longitude": 20.30472,
       "population": 5618,
@@ -651,6 +723,7 @@
     {
       "id": "3193678",
       "name": "Palić",
+      "nativeName": "Палић",
       "latitude": 46.10646,
       "longitude": 19.75647,
       "population": 5476,
@@ -659,7 +732,8 @@
     },
     {
       "id": "791900",
-      "name": "Čoka",
+      "name": "Coka",
+      "nativeName": "Чока",
       "latitude": 45.9425,
       "longitude": 20.14333,
       "population": 5414,
@@ -669,6 +743,7 @@
     {
       "id": "10346045",
       "name": "Irig",
+      "nativeName": "Ириг",
       "latitude": 45.0523,
       "longitude": 19.84448,
       "population": 4848,
@@ -678,6 +753,7 @@
     {
       "id": "787461",
       "name": "Opovo",
+      "nativeName": "Опово",
       "latitude": 45.05222,
       "longitude": 20.43028,
       "population": 4769,
@@ -687,6 +763,7 @@
     {
       "id": "787306",
       "name": "Ostružnica",
+      "nativeName": "Остружница",
       "latitude": 44.72769,
       "longitude": 20.31845,
       "population": 4060,
@@ -696,6 +773,7 @@
     {
       "id": "793134",
       "name": "Alibunar",
+      "nativeName": "Алибунар",
       "latitude": 45.08083,
       "longitude": 20.96583,
       "population": 3803,
@@ -705,6 +783,7 @@
     {
       "id": "3197111",
       "name": "Krupanj",
+      "nativeName": "Крупањ",
       "latitude": 44.36556,
       "longitude": 19.36194,
       "population": 3779,
@@ -713,7 +792,8 @@
     },
     {
       "id": "3195962",
-      "name": "Mačvanska Mitrovica",
+      "name": "Macvanska Mitrovica",
+      "nativeName": "Мачванска Митровица",
       "latitude": 44.96739,
       "longitude": 19.59314,
       "population": 3661,
@@ -722,7 +802,8 @@
     },
     {
       "id": "789875",
-      "name": "Jaša Tomić",
+      "name": "Jasa Tomic",
+      "nativeName": "Јаша Томић",
       "latitude": 45.44725,
       "longitude": 20.85546,
       "population": 3625,
@@ -731,7 +812,8 @@
     },
     {
       "id": "783887",
-      "name": "Žitište",
+      "name": "Zitiste",
+      "nativeName": "Житиште",
       "latitude": 45.485,
       "longitude": 20.54972,
       "population": 3060,
@@ -741,6 +823,7 @@
     {
       "id": "788584",
       "name": "Ljig",
+      "nativeName": "Љиг",
       "latitude": 44.23007,
       "longitude": 20.23819,
       "population": 2979,
@@ -749,7 +832,8 @@
     },
     {
       "id": "787296",
-      "name": "Ovča",
+      "name": "Ovcha",
+      "nativeName": "Овча",
       "latitude": 44.88349,
       "longitude": 20.53336,
       "population": 2567,
@@ -759,6 +843,7 @@
     {
       "id": "791175",
       "name": "Donji Milanovac",
+      "nativeName": "Доњи Милановац",
       "latitude": 44.46593,
       "longitude": 22.1517,
       "population": 2410,
@@ -768,6 +853,7 @@
     {
       "id": "3302765",
       "name": "Zlatibor",
+      "nativeName": "Златибор",
       "latitude": 43.729,
       "longitude": 19.70029,
       "population": 2344,
@@ -777,6 +863,7 @@
     {
       "id": "792453",
       "name": "Borča",
+      "nativeName": "Борча",
       "latitude": 44.86969,
       "longitude": 20.45413,
       "population": 1246,
@@ -785,7 +872,8 @@
     },
     {
       "id": "3202017",
-      "name": "Divčibare",
+      "name": "Divcibare",
+      "nativeName": "Дивчибаре",
       "latitude": 44.106,
       "longitude": 19.9925,
       "population": 86,
@@ -795,6 +883,7 @@
     {
       "id": "3195591",
       "name": "Mali Zvornik",
+      "nativeName": "Мали Зворник",
       "latitude": 44.37344,
       "longitude": 19.10651,
       "population": 4,
@@ -803,7 +892,8 @@
     },
     {
       "id": "3204545",
-      "name": "Banja Koviljača",
+      "name": "Banja Koviljaca",
+      "nativeName": "Бања Ковиљача",
       "latitude": 44.51464,
       "longitude": 19.15278,
       "population": 4,
@@ -813,6 +903,7 @@
     {
       "id": "784800",
       "name": "Tutin",
+      "nativeName": "Тутин",
       "latitude": 42.99028,
       "longitude": 20.33139,
       "population": 4,
@@ -822,6 +913,7 @@
     {
       "id": "786303",
       "name": "Ribnica",
+      "nativeName": "Рибница",
       "latitude": 43.71319,
       "longitude": 20.68986,
       "population": 4,
@@ -830,7 +922,8 @@
     },
     {
       "id": "788107",
-      "name": "Mataruška Banja",
+      "name": "Mataruska Banja",
+      "nativeName": "Матарушка Бања",
       "latitude": 43.68816,
       "longitude": 20.61007,
       "population": 4,
@@ -840,6 +933,7 @@
     {
       "id": "791936",
       "name": "Ćićevac",
+      "nativeName": "Ћићевац",
       "latitude": 43.71882,
       "longitude": 21.44085,
       "population": 4,
@@ -849,6 +943,7 @@
     {
       "id": "793790",
       "name": "Raška",
+      "nativeName": "Рашка",
       "latitude": 43.28722,
       "longitude": 20.61528,
       "population": 4,
@@ -858,6 +953,7 @@
     {
       "id": "3192404",
       "name": "Prijepolje",
+      "nativeName": "Пријепоље",
       "latitude": 43.38996,
       "longitude": 19.6487,
       "population": 3,
@@ -867,6 +963,7 @@
     {
       "id": "3192450",
       "name": "Priboj",
+      "nativeName": "Прибој",
       "latitude": 43.58306,
       "longitude": 19.52519,
       "population": 3,

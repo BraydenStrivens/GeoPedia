@@ -3,6 +3,7 @@
     {
       "id": "921772",
       "name": "Moroni",
+      "nativeName": "Moroni موروني",
       "latitude": -11.70216,
       "longitude": 43.25506,
       "population": 74749,
@@ -11,7 +12,8 @@
     },
     {
       "id": "921753",
-      "name": "Moutsamoudou",
+      "name": "Mutsamudu",
+      "nativeName": "Mutsamudu موتسامودو",
       "latitude": -12.16672,
       "longitude": 44.39944,
       "population": 26313,
@@ -21,6 +23,7 @@
     {
       "id": "921889",
       "name": "Fomboni",
+      "nativeName": "فومبوني Fomboni",
       "latitude": -12.28759,
       "longitude": 43.74344,
       "population": 17291,
@@ -30,6 +33,7 @@
     {
       "id": "921664",
       "name": "Tsimbeo",
+      "nativeName": "Tsembéhou تسيمبيهو",
       "latitude": -12.20583,
       "longitude": 44.46472,
       "population": 12590,
@@ -39,6 +43,7 @@
     {
       "id": "921906",
       "name": "Domoni",
+      "nativeName": "Domoni دوموني",
       "latitude": -12.26067,
       "longitude": 44.52947,
       "population": 12262,
@@ -48,6 +53,7 @@
     {
       "id": "1091401",
       "name": "Adda-Douéni",
+      "nativeName": "Adda-Douéni أدا-دويني",
       "latitude": -12.2925,
       "longitude": 44.49722,
       "population": 10858,
@@ -57,6 +63,7 @@
     {
       "id": "921721",
       "name": "Ouani",
+      "nativeName": "Ouani أواني",
       "latitude": -12.13554,
       "longitude": 44.42493,
       "population": 10073,
@@ -66,6 +73,7 @@
     {
       "id": "921675",
       "name": "Sima",
+      "nativeName": "سيما Sima",
       "latitude": -12.19556,
       "longitude": 44.27667,
       "population": 8737,
@@ -75,6 +83,7 @@
     {
       "id": "921946",
       "name": "Chandra",
+      "nativeName": "Chandra شاندرا",
       "latitude": -12.195,
       "longitude": 44.46472,
       "population": 5645,
@@ -84,6 +93,7 @@
     {
       "id": "1092369",
       "name": "Ikoni",
+      "nativeName": "Iconi أيقونات",
       "latitude": -11.74487,
       "longitude": 43.2371,
       "population": 5474,
@@ -93,6 +103,7 @@
     {
       "id": "921884",
       "name": "Foumbouni",
+      "nativeName": "Foumbouni فومبوني",
       "latitude": -11.86537,
       "longitude": 43.49529,
       "population": 3386,
@@ -102,6 +113,7 @@
     {
       "id": "921785",
       "name": "Mitsoudjé",
+      "nativeName": "Mitsoudjé ميتسودجي",
       "latitude": -11.81209,
       "longitude": 43.28043,
       "population": 3129,
@@ -111,6 +123,7 @@
     {
       "id": "921992",
       "name": "Bambao",
+      "nativeName": "Bambao بامبو",
       "latitude": -12.20325,
       "longitude": 44.51638,
       "population": 2699,
@@ -120,6 +133,7 @@
     {
       "id": "921745",
       "name": "Nioumachoua",
+      "nativeName": "نيومشوا Nioumachoua",
       "latitude": -12.36139,
       "longitude": 43.71528,
       "population": 2687,
@@ -129,6 +143,7 @@
     {
       "id": "1091076",
       "name": "Hajoho",
+      "nativeName": "Hajoho هاجهو",
       "latitude": -12.12434,
       "longitude": 44.48881,
       "population": 2505,
@@ -137,7 +152,8 @@
     },
     {
       "id": "921939",
-      "name": "Chironkamba",
+      "name": "Akibani",
+      "nativeName": "Akibani أكيباني",
       "latitude": -12.19111,
       "longitude": 44.3525,
       "population": 2391,
@@ -146,7 +162,8 @@
     },
     {
       "id": "1091390",
-      "name": "Magnassini-Nindri",
+      "name": "Pomoni",
+      "nativeName": "Pomoni بوموني",
       "latitude": -12.27806,
       "longitude": 44.41583,
       "population": 2213,
@@ -155,7 +172,8 @@
     },
     {
       "id": "921913",
-      "name": "Djoyézi",
+      "name": "Djoiezi",
+      "nativeName": "جويزي Djoiezi",
       "latitude": -12.30587,
       "longitude": 43.77425,
       "population": 2096,
@@ -165,6 +183,7 @@
     {
       "id": "921777",
       "name": "Mohoro",
+      "nativeName": "Mohoro موهورو",
       "latitude": -11.82701,
       "longitude": 43.45436,
       "population": 2014,
@@ -174,6 +193,7 @@
     {
       "id": "1091102",
       "name": "Harembo",
+      "nativeName": "Harembo هارمبو",
       "latitude": -12.15108,
       "longitude": 44.49828,
       "population": 1698,
@@ -181,35 +201,39 @@
       "isCapital": false
     },
     {
-      "id": "921870",
-      "name": "Hoani",
-      "latitude": -12.25083,
-      "longitude": 43.67472,
-      "population": 1114,
-      "populationRank": 21,
-      "isCapital": false
-    },
-    {
       "id": "921801",
       "name": "Mdjoyézi",
+      "nativeName": "M'djoiezi Hambou مدجويزي هامبو",
       "latitude": -11.83642,
       "longitude": 43.31388,
       "population": 957,
-      "populationRank": 22,
+      "populationRank": 21,
       "isCapital": false
     },
     {
       "id": "921790",
       "name": "Miringoni",
+      "nativeName": "Miringoni ميرينكوني",
       "latitude": -12.29667,
       "longitude": 43.63528,
       "population": 834,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "1090577",
+      "name": "Ngamaroumbo",
+      "nativeName": "Hoani هواني",
+      "latitude": -12.26167,
+      "longitude": 43.67306,
+      "population": 316,
       "populationRank": 23,
       "isCapital": false
     },
     {
       "id": "921907",
       "name": "Domoni",
+      "nativeName": "دوموني Domoni",
       "latitude": -12.25194,
       "longitude": 43.64222,
       "population": 309,

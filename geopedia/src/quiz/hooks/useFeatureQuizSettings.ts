@@ -11,15 +11,15 @@
 import { useEffect, useState } from "react";
 
 import {
-  defaultQuizSettings,
-  type QuizSettings,
-} from "@/types/quizSettings";
+  DEFAULT_FEATURE_QUIZ_SETTINGS,
+  type FeatureQuizSettings,
+} from "@/types/featureQuizSettings";
 
-/** localStorage key containing the settings dictionary for every quiz. */
-const QUIZ_SETTINGS_STORAGE_KEY = "quiz-settings";
+/** localStorage key containing the feature quiz settings dictionary for every quiz. */
+const FEATURE_QUIZ_SETTINGS_STORAGE_KEY = "feature-quiz-settings";
 
 /** Dictionary of saved quiz settings keyed by country and quiz ID. */
-type StoredQuizSettings = Record<string, QuizSettings>;
+type StoredQuizSettings = Record<string, FeatureQuizSettings>;
 
 /**
  * Builds the unique localStorage dictionary key for a quiz.
@@ -61,44 +61,46 @@ export function useFeatureQuizSettings(
    * The lazy initializer avoids an extra render that would occur if settings
    * were first initialized with defaults and then replaced from an effect.
    */
-  const [settings, setSettings] = useState<QuizSettings>(() => {
-    if (typeof window === "undefined") {
-      return defaultQuizSettings;
-    }
-
-    try {
-      const storedValue = localStorage.getItem(
-        QUIZ_SETTINGS_STORAGE_KEY,
-      );
-
-      if (!storedValue) {
-        return defaultQuizSettings;
+  const [settings, setSettings] = useState<FeatureQuizSettings>(
+    () => {
+      if (typeof window === "undefined") {
+        return DEFAULT_FEATURE_QUIZ_SETTINGS;
       }
 
-      const storedSettings = JSON.parse(
-        storedValue,
-      ) as StoredQuizSettings;
+      try {
+        const storedValue = localStorage.getItem(
+          FEATURE_QUIZ_SETTINGS_STORAGE_KEY,
+        );
 
-      const savedQuizSettings = storedSettings[quizSettingsKey];
+        if (!storedValue) {
+          return DEFAULT_FEATURE_QUIZ_SETTINGS;
+        }
 
-      if (!savedQuizSettings) {
-        return defaultQuizSettings;
+        const storedSettings = JSON.parse(
+          storedValue,
+        ) as StoredQuizSettings;
+
+        const savedQuizSettings = storedSettings[quizSettingsKey];
+
+        if (!savedQuizSettings) {
+          return DEFAULT_FEATURE_QUIZ_SETTINGS;
+        }
+
+        /*
+         * Merge saved values over the current defaults so older saved
+         * settings automatically receive newly-added properties.
+         */
+        return {
+          ...DEFAULT_FEATURE_QUIZ_SETTINGS,
+          ...savedQuizSettings,
+        };
+      } catch (error) {
+        console.error("Failed to load quiz settings:", error);
+
+        return DEFAULT_FEATURE_QUIZ_SETTINGS;
       }
-
-      /*
-       * Merge saved values over the current defaults so older saved
-       * settings automatically receive newly-added properties.
-       */
-      return {
-        ...defaultQuizSettings,
-        ...savedQuizSettings,
-      };
-    } catch (error) {
-      console.error("Failed to load quiz settings:", error);
-
-      return defaultQuizSettings;
-    }
-  });
+    },
+  );
 
   /**
    * Persists this quiz's settings whenever they change.
@@ -109,7 +111,7 @@ export function useFeatureQuizSettings(
   useEffect(() => {
     try {
       const storedValue = localStorage.getItem(
-        QUIZ_SETTINGS_STORAGE_KEY,
+        FEATURE_QUIZ_SETTINGS_STORAGE_KEY,
       );
 
       const storedSettings: StoredQuizSettings = storedValue
@@ -119,7 +121,7 @@ export function useFeatureQuizSettings(
       storedSettings[quizSettingsKey] = settings;
 
       localStorage.setItem(
-        QUIZ_SETTINGS_STORAGE_KEY,
+        FEATURE_QUIZ_SETTINGS_STORAGE_KEY,
         JSON.stringify(storedSettings),
       );
     } catch (error) {

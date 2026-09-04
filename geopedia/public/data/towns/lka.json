@@ -120,6 +120,7 @@
     {
       "id": "1225142",
       "name": "Valvedditturai",
+      "nativeName": "Valvettithurai",
       "latitude": 9.81667,
       "longitude": 80.16667,
       "population": 78205,
@@ -138,6 +139,7 @@
     {
       "id": "1250164",
       "name": "Battaramulla South",
+      "nativeName": "Battaramulla",
       "latitude": 6.8964,
       "longitude": 79.9181,
       "population": 75633,
@@ -165,6 +167,7 @@
     {
       "id": "1239047",
       "name": "Kotikawatta",
+      "nativeName": "Gothatuwa",
       "latitude": 6.9269,
       "longitude": 79.9095,
       "population": 64565,
@@ -192,6 +195,7 @@
     {
       "id": "1250066",
       "name": "Beliatta",
+      "nativeName": "Beliatte",
       "latitude": 6.0496,
       "longitude": 80.73252,
       "population": 58675,
@@ -246,6 +250,7 @@
     {
       "id": "1248158",
       "name": "Devinuwara",
+      "nativeName": "Dondra",
       "latitude": 5.92825,
       "longitude": 80.5888,
       "population": 45000,
@@ -336,6 +341,7 @@
     {
       "id": "1242835",
       "name": "Ja Ela",
+      "nativeName": "Ja-ela",
       "latitude": 7.0744,
       "longitude": 79.8919,
       "population": 32175,
@@ -353,7 +359,7 @@
     },
     {
       "id": "1234393",
-      "name": "Mullaittivu",
+      "name": "Mullaitivu",
       "latitude": 9.268,
       "longitude": 80.815,
       "population": 28973,
@@ -408,6 +414,7 @@
     {
       "id": "1246924",
       "name": "Eravur Town",
+      "nativeName": "Eravur",
       "latitude": 7.7782,
       "longitude": 81.6038,
       "population": 22982,
@@ -417,6 +424,7 @@
     {
       "id": "1244773",
       "name": "Hanwella Ihala",
+      "nativeName": "Hanwella",
       "latitude": 6.9012,
       "longitude": 80.0852,
       "population": 22918,
@@ -497,7 +505,7 @@
     },
     {
       "id": "1234808",
-      "name": "Monaragala",
+      "name": "Moneragala",
       "latitude": 6.8714,
       "longitude": 81.3487,
       "population": 10236,
@@ -552,6 +560,7 @@
     {
       "id": "1247148",
       "name": "Ella Town",
+      "nativeName": "Ella",
       "latitude": 6.8756,
       "longitude": 81.0463,
       "population": 5000,
@@ -570,6 +579,7 @@
     {
       "id": "11979654",
       "name": "Mirissa city",
+      "nativeName": "Mirissa",
       "latitude": 5.94655,
       "longitude": 80.45831,
       "population": 4695,

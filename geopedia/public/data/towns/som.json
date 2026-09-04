@@ -3,6 +3,7 @@
     {
       "id": "53654",
       "name": "Mogadishu",
+      "nativeName": "Muqdisho مقديشو",
       "latitude": 2.03711,
       "longitude": 45.34375,
       "population": 2587183,
@@ -12,6 +13,7 @@
     {
       "id": "64021",
       "name": "Borama",
+      "nativeName": "بوراما Borama",
       "latitude": 9.93611,
       "longitude": 43.18278,
       "population": 597842,
@@ -20,7 +22,8 @@
     },
     {
       "id": "57289",
-      "name": "Hargeysa",
+      "name": "Hargeisa",
+      "nativeName": "Hargeysa هرجيسا",
       "latitude": 9.56,
       "longitude": 44.065,
       "population": 477876,
@@ -30,6 +33,7 @@
     {
       "id": "64435",
       "name": "Berbera",
+      "nativeName": "Berbera بربرة",
       "latitude": 10.43959,
       "longitude": 45.01432,
       "population": 242344,
@@ -39,6 +43,7 @@
     {
       "id": "55671",
       "name": "Kismayo",
+      "nativeName": "Kismaayo كيسمايو",
       "latitude": -0.35817,
       "longitude": 42.54536,
       "population": 234852,
@@ -47,7 +52,8 @@
     },
     {
       "id": "54225",
-      "name": "Marka",
+      "name": "Merca",
+      "nativeName": "Marka مركا",
       "latitude": 1.71594,
       "longitude": 44.77166,
       "population": 230100,
@@ -57,6 +63,7 @@
     {
       "id": "64536",
       "name": "Baidoa",
+      "nativeName": "Baydhabo بيدوا",
       "latitude": 3.11383,
       "longitude": 43.6498,
       "population": 129839,
@@ -65,7 +72,8 @@
     },
     {
       "id": "63400",
-      "name": "Cabudwaaq",
+      "name": "Abudwak",
+      "nativeName": "Caabudwaaq عابدؤاغ",
       "latitude": 6.24585,
       "longitude": 46.2247,
       "population": 120000,
@@ -75,6 +83,7 @@
     {
       "id": "63795",
       "name": "Burao",
+      "nativeName": "Burco برعو",
       "latitude": 9.52213,
       "longitude": 45.53363,
       "population": 99270,
@@ -83,7 +92,8 @@
     },
     {
       "id": "58831",
-      "name": "Gebiley",
+      "name": "Gabiley",
+      "nativeName": "Gebiley غبيلي",
       "latitude": 9.70028,
       "longitude": 43.62444,
       "population": 77320,
@@ -93,6 +103,7 @@
     {
       "id": "64013",
       "name": "Bosaso",
+      "nativeName": "Boosaaso بوصاصو",
       "latitude": 11.28421,
       "longitude": 49.18158,
       "population": 74287,
@@ -102,6 +113,7 @@
     {
       "id": "12212406",
       "name": "Beled Hawo",
+      "nativeName": "Beled Hawa بولاهاوا",
       "latitude": 3.9284,
       "longitude": 41.87997,
       "population": 73000,
@@ -111,6 +123,7 @@
     {
       "id": "342803",
       "name": "Balanbale",
+      "nativeName": "Balanbale بالانبالي",
       "latitude": 5.76897,
       "longitude": 45.76297,
       "population": 68000,
@@ -120,6 +133,7 @@
     {
       "id": "65785",
       "name": "Afgooye",
+      "nativeName": "Afgooye أفجوي",
       "latitude": 2.1381,
       "longitude": 45.1212,
       "population": 65461,
@@ -128,7 +142,8 @@
     },
     {
       "id": "59611",
-      "name": "Gaalkacyo",
+      "name": "Galkayo",
+      "nativeName": "Gaalkacyo جالكعيو",
       "latitude": 6.76972,
       "longitude": 47.43083,
       "population": 61200,
@@ -137,7 +152,8 @@
     },
     {
       "id": "400769",
-      "name": "Laascaanood",
+      "name": "Las Anod",
+      "nativeName": "Laascaanood لاس عانود",
       "latitude": 8.47738,
       "longitude": 47.35971,
       "population": 60100,
@@ -147,6 +163,7 @@
     {
       "id": "58933",
       "name": "Garoowe",
+      "nativeName": "Garoowe غاروي",
       "latitude": 8.40207,
       "longitude": 48.48284,
       "population": 57300,
@@ -156,6 +173,7 @@
     {
       "id": "64460",
       "name": "Beledweyne",
+      "nativeName": "Beledweyne بلد وين",
       "latitude": 4.73583,
       "longitude": 45.20361,
       "population": 55410,
@@ -165,6 +183,7 @@
     {
       "id": "52867",
       "name": "Qoryooley",
+      "nativeName": "Qoryooley قوريولي",
       "latitude": 1.78784,
       "longitude": 44.52999,
       "population": 51720,
@@ -173,7 +192,8 @@
     },
     {
       "id": "56335",
-      "name": "Jawhar",
+      "name": "Jowhar",
+      "nativeName": "Jowhar جوهر",
       "latitude": 2.78087,
       "longitude": 45.50048,
       "population": 47086,
@@ -183,6 +203,7 @@
     {
       "id": "56166",
       "name": "Jilib",
+      "nativeName": "Jilib جيليب",
       "latitude": 0.48829,
       "longitude": 42.78535,
       "population": 43694,
@@ -191,7 +212,8 @@
     },
     {
       "id": "56399",
-      "name": "Jamaame",
+      "name": "Jamame",
+      "nativeName": "Jamaame جمامة",
       "latitude": 0.06968,
       "longitude": 42.74497,
       "population": 42270,
@@ -201,6 +223,7 @@
     {
       "id": "6311126",
       "name": "Dhabad",
+      "nativeName": "Dhabad ضابط",
       "latitude": 6.43167,
       "longitude": 46.46194,
       "population": 36000,
@@ -209,7 +232,8 @@
     },
     {
       "id": "62691",
-      "name": "Ceerigaabo",
+      "name": "Erigavo",
+      "nativeName": "Ceerigaabo عيرجابو",
       "latitude": 10.61616,
       "longitude": 47.36795,
       "population": 33853,
@@ -219,6 +243,7 @@
     {
       "id": "54715",
       "name": "Luuq",
+      "nativeName": "Luuq لوق",
       "latitude": 3.80315,
       "longitude": 42.54417,
       "population": 33820,
@@ -228,6 +253,7 @@
     {
       "id": "63571",
       "name": "Buurhakaba",
+      "nativeName": "Buurhakaba بورحكب",
       "latitude": 2.80257,
       "longitude": 44.07805,
       "population": 27792,
@@ -237,6 +263,7 @@
     {
       "id": "61360",
       "name": "Dhamas",
+      "nativeName": "Dhamaso",
       "latitude": 3.15296,
       "longitude": 41.33565,
       "population": 27000,
@@ -246,6 +273,7 @@
     {
       "id": "62788",
       "name": "Ceeldheer",
+      "nativeName": "Ceel Dheer",
       "latitude": 3.84878,
       "longitude": 47.18064,
       "population": 26562,
@@ -264,6 +292,7 @@
     {
       "id": "51228",
       "name": "Tog Wajaale",
+      "nativeName": "Wajaale وجاله",
       "latitude": 9.59972,
       "longitude": 43.335,
       "population": 22700,
@@ -273,6 +302,7 @@
     {
       "id": "50672",
       "name": "Wanlaweyn",
+      "nativeName": "Wanlaweyn ونلوين",
       "latitude": 2.6185,
       "longitude": 44.8938,
       "population": 22022,
@@ -291,6 +321,7 @@
     {
       "id": "8045596",
       "name": "Baki",
+      "nativeName": "باكي Baki",
       "latitude": 9.89206,
       "longitude": 43.38531,
       "population": 20000,
@@ -300,6 +331,7 @@
     {
       "id": "53157",
       "name": "Qandala",
+      "nativeName": "Qandala كاندالة",
       "latitude": 11.47197,
       "longitude": 49.87282,
       "population": 19300,
@@ -308,7 +340,8 @@
     },
     {
       "id": "52078",
-      "name": "Saylac",
+      "name": "Zeila",
+      "nativeName": "Saylac زيلع",
       "latitude": 11.3539,
       "longitude": 43.4731,
       "population": 18600,
@@ -317,7 +350,8 @@
     },
     {
       "id": "63949",
-      "name": "Bu’aale",
+      "name": "Bu'aale",
+      "nativeName": "Bu'aale بوأل",
       "latitude": 1.08333,
       "longitude": 42.58333,
       "population": 17475,
@@ -326,7 +360,8 @@
     },
     {
       "id": "63689",
-      "name": "Buulobarde",
+      "name": "Bulo Burto",
+      "nativeName": "Bulo Burto بولو بورتي",
       "latitude": 3.85375,
       "longitude": 45.56744,
       "population": 16928,
@@ -335,7 +370,8 @@
     },
     {
       "id": "58994",
-      "name": "Garbahaarrey",
+      "name": "Garbaharey",
+      "nativeName": "Garbahaarey جربهاري",
       "latitude": 3.32892,
       "longitude": 42.22091,
       "population": 12652,
@@ -353,7 +389,8 @@
     },
     {
       "id": "49747",
-      "name": "Xuddur",
+      "name": "Hudur",
+      "nativeName": "Xudur حودور",
       "latitude": 4.12129,
       "longitude": 43.88945,
       "population": 12500,
@@ -362,7 +399,8 @@
     },
     {
       "id": "63707",
-      "name": "Buhodle",
+      "name": "Buuhoodle",
+      "nativeName": "Buuhoodle بووهودل ቦሆትለ",
       "latitude": 8.23056,
       "longitude": 46.32667,
       "population": 11373,
@@ -372,6 +410,7 @@
     {
       "id": "59140",
       "name": "Garadag",
+      "nativeName": "Gar Adag",
       "latitude": 9.48828,
       "longitude": 46.8674,
       "population": 10000,
@@ -389,7 +428,8 @@
     },
     {
       "id": "62821",
-      "name": "Ceelbuur",
+      "name": "El Buur",
+      "nativeName": "Ceel Buur",
       "latitude": 4.68501,
       "longitude": 46.6176,
       "population": 9031,
@@ -398,7 +438,8 @@
     },
     {
       "id": "60928",
-      "name": "Dhuusamarreeb",
+      "name": "Dusmareb",
+      "nativeName": "Dhuusamareeb دوسمريب",
       "latitude": 5.53597,
       "longitude": 46.38666,
       "population": 9000,
@@ -417,6 +458,7 @@
     {
       "id": "54460",
       "name": "Mahaddayweyne",
+      "nativeName": "Mahadaay",
       "latitude": 2.9726,
       "longitude": 45.5347,
       "population": 8273,
@@ -426,6 +468,7 @@
     {
       "id": "55223",
       "name": "Las Khorey",
+      "nativeName": "Laasqoray لاسقرى",
       "latitude": 11.1595,
       "longitude": 48.1967,
       "population": 6941,
@@ -434,7 +477,8 @@
     },
     {
       "id": "64670",
-      "name": "Bargaal",
+      "name": "Bargal",
+      "nativeName": "Bargaal برغال",
       "latitude": 11.28636,
       "longitude": 51.0773,
       "population": 6798,
@@ -443,7 +487,8 @@
     },
     {
       "id": "50814",
-      "name": "Waajid",
+      "name": "Wajid",
+      "nativeName": "Waajid وااجيد",
       "latitude": 3.80958,
       "longitude": 43.24627,
       "population": 6666,
@@ -453,6 +498,7 @@
     {
       "id": "65722",
       "name": "Agabar",
+      "nativeName": "Agabar أغابار",
       "latitude": 9.92618,
       "longitude": 43.91673,
       "population": 6547,
@@ -470,7 +516,8 @@
     },
     {
       "id": "53372",
-      "name": "Oodweyne",
+      "name": "Odweine",
+      "nativeName": "عودوين Oodweyne",
       "latitude": 9.4092,
       "longitude": 45.06397,
       "population": 5491,
@@ -480,6 +527,7 @@
     {
       "id": "63344",
       "name": "Cadale",
+      "nativeName": "Cadale عضلة",
       "latitude": 2.7603,
       "longitude": 46.3222,
       "population": 5385,
@@ -507,6 +555,7 @@
     {
       "id": "50064",
       "name": "Xarardheere",
+      "nativeName": "Harardhere",
       "latitude": 4.6544,
       "longitude": 47.8575,
       "population": 2018,

@@ -399,6 +399,7 @@
     {
       "id": "3692667",
       "name": "Saña",
+      "nativeName": "Zaña",
       "latitude": -6.91888,
       "longitude": -79.582,
       "population": 39200,
@@ -489,6 +490,7 @@
     {
       "id": "3691530",
       "name": "Tambo Grande",
+      "nativeName": "Tambogrande",
       "latitude": -4.92694,
       "longitude": -80.34472,
       "population": 30033,
@@ -578,7 +580,8 @@
     },
     {
       "id": "3696847",
-      "name": "Guadalupe",
+      "name": "Guadalupe, Provincia Pacasmayo",
+      "nativeName": "Guadalupe",
       "latitude": -7.25,
       "longitude": -79.48333,
       "population": 25376,
@@ -633,6 +636,7 @@
     {
       "id": "3934356",
       "name": "Nazca",
+      "nativeName": "Nasca",
       "latitude": -14.83098,
       "longitude": -74.93895,
       "population": 23556,
@@ -1011,6 +1015,7 @@
     {
       "id": "3697083",
       "name": "Eten",
+      "nativeName": "Etén",
       "latitude": -6.90806,
       "longitude": -79.86417,
       "population": 13693,
@@ -1083,6 +1088,7 @@
     {
       "id": "3929520",
       "name": "San Juan",
+      "nativeName": "San Juan de Marcona",
       "latitude": -15.36528,
       "longitude": -75.16222,
       "population": 12795,
@@ -1109,7 +1115,7 @@
     },
     {
       "id": "12157107",
-      "name": "La Rinconada Ana Maria (La Rinconada)",
+      "name": "La Rinconada",
       "latitude": -14.63392,
       "longitude": -69.44694,
       "population": 12183,
@@ -1173,6 +1179,7 @@
     {
       "id": "3926119",
       "name": "Tupac Amaru",
+      "nativeName": "Túpac Amaru Inca",
       "latitude": -13.71135,
       "longitude": -76.1498,
       "population": 11159,
@@ -1281,6 +1288,7 @@
     {
       "id": "3692414",
       "name": "San Lucas ( Pueblo Nuevo de Colan)",
+      "nativeName": "Pueblo Nuevo de Colán",
       "latitude": -4.90874,
       "longitude": -81.05686,
       "population": 9874,
@@ -1371,6 +1379,7 @@
     {
       "id": "3699832",
       "name": "Aguas Verdes",
+      "nativeName": "Huaquillas",
       "latitude": -3.48139,
       "longitude": -80.245,
       "population": 9106,
@@ -1398,6 +1407,7 @@
     {
       "id": "12157114",
       "name": "Puente Viru",
+      "nativeName": "Puente Virú",
       "latitude": -8.42513,
       "longitude": -78.78097,
       "population": 8995,
@@ -1425,6 +1435,7 @@
     {
       "id": "3929611",
       "name": "San Jeronimo De Tunan",
+      "nativeName": "San Jerónimo de Tunán",
       "latitude": -11.95591,
       "longitude": -75.28411,
       "population": 8772,
@@ -1479,6 +1490,7 @@
     {
       "id": "12157116",
       "name": "Victor Raul",
+      "nativeName": "Victor Raúl",
       "latitude": -8.40469,
       "longitude": -78.82276,
       "population": 8369,
@@ -1533,6 +1545,7 @@
     {
       "id": "3934586",
       "name": "Morococha",
+      "nativeName": "Nueva Morococha",
       "latitude": -11.58779,
       "longitude": -76.06323,
       "population": 7890,
@@ -1542,6 +1555,7 @@
     {
       "id": "3695788",
       "name": "La Legua - San Jacinto",
+      "nativeName": "La Legua",
       "latitude": -5.23584,
       "longitude": -80.65928,
       "population": 7548,
@@ -1713,6 +1727,7 @@
     {
       "id": "12157173",
       "name": "San Jose De Sisa",
+      "nativeName": "San José de Sisa",
       "latitude": -6.61375,
       "longitude": -76.69309,
       "population": 6546,
@@ -1731,6 +1746,7 @@
     {
       "id": "6389321",
       "name": "Segunda Jerusalén - Azunguillo",
+      "nativeName": "Segunda Jerusalén",
       "latitude": -5.98917,
       "longitude": -77.27694,
       "population": 6412,
@@ -1767,6 +1783,7 @@
     {
       "id": "3693347",
       "name": "Hacienda Pucala",
+      "nativeName": "Pucalá",
       "latitude": -6.77919,
       "longitude": -79.60258,
       "population": 6277,

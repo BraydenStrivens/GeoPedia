@@ -3,6 +3,7 @@
     {
       "id": "1528675",
       "name": "Bishkek",
+      "nativeName": "Бишкек",
       "latitude": 42.87,
       "longitude": 74.59,
       "population": 900000,
@@ -12,6 +13,7 @@
     {
       "id": "1527534",
       "name": "Osh",
+      "nativeName": "Ош",
       "latitude": 40.52828,
       "longitude": 72.7985,
       "population": 322164,
@@ -21,6 +23,7 @@
     {
       "id": "1528249",
       "name": "Manas",
+      "nativeName": "Манас",
       "latitude": 40.94498,
       "longitude": 72.99313,
       "population": 123239,
@@ -30,6 +33,7 @@
     {
       "id": "1528121",
       "name": "Karakol",
+      "nativeName": "Каракол",
       "latitude": 42.49047,
       "longitude": 78.39197,
       "population": 84351,
@@ -39,6 +43,7 @@
     {
       "id": "1527199",
       "name": "Tokmok",
+      "nativeName": "Токмок",
       "latitude": 42.84194,
       "longitude": 75.30149,
       "population": 71443,
@@ -47,7 +52,8 @@
     },
     {
       "id": "1527513",
-      "name": "Uzgen",
+      "name": "Özgön",
+      "nativeName": "Өзгөн",
       "latitude": 40.76994,
       "longitude": 73.30068,
       "population": 49410,
@@ -57,6 +63,7 @@
     {
       "id": "1528182",
       "name": "Kara-Balta",
+      "nativeName": "Кара-Балта",
       "latitude": 42.81423,
       "longitude": 73.84813,
       "population": 48278,
@@ -66,6 +73,7 @@
     {
       "id": "1527004",
       "name": "Balykchy",
+      "nativeName": "Балыкчы",
       "latitude": 42.46017,
       "longitude": 76.18709,
       "population": 42875,
@@ -75,6 +83,7 @@
     {
       "id": "1527592",
       "name": "Naryn",
+      "nativeName": "Нарын",
       "latitude": 41.4283,
       "longitude": 75.9957,
       "population": 41178,
@@ -84,6 +93,7 @@
     {
       "id": "1528717",
       "name": "Bazar-Korgon",
+      "nativeName": "Базар-Коргон",
       "latitude": 41.0376,
       "longitude": 72.74586,
       "population": 41011,
@@ -93,6 +103,7 @@
     {
       "id": "1527299",
       "name": "Talas",
+      "nativeName": "Талас",
       "latitude": 42.52256,
       "longitude": 72.2417,
       "population": 40308,
@@ -102,6 +113,7 @@
     {
       "id": "1222662",
       "name": "Razzakov",
+      "nativeName": "Раззаков",
       "latitude": 39.83895,
       "longitude": 69.5276,
       "population": 34219,
@@ -110,7 +122,8 @@
     },
     {
       "id": "1527719",
-      "name": "Kyzyl-Kyya",
+      "name": "Kyzyl-Kiya",
+      "nativeName": "Кызыл-Кыя",
       "latitude": 40.25684,
       "longitude": 72.12793,
       "population": 32000,
@@ -120,6 +133,7 @@
     {
       "id": "1528735",
       "name": "Batken",
+      "nativeName": "Баткен",
       "latitude": 40.0604,
       "longitude": 70.81929,
       "population": 27730,
@@ -128,7 +142,8 @@
     },
     {
       "id": "1528124",
-      "name": "Kara-Kul’",
+      "name": "Kara-Köl",
+      "nativeName": "Кара-Көл",
       "latitude": 41.62828,
       "longitude": 72.67027,
       "population": 26901,
@@ -137,7 +152,8 @@
     },
     {
       "id": "1528091",
-      "name": "Kara Suu",
+      "name": "Kara-Suu",
+      "nativeName": "Кара-Суу",
       "latitude": 40.7046,
       "longitude": 72.86666,
       "population": 26609,
@@ -146,7 +162,8 @@
     },
     {
       "id": "1527260",
-      "name": "Tash-Kumyr",
+      "name": "Taş-Kömür",
+      "nativeName": "Таш-Көмүр",
       "latitude": 41.34612,
       "longitude": 72.21707,
       "population": 23594,
@@ -156,6 +173,7 @@
     {
       "id": "1528193",
       "name": "Kant",
+      "nativeName": "Кант",
       "latitude": 42.89106,
       "longitude": 74.85077,
       "population": 22617,
@@ -165,6 +183,7 @@
     {
       "id": "1538648",
       "name": "Toktogul",
+      "nativeName": "Токтогул",
       "latitude": 41.87442,
       "longitude": 72.94192,
       "population": 20577,
@@ -174,6 +193,7 @@
     {
       "id": "1528339",
       "name": "Nookat",
+      "nativeName": "Ноокат",
       "latitude": 40.26597,
       "longitude": 72.61834,
       "population": 18228,
@@ -182,7 +202,8 @@
     },
     {
       "id": "1527903",
-      "name": "Kochkor-Ata",
+      "name": "Koçkor-Ata",
+      "nativeName": "Кочкор-Ата",
       "latitude": 41.03709,
       "longitude": 72.4832,
       "population": 17177,
@@ -191,7 +212,8 @@
     },
     {
       "id": "1222562",
-      "name": "Suluktu",
+      "name": "Sülüktü",
+      "nativeName": "Сүлүктү",
       "latitude": 39.93652,
       "longitude": 69.56779,
       "population": 15019,
@@ -200,7 +222,8 @@
     },
     {
       "id": "1528512",
-      "name": "Cholpon-Ata",
+      "name": "Çolpon-Ata",
+      "nativeName": "Чолпон-Ата",
       "latitude": 42.64944,
       "longitude": 77.08225,
       "population": 14237,
@@ -210,6 +233,7 @@
     {
       "id": "1528052",
       "name": "Kerben",
+      "nativeName": "Кербен",
       "latitude": 41.49399,
       "longitude": 71.75826,
       "population": 14141,
@@ -219,6 +243,7 @@
     {
       "id": "1527232",
       "name": "Ak-Suu",
+      "nativeName": "Ак-Суу",
       "latitude": 42.49948,
       "longitude": 78.52702,
       "population": 14009,
@@ -227,7 +252,8 @@
     },
     {
       "id": "1528320",
-      "name": "Gul’cha",
+      "name": "Gülchö",
+      "nativeName": "Гүлчө",
       "latitude": 40.3138,
       "longitude": 73.44418,
       "population": 13755,
@@ -237,6 +263,7 @@
     {
       "id": "1222635",
       "name": "Aydarken",
+      "nativeName": "Айдаркен",
       "latitude": 39.94319,
       "longitude": 71.34184,
       "population": 11857,
@@ -246,6 +273,7 @@
     {
       "id": "1528005",
       "name": "Kazarman",
+      "nativeName": "Казарман",
       "latitude": 41.40452,
       "longitude": 74.02828,
       "population": 11191,
@@ -255,6 +283,7 @@
     {
       "id": "1528606",
       "name": "Kemin",
+      "nativeName": "Кемин",
       "latitude": 42.78611,
       "longitude": 75.69167,
       "population": 10354,
@@ -263,20 +292,12 @@
     },
     {
       "id": "1528234",
-      "name": "Kaindy",
+      "name": "Kayıŋdı",
+      "nativeName": "Кайыңды",
       "latitude": 42.82469,
       "longitude": 73.67585,
       "population": 9561,
       "populationRank": 30,
-      "isCapital": false
-    },
-    {
-      "id": "7648391",
-      "name": "Pulgon",
-      "latitude": 40.14724,
-      "longitude": 71.72962,
-      "population": 3014,
-      "populationRank": 31,
       "isCapital": false
     }
   ]

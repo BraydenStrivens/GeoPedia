@@ -1,16 +1,17 @@
 /**
- * Displays controls for constructing quiz groups by manually selecting
+ * Displays controls for constructing feature quiz groups by manually selecting
  * geographic map features.
  *
- * This section coordinates the high-level manual-selection workflow:
+ * The section coordinates the high-level manual-selection workflow:
  *
  * - Entering map feature-selection mode.
  * - Expanding and collapsing the Manual Selection interface.
- * - Displaying the current selected-feature controls.
+ * - Displaying controls for the currently selected geographic features.
  * - Displaying creation or editing actions for manual saved groups.
  *
- * Selected-feature rendering is delegated to ManualSelectionList.
- * Persistence controls are delegated to ManualGroupActions.
+ * Selected-feature rendering and bulk-selection controls are delegated to
+ * `ManualSelectionList`. Saved-group persistence controls are delegated to
+ * `ManualGroupActions`.
  */
 
 "use client";
@@ -26,7 +27,7 @@ import ManualSelectionList from "./ManualSelectionList";
  * Props required by the Manual Selection section.
  */
 type ManualSelectionSectionProps = {
-  /** Whether map clicks currently toggle manual feature selection. */
+  /** Whether map clicks currently toggle manual geographic-feature selection. */
   isSelecting: boolean;
 
   /** Selected features together with the quiz answers they represent. */
@@ -35,31 +36,31 @@ type ManualSelectionSectionProps = {
   /** Number of distinct quiz answers represented by selected features. */
   selectedAnswerCount: number;
 
-  /** Whether answer labels should be displayed while selecting features. */
+  /** Whether answer labels are displayed while selecting features. */
   showAnswers: boolean;
 
-  /** Whether the current selection is eligible to be saved. */
+  /** Whether the current manual selection is eligible to begin saving. */
   canSave: boolean;
 
-  /** Whether the manual-group save form is currently open. */
+  /** Whether the manual-group metadata form is currently open. */
   isSavingGroup: boolean;
 
-  /** Whether the current selection is editing an existing manual saved group. */
+  /** Whether the current selection is editing an existing saved manual group. */
   isEditingGroup: boolean;
 
-  /** Whether the current saved-group edit can be persisted. */
+  /** Whether changes to the saved manual group can currently be persisted. */
   canUpdate: boolean;
 
-  /** Current new manual saved-group name draft. */
+  /** Name draft for a new saved manual group. */
   groupName: string;
 
-  /** Current new manual saved-group description draft. */
+  /** Description draft for a new saved manual group. */
   groupDescription: string;
 
-  /** Whether the current new saved-group draft can be persisted. */
+  /** Whether the completed new saved-group draft can be persisted. */
   canConfirmSave: boolean;
 
-  /** Whether there are still unselected geographic features. */
+  /** Whether at least one available geographic feature remains unselected. */
   canSelectAll: boolean;
 
   /** Opens the new manual saved-group metadata form. */
@@ -71,7 +72,7 @@ type ManualSelectionSectionProps = {
   /** Cancels the new manual saved-group metadata form. */
   onCancelSaving: () => void;
 
-  /** Cancels editing of an existing manual saved group. */
+  /** Cancels editing of an existing saved manual group. */
   onCancelEditing: () => void;
 
   /** Updates the new manual saved-group name draft. */
@@ -83,10 +84,10 @@ type ManualSelectionSectionProps = {
   /** Begins a new manual map feature-selection session. */
   onBeginSelection: () => void;
 
-  /** Removes one feature from the current manual selection. */
+  /** Removes one geographic feature from the current manual selection. */
   onRemoveFeature: (featureId: string) => void;
 
-  /** Clears every manually selected feature. */
+  /** Clears every manually selected geographic feature. */
   onDeselectAll: () => void;
 
   /** Selects every available geographic feature. */
@@ -98,13 +99,13 @@ type ManualSelectionSectionProps = {
   /** Cancels the complete manual-selection workflow. */
   onCancel: () => void;
 
-  /** Persists changes to the manual saved group currently being edited. */
+  /** Persists changes to the saved manual group currently being edited. */
   onUpdate: () => void;
 
-  /** Deletes the manual saved group currently being edited. */
+  /** Deletes the saved manual group currently being edited. */
   onDelete: () => void;
 
-  /** Requests that the containing Groups panel scroll newly revealed content into view. */
+  /** Requests that the containing Groups panel follow newly revealed content. */
   onRequestPanelScroll: () => void;
 };
 
@@ -112,48 +113,59 @@ type ManualSelectionSectionProps = {
  * Displays the collapsible Manual Selection section.
  *
  * @param props - Manual-selection state, validation, and interaction callbacks.
- * @returns Manual feature-selection controls.
+ * @returns Manual geographic-feature selection controls.
  */
 export default function ManualSelectionSection({
   isSelecting,
+
   selectionItems,
   selectedAnswerCount,
   showAnswers,
+  canSelectAll,
+
   canSave,
   canUpdate,
-  canSelectAll,
+  canConfirmSave,
+
   isSavingGroup,
   isEditingGroup,
+
   groupName,
   groupDescription,
-  canConfirmSave,
+
   onBeginSelection,
+
   onRemoveFeature,
   onDeselectAll,
   onSelectAll,
   onToggleShowAnswers,
-  onCancel,
+
   onBeginSaving,
   onSave,
+  onCancelSaving,
+
   onUpdate,
   onDelete,
   onCancelEditing,
-  onCancelSaving,
+
   onGroupNameChange,
   onGroupDescriptionChange,
+
+  onCancel,
+
   onRequestPanelScroll,
 }: ManualSelectionSectionProps) {
   /** Whether the Manual Selection section content is currently expanded. */
   const [isExpanded, setIsExpanded] = useState(true);
 
   /**
-   * Toggles whether the Manual Selection controls are visible.
+   * Toggles visibility of the Manual Selection controls.
    *
-   * Expanding requests that the outer Groups panel follow the newly revealed
-   * content. Collapsing preserves all workflow state without changing scroll
-   * position.
+   * Expanding requests that the containing Groups panel follow the newly
+   * revealed content. Collapsing preserves the complete manual-selection
+   * workflow without changing the panel's scroll position.
    */
-  function toggleExpanded(): void {
+  function toggleManualSelectionExpanded(): void {
     setIsExpanded((wasExpanded) => {
       const willExpand = !wasExpanded;
 
@@ -171,21 +183,20 @@ export default function ManualSelectionSection({
     <section className="pt-4">
       {/* Section heading and collapse control */}
       <div
-        className={
-          isExpanded
-            ? "mb-2 flex items-center justify-between"
-            : "flex items-center justify-between"
-        }
+        className={[
+          "flex items-center justify-between",
+          isExpanded ? "mb-2" : "",
+        ].join(" ")}
       >
         {/* Section title */}
-        <h3 className="text-sm font-semibold text-gray-800">
+        <h3 className="text-sm font-semibold text-text">
           Manual Selection
         </h3>
 
         {/* Expand / collapse section */}
         <button
           type="button"
-          onClick={toggleExpanded}
+          onClick={toggleManualSelectionExpanded}
           title={
             isExpanded
               ? "Collapse Manual Selection"
@@ -197,7 +208,7 @@ export default function ManualSelectionSection({
               : "Expand Manual Selection"
           }
           aria-expanded={isExpanded}
-          className="flex h-6 w-6 items-center justify-center rounded-md text-gray-500 transition hover:bg-gray-300 hover:text-gray-900"
+          className="flex h-6 w-6 items-center justify-center rounded-md text-text-secondary transition hover:bg-background-3 hover:text-text"
         >
           {/* Chevron icon */}
           <svg
@@ -207,7 +218,6 @@ export default function ManualSelectionSection({
             strokeWidth="2"
             className={[
               "h-4 w-4 transition-transform duration-200",
-
               isExpanded ? "rotate-180" : "",
             ].join(" ")}
             aria-hidden="true"
@@ -228,7 +238,7 @@ export default function ManualSelectionSection({
             /* Inactive manual-selection state */
             <>
               {/* Manual-selection explanation */}
-              <p className="text-xs leading-relaxed text-gray-500">
+              <p className="text-xs leading-relaxed text-text-secondary">
                 Create a custom group by selecting individual
                 geographic features on the map.
               </p>
@@ -237,7 +247,7 @@ export default function ManualSelectionSection({
               <button
                 type="button"
                 onClick={onBeginSelection}
-                className="mt-3 w-full rounded-lg bg-gray-900 px-3 py-2 text-sm font-semibold text-white transition hover:bg-gray-700"
+                className="mt-3 w-full rounded-lg bg-button px-3 py-2 text-sm font-semibold text-button-text transition hover:bg-selected-control-hover"
               >
                 Select Features
               </button>
@@ -262,11 +272,11 @@ export default function ManualSelectionSection({
               <ManualGroupActions
                 canSave={canSave}
                 canUpdate={canUpdate}
+                canConfirmSave={canConfirmSave}
                 isSavingGroup={isSavingGroup}
                 isEditingGroup={isEditingGroup}
                 groupName={groupName}
                 groupDescription={groupDescription}
-                canConfirmSave={canConfirmSave}
                 onBeginSaving={onBeginSaving}
                 onSave={onSave}
                 onUpdate={onUpdate}

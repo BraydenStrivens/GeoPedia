@@ -47,7 +47,7 @@
     },
     {
       "id": "1732747",
-      "name": "Pelentong",
+      "name": "Plentong",
       "latitude": 1.5243,
       "longitude": 103.824,
       "population": 583640,
@@ -56,7 +56,8 @@
     },
     {
       "id": "1734759",
-      "name": "Malacca",
+      "name": "Malacca City",
+      "nativeName": "Bandaraya Melaka",
       "latitude": 2.196,
       "longitude": 102.2405,
       "population": 579000,
@@ -101,7 +102,7 @@
     },
     {
       "id": "7795834",
-      "name": "Selayang Baru Utara",
+      "name": "Selayang",
       "latitude": 3.2549,
       "longitude": 101.6668,
       "population": 542409,
@@ -119,7 +120,7 @@
     },
     {
       "id": "12750654",
-      "name": "Mukim Pulai",
+      "name": "Skudai",
       "latitude": 1.53333,
       "longitude": 103.66667,
       "population": 505661,
@@ -165,6 +166,7 @@
     {
       "id": "1762110",
       "name": "Kampung Kangkar Teberau",
+      "nativeName": "Tebrau",
       "latitude": 1.532,
       "longitude": 103.7549,
       "population": 412373,
@@ -344,7 +346,7 @@
     },
     {
       "id": "1732676",
-      "name": "Kuala Kubu Baharu",
+      "name": "Kuala Kubu Bharu",
       "latitude": 3.5638,
       "longitude": 101.6581,
       "population": 194387,
@@ -417,6 +419,7 @@
     {
       "id": "1735093",
       "name": "Tasek Glugor",
+      "nativeName": "Tasek Gelugor",
       "latitude": 5.48032,
       "longitude": 100.49849,
       "population": 135786,
@@ -515,7 +518,8 @@
     },
     {
       "id": "1733782",
-      "name": "Labuan",
+      "name": "Victoria",
+      "nativeName": "Bandar Victoria",
       "latitude": 5.28028,
       "longitude": 115.2475,
       "population": 95120,
@@ -561,6 +565,7 @@
     {
       "id": "1732680",
       "name": "Parit Sulung",
+      "nativeName": "Parit Sulong",
       "latitude": 1.976,
       "longitude": 102.8835,
       "population": 82399,
@@ -704,7 +709,7 @@
     },
     {
       "id": "1735022",
-      "name": "Temerluh",
+      "name": "Temerloh",
       "latitude": 3.4506,
       "longitude": 102.4176,
       "population": 59916,
@@ -741,6 +746,7 @@
     {
       "id": "1735172",
       "name": "Hulu Langat",
+      "nativeName": "Batu 14 Hulu Langat",
       "latitude": 3.1137,
       "longitude": 101.8142,
       "population": 55251,
@@ -813,6 +819,7 @@
     {
       "id": "1735799",
       "name": "Sri Aman",
+      "nativeName": "Simanggang",
       "latitude": 1.24722,
       "longitude": 111.45278,
       "population": 47313,
@@ -831,6 +838,7 @@
     {
       "id": "1734797",
       "name": "Bangi",
+      "nativeName": "Bangi Lama",
       "latitude": 2.9,
       "longitude": 101.78333,
       "population": 45042,
@@ -875,7 +883,7 @@
     },
     {
       "id": "1732667",
-      "name": "Bentung",
+      "name": "Bentong",
       "latitude": 3.5316,
       "longitude": 101.9038,
       "population": 40373,
@@ -938,7 +946,7 @@
     },
     {
       "id": "1771287",
-      "name": "Kampung Baharu Nilai",
+      "name": "Nilai",
       "latitude": 2.8033,
       "longitude": 101.7972,
       "population": 38612,
@@ -956,7 +964,7 @@
     },
     {
       "id": "1734753",
-      "name": "Kampung Ayer Keroh",
+      "name": "Ayer Keroh",
       "latitude": 2.2654,
       "longitude": 102.2801,
       "population": 37716,
@@ -1011,6 +1019,7 @@
     {
       "id": "1734399",
       "name": "Selama",
+      "nativeName": "Selama (Perak)",
       "latitude": 5.2236,
       "longitude": 100.69262,
       "population": 34800,
@@ -1101,6 +1110,7 @@
     {
       "id": "1734114",
       "name": "Bandar Nabawan",
+      "nativeName": "Nabawan",
       "latitude": 5.0393,
       "longitude": 116.4274,
       "population": 31807,
@@ -1146,6 +1156,7 @@
     {
       "id": "1732871",
       "name": "Bakri",
+      "nativeName": "Bukit Bakri",
       "latitude": 2.0441,
       "longitude": 102.6527,
       "population": 30280,
@@ -1164,6 +1175,7 @@
     {
       "id": "1735287",
       "name": "Bidur",
+      "nativeName": "Bidor",
       "latitude": 4.11667,
       "longitude": 101.28333,
       "population": 30016,
@@ -1209,6 +1221,7 @@
     {
       "id": "1767021",
       "name": "Kampong Masjid Tanah",
+      "nativeName": "Masjid Tanah",
       "latitude": 2.35,
       "longitude": 102.11667,
       "population": 29185,
@@ -1227,6 +1240,7 @@
     {
       "id": "1737936",
       "name": "Beluru",
+      "nativeName": "Bakong",
       "latitude": 3.98333,
       "longitude": 114.1,
       "population": 28695,
@@ -1281,6 +1295,7 @@
     {
       "id": "1759378",
       "name": "Kubang Semang",
+      "nativeName": "Penanti",
       "latitude": 5.40375,
       "longitude": 100.45745,
       "population": 27194,
@@ -1335,6 +1350,7 @@
     {
       "id": "11429145",
       "name": "Bandar Puncak Alam",
+      "nativeName": "Puncak Alam",
       "latitude": 3.2389,
       "longitude": 101.42793,
       "population": 25000,
@@ -1343,7 +1359,7 @@
     },
     {
       "id": "1734793",
-      "name": "Jenjarum",
+      "name": "Jenjarom",
       "latitude": 2.8724,
       "longitude": 101.49484,
       "population": 24857,
@@ -1361,7 +1377,7 @@
     },
     {
       "id": "1734316",
-      "name": "Kertih",
+      "name": "Kerteh",
       "latitude": 4.5141,
       "longitude": 103.4483,
       "population": 24401,
@@ -1389,6 +1405,7 @@
     {
       "id": "1732706",
       "name": "Pekan Nenas",
+      "nativeName": "Pekan Nanas",
       "latitude": 1.51,
       "longitude": 103.5141,
       "population": 23292,
@@ -1398,6 +1415,7 @@
     {
       "id": "7697762",
       "name": "Bandar Tun Razak",
+      "nativeName": "Bandar Tun Abdul Razak",
       "latitude": 2.9029,
       "longitude": 102.8877,
       "population": 23247,
@@ -1524,6 +1542,7 @@
     {
       "id": "1732892",
       "name": "Batang Berjuntai",
+      "nativeName": "Bestari Jaya",
       "latitude": 3.38333,
       "longitude": 101.41667,
       "population": 20001,
@@ -1532,7 +1551,8 @@
     },
     {
       "id": "1734769",
-      "name": "Pelabuhan Klang",
+      "name": "Port Klang",
+      "nativeName": "Pelabuhan Klang",
       "latitude": 2.99959,
       "longitude": 101.39287,
       "population": 20000,
@@ -1541,7 +1561,7 @@
     },
     {
       "id": "6819209",
-      "name": "Kampung Hutan Arau",
+      "name": "Arau",
       "latitude": 6.42942,
       "longitude": 100.28174,
       "population": 20000,
@@ -1650,6 +1670,7 @@
     {
       "id": "1736284",
       "name": "Changloon",
+      "nativeName": "Changlun",
       "latitude": 6.43422,
       "longitude": 100.43133,
       "population": 18872,
@@ -1659,6 +1680,7 @@
     {
       "id": "1734444",
       "name": "Kampung Kupang",
+      "nativeName": "Kupang",
       "latitude": 5.63638,
       "longitude": 100.84517,
       "population": 18844,
@@ -1686,6 +1708,7 @@
     {
       "id": "1734464",
       "name": "Kampung Jeli",
+      "nativeName": "Jeli",
       "latitude": 5.7,
       "longitude": 101.83333,
       "population": 17734,
@@ -1713,6 +1736,7 @@
     {
       "id": "1736366",
       "name": "Wakaf Baharu",
+      "nativeName": "Wakaf Bharu",
       "latitude": 6.11667,
       "longitude": 102.2,
       "population": 17033,
@@ -1731,6 +1755,7 @@
     {
       "id": "1763412",
       "name": "Kampung Tanjung Karang",
+      "nativeName": "Tanjong Karang",
       "latitude": 3.4242,
       "longitude": 101.1849,
       "population": 16393,

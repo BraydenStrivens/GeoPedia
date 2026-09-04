@@ -1,16 +1,16 @@
 /**
- * Coordinates GeoPedia's quiz-group selection interface.
+ * Coordinates GeoPedia's feature quiz-group selection interface.
  *
  * The panel connects:
  *
- * - Full Quiz.
- * - Saved groups.
+ * - Full Quiz selection.
+ * - Saved-group activation and editing.
  * - Property-based group creation and editing.
  * - Manual feature-selection group creation and editing.
  *
  * Property-specific and manual-specific editor state is delegated to focused
- * hooks. This component retains only state and transitions shared between
- * multiple grouping workflows.
+ * hooks. This component owns panel-level presentation state and coordinates
+ * transitions between the available grouping workflows.
  */
 
 "use client";
@@ -27,8 +27,8 @@ import type {
 } from "@/quiz/groupings/feature/types";
 import type { FeatureQuiz } from "@/types/quiz";
 
-import ManualSelectionSection from "./manual/ManualSelectionSection";
 import FullQuizSection from "./sections/FullQuizSection";
+import ManualSelectionSection from "./sections/manual/ManualSelectionSection";
 import PropertyGroupsSection from "./sections/property/PropertyGroupsSection";
 import SavedGroupsSection from "./sections/SavedGroupsSection";
 import GroupMetadataFields from "./shared/GroupMetadataFields";
@@ -123,9 +123,6 @@ type FeatureQuizGroupsPanelProps = {
 
   /** Loads or unloads a saved group. */
   onToggleSavedGroup: (group: SavedQuizGroup) => void;
-
-  /** Whether grouping interactions are currently disabled. */
-  isDisabled: boolean;
 };
 
 /**
@@ -167,8 +164,6 @@ export default function FeatureQuizGroupsPanel({
   onUseFullQuiz,
   onGeoGuessrOnlyChange,
   onToggleSavedGroup,
-
-  isDisabled,
 }: FeatureQuizGroupsPanelProps) {
   /**
    * Scrollable Groups panel element.
@@ -176,7 +171,7 @@ export default function FeatureQuizGroupsPanel({
    * Used to keep newly revealed forms and editing controls visible without
    * requiring the user to manually scroll after expanding the panel.
    */
-  const panelScrollRef = useRef<HTMLDivElement>(null);
+  const groupsPanelScrollRef = useRef<HTMLDivElement>(null);
 
   /**
    * Smoothly scrolls the Groups panel to its newly expanded bottom content.
@@ -184,16 +179,16 @@ export default function FeatureQuizGroupsPanel({
    * requestAnimationFrame waits until React has committed the state change that
    * revealed the additional UI before measuring the panel's new scroll height.
    */
-  function scrollPanelToBottom(): void {
+  function scrollGroupsPanelToBottom(): void {
     requestAnimationFrame(() => {
-      const panel = panelScrollRef.current;
+      const groupsPanel = groupsPanelScrollRef.current;
 
-      if (!panel) {
+      if (!groupsPanel) {
         return;
       }
 
-      panel.scrollTo({
-        top: panel.scrollHeight,
+      groupsPanel.scrollTo({
+        top: groupsPanel.scrollHeight,
         behavior: "smooth",
       });
     });
@@ -230,6 +225,12 @@ export default function FeatureQuizGroupsPanel({
     editingGroup?.source.type === "features";
 
   /**
+   * Whether property-group controls must be unavailable because manual feature
+   * selection currently owns the grouping workflow.
+   */
+  const arePropertyGroupInteractionsBlocked = isManualSelecting;
+
+  /**
    * Whether the loaded map data provides GeoGuessr eligibility information.
    *
    * The GeoGuessr Only control is hidden completely for quizzes whose geographic
@@ -255,7 +256,6 @@ export default function FeatureQuizGroupsPanel({
     editingGroup,
     editGroupName,
     editGroupDescription,
-    isDisabled,
 
     onApplyGroup,
     onApplySavedGroup,
@@ -278,7 +278,6 @@ export default function FeatureQuizGroupsPanel({
     editingGroup,
     editGroupName,
     editGroupDescription,
-    isDisabled,
 
     onSaveGroup,
     onUpdateGroup,
@@ -299,7 +298,7 @@ export default function FeatureQuizGroupsPanel({
   /**
    * Restores Full Quiz and clears temporary property-group UI state.
    */
-  function handleUseFullQuiz(): void {
+  function useFullQuiz(): void {
     propertyEditor.clearPropertySelection();
     propertyEditor.cancelSavingPropertyGroup();
 
@@ -313,7 +312,7 @@ export default function FeatureQuizGroupsPanel({
   function beginSavingPropertyGroup(): void {
     propertyEditor.beginSavingPropertyGroup();
 
-    scrollPanelToBottom();
+    scrollGroupsPanelToBottom();
   }
 
   /**
@@ -322,7 +321,7 @@ export default function FeatureQuizGroupsPanel({
   function beginManualSelection(): void {
     onBeginManualSelection();
 
-    scrollPanelToBottom();
+    scrollGroupsPanelToBottom();
   }
 
   /**
@@ -332,7 +331,7 @@ export default function FeatureQuizGroupsPanel({
   function beginSavingManualGroup(): void {
     manualEditor.beginSavingManualGroup();
 
-    scrollPanelToBottom();
+    scrollGroupsPanelToBottom();
   }
 
   /**
@@ -340,7 +339,7 @@ export default function FeatureQuizGroupsPanel({
    *
    * @param savedGroup - Saved group selected by the user.
    */
-  function handleToggleSavedGroup(savedGroup: SavedQuizGroup): void {
+  function toggleSavedGroup(savedGroup: SavedQuizGroup): void {
     const isCurrentlyActive = activeSavedGroupId === savedGroup.id;
 
     if (isCurrentlyActive) {
@@ -430,7 +429,7 @@ export default function FeatureQuizGroupsPanel({
       onApplySavedGroup(savedGroup.source);
       onSetActiveSavedGroup(savedGroup.id);
 
-      scrollPanelToBottom();
+      scrollGroupsPanelToBottom();
 
       return;
     }
@@ -444,7 +443,7 @@ export default function FeatureQuizGroupsPanel({
     onBeginEditingManualGroup(savedGroup.source.featureIds);
     onSetActiveSavedGroup(savedGroup.id);
 
-    scrollPanelToBottom();
+    scrollGroupsPanelToBottom();
   }
 
   /**
@@ -540,7 +539,7 @@ export default function FeatureQuizGroupsPanel({
   function selectAllManualFeatures(): void {
     onSelectAllManualFeatures(manualEditor.allFeatureIds);
 
-    scrollPanelToBottom();
+    scrollGroupsPanelToBottom();
   }
 
   /**
@@ -553,19 +552,17 @@ export default function FeatureQuizGroupsPanel({
   }
 
   return (
-    <div className="max-h-[calc(100vh-9.5rem)] w-80 overflow-hidden rounded-xl bg-white/95 shadow-lg backdrop-blur-md">
+    <div className="max-h-[calc(100vh-9.5rem)] w-80 overflow-hidden rounded-xl bg-background-1/95 shadow-lg backdrop-blur-md">
       {/* Scrollable Groups panel content */}
       <div
-        ref={panelScrollRef}
+        ref={groupsPanelScrollRef}
         className="panel-scrollbar max-h-[calc(100vh-9.5rem)] overflow-y-auto overscroll-contain px-5 py-4"
       >
         {/* Panel heading */}
         <div className="mb-4">
-          <h2 className="text-base font-bold text-gray-900">
-            Groups
-          </h2>
+          <h2 className="text-base font-bold text-text">Groups</h2>
 
-          <p className="mt-1 text-xs leading-relaxed text-gray-600">
+          <p className="mt-1 text-xs leading-relaxed text-text-secondary">
             Practice part of a quiz at a time by limiting the map and
             question set to a smaller group.
           </p>
@@ -574,10 +571,9 @@ export default function FeatureQuizGroupsPanel({
         {/* Full Quiz */}
         <FullQuizSection
           isActive={activeGroup.type === "full"}
-          isDisabled={isDisabled}
           isGeoGuessrOnly={isGeoGuessrOnly}
           supportsGeoGuessrFilter={supportsGeoGuessrFilter}
-          onUseFullQuiz={handleUseFullQuiz}
+          onUseFullQuiz={useFullQuiz}
           onGeoGuessrOnlyChange={onGeoGuessrOnlyChange}
         />
 
@@ -587,15 +583,14 @@ export default function FeatureQuizGroupsPanel({
           activeSavedGroupId={activeSavedGroupId}
           editingGroupId={editingGroupId}
           openDescriptionGroupId={expandedDescriptionGroupId}
-          isDisabled={isDisabled}
-          onToggleGroup={handleToggleSavedGroup}
+          onToggleGroup={toggleSavedGroup}
           onToggleDescription={toggleSavedGroupDescription}
           onToggleEditing={toggleSavedGroupEditing}
         />
 
         {/* Shared saved-group edit metadata */}
         {editingGroup && (
-          <div className="my-4 rounded-lg border border-gray-300 bg-white p-3">
+          <div className="my-4 rounded-lg border border-border bg-background-1 p-3">
             <GroupMetadataFields
               name={editGroupName}
               description={editGroupDescription}
@@ -614,7 +609,7 @@ export default function FeatureQuizGroupsPanel({
             }
             selectedValues={propertyEditor.selectedValues}
             groupingOptions={propertyEditor.groupingOptions}
-            isDisabled={isDisabled || isManualSelecting}
+            isInteractionBlocked={arePropertyGroupInteractionsBlocked}
             isEditingGroup={isEditingPropertyGroup}
             canUpdateGroup={propertyEditor.canUpdatePropertyGroup}
             canBeginSavingGroup={
@@ -643,7 +638,7 @@ export default function FeatureQuizGroupsPanel({
             onSaveGroupDescriptionChange={
               propertyEditor.setNewPropertyGroupDescription
             }
-            onRequestPanelScroll={scrollPanelToBottom}
+            onRequestPanelScroll={scrollGroupsPanelToBottom}
           />
         ) : null}
 
@@ -680,7 +675,7 @@ export default function FeatureQuizGroupsPanel({
           onCancel={cancelManualSelection}
           onUpdate={updateEditingManualGroup}
           onDelete={deleteEditingSavedGroup}
-          onRequestPanelScroll={scrollPanelToBottom}
+          onRequestPanelScroll={scrollGroupsPanelToBottom}
         />
       </div>
     </div>

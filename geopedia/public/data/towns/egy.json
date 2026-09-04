@@ -3,6 +3,7 @@
     {
       "id": "360630",
       "name": "Cairo",
+      "nativeName": "القاهرة",
       "latitude": 30.06263,
       "longitude": 31.24967,
       "population": 9606916,
@@ -12,6 +13,7 @@
     {
       "id": "361058",
       "name": "Alexandria",
+      "nativeName": "الإسكندرية",
       "latitude": 31.20176,
       "longitude": 29.91582,
       "population": 5263542,
@@ -21,6 +23,7 @@
     {
       "id": "360995",
       "name": "Giza",
+      "nativeName": "الجيزة",
       "latitude": 30.00944,
       "longitude": 31.20861,
       "population": 4367343,
@@ -29,7 +32,8 @@
     },
     {
       "id": "349076",
-      "name": "Shubrā al Khaymah",
+      "name": "Shubra al Khayma",
+      "nativeName": "شبرا الخيمة",
       "latitude": 30.12511,
       "longitude": 31.25053,
       "population": 1240289,
@@ -39,6 +43,7 @@
     {
       "id": "358619",
       "name": "Port Said",
+      "nativeName": "بورسعيد",
       "latitude": 31.26531,
       "longitude": 32.3019,
       "population": 780515,
@@ -48,6 +53,7 @@
     {
       "id": "359796",
       "name": "Suez",
+      "nativeName": "السويس",
       "latitude": 29.97371,
       "longitude": 32.52627,
       "population": 699541,
@@ -56,7 +62,8 @@
     },
     {
       "id": "360761",
-      "name": "Al Mansurah",
+      "name": "El Mansura",
+      "nativeName": "المنصورة",
       "latitude": 31.03637,
       "longitude": 31.38069,
       "population": 621953,
@@ -65,7 +72,8 @@
     },
     {
       "id": "360829",
-      "name": "Al Maḩallah al Kubrá",
+      "name": "El Mahalla El Kubra",
+      "nativeName": "المحلة الكبرى",
       "latitude": 30.97063,
       "longitude": 31.1669,
       "population": 592573,
@@ -75,6 +83,7 @@
     {
       "id": "347497",
       "name": "Tanta",
+      "nativeName": "طنطا",
       "latitude": 30.78847,
       "longitude": 31.00192,
       "population": 576648,
@@ -83,7 +92,8 @@
     },
     {
       "id": "359783",
-      "name": "Assiut",
+      "name": "Asyut",
+      "nativeName": "أسيوط",
       "latitude": 27.18096,
       "longitude": 31.18368,
       "population": 528669,
@@ -92,7 +102,8 @@
     },
     {
       "id": "361320",
-      "name": "Al Fayyum",
+      "name": "Faiyum",
+      "nativeName": "الفيوم",
       "latitude": 29.30995,
       "longitude": 30.8418,
       "population": 519047,
@@ -102,6 +113,7 @@
     {
       "id": "355449",
       "name": "Esna",
+      "nativeName": "إسنا",
       "latitude": 25.29336,
       "longitude": 32.55402,
       "population": 462787,
@@ -111,6 +123,7 @@
     {
       "id": "359493",
       "name": "Zagazig",
+      "nativeName": "الزقازيق",
       "latitude": 30.58768,
       "longitude": 31.502,
       "population": 430445,
@@ -119,7 +132,8 @@
     },
     {
       "id": "361055",
-      "name": "Ismailia",
+      "name": "Al Ismailiyya",
+      "nativeName": "الإسماعيلية",
       "latitude": 30.60427,
       "longitude": 32.27225,
       "population": 429465,
@@ -129,6 +143,7 @@
     {
       "id": "360502",
       "name": "Luxor",
+      "nativeName": "الأقصر",
       "latitude": 25.69893,
       "longitude": 32.6421,
       "population": 422407,
@@ -137,7 +152,8 @@
     },
     {
       "id": "353802",
-      "name": "Kom Ombo",
+      "name": "Kawm Ombo",
+      "nativeName": "كوم أمبو",
       "latitude": 24.47669,
       "longitude": 32.94626,
       "population": 409311,
@@ -146,7 +162,8 @@
     },
     {
       "id": "359792",
-      "name": "Aswān",
+      "name": "Aswan",
+      "nativeName": "أسوان",
       "latitude": 24.09082,
       "longitude": 32.89942,
       "population": 379774,
@@ -156,6 +173,7 @@
     {
       "id": "358448",
       "name": "Damanhur",
+      "nativeName": "دمنهور",
       "latitude": 31.03408,
       "longitude": 30.46823,
       "population": 318207,
@@ -165,6 +183,7 @@
     {
       "id": "7799991",
       "name": "New Cairo",
+      "nativeName": "القاهرة الجديدة",
       "latitude": 30.03,
       "longitude": 31.47,
       "population": 313139,
@@ -174,6 +193,7 @@
     {
       "id": "358048",
       "name": "Damietta",
+      "nativeName": "دمياط",
       "latitude": 31.41648,
       "longitude": 31.81332,
       "population": 305920,
@@ -183,6 +203,7 @@
     {
       "id": "350203",
       "name": "Rosetta",
+      "nativeName": "رشيد",
       "latitude": 31.39951,
       "longitude": 30.41718,
       "population": 301795,
@@ -191,7 +212,8 @@
     },
     {
       "id": "360686",
-      "name": "Minya",
+      "name": "Al Minya",
+      "nativeName": "المنيا",
       "latitude": 28.09193,
       "longitude": 30.75813,
       "population": 283605,
@@ -200,7 +222,8 @@
     },
     {
       "id": "359173",
-      "name": "Banī Suwayf",
+      "name": "Beni Suef",
+      "nativeName": "بني سويف",
       "latitude": 29.07441,
       "longitude": 31.09785,
       "population": 273151,
@@ -209,7 +232,8 @@
     },
     {
       "id": "349158",
-      "name": "Shibīn al Kawm",
+      "name": "Shibin El Kawm",
+      "nativeName": "شبين الكوم",
       "latitude": 30.55258,
       "longitude": 31.00904,
       "population": 267945,
@@ -218,7 +242,8 @@
     },
     {
       "id": "347796",
-      "name": "Sohag",
+      "name": "Suhaj",
+      "nativeName": "سوهاج",
       "latitude": 26.55695,
       "longitude": 31.69478,
       "population": 266944,
@@ -227,7 +252,8 @@
     },
     {
       "id": "350550",
-      "name": "Qina",
+      "name": "Qena",
+      "nativeName": "قنا",
       "latitude": 26.16418,
       "longitude": 32.72671,
       "population": 252883,
@@ -236,7 +262,8 @@
     },
     {
       "id": "353229",
-      "name": "Al ‘Āshir min Ramaḑān",
+      "name": "10th of Ramadan City",
+      "nativeName": "مدينة العاشر من رمضان",
       "latitude": 30.29636,
       "longitude": 31.74633,
       "population": 246148,
@@ -245,7 +272,8 @@
     },
     {
       "id": "352951",
-      "name": "Mallawī",
+      "name": "Mallawi",
+      "nativeName": "ملوى",
       "latitude": 27.73264,
       "longitude": 30.84129,
       "population": 212628,
@@ -255,6 +283,7 @@
     {
       "id": "361291",
       "name": "Hurghada",
+      "nativeName": "الغردقة",
       "latitude": 27.25738,
       "longitude": 33.81291,
       "population": 207132,
@@ -263,7 +292,8 @@
     },
     {
       "id": "361546",
-      "name": "Arīsh",
+      "name": "El Arish",
+      "nativeName": "العريش",
       "latitude": 31.13159,
       "longitude": 33.79844,
       "population": 199243,
@@ -272,7 +302,8 @@
     },
     {
       "id": "354502",
-      "name": "Kafr ash Shaykh",
+      "name": "Kafr Al Sheikh",
+      "nativeName": "كفر الشيخ",
       "latitude": 31.11174,
       "longitude": 30.93991,
       "population": 194569,
@@ -282,6 +313,7 @@
     {
       "id": "358840",
       "name": "Bilbeis",
+      "nativeName": "بلبيس",
       "latitude": 30.42039,
       "longitude": 31.56223,
       "population": 185237,
@@ -290,7 +322,8 @@
     },
     {
       "id": "359280",
-      "name": "Banhā",
+      "name": "Banha",
+      "nativeName": "بنها",
       "latitude": 30.45977,
       "longitude": 31.1842,
       "population": 182254,
@@ -299,7 +332,8 @@
     },
     {
       "id": "355628",
-      "name": "Idkū",
+      "name": "Idku",
+      "nativeName": "إدكو",
       "latitude": 31.3073,
       "longitude": 30.2981,
       "population": 177152,
@@ -308,7 +342,8 @@
     },
     {
       "id": "352733",
-      "name": "Marsá Maţrūḩ",
+      "name": "Marsa Matruh",
+      "nativeName": "مرسى مطروح",
       "latitude": 31.3529,
       "longitude": 27.23725,
       "population": 176498,
@@ -318,6 +353,7 @@
     {
       "id": "350789",
       "name": "Qalyub",
+      "nativeName": "قليوب",
       "latitude": 30.17922,
       "longitude": 31.2056,
       "population": 156363,
@@ -326,7 +362,8 @@
     },
     {
       "id": "362485",
-      "name": "Abū Kabīr",
+      "name": "Abu Kabir",
+      "nativeName": "أبو كبير",
       "latitude": 30.72508,
       "longitude": 31.67148,
       "population": 154466,
@@ -335,7 +372,8 @@
     },
     {
       "id": "352181",
-      "name": "Mīt Ghamr",
+      "name": "Mit Ghamr",
+      "nativeName": "ميت غمر",
       "latitude": 30.71524,
       "longitude": 31.2592,
       "population": 153754,
@@ -344,7 +382,8 @@
     },
     {
       "id": "361661",
-      "name": "Akhmīm",
+      "name": "Akhmim",
+      "nativeName": "اخميم",
       "latitude": 26.5622,
       "longitude": 31.74566,
       "population": 151430,
@@ -353,7 +392,8 @@
     },
     {
       "id": "355026",
-      "name": "Girga",
+      "name": "Jirja",
+      "nativeName": "جرجا",
       "latitude": 26.33721,
       "longitude": 31.89295,
       "population": 151256,
@@ -362,7 +402,8 @@
     },
     {
       "id": "358108",
-      "name": "Disūq",
+      "name": "Dusuq",
+      "nativeName": "دسوق",
       "latitude": 31.13259,
       "longitude": 30.64784,
       "population": 149291,
@@ -371,7 +412,8 @@
     },
     {
       "id": "349717",
-      "name": "Samālūţ",
+      "name": "Samalut",
+      "nativeName": "سمالوط",
       "latitude": 28.31214,
       "longitude": 30.71007,
       "population": 142009,
@@ -380,7 +422,8 @@
     },
     {
       "id": "347634",
-      "name": "Ţahţā",
+      "name": "Tahta",
+      "nativeName": "طهطا",
       "latitude": 26.76866,
       "longitude": 31.50198,
       "population": 134314,
@@ -389,7 +432,8 @@
     },
     {
       "id": "347907",
-      "name": "Sinnūris",
+      "name": "Sinnuris",
+      "nativeName": "سنورس",
       "latitude": 29.41345,
       "longitude": 30.86579,
       "population": 133532,
@@ -398,7 +442,8 @@
     },
     {
       "id": "354775",
-      "name": "Kafr ad Dawwār",
+      "name": "Kafr al Dawar",
+      "nativeName": "كفر الدوار",
       "latitude": 31.13379,
       "longitude": 30.12969,
       "population": 128539,
@@ -407,7 +452,8 @@
     },
     {
       "id": "360754",
-      "name": "Al Manzalah",
+      "name": "Al Manzala",
+      "nativeName": "المنزلة",
       "latitude": 31.15823,
       "longitude": 31.936,
       "population": 127394,
@@ -416,7 +462,8 @@
     },
     {
       "id": "352354",
-      "name": "Munūf",
+      "name": "Manuf",
+      "nativeName": "منوف",
       "latitude": 30.46597,
       "longitude": 30.93199,
       "population": 125707,
@@ -425,7 +472,8 @@
     },
     {
       "id": "360048",
-      "name": "Ashmūn",
+      "name": "Ashmoun",
+      "nativeName": "أشمون",
       "latitude": 30.29735,
       "longitude": 30.97641,
       "population": 124483,
@@ -434,7 +482,8 @@
     },
     {
       "id": "359815",
-      "name": "As Sinbillāwayn",
+      "name": "El Senbellawein",
+      "nativeName": "السنبلاوين",
       "latitude": 30.88251,
       "longitude": 31.46275,
       "population": 124020,
@@ -443,7 +492,8 @@
     },
     {
       "id": "353183",
-      "name": "Maghāghah",
+      "name": "Maghagha",
+      "nativeName": "مغاغة",
       "latitude": 28.64776,
       "longitude": 30.841,
       "population": 118223,
@@ -452,7 +502,8 @@
     },
     {
       "id": "352913",
-      "name": "Manfalūţ",
+      "name": "Manfalut",
+      "nativeName": "منفلوط",
       "latitude": 27.3126,
       "longitude": 30.96987,
       "population": 117925,
@@ -461,7 +512,8 @@
     },
     {
       "id": "356989",
-      "name": "Fāqūs",
+      "name": "Faqous",
+      "nativeName": "فاقوس",
       "latitude": 30.72816,
       "longitude": 31.79697,
       "population": 116945,
@@ -470,7 +522,8 @@
     },
     {
       "id": "359212",
-      "name": "Banī Mazār",
+      "name": "Beni Mazar",
+      "nativeName": "بنى مزار",
       "latitude": 28.49456,
       "longitude": 30.80526,
       "population": 115759,
@@ -479,7 +532,8 @@
     },
     {
       "id": "361329",
-      "name": "Al Fashn",
+      "name": "Fashn",
+      "nativeName": "الفشن",
       "latitude": 28.82306,
       "longitude": 30.89903,
       "population": 112999,
@@ -488,7 +542,8 @@
     },
     {
       "id": "347591",
-      "name": "Ţalkhā",
+      "name": "Talkha",
+      "nativeName": "طلخا",
       "latitude": 31.0539,
       "longitude": 31.37787,
       "population": 112851,
@@ -497,7 +552,8 @@
     },
     {
       "id": "362973",
-      "name": "Abnūb",
+      "name": "Abnub",
+      "nativeName": "أبنوب",
       "latitude": 27.26881,
       "longitude": 31.15232,
       "population": 111785,
@@ -506,7 +562,8 @@
     },
     {
       "id": "346030",
-      "name": "Zefta",
+      "name": "Zifta",
+      "nativeName": "زفتى",
       "latitude": 30.7142,
       "longitude": 31.24425,
       "population": 111700,
@@ -515,7 +572,8 @@
     },
     {
       "id": "362004",
-      "name": "Abū Tīj",
+      "name": "Abu Tij",
+      "nativeName": "أبو تيج",
       "latitude": 27.04514,
       "longitude": 31.31845,
       "population": 105418,
@@ -524,7 +582,8 @@
     },
     {
       "id": "358269",
-      "name": "Dayrūţ",
+      "name": "Dairut",
+      "nativeName": "ديروط",
       "latitude": 27.55642,
       "longitude": 30.81057,
       "population": 102570,
@@ -533,7 +592,8 @@
     },
     {
       "id": "347296",
-      "name": "Ţimā",
+      "name": "Tima",
+      "nativeName": "طما",
       "latitude": 26.90843,
       "longitude": 31.43469,
       "population": 101130,
@@ -543,6 +603,7 @@
     {
       "id": "358172",
       "name": "Dikirnis",
+      "nativeName": "دكرنس",
       "latitude": 31.08898,
       "longitude": 31.59478,
       "population": 101082,
@@ -551,7 +612,8 @@
     },
     {
       "id": "360526",
-      "name": "Al Qūşīyah",
+      "name": "Al Qusiya",
+      "nativeName": "القوصية",
       "latitude": 27.44023,
       "longitude": 30.81712,
       "population": 99598,
@@ -560,7 +622,8 @@
     },
     {
       "id": "352352",
-      "name": "Minyā al Qamḩ",
+      "name": "Minya Al-Qamh",
+      "nativeName": "منيا القمح",
       "latitude": 30.51552,
       "longitude": 31.34629,
       "population": 99284,
@@ -569,7 +632,8 @@
     },
     {
       "id": "358870",
-      "name": "Bibā",
+      "name": "Biba",
+      "nativeName": "ببا",
       "latitude": 28.92406,
       "longitude": 30.98544,
       "population": 94677,
@@ -578,7 +642,8 @@
     },
     {
       "id": "356806",
-      "name": "Fuwwah",
+      "name": "Fuwah",
+      "nativeName": "فوة",
       "latitude": 31.20365,
       "longitude": 30.54908,
       "population": 93392,
@@ -588,6 +653,7 @@
     {
       "id": "7799998",
       "name": "El Shorouk",
+      "nativeName": "الشروق",
       "latitude": 30.13806,
       "longitude": 31.61556,
       "population": 91899,
@@ -596,7 +662,8 @@
     },
     {
       "id": "360773",
-      "name": "Al Minshāh",
+      "name": "Al-Manshah",
+      "nativeName": "المنشاة",
       "latitude": 26.4775,
       "longitude": 31.80394,
       "population": 91149,
@@ -605,7 +672,8 @@
     },
     {
       "id": "362277",
-      "name": "Abū Qurqāş",
+      "name": "Abu Qurqas",
+      "nativeName": "أبو قرقاص",
       "latitude": 27.93043,
       "longitude": 30.83826,
       "population": 90266,
@@ -614,7 +682,8 @@
     },
     {
       "id": "358726",
-      "name": "Biyalā",
+      "name": "Biala",
+      "nativeName": "بيلا",
       "latitude": 31.17419,
       "longitude": 31.2218,
       "population": 89068,
@@ -623,7 +692,8 @@
     },
     {
       "id": "350422",
-      "name": "Qūş",
+      "name": "Qus",
+      "nativeName": "قوص",
       "latitude": 25.91544,
       "longitude": 32.76287,
       "population": 84386,
@@ -632,7 +702,8 @@
     },
     {
       "id": "360615",
-      "name": "Al Qanāţir al Khayrīyah",
+      "name": "Al Qanatir al Khairiya",
+      "nativeName": "القناطر الخيرية",
       "latitude": 30.19327,
       "longitude": 31.13703,
       "population": 83568,
@@ -641,7 +712,8 @@
     },
     {
       "id": "354365",
-      "name": "Kafr az Zayyāt",
+      "name": "Kafr Al-Zaiyat",
+      "nativeName": "كفر الزيات",
       "latitude": 30.8248,
       "longitude": 30.81805,
       "population": 83348,
@@ -651,6 +723,7 @@
     {
       "id": "360923",
       "name": "Al Khārjah",
+      "nativeName": "الخارجة",
       "latitude": 25.45101,
       "longitude": 30.54653,
       "population": 83108,
@@ -659,7 +732,8 @@
     },
     {
       "id": "356000",
-      "name": "Ḩawsh ‘Īsá",
+      "name": "Hawsh Isa",
+      "nativeName": "حوش عيسى",
       "latitude": 30.9128,
       "longitude": 30.29019,
       "population": 82999,
@@ -668,7 +742,8 @@
     },
     {
       "id": "9075170",
-      "name": "Būr Fu’ād",
+      "name": "Port Fuad",
+      "nativeName": "بورفؤاد",
       "latitude": 31.24408,
       "longitude": 32.31955,
       "population": 81591,
@@ -677,7 +752,8 @@
     },
     {
       "id": "358095",
-      "name": "Diyarb Najm",
+      "name": "Diyarb Nigm",
+      "nativeName": "ديرب نجم",
       "latitude": 30.75438,
       "longitude": 31.44016,
       "population": 80954,
@@ -686,7 +762,8 @@
     },
     {
       "id": "355635",
-      "name": "Edfu",
+      "name": "Idfu",
+      "nativeName": "إدفو",
       "latitude": 24.97916,
       "longitude": 32.87722,
       "population": 79510,
@@ -695,7 +772,8 @@
     },
     {
       "id": "347883",
-      "name": "Sirs al Layyānah",
+      "name": "Sers Al Layyan",
+      "nativeName": "سرس الليان",
       "latitude": 30.4428,
       "longitude": 30.96975,
       "population": 78168,
@@ -704,7 +782,8 @@
     },
     {
       "id": "355417",
-      "name": "Ītāy al Bārūd",
+      "name": "Itay el-Barud",
+      "nativeName": "إيتاي البارود",
       "latitude": 30.88697,
       "longitude": 30.66724,
       "population": 77606,
@@ -713,7 +792,8 @@
     },
     {
       "id": "359953",
-      "name": "Ash Shuhadā’",
+      "name": "Al Shuhada",
+      "nativeName": "الشهداء",
       "latitude": 30.59683,
       "longitude": 30.89931,
       "population": 76071,
@@ -722,7 +802,8 @@
     },
     {
       "id": "352679",
-      "name": "Mashtūl as Sūq",
+      "name": "Mashtul Al-Suq",
+      "nativeName": "مشتول السوق",
       "latitude": 30.36056,
       "longitude": 31.3776,
       "population": 75837,
@@ -731,7 +812,8 @@
     },
     {
       "id": "355420",
-      "name": "Iţsā",
+      "name": "Itsa",
+      "nativeName": "أطسا",
       "latitude": 29.2376,
       "longitude": 30.78944,
       "population": 74357,
@@ -740,7 +822,8 @@
     },
     {
       "id": "349156",
-      "name": "Shibīn al Qanāţir",
+      "name": "Shebin el Qanater",
+      "nativeName": "شبين القناطر",
       "latitude": 30.31269,
       "longitude": 31.32018,
       "population": 73711,
@@ -749,7 +832,8 @@
     },
     {
       "id": "347612",
-      "name": "Talā",
+      "name": "Tala",
+      "nativeName": "تلا",
       "latitude": 30.6798,
       "longitude": 30.94364,
       "population": 72536,
@@ -758,7 +842,8 @@
     },
     {
       "id": "353223",
-      "name": "Madīnat as Sādāt",
+      "name": "Sadat City",
+      "nativeName": "السادات",
       "latitude": 30.36742,
       "longitude": 30.50871,
       "population": 71501,
@@ -767,7 +852,8 @@
     },
     {
       "id": "356933",
-      "name": "Farshūţ",
+      "name": "Farshut",
+      "nativeName": "فرشوط",
       "latitude": 26.05501,
       "longitude": 32.16274,
       "population": 71013,
@@ -776,7 +862,8 @@
     },
     {
       "id": "361301",
-      "name": "Al Ghanāyim",
+      "name": "El Ghanayem",
+      "nativeName": "الغنايم",
       "latitude": 26.87524,
       "longitude": 31.32963,
       "population": 70884,
@@ -785,7 +872,8 @@
     },
     {
       "id": "355595",
-      "name": "Ihnāsyā al Madīnah",
+      "name": "Ihnasya al Madinah",
+      "nativeName": "إهناسية المدينة",
       "latitude": 29.0895,
       "longitude": 30.94319,
       "population": 68976,
@@ -794,7 +882,8 @@
     },
     {
       "id": "361827",
-      "name": "Ad Dilinjāt",
+      "name": "Delingat",
+      "nativeName": "الدلنجات",
       "latitude": 30.82796,
       "longitude": 30.53552,
       "population": 68901,
@@ -803,7 +892,8 @@
     },
     {
       "id": "361435",
-      "name": "Al Balyanā",
+      "name": "Balyana",
+      "nativeName": "البلينا",
       "latitude": 26.23648,
       "longitude": 32.00387,
       "population": 68413,
@@ -812,7 +902,8 @@
     },
     {
       "id": "362882",
-      "name": "Abū al Maţāmīr",
+      "name": "Abu al Matamir",
+      "nativeName": "أبو المطامير",
       "latitude": 30.91018,
       "longitude": 30.17438,
       "population": 66946,
@@ -821,7 +912,8 @@
     },
     {
       "id": "350370",
-      "name": "Quwaysinā",
+      "name": "Quwaysina",
+      "nativeName": "قويسنا",
       "latitude": 30.56482,
       "longitude": 31.15777,
       "population": 65690,
@@ -830,7 +922,8 @@
     },
     {
       "id": "358115",
-      "name": "Dishnā",
+      "name": "Dishna",
+      "nativeName": "دشنا",
       "latitude": 26.12242,
       "longitude": 32.46749,
       "population": 64744,
@@ -839,7 +932,8 @@
     },
     {
       "id": "358388",
-      "name": "Darāw",
+      "name": "Daraw",
+      "nativeName": "دراو",
       "latitude": 24.40796,
       "longitude": 32.92324,
       "population": 61790,
@@ -848,7 +942,8 @@
     },
     {
       "id": "359900",
-      "name": "Aş Şaff",
+      "name": "Al Saff",
+      "nativeName": "الصف",
       "latitude": 29.56472,
       "longitude": 31.28111,
       "population": 61531,
@@ -857,7 +952,8 @@
     },
     {
       "id": "362552",
-      "name": "Abū Ḩummuş",
+      "name": "Abu Huminus",
+      "nativeName": "أبو حمص",
       "latitude": 31.09311,
       "longitude": 30.31418,
       "population": 61388,
@@ -866,7 +962,8 @@
     },
     {
       "id": "358274",
-      "name": "Dayr Mawās",
+      "name": "Deir Mawas",
+      "nativeName": "دير مواس",
       "latitude": 27.64148,
       "longitude": 30.85012,
       "population": 60835,
@@ -875,7 +972,8 @@
     },
     {
       "id": "361360",
-      "name": "Al Burj",
+      "name": "Borj Al Burullous",
+      "nativeName": "برج البرلس",
       "latitude": 31.58229,
       "longitude": 30.98095,
       "population": 60320,
@@ -884,7 +982,8 @@
     },
     {
       "id": "351434",
-      "name": "Nag Hammâdi",
+      "name": "Nag Hammadi",
+      "nativeName": "نجع حمادي",
       "latitude": 26.04949,
       "longitude": 32.24142,
       "population": 59601,
@@ -893,7 +992,8 @@
     },
     {
       "id": "433774",
-      "name": "Aş Şāliḩīyah al Jadīdah",
+      "name": "Al-Salheya Al-Gedida",
+      "nativeName": "الصالحية الجديدة",
       "latitude": 30.63146,
       "longitude": 31.93927,
       "population": 59320,
@@ -902,7 +1002,8 @@
     },
     {
       "id": "360464",
-      "name": "Al Wāsiţah",
+      "name": "Al-Wasitah",
+      "nativeName": "الواسطة",
       "latitude": 29.33778,
       "longitude": 31.20556,
       "population": 57870,
@@ -911,7 +1012,8 @@
     },
     {
       "id": "361478",
-      "name": "Al Badārī",
+      "name": "Al Badari",
+      "nativeName": "البدارى",
       "latitude": 26.99306,
       "longitude": 31.41605,
       "population": 56033,
@@ -920,7 +1022,8 @@
     },
     {
       "id": "353828",
-      "name": "Kawm Ḩamādah",
+      "name": "Kom Hamada",
+      "nativeName": "كوم حمادة",
       "latitude": 30.76128,
       "longitude": 30.69972,
       "population": 55652,
@@ -929,7 +1032,8 @@
     },
     {
       "id": "421251",
-      "name": "Dumyāţ al Jadīdah",
+      "name": "New Damietta",
+      "nativeName": "دمياط الجديدة",
       "latitude": 31.43482,
       "longitude": 31.67506,
       "population": 54508,
@@ -938,7 +1042,8 @@
     },
     {
       "id": "359892",
-      "name": "As Sāḩil",
+      "name": "Sahel Silim",
+      "nativeName": "ساحل سليم",
       "latitude": 27.06309,
       "longitude": 31.34425,
       "population": 54094,
@@ -947,7 +1052,8 @@
     },
     {
       "id": "360748",
-      "name": "Al Marāghah",
+      "name": "Maragha",
+      "nativeName": "المراغة",
       "latitude": 26.69981,
       "longitude": 31.60464,
       "population": 53643,
@@ -957,6 +1063,7 @@
     {
       "id": "358620",
       "name": "Safaga",
+      "nativeName": "سفاجا",
       "latitude": 26.74906,
       "longitude": 33.93891,
       "population": 53639,
@@ -965,7 +1072,8 @@
     },
     {
       "id": "347236",
-      "name": "Ţūkh",
+      "name": "Tukh",
+      "nativeName": "طوخ",
       "latitude": 30.35487,
       "longitude": 31.20105,
       "population": 52593,
@@ -975,6 +1083,7 @@
     {
       "id": "361702",
       "name": "Aga",
+      "nativeName": "اجا",
       "latitude": 30.94162,
       "longitude": 31.29039,
       "population": 47013,
@@ -983,7 +1092,8 @@
     },
     {
       "id": "361495",
-      "name": "Al ‘Ayyāţ",
+      "name": "Al Ayyat",
+      "nativeName": "العياط",
       "latitude": 29.61972,
       "longitude": 31.2575,
       "population": 45793,
@@ -992,7 +1102,8 @@
     },
     {
       "id": "350207",
-      "name": "Ras Gharib",
+      "name": "Gharib Cape",
+      "nativeName": "رأس غارب",
       "latitude": 28.35831,
       "longitude": 33.07829,
       "population": 44852,
@@ -1001,7 +1112,8 @@
     },
     {
       "id": "348112",
-      "name": "Sīdī Sālim",
+      "name": "Sidi Salim",
+      "nativeName": "سيدى سالم",
       "latitude": 31.27133,
       "longitude": 30.78617,
       "population": 44709,
@@ -1010,7 +1122,8 @@
     },
     {
       "id": "354105",
-      "name": "Kafr Şaqr",
+      "name": "Kafr Saqr",
+      "nativeName": "كفر صقر",
       "latitude": 30.79336,
       "longitude": 31.62575,
       "population": 44529,
@@ -1019,7 +1132,8 @@
     },
     {
       "id": "360150",
-      "name": "Ar Raḩmānīyah",
+      "name": "El Rahmaniya",
+      "nativeName": "الرحمانية",
       "latitude": 31.10483,
       "longitude": 30.64135,
       "population": 44482,
@@ -1028,7 +1142,8 @@
     },
     {
       "id": "351748",
-      "name": "Muţūbas",
+      "name": "Metoubes",
+      "nativeName": "مطوبس",
       "latitude": 31.29443,
       "longitude": 30.52248,
       "population": 43899,
@@ -1037,7 +1152,8 @@
     },
     {
       "id": "349058",
-      "name": "Shubrākhīt",
+      "name": "Shubra Khit",
+      "nativeName": "شبراخيت",
       "latitude": 31.02795,
       "longitude": 30.71493,
       "population": 41233,
@@ -1046,7 +1162,8 @@
     },
     {
       "id": "434170",
-      "name": "Madīnat Wādī an Naţrūn",
+      "name": "El Natrun Valley",
+      "nativeName": "وادي النطرون",
       "latitude": 30.37746,
       "longitude": 30.35032,
       "population": 41186,
@@ -1055,7 +1172,8 @@
     },
     {
       "id": "349340",
-      "name": "Sharm el-Sheikh",
+      "name": "Sharm El Sheikh",
+      "nativeName": "شرم الشيخ",
       "latitude": 27.91582,
       "longitude": 34.32995,
       "population": 38478,
@@ -1064,7 +1182,8 @@
     },
     {
       "id": "359678",
-      "name": "El-Tor",
+      "name": "At Tur",
+      "nativeName": "الطور",
       "latitude": 28.24168,
       "longitude": 33.6222,
       "population": 38285,
@@ -1073,7 +1192,8 @@
     },
     {
       "id": "362288",
-      "name": "Abū Qīr",
+      "name": "Abu Qir",
+      "nativeName": "أبو قير",
       "latitude": 31.31104,
       "longitude": 30.06121,
       "population": 37997,
@@ -1081,188 +1201,209 @@
       "isCapital": false
     },
     {
-      "id": "355392",
-      "name": "‘Izbat al Burj",
-      "latitude": 31.5084,
-      "longitude": 31.84106,
-      "population": 37953,
+      "id": "350831",
+      "name": "Qaha",
+      "nativeName": "قها",
+      "latitude": 30.28011,
+      "longitude": 31.20531,
+      "population": 36225,
       "populationRank": 121,
       "isCapital": false
     },
     {
-      "id": "350831",
-      "name": "Qahā",
-      "latitude": 30.28011,
-      "longitude": 31.20531,
-      "population": 36225,
-      "populationRank": 122,
-      "isCapital": false
-    },
-    {
       "id": "360819",
-      "name": "Al Maḩmūdīyah",
+      "name": "Al-Mahmudiya",
+      "nativeName": "المحمودية",
       "latitude": 31.18352,
       "longitude": 30.52448,
       "population": 34660,
-      "populationRank": 123,
+      "populationRank": 122,
       "isCapital": false
     },
     {
       "id": "415561",
       "name": "Badr",
+      "nativeName": "بدر",
       "latitude": 30.136,
       "longitude": 31.715,
       "population": 32940,
-      "populationRank": 124,
+      "populationRank": 123,
       "isCapital": false
     },
     {
       "id": "433441",
-      "name": "Banī Suwayf al Jadīdah",
+      "name": "New Bani Sweif",
+      "nativeName": "بني سويف الجديدة",
       "latitude": 29.033,
       "longitude": 31.11408,
       "population": 32278,
-      "populationRank": 125,
+      "populationRank": 124,
       "isCapital": false
     },
     {
       "id": "360610",
-      "name": "Al Qanţarah",
+      "name": "Qantara West",
+      "nativeName": "القنطرة غرب",
       "latitude": 30.85711,
       "longitude": 32.31183,
       "population": 31808,
-      "populationRank": 126,
+      "populationRank": 125,
       "isCapital": false
     },
     {
       "id": "348962",
-      "name": "Şidfā",
+      "name": "Sidfa",
+      "nativeName": "صدفا",
       "latitude": 26.96637,
       "longitude": 31.37953,
       "population": 30228,
-      "populationRank": 127,
+      "populationRank": 126,
       "isCapital": false
     },
     {
       "id": "361871",
-      "name": "El Dabaa",
+      "name": "Ad Daba‘a",
+      "nativeName": "الضبعة",
       "latitude": 31.02819,
       "longitude": 28.44498,
       "population": 27697,
-      "populationRank": 128,
+      "populationRank": 127,
       "isCapital": false
     },
     {
       "id": "351766",
-      "name": "Mūţ",
+      "name": "Mut",
+      "nativeName": "موط",
       "latitude": 25.48742,
       "longitude": 28.97918,
       "population": 26820,
-      "populationRank": 129,
+      "populationRank": 128,
       "isCapital": false
     },
     {
       "id": "353471",
-      "name": "Ash Shaykh Zuwayd",
+      "name": "Ash Sheikh Zuwayyed",
+      "nativeName": "الشيخ زويد",
       "latitude": 31.2163,
       "longitude": 34.11074,
       "population": 26713,
-      "populationRank": 130,
+      "populationRank": 129,
       "isCapital": false
     },
     {
       "id": "410142",
-      "name": "Bi’r al ‘Abd",
+      "name": "Bir al-Abd",
+      "nativeName": "بئر العبد",
       "latitude": 31.01887,
       "longitude": 33.0098,
       "population": 26330,
-      "populationRank": 131,
+      "populationRank": 130,
       "isCapital": false
     },
     {
       "id": "347863",
-      "name": "Sīwah",
+      "name": "Siwa Oasis",
+      "nativeName": "واحة سيوة",
       "latitude": 29.2032,
       "longitude": 25.51965,
       "population": 25031,
-      "populationRank": 132,
+      "populationRank": 131,
       "isCapital": false
     },
     {
       "id": "360531",
-      "name": "Al Quşayr",
+      "name": "El Quseir",
+      "nativeName": "القصير",
       "latitude": 26.10611,
       "longitude": 34.27716,
       "population": 24653,
-      "populationRank": 133,
+      "populationRank": 132,
       "isCapital": false
     },
     {
       "id": "350560",
-      "name": "Qifţ",
+      "name": "Qift",
+      "nativeName": "قفـط",
       "latitude": 25.99845,
       "longitude": 32.81808,
       "population": 24010,
-      "populationRank": 134,
+      "populationRank": 133,
       "isCapital": false
     },
     {
       "id": "408919",
-      "name": "An Nūbārīyah",
+      "name": "Al Nubaria",
+      "nativeName": "النوبارية الجديدة",
       "latitude": 30.6687,
       "longitude": 30.07391,
       "population": 23282,
-      "populationRank": 135,
+      "populationRank": 134,
       "isCapital": false
     },
     {
       "id": "358631",
-      "name": "Burj al ‘Arab",
+      "name": "Borj El Arab",
+      "nativeName": "برج العرب",
       "latitude": 30.90316,
       "longitude": 29.55276,
       "population": 22444,
-      "populationRank": 136,
+      "populationRank": 135,
       "isCapital": false
     },
     {
       "id": "12640359",
-      "name": "Al-Minyā al-Jadīdah",
+      "name": "New Al Minya",
+      "nativeName": "المنيا الجديدة",
       "latitude": 28.08639,
       "longitude": 30.81464,
       "population": 17470,
-      "populationRank": 137,
+      "populationRank": 136,
       "isCapital": false
     },
     {
       "id": "359867",
-      "name": "As Sallūm",
+      "name": "As Sallum",
+      "nativeName": "السلوم",
       "latitude": 31.55371,
       "longitude": 25.15793,
       "population": 16545,
-      "populationRank": 138,
+      "populationRank": 137,
       "isCapital": false
     },
     {
       "id": "361394",
-      "name": "Al Bawīţī",
+      "name": "Bawiti",
+      "nativeName": "الباويطى",
       "latitude": 28.34827,
       "longitude": 28.86936,
       "population": 15653,
-      "populationRank": 139,
+      "populationRank": 138,
       "isCapital": false
     },
     {
       "id": "6692512",
       "name": "El Gouna",
+      "nativeName": "الجونة",
       "latitude": 27.39417,
       "longitude": 33.67825,
       "population": 15000,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "350211",
+      "name": "Al Bar Cape",
+      "nativeName": "رأس البر",
+      "latitude": 31.51027,
+      "longitude": 31.82851,
+      "population": 10213,
       "populationRank": 140,
       "isCapital": false
     },
     {
       "id": "352736",
       "name": "Marsa Alam",
+      "nativeName": "مرسى علم",
       "latitude": 25.06305,
       "longitude": 34.89005,
       "population": 10000,
@@ -1272,6 +1413,7 @@
     {
       "id": "358245",
       "name": "Dahab",
+      "nativeName": "دهب",
       "latitude": 28.48208,
       "longitude": 34.49505,
       "population": 8000,
@@ -1280,7 +1422,8 @@
     },
     {
       "id": "361612",
-      "name": "Al ‘Alamayn",
+      "name": "El Alamein",
+      "nativeName": "العلمين",
       "latitude": 30.83007,
       "longitude": 28.95502,
       "population": 7400,
@@ -1289,7 +1432,8 @@
     },
     {
       "id": "350893",
-      "name": "Nuwaybi‘a",
+      "name": "Nueiba",
+      "nativeName": "نويبع",
       "latitude": 29.04681,
       "longitude": 34.6634,
       "population": 5000,
@@ -1299,6 +1443,7 @@
     {
       "id": "8521413",
       "name": "Saint Catherine",
+      "nativeName": "القديسة كاترين",
       "latitude": 28.56191,
       "longitude": 33.94934,
       "population": 4603,
@@ -1308,6 +1453,7 @@
     {
       "id": "347702",
       "name": "Taba",
+      "nativeName": "طابا",
       "latitude": 29.49199,
       "longitude": 34.89572,
       "population": 700,

@@ -3,6 +3,7 @@
     {
       "id": "1172451",
       "name": "Lahore",
+      "nativeName": "لاہور",
       "latitude": 31.558,
       "longitude": 74.35071,
       "population": 13004135,
@@ -12,6 +13,7 @@
     {
       "id": "1174872",
       "name": "Karachi",
+      "nativeName": "کراچی",
       "latitude": 24.8608,
       "longitude": 67.0104,
       "population": 11624219,
@@ -21,6 +23,7 @@
     {
       "id": "1168197",
       "name": "Peshawar",
+      "nativeName": "پيښور",
       "latitude": 34.008,
       "longitude": 71.57849,
       "population": 4758762,
@@ -30,6 +33,7 @@
     {
       "id": "1179400",
       "name": "Faisalabad",
+      "nativeName": "فیصل آباد",
       "latitude": 31.41554,
       "longitude": 73.08969,
       "population": 3800193,
@@ -39,6 +43,7 @@
     {
       "id": "1166993",
       "name": "Rawalpindi",
+      "nativeName": "راولپنڈی",
       "latitude": 33.59733,
       "longitude": 73.0479,
       "population": 3357612,
@@ -48,6 +53,7 @@
     {
       "id": "1177662",
       "name": "Gujranwala",
+      "nativeName": "گوجرانوالہ",
       "latitude": 32.15567,
       "longitude": 74.18705,
       "population": 2511118,
@@ -57,6 +63,7 @@
     {
       "id": "1169825",
       "name": "Multan",
+      "nativeName": "ملتان",
       "latitude": 30.19679,
       "longitude": 71.47824,
       "population": 2169915,
@@ -66,6 +73,7 @@
     {
       "id": "1176734",
       "name": "Hyderabad",
+      "nativeName": "حیدرآباد",
       "latitude": 25.39689,
       "longitude": 68.37718,
       "population": 1921275,
@@ -75,6 +83,7 @@
     {
       "id": "1167528",
       "name": "Quetta",
+      "nativeName": "کوئٹہ",
       "latitude": 30.18414,
       "longitude": 67.00141,
       "population": 1565546,
@@ -84,6 +93,7 @@
     {
       "id": "1183460",
       "name": "Bannu",
+      "nativeName": "بنوں",
       "latitude": 32.98527,
       "longitude": 70.60403,
       "population": 1357890,
@@ -93,6 +103,7 @@
     {
       "id": "1166000",
       "name": "Sargodha",
+      "nativeName": "سرگودھا",
       "latitude": 32.08586,
       "longitude": 72.67418,
       "population": 975886,
@@ -102,6 +113,7 @@
     {
       "id": "1164909",
       "name": "Sialkot",
+      "nativeName": "سیالکوٹ",
       "latitude": 32.49268,
       "longitude": 74.53134,
       "population": 911817,
@@ -111,6 +123,7 @@
     {
       "id": "1183880",
       "name": "Bahawalpur",
+      "nativeName": "بہاولپور",
       "latitude": 29.39779,
       "longitude": 71.6752,
       "population": 903795,
@@ -120,6 +133,7 @@
     {
       "id": "1184370",
       "name": "Arifwala",
+      "nativeName": "عارف والہ",
       "latitude": 30.29058,
       "longitude": 73.06574,
       "population": 854462,
@@ -129,6 +143,7 @@
     {
       "id": "1180281",
       "name": "Dera Ismail Khan",
+      "nativeName": "ڈیره اسماعیل خان",
       "latitude": 31.83129,
       "longitude": 70.9017,
       "population": 763195,
@@ -137,7 +152,8 @@
     },
     {
       "id": "1169607",
-      "name": "Muzaffarābād",
+      "name": "Muzaffarabad",
+      "nativeName": "مظفر آباد",
       "latitude": 34.37002,
       "longitude": 73.47082,
       "population": 725000,
@@ -147,6 +163,7 @@
     {
       "id": "1183105",
       "name": "Battagram",
+      "nativeName": "بٹگرام",
       "latitude": 34.67719,
       "longitude": 73.02329,
       "population": 700000,
@@ -156,6 +173,7 @@
     {
       "id": "1180942",
       "name": "Chunian",
+      "nativeName": "چونیاں",
       "latitude": 30.96621,
       "longitude": 73.97908,
       "population": 634236,
@@ -164,7 +182,8 @@
     },
     {
       "id": "1175892",
-      "name": "Jhang Sadr",
+      "name": "Jhang",
+      "nativeName": "جھنگ",
       "latitude": 31.26981,
       "longitude": 72.31687,
       "population": 606533,
@@ -174,6 +193,7 @@
     {
       "id": "1176615",
       "name": "Islamabad",
+      "nativeName": "اسلام آباد",
       "latitude": 33.72148,
       "longitude": 73.04329,
       "population": 601600,
@@ -182,7 +202,8 @@
     },
     {
       "id": "1165221",
-      "name": "Shekhupura",
+      "name": "Sheikhupura",
+      "nativeName": "شیخوپورہ",
       "latitude": 31.71287,
       "longitude": 73.98556,
       "population": 591424,
@@ -192,6 +213,7 @@
     {
       "id": "1177654",
       "name": "Gujrat",
+      "nativeName": "گجرات",
       "latitude": 32.5742,
       "longitude": 74.07542,
       "population": 574240,
@@ -201,6 +223,7 @@
     {
       "id": "1164408",
       "name": "Sukkur",
+      "nativeName": "سکھر",
       "latitude": 27.70323,
       "longitude": 68.85889,
       "population": 563851,
@@ -210,6 +233,7 @@
     {
       "id": "1166547",
       "name": "Sahiwal",
+      "nativeName": "ساہیوال",
       "latitude": 31.97386,
       "longitude": 72.33109,
       "population": 538344,
@@ -219,6 +243,7 @@
     {
       "id": "1166548",
       "name": "Sahiwal",
+      "nativeName": "ساہِيوال",
       "latitude": 30.66595,
       "longitude": 73.10186,
       "population": 538344,
@@ -228,6 +253,7 @@
     {
       "id": "1168718",
       "name": "Okara",
+      "nativeName": "اوکاڑہ",
       "latitude": 30.81029,
       "longitude": 73.45155,
       "population": 533693,
@@ -237,6 +263,7 @@
     {
       "id": "1167460",
       "name": "Rahim Yar Khan",
+      "nativeName": "رحیم یار خان",
       "latitude": 28.41987,
       "longitude": 70.30345,
       "population": 517000,
@@ -246,6 +273,7 @@
     {
       "id": "1174625",
       "name": "Kasur",
+      "nativeName": "قصور",
       "latitude": 31.11866,
       "longitude": 74.45025,
       "population": 510875,
@@ -255,6 +283,7 @@
     {
       "id": "1176358",
       "name": "Jalalpur Pirwala",
+      "nativeName": "جلال پور پیروالہ",
       "latitude": 29.5051,
       "longitude": 71.22202,
       "population": 500000,
@@ -264,6 +293,7 @@
     {
       "id": "1180289",
       "name": "Dera Ghazi Khan",
+      "nativeName": "ڈیرہ غازی خان",
       "latitude": 30.04587,
       "longitude": 70.64029,
       "population": 494464,
@@ -273,6 +303,7 @@
     {
       "id": "1168021",
       "name": "Pindi Bhattian",
+      "nativeName": "پنڈی بھٹیاں",
       "latitude": 31.89844,
       "longitude": 73.27339,
       "population": 493222,
@@ -282,6 +313,7 @@
     {
       "id": "1163964",
       "name": "Tando Bago",
+      "nativeName": "ٹنڈو باگو",
       "latitude": 24.78914,
       "longitude": 68.96535,
       "population": 426535,
@@ -291,6 +323,7 @@
     {
       "id": "1163965",
       "name": "Tando Allahyar",
+      "nativeName": "ٹنڈو الہ یار",
       "latitude": 25.4605,
       "longitude": 68.71745,
       "population": 421923,
@@ -300,6 +333,7 @@
     {
       "id": "1175748",
       "name": "Chak Jhumra",
+      "nativeName": "چک جُھمرہ",
       "latitude": 31.56808,
       "longitude": 73.18317,
       "population": 385169,
@@ -309,6 +343,7 @@
     {
       "id": "1182682",
       "name": "Bhawana",
+      "nativeName": "بھوانہ",
       "latitude": 31.56884,
       "longitude": 72.64917,
       "population": 373841,
@@ -318,6 +353,7 @@
     {
       "id": "1172128",
       "name": "Larkana",
+      "nativeName": "لاڑکانہ",
       "latitude": 27.55898,
       "longitude": 68.21204,
       "population": 364033,
@@ -327,6 +363,7 @@
     {
       "id": "1169116",
       "name": "Nawabshah",
+      "nativeName": "نوابشاہ",
       "latitude": 26.23939,
       "longitude": 68.40369,
       "population": 363138,
@@ -336,6 +373,7 @@
     {
       "id": "1182092",
       "name": "Burewala",
+      "nativeName": "بورے والا",
       "latitude": 30.16667,
       "longitude": 72.65,
       "population": 361664,
@@ -345,6 +383,7 @@
     {
       "id": "1170395",
       "name": "Mingora",
+      "nativeName": "مینگورہ‎",
       "latitude": 34.7795,
       "longitude": 72.36265,
       "population": 361112,
@@ -354,6 +393,7 @@
     {
       "id": "1164776",
       "name": "Sinjhoro",
+      "nativeName": "سنجھورو",
       "latitude": 26.03008,
       "longitude": 68.80867,
       "population": 354709,
@@ -363,6 +403,7 @@
     {
       "id": "1177384",
       "name": "Hafizabad",
+      "nativeName": "حافظ آباد",
       "latitude": 32.07095,
       "longitude": 73.68802,
       "population": 318621,
@@ -372,6 +413,7 @@
     {
       "id": "1181096",
       "name": "Chiniot",
+      "nativeName": "چنیوٹ",
       "latitude": 31.72091,
       "longitude": 72.97836,
       "population": 318165,
@@ -381,6 +423,7 @@
     {
       "id": "1170880",
       "name": "Mardan",
+      "nativeName": "مردان",
       "latitude": 34.19794,
       "longitude": 72.04965,
       "population": 300424,
@@ -390,6 +433,7 @@
     {
       "id": "1175088",
       "name": "Kamoke",
+      "nativeName": "کامونکے",
       "latitude": 31.97526,
       "longitude": 74.22304,
       "population": 292023,
@@ -399,6 +443,7 @@
     {
       "id": "1185056",
       "name": "Abbottabad",
+      "nativeName": "ایبٹ آباد",
       "latitude": 34.1463,
       "longitude": 73.21168,
       "population": 275890,
@@ -407,7 +452,8 @@
     },
     {
       "id": "1166652",
-      "name": "Saddiqabad",
+      "name": "Sadiqabad",
+      "nativeName": "صادق آباد",
       "latitude": 28.3091,
       "longitude": 70.12652,
       "population": 274210,
@@ -417,6 +463,7 @@
     {
       "id": "1170295",
       "name": "Mirpur Khas",
+      "nativeName": "میرپور خاص",
       "latitude": 25.5276,
       "longitude": 69.01255,
       "population": 267833,
@@ -426,6 +473,7 @@
     {
       "id": "1164709",
       "name": "Skardu",
+      "nativeName": "سکردو",
       "latitude": 35.29787,
       "longitude": 75.63372,
       "population": 260000,
@@ -435,6 +483,7 @@
     {
       "id": "1169692",
       "name": "Muridke",
+      "nativeName": "مریدکے",
       "latitude": 31.80258,
       "longitude": 74.25772,
       "population": 254291,
@@ -444,6 +493,7 @@
     {
       "id": "1165569",
       "name": "Shahkot",
+      "nativeName": "شاہ کوٹ",
       "latitude": 31.5709,
       "longitude": 73.48531,
       "population": 244868,
@@ -453,6 +503,7 @@
     {
       "id": "1183883",
       "name": "Bahawalnagar",
+      "nativeName": "بہاولنگر",
       "latitude": 29.99835,
       "longitude": 73.25272,
       "population": 241873,
@@ -462,6 +513,7 @@
     {
       "id": "1172657",
       "name": "Kunri",
+      "nativeName": "کنری",
       "latitude": 25.17874,
       "longitude": 69.56572,
       "population": 237063,
@@ -471,6 +523,7 @@
     {
       "id": "1169605",
       "name": "Muzaffargarh",
+      "nativeName": "مظفر گڑھ",
       "latitude": 30.07258,
       "longitude": 71.19379,
       "population": 235541,
@@ -480,6 +533,7 @@
     {
       "id": "1179837",
       "name": "Digri",
+      "nativeName": "ڈھگڑی",
       "latitude": 25.15657,
       "longitude": 69.11098,
       "population": 234578,
@@ -489,6 +543,7 @@
     {
       "id": "1176515",
       "name": "Jacobabad",
+      "nativeName": "جیکب آباد",
       "latitude": 28.28187,
       "longitude": 68.43761,
       "population": 219315,
@@ -498,6 +553,7 @@
     {
       "id": "1173664",
       "name": "Khuzdar",
+      "nativeName": "خضدار",
       "latitude": 27.81193,
       "longitude": 66.61096,
       "population": 218112,
@@ -507,6 +563,7 @@
     {
       "id": "1178338",
       "name": "Gilgit",
+      "nativeName": "گلگت",
       "latitude": 35.91869,
       "longitude": 74.31245,
       "population": 216760,
@@ -516,6 +573,7 @@
     {
       "id": "1178231",
       "name": "Gojra",
+      "nativeName": "گوجرہ",
       "latitude": 31.14926,
       "longitude": 72.68323,
       "population": 214000,
@@ -525,6 +583,7 @@
     {
       "id": "1165108",
       "name": "Shikarpur",
+      "nativeName": "شکارپور",
       "latitude": 27.95558,
       "longitude": 68.63823,
       "population": 204938,
@@ -534,6 +593,7 @@
     {
       "id": "1180809",
       "name": "Dadu",
+      "nativeName": "دادو",
       "latitude": 26.73033,
       "longitude": 67.7769,
       "population": 201017,
@@ -543,6 +603,7 @@
     {
       "id": "1164045",
       "name": "Talhar",
+      "nativeName": "تلہار",
       "latitude": 24.88454,
       "longitude": 68.81437,
       "population": 200014,
@@ -552,6 +613,7 @@
     {
       "id": "1167648",
       "name": "Qadirpur Ran",
+      "nativeName": "قادر پوراں",
       "latitude": 30.29184,
       "longitude": 71.67164,
       "population": 200000,
@@ -560,7 +622,8 @@
     },
     {
       "id": "1184845",
-      "name": "Ahmadpur East",
+      "name": "Ahmedpur East",
+      "nativeName": "احمد پور شرقیہ",
       "latitude": 29.14269,
       "longitude": 71.25771,
       "population": 196718,
@@ -570,6 +633,7 @@
     {
       "id": "12524485",
       "name": "Hub",
+      "nativeName": "حب",
       "latitude": 25.02555,
       "longitude": 66.88534,
       "population": 195661,
@@ -579,6 +643,7 @@
     {
       "id": "8986037",
       "name": "Dhirkot",
+      "nativeName": "دھیر کوٹ",
       "latitude": 34.03917,
       "longitude": 73.57694,
       "population": 195000,
@@ -588,6 +653,7 @@
     {
       "id": "1174376",
       "name": "Garhi Khairo",
+      "nativeName": "گڑھی خیرو",
       "latitude": 28.05717,
       "longitude": 67.97898,
       "population": 193297,
@@ -596,7 +662,8 @@
     },
     {
       "id": "1162004",
-      "name": "Khairpur Mir’s",
+      "name": "Khairpur",
+      "nativeName": "خیرپور",
       "latitude": 27.52948,
       "longitude": 68.75915,
       "population": 191044,
@@ -606,6 +673,7 @@
     {
       "id": "1175864",
       "name": "Jhelum",
+      "nativeName": "جہلم",
       "latitude": 32.93448,
       "longitude": 73.73102,
       "population": 190425,
@@ -615,6 +683,7 @@
     {
       "id": "1163967",
       "name": "Tando Adam",
+      "nativeName": "ٹنڈو آدم",
       "latitude": 25.76818,
       "longitude": 68.66196,
       "population": 174291,
@@ -624,6 +693,7 @@
     {
       "id": "1177042",
       "name": "Hasilpur",
+      "nativeName": "حاصل پور",
       "latitude": 29.69221,
       "longitude": 72.54566,
       "population": 168146,
@@ -633,6 +703,7 @@
     {
       "id": "1175156",
       "name": "Kamalia",
+      "nativeName": "کمالیہ",
       "latitude": 30.72708,
       "longitude": 72.64607,
       "population": 166617,
@@ -642,6 +713,7 @@
     {
       "id": "1176241",
       "name": "Jampur",
+      "nativeName": "جام پور",
       "latitude": 29.64235,
       "longitude": 70.59518,
       "population": 155243,
@@ -651,6 +723,7 @@
     {
       "id": "1162456",
       "name": "Wazirabad",
+      "nativeName": "وزیر آباد",
       "latitude": 32.44324,
       "longitude": 74.12,
       "population": 152624,
@@ -660,6 +733,7 @@
     {
       "id": "1173491",
       "name": "Kohat",
+      "nativeName": "کوہاٹ",
       "latitude": 33.58196,
       "longitude": 71.44929,
       "population": 151427,
@@ -669,6 +743,7 @@
     {
       "id": "1172035",
       "name": "Layyah",
+      "nativeName": "لیہ",
       "latitude": 30.96128,
       "longitude": 70.93904,
       "population": 151274,
@@ -677,7 +752,8 @@
     },
     {
       "id": "1164970",
-      "name": "Shujaabad",
+      "name": "Shujabad",
+      "nativeName": "شجاع آباد‎",
       "latitude": 29.88092,
       "longitude": 71.29344,
       "population": 151115,
@@ -687,6 +763,7 @@
     {
       "id": "1179406",
       "name": "Eminabad",
+      "nativeName": "ایمن آباد",
       "latitude": 32.04237,
       "longitude": 74.25996,
       "population": 150646,
@@ -696,6 +773,7 @@
     {
       "id": "1176106",
       "name": "Jaranwala",
+      "nativeName": "جڑانوالہ",
       "latitude": 31.3332,
       "longitude": 73.41868,
       "population": 150380,
@@ -705,6 +783,7 @@
     {
       "id": "1163198",
       "name": "Tordher",
+      "nativeName": "توردھر",
       "latitude": 33.99047,
       "longitude": 72.2863,
       "population": 150000,
@@ -713,7 +792,8 @@
     },
     {
       "id": "1181073",
-      "name": "Chishtian",
+      "name": "Chishtian Sharif",
+      "nativeName": "چشتیاں شریف",
       "latitude": 29.79713,
       "longitude": 72.85772,
       "population": 149939,
@@ -722,7 +802,8 @@
     },
     {
       "id": "1177073",
-      "name": "Harunabad",
+      "name": "Haroonabad",
+      "nativeName": "ہارون آباد",
       "latitude": 29.61206,
       "longitude": 73.13802,
       "population": 149679,
@@ -732,6 +813,7 @@
     {
       "id": "1176368",
       "name": "Jalalpur Jattan",
+      "nativeName": "جلال پور جٹاں",
       "latitude": 32.64118,
       "longitude": 74.20561,
       "population": 146743,
@@ -740,7 +822,8 @@
     },
     {
       "id": "1162959",
-      "name": "Umarkot",
+      "name": "Umerkot",
+      "nativeName": "عمرکوٹ",
       "latitude": 25.36329,
       "longitude": 69.74184,
       "population": 144558,
@@ -750,6 +833,7 @@
     {
       "id": "1171965",
       "name": "Lodhran",
+      "nativeName": "لودھراں",
       "latitude": 29.5339,
       "longitude": 71.63244,
       "population": 144512,
@@ -759,6 +843,7 @@
     {
       "id": "1170013",
       "name": "Moro",
+      "nativeName": "مورو",
       "latitude": 26.66317,
       "longitude": 68.00016,
       "population": 142685,
@@ -768,6 +853,7 @@
     {
       "id": "1174167",
       "name": "Khanpur",
+      "nativeName": "خانپور",
       "latitude": 28.64739,
       "longitude": 70.65694,
       "population": 142426,
@@ -776,7 +862,8 @@
     },
     {
       "id": "1184249",
-      "name": "Attock City",
+      "name": "Attock",
+      "nativeName": "اٹک",
       "latitude": 33.76671,
       "longitude": 72.35977,
       "population": 141945,
@@ -786,6 +873,7 @@
     {
       "id": "1170989",
       "name": "Manjhand",
+      "nativeName": "مانجھند",
       "latitude": 25.90827,
       "longitude": 68.23683,
       "population": 140766,
@@ -794,7 +882,8 @@
     },
     {
       "id": "1170486",
-      "name": "Mian Channun",
+      "name": "Mian Channu",
+      "nativeName": "میاں چنوں",
       "latitude": 30.44067,
       "longitude": 72.35679,
       "population": 140112,
@@ -804,6 +893,7 @@
     {
       "id": "1182815",
       "name": "Bhakkar",
+      "nativeName": "بهكّر",
       "latitude": 31.62685,
       "longitude": 71.06471,
       "population": 131658,
@@ -813,6 +903,7 @@
     {
       "id": "1169278",
       "name": "Narowal",
+      "nativeName": "نارووال",
       "latitude": 32.10197,
       "longitude": 74.87303,
       "population": 130692,
@@ -822,6 +913,7 @@
     {
       "id": "1181611",
       "name": "Chaman",
+      "nativeName": "چمن",
       "latitude": 30.91769,
       "longitude": 66.45259,
       "population": 130139,
@@ -831,6 +923,7 @@
     {
       "id": "1169372",
       "name": "Nankana Sahib",
+      "nativeName": "ننكانہ صاحِب‬",
       "latitude": 31.4501,
       "longitude": 73.70653,
       "population": 130041,
@@ -840,6 +933,7 @@
     {
       "id": "1171123",
       "name": "Mandi Bahauddin",
+      "nativeName": "منڈی بہاؤالدین",
       "latitude": 32.58704,
       "longitude": 73.49123,
       "population": 129733,
@@ -849,6 +943,7 @@
     {
       "id": "1170425",
       "name": "Mianwali",
+      "nativeName": "میانوالی",
       "latitude": 32.57756,
       "longitude": 71.52847,
       "population": 129500,
@@ -858,6 +953,7 @@
     {
       "id": "1180374",
       "name": "Daur",
+      "nativeName": "دوڑ",
       "latitude": 26.45528,
       "longitude": 68.31835,
       "population": 128958,
@@ -867,6 +963,7 @@
     {
       "id": "1165388",
       "name": "Shakargarh",
+      "nativeName": "شکرگڑھ",
       "latitude": 32.26361,
       "longitude": 75.16008,
       "population": 126742,
@@ -876,6 +973,7 @@
     {
       "id": "1168555",
       "name": "Pakpattan",
+      "nativeName": "پاکپتّن",
       "latitude": 30.34314,
       "longitude": 73.38944,
       "population": 126706,
@@ -885,6 +983,7 @@
     {
       "id": "1171502",
       "name": "Mailsi",
+      "nativeName": "میلسی",
       "latitude": 29.80123,
       "longitude": 72.17398,
       "population": 125431,
@@ -894,6 +993,7 @@
     {
       "id": "1179660",
       "name": "Dokri",
+      "nativeName": "ڈوکری",
       "latitude": 27.37421,
       "longitude": 68.09715,
       "population": 125000,
@@ -902,7 +1002,8 @@
     },
     {
       "id": "1169027",
-      "name": "New Mirpur City",
+      "name": "Mirpur",
+      "nativeName": "میرپور",
       "latitude": 33.14782,
       "longitude": 73.75187,
       "population": 124352,
@@ -912,6 +1013,7 @@
     {
       "id": "1163272",
       "name": "Toba Tek Singh",
+      "nativeName": "ٹوبہ ٹیک سنگھ‎",
       "latitude": 30.97127,
       "longitude": 72.48275,
       "population": 123102,
@@ -921,6 +1023,7 @@
     {
       "id": "1176997",
       "name": "Haveli Lakha",
+      "nativeName": "حویلی لكهّا‎",
       "latitude": 30.45097,
       "longitude": 73.69371,
       "population": 122389,
@@ -929,7 +1032,8 @@
     },
     {
       "id": "1165638",
-      "name": "Shahdad Kot",
+      "name": "Shahdadkot",
+      "nativeName": "شہدادکوٹ",
       "latitude": 27.84726,
       "longitude": 67.90679,
       "population": 120687,
@@ -939,6 +1043,7 @@
     {
       "id": "1181439",
       "name": "Charsadda",
+      "nativeName": "چارسدہ",
       "latitude": 34.14822,
       "longitude": 71.7406,
       "population": 120170,
@@ -948,6 +1053,7 @@
     {
       "id": "1178456",
       "name": "Ghotki",
+      "nativeName": "گھوٹکی",
       "latitude": 28.00437,
       "longitude": 69.31569,
       "population": 119879,
@@ -957,6 +1063,7 @@
     {
       "id": "1166265",
       "name": "Sambrial",
+      "nativeName": "سمبڑیال",
       "latitude": 32.47835,
       "longitude": 74.35338,
       "population": 119571,
@@ -966,6 +1073,7 @@
     {
       "id": "1184055",
       "name": "Badin",
+      "nativeName": "بدین",
       "latitude": 24.656,
       "longitude": 68.837,
       "population": 117455,
@@ -974,7 +1082,8 @@
     },
     {
       "id": "1163724",
-      "name": "Taunsa",
+      "name": "Taunsa Sharif",
+      "nativeName": "تونسہ شریف",
       "latitude": 30.70358,
       "longitude": 70.65054,
       "population": 115704,
@@ -984,6 +1093,7 @@
     {
       "id": "1182829",
       "name": "Phool Nagar",
+      "nativeName": "پُھول نگر‎",
       "latitude": 31.2024,
       "longitude": 73.94857,
       "population": 114530,
@@ -993,6 +1103,7 @@
     {
       "id": "1163952",
       "name": "Tando Muhammad Khan",
+      "nativeName": "ٹنڈو محمد خان",
       "latitude": 25.12384,
       "longitude": 68.53677,
       "population": 114406,
@@ -1002,6 +1113,7 @@
     {
       "id": "1168226",
       "name": "Pattoki",
+      "nativeName": "پتّوكى",
       "latitude": 31.02021,
       "longitude": 73.85333,
       "population": 113735,
@@ -1011,6 +1123,7 @@
     {
       "id": "1165635",
       "name": "Shahdadpur",
+      "nativeName": "شہدادپور",
       "latitude": 25.92539,
       "longitude": 68.6228,
       "population": 113342,
@@ -1019,7 +1132,8 @@
     },
     {
       "id": "1176022",
-      "name": "Jauharabad",
+      "name": "Joharabad",
+      "nativeName": "جوہرآباد",
       "latitude": 32.29016,
       "longitude": 72.28182,
       "population": 113188,
@@ -1028,7 +1142,8 @@
     },
     {
       "id": "1162813",
-      "name": "Vihari",
+      "name": "Vehari",
+      "nativeName": "وِہاڑی‎",
       "latitude": 30.0445,
       "longitude": 72.3556,
       "population": 112840,
@@ -1038,6 +1153,7 @@
     {
       "id": "1181163",
       "name": "Chichawatni",
+      "nativeName": "چِچہ وطنى‎",
       "latitude": 30.5301,
       "longitude": 72.69155,
       "population": 112191,
@@ -1047,6 +1163,7 @@
     {
       "id": "1397479",
       "name": "Dera Murad Jamali",
+      "nativeName": "ڈیرہ مراد جمالی",
       "latitude": 28.54657,
       "longitude": 68.22308,
       "population": 106952,
@@ -1056,6 +1173,7 @@
     {
       "id": "1172904",
       "name": "Kotri",
+      "nativeName": "کوٹری",
       "latitude": 25.36566,
       "longitude": 68.30831,
       "population": 106615,
@@ -1065,6 +1183,7 @@
     {
       "id": "1173378",
       "name": "Kot Addu",
+      "nativeName": "کوٹ ادو",
       "latitude": 30.46907,
       "longitude": 70.96699,
       "population": 104217,
@@ -1074,6 +1193,7 @@
     {
       "id": "1166146",
       "name": "Sangla Hill",
+      "nativeName": "سانگلہ ہل",
       "latitude": 31.71667,
       "longitude": 73.38333,
       "population": 103709,
@@ -1083,6 +1203,7 @@
     {
       "id": "1174042",
       "name": "Kharian",
+      "nativeName": "کھاریاں",
       "latitude": 32.81612,
       "longitude": 73.88697,
       "population": 103036,
@@ -1091,7 +1212,8 @@
     },
     {
       "id": "1173687",
-      "name": "Khushāb",
+      "name": "Khushab",
+      "nativeName": "خوشاب",
       "latitude": 32.29667,
       "longitude": 72.3525,
       "population": 102793,
@@ -1101,6 +1223,7 @@
     {
       "id": "1168307",
       "name": "Pasrur",
+      "nativeName": "پسرور",
       "latitude": 32.26286,
       "longitude": 74.66327,
       "population": 102717,
@@ -1109,7 +1232,8 @@
     },
     {
       "id": "1168412",
-      "name": "Pano Aqil",
+      "name": "Pano Akil",
+      "nativeName": "پنو عاقل",
       "latitude": 27.85619,
       "longitude": 69.11111,
       "population": 102701,
@@ -1119,6 +1243,7 @@
     {
       "id": "1165744",
       "name": "Shabqadar",
+      "nativeName": "شب قدر",
       "latitude": 34.21599,
       "longitude": 71.5548,
       "population": 102340,
@@ -1128,6 +1253,7 @@
     {
       "id": "1172915",
       "name": "Kot Radha Kishan",
+      "nativeName": "کوٹ رادھا کشن",
       "latitude": 31.17068,
       "longitude": 74.10126,
       "population": 102057,
@@ -1137,6 +1263,7 @@
     {
       "id": "1181636",
       "name": "Chakwal",
+      "nativeName": "چکوال",
       "latitude": 32.93286,
       "longitude": 72.85394,
       "population": 101200,
@@ -1146,6 +1273,7 @@
     {
       "id": "1166933",
       "name": "Renala Khurd",
+      "nativeName": "رینالہ خورد",
       "latitude": 30.87878,
       "longitude": 73.59857,
       "population": 100054,
@@ -1155,6 +1283,7 @@
     {
       "id": "1167386",
       "name": "Raja Jang",
+      "nativeName": "راجہ جنگ",
       "latitude": 31.22078,
       "longitude": 74.25483,
       "population": 100000,
@@ -1163,7 +1292,8 @@
     },
     {
       "id": "1179760",
-      "name": "Dipalpur",
+      "name": "Depalpur",
+      "nativeName": "دیپالپور",
       "latitude": 30.66984,
       "longitude": 73.65306,
       "population": 99858,
@@ -1173,6 +1303,7 @@
     {
       "id": "1167534",
       "name": "Qubo Saeed Khan",
+      "nativeName": "قبو سعید خان",
       "latitude": 27.87437,
       "longitude": 67.70886,
       "population": 99308,
@@ -1182,6 +1313,7 @@
     {
       "id": "1175021",
       "name": "Kandhkot",
+      "nativeName": "کندھ کوٹ",
       "latitude": 28.24574,
       "longitude": 69.17974,
       "population": 99155,
@@ -1191,6 +1323,7 @@
     {
       "id": "1164216",
       "name": "Swabi",
+      "nativeName": "صوابی",
       "latitude": 34.12018,
       "longitude": 72.46982,
       "population": 97363,
@@ -1200,6 +1333,7 @@
     {
       "id": "1179834",
       "name": "Dijkot",
+      "nativeName": "ڈجکوٹ‎",
       "latitude": 31.21735,
       "longitude": 72.99621,
       "population": 96934,
@@ -1208,7 +1342,8 @@
     },
     {
       "id": "1173692",
-      "name": "Khurarianwala",
+      "name": "Khurrianwala",
+      "nativeName": "کھڑریانوالا",
       "latitude": 31.49936,
       "longitude": 73.26763,
       "population": 96743,
@@ -1218,6 +1353,7 @@
     {
       "id": "1179061",
       "name": "Gambat",
+      "nativeName": "گمبٹ",
       "latitude": 27.3517,
       "longitude": 68.5215,
       "population": 93884,
@@ -1227,6 +1363,7 @@
     {
       "id": "1166827",
       "name": "Rohri",
+      "nativeName": "روہڑی",
       "latitude": 27.69203,
       "longitude": 68.89503,
       "population": 92135,
@@ -1236,6 +1373,7 @@
     {
       "id": "1175560",
       "name": "Kabirwala",
+      "nativeName": "کبیروالہ",
       "latitude": 30.40472,
       "longitude": 71.86269,
       "population": 91932,
@@ -1245,6 +1383,7 @@
     {
       "id": "1172663",
       "name": "Kunjah",
+      "nativeName": "کنجاہ",
       "latitude": 32.52982,
       "longitude": 73.97486,
       "population": 90905,
@@ -1254,6 +1393,7 @@
     {
       "id": "11179544",
       "name": "Daharki",
+      "nativeName": "ڈھرکی",
       "latitude": 28.05361,
       "longitude": 69.70249,
       "population": 90177,
@@ -1263,6 +1403,7 @@
     {
       "id": "1179790",
       "name": "Dinga",
+      "nativeName": "ڈنگہ",
       "latitude": 32.64101,
       "longitude": 73.72039,
       "population": 89922,
@@ -1272,6 +1413,7 @@
     {
       "id": "1163414",
       "name": "Thul",
+      "nativeName": "ٹھل",
       "latitude": 28.2403,
       "longitude": 68.7755,
       "population": 88554,
@@ -1280,7 +1422,8 @@
     },
     {
       "id": "11124382",
-      "name": "Nowshera Kalan",
+      "name": "Nowshera",
+      "nativeName": "نوشہرہ",
       "latitude": 34.0191,
       "longitude": 71.97445,
       "population": 88003,
@@ -1290,6 +1433,7 @@
     {
       "id": "1179223",
       "name": "Fort Abbas",
+      "nativeName": "فورٹ عباس",
       "latitude": 29.19344,
       "longitude": 72.85525,
       "population": 83192,
@@ -1299,6 +1443,7 @@
     {
       "id": "1167031",
       "name": "Ratodero",
+      "nativeName": "رتو ڈیرو",
       "latitude": 27.80227,
       "longitude": 68.28902,
       "population": 81935,
@@ -1307,7 +1452,8 @@
     },
     {
       "id": "1179331",
-      "name": "Fatehjang",
+      "name": "Fateh Jang",
+      "nativeName": "فتح جنگ",
       "latitude": 33.56492,
       "longitude": 72.64281,
       "population": 81321,
@@ -1316,7 +1462,8 @@
     },
     {
       "id": "11535259",
-      "name": "Alahabad",
+      "name": "Allahabad",
+      "nativeName": "الہ آباد",
       "latitude": 30.87696,
       "longitude": 74.05524,
       "population": 80084,
@@ -1326,6 +1473,7 @@
     {
       "id": "1173920",
       "name": "Khewra",
+      "nativeName": "کھیوڑہ",
       "latitude": 32.6491,
       "longitude": 73.01059,
       "population": 80000,
@@ -1335,6 +1483,7 @@
     {
       "id": "1164069",
       "name": "Talagang",
+      "nativeName": "تلہ گنگ",
       "latitude": 32.92766,
       "longitude": 72.41594,
       "population": 79431,
@@ -1343,7 +1492,8 @@
     },
     {
       "id": "1167622",
-      "name": "Kambar",
+      "name": "Qambar",
+      "nativeName": "قمبر",
       "latitude": 27.58753,
       "longitude": 68.00066,
       "population": 77481,
@@ -1353,6 +1503,7 @@
     {
       "id": "1162275",
       "name": "Zahir Pir",
+      "nativeName": "ظاہر پیر",
       "latitude": 28.81284,
       "longitude": 70.52341,
       "population": 76979,
@@ -1361,7 +1512,8 @@
     },
     {
       "id": "1176800",
-      "name": "Hujra Shah Muqim",
+      "name": "Hujra Shah Muqeem",
+      "nativeName": "حجرہ شاہ مقیم",
       "latitude": 30.74168,
       "longitude": 73.82327,
       "population": 76462,
@@ -1371,6 +1523,7 @@
     {
       "id": "1168633",
       "name": "Paharpur",
+      "nativeName": "پہاڑ پور",
       "latitude": 32.10502,
       "longitude": 70.97055,
       "population": 76027,
@@ -1380,6 +1533,7 @@
     {
       "id": "1163054",
       "name": "Turbat",
+      "nativeName": "تربت",
       "latitude": 26.00122,
       "longitude": 63.04849,
       "population": 75694,
@@ -1389,6 +1543,7 @@
     {
       "id": "1163224",
       "name": "Topi",
+      "nativeName": "ٹوپی",
       "latitude": 34.07034,
       "longitude": 72.62147,
       "population": 74867,
@@ -1398,6 +1553,7 @@
     {
       "id": "1182787",
       "name": "Bhalwal",
+      "nativeName": "بھلوال",
       "latitude": 32.26576,
       "longitude": 72.89809,
       "population": 74744,
@@ -1407,6 +1563,7 @@
     {
       "id": "1170294",
       "name": "Mirpur Mathelo",
+      "nativeName": "میرپور ماتھیلو",
       "latitude": 28.02136,
       "longitude": 69.54914,
       "population": 74651,
@@ -1416,6 +1573,7 @@
     {
       "id": "1166073",
       "name": "Sarai Alamgir",
+      "nativeName": "سرائے عالمگیر",
       "latitude": 32.90495,
       "longitude": 73.75518,
       "population": 73967,
@@ -1424,7 +1582,8 @@
     },
     {
       "id": "1183090",
-      "name": "Bat Khela",
+      "name": "Batkhela",
+      "nativeName": "بٹ خیلہ",
       "latitude": 34.6178,
       "longitude": 71.97247,
       "population": 73525,
@@ -1434,6 +1593,7 @@
     {
       "id": "1166381",
       "name": "Sakrand",
+      "nativeName": "سڪرنڊ",
       "latitude": 26.13845,
       "longitude": 68.27444,
       "population": 72040,
@@ -1443,6 +1603,7 @@
     {
       "id": "1163958",
       "name": "Tando Jam",
+      "nativeName": "ٹنڈو جام",
       "latitude": 25.42813,
       "longitude": 68.52923,
       "population": 71760,
@@ -1452,6 +1613,7 @@
     {
       "id": "1177278",
       "name": "Hala",
+      "nativeName": "ہالا",
       "latitude": 25.81459,
       "longitude": 68.42198,
       "population": 71094,
@@ -1460,7 +1622,8 @@
     },
     {
       "id": "1177446",
-      "name": "Gwadar",
+      "name": "Gwādar",
+      "nativeName": "گوادر",
       "latitude": 25.12163,
       "longitude": 62.32541,
       "population": 70852,
@@ -1470,6 +1633,7 @@
     {
       "id": "1167507",
       "name": "Rabwah",
+      "nativeName": "ربوہ",
       "latitude": 31.75511,
       "longitude": 72.91403,
       "population": 70000,
@@ -1478,7 +1642,8 @@
     },
     {
       "id": "1175446",
-      "name": "Kahror Pakka",
+      "name": "Kahror Pacca",
+      "nativeName": "کہروڑپکا",
       "latitude": 29.6243,
       "longitude": 71.91437,
       "population": 69743,
@@ -1488,6 +1653,7 @@
     {
       "id": "1177682",
       "name": "Gujar Khan",
+      "nativeName": "گوجر خان",
       "latitude": 33.25411,
       "longitude": 73.30433,
       "population": 69374,
@@ -1496,7 +1662,8 @@
     },
     {
       "id": "1180983",
-      "name": "Chuhar Kana",
+      "name": "Sacha Sauda",
+      "nativeName": "سچا سودا",
       "latitude": 31.75,
       "longitude": 73.8,
       "population": 69321,
@@ -1506,6 +1673,7 @@
     {
       "id": "1180454",
       "name": "Darya Khan",
+      "nativeName": "دریا خان",
       "latitude": 31.78447,
       "longitude": 71.10197,
       "population": 68622,
@@ -1515,6 +1683,7 @@
     {
       "id": "1164987",
       "name": "Shorkot",
+      "nativeName": "شورکوٹ",
       "latitude": 31.91023,
       "longitude": 70.87757,
       "population": 67439,
@@ -1524,6 +1693,7 @@
     {
       "id": "1170398",
       "name": "Minchinabad",
+      "nativeName": "منچن آباد",
       "latitude": 30.16356,
       "longitude": 73.56858,
       "population": 67164,
@@ -1533,6 +1703,7 @@
     {
       "id": "1170951",
       "name": "Mansehra",
+      "nativeName": "مانسہرہ",
       "latitude": 34.33023,
       "longitude": 73.19679,
       "population": 66486,
@@ -1542,6 +1713,7 @@
     {
       "id": "1183224",
       "name": "Basirpur",
+      "nativeName": "بصیر پور",
       "latitude": 30.57759,
       "longitude": 73.83912,
       "population": 65541,
@@ -1550,7 +1722,8 @@
     },
     {
       "id": "1172318",
-      "name": "Lala Musa",
+      "name": "Lalamusa",
+      "nativeName": "لالہ موسیٰ",
       "latitude": 32.70138,
       "longitude": 73.95746,
       "population": 65197,
@@ -1560,6 +1733,7 @@
     {
       "id": "1162868",
       "name": "Usta Muhammad",
+      "nativeName": "اوستہ محمد",
       "latitude": 28.17723,
       "longitude": 68.04367,
       "population": 64632,
@@ -1569,6 +1743,7 @@
     {
       "id": "1164896",
       "name": "Sibi",
+      "nativeName": "سبی",
       "latitude": 29.54299,
       "longitude": 67.87726,
       "population": 64069,
@@ -1578,6 +1753,7 @@
     {
       "id": "1168015",
       "name": "Pindi Gheb",
+      "nativeName": "پنڈی گھیب",
       "latitude": 33.24095,
       "longitude": 72.2648,
       "population": 63810,
@@ -1587,6 +1763,7 @@
     {
       "id": "1168166",
       "name": "Phalia",
+      "nativeName": "پھالیہ",
       "latitude": 32.43104,
       "longitude": 73.579,
       "population": 62453,
@@ -1596,6 +1773,7 @@
     {
       "id": "1166164",
       "name": "Sanghar",
+      "nativeName": "سانگھڑ",
       "latitude": 26.04694,
       "longitude": 68.94917,
       "population": 62033,
@@ -1605,6 +1783,7 @@
     {
       "id": "1179377",
       "name": "Faqirwali",
+      "nativeName": "فقیروالی",
       "latitude": 29.46799,
       "longitude": 73.03489,
       "population": 61586,
@@ -1614,6 +1793,7 @@
     {
       "id": "1162316",
       "name": "Yazman",
+      "nativeName": "يزمان‎",
       "latitude": 29.12122,
       "longitude": 71.74459,
       "population": 60738,
@@ -1622,7 +1802,8 @@
     },
     {
       "id": "1179346",
-      "name": "Faruka",
+      "name": "Farooka",
+      "nativeName": "فروکہ",
       "latitude": 31.88642,
       "longitude": 72.41362,
       "population": 60000,
@@ -1632,6 +1813,7 @@
     {
       "id": "1181065",
       "name": "Chitral",
+      "nativeName": "چترال",
       "latitude": 35.8518,
       "longitude": 71.78636,
       "population": 57157,
@@ -1640,7 +1822,8 @@
     },
     {
       "id": "1176452",
-      "name": "Jahangira",
+      "name": "Jehangira",
+      "nativeName": "جہانگیرا",
       "latitude": 33.96416,
       "longitude": 72.22097,
       "population": 57011,
@@ -1650,6 +1833,7 @@
     {
       "id": "1177107",
       "name": "Haripur",
+      "nativeName": "ہری پور",
       "latitude": 33.99783,
       "longitude": 72.93493,
       "population": 56977,
@@ -1659,6 +1843,7 @@
     {
       "id": "1176233",
       "name": "Jamrud",
+      "nativeName": "جمرود",
       "latitude": 34.00152,
       "longitude": 71.38007,
       "population": 56642,
@@ -1668,6 +1853,7 @@
     {
       "id": "1179496",
       "name": "Dullewala",
+      "nativeName": "دُلّےوالا‎",
       "latitude": 31.83439,
       "longitude": 71.43639,
       "population": 54277,
@@ -1676,7 +1862,8 @@
     },
     {
       "id": "1161991",
-      "name": "Pir Jo Goth",
+      "name": "Pir jo Goth",
+      "nativeName": "پیر جو گوٹھ",
       "latitude": 27.59178,
       "longitude": 68.61848,
       "population": 54266,
@@ -1686,6 +1873,7 @@
     {
       "id": "1168680",
       "name": "Pabbi",
+      "nativeName": "پبی",
       "latitude": 34.00968,
       "longitude": 71.79445,
       "population": 52701,
@@ -1695,6 +1883,7 @@
     {
       "id": "1172295",
       "name": "Lalian",
+      "nativeName": "ﻻلیاں",
       "latitude": 31.82462,
       "longitude": 72.80116,
       "population": 52542,
@@ -1703,7 +1892,8 @@
     },
     {
       "id": "1167669",
-      "name": "Qabula",
+      "name": "Qaboola",
+      "nativeName": "قبولہ",
       "latitude": 30.17784,
       "longitude": 73.0651,
       "population": 52495,
@@ -1713,6 +1903,7 @@
     {
       "id": "1167873",
       "name": "Pir Mahal",
+      "nativeName": "پیر محل",
       "latitude": 30.76663,
       "longitude": 72.43455,
       "population": 52476,
@@ -1722,6 +1913,7 @@
     {
       "id": "1170219",
       "name": "Mithi",
+      "nativeName": "مٹھی",
       "latitude": 24.73701,
       "longitude": 69.79707,
       "population": 52376,
@@ -1730,7 +1922,8 @@
     },
     {
       "id": "1172964",
-      "name": "Kot Mumin",
+      "name": "Kot Momin",
+      "nativeName": "کوٹ مومن",
       "latitude": 32.18843,
       "longitude": 73.02987,
       "population": 51021,
@@ -1740,6 +1933,7 @@
     {
       "id": "1163021",
       "name": "Ubauro",
+      "nativeName": "اباڑو",
       "latitude": 28.16429,
       "longitude": 69.73114,
       "population": 50981,
@@ -1749,6 +1943,7 @@
     {
       "id": "1167380",
       "name": "Rajanpur",
+      "nativeName": "راجن پور",
       "latitude": 29.10408,
       "longitude": 70.32969,
       "population": 50682,
@@ -1758,6 +1953,7 @@
     {
       "id": "1162105",
       "name": "Zhob",
+      "nativeName": "ژوب",
       "latitude": 31.34082,
       "longitude": 69.4493,
       "population": 50537,
@@ -1767,6 +1963,7 @@
     {
       "id": "1170667",
       "name": "Matli",
+      "nativeName": "ماتلی",
       "latitude": 25.0429,
       "longitude": 68.65591,
       "population": 50398,
@@ -1776,6 +1973,7 @@
     {
       "id": "1176445",
       "name": "Jahanian",
+      "nativeName": "جہانیاں",
       "latitude": 30.03928,
       "longitude": 71.8167,
       "population": 50318,
@@ -1785,6 +1983,7 @@
     {
       "id": "1161983",
       "name": "Rawalakot",
+      "nativeName": "راولا کوٹ",
       "latitude": 33.85782,
       "longitude": 73.76043,
       "population": 50000,
@@ -1794,6 +1993,7 @@
     {
       "id": "1182122",
       "name": "Buni",
+      "nativeName": "بونی",
       "latitude": 36.27333,
       "longitude": 72.25929,
       "population": 50000,

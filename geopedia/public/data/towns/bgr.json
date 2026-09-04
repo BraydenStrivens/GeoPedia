@@ -3,6 +3,7 @@
     {
       "id": "727011",
       "name": "Sofia",
+      "nativeName": "София",
       "latitude": 42.69751,
       "longitude": 23.32415,
       "population": 1152556,
@@ -12,6 +13,7 @@
     {
       "id": "728193",
       "name": "Plovdiv",
+      "nativeName": "Пловдив",
       "latitude": 42.15387,
       "longitude": 24.75001,
       "population": 329489,
@@ -21,6 +23,7 @@
     {
       "id": "726050",
       "name": "Varna",
+      "nativeName": "Варна",
       "latitude": 43.21912,
       "longitude": 27.91024,
       "population": 318737,
@@ -30,6 +33,7 @@
     {
       "id": "732770",
       "name": "Burgas",
+      "nativeName": "Бургас",
       "latitude": 42.50651,
       "longitude": 27.46886,
       "population": 210646,
@@ -39,6 +43,7 @@
     {
       "id": "726848",
       "name": "Stara Zagora",
+      "nativeName": "Стара Загора",
       "latitude": 42.43205,
       "longitude": 25.64262,
       "population": 121582,
@@ -48,6 +53,7 @@
     {
       "id": "727523",
       "name": "Ruse",
+      "nativeName": "Русе",
       "latitude": 43.84872,
       "longitude": 25.9534,
       "population": 121168,
@@ -57,6 +63,7 @@
     {
       "id": "728203",
       "name": "Pleven",
+      "nativeName": "Плевен",
       "latitude": 43.41791,
       "longitude": 24.61666,
       "population": 90209,
@@ -66,6 +73,7 @@
     {
       "id": "727079",
       "name": "Sliven",
+      "nativeName": "Сливен",
       "latitude": 42.68607,
       "longitude": 26.32558,
       "population": 83740,
@@ -75,6 +83,7 @@
     {
       "id": "728330",
       "name": "Pernik",
+      "nativeName": "Перник",
       "latitude": 42.59671,
       "longitude": 23.03318,
       "population": 82467,
@@ -84,6 +93,7 @@
     {
       "id": "727233",
       "name": "Shumen",
+      "nativeName": "Шумен",
       "latitude": 43.27064,
       "longitude": 26.92286,
       "population": 72342,
@@ -93,6 +103,7 @@
     {
       "id": "726418",
       "name": "Dobrich",
+      "nativeName": "Добрич",
       "latitude": 43.56491,
       "longitude": 27.83138,
       "population": 69434,
@@ -102,6 +113,7 @@
     {
       "id": "733191",
       "name": "Blagoevgrad",
+      "nativeName": "Благоевград",
       "latitude": 42.01457,
       "longitude": 23.09804,
       "population": 67810,
@@ -111,6 +123,7 @@
     {
       "id": "730435",
       "name": "Haskovo",
+      "nativeName": "Хасково",
       "latitude": 41.93415,
       "longitude": 25.55557,
       "population": 64564,
@@ -120,6 +133,7 @@
     {
       "id": "725578",
       "name": "Yambol",
+      "nativeName": "Ямбол",
       "latitude": 42.48243,
       "longitude": 26.50006,
       "population": 63656,
@@ -128,7 +142,8 @@
     },
     {
       "id": "725993",
-      "name": "Veliko Tŭrnovo",
+      "name": "Veliko Tarnovo",
+      "nativeName": "Велико Търново",
       "latitude": 43.08124,
       "longitude": 25.62904,
       "population": 59166,
@@ -138,6 +153,7 @@
     {
       "id": "728378",
       "name": "Pazardzhik",
+      "nativeName": "Пазарджик",
       "latitude": 42.19934,
       "longitude": 24.33318,
       "population": 55220,
@@ -147,6 +163,7 @@
     {
       "id": "733618",
       "name": "Asenovgrad",
+      "nativeName": "Асеновград",
       "latitude": 42.01667,
       "longitude": 24.86667,
       "population": 54778,
@@ -156,6 +173,7 @@
     {
       "id": "725712",
       "name": "Vratsa",
+      "nativeName": "Враца",
       "latitude": 43.21052,
       "longitude": 23.56312,
       "population": 49569,
@@ -165,6 +183,7 @@
     {
       "id": "731549",
       "name": "Gabrovo",
+      "nativeName": "Габрово",
       "latitude": 42.87419,
       "longitude": 25.31823,
       "population": 48133,
@@ -174,6 +193,7 @@
     {
       "id": "730496",
       "name": "Kazanlak",
+      "nativeName": "Казанлък",
       "latitude": 42.61667,
       "longitude": 25.4,
       "population": 47918,
@@ -183,6 +203,7 @@
     {
       "id": "729114",
       "name": "Montana",
+      "nativeName": "Монтана",
       "latitude": 43.41285,
       "longitude": 23.22174,
       "population": 47445,
@@ -192,6 +213,7 @@
     {
       "id": "729730",
       "name": "Kyustendil",
+      "nativeName": "Кюстендил",
       "latitude": 42.28314,
       "longitude": 22.69224,
       "population": 46856,
@@ -201,6 +223,7 @@
     {
       "id": "729794",
       "name": "Kardzhali",
+      "nativeName": "Кърджали",
       "latitude": 41.64502,
       "longitude": 25.36578,
       "population": 44071,
@@ -210,6 +233,7 @@
     {
       "id": "732263",
       "name": "Dimitrovgrad",
+      "nativeName": "Димитровград",
       "latitude": 42.05,
       "longitude": 25.6,
       "population": 38015,
@@ -219,6 +243,7 @@
     {
       "id": "725905",
       "name": "Vidin",
+      "nativeName": "Видин",
       "latitude": 43.99159,
       "longitude": 22.88236,
       "population": 34797,
@@ -228,6 +253,7 @@
     {
       "id": "726174",
       "name": "Targovishte",
+      "nativeName": "Търговище",
       "latitude": 43.2512,
       "longitude": 26.57215,
       "population": 34793,
@@ -237,6 +263,7 @@
     {
       "id": "726872",
       "name": "Dupnitsa",
+      "nativeName": "Дупница",
       "latitude": 42.26478,
       "longitude": 23.11723,
       "population": 34764,
@@ -246,6 +273,7 @@
     {
       "id": "731233",
       "name": "Gorna Oryahovitsa",
+      "nativeName": "Горна Оряховица",
       "latitude": 43.12778,
       "longitude": 25.70167,
       "population": 32792,
@@ -255,6 +283,7 @@
     {
       "id": "728288",
       "name": "Petrich",
+      "nativeName": "Петрич",
       "latitude": 41.39846,
       "longitude": 23.20702,
       "population": 30722,
@@ -264,6 +293,7 @@
     {
       "id": "727030",
       "name": "Smolyan",
+      "nativeName": "Смолян",
       "latitude": 41.57439,
       "longitude": 24.71204,
       "population": 30689,
@@ -273,6 +303,7 @@
     {
       "id": "730565",
       "name": "Karlovo",
+      "nativeName": "Карлово",
       "latitude": 42.63333,
       "longitude": 24.8,
       "population": 30340,
@@ -282,6 +313,7 @@
     {
       "id": "726534",
       "name": "Svishtov",
+      "nativeName": "Свищов",
       "latitude": 43.61875,
       "longitude": 25.35033,
       "population": 30157,
@@ -291,6 +323,7 @@
     {
       "id": "727221",
       "name": "Silistra",
+      "nativeName": "Силистра",
       "latitude": 44.1171,
       "longitude": 27.26056,
       "population": 29498,
@@ -300,6 +333,7 @@
     {
       "id": "727696",
       "name": "Razgrad",
+      "nativeName": "Разград",
       "latitude": 43.53331,
       "longitude": 26.51849,
       "population": 28931,
@@ -309,6 +343,7 @@
     {
       "id": "727447",
       "name": "Sandanski",
+      "nativeName": "Сандански",
       "latitude": 41.56667,
       "longitude": 23.28333,
       "population": 28510,
@@ -318,6 +353,7 @@
     {
       "id": "729559",
       "name": "Lovech",
+      "nativeName": "Ловеч",
       "latitude": 43.13227,
       "longitude": 24.71763,
       "population": 27910,
@@ -327,6 +363,7 @@
     {
       "id": "727462",
       "name": "Samokov",
+      "nativeName": "Самоков",
       "latitude": 42.33855,
       "longitude": 23.55805,
       "population": 26765,
@@ -336,6 +373,7 @@
     {
       "id": "727337",
       "name": "Sevlievo",
+      "nativeName": "Севлиево",
       "latitude": 43.02295,
       "longitude": 25.10364,
       "population": 24582,
@@ -345,6 +383,7 @@
     {
       "id": "728742",
       "name": "Nova Zagora",
+      "nativeName": "Нова Загора",
       "latitude": 42.48333,
       "longitude": 26.01667,
       "population": 23625,
@@ -354,6 +393,7 @@
     {
       "id": "726320",
       "name": "Troyan",
+      "nativeName": "Троян",
       "latitude": 42.89427,
       "longitude": 24.71589,
       "population": 21162,
@@ -363,6 +403,7 @@
     {
       "id": "733579",
       "name": "Aytos",
+      "nativeName": "Айтос",
       "latitude": 42.70322,
       "longitude": 27.25464,
       "population": 20986,
@@ -372,6 +413,7 @@
     {
       "id": "733014",
       "name": "Botevgrad",
+      "nativeName": "Ботевград",
       "latitude": 42.90799,
       "longitude": 23.79274,
       "population": 20909,
@@ -381,6 +423,7 @@
     {
       "id": "731108",
       "name": "Gotse Delchev",
+      "nativeName": "Гоце Делчев",
       "latitude": 41.56667,
       "longitude": 23.73333,
       "population": 20522,
@@ -390,6 +433,7 @@
     {
       "id": "725988",
       "name": "Velingrad",
+      "nativeName": "Велинград",
       "latitude": 42.02754,
       "longitude": 23.99155,
       "population": 20286,
@@ -399,6 +443,7 @@
     {
       "id": "730559",
       "name": "Karnobat",
+      "nativeName": "Карнобат",
       "latitude": 42.65,
       "longitude": 26.98333,
       "population": 19709,
@@ -408,6 +453,7 @@
     {
       "id": "728448",
       "name": "Panagyurishte",
+      "nativeName": "Панагюрище",
       "latitude": 42.49518,
       "longitude": 24.19021,
       "population": 19389,
@@ -417,6 +463,7 @@
     {
       "id": "730442",
       "name": "Harmanli",
+      "nativeName": "Харманли",
       "latitude": 41.93233,
       "longitude": 25.90172,
       "population": 18931,
@@ -426,6 +473,7 @@
     {
       "id": "728317",
       "name": "Peshtera",
+      "nativeName": "Пещера",
       "latitude": 42.03372,
       "longitude": 24.29995,
       "population": 18676,
@@ -435,6 +483,7 @@
     {
       "id": "729581",
       "name": "Lom",
+      "nativeName": "Лом",
       "latitude": 43.8317,
       "longitude": 23.23793,
       "population": 18593,
@@ -444,6 +493,7 @@
     {
       "id": "727886",
       "name": "Parvomay",
+      "nativeName": "Първомай",
       "latitude": 42.1,
       "longitude": 25.21667,
       "population": 17000,
@@ -453,6 +503,7 @@
     {
       "id": "726546",
       "name": "Svilengrad",
+      "nativeName": "Свиленград",
       "latitude": 41.76836,
       "longitude": 26.19775,
       "population": 16959,
@@ -462,6 +513,7 @@
     {
       "id": "728075",
       "name": "Popovo",
+      "nativeName": "Попово",
       "latitude": 43.35,
       "longitude": 26.23333,
       "population": 16571,
@@ -471,6 +523,7 @@
     {
       "id": "727791",
       "name": "Rakovski",
+      "nativeName": "Раковски",
       "latitude": 42.28819,
       "longitude": 24.96779,
       "population": 15782,
@@ -480,6 +533,7 @@
     {
       "id": "732452",
       "name": "Chirpan",
+      "nativeName": "Чирпан",
       "latitude": 42.2,
       "longitude": 25.33333,
       "population": 15109,
@@ -489,6 +543,7 @@
     {
       "id": "733264",
       "name": "Berkovitsa",
+      "nativeName": "Берковица",
       "latitude": 43.23741,
       "longitude": 23.12509,
       "population": 15027,
@@ -498,6 +553,7 @@
     {
       "id": "727838",
       "name": "Radnevo",
+      "nativeName": "Раднево",
       "latitude": 42.3,
       "longitude": 25.93333,
       "population": 14667,
@@ -507,6 +563,7 @@
     {
       "id": "727832",
       "name": "Radomir",
+      "nativeName": "Радомир",
       "latitude": 42.54565,
       "longitude": 22.96553,
       "population": 14494,
@@ -516,6 +573,7 @@
     {
       "id": "730919",
       "name": "Ihtiman",
+      "nativeName": "Ихтиман",
       "latitude": 42.43821,
       "longitude": 23.81608,
       "population": 14154,
@@ -525,6 +583,7 @@
     {
       "id": "726287",
       "name": "Tryavna",
+      "nativeName": "Трявна",
       "latitude": 42.86667,
       "longitude": 25.5,
       "population": 13818,
@@ -534,6 +593,7 @@
     {
       "id": "727921",
       "name": "Provadia",
+      "nativeName": "Провадия",
       "latitude": 43.18333,
       "longitude": 27.43333,
       "population": 13755,
@@ -543,6 +603,7 @@
     {
       "id": "728108",
       "name": "Pomorie",
+      "nativeName": "Поморие",
       "latitude": 42.56326,
       "longitude": 27.62986,
       "population": 13714,
@@ -552,6 +613,7 @@
     {
       "id": "728825",
       "name": "Nesebar",
+      "nativeName": "Несебър",
       "latitude": 42.65921,
       "longitude": 27.73602,
       "population": 13347,
@@ -561,6 +623,7 @@
     {
       "id": "728734",
       "name": "Novi Pazar",
+      "nativeName": "Нови пазар",
       "latitude": 43.35,
       "longitude": 27.2,
       "population": 13276,
@@ -570,6 +633,7 @@
     {
       "id": "732491",
       "name": "Cherven Bryag",
+      "nativeName": "Червен бряг",
       "latitude": 43.27884,
       "longitude": 24.08251,
       "population": 13000,
@@ -579,6 +643,7 @@
     {
       "id": "733515",
       "name": "Balchik",
+      "nativeName": "Балчик",
       "latitude": 43.42166,
       "longitude": 28.15848,
       "population": 13000,
@@ -588,6 +653,7 @@
     {
       "id": "727689",
       "name": "Razlog",
+      "nativeName": "Разлог",
       "latitude": 41.8863,
       "longitude": 23.46714,
       "population": 12486,
@@ -597,6 +663,7 @@
     {
       "id": "730084",
       "name": "Kostinbrod",
+      "nativeName": "Костинброд",
       "latitude": 42.81667,
       "longitude": 23.21667,
       "population": 12175,
@@ -606,6 +673,7 @@
     {
       "id": "726890",
       "name": "Stamboliyski",
+      "nativeName": "Стамболийски",
       "latitude": 42.13333,
       "longitude": 24.53333,
       "population": 12070,
@@ -615,6 +683,7 @@
     {
       "id": "729134",
       "name": "Mezdra",
+      "nativeName": "Мездра",
       "latitude": 43.1448,
       "longitude": 23.71415,
       "population": 11975,
@@ -624,6 +693,7 @@
     {
       "id": "729636",
       "name": "Levski",
+      "nativeName": "Левски",
       "latitude": 43.36667,
       "longitude": 25.13333,
       "population": 11467,
@@ -633,6 +703,7 @@
     {
       "id": "730013",
       "name": "Kozloduy",
+      "nativeName": "Козлодуй",
       "latitude": 43.77691,
       "longitude": 23.73001,
       "population": 11331,
@@ -642,6 +713,7 @@
     {
       "id": "730518",
       "name": "Kavarna",
+      "nativeName": "Каварна",
       "latitude": 43.43601,
       "longitude": 28.33953,
       "population": 11205,
@@ -651,6 +723,7 @@
     {
       "id": "728385",
       "name": "Pavlikeni",
+      "nativeName": "Павликени",
       "latitude": 43.24278,
       "longitude": 25.32194,
       "population": 11151,
@@ -660,6 +733,7 @@
     {
       "id": "731626",
       "name": "Etropole",
+      "nativeName": "Етрополе",
       "latitude": 42.8328,
       "longitude": 23.99636,
       "population": 11031,
@@ -669,6 +743,7 @@
     {
       "id": "726464",
       "name": "Teteven",
+      "nativeName": "Тетевен",
       "latitude": 42.91667,
       "longitude": 24.26667,
       "population": 10790,
@@ -678,6 +753,7 @@
     {
       "id": "731670",
       "name": "Elhovo",
+      "nativeName": "Елхово",
       "latitude": 42.16667,
       "longitude": 26.56667,
       "population": 10424,
@@ -687,6 +763,7 @@
     {
       "id": "732704",
       "name": "Byala Slatina",
+      "nativeName": "Бяла Слатина",
       "latitude": 43.46667,
       "longitude": 23.93333,
       "population": 10282,
@@ -696,6 +773,7 @@
     {
       "id": "729507",
       "name": "Lukovit",
+      "nativeName": "Луковит",
       "latitude": 43.2,
       "longitude": 24.16667,
       "population": 9792,
@@ -705,6 +783,7 @@
     {
       "id": "730866",
       "name": "Isperih",
+      "nativeName": "Исперих",
       "latitude": 43.71667,
       "longitude": 26.83333,
       "population": 9735,
@@ -714,6 +793,7 @@
     {
       "id": "731016",
       "name": "Sredets",
+      "nativeName": "Средец",
       "latitude": 42.34747,
       "longitude": 27.17898,
       "population": 9573,
@@ -723,6 +803,7 @@
     {
       "id": "727987",
       "name": "Veliki Preslav",
+      "nativeName": "Велики Преслав",
       "latitude": 43.16667,
       "longitude": 26.81667,
       "population": 9425,
@@ -732,6 +813,7 @@
     {
       "id": "733462",
       "name": "Bansko",
+      "nativeName": "Банско",
       "latitude": 41.8361,
       "longitude": 23.48745,
       "population": 9232,
@@ -741,6 +823,7 @@
     {
       "id": "726141",
       "name": "Tutrakan",
+      "nativeName": "Тутракан",
       "latitude": 44.04906,
       "longitude": 26.61206,
       "population": 9214,
@@ -750,6 +833,7 @@
     {
       "id": "728634",
       "name": "Omurtag",
+      "nativeName": "Омуртаг",
       "latitude": 43.1,
       "longitude": 26.41667,
       "population": 9070,
@@ -759,6 +843,7 @@
     {
       "id": "729839",
       "name": "Kubrat",
+      "nativeName": "Кубрат",
       "latitude": 43.79658,
       "longitude": 26.50063,
       "population": 8980,
@@ -768,6 +853,7 @@
     {
       "id": "726524",
       "name": "Svoge",
+      "nativeName": "Своге",
       "latitude": 42.96667,
       "longitude": 23.35,
       "population": 8964,
@@ -777,6 +863,7 @@
     {
       "id": "729936",
       "name": "Krichim",
+      "nativeName": "Кричим",
       "latitude": 42.05,
       "longitude": 24.46667,
       "population": 8580,
@@ -786,6 +873,7 @@
     {
       "id": "729489",
       "name": "Lyaskovets",
+      "nativeName": "Лясковец",
       "latitude": 43.11111,
       "longitude": 25.72833,
       "population": 8488,
@@ -794,7 +882,8 @@
     },
     {
       "id": "730987",
-      "name": "Gŭlŭbovo",
+      "name": "Galabovo",
+      "nativeName": "Гълъбово",
       "latitude": 42.13333,
       "longitude": 25.85,
       "population": 8400,
@@ -804,6 +893,7 @@
     {
       "id": "727801",
       "name": "Rakitovo",
+      "nativeName": "Ракитово",
       "latitude": 41.99012,
       "longitude": 24.0873,
       "population": 8376,
@@ -813,6 +903,7 @@
     {
       "id": "731882",
       "name": "Dryanovo",
+      "nativeName": "Дряново",
       "latitude": 42.97897,
       "longitude": 25.4785,
       "population": 8346,
@@ -822,6 +913,7 @@
     {
       "id": "732280",
       "name": "Devnya",
+      "nativeName": "Девня",
       "latitude": 43.22222,
       "longitude": 27.56944,
       "population": 8171,
@@ -831,6 +923,7 @@
     {
       "id": "728251",
       "name": "Pirdop",
+      "nativeName": "Пирдоп",
       "latitude": 42.7,
       "longitude": 24.18333,
       "population": 8136,
@@ -840,6 +933,7 @@
     {
       "id": "727354",
       "name": "Septemvri",
+      "nativeName": "Септември",
       "latitude": 42.22016,
       "longitude": 24.11854,
       "population": 8071,
@@ -849,6 +943,7 @@
     {
       "id": "729466",
       "name": "Lyubimets",
+      "nativeName": "Любимец",
       "latitude": 41.84432,
       "longitude": 26.08115,
       "population": 8065,
@@ -858,6 +953,7 @@
     {
       "id": "725213",
       "name": "Beloslav",
+      "nativeName": "Белослав",
       "latitude": 43.18717,
       "longitude": 27.70352,
       "population": 7989,
@@ -867,6 +963,7 @@
     {
       "id": "730419",
       "name": "Hisarya",
+      "nativeName": "Хисаря",
       "latitude": 42.5,
       "longitude": 24.7,
       "population": 7903,
@@ -876,6 +973,7 @@
     {
       "id": "731464",
       "name": "General Toshevo",
+      "nativeName": "Генерал Тошево",
       "latitude": 43.70123,
       "longitude": 28.03787,
       "population": 7758,
@@ -885,6 +983,7 @@
     {
       "id": "727069",
       "name": "Slivnitsa",
+      "nativeName": "Сливница",
       "latitude": 42.85182,
       "longitude": 23.03792,
       "population": 7545,
@@ -894,6 +993,7 @@
     {
       "id": "725623",
       "name": "Varshets",
+      "nativeName": "Вършец",
       "latitude": 43.19356,
       "longitude": 23.2868,
       "population": 7512,
@@ -903,6 +1003,7 @@
     {
       "id": "733359",
       "name": "Belene",
+      "nativeName": "Белене",
       "latitude": 43.65062,
       "longitude": 25.1343,
       "population": 7487,
@@ -912,6 +1013,7 @@
     {
       "id": "732285",
       "name": "Devin",
+      "nativeName": "Девин",
       "latitude": 41.74327,
       "longitude": 24.40003,
       "population": 7393,
@@ -921,6 +1023,7 @@
     {
       "id": "727217",
       "name": "Simeonovgrad",
+      "nativeName": "Симеоновград",
       "latitude": 42.03333,
       "longitude": 25.83333,
       "population": 7388,
@@ -930,6 +1033,7 @@
     {
       "id": "731675",
       "name": "Elin Pelin",
+      "nativeName": "Елин Пелин",
       "latitude": 42.66667,
       "longitude": 23.6,
       "population": 7373,
@@ -939,6 +1043,7 @@
     {
       "id": "725271",
       "name": "Zlatograd",
+      "nativeName": "Златоград",
       "latitude": 41.3795,
       "longitude": 25.09605,
       "population": 7331,
@@ -948,6 +1053,7 @@
     {
       "id": "731453",
       "name": "Dolni Chiflik",
+      "nativeName": "Долни чифлик",
       "latitude": 42.99296,
       "longitude": 27.71596,
       "population": 7169,
@@ -957,6 +1063,7 @@
     {
       "id": "733716",
       "name": "Aksakovo",
+      "nativeName": "Аксаково",
       "latitude": 43.25907,
       "longitude": 27.81755,
       "population": 7132,
@@ -966,6 +1073,7 @@
     {
       "id": "730287",
       "name": "Knezha",
+      "nativeName": "Кнежа",
       "latitude": 43.5,
       "longitude": 24.08333,
       "population": 6889,
@@ -975,6 +1083,7 @@
     {
       "id": "726474",
       "name": "Tervel",
+      "nativeName": "Тервел",
       "latitude": 43.74789,
       "longitude": 27.40911,
       "population": 6808,
@@ -984,6 +1093,7 @@
     {
       "id": "731818",
       "name": "Dulovo",
+      "nativeName": "Дулово",
       "latitude": 43.81667,
       "longitude": 27.15,
       "population": 6788,
@@ -993,6 +1103,7 @@
     {
       "id": "727212",
       "name": "Simitli",
+      "nativeName": "Симитли",
       "latitude": 41.88333,
       "longitude": 23.11667,
       "population": 6729,
@@ -1002,6 +1113,7 @@
     {
       "id": "726130",
       "name": "Tvarditsa",
+      "nativeName": "Твърдица",
       "latitude": 42.7,
       "longitude": 25.9,
       "population": 6519,
@@ -1011,6 +1123,7 @@
     {
       "id": "726384",
       "name": "Topolovgrad",
+      "nativeName": "Тополовград",
       "latitude": 42.08333,
       "longitude": 26.33333,
       "population": 6464,
@@ -1020,6 +1133,7 @@
     {
       "id": "726657",
       "name": "Saedinenie",
+      "nativeName": "Съединение",
       "latitude": 42.26667,
       "longitude": 24.55,
       "population": 6427,
@@ -1029,6 +1143,7 @@
     {
       "id": "730073",
       "name": "Kotel",
+      "nativeName": "Котел",
       "latitude": 42.88333,
       "longitude": 26.45,
       "population": 6421,
@@ -1038,6 +1153,7 @@
     {
       "id": "733151",
       "name": "Bobov Dol",
+      "nativeName": "Бобов дол",
       "latitude": 42.36378,
       "longitude": 22.99827,
       "population": 6184,
@@ -1047,6 +1163,7 @@
     {
       "id": "729125",
       "name": "Tsarevo",
+      "nativeName": "Царево",
       "latitude": 42.16955,
       "longitude": 27.84541,
       "population": 6085,
@@ -1056,6 +1173,7 @@
     {
       "id": "731696",
       "name": "Elena",
+      "nativeName": "Елена",
       "latitude": 42.93333,
       "longitude": 25.88333,
       "population": 6042,
@@ -1065,6 +1183,7 @@
     {
       "id": "725586",
       "name": "Yakoruda",
+      "nativeName": "Якоруда",
       "latitude": 42.02528,
       "longitude": 23.68417,
       "population": 6008,
@@ -1074,6 +1193,7 @@
     {
       "id": "726748",
       "name": "Straldzha",
+      "nativeName": "Стралджа",
       "latitude": 42.6,
       "longitude": 26.68333,
       "population": 5817,
@@ -1083,6 +1203,7 @@
     {
       "id": "725283",
       "name": "Zlatitsa",
+      "nativeName": "Златица",
       "latitude": 42.71667,
       "longitude": 24.13333,
       "population": 5786,
@@ -1092,6 +1213,7 @@
     {
       "id": "726727",
       "name": "Strazhitsa",
+      "nativeName": "Стражица",
       "latitude": 43.23333,
       "longitude": 25.96667,
       "population": 5728,
@@ -1101,6 +1223,7 @@
     {
       "id": "733309",
       "name": "Belogradchik",
+      "nativeName": "Белоградчик",
       "latitude": 43.62722,
       "longitude": 22.68361,
       "population": 5688,
@@ -1110,6 +1233,7 @@
     {
       "id": "728124",
       "name": "Polski Trambesh",
+      "nativeName": "Полски Тръмбеш",
       "latitude": 43.37233,
       "longitude": 25.63525,
       "population": 5663,
@@ -1119,6 +1243,7 @@
     {
       "id": "729439",
       "name": "Madan",
+      "nativeName": "Мадан",
       "latitude": 41.49869,
       "longitude": 24.93973,
       "population": 5661,
@@ -1128,6 +1253,7 @@
     {
       "id": "732627",
       "name": "Chepelare",
+      "nativeName": "Чепеларе",
       "latitude": 41.73333,
       "longitude": 24.68333,
       "population": 5478,
@@ -1137,6 +1263,7 @@
     {
       "id": "728321",
       "name": "Perushtitsa",
+      "nativeName": "Перущица",
       "latitude": 42.05,
       "longitude": 24.55,
       "population": 5350,
@@ -1146,6 +1273,7 @@
     {
       "id": "731822",
       "name": "Dalgopol",
+      "nativeName": "Дългопол",
       "latitude": 43.05,
       "longitude": 27.35,
       "population": 5272,
@@ -1155,6 +1283,7 @@
     {
       "id": "729896",
       "name": "Krumovgrad",
+      "nativeName": "Крумовград",
       "latitude": 41.47127,
       "longitude": 25.65485,
       "population": 5271,
@@ -1164,6 +1293,7 @@
     {
       "id": "732099",
       "name": "Dolni Dabnik",
+      "nativeName": "Долни Дъбник",
       "latitude": 43.4,
       "longitude": 24.43333,
       "population": 5259,
@@ -1173,6 +1303,7 @@
     {
       "id": "725683",
       "name": "Valchedram",
+      "nativeName": "Вълчедръм",
       "latitude": 43.69281,
       "longitude": 23.44518,
       "population": 5207,
@@ -1182,6 +1313,7 @@
     {
       "id": "725935",
       "name": "Vetovo",
+      "nativeName": "Ветово",
       "latitude": 43.7,
       "longitude": 26.26667,
       "population": 5175,
@@ -1191,6 +1323,7 @@
     {
       "id": "731384",
       "name": "Godech",
+      "nativeName": "Годеч",
       "latitude": 43.01682,
       "longitude": 23.04852,
       "population": 5154,
@@ -1200,6 +1333,7 @@
     {
       "id": "728851",
       "name": "Nedelino",
+      "nativeName": "Неделино",
       "latitude": 41.45602,
       "longitude": 25.08008,
       "population": 5017,
@@ -1209,6 +1343,7 @@
     {
       "id": "728565",
       "name": "Oryahovo",
+      "nativeName": "Оряхово",
       "latitude": 43.73805,
       "longitude": 23.95874,
       "population": 5007,
@@ -1218,6 +1353,7 @@
     {
       "id": "732145",
       "name": "Dolna Banya",
+      "nativeName": "Долна баня",
       "latitude": 42.31093,
       "longitude": 23.76459,
       "population": 4990,
@@ -1227,6 +1363,7 @@
     {
       "id": "730680",
       "name": "Kameno",
+      "nativeName": "Камено",
       "latitude": 42.57084,
       "longitude": 27.29875,
       "population": 4952,
@@ -1236,6 +1373,7 @@
     {
       "id": "727087",
       "name": "Slavyanovo",
+      "nativeName": "Славяново",
       "latitude": 43.46667,
       "longitude": 24.86667,
       "population": 4793,
@@ -1245,6 +1383,7 @@
     {
       "id": "727441",
       "name": "Sapareva Banya",
+      "nativeName": "Сапарева баня",
       "latitude": 42.28923,
       "longitude": 23.26313,
       "population": 4610,
@@ -1254,6 +1393,7 @@
     {
       "id": "732924",
       "name": "Bratsigovo",
+      "nativeName": "Брацигово",
       "latitude": 42.02391,
       "longitude": 24.37557,
       "population": 4577,
@@ -1263,6 +1403,7 @@
     {
       "id": "726591",
       "name": "Suvorovo",
+      "nativeName": "Суворово",
       "latitude": 43.33058,
       "longitude": 27.59908,
       "population": 4563,
@@ -1272,6 +1413,7 @@
     {
       "id": "726723",
       "name": "Strelcha",
+      "nativeName": "Стрелча",
       "latitude": 42.5,
       "longitude": 24.31667,
       "population": 4545,
@@ -1281,6 +1423,7 @@
     {
       "id": "731771",
       "name": "Dve Mogili",
+      "nativeName": "Две могили",
       "latitude": 43.59258,
       "longitude": 25.87486,
       "population": 4526,
@@ -1290,6 +1433,7 @@
     {
       "id": "726963",
       "name": "Sozopol",
+      "nativeName": "Созопол",
       "latitude": 42.41801,
       "longitude": 27.6956,
       "population": 4500,
@@ -1299,6 +1443,7 @@
     {
       "id": "732359",
       "name": "Debelets",
+      "nativeName": "Дебелец",
       "latitude": 43.03333,
       "longitude": 25.61667,
       "population": 4418,
@@ -1308,6 +1453,7 @@
     {
       "id": "728011",
       "name": "Pravets",
+      "nativeName": "Правец",
       "latitude": 42.89163,
       "longitude": 23.91525,
       "population": 4400,
@@ -1317,6 +1463,7 @@
     {
       "id": "732954",
       "name": "Bozhurishte",
+      "nativeName": "Божурище",
       "latitude": 42.76305,
       "longitude": 23.19733,
       "population": 4360,
@@ -1326,6 +1473,7 @@
     {
       "id": "728348",
       "name": "Iskar",
+      "nativeName": "Искър",
       "latitude": 43.45963,
       "longitude": 24.25739,
       "population": 4329,
@@ -1335,6 +1483,7 @@
     {
       "id": "727025",
       "name": "Smyadovo",
+      "nativeName": "Смядово",
       "latitude": 43.06667,
       "longitude": 27.01667,
       "population": 4231,
@@ -1344,6 +1493,7 @@
     {
       "id": "733286",
       "name": "Belovo",
+      "nativeName": "Белово",
       "latitude": 42.21395,
       "longitude": 24.01733,
       "population": 4155,
@@ -1353,6 +1503,7 @@
     {
       "id": "729942",
       "name": "Kresna",
+      "nativeName": "Кресна",
       "latitude": 41.73333,
       "longitude": 23.15,
       "population": 4117,
@@ -1362,6 +1513,7 @@
     {
       "id": "732883",
       "name": "Breznik",
+      "nativeName": "Брезник",
       "latitude": 42.74085,
       "longitude": 22.90723,
       "population": 4020,
@@ -1371,6 +1523,7 @@
     {
       "id": "730415",
       "name": "Tsar Kaloyan",
+      "nativeName": "Цар Калоян",
       "latitude": 43.61667,
       "longitude": 26.25,
       "population": 3994,
@@ -1380,6 +1533,7 @@
     {
       "id": "730837",
       "name": "Ivaylovgrad",
+      "nativeName": "Ивайловград",
       "latitude": 41.52672,
       "longitude": 26.1249,
       "population": 3969,
@@ -1389,6 +1543,7 @@
     {
       "id": "733433",
       "name": "Batak",
+      "nativeName": "Батак",
       "latitude": 41.94307,
       "longitude": 24.21833,
       "population": 3917,
@@ -1398,6 +1553,7 @@
     {
       "id": "727329",
       "name": "Shabla",
+      "nativeName": "Шабла",
       "latitude": 43.53983,
       "longitude": 28.53429,
       "population": 3901,
@@ -1407,6 +1563,7 @@
     {
       "id": "725816",
       "name": "Sveti Vlas",
+      "nativeName": "Свети Влас",
       "latitude": 42.7136,
       "longitude": 27.75867,
       "population": 3875,
@@ -1416,6 +1573,7 @@
     {
       "id": "733649",
       "name": "Apriltsi",
+      "nativeName": "Априлци",
       "latitude": 42.84142,
       "longitude": 24.91759,
       "population": 3851,
@@ -1425,6 +1583,7 @@
     {
       "id": "726629",
       "name": "Sungurlare",
+      "nativeName": "Сунгурларе",
       "latitude": 42.76667,
       "longitude": 26.78333,
       "population": 3834,
@@ -1434,6 +1593,7 @@
     {
       "id": "731961",
       "name": "Dragoman",
+      "nativeName": "Драгоман",
       "latitude": 42.92191,
       "longitude": 22.93109,
       "population": 3814,
@@ -1443,6 +1603,7 @@
     {
       "id": "725649",
       "name": "Varbitsa",
+      "nativeName": "Върбица",
       "latitude": 43,
       "longitude": 26.63333,
       "population": 3803,
@@ -1452,6 +1613,7 @@
     {
       "id": "727552",
       "name": "Rudozem",
+      "nativeName": "Рудозем",
       "latitude": 41.48751,
       "longitude": 24.84945,
       "population": 3783,
@@ -1461,6 +1623,7 @@
     {
       "id": "729825",
       "name": "Kula",
+      "nativeName": "Кула",
       "latitude": 43.8879,
       "longitude": 22.52241,
       "population": 3738,
@@ -1470,6 +1633,7 @@
     {
       "id": "729040",
       "name": "Mizia",
+      "nativeName": "Мизия",
       "latitude": 43.68623,
       "longitude": 23.85371,
       "population": 3712,
@@ -1478,7 +1642,8 @@
     },
     {
       "id": "725679",
-      "name": "Valchidol",
+      "name": "Valchi Dol",
+      "nativeName": "Вълчи дол",
       "latitude": 43.4,
       "longitude": 27.55,
       "population": 3697,
@@ -1488,6 +1653,7 @@
     {
       "id": "729909",
       "name": "Krivodol",
+      "nativeName": "Криводол",
       "latitude": 43.37444,
       "longitude": 23.48444,
       "population": 3651,
@@ -1497,6 +1663,7 @@
     {
       "id": "728928",
       "name": "Maglizh",
+      "nativeName": "Мъглиж",
       "latitude": 42.6,
       "longitude": 25.55,
       "population": 3643,
@@ -1506,6 +1673,7 @@
     {
       "id": "730542",
       "name": "Kaspichan",
+      "nativeName": "Каспичан",
       "latitude": 43.31667,
       "longitude": 27.16667,
       "population": 3635,
@@ -1515,6 +1683,7 @@
     {
       "id": "728782",
       "name": "Nikopol",
+      "nativeName": "Никопол",
       "latitude": 43.70528,
       "longitude": 24.89521,
       "population": 3629,
@@ -1524,6 +1693,7 @@
     {
       "id": "725435",
       "name": "Zavet",
+      "nativeName": "Завет",
       "latitude": 43.76036,
       "longitude": 26.68063,
       "population": 3589,
@@ -1533,6 +1703,7 @@
     {
       "id": "730982",
       "name": "Gulyantsi",
+      "nativeName": "Гулянци",
       "latitude": 43.64109,
       "longitude": 24.69368,
       "population": 3589,
@@ -1542,6 +1713,7 @@
     {
       "id": "727598",
       "name": "Roman",
+      "nativeName": "Роман",
       "latitude": 43.15,
       "longitude": 23.91667,
       "population": 3571,
@@ -1551,6 +1723,7 @@
     {
       "id": "727964",
       "name": "Primorsko",
+      "nativeName": "Приморско",
       "latitude": 42.26791,
       "longitude": 27.75611,
       "population": 3531,
@@ -1560,6 +1733,7 @@
     {
       "id": "733638",
       "name": "Ardino",
+      "nativeName": "Ардино",
       "latitude": 41.58322,
       "longitude": 25.13371,
       "population": 3531,
@@ -1569,6 +1743,7 @@
     {
       "id": "729646",
       "name": "Letnitsa",
+      "nativeName": "Летница",
       "latitude": 43.31167,
       "longitude": 25.07333,
       "population": 3528,
@@ -1578,6 +1753,7 @@
     {
       "id": "726612",
       "name": "Sarnitsa",
+      "nativeName": "Сърница",
       "latitude": 41.73835,
       "longitude": 24.02435,
       "population": 3511,
@@ -1587,6 +1763,7 @@
     {
       "id": "732122",
       "name": "Dolna Mitropolia",
+      "nativeName": "Долна Митрополия",
       "latitude": 43.46667,
       "longitude": 24.53333,
       "population": 3479,
@@ -1596,6 +1773,7 @@
     {
       "id": "731809",
       "name": "Dunavtsi",
+      "nativeName": "Дунавци",
       "latitude": 43.92111,
       "longitude": 22.82111,
       "population": 3371,
@@ -1605,6 +1783,7 @@
     {
       "id": "729322",
       "name": "Malko Tarnovo",
+      "nativeName": "Малко Търново",
       "latitude": 41.97958,
       "longitude": 27.52477,
       "population": 3336,
@@ -1614,6 +1793,7 @@
     {
       "id": "731741",
       "name": "Dzhebel",
+      "nativeName": "Джебел",
       "latitude": 41.49566,
       "longitude": 25.30363,
       "population": 3329,
@@ -1623,6 +1803,7 @@
     {
       "id": "732825",
       "name": "Buhovo",
+      "nativeName": "Бухово",
       "latitude": 42.76667,
       "longitude": 23.56667,
       "population": 3283,
@@ -1632,6 +1813,7 @@
     {
       "id": "729509",
       "name": "Laki",
+      "nativeName": "Лъки",
       "latitude": 41.85,
       "longitude": 24.81667,
       "population": 3258,
@@ -1640,7 +1822,8 @@
     },
     {
       "id": "727067",
-      "name": "Slivo Pole",
+      "name": "Slivo pole",
+      "nativeName": "Сливо поле",
       "latitude": 43.94248,
       "longitude": 26.20464,
       "population": 3252,
@@ -1650,6 +1833,7 @@
     {
       "id": "730744",
       "name": "Kalofer",
+      "nativeName": "Калофер",
       "latitude": 42.61667,
       "longitude": 24.98333,
       "population": 3248,
@@ -1659,6 +1843,7 @@
     {
       "id": "725611",
       "name": "Yablanitsa",
+      "nativeName": "Ябланица",
       "latitude": 43.02813,
       "longitude": 24.10244,
       "population": 3237,
@@ -1668,6 +1853,7 @@
     {
       "id": "728389",
       "name": "Pavel Banya",
+      "nativeName": "Павел баня",
       "latitude": 42.6,
       "longitude": 25.2,
       "population": 3212,
@@ -1677,6 +1863,7 @@
     {
       "id": "730464",
       "name": "Hadzhidimovo",
+      "nativeName": "Хаджидимово",
       "latitude": 41.52222,
       "longitude": 23.86861,
       "population": 3167,
@@ -1686,6 +1873,7 @@
     {
       "id": "733322",
       "name": "Belitsa",
+      "nativeName": "Белица",
       "latitude": 41.95077,
       "longitude": 23.55831,
       "population": 3166,
@@ -1695,6 +1883,7 @@
     {
       "id": "728795",
       "name": "Nikolaevo",
+      "nativeName": "Николаево",
       "latitude": 42.63333,
       "longitude": 25.8,
       "population": 3160,
@@ -1704,6 +1893,7 @@
     {
       "id": "726307",
       "name": "Tran",
+      "nativeName": "Трън",
       "latitude": 42.83528,
       "longitude": 22.65167,
       "population": 3102,
@@ -1713,6 +1903,7 @@
     {
       "id": "732717",
       "name": "Byala Cherkva",
+      "nativeName": "Бяла черква",
       "latitude": 43.2,
       "longitude": 25.3,
       "population": 3010,
@@ -1722,6 +1913,7 @@
     {
       "id": "727628",
       "name": "Rila",
+      "nativeName": "Рила",
       "latitude": 42.12625,
       "longitude": 23.13283,
       "population": 3002,
@@ -1731,6 +1923,7 @@
     {
       "id": "728631",
       "name": "Opaka",
+      "nativeName": "Опака",
       "latitude": 43.45,
       "longitude": 26.16667,
       "population": 3002,
@@ -1740,6 +1933,7 @@
     {
       "id": "729530",
       "name": "Loznitsa",
+      "nativeName": "Лозница",
       "latitude": 43.36667,
       "longitude": 26.6,
       "population": 2971,
@@ -1749,6 +1943,7 @@
     {
       "id": "726114",
       "name": "Ugarchin",
+      "nativeName": "Угърчин",
       "latitude": 43.1,
       "longitude": 24.41667,
       "population": 2965,
@@ -1758,6 +1953,7 @@
     {
       "id": "732915",
       "name": "Bregovo",
+      "nativeName": "Брегово",
       "latitude": 44.15191,
       "longitude": 22.63877,
       "population": 2892,
@@ -1767,6 +1963,7 @@
     {
       "id": "730969",
       "name": "Gurkovo",
+      "nativeName": "Гурково",
       "latitude": 42.66667,
       "longitude": 25.8,
       "population": 2889,
@@ -1776,6 +1973,7 @@
     {
       "id": "730159",
       "name": "Koprivshtitsa",
+      "nativeName": "Копривщица",
       "latitude": 42.63333,
       "longitude": 24.35,
       "population": 2885,
@@ -1785,6 +1983,7 @@
     {
       "id": "730268",
       "name": "Kocherinovo",
+      "nativeName": "Кочериново",
       "latitude": 42.08439,
       "longitude": 23.0571,
       "population": 2872,
@@ -1794,6 +1993,7 @@
     {
       "id": "729888",
       "name": "Kran",
+      "nativeName": "Крън",
       "latitude": 42.66667,
       "longitude": 25.38333,
       "population": 2826,

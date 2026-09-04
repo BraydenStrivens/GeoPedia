@@ -3,6 +3,7 @@
     {
       "id": "146268",
       "name": "Nicosia",
+      "nativeName": "Λευκωσία - Lefkoşa",
       "latitude": 35.17284,
       "longitude": 33.35397,
       "population": 200452,
@@ -12,6 +13,7 @@
     {
       "id": "146384",
       "name": "Limassol",
+      "nativeName": "Λεμεσός",
       "latitude": 34.68406,
       "longitude": 33.03794,
       "population": 154000,
@@ -21,6 +23,7 @@
     {
       "id": "146400",
       "name": "Larnaca",
+      "nativeName": "Λάρνακα",
       "latitude": 34.9221,
       "longitude": 33.62794,
       "population": 72000,
@@ -29,7 +32,8 @@
     },
     {
       "id": "146054",
-      "name": "Stróvolos",
+      "name": "Strovolos",
+      "nativeName": "Στρόβολος",
       "latitude": 35.14867,
       "longitude": 33.33384,
       "population": 67904,
@@ -39,6 +43,7 @@
     {
       "id": "146617",
       "name": "Famagusta",
+      "nativeName": "Gazimağusa",
       "latitude": 35.12489,
       "longitude": 33.94135,
       "population": 42526,
@@ -47,7 +52,8 @@
     },
     {
       "id": "146523",
-      "name": "Káto Lakatámeia",
+      "name": "Lakatamia",
+      "nativeName": "Λακατάμεια",
       "latitude": 35.11755,
       "longitude": 33.32539,
       "population": 40000,
@@ -57,6 +63,7 @@
     {
       "id": "146214",
       "name": "Paphos",
+      "nativeName": "Πάφος",
       "latitude": 34.77679,
       "longitude": 32.42451,
       "population": 35961,
@@ -66,6 +73,7 @@
     {
       "id": "146412",
       "name": "Kyrenia",
+      "nativeName": "Girne",
       "latitude": 35.33634,
       "longitude": 33.31729,
       "population": 26701,
@@ -74,7 +82,8 @@
     },
     {
       "id": "146286",
-      "name": "Mórfou",
+      "name": "Morphou",
+      "nativeName": "Güzelyurt",
       "latitude": 35.19869,
       "longitude": 32.99338,
       "population": 24070,
@@ -83,7 +92,8 @@
     },
     {
       "id": "146516",
-      "name": "Káto Polemídia",
+      "name": "Kato Polemidia",
+      "nativeName": "Κάτω Πολεμίδια",
       "latitude": 34.69721,
       "longitude": 32.99324,
       "population": 23231,
@@ -92,7 +102,8 @@
     },
     {
       "id": "146796",
-      "name": "Aradíppou",
+      "name": "Aradhippou",
+      "nativeName": "Αραδίππου",
       "latitude": 34.94779,
       "longitude": 33.58813,
       "population": 22934,
@@ -102,6 +113,7 @@
     {
       "id": "18918",
       "name": "Protaras",
+      "nativeName": "Πρωταράς",
       "latitude": 35.0125,
       "longitude": 34.05833,
       "population": 20230,
@@ -110,7 +122,8 @@
     },
     {
       "id": "145963",
-      "name": "Germasógeia",
+      "name": "Yermasoyia",
+      "nativeName": "Γερμασόγεια",
       "latitude": 34.72073,
       "longitude": 33.08447,
       "population": 17325,
@@ -119,7 +132,8 @@
     },
     {
       "id": "146666",
-      "name": "Dáli",
+      "name": "Dali",
+      "nativeName": "Δάλι",
       "latitude": 35.02294,
       "longitude": 33.42195,
       "population": 12350,
@@ -128,7 +142,8 @@
     },
     {
       "id": "146209",
-      "name": "Paralímni",
+      "name": "Paralimni",
+      "nativeName": "Παραλίμνι",
       "latitude": 35.03945,
       "longitude": 33.98181,
       "population": 11836,
@@ -137,7 +152,8 @@
     },
     {
       "id": "145964",
-      "name": "Géri",
+      "name": "Yeri",
+      "nativeName": "Γέρι",
       "latitude": 35.1056,
       "longitude": 33.41977,
       "population": 9651,
@@ -147,6 +163,7 @@
     {
       "id": "11919534",
       "name": "Geroskipou",
+      "nativeName": "Γεροσκήπου",
       "latitude": 34.76091,
       "longitude": 32.44844,
       "population": 8355,
@@ -155,7 +172,8 @@
     },
     {
       "id": "146392",
-      "name": "Léfka",
+      "name": "Lefka",
+      "nativeName": "Lefke",
       "latitude": 35.11199,
       "longitude": 32.84997,
       "population": 7835,
@@ -164,7 +182,8 @@
     },
     {
       "id": "145952",
-      "name": "Ýpsonas",
+      "name": "Ypsonas",
+      "nativeName": "Ύψωνας",
       "latitude": 34.68797,
       "longitude": 32.96191,
       "population": 7348,
@@ -173,7 +192,8 @@
     },
     {
       "id": "146654",
-      "name": "Dhromolaxia",
+      "name": "Dromolaxia",
+      "nativeName": "Δρομολαξιά",
       "latitude": 34.87551,
       "longitude": 33.58684,
       "population": 6866,
@@ -182,7 +202,8 @@
     },
     {
       "id": "146490",
-      "name": "Chlórakas",
+      "name": "Chloraka",
+      "nativeName": "Χλώρακας",
       "latitude": 34.79836,
       "longitude": 32.40653,
       "population": 6421,
@@ -191,7 +212,8 @@
     },
     {
       "id": "146661",
-      "name": "Derýneia",
+      "name": "Deryneia",
+      "nativeName": "Δερύνεια",
       "latitude": 35.06484,
       "longitude": 33.96083,
       "population": 6229,
@@ -200,7 +222,8 @@
     },
     {
       "id": "145972",
-      "name": "Xylofágou",
+      "name": "Xylofagou",
+      "nativeName": "Ξυλοφάγου",
       "latitude": 34.97743,
       "longitude": 33.84894,
       "population": 6000,
@@ -209,7 +232,8 @@
     },
     {
       "id": "146639",
-      "name": "Emba",
+      "name": "Empa",
+      "nativeName": "Έμπα",
       "latitude": 34.807,
       "longitude": 32.42406,
       "population": 5505,
@@ -218,7 +242,8 @@
     },
     {
       "id": "145981",
-      "name": "Tséri",
+      "name": "Tseri",
+      "nativeName": "Τσέρι",
       "latitude": 35.07307,
       "longitude": 33.32344,
       "population": 5498,
@@ -227,7 +252,8 @@
     },
     {
       "id": "146105",
-      "name": "Rizokárpaso",
+      "name": "Rizokarpaso",
+      "nativeName": "Dipkarpaz",
       "latitude": 35.59719,
       "longitude": 34.37916,
       "population": 5215,
@@ -236,7 +262,8 @@
     },
     {
       "id": "146403",
-      "name": "Lápithos",
+      "name": "Lapithos",
+      "nativeName": "Lapta",
       "latitude": 35.33823,
       "longitude": 33.17368,
       "population": 5215,
@@ -245,7 +272,8 @@
     },
     {
       "id": "146768",
-      "name": "Athíenou",
+      "name": "Athienou",
+      "nativeName": "Αθηένου",
       "latitude": 35.06183,
       "longitude": 33.54166,
       "population": 5202,
@@ -254,7 +282,8 @@
     },
     {
       "id": "146469",
-      "name": "Kíti",
+      "name": "Kiti",
+      "nativeName": "Κίτι",
       "latitude": 34.84898,
       "longitude": 33.57523,
       "population": 5136,
@@ -264,6 +293,7 @@
     {
       "id": "146748",
       "name": "Ayia Napa",
+      "nativeName": "Αγία Νάπα",
       "latitude": 34.98213,
       "longitude": 34.00183,
       "population": 4717,
@@ -272,7 +302,8 @@
     },
     {
       "id": "146027",
-      "name": "Tríkomo",
+      "name": "Trikomo",
+      "nativeName": "İskele",
       "latitude": 35.28628,
       "longitude": 33.89167,
       "population": 4490,
@@ -281,7 +312,8 @@
     },
     {
       "id": "146033",
-      "name": "Trachóni",
+      "name": "Trachoni",
+      "nativeName": "Τραχώνι",
       "latitude": 34.65756,
       "longitude": 32.96534,
       "population": 4113,
@@ -290,7 +322,8 @@
     },
     {
       "id": "145987",
-      "name": "Voróklini",
+      "name": "Oroklini",
+      "nativeName": "Ορόκλινη",
       "latitude": 34.98138,
       "longitude": 33.65648,
       "population": 3446,
@@ -299,7 +332,8 @@
     },
     {
       "id": "146391",
-      "name": "Lefkónoiko",
+      "name": "Lefkoniko",
+      "nativeName": "Geçitkale",
       "latitude": 35.2598,
       "longitude": 33.73189,
       "population": 3187,
@@ -308,7 +342,8 @@
     },
     {
       "id": "146175",
-      "name": "Pégeia",
+      "name": "Peyia",
+      "nativeName": "Πέγεια",
       "latitude": 34.88385,
       "longitude": 32.38188,
       "population": 2462,
@@ -317,7 +352,8 @@
     },
     {
       "id": "146137",
-      "name": "Pólis",
+      "name": "Polis",
+      "nativeName": "Πόλις",
       "latitude": 35.03403,
       "longitude": 32.4255,
       "population": 1975,
@@ -325,21 +361,13 @@
       "isCapital": false
     },
     {
-      "id": "146628",
-      "name": "Erími",
-      "latitude": 34.67766,
-      "longitude": 32.91815,
-      "population": 1493,
-      "populationRank": 37,
-      "isCapital": false
-    },
-    {
       "id": "146220",
-      "name": "Páno Léfkara",
+      "name": "Pano Lefkara",
+      "nativeName": "Πάνω Λεύκαρα",
       "latitude": 34.81667,
       "longitude": 33.28333,
       "population": 957,
-      "populationRank": 38,
+      "populationRank": 37,
       "isCapital": false
     }
   ]

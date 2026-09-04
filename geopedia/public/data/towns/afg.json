@@ -3,6 +3,7 @@
     {
       "id": "1138958",
       "name": "Kabul",
+      "nativeName": "کابل",
       "latitude": 34.52813,
       "longitude": 69.17233,
       "population": 4434550,
@@ -11,7 +12,8 @@
     },
     {
       "id": "1140026",
-      "name": "Herāt",
+      "name": "Herat",
+      "nativeName": "هرات",
       "latitude": 34.34817,
       "longitude": 62.19967,
       "population": 574300,
@@ -20,7 +22,8 @@
     },
     {
       "id": "1133616",
-      "name": "Mazār-e Sharīf",
+      "name": "Mazar-i-Sharif",
+      "nativeName": "مزار شريف",
       "latitude": 36.70904,
       "longitude": 67.11087,
       "population": 523300,
@@ -29,7 +32,8 @@
     },
     {
       "id": "1138336",
-      "name": "Kandahār",
+      "name": "Kandahar",
+      "nativeName": "کندهار",
       "latitude": 31.61332,
       "longitude": 65.71013,
       "population": 523300,
@@ -38,7 +42,8 @@
     },
     {
       "id": "1139715",
-      "name": "Jalālābād",
+      "name": "Jalalabad",
+      "nativeName": "جلال آباد",
       "latitude": 34.42647,
       "longitude": 70.45153,
       "population": 271900,
@@ -48,6 +53,7 @@
     {
       "id": "1135689",
       "name": "Kunduz",
+      "nativeName": "کندوز",
       "latitude": 36.72895,
       "longitude": 68.857,
       "population": 161902,
@@ -57,6 +63,7 @@
     {
       "id": "1141269",
       "name": "Ghazni",
+      "nativeName": "غزني",
       "latitude": 33.55391,
       "longitude": 68.42096,
       "population": 141000,
@@ -66,6 +73,7 @@
     {
       "id": "1147290",
       "name": "Balkh",
+      "nativeName": "بلخ",
       "latitude": 36.75635,
       "longitude": 66.8972,
       "population": 114883,
@@ -74,7 +82,8 @@
     },
     {
       "id": "1147513",
-      "name": "Bagrām",
+      "name": "Bagram",
+      "nativeName": "بگرام",
       "latitude": 34.96694,
       "longitude": 69.265,
       "population": 113173,
@@ -83,7 +92,8 @@
     },
     {
       "id": "1147540",
-      "name": "Baghlān",
+      "name": "Baghlan",
+      "nativeName": "بغلان",
       "latitude": 36.13068,
       "longitude": 68.70829,
       "population": 108449,
@@ -93,6 +103,7 @@
     {
       "id": "1141857",
       "name": "Gardez",
+      "nativeName": "گردیز",
       "latitude": 33.59744,
       "longitude": 69.22592,
       "population": 103601,
@@ -101,7 +112,8 @@
     },
     {
       "id": "1136469",
-      "name": "Khōst",
+      "name": "Khost",
+      "nativeName": "خوست",
       "latitude": 33.33951,
       "longitude": 69.92041,
       "population": 96123,
@@ -111,6 +123,7 @@
     {
       "id": "1133453",
       "name": "Maymana",
+      "nativeName": "میمنه",
       "latitude": 35.92139,
       "longitude": 64.78361,
       "population": 75900,
@@ -120,6 +133,7 @@
     {
       "id": "1137168",
       "name": "Khanabad",
+      "nativeName": "خان اباد ولسوالۍ",
       "latitude": 36.68304,
       "longitude": 69.11279,
       "population": 71531,
@@ -129,6 +143,7 @@
     {
       "id": "1136575",
       "name": "Khulm",
+      "nativeName": "خلم",
       "latitude": 36.69736,
       "longitude": 67.69826,
       "population": 64933,
@@ -138,6 +153,7 @@
     {
       "id": "1123004",
       "name": "Taloqan",
+      "nativeName": "تالقان ښار",
       "latitude": 36.73605,
       "longitude": 69.53451,
       "population": 64256,
@@ -146,7 +162,8 @@
     },
     {
       "id": "1147242",
-      "name": "Bāmyān",
+      "name": "Bamian",
+      "nativeName": "بامیان",
       "latitude": 34.82156,
       "longitude": 67.82734,
       "population": 61863,
@@ -155,7 +172,8 @@
     },
     {
       "id": "1130490",
-      "name": "Pul-e Khumrī",
+      "name": "Puli Khumri",
+      "nativeName": "پل خمری",
       "latitude": 35.94458,
       "longitude": 68.71512,
       "population": 56369,
@@ -164,7 +182,8 @@
     },
     {
       "id": "1125444",
-      "name": "Shibirghān",
+      "name": "Sheberghan",
+      "nativeName": "شبرغان",
       "latitude": 36.66757,
       "longitude": 65.7529,
       "population": 55641,
@@ -174,6 +193,7 @@
     {
       "id": "1145352",
       "name": "Charikar",
+      "nativeName": "چاریکار",
       "latitude": 35.01361,
       "longitude": 69.17139,
       "population": 53676,
@@ -182,7 +202,8 @@
     },
     {
       "id": "1127110",
-      "name": "Sar-e Pul",
+      "name": "Sar-e Pol",
+      "nativeName": "سر پل",
       "latitude": 36.21544,
       "longitude": 65.93249,
       "population": 52121,
@@ -192,6 +213,7 @@
     {
       "id": "1120985",
       "name": "Zaranj",
+      "nativeName": "زرنج",
       "latitude": 30.95962,
       "longitude": 61.86037,
       "population": 49851,
@@ -200,7 +222,8 @@
     },
     {
       "id": "1131316",
-      "name": "Paghmān",
+      "name": "Paghman",
+      "nativeName": "پغمان",
       "latitude": 34.58787,
       "longitude": 68.95091,
       "population": 49157,
@@ -209,7 +232,8 @@
     },
     {
       "id": "1148311",
-      "name": "Asadābād",
+      "name": "Asadabad",
+      "nativeName": "اسعد‌آباد",
       "latitude": 34.87311,
       "longitude": 71.14697,
       "population": 48400,
@@ -218,7 +242,8 @@
     },
     {
       "id": "1127768",
-      "name": "Aībak",
+      "name": "Samangan",
+      "nativeName": "سمنگان",
       "latitude": 36.26468,
       "longitude": 68.01551,
       "population": 47823,
@@ -228,6 +253,7 @@
     {
       "id": "1142170",
       "name": "Fayzabad",
+      "nativeName": "فیض‌آباد",
       "latitude": 37.11664,
       "longitude": 70.58002,
       "population": 44421,
@@ -236,7 +262,8 @@
     },
     {
       "id": "1134720",
-      "name": "Lashkar Gāh",
+      "name": "Lashkar Gah",
+      "nativeName": "لښکرګاه",
       "latitude": 31.59382,
       "longitude": 64.37161,
       "population": 43934,
@@ -245,7 +272,8 @@
     },
     {
       "id": "1141540",
-      "name": "Gereshk",
+      "name": "Girishk",
+      "nativeName": "گرشک",
       "latitude": 31.82089,
       "longitude": 64.57005,
       "population": 43588,
@@ -255,6 +283,7 @@
     {
       "id": "1142264",
       "name": "Farah",
+      "nativeName": "فراه",
       "latitude": 32.37451,
       "longitude": 62.11638,
       "population": 43561,
@@ -264,6 +293,7 @@
     {
       "id": "1148658",
       "name": "Andkhoy",
+      "nativeName": "اندخوی",
       "latitude": 36.95293,
       "longitude": 65.12376,
       "population": 37900,
@@ -272,7 +302,8 @@
     },
     {
       "id": "1147489",
-      "name": "Bahārak",
+      "name": "Baharak",
+      "nativeName": "بهارک",
       "latitude": 37.00254,
       "longitude": 70.90664,
       "population": 32551,
@@ -281,7 +312,8 @@
     },
     {
       "id": "1131833",
-      "name": "Nīlī",
+      "name": "Nili",
+      "nativeName": "نیلي ښار",
       "latitude": 33.72178,
       "longitude": 66.13023,
       "population": 30058,
@@ -291,6 +323,7 @@
     {
       "id": "1141089",
       "name": "Ghormach",
+      "nativeName": "غورماچ",
       "latitude": 35.73062,
       "longitude": 63.78264,
       "population": 30000,
@@ -299,7 +332,8 @@
     },
     {
       "id": "1125155",
-      "name": "Shīnḏanḏ",
+      "name": "Shindand",
+      "nativeName": "شینډنډ",
       "latitude": 33.30294,
       "longitude": 62.1474,
       "population": 29264,
@@ -308,7 +342,8 @@
     },
     {
       "id": "1128265",
-      "name": "Rustāq",
+      "name": "Rustaq",
+      "nativeName": "رستاق ولسوالۍ",
       "latitude": 37.12604,
       "longitude": 69.83045,
       "population": 25636,
@@ -317,7 +352,8 @@
     },
     {
       "id": "1137079",
-      "name": "Khān Neshīn",
+      "name": "Khan Nishin",
+      "nativeName": "خان نشین",
       "latitude": 30.5488,
       "longitude": 63.7888,
       "population": 25600,
@@ -327,6 +363,7 @@
     {
       "id": "1139085",
       "name": "Jurm",
+      "nativeName": "جرم",
       "latitude": 36.86477,
       "longitude": 70.83421,
       "population": 23064,
@@ -335,7 +372,8 @@
     },
     {
       "id": "1132495",
-      "name": "Nahrīn",
+      "name": "Nahrin",
+      "nativeName": "نهرین",
       "latitude": 36.0649,
       "longitude": 69.13343,
       "population": 22363,
@@ -345,6 +383,7 @@
     {
       "id": "1147066",
       "name": "Baraki Barak",
+      "nativeName": "برکی برک",
       "latitude": 33.96744,
       "longitude": 68.9492,
       "population": 22305,
@@ -354,6 +393,7 @@
     {
       "id": "1137807",
       "name": "Karukh",
+      "nativeName": "کرخ",
       "latitude": 34.48108,
       "longitude": 62.5863,
       "population": 17484,
@@ -362,7 +402,8 @@
     },
     {
       "id": "1133574",
-      "name": "Mehtar Lām",
+      "name": "Mihtarlam",
+      "nativeName": "مهترلام",
       "latitude": 34.67139,
       "longitude": 70.20944,
       "population": 17345,
@@ -372,6 +413,7 @@
     {
       "id": "1125896",
       "name": "Shahrak",
+      "nativeName": "شهرک",
       "latitude": 34.10737,
       "longitude": 64.3052,
       "population": 15967,
@@ -380,7 +422,8 @@
     },
     {
       "id": "1148205",
-      "name": "Āsmār",
+      "name": "Asmar",
+      "nativeName": "آسمار",
       "latitude": 35.03333,
       "longitude": 71.35809,
       "population": 15708,
@@ -389,7 +432,8 @@
     },
     {
       "id": "1139807",
-      "name": "Jabal os Saraj",
+      "name": "Jabal us Saraj",
+      "nativeName": "جبل‌ سراج",
       "latitude": 35.11833,
       "longitude": 69.23778,
       "population": 15032,
@@ -398,7 +442,8 @@
     },
     {
       "id": "1129516",
-      "name": "Qarqīn",
+      "name": "Qarqin",
+      "nativeName": "قرقین",
       "latitude": 37.41853,
       "longitude": 66.04358,
       "population": 15018,
@@ -407,7 +452,8 @@
     },
     {
       "id": "1145904",
-      "name": "Fayrōz Kōh",
+      "name": "Firozkoh",
+      "nativeName": "فیروزکوه",
       "latitude": 34.51952,
       "longitude": 65.25093,
       "population": 15000,
@@ -416,7 +462,8 @@
     },
     {
       "id": "1147065",
-      "name": "Barakī",
+      "name": "Baraki Rijan",
+      "nativeName": "برکی",
       "latitude": 33.93949,
       "longitude": 68.92201,
       "population": 15000,
@@ -425,7 +472,8 @@
     },
     {
       "id": "1120863",
-      "name": "Zarghūn Shahr",
+      "name": "Zarghun Shar",
+      "nativeName": "زرغون شار",
       "latitude": 32.84734,
       "longitude": 68.44573,
       "population": 13737,
@@ -434,7 +482,8 @@
     },
     {
       "id": "1127547",
-      "name": "Sangīn",
+      "name": "Sangin",
+      "nativeName": "سنگین",
       "latitude": 32.07275,
       "longitude": 64.8359,
       "population": 13579,
@@ -443,7 +492,8 @@
     },
     {
       "id": "1131162",
-      "name": "Panjāb",
+      "name": "Panjab",
+      "nativeName": "پنجاب",
       "latitude": 34.38795,
       "longitude": 67.02327,
       "population": 13471,
@@ -452,7 +502,8 @@
     },
     {
       "id": "1130497",
-      "name": "Pul-e ‘Alam",
+      "name": "Pul-i-Alam",
+      "nativeName": "پل علم ښار",
       "latitude": 33.99529,
       "longitude": 69.02274,
       "population": 13247,
@@ -461,7 +512,8 @@
     },
     {
       "id": "1147851",
-      "name": "Ḩukūmatī Azrah",
+      "name": "Azrah",
+      "nativeName": "حکومتی ازره",
       "latitude": 34.17355,
       "longitude": 69.64573,
       "population": 12526,
@@ -470,7 +522,8 @@
     },
     {
       "id": "1130131",
-      "name": "Qalāt",
+      "name": "Qalat",
+      "nativeName": "قلات",
       "latitude": 32.10575,
       "longitude": 66.90833,
       "population": 12191,
@@ -479,7 +532,8 @@
     },
     {
       "id": "1120483",
-      "name": "Kuhsān",
+      "name": "Kohsan",
+      "nativeName": "کهسان",
       "latitude": 34.65389,
       "longitude": 61.19778,
       "population": 12087,
@@ -488,7 +542,8 @@
     },
     {
       "id": "1120487",
-      "name": "Tukzār",
+      "name": "Tukzar",
+      "nativeName": "تکزار",
       "latitude": 35.94831,
       "longitude": 66.42132,
       "population": 12021,
@@ -497,7 +552,8 @@
     },
     {
       "id": "1121271",
-      "name": "Yangī Qal‘ah",
+      "name": "Yangi Qala",
+      "nativeName": "ینگی قلعه ولسوالۍ",
       "latitude": 37.46572,
       "longitude": 69.61131,
       "population": 11100,
@@ -506,7 +562,8 @@
     },
     {
       "id": "1142239",
-      "name": "Farkhār",
+      "name": "Farkhar",
+      "nativeName": "د فرخار ولسوالۍ / ولسوالی فرخار",
       "latitude": 36.57288,
       "longitude": 69.85783,
       "population": 10480,
@@ -515,7 +572,8 @@
     },
     {
       "id": "1120711",
-      "name": "Zindah Jān",
+      "name": "Zindah Jan",
+      "nativeName": "زنده جان",
       "latitude": 34.34264,
       "longitude": 61.74675,
       "population": 10418,
@@ -524,7 +582,8 @@
     },
     {
       "id": "1148709",
-      "name": "Anār Darah",
+      "name": "Anar Darah",
+      "nativeName": "انار دره",
       "latitude": 32.7587,
       "longitude": 61.65397,
       "population": 10023,
@@ -534,6 +593,7 @@
     {
       "id": "1122747",
       "name": "Tarinkot",
+      "nativeName": "ترینکوټ",
       "latitude": 32.62998,
       "longitude": 65.87806,
       "population": 10000,
@@ -542,7 +602,8 @@
     },
     {
       "id": "1143874",
-      "name": "Darzāb",
+      "name": "Darzab",
+      "nativeName": "درز آب",
       "latitude": 35.97744,
       "longitude": 65.37828,
       "population": 9642,
@@ -552,6 +613,7 @@
     {
       "id": "1129867",
       "name": "Qala i Naw",
+      "nativeName": "قلعه نو",
       "latitude": 34.98735,
       "longitude": 63.12891,
       "population": 9000,
@@ -560,7 +622,8 @@
     },
     {
       "id": "1145001",
-      "name": "Chīchkah",
+      "name": "Archi",
+      "nativeName": "ارچی",
       "latitude": 37.07045,
       "longitude": 69.29842,
       "population": 8792,
@@ -569,7 +632,8 @@
     },
     {
       "id": "1126263",
-      "name": "Markaz-e Sayyidābād",
+      "name": "Sayyidabad",
+      "nativeName": "مرکز سيد آباد",
       "latitude": 34.00037,
       "longitude": 68.71346,
       "population": 7301,
@@ -578,7 +642,8 @@
     },
     {
       "id": "1123424",
-      "name": "Tagāb",
+      "name": "Tagab",
+      "nativeName": "تگاب",
       "latitude": 34.85501,
       "longitude": 69.64917,
       "population": 6400,
@@ -587,7 +652,8 @@
     },
     {
       "id": "1133270",
-      "name": "Mīr Bachah Kōṯ",
+      "name": "Mir Bachah Kot",
+      "nativeName": "میر بچه کوټ",
       "latitude": 34.74999,
       "longitude": 69.11899,
       "population": 5405,
@@ -596,7 +662,8 @@
     },
     {
       "id": "1144559",
-      "name": "Ḩukūmatī Dahanah-ye Ghōrī",
+      "name": "Dahaneh-ye Ghowri",
+      "nativeName": "حکومتی دهنه غوری",
       "latitude": 35.90617,
       "longitude": 68.48869,
       "population": 3307,
@@ -606,6 +673,7 @@
     {
       "id": "8534261",
       "name": "Sharan",
+      "nativeName": "ښرنه",
       "latitude": 33.17568,
       "longitude": 68.73045,
       "population": 2200,
@@ -614,7 +682,8 @@
     },
     {
       "id": "1456960",
-      "name": "Maydanshakhr",
+      "name": "Maidan Shar",
+      "nativeName": "میدان ښار",
       "latitude": 34.39561,
       "longitude": 68.86618,
       "population": 1600,
@@ -623,7 +692,8 @@
     },
     {
       "id": "1130469",
-      "name": "Pārūn",
+      "name": "Parun",
+      "nativeName": "پارون",
       "latitude": 35.42064,
       "longitude": 70.92261,
       "population": 1000,
@@ -632,7 +702,8 @@
     },
     {
       "id": "1148390",
-      "name": "Arghestān",
+      "name": "Arghestan",
+      "nativeName": "ارغستان",
       "latitude": 31.55981,
       "longitude": 66.48926,
       "population": 894,

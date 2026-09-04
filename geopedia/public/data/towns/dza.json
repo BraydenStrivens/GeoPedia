@@ -3,6 +3,7 @@
     {
       "id": "2507480",
       "name": "Algiers",
+      "nativeName": "Alger ⴷⵣⴰⵢⴻⵔ الجزائر",
       "latitude": 36.73225,
       "longitude": 3.08746,
       "population": 2364230,
@@ -12,6 +13,7 @@
     {
       "id": "2485926",
       "name": "Oran",
+      "nativeName": "Oran ⵡⴰⵀⵔⴻⵏ وهران",
       "latitude": 35.69906,
       "longitude": -0.63588,
       "population": 803329,
@@ -21,6 +23,7 @@
     {
       "id": "2501152",
       "name": "Constantine",
+      "nativeName": "قسنطينة ⵇⵙⵏⵟⵉⵏⴰ",
       "latitude": 36.365,
       "longitude": 6.61472,
       "population": 448028,
@@ -30,6 +33,7 @@
     {
       "id": "2506999",
       "name": "Annaba",
+      "nativeName": "عنابة ⵄⵏⵏⴰⴱⴰ",
       "latitude": 36.9,
       "longitude": 7.76667,
       "population": 342703,
@@ -39,6 +43,7 @@
     {
       "id": "2503769",
       "name": "Blida",
+      "nativeName": "Blida ⵍⴻⴱⵍⵉⴸⴰ البليدة",
       "latitude": 36.47004,
       "longitude": 2.8277,
       "population": 331779,
@@ -48,6 +53,7 @@
     {
       "id": "2505572",
       "name": "Batna",
+      "nativeName": "باتنة ⵜⴱⴰⵜⴻⵏⵜ",
       "latitude": 35.55597,
       "longitude": 6.17414,
       "population": 289504,
@@ -57,6 +63,7 @@
     {
       "id": "2505854",
       "name": "Bab Ezzouar",
+      "nativeName": "Bab Ezzouar ⴱⴰⴱ ⵣⵡⴰⵔ باب الزوار",
       "latitude": 36.72615,
       "longitude": 3.18291,
       "population": 275630,
@@ -66,6 +73,7 @@
     {
       "id": "2500017",
       "name": "Djelfa",
+      "nativeName": "الجلفة ⵍⵊⴻⵍⴼⴰ",
       "latitude": 34.67279,
       "longitude": 3.263,
       "population": 265833,
@@ -74,7 +82,8 @@
     },
     {
       "id": "2481700",
-      "name": "Sétif",
+      "name": "Setif",
+      "nativeName": "Setif;ⵚⵟⵉⴼ;سطيف",
       "latitude": 36.19112,
       "longitude": 5.41373,
       "population": 252127,
@@ -84,6 +93,7 @@
     {
       "id": "2481007",
       "name": "Sidi Bel Abbes",
+      "nativeName": "Sidi Bel Abbès ⵙⵉⴷⵉ ⴱⵍⵄⴰⴱⴰⵙ سيدي بلعباس",
       "latitude": 35.18994,
       "longitude": -0.63085,
       "population": 210146,
@@ -93,6 +103,7 @@
     {
       "id": "2503826",
       "name": "Biskra",
+      "nativeName": "بسكرة ⵜⵉⴱⴻⵙⴽⴻⵔⵜ",
       "latitude": 34.85038,
       "longitude": 5.72805,
       "population": 204661,
@@ -101,7 +112,8 @@
     },
     {
       "id": "2477461",
-      "name": "Tébessa",
+      "name": "Tebessa",
+      "nativeName": "تبسة ⵜⴱⴻⵙⵜ",
       "latitude": 35.40417,
       "longitude": 8.12417,
       "population": 194461,
@@ -111,6 +123,7 @@
     {
       "id": "2497411",
       "name": "El Oued",
+      "nativeName": "الوادي ⵍⵡⴰⴷ",
       "latitude": 33.35608,
       "longitude": 6.86319,
       "population": 186525,
@@ -120,6 +133,7 @@
     {
       "id": "2479536",
       "name": "Skikda",
+      "nativeName": "سكيكدة ⵙⴽⵉⴽⴷⴰ",
       "latitude": 36.87617,
       "longitude": 6.90921,
       "population": 182903,
@@ -129,6 +143,7 @@
     {
       "id": "2476897",
       "name": "Tiaret",
+      "nativeName": "Tiaret ⵜⴰⵀⴻⵔⵜ تيارت",
       "latitude": 35.37103,
       "longitude": 1.31699,
       "population": 178915,
@@ -138,6 +153,7 @@
     {
       "id": "2498611",
       "name": "Chlef",
+      "nativeName": "Chlef ⵛⵍⴻⴼ الشلف",
       "latitude": 36.16525,
       "longitude": 1.33452,
       "population": 178616,
@@ -146,7 +162,8 @@
     },
     {
       "id": "2505329",
-      "name": "Béjaïa",
+      "name": "Bejaia",
+      "nativeName": "Béjaïa ⴲⴳⴰⵢⴻⵝ بجاية",
       "latitude": 36.75587,
       "longitude": 5.08433,
       "population": 176139,
@@ -156,6 +173,7 @@
     {
       "id": "2475687",
       "name": "Tlemcen",
+      "nativeName": "تلمسان ⵜⵍⵎⵙⴰⵏ",
       "latitude": 34.87833,
       "longitude": -1.315,
       "population": 173531,
@@ -165,6 +183,7 @@
     {
       "id": "2485801",
       "name": "Ouargla",
+      "nativeName": "ورقلة ⵡⴰⵔⴳⵍⴰ",
       "latitude": 31.94932,
       "longitude": 5.32502,
       "population": 169928,
@@ -173,7 +192,8 @@
     },
     {
       "id": "2505530",
-      "name": "Béchar",
+      "name": "Bechar",
+      "nativeName": "بشار ⴱⴻⵛⵛⴰⵔ",
       "latitude": 31.61667,
       "longitude": -2.21667,
       "population": 165241,
@@ -183,6 +203,7 @@
     {
       "id": "2487134",
       "name": "Mostaganem",
+      "nativeName": "Mostaganem ⵎⴻⵙⵜⵖⴰⵏⴻⵎ مستغانم",
       "latitude": 35.93115,
       "longitude": 0.08918,
       "population": 162885,
@@ -191,7 +212,8 @@
     },
     {
       "id": "2503701",
-      "name": "Bordj Bou Arreridj",
+      "name": "Bordj Bou Arreridjj",
+      "nativeName": "Bordj Bou Arreridj ⴱⵓⵔⴵ ⴱⵓ ⵄⵔⵉⵔⵉⴵ برج بوعريريج",
       "latitude": 36.07389,
       "longitude": 4.76139,
       "population": 158812,
@@ -210,6 +232,7 @@
     {
       "id": "2479215",
       "name": "Souk Ahras",
+      "nativeName": "سوق أهراس ⵙⵓⵇ ⴰⵀⵔⴰⵙ",
       "latitude": 36.28639,
       "longitude": 7.95111,
       "population": 153479,
@@ -218,7 +241,8 @@
     },
     {
       "id": "2488835",
-      "name": "Médéa",
+      "name": "Medea",
+      "nativeName": "Médéa ⵍⴻⵎⴷⵉⵢⴰ المدية",
       "latitude": 36.26417,
       "longitude": 2.75393,
       "population": 145441,
@@ -228,6 +252,7 @@
     {
       "id": "2498392",
       "name": "El Eulma",
+      "nativeName": "العلمة ⵍⵄⵍⵎⴰ",
       "latitude": 36.15281,
       "longitude": 5.69016,
       "population": 145380,
@@ -237,6 +262,7 @@
     {
       "id": "2475475",
       "name": "Touggourt",
+      "nativeName": "تقرت ⵜⵓⴳⴳⵓⵔⵜ",
       "latitude": 33.11083,
       "longitude": 6.07,
       "population": 143270,
@@ -245,7 +271,8 @@
     },
     {
       "id": "2496049",
-      "name": "Ghardaïa",
+      "name": "Ghardaia",
+      "nativeName": "غرداية ⵜⴰⵖⴻⵔⴷⴰⵢⵜ",
       "latitude": 32.49094,
       "longitude": 3.67347,
       "population": 142913,
@@ -254,7 +281,8 @@
     },
     {
       "id": "2482572",
-      "name": "Saïda",
+      "name": "Saida",
+      "nativeName": "Saïda ⵙⵄⵉⴷⴰ سعيدة",
       "latitude": 34.83033,
       "longitude": 0.15171,
       "population": 142497,
@@ -264,6 +292,7 @@
     {
       "id": "2491191",
       "name": "Laghouat",
+      "nativeName": "الأغواط ⵍⴻⵖⵡⴰⵟ",
       "latitude": 33.8,
       "longitude": 2.86514,
       "population": 134372,
@@ -273,6 +302,7 @@
     {
       "id": "2486690",
       "name": "M'Sila",
+      "nativeName": "M'Sila ⵝⴰⵎⵙⵉⵍⵜ المسيلة",
       "latitude": 35.70889,
       "longitude": 4.53722,
       "population": 132975,
@@ -282,6 +312,7 @@
     {
       "id": "2492913",
       "name": "Jijel",
+      "nativeName": "جيجل ⵊⵉⵊⵍ",
       "latitude": 36.821,
       "longitude": 5.76352,
       "population": 131513,
@@ -291,6 +322,7 @@
     {
       "id": "2483668",
       "name": "Relizane",
+      "nativeName": "Relizane ⴴⵉⵍⵉⵣⴰⵏ غليزان",
       "latitude": 35.73734,
       "longitude": 0.55599,
       "population": 123255,
@@ -299,7 +331,8 @@
     },
     {
       "id": "2503661",
-      "name": "Bordj el Kiffan",
+      "name": "Burj Al Kifan",
+      "nativeName": "Bordj El Kiffan ⵓⵣⵎⵉⵔ ⵏ ⴰⵎⴰⵏ برج الكيفان",
       "latitude": 36.74871,
       "longitude": 3.19249,
       "population": 123246,
@@ -309,6 +342,7 @@
     {
       "id": "2495662",
       "name": "Guelma",
+      "nativeName": "قالمة ⴳⴰⵍⵎⴰ",
       "latitude": 36.46214,
       "longitude": 7.42608,
       "population": 120004,
@@ -318,6 +352,7 @@
     {
       "id": "2482908",
       "name": "Rouiba",
+      "nativeName": "Rouïba ⵔⵡⵉⴱⴰ رويبة",
       "latitude": 36.73829,
       "longitude": 3.28079,
       "population": 117558,
@@ -326,7 +361,8 @@
     },
     {
       "id": "2508287",
-      "name": "Aïn Beïda",
+      "name": "Ain Beida",
+      "nativeName": "عين البيضاء ⵜⵉⵟ ⵎⵎ'ⴻⵎⵍⵉⵍ",
       "latitude": 35.79639,
       "longitude": 7.39278,
       "population": 116064,
@@ -336,6 +372,7 @@
     {
       "id": "2491889",
       "name": "Khenchela",
+      "nativeName": "خنشلة ⵅⴻⵏⵛⴻⵍⵜ",
       "latitude": 35.43583,
       "longitude": 7.14333,
       "population": 114472,
@@ -344,7 +381,8 @@
     },
     {
       "id": "2502385",
-      "name": "Bou Saâda",
+      "name": "Bou Saada",
+      "nativeName": "Bou Saâda ⴱⵓⵙⵄⴰⴷⴰ بوسعادة",
       "latitude": 35.20855,
       "longitude": 4.17402,
       "population": 111787,
@@ -354,6 +392,7 @@
     {
       "id": "2490098",
       "name": "Mascara",
+      "nativeName": "Mascara ⵎⵄⴰⵙⴽⴰⵕ معسكر",
       "latitude": 35.39664,
       "longitude": 0.14027,
       "population": 108629,
@@ -363,6 +402,7 @@
     {
       "id": "2505653",
       "name": "Baraki",
+      "nativeName": "Baraki ⴱⴰⵔⵔⴰⵇⵉ براقي",
       "latitude": 36.66655,
       "longitude": 3.09606,
       "population": 105402,
@@ -372,6 +412,7 @@
     {
       "id": "2475744",
       "name": "Tizi Ouzou",
+      "nativeName": "Tizi Ouzou ⵝⵉⵣⵉ ⵡⴻⵣⵓ تيزي وزو",
       "latitude": 36.71182,
       "longitude": 4.04591,
       "population": 104312,
@@ -381,6 +422,7 @@
     {
       "id": "2505629",
       "name": "Barika",
+      "nativeName": "بريكة ⴱⴰⵔⵉⴽⴰ",
       "latitude": 35.38901,
       "longitude": 5.36584,
       "population": 98141,
@@ -389,7 +431,8 @@
     },
     {
       "id": "2507972",
-      "name": "Aïn Oussera",
+      "name": "Ain Oussara",
+      "nativeName": "Aïn Oussara ⵄⵉⵏ ⵡⴻⵙⵙⴰⵔⴰ عين وسارة",
       "latitude": 35.45139,
       "longitude": 2.90583,
       "population": 98107,
@@ -399,6 +442,7 @@
     {
       "id": "2487772",
       "name": "Messaad",
+      "nativeName": "مسعد ⵎⴻⵙⵙⵄⴻⴷ",
       "latitude": 34.15429,
       "longitude": 3.50309,
       "population": 97091,
@@ -408,6 +452,7 @@
     {
       "id": "2508737",
       "name": "Aflou",
+      "nativeName": "أفلو ⴰⴼⵍⵓ",
       "latitude": 34.11279,
       "longitude": 2.10228,
       "population": 93585,
@@ -426,6 +471,7 @@
     {
       "id": "2497849",
       "name": "El Khroub",
+      "nativeName": "الخروب ⵍⵅⵔⵔⵓⴱ",
       "latitude": 36.26333,
       "longitude": 6.69361,
       "population": 90122,
@@ -435,6 +481,7 @@
     {
       "id": "2490584",
       "name": "Maghnia",
+      "nativeName": "مغنية ⵎⵖⵏⵉⵢⴰ",
       "latitude": 34.84969,
       "longitude": -1.72753,
       "population": 87373,
@@ -444,6 +491,7 @@
     {
       "id": "2498543",
       "name": "El Bayadh",
+      "nativeName": "البيض ⵍⴱⴻⵢⴻⴹ",
       "latitude": 33.68318,
       "longitude": 1.01927,
       "population": 85577,
@@ -453,6 +501,7 @@
     {
       "id": "2494610",
       "name": "Hamma Bouziane",
+      "nativeName": "حامة بوزيان ⵃⵎⵎⴰ ⴱⵓⵣⵉⵢⴰⵏ",
       "latitude": 36.41205,
       "longitude": 6.59603,
       "population": 83603,
@@ -461,7 +510,8 @@
     },
     {
       "id": "2478216",
-      "name": "Tamanghasset",
+      "name": "Tamanrasset",
+      "nativeName": "تامنغست ⵜⴰⵎⴰⵏⵖⴰⵙⵜ",
       "latitude": 22.785,
       "longitude": 5.52278,
       "population": 81752,
@@ -471,6 +521,7 @@
     {
       "id": "2482886",
       "name": "Rouissat",
+      "nativeName": "الرويسات ⵔⵡⵉⵙⴰⵜ",
       "latitude": 31.92427,
       "longitude": 5.35018,
       "population": 80784,
@@ -480,6 +531,7 @@
     {
       "id": "2494073",
       "name": "Hassi Bahbah",
+      "nativeName": "حاسي بحبح ⵃⴰⵙⵉ ⴱⴻⵃⴱⴻⵃ",
       "latitude": 35.07109,
       "longitude": 3.0299,
       "population": 77000,
@@ -497,7 +549,8 @@
     },
     {
       "id": "2507901",
-      "name": "Aïn Temouchent",
+      "name": "Ain Temouchent",
+      "nativeName": "Aïn Témouchent ⵉⵏ ⵜⵉⵎⵓⵛⴻⵏⵜ عين تموشنت",
       "latitude": 35.29749,
       "longitude": -1.14037,
       "population": 70810,
@@ -506,7 +559,8 @@
     },
     {
       "id": "2503878",
-      "name": "Bir el Ater",
+      "name": "Bir El Ater",
+      "nativeName": "بير العاتر ⴱⵉⵔ ⵍⵄⴰⵜⴻⵔ",
       "latitude": 34.74488,
       "longitude": 8.06024,
       "population": 70749,
@@ -515,7 +569,8 @@
     },
     {
       "id": "2502958",
-      "name": "Bouïra",
+      "name": "Bouira",
+      "nativeName": "Bouira ⵝⵓⵠⵉⵔⴻⵜ البويرة",
       "latitude": 36.37489,
       "longitude": 3.902,
       "population": 68545,
@@ -525,6 +580,7 @@
     {
       "id": "2508813",
       "name": "Adrar",
+      "nativeName": "أدرار ⴰⴷⵔⴰⵔ",
       "latitude": 27.87429,
       "longitude": -0.29388,
       "population": 68276,
@@ -533,7 +589,8 @@
     },
     {
       "id": "2503874",
-      "name": "Bir el Djir",
+      "name": "Bir El Djir",
+      "nativeName": "Bir El Djir ⴱⵉⵔ ⵍⴵⵉⵔ بئر الجير",
       "latitude": 35.72,
       "longitude": -0.545,
       "population": 68032,
@@ -542,7 +599,8 @@
     },
     {
       "id": "2484620",
-      "name": "Oum el Bouaghi",
+      "name": "Oum El Bouaghi",
+      "nativeName": "أم البواقي ⵓⵎ ⵍⴻⴱⵡⴰⵇⵉ",
       "latitude": 35.87541,
       "longitude": 7.11353,
       "population": 67201,
@@ -551,7 +609,8 @@
     },
     {
       "id": "2481246",
-      "name": "Sidi Aïssa",
+      "name": "Sidi Aissa",
+      "nativeName": "Sidi Aïssa ⵙⵉⴸⵉ ⵄⵉⵙⴰ سيدي عيسى",
       "latitude": 35.88548,
       "longitude": 3.77236,
       "population": 66856,
@@ -561,6 +620,7 @@
     {
       "id": "2504072",
       "name": "Besbes",
+      "nativeName": "البسباس ⵍⴱⵙⴱⴰⵙ",
       "latitude": 36.70222,
       "longitude": 7.84722,
       "population": 66287,
@@ -570,6 +630,7 @@
     {
       "id": "2501404",
       "name": "Cheria",
+      "nativeName": "الشريعة ⵛⵔⵉⵄⵜ",
       "latitude": 35.27306,
       "longitude": 7.75194,
       "population": 66160,
@@ -579,6 +640,7 @@
     {
       "id": "2475860",
       "name": "Tissemsilt",
+      "nativeName": "Tissemsilt ⵝⵉⵙⴻⵎⵙⵉⵍⵜ تسمسيلت",
       "latitude": 35.60722,
       "longitude": 1.81081,
       "population": 66084,
@@ -587,7 +649,8 @@
     },
     {
       "id": "2508002",
-      "name": "Aïn M’Lila",
+      "name": "Ain Mlila",
+      "nativeName": "عين مليلة ⵜⵉⵟ ⵏ ⵜⵓⵎⵍⵉⵍⵜ",
       "latitude": 36.03687,
       "longitude": 6.57219,
       "population": 65371,
@@ -597,6 +660,7 @@
     {
       "id": "2489865",
       "name": "Mecheria",
+      "nativeName": "المشرية ⵎⴻⵛⵔⵉⵢⴰ",
       "latitude": 33.54453,
       "longitude": -0.28117,
       "population": 65043,
@@ -606,6 +670,7 @@
     {
       "id": "11204500",
       "name": "Ali Mendjeli",
+      "nativeName": "علي منجلي ⵄⵍⵉ ⵎⵏⵊⵍⵉ",
       "latitude": 36.2459,
       "longitude": 6.5671,
       "population": 64120,
@@ -615,6 +680,7 @@
     {
       "id": "2487452",
       "name": "Mila",
+      "nativeName": "ميلة ⵎⵉⵍⴰ",
       "latitude": 36.45028,
       "longitude": 6.26444,
       "population": 63251,
@@ -632,7 +698,8 @@
     },
     {
       "id": "2491578",
-      "name": "Kolea",
+      "name": "Koléa",
+      "nativeName": "Koléa ⵍⴻⵇⵍⵉⵄⴰ القليعة",
       "latitude": 36.63888,
       "longitude": 2.76845,
       "population": 61643,
@@ -650,7 +717,8 @@
     },
     {
       "id": "12326384",
-      "name": "District of Taher",
+      "name": "Tahir",
+      "nativeName": "الطاهير ⵟⵟⴰⵀⵉⵔ",
       "latitude": 36.772,
       "longitude": 5.8982,
       "population": 60426,
@@ -659,7 +727,7 @@
     },
     {
       "id": "2498954",
-      "name": "Ech Chettia",
+      "name": "Chettia",
       "latitude": 36.19591,
       "longitude": 1.25537,
       "population": 60170,
@@ -668,7 +736,8 @@
     },
     {
       "id": "2491323",
-      "name": "Ksar el Boukhari",
+      "name": "Ksar El Boukhari",
+      "nativeName": "Ksar El Boukhari ⵇⵚⴻⵔ ⵍⴱⵓⵅⴰⵔⵉ قصر البخاري",
       "latitude": 35.88889,
       "longitude": 2.74905,
       "population": 59634,
@@ -678,6 +747,7 @@
     {
       "id": "2484933",
       "name": "Ouled Djellal",
+      "nativeName": "أولاد جلال ⵡⵍⴰⴷ ⵊⴻⵍⴰⵍ",
       "latitude": 34.43,
       "longitude": 5.06139,
       "population": 58481,
@@ -686,7 +756,8 @@
     },
     {
       "id": "2491050",
-      "name": "Larbaâ",
+      "name": "Larbaa",
+      "nativeName": "Larbaa ⵍⴰⵔⴻⴱⵄⴰ الأربعاء",
       "latitude": 36.56471,
       "longitude": 3.15434,
       "population": 58295,
@@ -696,6 +767,7 @@
     {
       "id": "2506385",
       "name": "Arzew",
+      "nativeName": "Arzew ⴰⵔⴻⵣⵢⵓ أرزيو",
       "latitude": 35.85048,
       "longitude": -0.318,
       "population": 58162,
@@ -705,6 +777,7 @@
     {
       "id": "2498305",
       "name": "El Menia",
+      "nativeName": "المنيعة ⵍⴻⵎⵏⵉⵄⴰ",
       "latitude": 30.57556,
       "longitude": 2.88417,
       "population": 57344,
@@ -714,6 +787,7 @@
     {
       "id": "2503181",
       "name": "Boufarik",
+      "nativeName": "Boufarik ⴱⵓ ⴼⴰⵔⵉⴽ بوفاريك",
       "latitude": 36.57413,
       "longitude": 2.91214,
       "population": 57162,
@@ -723,6 +797,7 @@
     {
       "id": "2503229",
       "name": "Boudouaou",
+      "nativeName": "Boudouaou ⴱⵓⴷⵡⴰⵡ بودواو",
       "latitude": 36.72735,
       "longitude": 3.40995,
       "population": 56398,
@@ -732,6 +807,7 @@
     {
       "id": "2504099",
       "name": "Berrouaghia",
+      "nativeName": "Berrouaghia ⴱⴻⵔⵡⴰⴳⵉⵢⴰ البرواقية",
       "latitude": 36.13516,
       "longitude": 2.91085,
       "population": 55775,
@@ -741,6 +817,7 @@
     {
       "id": "2507877",
       "name": "Aïn Touta",
+      "nativeName": "عين التوتة ⵜⵉⵟ ⵏ ⵜⵓⵜ",
       "latitude": 35.37675,
       "longitude": 5.90001,
       "population": 55736,
@@ -758,7 +835,8 @@
     },
     {
       "id": "2508228",
-      "name": "Aïn Defla",
+      "name": "Ain Defla",
+      "nativeName": "Aïn Defla ⵉⵏ ⴷⴻⴼⵍⴰ عين الدفلى",
       "latitude": 36.26405,
       "longitude": 1.9679,
       "population": 55259,
@@ -768,6 +846,7 @@
     {
       "id": "2499055",
       "name": "Drean",
+      "nativeName": "الذرعان ⴷⴷⵔⵄⴰⵏ",
       "latitude": 36.68482,
       "longitude": 7.75111,
       "population": 55147,
@@ -776,7 +855,8 @@
     },
     {
       "id": "2483757",
-      "name": "Reghaïa",
+      "name": "Reghaia",
+      "nativeName": "Reghaïa ⵔⵖⴰⵢⴰ الرغاية",
       "latitude": 36.73587,
       "longitude": 3.34018,
       "population": 54962,
@@ -786,6 +866,7 @@
     {
       "id": "2503755",
       "name": "Boghni",
+      "nativeName": "Buɣni",
       "latitude": 36.54222,
       "longitude": 3.95306,
       "population": 54666,
@@ -794,7 +875,8 @@
     },
     {
       "id": "2501541",
-      "name": "Chelghoum el Aïd",
+      "name": "Chelghoum Laid",
+      "nativeName": "شلغوم العيد ⵛⵍⵖⵓⵎ ⵍⵄⵉⴷ",
       "latitude": 36.16286,
       "longitude": 6.16651,
       "population": 54495,
@@ -803,7 +885,7 @@
     },
     {
       "id": "2494065",
-      "name": "Assi Bou Nif",
+      "name": "Hassi Bounif",
       "latitude": 35.69222,
       "longitude": -0.49944,
       "population": 53700,
@@ -812,7 +894,8 @@
     },
     {
       "id": "2503669",
-      "name": "Bordj el Bahri",
+      "name": "Burj Al Bahri",
+      "nativeName": "Bordj El Bahri ⴱⴻⵔⴵ ⵍⴱⴻⵃⵔⵉ برج البحري",
       "latitude": 36.79068,
       "longitude": 3.24952,
       "population": 52816,
@@ -821,7 +904,8 @@
     },
     {
       "id": "2490183",
-      "name": "Mansoûra",
+      "name": "Mansourah",
+      "nativeName": "منصورة ⵎⵏⵚⵓⵔⴰ",
       "latitude": 34.86158,
       "longitude": -1.33935,
       "population": 52285,
@@ -839,7 +923,8 @@
     },
     {
       "id": "2507979",
-      "name": "Aïn Oulmene",
+      "name": "Ain Oulmane",
+      "nativeName": "Aïn Oulmane",
       "latitude": 35.92296,
       "longitude": 5.29604,
       "population": 51207,
@@ -849,6 +934,7 @@
     {
       "id": "2475612",
       "name": "Tolga",
+      "nativeName": "طولڤة ⵟⵓⵍⴳⴰ",
       "latitude": 34.72224,
       "longitude": 5.37845,
       "population": 50575,
@@ -866,7 +952,8 @@
     },
     {
       "id": "2508102",
-      "name": "Aïn Fakroun",
+      "name": "Ain Fakroun",
+      "nativeName": "عين فكرون ⵜⵉⵟ ⵓⴼⴻⴽⵔⵓⵏ",
       "latitude": 35.97108,
       "longitude": 6.87374,
       "population": 48804,
@@ -876,6 +963,7 @@
     {
       "id": "2495601",
       "name": "Guemar",
+      "nativeName": "قمار ⴳⴻⵎⵎⴰⵔ",
       "latitude": 33.48529,
       "longitude": 6.79693,
       "population": 48413,
@@ -885,6 +973,7 @@
     {
       "id": "2487882",
       "name": "Merouana",
+      "nativeName": "مروانة ⵜⴰⵎⴻⵔⵡⴰⵏⵜ",
       "latitude": 35.63106,
       "longitude": 5.91186,
       "population": 47646,
@@ -893,7 +982,8 @@
     },
     {
       "id": "2507943",
-      "name": "Aïn Sefra",
+      "name": "Ain Sefra",
+      "nativeName": "عين الصفراء ⵄⵉⵏ ⵚⴻⴼⵔⴰ",
       "latitude": 32.75,
       "longitude": -0.58333,
       "population": 47415,
@@ -902,7 +992,8 @@
     },
     {
       "id": "2491913",
-      "name": "Khemis el Khechna",
+      "name": "Khemis El Khechna",
+      "nativeName": "Khemis El Khechna ⵅⵎⵉⵙ ⵍⵅⴻⵛⵏⴰ خميس الخشنة",
       "latitude": 36.64997,
       "longitude": 3.3308,
       "population": 46965,
@@ -911,7 +1002,8 @@
     },
     {
       "id": "2499193",
-      "name": "Douéra",
+      "name": "Douera",
+      "nativeName": "Douera ⴷⵡⵉⵔⴰ الدويرة",
       "latitude": 36.67,
       "longitude": 2.94444,
       "population": 46266,
@@ -921,6 +1013,7 @@
     {
       "id": "2497509",
       "name": "El Milia",
+      "nativeName": "الميلية ⵍⵎⵉⵍⵉⵢⴰ",
       "latitude": 36.75472,
       "longitude": 6.2725,
       "population": 45945,
@@ -930,6 +1023,7 @@
     {
       "id": "2476301",
       "name": "Tindouf",
+      "nativeName": "تندوف ⵜⵉⵏⴷⵓⴼ",
       "latitude": 27.67111,
       "longitude": -8.14743,
       "population": 45610,
@@ -939,6 +1033,7 @@
     {
       "id": "2482090",
       "name": "Sedrata",
+      "nativeName": "سدراتة ⵙⴻⴷⵔⴰⵜⴰ",
       "latitude": 36.12868,
       "longitude": 7.53376,
       "population": 45300,
@@ -947,7 +1042,7 @@
     },
     {
       "id": "2483936",
-      "name": "Râs el Oued",
+      "name": "Ras El Oued",
       "latitude": 35.9441,
       "longitude": 5.03107,
       "population": 44947,
@@ -956,7 +1051,8 @@
     },
     {
       "id": "2503641",
-      "name": "Bordj Menaïel",
+      "name": "Bordj Menaiel",
+      "nativeName": "Bordj Menaiel ⵍⴱⴻⵔⵊ ⵏ ⵉⵎⵏⴰⵢⴻⵏ برج منايل",
       "latitude": 36.74328,
       "longitude": 3.7173,
       "population": 44572,
@@ -975,6 +1071,7 @@
     {
       "id": "2494029",
       "name": "Hassi Messaoud",
+      "nativeName": "Hassi Messaoud;ⵃⴰⵙⵉ ⵎⴻⵙⵄⵓⴷ; حاسي مسعود",
       "latitude": 31.68041,
       "longitude": 6.07286,
       "population": 44478,
@@ -983,7 +1080,7 @@
     },
     {
       "id": "2503468",
-      "name": "Boû Arfa",
+      "name": "Bouarfa",
       "latitude": 36.46298,
       "longitude": 2.81464,
       "population": 44143,
@@ -992,7 +1089,8 @@
     },
     {
       "id": "2479161",
-      "name": "Sour el Ghozlane",
+      "name": "Sour El-Ghozlane",
+      "nativeName": "Sour El Ghozlane ⵚⵓⵕ ⵍⵖⵓⵣⵍⴰⵏ سور الغزلان",
       "latitude": 36.14766,
       "longitude": 3.69123,
       "population": 43985,
@@ -1011,6 +1109,7 @@
     {
       "id": "2491134",
       "name": "Lakhdaria",
+      "nativeName": "Lakhdaria ⵍⴻⵅⴹⴰⵔⵉⵢⴰ الأخضرية",
       "latitude": 36.56463,
       "longitude": 3.5933,
       "population": 42886,
@@ -1020,6 +1119,7 @@
     {
       "id": "2478876",
       "name": "Tadjenanet",
+      "nativeName": "تاجنانت ⵜⴰⵊⵏⴰⵏⵜ",
       "latitude": 36.12129,
       "longitude": 5.9867,
       "population": 41833,
@@ -1028,7 +1128,8 @@
     },
     {
       "id": "2477528",
-      "name": "Tazoult-Lambese",
+      "name": "Tazoult",
+      "nativeName": "تازولت ⵜⴰⵣⵓⵍⵜ",
       "latitude": 35.48171,
       "longitude": 6.26074,
       "population": 41636,
@@ -1037,7 +1138,8 @@
     },
     {
       "id": "2499104",
-      "name": "Draa el Mizan",
+      "name": "Draa El Mizan",
+      "nativeName": "Draa El Mizan ⴸⵔⴰⵄ ⵍⵎⵉⵣⴰⵏ ذراع الميزان",
       "latitude": 36.53628,
       "longitude": 3.8334,
       "population": 41263,
@@ -1047,6 +1149,7 @@
     {
       "id": "2477462",
       "name": "Tebesbest",
+      "nativeName": "تبسبست ⵜⴰⴱⴻⵙⴱⴻⵙⵜ",
       "latitude": 33.11667,
       "longitude": 6.08333,
       "population": 41091,
@@ -1055,7 +1158,8 @@
     },
     {
       "id": "2502939",
-      "name": "Bou Ismaïl",
+      "name": "Bou Ismail",
+      "nativeName": "Bou Ismaïl ⴱⵓⵙⵎⴰⵄⵉⵍ بو إسماعيل",
       "latitude": 36.64262,
       "longitude": 2.69007,
       "population": 40984,
@@ -1065,6 +1169,7 @@
     {
       "id": "2488722",
       "name": "Meftah",
+      "nativeName": "Meftah ⵎⴻⴼⵜⴰⵃ مفتاح",
       "latitude": 36.6204,
       "longitude": 3.22248,
       "population": 40878,
@@ -1073,7 +1178,8 @@
     },
     {
       "id": "2479183",
-      "name": "Souma",
+      "name": "Soumaa",
+      "nativeName": "Soumaa ⵚⵓⵎⵄⴻⵝ الصومعة",
       "latitude": 36.51833,
       "longitude": 2.90528,
       "population": 40745,
@@ -1092,6 +1198,7 @@
     {
       "id": "2482939",
       "name": "Rouached",
+      "nativeName": "الرواشد ⵔⵡⴰⵛⴷ",
       "latitude": 36.45774,
       "longitude": 6.04267,
       "population": 40263,
@@ -1100,7 +1207,8 @@
     },
     {
       "id": "2493956",
-      "name": "Héliopolis",
+      "name": "Heliopolis",
+      "nativeName": "ھيليوبوليس ⵀⵉⵍⵢⵓⴱⵓⵍⵉⵙ",
       "latitude": 36.50361,
       "longitude": 7.44278,
       "population": 40139,
@@ -1109,7 +1217,7 @@
     },
     {
       "id": "2476700",
-      "name": "Tighenif",
+      "name": "Tighennif",
       "latitude": 35.41722,
       "longitude": 0.32982,
       "population": 39938,
@@ -1118,7 +1226,8 @@
     },
     {
       "id": "2504581",
-      "name": "Beni Saf",
+      "name": "Béni-Saf",
+      "nativeName": "Béni-Saf ⴱⵏⵉ ⵙⴰⴼ بني صاف",
       "latitude": 35.30099,
       "longitude": -1.38226,
       "population": 39749,
@@ -1128,6 +1237,7 @@
     {
       "id": "2498172",
       "name": "El Hadjira",
+      "nativeName": "الحجيرة ⵍⴻⵃⵊⵉⵔⴰ",
       "latitude": 32.61336,
       "longitude": 5.51259,
       "population": 39744,
@@ -1137,6 +1247,7 @@
     {
       "id": "2487620",
       "name": "Metlili Chaamba",
+      "nativeName": "متليلي الشعانبة ⵎⴻⵜⵍⵉⵍⵉ ⵛⵄⴰⴱⵏⴰ",
       "latitude": 32.26667,
       "longitude": 3.63333,
       "population": 39588,
@@ -1146,6 +1257,7 @@
     {
       "id": "2498775",
       "name": "El Abiodh Sidi Cheikh",
+      "nativeName": "الأبيض سيدي الشيخ ⵍⴻⴱⵢⴻⴹ ⵙⵉⴷⵉ ⵛⵛⵉⵅ",
       "latitude": 32.893,
       "longitude": 0.54839,
       "population": 39283,
@@ -1155,6 +1267,7 @@
     {
       "id": "2497655",
       "name": "El Meghaïer",
+      "nativeName": "المغير ⵍⴻⵎⵖⵉⵢⴻⵔ",
       "latitude": 33.95139,
       "longitude": 5.92222,
       "population": 39106,
@@ -1163,7 +1276,8 @@
     },
     {
       "id": "2497060",
-      "name": "Es Senia",
+      "name": "Es-Senia",
+      "nativeName": "Es-Senia ⵙⵙⴰⵏⵉⵢⴰ السانية",
       "latitude": 35.64779,
       "longitude": -0.62397,
       "population": 39064,
@@ -1173,6 +1287,7 @@
     {
       "id": "2480368",
       "name": "Sidi Khaled",
+      "nativeName": "سيدي خالد ⵙⵉⴷⵉ ⵅⴰⵍⴻⴷ",
       "latitude": 34.387,
       "longitude": 4.98785,
       "population": 38987,
@@ -1182,6 +1297,7 @@
     {
       "id": "2503147",
       "name": "Bougara",
+      "nativeName": "Bougara ⴱⵓⴳⴻⵔⵔⴰ بوقرة",
       "latitude": 36.54178,
       "longitude": 3.081,
       "population": 38352,
@@ -1200,6 +1316,7 @@
     {
       "id": "2508295",
       "name": "’Aïn Azel",
+      "nativeName": "عين أزال ⵄⵉⵏ ⴰⵣⴰⵍ",
       "latitude": 35.81846,
       "longitude": 5.51115,
       "population": 37970,
@@ -1208,7 +1325,8 @@
     },
     {
       "id": "2508174",
-      "name": "Aïn el Bya",
+      "name": "Ain El Bia",
+      "nativeName": "Aïn El Bia",
       "latitude": 35.80389,
       "longitude": -0.30178,
       "population": 37241,
@@ -1218,6 +1336,7 @@
     {
       "id": "2500737",
       "name": "Debila",
+      "nativeName": "الدبيلة ⴷⴻⴱⵉⵍⴰ",
       "latitude": 33.51667,
       "longitude": 6.95,
       "population": 36834,
@@ -1227,6 +1346,7 @@
     {
       "id": "2501362",
       "name": "Chetouane",
+      "nativeName": "شتوان ⵛⵜⵡⴰⵏ",
       "latitude": 34.92129,
       "longitude": -1.29512,
       "population": 36776,
@@ -1236,6 +1356,7 @@
     {
       "id": "2506404",
       "name": "Arris",
+      "nativeName": "أريس ⴰⵔⵔⵉⵙ",
       "latitude": 35.25881,
       "longitude": 6.34706,
       "population": 36641,
@@ -1244,7 +1365,8 @@
     },
     {
       "id": "2489922",
-      "name": "M’Daourouch",
+      "name": "M'Daourouch",
+      "nativeName": "مداوروش ⵎⴷⴰⵡⵔⵓⵛ",
       "latitude": 36.07821,
       "longitude": 7.8196,
       "population": 36351,
@@ -1253,7 +1375,8 @@
     },
     {
       "id": "2508225",
-      "name": "’Aïn Deheb",
+      "name": "Ain Deheb",
+      "nativeName": "Aïn Deheb",
       "latitude": 34.84218,
       "longitude": 1.54697,
       "population": 36146,
@@ -1262,7 +1385,7 @@
     },
     {
       "id": "2480618",
-      "name": "Sidi ech Chahmi",
+      "name": "Sidi Chami",
       "latitude": 35.65903,
       "longitude": -0.52168,
       "population": 35512,
@@ -1272,6 +1395,7 @@
     {
       "id": "2497988",
       "name": "El Kala",
+      "nativeName": "القالة ⵍⵇⴰⵍⴰ",
       "latitude": 36.89556,
       "longitude": 8.44333,
       "population": 35449,
@@ -1281,6 +1405,7 @@
     {
       "id": "2498752",
       "name": "El Affroun",
+      "nativeName": "El Affroun ⵍⵄⴻⴼⵕⵓⵏ العفرون",
       "latitude": 36.4701,
       "longitude": 2.62528,
       "population": 35074,
@@ -1290,6 +1415,7 @@
     {
       "id": "2500282",
       "name": "Djamaa",
+      "nativeName": "جامعة ⵊⴻⵎⵄⴰ",
       "latitude": 33.53388,
       "longitude": 5.99306,
       "population": 34920,
@@ -1298,7 +1424,7 @@
     },
     {
       "id": "2508010",
-      "name": "’Aïn Merane",
+      "name": "Ain Merane",
       "latitude": 36.16277,
       "longitude": 0.97037,
       "population": 34413,
@@ -1308,6 +1434,7 @@
     {
       "id": "2501440",
       "name": "Cherchell",
+      "nativeName": "Cherchell ⵛⴻⵔⵛⴻⵍ شرشال",
       "latitude": 36.605,
       "longitude": 2.19083,
       "population": 34372,
@@ -1316,7 +1443,8 @@
     },
     {
       "id": "2483968",
-      "name": "Râs el Aïoun",
+      "name": "Ras El Aioun",
+      "nativeName": "رأس العيون ⵉⵅⴼ ⵏ ⵜⴰⵍⵉⵡⵉⵏ",
       "latitude": 35.67384,
       "longitude": 5.6453,
       "population": 34167,
@@ -1325,7 +1453,7 @@
     },
     {
       "id": "2503654",
-      "name": "Bordj Ghdir",
+      "name": "Bordj Ghedir",
       "latitude": 35.90111,
       "longitude": 4.89806,
       "population": 34136,
@@ -1344,6 +1472,7 @@
     {
       "id": "2494962",
       "name": "Hadjout",
+      "nativeName": "Hadjout ⵃⴻⴵⴵⵓⵟ حجوط",
       "latitude": 36.51257,
       "longitude": 2.41382,
       "population": 33830,
@@ -1353,6 +1482,7 @@
     {
       "id": "2505915",
       "name": "Azzaba",
+      "nativeName": "عزابة ⵄⵣⵣⴰⴱⴰ",
       "latitude": 36.73944,
       "longitude": 7.10528,
       "population": 33766,
@@ -1361,7 +1491,7 @@
     },
     {
       "id": "2504703",
-      "name": "Beni Douala",
+      "name": "At Dwala",
       "latitude": 36.61954,
       "longitude": 4.08282,
       "population": 33611,
@@ -1370,7 +1500,8 @@
     },
     {
       "id": "2507912",
-      "name": "Aïn Taya",
+      "name": "Ain Taya",
+      "nativeName": "Aïn Taya ⵉⵏ ⵟⴰⵢⴰ عين طاية",
       "latitude": 36.79333,
       "longitude": 3.28694,
       "population": 33575,
@@ -1380,6 +1511,7 @@
     {
       "id": "2498590",
       "name": "El Attaf",
+      "nativeName": "El Attaf ⴻⵍ ⴰⵜⵜⴰⴼ العطاف",
       "latitude": 36.22393,
       "longitude": 1.67187,
       "population": 33349,
@@ -1388,7 +1520,8 @@
     },
     {
       "id": "2498614",
-      "name": "El Arrouch",
+      "name": "El Harrouch",
+      "nativeName": "الحروش ⵍⵃⵔⵔⵓⵛ",
       "latitude": 36.65306,
       "longitude": 6.83639,
       "population": 33085,
@@ -1397,7 +1530,8 @@
     },
     {
       "id": "2483761",
-      "name": "Reggane",
+      "name": "Regane",
+      "nativeName": "رقان ⵔⴻⴳⴳⴰⵏ",
       "latitude": 26.71576,
       "longitude": 0.1714,
       "population": 32974,
@@ -1407,6 +1541,7 @@
     {
       "id": "2498667",
       "name": "El Aouinet",
+      "nativeName": "العوينات ⵍⵄⵡⵉⵏⴰⵜ",
       "latitude": 35.86691,
       "longitude": 7.88673,
       "population": 32971,
@@ -1415,7 +1550,8 @@
     },
     {
       "id": "2508130",
-      "name": "’Aïn el Melh",
+      "name": "Ain El Melh",
+      "nativeName": "Aïn El Melh",
       "latitude": 34.84146,
       "longitude": 4.16383,
       "population": 32880,
@@ -1424,7 +1560,8 @@
     },
     {
       "id": "2496059",
-      "name": "Gdyel",
+      "name": "Qudayyil",
+      "nativeName": "Gdyel ⴳⴻⴷⵢⴻⵍ قديل",
       "latitude": 35.78111,
       "longitude": -0.42581,
       "population": 32774,
@@ -1433,7 +1570,8 @@
     },
     {
       "id": "2492809",
-      "name": "Kaïs",
+      "name": "Kais",
+      "nativeName": "قايس ⵇⴰⵢⴻⵙ",
       "latitude": 35.49474,
       "longitude": 6.92492,
       "population": 32668,
@@ -1443,6 +1581,7 @@
     {
       "id": "2478226",
       "name": "Tamalous",
+      "nativeName": "تمالوس ⵜⴰⵎⴰⵍⵓⵙ",
       "latitude": 36.83763,
       "longitude": 6.64018,
       "population": 32579,
@@ -1452,6 +1591,7 @@
     {
       "id": "2482211",
       "name": "Sebdou",
+      "nativeName": "سبدو ⵙⴱⴷⵓ",
       "latitude": 34.63703,
       "longitude": -1.33143,
       "population": 32570,
@@ -1461,6 +1601,7 @@
     {
       "id": "2508268",
       "name": "Aïn Bessem",
+      "nativeName": "Aïn Bessam",
       "latitude": 36.29333,
       "longitude": 3.67319,
       "population": 32548,
@@ -1470,6 +1611,7 @@
     {
       "id": "6930641",
       "name": "In Salah",
+      "nativeName": "إن صالح ⵉⵏ ⵚⴰⵍⴻⵃ",
       "latitude": 27.19678,
       "longitude": 2.47913,
       "population": 32518,
@@ -1478,7 +1620,8 @@
     },
     {
       "id": "2507926",
-      "name": "Aïn Smara",
+      "name": "Ain Smara",
+      "nativeName": "عين سمارة ⵄⵉⵏ ⵙⵎⴰⵔⴰ",
       "latitude": 36.2674,
       "longitude": 6.50135,
       "population": 32057,
@@ -1487,7 +1630,7 @@
     },
     {
       "id": "2492920",
-      "name": "Djidiouia",
+      "name": "Djdiouia",
       "latitude": 35.92989,
       "longitude": 0.82871,
       "population": 31996,
@@ -1514,7 +1657,8 @@
     },
     {
       "id": "2508184",
-      "name": "’Aïn el Bell",
+      "name": "Ain El Ibel",
+      "nativeName": "عين الإبل ⵄⵉⵍ ⴻⵍ ⵉⴱⴻⵍ",
       "latitude": 34.34381,
       "longitude": 3.22475,
       "population": 31916,
@@ -1524,6 +1668,7 @@
     {
       "id": "2476412",
       "name": "el hed",
+      "nativeName": "Ilmaten",
       "latitude": 36.65,
       "longitude": 4.77361,
       "population": 31890,
@@ -1533,6 +1678,7 @@
     {
       "id": "2483649",
       "name": "Remchi",
+      "nativeName": "الرمشي ⵔⵔⵎⵛⵉ",
       "latitude": 35.06196,
       "longitude": -1.43362,
       "population": 31837,
@@ -1541,7 +1687,8 @@
     },
     {
       "id": "2488716",
-      "name": "Megarine",
+      "name": "Meggarine",
+      "nativeName": "مقارين ⵎⴻⴳⴳⴰⵔⵉⵏ",
       "latitude": 33.19195,
       "longitude": 6.08695,
       "population": 31711,
@@ -1550,7 +1697,7 @@
     },
     {
       "id": "2488616",
-      "name": "Mehdia daira de meghila",
+      "name": "Mahdia",
       "latitude": 35.43058,
       "longitude": 1.75714,
       "population": 31396,
@@ -1559,7 +1706,8 @@
     },
     {
       "id": "2508275",
-      "name": "’Aïn Benian",
+      "name": "Ain Benian",
+      "nativeName": "Aïn Benian ⵉⵏ ⴱⴻⵏⵢⴰⵏ عين البنيان",
       "latitude": 36.80277,
       "longitude": 2.92185,
       "population": 31102,
@@ -1569,6 +1717,7 @@
     {
       "id": "2496241",
       "name": "Freha",
+      "nativeName": "Freha ⴼⵕⵉⵃⴰ فريحة",
       "latitude": 36.75234,
       "longitude": 4.3155,
       "population": 31068,
@@ -1578,6 +1727,7 @@
     {
       "id": "2479966",
       "name": "Sidi Moussa",
+      "nativeName": "Sidi Moussa ⵙⵉⴷⵉ ⵎⵓⵙⴰ سيدي موسى",
       "latitude": 36.60637,
       "longitude": 3.08783,
       "population": 30887,
@@ -1586,7 +1736,8 @@
     },
     {
       "id": "2491042",
-      "name": "L’Arbaa Naït Irathen",
+      "name": "Larbaa Nath Irathen",
+      "nativeName": "Larbâa n Ath Irathen ⵍⴰⵔⴲⵄⴰ ⵏ ⴰⵝ ⵢⵉⵔⴰⵝⴻⵏ الأربعاء ناث إيراثن",
       "latitude": 36.63112,
       "longitude": 4.19864,
       "population": 30609,
@@ -1595,7 +1746,8 @@
     },
     {
       "id": "2508059",
-      "name": "Aïn Kercha",
+      "name": "Ain Kercha",
+      "nativeName": "عين كرشة ⵜⵉⵟ ⵏ ⵜⵉⴽⴻⵔⵛⵜ",
       "latitude": 35.92472,
       "longitude": 6.69528,
       "population": 30575,
@@ -1614,6 +1766,7 @@
     {
       "id": "2483000",
       "name": "Robbah",
+      "nativeName": "الرباح ⵔⵔⵓⴱⴰⵃ",
       "latitude": 33.27967,
       "longitude": 6.90984,
       "population": 30446,
@@ -1623,6 +1776,7 @@
     {
       "id": "2502962",
       "name": "Bouinan",
+      "nativeName": "Bouinan ⴱⵓ ⵉⵏⴰⵏ بوعينان",
       "latitude": 36.53167,
       "longitude": 2.99194,
       "population": 30271,
@@ -1632,6 +1786,7 @@
     {
       "id": "2504110",
       "name": "Berriane",
+      "nativeName": "بريان ⴱⴻⵔⵔⵉⵢⴰⵏ",
       "latitude": 32.82648,
       "longitude": 3.76689,
       "population": 30170,
@@ -1641,6 +1796,7 @@
     {
       "id": "2487805",
       "name": "Meskiana",
+      "nativeName": "مسكيانة ⵎⴻⵙⴽⵢⴰⵏⴰ",
       "latitude": 35.63058,
       "longitude": 7.66606,
       "population": 30071,
@@ -1659,6 +1815,7 @@
     {
       "id": "2498000",
       "name": "El Idrissia",
+      "nativeName": "الإدريسية ⵍⵉⴷⵔⵉⵙⵉⵢⴰ",
       "latitude": 34.44542,
       "longitude": 2.52749,
       "population": 29856,
@@ -1668,6 +1825,7 @@
     {
       "id": "2481058",
       "name": "Sidi Amrane",
+      "nativeName": "سيدي عمران ⵙⵉⴷⵉ ⵄⴻⵎⵔⴰⵏ",
       "latitude": 33.49885,
       "longitude": 6.00803,
       "population": 29734,
@@ -1686,6 +1844,7 @@
     {
       "id": "2479916",
       "name": "Sidi Okba",
+      "nativeName": "سيدي عقبة ⵙⵉⴷⵉ ⵄⵓⵇⴱⴰ",
       "latitude": 34.74512,
       "longitude": 5.89833,
       "population": 29499,
@@ -1694,7 +1853,8 @@
     },
     {
       "id": "2508309",
-      "name": "’Aïn Abid",
+      "name": "Aïn Abid",
+      "nativeName": "عين عبيد ⵄⵉⵏ ⵄⴱⵉⴷ",
       "latitude": 36.23194,
       "longitude": 6.94333,
       "population": 29486,
@@ -1703,7 +1863,8 @@
     },
     {
       "id": "2486177",
-      "name": "N’Gaous",
+      "name": "N'Gaous",
+      "nativeName": "نڨاوس ⵏⴳⴰⵡⴻⵙ",
       "latitude": 35.555,
       "longitude": 5.61056,
       "population": 29453,
@@ -1713,6 +1874,7 @@
     {
       "id": "2499116",
       "name": "Draa Ben Khedda",
+      "nativeName": "Draâ Ben Khedda  ⴸⵔⴰⵄ ⴱⴻⵏ ⵅⴻⴷⴷⴰ ذراع بن خدة",
       "latitude": 36.73436,
       "longitude": 3.96223,
       "population": 29403,
@@ -1722,6 +1884,7 @@
     {
       "id": "12640237",
       "name": "Collo",
+      "nativeName": "القل ⵍⵇⵓⵍ",
       "latitude": 37.00563,
       "longitude": 6.56049,
       "population": 29354,
@@ -1730,7 +1893,8 @@
     },
     {
       "id": "2477148",
-      "name": "Ténès",
+      "name": "Tenes",
+      "nativeName": "Ténès ⵜⴻⵏⴻⵙ تنس",
       "latitude": 36.51076,
       "longitude": 1.30809,
       "population": 29220,
@@ -1739,7 +1903,7 @@
     },
     {
       "id": "2484891",
-      "name": "Ouled Haddaj",
+      "name": "Ouled Haddadj",
       "latitude": 36.71461,
       "longitude": 3.3422,
       "population": 29012,
@@ -1748,7 +1912,8 @@
     },
     {
       "id": "2474141",
-      "name": "Boumerdas",
+      "name": "Boumerdes",
+      "nativeName": "Boumerdès ⴱⵓⵎⴻⵔⴷⴰⵙ بومرداس",
       "latitude": 36.76639,
       "longitude": 3.47717,
       "population": 28996,
@@ -1757,7 +1922,8 @@
     },
     {
       "id": "2474399",
-      "name": "Zighout Youcef",
+      "name": "Zighoud Youcef",
+      "nativeName": "زيغود يوسف ⵣⵉⵖⵓⴷ ⵢⵓⵙⴼ",
       "latitude": 36.53307,
       "longitude": 6.71237,
       "population": 28764,
@@ -1767,6 +1933,7 @@
     {
       "id": "2508157",
       "name": "Ain el Hadjel",
+      "nativeName": "Aïn El Hadjel ⵄⵉⵏ ⵍⴻⵃⴵⴻⵍ عين الحجل",
       "latitude": 35.67003,
       "longitude": 3.88153,
       "population": 28728,
@@ -1784,7 +1951,8 @@
     },
     {
       "id": "2486825",
-      "name": "Mouzaïa",
+      "name": "Mouzaia",
+      "nativeName": "Mouzaia ⵎⵓⵣⴰⵢⴰ موزاية",
       "latitude": 36.46695,
       "longitude": 2.68991,
       "population": 28552,
@@ -1793,7 +1961,8 @@
     },
     {
       "id": "2495846",
-      "name": "Grarem",
+      "name": "Grarem Gouga",
+      "nativeName": "القرارم قوقة ⴳⵔⴰⵔⵎ ⴳⵓⴳⴰ",
       "latitude": 36.51611,
       "longitude": 6.32722,
       "population": 28551,

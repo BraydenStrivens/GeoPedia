@@ -2,7 +2,8 @@
   "towns": [
     {
       "id": "3439389",
-      "name": "Asunción",
+      "name": "Asuncion",
+      "nativeName": "Asunción",
       "latitude": -25.28646,
       "longitude": -57.647,
       "population": 1482200,
@@ -66,6 +67,7 @@
     {
       "id": "3437665",
       "name": "Nemby",
+      "nativeName": "Ñemby",
       "latitude": -25.3949,
       "longitude": -57.53574,
       "population": 94641,
@@ -83,7 +85,8 @@
     },
     {
       "id": "3438735",
-      "name": "Encarnación",
+      "name": "Encarnacion",
+      "nativeName": "Encarnación",
       "latitude": -27.33176,
       "longitude": -55.86662,
       "population": 74983,
@@ -318,6 +321,7 @@
     {
       "id": "3437088",
       "name": "San Isidro de Curuguaty",
+      "nativeName": "Curuguaty",
       "latitude": -24.47184,
       "longitude": -55.69227,
       "population": 11095,
@@ -372,6 +376,7 @@
     {
       "id": "3436585",
       "name": "Ypacarai",
+      "nativeName": "Ypacaraí",
       "latitude": -25.40777,
       "longitude": -57.28889,
       "population": 9655,
@@ -434,7 +439,8 @@
     },
     {
       "id": "3437148",
-      "name": "Salto del Guairá",
+      "name": "Salto del Guaira",
+      "nativeName": "Salto del Guairá",
       "latitude": -24.0633,
       "longitude": -54.30763,
       "population": 7385,
@@ -444,6 +450,7 @@
     {
       "id": "3436959",
       "name": "Santa Rosa",
+      "nativeName": "Santa Rosa de Lima",
       "latitude": -26.8873,
       "longitude": -56.84905,
       "population": 7257,
@@ -516,6 +523,7 @@
     {
       "id": "3439402",
       "name": "Tomás Romero Pereira",
+      "nativeName": "María Auxiliadora",
       "latitude": -26.53115,
       "longitude": -55.26046,
       "population": 5533,
@@ -525,6 +533,7 @@
     {
       "id": "11549702",
       "name": "Puerto Vallemí",
+      "nativeName": "Vallemí",
       "latitude": -22.15755,
       "longitude": -57.95125,
       "population": 5332,
@@ -633,6 +642,7 @@
     {
       "id": "3439065",
       "name": "Carmelo Peralta",
+      "nativeName": "Puerto Carmelo Peralta",
       "latitude": -21.67985,
       "longitude": -57.90729,
       "population": 4402,
@@ -795,6 +805,7 @@
     {
       "id": "3437421",
       "name": "Puerto Bahía Negra",
+      "nativeName": "Bahía Negra",
       "latitude": -20.22966,
       "longitude": -58.16857,
       "population": 2537,
@@ -831,6 +842,7 @@
     {
       "id": "3436880",
       "name": "Tacuatí",
+      "nativeName": "Tacuati",
       "latitude": -23.45767,
       "longitude": -56.73672,
       "population": 2405,
@@ -867,6 +879,7 @@
     {
       "id": "3438034",
       "name": "Guajayvi",
+      "nativeName": "Guayaibí",
       "latitude": -24.53333,
       "longitude": -56.40392,
       "population": 2247,
@@ -912,6 +925,7 @@
     {
       "id": "3438755",
       "name": "Doctor Cecilio Báez",
+      "nativeName": "Cecilio Báez",
       "latitude": -25.06943,
       "longitude": -56.24267,
       "population": 1977,
@@ -957,6 +971,7 @@
     {
       "id": "3438743",
       "name": "Edelira",
+      "nativeName": "Edelira Km. 20",
       "latitude": -26.76734,
       "longitude": -55.27872,
       "population": 1698,
@@ -1101,6 +1116,7 @@
     {
       "id": "3437653",
       "name": "Colonia Nueva Germania",
+      "nativeName": "Nueva Germania",
       "latitude": -23.91137,
       "longitude": -56.70091,
       "population": 1206,
@@ -1110,6 +1126,7 @@
     {
       "id": "3436617",
       "name": "Fulgencio Yegros",
+      "nativeName": "Yegros",
       "latitude": -26.45565,
       "longitude": -56.40368,
       "population": 1140,
@@ -1146,6 +1163,7 @@
     {
       "id": "3437647",
       "name": "Ñumi",
+      "nativeName": "Ñumí",
       "latitude": -25.95052,
       "longitude": -56.3296,
       "population": 864,
@@ -1272,6 +1290,7 @@
     {
       "id": "3438119",
       "name": "José Fassardi",
+      "nativeName": "José A. Fassardi",
       "latitude": -25.97845,
       "longitude": -56.12325,
       "population": 409,
@@ -1299,6 +1318,7 @@
     {
       "id": "3437061",
       "name": "San Juan Bautista de Ñeembucú",
+      "nativeName": "San Juan Bautista del Ñeembucú",
       "latitude": -26.67065,
       "longitude": -57.90412,
       "population": 330,
@@ -1326,6 +1346,7 @@
     {
       "id": "3438756",
       "name": "Doctor Bottrell",
+      "nativeName": "Doctor Botrell",
       "latitude": -25.61498,
       "longitude": -56.33989,
       "population": 246,

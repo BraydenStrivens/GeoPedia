@@ -1,8 +1,10 @@
 /**
- * Displays the control used to restore the complete, unfiltered quiz.
+ * Displays controls for restoring the complete feature quiz and optionally
+ * limiting it to geographic features available in GeoGuessr.
  *
  * Full Quiz represents the default grouping state where every geographic
- * feature and every quiz question is available.
+ * feature and every quiz question is available before any optional
+ * GeoGuessr-only filter is applied.
  */
 
 "use client";
@@ -11,19 +13,16 @@
  * Props required by the Full Quiz section.
  */
 type FullQuizSectionProps = {
-  /** Whether Full Quiz is currently controlling the quiz. */
+  /** Whether Full Quiz is currently controlling the feature quiz. */
   isActive: boolean;
-
-  /** Whether grouping interactions are currently disabled. */
-  isDisabled: boolean;
 
   /** Whether GeoGuessr-only filtering is currently enabled. */
   isGeoGuessrOnly: boolean;
 
-  /** Whether this quiz supports GeoGuessr-only filtering. */
+  /** Whether this feature quiz supports GeoGuessr-only filtering. */
   supportsGeoGuessrFilter: boolean;
 
-  /** Restores the complete unfiltered quiz. */
+  /** Restores the complete ungrouped feature quiz. */
   onUseFullQuiz: () => void;
 
   /** Enables or disables GeoGuessr-only filtering. */
@@ -31,39 +30,44 @@ type FullQuizSectionProps = {
 };
 
 /**
- * Displays the Full Quiz grouping option.
+ * Displays the Full Quiz grouping option and optional GeoGuessr filter.
  *
- * @param props - Full Quiz state and activation callback.
+ * @param props - Full Quiz section properties.
+ * @param props.isActive - Whether Full Quiz is currently active.
+ * @param props.isGeoGuessrOnly - Whether GeoGuessr-only filtering is enabled.
+ * @param props.supportsGeoGuessrFilter - Whether the current map data supports
+ * GeoGuessr filtering.
+ * @param props.onUseFullQuiz - Callback for restoring the complete quiz.
+ * @param props.onGeoGuessrOnlyChange - Callback for changing the GeoGuessr
+ * filter.
  * @returns The Full Quiz section.
  */
 export default function FullQuizSection({
   isActive,
-  isDisabled,
   isGeoGuessrOnly,
   supportsGeoGuessrFilter,
   onUseFullQuiz,
   onGeoGuessrOnlyChange,
 }: FullQuizSectionProps) {
   return (
-    <section className="border-b border-gray-300 pb-4">
+    <section className="border-b border-border pb-4">
       {/* Section heading */}
-      <h3 className="mb-2 text-sm font-semibold text-gray-800">
+      <h3 className="mb-2 text-sm font-semibold text-text">
         Full Quiz
       </h3>
 
-      {/* Full Quiz toggle */}
+      {/* Full Quiz selection */}
       <button
         type="button"
-        disabled={isDisabled || isActive}
+        disabled={isActive}
         onClick={onUseFullQuiz}
+        aria-pressed={isActive}
         className={[
-          "w-full rounded-lg border px-3 py-2 text-sm font-semibold transition",
-
+          "w-full rounded-lg border px-3 py-2",
+          "text-sm font-semibold transition",
           isActive
-            ? "border-gray-900 bg-gray-900 text-white"
-            : "border-gray-300 bg-white text-gray-800 hover:bg-gray-300/80",
-
-          isDisabled ? "cursor-not-allowed opacity-50" : "",
+            ? "cursor-default border-selected-control bg-selected-control text-button-text"
+            : "border-border bg-background-1 text-text hover:bg-background-3",
         ].join(" ")}
       >
         Use Full Quiz
@@ -72,24 +76,18 @@ export default function FullQuizSection({
       {supportsGeoGuessrFilter && (
         /* Optional GeoGuessr eligibility filter */
         <div className="flex w-full items-center justify-end py-2">
-          <label
-            className={[
-              "flex items-center gap-2 text-sm font-medium",
-              isDisabled
-                ? "cursor-not-allowed opacity-50"
-                : "cursor-pointer",
-            ].join(" ")}
-          >
-            <span className="text-gray-600">GeoGuessr Only</span>
+          <label className="flex cursor-pointer items-center gap-2 text-sm font-medium">
+            <span className="text-text-secondary">
+              GeoGuessr Only
+            </span>
 
             <input
               type="checkbox"
               checked={isGeoGuessrOnly}
-              disabled={isDisabled}
               onChange={(event) =>
                 onGeoGuessrOnlyChange(event.target.checked)
               }
-              className="h-4 w-4 cursor-pointer disabled:cursor-not-allowed"
+              className="h-4 w-4 cursor-pointer"
             />
           </label>
         </div>

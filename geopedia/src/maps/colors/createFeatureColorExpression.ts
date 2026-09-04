@@ -18,7 +18,7 @@
 import type { ExpressionSpecification } from "maplibre-gl";
 
 import type { AnswerStatus, AnswerType } from "@/types/quiz";
-import type { QuizMode } from "@/types/quizSettings";
+import type { QuizMode } from "@/types/featureQuizSettings";
 
 /**
  * RGB tuple used when constructing MapLibre color expressions.

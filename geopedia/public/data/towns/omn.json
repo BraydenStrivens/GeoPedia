@@ -3,6 +3,7 @@
     {
       "id": "287286",
       "name": "Muscat",
+      "nativeName": "مسقط",
       "latitude": 23.58413,
       "longitude": 58.40778,
       "population": 797000,
@@ -12,6 +13,7 @@
     {
       "id": "288967",
       "name": "Seeb",
+      "nativeName": "السيب",
       "latitude": 23.67027,
       "longitude": 58.18911,
       "population": 470878,
@@ -21,6 +23,7 @@
     {
       "id": "288764",
       "name": "Bawshar",
+      "nativeName": "بوشر",
       "latitude": 23.57769,
       "longitude": 58.39982,
       "population": 383257,
@@ -29,7 +32,8 @@
     },
     {
       "id": "287830",
-      "name": "‘Ibrī",
+      "name": "Ibri",
+      "nativeName": "عبري",
       "latitude": 23.22573,
       "longitude": 56.51572,
       "population": 163473,
@@ -38,7 +42,8 @@
     },
     {
       "id": "286621",
-      "name": "Şalālah",
+      "name": "Salalah",
+      "nativeName": "صلالة",
       "latitude": 17.01505,
       "longitude": 54.09237,
       "population": 163140,
@@ -47,7 +52,8 @@
     },
     {
       "id": "286647",
-      "name": "Şaḩam",
+      "name": "Saham",
+      "nativeName": "صحم",
       "latitude": 24.17222,
       "longitude": 56.88861,
       "population": 140000,
@@ -56,7 +62,8 @@
     },
     {
       "id": "289011",
-      "name": "Rustaq",
+      "name": "Al-Rustaq",
+      "nativeName": "الرستاق",
       "latitude": 23.39083,
       "longitude": 57.42444,
       "population": 120000,
@@ -66,6 +73,7 @@
     {
       "id": "286282",
       "name": "Sohar",
+      "nativeName": "صحار",
       "latitude": 24.34745,
       "longitude": 56.70937,
       "population": 108274,
@@ -74,7 +82,8 @@
     },
     {
       "id": "286590",
-      "name": "Samā’il",
+      "name": "Samail",
+      "nativeName": "سمائل",
       "latitude": 23.29838,
       "longitude": 57.9531,
       "population": 80538,
@@ -83,7 +92,8 @@
     },
     {
       "id": "289317",
-      "name": "Al Buraymī",
+      "name": "Al-Buraimi",
+      "nativeName": "البريمي",
       "latitude": 24.25088,
       "longitude": 55.79312,
       "population": 73670,
@@ -92,7 +102,8 @@
     },
     {
       "id": "286987",
-      "name": "Nizwá",
+      "name": "Nizwa",
+      "nativeName": "نزوى",
       "latitude": 22.93333,
       "longitude": 57.53333,
       "population": 72076,
@@ -102,6 +113,7 @@
     {
       "id": "286245",
       "name": "Sur",
+      "nativeName": "صور",
       "latitude": 22.56667,
       "longitude": 59.52889,
       "population": 71152,
@@ -110,7 +122,8 @@
     },
     {
       "id": "286839",
-      "name": "Qurayyāt",
+      "name": "Qurayyat",
+      "nativeName": "قريات",
       "latitude": 23.26298,
       "longitude": 58.92014,
       "population": 63133,
@@ -119,7 +132,8 @@
     },
     {
       "id": "288899",
-      "name": "Bahlā’",
+      "name": "Bahlā",
+      "nativeName": "بهلاء",
       "latitude": 22.97886,
       "longitude": 57.3047,
       "population": 54338,
@@ -128,7 +142,8 @@
     },
     {
       "id": "289199",
-      "name": "Al Khābūrah",
+      "name": "Al Khaburah",
+      "nativeName": "الخابورة",
       "latitude": 23.97144,
       "longitude": 57.09313,
       "population": 50223,
@@ -137,7 +152,8 @@
     },
     {
       "id": "286402",
-      "name": "Shināş",
+      "name": "Shinas",
+      "nativeName": "شناص",
       "latitude": 24.7426,
       "longitude": 56.46698,
       "population": 48009,
@@ -146,7 +162,8 @@
     },
     {
       "id": "287814",
-      "name": "Izkī",
+      "name": "Izki",
+      "nativeName": "إزكي",
       "latitude": 22.93333,
       "longitude": 57.76667,
       "population": 36203,
@@ -155,7 +172,8 @@
     },
     {
       "id": "289174",
-      "name": "Liwá",
+      "name": "Liwa",
+      "nativeName": "لوى",
       "latitude": 24.53077,
       "longitude": 56.563,
       "population": 26372,
@@ -164,7 +182,8 @@
     },
     {
       "id": "287832",
-      "name": "Ibrā’",
+      "name": "Ibra",
+      "nativeName": "إبراء",
       "latitude": 22.69057,
       "longitude": 58.53337,
       "population": 25265,
@@ -174,6 +193,7 @@
     {
       "id": "288721",
       "name": "Bidbid",
+      "nativeName": "بدبد",
       "latitude": 23.40787,
       "longitude": 58.1283,
       "population": 21188,
@@ -183,6 +203,7 @@
     {
       "id": "287614",
       "name": "Khasab",
+      "nativeName": "خصب",
       "latitude": 26.17993,
       "longitude": 56.24774,
       "population": 17904,
@@ -192,6 +213,7 @@
     {
       "id": "289433",
       "name": "Adam",
+      "nativeName": "أدم",
       "latitude": 22.37934,
       "longitude": 57.52718,
       "population": 17283,
@@ -201,6 +223,7 @@
     {
       "id": "411849",
       "name": "Yanqul",
+      "nativeName": "ينقل",
       "latitude": 23.58645,
       "longitude": 56.53969,
       "population": 16599,
@@ -209,7 +232,8 @@
     },
     {
       "id": "289142",
-      "name": "Al Qābil",
+      "name": "Al Qabil",
+      "nativeName": "القابل",
       "latitude": 22.571,
       "longitude": 58.69472,
       "population": 14008,
@@ -218,7 +242,8 @@
     },
     {
       "id": "11764763",
-      "name": "Mīnā’ Dabā",
+      "name": "Dibba",
+      "nativeName": "دبا",
       "latitude": 25.65056,
       "longitude": 56.26516,
       "population": 9863,
@@ -227,7 +252,8 @@
     },
     {
       "id": "13440142",
-      "name": "Madḩā’",
+      "name": "Madha",
+      "nativeName": "مدحاء",
       "latitude": 25.28357,
       "longitude": 56.33196,
       "population": 3217,
@@ -236,7 +262,8 @@
     },
     {
       "id": "287480",
-      "name": "Līmā’",
+      "name": "Lima",
+      "nativeName": "ليماء",
       "latitude": 25.94205,
       "longitude": 56.42419,
       "population": 2067,
@@ -245,7 +272,8 @@
     },
     {
       "id": "287939",
-      "name": "Haymā’",
+      "name": "Haima",
+      "nativeName": "هيماء",
       "latitude": 19.95931,
       "longitude": 56.27575,
       "population": 1294,

@@ -102,6 +102,7 @@
     {
       "id": "3613528",
       "name": "Ciudad Choluteca",
+      "nativeName": "Choluteca",
       "latitude": 13.30569,
       "longitude": -87.17882,
       "population": 75872,
@@ -111,6 +112,7 @@
     {
       "id": "3601787",
       "name": "San Pedro de Copán",
+      "nativeName": "San Pedro",
       "latitude": 14.61667,
       "longitude": -88.86667,
       "population": 63829,
@@ -272,7 +274,8 @@
     },
     {
       "id": "3601494",
-      "name": "Santa Rosa de Copán",
+      "name": "Santa Rosa",
+      "nativeName": "Santa Rosa de Copán",
       "latitude": 14.77388,
       "longitude": -88.7756,
       "population": 27753,
@@ -507,6 +510,7 @@
     {
       "id": "3601999",
       "name": "San Juan de Flores",
+      "nativeName": "Cantarranas",
       "latitude": 14.26667,
       "longitude": -87.03333,
       "population": 16070,
@@ -570,6 +574,7 @@
     {
       "id": "3601919",
       "name": "San Manuel de Colohete",
+      "nativeName": "San Manuel Colohete",
       "latitude": 14.45,
       "longitude": -88.66667,
       "population": 14583,
@@ -1002,6 +1007,7 @@
     {
       "id": "3606251",
       "name": "Las Vegas, Santa Barbara",
+      "nativeName": "Las Vegas",
       "latitude": 14.87649,
       "longitude": -88.07473,
       "population": 7487,
@@ -1074,6 +1080,7 @@
     {
       "id": "3615250",
       "name": "La Alianza",
+      "nativeName": "Alianza",
       "latitude": 13.51222,
       "longitude": -87.72444,
       "population": 6923,
@@ -1335,6 +1342,7 @@
     {
       "id": "3600629",
       "name": "Tras Cerros",
+      "nativeName": "Trascerros",
       "latitude": 15.3,
       "longitude": -88.66667,
       "population": 4174,
@@ -1353,6 +1361,7 @@
     {
       "id": "3612840",
       "name": "Dolores",
+      "nativeName": "Dolores Merendón",
       "latitude": 14.53333,
       "longitude": -89.11667,
       "population": 3997,
@@ -1542,6 +1551,7 @@
     {
       "id": "3601519",
       "name": "Santa Rita, Copan",
+      "nativeName": "Santa Rita",
       "latitude": 14.86748,
       "longitude": -89.1,
       "population": 2704,

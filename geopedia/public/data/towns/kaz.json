@@ -3,6 +3,7 @@
     {
       "id": "1526384",
       "name": "Almaty",
+      "nativeName": "Алматы",
       "latitude": 43.25249,
       "longitude": 76.9115,
       "population": 1977011,
@@ -12,6 +13,7 @@
     {
       "id": "1526273",
       "name": "Astana",
+      "nativeName": "Астана",
       "latitude": 51.1801,
       "longitude": 71.44598,
       "population": 1544142,
@@ -21,6 +23,7 @@
     {
       "id": "1518980",
       "name": "Shymkent",
+      "nativeName": "Шымкент",
       "latitude": 42.30988,
       "longitude": 69.60042,
       "population": 1200000,
@@ -30,6 +33,7 @@
     {
       "id": "610611",
       "name": "Aktobe",
+      "nativeName": "Ақтөбе",
       "latitude": 50.27969,
       "longitude": 57.20718,
       "population": 500757,
@@ -38,7 +42,8 @@
     },
     {
       "id": "609655",
-      "name": "Karagandy",
+      "name": "Karaganda",
+      "nativeName": "Қарағанды",
       "latitude": 49.80187,
       "longitude": 73.10211,
       "population": 497777,
@@ -48,6 +53,7 @@
     {
       "id": "1516905",
       "name": "Taraz",
+      "nativeName": "Тараз",
       "latitude": 42.89799,
       "longitude": 71.37334,
       "population": 358153,
@@ -57,6 +63,7 @@
     {
       "id": "1519922",
       "name": "Kyzylorda",
+      "nativeName": "Қызылорда",
       "latitude": 44.85278,
       "longitude": 65.50917,
       "population": 354800,
@@ -66,6 +73,7 @@
     {
       "id": "608668",
       "name": "Oral",
+      "nativeName": "Орал",
       "latitude": 51.24601,
       "longitude": 51.42558,
       "population": 330000,
@@ -75,6 +83,7 @@
     {
       "id": "1520240",
       "name": "Pavlodar",
+      "nativeName": "Павлодар",
       "latitude": 52.27601,
       "longitude": 76.96881,
       "population": 329002,
@@ -84,6 +93,7 @@
     {
       "id": "1519422",
       "name": "Semey",
+      "nativeName": "Семей",
       "latitude": 50.42064,
       "longitude": 80.25025,
       "population": 292780,
@@ -93,6 +103,7 @@
     {
       "id": "610529",
       "name": "Atyrau",
+      "nativeName": "Атырау",
       "latitude": 47.1048,
       "longitude": 51.88427,
       "population": 290700,
@@ -102,6 +113,7 @@
     {
       "id": "1517945",
       "name": "Turkistan",
+      "nativeName": "Түркістан",
       "latitude": 43.29458,
       "longitude": 68.25685,
       "population": 227098,
@@ -111,6 +123,7 @@
     {
       "id": "1519928",
       "name": "Kostanay",
+      "nativeName": "Қостанай",
       "latitude": 53.21435,
       "longitude": 63.62463,
       "population": 210000,
@@ -120,6 +133,7 @@
     {
       "id": "1520172",
       "name": "Petropavl",
+      "nativeName": "Петропавл",
       "latitude": 54.87343,
       "longitude": 69.15065,
       "population": 200920,
@@ -129,6 +143,7 @@
     {
       "id": "1518262",
       "name": "Temirtau",
+      "nativeName": "Теміртау",
       "latitude": 50.05197,
       "longitude": 72.95497,
       "population": 170600,
@@ -138,6 +153,7 @@
     {
       "id": "1522203",
       "name": "Kokshetau",
+      "nativeName": "Көкшетау",
       "latitude": 53.28414,
       "longitude": 69.39364,
       "population": 150649,
@@ -147,6 +163,7 @@
     {
       "id": "610612",
       "name": "Aktau",
+      "nativeName": "Ақтау",
       "latitude": 43.66105,
       "longitude": 51.17392,
       "population": 147443,
@@ -155,7 +172,8 @@
     },
     {
       "id": "1519843",
-      "name": "Rudnyy",
+      "name": "Rudny",
+      "nativeName": "Рудный",
       "latitude": 52.97244,
       "longitude": 63.11055,
       "population": 124000,
@@ -165,6 +183,7 @@
     {
       "id": "1524325",
       "name": "Ekibastuz",
+      "nativeName": "Екібастұз",
       "latitude": 51.72371,
       "longitude": 75.32287,
       "population": 121470,
@@ -174,6 +193,7 @@
     {
       "id": "1518542",
       "name": "Taldykorgan",
+      "nativeName": "Талдықорған",
       "latitude": 45.01556,
       "longitude": 78.37389,
       "population": 116558,
@@ -182,7 +202,8 @@
     },
     {
       "id": "1516589",
-      "name": "Zhezqazghan",
+      "name": "Jezqazğan",
+      "nativeName": "Жезқазған",
       "latitude": 47.79411,
       "longitude": 67.70628,
       "population": 104357,
@@ -191,7 +212,8 @@
     },
     {
       "id": "607610",
-      "name": "Zhanaozen",
+      "name": "Jañaözen",
+      "nativeName": "Жаңаөзен",
       "latitude": 43.34116,
       "longitude": 52.86192,
       "population": 103598,
@@ -200,7 +222,8 @@
     },
     {
       "id": "1525798",
-      "name": "Balqash",
+      "name": "Balqaş",
+      "nativeName": "Балқаш",
       "latitude": 46.84546,
       "longitude": 74.98213,
       "population": 81364,
@@ -209,7 +232,8 @@
     },
     {
       "id": "1519691",
-      "name": "Sarqant",
+      "name": "Sarqan",
+      "nativeName": "Сарқан",
       "latitude": 45.41322,
       "longitude": 79.91713,
       "population": 76919,
@@ -219,6 +243,7 @@
     {
       "id": "1521368",
       "name": "Baikonur",
+      "nativeName": "Байқоңыр",
       "latitude": 45.61667,
       "longitude": 63.31667,
       "population": 70000,
@@ -227,7 +252,8 @@
     },
     {
       "id": "1520692",
-      "name": "Satpayev",
+      "name": "Sätbaev",
+      "nativeName": "Сәтбаев",
       "latitude": 47.90409,
       "longitude": 67.54112,
       "population": 69782,
@@ -237,6 +263,7 @@
     {
       "id": "1522751",
       "name": "Kentau",
+      "nativeName": "Кентау",
       "latitude": 43.51672,
       "longitude": 68.50463,
       "population": 57408,
@@ -246,6 +273,7 @@
     {
       "id": "1521370",
       "name": "Ridder",
+      "nativeName": "Риддер",
       "latitude": 50.34524,
       "longitude": 83.51562,
       "population": 52664,
@@ -254,7 +282,8 @@
     },
     {
       "id": "609123",
-      "name": "Qulsary",
+      "name": "Qūlsary",
+      "nativeName": "Құлсары",
       "latitude": 46.95307,
       "longitude": 54.01978,
       "population": 51216,
@@ -264,6 +293,7 @@
     {
       "id": "1519244",
       "name": "Shchuchinsk",
+      "nativeName": "Щучинск",
       "latitude": 52.93592,
       "longitude": 70.18895,
       "population": 47290,
@@ -273,6 +303,7 @@
     {
       "id": "1537939",
       "name": "Stepnogorsk",
+      "nativeName": "Степногорск",
       "latitude": 52.35062,
       "longitude": 71.88161,
       "population": 46736,
@@ -282,6 +313,7 @@
     {
       "id": "1524298",
       "name": "Aksu",
+      "nativeName": "Ақсу",
       "latitude": 52.04023,
       "longitude": 76.92748,
       "population": 44808,
@@ -290,7 +322,8 @@
     },
     {
       "id": "1516601",
-      "name": "Zhitikara",
+      "name": "Jitiqara",
+      "nativeName": "Жітіқара",
       "latitude": 52.19019,
       "longitude": 61.19894,
       "population": 43104,
@@ -300,6 +333,7 @@
     {
       "id": "1519725",
       "name": "Saran",
+      "nativeName": "Саран",
       "latitude": 49.80245,
       "longitude": 72.83186,
       "population": 42552,
@@ -308,7 +342,8 @@
     },
     {
       "id": "1518518",
-      "name": "Talghar",
+      "name": "Talgar",
+      "nativeName": "Талғар",
       "latitude": 43.30235,
       "longitude": 77.23811,
       "population": 42194,
@@ -317,7 +352,8 @@
     },
     {
       "id": "1519948",
-      "name": "Konayev",
+      "name": "Qonaev",
+      "nativeName": "Қонаев",
       "latitude": 43.86681,
       "longitude": 77.06304,
       "population": 42167,
@@ -327,6 +363,7 @@
     {
       "id": "1526193",
       "name": "Arkalyk",
+      "nativeName": "Арқалық",
       "latitude": 50.25031,
       "longitude": 66.90384,
       "population": 42000,
@@ -336,6 +373,7 @@
     {
       "id": "1519327",
       "name": "Shakhtinsk",
+      "nativeName": "Шахтинск",
       "latitude": 49.70713,
       "longitude": 72.59321,
       "population": 41602,
@@ -345,6 +383,7 @@
     {
       "id": "1521315",
       "name": "Lisakovsk",
+      "nativeName": "Лисаковск",
       "latitude": 52.54488,
       "longitude": 62.49893,
       "population": 40000,
@@ -353,7 +392,8 @@
     },
     {
       "id": "1519030",
-      "name": "Shu",
+      "name": "Şu",
+      "nativeName": "Шу",
       "latitude": 43.60507,
       "longitude": 73.76221,
       "population": 39785,
@@ -363,6 +403,7 @@
     {
       "id": "1519938",
       "name": "Karatau",
+      "nativeName": "Қаратау",
       "latitude": 43.17959,
       "longitude": 70.4592,
       "population": 37881,
@@ -371,7 +412,8 @@
     },
     {
       "id": "1524385",
-      "name": "Zhetysay",
+      "name": "Jetisay",
+      "nativeName": "Жетісай",
       "latitude": 40.77631,
       "longitude": 68.32774,
       "population": 36494,
@@ -381,6 +423,7 @@
     {
       "id": "1526168",
       "name": "Arys",
+      "nativeName": "Арыс",
       "latitude": 42.43015,
       "longitude": 68.8087,
       "population": 36285,
@@ -389,7 +432,8 @@
     },
     {
       "id": "1516789",
-      "name": "Novokazalinsk",
+      "name": "Ayteke Bi",
+      "nativeName": "Әйтеке би кенті",
       "latitude": 45.84806,
       "longitude": 62.15254,
       "population": 35883,
@@ -399,6 +443,7 @@
     {
       "id": "1526970",
       "name": "Abay",
+      "nativeName": "Абай",
       "latitude": 49.63539,
       "longitude": 72.86523,
       "population": 35454,
@@ -407,7 +452,8 @@
     },
     {
       "id": "610613",
-      "name": "Aqsay",
+      "name": "Aqsai",
+      "nativeName": "Ақсай",
       "latitude": 51.1681,
       "longitude": 52.99782,
       "population": 34799,
@@ -417,6 +463,7 @@
     {
       "id": "1526038",
       "name": "Atbasar",
+      "nativeName": "Атбасар",
       "latitude": 51.80854,
       "longitude": 68.35823,
       "population": 34797,
@@ -426,6 +473,7 @@
     {
       "id": "1520253",
       "name": "Zharkent",
+      "nativeName": "Жаркент",
       "latitude": 44.16619,
       "longitude": 80.00736,
       "population": 34422,
@@ -434,7 +482,8 @@
     },
     {
       "id": "1516788",
-      "name": "Zhangatas",
+      "name": "Zhanatas",
+      "nativeName": "Жаңатас",
       "latitude": 43.56274,
       "longitude": 69.73209,
       "population": 33492,
@@ -443,7 +492,8 @@
     },
     {
       "id": "1525988",
-      "name": "Ayagoz",
+      "name": "Ayagöz",
+      "nativeName": "Аягөз",
       "latitude": 47.96447,
       "longitude": 80.43437,
       "population": 33479,
@@ -453,6 +503,7 @@
     {
       "id": "1526265",
       "name": "Aral",
+      "nativeName": "Арал",
       "latitude": 46.80174,
       "longitude": 61.66312,
       "population": 33017,
@@ -462,6 +513,7 @@
     {
       "id": "1523741",
       "name": "Esik",
+      "nativeName": "Есік",
       "latitude": 43.3552,
       "longitude": 77.45245,
       "population": 32995,
@@ -470,7 +522,8 @@
     },
     {
       "id": "608880",
-      "name": "Mangistau",
+      "name": "Mañğystau",
+      "nativeName": "Маңғыстау",
       "latitude": 43.69088,
       "longitude": 51.32237,
       "population": 31368,
@@ -479,7 +532,8 @@
     },
     {
       "id": "1524801",
-      "name": "Shiyeli",
+      "name": "Şïeli",
+      "nativeName": "Шиелі",
       "latitude": 44.17057,
       "longitude": 66.73376,
       "population": 29832,
@@ -488,7 +542,8 @@
     },
     {
       "id": "1519230",
-      "name": "Shelek",
+      "name": "Şelek",
+      "nativeName": "Шелек",
       "latitude": 43.59623,
       "longitude": 78.25745,
       "population": 29032,
@@ -498,6 +553,7 @@
     {
       "id": "608679",
       "name": "Kandyagash",
+      "nativeName": "Қандыағаш",
       "latitude": 49.46917,
       "longitude": 57.41865,
       "population": 28196,
@@ -506,7 +562,8 @@
     },
     {
       "id": "608359",
-      "name": "Shalqar",
+      "name": "Şalqar",
+      "nativeName": "Шалқар",
       "latitude": 47.83154,
       "longitude": 59.61926,
       "population": 27399,
@@ -515,7 +572,8 @@
     },
     {
       "id": "1524889",
-      "name": "Shardara",
+      "name": "Şardara",
+      "nativeName": "Шардара",
       "latitude": 41.25832,
       "longitude": 67.96991,
       "population": 25356,
@@ -524,7 +582,8 @@
     },
     {
       "id": "1519673",
-      "name": "Saryaghash",
+      "name": "Sarıağaş",
+      "nativeName": "Сарыағаш",
       "latitude": 41.46042,
       "longitude": 69.16791,
       "population": 25139,
@@ -533,7 +592,8 @@
     },
     {
       "id": "609404",
-      "name": "Khromtau",
+      "name": "Hromtau",
+      "nativeName": "Хромтау",
       "latitude": 50.25161,
       "longitude": 58.43574,
       "population": 23715,
@@ -542,7 +602,8 @@
     },
     {
       "id": "1524245",
-      "name": "Kalbatau",
+      "name": "Qalbatau",
+      "nativeName": "Қалбатау",
       "latitude": 49.33009,
       "longitude": 81.57275,
       "population": 22047,
@@ -551,7 +612,8 @@
     },
     {
       "id": "1517323",
-      "name": "Zhangaqorghan",
+      "name": "Jañaqorğan",
+      "nativeName": "Жаңақорған",
       "latitude": 43.90652,
       "longitude": 67.24637,
       "population": 21339,
@@ -560,7 +622,8 @@
     },
     {
       "id": "1521379",
-      "name": "Lenger",
+      "name": "Leñgir",
+      "nativeName": "Леңгір",
       "latitude": 42.18152,
       "longitude": 69.88582,
       "population": 21238,
@@ -569,7 +632,8 @@
     },
     {
       "id": "1524958",
-      "name": "Burunday",
+      "name": "Boraldai",
+      "nativeName": "Боралдай",
       "latitude": 43.35567,
       "longitude": 76.85477,
       "population": 20996,
@@ -579,6 +643,7 @@
     {
       "id": "1517637",
       "name": "Ushtobe",
+      "nativeName": "Үштөбе",
       "latitude": 45.25258,
       "longitude": 77.98284,
       "population": 20492,
@@ -587,7 +652,8 @@
     },
     {
       "id": "1519226",
-      "name": "Shemonaikha",
+      "name": "Şemonaiha",
+      "nativeName": "Шемонаиха",
       "latitude": 50.62899,
       "longitude": 81.91092,
       "population": 20087,
@@ -597,6 +663,7 @@
     {
       "id": "1516519",
       "name": "Zhosaly",
+      "nativeName": "Жосалы",
       "latitude": 45.48778,
       "longitude": 64.07806,
       "population": 20065,
@@ -606,6 +673,7 @@
     {
       "id": "609924",
       "name": "Embi",
+      "nativeName": "Ембі",
       "latitude": 48.82981,
       "longitude": 58.15042,
       "population": 18760,
@@ -614,7 +682,8 @@
     },
     {
       "id": "1521126",
-      "name": "Maqanshy",
+      "name": "Maqanşı",
+      "nativeName": "Мақаншы",
       "latitude": 46.78166,
       "longitude": 82.02258,
       "population": 18754,
@@ -623,7 +692,8 @@
     },
     {
       "id": "1517501",
-      "name": "Turar Ryskulov",
+      "name": "Turar Rısqulov awılı",
+      "nativeName": "Тұрар Рысқұлов ауылы",
       "latitude": 42.5334,
       "longitude": 70.3496,
       "population": 18421,
@@ -633,6 +703,7 @@
     {
       "id": "1521230",
       "name": "Makinsk",
+      "nativeName": "Макинск",
       "latitude": 52.6329,
       "longitude": 70.41911,
       "population": 17711,
@@ -641,7 +712,8 @@
     },
     {
       "id": "1517060",
-      "name": "Zaysan",
+      "name": "Zaisan",
+      "nativeName": "Зайсан",
       "latitude": 47.46657,
       "longitude": 84.87144,
       "population": 17600,
@@ -650,7 +722,8 @@
     },
     {
       "id": "1520969",
-      "name": "Merke",
+      "name": "Merki",
+      "nativeName": "Меркі",
       "latitude": 42.87183,
       "longitude": 73.19648,
       "population": 15934,
@@ -659,7 +732,8 @@
     },
     {
       "id": "1517721",
-      "name": "Urzhar",
+      "name": "Ürjar",
+      "nativeName": "Үржар",
       "latitude": 47.09302,
       "longitude": 81.62939,
       "population": 14826,
@@ -668,7 +742,8 @@
     },
     {
       "id": "1521351",
-      "name": "Kazygurt",
+      "name": "Qazyqurt",
+      "nativeName": "Қазығұрт",
       "latitude": 41.7564,
       "longitude": 69.3839,
       "population": 14737,
@@ -677,7 +752,8 @@
     },
     {
       "id": "610298",
-      "name": "Beyneu",
+      "name": "Beineu",
+      "nativeName": "Бейнеу",
       "latitude": 45.31667,
       "longitude": 55.2,
       "population": 14245,
@@ -687,6 +763,7 @@
     {
       "id": "1524478",
       "name": "Zhalagash",
+      "nativeName": "Жалағаш",
       "latitude": 45.07958,
       "longitude": 64.68175,
       "population": 14226,
@@ -695,7 +772,8 @@
     },
     {
       "id": "1524302",
-      "name": "Yereymentau",
+      "name": "Ereymentaw",
+      "nativeName": "Ерейментау",
       "latitude": 51.62364,
       "longitude": 73.10265,
       "population": 14169,
@@ -705,6 +783,7 @@
     {
       "id": "608872",
       "name": "Maqat",
+      "nativeName": "Мақат",
       "latitude": 47.64967,
       "longitude": 53.34291,
       "population": 14082,
@@ -713,7 +792,8 @@
     },
     {
       "id": "1519580",
-      "name": "Saryozek",
+      "name": "Sarıözek",
+      "nativeName": "Сарыөзек",
       "latitude": 44.36178,
       "longitude": 77.97279,
       "population": 13930,
@@ -723,6 +803,7 @@
     {
       "id": "1524606",
       "name": "Derzhavinsk",
+      "nativeName": "Державинск",
       "latitude": 51.09718,
       "longitude": 66.31875,
       "population": 13856,
@@ -731,7 +812,8 @@
     },
     {
       "id": "1519935",
-      "name": "Qarazhal",
+      "name": "Qarajal",
+      "nativeName": "Қаражал",
       "latitude": 48.01085,
       "longitude": 70.80058,
       "population": 13807,
@@ -741,6 +823,7 @@
     {
       "id": "1539153",
       "name": "Jıbek joly",
+      "nativeName": "Жібек жолы",
       "latitude": 43.37484,
       "longitude": 76.62436,
       "population": 13616,
@@ -750,6 +833,7 @@
     {
       "id": "1524296",
       "name": "Esil",
+      "nativeName": "Есіл",
       "latitude": 51.95453,
       "longitude": 66.40772,
       "population": 13504,
@@ -759,6 +843,7 @@
     {
       "id": "7536148",
       "name": "Priozersk",
+      "nativeName": "Приозёрск",
       "latitude": 46.03106,
       "longitude": 73.70247,
       "population": 13457,
@@ -767,7 +852,8 @@
     },
     {
       "id": "1519333",
-      "name": "Shakhan",
+      "name": "Şaxan",
+      "nativeName": "Шахан",
       "latitude": 49.81958,
       "longitude": 72.65407,
       "population": 13273,
@@ -777,6 +863,7 @@
     {
       "id": "609798",
       "name": "Inderbor",
+      "nativeName": "Индербор",
       "latitude": 48.55,
       "longitude": 51.78333,
       "population": 13254,
@@ -785,7 +872,8 @@
     },
     {
       "id": "1526041",
-      "name": "Zhangaarqa",
+      "name": "Jañaarqa",
+      "nativeName": "Жаңаарқа",
       "latitude": 48.68659,
       "longitude": 71.64469,
       "population": 13184,
@@ -795,6 +883,7 @@
     {
       "id": "1522035",
       "name": "Taiynsha",
+      "nativeName": "Тайынша",
       "latitude": 53.84796,
       "longitude": 69.76773,
       "population": 13148,
@@ -804,6 +893,7 @@
     {
       "id": "1524138",
       "name": "Atakent",
+      "nativeName": "Атакент",
       "latitude": 40.84782,
       "longitude": 68.50643,
       "population": 12895,
@@ -812,7 +902,8 @@
     },
     {
       "id": "608324",
-      "name": "Shetpe",
+      "name": "Şetpe",
+      "nativeName": "Шетпе",
       "latitude": 44.13922,
       "longitude": 52.15305,
       "population": 11836,
@@ -821,7 +912,8 @@
     },
     {
       "id": "609919",
-      "name": "Kuryk",
+      "name": "Qūryq",
+      "nativeName": "Құрық",
       "latitude": 43.18032,
       "longitude": 51.68116,
       "population": 11836,
@@ -830,7 +922,8 @@
     },
     {
       "id": "1522642",
-      "name": "Balpyk Bi",
+      "name": "Balpıq bï",
+      "nativeName": "Балпық би",
       "latitude": 44.90115,
       "longitude": 78.22933,
       "population": 11810,
@@ -839,7 +932,8 @@
     },
     {
       "id": "608271",
-      "name": "Shubarkuduk",
+      "name": "Şubarqudıq",
+      "nativeName": "Шұбарқұдық",
       "latitude": 49.14391,
       "longitude": 56.48196,
       "population": 11733,
@@ -848,7 +942,8 @@
     },
     {
       "id": "1522643",
-      "name": "Asyqata",
+      "name": "Asıqata",
+      "nativeName": "Асықата",
       "latitude": 40.8946,
       "longitude": 68.3643,
       "population": 11378,
@@ -857,7 +952,8 @@
     },
     {
       "id": "1524703",
-      "name": "Sholakkorgan",
+      "name": "Şolaqqorğan",
+      "nativeName": "Шолаққорған",
       "latitude": 43.76453,
       "longitude": 69.17856,
       "population": 10836,
@@ -867,6 +963,7 @@
     {
       "id": "1520885",
       "name": "Kurchatov",
+      "nativeName": "Курчатов",
       "latitude": 50.75617,
       "longitude": 78.54188,
       "population": 10747,
@@ -875,7 +972,8 @@
     },
     {
       "id": "1519932",
-      "name": "Qashar",
+      "name": "Qaşar",
+      "nativeName": "Қашар",
       "latitude": 53.36799,
       "longitude": 62.86839,
       "population": 10285,
@@ -885,6 +983,7 @@
     {
       "id": "1522818",
       "name": "Kegen",
+      "nativeName": "Кеген",
       "latitude": 43.01451,
       "longitude": 79.22638,
       "population": 9993,
@@ -893,7 +992,8 @@
     },
     {
       "id": "1525014",
-      "name": "Bulayevo",
+      "name": "Bulaev",
+      "nativeName": "Булаев",
       "latitude": 54.90596,
       "longitude": 70.44155,
       "population": 9886,
@@ -902,7 +1002,8 @@
     },
     {
       "id": "1522348",
-      "name": "Qarabalyq",
+      "name": "Qarabalıq",
+      "nativeName": "Қарабалық",
       "latitude": 53.75019,
       "longitude": 62.0584,
       "population": 9838,
@@ -911,7 +1012,8 @@
     },
     {
       "id": "1524243",
-      "name": "Korday",
+      "name": "Qorday",
+      "nativeName": "Қордай",
       "latitude": 43.03882,
       "longitude": 74.71287,
       "population": 9821,
@@ -920,7 +1022,8 @@
     },
     {
       "id": "1518945",
-      "name": "Myrzakent",
+      "name": "Mırzakent",
+      "nativeName": "Мырзакент",
       "latitude": 40.66338,
       "longitude": 68.5451,
       "population": 9752,
@@ -929,7 +1032,8 @@
     },
     {
       "id": "1526274",
-      "name": "Aqadyr",
+      "name": "Aqadır",
+      "nativeName": "Ақадыр",
       "latitude": 48.26014,
       "longitude": 72.85851,
       "population": 9710,
@@ -939,6 +1043,7 @@
     {
       "id": "1518203",
       "name": "Terenozek",
+      "nativeName": "Тереңөзек",
       "latitude": 45.05048,
       "longitude": 64.98258,
       "population": 9661,
@@ -948,6 +1053,7 @@
     {
       "id": "610023",
       "name": "Dossor",
+      "nativeName": "Доссор",
       "latitude": 47.53234,
       "longitude": 52.9709,
       "population": 9526,
@@ -956,7 +1062,8 @@
     },
     {
       "id": "1526269",
-      "name": "Aktau",
+      "name": "Aqtau",
+      "nativeName": "Ақтау",
       "latitude": 50.23466,
       "longitude": 73.06662,
       "population": 9500,
@@ -965,7 +1072,8 @@
     },
     {
       "id": "1523768",
-      "name": "Irtyshsk",
+      "name": "Ertis",
+      "nativeName": "Ертіс",
       "latitude": 53.33365,
       "longitude": 75.45775,
       "population": 9216,
@@ -974,7 +1082,8 @@
     },
     {
       "id": "1519275",
-      "name": "Shar",
+      "name": "Charsk",
+      "nativeName": "Шар",
       "latitude": 49.5872,
       "longitude": 81.04883,
       "population": 9087,
@@ -983,7 +1092,8 @@
     },
     {
       "id": "608915",
-      "name": "Makhambet",
+      "name": "Mahambet",
+      "nativeName": "Махамбет",
       "latitude": 47.67061,
       "longitude": 51.58598,
       "population": 8905,
@@ -993,6 +1103,7 @@
     {
       "id": "1519385",
       "name": "Sergeyevka",
+      "nativeName": "Сергеевка",
       "latitude": 53.88139,
       "longitude": 67.40882,
       "population": 8845,
@@ -1001,7 +1112,8 @@
     },
     {
       "id": "1521365",
-      "name": "Leninskiy",
+      "name": "Atameken",
+      "nativeName": "Атамекен",
       "latitude": 52.25346,
       "longitude": 76.78211,
       "population": 8646,
@@ -1011,6 +1123,7 @@
     {
       "id": "1519934",
       "name": "Qarqaraly",
+      "nativeName": "Қарқаралы",
       "latitude": 49.41244,
       "longitude": 75.47228,
       "population": 8195,
@@ -1020,6 +1133,7 @@
     {
       "id": "1519924",
       "name": "Qusmuryn",
+      "nativeName": "Құсмұрын",
       "latitude": 52.45144,
       "longitude": 64.61682,
       "population": 8049,
@@ -1029,6 +1143,7 @@
     {
       "id": "608867",
       "name": "Martuk",
+      "nativeName": "Мәртөк",
       "latitude": 50.74746,
       "longitude": 56.50611,
       "population": 7756,
@@ -1038,6 +1153,7 @@
     {
       "id": "1520747",
       "name": "Narynkol",
+      "nativeName": "Нарынқол",
       "latitude": 42.72636,
       "longitude": 80.17495,
       "population": 7731,
@@ -1046,7 +1162,8 @@
     },
     {
       "id": "1521048",
-      "name": "Mayqayyng",
+      "name": "Mayqayıñ",
+      "nativeName": "Майқайың",
       "latitude": 51.45981,
       "longitude": 75.80232,
       "population": 7695,
@@ -1055,7 +1172,8 @@
     },
     {
       "id": "1522862",
-      "name": "Kazalinsk",
+      "name": "Kazaly",
+      "nativeName": "Қазалы",
       "latitude": 45.76257,
       "longitude": 62.10334,
       "population": 7686,
@@ -1064,7 +1182,8 @@
     },
     {
       "id": "610386",
-      "name": "Bayganin",
+      "name": "Qarawılkeldi",
+      "nativeName": "Қарауылкелді",
       "latitude": 48.68975,
       "longitude": 55.87512,
       "population": 7657,
@@ -1073,7 +1192,8 @@
     },
     {
       "id": "1525376",
-      "name": "Bestobe",
+      "name": "Bestöbe",
+      "nativeName": "Бестөбе",
       "latitude": 52.49795,
       "longitude": 73.09592,
       "population": 7189,
@@ -1082,7 +1202,8 @@
     },
     {
       "id": "1518139",
-      "name": "Tobol",
+      "name": "Tobıl",
+      "nativeName": "Тобыл",
       "latitude": 52.69366,
       "longitude": 62.5914,
       "population": 7155,
@@ -1091,7 +1212,8 @@
     },
     {
       "id": "1519050",
-      "name": "Shortandy",
+      "name": "Şortandı",
+      "nativeName": "Шортанды",
       "latitude": 51.69934,
       "longitude": 70.99129,
       "population": 6980,
@@ -1100,7 +1222,8 @@
     },
     {
       "id": "1525850",
-      "name": "Bakanas",
+      "name": "Baqanas",
+      "nativeName": "Бақанас",
       "latitude": 44.80595,
       "longitude": 76.27464,
       "population": 6965,
@@ -1109,7 +1232,8 @@
     },
     {
       "id": "1525126",
-      "name": "Būrabay",
+      "name": "Burabay",
+      "nativeName": "Бурабай",
       "latitude": 53.08382,
       "longitude": 70.31379,
       "population": 6500,
@@ -1118,7 +1242,8 @@
     },
     {
       "id": "608647",
-      "name": "Oyyl",
+      "name": "Oyıl",
+      "nativeName": "Ойыл",
       "latitude": 49.0725,
       "longitude": 54.66304,
       "population": 6472,
@@ -1127,7 +1252,8 @@
     },
     {
       "id": "610416",
-      "name": "Badamsha",
+      "name": "Badamşa",
+      "nativeName": "Бадамша",
       "latitude": 50.56183,
       "longitude": 58.2772,
       "population": 5668,
@@ -1136,7 +1262,8 @@
     },
     {
       "id": "1519277",
-      "name": "Shantobe",
+      "name": "Şañtöbe",
+      "nativeName": "Шаңтөбе",
       "latitude": 52.45376,
       "longitude": 68.17475,
       "population": 5626,
@@ -1145,7 +1272,8 @@
     },
     {
       "id": "609906",
-      "name": "Fort-Shevchenko",
+      "name": "Fort-Şevtşenko",
+      "nativeName": "Форт-Шевченко",
       "latitude": 44.50654,
       "longitude": 50.26388,
       "population": 5213,
@@ -1155,6 +1283,7 @@
     {
       "id": "1518768",
       "name": "Stepnyak",
+      "nativeName": "Степняк",
       "latitude": 52.83489,
       "longitude": 70.78861,
       "population": 4928,
@@ -1163,7 +1292,8 @@
     },
     {
       "id": "1517808",
-      "name": "Ul’ba",
+      "name": "Ülbı",
+      "nativeName": "Үлбі",
       "latitude": 50.26581,
       "longitude": 83.37804,
       "population": 4759,
@@ -1172,7 +1302,8 @@
     },
     {
       "id": "1517136",
-      "name": "Yrghyz",
+      "name": "Yrgyz",
+      "nativeName": "Ырғыз",
       "latitude": 48.61958,
       "longitude": 61.26067,
       "population": 4673,
@@ -1181,7 +1312,8 @@
     },
     {
       "id": "1526650",
-      "name": "Aksuat",
+      "name": "Aqsuat",
+      "nativeName": "Ақсуат",
       "latitude": 47.76124,
       "longitude": 82.80858,
       "population": 4549,
@@ -1191,6 +1323,7 @@
     {
       "id": "1516984",
       "name": "Zhalghyztobe",
+      "nativeName": "Жаңғызтөбе",
       "latitude": 49.21094,
       "longitude": 81.21596,
       "population": 4400,
@@ -1200,6 +1333,7 @@
     {
       "id": "1526021",
       "name": "Auezov",
+      "nativeName": "Әуезов",
       "latitude": 49.71003,
       "longitude": 81.58018,
       "population": 4209,
@@ -1208,7 +1342,8 @@
     },
     {
       "id": "1522026",
-      "name": "Krasnogorskiy",
+      "name": "Krasnogor",
+      "nativeName": "Красногор",
       "latitude": 52.2456,
       "longitude": 66.52081,
       "population": 3646,
@@ -1217,7 +1352,8 @@
     },
     {
       "id": "609167",
-      "name": "Krugloozërnoye",
+      "name": "Krugloozernoe",
+      "nativeName": "Круглоозёрное",
       "latitude": 51.08167,
       "longitude": 51.29052,
       "population": 2977,
@@ -1226,7 +1362,8 @@
     },
     {
       "id": "1516678",
-      "name": "Zharyk",
+      "name": "Säken Seyfwllïn",
+      "nativeName": "Сәкен Сейфуллин",
       "latitude": 48.85692,
       "longitude": 72.83598,
       "population": 2940,
@@ -1235,7 +1372,8 @@
     },
     {
       "id": "1526443",
-      "name": "Akkol",
+      "name": "Aqköl",
+      "nativeName": "Ақкөл",
       "latitude": 51.99374,
       "longitude": 70.94704,
       "population": 2605,
@@ -1245,6 +1383,7 @@
     {
       "id": "608036",
       "name": "Temir",
+      "nativeName": "Темір",
       "latitude": 49.14284,
       "longitude": 57.12736,
       "population": 2560,
@@ -1253,7 +1392,8 @@
     },
     {
       "id": "1520844",
-      "name": "Moyynty",
+      "name": "Moyıntı",
+      "nativeName": "Мойынты",
       "latitude": 47.21968,
       "longitude": 73.35437,
       "population": 2049,
@@ -1262,7 +1402,8 @@
     },
     {
       "id": "1519933",
-      "name": "Qarsaqbay",
+      "name": "Qarsaqpai",
+      "nativeName": "Қарсақбай",
       "latitude": 47.83678,
       "longitude": 66.72639,
       "population": 1668,
@@ -1271,7 +1412,8 @@
     },
     {
       "id": "1521333",
-      "name": "Lepsi",
+      "name": "Lepsy",
+      "nativeName": "Лепсі",
       "latitude": 46.23426,
       "longitude": 78.94034,
       "population": 933,
@@ -1281,6 +1423,7 @@
     {
       "id": "1524917",
       "name": "Chagan",
+      "nativeName": "Шаған",
       "latitude": 50.62178,
       "longitude": 79.24743,
       "population": 478,

@@ -2,7 +2,8 @@
   "towns": [
     {
       "id": "290332",
-      "name": "Al Muharraq",
+      "name": "Muharraq",
+      "nativeName": "المحرق",
       "latitude": 26.25722,
       "longitude": 50.61194,
       "population": 176583,
@@ -12,6 +13,7 @@
     {
       "id": "290340",
       "name": "Manama",
+      "nativeName": "المنامة",
       "latitude": 26.22787,
       "longitude": 50.58565,
       "population": 147074,
@@ -20,7 +22,8 @@
     },
     {
       "id": "290247",
-      "name": "Madīnat Ḩamad",
+      "name": "Hamad Town",
+      "nativeName": "مدينة حمد",
       "latitude": 26.11528,
       "longitude": 50.50694,
       "population": 133550,
@@ -29,7 +32,8 @@
     },
     {
       "id": "385038",
-      "name": "Ar Rifā‘",
+      "name": "Riffa",
+      "nativeName": "الرفاع",
       "latitude": 26.13,
       "longitude": 50.555,
       "population": 115495,
@@ -38,7 +42,8 @@
     },
     {
       "id": "290215",
-      "name": "Jidd Ḩafş",
+      "name": "Jid Hafs",
+      "nativeName": "جِدحفص",
       "latitude": 26.21861,
       "longitude": 50.54778,
       "population": 66588,
@@ -47,7 +52,8 @@
     },
     {
       "id": "290269",
-      "name": "Dār Kulayb",
+      "name": "Dar Kulayb",
+      "nativeName": "دار كليب",
       "latitude": 26.06861,
       "longitude": 50.50389,
       "population": 65466,
@@ -56,7 +62,8 @@
     },
     {
       "id": "290187",
-      "name": "Madīnat ‘Īsá",
+      "name": "Isa Town",
+      "nativeName": "مدينة عيسى",
       "latitude": 26.17361,
       "longitude": 50.54778,
       "population": 38090,
@@ -65,7 +72,8 @@
     },
     {
       "id": "290363",
-      "name": "Al Ḩadd",
+      "name": "Al-Hidd",
+      "nativeName": "الحد",
       "latitude": 26.24556,
       "longitude": 50.65417,
       "population": 12797,
@@ -74,7 +82,8 @@
     },
     {
       "id": "290296",
-      "name": "Az Zallāq",
+      "name": "Zallaq",
+      "nativeName": "الزلاق",
       "latitude": 26.0475,
       "longitude": 50.48639,
       "population": 9095,

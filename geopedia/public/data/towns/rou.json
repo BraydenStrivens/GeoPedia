@@ -3,6 +3,7 @@
     {
       "id": "683506",
       "name": "Bucharest",
+      "nativeName": "București",
       "latitude": 44.43225,
       "longitude": 26.10626,
       "population": 1877155,
@@ -12,6 +13,7 @@
     {
       "id": "675810",
       "name": "Iaşi",
+      "nativeName": "Iași",
       "latitude": 47.16667,
       "longitude": 27.6,
       "population": 378954,
@@ -20,7 +22,7 @@
     },
     {
       "id": "680963",
-      "name": "Constanţa",
+      "name": "Constanța",
       "latitude": 44.18073,
       "longitude": 28.63432,
       "population": 317832,
@@ -38,7 +40,8 @@
     },
     {
       "id": "683844",
-      "name": "Braşov",
+      "name": "Brasov",
+      "nativeName": "Brașov",
       "latitude": 45.64861,
       "longitude": 25.60613,
       "population": 253200,
@@ -47,7 +50,7 @@
     },
     {
       "id": "665087",
-      "name": "Timişoara",
+      "name": "Timișoara",
       "latitude": 45.75372,
       "longitude": 21.22571,
       "population": 250849,
@@ -65,7 +68,7 @@
     },
     {
       "id": "677697",
-      "name": "Galaţi",
+      "name": "Galați",
       "latitude": 45.43687,
       "longitude": 28.05028,
       "population": 217851,
@@ -74,7 +77,7 @@
     },
     {
       "id": "665004",
-      "name": "Târgu Mureş",
+      "name": "Târgu Mureș",
       "latitude": 46.54245,
       "longitude": 24.55747,
       "population": 212752,
@@ -92,7 +95,7 @@
     },
     {
       "id": "670474",
-      "name": "Ploieşti",
+      "name": "Ploiești",
       "latitude": 44.95,
       "longitude": 26.01667,
       "population": 180540,
@@ -119,7 +122,7 @@
     },
     {
       "id": "670609",
-      "name": "Piteşti",
+      "name": "Pitești",
       "latitude": 44.85,
       "longitude": 24.86667,
       "population": 141275,
@@ -174,6 +177,7 @@
     {
       "id": "670889",
       "name": "Piatra Neamţ",
+      "nativeName": "Piatra-Neamț",
       "latitude": 46.91667,
       "longitude": 26.33333,
       "population": 102688,
@@ -191,7 +195,7 @@
     },
     {
       "id": "684039",
-      "name": "Botoşani",
+      "name": "Botoșani",
       "latitude": 47.75,
       "longitude": 26.66667,
       "population": 90010,
@@ -209,7 +213,7 @@
     },
     {
       "id": "668954",
-      "name": "Reşiţa",
+      "name": "Reșița",
       "latitude": 45.30083,
       "longitude": 21.88917,
       "population": 81228,
@@ -228,6 +232,7 @@
     {
       "id": "684657",
       "name": "Bistriţa",
+      "nativeName": "Bistrița",
       "latitude": 47.13316,
       "longitude": 24.50011,
       "population": 78877,
@@ -281,7 +286,7 @@
     },
     {
       "id": "665024",
-      "name": "Târgovişte",
+      "name": "Târgoviște",
       "latitude": 44.92543,
       "longitude": 25.4567,
       "population": 66965,
@@ -345,6 +350,7 @@
     {
       "id": "673634",
       "name": "Mediaş",
+      "nativeName": "Mediaș",
       "latitude": 46.16667,
       "longitude": 24.35,
       "population": 53040,
@@ -372,6 +378,7 @@
     {
       "id": "6945426",
       "name": "Paşcani",
+      "nativeName": "Pașcani",
       "latitude": 47.2469,
       "longitude": 26.72291,
       "population": 45000,
@@ -381,6 +388,7 @@
     {
       "id": "670938",
       "name": "Petroşani",
+      "nativeName": "Petroșani",
       "latitude": 45.41667,
       "longitude": 23.36667,
       "population": 44187,
@@ -416,7 +424,8 @@
     },
     {
       "id": "681862",
-      "name": "Câmpina",
+      "name": "Campina",
+      "nativeName": "Câmpina",
       "latitude": 45.12619,
       "longitude": 25.73496,
       "population": 41554,
@@ -443,7 +452,8 @@
     },
     {
       "id": "667227",
-      "name": "Sighetu Marmaţiei",
+      "name": "Sighetu Marmatiei",
+      "nativeName": "Sighetu Marmației",
       "latitude": 47.93195,
       "longitude": 23.88603,
       "population": 40653,
@@ -507,6 +517,7 @@
     {
       "id": "673441",
       "name": "Miercurea-Ciuc",
+      "nativeName": "Miercurea Ciuc",
       "latitude": 46.35,
       "longitude": 25.8,
       "population": 34484,
@@ -534,6 +545,7 @@
     {
       "id": "678306",
       "name": "Feteşti",
+      "nativeName": "Fetești",
       "latitude": 44.38333,
       "longitude": 27.83333,
       "population": 32866,
@@ -543,6 +555,7 @@
     {
       "id": "679907",
       "name": "Curtea de Argeş",
+      "nativeName": "Curtea de Argeș",
       "latitude": 45.13422,
       "longitude": 24.67409,
       "population": 32178,
@@ -560,7 +573,8 @@
     },
     {
       "id": "678499",
-      "name": "Făgăraș",
+      "name": "Fagaras",
+      "nativeName": "Făgăraș",
       "latitude": 45.85,
       "longitude": 24.96667,
       "population": 30714,
@@ -606,6 +620,7 @@
     {
       "id": "675892",
       "name": "Huşi",
+      "nativeName": "Huși",
       "latitude": 46.67361,
       "longitude": 28.05944,
       "population": 29129,
@@ -651,6 +666,7 @@
     {
       "id": "682729",
       "name": "Caransebeş",
+      "nativeName": "Caransebeș",
       "latitude": 45.41667,
       "longitude": 22.21667,
       "population": 27521,
@@ -669,6 +685,7 @@
     {
       "id": "667526",
       "name": "Sebeş",
+      "nativeName": "Sebeș",
       "latitude": 45.95646,
       "longitude": 23.571,
       "population": 27246,
@@ -678,6 +695,7 @@
     {
       "id": "684156",
       "name": "Borşa",
+      "nativeName": "Borșa",
       "latitude": 47.65527,
       "longitude": 24.66328,
       "population": 26966,
@@ -723,6 +741,7 @@
     {
       "id": "672926",
       "name": "Moineşti",
+      "nativeName": "Moinești",
       "latitude": 46.47523,
       "longitude": 26.48907,
       "population": 23981,
@@ -750,6 +769,7 @@
     {
       "id": "681017",
       "name": "Comăneşti",
+      "nativeName": "Comănești",
       "latitude": 46.42135,
       "longitude": 26.43645,
       "population": 23729,
@@ -759,6 +779,7 @@
     {
       "id": "671832",
       "name": "Olteniţa",
+      "nativeName": "Oltenița",
       "latitude": 44.08333,
       "longitude": 26.63333,
       "population": 22624,
@@ -786,6 +807,7 @@
     {
       "id": "671757",
       "name": "Orăştie",
+      "nativeName": "Orăștie",
       "latitude": 45.83333,
       "longitude": 23.2,
       "population": 20763,
@@ -804,6 +826,7 @@
     {
       "id": "678978",
       "name": "Drăgăşani",
+      "nativeName": "Drăgășani",
       "latitude": 44.65,
       "longitude": 24.26667,
       "population": 20630,
@@ -813,6 +836,7 @@
     {
       "id": "685586",
       "name": "Balş",
+      "nativeName": "Balș",
       "latitude": 44.35,
       "longitude": 24.1,
       "population": 20626,
@@ -839,7 +863,8 @@
     },
     {
       "id": "665003",
-      "name": "Târgu Neamţ",
+      "name": "Targu Neamt",
+      "nativeName": "Târgu Neamț",
       "latitude": 47.2,
       "longitude": 26.36667,
       "population": 20473,
@@ -912,6 +937,7 @@
     {
       "id": "685785",
       "name": "Băileşti",
+      "nativeName": "Băilești",
       "latitude": 44.01667,
       "longitude": 23.35,
       "population": 19599,
@@ -920,7 +946,8 @@
     },
     {
       "id": "678261",
-      "name": "Filiaşi",
+      "name": "Filiasi",
+      "nativeName": "Filiași",
       "latitude": 44.55,
       "longitude": 23.51667,
       "population": 18995,
@@ -938,7 +965,8 @@
     },
     {
       "id": "682321",
-      "name": "Cernavodă",
+      "name": "Cernavoda",
+      "nativeName": "Cernavodă",
       "latitude": 44.33957,
       "longitude": 28.03273,
       "population": 18502,
@@ -948,6 +976,7 @@
     {
       "id": "683365",
       "name": "Buhuşi",
+      "nativeName": "Buhuși",
       "latitude": 46.71667,
       "longitude": 26.7,
       "population": 18395,
@@ -975,6 +1004,7 @@
     {
       "id": "674541",
       "name": "Luduş",
+      "nativeName": "Luduș",
       "latitude": 46.48333,
       "longitude": 24.1,
       "population": 17165,
@@ -1002,6 +1032,7 @@
     {
       "id": "684490",
       "name": "Bocşa",
+      "nativeName": "Bocșa",
       "latitude": 45.37333,
       "longitude": 21.70917,
       "population": 16349,
@@ -1047,6 +1078,7 @@
     {
       "id": "667101",
       "name": "Şimleu Silvaniei",
+      "nativeName": "Șimleu Silvaniei",
       "latitude": 47.23333,
       "longitude": 22.8,
       "population": 15721,
@@ -1065,6 +1097,7 @@
     {
       "id": "662699",
       "name": "Vişeu de Sus",
+      "nativeName": "Vișeu de Sus",
       "latitude": 47.7079,
       "longitude": 24.42953,
       "population": 15349,
@@ -1074,6 +1107,7 @@
     {
       "id": "672024",
       "name": "Ocna Mureş",
+      "nativeName": "Ocna Mureș",
       "latitude": 46.38333,
       "longitude": 23.85,
       "population": 15316,
@@ -1083,6 +1117,7 @@
     {
       "id": "669870",
       "name": "Popeşti-Leordeni",
+      "nativeName": "Popești-Leordeni",
       "latitude": 44.38333,
       "longitude": 26.16667,
       "population": 15279,
@@ -1091,7 +1126,8 @@
     },
     {
       "id": "668828",
-      "name": "Râşnov",
+      "name": "Rasnov",
+      "nativeName": "Râșnov",
       "latitude": 45.58333,
       "longitude": 25.45,
       "population": 15253,
@@ -1127,7 +1163,8 @@
     },
     {
       "id": "677742",
-      "name": "Găeşti",
+      "name": "Gaesti",
+      "nativeName": "Găești",
       "latitude": 44.71667,
       "longitude": 25.31667,
       "population": 15037,
@@ -1146,6 +1183,7 @@
     {
       "id": "679724",
       "name": "Dărmăneşti",
+      "nativeName": "Dărmănești",
       "latitude": 46.36667,
       "longitude": 26.48333,
       "population": 14290,
@@ -1199,7 +1237,8 @@
     },
     {
       "id": "679841",
-      "name": "Dăbuleni",
+      "name": "Dabuleni",
+      "nativeName": "Dăbuleni",
       "latitude": 43.8,
       "longitude": 24.08333,
       "population": 13641,
@@ -1208,7 +1247,8 @@
     },
     {
       "id": "672365",
-      "name": "Negreşti-Oaş",
+      "name": "Negresti-Oas",
+      "nativeName": "Negrești-Oaș",
       "latitude": 47.86667,
       "longitude": 23.43333,
       "population": 13456,
@@ -1253,7 +1293,8 @@
     },
     {
       "id": "666973",
-      "name": "Sânnicolau Mare",
+      "name": "Sannicolau Mare",
+      "nativeName": "Sânnicolau Mare",
       "latitude": 46.08333,
       "longitude": 20.63333,
       "population": 12888,
@@ -1263,6 +1304,7 @@
     {
       "id": "666235",
       "name": "Ştefăneşti",
+      "nativeName": "Ștefănești",
       "latitude": 44.86506,
       "longitude": 24.94961,
       "population": 12837,
@@ -1299,6 +1341,7 @@
     {
       "id": "665540",
       "name": "Ţăndărei",
+      "nativeName": "Țăndărei",
       "latitude": 44.64128,
       "longitude": 27.65635,
       "population": 12761,
@@ -1317,6 +1360,7 @@
     {
       "id": "664750",
       "name": "Topliţa",
+      "nativeName": "Toplița",
       "latitude": 46.9243,
       "longitude": 25.3519,
       "population": 12609,
@@ -1326,6 +1370,7 @@
     {
       "id": "667593",
       "name": "Scorniceşti",
+      "nativeName": "Scornicești",
       "latitude": 44.56667,
       "longitude": 24.55,
       "population": 12456,
@@ -1334,7 +1379,7 @@
     },
     {
       "id": "671681",
-      "name": "Orşova",
+      "name": "Orșova",
       "latitude": 44.72299,
       "longitude": 22.39619,
       "population": 12350,
@@ -1344,6 +1389,7 @@
     {
       "id": "671746",
       "name": "Oraviţa",
+      "nativeName": "Oravița",
       "latitude": 45.0325,
       "longitude": 21.68944,
       "population": 12332,
@@ -1362,6 +1408,7 @@
     {
       "id": "678987",
       "name": "Drăgăneşti-Olt",
+      "nativeName": "Drăgănești-Olt",
       "latitude": 44.16667,
       "longitude": 24.53333,
       "population": 12056,
@@ -1407,6 +1454,7 @@
     {
       "id": "664150",
       "name": "Urlaţi",
+      "nativeName": "Urlați",
       "latitude": 44.98333,
       "longitude": 26.23333,
       "population": 11798,
@@ -1416,6 +1464,7 @@
     {
       "id": "684266",
       "name": "Bolintin Vale",
+      "nativeName": "Bolintin-Vale",
       "latitude": 44.44889,
       "longitude": 25.75778,
       "population": 11700,
@@ -1434,6 +1483,7 @@
     {
       "id": "671603",
       "name": "Oţelu Roşu",
+      "nativeName": "Oțelu Roșu",
       "latitude": 45.53333,
       "longitude": 22.36667,
       "population": 11482,
@@ -1452,6 +1502,7 @@
     {
       "id": "684280",
       "name": "Boldeşti-Scăeni",
+      "nativeName": "Boldești-Scăeni",
       "latitude": 45.03333,
       "longitude": 26.03333,
       "population": 11460,
@@ -1469,7 +1520,8 @@
     },
     {
       "id": "676176",
-      "name": "Hârlău",
+      "name": "Harlau",
+      "nativeName": "Hârlău",
       "latitude": 47.43333,
       "longitude": 26.9,
       "population": 11295,
@@ -1551,6 +1603,7 @@
     {
       "id": "676277",
       "name": "Haţeg",
+      "nativeName": "Hațeg",
       "latitude": 45.61667,
       "longitude": 22.95,
       "population": 10865,
@@ -1569,6 +1622,7 @@
     {
       "id": "685174",
       "name": "Beiuş",
+      "nativeName": "Beiuș",
       "latitude": 46.66667,
       "longitude": 22.35,
       "population": 10721,
@@ -1577,7 +1631,8 @@
     },
     {
       "id": "680581",
-      "name": "Costeşti",
+      "name": "Costesti",
+      "nativeName": "Costești",
       "latitude": 44.66667,
       "longitude": 24.88333,
       "population": 10654,
@@ -1595,7 +1650,8 @@
     },
     {
       "id": "683294",
-      "name": "Bumbeşti-Jiu",
+      "name": "Bumbesti-Jiu",
+      "nativeName": "Bumbești-Jiu",
       "latitude": 45.16667,
       "longitude": 23.4,
       "population": 10445,
@@ -1640,7 +1696,8 @@
     },
     {
       "id": "686507",
-      "name": "Aleşd",
+      "name": "Alesd",
+      "nativeName": "Aleșd",
       "latitude": 47.05811,
       "longitude": 22.3995,
       "population": 10264,
@@ -1685,7 +1742,8 @@
     },
     {
       "id": "676163",
-      "name": "Hârşova",
+      "name": "Harsova",
+      "nativeName": "Hârșova",
       "latitude": 44.68555,
       "longitude": 27.95009,
       "population": 10055,
@@ -1703,7 +1761,8 @@
     },
     {
       "id": "672375",
-      "name": "Negreşti",
+      "name": "Negresti",
+      "nativeName": "Negrești",
       "latitude": 46.83333,
       "longitude": 27.43333,
       "population": 10043,
@@ -1722,6 +1781,7 @@
     {
       "id": "683179",
       "name": "Buşteni",
+      "nativeName": "Bușteni",
       "latitude": 45.4,
       "longitude": 25.53333,
       "population": 9906,
@@ -1749,6 +1809,7 @@
     {
       "id": "683447",
       "name": "Budeşti",
+      "nativeName": "Budești",
       "latitude": 44.23472,
       "longitude": 26.46583,
       "population": 9598,
@@ -1775,7 +1836,8 @@
     },
     {
       "id": "665469",
-      "name": "Tăşnad",
+      "name": "Tasnad",
+      "nativeName": "Tășnad",
       "latitude": 47.48333,
       "longitude": 22.58333,
       "population": 9466,

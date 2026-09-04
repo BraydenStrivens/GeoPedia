@@ -3,6 +3,7 @@
     {
       "id": "290030",
       "name": "Doha",
+      "nativeName": "الدوحة",
       "latitude": 25.28545,
       "longitude": 51.53096,
       "population": 344939,
@@ -11,7 +12,8 @@
     },
     {
       "id": "289888",
-      "name": "Ar Rayyān",
+      "name": "Al Rayyan",
+      "nativeName": "الريان",
       "latitude": 25.29194,
       "longitude": 51.42444,
       "population": 272465,
@@ -21,6 +23,7 @@
     {
       "id": "13512674",
       "name": "Lusail",
+      "nativeName": "لوسيل",
       "latitude": 25.4175,
       "longitude": 51.5075,
       "population": 198600,
@@ -29,7 +32,8 @@
     },
     {
       "id": "289847",
-      "name": "Az̧ Z̧a‘āyin",
+      "name": "Simaisma",
+      "nativeName": "سميسمة",
       "latitude": 25.57744,
       "longitude": 51.48306,
       "population": 54339,
@@ -38,7 +42,8 @@
     },
     {
       "id": "289523",
-      "name": "Umm Şalāl Muḩammad",
+      "name": "Umm Salal Muhammad",
+      "nativeName": "أم صلال محمد",
       "latitude": 25.41524,
       "longitude": 51.40647,
       "population": 29391,
@@ -48,6 +53,7 @@
     {
       "id": "289915",
       "name": "Al Wakrah",
+      "nativeName": "الوكرة",
       "latitude": 25.17151,
       "longitude": 51.60337,
       "population": 26436,
@@ -56,7 +62,8 @@
     },
     {
       "id": "289962",
-      "name": "Al Khawr",
+      "name": "Al Khor",
+      "nativeName": "الخور",
       "latitude": 25.68389,
       "longitude": 51.50583,
       "population": 18923,
@@ -65,7 +72,8 @@
     },
     {
       "id": "289877",
-      "name": "Ash Shīḩānīyah",
+      "name": "Al-Shahaniya",
+      "nativeName": "الشحانية",
       "latitude": 25.37088,
       "longitude": 51.22264,
       "population": 8380,
@@ -74,7 +82,8 @@
     },
     {
       "id": "289813",
-      "name": "Dukhān",
+      "name": "Dukhan",
+      "nativeName": "دخان",
       "latitude": 25.42485,
       "longitude": 50.78227,
       "population": 7250,
@@ -83,7 +92,8 @@
     },
     {
       "id": "289525",
-      "name": "Musay‘īd",
+      "name": "Mesaieed",
+      "nativeName": "مسيعيد",
       "latitude": 24.99226,
       "longitude": 51.55067,
       "population": 5769,
@@ -91,20 +101,22 @@
       "isCapital": false
     },
     {
-      "id": "289739",
-      "name": "Madīnat ash Shamāl",
-      "latitude": 26.12933,
-      "longitude": 51.2009,
-      "population": 5267,
+      "id": "289913",
+      "name": "Al Wukair",
+      "nativeName": "الوكير",
+      "latitude": 25.15107,
+      "longitude": 51.53718,
+      "population": 5146,
       "populationRank": 11,
       "isCapital": false
     },
     {
-      "id": "289913",
-      "name": "Al Wukayr",
-      "latitude": 25.15107,
-      "longitude": 51.53718,
-      "population": 5146,
+      "id": "289884",
+      "name": "Al Ruwais",
+      "nativeName": "الرويس",
+      "latitude": 26.13978,
+      "longitude": 51.21493,
+      "population": 3334,
       "populationRank": 12,
       "isCapital": false
     }

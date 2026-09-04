@@ -11,7 +11,8 @@
     },
     {
       "id": "3860259",
-      "name": "Córdoba",
+      "name": "Cordoba",
+      "nativeName": "Córdoba",
       "latitude": -31.40648,
       "longitude": -64.18853,
       "population": 2106734,
@@ -147,6 +148,7 @@
     {
       "id": "3432555",
       "name": "Laferrere",
+      "nativeName": "Gregorio de Laferrere",
       "latitude": -34.75049,
       "longitude": -58.58464,
       "population": 248362,
@@ -192,6 +194,7 @@
     {
       "id": "3432135",
       "name": "Lanús",
+      "nativeName": "Lanús Oeste",
       "latitude": -34.70757,
       "longitude": -58.39132,
       "population": 212252,
@@ -255,6 +258,7 @@
     {
       "id": "3837702",
       "name": "Catamarca",
+      "nativeName": "San Fernando del Valle de Catamarca",
       "latitude": -28.46957,
       "longitude": -65.78524,
       "population": 159139,
@@ -318,6 +322,7 @@
     {
       "id": "13452524",
       "name": "Rawson",
+      "nativeName": "Villa Krause",
       "latitude": -31.58189,
       "longitude": -68.54211,
       "population": 130258,
@@ -606,6 +611,7 @@
     {
       "id": "3429582",
       "name": "Remedios de Escalada de San Martín",
+      "nativeName": "Remedios de Escalada",
       "latitude": -34.72589,
       "longitude": -58.39663,
       "population": 81465,
@@ -632,7 +638,8 @@
     },
     {
       "id": "3433658",
-      "name": "Gualeguaychú",
+      "name": "Gualeguaychu",
+      "nativeName": "Gualeguaychú",
       "latitude": -33.00777,
       "longitude": -58.51836,
       "population": 78676,
@@ -642,6 +649,7 @@
     {
       "id": "3854985",
       "name": "Gobernador Gálvez",
+      "nativeName": "Villa Gobernador Gálvez",
       "latitude": -33.03016,
       "longitude": -60.64045,
       "population": 74650,
@@ -651,6 +659,7 @@
     {
       "id": "3861416",
       "name": "Chimbas",
+      "nativeName": "Villa Paula Albarracín de Sarmiento",
       "latitude": -31.49313,
       "longitude": -68.53263,
       "population": 73829,
@@ -929,7 +938,8 @@
     },
     {
       "id": "3838854",
-      "name": "Río Grande",
+      "name": "Rio Grande",
+      "nativeName": "Río Grande",
       "latitude": -53.78773,
       "longitude": -67.70975,
       "population": 52681,
@@ -1029,6 +1039,7 @@
     {
       "id": "3859552",
       "name": "Cutral-Có",
+      "nativeName": "Cutral Có",
       "latitude": -38.93424,
       "longitude": -69.23052,
       "population": 47380,
@@ -1056,6 +1067,7 @@
     {
       "id": "3436177",
       "name": "Balcarce",
+      "nativeName": "San José de Balcarce",
       "latitude": -37.84638,
       "longitude": -58.25549,
       "population": 44409,
@@ -1128,6 +1140,7 @@
     {
       "id": "3842881",
       "name": "Nueve de Julio",
+      "nativeName": "9 de Julio",
       "latitude": -35.44394,
       "longitude": -60.88463,
       "population": 42098,
@@ -1209,6 +1222,7 @@
     {
       "id": "11147723",
       "name": "Ingeniero Pablo Nogués",
+      "nativeName": "Pablo Nogués",
       "latitude": -34.47775,
       "longitude": -58.70652,
       "population": 38470,
@@ -1227,6 +1241,7 @@
     {
       "id": "3855090",
       "name": "General Güemes",
+      "nativeName": "General Martín Miguel de Güemes",
       "latitude": -24.67445,
       "longitude": -65.0466,
       "population": 38048,
@@ -1236,6 +1251,7 @@
     {
       "id": "3862086",
       "name": "San José de los Cerrillos",
+      "nativeName": "Cerrillos",
       "latitude": -24.89715,
       "longitude": -65.48445,
       "population": 37950,
@@ -1659,6 +1675,7 @@
     {
       "id": "3433753",
       "name": "Gobernador Virasora",
+      "nativeName": "Gobernador Virasoro",
       "latitude": -28.05,
       "longitude": -56.03333,
       "population": 28756,

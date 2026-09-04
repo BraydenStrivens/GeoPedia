@@ -1,5 +1,5 @@
 /**
- * Manages creation and editing of manually selected quiz groups.
+ * Manages creation and editing of manually selected feature quiz groups.
  *
  * Manual groups are constructed directly from stable map feature IDs rather
  * than GeoJSON grouping-property values.
@@ -13,9 +13,9 @@
  * - Saving and updating manual groups.
  * - Select-All feature IDs.
  *
- * The actual temporary feature selection remains owned by
- * useManualGroupSelection because QuizMapClient also needs that state to
- * control map click behavior and selection coloring.
+ * The temporary feature selection itself remains owned by
+ * useManualGroupSelection because HydratedFeatureQuizMapClient also needs that
+ * state to control map interaction and selection presentation.
  */
 
 "use client";
@@ -54,9 +54,6 @@ type UseManualGroupEditorParams = {
 
   /** Current saved-group edit description. */
   editGroupDescription: string;
-
-  /** Whether grouping interactions are currently disabled. */
-  isDisabled: boolean;
 
   /** Creates and persists a new saved group. */
   onSaveGroup: (
@@ -149,8 +146,6 @@ export function useManualGroupEditor({
   editGroupName,
   editGroupDescription,
 
-  isDisabled,
-
   onSaveGroup,
   onUpdateGroup,
   onApplySavedGroup,
@@ -184,8 +179,8 @@ export function useManualGroupEditor({
   const selectionAnswerCount = useMemo(() => {
     const answers = new Set<string>();
 
-    for (const item of selectionItems) {
-      for (const answer of item.answers) {
+    for (const selectionItem of selectionItems) {
+      for (const answer of selectionItem.answers) {
         answers.add(answer);
       }
     }
@@ -210,14 +205,19 @@ export function useManualGroupEditor({
   }, [featureCollection, promoteId]);
 
   /**
-   * Whether the manual selection represents a meaningful saved subset.
+   * Whether the current manual feature selection represents a meaningful saved
+   * subset.
    *
-   * Empty selections and selections containing every available feature are
-   * rejected because the latter already exists as Full Quiz.
+   * A saved manual group must contain at least one feature while remaining
+   * smaller than the complete quiz. Selecting every available feature would
+   * duplicate Full Quiz.
    */
-  const canSaveManualGroup =
+  const hasValidSavedManualSelection =
     selectedFeatureIds.size > 0 &&
     selectedFeatureIds.size < allFeatureIds.length;
+
+  /** Whether the current manual selection can become a saved group. */
+  const canSaveManualGroup = hasValidSavedManualSelection;
 
   /** Whether the new manual-group metadata is valid. */
   const canConfirmManualSave =
@@ -262,7 +262,6 @@ export function useManualGroupEditor({
    * available features, and at least one actual change.
    */
   const canUpdateManualGroup =
-    !isDisabled &&
     isEditingManualGroup &&
     editGroupName.trim().length > 0 &&
     selectedFeatureIds.size > 0 &&

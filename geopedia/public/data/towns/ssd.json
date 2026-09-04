@@ -12,6 +12,7 @@
     {
       "id": "363807",
       "name": "Winejok",
+      "nativeName": "Wanyjok",
       "latitude": 9.01222,
       "longitude": 27.57081,
       "population": 300000,
@@ -48,6 +49,7 @@
     {
       "id": "371712",
       "name": "Kuacjok",
+      "nativeName": "Kuajok",
       "latitude": 8.30278,
       "longitude": 27.98,
       "population": 78000,
@@ -120,6 +122,7 @@
     {
       "id": "371466",
       "name": "Leer",
+      "nativeName": "Lɛ̈r",
       "latitude": 8.30306,
       "longitude": 30.14056,
       "population": 17827,
@@ -138,6 +141,7 @@
     {
       "id": "373130",
       "name": "Kafia Kingi",
+      "nativeName": "كافيا كنجي",
       "latitude": 9.27345,
       "longitude": 24.41701,
       "population": 16000,
@@ -181,12 +185,22 @@
       "isCapital": false
     },
     {
+      "id": "377472",
+      "name": "Bentiu",
+      "nativeName": "Bëntiw",
+      "latitude": 9.25722,
+      "longitude": 29.79833,
+      "population": 7653,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
       "id": "372884",
       "name": "Kapoeta",
       "latitude": 4.77222,
       "longitude": 33.59139,
       "population": 7042,
-      "populationRank": 21,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -195,7 +209,7 @@
       "latitude": 8.4675,
       "longitude": 25.67833,
       "population": 3700,
-      "populationRank": 22,
+      "populationRank": 23,
       "isCapital": false
     }
   ]

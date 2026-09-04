@@ -1,16 +1,17 @@
 /**
- * Displays GeoPedia's property-based quiz-group editor.
+ * Displays GeoPedia's property-based feature quiz-group editor.
  *
  * The section coordinates:
  *
- * - Selecting which configured GeoJSON property should define groups.
- * - Searching and selecting values from that property.
- * - Displaying the current grouping dimension.
- * - Saving new property groups.
+ * - Selecting which configured GeoJSON property defines the available groups.
+ * - Searching and selecting values belonging to that property.
+ * - Displaying the currently selected grouping dimension.
+ * - Saving new property-based groups.
  * - Updating or deleting existing saved property groups.
  *
- * Search and option-list rendering are delegated to PropertyGroupOptions.
- * Saved-group persistence controls are delegated to PropertyGroupActions.
+ * Property-value searching and selection are delegated to
+ * `PropertyGroupOptions`. Saved-group persistence controls are delegated to
+ * `PropertyGroupActions`.
  */
 
 "use client";
@@ -27,20 +28,23 @@ import PropertyGroupOptions from "./PropertyGroupOptions";
  * Props required by the Property Groups section.
  */
 type PropertyGroupsSectionProps = {
-  /** Grouping properties supported by the current quiz. */
+  /** Grouping properties supported by the current feature quiz. */
   groupingProperties: QuizGroupingProperty[];
 
   /** Grouping property currently displayed by the editor. */
   selectedGroupingProperty: QuizGroupingProperty | null;
 
-  /** Raw property values currently selected. */
+  /** Raw grouping-property values currently selected. */
   selectedValues: Set<string>;
 
   /** Selectable values discovered from the current GeoJSON property. */
   groupingOptions: QuizGroupingOption[];
 
-  /** Whether property-group controls are currently disabled. */
-  isDisabled: boolean;
+  /**
+   * Whether property-group mutations are temporarily blocked because another
+   * grouping workflow currently owns interaction.
+   */
+  isInteractionBlocked: boolean;
 
   /** Whether an existing saved property group is currently being edited. */
   isEditingGroup: boolean;
@@ -54,7 +58,7 @@ type PropertyGroupsSectionProps = {
   /** Whether the currently entered new saved group can be persisted. */
   canSaveGroup: boolean;
 
-  /** Whether the new saved-group metadata form is open. */
+  /** Whether the new saved-group metadata form is currently open. */
   isSavingGroup: boolean;
 
   /** Name draft for a new saved property group. */
@@ -66,10 +70,10 @@ type PropertyGroupsSectionProps = {
   /** Changes the GeoJSON property used for grouping. */
   onChangeGroupingProperty: (propertyName: string) => void;
 
-  /** Toggles one raw property value. */
+  /** Toggles one raw grouping-property value. */
   onToggleGroupingValue: (value: string) => void;
 
-  /** Clears every selected property value. */
+  /** Clears every selected grouping-property value. */
   onDeselectAll: () => void;
 
   /** Opens the new saved-group metadata form. */
@@ -104,45 +108,53 @@ type PropertyGroupsSectionProps = {
  * Displays the collapsible Property Groups section.
  *
  * @param props - Property-group state, validation, and interaction callbacks.
- * @returns Property-based grouping controls.
+ * @returns Property-based feature grouping controls.
  */
 export default function PropertyGroupsSection({
   groupingProperties,
   selectedGroupingProperty,
   selectedValues,
   groupingOptions,
-  isDisabled,
+
+  isInteractionBlocked,
+
   isEditingGroup,
   canUpdateGroup,
+
   canBeginSavingGroup,
   canSaveGroup,
   isSavingGroup,
+
   saveGroupName,
   saveGroupDescription,
+
   onChangeGroupingProperty,
   onToggleGroupingValue,
   onDeselectAll,
+
   onBeginSaving,
   onSave,
   onCancelSaving,
+
   onUpdate,
   onDelete,
   onCancelEditing,
+
   onSaveGroupNameChange,
   onSaveGroupDescriptionChange,
+
   onRequestPanelScroll,
 }: PropertyGroupsSectionProps) {
   /** Whether the Property Groups section content is currently expanded. */
   const [isExpanded, setIsExpanded] = useState(true);
 
   /**
-   * Toggles whether the Property Groups controls are visible.
+   * Toggles visibility of the Property Groups controls.
    *
-   * Expanding requests that the containing Groups panel scroll the newly
-   * revealed controls into view. Collapsing does not change the panel's scroll
-   * position.
+   * Expanding requests that the containing Groups panel scroll newly revealed
+   * controls into view. Collapsing does not alter the panel's scroll position.
    */
-  function toggleExpanded(): void {
+  function togglePropertyGroupsExpanded(): void {
     setIsExpanded((wasExpanded) => {
       const willExpand = !wasExpanded;
 
@@ -157,24 +169,23 @@ export default function PropertyGroupsSection({
   }
 
   return (
-    <section className="border-b border-gray-300 py-4">
+    <section className="border-b border-border py-4">
       {/* Section heading and collapse control */}
       <div
-        className={
-          isExpanded
-            ? "mb-2 flex items-center justify-between"
-            : "flex items-center justify-between"
-        }
+        className={[
+          "flex items-center justify-between",
+          isExpanded ? "mb-2" : "",
+        ].join(" ")}
       >
         {/* Section title */}
-        <h3 className="text-sm font-semibold text-gray-800">
+        <h3 className="text-sm font-semibold text-text">
           Property Groups
         </h3>
 
         {/* Expand / collapse section */}
         <button
           type="button"
-          onClick={toggleExpanded}
+          onClick={togglePropertyGroupsExpanded}
           title={
             isExpanded
               ? "Collapse Property Groups"
@@ -186,7 +197,7 @@ export default function PropertyGroupsSection({
               : "Expand Property Groups"
           }
           aria-expanded={isExpanded}
-          className="flex h-6 w-6 items-center justify-center rounded-md text-gray-500 transition hover:bg-gray-300 hover:text-gray-900"
+          className="flex h-6 w-6 items-center justify-center rounded-md text-text-secondary transition hover:bg-background-3 hover:text-text"
         >
           {/* Chevron icon */}
           <svg
@@ -196,7 +207,6 @@ export default function PropertyGroupsSection({
             strokeWidth="2"
             className={[
               "h-4 w-4 transition-transform duration-200",
-
               isExpanded ? "rotate-180" : "",
             ].join(" ")}
             aria-hidden="true"
@@ -213,45 +223,51 @@ export default function PropertyGroupsSection({
       {/* Expandable Property Groups content */}
       {isExpanded && (
         <>
-          {/* Grouping property selector */}
+          {/* Grouping-property selector */}
           {groupingProperties.length > 1 && (
             <select
               value={selectedGroupingProperty?.property ?? ""}
-              disabled={isDisabled}
+              disabled={isInteractionBlocked}
               onChange={(event) =>
                 onChangeGroupingProperty(event.target.value)
               }
-              className="mb-3 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-800"
+              className={[
+                "mb-3 w-full rounded-lg border px-3 py-2 text-sm outline-none transition",
+                isInteractionBlocked
+                  ? "cursor-not-allowed border-border bg-disabled text-disabled-text"
+                  : "border-border bg-background-1 text-text focus:border-focus",
+              ].join(" ")}
             >
-              {groupingProperties.map((property) => (
+              {groupingProperties.map((groupingProperty) => (
                 <option
-                  key={property.property}
-                  value={property.property}
+                  key={groupingProperty.property}
+                  value={groupingProperty.property}
                 >
-                  {property.label}
+                  {groupingProperty.label}
                 </option>
               ))}
             </select>
           )}
 
           {/* Current grouping dimension */}
-          <div className="mb-2 text-xs font-medium text-gray-500">
+          <div className="mb-2 text-xs font-medium text-text-secondary">
             {selectedGroupingProperty
               ? `Group by ${selectedGroupingProperty.label}`
-              : "Select a group"}
+              : "Select a grouping property"}
           </div>
 
           {/* Searchable property-value selection */}
           <PropertyGroupOptions
             selectedValues={selectedValues}
             groupingOptions={groupingOptions}
-            isDisabled={isDisabled}
+            isInteractionBlocked={isInteractionBlocked}
             onToggleValue={onToggleGroupingValue}
             onDeselectAll={onDeselectAll}
           />
 
           {/* Property-group persistence controls */}
           <PropertyGroupActions
+            isInteractionBlocked={isInteractionBlocked}
             isEditingGroup={isEditingGroup}
             canUpdateGroup={canUpdateGroup}
             canBeginSavingGroup={canBeginSavingGroup}
@@ -259,7 +275,6 @@ export default function PropertyGroupsSection({
             isSavingGroup={isSavingGroup}
             saveGroupName={saveGroupName}
             saveGroupDescription={saveGroupDescription}
-            isDisabled={isDisabled}
             onBeginSaving={onBeginSaving}
             onSave={onSave}
             onCancelSaving={onCancelSaving}

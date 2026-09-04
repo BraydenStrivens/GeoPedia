@@ -18,7 +18,7 @@
  * - Immediate map/quiz preview while property values change.
  *
  * Cross-workflow state, such as which saved group is currently being edited,
- * remains owned by QuizGroupsPanel.
+ * remains owned by FeatureQuizGroupsPanel.
  */
 
 "use client";
@@ -60,9 +60,6 @@ type UsePropertyGroupEditorParams = {
 
   /** Current saved-group edit description. */
   editGroupDescription: string;
-
-  /** Whether grouping interactions are currently disabled. */
-  isDisabled: boolean;
 
   /** Applies a temporary unsaved group. */
   onApplyGroup: (group: ActiveQuizGroup) => void;
@@ -190,7 +187,6 @@ export function usePropertyGroupEditor({
   editingGroup,
   editGroupName,
   editGroupDescription,
-  isDisabled,
   onApplyGroup,
   onApplySavedGroup,
   onSaveGroup,
@@ -282,17 +278,20 @@ export function usePropertyGroupEditor({
   ]);
 
   /**
-   * Whether the current property selection represents a meaningful new saved
-   * group.
+   * Whether the current property selection represents a meaningful saved group.
    *
-   * A one-value property group remains easy to reconstruct directly from the
-   * property list, while selecting every value would duplicate Full Quiz.
+   * Saved property groups must contain multiple grouping values while remaining
+   * smaller than the complete grouping dimension. A single value can be selected
+   * directly without saving a group, while selecting every value would duplicate
+   * Full Quiz.
    */
-  const canBeginSavingPropertyGroup =
-    !isDisabled &&
+  const hasValidSavedPropertySelection =
     selectedValues.size > 1 &&
-    selectedValues.size < groupingOptions.length &&
-    activeSavedGroupId === null;
+    selectedValues.size < groupingOptions.length;
+
+  /** Whether the current property selection may begin being saved. */
+  const canBeginSavingPropertyGroup =
+    hasValidSavedPropertySelection && activeSavedGroupId === null;
 
   /** Whether the new property-group metadata is valid. */
   const canSavePropertyGroup =
@@ -301,10 +300,9 @@ export function usePropertyGroupEditor({
 
   /** Whether the current property saved-group edit can be persisted. */
   const canUpdatePropertyGroup =
-    !isDisabled &&
     isEditingPropertyGroup &&
     editGroupName.trim().length > 0 &&
-    selectedValues.size > 0 &&
+    hasValidSavedPropertySelection &&
     hasPropertyEditChanges;
 
   /**
@@ -380,12 +378,13 @@ export function usePropertyGroupEditor({
    * @param propertyName - GeoJSON property selected by the user.
    */
   function changeGroupingProperty(propertyName: string): void {
-    const property =
+    const groupingProperty =
       quiz.grouping?.properties.find(
-        (candidate) => candidate.property === propertyName,
+        (candidateGroupingProperty) =>
+          candidateGroupingProperty.property === propertyName,
       ) ?? null;
 
-    setSelectedGroupingProperty(property);
+    setSelectedGroupingProperty(groupingProperty);
     setSelectedValues(new Set());
 
     cancelSavingPropertyGroup();

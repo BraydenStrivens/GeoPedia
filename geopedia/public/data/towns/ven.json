@@ -56,7 +56,8 @@
     },
     {
       "id": "3778045",
-      "name": "Maturín",
+      "name": "Maturin",
+      "nativeName": "Maturín",
       "latitude": 9.74569,
       "longitude": -63.18323,
       "population": 647459,
@@ -74,7 +75,8 @@
     },
     {
       "id": "3645532",
-      "name": "Ciudad Bolívar",
+      "name": "Ciudad Bolivar",
+      "nativeName": "Ciudad Bolívar",
       "latitude": 8.12366,
       "longitude": -63.54694,
       "population": 412619,
@@ -83,7 +85,8 @@
     },
     {
       "id": "3644768",
-      "name": "Cumaná",
+      "name": "Cumana",
+      "nativeName": "Cumaná",
       "latitude": 10.4639,
       "longitude": -64.17859,
       "population": 405626,
@@ -137,7 +140,8 @@
     },
     {
       "id": "3628473",
-      "name": "San Cristóbal",
+      "name": "San Cristobal",
+      "nativeName": "San Cristóbal",
       "latitude": 7.76593,
       "longitude": -72.23576,
       "population": 289852,
@@ -344,7 +348,8 @@
     },
     {
       "id": "3642833",
-      "name": "El Limón",
+      "name": "El Limon",
+      "nativeName": "El Limón",
       "latitude": 10.30589,
       "longitude": -67.63212,
       "population": 148247,
@@ -578,7 +583,8 @@
     },
     {
       "id": "3638374",
-      "name": "Concepción",
+      "name": "La Canada de Urdaneta",
+      "nativeName": "La Cañada de Urdaneta",
       "latitude": 10.4119,
       "longitude": -71.68919,
       "population": 92463,
@@ -606,6 +612,7 @@
     {
       "id": "3628966",
       "name": "La Villa del Rosario",
+      "nativeName": "Villa del Rosario",
       "latitude": 10.3258,
       "longitude": -72.31343,
       "population": 82766,
@@ -705,6 +712,7 @@
     {
       "id": "3646062",
       "name": "Tacarigua",
+      "nativeName": "Central Tacarigua",
       "latitude": 10.08621,
       "longitude": -67.91982,
       "population": 69636,
@@ -740,7 +748,8 @@
     },
     {
       "id": "3631878",
-      "name": "Morón",
+      "name": "Moron",
+      "nativeName": "Morón",
       "latitude": 10.48715,
       "longitude": -68.20078,
       "population": 68084,
@@ -795,6 +804,7 @@
     {
       "id": "3628060",
       "name": "Colón",
+      "nativeName": "San Juan de Colón",
       "latitude": 8.03125,
       "longitude": -72.26053,
       "population": 62513,
@@ -849,6 +859,7 @@
     {
       "id": "3627713",
       "name": "San Rafael",
+      "nativeName": "San Rafael del Moján",
       "latitude": 10.96205,
       "longitude": -71.73034,
       "population": 55810,
@@ -858,6 +869,7 @@
     {
       "id": "3625346",
       "name": "Villa Bruzual",
+      "nativeName": "Turén",
       "latitude": 9.33186,
       "longitude": -69.11968,
       "population": 55244,
@@ -966,6 +978,7 @@
     {
       "id": "3642497",
       "name": "Lecherías",
+      "nativeName": "Lechería",
       "latitude": 10.19167,
       "longitude": -64.69207,
       "population": 47778,
@@ -975,6 +988,7 @@
     {
       "id": "3627561",
       "name": "Santa Bárbara",
+      "nativeName": "Santa Bárbara de Barinas",
       "latitude": 7.81348,
       "longitude": -71.17788,
       "population": 45808,
@@ -1038,6 +1052,7 @@
     {
       "id": "3629790",
       "name": "Pueblo Nuevo El Chivo",
+      "nativeName": "Pueblo Nuevo - El Chivo",
       "latitude": 8.96249,
       "longitude": -71.60754,
       "population": 41740,
@@ -1209,6 +1224,7 @@
     {
       "id": "3627614",
       "name": "Santa Ana",
+      "nativeName": "Santa Ana del Táchira",
       "latitude": 7.6429,
       "longitude": -72.27636,
       "population": 35452,
@@ -1217,7 +1233,8 @@
     },
     {
       "id": "3480908",
-      "name": "La Asunción",
+      "name": "La Asuncion",
+      "nativeName": "La Asunción",
       "latitude": 11.03333,
       "longitude": -63.86278,
       "population": 35084,
@@ -1488,6 +1505,7 @@
     {
       "id": "7909705",
       "name": "Santa Cruz de los Taques",
+      "nativeName": "Los Taques",
       "latitude": 11.8235,
       "longitude": -70.25637,
       "population": 25047,
@@ -1560,6 +1578,7 @@
     {
       "id": "3647535",
       "name": "Caicara",
+      "nativeName": "Caicara de Maturín",
       "latitude": 9.81755,
       "longitude": -63.61331,
       "population": 23625,
@@ -1695,6 +1714,7 @@
     {
       "id": "3648507",
       "name": "Barrancas",
+      "nativeName": "Barrancas del Orinoco",
       "latitude": 8.6989,
       "longitude": -62.19656,
       "population": 19474,
@@ -1767,6 +1787,7 @@
     {
       "id": "3648127",
       "name": "Boconoito",
+      "nativeName": "Boconoíto",
       "latitude": 8.84659,
       "longitude": -69.98032,
       "population": 18086,

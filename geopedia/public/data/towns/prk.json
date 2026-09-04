@@ -3,6 +3,7 @@
     {
       "id": "1871859",
       "name": "Pyongyang",
+      "nativeName": "평양시",
       "latitude": 39.03385,
       "longitude": 125.75432,
       "population": 3222000,
@@ -11,7 +12,8 @@
     },
     {
       "id": "1877449",
-      "name": "Hamhŭng",
+      "name": "Hamhung",
+      "nativeName": "함흥시",
       "latitude": 39.91833,
       "longitude": 127.53639,
       "population": 559056,
@@ -20,7 +22,8 @@
     },
     {
       "id": "1873757",
-      "name": "Namp’o",
+      "name": "Nampo",
+      "nativeName": "남포시",
       "latitude": 38.7375,
       "longitude": 125.40778,
       "population": 455000,
@@ -29,7 +32,8 @@
     },
     {
       "id": "1869012",
-      "name": "Sunch’ŏn",
+      "name": "Sunchon",
+      "nativeName": "순천시",
       "latitude": 39.43167,
       "longitude": 125.93278,
       "population": 437000,
@@ -38,7 +42,8 @@
     },
     {
       "id": "1876373",
-      "name": "Kaesŏng",
+      "name": "Kaesong",
+      "nativeName": "개성시",
       "latitude": 37.97083,
       "longitude": 126.55444,
       "population": 338155,
@@ -47,7 +52,8 @@
     },
     {
       "id": "1866923",
-      "name": "Wŏnsan",
+      "name": "Wonsan",
+      "nativeName": "원산시",
       "latitude": 39.15278,
       "longitude": 127.44361,
       "population": 329207,
@@ -56,7 +62,8 @@
     },
     {
       "id": "2044757",
-      "name": "Chongjin",
+      "name": "Chŏngjin",
+      "nativeName": "청진시",
       "latitude": 41.79556,
       "longitude": 129.77583,
       "population": 327000,
@@ -65,7 +72,8 @@
     },
     {
       "id": "1876401",
-      "name": "Kaech’ŏn",
+      "name": "Kaechon",
+      "nativeName": "개천시",
       "latitude": 39.70056,
       "longitude": 125.89333,
       "population": 319554,
@@ -74,7 +82,8 @@
     },
     {
       "id": "1870883",
-      "name": "Sariwŏn-si",
+      "name": "Sariwon",
+      "nativeName": "사리원시",
       "latitude": 38.50722,
       "longitude": 125.75583,
       "population": 310100,
@@ -83,7 +92,8 @@
     },
     {
       "id": "2040893",
-      "name": "Sinŭiju",
+      "name": "Sinuiju",
+      "nativeName": "신의주시",
       "latitude": 40.10056,
       "longitude": 124.39806,
       "population": 288112,
@@ -92,7 +102,8 @@
     },
     {
       "id": "1868144",
-      "name": "Tŏkch’ŏn",
+      "name": "Tokchon",
+      "nativeName": "덕천시",
       "latitude": 39.75261,
       "longitude": 126.25798,
       "population": 237133,
@@ -102,6 +113,7 @@
     {
       "id": "1877615",
       "name": "Haeju",
+      "nativeName": "해주시",
       "latitude": 38.04056,
       "longitude": 125.71472,
       "population": 222396,
@@ -111,6 +123,7 @@
     {
       "id": "2043572",
       "name": "Kanggye",
+      "nativeName": "강계시",
       "latitude": 40.96946,
       "longitude": 126.58523,
       "population": 209530,
@@ -120,6 +133,7 @@
     {
       "id": "2043837",
       "name": "Hyesan",
+      "nativeName": "혜산시",
       "latitude": 41.40167,
       "longitude": 128.17778,
       "population": 192680,
@@ -128,7 +142,8 @@
     },
     {
       "id": "1873014",
-      "name": "Paech’ŏn-ŭp",
+      "name": "Baecheon-eup",
+      "nativeName": "배천읍",
       "latitude": 37.99306,
       "longitude": 126.30139,
       "population": 159825,
@@ -137,7 +152,8 @@
     },
     {
       "id": "2040959",
-      "name": "Sinp’o",
+      "name": "Shinpo",
+      "nativeName": "신포시",
       "latitude": 40.03971,
       "longitude": 128.1943,
       "population": 152759,
@@ -146,7 +162,8 @@
     },
     {
       "id": "1869446",
-      "name": "Songnim-ni",
+      "name": "Songnim",
+      "nativeName": "송림시",
       "latitude": 38.76349,
       "longitude": 125.64096,
       "population": 152425,
@@ -155,7 +172,8 @@
     },
     {
       "id": "1878458",
-      "name": "Ch’ŏngdan-ŭp",
+      "name": "Cheongdan-eup",
+      "nativeName": "청단읍",
       "latitude": 37.97028,
       "longitude": 125.9375,
       "population": 142607,
@@ -164,7 +182,8 @@
     },
     {
       "id": "1870648",
-      "name": "Sinch’ŏn-ŭp",
+      "name": "Sincheon-eup",
+      "nativeName": "신천읍",
       "latitude": 38.35323,
       "longitude": 125.48423,
       "population": 141407,
@@ -173,7 +192,8 @@
     },
     {
       "id": "2042893",
-      "name": "Manp’o",
+      "name": "Manpo",
+      "nativeName": "만포시",
       "latitude": 41.15472,
       "longitude": 126.28944,
       "population": 116760,
@@ -182,7 +202,8 @@
     },
     {
       "id": "1867429",
-      "name": "Ŭllyul",
+      "name": "Eunryul-eup",
+      "nativeName": "은률읍",
       "latitude": 38.51389,
       "longitude": 125.18972,
       "population": 107997,
@@ -191,7 +212,8 @@
     },
     {
       "id": "1876124",
-      "name": "Kangnyŏng",
+      "name": "Gangnyeong-eup",
+      "nativeName": "강령읍",
       "latitude": 37.9075,
       "longitude": 125.51,
       "population": 106827,
@@ -200,7 +222,8 @@
     },
     {
       "id": "1876105",
-      "name": "Kangsŏn",
+      "name": "Chollima",
+      "nativeName": "천리마",
       "latitude": 38.93639,
       "longitude": 125.58111,
       "population": 102436,
@@ -209,7 +232,8 @@
     },
     {
       "id": "1871871",
-      "name": "P’yŏngsŏng",
+      "name": "Pyongsong",
+      "nativeName": "평성시",
       "latitude": 39.24639,
       "longitude": 125.87194,
       "population": 100000,
@@ -218,7 +242,8 @@
     },
     {
       "id": "2042709",
-      "name": "Hwasŏng",
+      "name": "Myonggan-up",
+      "nativeName": "명간읍",
       "latitude": 41.25556,
       "longitude": 129.49278,
       "population": 99557,
@@ -227,7 +252,8 @@
     },
     {
       "id": "1867377",
-      "name": "Ŭnch’ŏn-ŭp",
+      "name": "Euncheon-eup",
+      "nativeName": "은천읍",
       "latitude": 38.56556,
       "longitude": 125.42722,
       "population": 95597,
@@ -236,7 +262,8 @@
     },
     {
       "id": "1875060",
-      "name": "Kwail-ŭp",
+      "name": "Gwail-eup",
+      "nativeName": "과일읍",
       "latitude": 38.44611,
       "longitude": 125.01861,
       "population": 89895,
@@ -245,7 +272,8 @@
     },
     {
       "id": "2039589",
-      "name": "Ŭndŏk",
+      "name": "Gyeongheung-eup",
+      "nativeName": "경흥읍",
       "latitude": 42.51878,
       "longitude": 130.33479,
       "population": 89244,
@@ -254,7 +282,8 @@
     },
     {
       "id": "2042255",
-      "name": "Ŏrang",
+      "name": "Orang-up",
+      "nativeName": "어랑읍",
       "latitude": 41.44778,
       "longitude": 129.65556,
       "population": 87757,
@@ -263,7 +292,8 @@
     },
     {
       "id": "1871537",
-      "name": "Samch’ŏn",
+      "name": "Samcheon-eup",
+      "nativeName": "삼천읍",
       "latitude": 38.35944,
       "longitude": 125.32586,
       "population": 86042,
@@ -272,7 +302,8 @@
     },
     {
       "id": "1870277",
-      "name": "Sinwŏn-ŭp",
+      "name": "Sinwon-eup",
+      "nativeName": "신원읍",
       "latitude": 38.23532,
       "longitude": 125.76244,
       "population": 83161,
@@ -281,7 +312,8 @@
     },
     {
       "id": "1871932",
-      "name": "Pongch’ŏn-ŭp",
+      "name": "Bongcheon-eup",
+      "nativeName": "봉천읍",
       "latitude": 38.12389,
       "longitude": 126.20472,
       "population": 79740,
@@ -290,7 +322,8 @@
     },
     {
       "id": "2044050",
-      "name": "Hongwŏn",
+      "name": "Hongwon-eup",
+      "nativeName": "홍원읍",
       "latitude": 40.02528,
       "longitude": 127.95583,
       "population": 70923,
@@ -299,7 +332,8 @@
     },
     {
       "id": "2043962",
-      "name": "Hwadae",
+      "name": "Hwadae-up",
+      "nativeName": "화대읍",
       "latitude": 40.83806,
       "longitude": 129.49694,
       "population": 67677,
@@ -308,7 +342,8 @@
     },
     {
       "id": "2042500",
-      "name": "Namyang-nodongjagu",
+      "name": "Namyang Labor District",
+      "nativeName": "남양로동자구",
       "latitude": 42.95389,
       "longitude": 129.85722,
       "population": 65956,
@@ -317,7 +352,8 @@
     },
     {
       "id": "2042718",
-      "name": "Myŏngch’ŏn",
+      "name": "Myeongcheon-eup",
+      "nativeName": "명천읍",
       "latitude": 41.07056,
       "longitude": 129.42917,
       "population": 65797,
@@ -326,7 +362,8 @@
     },
     {
       "id": "1868578",
-      "name": "T’aet’an-ŭp",
+      "name": "Taetan-eup",
+      "nativeName": "태탄읍",
       "latitude": 38.08822,
       "longitude": 125.2983,
       "population": 64258,
@@ -335,7 +372,8 @@
     },
     {
       "id": "1873172",
-      "name": "Ongjin",
+      "name": "Ongjin-eup",
+      "nativeName": "옹진읍",
       "latitude": 37.93472,
       "longitude": 125.36194,
       "population": 64247,
@@ -344,7 +382,8 @@
     },
     {
       "id": "2043484",
-      "name": "Kilju",
+      "name": "Gilju-eup",
+      "nativeName": "길주읍",
       "latitude": 40.96417,
       "longitude": 129.32778,
       "population": 63652,
@@ -353,7 +392,8 @@
     },
     {
       "id": "1879487",
-      "name": "Chaeryŏng-ŭp",
+      "name": "Jaeryeong-eup",
+      "nativeName": "재령읍",
       "latitude": 38.39917,
       "longitude": 125.61556,
       "population": 53330,
@@ -363,6 +403,7 @@
     {
       "id": "1879613",
       "name": "Anju",
+      "nativeName": "안주시",
       "latitude": 39.61778,
       "longitude": 125.66472,
       "population": 50196,
@@ -371,7 +412,8 @@
     },
     {
       "id": "2039623",
-      "name": "Uiju",
+      "name": "Uiju-eup",
+      "nativeName": "의주읍",
       "latitude": 40.19944,
       "longitude": 124.53167,
       "population": 50081,
@@ -380,7 +422,8 @@
     },
     {
       "id": "2041702",
-      "name": "Puryŏng-ŭp",
+      "name": "Puryong-up",
+      "nativeName": "부령읍",
       "latitude": 42.06224,
       "longitude": 129.70457,
       "population": 48958,
@@ -389,7 +432,8 @@
     },
     {
       "id": "1869577",
-      "name": "Songhwa",
+      "name": "Songhwa-eup",
+      "nativeName": "송화읍",
       "latitude": 38.36028,
       "longitude": 125.13722,
       "population": 44274,
@@ -398,7 +442,8 @@
     },
     {
       "id": "2044091",
-      "name": "Hoeryŏng",
+      "name": "Hoeryong",
+      "nativeName": "회령시",
       "latitude": 42.44113,
       "longitude": 129.74601,
       "population": 43831,
@@ -407,7 +452,8 @@
     },
     {
       "id": "2041137",
-      "name": "Sijung",
+      "name": "Sijung-eup",
+      "nativeName": "시중읍",
       "latitude": 41.07889,
       "longitude": 126.375,
       "population": 41842,
@@ -416,7 +462,8 @@
     },
     {
       "id": "2044489",
-      "name": "Chunggang",
+      "name": "Chunggang-up",
+      "nativeName": "중강읍",
       "latitude": 41.77722,
       "longitude": 126.87361,
       "population": 41022,
@@ -425,7 +472,8 @@
     },
     {
       "id": "1879029",
-      "name": "Changyŏn",
+      "name": "Jangyeon-eup",
+      "nativeName": "장연읍",
       "latitude": 38.25083,
       "longitude": 125.09611,
       "population": 39368,
@@ -434,7 +482,8 @@
     },
     {
       "id": "2042704",
-      "name": "Songwŏn-ŭp",
+      "name": "Songwon-up",
+      "nativeName": "송원읍",
       "latitude": 40.37278,
       "longitude": 126.30833,
       "population": 38051,
@@ -443,7 +492,8 @@
     },
     {
       "id": "2038902",
-      "name": "Yŏnsa-ŭp",
+      "name": "Yonsa-up",
+      "nativeName": "연사읍",
       "latitude": 41.90806,
       "longitude": 129.01111,
       "population": 37876,
@@ -453,6 +503,7 @@
     {
       "id": "1869021",
       "name": "Sunan",
+      "nativeName": "순안",
       "latitude": 39.20323,
       "longitude": 125.69312,
       "population": 36671,
@@ -461,7 +512,8 @@
     },
     {
       "id": "2042987",
-      "name": "Kyŏngsŏng",
+      "name": "Kyongsong-up",
+      "nativeName": "경성읍",
       "latitude": 41.58778,
       "longitude": 129.60611,
       "population": 35604,
@@ -471,6 +523,7 @@
     {
       "id": "2042498",
       "name": "Ranam",
+      "nativeName": "라남",
       "latitude": 41.71361,
       "longitude": 129.68444,
       "population": 34055,
@@ -479,7 +532,8 @@
     },
     {
       "id": "1879672",
-      "name": "Anbyŏn-ŭp",
+      "name": "Anbyon-up",
+      "nativeName": "안변읍",
       "latitude": 39.0425,
       "longitude": 127.52389,
       "population": 31845,
@@ -488,7 +542,8 @@
     },
     {
       "id": "2043335",
-      "name": "Kop’ung",
+      "name": "Kopung-up",
+      "nativeName": "고풍읍",
       "latitude": 40.60389,
       "longitude": 125.94667,
       "population": 31572,
@@ -497,7 +552,8 @@
     },
     {
       "id": "2041442",
-      "name": "Samjiyŏn-ŭp",
+      "name": "Samjiyon",
+      "nativeName": "삼지연시",
       "latitude": 41.80356,
       "longitude": 128.31886,
       "population": 31471,
@@ -506,7 +562,8 @@
     },
     {
       "id": "1875107",
-      "name": "Kusŏng-si",
+      "name": "Kusong",
+      "nativeName": "구성시",
       "latitude": 39.97969,
       "longitude": 125.2529,
       "population": 30902,
@@ -515,7 +572,8 @@
     },
     {
       "id": "1878389",
-      "name": "Chŏngju-si",
+      "name": "Jongju",
+      "nativeName": "정주시",
       "latitude": 39.69252,
       "longitude": 125.21355,
       "population": 29065,
@@ -524,7 +582,8 @@
     },
     {
       "id": "1876153",
-      "name": "Kangdong-ŭp",
+      "name": "Kangdong-up",
+      "nativeName": "강동읍",
       "latitude": 39.1425,
       "longitude": 126.09611,
       "population": 28922,
@@ -533,7 +592,8 @@
     },
     {
       "id": "2040674",
-      "name": "Sŏnbong",
+      "name": "Sonbong",
+      "nativeName": "선봉구역",
       "latitude": 42.35118,
       "longitude": 130.38307,
       "population": 27331,
@@ -542,7 +602,8 @@
     },
     {
       "id": "2043677",
-      "name": "Iwŏn-ŭp",
+      "name": "Riwon-eup",
+      "nativeName": "리원읍",
       "latitude": 40.32306,
       "longitude": 128.65528,
       "population": 26364,
@@ -551,7 +612,8 @@
     },
     {
       "id": "1875632",
-      "name": "Kosan",
+      "name": "Kosan-up",
+      "nativeName": "고산읍",
       "latitude": 38.85583,
       "longitude": 127.41806,
       "population": 24822,
@@ -560,7 +622,8 @@
     },
     {
       "id": "1866569",
-      "name": "Yŏnan-ŭp",
+      "name": "Yeonan-eup",
+      "nativeName": "연안읍",
       "latitude": 37.90889,
       "longitude": 126.16111,
       "population": 22665,
@@ -569,7 +632,8 @@
     },
     {
       "id": "2042249",
-      "name": "Yŏnggwang-ŭp",
+      "name": "Yeonggwang-eup",
+      "nativeName": "영광읍",
       "latitude": 40.01833,
       "longitude": 127.45472,
       "population": 21882,
@@ -578,7 +642,8 @@
     },
     {
       "id": "2042738",
-      "name": "Musan-ŭp",
+      "name": "Musan-eup",
+      "nativeName": "무산읍",
       "latitude": 42.22609,
       "longitude": 129.20776,
       "population": 21739,
@@ -587,7 +652,8 @@
     },
     {
       "id": "1875588",
-      "name": "Kowŏn-ŭp",
+      "name": "Gowon-eup",
+      "nativeName": "고원읍",
       "latitude": 39.43806,
       "longitude": 127.24306,
       "population": 21490,
@@ -596,7 +662,8 @@
     },
     {
       "id": "1877148",
-      "name": "Hoeyang",
+      "name": "Hoeyang-ŭp",
+      "nativeName": "회양읍",
       "latitude": 38.71028,
       "longitude": 127.59833,
       "population": 21111,
@@ -605,7 +672,8 @@
     },
     {
       "id": "1867927",
-      "name": "T’ongch’ŏn-ŭp",
+      "name": "Tongchon-up",
+      "nativeName": "통천읍",
       "latitude": 38.95389,
       "longitude": 127.89167,
       "population": 20575,
@@ -614,7 +682,8 @@
     },
     {
       "id": "2043531",
-      "name": "Kapsan-ŭp",
+      "name": "Kapsan-up",
+      "nativeName": "갑산읍",
       "latitude": 41.09028,
       "longitude": 128.29333,
       "population": 20406,
@@ -623,7 +692,8 @@
     },
     {
       "id": "1879682",
-      "name": "Anak",
+      "name": "Anak-eup",
+      "nativeName": "안악읍",
       "latitude": 38.51083,
       "longitude": 125.49417,
       "population": 19995,
@@ -632,7 +702,8 @@
     },
     {
       "id": "2042267",
-      "name": "Onsŏng",
+      "name": "Onseong-eup",
+      "nativeName": "온성읍",
       "latitude": 42.95722,
       "longitude": 129.99333,
       "population": 19806,
@@ -641,7 +712,8 @@
     },
     {
       "id": "1875506",
-      "name": "Kujang-ŭp",
+      "name": "Kujang-up",
+      "nativeName": "구장읍",
       "latitude": 39.86722,
       "longitude": 126.03028,
       "population": 19522,
@@ -650,7 +722,8 @@
     },
     {
       "id": "1877872",
-      "name": "Chunghwa",
+      "name": "Junghwa-eup",
+      "nativeName": "중화읍",
       "latitude": 38.86389,
       "longitude": 125.8,
       "population": 19346,
@@ -659,7 +732,8 @@
     },
     {
       "id": "1870434",
-      "name": "Sinmak",
+      "name": "Seohung-eup",
+      "nativeName": "서흥읍",
       "latitude": 38.41667,
       "longitude": 126.23333,
       "population": 18669,
@@ -668,7 +742,8 @@
     },
     {
       "id": "2041533",
-      "name": "Sakchu-ŭp",
+      "name": "Sakju-eup",
+      "nativeName": "삭주읍",
       "latitude": 40.38944,
       "longitude": 125.04667,
       "population": 18001,
@@ -678,6 +753,7 @@
     {
       "id": "1870742",
       "name": "Sinanju",
+      "nativeName": "신안주",
       "latitude": 39.59806,
       "longitude": 125.60972,
       "population": 15693,
@@ -686,7 +762,8 @@
     },
     {
       "id": "2041817",
-      "name": "Pukchin-rodongjagu",
+      "name": "Bukjin Labor District",
+      "nativeName": "북진로동자구",
       "latitude": 40.20194,
       "longitude": 125.74833,
       "population": 14129,
@@ -695,7 +772,8 @@
     },
     {
       "id": "1866362",
-      "name": "Ryonggang-ŭp",
+      "name": "Ryonggang-eup",
+      "nativeName": "룡강읍",
       "latitude": 38.85611,
       "longitude": 125.42444,
       "population": 13440,
@@ -704,7 +782,8 @@
     },
     {
       "id": "1871967",
-      "name": "Pyŏksŏng-ŭp",
+      "name": "Byeokseong-eup",
+      "nativeName": "벽성읍",
       "latitude": 38.0475,
       "longitude": 125.55667,
       "population": 12937,
@@ -713,7 +792,8 @@
     },
     {
       "id": "1875790",
-      "name": "Koksan-ŭp",
+      "name": "Goksan-eup",
+      "nativeName": "곡산읍",
       "latitude": 38.78194,
       "longitude": 126.66639,
       "population": 12923,
@@ -722,7 +802,8 @@
     },
     {
       "id": "2045005",
-      "name": "Chasŏng",
+      "name": "Chasong-up",
+      "nativeName": "자성읍",
       "latitude": 41.46083,
       "longitude": 126.64139,
       "population": 12736,
@@ -731,7 +812,8 @@
     },
     {
       "id": "1870586",
-      "name": "Sindo",
+      "name": "Shindo-up",
+      "nativeName": "신도읍",
       "latitude": 39.80573,
       "longitude": 124.23311,
       "population": 11810,
@@ -740,7 +822,8 @@
     },
     {
       "id": "2049653",
-      "name": "Sŭngjibaegam",
+      "name": "Baekam Labor District",
+      "nativeName": "백암로동자구",
       "latitude": 41.24278,
       "longitude": 128.79889,
       "population": 11786,
@@ -750,6 +833,7 @@
     {
       "id": "1872726",
       "name": "Panghyŏn-dong",
+      "nativeName": "방현동",
       "latitude": 39.88722,
       "longitude": 125.24139,
       "population": 11026,
@@ -758,7 +842,8 @@
     },
     {
       "id": "1875054",
-      "name": "Kwaksan",
+      "name": "Gwaksan-eup",
+      "nativeName": "곽산읍",
       "latitude": 39.6875,
       "longitude": 125.08278,
       "population": 10478,
@@ -767,7 +852,8 @@
     },
     {
       "id": "1866453",
-      "name": "Yŏngbyŏn",
+      "name": "Nyongbyon-up",
+      "nativeName": "녕변읍",
       "latitude": 39.81333,
       "longitude": 125.80417,
       "population": 9584,
@@ -776,7 +862,8 @@
     },
     {
       "id": "1866587",
-      "name": "Yŏmju",
+      "name": "Yomju-up",
+      "nativeName": "염주읍",
       "latitude": 39.89297,
       "longitude": 124.59756,
       "population": 9437,
