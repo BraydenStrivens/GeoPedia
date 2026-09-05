@@ -17,8 +17,8 @@ export const umi: CountryData = {
   region: "North America",
   callingCode: "1",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/umi.svg",
-  imageUrl: "/data/country-images/umi.svg",
+  flagUrl: "/data/global/countries/flags/umi.svg",
+  imageUrl: "/data/global/countries/silhouettes/umi.svg",
   capital: "",
   population: 300,
 };

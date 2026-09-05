@@ -17,8 +17,8 @@ export const rus: CountryData = {
   region: "Eastern Europe",
   callingCode: "7",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/rus.svg",
-  imageUrl: "/data/country-images/rus.svg",
+  flagUrl: "/data/global/countries/flags/rus.svg",
+  imageUrl: "/data/global/countries/silhouettes/rus.svg",
   capital: "Moscow",
   population: 146028325,
 };

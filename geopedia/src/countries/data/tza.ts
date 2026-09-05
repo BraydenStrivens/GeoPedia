@@ -17,8 +17,8 @@ export const tza: CountryData = {
   region: "Eastern Africa",
   callingCode: "255",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/tza.svg",
-  imageUrl: "/data/country-images/tza.svg",
+  flagUrl: "/data/global/countries/flags/tza.svg",
+  imageUrl: "/data/global/countries/silhouettes/tza.svg",
   capital: "Dodoma",
   population: 70038850,
 };

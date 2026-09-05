@@ -17,8 +17,8 @@ export const bfa: CountryData = {
   region: "Western Africa",
   callingCode: "226",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/bfa.svg",
-  imageUrl: "/data/country-images/bfa.svg",
+  flagUrl: "/data/global/countries/flags/bfa.svg",
+  imageUrl: "/data/global/countries/silhouettes/bfa.svg",
   capital: "Ouagadougou",
   population: 22489126,
 };

@@ -17,8 +17,8 @@ export const nam: CountryData = {
   region: "Southern Africa",
   callingCode: "264",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/nam.svg",
-  imageUrl: "/data/country-images/nam.svg",
+  flagUrl: "/data/global/countries/flags/nam.svg",
+  imageUrl: "/data/global/countries/silhouettes/nam.svg",
   capital: "Windhoek",
   population: 3022401,
 };

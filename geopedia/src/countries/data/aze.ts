@@ -17,8 +17,8 @@ export const aze: CountryData = {
   region: "Western Asia",
   callingCode: "994",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/aze.svg",
-  imageUrl: "/data/country-images/aze.svg",
+  flagUrl: "/data/global/countries/flags/aze.svg",
+  imageUrl: "/data/global/countries/silhouettes/aze.svg",
   capital: "Baku",
   population: 10273450,
 };

@@ -17,8 +17,8 @@ export const ncl: CountryData = {
   region: "Melanesia",
   callingCode: "687",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/ncl.svg",
-  imageUrl: "/data/country-images/ncl.svg",
+  flagUrl: "/data/global/countries/flags/ncl.svg",
+  imageUrl: "/data/global/countries/silhouettes/ncl.svg",
   capital: "Nouméa",
   population: 264596,
 };

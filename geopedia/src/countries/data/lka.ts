@@ -17,8 +17,8 @@ export const lka: CountryData = {
   region: "Southern Asia",
   callingCode: "94",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/lka.svg",
-  imageUrl: "/data/country-images/lka.svg",
+  flagUrl: "/data/global/countries/flags/lka.svg",
+  imageUrl: "/data/global/countries/silhouettes/lka.svg",
   capital: "Sri Jayawardenepura Kotte",
   population: 21756000,
 };

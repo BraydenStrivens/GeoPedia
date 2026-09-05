@@ -9,7 +9,7 @@ import type { MapConfig } from "../../types";
 
 export const usZip3Map: MapConfig = {
   id: "us-zip-3",
-  geojsonUrl: "/data/geojson/usa/us-zip-3.geojson",
+  geojsonUrl: "/data/countries/usa/geojson/zip-3.geojson",
 
   featureProperty: "zip",
 

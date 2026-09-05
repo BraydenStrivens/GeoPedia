@@ -17,8 +17,8 @@ export const brb: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/brb.svg",
-  imageUrl: "/data/country-images/brb.svg",
+  flagUrl: "/data/global/countries/flags/brb.svg",
+  imageUrl: "/data/global/countries/silhouettes/brb.svg",
   capital: "Bridgetown",
   population: 261692,
 };

@@ -18,7 +18,7 @@
 
 "use client";
 
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useState } from "react";
 
 import {
   type GeographicCoordinate,
@@ -165,9 +165,6 @@ export function useTownQuiz({
   /** Whether a question is currently accepting guesses. */
   const [isActive, setIsActive] = useState(false);
 
-  /** Whether every question has been answered. */
-  const [isFinished, setIsFinished] = useState(false);
-
   /**
    * Town currently being located.
    *
@@ -178,14 +175,26 @@ export function useTownQuiz({
     : undefined;
 
   /**
+   * Whether every question in the current attempt has been answered.
+   *
+   * A finished quiz retains its completed question queue and advances the
+   * question index one position beyond the final question.
+   */
+  const isFinished =
+    questionQueue.length > 0 &&
+    !isActive &&
+    currentQuestionIndex >= questionQueue.length;
+
+  /**
    * Number of completed questions.
    *
    * Because skipped towns remain inside the unanswered portion of the queue,
    * this index also accurately represents answered-question progress.
    */
-  const answeredCount = isFinished
-    ? questionQueue.length
-    : currentQuestionIndex;
+  const answeredCount = Math.min(
+    currentQuestionIndex,
+    questionQueue.length,
+  );
 
   /**
    * Total number of questions in the current attempt.
@@ -197,13 +206,9 @@ export function useTownQuiz({
     questionQueue.length > 0 ? questionQueue.length : towns.length;
 
   /** Average score across completed guesses. */
-  const averageScore = useMemo(() => {
-    if (answeredCount === 0) {
-      return 0;
-    }
-
-    return totalScore / answeredCount;
-  }, [totalScore, answeredCount]);
+  /** Average normalized score across completed guesses. */
+  const averageScore =
+    answeredCount === 0 ? 0 : totalScore / answeredCount;
 
   /**
    * Resets attempt statistics and begins a newly randomized quiz.
@@ -214,7 +219,6 @@ export function useTownQuiz({
     setLastResult(undefined);
     setTotalScore(0);
     setTotalDistanceKm(0);
-    setIsFinished(false);
     setIsActive(towns.length > 0);
   }, [towns]);
 
@@ -272,7 +276,6 @@ export function useTownQuiz({
    */
   const stopQuiz = useCallback(() => {
     setIsActive(false);
-    setIsFinished(false);
     setQuestionQueue([]);
     setCurrentQuestionIndex(0);
     setLastResult(undefined);
@@ -283,15 +286,7 @@ export function useTownQuiz({
   /**
    * Immediately starts a new randomized attempt.
    */
-  const restartQuiz = useCallback(() => {
-    setQuestionQueue(shuffleTowns(towns));
-    setCurrentQuestionIndex(0);
-    setLastResult(undefined);
-    setTotalScore(0);
-    setTotalDistanceKm(0);
-    setIsFinished(false);
-    setIsActive(towns.length > 0);
-  }, [towns]);
+  const restartQuiz = startQuiz;
 
   /**
    * Scores a geographic guess and immediately advances to the next question.
@@ -340,7 +335,6 @@ export function useTownQuiz({
       if (nextQuestionIndex >= questionQueue.length) {
         setCurrentQuestionIndex(nextQuestionIndex);
         setIsActive(false);
-        setIsFinished(true);
 
         return;
       }

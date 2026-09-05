@@ -17,8 +17,8 @@ export const gbr: CountryData = {
   region: "Northern Europe",
   callingCode: "44",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/gbr.svg",
-  imageUrl: "/data/country-images/gbr.svg",
+  flagUrl: "/data/global/countries/flags/gbr.svg",
+  imageUrl: "/data/global/countries/silhouettes/gbr.svg",
   capital: "London",
   population: 66912637,
 };

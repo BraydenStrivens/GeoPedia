@@ -17,8 +17,8 @@ export const per: CountryData = {
   region: "South America",
   callingCode: "51",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/per.svg",
-  imageUrl: "/data/country-images/per.svg",
+  flagUrl: "/data/global/countries/flags/per.svg",
+  imageUrl: "/data/global/countries/silhouettes/per.svg",
   capital: "Lima",
   population: 34157732,
 };

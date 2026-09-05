@@ -17,8 +17,8 @@ export const cyp: CountryData = {
   region: "Southern Europe",
   callingCode: "357",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/cyp.svg",
-  imageUrl: "/data/country-images/cyp.svg",
+  flagUrl: "/data/global/countries/flags/cyp.svg",
+  imageUrl: "/data/global/countries/silhouettes/cyp.svg",
   capital: "Nicosia",
   population: 983000,
 };

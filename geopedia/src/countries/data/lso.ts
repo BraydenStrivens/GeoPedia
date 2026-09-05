@@ -17,8 +17,8 @@ export const lso: CountryData = {
   region: "Southern Africa",
   callingCode: "266",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/lso.svg",
-  imageUrl: "/data/country-images/lso.svg",
+  flagUrl: "/data/global/countries/flags/lso.svg",
+  imageUrl: "/data/global/countries/silhouettes/lso.svg",
   capital: "Maseru",
   population: 2116427,
 };

@@ -17,8 +17,8 @@ export const bwa: CountryData = {
   region: "Southern Africa",
   callingCode: "267",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/bwa.svg",
-  imageUrl: "/data/country-images/bwa.svg",
+  flagUrl: "/data/global/countries/flags/bwa.svg",
+  imageUrl: "/data/global/countries/silhouettes/bwa.svg",
   capital: "Gaborone",
   population: 2359609,
 };

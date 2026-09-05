@@ -17,8 +17,8 @@ export const ggy: CountryData = {
   region: "Northern Europe",
   callingCode: "44",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/ggy.svg",
-  imageUrl: "/data/country-images/ggy.svg",
+  flagUrl: "/data/global/countries/flags/ggy.svg",
+  imageUrl: "/data/global/countries/silhouettes/ggy.svg",
   capital: "St. Peter Port",
   population: 64781,
 };

@@ -17,8 +17,8 @@ export const tca: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/tca.svg",
-  imageUrl: "/data/country-images/tca.svg",
+  flagUrl: "/data/global/countries/flags/tca.svg",
+  imageUrl: "/data/global/countries/silhouettes/tca.svg",
   capital: "Cockburn Town",
   population: 50828,
 };

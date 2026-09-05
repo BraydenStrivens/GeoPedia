@@ -17,8 +17,8 @@ export const gnb: CountryData = {
   region: "Western Africa",
   callingCode: "245",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/gnb.svg",
-  imageUrl: "/data/country-images/gnb.svg",
+  flagUrl: "/data/global/countries/flags/gnb.svg",
+  imageUrl: "/data/global/countries/silhouettes/gnb.svg",
   capital: "Bissau",
   population: 1890252,
 };

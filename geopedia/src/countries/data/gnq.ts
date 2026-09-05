@@ -17,8 +17,8 @@ export const gnq: CountryData = {
   region: "Middle Africa",
   callingCode: "240",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/gnq.svg",
-  imageUrl: "/data/country-images/gnq.svg",
+  flagUrl: "/data/global/countries/flags/gnq.svg",
+  imageUrl: "/data/global/countries/silhouettes/gnq.svg",
   capital: "Malabo",
   population: 1795834,
 };

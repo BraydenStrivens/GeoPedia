@@ -8,8 +8,9 @@
  * registry.
  */
 
-import Link from "next/link";
-
+import QuizListingRow from "@/components/quiz/QuizListingRow";
+import QuizPageHero from "@/components/quiz/QuizPageHero";
+import QuizSectionHeader from "@/components/quiz/QuizSectionHeader";
 import { getGlobalQuizListings } from "@/quiz/quizzes";
 
 /**
@@ -21,41 +22,32 @@ export default function GlobalPage() {
   const quizListings = getGlobalQuizListings();
 
   return (
-    <main className="flex min-h-screen justify-center px-6 py-12">
-      <div className="flex w-full max-w-6xl flex-col items-center">
-        {/* Global heading */}
-        <div className="mb-10 flex flex-col items-center text-center">
-          <h1 className="text-5xl font-bold tracking-tight">
-            Global
-          </h1>
+    <main className="min-h-screen bg-slate-300">
+      {/* Global heading */}
+      <QuizPageHero
+        title="Global"
+        subtitle="Practice geography covering countries around the world."
+      />
 
-          <p className="mt-2 max-w-2xl text-xl font-medium text-gray-500">
-            Practice geography covering countries around the world.
-          </p>
-        </div>
-
+      <div className="mx-auto flex w-full max-w-6xl flex-col items-center px-6 py-10">
         {/* Available global quizzes */}
         <section className="w-full max-w-5xl">
-          <h2 className="mb-6 text-center text-3xl font-bold">
-            Quizzes
-          </h2>
+          <QuizSectionHeader description="Choose a quiz to practice global geography." />
 
           {quizListings.length === 0 ? (
             /* Empty quiz state */
-            <p className="text-center text-lg text-gray-500">
+            <p className="text-center text-lg text-slate-500">
               Quizzes coming soon
             </p>
           ) : (
-            /* Quiz links */
-            <div className="flex flex-col items-center gap-3">
+            /* Quiz listings */
+            <div className="mx-auto flex w-full max-w-2xl flex-col gap-3">
               {quizListings.map((quizListing) => (
-                <Link
+                <QuizListingRow
                   key={quizListing.id}
+                  quizListing={quizListing}
                   href={`/global/${quizListing.id}`}
-                  className="w-full max-w-xl rounded-lg border px-6 py-4 text-center font-medium shadow-sm transition hover:bg-gray-50 hover:text-black"
-                >
-                  {quizListing.name}
-                </Link>
+                />
               ))}
             </div>
           )}

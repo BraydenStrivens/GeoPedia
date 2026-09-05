@@ -17,8 +17,8 @@ export const rwa: CountryData = {
   region: "Eastern Africa",
   callingCode: "250",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/rwa.svg",
-  imageUrl: "/data/country-images/rwa.svg",
+  flagUrl: "/data/global/countries/flags/rwa.svg",
+  imageUrl: "/data/global/countries/silhouettes/rwa.svg",
   capital: "Kigali",
   population: 14418145,
 };

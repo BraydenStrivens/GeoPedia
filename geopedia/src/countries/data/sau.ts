@@ -17,8 +17,8 @@ export const sau: CountryData = {
   region: "Western Asia",
   callingCode: "966",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/sau.svg",
-  imageUrl: "/data/country-images/sau.svg",
+  flagUrl: "/data/global/countries/flags/sau.svg",
+  imageUrl: "/data/global/countries/silhouettes/sau.svg",
   capital: "Riyadh",
   population: 33702731,
 };

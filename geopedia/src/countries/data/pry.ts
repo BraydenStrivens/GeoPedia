@@ -17,8 +17,8 @@ export const pry: CountryData = {
   region: "South America",
   callingCode: "595",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/pry.svg",
-  imageUrl: "/data/country-images/pry.svg",
+  flagUrl: "/data/global/countries/flags/pry.svg",
+  imageUrl: "/data/global/countries/silhouettes/pry.svg",
   capital: "Asunción",
   population: 6109644,
 };

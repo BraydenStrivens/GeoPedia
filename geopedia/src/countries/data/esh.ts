@@ -17,8 +17,8 @@ export const esh: CountryData = {
   region: "Northern Africa",
   callingCode: "212",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/esh.svg",
-  imageUrl: "/data/country-images/esh.svg",
+  flagUrl: "/data/global/countries/flags/esh.svg",
+  imageUrl: "/data/global/countries/silhouettes/esh.svg",
   capital: "El Aaiún",
   population: 510713,
 };

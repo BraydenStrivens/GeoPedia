@@ -17,8 +17,8 @@ export const ecu: CountryData = {
   region: "South America",
   callingCode: "593",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/ecu.svg",
-  imageUrl: "/data/country-images/ecu.svg",
+  flagUrl: "/data/global/countries/flags/ecu.svg",
+  imageUrl: "/data/global/countries/silhouettes/ecu.svg",
   capital: "Quito",
   population: 18103660,
 };

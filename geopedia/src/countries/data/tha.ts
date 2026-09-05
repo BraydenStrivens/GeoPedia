@@ -17,8 +17,8 @@ export const tha: CountryData = {
   region: "South-Eastern Asia",
   callingCode: "66",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/tha.svg",
-  imageUrl: "/data/country-images/tha.svg",
+  flagUrl: "/data/global/countries/flags/tha.svg",
+  imageUrl: "/data/global/countries/silhouettes/tha.svg",
   capital: "Bangkok",
   population: 70250751,
 };

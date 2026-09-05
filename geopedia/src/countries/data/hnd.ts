@@ -17,8 +17,8 @@ export const hnd: CountryData = {
   region: "Central America",
   callingCode: "504",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/hnd.svg",
-  imageUrl: "/data/country-images/hnd.svg",
+  flagUrl: "/data/global/countries/flags/hnd.svg",
+  imageUrl: "/data/global/countries/silhouettes/hnd.svg",
   capital: "Tegucigalpa",
   population: 10186738,
 };

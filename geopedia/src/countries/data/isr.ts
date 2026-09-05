@@ -17,8 +17,8 @@ export const isr: CountryData = {
   region: "Western Asia",
   callingCode: "972",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/isr.svg",
-  imageUrl: "/data/country-images/isr.svg",
+  flagUrl: "/data/global/countries/flags/isr.svg",
+  imageUrl: "/data/global/countries/silhouettes/isr.svg",
   capital: "Jerusalem",
   population: 10273700,
 };

@@ -17,8 +17,8 @@ export const fin: CountryData = {
   region: "Northern Europe",
   callingCode: "358",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/fin.svg",
-  imageUrl: "/data/country-images/fin.svg",
+  flagUrl: "/data/global/countries/flags/fin.svg",
+  imageUrl: "/data/global/countries/silhouettes/fin.svg",
   capital: "Helsinki",
   population: 5655296,
 };

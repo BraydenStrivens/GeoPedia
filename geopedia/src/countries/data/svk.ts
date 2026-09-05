@@ -17,8 +17,8 @@ export const svk: CountryData = {
   region: "Central Europe",
   callingCode: "421",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/svk.svg",
-  imageUrl: "/data/country-images/svk.svg",
+  flagUrl: "/data/global/countries/flags/svk.svg",
+  imageUrl: "/data/global/countries/silhouettes/svk.svg",
   capital: "Bratislava",
   population: 5405368,
 };

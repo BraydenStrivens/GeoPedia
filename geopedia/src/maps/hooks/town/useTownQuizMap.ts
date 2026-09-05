@@ -1,5 +1,5 @@
 /**
- * Creates and owns the MapLibre map used by GeoPedia town quizzes.
+ * Owns the lifecycle of the MapLibre map used by GeoPedia town quizzes.
  *
  * Town quizzes use a shared MapTiler base map rather than country-specific
  * geographic feature layers. This hook is responsible for:
@@ -8,14 +8,14 @@
  * - Applying the country's initial camera position.
  * - Permanently suppressing MapTiler settlement labels that would reveal town
  *   quiz answers.
- * - Applying the persisted Show Labels setting to the remaining contextual
- *   base-map labels.
+ * - Applying the Show Labels setting to the remaining contextual base-map
+ *   labels.
  * - Exposing the MapLibre instance and readiness state to dependent town-quiz
  *   hooks.
  *
  * GeoPedia's custom quiz-town labels are created by separate town-label hooks.
  * They are therefore not controlled by Show Labels; their visibility is
- * controlled independently by Normal and Hard quiz modes.
+ * controlled independently by the town quiz mode.
  *
  * Town-specific gameplay state, guess scoring, result visualization, and
  * question progression are intentionally handled outside this hook so the map
@@ -25,8 +25,10 @@
 "use client";
 
 import * as maplibregl from "maplibre-gl";
-import { type RefObject, useEffect, useRef, useState } from "react";
+import type { RefObject } from "react";
+import { useEffect, useRef, useState } from "react";
 
+import { useLatestRef } from "@/maps/hooks/useLatestRef";
 import { createMapStyle } from "@/maps/style/mapStyle";
 import type { MapStyle } from "@/maps/types";
 import type { TownQuizInitialView } from "@/quiz/town/townCountryConfigs";
@@ -40,11 +42,7 @@ const TOWN_QUIZ_MAP_STYLE: MapStyle = {
 
 /**
  * MapTiler settlement-label layers that must always remain hidden during town
- * quizzes.
- *
- * These layers contain city, town, capital, and other place names that could
- * directly reveal quiz answers. They stay hidden regardless of the user's
- * Show Labels setting.
+ * quizzes because they could directly reveal quiz answers.
  */
 const TOWN_QUIZ_ANSWER_LABEL_LAYER_IDS = new Set<string>([
   "Capital city labels",
@@ -52,6 +50,14 @@ const TOWN_QUIZ_ANSWER_LABEL_LAYER_IDS = new Set<string>([
   "Town labels",
   "Place labels",
 ]);
+
+/**
+ * Original visibility state of MapTiler's base-map symbol layers.
+ */
+type BaseLabelVisibilityMap = Map<
+  string,
+  maplibregl.VisibilitySpecification
+>;
 
 /**
  * Parameters required to create a town quiz map.
@@ -64,7 +70,7 @@ type UseTownQuizMapParams = {
   initialView: TownQuizInitialView;
 
   /**
-   * Whether contextual base-map labels should remain visible.
+   * Whether contextual base-map labels should be visible.
    *
    * This affects base-map labels only. GeoPedia's custom quiz-town answer
    * labels are controlled separately by the town quiz mode.
@@ -73,38 +79,28 @@ type UseTownQuizMapParams = {
 };
 
 /**
- * Values exposed to components and hooks that depend on the town quiz map.
+ * Result returned by `useTownQuizMap`.
  */
 type UseTownQuizMapResult = {
-  /** Current MapLibre instance. */
+  /** MapLibre instance, or `null` before creation and after cleanup. */
   mapRef: RefObject<maplibregl.Map | null>;
 
   /**
-   * Indicates that MapLibre's base style has loaded and the town quiz map can
-   * safely be modified by dependent hooks.
+   * Whether the MapTiler base style has loaded and dependent town-map hooks may
+   * safely add or modify layers.
    */
   isMapReady: boolean;
 };
 
 /**
- * Stores the original MapTiler visibility state for each base-map symbol layer.
+ * Captures the original visibility of every symbol layer in the loaded
+ * MapTiler base style.
  *
- * MapLibre styles may intentionally contain symbol layers whose original
- * visibility is `none`. Remembering the original state allows Show Labels to
- * restore the style faithfully instead of assuming every base label should be
- * visible.
- */
-type BaseLabelVisibilityMap = Map<
-  string,
-  maplibregl.VisibilitySpecification
->;
-
-/**
- * Captures the original visibility of every symbol layer in the loaded base
- * map style.
+ * MapLibre styles may intentionally contain symbol layers whose visibility is
+ * `none`. Remembering each original state allows Show Labels to restore the
+ * style faithfully rather than assuming every symbol layer should be visible.
  *
- * This must run only after MapLibre emits `style.load`. Before that event,
- * `getStyle()` may not yet contain a usable style object.
+ * This must run before GeoPedia changes any base-label visibility.
  *
  * @param map - Town quiz map whose base style has loaded.
  * @param visibilityMap - Mutable map receiving original layer visibility.
@@ -138,15 +134,12 @@ function captureBaseLabelVisibility(
 /**
  * Applies GeoPedia's town-quiz base-label visibility rules.
  *
- * Answer-revealing MapTiler settlement layers remain permanently hidden.
+ * Answer-revealing MapTiler settlement layers always remain hidden. Every
+ * other base-map symbol layer either returns to its original MapTiler
+ * visibility or is hidden according to Show Labels.
  *
- * Every other base-map symbol layer follows the user's Show Labels setting:
- *
- * - When enabled, each layer returns to its original MapTiler visibility.
- * - When disabled, the layer is hidden.
- *
- * GeoPedia's custom town quiz labels are not part of the captured base style
- * and therefore remain unaffected by this function.
+ * GeoPedia's custom town-label layers are added after the base style is
+ * captured and are therefore unaffected by this function.
  *
  * @param map - Town quiz MapLibre instance.
  * @param visibilityMap - Original base-layer visibility snapshot.
@@ -161,28 +154,15 @@ function applyTownQuizBaseLabelVisibility(
   showLabels: boolean,
 ): void {
   for (const [layerId, originalVisibility] of visibilityMap) {
-    /*
-     * A style layer may have disappeared if the style was changed or reloaded
-     * after the initial visibility snapshot.
-     */
     if (!map.getLayer(layerId)) {
       continue;
     }
 
-    /*
-     * Settlement labels capable of revealing quiz answers remain hidden in
-     * both Show Labels states.
-     */
     if (TOWN_QUIZ_ANSWER_LABEL_LAYER_IDS.has(layerId)) {
       map.setLayoutProperty(layerId, "visibility", "none");
-
       continue;
     }
 
-    /*
-     * Restore each contextual layer's original MapTiler state when labels are
-     * enabled rather than assuming every symbol layer should be visible.
-     */
     map.setLayoutProperty(
       layerId,
       "visibility",
@@ -192,16 +172,13 @@ function applyTownQuizBaseLabelVisibility(
 }
 
 /**
- * Creates and manages the MapLibre instance used by a town quiz.
+ * Creates, configures, and owns the MapLibre map used by a town quiz.
  *
  * Map creation depends only on values that fundamentally define the map.
- * Runtime Show Labels changes are handled by a separate synchronization effect
- * so toggling the setting does not destroy and recreate MapLibre.
+ * Runtime Show Labels changes are applied to the existing MapLibre instance
+ * rather than recreating it.
  *
  * @param params - Town-map container, initial view, and display settings.
- * @param params.containerRef - React-owned MapLibre container.
- * @param params.initialView - Initial camera position for the country.
- * @param params.showLabels - Whether contextual base labels should be visible.
  * @returns MapLibre instance ref and readiness state.
  */
 export function useTownQuizMap({
@@ -210,23 +187,20 @@ export function useTownQuizMap({
   showLabels,
 }: UseTownQuizMapParams): UseTownQuizMapResult {
   /**
-   * Long-lived reference to the MapLibre instance.
-   *
-   * Updating the ref itself does not cause React to render.
+   * Stores the imperative MapLibre instance without placing it in React state.
    */
   const mapRef = useRef<maplibregl.Map | null>(null);
 
   /**
-   * Signals when the base MapTiler style has loaded and dependent map hooks may
-   * safely add or modify layers.
+   * Signals when the MapTiler base style has loaded and dependent town-map
+   * hooks may safely add or modify layers.
    */
   const [isMapReady, setIsMapReady] = useState(false);
 
   /**
-   * Original visibility state of every symbol layer belonging to the MapTiler
-   * base style.
+   * Stores the original visibility of every MapTiler symbol layer.
    *
-   * Custom GeoPedia town layers are added later and are intentionally absent
+   * GeoPedia town-label layers are added later and are intentionally absent
    * from this snapshot.
    */
   const baseLabelVisibilityRef = useRef<BaseLabelVisibilityMap>(
@@ -234,26 +208,13 @@ export function useTownQuizMap({
   );
 
   /**
-   * Latest Show Labels value.
-   *
-   * The map-creation effect deliberately does not depend on `showLabels`,
-   * because changing that setting must not recreate the map. The ref lets the
-   * asynchronous `style.load` callback still read the latest setting.
+   * Provides asynchronous MapLibre callbacks with the latest Show Labels value
+   * without making map creation depend on that setting.
    */
-  const showLabelsRef = useRef(showLabels);
+  const showLabelsRef = useLatestRef(showLabels);
 
   /**
-   * Keeps the mutable Show Labels ref synchronized with React state.
-   */
-  useEffect(() => {
-    showLabelsRef.current = showLabels;
-  }, [showLabels]);
-
-  /**
-   * Creates and destroys the MapLibre instance.
-   *
-   * This effect does not depend on `showLabels`. Display-setting changes are
-   * applied to the existing map by the synchronization effect below.
+   * Creates, configures, and eventually destroys the MapLibre instance.
    */
   useEffect(() => {
     const container = containerRef.current;
@@ -262,125 +223,64 @@ export function useTownQuizMap({
       return;
     }
 
-    /**
-     * Preserve the visibility snapshot owned by this specific map lifecycle.
-     *
-     * Capturing the Map object here ensures cleanup clears the same snapshot that
-     * was used by this effect even if the React ref later points somewhere else.
-     */
     const baseLabelVisibility = baseLabelVisibilityRef.current;
 
-    /*
-     * Preserve the already-validated container across the asynchronous map
-     * initialization boundary.
-     */
-    const mapContainer = container;
+    const mapStyle = createMapStyle(TOWN_QUIZ_MAP_STYLE);
 
-    let map: maplibregl.Map | null = null;
+    const map = new maplibregl.Map({
+      container,
+      style: mapStyle,
+      center: initialView.center,
+      zoom: initialView.zoom,
+      minZoom: 1.8,
+      attributionControl: false,
+    });
 
-    let isCancelled = false;
+    map.doubleClickZoom.disable();
+
+    map.scrollZoom.setWheelZoomRate(1 / 250);
+
+    mapRef.current = map;
 
     /**
-     * Creates the shared town quiz map after GeoPedia prepares its MapTiler
-     * style.
+     * Finalizes town-map setup once MapLibre's base style has loaded.
+     *
+     * Original visibility is captured before GeoPedia suppresses any labels so
+     * Show Labels can later restore MapTiler's original state faithfully.
      */
-    async function initializeMap(): Promise<void> {
-      /*
-       * Town quizzes always start from GeoPedia's shared MapTiler style.
-       *
-       * Town-specific answer-label suppression is applied after `style.load`.
-       */
-      const mapStyle = createMapStyle(TOWN_QUIZ_MAP_STYLE);
+    function handleStyleLoad(): void {
+      captureBaseLabelVisibility(map, baseLabelVisibility);
 
-      /*
-       * The component may have unmounted while style preparation was underway.
-       */
-      if (isCancelled) {
-        return;
-      }
+      applyTownQuizBaseLabelVisibility(
+        map,
+        baseLabelVisibility,
+        showLabelsRef.current,
+      );
 
-      const createdMap = new maplibregl.Map({
-        container: mapContainer,
-
-        style: mapStyle,
-
-        center: initialView.center,
-
-        zoom: initialView.zoom,
-
-        attributionControl: false,
-      });
-
-      map = createdMap;
-
-      mapRef.current = createdMap;
-
-      /*
-       * Rapid point selection is the primary town-quiz interaction, so prevent
-       * double-click zoom from interpreting quick guesses as navigation.
-       */
-      createdMap.doubleClickZoom.disable();
-
-      /*
-       * Use a slower wheel zoom rate than MapLibre's default so country-scale
-       * town maps remain easier to navigate precisely.
-       */
-      createdMap.scrollZoom.setWheelZoomRate(1 / 300);
-
-      /**
-       * Finalizes town-map setup once the MapTiler style exists.
-       *
-       * Capturing original visibility must happen before GeoPedia hides any
-       * labels; otherwise the snapshot would incorrectly remember the
-       * quiz-modified state as the original MapTiler state.
-       */
-      createdMap.on("style.load", () => {
-        if (isCancelled) {
-          return;
-        }
-
-        /*
-         * Record the untouched MapTiler symbol-layer visibility first.
-         */
-        captureBaseLabelVisibility(createdMap, baseLabelVisibility);
-
-        /*
-         * Apply permanent answer-label suppression and the user's persisted
-         * contextual Show Labels setting.
-         */
-        applyTownQuizBaseLabelVisibility(
-          createdMap,
-          baseLabelVisibility,
-          showLabelsRef.current,
-        );
-
-        /*
-         * Dependent hooks may now safely add GeoPedia town layers.
-         */
-        setIsMapReady(true);
-      });
+      setIsMapReady(true);
     }
 
-    void initializeMap();
+    map.on("style.load", handleStyleLoad);
+
+    map.on("error", (event) => {
+      console.error("MAPLIBRE ERROR:", event.error);
+    });
 
     return () => {
-      isCancelled = true;
-
       setIsMapReady(false);
 
       baseLabelVisibility.clear();
 
       mapRef.current = null;
 
-      map?.remove();
+      map.remove();
     };
-  }, [containerRef, initialView]);
+  }, [containerRef, initialView, showLabelsRef]);
 
   /**
-   * Synchronizes contextual base-map label visibility on an already-loaded map.
+   * Synchronizes contextual base-map label visibility with Show Labels.
    *
-   * Toggling Show Labels modifies MapLibre layer visibility in place and never
-   * recreates the map.
+   * The existing MapLibre instance is updated in place rather than recreated.
    */
   useEffect(() => {
     const map = mapRef.current;

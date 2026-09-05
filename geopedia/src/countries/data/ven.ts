@@ -17,8 +17,8 @@ export const ven: CountryData = {
   region: "South America",
   callingCode: "58",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/ven.svg",
-  imageUrl: "/data/country-images/ven.svg",
+  flagUrl: "/data/global/countries/flags/ven.svg",
+  imageUrl: "/data/global/countries/silhouettes/ven.svg",
   capital: "Caracas",
   population: 28633711,
 };

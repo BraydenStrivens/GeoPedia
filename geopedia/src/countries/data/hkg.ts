@@ -17,8 +17,8 @@ export const hkg: CountryData = {
   region: "Eastern Asia",
   callingCode: "852",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/hkg.svg",
-  imageUrl: "/data/country-images/hkg.svg",
+  flagUrl: "/data/global/countries/flags/hkg.svg",
+  imageUrl: "/data/global/countries/silhouettes/hkg.svg",
   capital: "City of Victoria",
   population: 7498100,
 };

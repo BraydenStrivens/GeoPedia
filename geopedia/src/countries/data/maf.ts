@@ -17,8 +17,8 @@ export const maf: CountryData = {
   region: "Caribbean",
   callingCode: "590",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/maf.svg",
-  imageUrl: "/data/country-images/maf.svg",
+  flagUrl: "/data/global/countries/flags/maf.svg",
+  imageUrl: "/data/global/countries/silhouettes/maf.svg",
   capital: "Marigot",
   population: 38659,
 };

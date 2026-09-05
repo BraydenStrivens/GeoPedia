@@ -13,7 +13,8 @@ import type { MapConfig } from "@/maps/types";
 
 export const worldCountryNamesMap: MapConfig = {
   id: "world-country-names",
-  geojsonUrl: "/data/geojson/world/world-countries.geojson",
+  geojsonUrl:
+    "/data/global/countries/geojson/world-countries.geojson",
 
   featureProperty: "name",
 

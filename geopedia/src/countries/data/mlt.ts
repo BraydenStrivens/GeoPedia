@@ -17,8 +17,8 @@ export const mlt: CountryData = {
   region: "Southern Europe",
   callingCode: "356",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/mlt.svg",
-  imageUrl: "/data/country-images/mlt.svg",
+  flagUrl: "/data/global/countries/flags/mlt.svg",
+  imageUrl: "/data/global/countries/silhouettes/mlt.svg",
   capital: "Valletta",
   population: 588254,
 };

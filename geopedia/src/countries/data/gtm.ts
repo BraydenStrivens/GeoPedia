@@ -17,8 +17,8 @@ export const gtm: CountryData = {
   region: "Central America",
   callingCode: "502",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/gtm.svg",
-  imageUrl: "/data/country-images/gtm.svg",
+  flagUrl: "/data/global/countries/flags/gtm.svg",
+  imageUrl: "/data/global/countries/silhouettes/gtm.svg",
   capital: "Guatemala City",
   population: 18406359,
 };

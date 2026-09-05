@@ -17,8 +17,8 @@ export const plw: CountryData = {
   region: "Micronesia",
   callingCode: "680",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/plw.svg",
-  imageUrl: "/data/country-images/plw.svg",
+  flagUrl: "/data/global/countries/flags/plw.svg",
+  imageUrl: "/data/global/countries/silhouettes/plw.svg",
   capital: "Ngerulmud",
   population: 16733,
 };

@@ -17,8 +17,8 @@ export const tjk: CountryData = {
   region: "Central Asia",
   callingCode: "992",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/tjk.svg",
-  imageUrl: "/data/country-images/tjk.svg",
+  flagUrl: "/data/global/countries/flags/tjk.svg",
+  imageUrl: "/data/global/countries/silhouettes/tjk.svg",
   capital: "Dushanbe",
   population: 10721000,
 };

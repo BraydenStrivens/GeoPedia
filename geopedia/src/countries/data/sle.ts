@@ -17,8 +17,8 @@ export const sle: CountryData = {
   region: "Western Africa",
   callingCode: "232",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/sle.svg",
-  imageUrl: "/data/country-images/sle.svg",
+  flagUrl: "/data/global/countries/flags/sle.svg",
+  imageUrl: "/data/global/countries/silhouettes/sle.svg",
   capital: "Freetown",
   population: 8460512,
 };

@@ -17,8 +17,8 @@ export const hrv: CountryData = {
   region: "Southeast Europe",
   callingCode: "385",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/hrv.svg",
-  imageUrl: "/data/country-images/hrv.svg",
+  flagUrl: "/data/global/countries/flags/hrv.svg",
+  imageUrl: "/data/global/countries/silhouettes/hrv.svg",
   capital: "Zagreb",
   population: 3866233,
 };

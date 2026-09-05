@@ -17,8 +17,8 @@ export const bra: CountryData = {
   region: "South America",
   callingCode: "55",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/bra.svg",
-  imageUrl: "/data/country-images/bra.svg",
+  flagUrl: "/data/global/countries/flags/bra.svg",
+  imageUrl: "/data/global/countries/silhouettes/bra.svg",
   capital: "Brasília",
   population: 213421037,
 };

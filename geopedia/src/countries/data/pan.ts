@@ -17,8 +17,8 @@ export const pan: CountryData = {
   region: "Central America",
   callingCode: "507",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/pan.svg",
-  imageUrl: "/data/country-images/pan.svg",
+  flagUrl: "/data/global/countries/flags/pan.svg",
+  imageUrl: "/data/global/countries/silhouettes/pan.svg",
   capital: "Panama City",
   population: 4064780,
 };

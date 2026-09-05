@@ -17,8 +17,8 @@ export const mdg: CountryData = {
   region: "Eastern Africa",
   callingCode: "261",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/mdg.svg",
-  imageUrl: "/data/country-images/mdg.svg",
+  flagUrl: "/data/global/countries/flags/mdg.svg",
+  imageUrl: "/data/global/countries/silhouettes/mdg.svg",
   capital: "Antananarivo",
   population: 32658977,
 };

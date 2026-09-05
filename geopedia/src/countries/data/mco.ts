@@ -17,8 +17,8 @@ export const mco: CountryData = {
   region: "Western Europe",
   callingCode: "377",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/mco.svg",
-  imageUrl: "/data/country-images/mco.svg",
+  flagUrl: "/data/global/countries/flags/mco.svg",
+  imageUrl: "/data/global/countries/silhouettes/mco.svg",
   capital: "Monaco",
   population: 38857,
 };

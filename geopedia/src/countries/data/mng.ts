@@ -17,8 +17,8 @@ export const mng: CountryData = {
   region: "Eastern Asia",
   callingCode: "976",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/mng.svg",
-  imageUrl: "/data/country-images/mng.svg",
+  flagUrl: "/data/global/countries/flags/mng.svg",
+  imageUrl: "/data/global/countries/silhouettes/mng.svg",
   capital: "Ulan Bator",
   population: 3591120,
 };

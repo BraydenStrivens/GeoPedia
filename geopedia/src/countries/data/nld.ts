@@ -17,8 +17,8 @@ export const nld: CountryData = {
   region: "Western Europe",
   callingCode: "31",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/nld.svg",
-  imageUrl: "/data/country-images/nld.svg",
+  flagUrl: "/data/global/countries/flags/nld.svg",
+  imageUrl: "/data/global/countries/silhouettes/nld.svg",
   capital: "Amsterdam",
   population: 18153386,
 };

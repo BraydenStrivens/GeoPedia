@@ -17,8 +17,8 @@ export const svn: CountryData = {
   region: "Central Europe",
   callingCode: "386",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/svn.svg",
-  imageUrl: "/data/country-images/svn.svg",
+  flagUrl: "/data/global/countries/flags/svn.svg",
+  imageUrl: "/data/global/countries/silhouettes/svn.svg",
   capital: "Ljubljana",
   population: 2136385,
 };

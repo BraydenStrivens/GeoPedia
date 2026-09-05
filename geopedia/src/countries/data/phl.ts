@@ -17,8 +17,8 @@ export const phl: CountryData = {
   region: "South-Eastern Asia",
   callingCode: "63",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/phl.svg",
-  imageUrl: "/data/country-images/phl.svg",
+  flagUrl: "/data/global/countries/flags/phl.svg",
+  imageUrl: "/data/global/countries/silhouettes/phl.svg",
   capital: "Manila",
   population: 114849400,
 };

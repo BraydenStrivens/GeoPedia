@@ -17,8 +17,8 @@ export const hun: CountryData = {
   region: "Central Europe",
   callingCode: "36",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/hun.svg",
-  imageUrl: "/data/country-images/hun.svg",
+  flagUrl: "/data/global/countries/flags/hun.svg",
+  imageUrl: "/data/global/countries/silhouettes/hun.svg",
   capital: "Budapest",
   population: 9488428,
 };

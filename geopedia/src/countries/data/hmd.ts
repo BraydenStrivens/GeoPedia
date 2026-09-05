@@ -17,8 +17,8 @@ export const hmd: CountryData = {
   region: "",
   callingCode: "672",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/hmd.svg",
-  imageUrl: "/data/country-images/hmd.svg",
+  flagUrl: "/data/global/countries/flags/hmd.svg",
+  imageUrl: "/data/global/countries/silhouettes/hmd.svg",
   capital: "",
   population: 0,
 };

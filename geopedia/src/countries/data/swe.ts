@@ -17,8 +17,8 @@ export const swe: CountryData = {
   region: "Northern Europe",
   callingCode: "46",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/swe.svg",
-  imageUrl: "/data/country-images/swe.svg",
+  flagUrl: "/data/global/countries/flags/swe.svg",
+  imageUrl: "/data/global/countries/silhouettes/swe.svg",
   capital: "Stockholm",
   population: 10610483,
 };

@@ -17,8 +17,8 @@ export const ala: CountryData = {
   region: "Northern Europe",
   callingCode: "358",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/ala.svg",
-  imageUrl: "/data/country-images/ala.svg",
+  flagUrl: "/data/global/countries/flags/ala.svg",
+  imageUrl: "/data/global/countries/silhouettes/ala.svg",
   capital: "Mariehamn",
   population: 30654,
 };

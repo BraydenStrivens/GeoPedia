@@ -17,8 +17,8 @@ export const lao: CountryData = {
   region: "South-Eastern Asia",
   callingCode: "856",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/lao.svg",
-  imageUrl: "/data/country-images/lao.svg",
+  flagUrl: "/data/global/countries/flags/lao.svg",
+  imageUrl: "/data/global/countries/silhouettes/lao.svg",
   capital: "Vientiane",
   population: 7745000,
 };

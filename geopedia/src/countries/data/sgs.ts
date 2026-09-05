@@ -17,8 +17,8 @@ export const sgs: CountryData = {
   region: "",
   callingCode: "500",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/sgs.svg",
-  imageUrl: "/data/country-images/sgs.svg",
+  flagUrl: "/data/global/countries/flags/sgs.svg",
+  imageUrl: "/data/global/countries/silhouettes/sgs.svg",
   capital: "King Edward Point",
   population: 32,
 };

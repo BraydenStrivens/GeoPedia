@@ -17,8 +17,8 @@ export const ton: CountryData = {
   region: "Polynesia",
   callingCode: "676",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/ton.svg",
-  imageUrl: "/data/country-images/ton.svg",
+  flagUrl: "/data/global/countries/flags/ton.svg",
+  imageUrl: "/data/global/countries/silhouettes/ton.svg",
   capital: "Nuku'alofa",
   population: 100179,
 };

@@ -17,8 +17,8 @@ export const pyf: CountryData = {
   region: "Polynesia",
   callingCode: "689",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/pyf.svg",
-  imageUrl: "/data/country-images/pyf.svg",
+  flagUrl: "/data/global/countries/flags/pyf.svg",
+  imageUrl: "/data/global/countries/silhouettes/pyf.svg",
   capital: "Papeetē",
   population: 278786,
 };

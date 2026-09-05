@@ -17,8 +17,8 @@ export const ukr: CountryData = {
   region: "Eastern Europe",
   callingCode: "380",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/ukr.svg",
-  imageUrl: "/data/country-images/ukr.svg",
+  flagUrl: "/data/global/countries/flags/ukr.svg",
+  imageUrl: "/data/global/countries/silhouettes/ukr.svg",
   capital: "Kyiv",
   population: 28700000,
 };

@@ -17,8 +17,8 @@ export const nfk: CountryData = {
   region: "Australia and New Zealand",
   callingCode: "672",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/nfk.svg",
-  imageUrl: "/data/country-images/nfk.svg",
+  flagUrl: "/data/global/countries/flags/nfk.svg",
+  imageUrl: "/data/global/countries/silhouettes/nfk.svg",
   capital: "Kingston",
   population: 2188,
 };

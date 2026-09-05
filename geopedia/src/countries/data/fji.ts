@@ -17,8 +17,8 @@ export const fji: CountryData = {
   region: "Melanesia",
   callingCode: "679",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/fji.svg",
-  imageUrl: "/data/country-images/fji.svg",
+  flagUrl: "/data/global/countries/flags/fji.svg",
+  imageUrl: "/data/global/countries/silhouettes/fji.svg",
   capital: "Suva",
   population: 902623,
 };

@@ -17,8 +17,8 @@ export const pri: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/pri.svg",
-  imageUrl: "/data/country-images/pri.svg",
+  flagUrl: "/data/global/countries/flags/pri.svg",
+  imageUrl: "/data/global/countries/silhouettes/pri.svg",
   capital: "San Juan",
   population: 3184195,
 };

@@ -17,8 +17,8 @@ export const ind: CountryData = {
   region: "Southern Asia",
   callingCode: "91",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/ind.svg",
-  imageUrl: "/data/country-images/ind.svg",
+  flagUrl: "/data/global/countries/flags/ind.svg",
+  imageUrl: "/data/global/countries/silhouettes/ind.svg",
   capital: "New Delhi",
   population: 1429404000,
 };

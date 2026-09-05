@@ -17,8 +17,8 @@ export const nga: CountryData = {
   region: "Western Africa",
   callingCode: "234",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/nga.svg",
-  imageUrl: "/data/country-images/nga.svg",
+  flagUrl: "/data/global/countries/flags/nga.svg",
+  imageUrl: "/data/global/countries/silhouettes/nga.svg",
   capital: "Abuja",
   population: 223800000,
 };

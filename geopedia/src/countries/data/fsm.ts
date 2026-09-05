@@ -17,8 +17,8 @@ export const fsm: CountryData = {
   region: "Micronesia",
   callingCode: "691",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/fsm.svg",
-  imageUrl: "/data/country-images/fsm.svg",
+  flagUrl: "/data/global/countries/flags/fsm.svg",
+  imageUrl: "/data/global/countries/silhouettes/fsm.svg",
   capital: "Palikir",
   population: 75817,
 };

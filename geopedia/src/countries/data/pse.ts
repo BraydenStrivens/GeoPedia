@@ -17,8 +17,8 @@ export const pse: CountryData = {
   region: "Western Asia",
   callingCode: "970",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/pse.svg",
-  imageUrl: "/data/country-images/pse.svg",
+  flagUrl: "/data/global/countries/flags/pse.svg",
+  imageUrl: "/data/global/countries/silhouettes/pse.svg",
   capital: "Ramallah, Jerusalem",
   population: 5557096,
 };

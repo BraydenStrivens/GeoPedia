@@ -17,8 +17,8 @@ export const khm: CountryData = {
   region: "South-Eastern Asia",
   callingCode: "855",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/khm.svg",
-  imageUrl: "/data/country-images/khm.svg",
+  flagUrl: "/data/global/countries/flags/khm.svg",
+  imageUrl: "/data/global/countries/silhouettes/khm.svg",
   capital: "Phnom Penh",
   population: 17816143,
 };

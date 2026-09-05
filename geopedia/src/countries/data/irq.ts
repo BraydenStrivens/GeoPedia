@@ -17,8 +17,8 @@ export const irq: CountryData = {
   region: "Western Asia",
   callingCode: "964",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/irq.svg",
-  imageUrl: "/data/country-images/irq.svg",
+  flagUrl: "/data/global/countries/flags/irq.svg",
+  imageUrl: "/data/global/countries/silhouettes/irq.svg",
   capital: "Baghdad",
   population: 46118793,
 };

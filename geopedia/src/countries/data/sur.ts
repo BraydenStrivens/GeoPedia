@@ -17,8 +17,8 @@ export const sur: CountryData = {
   region: "South America",
   callingCode: "597",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/sur.svg",
-  imageUrl: "/data/country-images/sur.svg",
+  flagUrl: "/data/global/countries/flags/sur.svg",
+  imageUrl: "/data/global/countries/silhouettes/sur.svg",
   capital: "Paramaribo",
   population: 616500,
 };

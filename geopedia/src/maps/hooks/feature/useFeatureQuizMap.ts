@@ -1,21 +1,19 @@
 /**
- * Owns the lifecycle of a GeoPedia MapLibre map instance.
+ * Owns the lifecycle of a GeoPedia feature-quiz MapLibre map instance.
  *
- * This hook contains only behavior shared by GeoPedia's different map
- * experiences. It is responsible for:
+ * This hook is responsible for the MapLibre lifecycle and initialization
+ * behavior shared by GeoPedia's feature-based quiz maps:
  *
  * - Creating the base MapLibre map.
  * - Waiting for the base style to become available.
- * - Adding GeoPedia's geographic source and custom layers.
+ * - Adding GeoPedia's geographic feature source and custom layers.
  * - Configuring MapTiler place-name labels.
  * - Applying initial map-display settings.
- * - Tracking when GeoPedia's geographic source has finished loading.
+ * - Tracking when GeoPedia's geographic feature source has finished loading.
  * - Destroying the MapLibre instance during cleanup.
  *
- * Interaction behavior is intentionally not registered here.
- *
- * Quiz maps and the world-navigation map use different interaction systems,
- * which are installed independently after this hook reports the map ready.
+ * Feature interaction behavior is intentionally registered separately after
+ * this hook reports the map ready.
  */
 
 "use client";
@@ -51,7 +49,7 @@ type UseFeatureQuizMapParams = {
 };
 
 /**
- * Result returned by `useMap`.
+ * Result returned by `useFeatureQuizMap`.
  */
 type UseFeatureQuizMapResult = {
   /** MapLibre instance, or `null` before creation and after cleanup. */
@@ -146,8 +144,7 @@ export function useFeatureQuizMap({
   showLabelsRef,
 }: UseFeatureQuizMapParams): UseFeatureQuizMapResult {
   /**
-   * Stores the MapLibre instance without causing React renders when the map
-   * object itself changes.
+   * Stores the imperative MapLibre instance without placing it in React state.
    */
   const mapRef = useRef<maplibregl.Map | null>(null);
 
@@ -192,15 +189,15 @@ export function useFeatureQuizMap({
       style: mapStyle,
       center: initialView.center,
       zoom: initialView.zoom,
+      minZoom: 1.8,
       attributionControl: false,
     });
-
     /*
      * GeoPedia's map experiences use direct single-feature selection heavily,
      * so disable MapLibre's default double-click-to-zoom interaction.
      */
     map.doubleClickZoom.disable();
-    map.scrollZoom.setWheelZoomRate(1 / 300);
+    map.scrollZoom.setWheelZoomRate(1 / 250);
 
     mapRef.current = map;
 

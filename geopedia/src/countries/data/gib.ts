@@ -17,8 +17,8 @@ export const gib: CountryData = {
   region: "Southern Europe",
   callingCode: "350",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/gib.svg",
-  imageUrl: "/data/country-images/gib.svg",
+  flagUrl: "/data/global/countries/flags/gib.svg",
+  imageUrl: "/data/global/countries/silhouettes/gib.svg",
   capital: "Gibraltar",
   population: 38196,
 };

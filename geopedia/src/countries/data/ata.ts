@@ -17,8 +17,8 @@ export const ata: CountryData = {
   region: "",
   callingCode: "672",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/ata.svg",
-  imageUrl: "/data/country-images/ata.svg",
+  flagUrl: "/data/global/countries/flags/ata.svg",
+  imageUrl: "/data/global/countries/silhouettes/ata.svg",
   capital: "",
   population: 1300,
 };

@@ -17,8 +17,8 @@ export const bel: CountryData = {
   region: "Western Europe",
   callingCode: "32",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/bel.svg",
-  imageUrl: "/data/country-images/bel.svg",
+  flagUrl: "/data/global/countries/flags/bel.svg",
+  imageUrl: "/data/global/countries/silhouettes/bel.svg",
   capital: "Brussels",
   population: 11936546,
 };

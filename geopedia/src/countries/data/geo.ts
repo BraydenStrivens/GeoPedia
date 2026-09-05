@@ -17,8 +17,8 @@ export const geo: CountryData = {
   region: "Western Asia",
   callingCode: "995",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/geo.svg",
-  imageUrl: "/data/country-images/geo.svg",
+  flagUrl: "/data/global/countries/flags/geo.svg",
+  imageUrl: "/data/global/countries/silhouettes/geo.svg",
   capital: "Tbilisi",
   population: 3657000,
 };

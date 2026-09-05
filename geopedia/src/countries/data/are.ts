@@ -17,8 +17,8 @@ export const are: CountryData = {
   region: "Western Asia",
   callingCode: "971",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/are.svg",
-  imageUrl: "/data/country-images/are.svg",
+  flagUrl: "/data/global/countries/flags/are.svg",
+  imageUrl: "/data/global/countries/silhouettes/are.svg",
   capital: "Abu Dhabi",
   population: 11027129,
 };

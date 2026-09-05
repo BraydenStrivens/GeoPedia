@@ -17,8 +17,8 @@ export const lbr: CountryData = {
   region: "Western Africa",
   callingCode: "231",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/lbr.svg",
-  imageUrl: "/data/country-images/lbr.svg",
+  flagUrl: "/data/global/countries/flags/lbr.svg",
+  imageUrl: "/data/global/countries/silhouettes/lbr.svg",
   capital: "Monrovia",
   population: 5248621,
 };

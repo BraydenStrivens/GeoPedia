@@ -17,8 +17,8 @@ export const srb: CountryData = {
   region: "Southeast Europe",
   callingCode: "381",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/srb.svg",
-  imageUrl: "/data/country-images/srb.svg",
+  flagUrl: "/data/global/countries/flags/srb.svg",
+  imageUrl: "/data/global/countries/silhouettes/srb.svg",
   capital: "Belgrade",
   population: 6532019,
 };

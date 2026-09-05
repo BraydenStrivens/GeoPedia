@@ -12,8 +12,8 @@ import { useEffect } from "react";
 
 import { createFeatureColorExpression } from "@/maps/colors/createFeatureColorExpression";
 import type { MapConfig } from "@/maps/types";
+import type { FeatureQuizSettings } from "@/types/featureQuizSettings";
 import type { AnswerStatus, FeatureQuiz } from "@/types/quiz";
-import type { QuizSettings } from "@/types/featureQuizSettings";
 
 /**
  * Values required to synchronize quiz-result feature coloring.
@@ -32,7 +32,7 @@ type UseFeatureQuizColorsParams = {
   mapConfig: MapConfig;
 
   /** User-configurable quiz presentation settings. */
-  quizSettings?: QuizSettings;
+  quizSettings?: FeatureQuizSettings;
 
   /** Completed quiz results keyed by answer value. */
   answerStatuses: Record<string, AnswerStatus>;

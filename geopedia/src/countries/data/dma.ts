@@ -17,8 +17,8 @@ export const dma: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/dma.svg",
-  imageUrl: "/data/country-images/dma.svg",
+  flagUrl: "/data/global/countries/flags/dma.svg",
+  imageUrl: "/data/global/countries/silhouettes/dma.svg",
   capital: "Roseau",
   population: 65514,
 };

@@ -17,8 +17,8 @@ export const uzb: CountryData = {
   region: "Central Asia",
   callingCode: "998",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/uzb.svg",
-  imageUrl: "/data/country-images/uzb.svg",
+  flagUrl: "/data/global/countries/flags/uzb.svg",
+  imageUrl: "/data/global/countries/silhouettes/uzb.svg",
   capital: "Tashkent",
   population: 39047321,
 };

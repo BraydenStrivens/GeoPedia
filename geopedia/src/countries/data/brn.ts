@@ -17,8 +17,8 @@ export const brn: CountryData = {
   region: "South-Eastern Asia",
   callingCode: "673",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/brn.svg",
-  imageUrl: "/data/country-images/brn.svg",
+  flagUrl: "/data/global/countries/flags/brn.svg",
+  imageUrl: "/data/global/countries/silhouettes/brn.svg",
   capital: "Bandar Seri Begawan",
   population: 458600,
 };

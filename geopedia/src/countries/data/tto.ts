@@ -17,8 +17,8 @@ export const tto: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/tto.svg",
-  imageUrl: "/data/country-images/tto.svg",
+  flagUrl: "/data/global/countries/flags/tto.svg",
+  imageUrl: "/data/global/countries/silhouettes/tto.svg",
   capital: "Port of Spain",
   population: 1512779,
 };

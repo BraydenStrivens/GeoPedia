@@ -17,8 +17,8 @@ export const zwe: CountryData = {
   region: "Southern Africa",
   callingCode: "263",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/zwe.svg",
-  imageUrl: "/data/country-images/zwe.svg",
+  flagUrl: "/data/global/countries/flags/zwe.svg",
+  imageUrl: "/data/global/countries/silhouettes/zwe.svg",
   capital: "Harare",
   population: 17073087,
 };

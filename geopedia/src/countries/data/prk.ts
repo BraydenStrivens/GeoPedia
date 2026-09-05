@@ -17,8 +17,8 @@ export const prk: CountryData = {
   region: "Eastern Asia",
   callingCode: "850",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/prk.svg",
-  imageUrl: "/data/country-images/prk.svg",
+  flagUrl: "/data/global/countries/flags/prk.svg",
+  imageUrl: "/data/global/countries/silhouettes/prk.svg",
   capital: "Pyongyang",
   population: 25950000,
 };

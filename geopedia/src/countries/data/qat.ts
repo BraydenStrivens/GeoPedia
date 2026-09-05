@@ -17,8 +17,8 @@ export const qat: CountryData = {
   region: "Western Asia",
   callingCode: "974",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/qat.svg",
-  imageUrl: "/data/country-images/qat.svg",
+  flagUrl: "/data/global/countries/flags/qat.svg",
+  imageUrl: "/data/global/countries/silhouettes/qat.svg",
   capital: "Doha",
   population: 3370611,
 };

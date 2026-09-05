@@ -17,8 +17,8 @@ export const flk: CountryData = {
   region: "South America",
   callingCode: "500",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/flk.svg",
-  imageUrl: "/data/country-images/flk.svg",
+  flagUrl: "/data/global/countries/flags/flk.svg",
+  imageUrl: "/data/global/countries/silhouettes/flk.svg",
   capital: "Stanley",
   population: 3662,
 };

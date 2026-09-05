@@ -17,8 +17,8 @@ export const zmb: CountryData = {
   region: "Eastern Africa",
   callingCode: "260",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/zmb.svg",
-  imageUrl: "/data/country-images/zmb.svg",
+  flagUrl: "/data/global/countries/flags/zmb.svg",
+  imageUrl: "/data/global/countries/silhouettes/zmb.svg",
   capital: "Lusaka",
   population: 23003214,
 };

@@ -17,8 +17,8 @@ export const som: CountryData = {
   region: "Eastern Africa",
   callingCode: "252",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/som.svg",
-  imageUrl: "/data/country-images/som.svg",
+  flagUrl: "/data/global/countries/flags/som.svg",
+  imageUrl: "/data/global/countries/silhouettes/som.svg",
   capital: "Mogadishu",
   population: 20305907,
 };

@@ -17,8 +17,8 @@ export const sen: CountryData = {
   region: "Western Africa",
   callingCode: "221",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/sen.svg",
-  imageUrl: "/data/country-images/sen.svg",
+  flagUrl: "/data/global/countries/flags/sen.svg",
+  imageUrl: "/data/global/countries/silhouettes/sen.svg",
   capital: "Dakar",
   population: 19575061,
 };

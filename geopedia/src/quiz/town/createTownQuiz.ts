@@ -48,7 +48,26 @@ export function createTownQuiz({
   return {
     id: `${countryId}-towns`,
     name: `${countryName} Towns`,
+    description: createTownQuizDescription(countryName, towns.length),
     kind: "town",
     towns,
   };
+}
+
+/**
+ * Creates the user-facing description for a country's town quiz.
+ *
+ * Town quizzes share the same gameplay and filtering behavior across countries,
+ * so their descriptions can be generated from the country name and total number
+ * of available towns rather than stored separately for every country.
+ *
+ * @param countryName - User-facing name of the country.
+ * @param townCount - Total number of towns available in the quiz.
+ * @returns Description displayed in the country's quiz listing.
+ */
+function createTownQuizDescription(
+  countryName: string,
+  townCount: number,
+): string {
+  return `Learn ${townCount} towns across ${countryName}, with filtering options to practice any desired subset.`;
 }

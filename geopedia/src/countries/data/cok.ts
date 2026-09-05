@@ -17,8 +17,8 @@ export const cok: CountryData = {
   region: "Polynesia",
   callingCode: "682",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/cok.svg",
-  imageUrl: "/data/country-images/cok.svg",
+  flagUrl: "/data/global/countries/flags/cok.svg",
+  imageUrl: "/data/global/countries/silhouettes/cok.svg",
   capital: "Avarua",
   population: 15040,
 };

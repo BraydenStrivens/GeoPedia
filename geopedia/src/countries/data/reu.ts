@@ -1,5 +1,5 @@
 import type { CountryData } from "@/types/country";
-
+  
 /**
  * Static country metadata for Réunion.
  *
@@ -12,13 +12,13 @@ import type { CountryData } from "@/types/country";
 export const reu: CountryData = {
   id: "reu",
   name: "Réunion",
-  officialName: "Réunion",
+  officialName: "Réunion Island",
   continent: "Africa",
   region: "Eastern Africa",
   callingCode: "262",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/reu.svg",
-  imageUrl: "/data/country-images/reu.svg",
+  flagUrl: "/data/global/countries/flags/reu.svg",
+  imageUrl: "/data/global/countries/silhouettes/reu.svg",
   capital: "Saint-Denis",
-  population: 885700,
+  population: 840974,
 };

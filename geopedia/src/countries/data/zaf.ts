@@ -17,8 +17,8 @@ export const zaf: CountryData = {
   region: "Southern Africa",
   callingCode: "27",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/zaf.svg",
-  imageUrl: "/data/country-images/zaf.svg",
+  flagUrl: "/data/global/countries/flags/zaf.svg",
+  imageUrl: "/data/global/countries/silhouettes/zaf.svg",
   capital: "Pretoria, Cape Town, Bloemfontein",
   population: 63015904,
 };

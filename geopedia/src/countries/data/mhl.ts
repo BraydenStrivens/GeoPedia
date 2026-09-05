@@ -17,8 +17,8 @@ export const mhl: CountryData = {
   region: "Micronesia",
   callingCode: "692",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/mhl.svg",
-  imageUrl: "/data/country-images/mhl.svg",
+  flagUrl: "/data/global/countries/flags/mhl.svg",
+  imageUrl: "/data/global/countries/silhouettes/mhl.svg",
   capital: "Majuro",
   population: 37548,
 };

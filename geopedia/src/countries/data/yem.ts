@@ -17,8 +17,8 @@ export const yem: CountryData = {
   region: "Western Asia",
   callingCode: "967",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/yem.svg",
-  imageUrl: "/data/country-images/yem.svg",
+  flagUrl: "/data/global/countries/flags/yem.svg",
+  imageUrl: "/data/global/countries/silhouettes/yem.svg",
   capital: "Sana'a",
   population: 32684503,
 };

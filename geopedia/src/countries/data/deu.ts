@@ -17,8 +17,8 @@ export const deu: CountryData = {
   region: "Western Europe",
   callingCode: "49",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/deu.svg",
-  imageUrl: "/data/country-images/deu.svg",
+  flagUrl: "/data/global/countries/flags/deu.svg",
+  imageUrl: "/data/global/countries/silhouettes/deu.svg",
   capital: "Berlin",
   population: 83467117,
 };

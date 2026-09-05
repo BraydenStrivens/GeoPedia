@@ -17,8 +17,8 @@ export const arm: CountryData = {
   region: "Western Asia",
   callingCode: "374",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/arm.svg",
-  imageUrl: "/data/country-images/arm.svg",
+  flagUrl: "/data/global/countries/flags/arm.svg",
+  imageUrl: "/data/global/countries/silhouettes/arm.svg",
   capital: "Yerevan",
   population: 3096900,
 };

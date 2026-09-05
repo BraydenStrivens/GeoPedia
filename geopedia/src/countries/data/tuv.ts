@@ -17,8 +17,8 @@ export const tuv: CountryData = {
   region: "Polynesia",
   callingCode: "688",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/tuv.svg",
-  imageUrl: "/data/country-images/tuv.svg",
+  flagUrl: "/data/global/countries/flags/tuv.svg",
+  imageUrl: "/data/global/countries/silhouettes/tuv.svg",
   capital: "Funafuti",
   population: 10643,
 };

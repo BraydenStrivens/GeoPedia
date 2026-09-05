@@ -17,8 +17,8 @@ export const mar: CountryData = {
   region: "Northern Africa",
   callingCode: "212",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/mar.svg",
-  imageUrl: "/data/country-images/mar.svg",
+  flagUrl: "/data/global/countries/flags/mar.svg",
+  imageUrl: "/data/global/countries/silhouettes/mar.svg",
   capital: "Rabat",
   population: 37254695,
 };

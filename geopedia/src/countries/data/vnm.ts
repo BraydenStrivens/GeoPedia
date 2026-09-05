@@ -17,8 +17,8 @@ export const vnm: CountryData = {
   region: "South-Eastern Asia",
   callingCode: "84",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/vnm.svg",
-  imageUrl: "/data/country-images/vnm.svg",
+  flagUrl: "/data/global/countries/flags/vnm.svg",
+  imageUrl: "/data/global/countries/silhouettes/vnm.svg",
   capital: "Hanoi",
   population: 102300000,
 };

@@ -17,8 +17,8 @@ export const slv: CountryData = {
   region: "Central America",
   callingCode: "503",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/slv.svg",
-  imageUrl: "/data/country-images/slv.svg",
+  flagUrl: "/data/global/countries/flags/slv.svg",
+  imageUrl: "/data/global/countries/silhouettes/slv.svg",
   capital: "San Salvador",
   population: 6029976,
 };

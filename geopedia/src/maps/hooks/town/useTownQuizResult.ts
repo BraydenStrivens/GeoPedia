@@ -1,27 +1,31 @@
 /**
  * Renders the most recent town-quiz guess result on a MapLibre map.
  *
- * Town quiz feedback consists of three visual elements:
+ * Result feedback consists of:
  *
  * - A marker at the user's guessed location.
- * - A solid-green marker at the correct town location.
- * - A line connecting the guess to the correct location.
+ * - A line connecting the guess to the correct town.
+ *
+ * The correct town itself is revealed and highlighted by `useTownQuizLabels`,
+ * which owns GeoPedia's quiz-town markers and labels.
  *
  * The guess marker color reflects the score earned by the guess. A zero-percent
- * score is red, a perfect score is green, and partial scores interpolate between
- * those endpoints.
+ * score is red, a perfect score is green, and partial scores interpolate
+ * between those endpoints.
  *
  * The connecting line starts with the same score-derived color at the guessed
- * location and transitions to solid green at the correct location.
+ * location and transitions to solid green at the correct town.
  *
  * Only the most recent result is displayed. Whenever `lastResult` changes, the
- * existing source data and colors are replaced. When `lastResult` becomes null,
- * all result geometry is cleared.
+ * existing source data and colors are replaced. Clearing `lastResult` removes
+ * the visible result geometry while leaving reusable sources and layers
+ * attached to the map.
  */
 
 "use client";
 
 import * as maplibregl from "maplibre-gl";
+import type { RefObject } from "react";
 import { useEffect } from "react";
 
 import type { TownQuizGuessResult } from "@/quiz/hooks/useTownQuiz";
@@ -29,46 +33,39 @@ import type { TownQuizGuessResult } from "@/quiz/hooks/useTownQuiz";
 import { TOWN_QUIZ_MARKER_LAYER_ID } from "./useTownQuizLabels";
 
 /**
- * Properties consumed by the result-rendering hook.
+ * Parameters required to synchronize town quiz result feedback.
  */
-type UseTownQuizResultOptions = {
-  /** MapLibre map owned by the town quiz map. */
-  mapRef: React.RefObject<maplibregl.Map | null>;
+type UseTownQuizResultParams = {
+  /** MapLibre instance owned by the town-map lifecycle hook. */
+  mapRef: RefObject<maplibregl.Map | null>;
 
-  /** Whether the map's initial style has finished loading. */
+  /** Whether the map is ready for runtime source and layer operations. */
   isMapReady: boolean;
 
-  /** Most recently answered town, or null when no result should be visible. */
+  /** Most recent answered-town result, or `undefined` when none is visible. */
   lastResult: TownQuizGuessResult | undefined;
 };
 
-/** GeoJSON source containing the connecting result line. */
+/** GeoJSON source containing the line from the guess to the correct town. */
 const RESULT_LINE_SOURCE_ID = "town-quiz-result-line-source";
 
-/** MapLibre layer displaying the connecting result line. */
+/** MapLibre layer displaying the result line. */
 const RESULT_LINE_LAYER_ID = "town-quiz-result-line";
 
-/** GeoJSON source containing the guessed location. */
+/** GeoJSON source containing the user's guessed location. */
 const GUESS_MARKER_SOURCE_ID = "town-quiz-guess-marker-source";
 
-/** MapLibre layer displaying the guessed location. */
+/** MapLibre layer displaying the user's guessed location. */
 const GUESS_MARKER_LAYER_ID = "town-quiz-guess-marker";
 
-/** GeoJSON source containing the correct town location. */
-const TARGET_MARKER_SOURCE_ID = "town-quiz-target-marker-source";
-
-/**
- * Color representing a completely incorrect guess.
- */
+/** Color representing a completely incorrect guess. */
 const INCORRECT_COLOR = {
   red: 220,
   green: 38,
   blue: 38,
 };
 
-/**
- * Color representing a perfect guess and the correct target location.
- */
+/** Color representing a perfect guess and the correct town. */
 const CORRECT_COLOR = {
   red: 22,
   green: 163,
@@ -76,20 +73,17 @@ const CORRECT_COLOR = {
 };
 
 /**
- * Clamps a score to the valid normalized range.
+ * Clamps a normalized score to the valid range.
  */
 function clampScore(score: number): number {
   return Math.min(Math.max(score, 0), 1);
 }
 
 /**
- * Converts a normalized quiz score into an RGB color between red and green.
+ * Converts a normalized quiz score into a color between red and green.
  *
- * A score of 0 returns the incorrect color. A score of 1 returns the correct
- * color. Scores in between linearly interpolate each RGB channel.
- *
- * @param score - Normalized quiz score.
- * @returns CSS rgb() color string.
+ * @param score - Normalized quiz score from 0 to 1.
+ * @returns CSS RGB color string.
  */
 function getScoreColor(score: number): string {
   const normalizedScore = clampScore(score);
@@ -113,14 +107,14 @@ function getScoreColor(score: number): string {
 }
 
 /**
- * Returns the fixed target color.
+ * Returns the fixed color representing the correct town.
  */
-function getTargetColor(): string {
+function getCorrectColor(): string {
   return `rgb(${CORRECT_COLOR.red}, ${CORRECT_COLOR.green}, ${CORRECT_COLOR.blue})`;
 }
 
 /**
- * Creates empty GeoJSON suitable for a line source.
+ * Creates empty GeoJSON suitable for the result-line source.
  */
 function createEmptyLineData(): GeoJSON.FeatureCollection<GeoJSON.LineString> {
   return {
@@ -130,7 +124,7 @@ function createEmptyLineData(): GeoJSON.FeatureCollection<GeoJSON.LineString> {
 }
 
 /**
- * Creates empty GeoJSON suitable for a point source.
+ * Creates empty GeoJSON suitable for the guess-marker source.
  */
 function createEmptyPointData(): GeoJSON.FeatureCollection<GeoJSON.Point> {
   return {
@@ -140,7 +134,7 @@ function createEmptyPointData(): GeoJSON.FeatureCollection<GeoJSON.Point> {
 }
 
 /**
- * Creates the GeoJSON connecting one guessed location to the correct town.
+ * Creates the line connecting the user's guess to the correct town.
  *
  * @param result - Most recent town quiz result.
  * @returns One-feature line collection.
@@ -154,7 +148,6 @@ function createResultLineData(
     features: [
       {
         type: "Feature",
-
         properties: {},
 
         geometry: {
@@ -171,7 +164,10 @@ function createResultLineData(
 }
 
 /**
- * Creates GeoJSON containing the user's guess.
+ * Creates the point representing the user's guessed location.
+ *
+ * @param result - Most recent town quiz result.
+ * @returns One-feature point collection.
  */
 function createGuessMarkerData(
   result: TownQuizGuessResult,
@@ -182,7 +178,6 @@ function createGuessMarkerData(
     features: [
       {
         type: "Feature",
-
         properties: {},
 
         geometry: {
@@ -199,32 +194,10 @@ function createGuessMarkerData(
 }
 
 /**
- * Creates GeoJSON containing the correct town location.
- */
-function createTargetMarkerData(
-  result: TownQuizGuessResult,
-): GeoJSON.FeatureCollection<GeoJSON.Point> {
-  return {
-    type: "FeatureCollection",
-
-    features: [
-      {
-        type: "Feature",
-
-        properties: {},
-
-        geometry: {
-          type: "Point",
-
-          coordinates: [result.town.longitude, result.town.latitude],
-        },
-      },
-    ],
-  };
-}
-
-/**
- * Returns a GeoJSON source with the expected MapLibre type.
+ * Returns a GeoJSON source with its MapLibre-specific source type.
+ *
+ * @param map - Map containing the source.
+ * @param sourceId - MapLibre source identifier.
  */
 function getGeoJsonSource(
   map: maplibregl.Map,
@@ -240,55 +213,59 @@ function getGeoJsonSource(
 }
 
 /**
- * Adds the result sources and layers if they do not already exist.
+ * Creates the result sources and layers when they do not already exist.
  *
- * The line source uses `lineMetrics: true`, which is required by MapLibre's
- * `line-gradient` paint property.
+ * The result line uses `lineMetrics: true`, which MapLibre requires for
+ * `line-gradient`.
+ *
+ * When the quiz-town marker layer already exists, the result line is inserted
+ * beneath it so the correct-town marker remains visually above the line.
+ *
+ * @param map - Active town quiz map.
  */
 function ensureResultLayers(map: maplibregl.Map): void {
   if (!map.getSource(RESULT_LINE_SOURCE_ID)) {
     map.addSource(RESULT_LINE_SOURCE_ID, {
       type: "geojson",
-
       data: createEmptyLineData(),
-
       lineMetrics: true,
     });
   }
 
   if (!map.getLayer(RESULT_LINE_LAYER_ID)) {
-    map.addLayer(
-      {
-        id: RESULT_LINE_LAYER_ID,
+    const resultLineLayer: maplibregl.LineLayerSpecification = {
+      id: RESULT_LINE_LAYER_ID,
 
-        type: "line",
+      type: "line",
 
-        source: RESULT_LINE_SOURCE_ID,
+      source: RESULT_LINE_SOURCE_ID,
 
-        paint: {
-          "line-width": 4,
-          "line-opacity": 0.9,
-          "line-gradient": [
-            "interpolate",
-            ["linear"],
-            ["line-progress"],
+      paint: {
+        "line-width": 4,
+        "line-opacity": 0.9,
 
-            0,
-            getScoreColor(0),
-
-            1,
-            getTargetColor(),
-          ],
-        },
+        "line-gradient": [
+          "interpolate",
+          ["linear"],
+          ["line-progress"],
+          0,
+          getScoreColor(0),
+          1,
+          getCorrectColor(),
+        ],
       },
-      TOWN_QUIZ_MARKER_LAYER_ID,
-    );
+    };
+
+    const beforeLayerId = map.getLayer(TOWN_QUIZ_MARKER_LAYER_ID)
+      ? TOWN_QUIZ_MARKER_LAYER_ID
+      : undefined;
+
+    map.addLayer(resultLineLayer, beforeLayerId);
   }
 
   if (!map.getSource(GUESS_MARKER_SOURCE_ID)) {
     map.addSource(GUESS_MARKER_SOURCE_ID, {
       type: "geojson",
-
       data: createEmptyPointData(),
     });
   }
@@ -309,19 +286,13 @@ function ensureResultLayers(map: maplibregl.Map): void {
       },
     });
   }
-
-  if (!map.getSource(TARGET_MARKER_SOURCE_ID)) {
-    map.addSource(TARGET_MARKER_SOURCE_ID, {
-      type: "geojson",
-
-      data: createEmptyPointData(),
-    });
-  }
 }
 
 /**
- * Removes all visible result geometry while leaving reusable sources and layers
+ * Clears visible result geometry while leaving reusable sources and layers
  * attached to the map.
+ *
+ * @param map - Active town quiz map.
  */
 function clearResult(map: maplibregl.Map): void {
   getGeoJsonSource(map, RESULT_LINE_SOURCE_ID)?.setData(
@@ -331,14 +302,13 @@ function clearResult(map: maplibregl.Map): void {
   getGeoJsonSource(map, GUESS_MARKER_SOURCE_ID)?.setData(
     createEmptyPointData(),
   );
-
-  getGeoJsonSource(map, TARGET_MARKER_SOURCE_ID)?.setData(
-    createEmptyPointData(),
-  );
 }
 
 /**
- * Updates all result geometry and score-aware colors.
+ * Displays the latest result geometry and score-aware colors.
+ *
+ * @param map - Active town quiz map.
+ * @param result - Most recent town quiz result.
  */
 function showResult(
   map: maplibregl.Map,
@@ -354,10 +324,6 @@ function showResult(
     createGuessMarkerData(result),
   );
 
-  getGeoJsonSource(map, TARGET_MARKER_SOURCE_ID)?.setData(
-    createTargetMarkerData(result),
-  );
-
   map.setPaintProperty(
     GUESS_MARKER_LAYER_ID,
     "circle-color",
@@ -368,35 +334,30 @@ function showResult(
     "interpolate",
     ["linear"],
     ["line-progress"],
-
     0,
     guessColor,
-
     1,
-    getTargetColor(),
+    getCorrectColor(),
   ]);
 }
 
 /**
  * Synchronizes the latest town quiz result with MapLibre.
  *
- * A new answer immediately replaces the previous result. Skip does not change
- * `lastResult`, so the previous result naturally remains visible. Stop and
- * restart clear `lastResult`, causing the visualization to disappear.
+ * A new answer immediately replaces the previous result. Skip leaves
+ * `lastResult` unchanged, so the previous visualization remains visible.
+ * Stopping or restarting the quiz clears `lastResult`, which removes the
+ * visualization.
  */
 export function useTownQuizResult({
   mapRef,
   isMapReady,
   lastResult,
-}: UseTownQuizResultOptions): void {
+}: UseTownQuizResultParams): void {
   useEffect(() => {
-    if (!isMapReady) {
-      return;
-    }
-
     const map = mapRef.current;
 
-    if (!map) {
+    if (!map || !isMapReady) {
       return;
     }
 

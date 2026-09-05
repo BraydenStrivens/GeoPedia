@@ -17,8 +17,8 @@ export const che: CountryData = {
   region: "Western Europe",
   callingCode: "41",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/che.svg",
-  imageUrl: "/data/country-images/che.svg",
+  flagUrl: "/data/global/countries/flags/che.svg",
+  imageUrl: "/data/global/countries/silhouettes/che.svg",
   capital: "Bern",
   population: 9139676,
 };

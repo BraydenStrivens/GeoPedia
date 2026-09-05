@@ -17,8 +17,8 @@ export const tun: CountryData = {
   region: "Northern Africa",
   callingCode: "216",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/tun.svg",
-  imageUrl: "/data/country-images/tun.svg",
+  flagUrl: "/data/global/countries/flags/tun.svg",
+  imageUrl: "/data/global/countries/silhouettes/tun.svg",
   capital: "Tunis",
   population: 11992843,
 };

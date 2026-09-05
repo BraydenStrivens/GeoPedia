@@ -17,8 +17,8 @@ export const cri: CountryData = {
   region: "Central America",
   callingCode: "506",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/cri.svg",
-  imageUrl: "/data/country-images/cri.svg",
+  flagUrl: "/data/global/countries/flags/cri.svg",
+  imageUrl: "/data/global/countries/silhouettes/cri.svg",
   capital: "San José",
   population: 5160700,
 };

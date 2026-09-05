@@ -17,8 +17,8 @@ export const smr: CountryData = {
   region: "Southern Europe",
   callingCode: "378",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/smr.svg",
-  imageUrl: "/data/country-images/smr.svg",
+  flagUrl: "/data/global/countries/flags/smr.svg",
+  imageUrl: "/data/global/countries/silhouettes/smr.svg",
   capital: "City of San Marino",
   population: 34172,
 };

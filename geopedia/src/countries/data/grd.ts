@@ -17,8 +17,8 @@ export const grd: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/grd.svg",
-  imageUrl: "/data/country-images/grd.svg",
+  flagUrl: "/data/global/countries/flags/grd.svg",
+  imageUrl: "/data/global/countries/silhouettes/grd.svg",
   capital: "St. George's",
   population: 109021,
 };

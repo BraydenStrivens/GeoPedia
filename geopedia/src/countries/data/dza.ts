@@ -17,8 +17,8 @@ export const dza: CountryData = {
   region: "Northern Africa",
   callingCode: "213",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/dza.svg",
-  imageUrl: "/data/country-images/dza.svg",
+  flagUrl: "/data/global/countries/flags/dza.svg",
+  imageUrl: "/data/global/countries/silhouettes/dza.svg",
   capital: "Algiers",
   population: 47400000,
 };

@@ -17,8 +17,8 @@ export const xkx: CountryData = {
   region: "Southeast Europe",
   callingCode: "383",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/xkx.svg",
-  imageUrl: "/data/country-images/xkx.svg",
+  flagUrl: "/data/global/countries/flags/xkx.svg",
+  imageUrl: "/data/global/countries/silhouettes/xkx.svg",
   capital: "Pristina",
   population: 1585566,
 };

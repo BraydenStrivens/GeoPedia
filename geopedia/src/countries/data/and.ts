@@ -17,8 +17,8 @@ export const and: CountryData = {
   region: "Southern Europe",
   callingCode: "376",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/and.svg",
-  imageUrl: "/data/country-images/and.svg",
+  flagUrl: "/data/global/countries/flags/and.svg",
+  imageUrl: "/data/global/countries/silhouettes/and.svg",
   capital: "Andorra la Vella",
   population: 89752,
 };

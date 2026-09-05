@@ -17,8 +17,8 @@ export const nzl: CountryData = {
   region: "Australia and New Zealand",
   callingCode: "64",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/nzl.svg",
-  imageUrl: "/data/country-images/nzl.svg",
+  flagUrl: "/data/global/countries/flags/nzl.svg",
+  imageUrl: "/data/global/countries/silhouettes/nzl.svg",
   capital: "Wellington",
   population: 4993923,
 };

@@ -17,8 +17,8 @@ export const cpv: CountryData = {
   region: "Western Africa",
   callingCode: "238",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/cpv.svg",
-  imageUrl: "/data/country-images/cpv.svg",
+  flagUrl: "/data/global/countries/flags/cpv.svg",
+  imageUrl: "/data/global/countries/silhouettes/cpv.svg",
   capital: "Praia",
   population: 491233,
 };

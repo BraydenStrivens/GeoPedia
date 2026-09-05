@@ -17,8 +17,8 @@ export const arg: CountryData = {
   region: "South America",
   callingCode: "54",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/arg.svg",
-  imageUrl: "/data/country-images/arg.svg",
+  flagUrl: "/data/global/countries/flags/arg.svg",
+  imageUrl: "/data/global/countries/silhouettes/arg.svg",
   capital: "Buenos Aires",
   population: 46466688,
 };

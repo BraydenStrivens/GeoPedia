@@ -17,8 +17,8 @@ export const blz: CountryData = {
   region: "Central America",
   callingCode: "501",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/blz.svg",
-  imageUrl: "/data/country-images/blz.svg",
+  flagUrl: "/data/global/countries/flags/blz.svg",
+  imageUrl: "/data/global/countries/silhouettes/blz.svg",
   capital: "Belmopan",
   population: 418982,
 };

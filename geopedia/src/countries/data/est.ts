@@ -17,8 +17,8 @@ export const est: CountryData = {
   region: "Northern Europe",
   callingCode: "372",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/est.svg",
-  imageUrl: "/data/country-images/est.svg",
+  flagUrl: "/data/global/countries/flags/est.svg",
+  imageUrl: "/data/global/countries/silhouettes/est.svg",
   capital: "Tallinn",
   population: 1360745,
 };

@@ -17,8 +17,8 @@ export const irl: CountryData = {
   region: "Northern Europe",
   callingCode: "353",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/irl.svg",
-  imageUrl: "/data/country-images/irl.svg",
+  flagUrl: "/data/global/countries/flags/irl.svg",
+  imageUrl: "/data/global/countries/silhouettes/irl.svg",
   capital: "Dublin",
   population: 5458600,
 };

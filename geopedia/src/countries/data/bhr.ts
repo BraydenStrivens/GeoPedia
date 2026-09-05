@@ -17,8 +17,8 @@ export const bhr: CountryData = {
   region: "Western Asia",
   callingCode: "973",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/bhr.svg",
-  imageUrl: "/data/country-images/bhr.svg",
+  flagUrl: "/data/global/countries/flags/bhr.svg",
+  imageUrl: "/data/global/countries/silhouettes/bhr.svg",
   capital: "Manama",
   population: 1603260,
 };

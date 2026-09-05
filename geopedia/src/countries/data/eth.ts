@@ -17,8 +17,8 @@ export const eth: CountryData = {
   region: "Eastern Africa",
   callingCode: "251",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/eth.svg",
-  imageUrl: "/data/country-images/eth.svg",
+  flagUrl: "/data/global/countries/flags/eth.svg",
+  imageUrl: "/data/global/countries/silhouettes/eth.svg",
   capital: "Addis Ababa",
   population: 111652998,
 };

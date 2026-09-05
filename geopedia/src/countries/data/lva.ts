@@ -17,8 +17,8 @@ export const lva: CountryData = {
   region: "Northern Europe",
   callingCode: "371",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/lva.svg",
-  imageUrl: "/data/country-images/lva.svg",
+  flagUrl: "/data/global/countries/flags/lva.svg",
+  imageUrl: "/data/global/countries/silhouettes/lva.svg",
   capital: "Riga",
   population: 1832100,
 };

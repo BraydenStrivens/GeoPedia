@@ -17,8 +17,8 @@ export const irn: CountryData = {
   region: "Southern Asia",
   callingCode: "98",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/irn.svg",
-  imageUrl: "/data/country-images/irn.svg",
+  flagUrl: "/data/global/countries/flags/irn.svg",
+  imageUrl: "/data/global/countries/silhouettes/irn.svg",
   capital: "Tehran",
   population: 87134000,
 };

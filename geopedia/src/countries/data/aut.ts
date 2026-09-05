@@ -17,8 +17,8 @@ export const aut: CountryData = {
   region: "Central Europe",
   callingCode: "43",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/aut.svg",
-  imageUrl: "/data/country-images/aut.svg",
+  flagUrl: "/data/global/countries/flags/aut.svg",
+  imageUrl: "/data/global/countries/silhouettes/aut.svg",
   capital: "Vienna",
   population: 9217573,
 };

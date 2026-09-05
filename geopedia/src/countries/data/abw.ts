@@ -17,8 +17,8 @@ export const abw: CountryData = {
   region: "Caribbean",
   callingCode: "297",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/abw.svg",
-  imageUrl: "/data/country-images/abw.svg",
+  flagUrl: "/data/global/countries/flags/abw.svg",
+  imageUrl: "/data/global/countries/silhouettes/abw.svg",
   capital: "Oranjestad",
   population: 110625,
 };

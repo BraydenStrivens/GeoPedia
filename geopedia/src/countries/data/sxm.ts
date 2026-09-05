@@ -17,8 +17,8 @@ export const sxm: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/sxm.svg",
-  imageUrl: "/data/country-images/sxm.svg",
+  flagUrl: "/data/global/countries/flags/sxm.svg",
+  imageUrl: "/data/global/countries/silhouettes/sxm.svg",
   capital: "Philipsburg",
   population: 58477,
 };

@@ -17,8 +17,8 @@ export const mac: CountryData = {
   region: "Eastern Asia",
   callingCode: "853",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/mac.svg",
-  imageUrl: "/data/country-images/mac.svg",
+  flagUrl: "/data/global/countries/flags/mac.svg",
+  imageUrl: "/data/global/countries/silhouettes/mac.svg",
   capital: "",
   population: 686500,
 };

@@ -17,8 +17,8 @@ export const mdv: CountryData = {
   region: "Southern Asia",
   callingCode: "960",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/mdv.svg",
-  imageUrl: "/data/country-images/mdv.svg",
+  flagUrl: "/data/global/countries/flags/mdv.svg",
+  imageUrl: "/data/global/countries/silhouettes/mdv.svg",
   capital: "Malé",
   population: 515132,
 };

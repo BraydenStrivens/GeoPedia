@@ -11,6 +11,991 @@
 
 import type { FeatureQuiz } from "@/types/quiz";
 
+const COUNTRY_CAPITAL_QUESTIONS: FeatureQuiz["questions"] = [
+  {
+    answer: "AFG",
+    display: "Kabul",
+  },
+  {
+    answer: "ALA",
+    display: "Mariehamn",
+  },
+  {
+    answer: "ALB",
+    display: "Tirana",
+  },
+  {
+    answer: "DZA",
+    display: "Algiers",
+  },
+  {
+    answer: "ASM",
+    display: "Pago Pago",
+  },
+  {
+    answer: "AND",
+    display: "Andorra la Vella",
+  },
+  {
+    answer: "AGO",
+    display: "Luanda",
+  },
+  {
+    answer: "AIA",
+    display: "The Valley",
+  },
+  {
+    answer: "ATG",
+    display: "Saint John's",
+  },
+  {
+    answer: "ARG",
+    display: "Buenos Aires",
+  },
+  {
+    answer: "ARM",
+    display: "Yerevan",
+  },
+  {
+    answer: "ABW",
+    display: "Oranjestad",
+  },
+  {
+    answer: "AUS",
+    display: "Canberra",
+  },
+  {
+    answer: "AUT",
+    display: "Vienna",
+  },
+  {
+    answer: "AZE",
+    display: "Baku",
+  },
+  {
+    answer: "BHS",
+    display: "Nassau",
+  },
+  {
+    answer: "BHR",
+    display: "Manama",
+  },
+  {
+    answer: "BGD",
+    display: "Dhaka",
+  },
+  {
+    answer: "BRB",
+    display: "Bridgetown",
+  },
+  {
+    answer: "BLR",
+    display: "Minsk",
+  },
+  {
+    answer: "BEL",
+    display: "Brussels",
+  },
+  {
+    answer: "BLZ",
+    display: "Belmopan",
+  },
+  {
+    answer: "BEN",
+    display: "Porto-Novo",
+  },
+  {
+    answer: "BMU",
+    display: "Hamilton",
+  },
+  {
+    answer: "BTN",
+    display: "Thimphu",
+  },
+  {
+    answer: "BOL",
+    display: "Sucre / La Paz",
+  },
+  {
+    answer: "BIH",
+    display: "Sarajevo",
+  },
+  {
+    answer: "BWA",
+    display: "Gaborone",
+  },
+  {
+    answer: "BRA",
+    display: "Brasília",
+  },
+  {
+    answer: "IOT",
+    display: "Diego Garcia",
+  },
+  {
+    answer: "VGB",
+    display: "Road Town",
+  },
+  {
+    answer: "BRN",
+    display: "Bandar Seri Begawan",
+  },
+  {
+    answer: "BGR",
+    display: "Sofia",
+  },
+  {
+    answer: "BFA",
+    display: "Ouagadougou",
+  },
+  {
+    answer: "BDI",
+    display: "Gitega",
+  },
+  {
+    answer: "CPV",
+    display: "Praia",
+  },
+  {
+    answer: "KHM",
+    display: "Phnom Penh",
+  },
+  {
+    answer: "CMR",
+    display: "Yaoundé",
+  },
+  {
+    answer: "CAN",
+    display: "Ottawa",
+  },
+  {
+    answer: "BES",
+    display: "Kralendijk",
+  },
+  {
+    answer: "CYM",
+    display: "George Town",
+  },
+  {
+    answer: "CAF",
+    display: "Bangui",
+  },
+  {
+    answer: "TCD",
+    display: "N'Djamena",
+  },
+  {
+    answer: "CHL",
+    display: "Santiago",
+  },
+  {
+    answer: "CHN",
+    display: "Beijing",
+  },
+  {
+    answer: "CXR",
+    display: "Flying Fish Cove",
+  },
+  {
+    answer: "CCK",
+    display: "West Island",
+  },
+  {
+    answer: "COL",
+    display: "Bogotá",
+  },
+  {
+    answer: "COM",
+    display: "Moroni",
+  },
+  {
+    answer: "COG",
+    display: "Brazzaville",
+  },
+  {
+    answer: "COK",
+    display: "Avarua",
+  },
+  {
+    answer: "CRI",
+    display: "San José",
+  },
+  {
+    answer: "HRV",
+    display: "Zagreb",
+  },
+  {
+    answer: "CUB",
+    display: "Havana",
+  },
+  {
+    answer: "CUW",
+    display: "Willemstad",
+  },
+  {
+    answer: "CYP",
+    display: "Nicosia",
+  },
+  {
+    answer: "CZE",
+    display: "Prague",
+  },
+  {
+    answer: "DNK",
+    display: "Copenhagen",
+  },
+  {
+    answer: "DJI",
+    display: "Djibouti",
+  },
+  {
+    answer: "DMA",
+    display: "Roseau",
+  },
+  {
+    answer: "DOM",
+    display: "Santo Domingo",
+  },
+  {
+    answer: "COD",
+    display: "Kinshasa",
+  },
+  {
+    answer: "ECU",
+    display: "Quito",
+  },
+  {
+    answer: "EGY",
+    display: "Cairo",
+  },
+  {
+    answer: "SLV",
+    display: "San Salvador",
+  },
+  {
+    answer: "GNQ",
+    display: "Malabo",
+  },
+  {
+    answer: "ERI",
+    display: "Asmara",
+  },
+  {
+    answer: "EST",
+    display: "Tallinn",
+  },
+  {
+    answer: "SWZ",
+    display: "Mbabane / Lobamba",
+  },
+  {
+    answer: "ETH",
+    display: "Addis Ababa",
+  },
+  {
+    answer: "FLK",
+    display: "Stanley",
+  },
+  {
+    answer: "FRO",
+    display: "Tórshavn",
+  },
+  {
+    answer: "FJI",
+    display: "Suva",
+  },
+  {
+    answer: "FIN",
+    display: "Helsinki",
+  },
+  {
+    answer: "FRA",
+    display: "Paris",
+  },
+  {
+    answer: "GUF",
+    display: "Cayenne",
+  },
+  {
+    answer: "PYF",
+    display: "Papeetē",
+  },
+  {
+    answer: "ATF",
+    display: "Port-aux-Français",
+  },
+  {
+    answer: "GAB",
+    display: "Libreville",
+  },
+  {
+    answer: "GMB",
+    display: "Banjul",
+  },
+  {
+    answer: "GEO",
+    display: "Tbilisi",
+  },
+  {
+    answer: "DEU",
+    display: "Berlin",
+  },
+  {
+    answer: "GHA",
+    display: "Accra",
+  },
+  {
+    answer: "GIB",
+    display: "Gibraltar",
+  },
+  {
+    answer: "GRC",
+    display: "Athens",
+  },
+  {
+    answer: "GRL",
+    display: "Nuuk",
+  },
+  {
+    answer: "GRD",
+    display: "St. George's",
+  },
+  {
+    answer: "GLP",
+    display: "Basse-Terre",
+  },
+  {
+    answer: "GUM",
+    display: "Hagåtña",
+  },
+  {
+    answer: "GTM",
+    display: "Guatemala City",
+  },
+  {
+    answer: "GGY",
+    display: "St. Peter Port",
+  },
+  {
+    answer: "GIN",
+    display: "Conakry",
+  },
+  {
+    answer: "GNB",
+    display: "Bissau",
+  },
+  {
+    answer: "GUY",
+    display: "Georgetown",
+  },
+  {
+    answer: "HTI",
+    display: "Port-au-Prince",
+  },
+  {
+    answer: "HND",
+    display: "Tegucigalpa",
+  },
+  {
+    answer: "HKG",
+    display: "City of Victoria",
+  },
+  {
+    answer: "HUN",
+    display: "Budapest",
+  },
+  {
+    answer: "ISL",
+    display: "Reykjavik",
+  },
+  {
+    answer: "IND",
+    display: "New Delhi",
+  },
+  {
+    answer: "IDN",
+    display: "Jakarta",
+  },
+  {
+    answer: "IRN",
+    display: "Tehran",
+  },
+  {
+    answer: "IRQ",
+    display: "Baghdad",
+  },
+  {
+    answer: "IRL",
+    display: "Dublin",
+  },
+  {
+    answer: "IMN",
+    display: "Douglas",
+  },
+  {
+    answer: "ISR",
+    display: "Jerusalem",
+  },
+  {
+    answer: "ITA",
+    display: "Rome",
+  },
+  {
+    answer: "CIV",
+    display: "Yamoussoukro",
+  },
+  {
+    answer: "JAM",
+    display: "Kingston",
+  },
+  {
+    answer: "JPN",
+    display: "Tokyo",
+  },
+  {
+    answer: "JEY",
+    display: "Saint Helier",
+  },
+  {
+    answer: "JOR",
+    display: "Amman",
+  },
+  {
+    answer: "KAZ",
+    display: "Astana",
+  },
+  {
+    answer: "KEN",
+    display: "Nairobi",
+  },
+  {
+    answer: "KIR",
+    display: "South Tarawa",
+  },
+  {
+    answer: "XKX",
+    display: "Pristina",
+  },
+  {
+    answer: "KWT",
+    display: "Kuwait City",
+  },
+  {
+    answer: "KGZ",
+    display: "Bishkek",
+  },
+  {
+    answer: "LAO",
+    display: "Vientiane",
+  },
+  {
+    answer: "LVA",
+    display: "Riga",
+  },
+  {
+    answer: "LBN",
+    display: "Beirut",
+  },
+  {
+    answer: "LSO",
+    display: "Maseru",
+  },
+  {
+    answer: "LBR",
+    display: "Monrovia",
+  },
+  {
+    answer: "LBY",
+    display: "Tripoli",
+  },
+  {
+    answer: "LIE",
+    display: "Vaduz",
+  },
+  {
+    answer: "LTU",
+    display: "Vilnius",
+  },
+  {
+    answer: "LUX",
+    display: "Luxembourg",
+  },
+  {
+    answer: "MDG",
+    display: "Antananarivo",
+  },
+  {
+    answer: "MWI",
+    display: "Lilongwe",
+  },
+  {
+    answer: "MYS",
+    display: "Kuala Lumpur",
+  },
+  {
+    answer: "MDV",
+    display: "Malé",
+  },
+  {
+    answer: "MLI",
+    display: "Bamako",
+  },
+  {
+    answer: "MLT",
+    display: "Valletta",
+  },
+  {
+    answer: "MHL",
+    display: "Majuro",
+  },
+  {
+    answer: "MTQ",
+    display: "Fort-de-France",
+  },
+  {
+    answer: "MRT",
+    display: "Nouakchott",
+  },
+  {
+    answer: "MUS",
+    display: "Port Louis",
+  },
+  {
+    answer: "MYT",
+    display: "Mamoudzou",
+  },
+  {
+    answer: "MEX",
+    display: "Mexico City",
+  },
+  {
+    answer: "FSM",
+    display: "Palikir",
+  },
+  {
+    answer: "MDA",
+    display: "Chișinău",
+  },
+  {
+    answer: "MCO",
+    display: "Monaco",
+  },
+  {
+    answer: "MNG",
+    display: "Ulan Bator",
+  },
+  {
+    answer: "MNE",
+    display: "Podgorica",
+  },
+  {
+    answer: "MSR",
+    display: "Plymouth",
+  },
+  {
+    answer: "MAR",
+    display: "Rabat",
+  },
+  {
+    answer: "MOZ",
+    display: "Maputo",
+  },
+  {
+    answer: "MMR",
+    display: "Naypyidaw",
+  },
+  {
+    answer: "NAM",
+    display: "Windhoek",
+  },
+  {
+    answer: "NRU",
+    display: "Yaren",
+  },
+  {
+    answer: "NPL",
+    display: "Kathmandu",
+  },
+  {
+    answer: "NLD",
+    display: "Amsterdam",
+  },
+  {
+    answer: "NCL",
+    display: "Nouméa",
+  },
+  {
+    answer: "NZL",
+    display: "Wellington",
+  },
+  {
+    answer: "NIC",
+    display: "Managua",
+  },
+  {
+    answer: "NER",
+    display: "Niamey",
+  },
+  {
+    answer: "NGA",
+    display: "Abuja",
+  },
+  {
+    answer: "NIU",
+    display: "Alofi",
+  },
+  {
+    answer: "NFK",
+    display: "Kingston",
+  },
+  {
+    answer: "PRK",
+    display: "Pyongyang",
+  },
+  {
+    answer: "MKD",
+    display: "Skopje",
+  },
+  {
+    answer: "MNP",
+    display: "Saipan",
+  },
+  {
+    answer: "NOR",
+    display: "Oslo",
+  },
+  {
+    answer: "OMN",
+    display: "Muscat",
+  },
+  {
+    answer: "PAK",
+    display: "Islamabad",
+  },
+  {
+    answer: "PLW",
+    display: "Ngerulmud",
+  },
+  {
+    answer: "PSE",
+    display: "Ramallah / Jerusalem",
+  },
+  {
+    answer: "PAN",
+    display: "Panama City",
+  },
+  {
+    answer: "PNG",
+    display: "Port Moresby",
+  },
+  {
+    answer: "PRY",
+    display: "Asunción",
+  },
+  {
+    answer: "PER",
+    display: "Lima",
+  },
+  {
+    answer: "PHL",
+    display: "Manila",
+  },
+  {
+    answer: "PCN",
+    display: "Adamstown",
+  },
+  {
+    answer: "POL",
+    display: "Warsaw",
+  },
+  {
+    answer: "PRT",
+    display: "Lisbon",
+  },
+  {
+    answer: "PRI",
+    display: "San Juan",
+  },
+  {
+    answer: "QAT",
+    display: "Doha",
+  },
+  {
+    answer: "REU",
+    display: "Saint-Denis",
+  },
+  {
+    answer: "ROU",
+    display: "Bucharest",
+  },
+  {
+    answer: "RUS",
+    display: "Moscow",
+  },
+  {
+    answer: "RWA",
+    display: "Kigali",
+  },
+  {
+    answer: "BLM",
+    display: "Gustavia",
+  },
+  {
+    answer: "SHN",
+    display: "Jamestown",
+  },
+  {
+    answer: "KNA",
+    display: "Basseterre",
+  },
+  {
+    answer: "LCA",
+    display: "Castries",
+  },
+  {
+    answer: "MAF",
+    display: "Marigot",
+  },
+  {
+    answer: "SPM",
+    display: "Saint-Pierre",
+  },
+  {
+    answer: "VCT",
+    display: "Kingstown",
+  },
+  {
+    answer: "WSM",
+    display: "Apia",
+  },
+  {
+    answer: "SMR",
+    display: "City of San Marino",
+  },
+  {
+    answer: "STP",
+    display: "São Tomé",
+  },
+  {
+    answer: "SAU",
+    display: "Riyadh",
+  },
+  {
+    answer: "SEN",
+    display: "Dakar",
+  },
+  {
+    answer: "SRB",
+    display: "Belgrade",
+  },
+  {
+    answer: "SYC",
+    display: "Victoria",
+  },
+  {
+    answer: "SLE",
+    display: "Freetown",
+  },
+  {
+    answer: "SGP",
+    display: "Singapore",
+  },
+  {
+    answer: "SXM",
+    display: "Philipsburg",
+  },
+  {
+    answer: "SVK",
+    display: "Bratislava",
+  },
+  {
+    answer: "SVN",
+    display: "Ljubljana",
+  },
+  {
+    answer: "SLB",
+    display: "Honiara",
+  },
+  {
+    answer: "SOM",
+    display: "Mogadishu",
+  },
+  {
+    answer: "ZAF",
+    display: "Pretoria / Cape Town / Bloemfontein",
+  },
+  {
+    answer: "SGS",
+    display: "King Edward Point",
+  },
+  {
+    answer: "KOR",
+    display: "Seoul",
+  },
+  {
+    answer: "SSD",
+    display: "Juba",
+  },
+  {
+    answer: "ESP",
+    display: "Madrid",
+  },
+  {
+    answer: "LKA",
+    display: "Sri Jayawardenepura Kotte",
+  },
+  {
+    answer: "SDN",
+    display: "Khartoum",
+  },
+  {
+    answer: "SUR",
+    display: "Paramaribo",
+  },
+  {
+    answer: "SJM",
+    display: "Longyearbyen",
+  },
+  {
+    answer: "SWE",
+    display: "Stockholm",
+  },
+  {
+    answer: "CHE",
+    display: "Bern",
+  },
+  {
+    answer: "SYR",
+    display: "Damascus",
+  },
+  {
+    answer: "TWN",
+    display: "Taipei",
+  },
+  {
+    answer: "TJK",
+    display: "Dushanbe",
+  },
+  {
+    answer: "TZA",
+    display: "Dodoma",
+  },
+  {
+    answer: "THA",
+    display: "Bangkok",
+  },
+  {
+    answer: "TLS",
+    display: "Dili",
+  },
+  {
+    answer: "TGO",
+    display: "Lomé",
+  },
+  {
+    answer: "TKL",
+    display: "Fakaofo",
+  },
+  {
+    answer: "TON",
+    display: "Nuku'alofa",
+  },
+  {
+    answer: "TTO",
+    display: "Port of Spain",
+  },
+  {
+    answer: "TUN",
+    display: "Tunis",
+  },
+  {
+    answer: "TUR",
+    display: "Ankara",
+  },
+  {
+    answer: "TKM",
+    display: "Ashgabat",
+  },
+  {
+    answer: "TCA",
+    display: "Cockburn Town",
+  },
+  {
+    answer: "TUV",
+    display: "Funafuti",
+  },
+  {
+    answer: "UGA",
+    display: "Kampala",
+  },
+  {
+    answer: "UKR",
+    display: "Kyiv",
+  },
+  {
+    answer: "ARE",
+    display: "Abu Dhabi",
+  },
+  {
+    answer: "GBR",
+    display: "London",
+  },
+  {
+    answer: "USA",
+    display: "Washington, D.C.",
+  },
+  {
+    answer: "VIR",
+    display: "Charlotte Amalie",
+  },
+  {
+    answer: "URY",
+    display: "Montevideo",
+  },
+  {
+    answer: "UZB",
+    display: "Tashkent",
+  },
+  {
+    answer: "VUT",
+    display: "Port Vila",
+  },
+  {
+    answer: "VAT",
+    display: "Vatican City",
+  },
+  {
+    answer: "VEN",
+    display: "Caracas",
+  },
+  {
+    answer: "VNM",
+    display: "Hanoi",
+  },
+  {
+    answer: "WLF",
+    display: "Mata-Utu",
+  },
+  {
+    answer: "ESH",
+    display: "El Aaiún",
+  },
+  {
+    answer: "YEM",
+    display: "Sana'a",
+  },
+  {
+    answer: "ZMB",
+    display: "Lusaka",
+  },
+  {
+    answer: "ZWE",
+    display: "Harare",
+  },
+];
+
+const COUNTRY_CAPITALS_DESCRIPTION = `Identify all ${COUNTRY_CAPITAL_QUESTIONS.length} countries by their capitals, with filters for GeoGuessr countries only, continent, region, and subregion.`;
+
 /**
  * Tests recognition of countries from their capitals.
  *
@@ -20,6 +1005,7 @@ import type { FeatureQuiz } from "@/types/quiz";
 export const countryCapitalsQuiz: FeatureQuiz = {
   id: "country-capitals",
   name: "Country Capitals",
+  description: COUNTRY_CAPITALS_DESCRIPTION,
 
   kind: "feature",
   mapId: "world-country-capitals",
@@ -47,986 +1033,5 @@ export const countryCapitalsQuiz: FeatureQuiz = {
     ],
   },
 
-  questions: [
-    {
-      answer: "AFG",
-      display: "Kabul",
-    },
-    {
-      answer: "ALA",
-      display: "Mariehamn",
-    },
-    {
-      answer: "ALB",
-      display: "Tirana",
-    },
-    {
-      answer: "DZA",
-      display: "Algiers",
-    },
-    {
-      answer: "ASM",
-      display: "Pago Pago",
-    },
-    {
-      answer: "AND",
-      display: "Andorra la Vella",
-    },
-    {
-      answer: "AGO",
-      display: "Luanda",
-    },
-    {
-      answer: "AIA",
-      display: "The Valley",
-    },
-    {
-      answer: "ATG",
-      display: "Saint John's",
-    },
-    {
-      answer: "ARG",
-      display: "Buenos Aires",
-    },
-    {
-      answer: "ARM",
-      display: "Yerevan",
-    },
-    {
-      answer: "ABW",
-      display: "Oranjestad",
-    },
-    {
-      answer: "AUS",
-      display: "Canberra",
-    },
-    {
-      answer: "AUT",
-      display: "Vienna",
-    },
-    {
-      answer: "AZE",
-      display: "Baku",
-    },
-    {
-      answer: "BHS",
-      display: "Nassau",
-    },
-    {
-      answer: "BHR",
-      display: "Manama",
-    },
-    {
-      answer: "BGD",
-      display: "Dhaka",
-    },
-    {
-      answer: "BRB",
-      display: "Bridgetown",
-    },
-    {
-      answer: "BLR",
-      display: "Minsk",
-    },
-    {
-      answer: "BEL",
-      display: "Brussels",
-    },
-    {
-      answer: "BLZ",
-      display: "Belmopan",
-    },
-    {
-      answer: "BEN",
-      display: "Porto-Novo",
-    },
-    {
-      answer: "BMU",
-      display: "Hamilton",
-    },
-    {
-      answer: "BTN",
-      display: "Thimphu",
-    },
-    {
-      answer: "BOL",
-      display: "Sucre / La Paz",
-    },
-    {
-      answer: "BIH",
-      display: "Sarajevo",
-    },
-    {
-      answer: "BWA",
-      display: "Gaborone",
-    },
-    {
-      answer: "BRA",
-      display: "Brasília",
-    },
-    {
-      answer: "IOT",
-      display: "Diego Garcia",
-    },
-    {
-      answer: "VGB",
-      display: "Road Town",
-    },
-    {
-      answer: "BRN",
-      display: "Bandar Seri Begawan",
-    },
-    {
-      answer: "BGR",
-      display: "Sofia",
-    },
-    {
-      answer: "BFA",
-      display: "Ouagadougou",
-    },
-    {
-      answer: "BDI",
-      display: "Gitega",
-    },
-    {
-      answer: "CPV",
-      display: "Praia",
-    },
-    {
-      answer: "KHM",
-      display: "Phnom Penh",
-    },
-    {
-      answer: "CMR",
-      display: "Yaoundé",
-    },
-    {
-      answer: "CAN",
-      display: "Ottawa",
-    },
-    {
-      answer: "BES",
-      display: "Kralendijk",
-    },
-    {
-      answer: "CYM",
-      display: "George Town",
-    },
-    {
-      answer: "CAF",
-      display: "Bangui",
-    },
-    {
-      answer: "TCD",
-      display: "N'Djamena",
-    },
-    {
-      answer: "CHL",
-      display: "Santiago",
-    },
-    {
-      answer: "CHN",
-      display: "Beijing",
-    },
-    {
-      answer: "CXR",
-      display: "Flying Fish Cove",
-    },
-    {
-      answer: "CCK",
-      display: "West Island",
-    },
-    {
-      answer: "COL",
-      display: "Bogotá",
-    },
-    {
-      answer: "COM",
-      display: "Moroni",
-    },
-    {
-      answer: "COG",
-      display: "Brazzaville",
-    },
-    {
-      answer: "COK",
-      display: "Avarua",
-    },
-    {
-      answer: "CRI",
-      display: "San José",
-    },
-    {
-      answer: "HRV",
-      display: "Zagreb",
-    },
-    {
-      answer: "CUB",
-      display: "Havana",
-    },
-    {
-      answer: "CUW",
-      display: "Willemstad",
-    },
-    {
-      answer: "CYP",
-      display: "Nicosia",
-    },
-    {
-      answer: "CZE",
-      display: "Prague",
-    },
-    {
-      answer: "DNK",
-      display: "Copenhagen",
-    },
-    {
-      answer: "DJI",
-      display: "Djibouti",
-    },
-    {
-      answer: "DMA",
-      display: "Roseau",
-    },
-    {
-      answer: "DOM",
-      display: "Santo Domingo",
-    },
-    {
-      answer: "COD",
-      display: "Kinshasa",
-    },
-    {
-      answer: "ECU",
-      display: "Quito",
-    },
-    {
-      answer: "EGY",
-      display: "Cairo",
-    },
-    {
-      answer: "SLV",
-      display: "San Salvador",
-    },
-    {
-      answer: "GNQ",
-      display: "Malabo",
-    },
-    {
-      answer: "ERI",
-      display: "Asmara",
-    },
-    {
-      answer: "EST",
-      display: "Tallinn",
-    },
-    {
-      answer: "SWZ",
-      display: "Mbabane / Lobamba",
-    },
-    {
-      answer: "ETH",
-      display: "Addis Ababa",
-    },
-    {
-      answer: "FLK",
-      display: "Stanley",
-    },
-    {
-      answer: "FRO",
-      display: "Tórshavn",
-    },
-    {
-      answer: "FJI",
-      display: "Suva",
-    },
-    {
-      answer: "FIN",
-      display: "Helsinki",
-    },
-    {
-      answer: "FRA",
-      display: "Paris",
-    },
-    {
-      answer: "GUF",
-      display: "Cayenne",
-    },
-    {
-      answer: "PYF",
-      display: "Papeetē",
-    },
-    {
-      answer: "ATF",
-      display: "Port-aux-Français",
-    },
-    {
-      answer: "GAB",
-      display: "Libreville",
-    },
-    {
-      answer: "GMB",
-      display: "Banjul",
-    },
-    {
-      answer: "GEO",
-      display: "Tbilisi",
-    },
-    {
-      answer: "DEU",
-      display: "Berlin",
-    },
-    {
-      answer: "GHA",
-      display: "Accra",
-    },
-    {
-      answer: "GIB",
-      display: "Gibraltar",
-    },
-    {
-      answer: "GRC",
-      display: "Athens",
-    },
-    {
-      answer: "GRL",
-      display: "Nuuk",
-    },
-    {
-      answer: "GRD",
-      display: "St. George's",
-    },
-    {
-      answer: "GLP",
-      display: "Basse-Terre",
-    },
-    {
-      answer: "GUM",
-      display: "Hagåtña",
-    },
-    {
-      answer: "GTM",
-      display: "Guatemala City",
-    },
-    {
-      answer: "GGY",
-      display: "St. Peter Port",
-    },
-    {
-      answer: "GIN",
-      display: "Conakry",
-    },
-    {
-      answer: "GNB",
-      display: "Bissau",
-    },
-    {
-      answer: "GUY",
-      display: "Georgetown",
-    },
-    {
-      answer: "HTI",
-      display: "Port-au-Prince",
-    },
-    {
-      answer: "HND",
-      display: "Tegucigalpa",
-    },
-    {
-      answer: "HKG",
-      display: "City of Victoria",
-    },
-    {
-      answer: "HUN",
-      display: "Budapest",
-    },
-    {
-      answer: "ISL",
-      display: "Reykjavik",
-    },
-    {
-      answer: "IND",
-      display: "New Delhi",
-    },
-    {
-      answer: "IDN",
-      display: "Jakarta",
-    },
-    {
-      answer: "IRN",
-      display: "Tehran",
-    },
-    {
-      answer: "IRQ",
-      display: "Baghdad",
-    },
-    {
-      answer: "IRL",
-      display: "Dublin",
-    },
-    {
-      answer: "IMN",
-      display: "Douglas",
-    },
-    {
-      answer: "ISR",
-      display: "Jerusalem",
-    },
-    {
-      answer: "ITA",
-      display: "Rome",
-    },
-    {
-      answer: "CIV",
-      display: "Yamoussoukro",
-    },
-    {
-      answer: "JAM",
-      display: "Kingston",
-    },
-    {
-      answer: "JPN",
-      display: "Tokyo",
-    },
-    {
-      answer: "JEY",
-      display: "Saint Helier",
-    },
-    {
-      answer: "JOR",
-      display: "Amman",
-    },
-    {
-      answer: "KAZ",
-      display: "Astana",
-    },
-    {
-      answer: "KEN",
-      display: "Nairobi",
-    },
-    {
-      answer: "KIR",
-      display: "South Tarawa",
-    },
-    {
-      answer: "XKX",
-      display: "Pristina",
-    },
-    {
-      answer: "KWT",
-      display: "Kuwait City",
-    },
-    {
-      answer: "KGZ",
-      display: "Bishkek",
-    },
-    {
-      answer: "LAO",
-      display: "Vientiane",
-    },
-    {
-      answer: "LVA",
-      display: "Riga",
-    },
-    {
-      answer: "LBN",
-      display: "Beirut",
-    },
-    {
-      answer: "LSO",
-      display: "Maseru",
-    },
-    {
-      answer: "LBR",
-      display: "Monrovia",
-    },
-    {
-      answer: "LBY",
-      display: "Tripoli",
-    },
-    {
-      answer: "LIE",
-      display: "Vaduz",
-    },
-    {
-      answer: "LTU",
-      display: "Vilnius",
-    },
-    {
-      answer: "LUX",
-      display: "Luxembourg",
-    },
-    {
-      answer: "MDG",
-      display: "Antananarivo",
-    },
-    {
-      answer: "MWI",
-      display: "Lilongwe",
-    },
-    {
-      answer: "MYS",
-      display: "Kuala Lumpur",
-    },
-    {
-      answer: "MDV",
-      display: "Malé",
-    },
-    {
-      answer: "MLI",
-      display: "Bamako",
-    },
-    {
-      answer: "MLT",
-      display: "Valletta",
-    },
-    {
-      answer: "MHL",
-      display: "Majuro",
-    },
-    {
-      answer: "MTQ",
-      display: "Fort-de-France",
-    },
-    {
-      answer: "MRT",
-      display: "Nouakchott",
-    },
-    {
-      answer: "MUS",
-      display: "Port Louis",
-    },
-    {
-      answer: "MYT",
-      display: "Mamoudzou",
-    },
-    {
-      answer: "MEX",
-      display: "Mexico City",
-    },
-    {
-      answer: "FSM",
-      display: "Palikir",
-    },
-    {
-      answer: "MDA",
-      display: "Chișinău",
-    },
-    {
-      answer: "MCO",
-      display: "Monaco",
-    },
-    {
-      answer: "MNG",
-      display: "Ulan Bator",
-    },
-    {
-      answer: "MNE",
-      display: "Podgorica",
-    },
-    {
-      answer: "MSR",
-      display: "Plymouth",
-    },
-    {
-      answer: "MAR",
-      display: "Rabat",
-    },
-    {
-      answer: "MOZ",
-      display: "Maputo",
-    },
-    {
-      answer: "MMR",
-      display: "Naypyidaw",
-    },
-    {
-      answer: "NAM",
-      display: "Windhoek",
-    },
-    {
-      answer: "NRU",
-      display: "Yaren",
-    },
-    {
-      answer: "NPL",
-      display: "Kathmandu",
-    },
-    {
-      answer: "NLD",
-      display: "Amsterdam",
-    },
-    {
-      answer: "NCL",
-      display: "Nouméa",
-    },
-    {
-      answer: "NZL",
-      display: "Wellington",
-    },
-    {
-      answer: "NIC",
-      display: "Managua",
-    },
-    {
-      answer: "NER",
-      display: "Niamey",
-    },
-    {
-      answer: "NGA",
-      display: "Abuja",
-    },
-    {
-      answer: "NIU",
-      display: "Alofi",
-    },
-    {
-      answer: "NFK",
-      display: "Kingston",
-    },
-    {
-      answer: "PRK",
-      display: "Pyongyang",
-    },
-    {
-      answer: "MKD",
-      display: "Skopje",
-    },
-    {
-      answer: "MNP",
-      display: "Saipan",
-    },
-    {
-      answer: "NOR",
-      display: "Oslo",
-    },
-    {
-      answer: "OMN",
-      display: "Muscat",
-    },
-    {
-      answer: "PAK",
-      display: "Islamabad",
-    },
-    {
-      answer: "PLW",
-      display: "Ngerulmud",
-    },
-    {
-      answer: "PSE",
-      display: "Ramallah / Jerusalem",
-    },
-    {
-      answer: "PAN",
-      display: "Panama City",
-    },
-    {
-      answer: "PNG",
-      display: "Port Moresby",
-    },
-    {
-      answer: "PRY",
-      display: "Asunción",
-    },
-    {
-      answer: "PER",
-      display: "Lima",
-    },
-    {
-      answer: "PHL",
-      display: "Manila",
-    },
-    {
-      answer: "PCN",
-      display: "Adamstown",
-    },
-    {
-      answer: "POL",
-      display: "Warsaw",
-    },
-    {
-      answer: "PRT",
-      display: "Lisbon",
-    },
-    {
-      answer: "PRI",
-      display: "San Juan",
-    },
-    {
-      answer: "QAT",
-      display: "Doha",
-    },
-    {
-      answer: "REU",
-      display: "Saint-Denis",
-    },
-    {
-      answer: "ROU",
-      display: "Bucharest",
-    },
-    {
-      answer: "RUS",
-      display: "Moscow",
-    },
-    {
-      answer: "RWA",
-      display: "Kigali",
-    },
-    {
-      answer: "BLM",
-      display: "Gustavia",
-    },
-    {
-      answer: "SHN",
-      display: "Jamestown",
-    },
-    {
-      answer: "KNA",
-      display: "Basseterre",
-    },
-    {
-      answer: "LCA",
-      display: "Castries",
-    },
-    {
-      answer: "MAF",
-      display: "Marigot",
-    },
-    {
-      answer: "SPM",
-      display: "Saint-Pierre",
-    },
-    {
-      answer: "VCT",
-      display: "Kingstown",
-    },
-    {
-      answer: "WSM",
-      display: "Apia",
-    },
-    {
-      answer: "SMR",
-      display: "City of San Marino",
-    },
-    {
-      answer: "STP",
-      display: "São Tomé",
-    },
-    {
-      answer: "SAU",
-      display: "Riyadh",
-    },
-    {
-      answer: "SEN",
-      display: "Dakar",
-    },
-    {
-      answer: "SRB",
-      display: "Belgrade",
-    },
-    {
-      answer: "SYC",
-      display: "Victoria",
-    },
-    {
-      answer: "SLE",
-      display: "Freetown",
-    },
-    {
-      answer: "SGP",
-      display: "Singapore",
-    },
-    {
-      answer: "SXM",
-      display: "Philipsburg",
-    },
-    {
-      answer: "SVK",
-      display: "Bratislava",
-    },
-    {
-      answer: "SVN",
-      display: "Ljubljana",
-    },
-    {
-      answer: "SLB",
-      display: "Honiara",
-    },
-    {
-      answer: "SOM",
-      display: "Mogadishu",
-    },
-    {
-      answer: "ZAF",
-      display: "Pretoria / Cape Town / Bloemfontein",
-    },
-    {
-      answer: "SGS",
-      display: "King Edward Point",
-    },
-    {
-      answer: "KOR",
-      display: "Seoul",
-    },
-    {
-      answer: "SSD",
-      display: "Juba",
-    },
-    {
-      answer: "ESP",
-      display: "Madrid",
-    },
-    {
-      answer: "LKA",
-      display: "Sri Jayawardenepura Kotte",
-    },
-    {
-      answer: "SDN",
-      display: "Khartoum",
-    },
-    {
-      answer: "SUR",
-      display: "Paramaribo",
-    },
-    {
-      answer: "SJM",
-      display: "Longyearbyen",
-    },
-    {
-      answer: "SWE",
-      display: "Stockholm",
-    },
-    {
-      answer: "CHE",
-      display: "Bern",
-    },
-    {
-      answer: "SYR",
-      display: "Damascus",
-    },
-    {
-      answer: "TWN",
-      display: "Taipei",
-    },
-    {
-      answer: "TJK",
-      display: "Dushanbe",
-    },
-    {
-      answer: "TZA",
-      display: "Dodoma",
-    },
-    {
-      answer: "THA",
-      display: "Bangkok",
-    },
-    {
-      answer: "TLS",
-      display: "Dili",
-    },
-    {
-      answer: "TGO",
-      display: "Lomé",
-    },
-    {
-      answer: "TKL",
-      display: "Fakaofo",
-    },
-    {
-      answer: "TON",
-      display: "Nuku'alofa",
-    },
-    {
-      answer: "TTO",
-      display: "Port of Spain",
-    },
-    {
-      answer: "TUN",
-      display: "Tunis",
-    },
-    {
-      answer: "TUR",
-      display: "Ankara",
-    },
-    {
-      answer: "TKM",
-      display: "Ashgabat",
-    },
-    {
-      answer: "TCA",
-      display: "Cockburn Town",
-    },
-    {
-      answer: "TUV",
-      display: "Funafuti",
-    },
-    {
-      answer: "UGA",
-      display: "Kampala",
-    },
-    {
-      answer: "UKR",
-      display: "Kyiv",
-    },
-    {
-      answer: "ARE",
-      display: "Abu Dhabi",
-    },
-    {
-      answer: "GBR",
-      display: "London",
-    },
-    {
-      answer: "USA",
-      display: "Washington, D.C.",
-    },
-    {
-      answer: "VIR",
-      display: "Charlotte Amalie",
-    },
-    {
-      answer: "URY",
-      display: "Montevideo",
-    },
-    {
-      answer: "UZB",
-      display: "Tashkent",
-    },
-    {
-      answer: "VUT",
-      display: "Port Vila",
-    },
-    {
-      answer: "VAT",
-      display: "Vatican City",
-    },
-    {
-      answer: "VEN",
-      display: "Caracas",
-    },
-    {
-      answer: "VNM",
-      display: "Hanoi",
-    },
-    {
-      answer: "WLF",
-      display: "Mata-Utu",
-    },
-    {
-      answer: "ESH",
-      display: "El Aaiún",
-    },
-    {
-      answer: "YEM",
-      display: "Sana'a",
-    },
-    {
-      answer: "ZMB",
-      display: "Lusaka",
-    },
-    {
-      answer: "ZWE",
-      display: "Harare",
-    },
-  ],
+  questions: COUNTRY_CAPITAL_QUESTIONS,
 };

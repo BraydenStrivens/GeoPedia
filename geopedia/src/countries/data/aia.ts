@@ -17,8 +17,8 @@ export const aia: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/aia.svg",
-  imageUrl: "/data/country-images/aia.svg",
+  flagUrl: "/data/global/countries/flags/aia.svg",
+  imageUrl: "/data/global/countries/silhouettes/aia.svg",
   capital: "The Valley",
   population: 16010,
 };

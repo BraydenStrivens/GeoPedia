@@ -17,8 +17,8 @@ export const png: CountryData = {
   region: "Melanesia",
   callingCode: "675",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/png.svg",
-  imageUrl: "/data/country-images/png.svg",
+  flagUrl: "/data/global/countries/flags/png.svg",
+  imageUrl: "/data/global/countries/silhouettes/png.svg",
   capital: "Port Moresby",
   population: 11781559,
 };

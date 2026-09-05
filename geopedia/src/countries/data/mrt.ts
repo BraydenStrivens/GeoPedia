@@ -17,8 +17,8 @@ export const mrt: CountryData = {
   region: "Western Africa",
   callingCode: "222",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/mrt.svg",
-  imageUrl: "/data/country-images/mrt.svg",
+  flagUrl: "/data/global/countries/flags/mrt.svg",
+  imageUrl: "/data/global/countries/silhouettes/mrt.svg",
   capital: "Nouakchott",
   population: 4927532,
 };

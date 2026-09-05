@@ -17,8 +17,8 @@ export const omn: CountryData = {
   region: "Western Asia",
   callingCode: "968",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/omn.svg",
-  imageUrl: "/data/country-images/omn.svg",
+  flagUrl: "/data/global/countries/flags/omn.svg",
+  imageUrl: "/data/global/countries/silhouettes/omn.svg",
   capital: "Muscat",
   population: 5398645,
 };

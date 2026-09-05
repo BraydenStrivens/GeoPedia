@@ -17,8 +17,8 @@ export const afg: CountryData = {
   region: "Southern Asia",
   callingCode: "93",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/afg.svg",
-  imageUrl: "/data/country-images/afg.svg",
+  flagUrl: "/data/global/countries/flags/afg.svg",
+  imageUrl: "/data/global/countries/silhouettes/afg.svg",
   capital: "Kabul",
   population: 43844000,
 };

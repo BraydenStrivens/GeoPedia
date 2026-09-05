@@ -17,8 +17,8 @@ export const lux: CountryData = {
   region: "Western Europe",
   callingCode: "352",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/lux.svg",
-  imageUrl: "/data/country-images/lux.svg",
+  flagUrl: "/data/global/countries/flags/lux.svg",
+  imageUrl: "/data/global/countries/silhouettes/lux.svg",
   capital: "Luxembourg",
   population: 690959,
 };

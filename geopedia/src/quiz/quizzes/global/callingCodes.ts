@@ -11,6 +11,835 @@
 
 import type { FeatureQuiz } from "@/types/quiz";
 
+const CALLING_CODE_QUESTIONS: FeatureQuiz["questions"] = [
+  {
+    answer: "+1",
+    display: "+1",
+  },
+  {
+    answer: "+7",
+    display: "+7",
+  },
+  {
+    answer: "+20",
+    display: "+20",
+  },
+  {
+    answer: "+27",
+    display: "+27",
+  },
+  {
+    answer: "+30",
+    display: "+30",
+  },
+  {
+    answer: "+31",
+    display: "+31",
+  },
+  {
+    answer: "+32",
+    display: "+32",
+  },
+  {
+    answer: "+33",
+    display: "+33",
+  },
+  {
+    answer: "+34",
+    display: "+34",
+  },
+  {
+    answer: "+36",
+    display: "+36",
+  },
+  {
+    answer: "+39",
+    display: "+39",
+  },
+  {
+    answer: "+40",
+    display: "+40",
+  },
+  {
+    answer: "+41",
+    display: "+41",
+  },
+  {
+    answer: "+43",
+    display: "+43",
+  },
+  {
+    answer: "+44",
+    display: "+44",
+  },
+  {
+    answer: "+45",
+    display: "+45",
+  },
+  {
+    answer: "+46",
+    display: "+46",
+  },
+  {
+    answer: "+47",
+    display: "+47",
+  },
+  {
+    answer: "+48",
+    display: "+48",
+  },
+  {
+    answer: "+49",
+    display: "+49",
+  },
+  {
+    answer: "+51",
+    display: "+51",
+  },
+  {
+    answer: "+52",
+    display: "+52",
+  },
+  {
+    answer: "+53",
+    display: "+53",
+  },
+  {
+    answer: "+54",
+    display: "+54",
+  },
+  {
+    answer: "+55",
+    display: "+55",
+  },
+  {
+    answer: "+56",
+    display: "+56",
+  },
+  {
+    answer: "+57",
+    display: "+57",
+  },
+  {
+    answer: "+58",
+    display: "+58",
+  },
+  {
+    answer: "+60",
+    display: "+60",
+  },
+  {
+    answer: "+61",
+    display: "+61",
+  },
+  {
+    answer: "+62",
+    display: "+62",
+  },
+  {
+    answer: "+63",
+    display: "+63",
+  },
+  {
+    answer: "+64",
+    display: "+64",
+  },
+  {
+    answer: "+65",
+    display: "+65",
+  },
+  {
+    answer: "+66",
+    display: "+66",
+  },
+  {
+    answer: "+81",
+    display: "+81",
+  },
+  {
+    answer: "+82",
+    display: "+82",
+  },
+  {
+    answer: "+84",
+    display: "+84",
+  },
+  {
+    answer: "+86",
+    display: "+86",
+  },
+  {
+    answer: "+90",
+    display: "+90",
+  },
+  {
+    answer: "+91",
+    display: "+91",
+  },
+  {
+    answer: "+92",
+    display: "+92",
+  },
+  {
+    answer: "+93",
+    display: "+93",
+  },
+  {
+    answer: "+94",
+    display: "+94",
+  },
+  {
+    answer: "+95",
+    display: "+95",
+  },
+  {
+    answer: "+98",
+    display: "+98",
+  },
+  {
+    answer: "+211",
+    display: "+211",
+  },
+  {
+    answer: "+212",
+    display: "+212",
+  },
+  {
+    answer: "+213",
+    display: "+213",
+  },
+  {
+    answer: "+216",
+    display: "+216",
+  },
+  {
+    answer: "+218",
+    display: "+218",
+  },
+  {
+    answer: "+220",
+    display: "+220",
+  },
+  {
+    answer: "+221",
+    display: "+221",
+  },
+  {
+    answer: "+222",
+    display: "+222",
+  },
+  {
+    answer: "+223",
+    display: "+223",
+  },
+  {
+    answer: "+224",
+    display: "+224",
+  },
+  {
+    answer: "+225",
+    display: "+225",
+  },
+  {
+    answer: "+226",
+    display: "+226",
+  },
+  {
+    answer: "+227",
+    display: "+227",
+  },
+  {
+    answer: "+228",
+    display: "+228",
+  },
+  {
+    answer: "+229",
+    display: "+229",
+  },
+  {
+    answer: "+230",
+    display: "+230",
+  },
+  {
+    answer: "+231",
+    display: "+231",
+  },
+  {
+    answer: "+232",
+    display: "+232",
+  },
+  {
+    answer: "+233",
+    display: "+233",
+  },
+  {
+    answer: "+234",
+    display: "+234",
+  },
+  {
+    answer: "+235",
+    display: "+235",
+  },
+  {
+    answer: "+236",
+    display: "+236",
+  },
+  {
+    answer: "+237",
+    display: "+237",
+  },
+  {
+    answer: "+238",
+    display: "+238",
+  },
+  {
+    answer: "+239",
+    display: "+239",
+  },
+  {
+    answer: "+240",
+    display: "+240",
+  },
+  {
+    answer: "+241",
+    display: "+241",
+  },
+  {
+    answer: "+242",
+    display: "+242",
+  },
+  {
+    answer: "+243",
+    display: "+243",
+  },
+  {
+    answer: "+244",
+    display: "+244",
+  },
+  {
+    answer: "+245",
+    display: "+245",
+  },
+  {
+    answer: "+246",
+    display: "+246",
+  },
+  {
+    answer: "+248",
+    display: "+248",
+  },
+  {
+    answer: "+249",
+    display: "+249",
+  },
+  {
+    answer: "+250",
+    display: "+250",
+  },
+  {
+    answer: "+251",
+    display: "+251",
+  },
+  {
+    answer: "+252",
+    display: "+252",
+  },
+  {
+    answer: "+253",
+    display: "+253",
+  },
+  {
+    answer: "+254",
+    display: "+254",
+  },
+  {
+    answer: "+255",
+    display: "+255",
+  },
+  {
+    answer: "+256",
+    display: "+256",
+  },
+  {
+    answer: "+257",
+    display: "+257",
+  },
+  {
+    answer: "+258",
+    display: "+258",
+  },
+  {
+    answer: "+260",
+    display: "+260",
+  },
+  {
+    answer: "+261",
+    display: "+261",
+  },
+  {
+    answer: "+262",
+    display: "+262",
+  },
+  {
+    answer: "+263",
+    display: "+263",
+  },
+  {
+    answer: "+264",
+    display: "+264",
+  },
+  {
+    answer: "+265",
+    display: "+265",
+  },
+  {
+    answer: "+266",
+    display: "+266",
+  },
+  {
+    answer: "+267",
+    display: "+267",
+  },
+  {
+    answer: "+268",
+    display: "+268",
+  },
+  {
+    answer: "+269",
+    display: "+269",
+  },
+  {
+    answer: "+290",
+    display: "+290",
+  },
+  {
+    answer: "+291",
+    display: "+291",
+  },
+  {
+    answer: "+297",
+    display: "+297",
+  },
+  {
+    answer: "+298",
+    display: "+298",
+  },
+  {
+    answer: "+299",
+    display: "+299",
+  },
+  {
+    answer: "+350",
+    display: "+350",
+  },
+  {
+    answer: "+351",
+    display: "+351",
+  },
+  {
+    answer: "+352",
+    display: "+352",
+  },
+  {
+    answer: "+353",
+    display: "+353",
+  },
+  {
+    answer: "+354",
+    display: "+354",
+  },
+  {
+    answer: "+355",
+    display: "+355",
+  },
+  {
+    answer: "+356",
+    display: "+356",
+  },
+  {
+    answer: "+357",
+    display: "+357",
+  },
+  {
+    answer: "+358",
+    display: "+358",
+  },
+  {
+    answer: "+359",
+    display: "+359",
+  },
+  {
+    answer: "+370",
+    display: "+370",
+  },
+  {
+    answer: "+371",
+    display: "+371",
+  },
+  {
+    answer: "+372",
+    display: "+372",
+  },
+  {
+    answer: "+373",
+    display: "+373",
+  },
+  {
+    answer: "+374",
+    display: "+374",
+  },
+  {
+    answer: "+375",
+    display: "+375",
+  },
+  {
+    answer: "+376",
+    display: "+376",
+  },
+  {
+    answer: "+377",
+    display: "+377",
+  },
+  {
+    answer: "+378",
+    display: "+378",
+  },
+  {
+    answer: "+379",
+    display: "+379",
+  },
+  {
+    answer: "+380",
+    display: "+380",
+  },
+  {
+    answer: "+381",
+    display: "+381",
+  },
+  {
+    answer: "+382",
+    display: "+382",
+  },
+  {
+    answer: "+383",
+    display: "+383",
+  },
+  {
+    answer: "+385",
+    display: "+385",
+  },
+  {
+    answer: "+386",
+    display: "+386",
+  },
+  {
+    answer: "+387",
+    display: "+387",
+  },
+  {
+    answer: "+389",
+    display: "+389",
+  },
+  {
+    answer: "+420",
+    display: "+420",
+  },
+  {
+    answer: "+421",
+    display: "+421",
+  },
+  {
+    answer: "+423",
+    display: "+423",
+  },
+  {
+    answer: "+500",
+    display: "+500",
+  },
+  {
+    answer: "+501",
+    display: "+501",
+  },
+  {
+    answer: "+502",
+    display: "+502",
+  },
+  {
+    answer: "+503",
+    display: "+503",
+  },
+  {
+    answer: "+504",
+    display: "+504",
+  },
+  {
+    answer: "+505",
+    display: "+505",
+  },
+  {
+    answer: "+506",
+    display: "+506",
+  },
+  {
+    answer: "+507",
+    display: "+507",
+  },
+  {
+    answer: "+508",
+    display: "+508",
+  },
+  {
+    answer: "+509",
+    display: "+509",
+  },
+  {
+    answer: "+590",
+    display: "+590",
+  },
+  {
+    answer: "+591",
+    display: "+591",
+  },
+  {
+    answer: "+592",
+    display: "+592",
+  },
+  {
+    answer: "+593",
+    display: "+593",
+  },
+  {
+    answer: "+594",
+    display: "+594",
+  },
+  {
+    answer: "+595",
+    display: "+595",
+  },
+  {
+    answer: "+596",
+    display: "+596",
+  },
+  {
+    answer: "+597",
+    display: "+597",
+  },
+  {
+    answer: "+598",
+    display: "+598",
+  },
+  {
+    answer: "+599",
+    display: "+599",
+  },
+  {
+    answer: "+670",
+    display: "+670",
+  },
+  {
+    answer: "+672",
+    display: "+672",
+  },
+  {
+    answer: "+673",
+    display: "+673",
+  },
+  {
+    answer: "+674",
+    display: "+674",
+  },
+  {
+    answer: "+675",
+    display: "+675",
+  },
+  {
+    answer: "+676",
+    display: "+676",
+  },
+  {
+    answer: "+677",
+    display: "+677",
+  },
+  {
+    answer: "+678",
+    display: "+678",
+  },
+  {
+    answer: "+679",
+    display: "+679",
+  },
+  {
+    answer: "+680",
+    display: "+680",
+  },
+  {
+    answer: "+681",
+    display: "+681",
+  },
+  {
+    answer: "+682",
+    display: "+682",
+  },
+  {
+    answer: "+683",
+    display: "+683",
+  },
+  {
+    answer: "+685",
+    display: "+685",
+  },
+  {
+    answer: "+686",
+    display: "+686",
+  },
+  {
+    answer: "+687",
+    display: "+687",
+  },
+  {
+    answer: "+688",
+    display: "+688",
+  },
+  {
+    answer: "+689",
+    display: "+689",
+  },
+  {
+    answer: "+690",
+    display: "+690",
+  },
+  {
+    answer: "+691",
+    display: "+691",
+  },
+  {
+    answer: "+692",
+    display: "+692",
+  },
+  {
+    answer: "+850",
+    display: "+850",
+  },
+  {
+    answer: "+852",
+    display: "+852",
+  },
+  {
+    answer: "+853",
+    display: "+853",
+  },
+  {
+    answer: "+855",
+    display: "+855",
+  },
+  {
+    answer: "+856",
+    display: "+856",
+  },
+  {
+    answer: "+880",
+    display: "+880",
+  },
+  {
+    answer: "+886",
+    display: "+886",
+  },
+  {
+    answer: "+960",
+    display: "+960",
+  },
+  {
+    answer: "+961",
+    display: "+961",
+  },
+  {
+    answer: "+962",
+    display: "+962",
+  },
+  {
+    answer: "+963",
+    display: "+963",
+  },
+  {
+    answer: "+964",
+    display: "+964",
+  },
+  {
+    answer: "+965",
+    display: "+965",
+  },
+  {
+    answer: "+966",
+    display: "+966",
+  },
+  {
+    answer: "+967",
+    display: "+967",
+  },
+  {
+    answer: "+968",
+    display: "+968",
+  },
+  {
+    answer: "+970",
+    display: "+970",
+  },
+  {
+    answer: "+971",
+    display: "+971",
+  },
+  {
+    answer: "+972",
+    display: "+972",
+  },
+  {
+    answer: "+973",
+    display: "+973",
+  },
+  {
+    answer: "+974",
+    display: "+974",
+  },
+  {
+    answer: "+975",
+    display: "+975",
+  },
+  {
+    answer: "+976",
+    display: "+976",
+  },
+  {
+    answer: "+977",
+    display: "+977",
+  },
+  {
+    answer: "+992",
+    display: "+992",
+  },
+  {
+    answer: "+993",
+    display: "+993",
+  },
+  {
+    answer: "+994",
+    display: "+994",
+  },
+  {
+    answer: "+995",
+    display: "+995",
+  },
+  {
+    answer: "+996",
+    display: "+996",
+  },
+  {
+    answer: "+998",
+    display: "+998",
+  },
+];
+
+const CALLING_CODES_DESCRIPTION = `Identify all ${CALLING_CODE_QUESTIONS.length} countries by their calling codes, with filters for GeoGuessr countries only, continent, region, and subregion.`;
+
 /**
  * Tests recognition of countries and territories from their international
  * calling codes.
@@ -22,6 +851,7 @@ import type { FeatureQuiz } from "@/types/quiz";
 export const callingCodesQuiz: FeatureQuiz = {
   id: "calling-codes",
   name: "Calling Codes",
+  description: CALLING_CODES_DESCRIPTION,
 
   kind: "feature",
   mapId: "world-countries",
@@ -49,830 +879,5 @@ export const callingCodesQuiz: FeatureQuiz = {
     ],
   },
 
-  questions: [
-    {
-      answer: "+1",
-      display: "+1",
-    },
-    {
-      answer: "+7",
-      display: "+7",
-    },
-    {
-      answer: "+20",
-      display: "+20",
-    },
-    {
-      answer: "+27",
-      display: "+27",
-    },
-    {
-      answer: "+30",
-      display: "+30",
-    },
-    {
-      answer: "+31",
-      display: "+31",
-    },
-    {
-      answer: "+32",
-      display: "+32",
-    },
-    {
-      answer: "+33",
-      display: "+33",
-    },
-    {
-      answer: "+34",
-      display: "+34",
-    },
-    {
-      answer: "+36",
-      display: "+36",
-    },
-    {
-      answer: "+39",
-      display: "+39",
-    },
-    {
-      answer: "+40",
-      display: "+40",
-    },
-    {
-      answer: "+41",
-      display: "+41",
-    },
-    {
-      answer: "+43",
-      display: "+43",
-    },
-    {
-      answer: "+44",
-      display: "+44",
-    },
-    {
-      answer: "+45",
-      display: "+45",
-    },
-    {
-      answer: "+46",
-      display: "+46",
-    },
-    {
-      answer: "+47",
-      display: "+47",
-    },
-    {
-      answer: "+48",
-      display: "+48",
-    },
-    {
-      answer: "+49",
-      display: "+49",
-    },
-    {
-      answer: "+51",
-      display: "+51",
-    },
-    {
-      answer: "+52",
-      display: "+52",
-    },
-    {
-      answer: "+53",
-      display: "+53",
-    },
-    {
-      answer: "+54",
-      display: "+54",
-    },
-    {
-      answer: "+55",
-      display: "+55",
-    },
-    {
-      answer: "+56",
-      display: "+56",
-    },
-    {
-      answer: "+57",
-      display: "+57",
-    },
-    {
-      answer: "+58",
-      display: "+58",
-    },
-    {
-      answer: "+60",
-      display: "+60",
-    },
-    {
-      answer: "+61",
-      display: "+61",
-    },
-    {
-      answer: "+62",
-      display: "+62",
-    },
-    {
-      answer: "+63",
-      display: "+63",
-    },
-    {
-      answer: "+64",
-      display: "+64",
-    },
-    {
-      answer: "+65",
-      display: "+65",
-    },
-    {
-      answer: "+66",
-      display: "+66",
-    },
-    {
-      answer: "+81",
-      display: "+81",
-    },
-    {
-      answer: "+82",
-      display: "+82",
-    },
-    {
-      answer: "+84",
-      display: "+84",
-    },
-    {
-      answer: "+86",
-      display: "+86",
-    },
-    {
-      answer: "+90",
-      display: "+90",
-    },
-    {
-      answer: "+91",
-      display: "+91",
-    },
-    {
-      answer: "+92",
-      display: "+92",
-    },
-    {
-      answer: "+93",
-      display: "+93",
-    },
-    {
-      answer: "+94",
-      display: "+94",
-    },
-    {
-      answer: "+95",
-      display: "+95",
-    },
-    {
-      answer: "+98",
-      display: "+98",
-    },
-    {
-      answer: "+211",
-      display: "+211",
-    },
-    {
-      answer: "+212",
-      display: "+212",
-    },
-    {
-      answer: "+213",
-      display: "+213",
-    },
-    {
-      answer: "+216",
-      display: "+216",
-    },
-    {
-      answer: "+218",
-      display: "+218",
-    },
-    {
-      answer: "+220",
-      display: "+220",
-    },
-    {
-      answer: "+221",
-      display: "+221",
-    },
-    {
-      answer: "+222",
-      display: "+222",
-    },
-    {
-      answer: "+223",
-      display: "+223",
-    },
-    {
-      answer: "+224",
-      display: "+224",
-    },
-    {
-      answer: "+225",
-      display: "+225",
-    },
-    {
-      answer: "+226",
-      display: "+226",
-    },
-    {
-      answer: "+227",
-      display: "+227",
-    },
-    {
-      answer: "+228",
-      display: "+228",
-    },
-    {
-      answer: "+229",
-      display: "+229",
-    },
-    {
-      answer: "+230",
-      display: "+230",
-    },
-    {
-      answer: "+231",
-      display: "+231",
-    },
-    {
-      answer: "+232",
-      display: "+232",
-    },
-    {
-      answer: "+233",
-      display: "+233",
-    },
-    {
-      answer: "+234",
-      display: "+234",
-    },
-    {
-      answer: "+235",
-      display: "+235",
-    },
-    {
-      answer: "+236",
-      display: "+236",
-    },
-    {
-      answer: "+237",
-      display: "+237",
-    },
-    {
-      answer: "+238",
-      display: "+238",
-    },
-    {
-      answer: "+239",
-      display: "+239",
-    },
-    {
-      answer: "+240",
-      display: "+240",
-    },
-    {
-      answer: "+241",
-      display: "+241",
-    },
-    {
-      answer: "+242",
-      display: "+242",
-    },
-    {
-      answer: "+243",
-      display: "+243",
-    },
-    {
-      answer: "+244",
-      display: "+244",
-    },
-    {
-      answer: "+245",
-      display: "+245",
-    },
-    {
-      answer: "+246",
-      display: "+246",
-    },
-    {
-      answer: "+248",
-      display: "+248",
-    },
-    {
-      answer: "+249",
-      display: "+249",
-    },
-    {
-      answer: "+250",
-      display: "+250",
-    },
-    {
-      answer: "+251",
-      display: "+251",
-    },
-    {
-      answer: "+252",
-      display: "+252",
-    },
-    {
-      answer: "+253",
-      display: "+253",
-    },
-    {
-      answer: "+254",
-      display: "+254",
-    },
-    {
-      answer: "+255",
-      display: "+255",
-    },
-    {
-      answer: "+256",
-      display: "+256",
-    },
-    {
-      answer: "+257",
-      display: "+257",
-    },
-    {
-      answer: "+258",
-      display: "+258",
-    },
-    {
-      answer: "+260",
-      display: "+260",
-    },
-    {
-      answer: "+261",
-      display: "+261",
-    },
-    {
-      answer: "+262",
-      display: "+262",
-    },
-    {
-      answer: "+263",
-      display: "+263",
-    },
-    {
-      answer: "+264",
-      display: "+264",
-    },
-    {
-      answer: "+265",
-      display: "+265",
-    },
-    {
-      answer: "+266",
-      display: "+266",
-    },
-    {
-      answer: "+267",
-      display: "+267",
-    },
-    {
-      answer: "+268",
-      display: "+268",
-    },
-    {
-      answer: "+269",
-      display: "+269",
-    },
-    {
-      answer: "+290",
-      display: "+290",
-    },
-    {
-      answer: "+291",
-      display: "+291",
-    },
-    {
-      answer: "+297",
-      display: "+297",
-    },
-    {
-      answer: "+298",
-      display: "+298",
-    },
-    {
-      answer: "+299",
-      display: "+299",
-    },
-    {
-      answer: "+350",
-      display: "+350",
-    },
-    {
-      answer: "+351",
-      display: "+351",
-    },
-    {
-      answer: "+352",
-      display: "+352",
-    },
-    {
-      answer: "+353",
-      display: "+353",
-    },
-    {
-      answer: "+354",
-      display: "+354",
-    },
-    {
-      answer: "+355",
-      display: "+355",
-    },
-    {
-      answer: "+356",
-      display: "+356",
-    },
-    {
-      answer: "+357",
-      display: "+357",
-    },
-    {
-      answer: "+358",
-      display: "+358",
-    },
-    {
-      answer: "+359",
-      display: "+359",
-    },
-    {
-      answer: "+370",
-      display: "+370",
-    },
-    {
-      answer: "+371",
-      display: "+371",
-    },
-    {
-      answer: "+372",
-      display: "+372",
-    },
-    {
-      answer: "+373",
-      display: "+373",
-    },
-    {
-      answer: "+374",
-      display: "+374",
-    },
-    {
-      answer: "+375",
-      display: "+375",
-    },
-    {
-      answer: "+376",
-      display: "+376",
-    },
-    {
-      answer: "+377",
-      display: "+377",
-    },
-    {
-      answer: "+378",
-      display: "+378",
-    },
-    {
-      answer: "+379",
-      display: "+379",
-    },
-    {
-      answer: "+380",
-      display: "+380",
-    },
-    {
-      answer: "+381",
-      display: "+381",
-    },
-    {
-      answer: "+382",
-      display: "+382",
-    },
-    {
-      answer: "+383",
-      display: "+383",
-    },
-    {
-      answer: "+385",
-      display: "+385",
-    },
-    {
-      answer: "+386",
-      display: "+386",
-    },
-    {
-      answer: "+387",
-      display: "+387",
-    },
-    {
-      answer: "+389",
-      display: "+389",
-    },
-    {
-      answer: "+420",
-      display: "+420",
-    },
-    {
-      answer: "+421",
-      display: "+421",
-    },
-    {
-      answer: "+423",
-      display: "+423",
-    },
-    {
-      answer: "+500",
-      display: "+500",
-    },
-    {
-      answer: "+501",
-      display: "+501",
-    },
-    {
-      answer: "+502",
-      display: "+502",
-    },
-    {
-      answer: "+503",
-      display: "+503",
-    },
-    {
-      answer: "+504",
-      display: "+504",
-    },
-    {
-      answer: "+505",
-      display: "+505",
-    },
-    {
-      answer: "+506",
-      display: "+506",
-    },
-    {
-      answer: "+507",
-      display: "+507",
-    },
-    {
-      answer: "+508",
-      display: "+508",
-    },
-    {
-      answer: "+509",
-      display: "+509",
-    },
-    {
-      answer: "+590",
-      display: "+590",
-    },
-    {
-      answer: "+591",
-      display: "+591",
-    },
-    {
-      answer: "+592",
-      display: "+592",
-    },
-    {
-      answer: "+593",
-      display: "+593",
-    },
-    {
-      answer: "+594",
-      display: "+594",
-    },
-    {
-      answer: "+595",
-      display: "+595",
-    },
-    {
-      answer: "+596",
-      display: "+596",
-    },
-    {
-      answer: "+597",
-      display: "+597",
-    },
-    {
-      answer: "+598",
-      display: "+598",
-    },
-    {
-      answer: "+599",
-      display: "+599",
-    },
-    {
-      answer: "+670",
-      display: "+670",
-    },
-    {
-      answer: "+672",
-      display: "+672",
-    },
-    {
-      answer: "+673",
-      display: "+673",
-    },
-    {
-      answer: "+674",
-      display: "+674",
-    },
-    {
-      answer: "+675",
-      display: "+675",
-    },
-    {
-      answer: "+676",
-      display: "+676",
-    },
-    {
-      answer: "+677",
-      display: "+677",
-    },
-    {
-      answer: "+678",
-      display: "+678",
-    },
-    {
-      answer: "+679",
-      display: "+679",
-    },
-    {
-      answer: "+680",
-      display: "+680",
-    },
-    {
-      answer: "+681",
-      display: "+681",
-    },
-    {
-      answer: "+682",
-      display: "+682",
-    },
-    {
-      answer: "+683",
-      display: "+683",
-    },
-    {
-      answer: "+685",
-      display: "+685",
-    },
-    {
-      answer: "+686",
-      display: "+686",
-    },
-    {
-      answer: "+687",
-      display: "+687",
-    },
-    {
-      answer: "+688",
-      display: "+688",
-    },
-    {
-      answer: "+689",
-      display: "+689",
-    },
-    {
-      answer: "+690",
-      display: "+690",
-    },
-    {
-      answer: "+691",
-      display: "+691",
-    },
-    {
-      answer: "+692",
-      display: "+692",
-    },
-    {
-      answer: "+850",
-      display: "+850",
-    },
-    {
-      answer: "+852",
-      display: "+852",
-    },
-    {
-      answer: "+853",
-      display: "+853",
-    },
-    {
-      answer: "+855",
-      display: "+855",
-    },
-    {
-      answer: "+856",
-      display: "+856",
-    },
-    {
-      answer: "+880",
-      display: "+880",
-    },
-    {
-      answer: "+886",
-      display: "+886",
-    },
-    {
-      answer: "+960",
-      display: "+960",
-    },
-    {
-      answer: "+961",
-      display: "+961",
-    },
-    {
-      answer: "+962",
-      display: "+962",
-    },
-    {
-      answer: "+963",
-      display: "+963",
-    },
-    {
-      answer: "+964",
-      display: "+964",
-    },
-    {
-      answer: "+965",
-      display: "+965",
-    },
-    {
-      answer: "+966",
-      display: "+966",
-    },
-    {
-      answer: "+967",
-      display: "+967",
-    },
-    {
-      answer: "+968",
-      display: "+968",
-    },
-    {
-      answer: "+970",
-      display: "+970",
-    },
-    {
-      answer: "+971",
-      display: "+971",
-    },
-    {
-      answer: "+972",
-      display: "+972",
-    },
-    {
-      answer: "+973",
-      display: "+973",
-    },
-    {
-      answer: "+974",
-      display: "+974",
-    },
-    {
-      answer: "+975",
-      display: "+975",
-    },
-    {
-      answer: "+976",
-      display: "+976",
-    },
-    {
-      answer: "+977",
-      display: "+977",
-    },
-    {
-      answer: "+992",
-      display: "+992",
-    },
-    {
-      answer: "+993",
-      display: "+993",
-    },
-    {
-      answer: "+994",
-      display: "+994",
-    },
-    {
-      answer: "+995",
-      display: "+995",
-    },
-    {
-      answer: "+996",
-      display: "+996",
-    },
-    {
-      answer: "+998",
-      display: "+998",
-    },
-  ],
+  questions: CALLING_CODE_QUESTIONS,
 };

@@ -17,8 +17,8 @@ export const ken: CountryData = {
   region: "Eastern Africa",
   callingCode: "254",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/ken.svg",
-  imageUrl: "/data/country-images/ken.svg",
+  flagUrl: "/data/global/countries/flags/ken.svg",
+  imageUrl: "/data/global/countries/silhouettes/ken.svg",
   capital: "Nairobi",
   population: 54227015,
 };

@@ -17,8 +17,8 @@ export const wlf: CountryData = {
   region: "Polynesia",
   callingCode: "681",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/wlf.svg",
-  imageUrl: "/data/country-images/wlf.svg",
+  flagUrl: "/data/global/countries/flags/wlf.svg",
+  imageUrl: "/data/global/countries/silhouettes/wlf.svg",
   capital: "Mata-Utu",
   population: 11151,
 };

@@ -17,8 +17,8 @@ export const col: CountryData = {
   region: "South America",
   callingCode: "57",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/col.svg",
-  imageUrl: "/data/country-images/col.svg",
+  flagUrl: "/data/global/countries/flags/col.svg",
+  imageUrl: "/data/global/countries/silhouettes/col.svg",
   capital: "Bogotá",
   population: 53399171,
 };

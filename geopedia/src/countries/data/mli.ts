@@ -17,8 +17,8 @@ export const mli: CountryData = {
   region: "Western Africa",
   callingCode: "223",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/mli.svg",
-  imageUrl: "/data/country-images/mli.svg",
+  flagUrl: "/data/global/countries/flags/mli.svg",
+  imageUrl: "/data/global/countries/silhouettes/mli.svg",
   capital: "Bamako",
   population: 23929000,
 };

@@ -17,8 +17,8 @@ export const jam: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/jam.svg",
-  imageUrl: "/data/country-images/jam.svg",
+  flagUrl: "/data/global/countries/flags/jam.svg",
+  imageUrl: "/data/global/countries/silhouettes/jam.svg",
   capital: "Kingston",
   population: 2774538,
 };

@@ -1,13 +1,16 @@
 /**
- * Loads and persists user settings for GeoPedia town quizzes.
+ * Loads and persists user-configurable settings for an individual town quiz.
  *
- * Town quiz settings are stored in browser localStorage and scoped by both
- * country ID and quiz ID so every quiz can retain its own configuration.
+ * Settings for all town quizzes are stored together in localStorage under one
+ * shared storage entry. Each quiz is identified by a key built from its
+ * country ID and quiz ID.
+ *
+ * Persisted values are validated field-by-field when loaded so invalid or
+ * outdated values safely fall back to the current defaults.
  *
  * This hook is expected to run only after GeoPedia's existing quiz hydration
  * boundary has completed. That prevents server rendering from accessing
- * localStorage and ensures the map is initially created using the persisted
- * settings rather than briefly rendering defaults.
+ * localStorage and ensures the quiz initially uses its persisted settings.
  */
 
 "use client";
@@ -15,8 +18,7 @@
 import {
   type Dispatch,
   type SetStateAction,
-  useCallback,
-  useMemo,
+  useEffect,
   useState,
 } from "react";
 
@@ -25,37 +27,40 @@ import {
   type TownQuizSettings,
 } from "@/types/townQuizSettings";
 
-/** localStorage key containing the town quiz settings dictionary for every quiz. */
+/** localStorage entry containing settings for every town quiz. */
 const TOWN_QUIZ_SETTINGS_STORAGE_KEY = "town-quiz-settings";
+
+/**
+ * Persisted town-quiz settings keyed by country and quiz ID.
+ *
+ * Values are treated as unknown when loaded so each field can be validated
+ * before being exposed to the application.
+ */
+type StoredTownQuizSettings = Record<string, unknown>;
 
 /**
  * Result returned by `useTownQuizSettings`.
  */
 type UseTownQuizSettingsResult = {
-  /** Current persisted town settings. */
+  /** Current persisted town quiz settings. */
   settings: TownQuizSettings;
 
-  /**
-   * React-compatible settings setter.
-   *
-   * Both direct objects and functional updates are supported.
-   */
+  /** React state setter for the current town quiz settings. */
   setSettings: Dispatch<SetStateAction<TownQuizSettings>>;
 };
 
 /**
- * Builds the localStorage key belonging to one country quiz.
+ * Builds the dictionary key belonging to one town quiz.
  *
  * @param countryId - Country containing the quiz.
  * @param quizId - Unique town quiz identifier.
- * @returns Stable localStorage key.
+ * @returns Stable key within the shared settings dictionary.
  */
-function getStorageKey(countryId: string, quizId: string): string {
-  return [
-    TOWN_QUIZ_SETTINGS_STORAGE_KEY,
-    countryId.toLowerCase(),
-    quizId.toLowerCase(),
-  ].join(":");
+function createTownQuizSettingsKey(
+  countryId: string,
+  quizId: string,
+): string {
+  return `${countryId.toLowerCase()}_${quizId.toLowerCase()}`;
 }
 
 /**
@@ -81,45 +86,40 @@ function isQuestionLanguage(
 }
 
 /**
- * Parses persisted settings while safely falling back field-by-field.
+ * Parses one quiz's persisted settings with field-level fallbacks.
  *
- * Field-level fallbacks make settings forward-compatible. If a future version
- * adds or changes one setting, valid existing values can still be retained.
+ * Field-level validation allows valid existing settings to survive additions
+ * or changes to the settings model while rejecting unsupported persisted
+ * values.
  *
- * @param rawValue - Raw localStorage string.
+ * @param value - Persisted value belonging to one town quiz.
  * @returns Validated town quiz settings.
  */
-function parseStoredSettings(
-  rawValue: string | null,
-): TownQuizSettings {
-  if (!rawValue) {
+function parseStoredQuizSettings(value: unknown): TownQuizSettings {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
     return {
       ...DEFAULT_TOWN_QUIZ_SETTINGS,
     };
   }
 
-  try {
-    const parsed = JSON.parse(rawValue) as Record<string, unknown>;
+  const storedSettings = value as Record<string, unknown>;
 
-    return {
-      mode: isTownQuizMode(parsed.mode)
-        ? parsed.mode
-        : DEFAULT_TOWN_QUIZ_SETTINGS.mode,
+  return {
+    mode: isTownQuizMode(storedSettings.mode)
+      ? storedSettings.mode
+      : DEFAULT_TOWN_QUIZ_SETTINGS.mode,
 
-      questionLanguage: isQuestionLanguage(parsed.questionLanguage)
-        ? parsed.questionLanguage
-        : DEFAULT_TOWN_QUIZ_SETTINGS.questionLanguage,
+    questionLanguage: isQuestionLanguage(
+      storedSettings.questionLanguage,
+    )
+      ? storedSettings.questionLanguage
+      : DEFAULT_TOWN_QUIZ_SETTINGS.questionLanguage,
 
-      showLabels:
-        typeof parsed.showLabels === "boolean"
-          ? parsed.showLabels
-          : DEFAULT_TOWN_QUIZ_SETTINGS.showLabels,
-    };
-  } catch {
-    return {
-      ...DEFAULT_TOWN_QUIZ_SETTINGS,
-    };
-  }
+    showLabels:
+      typeof storedSettings.showLabels === "boolean"
+        ? storedSettings.showLabels
+        : DEFAULT_TOWN_QUIZ_SETTINGS.showLabels,
+  };
 }
 
 /**
@@ -127,49 +127,75 @@ function parseStoredSettings(
  *
  * @param countryId - Country containing the quiz.
  * @param quizId - Town quiz identifier.
- * @returns Current settings and a persistence-aware setter.
+ * @returns Current settings and their React state setter.
  */
 export function useTownQuizSettings(
   countryId: string,
   quizId: string,
 ): UseTownQuizSettingsResult {
-  const storageKey = useMemo(
-    () => getStorageKey(countryId, quizId),
-    [countryId, quizId],
+  const quizSettingsKey = createTownQuizSettingsKey(
+    countryId,
+    quizId,
   );
 
   /**
-   * The surrounding quiz hydration boundary guarantees this initializer runs in
-   * the browser, where localStorage is available.
+   * Loads this quiz's initial settings exactly once when the hook mounts.
+   *
+   * The surrounding quiz hydration boundary guarantees that this initializer
+   * runs in the browser, where localStorage is available.
    */
-  const [settings, setSettingsState] = useState<TownQuizSettings>(
-    () =>
-      parseStoredSettings(window.localStorage.getItem(storageKey)),
-  );
+  const [settings, setSettings] = useState<TownQuizSettings>(() => {
+    try {
+      const storedValue = window.localStorage.getItem(
+        TOWN_QUIZ_SETTINGS_STORAGE_KEY,
+      );
+
+      if (!storedValue) {
+        return {
+          ...DEFAULT_TOWN_QUIZ_SETTINGS,
+        };
+      }
+
+      const storedSettings = JSON.parse(
+        storedValue,
+      ) as StoredTownQuizSettings;
+
+      return parseStoredQuizSettings(storedSettings[quizSettingsKey]);
+    } catch (error) {
+      console.error("Failed to load town quiz settings:", error);
+
+      return {
+        ...DEFAULT_TOWN_QUIZ_SETTINGS,
+      };
+    }
+  });
 
   /**
-   * Persists every settings update at the same time React state changes.
+   * Persists this quiz's settings whenever they change.
+   *
+   * Only the current quiz's dictionary entry is replaced. Settings belonging
+   * to other town quizzes remain untouched.
    */
-  const setSettings = useCallback<
-    Dispatch<SetStateAction<TownQuizSettings>>
-  >(
-    (nextSettings) => {
-      setSettingsState((currentSettings) => {
-        const resolvedSettings =
-          typeof nextSettings === "function"
-            ? nextSettings(currentSettings)
-            : nextSettings;
+  useEffect(() => {
+    try {
+      const storedValue = window.localStorage.getItem(
+        TOWN_QUIZ_SETTINGS_STORAGE_KEY,
+      );
 
-        window.localStorage.setItem(
-          storageKey,
-          JSON.stringify(resolvedSettings),
-        );
+      const storedSettings: StoredTownQuizSettings = storedValue
+        ? (JSON.parse(storedValue) as StoredTownQuizSettings)
+        : {};
 
-        return resolvedSettings;
-      });
-    },
-    [storageKey],
-  );
+      storedSettings[quizSettingsKey] = settings;
+
+      window.localStorage.setItem(
+        TOWN_QUIZ_SETTINGS_STORAGE_KEY,
+        JSON.stringify(storedSettings),
+      );
+    } catch (error) {
+      console.error("Failed to save town quiz settings:", error);
+    }
+  }, [quizSettingsKey, settings]);
 
   return {
     settings,

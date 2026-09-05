@@ -17,8 +17,8 @@ export const moz: CountryData = {
   region: "Eastern Africa",
   callingCode: "258",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/moz.svg",
-  imageUrl: "/data/country-images/moz.svg",
+  flagUrl: "/data/global/countries/flags/moz.svg",
+  imageUrl: "/data/global/countries/silhouettes/moz.svg",
   capital: "Maputo",
   population: 34958973,
 };

@@ -17,8 +17,8 @@ export const dom: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/dom.svg",
-  imageUrl: "/data/country-images/dom.svg",
+  flagUrl: "/data/global/countries/flags/dom.svg",
+  imageUrl: "/data/global/countries/silhouettes/dom.svg",
   capital: "Santo Domingo",
   population: 11532151,
 };

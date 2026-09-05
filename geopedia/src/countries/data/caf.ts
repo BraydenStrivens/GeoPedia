@@ -17,8 +17,8 @@ export const caf: CountryData = {
   region: "Middle Africa",
   callingCode: "236",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/caf.svg",
-  imageUrl: "/data/country-images/caf.svg",
+  flagUrl: "/data/global/countries/flags/caf.svg",
+  imageUrl: "/data/global/countries/silhouettes/caf.svg",
   capital: "Bangui",
   population: 5513282,
 };

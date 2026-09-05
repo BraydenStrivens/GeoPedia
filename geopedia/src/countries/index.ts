@@ -515,6 +515,7 @@ export function getCountry(
  */
 export function getCountries(): CountryData[] {
   return Object.values(countries).filter(
-    (country): country is CountryData => country !== undefined,
+    (country): country is CountryData =>
+      country !== undefined,
   );
 }

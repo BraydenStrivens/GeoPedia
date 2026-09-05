@@ -17,8 +17,8 @@ export const bhs: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/bhs.svg",
-  imageUrl: "/data/country-images/bhs.svg",
+  flagUrl: "/data/global/countries/flags/bhs.svg",
+  imageUrl: "/data/global/countries/silhouettes/bhs.svg",
   capital: "Nassau",
   population: 398165,
 };

@@ -17,8 +17,8 @@ export const tcd: CountryData = {
   region: "Middle Africa",
   callingCode: "235",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/tcd.svg",
-  imageUrl: "/data/country-images/tcd.svg",
+  flagUrl: "/data/global/countries/flags/tcd.svg",
+  imageUrl: "/data/global/countries/silhouettes/tcd.svg",
   capital: "N'Djamena",
   population: 20031602,
 };

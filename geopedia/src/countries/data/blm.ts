@@ -17,8 +17,8 @@ export const blm: CountryData = {
   region: "Caribbean",
   callingCode: "590",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/blm.svg",
-  imageUrl: "/data/country-images/blm.svg",
+  flagUrl: "/data/global/countries/flags/blm.svg",
+  imageUrl: "/data/global/countries/silhouettes/blm.svg",
   capital: "Gustavia",
   population: 4255,
 };

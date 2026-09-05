@@ -17,8 +17,8 @@ export const usa: CountryData = {
   region: "North America",
   callingCode: "1",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/usa.svg",
-  imageUrl: "/data/country-images/usa.svg",
+  flagUrl: "/data/global/countries/flags/usa.svg",
+  imageUrl: "/data/global/countries/silhouettes/usa.svg",
   capital: "Washington, D.C.",
   population: 341784857,
 };

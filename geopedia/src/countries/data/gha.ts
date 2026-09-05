@@ -17,8 +17,8 @@ export const gha: CountryData = {
   region: "Western Africa",
   callingCode: "233",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/gha.svg",
-  imageUrl: "/data/country-images/gha.svg",
+  flagUrl: "/data/global/countries/flags/gha.svg",
+  imageUrl: "/data/global/countries/silhouettes/gha.svg",
   capital: "Accra",
   population: 34378768,
 };

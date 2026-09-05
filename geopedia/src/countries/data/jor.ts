@@ -17,8 +17,8 @@ export const jor: CountryData = {
   region: "Western Asia",
   callingCode: "962",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/jor.svg",
-  imageUrl: "/data/country-images/jor.svg",
+  flagUrl: "/data/global/countries/flags/jor.svg",
+  imageUrl: "/data/global/countries/silhouettes/jor.svg",
   capital: "Amman",
   population: 11937000,
 };

@@ -17,8 +17,8 @@ export const lbn: CountryData = {
   region: "Western Asia",
   callingCode: "961",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/lbn.svg",
-  imageUrl: "/data/country-images/lbn.svg",
+  flagUrl: "/data/global/countries/flags/lbn.svg",
+  imageUrl: "/data/global/countries/silhouettes/lbn.svg",
   capital: "Beirut",
   population: 5895466,
 };

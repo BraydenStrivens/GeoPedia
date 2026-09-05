@@ -17,8 +17,8 @@ export const egy: CountryData = {
   region: "Northern Africa",
   callingCode: "20",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/egy.svg",
-  imageUrl: "/data/country-images/egy.svg",
+  flagUrl: "/data/global/countries/flags/egy.svg",
+  imageUrl: "/data/global/countries/silhouettes/egy.svg",
   capital: "Cairo",
   population: 108613296,
 };

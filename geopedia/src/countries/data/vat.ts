@@ -17,8 +17,8 @@ export const vat: CountryData = {
   region: "Southern Europe",
   callingCode: "379",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/vat.svg",
-  imageUrl: "/data/country-images/vat.svg",
+  flagUrl: "/data/global/countries/flags/vat.svg",
+  imageUrl: "/data/global/countries/silhouettes/vat.svg",
   capital: "Vatican City",
   population: 882,
 };

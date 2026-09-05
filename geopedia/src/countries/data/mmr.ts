@@ -17,8 +17,8 @@ export const mmr: CountryData = {
   region: "South-Eastern Asia",
   callingCode: "95",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/mmr.svg",
-  imageUrl: "/data/country-images/mmr.svg",
+  flagUrl: "/data/global/countries/flags/mmr.svg",
+  imageUrl: "/data/global/countries/silhouettes/mmr.svg",
   capital: "Naypyidaw",
   population: 51375327,
 };

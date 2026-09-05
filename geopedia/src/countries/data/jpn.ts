@@ -17,8 +17,8 @@ export const jpn: CountryData = {
   region: "Eastern Asia",
   callingCode: "81",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/jpn.svg",
-  imageUrl: "/data/country-images/jpn.svg",
+  flagUrl: "/data/global/countries/flags/jpn.svg",
+  imageUrl: "/data/global/countries/silhouettes/jpn.svg",
   capital: "Tokyo",
   population: 122680000,
 };

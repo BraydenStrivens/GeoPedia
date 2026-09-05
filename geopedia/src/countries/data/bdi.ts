@@ -17,8 +17,8 @@ export const bdi: CountryData = {
   region: "Eastern Africa",
   callingCode: "257",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/bdi.svg",
-  imageUrl: "/data/country-images/bdi.svg",
+  flagUrl: "/data/global/countries/flags/bdi.svg",
+  imageUrl: "/data/global/countries/silhouettes/bdi.svg",
   capital: "Gitega",
   population: 12332788,
 };

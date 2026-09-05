@@ -17,8 +17,8 @@ export const kir: CountryData = {
   region: "Micronesia",
   callingCode: "686",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/kir.svg",
-  imageUrl: "/data/country-images/kir.svg",
+  flagUrl: "/data/global/countries/flags/kir.svg",
+  imageUrl: "/data/global/countries/silhouettes/kir.svg",
   capital: "South Tarawa",
   population: 120740,
 };

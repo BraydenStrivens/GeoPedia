@@ -17,8 +17,8 @@ export const bgr: CountryData = {
   region: "Southeast Europe",
   callingCode: "359",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/bgr.svg",
-  imageUrl: "/data/country-images/bgr.svg",
+  flagUrl: "/data/global/countries/flags/bgr.svg",
+  imageUrl: "/data/global/countries/silhouettes/bgr.svg",
   capital: "Sofia",
   population: 6423207,
 };

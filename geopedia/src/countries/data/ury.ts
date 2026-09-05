@@ -17,8 +17,8 @@ export const ury: CountryData = {
   region: "South America",
   callingCode: "598",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/ury.svg",
-  imageUrl: "/data/country-images/ury.svg",
+  flagUrl: "/data/global/countries/flags/ury.svg",
+  imageUrl: "/data/global/countries/silhouettes/ury.svg",
   capital: "Montevideo",
   population: 3480601,
 };

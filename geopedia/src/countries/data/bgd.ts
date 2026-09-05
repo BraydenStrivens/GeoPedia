@@ -17,8 +17,8 @@ export const bgd: CountryData = {
   region: "Southern Asia",
   callingCode: "880",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/bgd.svg",
-  imageUrl: "/data/country-images/bgd.svg",
+  flagUrl: "/data/global/countries/flags/bgd.svg",
+  imageUrl: "/data/global/countries/silhouettes/bgd.svg",
   capital: "Dhaka",
   population: 169828911,
 };

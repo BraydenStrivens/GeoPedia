@@ -17,8 +17,8 @@ export const civ: CountryData = {
   region: "Western Africa",
   callingCode: "225",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/civ.svg",
-  imageUrl: "/data/country-images/civ.svg",
+  flagUrl: "/data/global/countries/flags/civ.svg",
+  imageUrl: "/data/global/countries/silhouettes/civ.svg",
   capital: "Yamoussoukro",
   population: 31500000,
 };

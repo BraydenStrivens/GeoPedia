@@ -17,8 +17,8 @@ export const ltu: CountryData = {
   region: "Northern Europe",
   callingCode: "370",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/ltu.svg",
-  imageUrl: "/data/country-images/ltu.svg",
+  flagUrl: "/data/global/countries/flags/ltu.svg",
+  imageUrl: "/data/global/countries/silhouettes/ltu.svg",
   capital: "Vilnius",
   population: 2886179,
 };

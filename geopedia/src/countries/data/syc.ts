@@ -17,8 +17,8 @@ export const syc: CountryData = {
   region: "Eastern Africa",
   callingCode: "248",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/syc.svg",
-  imageUrl: "/data/country-images/syc.svg",
+  flagUrl: "/data/global/countries/flags/syc.svg",
+  imageUrl: "/data/global/countries/silhouettes/syc.svg",
   capital: "Victoria",
   population: 123097,
 };

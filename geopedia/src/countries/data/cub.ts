@@ -17,8 +17,8 @@ export const cub: CountryData = {
   region: "Caribbean",
   callingCode: "53",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/cub.svg",
-  imageUrl: "/data/country-images/cub.svg",
+  flagUrl: "/data/global/countries/flags/cub.svg",
+  imageUrl: "/data/global/countries/silhouettes/cub.svg",
   capital: "Havana",
   population: 9434593,
 };

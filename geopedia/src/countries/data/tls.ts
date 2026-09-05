@@ -17,8 +17,8 @@ export const tls: CountryData = {
   region: "South-Eastern Asia",
   callingCode: "670",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/tls.svg",
-  imageUrl: "/data/country-images/tls.svg",
+  flagUrl: "/data/global/countries/flags/tls.svg",
+  imageUrl: "/data/global/countries/silhouettes/tls.svg",
   capital: "Dili",
   population: 1409452,
 };

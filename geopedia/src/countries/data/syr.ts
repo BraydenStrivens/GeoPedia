@@ -17,8 +17,8 @@ export const syr: CountryData = {
   region: "Western Asia",
   callingCode: "963",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/syr.svg",
-  imageUrl: "/data/country-images/syr.svg",
+  flagUrl: "/data/global/countries/flags/syr.svg",
+  imageUrl: "/data/global/countries/silhouettes/syr.svg",
   capital: "Damascus",
   population: 26472497,
 };

@@ -17,8 +17,8 @@ export const niu: CountryData = {
   region: "Polynesia",
   callingCode: "683",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/niu.svg",
-  imageUrl: "/data/country-images/niu.svg",
+  flagUrl: "/data/global/countries/flags/niu.svg",
+  imageUrl: "/data/global/countries/silhouettes/niu.svg",
   capital: "Alofi",
   population: 1681,
 };

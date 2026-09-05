@@ -17,8 +17,8 @@ export const cod: CountryData = {
   region: "Middle Africa",
   callingCode: "243",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/cod.svg",
-  imageUrl: "/data/country-images/cod.svg",
+  flagUrl: "/data/global/countries/flags/cod.svg",
+  imageUrl: "/data/global/countries/silhouettes/cod.svg",
   capital: "Kinshasa",
   population: 116452000,
 };

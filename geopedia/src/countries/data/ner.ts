@@ -17,8 +17,8 @@ export const ner: CountryData = {
   region: "Western Africa",
   callingCode: "227",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/ner.svg",
-  imageUrl: "/data/country-images/ner.svg",
+  flagUrl: "/data/global/countries/flags/ner.svg",
+  imageUrl: "/data/global/countries/silhouettes/ner.svg",
   capital: "Niamey",
   population: 27522750,
 };

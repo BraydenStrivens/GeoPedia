@@ -17,8 +17,8 @@ export const rou: CountryData = {
   region: "Southeast Europe",
   callingCode: "40",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/rou.svg",
-  imageUrl: "/data/country-images/rou.svg",
+  flagUrl: "/data/global/countries/flags/rou.svg",
+  imageUrl: "/data/global/countries/silhouettes/rou.svg",
   capital: "Bucharest",
   population: 19041322,
 };

@@ -17,8 +17,8 @@ export const mnp: CountryData = {
   region: "Micronesia",
   callingCode: "1",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/mnp.svg",
-  imageUrl: "/data/country-images/mnp.svg",
+  flagUrl: "/data/global/countries/flags/mnp.svg",
+  imageUrl: "/data/global/countries/silhouettes/mnp.svg",
   capital: "Saipan",
   population: 46078,
 };

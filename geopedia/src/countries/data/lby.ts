@@ -17,8 +17,8 @@ export const lby: CountryData = {
   region: "Northern Africa",
   callingCode: "218",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/lby.svg",
-  imageUrl: "/data/country-images/lby.svg",
+  flagUrl: "/data/global/countries/flags/lby.svg",
+  imageUrl: "/data/global/countries/silhouettes/lby.svg",
   capital: "Tripoli",
   population: 7539852,
 };

@@ -17,8 +17,8 @@ export const tgo: CountryData = {
   region: "Western Africa",
   callingCode: "228",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/tgo.svg",
-  imageUrl: "/data/country-images/tgo.svg",
+  flagUrl: "/data/global/countries/flags/tgo.svg",
+  imageUrl: "/data/global/countries/silhouettes/tgo.svg",
   capital: "Lomé",
   population: 8095498,
 };

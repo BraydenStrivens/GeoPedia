@@ -17,8 +17,8 @@ export const com: CountryData = {
   region: "Eastern Africa",
   callingCode: "269",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/com.svg",
-  imageUrl: "/data/country-images/com.svg",
+  flagUrl: "/data/global/countries/flags/com.svg",
+  imageUrl: "/data/global/countries/silhouettes/com.svg",
   capital: "Moroni",
   population: 944388,
 };

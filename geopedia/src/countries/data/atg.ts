@@ -17,8 +17,8 @@ export const atg: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/atg.svg",
-  imageUrl: "/data/country-images/atg.svg",
+  flagUrl: "/data/global/countries/flags/atg.svg",
+  imageUrl: "/data/global/countries/silhouettes/atg.svg",
   capital: "Saint John's",
   population: 106365,
 };

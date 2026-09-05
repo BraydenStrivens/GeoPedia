@@ -17,8 +17,8 @@ export const kaz: CountryData = {
   region: "Central Asia",
   callingCode: "7",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/kaz.svg",
-  imageUrl: "/data/country-images/kaz.svg",
+  flagUrl: "/data/global/countries/flags/kaz.svg",
+  imageUrl: "/data/global/countries/silhouettes/kaz.svg",
   capital: "Astana",
   population: 20590589,
 };

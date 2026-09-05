@@ -17,8 +17,8 @@ export const hti: CountryData = {
   region: "Caribbean",
   callingCode: "509",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/hti.svg",
-  imageUrl: "/data/country-images/hti.svg",
+  flagUrl: "/data/global/countries/flags/hti.svg",
+  imageUrl: "/data/global/countries/silhouettes/hti.svg",
   capital: "Port-au-Prince",
   population: 11867032,
 };

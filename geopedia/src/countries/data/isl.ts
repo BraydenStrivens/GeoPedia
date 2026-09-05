@@ -17,8 +17,8 @@ export const isl: CountryData = {
   region: "Northern Europe",
   callingCode: "354",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/isl.svg",
-  imageUrl: "/data/country-images/isl.svg",
+  flagUrl: "/data/global/countries/flags/isl.svg",
+  imageUrl: "/data/global/countries/silhouettes/isl.svg",
   capital: "Reykjavik",
   population: 396500,
 };

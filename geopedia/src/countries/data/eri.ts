@@ -17,8 +17,8 @@ export const eri: CountryData = {
   region: "Eastern Africa",
   callingCode: "291",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/eri.svg",
-  imageUrl: "/data/country-images/eri.svg",
+  flagUrl: "/data/global/countries/flags/eri.svg",
+  imageUrl: "/data/global/countries/silhouettes/eri.svg",
   capital: "Asmara",
   population: 3682669,
 };

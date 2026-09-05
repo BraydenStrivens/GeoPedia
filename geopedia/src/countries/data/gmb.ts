@@ -17,8 +17,8 @@ export const gmb: CountryData = {
   region: "Western Africa",
   callingCode: "220",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/gmb.svg",
-  imageUrl: "/data/country-images/gmb.svg",
+  flagUrl: "/data/global/countries/flags/gmb.svg",
+  imageUrl: "/data/global/countries/silhouettes/gmb.svg",
   capital: "Banjul",
   population: 2422712,
 };

@@ -17,8 +17,8 @@ export const mus: CountryData = {
   region: "Eastern Africa",
   callingCode: "230",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/mus.svg",
-  imageUrl: "/data/country-images/mus.svg",
+  flagUrl: "/data/global/countries/flags/mus.svg",
+  imageUrl: "/data/global/countries/silhouettes/mus.svg",
   capital: "Port Louis",
   population: 1241856,
 };

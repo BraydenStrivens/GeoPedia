@@ -17,8 +17,8 @@ export const bmu: CountryData = {
   region: "North America",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/bmu.svg",
-  imageUrl: "/data/country-images/bmu.svg",
+  flagUrl: "/data/global/countries/flags/bmu.svg",
+  imageUrl: "/data/global/countries/silhouettes/bmu.svg",
   capital: "Hamilton",
   population: 64055,
 };

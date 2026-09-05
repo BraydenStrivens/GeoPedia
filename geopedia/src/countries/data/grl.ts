@@ -17,8 +17,8 @@ export const grl: CountryData = {
   region: "North America",
   callingCode: "299",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/grl.svg",
-  imageUrl: "/data/country-images/grl.svg",
+  flagUrl: "/data/global/countries/flags/grl.svg",
+  imageUrl: "/data/global/countries/silhouettes/grl.svg",
   capital: "Nuuk",
   population: 56945,
 };

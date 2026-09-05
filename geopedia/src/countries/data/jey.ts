@@ -17,8 +17,8 @@ export const jey: CountryData = {
   region: "Northern Europe",
   callingCode: "44",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/jey.svg",
-  imageUrl: "/data/country-images/jey.svg",
+  flagUrl: "/data/global/countries/flags/jey.svg",
+  imageUrl: "/data/global/countries/silhouettes/jey.svg",
   capital: "Saint Helier",
   population: 103267,
 };

@@ -17,8 +17,8 @@ export const lie: CountryData = {
   region: "Western Europe",
   callingCode: "423",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/lie.svg",
-  imageUrl: "/data/country-images/lie.svg",
+  flagUrl: "/data/global/countries/flags/lie.svg",
+  imageUrl: "/data/global/countries/silhouettes/lie.svg",
   capital: "Vaduz",
   population: 41237,
 };

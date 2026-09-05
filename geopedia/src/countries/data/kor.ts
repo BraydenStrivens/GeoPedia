@@ -17,8 +17,8 @@ export const kor: CountryData = {
   region: "Eastern Asia",
   callingCode: "82",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/kor.svg",
-  imageUrl: "/data/country-images/kor.svg",
+  flagUrl: "/data/global/countries/flags/kor.svg",
+  imageUrl: "/data/global/countries/silhouettes/kor.svg",
   capital: "Seoul",
   population: 51106229,
 };

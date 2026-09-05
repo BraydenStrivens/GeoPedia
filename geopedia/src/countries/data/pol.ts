@@ -17,8 +17,8 @@ export const pol: CountryData = {
   region: "Central Europe",
   callingCode: "48",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/pol.svg",
-  imageUrl: "/data/country-images/pol.svg",
+  flagUrl: "/data/global/countries/flags/pol.svg",
+  imageUrl: "/data/global/countries/silhouettes/pol.svg",
   capital: "Warsaw",
   population: 37243000,
 };

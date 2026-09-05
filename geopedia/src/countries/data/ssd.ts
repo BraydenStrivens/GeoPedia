@@ -17,8 +17,8 @@ export const ssd: CountryData = {
   region: "Middle Africa",
   callingCode: "211",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/ssd.svg",
-  imageUrl: "/data/country-images/ssd.svg",
+  flagUrl: "/data/global/countries/flags/ssd.svg",
+  imageUrl: "/data/global/countries/silhouettes/ssd.svg",
   capital: "Juba",
   population: 12703714,
 };

@@ -17,8 +17,8 @@ export const cuw: CountryData = {
   region: "Caribbean",
   callingCode: "599",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/cuw.svg",
-  imageUrl: "/data/country-images/cuw.svg",
+  flagUrl: "/data/global/countries/flags/cuw.svg",
+  imageUrl: "/data/global/countries/silhouettes/cuw.svg",
   capital: "Willemstad",
   population: 155826,
 };

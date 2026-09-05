@@ -17,8 +17,8 @@ export const vgb: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/vgb.svg",
-  imageUrl: "/data/country-images/vgb.svg",
+  flagUrl: "/data/global/countries/flags/vgb.svg",
+  imageUrl: "/data/global/countries/silhouettes/vgb.svg",
   capital: "Road Town",
   population: 38322,
 };

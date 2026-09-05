@@ -17,8 +17,8 @@ export const kgz: CountryData = {
   region: "Central Asia",
   callingCode: "996",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/kgz.svg",
-  imageUrl: "/data/country-images/kgz.svg",
+  flagUrl: "/data/global/countries/flags/kgz.svg",
+  imageUrl: "/data/global/countries/silhouettes/kgz.svg",
   capital: "Bishkek",
   population: 7404300,
 };

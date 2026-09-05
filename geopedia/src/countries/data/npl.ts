@@ -17,8 +17,8 @@ export const npl: CountryData = {
   region: "Southern Asia",
   callingCode: "977",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/npl.svg",
-  imageUrl: "/data/country-images/npl.svg",
+  flagUrl: "/data/global/countries/flags/npl.svg",
+  imageUrl: "/data/global/countries/silhouettes/npl.svg",
   capital: "Kathmandu",
   population: 30034040,
 };

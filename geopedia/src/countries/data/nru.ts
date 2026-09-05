@@ -17,8 +17,8 @@ export const nru: CountryData = {
   region: "Micronesia",
   callingCode: "674",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/nru.svg",
-  imageUrl: "/data/country-images/nru.svg",
+  flagUrl: "/data/global/countries/flags/nru.svg",
+  imageUrl: "/data/global/countries/silhouettes/nru.svg",
   capital: "Yaren",
   population: 11680,
 };

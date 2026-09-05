@@ -17,8 +17,8 @@ export const msr: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/msr.svg",
-  imageUrl: "/data/country-images/msr.svg",
+  flagUrl: "/data/global/countries/flags/msr.svg",
+  imageUrl: "/data/global/countries/silhouettes/msr.svg",
   capital: "Plymouth",
   population: 4386,
 };

@@ -17,8 +17,8 @@ export const cog: CountryData = {
   region: "Middle Africa",
   callingCode: "242",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/cog.svg",
-  imageUrl: "/data/country-images/cog.svg",
+  flagUrl: "/data/global/countries/flags/cog.svg",
+  imageUrl: "/data/global/countries/silhouettes/cog.svg",
   capital: "Brazzaville",
   population: 6332961,
 };

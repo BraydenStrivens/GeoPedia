@@ -17,8 +17,8 @@ export const guy: CountryData = {
   region: "South America",
   callingCode: "592",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/guy.svg",
-  imageUrl: "/data/country-images/guy.svg",
+  flagUrl: "/data/global/countries/flags/guy.svg",
+  imageUrl: "/data/global/countries/silhouettes/guy.svg",
   capital: "Georgetown",
   population: 956044,
 };

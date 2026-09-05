@@ -17,8 +17,8 @@ export const grc: CountryData = {
   region: "Southern Europe",
   callingCode: "30",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/grc.svg",
-  imageUrl: "/data/country-images/grc.svg",
+  flagUrl: "/data/global/countries/flags/grc.svg",
+  imageUrl: "/data/global/countries/silhouettes/grc.svg",
   capital: "Athens",
   population: 10372335,
 };

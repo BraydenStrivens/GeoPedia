@@ -17,8 +17,8 @@ export const ago: CountryData = {
   region: "Middle Africa",
   callingCode: "244",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/ago.svg",
-  imageUrl: "/data/country-images/ago.svg",
+  flagUrl: "/data/global/countries/flags/ago.svg",
+  imageUrl: "/data/global/countries/silhouettes/ago.svg",
   capital: "Luanda",
   population: 38778554,
 };

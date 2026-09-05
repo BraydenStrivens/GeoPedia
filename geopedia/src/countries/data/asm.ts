@@ -17,8 +17,8 @@ export const asm: CountryData = {
   region: "Polynesia",
   callingCode: "1",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/asm.svg",
-  imageUrl: "/data/country-images/asm.svg",
+  flagUrl: "/data/global/countries/flags/asm.svg",
+  imageUrl: "/data/global/countries/silhouettes/asm.svg",
   capital: "Pago Pago",
   population: 43268,
 };

@@ -17,8 +17,8 @@ export const shn: CountryData = {
   region: "Western Africa",
   callingCode: "290",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/shn.svg",
-  imageUrl: "/data/country-images/shn.svg",
+  flagUrl: "/data/global/countries/flags/shn.svg",
+  imageUrl: "/data/global/countries/silhouettes/shn.svg",
   capital: "Jamestown",
   population: 53192,
 };

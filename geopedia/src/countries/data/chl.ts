@@ -17,8 +17,8 @@ export const chl: CountryData = {
   region: "South America",
   callingCode: "56",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/chl.svg",
-  imageUrl: "/data/country-images/chl.svg",
+  flagUrl: "/data/global/countries/flags/chl.svg",
+  imageUrl: "/data/global/countries/silhouettes/chl.svg",
   capital: "Santiago",
   population: 20150948,
 };

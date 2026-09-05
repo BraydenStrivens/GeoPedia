@@ -17,8 +17,8 @@ export const dji: CountryData = {
   region: "Eastern Africa",
   callingCode: "253",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/dji.svg",
-  imageUrl: "/data/country-images/dji.svg",
+  flagUrl: "/data/global/countries/flags/dji.svg",
+  imageUrl: "/data/global/countries/silhouettes/dji.svg",
   capital: "Djibouti",
   population: 1066809,
 };

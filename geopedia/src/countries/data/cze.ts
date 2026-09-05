@@ -17,8 +17,8 @@ export const cze: CountryData = {
   region: "Central Europe",
   callingCode: "420",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/cze.svg",
-  imageUrl: "/data/country-images/cze.svg",
+  flagUrl: "/data/global/countries/flags/cze.svg",
+  imageUrl: "/data/global/countries/silhouettes/cze.svg",
   capital: "Prague",
   population: 10896003,
 };

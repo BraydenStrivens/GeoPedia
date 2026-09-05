@@ -17,8 +17,8 @@ export const mne: CountryData = {
   region: "Southeast Europe",
   callingCode: "382",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/mne.svg",
-  imageUrl: "/data/country-images/mne.svg",
+  flagUrl: "/data/global/countries/flags/mne.svg",
+  imageUrl: "/data/global/countries/silhouettes/mne.svg",
   capital: "Podgorica",
   population: 622902,
 };

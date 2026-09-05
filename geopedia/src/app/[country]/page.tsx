@@ -13,9 +13,11 @@
  */
 
 import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import QuizListingRow from "@/components/quiz/QuizListingRow";
+import QuizPageHero from "@/components/quiz/QuizPageHero";
+import QuizSectionHeader from "@/components/quiz/QuizSectionHeader";
 import { getCountry } from "@/countries";
 import { getCountryQuizListings } from "@/quiz/quizzes";
 
@@ -92,43 +94,48 @@ export default async function CountryPage({
     },
     {
       label: "Calling Code",
-      value: country.callingCode,
+      value: `+${country.callingCode}`,
     },
   ];
 
   return (
-    <main className="flex min-h-screen justify-center px-6 py-12">
-      <div className="flex w-full max-w-6xl flex-col items-center">
-        {/* Country heading */}
-        <div className="mb-10 flex flex-col items-center text-center">
-          {/* Common country name */}
-          <h1 className="text-5xl font-bold tracking-tight">
-            {country.name}
-          </h1>
+    <main className="min-h-screen bg-slate-300">
+      {/* Country heading */}
+      <QuizPageHero
+        title={country.name}
+        subtitle={country.officialName}
+      />
 
-          {/* Official country name */}
-          <p className="mt-2 text-2xl font-medium text-gray-500">
-            {country.officialName}
-          </p>
-        </div>
-
+      <div className="mx-auto flex w-full max-w-6xl flex-col items-center px-6 py-10">
         {/* Country visual and general information */}
-        <div className="flex w-full max-w-5xl items-stretch justify-center gap-6">
+        <div className="grid w-full max-w-5xl gap-6 md:grid-cols-3">
           {/* Country flag */}
-          <div className="flex h-70 w-80 items-center justify-center p-8 shadow-sm">
+          <div
+            className="  
+              flex h-70 items-center justify-center
+              rounded-xl border border-slate-400
+              bg-white p-8 shadow-md
+            "
+          >
             <Image
               src={country.flagUrl}
               alt={`${country.name} flag`}
               width={240}
               height={160}
-              className="h-auto max-h-full w-auto max-w-full"
+              className="h-auto max-h-full w-auto max-w-full border border-gray-300"
             />
           </div>
 
           {/* Country silhouette */}
-          <div className="flex h-70 w-80 items-center justify-center p-8 shadow-sm">
+          <div
+            className="
+              flex h-70 items-center justify-center
+              rounded-xl border border-slate-400
+              bg-slate-100 p-8 shadow-md
+            "
+          >
             <div
-              className="h-full w-full bg-gray-500"
+              className="h-full w-full bg-slate-500"
               style={{
                 maskImage: `url(${country.imageUrl})`,
                 WebkitMaskImage: `url(${country.imageUrl})`,
@@ -143,8 +150,14 @@ export default async function CountryPage({
           </div>
 
           {/* Country information card */}
-          <div className="flex h-70 w-80 flex-col justify-center rounded-xl border border-gray-300 bg-gray-900 p-8 shadow-sm">
-            <h2 className="mb-5 text-xl font-semibold">
+          <div
+            className="
+              flex h-70 flex-col justify-center 
+              rounded-xl border border-slate-400
+              bg-slate-100 p-8 shadow-md
+            "
+          >
+            <h2 className="mb-5 text-xl font-semibold text-slate-900">
               Information
             </h2>
 
@@ -156,12 +169,14 @@ export default async function CountryPage({
                   className="flex justify-between gap-4"
                 >
                   {/* Property name */}
-                  <span className="font-medium text-gray-500">
+                  <span className="font-medium text-slate-500">
                     {label}
                   </span>
 
                   {/* Property value */}
-                  <span className="text-right">{value}</span>
+                  <span className="text-right font-semibold text-slate-900">
+                    {value}
+                  </span>
                 </div>
               ))}
             </div>
@@ -170,26 +185,24 @@ export default async function CountryPage({
 
         {/* Available country quizzes */}
         <section className="mt-12 w-full max-w-5xl">
-          <h2 className="mb-6 text-center text-3xl font-bold">
-            Quizzes
-          </h2>
+          <QuizSectionHeader
+            description={`Choose a quiz to start practicing ${country.name}.`}
+          />
 
           {quizListings.length === 0 ? (
             /* Empty quiz state */
-            <p className="text-center text-lg text-gray-500">
+            <p className="text-center text-lg text-slate-500">
               Quizzes coming soon
             </p>
           ) : (
-            /* Quiz links */
-            <div className="flex flex-col items-center gap-3">
+            /* Quiz listings */
+            <div className="mx-auto flex w-full max-w-2xl flex-col gap-3">
               {quizListings.map((quizListing) => (
-                <Link
+                <QuizListingRow
                   key={quizListing.id}
+                  quizListing={quizListing}
                   href={`/${country.id}/${quizListing.id}`}
-                  className="w-full max-w-xl rounded-lg border px-6 py-4 text-center font-medium shadow-sm transition hover:bg-gray-50 hover:text-black"
-                >
-                  {quizListing.name}
-                </Link>
+                />
               ))}
             </div>
           )}

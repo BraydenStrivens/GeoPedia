@@ -17,8 +17,8 @@ export const gab: CountryData = {
   region: "Middle Africa",
   callingCode: "241",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/gab.svg",
-  imageUrl: "/data/country-images/gab.svg",
+  flagUrl: "/data/global/countries/flags/gab.svg",
+  imageUrl: "/data/global/countries/silhouettes/gab.svg",
   capital: "Libreville",
   population: 2469296,
 };

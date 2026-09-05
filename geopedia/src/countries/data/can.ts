@@ -17,8 +17,8 @@ export const can: CountryData = {
   region: "North America",
   callingCode: "1",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/can.svg",
-  imageUrl: "/data/country-images/can.svg",
+  flagUrl: "/data/global/countries/flags/can.svg",
+  imageUrl: "/data/global/countries/silhouettes/can.svg",
   capital: "Ottawa",
   population: 41417056,
 };

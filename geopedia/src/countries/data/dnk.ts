@@ -17,8 +17,8 @@ export const dnk: CountryData = {
   region: "Northern Europe",
   callingCode: "45",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/dnk.svg",
-  imageUrl: "/data/country-images/dnk.svg",
+  flagUrl: "/data/global/countries/flags/dnk.svg",
+  imageUrl: "/data/global/countries/silhouettes/dnk.svg",
   capital: "Copenhagen",
   population: 6031699,
 };

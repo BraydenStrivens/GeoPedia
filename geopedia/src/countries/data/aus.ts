@@ -17,8 +17,8 @@ export const aus: CountryData = {
   region: "Australia and New Zealand",
   callingCode: "61",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/aus.svg",
-  imageUrl: "/data/country-images/aus.svg",
+  flagUrl: "/data/global/countries/flags/aus.svg",
+  imageUrl: "/data/global/countries/silhouettes/aus.svg",
   capital: "Canberra",
   population: 27801023,
 };

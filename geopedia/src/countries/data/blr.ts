@@ -17,8 +17,8 @@ export const blr: CountryData = {
   region: "Eastern Europe",
   callingCode: "375",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/blr.svg",
-  imageUrl: "/data/country-images/blr.svg",
+  flagUrl: "/data/global/countries/flags/blr.svg",
+  imageUrl: "/data/global/countries/silhouettes/blr.svg",
   capital: "Minsk",
   population: 9056080,
 };

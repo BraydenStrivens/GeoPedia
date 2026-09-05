@@ -17,8 +17,8 @@ export const btn: CountryData = {
   region: "Southern Asia",
   callingCode: "975",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/btn.svg",
-  imageUrl: "/data/country-images/btn.svg",
+  flagUrl: "/data/global/countries/flags/btn.svg",
+  imageUrl: "/data/global/countries/silhouettes/btn.svg",
   capital: "Thimphu",
   population: 784043,
 };

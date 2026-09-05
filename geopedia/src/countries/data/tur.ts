@@ -17,8 +17,8 @@ export const tur: CountryData = {
   region: "Western Asia",
   callingCode: "90",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/tur.svg",
-  imageUrl: "/data/country-images/tur.svg",
+  flagUrl: "/data/global/countries/flags/tur.svg",
+  imageUrl: "/data/global/countries/silhouettes/tur.svg",
   capital: "Ankara",
   population: 86092168,
 };

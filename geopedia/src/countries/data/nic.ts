@@ -17,8 +17,8 @@ export const nic: CountryData = {
   region: "Central America",
   callingCode: "505",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/nic.svg",
-  imageUrl: "/data/country-images/nic.svg",
+  flagUrl: "/data/global/countries/flags/nic.svg",
+  imageUrl: "/data/global/countries/silhouettes/nic.svg",
   capital: "Managua",
   population: 6874748,
 };

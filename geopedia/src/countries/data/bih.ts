@@ -17,8 +17,8 @@ export const bih: CountryData = {
   region: "Southeast Europe",
   callingCode: "387",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/bih.svg",
-  imageUrl: "/data/country-images/bih.svg",
+  flagUrl: "/data/global/countries/flags/bih.svg",
+  imageUrl: "/data/global/countries/silhouettes/bih.svg",
   capital: "Sarajevo",
   population: 3412000,
 };

@@ -17,8 +17,8 @@ export const slb: CountryData = {
   region: "Melanesia",
   callingCode: "677",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/slb.svg",
-  imageUrl: "/data/country-images/slb.svg",
+  flagUrl: "/data/global/countries/flags/slb.svg",
+  imageUrl: "/data/global/countries/silhouettes/slb.svg",
   capital: "Honiara",
   population: 828857,
 };

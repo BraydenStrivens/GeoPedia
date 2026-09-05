@@ -17,8 +17,8 @@ export const wsm: CountryData = {
   region: "Polynesia",
   callingCode: "685",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/wsm.svg",
-  imageUrl: "/data/country-images/wsm.svg",
+  flagUrl: "/data/global/countries/flags/wsm.svg",
+  imageUrl: "/data/global/countries/silhouettes/wsm.svg",
   capital: "Apia",
   population: 205557,
 };

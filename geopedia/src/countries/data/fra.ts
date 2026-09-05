@@ -17,8 +17,8 @@ export const fra: CountryData = {
   region: "Western Europe",
   callingCode: "33",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/fra.svg",
-  imageUrl: "/data/country-images/fra.svg",
+  flagUrl: "/data/global/countries/flags/fra.svg",
+  imageUrl: "/data/global/countries/silhouettes/fra.svg",
   capital: "Paris",
   population: 69081996,
 };

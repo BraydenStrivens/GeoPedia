@@ -41,6 +41,11 @@ export type AnswerType = "single" | "multiple";
 export type QuizKind = "feature" | "town";
 
 /**
+ * Difficulty tier assigned to a quiz according to its total question count.
+ */
+export type QuizDifficulty = "easy" | "medium" | "hard" | "extreme";
+
+/**
  * Defines the user-facing content displayed as a quiz question prompt.
  *
  * A prompt can either display text directly or display an image with
@@ -112,8 +117,14 @@ export type QuizListing = {
   /** User-facing name displayed when presenting the quiz. */
   name: string;
 
+  /** Description explaining the quiz's content and available options. */
+  description: string;
+
   /** Quiz type used to distinguish feature and town quiz listings. */
   kind: QuizKind;
+
+  /** Difficulty derived from the total number of questions in the quiz. */
+  difficulty: QuizDifficulty;
 };
 
 /**
@@ -125,6 +136,12 @@ interface BaseQuiz {
 
   /** User-facing name of the quiz. */
   name: string;
+
+  /**
+   * User-facing description explaining what the quiz covers and any relevant
+   * details such as included territories, filtering, or grouping options.
+   */
+  description: string;
 }
 
 /**
@@ -208,15 +225,6 @@ export interface TownQuizData {
 export interface TownQuiz extends BaseQuiz {
   /** Identifies this quiz as a town/location quiz. */
   kind: "town";
-
-  /**
-   * Maximum distance from the target that can contribute toward the question's
-   * score.
-   *
-   * The exact scoring function can use this value together with the perfect
-   * answer radius.
-   */
-  // maxErrorKm: number;
 
   /** Complete set of towns available to the quiz. */
   towns: TownQuizTown[];

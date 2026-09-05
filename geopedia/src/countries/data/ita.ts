@@ -17,8 +17,8 @@ export const ita: CountryData = {
   region: "Southern Europe",
   callingCode: "39",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/ita.svg",
-  imageUrl: "/data/country-images/ita.svg",
+  flagUrl: "/data/global/countries/flags/ita.svg",
+  imageUrl: "/data/global/countries/silhouettes/ita.svg",
   capital: "Rome",
   population: 58940756,
 };

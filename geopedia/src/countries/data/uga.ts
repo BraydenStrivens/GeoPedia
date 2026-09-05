@@ -17,8 +17,8 @@ export const uga: CountryData = {
   region: "Eastern Africa",
   callingCode: "256",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/uga.svg",
-  imageUrl: "/data/country-images/uga.svg",
+  flagUrl: "/data/global/countries/flags/uga.svg",
+  imageUrl: "/data/global/countries/silhouettes/uga.svg",
   capital: "Kampala",
   population: 45905417,
 };

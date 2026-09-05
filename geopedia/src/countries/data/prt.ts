@@ -17,8 +17,8 @@ export const prt: CountryData = {
   region: "Southern Europe",
   callingCode: "351",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/prt.svg",
-  imageUrl: "/data/country-images/prt.svg",
+  flagUrl: "/data/global/countries/flags/prt.svg",
+  imageUrl: "/data/global/countries/silhouettes/prt.svg",
   capital: "Lisbon",
   population: 11424031,
 };

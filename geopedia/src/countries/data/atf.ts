@@ -17,8 +17,8 @@ export const atf: CountryData = {
   region: "",
   callingCode: "262",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/atf.svg",
-  imageUrl: "/data/country-images/atf.svg",
+  flagUrl: "/data/global/countries/flags/atf.svg",
+  imageUrl: "/data/global/countries/silhouettes/atf.svg",
   capital: "Port-aux-Français",
   population: 400,
 };

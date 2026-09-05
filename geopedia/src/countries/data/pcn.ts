@@ -17,8 +17,8 @@ export const pcn: CountryData = {
   region: "Polynesia",
   callingCode: "64",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/pcn.svg",
-  imageUrl: "/data/country-images/pcn.svg",
+  flagUrl: "/data/global/countries/flags/pcn.svg",
+  imageUrl: "/data/global/countries/silhouettes/pcn.svg",
   capital: "Adamstown",
   population: 40,
 };

@@ -17,8 +17,8 @@ export const vut: CountryData = {
   region: "Melanesia",
   callingCode: "678",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/vut.svg",
-  imageUrl: "/data/country-images/vut.svg",
+  flagUrl: "/data/global/countries/flags/vut.svg",
+  imageUrl: "/data/global/countries/silhouettes/vut.svg",
   capital: "Port Vila",
   population: 321409,
 };

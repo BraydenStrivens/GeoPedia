@@ -17,8 +17,8 @@ export const mkd: CountryData = {
   region: "Southeast Europe",
   callingCode: "389",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/mkd.svg",
-  imageUrl: "/data/country-images/mkd.svg",
+  flagUrl: "/data/global/countries/flags/mkd.svg",
+  imageUrl: "/data/global/countries/silhouettes/mkd.svg",
   capital: "Skopje",
   population: 1836713,
 };

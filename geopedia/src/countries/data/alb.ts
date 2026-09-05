@@ -17,8 +17,8 @@ export const alb: CountryData = {
   region: "Southeast Europe",
   callingCode: "355",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/alb.svg",
-  imageUrl: "/data/country-images/alb.svg",
+  flagUrl: "/data/global/countries/flags/alb.svg",
+  imageUrl: "/data/global/countries/silhouettes/alb.svg",
   capital: "Tirana",
   population: 2335930,
 };

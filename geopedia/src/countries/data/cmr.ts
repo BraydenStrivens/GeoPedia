@@ -17,8 +17,8 @@ export const cmr: CountryData = {
   region: "Middle Africa",
   callingCode: "237",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/cmr.svg",
-  imageUrl: "/data/country-images/cmr.svg",
+  flagUrl: "/data/global/countries/flags/cmr.svg",
+  imageUrl: "/data/global/countries/silhouettes/cmr.svg",
   capital: "Yaoundé",
   population: 29442327,
 };

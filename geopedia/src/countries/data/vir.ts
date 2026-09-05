@@ -17,8 +17,8 @@ export const vir: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/vir.svg",
-  imageUrl: "/data/country-images/vir.svg",
+  flagUrl: "/data/global/countries/flags/vir.svg",
+  imageUrl: "/data/global/countries/silhouettes/vir.svg",
   capital: "Charlotte Amalie",
   population: 87146,
 };

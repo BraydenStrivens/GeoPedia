@@ -17,8 +17,8 @@ export const esp: CountryData = {
   region: "Southern Europe",
   callingCode: "34",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/esp.svg",
-  imageUrl: "/data/country-images/esp.svg",
+  flagUrl: "/data/global/countries/flags/esp.svg",
+  imageUrl: "/data/global/countries/silhouettes/esp.svg",
   capital: "Madrid",
   population: 49801559,
 };

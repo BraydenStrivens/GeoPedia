@@ -1,21 +1,22 @@
 /**
- * Synchronizes town-label rendering for GeoPedia town quizzes.
+ * Synchronizes GeoPedia's custom town presentation for town quizzes.
  *
- * Town quizzes intentionally suppress MapTiler's built-in settlement labels so
- * the quiz never exposes towns outside GeoPedia's currently active question set.
+ * Town quizzes use one GeoJSON source containing the towns participating in
+ * the active quiz. Two MapLibre layers render that source:
  *
- * In Normal mode, GeoPedia adds one lightweight GeoJSON source containing only
- * the towns participating in the quiz and renders those towns through a single
- * MapLibre symbol layer. MapLibre's normal collision engine decides which labels
- * fit at the current zoom level.
+ * - A circle layer marks each town's exact quiz coordinate.
+ * - A symbol layer displays the town's name.
  *
- * In Hard mode, the custom symbol layer is hidden while the underlying source
- * remains available. This allows mode changes to occur immediately without
- * recreating the map or rebuilding the source.
+ * In Normal mode, every active town is available to MapLibre's collision
+ * system. In Hard mode, town markers and labels remain hidden until a question
+ * is answered, at which point only the most recently answered town is revealed.
  *
- * Population rank controls collision priority so more significant towns are
- * preferred when multiple labels compete for the same screen space. National
+ * Population rank controls label collision priority so more significant towns
+ * are preferred when multiple labels compete for screen space. National
  * capitals receive the highest priority.
+ *
+ * MapTiler's built-in settlement labels are suppressed by `useTownQuizMap`
+ * before this hook runs, so this hook owns only GeoPedia's custom town layers.
  */
 
 "use client";
@@ -24,138 +25,59 @@ import type * as maplibregl from "maplibre-gl";
 import type { RefObject } from "react";
 import { useEffect } from "react";
 
-import { TownQuizGuessResult } from "@/quiz/hooks/useTownQuiz";
+import type { TownQuizGuessResult } from "@/quiz/hooks/useTownQuiz";
 import type { TownQuizTown } from "@/types/quiz";
 import type { TownQuizMode } from "@/types/townQuizSettings";
 
 /** GeoJSON source containing towns from the currently active quiz group. */
-const TOWN_QUIZ_LABEL_SOURCE_ID = "town-quiz-labels-source";
+const TOWN_QUIZ_SOURCE_ID = "town-quiz-labels-source";
+
+/** Circle layer marking the exact coordinate of each displayed quiz town. */
+export const TOWN_QUIZ_MARKER_LAYER_ID = "town-quiz-markers";
 
 /** Symbol layer displaying GeoPedia-controlled town labels. */
 const TOWN_QUIZ_LABEL_LAYER_ID = "town-quiz-labels";
 
-/** Circle layer marking the exact coordinate of every displayed quiz town. */
-export const TOWN_QUIZ_MARKER_LAYER_ID = "town-quiz-markers";
-
 const CORRECT_TOWN_COLOR = "#16a34a";
 
 const NORMAL_TOWN_TEXT_COLOR = "#141414";
-
 const NORMAL_TOWN_TEXT_HALO_COLOR = "#ffffff";
 
 const NORMAL_TOWN_MARKER_COLOR = "#ffffff";
-
 const NORMAL_TOWN_MARKER_STROKE_COLOR = "#1f2937";
 
 /**
- * MapTiler place-label layers that must never be visible during a town quiz.
- *
- * Country and state labels intentionally remain untouched because they provide
- * useful geographic context without revealing town answers.
- */
-const HIDDEN_BASE_TOWN_LAYER_IDS = [
-  "Capital city labels",
-  "City labels",
-  "Town labels",
-  "Place labels",
-] as const;
-
-/**
- * Parameters required to synchronize town quiz labels.
+ * Parameters required to synchronize town quiz markers and labels.
  */
 type UseTownQuizLabelsParams = {
-  /** MapLibre instance owned by the town map. */
+  /** MapLibre instance owned by the town-map lifecycle hook. */
   mapRef: RefObject<maplibregl.Map | null>;
 
-  /** Whether the MapLibre style is ready for runtime source/layer operations. */
+  /** Whether the map is ready for runtime source and layer operations. */
   isMapReady: boolean;
 
   /** Towns currently participating in the quiz. */
   towns: TownQuizTown[];
 
-  /** Current Normal / Hard town quiz display mode. */
+  /** Current Normal/Hard town quiz display mode. */
   mode: TownQuizMode;
 
   /**
-   * Object containing data about the last question and the user's answer
-   * or `undefined` if no previous question has been answered.
+   * Result of the most recently answered question, or `undefined` before a
+   * question has been answered.
    */
   lastResult: TownQuizGuessResult | undefined;
 };
 
 /**
- * Converts active town records into the GeoJSON consumed by MapLibre.
+ * Builds the text rendered for one custom town label.
  *
- * Population rank is copied into feature properties so `symbol-sort-key` can
- * prioritize important towns during collision placement.
- *
- * @param towns - Towns included in the active quiz.
- * @returns GeoJSON FeatureCollection containing one point per town.
- */
-function createTownLabelGeoJson(towns: TownQuizTown[]) {
-  return {
-    type: "FeatureCollection" as const,
-
-    features: towns.map((town) => ({
-      type: "Feature" as const,
-
-      id: town.id,
-
-      geometry: {
-        type: "Point" as const,
-
-        coordinates: [town.longitude, town.latitude],
-      },
-
-      properties: {
-        id: town.id,
-        // name: town.name,
-
-        /**
-         * Render-ready quiz label.
-         *
-         * This may contain a newline when English and native names differ.
-         */
-        label: getTownLabelText(town),
-
-        population: town.population,
-
-        populationRank: town.populationRank,
-
-        isCapital: town.isCapital,
-      },
-    })),
-  };
-}
-
-/**
- * Hides settlement labels supplied by the MapTiler base style.
- *
- * These layers remain hidden regardless of whether the town quiz is currently
- * using Normal or Hard mode.
- *
- * @param map - MapLibre map whose base labels should be suppressed.
- */
-function hideBaseTownLabels(map: maplibregl.Map): void {
-  for (const layerId of HIDDEN_BASE_TOWN_LAYER_IDS) {
-    if (!map.getLayer(layerId)) {
-      continue;
-    }
-
-    map.setLayoutProperty(layerId, "visibility", "none");
-  }
-}
-
-/**
- * Builds the label rendered for one custom town quiz marker.
- *
- * Settlements with distinct native and English names use a two-line label with
- * the native/local form first and the English/international form second.
- *
- * Settlements whose names do not differ remain single-line labels.
+ * Towns with a distinct native name display the primary quiz name first and
+ * the native name beneath it. Towns without a distinct native name remain
+ * single-line labels.
  *
  * @param town - Town represented by the custom quiz layer.
- * @returns MapLibre text displayed beside the town marker.
+ * @returns Text rendered beside the town's coordinate marker.
  */
 function getTownLabelText(town: TownQuizTown): string {
   if (!town.nativeName) {
@@ -166,48 +88,86 @@ function getTownLabelText(town: TownQuizTown): string {
 }
 
 /**
- * Creates GeoPedia's town-quiz source, coordinate-marker layer, and symbol
- * layer when they do not already exist.
+ * Converts the active town set into the GeoJSON consumed by MapLibre.
  *
- * Each town receives a small map marker positioned at its exact geographic
- * coordinate. The town name is rendered immediately above that marker so Normal
- * mode can teach both the place name and its precise quiz target.
+ * Population rank and capital status are included as feature properties so
+ * MapLibre can prioritize significant towns during collision placement.
  *
- * @param map - MapLibre map receiving the custom town presentation.
- * @param towns - Towns belonging to the active quiz.
+ * @param towns - Towns participating in the active quiz.
+ * @returns GeoJSON FeatureCollection containing one point per town.
  */
-function ensureTownLabelLayer(
+function createTownQuizGeoJson(towns: TownQuizTown[]) {
+  return {
+    type: "FeatureCollection" as const,
+
+    features: towns.map((town) => ({
+      type: "Feature" as const,
+
+      id: town.id,
+
+      geometry: {
+        type: "Point" as const,
+        coordinates: [town.longitude, town.latitude],
+      },
+
+      properties: {
+        id: town.id,
+        label: getTownLabelText(town),
+        population: town.population,
+        populationRank: town.populationRank,
+        isCapital: town.isCapital,
+      },
+    })),
+  };
+}
+
+/**
+ * Creates or updates the GeoJSON source containing the active quiz towns.
+ *
+ * @param map - Active town quiz map.
+ * @param towns - Towns currently participating in the quiz.
+ */
+function synchronizeTownQuizSource(
   map: maplibregl.Map,
   towns: TownQuizTown[],
 ): void {
-  const geoJson = createTownLabelGeoJson(towns);
+  const geoJson = createTownQuizGeoJson(towns);
 
-  const existingSource = map.getSource(TOWN_QUIZ_LABEL_SOURCE_ID);
+  const existingSource = map.getSource(TOWN_QUIZ_SOURCE_ID);
 
-  if (!existingSource) {
-    map.addSource(TOWN_QUIZ_LABEL_SOURCE_ID, {
-      type: "geojson",
-      data: geoJson,
-    });
+  if (existingSource) {
+    const geoJsonSource = existingSource as maplibregl.GeoJSONSource;
+
+    geoJsonSource.setData(geoJson);
+
+    return;
   }
 
-  /*
-   * Draw the coordinate markers before the text layer so town names remain
-   * visually above their corresponding markers.
-   */
+  map.addSource(TOWN_QUIZ_SOURCE_ID, {
+    type: "geojson",
+    data: geoJson,
+  });
+}
+
+/**
+ * Creates the marker and label layers used to present quiz towns when they do
+ * not already exist.
+ *
+ * The coordinate-marker layer is added before the text layer so labels render
+ * visually above their corresponding markers.
+ *
+ * @param map - Active town quiz map.
+ */
+function ensureTownQuizLayers(map: maplibregl.Map): void {
   if (!map.getLayer(TOWN_QUIZ_MARKER_LAYER_ID)) {
     map.addLayer({
       id: TOWN_QUIZ_MARKER_LAYER_ID,
 
       type: "circle",
 
-      source: TOWN_QUIZ_LABEL_SOURCE_ID,
+      source: TOWN_QUIZ_SOURCE_ID,
 
       paint: {
-        /*
-         * A small white center with a dark outline remains readable over both
-         * light and dark map geography without becoming visually dominant.
-         */
         "circle-radius": 3,
         "circle-color": NORMAL_TOWN_MARKER_COLOR,
         "circle-stroke-color": NORMAL_TOWN_MARKER_STROKE_COLOR,
@@ -225,7 +185,7 @@ function ensureTownLabelLayer(
 
     type: "symbol",
 
-    source: TOWN_QUIZ_LABEL_SOURCE_ID,
+    source: TOWN_QUIZ_SOURCE_ID,
 
     layout: {
       "text-field": ["get", "label"],
@@ -233,29 +193,25 @@ function ensureTownLabelLayer(
       "text-font": ["Open Sans Regular"],
 
       /*
-       * MapLibre's collision engine chooses which town names have enough room to
-       * render. Every selected town remains in the source at every zoom level.
+       * Every active town remains in the source. MapLibre's collision engine
+       * decides which labels have enough room to render at the current zoom.
        */
       "text-allow-overlap": false,
       "text-ignore-placement": false,
 
       /*
-       * National capitals receive first placement priority. Remaining towns are
-       * prioritized according to population rank.
+       * National capitals receive first placement priority. Remaining towns
+       * are prioritized by population rank.
        */
       "symbol-sort-key": [
         "case",
-
         ["==", ["get", "isCapital"], true],
-
         0,
-
         ["+", ["get", "populationRank"], 1],
       ],
 
       /*
-       * Place the name above its exact coordinate marker rather than directly
-       * over it.
+       * Render the town name immediately above its exact coordinate marker.
        */
       "text-anchor": "bottom",
       "text-offset": [0, -0.25],
@@ -271,39 +227,15 @@ function ensureTownLabelLayer(
 }
 
 /**
- * Creates a MapLibre paint expression that highlights the most recently
- * answered town while preserving the normal color for every other town.
- */
-function createCorrectTownColorExpression(
-  correctTownId: string | undefined,
-  normalColor: string,
-): maplibregl.ExpressionSpecification | string {
-  if (!correctTownId) {
-    return normalColor;
-  }
-
-  return [
-    "case",
-
-    ["==", ["get", "id"], correctTownId],
-
-    CORRECT_TOWN_COLOR,
-
-    normalColor,
-  ];
-}
-
-/**
- * Applies the current town-quiz mode to one custom town layer.
+ * Applies the current town quiz mode to one custom town layer.
  *
- * Normal mode exposes every town contained by the active quiz group. Hard mode
- * hides those hints before a question is answered, but reveals the most
- * recently answered town afterward so the player receives useful geographic
- * feedback.
+ * Normal mode displays the complete active town set. Hard mode hides every
+ * town before a result exists and afterward reveals only the most recently
+ * answered town.
  *
- * @param map - Active MapLibre map.
+ * @param map - Active town quiz map.
  * @param layerId - Custom town layer being filtered.
- * @param mode - Current town quiz difficulty mode.
+ * @param mode - Current town quiz display mode.
  * @param correctTownId - Most recently answered town, when one exists.
  */
 function applyTownLayerFilter(
@@ -324,143 +256,67 @@ function applyTownLayerFilter(
 
   if (!correctTownId) {
     /*
-     * An impossible ID hides every custom quiz town while keeping the layer
-     * itself loaded and ready for immediate result feedback.
+     * An impossible ID hides every town while leaving the layer loaded and
+     * available for immediate result feedback.
      */
     map.setFilter(layerId, ["==", ["get", "id"], "__no-town__"]);
 
     return;
   }
 
-  /* Hard mode reveals only the correct town from the most recent answer. */
   map.setFilter(layerId, ["==", ["get", "id"], correctTownId]);
 }
 
 /**
- * Updates the existing GeoJSON source when the active town set changes.
+ * Creates a MapLibre paint expression that highlights the most recently
+ * answered town while preserving the normal color for all other towns.
  *
- * This becomes especially important once the town Filter panel selects Top 10,
- * Top 25, custom counts, and other subsets.
- *
- * `Map#getSource` exposes MapLibre's broad `Source` type even though this source
- * was created specifically as GeoJSON. Cast it to `GeoJSONSource` after checking
- * that the source exists so TypeScript exposes the GeoJSON-specific `setData`
- * method.
- *
- * @param map - MapLibre map containing the source.
- * @param towns - Current quiz towns.
+ * @param correctTownId - Most recently answered town, when one exists.
+ * @param normalColor - Layer color used for every other town.
  */
-function updateTownLabelSource(
-  map: maplibregl.Map,
-  towns: TownQuizTown[],
-): void {
-  const source = map.getSource(TOWN_QUIZ_LABEL_SOURCE_ID);
-
-  if (!source) {
-    return;
+function createCorrectTownColorExpression(
+  correctTownId: string | undefined,
+  normalColor: string,
+): maplibregl.ExpressionSpecification | string {
+  if (!correctTownId) {
+    return normalColor;
   }
 
-  const geoJsonSource = source as maplibregl.GeoJSONSource;
-
-  geoJsonSource.setData(createTownLabelGeoJson(towns));
+  return [
+    "case",
+    ["==", ["get", "id"], correctTownId],
+    CORRECT_TOWN_COLOR,
+    normalColor,
+  ];
 }
 
 /**
- * Synchronizes MapTiler settlement suppression and GeoPedia town labels.
+ * Applies quiz mode and result feedback to the existing town layers.
+ *
+ * @param map - Active town quiz map.
+ * @param mode - Current Normal/Hard display mode.
+ * @param correctTownId - Most recently answered town, when one exists.
  */
-export function useTownQuizLabels({
-  mapRef,
-  isMapReady,
-  towns,
-  mode,
-  lastResult,
-}: UseTownQuizLabelsParams): void {
-  /**
-   * Creates the custom source/layer once the MapLibre style becomes ready.
-   *
-   * MapTiler settlement labels are also suppressed here and remain suppressed
-   * for the lifetime of the town quiz map.
-   */
-  useEffect(() => {
-    const map = mapRef.current;
+function applyTownQuizPresentation(
+  map: maplibregl.Map,
+  mode: TownQuizMode,
+  correctTownId: string | undefined,
+): void {
+  applyTownLayerFilter(
+    map,
+    TOWN_QUIZ_MARKER_LAYER_ID,
+    mode,
+    correctTownId,
+  );
 
-    if (!isMapReady || !map) {
-      return;
-    }
+  applyTownLayerFilter(
+    map,
+    TOWN_QUIZ_LABEL_LAYER_ID,
+    mode,
+    correctTownId,
+  );
 
-    hideBaseTownLabels(map);
-
-    ensureTownLabelLayer(map, towns);
-  }, [isMapReady, mapRef, towns]);
-
-  /**
-   * Keeps the source synchronized when the active Filter selection changes.
-   */
-  useEffect(() => {
-    const map = mapRef.current;
-
-    if (!isMapReady || !map) {
-      return;
-    }
-
-    updateTownLabelSource(map, towns);
-  }, [isMapReady, mapRef, towns]);
-
-  /**
-   * Changes custom town visibility immediately when the user switches between
-   * Normal and Hard mode.
-   *
-   * Both labels and their exact-coordinate markers are hidden in Hard mode so no
-   * town-location hints remain on the map.
-   */
-  useEffect(() => {
-    const map = mapRef.current;
-
-    if (!isMapReady || !map) {
-      return;
-    }
-
-    const visibility = mode === "normal" ? "visible" : "visible"; // -------
-
-    if (map.getLayer(TOWN_QUIZ_MARKER_LAYER_ID)) {
-      map.setLayoutProperty(
-        TOWN_QUIZ_MARKER_LAYER_ID,
-        "visibility",
-        visibility,
-      );
-    }
-
-    if (map.getLayer(TOWN_QUIZ_LABEL_LAYER_ID)) {
-      map.setLayoutProperty(
-        TOWN_QUIZ_LABEL_LAYER_ID,
-        "visibility",
-        visibility,
-      );
-    }
-
-    const correctTownId = lastResult?.town.id;
-
-    /*
-     * Normal mode displays the complete active town set. Hard mode displays only
-     * the most recently answered town.
-     */
-    applyTownLayerFilter(
-      map,
-      TOWN_QUIZ_MARKER_LAYER_ID,
-      mode,
-      correctTownId,
-    );
-
-    applyTownLayerFilter(
-      map,
-      TOWN_QUIZ_LABEL_LAYER_ID,
-      mode,
-      correctTownId,
-    );
-
-    /*
-     * Highlight the most recently answered town in both Normal and Hard modes.
-     */
+  if (map.getLayer(TOWN_QUIZ_MARKER_LAYER_ID)) {
     map.setPaintProperty(
       TOWN_QUIZ_MARKER_LAYER_ID,
       "circle-color",
@@ -478,7 +334,9 @@ export function useTownQuizLabels({
         NORMAL_TOWN_MARKER_STROKE_COLOR,
       ),
     );
+  }
 
+  if (map.getLayer(TOWN_QUIZ_LABEL_LAYER_ID)) {
     map.setPaintProperty(
       TOWN_QUIZ_LABEL_LAYER_ID,
       "text-color",
@@ -487,5 +345,46 @@ export function useTownQuizLabels({
         NORMAL_TOWN_TEXT_COLOR,
       ),
     );
-  }, [isMapReady, mapRef, mode, lastResult]);
+  }
+}
+
+/**
+ * Synchronizes GeoPedia's custom town quiz source, layers, display mode, and
+ * most recent result feedback with the active MapLibre map.
+ */
+export function useTownQuizLabels({
+  mapRef,
+  isMapReady,
+  towns,
+  mode,
+  lastResult,
+}: UseTownQuizLabelsParams): void {
+  /**
+   * Creates the custom town source and layers once the map is ready and keeps
+   * the source synchronized with changes to the active town set.
+   */
+  useEffect(() => {
+    const map = mapRef.current;
+
+    if (!map || !isMapReady) {
+      return;
+    }
+
+    synchronizeTownQuizSource(map, towns);
+
+    ensureTownQuizLayers(map);
+  }, [mapRef, isMapReady, towns]);
+
+  /**
+   * Synchronizes Normal/Hard mode and most-recent-answer feedback.
+   */
+  useEffect(() => {
+    const map = mapRef.current;
+
+    if (!map || !isMapReady) {
+      return;
+    }
+
+    applyTownQuizPresentation(map, mode, lastResult?.town.id);
+  }, [mapRef, isMapReady, mode, lastResult]);
 }

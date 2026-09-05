@@ -17,8 +17,8 @@ export const imn: CountryData = {
   region: "Northern Europe",
   callingCode: "44",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/imn.svg",
-  imageUrl: "/data/country-images/imn.svg",
+  flagUrl: "/data/global/countries/flags/imn.svg",
+  imageUrl: "/data/global/countries/silhouettes/imn.svg",
   capital: "Douglas",
   population: 84523,
 };

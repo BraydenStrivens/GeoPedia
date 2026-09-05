@@ -17,8 +17,8 @@ export const fro: CountryData = {
   region: "Northern Europe",
   callingCode: "298",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/fro.svg",
-  imageUrl: "/data/country-images/fro.svg",
+  flagUrl: "/data/global/countries/flags/fro.svg",
+  imageUrl: "/data/global/countries/silhouettes/fro.svg",
   capital: "Tórshavn",
   population: 56210,
 };

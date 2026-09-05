@@ -17,8 +17,8 @@ export const spm: CountryData = {
   region: "North America",
   callingCode: "508",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/spm.svg",
-  imageUrl: "/data/country-images/spm.svg",
+  flagUrl: "/data/global/countries/flags/spm.svg",
+  imageUrl: "/data/global/countries/silhouettes/spm.svg",
   capital: "Saint-Pierre",
   population: 5819,
 };

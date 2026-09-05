@@ -9,7 +9,7 @@ import type { MapConfig } from "../../types";
 
 export const usCountiesMap: MapConfig = {
   id: "us-counties",
-  geojsonUrl: "/data/geojson/usa/us-counties.geojson",
+  geojsonUrl: "/data/countries/usa/geojson/counties.geojson",
 
   featureProperty: "geoid",
 

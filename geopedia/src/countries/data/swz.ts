@@ -17,8 +17,8 @@ export const swz: CountryData = {
   region: "Southern Africa",
   callingCode: "268",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/swz.svg",
-  imageUrl: "/data/country-images/swz.svg",
+  flagUrl: "/data/global/countries/flags/swz.svg",
+  imageUrl: "/data/global/countries/silhouettes/swz.svg",
   capital: "Mbabane, Lobamba",
   population: 1235549,
 };

@@ -17,8 +17,8 @@ export const mex: CountryData = {
   region: "North America",
   callingCode: "52",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/mex.svg",
-  imageUrl: "/data/country-images/mex.svg",
+  flagUrl: "/data/global/countries/flags/mex.svg",
+  imageUrl: "/data/global/countries/silhouettes/mex.svg",
   capital: "Mexico City",
   population: 131231919,
 };

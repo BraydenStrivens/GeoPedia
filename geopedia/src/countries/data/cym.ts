@@ -17,8 +17,8 @@ export const cym: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/cym.svg",
-  imageUrl: "/data/country-images/cym.svg",
+  flagUrl: "/data/global/countries/flags/cym.svg",
+  imageUrl: "/data/global/countries/silhouettes/cym.svg",
   capital: "George Town",
   population: 90577,
 };

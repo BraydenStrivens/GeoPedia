@@ -17,8 +17,8 @@ export const sgp: CountryData = {
   region: "South-Eastern Asia",
   callingCode: "65",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/sgp.svg",
-  imageUrl: "/data/country-images/sgp.svg",
+  flagUrl: "/data/global/countries/flags/sgp.svg",
+  imageUrl: "/data/global/countries/silhouettes/sgp.svg",
   capital: "Singapore",
   population: 6110200,
 };

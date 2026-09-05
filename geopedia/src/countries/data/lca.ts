@@ -17,8 +17,8 @@ export const lca: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/lca.svg",
-  imageUrl: "/data/country-images/lca.svg",
+  flagUrl: "/data/global/countries/flags/lca.svg",
+  imageUrl: "/data/global/countries/silhouettes/lca.svg",
   capital: "Castries",
   population: 184100,
 };

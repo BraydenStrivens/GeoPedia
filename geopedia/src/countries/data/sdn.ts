@@ -17,8 +17,8 @@ export const sdn: CountryData = {
   region: "Northern Africa",
   callingCode: "249",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/sdn.svg",
-  imageUrl: "/data/country-images/sdn.svg",
+  flagUrl: "/data/global/countries/flags/sdn.svg",
+  imageUrl: "/data/global/countries/silhouettes/sdn.svg",
   capital: "Khartoum",
   population: 53282719,
 };

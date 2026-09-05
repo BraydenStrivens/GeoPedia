@@ -17,8 +17,8 @@ export const mda: CountryData = {
   region: "Eastern Europe",
   callingCode: "373",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/mda.svg",
-  imageUrl: "/data/country-images/mda.svg",
+  flagUrl: "/data/global/countries/flags/mda.svg",
+  imageUrl: "/data/global/countries/silhouettes/mda.svg",
   capital: "Chișinău",
   population: 2365600,
 };

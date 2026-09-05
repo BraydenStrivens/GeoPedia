@@ -17,8 +17,8 @@ export const bol: CountryData = {
   region: "South America",
   callingCode: "591",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/bol.svg",
-  imageUrl: "/data/country-images/bol.svg",
+  flagUrl: "/data/global/countries/flags/bol.svg",
+  imageUrl: "/data/global/countries/silhouettes/bol.svg",
   capital: "Sucre, La Paz",
   population: 11365333,
 };

@@ -17,8 +17,8 @@ export const twn: CountryData = {
   region: "Eastern Asia",
   callingCode: "886",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/twn.svg",
-  imageUrl: "/data/country-images/twn.svg",
+  flagUrl: "/data/global/countries/flags/twn.svg",
+  imageUrl: "/data/global/countries/silhouettes/twn.svg",
   capital: "Taipei",
   population: 23235002,
 };

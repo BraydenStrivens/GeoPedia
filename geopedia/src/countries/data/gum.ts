@@ -17,8 +17,8 @@ export const gum: CountryData = {
   region: "Micronesia",
   callingCode: "1",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/gum.svg",
-  imageUrl: "/data/country-images/gum.svg",
+  flagUrl: "/data/global/countries/flags/gum.svg",
+  imageUrl: "/data/global/countries/silhouettes/gum.svg",
   capital: "Hagåtña",
   population: 153836,
 };

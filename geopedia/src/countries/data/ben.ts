@@ -17,8 +17,8 @@ export const ben: CountryData = {
   region: "Western Africa",
   callingCode: "229",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/ben.svg",
-  imageUrl: "/data/country-images/ben.svg",
+  flagUrl: "/data/global/countries/flags/ben.svg",
+  imageUrl: "/data/global/countries/silhouettes/ben.svg",
   capital: "Porto-Novo",
   population: 13551992,
 };

@@ -17,7 +17,7 @@ import type { MapConfig } from "../../types";
  */
 export const usStatesMap: MapConfig = {
   id: "us-states",
-  geojsonUrl: "/data/geojson/usa/us-states.geojson",
+  geojsonUrl: "/data/countries/usa/geojson/states.geojson",
   featureProperty: "name",
 
   style: {

@@ -17,8 +17,8 @@ export const vct: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/vct.svg",
-  imageUrl: "/data/country-images/vct.svg",
+  flagUrl: "/data/global/countries/flags/vct.svg",
+  imageUrl: "/data/global/countries/silhouettes/vct.svg",
   capital: "Kingstown",
   population: 109296,
 };

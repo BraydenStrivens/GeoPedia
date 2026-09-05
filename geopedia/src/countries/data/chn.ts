@@ -17,8 +17,8 @@ export const chn: CountryData = {
   region: "Eastern Asia",
   callingCode: "86",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/chn.svg",
-  imageUrl: "/data/country-images/chn.svg",
+  flagUrl: "/data/global/countries/flags/chn.svg",
+  imageUrl: "/data/global/countries/silhouettes/chn.svg",
   capital: "Beijing",
   population: 1404890000,
 };

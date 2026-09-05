@@ -17,8 +17,8 @@ export const nor: CountryData = {
   region: "Northern Europe",
   callingCode: "47",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/nor.svg",
-  imageUrl: "/data/country-images/nor.svg",
+  flagUrl: "/data/global/countries/flags/nor.svg",
+  imageUrl: "/data/global/countries/silhouettes/nor.svg",
   capital: "Oslo",
   population: 5636904,
 };

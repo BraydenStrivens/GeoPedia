@@ -17,8 +17,8 @@ export const iot: CountryData = {
   region: "Eastern Africa",
   callingCode: "246",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/iot.svg",
-  imageUrl: "/data/country-images/iot.svg",
+  flagUrl: "/data/global/countries/flags/iot.svg",
+  imageUrl: "/data/global/countries/silhouettes/iot.svg",
   capital: "Diego Garcia",
   population: 2000,
 };

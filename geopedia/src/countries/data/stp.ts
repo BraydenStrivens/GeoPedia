@@ -17,8 +17,8 @@ export const stp: CountryData = {
   region: "Middle Africa",
   callingCode: "239",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/stp.svg",
-  imageUrl: "/data/country-images/stp.svg",
+  flagUrl: "/data/global/countries/flags/stp.svg",
+  imageUrl: "/data/global/countries/silhouettes/stp.svg",
   capital: "São Tomé",
   population: 220372,
 };

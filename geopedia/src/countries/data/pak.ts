@@ -17,8 +17,8 @@ export const pak: CountryData = {
   region: "Southern Asia",
   callingCode: "92",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/pak.svg",
-  imageUrl: "/data/country-images/pak.svg",
+  flagUrl: "/data/global/countries/flags/pak.svg",
+  imageUrl: "/data/global/countries/silhouettes/pak.svg",
   capital: "Islamabad",
   population: 241499431,
 };

@@ -17,8 +17,8 @@ export const idn: CountryData = {
   region: "South-Eastern Asia",
   callingCode: "62",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/idn.svg",
-  imageUrl: "/data/country-images/idn.svg",
+  flagUrl: "/data/global/countries/flags/idn.svg",
+  imageUrl: "/data/global/countries/silhouettes/idn.svg",
   capital: "Jakarta",
   population: 288315089,
 };

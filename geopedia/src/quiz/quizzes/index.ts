@@ -15,7 +15,13 @@ import { access, readdir } from "node:fs/promises";
 import { join } from "node:path";
 
 import { getTownQuiz } from "@/quiz/town/getTownQuiz";
-import type { FeatureQuiz, Quiz, QuizListing } from "@/types/quiz";
+import type {
+  FeatureQuiz,
+  Quiz,
+  QuizDifficulty,
+  QuizListing,
+  TownQuiz,
+} from "@/types/quiz";
 
 import * as globalQuizzes from "./global";
 import * as usaQuizzes from "./usa";
@@ -45,6 +51,60 @@ const registeredGlobalQuizzes: FeatureQuiz[] =
 /* ======================== PRIVATE HELPERS ======================== */
 
 /**
+ * Defines the display order of quiz difficulty tiers from easiest to hardest.
+ */
+const QUIZ_DIFFICULTY_ORDER: Record<QuizDifficulty, number> = {
+  easy: 0,
+  medium: 1,
+  hard: 2,
+  extreme: 3,
+};
+
+/**
+ * Derives a quiz difficulty tier from its total number of questions.
+ *
+ * Difficulty represents the size of the full quiz rather than any smaller
+ * group or filtered subset the user may choose later.
+ *
+ * @param questionCount - Total number of questions in the full quiz.
+ * @returns Difficulty tier corresponding to the quiz size.
+ */
+function getQuizDifficulty(questionCount: number): QuizDifficulty {
+  if (questionCount <= 25) {
+    return "easy";
+  }
+
+  if (questionCount <= 100) {
+    return "medium";
+  }
+
+  if (questionCount <= 500) {
+    return "hard";
+  }
+
+  return "extreme";
+}
+
+/**
+ * Compares quiz listings by difficulty so easier quizzes appear first.
+ *
+ * Listings with the same difficulty retain their existing registry order.
+ *
+ * @param firstQuiz - First quiz listing being compared.
+ * @param secondQuiz - Second quiz listing being compared.
+ * @returns Negative, zero, or positive value describing their display order.
+ */
+function compareQuizListingDifficulty(
+  firstQuiz: QuizListing,
+  secondQuiz: QuizListing,
+): number {
+  return (
+    QUIZ_DIFFICULTY_ORDER[firstQuiz.difficulty] -
+    QUIZ_DIFFICULTY_ORDER[secondQuiz.difficulty]
+  );
+}
+
+/**
  * Returns the registered feature quizzes for a country.
  *
  * This helper is kept private because callers should use the unified country
@@ -69,8 +129,8 @@ function getCountryFeatureQuizzes(countryId: string): FeatureQuiz[] {
  * Determines whether generated town quiz data exists for a country.
  *
  * Town quizzes are generated rather than registered through handwritten quiz
- * modules, so the presence of a JSON file under `public/data/towns` determines
- * whether a country has a town quiz available.
+ * modules, so the presence of a JSON file under `public/data/global/towns/countries/`
+ * determines whether a country has a town quiz available.
  *
  * This helper is kept private because callers should use the unified country
  * quiz availability API rather than checking individual quiz types.
@@ -87,7 +147,9 @@ async function hasCountryTownQuiz(
     process.cwd(),
     "public",
     "data",
+    "global",
     "towns",
+    "countries",
     `${normalizedCountryId}.json`,
   );
 
@@ -98,6 +160,47 @@ async function hasCountryTownQuiz(
   } catch {
     return false;
   }
+}
+
+/**
+ * Creates the lightweight listing metadata used by quiz-selection pages.
+ *
+ * Shared quiz metadata is copied directly from the complete quiz definition,
+ * while difficulty is derived from the quiz's full question count.
+ *
+ * @param quiz - Complete feature or town quiz definition.
+ * @returns Lightweight metadata used to display and route to the quiz.
+ */
+function createQuizListing(
+  quiz: FeatureQuiz | TownQuiz,
+): QuizListing {
+  return {
+    id: quiz.id,
+    name: quiz.name,
+    description: quiz.description,
+    kind: quiz.kind,
+    difficulty: getQuizDifficulty(getQuizQuestionCount(quiz)),
+  };
+}
+
+/**
+ * Returns the total number of questions belonging to a complete quiz.
+ *
+ * Feature quizzes store their questions directly, while town quizzes use
+ * their town collection as the question set.
+ *
+ * The returned count represents the full quiz before any user-selected
+ * grouping or filtering is applied.
+ *
+ * @param quiz - Complete feature or town quiz definition.
+ * @returns Total number of questions in the full quiz.
+ */
+function getQuizQuestionCount(quiz: FeatureQuiz | TownQuiz): number {
+  if (quiz.kind === "feature") {
+    return quiz.questions.length;
+  }
+
+  return quiz.towns.length;
 }
 
 /* ======================== COUNTRY QUIZZES ======================== */
@@ -144,21 +247,18 @@ export async function getCountryQuizListings(
 
   const quizListings: QuizListing[] = getCountryFeatureQuizzes(
     normalizedCountryId,
-  ).map((quiz) => ({
-    id: quiz.id,
-    name: quiz.name,
-    kind: quiz.kind,
-  }));
+  ).map((quiz) => createQuizListing(quiz));
 
   if (await hasCountryTownQuiz(normalizedCountryId)) {
-    quizListings.push({
-      id: `${normalizedCountryId}-towns`,
-      name: `${countryName} Towns`,
-      kind: "town",
+    const townQuiz = await getTownQuiz({
+      countryId: normalizedCountryId,
+      countryName,
     });
+
+    quizListings.push(createQuizListing(townQuiz));
   }
 
-  return quizListings;
+  return quizListings.sort(compareQuizListingDifficulty);
 }
 
 /**
@@ -229,11 +329,9 @@ export function hasGlobalQuizzes(): boolean {
  * @returns Lightweight metadata for every registered Global quiz.
  */
 export function getGlobalQuizListings(): QuizListing[] {
-  return registeredGlobalQuizzes.map((quiz) => ({
-    id: quiz.id,
-    name: quiz.name,
-    kind: quiz.kind,
-  }));
+  return registeredGlobalQuizzes
+    .map((quiz) => createQuizListing(quiz))
+    .sort(compareQuizListingDifficulty);
 }
 
 /**
@@ -270,7 +368,9 @@ export async function getCountryIdsWithQuizzes(): Promise<string[]> {
     process.cwd(),
     "public",
     "data",
+    "global",
     "towns",
+    "countries",
   );
 
   let townCountryIds: string[] = [];

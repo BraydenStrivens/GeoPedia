@@ -17,8 +17,8 @@ export const kwt: CountryData = {
   region: "Western Asia",
   callingCode: "965",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/kwt.svg",
-  imageUrl: "/data/country-images/kwt.svg",
+  flagUrl: "/data/global/countries/flags/kwt.svg",
+  imageUrl: "/data/global/countries/silhouettes/kwt.svg",
   capital: "Kuwait City",
   population: 4881254,
 };

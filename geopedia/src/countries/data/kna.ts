@@ -17,8 +17,8 @@ export const kna: CountryData = {
   region: "Caribbean",
   callingCode: "1",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/kna.svg",
-  imageUrl: "/data/country-images/kna.svg",
+  flagUrl: "/data/global/countries/flags/kna.svg",
+  imageUrl: "/data/global/countries/silhouettes/kna.svg",
   capital: "Basseterre",
   population: 54338,
 };

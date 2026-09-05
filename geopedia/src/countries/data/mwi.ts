@@ -17,8 +17,8 @@ export const mwi: CountryData = {
   region: "Eastern Africa",
   callingCode: "265",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/mwi.svg",
-  imageUrl: "/data/country-images/mwi.svg",
+  flagUrl: "/data/global/countries/flags/mwi.svg",
+  imageUrl: "/data/global/countries/silhouettes/mwi.svg",
   capital: "Lilongwe",
   population: 21201635,
 };

@@ -17,8 +17,8 @@ export const mys: CountryData = {
   region: "South-Eastern Asia",
   callingCode: "60",
   drivingSide: "left",
-  flagUrl: "/data/country-flags/mys.svg",
-  imageUrl: "/data/country-images/mys.svg",
+  flagUrl: "/data/global/countries/flags/mys.svg",
+  imageUrl: "/data/global/countries/silhouettes/mys.svg",
   capital: "Kuala Lumpur",
   population: 34389400,
 };

@@ -17,8 +17,8 @@ export const gin: CountryData = {
   region: "Western Africa",
   callingCode: "224",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/gin.svg",
-  imageUrl: "/data/country-images/gin.svg",
+  flagUrl: "/data/global/countries/flags/gin.svg",
+  imageUrl: "/data/global/countries/silhouettes/gin.svg",
   capital: "Conakry",
   population: 17521167,
 };

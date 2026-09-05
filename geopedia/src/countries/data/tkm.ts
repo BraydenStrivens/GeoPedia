@@ -17,8 +17,8 @@ export const tkm: CountryData = {
   region: "Central Asia",
   callingCode: "993",
   drivingSide: "right",
-  flagUrl: "/data/country-flags/tkm.svg",
-  imageUrl: "/data/country-images/tkm.svg",
+  flagUrl: "/data/global/countries/flags/tkm.svg",
+  imageUrl: "/data/global/countries/silhouettes/tkm.svg",
   capital: "Ashgabat",
   population: 7057841,
 };
