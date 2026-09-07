@@ -83,6 +83,10 @@ type QuizGroupActionsProps = {
 /**
  * Displays shared saved-group creation and editing actions.
  *
+ * Primary save/update actions use GeoPedia's button palette, destructive
+ * actions use the danger palette, and secondary cancellation actions remain
+ * lightweight text controls.
+ *
  * @param props - Shared group persistence state and callbacks.
  * @returns Quiz-group persistence controls.
  */
@@ -141,11 +145,19 @@ export default function QuizGroupActions({
               disabled={!canPerformUpdate}
               onClick={onUpdate}
               className={[
-                "flex-1 rounded-lg px-3 py-2",
-                "text-sm font-semibold transition",
+                "flex-1 rounded-lg border px-3 py-2",
+                "text-sm font-semibold transition-colors",
+                "focus-visible:outline-none focus-visible:ring-2",
+                "focus-visible:ring-focus",
                 canPerformUpdate
-                  ? "bg-button text-button-text hover:bg-selected-control-hover"
-                  : "cursor-default bg-disabled text-disabled-text",
+                  ? [
+                      "border-brand bg-button text-button-text",
+                      "hover:border-brand-hover-strong hover:bg-button-hover",
+                    ].join(" ")
+                  : [
+                      "cursor-default border-border",
+                      "bg-disabled text-disabled-text",
+                    ].join(" "),
               ].join(" ")}
             >
               Update
@@ -160,10 +172,18 @@ export default function QuizGroupActions({
               aria-label="Delete saved group"
               className={[
                 "flex h-9 w-9 shrink-0 items-center justify-center",
-                "rounded-lg transition",
+                "rounded-lg border transition-colors",
+                "focus-visible:outline-none focus-visible:ring-2",
+                "focus-visible:ring-focus",
                 isInteractionBlocked
-                  ? "cursor-default bg-disabled text-disabled-text"
-                  : "bg-danger text-button-text hover:bg-danger-hover",
+                  ? [
+                      "cursor-default border-border",
+                      "bg-disabled text-disabled-text",
+                    ].join(" ")
+                  : [
+                      "border-danger bg-danger text-danger-text",
+                      "hover:bg-danger-hover",
+                    ].join(" "),
               ].join(" ")}
             >
               {/* Trash icon */}
@@ -201,7 +221,14 @@ export default function QuizGroupActions({
             <button
               type="button"
               onClick={onCancelEditing}
-              className="text-xs font-medium text-text-secondary underline transition hover:text-text"
+              className="
+                rounded text-xs font-medium
+                text-text-secondary underline
+                transition-colors
+                hover:text-brand
+                focus-visible:outline-none focus-visible:ring-2
+                focus-visible:ring-focus
+              "
             >
               Cancel
             </button>
@@ -216,11 +243,19 @@ export default function QuizGroupActions({
             disabled={!canPerformSaveAction}
             onClick={isSavingGroup ? onSave : onBeginSaving}
             className={[
-              "w-full rounded-lg px-3 py-2",
-              "text-sm font-semibold transition",
+              "w-full rounded-lg border px-3 py-2",
+              "text-sm font-semibold transition-colors",
+              "focus-visible:outline-none focus-visible:ring-2",
+              "focus-visible:ring-focus",
               canPerformSaveAction
-                ? "bg-button text-button-text hover:bg-selected-control-hover"
-                : "cursor-default bg-disabled text-disabled-text",
+                ? [
+                    "border-brand bg-button text-button-text",
+                    "hover:border-brand-hover-strong hover:bg-button-hover",
+                  ].join(" ")
+                : [
+                    "cursor-default border-border",
+                    "bg-disabled text-disabled-text",
+                  ].join(" "),
             ].join(" ")}
           >
             {isSavingGroup ? "Save" : "Save Group"}
@@ -228,7 +263,12 @@ export default function QuizGroupActions({
 
           {/* New saved-group metadata */}
           {isSavingGroup && (
-            <div className="rounded-lg border border-border bg-background-1 p-3">
+            <div
+              className="
+                rounded-lg border border-border
+                bg-surface-muted p-3
+              "
+            >
               <GroupMetadataFields
                 name={groupName}
                 description={groupDescription}
@@ -241,7 +281,14 @@ export default function QuizGroupActions({
                 <button
                   type="button"
                   onClick={onCancelSaving}
-                  className="text-xs font-medium text-text-secondary underline transition hover:text-text"
+                  className="
+                    rounded text-xs font-medium
+                    text-text-secondary underline
+                    transition-colors
+                    hover:text-brand
+                    focus-visible:outline-none focus-visible:ring-2
+                    focus-visible:ring-focus
+                  "
                 >
                   Cancel
                 </button>
@@ -255,7 +302,14 @@ export default function QuizGroupActions({
               <button
                 type="button"
                 onClick={onCancelWorkflow}
-                className="text-xs font-medium text-text-secondary underline transition hover:text-text"
+                className="
+                  rounded text-xs font-medium
+                  text-text-secondary underline
+                  transition-colors
+                  hover:text-brand
+                  focus-visible:outline-none focus-visible:ring-2
+                  focus-visible:ring-focus
+                "
               >
                 {cancelWorkflowLabel}
               </button>

@@ -177,7 +177,7 @@ export default function FeatureQuizOverlay({
 
       {/* Current feature question */}
       {isActive && !isFinished && (
-        <div className="rounded-lg bg-background-1/80 px-5 py-1.5 text-center backdrop-blur-md">
+        <div className="rounded-lg bg-surface/80 px-5 py-1.5 text-center backdrop-blur-md">
           <div className="text-lg font-bold leading-tight text-text">
             <QuizQuestionDisplay question={question} />
           </div>
@@ -218,7 +218,7 @@ export default function FeatureQuizOverlay({
           ) : (
             /* Map loading indicator */
             <div
-              className="flex items-center justify-center rounded-lg bg-background-1/80 px-5 py-2 backdrop-blur-md"
+              className="flex items-center justify-center rounded-lg bg-surface/80 px-5 py-2 backdrop-blur-md"
               aria-label="Loading map"
             >
               <div className="h-5 w-5 animate-spin rounded-full border-2 border-border border-t-text" />
@@ -229,11 +229,10 @@ export default function FeatureQuizOverlay({
 
       {/* Completed feature quiz summary */}
       {isFinished && (
-        <div className="rounded-lg bg-background-1/80 px-5 py-2 text-center backdrop-blur-md">
+        <div className="rounded-lg bg-surface/80 px-5 py-2 text-center backdrop-blur-md">
           <div className="text-base font-bold text-text">
             Quiz Complete!
           </div>
-
           <div className="text-xs text-text-secondary">
             {correctCount} / {questionCount} in{" "}
             {wrongCount + correctCount} tries

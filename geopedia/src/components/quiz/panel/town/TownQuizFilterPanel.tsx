@@ -77,10 +77,10 @@ function TownCountSelectionIndicator({
       aria-hidden="true"
       className={[
         "flex h-4 w-4 shrink-0 items-center justify-center rounded border",
-        "text-[10px] font-bold",
+        "text-[10px] font-bold transition-colors",
         isSelected
           ? "border-selected-control bg-selected-control text-button-text"
-          : "border-border bg-background-1",
+          : "border-border-strong bg-surface",
       ].join(" ")}
     >
       {isSelected ? "✓" : ""}
@@ -91,9 +91,13 @@ function TownCountSelectionIndicator({
 /**
  * Displays one selectable population-ranked town-count preset.
  *
+ * Selected presets use GeoPedia's soft selected surface so the active count is
+ * clearly distinguished without giving an entire list row the visual weight
+ * of a primary action button.
+ *
  * @param props - Preset-button properties.
  * @param props.count - Number of towns represented by the preset.
- * @param props.isSelected - Whether the preset is currently active.
+ * @param props.isSelected - Whether this preset is currently active.
  * @param props.onSelect - Callback for applying the preset.
  * @returns One town-count preset row.
  */
@@ -108,10 +112,20 @@ function TownCountPresetButton({
       onClick={onSelect}
       aria-pressed={isSelected}
       className={[
-        "flex w-full items-center gap-3 rounded-lg px-3 py-2",
-        "text-left text-sm font-medium transition",
-        "hover:bg-background-3",
-        isSelected ? "bg-background-3 text-text" : "text-text",
+        "flex w-full items-center gap-3 rounded-lg border px-3 py-2",
+        "text-left text-sm font-medium transition-colors",
+        "focus-visible:outline-none focus-visible:ring-2",
+        "focus-visible:ring-focus",
+        isSelected
+          ? [
+              "border-selected-surface-border",
+              "bg-selected-surface text-selected-surface-text",
+              "hover:bg-selected-surface-hover",
+            ].join(" ")
+          : [
+              "border-transparent bg-transparent text-text",
+              "hover:border-brand-muted hover:bg-brand-soft",
+            ].join(" "),
       ].join(" ")}
     >
       <TownCountSelectionIndicator isSelected={isSelected} />
@@ -129,7 +143,6 @@ function TownCountPresetButton({
  * @param props.activeTownCount - Currently applied population-ranked count.
  * @param props.onUseFullQuiz - Callback for restoring the complete dataset.
  * @param props.onApplyTownCount - Callback for applying a numeric town count.
- * @param props.onClose - Callback for closing the panel.
  * @returns The town quiz Filter panel.
  */
 export default function TownQuizFilterPanel({
@@ -252,16 +265,19 @@ export default function TownQuizFilterPanel({
   }
 
   return (
-    <div className="w-72 rounded-xl border border-border bg-background-1 p-4 shadow-lg">
+    <div
+      className="
+        w-72 rounded-xl border border-border
+        bg-surface p-4 shadow-lg
+      "
+    >
       {/* Panel heading */}
-      <div className="mb-4 flex items-center justify-between">
-        <div>
-          <h2 className="text-lg font-bold text-text">Filter</h2>
+      <div className="mb-4 border-b border-brand-muted pb-3">
+        <h2 className="text-lg font-bold text-text">Filter Towns</h2>
 
-          <p className="text-sm text-text-secondary">
-            {availableTownCount.toLocaleString()} towns available
-          </p>
-        </div>
+        <p className="mt-0.5 text-sm text-text-secondary">
+          {availableTownCount.toLocaleString()} towns available
+        </p>
       </div>
 
       {/* Restore every available town */}
@@ -270,11 +286,19 @@ export default function TownQuizFilterPanel({
         onClick={useFullTownQuiz}
         disabled={isFullQuizActive}
         className={[
-          "mb-4 w-full rounded-lg px-4 py-2",
-          "text-sm font-semibold transition",
+          "mb-4 w-full rounded-lg border px-4 py-2",
+          "text-sm font-semibold transition-colors",
+          "focus-visible:outline-none focus-visible:ring-2",
+          "focus-visible:ring-focus",
           isFullQuizActive
-            ? "cursor-default bg-disabled text-disabled-text"
-            : "bg-button text-button-text hover:bg-selected-control-hover",
+            ? [
+                "cursor-default border-border",
+                "bg-disabled text-disabled-text",
+              ].join(" ")
+            : [
+                "border-brand bg-button text-button-text",
+                "hover:border-brand-hover-strong hover:bg-button-hover",
+              ].join(" "),
         ].join(" ")}
       >
         Use Full Quiz
@@ -319,7 +343,14 @@ export default function TownQuizFilterPanel({
               setCustomTownCountInput(event.target.value);
             }}
             onKeyDown={handleCustomTownCountKeyDown}
-            className="min-w-0 flex-1 rounded-lg border border-border bg-background-1 px-3 py-2 text-sm text-text outline-none transition focus:border-focus"
+            className="
+              min-w-0 flex-1 rounded-lg
+              border border-border bg-surface
+              px-3 py-2 text-sm text-text
+              outline-none transition-colors
+              hover:border-border-strong
+              focus:border-focus focus:ring-1 focus:ring-focus
+            "
           />
 
           <button
@@ -327,11 +358,19 @@ export default function TownQuizFilterPanel({
             onClick={applyCustomTownCount}
             disabled={!canApplyCustomTownCount}
             className={[
-              "rounded-lg px-4 py-2",
-              "text-sm font-semibold transition",
+              "rounded-lg border px-4 py-2",
+              "text-sm font-semibold transition-colors",
+              "focus-visible:outline-none focus-visible:ring-2",
+              "focus-visible:ring-focus",
               canApplyCustomTownCount
-                ? "bg-button text-button-text hover:bg-selected-control-hover"
-                : "cursor-default bg-disabled text-disabled-text",
+                ? [
+                    "border-brand bg-button text-button-text",
+                    "hover:border-brand-hover-strong hover:bg-button-hover",
+                  ].join(" ")
+                : [
+                    "cursor-default border-border",
+                    "bg-disabled text-disabled-text",
+                  ].join(" "),
             ].join(" ")}
           >
             Apply

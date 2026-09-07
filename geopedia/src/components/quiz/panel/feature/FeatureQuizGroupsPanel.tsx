@@ -342,6 +342,15 @@ export default function FeatureQuizGroupsPanel({
   function toggleSavedGroup(savedGroup: SavedQuizGroup): void {
     const isCurrentlyActive = activeSavedGroupId === savedGroup.id;
 
+    /*
+     * Selecting a saved group other than the current edit target ends the existing
+     * edit session. The newly selected group owns the next active state, so only
+     * the local edit metadata is cleared rather than restoring the previous group.
+     */
+    if (editingGroupId !== null && editingGroupId !== savedGroup.id) {
+      clearSavedGroupEditState();
+    }
+
     if (isCurrentlyActive) {
       propertyEditor.clearPropertySelection();
       propertyEditor.cancelSavingPropertyGroup();
@@ -552,14 +561,24 @@ export default function FeatureQuizGroupsPanel({
   }
 
   return (
-    <div className="max-h-[calc(100vh-9.5rem)] w-80 overflow-hidden rounded-xl bg-background-1/95 shadow-lg backdrop-blur-md">
+    <div
+      className="
+        max-h-[calc(100vh-9.5rem)] w-80 overflow-hidden
+        rounded-xl border border-border
+        bg-surface/95 shadow-lg backdrop-blur-md
+      "
+    >
       {/* Scrollable Groups panel content */}
       <div
         ref={groupsPanelScrollRef}
-        className="panel-scrollbar max-h-[calc(100vh-9.5rem)] overflow-y-auto overscroll-contain px-5 py-4"
+        className="
+          panel-scrollbar-hidden
+          max-h-[calc(100vh-9.5rem)] overflow-y-auto overscroll-contain
+          px-5 py-4
+        "
       >
         {/* Panel heading */}
-        <div className="mb-4">
+        <div className="mb-4 border-b border-brand-muted pb-3">
           <h2 className="text-base font-bold text-text">Groups</h2>
 
           <p className="mt-1 text-xs leading-relaxed text-text-secondary">
@@ -590,7 +609,7 @@ export default function FeatureQuizGroupsPanel({
 
         {/* Shared saved-group edit metadata */}
         {editingGroup && (
-          <div className="my-4 rounded-lg border border-border bg-background-1 p-3">
+          <div className="my-4 rounded-lg border border-border bg-surface-muted p-3">
             <GroupMetadataFields
               name={editGroupName}
               description={editGroupDescription}

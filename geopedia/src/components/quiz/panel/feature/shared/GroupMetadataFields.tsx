@@ -53,7 +53,13 @@ export default function GroupMetadataFields({
           value={name}
           onChange={(event) => onNameChange(event.target.value)}
           placeholder="Group name"
-          className="mt-1 w-full rounded-lg border border-border bg-background-1 px-3 py-2 text-sm text-text outline-none transition focus:border-focus"
+          className="
+            mt-1 w-full rounded-lg border border-border
+            bg-surface px-3 py-2 text-sm text-text
+            outline-none transition-colors
+            hover:border-border-strong
+            focus:border-focus focus:ring-1 focus:ring-focus
+          "
         />
       </label>
 
@@ -73,7 +79,14 @@ export default function GroupMetadataFields({
           }
           placeholder="Describe this group"
           rows={3}
-          className="mt-1 w-full resize-none rounded-lg border border-border bg-background-1 px-3 py-2 text-sm text-text outline-none transition focus:border-focus"
+          className="
+            mt-1 w-full resize-none rounded-lg
+            border border-border bg-surface
+            px-3 py-2 text-sm text-text
+            outline-none transition-colors
+            hover:border-border-strong
+            focus:border-focus focus:ring-1 focus:ring-focus
+          "
         />
       </label>
     </>

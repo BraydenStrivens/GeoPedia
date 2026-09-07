@@ -96,6 +96,7 @@ export const GEOGUESSR_COUNTRY_CODES = new Set<string>([
   "PRT", // Portugal
   "ROU", // Romania
   "RUS", // Russia
+  "SJM", // Svalbard and Jan Mayen
   "SMR", // San Marino
   "SRB", // Serbia
   "SVK", // Slovakia
@@ -126,6 +127,7 @@ export const GEOGUESSR_COUNTRY_CODES = new Set<string>([
   "CHL", // Chile
   "COL", // Colombia
   "ECU", // Ecuador
+  "FLK", // Falkland Islands
   "PRY", // Paraguay
   "PER", // Peru
   "URY", // Uruguay

@@ -41,9 +41,16 @@ type PropertyGroupOptionsProps = {
 /**
  * Displays selection counts, optional search, and selectable property values.
  *
+ * Property values remain visually compact so large grouping lists can expose
+ * as many options as possible without unnecessary scrolling. Brand color is
+ * used to communicate hover and selected states without adding per-row
+ * backgrounds or borders.
+ *
  * @param props - Property-group option state and interaction callbacks.
  * @param props.selectedValues - Currently selected raw property values.
  * @param props.groupingOptions - Available grouping values and display labels.
+ * @param props.isInteractionBlocked - Whether property selection is currently
+ * unavailable.
  * @param props.onToggleValue - Callback for toggling one grouping value.
  * @param props.onDeselectAll - Callback for clearing the complete selection.
  * @returns Searchable property-group option controls.
@@ -85,6 +92,14 @@ export default function PropertyGroupOptions({
   /** Whether at least one property value is currently selected. */
   const hasSelectedValues = selectedValues.size > 0;
 
+  /**
+   * Whether the complete current selection may be cleared.
+   *
+   * Deselect All is unavailable both when no values are selected and while the
+   * property workflow is blocked by another grouping interaction.
+   */
+  const canDeselectAll = hasSelectedValues && !isInteractionBlocked;
+
   return (
     <>
       {/* Selection information */}
@@ -97,12 +112,15 @@ export default function PropertyGroupOptions({
         {/* Deselect all property values */}
         <button
           type="button"
-          disabled={isInteractionBlocked && !hasSelectedValues}
+          disabled={!canDeselectAll}
           onClick={onDeselectAll}
           className={[
-            "text-xs font-medium underline transition",
-            hasSelectedValues && !isInteractionBlocked
-              ? "text-text-secondary hover:text-text"
+            "rounded text-xs font-medium underline",
+            "transition-colors",
+            "focus-visible:outline-none focus-visible:ring-2",
+            "focus-visible:ring-focus",
+            canDeselectAll
+              ? "text-text-secondary hover:text-brand"
               : "cursor-default text-disabled-text",
           ].join(" ")}
         >
@@ -119,13 +137,34 @@ export default function PropertyGroupOptions({
             onChange={(event) => setSearchQuery(event.target.value)}
             placeholder="Search groups..."
             disabled={isInteractionBlocked}
-            className="w-full rounded-lg border border-border bg-background-1 px-3 py-2 text-sm text-text outline-none transition focus:border-focus"
+            className={[
+              "w-full rounded-lg border px-3 py-2",
+              "text-sm outline-none transition-colors",
+              "focus:ring-1 focus:ring-focus",
+              isInteractionBlocked
+                ? [
+                    "cursor-not-allowed border-border",
+                    "bg-disabled text-disabled-text",
+                  ].join(" ")
+                : [
+                    "border-border bg-surface text-text",
+                    "hover:border-border-strong",
+                    "focus:border-focus",
+                  ].join(" "),
+            ].join(" ")}
           />
         </div>
       )}
 
       {/* Scrollable property values */}
-      <div className="panel-scrollbar mt-2 max-h-64 space-y-2 overflow-y-auto overscroll-contain rounded-lg border border-border bg-transparent px-2 py-2 transition-colors hover:bg-background-2/60">
+      <div
+        className="
+          panel-scrollbar mt-2 max-h-64 space-y-2
+          overflow-y-auto overscroll-contain
+          rounded-lg border border-border
+          bg-surface-muted px-2 py-2
+        "
+      >
         {visibleGroupingOptions.length === 0 ? (
           /* No matching property values */
           <p className="px-2 py-3 text-center text-xs text-text-secondary">
@@ -140,10 +179,12 @@ export default function PropertyGroupOptions({
               <label
                 key={value}
                 className={[
-                  "flex items-center gap-2 text-sm text-text",
+                  "group flex items-center gap-2 text-sm transition-colors",
                   isInteractionBlocked
-                    ? "cursor-not-allowed opacity-50"
-                    : "cursor-pointer",
+                    ? "cursor-not-allowed text-disabled-text opacity-60"
+                    : isSelected
+                      ? "cursor-pointer text-brand"
+                      : "cursor-pointer text-text hover:text-brand",
                 ].join(" ")}
               >
                 {/* Property-value checkbox */}
@@ -152,7 +193,10 @@ export default function PropertyGroupOptions({
                   checked={isSelected}
                   disabled={isInteractionBlocked}
                   onChange={() => onToggleValue(value)}
-                  className="h-4 w-4 cursor-pointer"
+                  className="
+                    h-4 w-4 shrink-0 cursor-pointer
+                    accent-[var(--brand-color)]
+                  "
                 />
 
                 {/* Property-value display label */}

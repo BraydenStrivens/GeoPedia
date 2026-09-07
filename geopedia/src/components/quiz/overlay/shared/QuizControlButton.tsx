@@ -31,8 +31,9 @@ type QuizControlButtonProps = {
 /**
  * Displays a consistently styled compact quiz lifecycle control.
  *
- * The control uses GeoPedia's shared overlay background, text, and hover colors
- * while preserving the existing pressed-scale interaction.
+ * The control uses a translucent neutral surface so it remains lightweight over
+ * the map, with GeoPedia's blue brand colors reserved for hover and focus
+ * emphasis. The existing pressed-scale interaction is preserved.
  *
  * @param props - Accessible label, icon content, and click callback.
  * @returns Compact icon-based quiz control button.
@@ -50,8 +51,9 @@ export default function QuizControlButton({
       aria-label={title}
       className={[
         "pointer-events-auto flex h-6 w-6 items-center justify-center",
-        "rounded-md bg-background-1/80 text-text-secondary shadow-sm backdrop-blur-sm",
-        "transition hover:bg-background-3 hover:text-text active:scale-90",
+        "rounded-md border border-border bg-surface/80 text-text-secondary shadow-sm backdrop-blur-sm",
+        "transition-colors hover:border-border-hover hover:bg-brand-soft hover:text-text active:scale-90",
+        "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus",
       ].join(" ")}
     >
       {children}

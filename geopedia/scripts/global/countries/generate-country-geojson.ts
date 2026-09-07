@@ -137,21 +137,27 @@ const NATURAL_EARTH_PATH = path.join(
   PROJECT_ROOT,
   "data",
   "raw",
-  "world",
+  "global",
+  "countries",
+  "natural-earth",
   "ne_10m_admin_0_map_units.json",
 );
 
 const REST_COUNTRIES_PATH = path.join(
   PROJECT_ROOT,
   "data",
-  "source",
-  "countries.json",
+  "raw",
+  "global",
+  "countries",
+  "rest-countries.json",
 );
 
 const COUNTRY_DATA_PATH = path.join(
   PROJECT_ROOT,
   "public",
   "data",
+  "global",
+  "countries",
   "countries.json",
 );
 
@@ -159,8 +165,9 @@ const WORLD_COUNTRIES_OUTPUT_PATH = path.join(
   PROJECT_ROOT,
   "public",
   "data",
+  "global",
+  "countries",
   "geojson",
-  "world",
   "world-countries.geojson",
 );
 
@@ -168,8 +175,9 @@ const COUNTRY_PAGES_OUTPUT_PATH = path.join(
   PROJECT_ROOT,
   "public",
   "data",
+  "global",
+  "countries",
   "geojson",
-  "world",
   "country-pages.geojson",
 );
 

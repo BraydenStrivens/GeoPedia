@@ -24,7 +24,7 @@ export default function QuizOverlayTitle({
   quizName,
 }: QuizOverlayTitleProps) {
   return (
-    <div className="rounded-lg bg-background-1/80 px-6 py-2 text-center backdrop-blur-md">
+    <div className="rounded-lg bg-surface/80 px-6 py-2 text-center backdrop-blur-md">
       <h1 className="text-xl font-bold leading-tight text-text">
         {quizName}
       </h1>

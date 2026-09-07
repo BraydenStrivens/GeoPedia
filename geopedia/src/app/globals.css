@@ -1,106 +1,173 @@
 /**
- * Defines GeoPedia's global visual theme and shared site-wide styles.
+ * GeoPedia's semantic design tokens.
  *
- * Semantic CSS variables provide a single source of truth for backgrounds,
- * text, buttons, borders, interactive states, and typography. Tailwind theme
- * variables expose those values as utility classes so components can use
- * consistent styling without depending directly on specific gray shades or
- * hexadecimal colors.
+ * Colors are grouped by visual responsibility so shared components can use a
+ * consistent palette without depending directly on Tailwind palette shades.
  *
- * This file also contains global document behavior and reusable styles that do
- * not belong to a single component, including GeoPedia's hidden panel
- * scrollbar and normalized MapLibre cursor behavior.
+ * Existing background, text, button, and control tokens remain available for
+ * established quiz UI while newer surface and brand tokens provide clearer
+ * semantics for page and panel styling.
  */
 
 @import "tailwindcss";
 
-/**
- * GeoPedia's semantic design tokens.
- *
- * Components should reference these values by purpose rather than introducing
- * hardcoded black, white, or gray values. This allows the site's visual theme
- * to be changed later without rewriting individual components.
- */
 :root {
-  /* Background hierarchy */
-  --background-color-1: #ffffff;
-  --background-color-2: #e5e7eb;
-  --background-color-3: #d1d5db;
+  /* Page and surface hierarchy */
+  --page-background-color: #cbd5e1;
+  /* slate-300 */
+  --surface-color: #ffffff;
+  --surface-muted-color: #f1f5f9;
+  /* slate-100 */
+  --surface-hover-color: #e0f2fe;
+  /* sky-100 */
+
+  /*
+   * Legacy background hierarchy.
+   *
+   * These remain because existing quiz components already use
+   * bg-background-1/2/3. They now map onto the updated GeoPedia palette.
+   */
+  --background-color-1: var(--surface-color);
+  --background-color-2: var(--surface-muted-color);
+  --background-color-3: var(--surface-hover-color);
+
+  /* Brand and interactive accent colors */
+  --brand-soft-color: #e0f2fe;
+  /* sky-100 */
+  --brand-muted-color: #bae6fd;
+  /* sky-200 */
+  --brand-hover-color: #7dd3fc;
+  /* sky-300 */
+  --brand-color: #0284c7;
+  /* sky-600 */
+  --brand-hover-strong-color: #0369a1;
+  /* sky-700 */
 
   /* Primary and secondary text */
-  --text-color: #171717;
-  --text-hover-color: #ffffff;
-  --text-secondary-color: #6b7280;
-
-  /* Buttons and other prominent interactive surfaces */
-  --button-color: #171717;
-  --button-hover-color: #ffffff;
-  --button-text-color: #ffffff;
-  --button-hover-text-color: #171717;
-
-  /* Toggle buttons */
-  --selected-control-color: #171717;
-  --selected-control-hover-color: #374151;
+  --text-color: #0f172a;
+  /* slate-900 */
+  --text-secondary-color: #475569;
+  /* slate-600 */
+  --text-muted-color: #64748b;
+  /* slate-500 */
+  --text-on-accent-color: #ffffff;
 
   /* Borders and dividers */
-  --border-color: #d1d5db;
-  --border-hover-color: #171717;
+  --border-color: #cbd5e1;
+  /* slate-300 */
+  --border-strong-color: #94a3b8;
+  /* slate-400 */
+  --border-hover-color: #38bdf8;
+  /* sky-400 */
+
+  /* Primary buttons */
+  --button-color: #0284c7;
+  /* sky-600 */
+  --button-hover-color: #0369a1;
+  /* sky-700 */
+  --button-text-color: #ffffff;
+
+  /*
+   * Strong selected controls.
+   *
+   * Existing components frequently pair this background with white text, so
+   * this token intentionally remains a strong blue rather than a pale tint.
+   */
+  --selected-control-color: #0284c7;
+  /* sky-600 */
+  --selected-control-hover-color: #0369a1;
+  /* sky-700 */
+
+  /*
+   * Soft selected surfaces.
+   *
+   * Used when an interactive row or card should look selected without becoming
+   * a strong button-like surface.
+   */
+  --selected-surface-color: #bae6fd;
+  /* sky-200 */
+  --selected-surface-hover-color: #7dd3fc;
+  /* sky-300 */
+  --selected-surface-text-color: #0f172a;
+  /* slate-900 */
+  --selected-surface-border-color: #0ea5e9;
+  /* sky-500 */
 
   /* Disabled interactive states */
-  --disabled-color: #e5e7eb;
-  --disabled-text-color: #9ca3af;
+  --disabled-color: #e2e8f0;
+  /* slate-200 */
+  --disabled-text-color: #94a3b8;
+  /* slate-400 */
 
   /* Destructive actions */
   --danger-color: #dc2626;
+  /* red-600 */
   --danger-hover-color: #b91c1c;
+  /* red-700 */
+  --danger-text-color: #ffffff;
 
-  /* Keyboard and other explicit focus indicators */
-  --focus-color: #171717;
+  /* Keyboard and explicit focus indicators */
+  --focus-color: #0284c7;
+  /* sky-600 */
 }
 
 /**
  * Exposes GeoPedia's semantic design tokens to Tailwind.
  *
- * For example:
- *
- * `bg-background-1`
- * `bg-background-2`
- * `text-text`
- * `text-text-secondary`
- * `bg-button`
- * `hover:bg-button-hover`
- * `border-border`
- * `font-text`
- *
- * Components should prefer these semantic utilities over raw Tailwind palette
- * utilities such as `bg-gray-300` or `text-gray-500`.
+ * Existing utilities such as `bg-background-1`, `text-text`, and
+ * `bg-selected-control` remain supported while newer semantic utilities such
+ * as `bg-surface`, `bg-brand-soft`, and `bg-selected-surface` can be adopted
+ * gradually.
  */
 @theme inline {
-  /* Background colors */
+  /* Page and surface colors */
+  --color-page: var(--page-background-color);
+  --color-surface: var(--surface-color);
+  --color-surface-muted: var(--surface-muted-color);
+  --color-surface-hover: var(--surface-hover-color);
+
+  /* Existing background hierarchy */
   --color-background-1: var(--background-color-1);
   --color-background-2: var(--background-color-2);
   --color-background-3: var(--background-color-3);
 
+  /* Brand colors */
+  --color-brand-soft: var(--brand-soft-color);
+  --color-brand-muted: var(--brand-muted-color);
+  --color-brand-hover: var(--brand-hover-color);
+  --color-brand: var(--brand-color);
+  --color-brand-hover-strong:
+    var(--brand-hover-strong-color);
+
   /* Text colors */
   --color-text: var(--text-color);
-  --color-text-hover: var(--text-hover-color);
   --color-text-secondary: var(--text-secondary-color);
-
-  /* Button colors */
-  --color-button: var(--button-color);
-  --color-button-hover: var(--button-hover-color);
-  --color-button-text: var(--button-text-color);
-  --color-button-hover-text: var(--button-hover-text-color);
-
-  /* Toggle button colors */
-  --color-selected-control:
-    var(--selected-control-color);
-  --color-selected-control-hover:
-    var(--selected-control-hover-color);
+  --color-text-muted: var(--text-muted-color);
+  --color-text-on-accent: var(--text-on-accent-color);
 
   /* Border colors */
   --color-border: var(--border-color);
+  --color-border-strong: var(--border-strong-color);
   --color-border-hover: var(--border-hover-color);
+
+  /* Primary buttons */
+  --color-button: var(--button-color);
+  --color-button-hover: var(--button-hover-color);
+  --color-button-text: var(--button-text-color);
+
+  /* Strong selected controls */
+  --color-selected-control: var(--selected-control-color);
+  --color-selected-control-hover:
+    var(--selected-control-hover-color);
+
+  /* Soft selected surfaces */
+  --color-selected-surface: var(--selected-surface-color);
+  --color-selected-surface-hover:
+    var(--selected-surface-hover-color);
+  --color-selected-surface-text:
+    var(--selected-surface-text-color);
+  --color-selected-surface-border:
+    var(--selected-surface-border-color);
 
   /* Disabled states */
   --color-disabled: var(--disabled-color);
@@ -109,6 +176,7 @@
   /* Destructive actions */
   --color-danger: var(--danger-color);
   --color-danger-hover: var(--danger-hover-color);
+  --color-danger-text: var(--danger-text-color);
 
   /* Focus state */
   --color-focus: var(--focus-color);
@@ -119,37 +187,92 @@
 }
 
 /**
- * Defines GeoPedia's default document appearance.
+ * Uses the normal system pointer over MapLibre maps instead of MapLibre's
+ * default grab/grabbing cursor.
  */
-body {
-  background: var(--background-color-1);
-  color: var(--text-color);
-  font-family:
-    var(--font-geist-sans),
-    Arial,
-    Helvetica,
-    sans-serif;
-  cursor: default;
-}
-
-/**
- * Prevents MapLibre from replacing GeoPedia's preferred default cursor.
- */
-html,
-body,
 .maplibregl-canvas {
   cursor: default !important;
 }
 
 /**
- * Hides the native scrollbar while preserving mouse-wheel, trackpad,
- * keyboard, and touch scrolling inside floating panels.
+ * Provides a subtle scrollbar for nested scrollable panel sections.
+ *
+ * The scrollbar remains understated while dormant and becomes more visible
+ * when the pointer enters its scrollable region. Native increment/decrement
+ * buttons are removed to keep the scrollbar visually minimal.
  */
-.panel-scrollbar {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+
+/* Firefox only */
+@supports (-moz-appearance: none) {
+  .panel-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color:
+      color-mix(in srgb, var(--text-muted-color) 20%, transparent) transparent;
+  }
+
+  .panel-scrollbar:hover {
+    scrollbar-color:
+      color-mix(in srgb, var(--text-muted-color) 50%, transparent) transparent;
+  }
 }
 
+/* Chromium, Edge, and Safari */
 .panel-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/**
+ * Insets the scrollbar slightly from the top and bottom edges of its
+ * scrollable region.
+ */
+.panel-scrollbar::-webkit-scrollbar-track {
+  margin-block: 3px;
+  background: transparent;
+}
+
+/**
+ * Keeps the visible thumb subtle while dormant and slightly inset from the
+ * right edge while preserving a larger scrollbar hit area.
+ */
+.panel-scrollbar::-webkit-scrollbar-thumb {
+  border-right: 2px solid transparent;
+  border-radius: 9999px;
+  background-color:
+    color-mix(in srgb, var(--text-muted-color) 20%, transparent);
+  background-clip: padding-box;
+}
+
+/**
+ * Makes the scrollbar more visible whenever its scrollable region is hovered.
+ */
+.panel-scrollbar:hover::-webkit-scrollbar-thumb {
+  background-color:
+    color-mix(in srgb, var(--text-muted-color) 50%, transparent);
+}
+
+/**
+ * Removes native scrollbar increment/decrement buttons while preserving
+ * wheel, trackpad, keyboard, and thumb scrolling.
+ */
+.panel-scrollbar::-webkit-scrollbar-button {
   display: none;
+  width: 0;
+  height: 0;
+}
+
+/**
+ * Hides a scrollbar visually while preserving normal scrolling behavior.
+ *
+ * Used by larger panel-level scroll regions where a visible scrollbar would
+ * add unnecessary visual noise.
+ */
+.panel-scrollbar-hidden {
+  scrollbar-width: none;
+}
+
+.panel-scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
 }

@@ -33,7 +33,7 @@ type FeatureSelectionPopupProps = {
   selection: FeatureSelection | null;
 
   /**
-   * Optional background-color class overriding the popup's neutral background.
+   * Optional background-color class overriding the popup's neutral surface.
    *
    * This should contain a Tailwind background utility such as `bg-red-600`.
    */
@@ -61,7 +61,7 @@ type FeatureSelectionPopupProps = {
  */
 export default function FeatureSelectionPopup({
   selection,
-  backgroundClassName = "bg-background-1",
+  backgroundClassName = "bg-surface",
   textClassName = "text-text",
 }: FeatureSelectionPopupProps) {
   if (!selection) {

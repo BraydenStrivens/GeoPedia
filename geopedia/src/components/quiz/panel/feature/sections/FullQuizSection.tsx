@@ -64,10 +64,20 @@ export default function FullQuizSection({
         aria-pressed={isActive}
         className={[
           "w-full rounded-lg border px-3 py-2",
-          "text-sm font-semibold transition",
+          "text-sm font-semibold transition-colors",
+          "focus-visible:outline-none focus-visible:ring-2",
+          "focus-visible:ring-focus",
           isActive
-            ? "cursor-default border-selected-control bg-selected-control text-button-text"
-            : "border-border bg-background-1 text-text hover:bg-background-3",
+            ? [
+                "cursor-default",
+                "border-selected-surface-border",
+                "bg-selected-surface",
+                "text-selected-surface-text",
+              ].join(" ")
+            : [
+                "border-border bg-surface text-text",
+                "hover:border-brand-muted hover:bg-brand-soft",
+              ].join(" "),
         ].join(" ")}
       >
         Use Full Quiz
@@ -76,10 +86,13 @@ export default function FullQuizSection({
       {supportsGeoGuessrFilter && (
         /* Optional GeoGuessr eligibility filter */
         <div className="flex w-full items-center justify-end py-2">
-          <label className="flex cursor-pointer items-center gap-2 text-sm font-medium">
-            <span className="text-text-secondary">
-              GeoGuessr Only
-            </span>
+          <label
+            className="
+              flex cursor-pointer items-center gap-2
+              text-sm font-medium text-text-secondary
+            "
+          >
+            <span>GeoGuessr Only</span>
 
             <input
               type="checkbox"
@@ -87,7 +100,13 @@ export default function FullQuizSection({
               onChange={(event) =>
                 onGeoGuessrOnlyChange(event.target.checked)
               }
-              className="h-4 w-4 cursor-pointer"
+              className="
+                h-4 w-4 cursor-pointer
+                accent-[var(--brand-color)]
+                focus-visible:outline-none
+                focus-visible:ring-2
+                focus-visible:ring-focus
+              "
             />
           </label>
         </div>

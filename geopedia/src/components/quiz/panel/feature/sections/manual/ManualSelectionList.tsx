@@ -61,6 +61,10 @@ type ManualSelectionListProps = {
 /**
  * Displays the current manual feature selection and controls for modifying it.
  *
+ * Selected features remain visually compact so large manual selections can
+ * expose as many entries as possible before the inner list begins scrolling.
+ * Brand color is reserved for interactive emphasis rather than per-row cards.
+ *
  * @param props - Selection state, answer-display state, and interaction
  * callbacks.
  * @param props.selectionItems - Currently selected geographic features.
@@ -172,7 +176,12 @@ export default function ManualSelectionList({
         type="button"
         onClick={onToggleShowAnswers}
         aria-pressed={showAnswers}
-        className="mt-3 flex w-full items-center justify-between text-left"
+        className="
+          mt-3 flex w-full items-center justify-between
+          text-left
+          focus-visible:outline-none focus-visible:ring-2
+          focus-visible:ring-focus
+        "
       >
         <span className="text-sm font-medium text-text">
           Show Answers
@@ -181,10 +190,18 @@ export default function ManualSelectionList({
         {/* Toggle indicator */}
         <span
           className={[
-            "h-4 w-4 shrink-0 rounded-full border-2 transition",
+            "h-4 w-4 shrink-0 rounded-full border-2",
+            "transition-colors",
             showAnswers
-              ? "border-selected-control bg-selected-control hover:bg-selected-control-hover"
-              : "border-border bg-transparent hover:border-border-hover",
+              ? [
+                  "border-selected-control bg-selected-control",
+                  "hover:border-selected-control-hover",
+                  "hover:bg-selected-control-hover",
+                ].join(" ")
+              : [
+                  "border-border-strong bg-surface",
+                  "hover:border-border-hover hover:bg-brand-soft",
+                ].join(" "),
           ].join(" ")}
         />
       </button>
@@ -192,7 +209,12 @@ export default function ManualSelectionList({
       {/* Selected-feature list */}
       <div
         ref={selectionListRef}
-        className="panel-scrollbar mt-3 max-h-48 space-y-1 overflow-y-auto overscroll-contain rounded-lg border border-border bg-transparent p-2 transition-colors hover:bg-background-2/60"
+        className="
+          panel-scrollbar mt-3 max-h-48 space-y-1
+          overflow-y-auto overscroll-contain
+          rounded-lg border border-border
+          bg-surface-muted p-2
+        "
       >
         {!hasSelectedFeatures ? (
           /* Empty selection */
@@ -204,7 +226,13 @@ export default function ManualSelectionList({
           selectionItems.map((selectionItem) => (
             <div
               key={selectionItem.featureId}
-              className="flex items-center justify-between gap-2 rounded-md px-2 py-1.5 text-sm text-text transition hover:bg-background-1"
+              className="
+                flex items-center justify-between gap-2
+                rounded-md px-2 py-1
+                text-sm text-text
+                transition-colors
+                hover:text-brand
+              "
             >
               {/* Quiz answers represented by the feature */}
               <span className="min-w-0 flex-1 truncate">
@@ -221,7 +249,14 @@ export default function ManualSelectionList({
                 }
                 title="Remove feature"
                 aria-label="Remove selected feature"
-                className="flex h-5 w-5 shrink-0 items-center justify-center rounded text-sm font-bold text-text-secondary transition hover:bg-background-3 hover:text-text"
+                className="
+                  flex h-5 w-5 shrink-0 items-center justify-center
+                  rounded text-sm font-bold text-text-secondary
+                  transition-colors
+                  hover:bg-brand-soft hover:text-brand
+                  focus-visible:outline-none focus-visible:ring-2
+                  focus-visible:ring-focus
+                "
               >
                 ×
               </button>
@@ -238,9 +273,12 @@ export default function ManualSelectionList({
           disabled={!canSelectAll}
           onClick={onSelectAll}
           className={[
-            "text-xs font-medium underline transition",
+            "rounded text-xs font-medium underline",
+            "transition-colors",
+            "focus-visible:outline-none focus-visible:ring-2",
+            "focus-visible:ring-focus",
             canSelectAll
-              ? "text-text-secondary hover:text-text"
+              ? "text-text-secondary hover:text-brand"
               : "cursor-default text-disabled-text",
           ].join(" ")}
         >
@@ -253,9 +291,12 @@ export default function ManualSelectionList({
           disabled={!hasSelectedFeatures}
           onClick={onDeselectAll}
           className={[
-            "text-xs font-medium underline transition",
+            "rounded text-xs font-medium underline",
+            "transition-colors",
+            "focus-visible:outline-none focus-visible:ring-2",
+            "focus-visible:ring-focus",
             hasSelectedFeatures
-              ? "text-text-secondary hover:text-text"
+              ? "text-text-secondary hover:text-brand"
               : "cursor-default text-disabled-text",
           ].join(" ")}
         >

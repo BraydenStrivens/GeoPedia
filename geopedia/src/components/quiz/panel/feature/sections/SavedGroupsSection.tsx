@@ -47,6 +47,11 @@ type SavedGroupsSectionProps = {
  * Displays saved feature quiz groups and their activation, description, and
  * editing controls.
  *
+ * Active groups use GeoPedia's soft selected surface so selection remains
+ * prominent without giving an entire saved-group row the visual weight of a
+ * primary action button. Description and edit controls use lighter brand
+ * accents within each row.
+ *
  * @param props - Saved-group section properties.
  * @param props.savedGroups - Groups persisted for the current quiz.
  * @param props.activeSavedGroupId - ID of the currently active saved group.
@@ -90,7 +95,14 @@ export default function SavedGroupsSection({
         </p>
       ) : (
         /* Scrollable saved-group list */
-        <div className="panel-scrollbar max-h-48 space-y-2 overflow-y-auto overscroll-contain rounded-lg border border-border bg-transparent p-2 transition-colors hover:bg-background-3/60">
+        <div
+          className="
+            panel-scrollbar max-h-48 space-y-2
+            overflow-y-auto overscroll-contain
+            rounded-lg border border-border
+            bg-surface-muted p-2
+          "
+        >
           {savedGroups.map((savedGroup) => {
             /** Whether this saved group currently controls the quiz. */
             const isActive = activeSavedGroupId === savedGroup.id;
@@ -108,8 +120,16 @@ export default function SavedGroupsSection({
                 className={[
                   "overflow-hidden rounded-lg border transition-colors",
                   isActive
-                    ? "border-selected-control bg-selected-control text-button-text hover:bg-selected-control-hover"
-                    : "border-border bg-background-1 text-text hover:bg-background-3/60",
+                    ? [
+                        "border-selected-surface-border",
+                        "bg-selected-surface",
+                        "text-selected-surface-text",
+                        "hover:bg-selected-surface-hover",
+                      ].join(" ")
+                    : [
+                        "border-border bg-surface text-text",
+                        "hover:border-brand-muted hover:bg-brand-soft",
+                      ].join(" "),
                 ].join(" ")}
               >
                 {/* Saved-group primary and secondary controls */}
@@ -119,7 +139,12 @@ export default function SavedGroupsSection({
                     type="button"
                     onClick={() => onToggleGroup(savedGroup)}
                     aria-pressed={isActive}
-                    className="flex min-w-0 flex-1 items-center px-3 py-2 text-left transition"
+                    className="
+                      flex min-w-0 flex-1 items-center
+                      px-3 py-2 text-left
+                      transition-colors
+                      focus-visible:outline-none
+                    "
                   >
                     <span className="truncate text-sm font-semibold">
                       {savedGroup.name}
@@ -148,14 +173,23 @@ export default function SavedGroupsSection({
                         aria-expanded={isDescriptionOpen}
                         className={[
                           "flex h-6 w-6 items-center justify-center rounded-md",
-                          "text-xs font-bold transition",
+                          "text-xs font-bold transition-colors",
+                          "focus-visible:outline-none focus-visible:ring-2",
+                          "focus-visible:ring-focus",
                           isDescriptionOpen
-                            ? isActive
-                              ? "bg-background-1/25 text-button-text"
-                              : "bg-background-3 text-text"
+                            ? [
+                                "bg-selected-control text-button-text",
+                                "hover:bg-selected-control-hover",
+                              ].join(" ")
                             : isActive
-                              ? "text-button-text/80 hover:bg-background-1/20 hover:text-button-text"
-                              : "text-text-secondary hover:bg-background-3 hover:text-text",
+                              ? [
+                                  "text-selected-surface-text",
+                                  "hover:bg-brand-soft hover:text-text",
+                                ].join(" ")
+                              : [
+                                  "text-text-secondary",
+                                  "hover:bg-brand-soft hover:text-text",
+                                ].join(" "),
                         ].join(" ")}
                       >
                         ?
@@ -178,14 +212,24 @@ export default function SavedGroupsSection({
                       }
                       aria-pressed={isBeingEdited}
                       className={[
-                        "flex h-6 w-6 items-center justify-center rounded-md transition",
+                        "flex h-6 w-6 items-center justify-center rounded-md",
+                        "transition-colors",
+                        "focus-visible:outline-none focus-visible:ring-2",
+                        "focus-visible:ring-focus",
                         isBeingEdited
-                          ? isActive
-                            ? "bg-background-1/25 text-button-text"
-                            : "bg-background-3 text-text"
+                          ? [
+                              "bg-selected-control text-button-text",
+                              "hover:bg-selected-control-hover",
+                            ].join(" ")
                           : isActive
-                            ? "text-button-text/80 hover:bg-background-1/20 hover:text-button-text"
-                            : "text-text-secondary hover:bg-background-3 hover:text-text",
+                            ? [
+                                "text-selected-surface-text",
+                                "hover:bg-brand-soft hover:text-text",
+                              ].join(" ")
+                            : [
+                                "text-text-secondary",
+                                "hover:bg-brand-soft hover:text-text",
+                              ].join(" "),
                       ].join(" ")}
                     >
                       {/* Pencil icon */}
@@ -211,10 +255,11 @@ export default function SavedGroupsSection({
                 {savedGroup.description && isDescriptionOpen && (
                   <div
                     className={[
-                      "border-t px-3 py-2 text-xs leading-relaxed",
+                      "border-t px-3 py-2",
+                      "text-xs leading-relaxed text-text-secondary",
                       isActive
-                        ? "border-background-1/20 text-button-text/80"
-                        : "border-border text-text-secondary",
+                        ? "border-selected-surface-border"
+                        : "border-border",
                     ].join(" ")}
                   >
                     {savedGroup.description}

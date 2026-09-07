@@ -107,6 +107,9 @@ type PropertyGroupsSectionProps = {
 /**
  * Displays the collapsible Property Groups section.
  *
+ * The section uses GeoPedia's neutral nested surfaces for editing controls and
+ * blue brand accents for hover, focus, and selected property values.
+ *
  * @param props - Property-group state, validation, and interaction callbacks.
  * @returns Property-based feature grouping controls.
  */
@@ -197,7 +200,13 @@ export default function PropertyGroupsSection({
               : "Expand Property Groups"
           }
           aria-expanded={isExpanded}
-          className="flex h-6 w-6 items-center justify-center rounded-md text-text-secondary transition hover:bg-background-3 hover:text-text"
+          className="
+            flex h-6 w-6 items-center justify-center rounded-md
+            text-text-secondary transition-colors
+            hover:bg-brand-soft hover:text-text
+            focus-visible:outline-none focus-visible:ring-2
+            focus-visible:ring-focus
+          "
         >
           {/* Chevron icon */}
           <svg
@@ -232,10 +241,19 @@ export default function PropertyGroupsSection({
                 onChangeGroupingProperty(event.target.value)
               }
               className={[
-                "mb-3 w-full rounded-lg border px-3 py-2 text-sm outline-none transition",
+                "mb-3 w-full rounded-lg border px-3 py-2",
+                "text-sm outline-none transition-colors",
+                "focus:ring-1 focus:ring-focus",
                 isInteractionBlocked
-                  ? "cursor-not-allowed border-border bg-disabled text-disabled-text"
-                  : "border-border bg-background-1 text-text focus:border-focus",
+                  ? [
+                      "cursor-not-allowed border-border",
+                      "bg-disabled text-disabled-text",
+                    ].join(" ")
+                  : [
+                      "border-border bg-surface text-text",
+                      "hover:border-border-strong",
+                      "focus:border-focus",
+                    ].join(" "),
               ].join(" ")}
             >
               {groupingProperties.map((groupingProperty) => (

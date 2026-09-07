@@ -29,7 +29,7 @@ import { applyBaseMapLayerVisibility } from "@/maps/style/mapStyleVisibility";
 import type { MapConfig } from "@/maps/types";
 
 /**
- * Dependencies required to create and initialize a GeoPedia MapLibre map.
+ * Dependencies required to create and initialize a GeoPedia feature-quiz map.
  */
 type UseFeatureQuizMapParams = {
   /** HTML element into which MapLibre creates its canvas and map UI. */
@@ -127,14 +127,14 @@ function configureBaseMapPlaceNames(map: maplibregl.Map): void {
 }
 
 /**
- * Creates, configures, and owns a MapLibre map instance.
+ * Creates, configures, and owns a feature-quiz MapLibre map instance.
  *
  * The map is recreated only when dependencies that fundamentally define the
- * map change. Runtime interaction systems are registered separately by the
- * component using this hook.
+ * feature-quiz map change. Runtime quiz interactions are registered separately
+ * after this hook reports the geographic source ready.
  *
- * @param params - Map configuration and initial display-setting refs.
- * @returns MapLibre instance ref and GeoPedia-source readiness state.
+ * @param params - Feature-map configuration and initial display-setting refs.
+ * @returns MapLibre instance ref and feature-source readiness state.
  */
 export function useFeatureQuizMap({
   containerRef,
@@ -192,10 +192,7 @@ export function useFeatureQuizMap({
       minZoom: 1.8,
       attributionControl: false,
     });
-    /*
-     * GeoPedia's map experiences use direct single-feature selection heavily,
-     * so disable MapLibre's default double-click-to-zoom interaction.
-     */
+
     map.doubleClickZoom.disable();
     map.scrollZoom.setWheelZoomRate(1 / 250);
 

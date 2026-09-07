@@ -225,7 +225,7 @@ export default function TownQuizOverlay({
       {isActive && !isFinished && (
         <>
           {/* Town currently being located */}
-          <div className="mt-2 rounded-lg bg-background-1/80 px-5 py-1.5 text-center backdrop-blur-md">
+          <div className="mt-2 rounded-lg bg-surface/80 px-5 py-1.5 text-center backdrop-blur-md">
             <div className="text-lg font-bold leading-tight text-text">
               {currentTownName}
             </div>
@@ -272,12 +272,11 @@ export default function TownQuizOverlay({
 
       {/* Finished quiz summary */}
       {isFinished && (
-        <div className="mt-2 rounded-lg bg-background-1/80 px-5 py-2 text-center backdrop-blur-md">
+        <div className="mt-2 rounded-lg bg-surface/80 px-5 py-2 text-center backdrop-blur-md">
           {/* Final question counter */}
           <div className="text-sm font-semibold text-text-secondary">
             {questionCount} / {questionCount}
           </div>
-
           {/* Final aggregate results */}
           <div className="mt-1">
             <div className="text-lg font-bold text-text">

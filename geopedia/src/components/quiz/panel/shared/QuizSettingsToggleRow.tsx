@@ -73,7 +73,15 @@ export default function QuizSettingsToggleRow({
               }
               aria-label={`About ${label}`}
               aria-expanded={isHelpOpen}
-              className="flex h-4 w-4 shrink-0 items-center justify-center rounded-full border border-border text-[10px] font-bold leading-none text-text-secondary transition hover:border-border-hover hover:text-text"
+              className="
+                flex h-4 w-4 shrink-0 items-center justify-center
+                rounded-full border border-border
+                text-[10px] font-bold leading-none text-text-secondary
+                transition-colors
+                hover:border-border-hover hover:bg-brand-soft hover:text-text
+                focus-visible:outline-none focus-visible:ring-2
+                focus-visible:ring-focus
+              "
             >
               ?
             </button>
@@ -86,14 +94,18 @@ export default function QuizSettingsToggleRow({
           onClick={onToggle}
           aria-label={`Toggle ${label}`}
           aria-pressed={isEnabled}
-          className="shrink-0"
+          className="
+            shrink-0 rounded-full
+            focus-visible:outline-none focus-visible:ring-2
+            focus-visible:ring-focus focus-visible:ring-offset-2
+          "
         >
           <span
             className={[
-              "block h-4 w-4 rounded-full border-2 transition",
+              "block h-4 w-4 rounded-full border-2 transition-colors",
               isEnabled
-                ? "border-selected-control bg-selected-control hover:bg-selected-control-hover"
-                : "border-border bg-transparent hover:border-border-hover",
+                ? "border-selected-control bg-selected-control hover:border-selected-control-hover hover:bg-selected-control-hover"
+                : "border-border-strong bg-surface hover:border-border-hover hover:bg-brand-soft",
             ].join(" ")}
           />
         </button>
@@ -102,7 +114,12 @@ export default function QuizSettingsToggleRow({
       {/* Optional contextual help description */}
       {description && isHelpOpen && (
         <div
-          className="mt-2 rounded-lg border border-border bg-background-1 p-2.5 text-xs leading-relaxed text-text-secondary shadow-sm"
+          className="
+            mt-2 rounded-lg border border-brand-muted
+            bg-brand-soft p-2.5
+            text-xs leading-relaxed text-text-secondary
+            shadow-sm
+          "
           role="note"
         >
           {description}

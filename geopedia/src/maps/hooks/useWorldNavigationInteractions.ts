@@ -1,16 +1,18 @@
 /**
- * Owns interaction and availability styling for GeoPedia's home world
+ * Owns interaction and quiz-availability behavior for GeoPedia's Home world
  * navigation map.
  *
- * This hook is intentionally specific to the world navigation experience. It:
+ * This hook is intentionally specific to the world-navigation experience. It:
  *
  * - Marks countries according to quiz availability.
- * - Gives unavailable countries a separate base fill.
- * - Draws a repeating diagonal hatch over unavailable countries.
+ * - Draws a repeating diagonal hatch over countries without quizzes.
  * - Applies hover highlighting only to countries with quizzes.
  * - Reports hover-label information for every country.
  * - Uses a pointer cursor only for navigable countries.
  * - Prevents navigation when a country has no registered quizzes.
+ *
+ * Base country coloring, including GeoGuessr versus non-GeoGuessr
+ * classification, is handled separately by `useWorldNavigationMap`.
  */
 
 "use client";
@@ -24,19 +26,8 @@ import {
   FEATURE_SOURCE_ID,
 } from "@/maps/constants/mapLayerIds";
 
-/**
- * Base fill placed over countries that currently have no registered quizzes.
- *
- * This is intentionally separate from the normal map fill so active-country
- * styling can continue to come from the map configuration.
- */
-const NO_QUIZZES_FILL_COLOR = "#d1d5db";
-
 /** MapLibre image ID used by the unavailable-country hatch layer. */
 const NO_QUIZZES_PATTERN_ID = "world-navigation-no-quizzes-pattern";
-
-/** Layer containing the unavailable-country background fill. */
-const NO_QUIZZES_FILL_LAYER_ID = "world-navigation-no-quizzes-fill";
 
 /** Layer containing the repeating diagonal unavailable-country hatch. */
 const NO_QUIZZES_PATTERN_LAYER_ID =
@@ -63,10 +54,10 @@ export type HoveredNavigationCountry = {
  * Dependencies required by `useWorldNavigationInteractions`.
  */
 type UseWorldNavigationInteractionsParams = {
-  /** MapLibre instance created by `useMap`. */
+  /** MapLibre instance created by `useWorldNavigationMap`. */
   mapRef: RefObject<maplibregl.Map | null>;
 
-  /** Whether GeoPedia's geographic source and layers are ready. */
+  /** Whether GeoPedia's world-country source and layers are ready. */
   isMapReady: boolean;
 
   /** GeoJSON property containing the user-facing country name. */
@@ -92,6 +83,10 @@ type UseWorldNavigationInteractionsParams = {
 /**
  * Creates the small transparent image tiled across countries without quizzes.
  *
+ * The image contains diagonal strokes only. The underlying country color stays
+ * visible so GeoGuessr classification remains readable even when a country has
+ * no available quizzes.
+ *
  * @returns ImageData containing repeating diagonal strokes.
  */
 function createNoQuizzesPattern(): ImageData {
@@ -113,7 +108,6 @@ function createNoQuizzesPattern(): ImageData {
   context.clearRect(0, 0, size, size);
 
   context.strokeStyle = "rgba(0, 0, 0, 0.16)";
-
   context.lineWidth = 1;
 
   context.beginPath();
@@ -123,11 +117,9 @@ function createNoQuizzesPattern(): ImageData {
    * MapLibre repeats the image.
    */
   context.moveTo(-1, size - 1);
-
   context.lineTo(size - 1, -1);
 
   context.moveTo(3, size + 1);
-
   context.lineTo(size + 1, 3);
 
   context.stroke();
@@ -138,12 +130,12 @@ function createNoQuizzesPattern(): ImageData {
 /**
  * Finds the first line layer belonging to GeoPedia's geographic source.
  *
- * Navigation availability layers should appear above the normal country fill
+ * The unavailable-country hatch should appear above the normal country fill
  * but beneath country borders. Finding the line layer dynamically avoids
  * coupling this hook to a particular border-layer constant.
  *
  * @param map - Current MapLibre map.
- * @returns Layer ID before which availability fills should be inserted.
+ * @returns Layer ID before which the hatch layer should be inserted.
  */
 function findFeatureBorderLayerId(
   map: maplibregl.Map,
@@ -176,7 +168,11 @@ function hasCountryQuizzes(
 /**
  * Marks each country feature with its current quiz availability.
  *
+ * `querySourceFeatures` may return the same promoted feature more than once, so
+ * each feature ID is processed only once before applying feature state.
+ *
  * @param map - Ready MapLibre map.
+ * @param countryIdsWithQuizzes - Resolved set of quiz-enabled country IDs.
  */
 function applyCountryAvailabilityState(
   map: maplibregl.Map,
@@ -215,11 +211,17 @@ function applyCountryAvailabilityState(
 }
 
 /**
- * Adds the unavailable-country fill and hatch layers.
+ * Adds the unavailable-country hatch layer.
+ *
+ * The layer is visible only when a country's `hasQuizzes` feature state is
+ * false. No replacement fill is added, allowing the GeoGuessr/non-GeoGuessr
+ * base color beneath the pattern to remain visible.
  *
  * @param map - Ready MapLibre map.
  */
-function addUnavailableCountryLayers(map: maplibregl.Map): void {
+function addUnavailableCountryPatternLayer(
+  map: maplibregl.Map,
+): void {
   if (!map.hasImage(NO_QUIZZES_PATTERN_ID)) {
     map.addImage(NO_QUIZZES_PATTERN_ID, createNoQuizzesPattern());
   }
@@ -233,23 +235,6 @@ function addUnavailableCountryLayers(map: maplibregl.Map): void {
     1,
   ];
 
-  if (!map.getLayer(NO_QUIZZES_FILL_LAYER_ID)) {
-    map.addLayer(
-      {
-        id: NO_QUIZZES_FILL_LAYER_ID,
-        type: "fill",
-        source: FEATURE_SOURCE_ID,
-
-        paint: {
-          "fill-color": NO_QUIZZES_FILL_COLOR,
-
-          "fill-opacity": unavailableOpacity,
-        },
-      },
-      beforeLayerId,
-    );
-  }
-
   if (!map.getLayer(NO_QUIZZES_PATTERN_LAYER_ID)) {
     map.addLayer(
       {
@@ -259,7 +244,6 @@ function addUnavailableCountryLayers(map: maplibregl.Map): void {
 
         paint: {
           "fill-pattern": NO_QUIZZES_PATTERN_ID,
-
           "fill-opacity": unavailableOpacity,
         },
       },
@@ -269,7 +253,7 @@ function addUnavailableCountryLayers(map: maplibregl.Map): void {
 }
 
 /**
- * Registers availability styling and home-world navigation interactions.
+ * Registers quiz-availability styling and Home world-navigation interactions.
  *
  * @param params - Ready map state and navigation callbacks.
  */
@@ -292,12 +276,13 @@ export function useWorldNavigationInteractions({
 
     applyCountryAvailabilityState(map, countryIdsWithQuizzes);
 
-    addUnavailableCountryLayers(map);
+    addUnavailableCountryPatternLayer(map);
 
     /**
      * ID of the currently highlighted navigable country.
      *
-     * Unavailable countries intentionally never receive MapLibre hover state.
+     * Countries without quizzes intentionally never receive MapLibre hover
+     * state, regardless of their GeoGuessr classification.
      */
     let hoveredFeatureId: string | number | null = null;
 
@@ -320,6 +305,12 @@ export function useWorldNavigationInteractions({
       }
     }
 
+    /**
+     * Handles pointer movement across world-country features.
+     *
+     * All countries report hover-label information, but only countries with
+     * quizzes receive visual hover state and pointer-cursor behavior.
+     */
     function handleMouseMove(
       event: maplibregl.MapMouseEvent & {
         features?: maplibregl.MapGeoJSONFeature[];
@@ -353,7 +344,7 @@ export function useWorldNavigationInteractions({
       }
 
       /*
-       * Only countries containing quizzes receive the darker hover treatment.
+       * Only countries containing quizzes receive the hover treatment.
        */
       if (countryHasQuizzes) {
         hoveredFeatureId = feature.id;
@@ -395,6 +386,10 @@ export function useWorldNavigationInteractions({
       });
     }
 
+    /**
+     * Clears all world-navigation hover UI when the pointer leaves the country
+     * fill layer.
+     */
     function handleMouseLeave(): void {
       clearHoverState();
 
@@ -403,6 +398,12 @@ export function useWorldNavigationInteractions({
       setHoveredCountry(null);
     }
 
+    /**
+     * Navigates to the selected country when that country contains quizzes.
+     *
+     * Countries without quizzes remain visible and identifiable but deliberately
+     * do not navigate.
+     */
     function handleClick(
       event: maplibregl.MapMouseEvent & {
         features?: maplibregl.MapGeoJSONFeature[];
@@ -420,10 +421,6 @@ export function useWorldNavigationInteractions({
 
       const countryId = String(feature.id).toLowerCase();
 
-      /*
-       * Unavailable countries remain visible and hoverable for identification,
-       * but they do not navigate anywhere.
-       */
       if (!hasCountryQuizzes(countryId, countryIdsWithQuizzes)) {
         return;
       }
@@ -432,7 +429,9 @@ export function useWorldNavigationInteractions({
     }
 
     map.on("mousemove", FEATURE_FILL_LAYER_ID, handleMouseMove);
+
     map.on("mouseleave", FEATURE_FILL_LAYER_ID, handleMouseLeave);
+
     map.on("click", FEATURE_FILL_LAYER_ID, handleClick);
 
     return () => {
@@ -440,11 +439,13 @@ export function useWorldNavigationInteractions({
        * Remove only the listeners owned by this interaction effect.
        *
        * Feature state, custom layers, images, cursor state, and other MapLibre
-       * resources belong to the map instance itself and are destroyed by
-       * `useMap` when the map is removed.
+       * resources belong to the map instance itself and are destroyed when the
+       * world-navigation map is removed.
        */
       map.off("mousemove", FEATURE_FILL_LAYER_ID, handleMouseMove);
+
       map.off("mouseleave", FEATURE_FILL_LAYER_ID, handleMouseLeave);
+
       map.off("click", FEATURE_FILL_LAYER_ID, handleClick);
 
       setHoveredCountry(null);

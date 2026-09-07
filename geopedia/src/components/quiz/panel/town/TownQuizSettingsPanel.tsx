@@ -145,9 +145,14 @@ export default function TownQuizSettingsPanel({
   }
 
   return (
-    <div className="w-80 rounded-xl bg-background-1/95 p-4 shadow-lg backdrop-blur-md">
+    <div
+      className="
+        w-80 rounded-xl border border-border
+        bg-surface/95 p-4 shadow-lg backdrop-blur-md
+      "
+    >
       {/* Panel title */}
-      <h2 className="mb-4 text-base font-bold text-text">
+      <h2 className="mb-4 border-b border-brand-muted pb-3 text-base font-bold text-text">
         Quiz Settings
       </h2>
 
@@ -161,7 +166,6 @@ export default function TownQuizSettingsPanel({
           onChange={changeTownQuizMode}
         />
       </div>
-
       {/*
        * Question language is useful only when the active town subset contains
        * at least one native name that differs from its English name.
@@ -177,7 +181,6 @@ export default function TownQuizSettingsPanel({
           />
         </div>
       )}
-
       {/* Contextual base-map labels */}
       <div className="space-y-3">
         <QuizSettingsToggleRow

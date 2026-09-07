@@ -168,7 +168,7 @@ export default function Header() {
   }, [pathname]);
 
   return (
-    <header className="relative z-50 flex h-14 items-center border-b border-border bg-background-1/95 px-4 shadow-sm backdrop-blur-md">
+    <header className="relative z-50 flex h-14 items-center border-b border-border bg-surface/95 px-4 shadow-sm backdrop-blur-md">
       {/* GeoPedia brand / Home link */}
       <Link
         href="/"
@@ -190,7 +190,6 @@ export default function Header() {
         {/* Website name */}
         <span className="text-lg font-bold text-text">GeoPedia</span>
       </Link>
-
       {/* Primary navigation */}
       <nav
         ref={navigationRef}
@@ -215,7 +214,7 @@ export default function Header() {
                 NAVIGATION_LINK_CLASSES,
                 isActive
                   ? "cursor-default font-bold text-text"
-                  : "font-medium text-text-secondary hover:bg-background-3 hover:text-text",
+                  : "font-medium text-text-secondary hover:bg-brand-soft hover:text-text",
               ].join(" ")}
             >
               {label}
@@ -229,7 +228,7 @@ export default function Header() {
           aria-hidden="true"
           className={[
             "pointer-events-none absolute bottom-1.5 left-0 h-0.5",
-            "bg-text opacity-0",
+            "bg-brand opacity-0",
             "transition-[transform,width,opacity]",
             "duration-300 ease-in-out",
           ].join(" ")}

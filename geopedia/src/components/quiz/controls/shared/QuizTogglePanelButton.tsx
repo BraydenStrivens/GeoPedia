@@ -36,9 +36,9 @@ type QuizTogglePanelButtonProps = {
 /**
  * Displays a shared floating quiz-panel toggle button.
  *
- * Open and closed states use different background opacity while inheriting
- * GeoPedia's shared border and text colors from the global semantic style
- * system.
+ * The closed state uses a translucent surface so the control remains lightweight
+ * over the map, while the open state uses a stronger surface and blue hover
+ * treatment to emphasize the active panel.
  *
  * @param props - Panel state, accessible label, content, and toggle callback.
  * @returns Floating button controlling an auxiliary quiz panel.
@@ -57,12 +57,12 @@ export default function QuizTogglePanelButton({
       aria-label={label}
       aria-expanded={isOpen}
       className={[
-        "flex h-10 items-center justify-center rounded-lg border border-background-1 p-3",
+        "flex h-10 items-center justify-center rounded-lg border border-border p-3",
         "shadow-sm backdrop-blur-md",
         "text-text transition-all duration-200",
         isOpen
-          ? "bg-background-1 hover:bg-background-1/50"
-          : "bg-background-1/30 hover:bg-background-1/70",
+          ? "bg-surface hover:bg-brand-soft"
+          : "bg-surface/30 hover:bg-surface/70",
       ].join(" ")}
     >
       {children}

@@ -99,7 +99,15 @@ export default function QuizSettingsSegmentedControl<
             }
             aria-label={`About ${label}`}
             aria-expanded={isHelpOpen}
-            className="flex h-4 w-4 shrink-0 items-center justify-center rounded-full border border-border text-[10px] font-bold leading-none text-text-secondary transition hover:border-border-hover hover:text-text"
+            className="
+              flex h-4 w-4 shrink-0 items-center justify-center
+              rounded-full border border-border
+              text-[10px] font-bold leading-none text-text-secondary
+              transition-colors
+              hover:border-border-hover hover:bg-brand-soft hover:text-text
+              focus-visible:outline-none focus-visible:ring-2
+              focus-visible:ring-focus
+            "
           >
             ?
           </button>
@@ -107,11 +115,21 @@ export default function QuizSettingsSegmentedControl<
       </div>
 
       {/* Segmented selector */}
-      <div className="relative grid grid-cols-2 rounded-lg bg-background-3 p-1">
+      <div
+        className="
+          relative grid grid-cols-2 rounded-lg
+          border border-brand-muted bg-brand-soft p-1
+        "
+      >
         {/* Sliding selected-option background */}
         <div
           aria-hidden="true"
-          className="absolute bottom-1 left-1 top-1 w-[calc((100%-0.5rem)/2)] rounded-md bg-background-1 shadow-sm transition-transform duration-200 ease-out"
+          className="
+            absolute bottom-1 left-1 top-1
+            w-[calc((100%-0.5rem)/2)]
+            rounded-md bg-surface shadow-sm
+            transition-transform duration-200 ease-out
+          "
           style={{
             transform:
               selectedOptionIndex === 1
@@ -127,7 +145,13 @@ export default function QuizSettingsSegmentedControl<
             type="button"
             onClick={() => onChange(option.value)}
             aria-pressed={option.value === value}
-            className="relative z-10 px-2 py-1.5 text-xs font-semibold text-text transition-colors"
+            className="
+              relative z-10 px-2 py-1.5
+              text-xs font-semibold text-text
+              transition-colors
+              hover:text-brand
+              focus-visible:outline-none
+            "
           >
             {option.label}
           </button>
@@ -137,7 +161,12 @@ export default function QuizSettingsSegmentedControl<
       {/* Optional contextual help description */}
       {description && isHelpOpen && (
         <div
-          className="mt-2 rounded-lg border border-border bg-background-1 p-2.5 text-xs leading-relaxed text-text-secondary shadow-sm"
+          className="
+            mt-2 rounded-lg border border-brand-muted
+            bg-brand-soft p-2.5
+            text-xs leading-relaxed text-text-secondary
+            shadow-sm
+          "
           role="note"
         >
           {description}

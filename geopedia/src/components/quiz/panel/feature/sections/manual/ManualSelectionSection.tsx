@@ -208,7 +208,13 @@ export default function ManualSelectionSection({
               : "Expand Manual Selection"
           }
           aria-expanded={isExpanded}
-          className="flex h-6 w-6 items-center justify-center rounded-md text-text-secondary transition hover:bg-background-3 hover:text-text"
+          className="
+            flex h-6 w-6 items-center justify-center rounded-md
+            text-text-secondary transition-colors
+            hover:bg-brand-soft hover:text-text
+            focus-visible:outline-none focus-visible:ring-2
+            focus-visible:ring-focus
+          "
         >
           {/* Chevron icon */}
           <svg
@@ -247,7 +253,15 @@ export default function ManualSelectionSection({
               <button
                 type="button"
                 onClick={onBeginSelection}
-                className="mt-3 w-full rounded-lg bg-button px-3 py-2 text-sm font-semibold text-button-text transition hover:bg-selected-control-hover"
+                className="
+                  mt-3 w-full rounded-lg border border-brand
+                  bg-button px-3 py-2
+                  text-sm font-semibold text-button-text
+                  transition-colors
+                  hover:border-brand-hover-strong hover:bg-button-hover
+                  focus-visible:outline-none focus-visible:ring-2
+                  focus-visible:ring-focus
+                "
               >
                 Select Features
               </button>
