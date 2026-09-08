@@ -12,6 +12,7 @@
 export { usAreaCodesQuiz } from "./usAreaCodesQuiz";
 export { usCountiesQuiz } from "./usCountiesQuiz";
 export { usStateAbbreviationsQuiz } from "./usStateAbbreviationsQuiz";
+export { usStateFlagsQuiz } from "./usStateFlags";
 export { usStatesQuiz } from "./usStatesQuiz";
 export { usZip1Quiz } from "./usZip1Quiz";
 export { usZip2Quiz } from "./usZip2Quiz";
