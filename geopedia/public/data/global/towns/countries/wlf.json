@@ -1,14 +1,308 @@
 {
   "towns": [
     {
+      "id": "4034816",
+      "name": "Mua",
+      "nativeName": "Matala'a",
+      "latitude": -13.34169,
+      "longitude": -176.18701,
+      "population": 2943,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
       "id": "4034821",
       "name": "Mata Utu",
       "nativeName": "Matāʻutu",
       "latitude": -13.28163,
       "longitude": -176.17453,
       "population": 1200,
-      "populationRank": 1,
+      "populationRank": 2,
       "isCapital": true
+    },
+    {
+      "id": "4034886",
+      "name": "Alele",
+      "latitude": -13.24667,
+      "longitude": -176.18341,
+      "population": 629,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "4034872",
+      "name": "Falaleu",
+      "latitude": -13.29266,
+      "longitude": -176.18328,
+      "population": 626,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "4034763",
+      "name": "Utufua",
+      "latitude": -13.34261,
+      "longitude": -176.19435,
+      "population": 622,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "4034831",
+      "name": "Liku",
+      "latitude": -13.26852,
+      "longitude": -176.16586,
+      "population": 613,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "4034856",
+      "name": "Halalo",
+      "latitude": -13.3454,
+      "longitude": -176.21464,
+      "population": 563,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "10632148",
+      "name": "Mala'e",
+      "latitude": -13.24435,
+      "longitude": -176.19346,
+      "population": 483,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "4034778",
+      "name": "Leava",
+      "latitude": -14.29333,
+      "longitude": -178.15833,
+      "population": 480,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "4034888",
+      "name": "Ahoa",
+      "latitude": -13.28745,
+      "longitude": -176.23803,
+      "population": 454,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "4034757",
+      "name": "Vailala",
+      "latitude": -13.22173,
+      "longitude": -176.20551,
+      "population": 451,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "11880064",
+      "name": "Taoa",
+      "latitude": -14.30871,
+      "longitude": -178.12683,
+      "population": 443,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "4034845",
+      "name": "Kolia",
+      "latitude": -14.30751,
+      "longitude": -178.09683,
+      "population": 437,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "4034858",
+      "name": "Haafusia",
+      "nativeName": "Ha'Afuasia",
+      "latitude": -13.30034,
+      "longitude": -176.18362,
+      "population": 426,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "4034754",
+      "name": "Vaitupu",
+      "latitude": -13.227,
+      "longitude": -176.18834,
+      "population": 378,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "4034755",
+      "name": "Vaimalau",
+      "latitude": -13.31322,
+      "longitude": -176.24167,
+      "population": 371,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "10632467",
+      "name": "Lavegahau",
+      "latitude": -13.31367,
+      "longitude": -176.18825,
+      "population": 330,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "4034753",
+      "name": "Vele",
+      "latitude": -14.31021,
+      "longitude": -178.06538,
+      "population": 309,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "4034770",
+      "name": "Teesi",
+      "nativeName": "Te'Esi",
+      "latitude": -13.35096,
+      "longitude": -176.20585,
+      "population": 284,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "4034860",
+      "name": "Gahi",
+      "latitude": -13.33793,
+      "longitude": -176.18774,
+      "population": 280,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "11880072",
+      "name": "Fiua",
+      "latitude": -14.27069,
+      "longitude": -178.17378,
+      "population": 257,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "4034768",
+      "name": "Tepa",
+      "latitude": -13.32381,
+      "longitude": -176.18826,
+      "population": 244,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "4034772",
+      "name": "Tavai",
+      "latitude": -14.24495,
+      "longitude": -178.16902,
+      "population": 244,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "4034885",
+      "name": "Alo",
+      "nativeName": "Ono",
+      "latitude": -14.31096,
+      "longitude": -178.11094,
+      "population": 239,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "4034857",
+      "name": "Haatofo",
+      "nativeName": "Ha'atofo",
+      "latitude": -13.32807,
+      "longitude": -176.19058,
+      "population": 236,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "11880917",
+      "name": "Nuku",
+      "latitude": -14.29104,
+      "longitude": -178.16536,
+      "population": 204,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "11880892",
+      "name": "Toloke",
+      "latitude": -14.25349,
+      "longitude": -178.18093,
+      "population": 172,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "10632459",
+      "name": "Mala'Efo'ou",
+      "latitude": -13.34544,
+      "longitude": -176.2016,
+      "population": 171,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "4034843",
+      "name": "Kolopopo",
+      "latitude": -13.34703,
+      "longitude": -176.21512,
+      "population": 171,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "11880079",
+      "name": "Vaisei",
+      "latitude": -14.27772,
+      "longitude": -178.17048,
+      "population": 160,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "11880092",
+      "name": "Tamana",
+      "latitude": -14.28439,
+      "longitude": -178.10431,
+      "population": 152,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "11880901",
+      "name": "Tuatafa",
+      "latitude": -14.25467,
+      "longitude": -178.1515,
+      "population": 2,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "4034815",
+      "name": "Mua",
+      "nativeName": "Alofitai",
+      "latitude": -14.32632,
+      "longitude": -178.05688,
+      "population": 1,
+      "populationRank": 33,
+      "isCapital": false
     }
   ]
 }

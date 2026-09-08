@@ -101,13 +101,23 @@
       "isCapital": false
     },
     {
+      "id": "1897000",
+      "name": "Seongnam",
+      "nativeName": "성남시",
+      "latitude": 37.43861,
+      "longitude": 127.13778,
+      "population": 914832,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
       "id": "1845604",
       "name": "Cheongju",
       "nativeName": "청주시",
       "latitude": 36.63722,
       "longitude": 127.48972,
       "population": 852147,
-      "populationRank": 11,
+      "populationRank": 12,
       "isCapital": false
     },
     {
@@ -117,7 +127,7 @@
       "latitude": 37.49889,
       "longitude": 126.78306,
       "population": 850731,
-      "populationRank": 12,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -127,7 +137,7 @@
       "latitude": 36.8065,
       "longitude": 127.1522,
       "population": 658831,
-      "populationRank": 13,
+      "populationRank": 14,
       "isCapital": false
     },
     {
@@ -137,7 +147,7 @@
       "latitude": 37.20682,
       "longitude": 126.8169,
       "population": 640890,
-      "populationRank": 14,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -147,7 +157,7 @@
       "latitude": 35.82194,
       "longitude": 127.14889,
       "population": 638421,
-      "populationRank": 15,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -157,7 +167,17 @@
       "latitude": 37.32361,
       "longitude": 126.82194,
       "population": 623256,
-      "populationRank": 16,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "1846898",
+      "name": "Anyang",
+      "nativeName": "안양시",
+      "latitude": 37.3925,
+      "longitude": 126.92694,
+      "population": 595644,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -167,7 +187,27 @@
       "latitude": 35.23417,
       "longitude": 128.88111,
       "population": 531966,
-      "populationRank": 17,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1840898",
+      "name": "Paju",
+      "nativeName": "파주시",
+      "latitude": 37.761,
+      "longitude": 126.77272,
+      "population": 520803,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "1951567",
+      "name": "Paju",
+      "nativeName": "파주읍",
+      "latitude": 37.83278,
+      "longitude": 126.81694,
+      "population": 520803,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -177,7 +217,7 @@
       "latitude": 36.02917,
       "longitude": 129.36481,
       "population": 492041,
-      "populationRank": 18,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -187,7 +227,17 @@
       "latitude": 33.50972,
       "longitude": 126.52194,
       "population": 488844,
-      "populationRank": 19,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "6363756",
+      "name": "Tae-ri",
+      "nativeName": "태리",
+      "latitude": 37.59417,
+      "longitude": 126.7425,
+      "population": 486258,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -197,7 +247,7 @@
       "latitude": 37.7415,
       "longitude": 127.0474,
       "population": 479141,
-      "populationRank": 20,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -207,7 +257,7 @@
       "latitude": 36.1136,
       "longitude": 128.336,
       "population": 404691,
-      "populationRank": 21,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -217,7 +267,7 @@
       "latitude": 36.59245,
       "longitude": 127.29223,
       "population": 394630,
-      "populationRank": 22,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -227,7 +277,7 @@
       "latitude": 36.99472,
       "longitude": 127.08889,
       "population": 364694,
-      "populationRank": 23,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -237,7 +287,7 @@
       "latitude": 35.34199,
       "longitude": 129.03358,
       "population": 358074,
-      "populationRank": 24,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -247,7 +297,7 @@
       "latitude": 37.47722,
       "longitude": 126.86639,
       "population": 357545,
-      "populationRank": 25,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -257,7 +307,17 @@
       "latitude": 37.35139,
       "longitude": 127.94528,
       "population": 332849,
-      "populationRank": 26,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "1846052",
+      "name": "Jinju",
+      "nativeName": "진주시",
+      "latitude": 35.19278,
+      "longitude": 128.08472,
+      "population": 307242,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -267,7 +327,7 @@
       "latitude": 35.94389,
       "longitude": 126.95444,
       "population": 307000,
-      "populationRank": 27,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -277,7 +337,7 @@
       "latitude": 37.3675,
       "longitude": 126.94694,
       "population": 286485,
-      "populationRank": 28,
+      "populationRank": 34,
       "isCapital": false
     },
     {
@@ -287,7 +347,7 @@
       "latitude": 37.87472,
       "longitude": 127.73417,
       "population": 284855,
-      "populationRank": 29,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -297,7 +357,7 @@
       "latitude": 34.9505,
       "longitude": 127.48784,
       "population": 276375,
-      "populationRank": 30,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -307,7 +367,7 @@
       "latitude": 34.76062,
       "longitude": 127.66215,
       "population": 268823,
-      "populationRank": 31,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -317,7 +377,7 @@
       "latitude": 34.81282,
       "longitude": 126.39181,
       "population": 268402,
-      "populationRank": 32,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -327,7 +387,7 @@
       "latitude": 35.82333,
       "longitude": 128.73778,
       "population": 266951,
-      "populationRank": 33,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -337,7 +397,7 @@
       "latitude": 35.97861,
       "longitude": 126.71139,
       "population": 264656,
-      "populationRank": 34,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -347,7 +407,7 @@
       "latitude": 37.54,
       "longitude": 127.20556,
       "population": 254415,
-      "populationRank": 35,
+      "populationRank": 41,
       "isCapital": false
     },
     {
@@ -357,7 +417,7 @@
       "latitude": 35.84278,
       "longitude": 129.21167,
       "population": 245365,
-      "populationRank": 36,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -367,7 +427,7 @@
       "latitude": 37.15222,
       "longitude": 127.07056,
       "population": 238788,
-      "populationRank": 37,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -377,7 +437,7 @@
       "latitude": 34.81379,
       "longitude": 128.70556,
       "population": 232921,
-      "populationRank": 38,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -387,7 +447,7 @@
       "latitude": 36.97666,
       "longitude": 127.9287,
       "population": 209483,
-      "populationRank": 39,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -397,7 +457,7 @@
       "latitude": 37.75266,
       "longitude": 128.87239,
       "population": 208161,
-      "populationRank": 40,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -407,7 +467,7 @@
       "latitude": 37.62361,
       "longitude": 126.71417,
       "population": 203391,
-      "populationRank": 41,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -417,7 +477,7 @@
       "latitude": 37.27917,
       "longitude": 127.4425,
       "population": 196230,
-      "populationRank": 42,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -427,7 +487,7 @@
       "latitude": 37.5986,
       "longitude": 127.1394,
       "population": 195236,
-      "populationRank": 43,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -437,7 +497,7 @@
       "latitude": 37.83311,
       "longitude": 127.06169,
       "population": 179923,
-      "populationRank": 44,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -447,7 +507,7 @@
       "latitude": 33.25333,
       "longitude": 126.56181,
       "population": 178552,
-      "populationRank": 45,
+      "populationRank": 51,
       "isCapital": false
     },
     {
@@ -457,7 +517,7 @@
       "latitude": 35.24417,
       "longitude": 129.21389,
       "population": 176388,
-      "populationRank": 46,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -467,7 +527,7 @@
       "latitude": 34.9414,
       "longitude": 127.69569,
       "population": 154266,
-      "populationRank": 47,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -477,7 +537,7 @@
       "latitude": 36.56636,
       "longitude": 128.72275,
       "population": 153348,
-      "populationRank": 48,
+      "populationRank": 54,
       "isCapital": false
     },
     {
@@ -487,7 +547,17 @@
       "latitude": 36.12176,
       "longitude": 128.11981,
       "population": 150000,
-      "populationRank": 49,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "1897155",
+      "name": "Pocheon",
+      "nativeName": "포천시",
+      "latitude": 37.89444,
+      "longitude": 127.19917,
+      "population": 141825,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -497,7 +567,7 @@
       "latitude": 35.60004,
       "longitude": 126.91699,
       "population": 139876,
-      "populationRank": 50,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -507,7 +577,7 @@
       "latitude": 37.29583,
       "longitude": 127.63389,
       "population": 111897,
-      "populationRank": 51,
+      "populationRank": 58,
       "isCapital": false
     },
     {
@@ -517,7 +587,17 @@
       "latitude": 37.6525,
       "longitude": 127.3075,
       "population": 106358,
-      "populationRank": 52,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "6809122",
+      "name": "Donghae",
+      "nativeName": "동해시",
+      "latitude": 37.497,
+      "longitude": 129.1274,
+      "population": 103115,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -527,7 +607,7 @@
       "latitude": 36.41528,
       "longitude": 128.16056,
       "population": 101267,
-      "populationRank": 53,
+      "populationRank": 61,
       "isCapital": false
     },
     {
@@ -537,7 +617,7 @@
       "latitude": 36.78361,
       "longitude": 127.00417,
       "population": 97749,
-      "populationRank": 54,
+      "populationRank": 62,
       "isCapital": false
     },
     {
@@ -547,7 +627,7 @@
       "latitude": 37.58972,
       "longitude": 127.22028,
       "population": 96775,
-      "populationRank": 55,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -557,7 +637,7 @@
       "latitude": 36.34931,
       "longitude": 126.59772,
       "population": 94191,
-      "populationRank": 56,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -567,7 +647,7 @@
       "latitude": 34.99014,
       "longitude": 126.47899,
       "population": 92009,
-      "populationRank": 57,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -577,17 +657,17 @@
       "latitude": 37.63667,
       "longitude": 127.21417,
       "population": 90798,
-      "populationRank": 58,
+      "populationRank": 66,
       "isCapital": false
     },
     {
-      "id": "1841775",
-      "name": "Gwangyang-eup",
-      "nativeName": "광양읍",
-      "latitude": 34.97528,
-      "longitude": 127.58917,
-      "population": 89281,
-      "populationRank": 59,
+      "id": "1833706",
+      "name": "Eumnae-ri",
+      "nativeName": "읍내리",
+      "latitude": 36.93528,
+      "longitude": 127.68972,
+      "population": 90377,
+      "populationRank": 67,
       "isCapital": false
     },
     {
@@ -597,7 +677,27 @@
       "latitude": 36.6009,
       "longitude": 126.665,
       "population": 89174,
-      "populationRank": 60,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "1834309",
+      "name": "Dongducheon",
+      "nativeName": "동두천시",
+      "latitude": 37.911,
+      "longitude": 127.0568,
+      "population": 87099,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "1841909",
+      "name": "Gwacheon",
+      "nativeName": "과천시",
+      "latitude": 37.42889,
+      "longitude": 126.98917,
+      "population": 85397,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -607,7 +707,17 @@
       "latitude": 36.82167,
       "longitude": 128.63083,
       "population": 84625,
-      "populationRank": 61,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "1842781",
+      "name": "Seomun-ri",
+      "nativeName": "서문리",
+      "latitude": 34.61008,
+      "longitude": 127.28446,
+      "population": 84023,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -617,7 +727,7 @@
       "latitude": 37.48972,
       "longitude": 127.49056,
       "population": 83367,
-      "populationRank": 62,
+      "populationRank": 73,
       "isCapital": false
     },
     {
@@ -627,7 +737,7 @@
       "latitude": 37.41,
       "longitude": 127.25722,
       "population": 81780,
-      "populationRank": 63,
+      "populationRank": 74,
       "isCapital": false
     },
     {
@@ -637,7 +747,7 @@
       "latitude": 35.41,
       "longitude": 127.38583,
       "population": 81257,
-      "populationRank": 64,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -647,7 +757,17 @@
       "latitude": 38.20701,
       "longitude": 128.59181,
       "population": 81164,
-      "populationRank": 65,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "1925936",
+      "name": "Jung-ri",
+      "nativeName": "중리",
+      "latitude": 35.24972,
+      "longitude": 128.52,
+      "population": 80987,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -657,7 +777,7 @@
       "latitude": 36.59458,
       "longitude": 128.19946,
       "population": 77304,
-      "populationRank": 66,
+      "populationRank": 78,
       "isCapital": false
     },
     {
@@ -667,7 +787,17 @@
       "latitude": 37.6918,
       "longitude": 127.8857,
       "population": 75251,
-      "populationRank": 67,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "1846445",
+      "name": "Gyosang-ri",
+      "nativeName": "교상리",
+      "latitude": 35.54028,
+      "longitude": 128.49944,
+      "population": 74668,
+      "populationRank": 80,
       "isCapital": false
     },
     {
@@ -677,7 +807,7 @@
       "latitude": 35.54145,
       "longitude": 128.49506,
       "population": 74668,
-      "populationRank": 68,
+      "populationRank": 81,
       "isCapital": false
     },
     {
@@ -687,7 +817,7 @@
       "latitude": 36.78167,
       "longitude": 126.45222,
       "population": 74208,
-      "populationRank": 69,
+      "populationRank": 82,
       "isCapital": false
     },
     {
@@ -697,7 +827,7 @@
       "latitude": 35.43333,
       "longitude": 126.7,
       "population": 72996,
-      "populationRank": 70,
+      "populationRank": 83,
       "isCapital": false
     },
     {
@@ -707,7 +837,27 @@
       "latitude": 36.45556,
       "longitude": 127.12472,
       "population": 72435,
-      "populationRank": 71,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "1842754",
+      "name": "Namdong",
+      "nativeName": "남동리",
+      "latitude": 34.85028,
+      "longitude": 128.58861,
+      "population": 72124,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "1833776",
+      "name": "Uiseong-eup",
+      "nativeName": "의성읍",
+      "latitude": 36.35056,
+      "longitude": 128.69972,
+      "population": 71216,
+      "populationRank": 86,
       "isCapital": false
     },
     {
@@ -717,7 +867,7 @@
       "latitude": 34.84957,
       "longitude": 128.42779,
       "population": 70641,
-      "populationRank": 72,
+      "populationRank": 87,
       "isCapital": false
     },
     {
@@ -727,7 +877,17 @@
       "latitude": 37.01083,
       "longitude": 127.27028,
       "population": 69255,
-      "populationRank": 73,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "1842858",
+      "name": "Geochang-eup",
+      "nativeName": "거창읍",
+      "latitude": 35.68611,
+      "longitude": 127.91028,
+      "population": 67224,
+      "populationRank": 89,
       "isCapital": false
     },
     {
@@ -737,7 +897,27 @@
       "latitude": 35.80167,
       "longitude": 128.50083,
       "population": 64718,
-      "populationRank": 74,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "1835518",
+      "name": "Taean-eup",
+      "nativeName": "태안읍",
+      "latitude": 36.75639,
+      "longitude": 126.29778,
+      "population": 63930,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "1844558",
+      "name": "Haman",
+      "nativeName": "함안면",
+      "latitude": 35.24104,
+      "longitude": 128.42295,
+      "population": 63435,
+      "populationRank": 92,
       "isCapital": false
     },
     {
@@ -747,7 +927,17 @@
       "latitude": 37.36528,
       "longitude": 126.94778,
       "population": 63040,
-      "populationRank": 75,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "1896953",
+      "name": "Sinwon-ri",
+      "nativeName": "신원리",
+      "latitude": 37.29167,
+      "longitude": 127.50778,
+      "population": 63026,
+      "populationRank": 94,
       "isCapital": false
     },
     {
@@ -757,7 +947,7 @@
       "latitude": 38.37881,
       "longitude": 128.4676,
       "population": 62446,
-      "populationRank": 76,
+      "populationRank": 95,
       "isCapital": false
     },
     {
@@ -767,7 +957,27 @@
       "latitude": 36.85667,
       "longitude": 127.44333,
       "population": 60964,
-      "populationRank": 77,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "1844413",
+      "name": "Hapcheon-ri",
+      "nativeName": "합천리",
+      "latitude": 35.56556,
+      "longitude": 128.15944,
+      "population": 60160,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "1843841",
+      "name": "Hyangcheong-ri",
+      "nativeName": "향청리",
+      "latitude": 35.06125,
+      "longitude": 126.98746,
+      "population": 59914,
+      "populationRank": 98,
       "isCapital": false
     },
     {
@@ -777,7 +987,7 @@
       "latitude": 36.27472,
       "longitude": 126.90906,
       "population": 59823,
-      "populationRank": 78,
+      "populationRank": 99,
       "isCapital": false
     },
     {
@@ -787,7 +997,7 @@
       "latitude": 36.3012,
       "longitude": 127.568,
       "population": 56634,
-      "populationRank": 79,
+      "populationRank": 100,
       "isCapital": false
     },
     {
@@ -797,7 +1007,7 @@
       "latitude": 37.83101,
       "longitude": 127.51059,
       "population": 55415,
-      "populationRank": 80,
+      "populationRank": 101,
       "isCapital": false
     },
     {
@@ -807,7 +1017,27 @@
       "latitude": 36.6574,
       "longitude": 128.45514,
       "population": 54873,
-      "populationRank": 81,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "1840454",
+      "name": "Namhae-eup",
+      "nativeName": "남해읍",
+      "latitude": 34.83944,
+      "longitude": 127.89444,
+      "population": 54392,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "6395804",
+      "name": "Dan-go-ri",
+      "nativeName": "단고리",
+      "latitude": 34.8262,
+      "longitude": 126.10863,
+      "population": 53150,
+      "populationRank": 104,
       "isCapital": false
     },
     {
@@ -817,7 +1047,17 @@
       "latitude": 35.49333,
       "longitude": 128.74889,
       "population": 53103,
-      "populationRank": 82,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "1832578",
+      "name": "Namseok-ri",
+      "nativeName": "남석리",
+      "latitude": 36.41366,
+      "longitude": 129.37,
+      "population": 52697,
+      "populationRank": 106,
       "isCapital": false
     },
     {
@@ -827,7 +1067,27 @@
       "latitude": 35.27814,
       "longitude": 126.51181,
       "population": 51688,
-      "populationRank": 83,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "11762608",
+      "name": "Dongmu-ri",
+      "nativeName": "동무리",
+      "latitude": 34.80059,
+      "longitude": 126.69669,
+      "population": 51573,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "1843155",
+      "name": "Pyeongdong-ri",
+      "nativeName": "평동리",
+      "latitude": 34.64056,
+      "longitude": 126.77,
+      "population": 49254,
+      "populationRank": 109,
       "isCapital": false
     },
     {
@@ -837,7 +1097,17 @@
       "latitude": 37.1759,
       "longitude": 128.9889,
       "population": 48962,
-      "populationRank": 84,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "1845687",
+      "name": "Cheongdo-eup",
+      "nativeName": "청도읍",
+      "latitude": 35.64563,
+      "longitude": 128.7429,
+      "population": 47099,
+      "populationRank": 111,
       "isCapital": false
     },
     {
@@ -847,7 +1117,7 @@
       "latitude": 35.80167,
       "longitude": 126.88889,
       "population": 44894,
-      "populationRank": 85,
+      "populationRank": 112,
       "isCapital": false
     },
     {
@@ -857,7 +1127,7 @@
       "latitude": 35.31889,
       "longitude": 126.98389,
       "population": 44800,
-      "populationRank": 86,
+      "populationRank": 113,
       "isCapital": false
     },
     {
@@ -867,7 +1137,7 @@
       "latitude": 36.81083,
       "longitude": 127.79472,
       "population": 44461,
-      "populationRank": 87,
+      "populationRank": 114,
       "isCapital": false
     },
     {
@@ -877,7 +1147,7 @@
       "latitude": 36.20389,
       "longitude": 127.08472,
       "population": 43845,
-      "populationRank": 88,
+      "populationRank": 115,
       "isCapital": false
     },
     {
@@ -887,7 +1157,17 @@
       "latitude": 36.175,
       "longitude": 127.77639,
       "population": 43680,
-      "populationRank": 89,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "1838731",
+      "name": "Boeun-eup",
+      "nativeName": "보은읍",
+      "latitude": 36.48444,
+      "longitude": 127.71861,
+      "population": 43245,
+      "populationRank": 117,
       "isCapital": false
     },
     {
@@ -897,7 +1177,7 @@
       "latitude": 37.85944,
       "longitude": 126.785,
       "population": 43208,
-      "populationRank": 90,
+      "populationRank": 118,
       "isCapital": false
     },
     {
@@ -907,7 +1187,7 @@
       "latitude": 35.0292,
       "longitude": 126.7175,
       "population": 42459,
-      "populationRank": 91,
+      "populationRank": 119,
       "isCapital": false
     },
     {
@@ -917,7 +1197,17 @@
       "latitude": 37.44056,
       "longitude": 129.17083,
       "population": 42145,
-      "populationRank": 92,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "11863735",
+      "name": "Eumnae-ri",
+      "nativeName": "읍내리",
+      "latitude": 35.068,
+      "longitude": 127.75147,
+      "population": 40909,
+      "populationRank": 121,
       "isCapital": false
     },
     {
@@ -927,7 +1217,7 @@
       "latitude": 38.20917,
       "longitude": 127.2175,
       "population": 40646,
-      "populationRank": 93,
+      "populationRank": 122,
       "isCapital": false
     },
     {
@@ -937,7 +1227,7 @@
       "latitude": 36.67756,
       "longitude": 126.84272,
       "population": 39409,
-      "populationRank": 94,
+      "populationRank": 123,
       "isCapital": false
     },
     {
@@ -947,7 +1237,17 @@
       "latitude": 36.78472,
       "longitude": 127.58194,
       "population": 37207,
-      "populationRank": 95,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "1845492",
+      "name": "Cheongyang-eup",
+      "nativeName": "청양읍",
+      "latitude": 36.45156,
+      "longitude": 126.80365,
+      "population": 37194,
+      "populationRank": 125,
       "isCapital": false
     },
     {
@@ -957,7 +1257,7 @@
       "latitude": 34.77148,
       "longitude": 127.07996,
       "population": 37164,
-      "populationRank": 96,
+      "populationRank": 126,
       "isCapital": false
     },
     {
@@ -967,7 +1267,27 @@
       "latitude": 36.10945,
       "longitude": 129.34517,
       "population": 36080,
-      "populationRank": 97,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "1842559",
+      "name": "Daegaya-eup",
+      "nativeName": "대가야읍",
+      "latitude": 35.72939,
+      "longitude": 128.26754,
+      "population": 35000,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "1832215",
+      "name": "Yugang-ri",
+      "nativeName": "유강리",
+      "latitude": 36.00446,
+      "longitude": 129.3185,
+      "population": 34560,
+      "populationRank": 129,
       "isCapital": false
     },
     {
@@ -977,7 +1297,7 @@
       "latitude": 34.68164,
       "longitude": 126.90694,
       "population": 34544,
-      "populationRank": 98,
+      "populationRank": 130,
       "isCapital": false
     },
     {
@@ -987,7 +1307,17 @@
       "latitude": 36.23472,
       "longitude": 128.57278,
       "population": 34293,
-      "populationRank": 99,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "1843542",
+      "name": "Inje",
+      "nativeName": "인제읍",
+      "latitude": 38.06556,
+      "longitude": 128.17306,
+      "population": 34120,
+      "populationRank": 132,
       "isCapital": false
     },
     {
@@ -997,7 +1327,37 @@
       "latitude": 36.89444,
       "longitude": 126.62972,
       "population": 32778,
-      "populationRank": 100,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "1833783",
+      "name": "Jungdong-ri",
+      "nativeName": "중동리",
+      "latitude": 35.31917,
+      "longitude": 128.26111,
+      "population": 32371,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "1845519",
+      "name": "Wolmak-ri",
+      "nativeName": "월막리",
+      "latitude": 36.43351,
+      "longitude": 129.057,
+      "population": 31313,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "1846114",
+      "name": "Gunha-ri",
+      "nativeName": "군하리",
+      "latitude": 35.79167,
+      "longitude": 127.42528,
+      "population": 31273,
+      "populationRank": 136,
       "isCapital": false
     },
     {
@@ -1007,7 +1367,17 @@
       "latitude": 35.20944,
       "longitude": 127.46444,
       "population": 30000,
-      "populationRank": 101,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "1894596",
+      "name": "Gaegok-ri",
+      "nativeName": "개곡리",
+      "latitude": 35.50222,
+      "longitude": 129.29028,
+      "population": 29320,
+      "populationRank": 138,
       "isCapital": false
     },
     {
@@ -1017,7 +1387,17 @@
       "latitude": 36.91556,
       "longitude": 127.13139,
       "population": 29239,
-      "populationRank": 102,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "1832809",
+      "name": "Yangyang",
+      "nativeName": "양양읍",
+      "latitude": 38.0776,
+      "longitude": 128.61791,
+      "population": 27390,
+      "populationRank": 140,
       "isCapital": false
     },
     {
@@ -1027,7 +1407,7 @@
       "latitude": 35.91333,
       "longitude": 128.82,
       "population": 27236,
-      "populationRank": 103,
+      "populationRank": 141,
       "isCapital": false
     },
     {
@@ -1037,7 +1417,17 @@
       "latitude": 34.97631,
       "longitude": 128.32361,
       "population": 26704,
-      "populationRank": 104,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "1846355",
+      "name": "Jangsu-ri",
+      "nativeName": "장수리",
+      "latitude": 35.64842,
+      "longitude": 127.51523,
+      "population": 26463,
+      "populationRank": 143,
       "isCapital": false
     },
     {
@@ -1047,7 +1437,7 @@
       "latitude": 35.61306,
       "longitude": 127.27944,
       "population": 25693,
-      "populationRank": 105,
+      "populationRank": 144,
       "isCapital": false
     },
     {
@@ -1057,7 +1447,7 @@
       "latitude": 37.74722,
       "longitude": 126.48556,
       "population": 25535,
-      "populationRank": 106,
+      "populationRank": 145,
       "isCapital": false
     },
     {
@@ -1067,7 +1457,7 @@
       "latitude": 37.18447,
       "longitude": 128.46821,
       "population": 25413,
-      "populationRank": 107,
+      "populationRank": 146,
       "isCapital": false
     },
     {
@@ -1077,7 +1467,27 @@
       "latitude": 36.10306,
       "longitude": 127.48889,
       "population": 25243,
-      "populationRank": 108,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "1840942",
+      "name": "Muju-eup",
+      "nativeName": "무주읍",
+      "latitude": 36.00722,
+      "longitude": 127.66139,
+      "population": 25169,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "1886598",
+      "name": "Ansim-ri",
+      "nativeName": "안심리",
+      "latitude": 36.12944,
+      "longitude": 127.1,
+      "population": 25015,
+      "populationRank": 149,
       "isCapital": false
     },
     {
@@ -1087,7 +1497,7 @@
       "latitude": 38.10583,
       "longitude": 127.98944,
       "population": 24027,
-      "populationRank": 109,
+      "populationRank": 150,
       "isCapital": false
     },
     {
@@ -1097,7 +1507,27 @@
       "latitude": 34.57111,
       "longitude": 126.59889,
       "population": 23928,
-      "populationRank": 110,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "1847050",
+      "name": "Aewol",
+      "nativeName": "애월읍",
+      "latitude": 33.46444,
+      "longitude": 126.31833,
+      "population": 23717,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "1840413",
+      "name": "Ssangjeong-ri",
+      "nativeName": "쌍정리",
+      "latitude": 35.93333,
+      "longitude": 127.05,
+      "population": 23587,
+      "populationRank": 153,
       "isCapital": false
     },
     {
@@ -1107,7 +1537,7 @@
       "latitude": 38.10705,
       "longitude": 127.70632,
       "population": 22965,
-      "populationRank": 111,
+      "populationRank": 154,
       "isCapital": false
     },
     {
@@ -1117,7 +1547,17 @@
       "latitude": 35.72806,
       "longitude": 126.73194,
       "population": 22267,
-      "populationRank": 112,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "1832252",
+      "name": "Yeongyang-eup",
+      "nativeName": "영양읍",
+      "latitude": 36.6648,
+      "longitude": 129.1139,
+      "population": 21385,
+      "populationRank": 156,
       "isCapital": false
     },
     {
@@ -1127,7 +1567,7 @@
       "latitude": 36.24083,
       "longitude": 128.2975,
       "population": 20673,
-      "populationRank": 113,
+      "populationRank": 157,
       "isCapital": false
     },
     {
@@ -1137,7 +1577,7 @@
       "latitude": 37.89139,
       "longitude": 128.82583,
       "population": 20600,
-      "populationRank": 114,
+      "populationRank": 158,
       "isCapital": false
     },
     {
@@ -1147,7 +1587,17 @@
       "latitude": 34.84897,
       "longitude": 127.34052,
       "population": 19842,
-      "populationRank": 115,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "10792303",
+      "name": "Hajinbu-ri",
+      "nativeName": "하진부리",
+      "latitude": 37.63558,
+      "longitude": 128.55394,
+      "population": 10203,
+      "populationRank": 160,
       "isCapital": false
     },
     {
@@ -1157,7 +1607,17 @@
       "latitude": 37.37028,
       "longitude": 128.39306,
       "population": 9940,
-      "populationRank": 116,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "13286589",
+      "name": "Dodong-ri",
+      "nativeName": "도동리",
+      "latitude": 37.49505,
+      "longitude": 130.90434,
+      "population": 9169,
+      "populationRank": 162,
       "isCapital": false
     },
     {
@@ -1167,7 +1627,27 @@
       "latitude": 37.95139,
       "longitude": 124.6732,
       "population": 4329,
-      "populationRank": 117,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "6795184",
+      "name": "Chang-ri",
+      "nativeName": "창리",
+      "latitude": 37.34231,
+      "longitude": 128.49771,
+      "population": 1881,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "1838534",
+      "name": "Bupo-ri",
+      "nativeName": "부포리",
+      "latitude": 34.98806,
+      "longitude": 128.23667,
+      "population": 29,
+      "populationRank": 165,
       "isCapital": false
     }
   ]

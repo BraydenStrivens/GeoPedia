@@ -160,13 +160,23 @@
       "isCapital": false
     },
     {
+      "id": "788470",
+      "name": "Llazicë",
+      "nativeName": "Llozicë",
+      "latitude": 42.55528,
+      "longitude": 20.76333,
+      "population": 19863,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
       "id": "788731",
       "name": "Leposaviq",
       "nativeName": "Leposavić",
       "latitude": 43.10389,
       "longitude": 20.80278,
       "population": 19000,
-      "populationRank": 18,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -175,7 +185,7 @@
       "latitude": 42.9075,
       "longitude": 20.84028,
       "population": 17000,
-      "populationRank": 19,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -184,7 +194,7 @@
       "latitude": 42.91444,
       "longitude": 20.68972,
       "population": 14900,
-      "populationRank": 20,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -193,7 +203,7 @@
       "latitude": 42.68694,
       "longitude": 21.07028,
       "population": 11612,
-      "populationRank": 21,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -202,7 +212,17 @@
       "latitude": 42.23194,
       "longitude": 21.25944,
       "population": 9800,
-      "populationRank": 22,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "791539",
+      "name": "Elez Han",
+      "nativeName": "Han i Elezit",
+      "latitude": 42.15,
+      "longitude": 21.29667,
+      "population": 9389,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -212,7 +232,7 @@
       "latitude": 42.57806,
       "longitude": 21.58028,
       "population": 9312,
-      "populationRank": 23,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -221,7 +241,7 @@
       "latitude": 42.52167,
       "longitude": 21.12583,
       "population": 9047,
-      "populationRank": 24,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -231,7 +251,7 @@
       "latitude": 42.62167,
       "longitude": 20.57778,
       "population": 8050,
-      "populationRank": 25,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -240,7 +260,55 @@
       "latitude": 42.23944,
       "longitude": 21.02722,
       "population": 6913,
-      "populationRank": 26,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "787589",
+      "name": "Novo Brdo",
+      "nativeName": "Novobërdë-Novo Brdo",
+      "latitude": 42.6159,
+      "longitude": 21.43405,
+      "population": 6720,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "791207",
+      "name": "Zhabari i Ultë",
+      "nativeName": "Zhabar i Poshtëm",
+      "latitude": 42.87139,
+      "longitude": 20.84111,
+      "population": 6470,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "790354",
+      "name": "Strellc i Epërm",
+      "latitude": 42.57843,
+      "longitude": 20.29398,
+      "population": 6100,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "788187",
+      "name": "Mamusa",
+      "nativeName": "Mamuşa - Mamushë",
+      "latitude": 42.33083,
+      "longitude": 20.72694,
+      "population": 5507,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "790002",
+      "name": "Isniq",
+      "latitude": 42.5575,
+      "longitude": 20.30278,
+      "population": 5500,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -250,7 +318,63 @@
       "latitude": 42.74667,
       "longitude": 20.78861,
       "population": 5089,
-      "populationRank": 27,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "785879",
+      "name": "Shipol",
+      "latitude": 42.86361,
+      "longitude": 20.84889,
+      "population": 4195,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "786478",
+      "name": "Ranillug",
+      "nativeName": "Ranilug",
+      "latitude": 42.49222,
+      "longitude": 21.59889,
+      "population": 3785,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "791161",
+      "name": "Strellc i Ulët",
+      "latitude": 42.58063,
+      "longitude": 20.31619,
+      "population": 2850,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "792375",
+      "name": "Bradash",
+      "latitude": 42.94028,
+      "longitude": 21.13806,
+      "population": 2567,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "789427",
+      "name": "Klokot",
+      "nativeName": "Klokot - Kllokot",
+      "latitude": 42.37139,
+      "longitude": 21.37444,
+      "population": 2551,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "786734",
+      "name": "Prilep",
+      "latitude": 42.5075,
+      "longitude": 20.31778,
+      "population": 2500,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -260,7 +384,156 @@
       "latitude": 42.48222,
       "longitude": 20.74583,
       "population": 2300,
-      "populationRank": 28,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "786156",
+      "name": "Irzniq",
+      "latitude": 42.52,
+      "longitude": 20.34722,
+      "population": 2200,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "790704",
+      "name": "Gllogjan",
+      "latitude": 42.50722,
+      "longitude": 20.36278,
+      "population": 2000,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "787155",
+      "name": "Peqan",
+      "latitude": 42.38361,
+      "longitude": 20.82194,
+      "population": 1883,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "787197",
+      "name": "Partesh",
+      "nativeName": "Parteš",
+      "latitude": 42.40194,
+      "longitude": 21.43361,
+      "population": 1787,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "788726",
+      "name": "Leshan",
+      "latitude": 42.32778,
+      "longitude": 20.78111,
+      "population": 1575,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "791483",
+      "name": "Gjinoc",
+      "latitude": 42.31833,
+      "longitude": 20.81861,
+      "population": 1571,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "788536",
+      "name": "Lumbardhi",
+      "nativeName": "Lumbardh",
+      "latitude": 42.54667,
+      "longitude": 20.34667,
+      "population": 1500,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "790486",
+      "name": "Lluka e Eperme",
+      "nativeName": "Llukë e Epërme",
+      "latitude": 42.545,
+      "longitude": 20.30778,
+      "population": 1500,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "788794",
+      "name": "Laplje Selo",
+      "latitude": 42.59667,
+      "longitude": 21.14083,
+      "population": 1387,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "792079",
+      "name": "Čabra",
+      "nativeName": "Çabër",
+      "latitude": 42.90667,
+      "longitude": 20.7725,
+      "population": 1300,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "793226",
+      "name": "Papraqan",
+      "nativeName": "Prapaqan",
+      "latitude": 42.55278,
+      "longitude": 20.33111,
+      "population": 1288,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "788543",
+      "name": "Lëbushë",
+      "latitude": 42.56306,
+      "longitude": 20.29083,
+      "population": 1250,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "789199",
+      "name": "Kosuriq",
+      "latitude": 42.57028,
+      "longitude": 20.46472,
+      "population": 1200,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "830410",
+      "name": "Lloqan",
+      "latitude": 42.52444,
+      "longitude": 20.28083,
+      "population": 1050,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "791836",
+      "name": "Cerrcë",
+      "latitude": 42.77972,
+      "longitude": 20.45306,
+      "population": 1032,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "787182",
+      "name": "Pasjane",
+      "latitude": 42.40694,
+      "longitude": 21.49556,
+      "population": 1000,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -269,7 +542,196 @@
       "latitude": 42.60111,
       "longitude": 21.19583,
       "population": 1000,
-      "populationRank": 29,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "788571",
+      "name": "Lybeniq",
+      "latitude": 42.59778,
+      "longitude": 20.29139,
+      "population": 970,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "790402",
+      "name": "Zhabari i Epërm",
+      "nativeName": "Zhabar i Epërm",
+      "latitude": 42.86389,
+      "longitude": 20.83167,
+      "population": 936,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "791309",
+      "name": "Donja Budriga",
+      "latitude": 42.40972,
+      "longitude": 21.455,
+      "population": 838,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "792202",
+      "name": "Buqan",
+      "latitude": 42.55806,
+      "longitude": 20.45278,
+      "population": 800,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "792381",
+      "name": "Broboniq",
+      "nativeName": "Braboniq",
+      "latitude": 42.84417,
+      "longitude": 20.79417,
+      "population": 731,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "830409",
+      "name": "Lluka e Poshtme",
+      "nativeName": "Llukë e Ulët",
+      "latitude": 42.54583,
+      "longitude": 20.33556,
+      "population": 700,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "786096",
+      "name": "Shaptej",
+      "latitude": 42.49861,
+      "longitude": 20.37889,
+      "population": 650,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "788533",
+      "name": "Ljušta",
+      "nativeName": "Lushtë",
+      "latitude": 42.8525,
+      "longitude": 20.82917,
+      "population": 577,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "793169",
+      "name": "Hade",
+      "latitude": 42.66679,
+      "longitude": 21.03298,
+      "population": 500,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "790282",
+      "name": "Graboc",
+      "latitude": 42.62917,
+      "longitude": 20.35139,
+      "population": 420,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "786796",
+      "name": "Prekolluk",
+      "latitude": 42.50778,
+      "longitude": 20.33917,
+      "population": 350,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "792409",
+      "name": "Bostane",
+      "nativeName": "Bostan - Bostane",
+      "latitude": 42.6016,
+      "longitude": 21.42631,
+      "population": 288,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "830005",
+      "name": "Glanica",
+      "nativeName": "Gllanicë",
+      "latitude": 42.54933,
+      "longitude": 21.06336,
+      "population": 243,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "790350",
+      "name": "Suvi Do",
+      "nativeName": "Gornji Suvi Do",
+      "latitude": 42.88667,
+      "longitude": 20.84833,
+      "population": 224,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "11903151",
+      "name": "Hade e Re",
+      "latitude": 42.67906,
+      "longitude": 21.12636,
+      "population": 150,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "11919555",
+      "name": "Mirash",
+      "nativeName": "Caravadicë - Crkvena Vodica",
+      "latitude": 42.66686,
+      "longitude": 21.04908,
+      "population": 100,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "785848",
+      "name": "Skivjan",
+      "latitude": 42.43083,
+      "longitude": 20.38306,
+      "population": 4,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "786331",
+      "name": "Restelica",
+      "nativeName": "Restelica - Restelicë",
+      "latitude": 41.94444,
+      "longitude": 20.66806,
+      "population": 4,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "789739",
+      "name": "Junik",
+      "latitude": 42.47583,
+      "longitude": 20.27722,
+      "population": 4,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "793238",
+      "name": "Raushiq",
+      "latitude": 42.615,
+      "longitude": 20.31167,
+      "population": 4,
+      "populationRank": 78,
       "isCapital": false
     }
   ]

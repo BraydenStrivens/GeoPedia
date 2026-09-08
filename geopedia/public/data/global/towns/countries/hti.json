@@ -2,7 +2,7 @@
   "towns": [
     {
       "id": "3718426",
-      "name": "Port-au-Prince",
+      "name": "Port au Prince",
       "latitude": 18.54349,
       "longitude": -72.33881,
       "population": 1234742,
@@ -29,7 +29,7 @@
     },
     {
       "id": "3719028",
-      "name": "Pétion-Ville",
+      "name": "Pétion Ville",
       "latitude": 18.5125,
       "longitude": -72.28528,
       "population": 376834,
@@ -38,7 +38,7 @@
     },
     {
       "id": "3718420",
-      "name": "Port-de-Paix",
+      "name": "Port de Paix",
       "latitude": 19.93984,
       "longitude": -72.83037,
       "population": 306217,
@@ -47,7 +47,7 @@
     },
     {
       "id": "3717588",
-      "name": "Saint-Marc",
+      "name": "Saint Marc",
       "latitude": 19.11136,
       "longitude": -72.70078,
       "population": 266642,
@@ -65,7 +65,7 @@
     },
     {
       "id": "3727135",
-      "name": "Croix-des-Bouquets",
+      "name": "Croix des Bouquets",
       "latitude": 18.57677,
       "longitude": -72.22625,
       "population": 229127,
@@ -92,8 +92,7 @@
     },
     {
       "id": "3728474",
-      "name": "Cap-Haitien",
-      "nativeName": "Cap-Haïtien",
+      "name": "Cap Haïtien",
       "latitude": 19.75938,
       "longitude": -72.19815,
       "population": 134815,
@@ -158,8 +157,7 @@
     },
     {
       "id": "3720824",
-      "name": "Miragoane",
-      "nativeName": "Miragoâne",
+      "name": "Miragoâne",
       "latitude": 18.44599,
       "longitude": -73.08957,
       "population": 89202,
@@ -177,12 +175,21 @@
       "isCapital": false
     },
     {
+      "id": "3718405",
+      "name": "Port Salut",
+      "latitude": 18.077,
+      "longitude": -73.91728,
+      "population": 54286,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
       "id": "3716667",
       "name": "Thomazeau",
       "latitude": 18.65297,
       "longitude": -72.09391,
       "population": 52017,
-      "populationRank": 20,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -192,7 +199,7 @@
       "latitude": 18.4259,
       "longitude": -72.76995,
       "population": 49288,
-      "populationRank": 21,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -201,16 +208,25 @@
       "latitude": 19.0505,
       "longitude": -72.46585,
       "population": 48724,
-      "populationRank": 22,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "3723440",
+      "name": "Kenscoff",
+      "latitude": 18.44773,
+      "longitude": -72.28398,
+      "population": 42175,
+      "populationRank": 24,
       "isCapital": false
     },
     {
       "id": "3717546",
-      "name": "Saint-Raphaël",
+      "name": "Saint Raphaël",
       "latitude": 19.43877,
       "longitude": -72.1991,
       "population": 37739,
-      "populationRank": 23,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -220,17 +236,25 @@
       "latitude": 19.70603,
       "longitude": -72.40336,
       "population": 32645,
-      "populationRank": 24,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "3724233",
+      "name": "Gressier",
+      "latitude": 18.54091,
+      "longitude": -72.52679,
+      "population": 25947,
+      "populationRank": 27,
       "isCapital": false
     },
     {
       "id": "3716737",
       "name": "Terrier Rouge",
-      "nativeName": "Terrier-Rouge",
       "latitude": 19.63634,
       "longitude": -71.95483,
       "population": 21328,
-      "populationRank": 25,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -239,7 +263,7 @@
       "latitude": 19.1409,
       "longitude": -72.01194,
       "population": 18590,
-      "populationRank": 26,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -249,46 +273,52 @@
       "latitude": 18.50547,
       "longitude": -71.98122,
       "population": 18256,
-      "populationRank": 27,
+      "populationRank": 30,
       "isCapital": false
     },
     {
       "id": "3724331",
       "name": "Grand Gosier",
-      "nativeName": "Grand-Gosier",
       "latitude": 18.18543,
       "longitude": -71.9182,
       "population": 17059,
-      "populationRank": 28,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "3726674",
+      "name": "Désarmes",
+      "latitude": 18.99345,
+      "longitude": -72.39058,
+      "population": 15594,
+      "populationRank": 32,
       "isCapital": false
     },
     {
       "id": "3717600",
-      "name": "Saint-Louis du Nord",
-      "nativeName": "Saint-Louis-du-Nord",
+      "name": "Saint Louis du Nord",
       "latitude": 19.93397,
       "longitude": -72.72138,
       "population": 11849,
-      "populationRank": 29,
+      "populationRank": 33,
       "isCapital": false
     },
     {
       "id": "3725170",
-      "name": "Fort-Liberté",
+      "name": "Fort Liberté",
       "latitude": 19.66254,
       "longitude": -71.8351,
       "population": 11465,
-      "populationRank": 30,
+      "populationRank": 34,
       "isCapital": false
     },
     {
       "id": "3716224",
       "name": "Trou du Nord",
-      "nativeName": "Trou-du-Nord",
       "latitude": 19.61668,
       "longitude": -72.02442,
       "population": 10569,
-      "populationRank": 31,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -297,7 +327,7 @@
       "latitude": 19.54934,
       "longitude": -71.72475,
       "population": 10118,
-      "populationRank": 32,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -306,17 +336,16 @@
       "latitude": 18.83455,
       "longitude": -72.1048,
       "population": 9082,
-      "populationRank": 33,
+      "populationRank": 37,
       "isCapital": false
     },
     {
       "id": "3724439",
       "name": "Grande Rivière du Nord",
-      "nativeName": "Grande-Rivière-du-Nord",
       "latitude": 19.57744,
       "longitude": -72.16872,
       "population": 8836,
-      "populationRank": 34,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -325,7 +354,7 @@
       "latitude": 18.3054,
       "longitude": -74.21968,
       "population": 8247,
-      "populationRank": 35,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -334,27 +363,34 @@
       "latitude": 18.83047,
       "longitude": -71.93563,
       "population": 7574,
-      "populationRank": 36,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "3727327",
+      "name": "Cornillon",
+      "latitude": 18.67546,
+      "longitude": -71.95271,
+      "population": 7572,
+      "populationRank": 41,
       "isCapital": false
     },
     {
       "id": "3724145",
       "name": "Gros Morne",
-      "nativeName": "Gros-Morne",
       "latitude": 19.6708,
       "longitude": -72.67808,
       "population": 7294,
-      "populationRank": 37,
+      "populationRank": 42,
       "isCapital": false
     },
     {
       "id": "3731132",
       "name": "Anse à Galets",
-      "nativeName": "Anse-à-Galets",
       "latitude": 18.83449,
       "longitude": -72.86644,
       "population": 7178,
-      "populationRank": 38,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -363,16 +399,25 @@
       "latitude": 19.33594,
       "longitude": -72.11662,
       "population": 6731,
-      "populationRank": 39,
+      "populationRank": 44,
       "isCapital": false
     },
     {
       "id": "3727055",
-      "name": "Dame-Marie",
+      "name": "Dame Marie",
       "latitude": 18.56107,
       "longitude": -74.42167,
       "population": 6036,
-      "populationRank": 40,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "3716980",
+      "name": "Sources Chaudes",
+      "latitude": 18.48392,
+      "longitude": -74.28673,
+      "population": 5544,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -381,16 +426,16 @@
       "latitude": 19.60837,
       "longitude": -72.21319,
       "population": 5534,
-      "populationRank": 41,
+      "populationRank": 47,
       "isCapital": false
     },
     {
       "id": "3723618",
-      "name": "Jean-Rabel",
+      "name": "Jean Rabel",
       "latitude": 19.85379,
       "longitude": -73.19131,
       "population": 5419,
-      "populationRank": 42,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -399,7 +444,7 @@
       "latitude": 18.27974,
       "longitude": -73.39433,
       "population": 5246,
-      "populationRank": 43,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -409,7 +454,7 @@
       "latitude": 19.17607,
       "longitude": -72.13958,
       "population": 5204,
-      "populationRank": 44,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -418,7 +463,7 @@
       "latitude": 19.52734,
       "longitude": -72.24337,
       "population": 5029,
-      "populationRank": 45,
+      "populationRank": 51,
       "isCapital": false
     },
     {
@@ -427,17 +472,16 @@
       "latitude": 19.08209,
       "longitude": -71.83855,
       "population": 4857,
-      "populationRank": 46,
+      "populationRank": 52,
       "isCapital": false
     },
     {
       "id": "3731105",
       "name": "Anse Rouge",
-      "nativeName": "Anse-Rouge",
       "latitude": 19.63382,
       "longitude": -73.0553,
       "population": 4437,
-      "populationRank": 47,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -447,7 +491,16 @@
       "latitude": 19.84507,
       "longitude": -72.52349,
       "population": 4288,
-      "populationRank": 48,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "3718826",
+      "name": "Pilate",
+      "latitude": 19.66745,
+      "longitude": -72.55229,
+      "population": 4227,
+      "populationRank": 55,
       "isCapital": false
     },
     {
@@ -456,7 +509,7 @@
       "latitude": 19.59795,
       "longitude": -72.46994,
       "population": 4152,
-      "populationRank": 49,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -465,7 +518,7 @@
       "latitude": 18.73582,
       "longitude": -72.41929,
       "population": 3951,
-      "populationRank": 50,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -475,16 +528,16 @@
       "latitude": 18.27484,
       "longitude": -74.16613,
       "population": 3930,
-      "populationRank": 51,
+      "populationRank": 58,
       "isCapital": false
     },
     {
       "id": "3718431",
-      "name": "Port-à-Piment",
+      "name": "Port à Piment",
       "latitude": 18.24963,
       "longitude": -74.0971,
       "population": 3819,
-      "populationRank": 52,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -493,7 +546,16 @@
       "latitude": 19.67014,
       "longitude": -72.1243,
       "population": 3810,
-      "populationRank": 53,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "3725519",
+      "name": "Ferrier",
+      "latitude": 19.61549,
+      "longitude": -71.77792,
+      "population": 3804,
+      "populationRank": 61,
       "isCapital": false
     },
     {
@@ -502,47 +564,61 @@
       "latitude": 19.0173,
       "longitude": -71.96235,
       "population": 3696,
-      "populationRank": 54,
+      "populationRank": 62,
       "isCapital": false
     },
     {
       "id": "3731233",
       "name": "Acul du Nord",
-      "nativeName": "Acul-du-Nord",
       "latitude": 19.68075,
       "longitude": -72.31978,
       "population": 3454,
-      "populationRank": 55,
+      "populationRank": 63,
       "isCapital": false
     },
     {
       "id": "3720765",
-      "name": "Môle Saint-Nicolas",
-      "nativeName": "Môle-Saint-Nicolas",
+      "name": "Môle Saint Nicolas",
       "latitude": 19.80794,
       "longitude": -73.37786,
       "population": 3224,
-      "populationRank": 56,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "3718411",
+      "name": "Port Margot",
+      "latitude": 19.7518,
+      "longitude": -72.43006,
+      "population": 3070,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "3716619",
+      "name": "Tiburon",
+      "latitude": 18.32589,
+      "longitude": -74.39598,
+      "population": 3054,
+      "populationRank": 66,
       "isCapital": false
     },
     {
       "id": "3728054",
       "name": "Cerca la Source",
-      "nativeName": "Cerca-la-Source",
       "latitude": 19.16696,
       "longitude": -71.79015,
       "population": 2792,
-      "populationRank": 57,
+      "populationRank": 67,
       "isCapital": false
     },
     {
       "id": "3725222",
       "name": "Fonds Verrettes",
-      "nativeName": "Fonds-Verrettes",
       "latitude": 18.39566,
       "longitude": -71.85634,
       "population": 2789,
-      "populationRank": 58,
+      "populationRank": 68,
       "isCapital": false
     },
     {
@@ -551,26 +627,34 @@
       "latitude": 18.56766,
       "longitude": -73.88942,
       "population": 2782,
-      "populationRank": 59,
+      "populationRank": 69,
       "isCapital": false
     },
     {
       "id": "3725364",
       "name": "Fond des Blancs",
-      "nativeName": "Fond-des-Blancs",
       "latitude": 18.27782,
       "longitude": -73.12733,
       "population": 2653,
-      "populationRank": 60,
+      "populationRank": 70,
       "isCapital": false
     },
     {
       "id": "3730363",
-      "name": "Belle-Anse",
+      "name": "Belle Anse",
       "latitude": 18.23768,
       "longitude": -72.06638,
       "population": 2611,
-      "populationRank": 61,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "3718707",
+      "name": "Plaine du Nord",
+      "latitude": 19.67707,
+      "longitude": -72.26969,
+      "population": 2492,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -579,7 +663,26 @@
       "latitude": 18.24384,
       "longitude": -71.84157,
       "population": 2461,
-      "populationRank": 62,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "3727287",
+      "name": "Kotdefè",
+      "nativeName": "Côtes-de-Fer",
+      "latitude": 18.18872,
+      "longitude": -73.00287,
+      "population": 2393,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "3722239",
+      "name": "Les Irois",
+      "latitude": 18.4049,
+      "longitude": -74.4528,
+      "population": 2265,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -588,17 +691,16 @@
       "latitude": 19.51736,
       "longitude": -72.36133,
       "population": 2184,
-      "populationRank": 63,
+      "populationRank": 76,
       "isCapital": false
     },
     {
       "id": "3718938",
       "name": "Petit Trou de Nippes",
-      "nativeName": "Petit-Trou-de-Nippes",
       "latitude": 18.52535,
       "longitude": -73.50815,
       "population": 2130,
-      "populationRank": 64,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -608,7 +710,7 @@
       "latitude": 19.40815,
       "longitude": -71.78132,
       "population": 2104,
-      "populationRank": 65,
+      "populationRank": 78,
       "isCapital": false
     },
     {
@@ -617,7 +719,7 @@
       "latitude": 19.37795,
       "longitude": -71.8303,
       "population": 2104,
-      "populationRank": 66,
+      "populationRank": 79,
       "isCapital": false
     },
     {
@@ -627,7 +729,7 @@
       "latitude": 18.20601,
       "longitude": -74.04013,
       "population": 2065,
-      "populationRank": 67,
+      "populationRank": 80,
       "isCapital": false
     },
     {
@@ -636,7 +738,16 @@
       "latitude": 19.69142,
       "longitude": -73.33769,
       "population": 1974,
-      "populationRank": 68,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "3716403",
+      "name": "Torbeck",
+      "latitude": 18.16338,
+      "longitude": -73.80949,
+      "population": 1918,
+      "populationRank": 82,
       "isCapital": false
     },
     {
@@ -645,7 +756,7 @@
       "latitude": 19.52201,
       "longitude": -71.92323,
       "population": 1889,
-      "populationRank": 69,
+      "populationRank": 83,
       "isCapital": false
     },
     {
@@ -654,7 +765,16 @@
       "latitude": 19.65476,
       "longitude": -71.81451,
       "population": 1855,
-      "populationRank": 70,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "3727944",
+      "name": "Chantal",
+      "latitude": 18.20169,
+      "longitude": -73.88957,
+      "population": 1848,
+      "populationRank": 85,
       "isCapital": false
     },
     {
@@ -663,17 +783,25 @@
       "latitude": 18.56039,
       "longitude": -74.25777,
       "population": 1830,
-      "populationRank": 71,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "3718975",
+      "name": "Petite Rivière de Nippes",
+      "latitude": 18.47611,
+      "longitude": -73.23495,
+      "population": 1794,
+      "populationRank": 87,
       "isCapital": false
     },
     {
       "id": "3724432",
       "name": "Grande Saline",
-      "nativeName": "Grande-Saline",
       "latitude": 19.26513,
       "longitude": -72.76897,
       "population": 1787,
-      "populationRank": 72,
+      "populationRank": 88,
       "isCapital": false
     },
     {
@@ -683,16 +811,16 @@
       "latitude": 18.05,
       "longitude": -71.75,
       "population": 1736,
-      "populationRank": 73,
+      "populationRank": 89,
       "isCapital": false
     },
     {
       "id": "3731123",
-      "name": "Anse-à-Veau",
+      "name": "Anse à Veau",
       "latitude": 18.5011,
       "longitude": -73.3449,
       "population": 1731,
-      "populationRank": 74,
+      "populationRank": 90,
       "isCapital": false
     },
     {
@@ -701,7 +829,7 @@
       "latitude": 18.23167,
       "longitude": -72.32289,
       "population": 1698,
-      "populationRank": 75,
+      "populationRank": 91,
       "isCapital": false
     },
     {
@@ -710,17 +838,26 @@
       "latitude": 18.48255,
       "longitude": -73.63884,
       "population": 1666,
-      "populationRank": 76,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "3717916",
+      "name": "Roche-à-Bateau",
+      "nativeName": "Roche-à-Bateaux",
+      "latitude": 18.18182,
+      "longitude": -74.00345,
+      "population": 1662,
+      "populationRank": 93,
       "isCapital": false
     },
     {
       "id": "3730932",
       "name": "Baie de Henne",
-      "nativeName": "Baie-de-Henne",
       "latitude": 19.66307,
       "longitude": -73.20943,
       "population": 1660,
-      "populationRank": 77,
+      "populationRank": 94,
       "isCapital": false
     },
     {
@@ -729,16 +866,16 @@
       "latitude": 19.46959,
       "longitude": -72.11466,
       "population": 1618,
-      "populationRank": 78,
+      "populationRank": 95,
       "isCapital": false
     },
     {
       "id": "3728093",
-      "name": "Cayes-Jacmel",
+      "name": "Cayes Jacmel",
       "latitude": 18.2311,
       "longitude": -72.39545,
       "population": 1609,
-      "populationRank": 79,
+      "populationRank": 96,
       "isCapital": false
     },
     {
@@ -747,17 +884,16 @@
       "latitude": 19.69274,
       "longitude": -72.01733,
       "population": 1549,
-      "populationRank": 80,
+      "populationRank": 97,
       "isCapital": false
     },
     {
       "id": "3717596",
-      "name": "Saint-Louis du Sud",
-      "nativeName": "Saint-Louis-du-Sud",
+      "name": "Saint Louis du Sud",
       "latitude": 18.26241,
       "longitude": -73.54603,
       "population": 1528,
-      "populationRank": 81,
+      "populationRank": 98,
       "isCapital": false
     },
     {
@@ -766,7 +902,16 @@
       "latitude": 19.48342,
       "longitude": -72.48537,
       "population": 1511,
-      "populationRank": 82,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "3727984",
+      "name": "Chambellan",
+      "latitude": 18.55037,
+      "longitude": -74.31317,
+      "population": 1397,
+      "populationRank": 100,
       "isCapital": false
     },
     {
@@ -775,17 +920,35 @@
       "latitude": 19.41327,
       "longitude": -72.08077,
       "population": 1391,
-      "populationRank": 83,
+      "populationRank": 101,
       "isCapital": false
     },
     {
       "id": "3718278",
       "name": "Quartier Morin",
-      "nativeName": "Quartier-Morin",
       "latitude": 19.69696,
       "longitude": -72.15712,
       "population": 1299,
-      "populationRank": 84,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "3731257",
+      "name": "Les Abricots",
+      "nativeName": "Abricots",
+      "latitude": 18.64901,
+      "longitude": -74.30786,
+      "population": 1245,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "3725416",
+      "name": "Fond Bassin Bleu",
+      "latitude": 19.79445,
+      "longitude": -72.79949,
+      "population": 1184,
+      "populationRank": 104,
       "isCapital": false
     },
     {
@@ -794,17 +957,25 @@
       "latitude": 18.29987,
       "longitude": -73.65455,
       "population": 1023,
-      "populationRank": 85,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "3728562",
+      "name": "Camp Perrin",
+      "latitude": 18.32648,
+      "longitude": -73.86734,
+      "population": 967,
+      "populationRank": 106,
       "isCapital": false
     },
     {
       "id": "3716785",
       "name": "Terre Neuve",
-      "nativeName": "Terre-Neuve",
       "latitude": 19.59946,
       "longitude": -72.78088,
       "population": 911,
-      "populationRank": 86,
+      "populationRank": 107,
       "isCapital": false
     },
     {
@@ -813,7 +984,26 @@
       "latitude": 18.38398,
       "longitude": -73.41435,
       "population": 778,
-      "populationRank": 87,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "3731230",
+      "name": "Acul Samedi",
+      "nativeName": "Quartier Acul-Samedi",
+      "latitude": 19.51881,
+      "longitude": -71.88214,
+      "population": 765,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "3717617",
+      "name": "Saint Jean du Sud",
+      "latitude": 18.07611,
+      "longitude": -73.81254,
+      "population": 549,
+      "populationRank": 110,
       "isCapital": false
     }
   ]

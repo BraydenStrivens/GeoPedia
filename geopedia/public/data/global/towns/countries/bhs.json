@@ -10,12 +10,21 @@
       "isCapital": true
     },
     {
+      "id": "3571971",
+      "name": "Lucaya",
+      "latitude": 26.53333,
+      "longitude": -78.66667,
+      "population": 46525,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
       "id": "3572375",
       "name": "Freeport",
       "latitude": 26.53333,
       "longitude": -78.7,
       "population": 26910,
-      "populationRank": 2,
+      "populationRank": 3,
       "isCapital": false
     },
     {
@@ -24,7 +33,17 @@
       "latitude": 26.68711,
       "longitude": -78.97702,
       "population": 12724,
-      "populationRank": 3,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3572601",
+      "name": "Cooper’s Town",
+      "nativeName": "Coopers Town",
+      "latitude": 26.87137,
+      "longitude": -77.51131,
+      "population": 8413,
+      "populationRank": 5,
       "isCapital": false
     },
     {
@@ -33,7 +52,7 @@
       "latitude": 26.54124,
       "longitude": -77.0636,
       "population": 5314,
-      "populationRank": 4,
+      "populationRank": 6,
       "isCapital": false
     },
     {
@@ -42,7 +61,26 @@
       "latitude": 26.62651,
       "longitude": -78.28209,
       "population": 3744,
-      "populationRank": 5,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "10793775",
+      "name": "Freetown",
+      "nativeName": "Delancey Town",
+      "latitude": 24.77894,
+      "longitude": -76.27705,
+      "population": 3137,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3572906",
+      "name": "Andros Town",
+      "latitude": 24.70502,
+      "longitude": -77.76912,
+      "population": 2455,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -51,7 +89,16 @@
       "latitude": 23.1,
       "longitude": -74.98333,
       "population": 1752,
-      "populationRank": 6,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3572462",
+      "name": "Dunmore Town",
+      "latitude": 25.50216,
+      "longitude": -76.63633,
+      "population": 1523,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -60,7 +107,7 @@
       "latitude": 26.67691,
       "longitude": -77.28581,
       "population": 1187,
-      "populationRank": 7,
+      "populationRank": 12,
       "isCapital": false
     },
     {
@@ -69,7 +116,25 @@
       "latitude": 25.728,
       "longitude": -79.29721,
       "population": 949,
-      "populationRank": 8,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3572627",
+      "name": "Cockburn Town",
+      "latitude": 24.05179,
+      "longitude": -74.53138,
+      "population": 831,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3572165",
+      "name": "Hope Town",
+      "latitude": 26.53855,
+      "longitude": -76.95745,
+      "population": 500,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -78,7 +143,16 @@
       "latitude": 20.94982,
       "longitude": -73.67346,
       "population": 452,
-      "populationRank": 9,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3572796",
+      "name": "Black Point",
+      "latitude": 24.1,
+      "longitude": -76.38333,
+      "population": 414,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -88,7 +162,7 @@
       "latitude": 22.55501,
       "longitude": -73.87829,
       "population": 407,
-      "populationRank": 10,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -98,7 +172,44 @@
       "latitude": 25.14534,
       "longitude": -78.0016,
       "population": 270,
-      "populationRank": 11,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3572940",
+      "name": "Abraham’s Bay",
+      "nativeName": "Abraham Bay Settlement",
+      "latitude": 22.36667,
+      "longitude": -72.96667,
+      "population": 235,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3572553",
+      "name": "Crown Haven",
+      "latitude": 26.9,
+      "longitude": -77.81667,
+      "population": 210,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "3571650",
+      "name": "Port Nelson",
+      "latitude": 23.64967,
+      "longitude": -74.84157,
+      "population": 91,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "3572603",
+      "name": "Congo Town",
+      "latitude": 24.16614,
+      "longitude": -77.58425,
+      "population": 90,
+      "populationRank": 23,
       "isCapital": false
     }
   ]

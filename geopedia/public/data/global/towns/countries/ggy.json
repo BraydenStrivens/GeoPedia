@@ -9,6 +9,43 @@
       "population": 16488,
       "populationRank": 1,
       "isCapital": true
+    },
+    {
+      "id": "3042286",
+      "name": "Saint Sampson",
+      "latitude": 49.48389,
+      "longitude": -2.52333,
+      "population": 8966,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "6696773",
+      "name": "St Martin",
+      "latitude": 49.43713,
+      "longitude": -2.55479,
+      "population": 6593,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "13527040",
+      "name": "Forest Parish",
+      "nativeName": "Forest",
+      "latitude": 49.42983,
+      "longitude": -2.60168,
+      "population": 1624,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "6696201",
+      "name": "Sark",
+      "latitude": 49.43331,
+      "longitude": -2.35622,
+      "population": 600,
+      "populationRank": 5,
+      "isCapital": false
     }
   ]
 }

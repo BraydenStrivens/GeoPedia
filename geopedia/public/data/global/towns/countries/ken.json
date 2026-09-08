@@ -28,12 +28,21 @@
       "isCapital": false
     },
     {
+      "id": "178559",
+      "name": "Vihiga",
+      "latitude": 0.03692,
+      "longitude": 34.7101,
+      "population": 590013,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
       "id": "184622",
       "name": "Nakuru",
       "latitude": -0.30719,
       "longitude": 36.07225,
       "population": 570674,
-      "populationRank": 4,
+      "populationRank": 5,
       "isCapital": false
     },
     {
@@ -42,7 +51,7 @@
       "latitude": -1.14665,
       "longitude": 36.96087,
       "population": 490120,
-      "populationRank": 5,
+      "populationRank": 6,
       "isCapital": false
     },
     {
@@ -51,7 +60,7 @@
       "latitude": 0.52036,
       "longitude": 35.26993,
       "population": 475716,
-      "populationRank": 6,
+      "populationRank": 7,
       "isCapital": false
     },
     {
@@ -60,7 +69,16 @@
       "latitude": -0.10221,
       "longitude": 34.76171,
       "population": 397957,
-      "populationRank": 7,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "13444132",
+      "name": "Tharaka",
+      "latitude": -0.16767,
+      "longitude": 37.98493,
+      "population": 393177,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -69,7 +87,7 @@
       "latitude": -1.24627,
       "longitude": 36.66291,
       "population": 323881,
-      "populationRank": 8,
+      "populationRank": 10,
       "isCapital": false
     },
     {
@@ -78,7 +96,7 @@
       "latitude": -1.03326,
       "longitude": 37.06933,
       "population": 251407,
-      "populationRank": 9,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -87,16 +105,16 @@
       "latitude": -0.71383,
       "longitude": 36.43261,
       "population": 198444,
-      "populationRank": 10,
+      "populationRank": 12,
       "isCapital": false
     },
     {
       "id": "193624",
-      "name": "Karuri",
+      "name": "karuri",
       "latitude": -1.17641,
       "longitude": 36.7564,
       "population": 194342,
-      "populationRank": 11,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -105,7 +123,16 @@
       "latitude": -0.7,
       "longitude": 37.18333,
       "population": 194342,
-      "populationRank": 12,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "187269",
+      "name": "Matuga",
+      "latitude": -4.168,
+      "longitude": 39.57068,
+      "population": 194252,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -115,7 +142,7 @@
       "latitude": -1.35255,
       "longitude": 37.45482,
       "population": 181896,
-      "populationRank": 13,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -124,7 +151,7 @@
       "latitude": -1.3953,
       "longitude": 36.764,
       "population": 172569,
-      "populationRank": 14,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -133,7 +160,7 @@
       "latitude": -0.45275,
       "longitude": 39.64601,
       "population": 163399,
-      "populationRank": 15,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -142,7 +169,7 @@
       "latitude": 1.01572,
       "longitude": 35.00622,
       "population": 162174,
-      "populationRank": 16,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -151,7 +178,7 @@
       "latitude": -1.1136,
       "longitude": 36.64205,
       "population": 159314,
-      "populationRank": 17,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -160,7 +187,7 @@
       "latitude": -1.10148,
       "longitude": 37.0132,
       "population": 156041,
-      "populationRank": 18,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -169,7 +196,7 @@
       "latitude": -1.47612,
       "longitude": 36.96144,
       "population": 154436,
-      "populationRank": 19,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -178,7 +205,7 @@
       "latitude": -1.17139,
       "longitude": 36.83556,
       "population": 147870,
-      "populationRank": 20,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -187,7 +214,7 @@
       "latitude": -3.21799,
       "longitude": 40.11692,
       "population": 119859,
-      "populationRank": 21,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -196,7 +223,7 @@
       "latitude": 3.93726,
       "longitude": 41.85688,
       "population": 114718,
-      "populationRank": 22,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -205,7 +232,7 @@
       "latitude": 0.17124,
       "longitude": 34.59466,
       "population": 113294,
-      "populationRank": 23,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -214,7 +241,7 @@
       "latitude": -0.68174,
       "longitude": 34.76666,
       "population": 112417,
-      "populationRank": 24,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -223,7 +250,16 @@
       "latitude": -1.3527,
       "longitude": 36.6699,
       "population": 102323,
-      "populationRank": 25,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "11002530",
+      "name": "Mtwapa",
+      "latitude": -3.93938,
+      "longitude": 39.74877,
+      "population": 90677,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -232,7 +268,7 @@
       "latitude": 1.7471,
       "longitude": 40.05732,
       "population": 90116,
-      "populationRank": 26,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -241,7 +277,7 @@
       "latitude": 3.11988,
       "longitude": 35.59642,
       "population": 82970,
-      "populationRank": 27,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -250,7 +286,7 @@
       "latitude": -1.4563,
       "longitude": 36.97826,
       "population": 81302,
-      "populationRank": 28,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -259,7 +295,7 @@
       "latitude": 0.04626,
       "longitude": 37.65587,
       "population": 80191,
-      "populationRank": 29,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -268,7 +304,7 @@
       "latitude": -0.42013,
       "longitude": 36.94759,
       "population": 80081,
-      "populationRank": 30,
+      "populationRank": 34,
       "isCapital": false
     },
     {
@@ -277,7 +313,7 @@
       "latitude": 0.35462,
       "longitude": 37.58218,
       "population": 78650,
-      "populationRank": 31,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -286,7 +322,7 @@
       "latitude": -4.2929,
       "longitude": 39.56404,
       "population": 77686,
-      "populationRank": 32,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -295,7 +331,7 @@
       "latitude": -1.4275,
       "longitude": 36.6865,
       "population": 76903,
-      "populationRank": 33,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -304,7 +340,7 @@
       "latitude": -3.63045,
       "longitude": 39.84992,
       "population": 74270,
-      "populationRank": 34,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -313,7 +349,7 @@
       "latitude": 0.00624,
       "longitude": 37.07398,
       "population": 72813,
-      "populationRank": 35,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -322,7 +358,7 @@
       "latitude": 0.46005,
       "longitude": 34.11169,
       "population": 71886,
-      "populationRank": 36,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -331,7 +367,7 @@
       "latitude": -1.06343,
       "longitude": 34.47313,
       "population": 71668,
-      "populationRank": 37,
+      "populationRank": 41,
       "isCapital": false
     },
     {
@@ -340,7 +376,7 @@
       "latitude": 0.5635,
       "longitude": 34.56055,
       "population": 68031,
-      "populationRank": 38,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -349,7 +385,7 @@
       "latitude": -1.08083,
       "longitude": 35.87111,
       "population": 65430,
-      "populationRank": 39,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -358,7 +394,7 @@
       "latitude": -0.53987,
       "longitude": 37.45743,
       "population": 64979,
-      "populationRank": 40,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -367,7 +403,7 @@
       "latitude": -1.52233,
       "longitude": 37.26521,
       "population": 63767,
-      "populationRank": 41,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -376,7 +412,7 @@
       "latitude": -1.05754,
       "longitude": 36.77625,
       "population": 63319,
-      "populationRank": 42,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -385,7 +421,7 @@
       "latitude": 2.80922,
       "longitude": 40.92885,
       "population": 60732,
-      "populationRank": 43,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -394,7 +430,16 @@
       "latitude": -0.50397,
       "longitude": 36.31845,
       "population": 60711,
-      "populationRank": 44,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "197335",
+      "name": "Upper Gilgil",
+      "latitude": -0.21209,
+      "longitude": 36.27248,
+      "population": 60711,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -403,7 +448,7 @@
       "latitude": 0.08213,
       "longitude": 34.72139,
       "population": 60000,
-      "populationRank": 45,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -412,7 +457,7 @@
       "latitude": 0.78775,
       "longitude": 34.71562,
       "population": 56050,
-      "populationRank": 46,
+      "populationRank": 51,
       "isCapital": false
     },
     {
@@ -421,7 +466,7 @@
       "latitude": 1.23889,
       "longitude": 35.11194,
       "population": 56000,
-      "populationRank": 47,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -430,7 +475,7 @@
       "latitude": -0.36774,
       "longitude": 35.28314,
       "population": 53804,
-      "populationRank": 48,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -439,7 +484,16 @@
       "latitude": -3.39605,
       "longitude": 38.55609,
       "population": 53353,
-      "populationRank": 49,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "178323",
+      "name": "Wanguru",
+      "latitude": -0.68393,
+      "longitude": 37.35701,
+      "population": 51722,
+      "populationRank": 55,
       "isCapital": false
     },
     {
@@ -449,7 +503,7 @@
       "latitude": 1.01659,
       "longitude": 39.49122,
       "population": 49599,
-      "populationRank": 50,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -458,7 +512,7 @@
       "latitude": -0.24849,
       "longitude": 35.73194,
       "population": 48356,
-      "populationRank": 51,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -467,7 +521,7 @@
       "latitude": 3.52661,
       "longitude": 39.0561,
       "population": 47850,
-      "populationRank": 52,
+      "populationRank": 58,
       "isCapital": false
     },
     {
@@ -476,7 +530,7 @@
       "latitude": -0.27088,
       "longitude": 36.37917,
       "population": 47795,
-      "populationRank": 53,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -485,7 +539,7 @@
       "latitude": 0.33474,
       "longitude": 34.48796,
       "population": 45485,
-      "populationRank": 54,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -494,7 +548,7 @@
       "latitude": -0.52731,
       "longitude": 34.45714,
       "population": 44949,
-      "populationRank": 55,
+      "populationRank": 61,
       "isCapital": false
     },
     {
@@ -503,7 +557,7 @@
       "latitude": -0.9373,
       "longitude": 37.12275,
       "population": 44086,
-      "populationRank": 56,
+      "populationRank": 62,
       "isCapital": false
     },
     {
@@ -512,17 +566,16 @@
       "latitude": -1.69405,
       "longitude": 40.17015,
       "population": 43642,
-      "populationRank": 57,
+      "populationRank": 63,
       "isCapital": false
     },
     {
       "id": "185579",
-      "name": "Murang’a",
-      "nativeName": "Murang'a",
+      "name": "Murang'a",
       "latitude": -0.72104,
       "longitude": 37.15259,
       "population": 43314,
-      "populationRank": 58,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -531,7 +584,7 @@
       "latitude": 0.6004,
       "longitude": 34.77119,
       "population": 42642,
-      "populationRank": 59,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -540,7 +593,7 @@
       "latitude": -0.33024,
       "longitude": 35.94445,
       "population": 42173,
-      "populationRank": 60,
+      "populationRank": 66,
       "isCapital": false
     },
     {
@@ -549,7 +602,7 @@
       "latitude": 0.67028,
       "longitude": 35.50806,
       "population": 42000,
-      "populationRank": 61,
+      "populationRank": 67,
       "isCapital": false
     },
     {
@@ -558,7 +611,16 @@
       "latitude": 0.20387,
       "longitude": 35.105,
       "population": 41997,
-      "populationRank": 62,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "188657",
+      "name": "Lugulu",
+      "latitude": 0.39337,
+      "longitude": 34.30399,
+      "population": 40894,
+      "populationRank": 69,
       "isCapital": false
     },
     {
@@ -567,7 +629,7 @@
       "latitude": 0.03813,
       "longitude": 36.36339,
       "population": 37650,
-      "populationRank": 63,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -576,7 +638,7 @@
       "latitude": 2.33468,
       "longitude": 37.99086,
       "population": 36289,
-      "populationRank": 64,
+      "populationRank": 71,
       "isCapital": false
     },
     {
@@ -586,7 +648,7 @@
       "latitude": 3.93147,
       "longitude": 41.22295,
       "population": 35644,
-      "populationRank": 65,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -595,7 +657,7 @@
       "latitude": 0.0607,
       "longitude": 34.28806,
       "population": 33153,
-      "populationRank": 66,
+      "populationRank": 73,
       "isCapital": false
     },
     {
@@ -604,7 +666,7 @@
       "latitude": -3.86261,
       "longitude": 39.47458,
       "population": 31715,
-      "populationRank": 67,
+      "populationRank": 74,
       "isCapital": false
     },
     {
@@ -613,7 +675,16 @@
       "latitude": 1.09667,
       "longitude": 36.69806,
       "population": 31350,
-      "populationRank": 68,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "12687281",
+      "name": "mairo inya",
+      "latitude": 0.02538,
+      "longitude": 36.40865,
+      "population": 30527,
+      "populationRank": 76,
       "isCapital": false
     },
     {
@@ -622,7 +693,7 @@
       "latitude": -0.17344,
       "longitude": 35.86313,
       "population": 30471,
-      "populationRank": 69,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -631,7 +702,7 @@
       "latitude": -0.49887,
       "longitude": 37.28031,
       "population": 30045,
-      "populationRank": 70,
+      "populationRank": 78,
       "isCapital": false
     },
     {
@@ -640,7 +711,16 @@
       "latitude": -1.36696,
       "longitude": 38.01055,
       "population": 29062,
-      "populationRank": 71,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "198644",
+      "name": "Elburgon",
+      "latitude": -0.30037,
+      "longitude": 35.80935,
+      "population": 28359,
+      "populationRank": 80,
       "isCapital": false
     },
     {
@@ -649,7 +729,7 @@
       "latitude": -3.35335,
       "longitude": 40.02095,
       "population": 27857,
-      "populationRank": 72,
+      "populationRank": 81,
       "isCapital": false
     },
     {
@@ -658,7 +738,7 @@
       "latitude": -2.27169,
       "longitude": 40.90201,
       "population": 25385,
-      "populationRank": 73,
+      "populationRank": 82,
       "isCapital": false
     },
     {
@@ -667,7 +747,7 @@
       "latitude": -1.85238,
       "longitude": 36.77683,
       "population": 24678,
-      "populationRank": 74,
+      "populationRank": 83,
       "isCapital": false
     },
     {
@@ -676,7 +756,7 @@
       "latitude": 0.49194,
       "longitude": 35.74303,
       "population": 24661,
-      "populationRank": 75,
+      "populationRank": 84,
       "isCapital": false
     },
     {
@@ -685,7 +765,7 @@
       "latitude": -0.56333,
       "longitude": 34.93583,
       "population": 24483,
-      "populationRank": 76,
+      "populationRank": 85,
       "isCapital": false
     },
     {
@@ -694,7 +774,7 @@
       "latitude": -1.22511,
       "longitude": 34.46385,
       "population": 23891,
-      "populationRank": 77,
+      "populationRank": 86,
       "isCapital": false
     },
     {
@@ -703,7 +783,16 @@
       "latitude": -0.4841,
       "longitude": 37.12662,
       "population": 23552,
-      "populationRank": 78,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "9406963",
+      "name": "Lafey",
+      "latitude": 3.15106,
+      "longitude": 41.18577,
+      "population": 22882,
+      "populationRank": 88,
       "isCapital": false
     },
     {
@@ -712,7 +801,7 @@
       "latitude": -0.0962,
       "longitude": 34.27322,
       "population": 22712,
-      "populationRank": 79,
+      "populationRank": 89,
       "isCapital": false
     },
     {
@@ -721,7 +810,7 @@
       "latitude": -0.33316,
       "longitude": 37.64587,
       "population": 22388,
-      "populationRank": 80,
+      "populationRank": 90,
       "isCapital": false
     },
     {
@@ -731,7 +820,7 @@
       "latitude": -1.19347,
       "longitude": 34.61967,
       "population": 22194,
-      "populationRank": 81,
+      "populationRank": 91,
       "isCapital": false
     },
     {
@@ -740,7 +829,7 @@
       "latitude": -3.39879,
       "longitude": 37.68336,
       "population": 22018,
-      "populationRank": 82,
+      "populationRank": 92,
       "isCapital": false
     },
     {
@@ -749,7 +838,7 @@
       "latitude": 3.35528,
       "longitude": 40.22278,
       "population": 21517,
-      "populationRank": 83,
+      "populationRank": 93,
       "isCapital": false
     },
     {
@@ -758,7 +847,7 @@
       "latitude": 0.05196,
       "longitude": 35.72734,
       "population": 21385,
-      "populationRank": 84,
+      "populationRank": 94,
       "isCapital": false
     },
     {
@@ -767,7 +856,7 @@
       "latitude": -1.48256,
       "longitude": 40.03341,
       "population": 20912,
-      "populationRank": 85,
+      "populationRank": 95,
       "isCapital": false
     },
     {
@@ -777,7 +866,7 @@
       "latitude": -0.98169,
       "longitude": 36.58642,
       "population": 20823,
-      "populationRank": 86,
+      "populationRank": 96,
       "isCapital": false
     },
     {
@@ -786,7 +875,17 @@
       "latitude": -0.75675,
       "longitude": 34.59833,
       "population": 20688,
-      "populationRank": 87,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "188080",
+      "name": "Makueni Boma",
+      "nativeName": "Makueni",
+      "latitude": -1.80388,
+      "longitude": 37.62405,
+      "population": 20681,
+      "populationRank": 98,
       "isCapital": false
     },
     {
@@ -795,7 +894,7 @@
       "latitude": -0.80116,
       "longitude": 34.72579,
       "population": 20000,
-      "populationRank": 88,
+      "populationRank": 99,
       "isCapital": false
     },
     {
@@ -804,7 +903,7 @@
       "latitude": -0.50974,
       "longitude": 34.73067,
       "population": 19947,
-      "populationRank": 89,
+      "populationRank": 100,
       "isCapital": false
     },
     {
@@ -813,7 +912,7 @@
       "latitude": -1.78079,
       "longitude": 37.62882,
       "population": 19725,
-      "populationRank": 90,
+      "populationRank": 101,
       "isCapital": false
     },
     {
@@ -822,7 +921,7 @@
       "latitude": -2.08033,
       "longitude": 37.47202,
       "population": 18325,
-      "populationRank": 91,
+      "populationRank": 102,
       "isCapital": false
     },
     {
@@ -831,7 +930,7 @@
       "latitude": 0.53392,
       "longitude": 38.51878,
       "population": 17443,
-      "populationRank": 92,
+      "populationRank": 103,
       "isCapital": false
     },
     {
@@ -840,7 +939,7 @@
       "latitude": -0.93605,
       "longitude": 38.05955,
       "population": 17025,
-      "populationRank": 93,
+      "populationRank": 104,
       "isCapital": false
     },
     {
@@ -849,17 +948,25 @@
       "latitude": -0.90711,
       "longitude": 34.52895,
       "population": 16815,
-      "populationRank": 94,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "191908",
+      "name": "Kiminini",
+      "latitude": 0.89284,
+      "longitude": 34.92468,
+      "population": 16560,
+      "populationRank": 106,
       "isCapital": false
     },
     {
       "id": "196761",
-      "name": "Moi‘s Bridge",
-      "nativeName": "Moi's Bridge",
+      "name": "Moi's Bridge",
       "latitude": 0.87178,
       "longitude": 35.12213,
       "population": 16355,
-      "populationRank": 95,
+      "populationRank": 107,
       "isCapital": false
     },
     {
@@ -868,7 +975,7 @@
       "latitude": -3.96426,
       "longitude": 39.5498,
       "population": 16254,
-      "populationRank": 96,
+      "populationRank": 108,
       "isCapital": false
     },
     {
@@ -877,7 +984,7 @@
       "latitude": 0.63513,
       "longitude": 34.28165,
       "population": 15581,
-      "populationRank": 97,
+      "populationRank": 109,
       "isCapital": false
     },
     {
@@ -886,7 +993,7 @@
       "latitude": -0.15816,
       "longitude": 35.19645,
       "population": 15217,
-      "populationRank": 98,
+      "populationRank": 110,
       "isCapital": false
     },
     {
@@ -895,7 +1002,25 @@
       "latitude": -2.27808,
       "longitude": 37.81867,
       "population": 15038,
-      "populationRank": 99,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "10230091",
+      "name": "Banissa",
+      "latitude": 3.94102,
+      "longitude": 40.34248,
+      "population": 14974,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "186139",
+      "name": "Msambweni",
+      "latitude": -4.4619,
+      "longitude": 39.48265,
+      "population": 14951,
+      "populationRank": 113,
       "isCapital": false
     },
     {
@@ -904,7 +1029,7 @@
       "latitude": -0.42492,
       "longitude": 34.20736,
       "population": 14916,
-      "populationRank": 100,
+      "populationRank": 114,
       "isCapital": false
     },
     {
@@ -913,7 +1038,7 @@
       "latitude": -1.90122,
       "longitude": 36.287,
       "population": 14529,
-      "populationRank": 101,
+      "populationRank": 115,
       "isCapital": false
     },
     {
@@ -922,7 +1047,26 @@
       "latitude": -1.6792,
       "longitude": 36.85056,
       "population": 14429,
-      "populationRank": 102,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "12718632",
+      "name": "Bute",
+      "nativeName": "Bute Town",
+      "latitude": 3.35875,
+      "longitude": 39.41968,
+      "population": 14108,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "195539",
+      "name": "Kagio",
+      "latitude": -0.62482,
+      "longitude": 37.25551,
+      "population": 13961,
+      "populationRank": 118,
       "isCapital": false
     },
     {
@@ -932,7 +1076,7 @@
       "latitude": -1.19326,
       "longitude": 39.84049,
       "population": 13650,
-      "populationRank": 103,
+      "populationRank": 119,
       "isCapital": false
     },
     {
@@ -942,7 +1086,7 @@
       "latitude": -0.67783,
       "longitude": 34.70722,
       "population": 13405,
-      "populationRank": 104,
+      "populationRank": 120,
       "isCapital": false
     },
     {
@@ -951,7 +1095,7 @@
       "latitude": -0.58249,
       "longitude": 35.18969,
       "population": 13403,
-      "populationRank": 105,
+      "populationRank": 121,
       "isCapital": false
     },
     {
@@ -960,7 +1104,7 @@
       "latitude": -0.02236,
       "longitude": 35.96124,
       "population": 13366,
-      "populationRank": 106,
+      "populationRank": 122,
       "isCapital": false
     },
     {
@@ -969,7 +1113,7 @@
       "latitude": 0.02333,
       "longitude": 34.58661,
       "population": 13319,
-      "populationRank": 107,
+      "populationRank": 123,
       "isCapital": false
     },
     {
@@ -978,7 +1122,7 @@
       "latitude": 0.2725,
       "longitude": 36.53806,
       "population": 13056,
-      "populationRank": 108,
+      "populationRank": 124,
       "isCapital": false
     },
     {
@@ -987,7 +1131,17 @@
       "latitude": -0.66806,
       "longitude": 37.20875,
       "population": 13000,
-      "populationRank": 109,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "180646",
+      "name": "Sawa Sawa",
+      "nativeName": "Vingujini",
+      "latitude": -4.47166,
+      "longitude": 39.48463,
+      "population": 12975,
+      "populationRank": 126,
       "isCapital": false
     },
     {
@@ -996,7 +1150,7 @@
       "latitude": 2.38116,
       "longitude": 35.65123,
       "population": 12676,
-      "populationRank": 110,
+      "populationRank": 127,
       "isCapital": false
     },
     {
@@ -1005,7 +1159,7 @@
       "latitude": 0.11768,
       "longitude": 34.73339,
       "population": 12674,
-      "populationRank": 111,
+      "populationRank": 128,
       "isCapital": false
     },
     {
@@ -1014,7 +1168,7 @@
       "latitude": -3.39642,
       "longitude": 38.35729,
       "population": 12501,
-      "populationRank": 112,
+      "populationRank": 129,
       "isCapital": false
     },
     {
@@ -1023,17 +1177,35 @@
       "latitude": 2.49184,
       "longitude": 39.56653,
       "population": 12270,
-      "populationRank": 113,
+      "populationRank": 130,
       "isCapital": false
     },
     {
-      "id": "188220",
-      "name": "Majengo",
-      "nativeName": "Vihiga",
-      "latitude": 0.04944,
-      "longitude": 34.72476,
-      "population": 11913,
-      "populationRank": 114,
+      "id": "200061",
+      "name": "Port Victoria",
+      "nativeName": "Siakwhasi",
+      "latitude": 0.09809,
+      "longitude": 33.97248,
+      "population": 12194,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "178543",
+      "name": "Vipingo",
+      "latitude": -3.81466,
+      "longitude": 39.81282,
+      "population": 12183,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "187238",
+      "name": "Matuu",
+      "latitude": -1.1454,
+      "longitude": 37.54671,
+      "population": 12073,
+      "populationRank": 133,
       "isCapital": false
     },
     {
@@ -1042,7 +1214,16 @@
       "latitude": 0.73112,
       "longitude": 39.17388,
       "population": 11814,
-      "populationRank": 115,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "187221",
+      "name": "Mau Narok",
+      "latitude": -0.60661,
+      "longitude": 36.00836,
+      "population": 11806,
+      "populationRank": 135,
       "isCapital": false
     },
     {
@@ -1051,7 +1232,16 @@
       "latitude": -0.17359,
       "longitude": 34.9189,
       "population": 11801,
-      "populationRank": 116,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "196612",
+      "name": "Ijara",
+      "latitude": -1.59517,
+      "longitude": 40.51444,
+      "population": 11792,
+      "populationRank": 137,
       "isCapital": false
     },
     {
@@ -1060,7 +1250,7 @@
       "latitude": -0.78129,
       "longitude": 35.34156,
       "population": 11765,
-      "populationRank": 117,
+      "populationRank": 138,
       "isCapital": false
     },
     {
@@ -1070,7 +1260,7 @@
       "latitude": 4.20771,
       "longitude": 34.35378,
       "population": 11626,
-      "populationRank": 118,
+      "populationRank": 139,
       "isCapital": false
     },
     {
@@ -1079,7 +1269,7 @@
       "latitude": 0.05244,
       "longitude": 40.30855,
       "population": 11525,
-      "populationRank": 119,
+      "populationRank": 140,
       "isCapital": false
     },
     {
@@ -1088,7 +1278,7 @@
       "latitude": -1.26849,
       "longitude": 37.32186,
       "population": 11446,
-      "populationRank": 120,
+      "populationRank": 141,
       "isCapital": false
     },
     {
@@ -1097,7 +1287,34 @@
       "latitude": 0.20694,
       "longitude": 34.49006,
       "population": 11205,
-      "populationRank": 121,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "191800",
+      "name": "Kinna",
+      "latitude": 0.31883,
+      "longitude": 38.20499,
+      "population": 11175,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "197083",
+      "name": "Gongoni",
+      "latitude": -3.03668,
+      "longitude": 40.13748,
+      "population": 10993,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "186831",
+      "name": "Merti",
+      "latitude": 1.06725,
+      "longitude": 38.6662,
+      "population": 10990,
+      "populationRank": 145,
       "isCapital": false
     },
     {
@@ -1106,7 +1323,7 @@
       "latitude": -0.77612,
       "longitude": 34.94678,
       "population": 10881,
-      "populationRank": 122,
+      "populationRank": 146,
       "isCapital": false
     },
     {
@@ -1115,7 +1332,25 @@
       "latitude": -1.00819,
       "longitude": 34.87809,
       "population": 10845,
-      "populationRank": 123,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "187257",
+      "name": "Matunda",
+      "latitude": 0.84443,
+      "longitude": 35.13716,
+      "population": 10807,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "179634",
+      "name": "Takaungu",
+      "latitude": -3.6835,
+      "longitude": 39.85687,
+      "population": 10760,
+      "populationRank": 149,
       "isCapital": false
     },
     {
@@ -1124,7 +1359,7 @@
       "latitude": 0.0835,
       "longitude": 37.23925,
       "population": 10571,
-      "populationRank": 124,
+      "populationRank": 150,
       "isCapital": false
     },
     {
@@ -1134,7 +1369,16 @@
       "latitude": -2.92724,
       "longitude": 37.5103,
       "population": 10568,
-      "populationRank": 125,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "12718646",
+      "name": "Kainuk",
+      "latitude": 1.77442,
+      "longitude": 35.50641,
+      "population": 10535,
+      "populationRank": 152,
       "isCapital": false
     },
     {
@@ -1143,7 +1387,7 @@
       "latitude": -0.01644,
       "longitude": 36.20927,
       "population": 10344,
-      "populationRank": 126,
+      "populationRank": 153,
       "isCapital": false
     },
     {
@@ -1152,7 +1396,7 @@
       "latitude": -0.54061,
       "longitude": 34.16891,
       "population": 10286,
-      "populationRank": 127,
+      "populationRank": 154,
       "isCapital": false
     },
     {
@@ -1161,7 +1405,16 @@
       "latitude": -1.30342,
       "longitude": 37.34813,
       "population": 10258,
-      "populationRank": 128,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "191963",
+      "name": "Kimana",
+      "latitude": -2.79884,
+      "longitude": 37.53708,
+      "population": 10116,
+      "populationRank": 156,
       "isCapital": false
     },
     {
@@ -1170,7 +1423,26 @@
       "latitude": -4.17375,
       "longitude": 39.45206,
       "population": 10063,
-      "populationRank": 129,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "188714",
+      "name": "Luanda",
+      "nativeName": "Lwanda",
+      "latitude": 0.31354,
+      "longitude": 34.07146,
+      "population": 10053,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "199263",
+      "name": "Chwele",
+      "latitude": 0.76239,
+      "longitude": 34.54852,
+      "population": 9797,
+      "populationRank": 159,
       "isCapital": false
     },
     {
@@ -1179,7 +1451,7 @@
       "latitude": -3.505,
       "longitude": 38.37722,
       "population": 9572,
-      "populationRank": 130,
+      "populationRank": 160,
       "isCapital": false
     },
     {
@@ -1188,7 +1460,7 @@
       "latitude": 0.47119,
       "longitude": 35.98638,
       "population": 9395,
-      "populationRank": 131,
+      "populationRank": 161,
       "isCapital": false
     },
     {
@@ -1197,7 +1469,7 @@
       "latitude": 0.9789,
       "longitude": 35.55854,
       "population": 9152,
-      "populationRank": 132,
+      "populationRank": 162,
       "isCapital": false
     },
     {
@@ -1206,7 +1478,7 @@
       "latitude": -0.57534,
       "longitude": 37.3269,
       "population": 9143,
-      "populationRank": 133,
+      "populationRank": 163,
       "isCapital": false
     },
     {
@@ -1215,7 +1487,7 @@
       "latitude": -0.16357,
       "longitude": 37.01773,
       "population": 9018,
-      "populationRank": 134,
+      "populationRank": 164,
       "isCapital": false
     },
     {
@@ -1224,7 +1496,7 @@
       "latitude": -2.02042,
       "longitude": 37.37212,
       "population": 8718,
-      "populationRank": 135,
+      "populationRank": 165,
       "isCapital": false
     },
     {
@@ -1233,7 +1505,7 @@
       "latitude": -0.79602,
       "longitude": 37.13292,
       "population": 8597,
-      "populationRank": 136,
+      "populationRank": 166,
       "isCapital": false
     },
     {
@@ -1242,7 +1514,43 @@
       "latitude": -2.40935,
       "longitude": 37.96631,
       "population": 8143,
-      "populationRank": 137,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "12718635",
+      "name": "Rodi",
+      "latitude": -0.62457,
+      "longitude": 34.503,
+      "population": 8122,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "191833",
+      "name": "Kinango",
+      "latitude": -4.13723,
+      "longitude": 39.31528,
+      "population": 8070,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "184471",
+      "name": "Nandi Hills",
+      "latitude": 0.10366,
+      "longitude": 35.18426,
+      "population": 8032,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "8605149",
+      "name": "Usenge",
+      "latitude": -0.06731,
+      "longitude": 34.0566,
+      "population": 7976,
+      "populationRank": 171,
       "isCapital": false
     },
     {
@@ -1251,7 +1559,16 @@
       "latitude": -1.05,
       "longitude": 36.9,
       "population": 7947,
-      "populationRank": 138,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "197311",
+      "name": "Giriftu",
+      "latitude": 2.00039,
+      "longitude": 39.75191,
+      "population": 7935,
+      "populationRank": 173,
       "isCapital": false
     },
     {
@@ -1261,7 +1578,16 @@
       "latitude": -2.09761,
       "longitude": 36.79224,
       "population": 7812,
-      "populationRank": 139,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "179965",
+      "name": "Sololo",
+      "latitude": 3.56392,
+      "longitude": 38.64321,
+      "population": 7683,
+      "populationRank": 175,
       "isCapital": false
     },
     {
@@ -1270,7 +1596,16 @@
       "latitude": -0.06929,
       "longitude": 37.66618,
       "population": 7675,
-      "populationRank": 140,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "199334",
+      "name": "Chogoria",
+      "latitude": -0.22954,
+      "longitude": 37.62732,
+      "population": 7603,
+      "populationRank": 177,
       "isCapital": false
     },
     {
@@ -1279,7 +1614,7 @@
       "latitude": 0.31943,
       "longitude": 34.57352,
       "population": 7502,
-      "populationRank": 141,
+      "populationRank": 178,
       "isCapital": false
     },
     {
@@ -1288,7 +1623,16 @@
       "latitude": -2.26645,
       "longitude": 40.10975,
       "population": 7176,
-      "populationRank": 142,
+      "populationRank": 179,
+      "isCapital": false
+    },
+    {
+      "id": "187671",
+      "name": "Marereni",
+      "latitude": -2.86041,
+      "longitude": 40.15057,
+      "population": 7085,
+      "populationRank": 180,
       "isCapital": false
     },
     {
@@ -1298,7 +1642,7 @@
       "latitude": 0.19019,
       "longitude": 34.29916,
       "population": 7060,
-      "populationRank": 143,
+      "populationRank": 181,
       "isCapital": false
     },
     {
@@ -1307,7 +1651,7 @@
       "latitude": -0.8409,
       "longitude": 34.15978,
       "population": 7020,
-      "populationRank": 144,
+      "populationRank": 182,
       "isCapital": false
     },
     {
@@ -1316,7 +1660,7 @@
       "latitude": -3.81413,
       "longitude": 39.63144,
       "population": 7016,
-      "populationRank": 145,
+      "populationRank": 183,
       "isCapital": false
     },
     {
@@ -1325,7 +1669,16 @@
       "latitude": -0.3906,
       "longitude": 35.01266,
       "population": 6869,
-      "populationRank": 146,
+      "populationRank": 184,
+      "isCapital": false
+    },
+    {
+      "id": "191932",
+      "name": "Kimbimbi",
+      "latitude": -0.62233,
+      "longitude": 37.36482,
+      "population": 6826,
+      "populationRank": 185,
       "isCapital": false
     },
     {
@@ -1334,7 +1687,26 @@
       "latitude": -0.00661,
       "longitude": 34.60004,
       "population": 6771,
-      "populationRank": 147,
+      "populationRank": 186,
+      "isCapital": false
+    },
+    {
+      "id": "181735",
+      "name": "Othaya",
+      "latitude": -0.54655,
+      "longitude": 36.93178,
+      "population": 6650,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "7732029",
+      "name": "Mukurwe-ini",
+      "nativeName": "Mukurweini",
+      "latitude": -0.56092,
+      "longitude": 37.04759,
+      "population": 6508,
+      "populationRank": 188,
       "isCapital": false
     },
     {
@@ -1344,7 +1716,7 @@
       "latitude": -1.09431,
       "longitude": 39.94185,
       "population": 6496,
-      "populationRank": 148,
+      "populationRank": 189,
       "isCapital": false
     },
     {
@@ -1353,7 +1725,36 @@
       "latitude": -0.3618,
       "longitude": 34.65272,
       "population": 6064,
-      "populationRank": 149,
+      "populationRank": 190,
+      "isCapital": false
+    },
+    {
+      "id": "179181",
+      "name": "Tinganga",
+      "nativeName": "Ting'ang'a",
+      "latitude": -1.13033,
+      "longitude": 36.81358,
+      "population": 6059,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "189092",
+      "name": "Lolgorien",
+      "latitude": -1.22906,
+      "longitude": 34.80711,
+      "population": 6053,
+      "populationRank": 192,
+      "isCapital": false
+    },
+    {
+      "id": "12718634",
+      "name": "Nyansiongo",
+      "nativeName": "Kijauri",
+      "latitude": -0.7596,
+      "longitude": 35.0148,
+      "population": 5993,
+      "populationRank": 193,
       "isCapital": false
     },
     {
@@ -1362,7 +1763,16 @@
       "latitude": -0.35973,
       "longitude": 37.00002,
       "population": 5970,
-      "populationRank": 150,
+      "populationRank": 194,
+      "isCapital": false
+    },
+    {
+      "id": "10340477",
+      "name": "Mpeketoni",
+      "latitude": -2.38913,
+      "longitude": 40.69812,
+      "population": 5957,
+      "populationRank": 195,
       "isCapital": false
     },
     {
@@ -1371,7 +1781,53 @@
       "latitude": -2.68987,
       "longitude": 38.16687,
       "population": 5626,
-      "populationRank": 151,
+      "populationRank": 196,
+      "isCapital": false
+    },
+    {
+      "id": "182095",
+      "name": "Olulung’a",
+      "nativeName": "Olololung'a",
+      "latitude": -1.00268,
+      "longitude": 35.66336,
+      "population": 5609,
+      "populationRank": 197,
+      "isCapital": false
+    },
+    {
+      "id": "181197",
+      "name": "Rironi",
+      "latitude": -1.15116,
+      "longitude": 36.63555,
+      "population": 5544,
+      "populationRank": 198,
+      "isCapital": false
+    },
+    {
+      "id": "198817",
+      "name": "Dundori",
+      "latitude": -0.2519,
+      "longitude": 36.23641,
+      "population": 5392,
+      "populationRank": 199,
+      "isCapital": false
+    },
+    {
+      "id": "178093",
+      "name": "Witu",
+      "latitude": -2.38892,
+      "longitude": 40.43827,
+      "population": 5380,
+      "populationRank": 200,
+      "isCapital": false
+    },
+    {
+      "id": "195977",
+      "name": "Jebilat",
+      "latitude": -0.69356,
+      "longitude": 35.07132,
+      "population": 5373,
+      "populationRank": 201,
       "isCapital": false
     },
     {
@@ -1380,7 +1836,35 @@
       "latitude": 0.33727,
       "longitude": 37.93749,
       "population": 5358,
-      "populationRank": 152,
+      "populationRank": 202,
+      "isCapital": false
+    },
+    {
+      "id": "12718624",
+      "name": "Engineer",
+      "latitude": -0.60538,
+      "longitude": 36.57629,
+      "population": 5324,
+      "populationRank": 203,
+      "isCapital": false
+    },
+    {
+      "id": "197514",
+      "name": "Gazi",
+      "nativeName": "Gasi",
+      "latitude": -4.42402,
+      "longitude": 39.50588,
+      "population": 5222,
+      "populationRank": 204,
+      "isCapital": false
+    },
+    {
+      "id": "183231",
+      "name": "North Horr",
+      "latitude": 3.32205,
+      "longitude": 37.07032,
+      "population": 5177,
+      "populationRank": 205,
       "isCapital": false
     },
     {
@@ -1389,7 +1873,7 @@
       "latitude": -0.01966,
       "longitude": 35.69138,
       "population": 5138,
-      "populationRank": 153,
+      "populationRank": 206,
       "isCapital": false
     },
     {
@@ -1398,7 +1882,7 @@
       "latitude": 0.44714,
       "longitude": 34.85387,
       "population": 5131,
-      "populationRank": 154,
+      "populationRank": 207,
       "isCapital": false
     },
     {
@@ -1407,7 +1891,7 @@
       "latitude": -0.26934,
       "longitude": 34.97197,
       "population": 5098,
-      "populationRank": 155,
+      "populationRank": 208,
       "isCapital": false
     },
     {
@@ -1416,7 +1900,7 @@
       "latitude": -0.16769,
       "longitude": 35.08239,
       "population": 5052,
-      "populationRank": 156,
+      "populationRank": 209,
       "isCapital": false
     },
     {
@@ -1425,7 +1909,17 @@
       "latitude": 1.5932,
       "longitude": 37.80595,
       "population": 5047,
-      "populationRank": 157,
+      "populationRank": 210,
+      "isCapital": false
+    },
+    {
+      "id": "184749",
+      "name": "Nairagi Enkare",
+      "nativeName": "Nairagie Ngare",
+      "latitude": -1.04444,
+      "longitude": 36.16314,
+      "population": 4954,
+      "populationRank": 211,
       "isCapital": false
     },
     {
@@ -1434,7 +1928,35 @@
       "latitude": -0.42304,
       "longitude": 37.57043,
       "population": 4943,
-      "populationRank": 158,
+      "populationRank": 212,
+      "isCapital": false
+    },
+    {
+      "id": "186216",
+      "name": "Mosoriot",
+      "nativeName": "Hunters Tree",
+      "latitude": 0.32059,
+      "longitude": 35.17599,
+      "population": 4916,
+      "populationRank": 213,
+      "isCapital": false
+    },
+    {
+      "id": "186445",
+      "name": "Keringet",
+      "latitude": -0.46758,
+      "longitude": 35.68185,
+      "population": 4774,
+      "populationRank": 214,
+      "isCapital": false
+    },
+    {
+      "id": "184143",
+      "name": "Ndhiwa",
+      "latitude": -0.73148,
+      "longitude": 34.36785,
+      "population": 4762,
+      "populationRank": 215,
       "isCapital": false
     },
     {
@@ -1443,7 +1965,7 @@
       "latitude": -0.16552,
       "longitude": 35.59359,
       "population": 4758,
-      "populationRank": 159,
+      "populationRank": 216,
       "isCapital": false
     },
     {
@@ -1452,7 +1974,7 @@
       "latitude": 0.0855,
       "longitude": 35.53021,
       "population": 4744,
-      "populationRank": 160,
+      "populationRank": 217,
       "isCapital": false
     },
     {
@@ -1461,7 +1983,7 @@
       "latitude": -3.55813,
       "longitude": 38.74908,
       "population": 4713,
-      "populationRank": 161,
+      "populationRank": 218,
       "isCapital": false
     },
     {
@@ -1470,7 +1992,7 @@
       "latitude": -0.60292,
       "longitude": 34.96124,
       "population": 4711,
-      "populationRank": 162,
+      "populationRank": 219,
       "isCapital": false
     },
     {
@@ -1479,7 +2001,17 @@
       "latitude": -0.948,
       "longitude": 36.598,
       "population": 4679,
-      "populationRank": 163,
+      "populationRank": 220,
+      "isCapital": false
+    },
+    {
+      "id": "12718643",
+      "name": "Illasit",
+      "nativeName": "Laset",
+      "latitude": -2.95887,
+      "longitude": 37.57112,
+      "population": 4631,
+      "populationRank": 221,
       "isCapital": false
     },
     {
@@ -1488,7 +2020,16 @@
       "latitude": 0.63967,
       "longitude": 37.66596,
       "population": 4620,
-      "populationRank": 164,
+      "populationRank": 222,
+      "isCapital": false
+    },
+    {
+      "id": "178389",
+      "name": "Wamba",
+      "latitude": 0.98016,
+      "longitude": 37.32349,
+      "population": 4580,
+      "populationRank": 223,
       "isCapital": false
     },
     {
@@ -1497,7 +2038,16 @@
       "latitude": -3.7947,
       "longitude": 39.26368,
       "population": 4454,
-      "populationRank": 165,
+      "populationRank": 224,
+      "isCapital": false
+    },
+    {
+      "id": "12718642",
+      "name": "Isineti",
+      "latitude": -2.73555,
+      "longitude": 37.50673,
+      "population": 4437,
+      "populationRank": 225,
       "isCapital": false
     },
     {
@@ -1506,7 +2056,26 @@
       "latitude": -0.98294,
       "longitude": 36.63091,
       "population": 4356,
-      "populationRank": 166,
+      "populationRank": 226,
+      "isCapital": false
+    },
+    {
+      "id": "187977",
+      "name": "Malikisi",
+      "nativeName": "Malakisi",
+      "latitude": 0.67694,
+      "longitude": 34.42167,
+      "population": 4319,
+      "populationRank": 227,
+      "isCapital": false
+    },
+    {
+      "id": "180337",
+      "name": "Siakago",
+      "latitude": -0.57728,
+      "longitude": 37.63996,
+      "population": 4315,
+      "populationRank": 228,
       "isCapital": false
     },
     {
@@ -1515,7 +2084,17 @@
       "latitude": 1.78398,
       "longitude": 36.78597,
       "population": 4254,
-      "populationRank": 167,
+      "populationRank": 229,
+      "isCapital": false
+    },
+    {
+      "id": "186325",
+      "name": "Mokowe",
+      "nativeName": "Mkowe",
+      "latitude": -2.23679,
+      "longitude": 40.84555,
+      "population": 4249,
+      "populationRank": 230,
       "isCapital": false
     },
     {
@@ -1524,7 +2103,7 @@
       "latitude": -0.69069,
       "longitude": 35.11102,
       "population": 4194,
-      "populationRank": 168,
+      "populationRank": 231,
       "isCapital": false
     },
     {
@@ -1534,7 +2113,7 @@
       "latitude": 0.63157,
       "longitude": 34.32773,
       "population": 4182,
-      "populationRank": 169,
+      "populationRank": 232,
       "isCapital": false
     },
     {
@@ -1543,17 +2122,44 @@
       "latitude": 0.25365,
       "longitude": 34.22784,
       "population": 4179,
-      "populationRank": 170,
+      "populationRank": 233,
+      "isCapital": false
+    },
+    {
+      "id": "191675",
+      "name": "Kipini",
+      "latitude": -2.52565,
+      "longitude": 40.5262,
+      "population": 4114,
+      "populationRank": 234,
+      "isCapital": false
+    },
+    {
+      "id": "182844",
+      "name": "Nyandiwa",
+      "latitude": -0.72265,
+      "longitude": 34.0591,
+      "population": 4033,
+      "populationRank": 235,
       "isCapital": false
     },
     {
       "id": "192295",
-      "name": "Kiganjo",
-      "nativeName": "Kĩganjo",
+      "name": "Kĩganjo",
       "latitude": -0.39626,
       "longitude": 37.00006,
       "population": 4009,
-      "populationRank": 171,
+      "populationRank": 236,
+      "isCapital": false
+    },
+    {
+      "id": "184546",
+      "name": "Nambare",
+      "nativeName": "Nambale",
+      "latitude": 0.45813,
+      "longitude": 34.25353,
+      "population": 3993,
+      "populationRank": 237,
       "isCapital": false
     },
     {
@@ -1562,7 +2168,7 @@
       "latitude": 0.07717,
       "longitude": 34.85473,
       "population": 3984,
-      "populationRank": 172,
+      "populationRank": 238,
       "isCapital": false
     },
     {
@@ -1572,7 +2178,7 @@
       "latitude": -0.7264,
       "longitude": 36.65258,
       "population": 3929,
-      "populationRank": 173,
+      "populationRank": 239,
       "isCapital": false
     },
     {
@@ -1581,7 +2187,7 @@
       "latitude": -3.72332,
       "longitude": 39.03019,
       "population": 3901,
-      "populationRank": 174,
+      "populationRank": 240,
       "isCapital": false
     },
     {
@@ -1591,7 +2197,25 @@
       "latitude": 0.20888,
       "longitude": 34.77078,
       "population": 3892,
-      "populationRank": 175,
+      "populationRank": 241,
+      "isCapital": false
+    },
+    {
+      "id": "181142",
+      "name": "Rombo",
+      "latitude": -3.04631,
+      "longitude": 37.69539,
+      "population": 3854,
+      "populationRank": 242,
+      "isCapital": false
+    },
+    {
+      "id": "184041",
+      "name": "Ndori",
+      "latitude": -0.07892,
+      "longitude": 34.36329,
+      "population": 3770,
+      "populationRank": 243,
       "isCapital": false
     },
     {
@@ -1600,7 +2224,25 @@
       "latitude": -1.46127,
       "longitude": 37.43849,
       "population": 3653,
-      "populationRank": 176,
+      "populationRank": 244,
+      "isCapital": false
+    },
+    {
+      "id": "10377832",
+      "name": "Funyula",
+      "latitude": 0.27878,
+      "longitude": 34.11869,
+      "population": 3645,
+      "populationRank": 245,
+      "isCapital": false
+    },
+    {
+      "id": "186367",
+      "name": "Mogonga",
+      "latitude": -0.86478,
+      "longitude": 34.76285,
+      "population": 3628,
+      "populationRank": 246,
       "isCapital": false
     },
     {
@@ -1609,7 +2251,16 @@
       "latitude": -0.31977,
       "longitude": 36.90194,
       "population": 3609,
-      "populationRank": 177,
+      "populationRank": 247,
+      "isCapital": false
+    },
+    {
+      "id": "182791",
+      "name": "Nyangusu",
+      "latitude": -0.93263,
+      "longitude": 34.84421,
+      "population": 3590,
+      "populationRank": 248,
       "isCapital": false
     },
     {
@@ -1618,7 +2269,7 @@
       "latitude": -0.31984,
       "longitude": 35.21845,
       "population": 3545,
-      "populationRank": 178,
+      "populationRank": 249,
       "isCapital": false
     },
     {
@@ -1628,7 +2279,7 @@
       "latitude": -1.09573,
       "longitude": 36.08559,
       "population": 3390,
-      "populationRank": 179,
+      "populationRank": 250,
       "isCapital": false
     },
     {
@@ -1637,7 +2288,25 @@
       "latitude": -0.10886,
       "longitude": 37.7826,
       "population": 3293,
-      "populationRank": 180,
+      "populationRank": 251,
+      "isCapital": false
+    },
+    {
+      "id": "192170",
+      "name": "Kikima",
+      "latitude": -1.66208,
+      "longitude": 37.4469,
+      "population": 3269,
+      "populationRank": 252,
+      "isCapital": false
+    },
+    {
+      "id": "194184",
+      "name": "Kapcherop",
+      "latitude": 1.04026,
+      "longitude": 35.32121,
+      "population": 3240,
+      "populationRank": 253,
       "isCapital": false
     },
     {
@@ -1646,7 +2315,16 @@
       "latitude": 0.09438,
       "longitude": 34.53602,
       "population": 3237,
-      "populationRank": 181,
+      "populationRank": 254,
+      "isCapital": false
+    },
+    {
+      "id": "200711",
+      "name": "Bahati",
+      "latitude": -0.15407,
+      "longitude": 36.14634,
+      "population": 3180,
+      "populationRank": 255,
       "isCapital": false
     },
     {
@@ -1655,7 +2333,16 @@
       "latitude": -0.93752,
       "longitude": 35.42162,
       "population": 3149,
-      "populationRank": 182,
+      "populationRank": 256,
+      "isCapital": false
+    },
+    {
+      "id": "179543",
+      "name": "Tarbaj",
+      "latitude": 2.2085,
+      "longitude": 40.11812,
+      "population": 3146,
+      "populationRank": 257,
       "isCapital": false
     },
     {
@@ -1664,7 +2351,35 @@
       "latitude": -0.19982,
       "longitude": 35.46735,
       "population": 2952,
-      "populationRank": 183,
+      "populationRank": 258,
+      "isCapital": false
+    },
+    {
+      "id": "181463",
+      "name": "Rabuor",
+      "nativeName": "Rabour",
+      "latitude": -0.14989,
+      "longitude": 34.82584,
+      "population": 2942,
+      "populationRank": 259,
+      "isCapital": false
+    },
+    {
+      "id": "191129",
+      "name": "Kithimani",
+      "latitude": -1.18483,
+      "longitude": 37.44685,
+      "population": 2923,
+      "populationRank": 260,
+      "isCapital": false
+    },
+    {
+      "id": "179659",
+      "name": "Tabaka",
+      "latitude": -0.74743,
+      "longitude": 34.66682,
+      "population": 2910,
+      "populationRank": 261,
       "isCapital": false
     },
     {
@@ -1673,7 +2388,26 @@
       "latitude": -2.05604,
       "longitude": 41.11184,
       "population": 2855,
-      "populationRank": 184,
+      "populationRank": 262,
+      "isCapital": false
+    },
+    {
+      "id": "182298",
+      "name": "Olenguruone",
+      "latitude": -0.5861,
+      "longitude": 35.68769,
+      "population": 2787,
+      "populationRank": 263,
+      "isCapital": false
+    },
+    {
+      "id": "11964544",
+      "name": "Kampi Ya Moto",
+      "nativeName": "West Lands",
+      "latitude": -0.12429,
+      "longitude": 35.93957,
+      "population": 2775,
+      "populationRank": 264,
       "isCapital": false
     },
     {
@@ -1682,7 +2416,16 @@
       "latitude": -2.21053,
       "longitude": 37.72026,
       "population": 2708,
-      "populationRank": 185,
+      "populationRank": 265,
+      "isCapital": false
+    },
+    {
+      "id": "192942",
+      "name": "Kenyenya",
+      "latitude": -0.88754,
+      "longitude": 34.73204,
+      "population": 2698,
+      "populationRank": 266,
       "isCapital": false
     },
     {
@@ -1691,7 +2434,34 @@
       "latitude": -0.80415,
       "longitude": 36.53133,
       "population": 2573,
-      "populationRank": 186,
+      "populationRank": 267,
+      "isCapital": false
+    },
+    {
+      "id": "178922",
+      "name": "Turbo",
+      "latitude": 0.63367,
+      "longitude": 35.04815,
+      "population": 2559,
+      "populationRank": 268,
+      "isCapital": false
+    },
+    {
+      "id": "188610",
+      "name": "Lunga Lunga",
+      "latitude": -4.55276,
+      "longitude": 39.12363,
+      "population": 2536,
+      "populationRank": 269,
+      "isCapital": false
+    },
+    {
+      "id": "196582",
+      "name": "Ikinu",
+      "latitude": -1.10804,
+      "longitude": 36.79161,
+      "population": 2532,
+      "populationRank": 270,
       "isCapital": false
     },
     {
@@ -1700,7 +2470,7 @@
       "latitude": -2.15792,
       "longitude": 37.59166,
       "population": 2504,
-      "populationRank": 187,
+      "populationRank": 271,
       "isCapital": false
     },
     {
@@ -1709,7 +2479,71 @@
       "latitude": -0.62966,
       "longitude": 35.19441,
       "population": 2484,
-      "populationRank": 188,
+      "populationRank": 272,
+      "isCapital": false
+    },
+    {
+      "id": "183718",
+      "name": "Ngewa",
+      "latitude": -1.09196,
+      "longitude": 36.8659,
+      "population": 2452,
+      "populationRank": 273,
+      "isCapital": false
+    },
+    {
+      "id": "180914",
+      "name": "Saba Saba",
+      "latitude": -0.87592,
+      "longitude": 37.14324,
+      "population": 2438,
+      "populationRank": 274,
+      "isCapital": false
+    },
+    {
+      "id": "180389",
+      "name": "Shimoni",
+      "latitude": -4.64756,
+      "longitude": 39.38175,
+      "population": 2374,
+      "populationRank": 275,
+      "isCapital": false
+    },
+    {
+      "id": "183119",
+      "name": "Nunguni",
+      "latitude": -1.79324,
+      "longitude": 37.36276,
+      "population": 2266,
+      "populationRank": 276,
+      "isCapital": false
+    },
+    {
+      "id": "12718623",
+      "name": "Kasuku",
+      "latitude": -0.13103,
+      "longitude": 36.37886,
+      "population": 2209,
+      "populationRank": 277,
+      "isCapital": false
+    },
+    {
+      "id": "12718637",
+      "name": "Muchorwi",
+      "nativeName": "Muchorwe",
+      "latitude": -0.3299,
+      "longitude": 35.68751,
+      "population": 2162,
+      "populationRank": 278,
+      "isCapital": false
+    },
+    {
+      "id": "182250",
+      "name": "Ol Joro Orok",
+      "latitude": -0.07473,
+      "longitude": 36.36288,
+      "population": 2116,
+      "populationRank": 279,
       "isCapital": false
     },
     {
@@ -1718,7 +2552,16 @@
       "latitude": 0.75471,
       "longitude": 34.50351,
       "population": 2096,
-      "populationRank": 189,
+      "populationRank": 280,
+      "isCapital": false
+    },
+    {
+      "id": "200666",
+      "name": "Bamba",
+      "latitude": -3.54099,
+      "longitude": 39.52268,
+      "population": 2015,
+      "populationRank": 281,
       "isCapital": false
     },
     {
@@ -1727,7 +2570,62 @@
       "latitude": -1.73947,
       "longitude": 37.13195,
       "population": 2004,
-      "populationRank": 190,
+      "populationRank": 282,
+      "isCapital": false
+    },
+    {
+      "id": "199604",
+      "name": "Chepareria",
+      "nativeName": "Cheberia",
+      "latitude": 1.30583,
+      "longitude": 35.20365,
+      "population": 1073,
+      "populationRank": 283,
+      "isCapital": false
+    },
+    {
+      "id": "198002",
+      "name": "Funzi",
+      "latitude": -4.57887,
+      "longitude": 39.43791,
+      "population": 1066,
+      "populationRank": 284,
+      "isCapital": false
+    },
+    {
+      "id": "180087",
+      "name": "Sirisia",
+      "latitude": 0.11667,
+      "longitude": 34,
+      "population": 944,
+      "populationRank": 285,
+      "isCapital": false
+    },
+    {
+      "id": "194521",
+      "name": "Kandara",
+      "latitude": -0.89715,
+      "longitude": 37.00279,
+      "population": 914,
+      "populationRank": 286,
+      "isCapital": false
+    },
+    {
+      "id": "188039",
+      "name": "Makuyu",
+      "latitude": -0.90622,
+      "longitude": 37.1743,
+      "population": 191,
+      "populationRank": 287,
+      "isCapital": false
+    },
+    {
+      "id": "181701",
+      "name": "Ozi",
+      "latitude": -2.5071,
+      "longitude": 40.45532,
+      "population": 4,
+      "populationRank": 288,
       "isCapital": false
     }
   ]

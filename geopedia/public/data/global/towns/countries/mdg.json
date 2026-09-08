@@ -55,12 +55,21 @@
       "isCapital": false
     },
     {
+      "id": "1075592",
+      "name": "Andramasina",
+      "latitude": -19.18785,
+      "longitude": 47.59016,
+      "population": 168161,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
       "id": "1069129",
       "name": "Antsiranana",
       "latitude": -12.31732,
       "longitude": 49.29188,
       "population": 136959,
-      "populationRank": 7,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -69,7 +78,7 @@
       "latitude": -14.26667,
       "longitude": 50.16667,
       "population": 89003,
-      "populationRank": 8,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -78,7 +87,7 @@
       "latitude": -18.98333,
       "longitude": 47.31667,
       "population": 74085,
-      "populationRank": 9,
+      "populationRank": 10,
       "isCapital": false
     },
     {
@@ -87,7 +96,7 @@
       "latitude": -14.90033,
       "longitude": 50.27876,
       "population": 71898,
-      "populationRank": 10,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -97,7 +106,7 @@
       "latitude": -25.03249,
       "longitude": 46.98329,
       "population": 71258,
-      "populationRank": 11,
+      "populationRank": 12,
       "isCapital": false
     },
     {
@@ -106,7 +115,7 @@
       "latitude": -19.65,
       "longitude": 47.31667,
       "population": 70626,
-      "populationRank": 12,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -115,7 +124,7 @@
       "latitude": -25.17838,
       "longitude": 46.08722,
       "population": 69265,
-      "populationRank": 13,
+      "populationRank": 14,
       "isCapital": false
     },
     {
@@ -124,7 +133,7 @@
       "latitude": -13.2,
       "longitude": 49.05,
       "population": 66029,
-      "populationRank": 14,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -133,7 +142,7 @@
       "latitude": -13.669,
       "longitude": 48.453,
       "population": 63884,
-      "populationRank": 15,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -142,7 +151,7 @@
       "latitude": -18.94948,
       "longitude": 48.23007,
       "population": 60456,
-      "populationRank": 16,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -151,7 +160,7 @@
       "latitude": -18.66667,
       "longitude": 44.61667,
       "population": 58280,
-      "populationRank": 17,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -160,16 +169,25 @@
       "latitude": -20.28869,
       "longitude": 44.31782,
       "population": 56671,
-      "populationRank": 18,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1064544",
+      "name": "Iakora",
+      "latitude": -23.1,
+      "longitude": 46.65,
+      "population": 55899,
+      "populationRank": 20,
       "isCapital": false
     },
     {
       "id": "1076105",
-      "name": "Hell-Ville",
+      "name": "Hell Ville",
       "latitude": -13.39718,
       "longitude": 48.26663,
       "population": 53219,
-      "populationRank": 19,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -178,7 +196,7 @@
       "latitude": -17.83333,
       "longitude": 48.41667,
       "population": 50463,
-      "populationRank": 20,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -187,7 +205,7 @@
       "latitude": -25.03333,
       "longitude": 46.38333,
       "population": 48705,
-      "populationRank": 21,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -196,7 +214,7 @@
       "latitude": -18.76969,
       "longitude": 46.04653,
       "population": 47087,
-      "populationRank": 22,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -205,7 +223,7 @@
       "latitude": -22.14862,
       "longitude": 48.01055,
       "population": 46850,
-      "populationRank": 23,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -214,7 +232,7 @@
       "latitude": -21.83333,
       "longitude": 46.93333,
       "population": 45784,
-      "populationRank": 24,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -223,7 +241,7 @@
       "latitude": -15.43527,
       "longitude": 49.73794,
       "population": 45041,
-      "populationRank": 25,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -232,7 +250,16 @@
       "latitude": -17.38095,
       "longitude": 49.40826,
       "population": 44199,
-      "populationRank": 26,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "1067154",
+      "name": "Benenitra",
+      "latitude": -23.45,
+      "longitude": 45.08333,
+      "population": 43808,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -241,7 +268,7 @@
       "latitude": -20.53034,
       "longitude": 47.24344,
       "population": 43504,
-      "populationRank": 27,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -250,7 +277,7 @@
       "latitude": -19.16667,
       "longitude": 46.73333,
       "population": 42410,
-      "populationRank": 28,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -259,7 +286,7 @@
       "latitude": -22.40293,
       "longitude": 46.12576,
       "population": 41892,
-      "populationRank": 29,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -268,7 +295,7 @@
       "latitude": -16.11064,
       "longitude": 46.64383,
       "population": 41611,
-      "populationRank": 30,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -277,7 +304,7 @@
       "latitude": -23.35,
       "longitude": 47.6,
       "population": 40813,
-      "populationRank": 31,
+      "populationRank": 34,
       "isCapital": false
     },
     {
@@ -286,7 +313,7 @@
       "latitude": -14.87959,
       "longitude": 47.98751,
       "population": 40512,
-      "populationRank": 32,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -295,7 +322,7 @@
       "latitude": -24.6937,
       "longitude": 44.74581,
       "population": 40244,
-      "populationRank": 33,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -304,7 +331,7 @@
       "latitude": -19.9,
       "longitude": 48.8,
       "population": 40033,
-      "populationRank": 34,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -313,7 +340,7 @@
       "latitude": -20.55284,
       "longitude": 46.80365,
       "population": 39618,
-      "populationRank": 35,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -322,7 +349,7 @@
       "latitude": -17.01009,
       "longitude": 48.57313,
       "population": 39428,
-      "populationRank": 36,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -331,7 +358,7 @@
       "latitude": -16.91667,
       "longitude": 49.58333,
       "population": 39271,
-      "populationRank": 37,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -340,7 +367,7 @@
       "latitude": -21.88333,
       "longitude": 47.43333,
       "population": 38851,
-      "populationRank": 38,
+      "populationRank": 41,
       "isCapital": false
     },
     {
@@ -349,7 +376,7 @@
       "latitude": -17.46667,
       "longitude": 49.2,
       "population": 37861,
-      "populationRank": 39,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -358,7 +385,7 @@
       "latitude": -19.4,
       "longitude": 46.95,
       "population": 37563,
-      "populationRank": 40,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -368,7 +395,7 @@
       "latitude": -16.16864,
       "longitude": 49.76622,
       "population": 37224,
-      "populationRank": 41,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -377,7 +404,7 @@
       "latitude": -20.58333,
       "longitude": 48.53333,
       "population": 37152,
-      "populationRank": 42,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -386,7 +413,7 @@
       "latitude": -22.82223,
       "longitude": 47.82615,
       "population": 36724,
-      "populationRank": 43,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -395,7 +422,7 @@
       "latitude": -14.65,
       "longitude": 49.65,
       "population": 36660,
-      "populationRank": 44,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -404,7 +431,7 @@
       "latitude": -19.83333,
       "longitude": 46.85,
       "population": 36364,
-      "populationRank": 45,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -413,7 +440,7 @@
       "latitude": -16.46667,
       "longitude": 46.71667,
       "population": 35432,
-      "populationRank": 46,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -422,7 +449,7 @@
       "latitude": -17.5876,
       "longitude": 48.22391,
       "population": 35266,
-      "populationRank": 47,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -431,7 +458,25 @@
       "latitude": -19.38333,
       "longitude": 47.41667,
       "population": 34198,
-      "populationRank": 48,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "1059949",
+      "name": "Maromandia",
+      "latitude": -14.21667,
+      "longitude": 48.08333,
+      "population": 33596,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "1065531",
+      "name": "Didy",
+      "latitude": -18.11667,
+      "longitude": 48.53333,
+      "population": 33039,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -440,7 +485,25 @@
       "latitude": -14.54329,
       "longitude": 48.74981,
       "population": 32764,
-      "populationRank": 49,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "1068955",
+      "name": "Antsohimbondrona",
+      "latitude": -13.08333,
+      "longitude": 48.85,
+      "population": 32080,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "1063930",
+      "name": "Itampolo",
+      "latitude": -24.68333,
+      "longitude": 43.95,
+      "population": 32000,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -449,7 +512,7 @@
       "latitude": -20.23333,
       "longitude": 47.38333,
       "population": 30958,
-      "populationRank": 50,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -458,7 +521,7 @@
       "latitude": -16.092,
       "longitude": 47.647,
       "population": 30282,
-      "populationRank": 51,
+      "populationRank": 58,
       "isCapital": false
     },
     {
@@ -467,7 +530,7 @@
       "latitude": -19.01667,
       "longitude": 47.18333,
       "population": 29997,
-      "populationRank": 52,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -476,7 +539,7 @@
       "latitude": -18.31667,
       "longitude": 47.11667,
       "population": 28430,
-      "populationRank": 53,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -486,17 +549,25 @@
       "latitude": -16.98333,
       "longitude": 49.85,
       "population": 28406,
-      "populationRank": 54,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "1057277",
+      "name": "Sahavato",
+      "latitude": -20.6,
+      "longitude": 48.33333,
+      "population": 28000,
+      "populationRank": 62,
       "isCapital": false
     },
     {
       "id": "1062842",
-      "name": "Maevatanana",
-      "nativeName": "Maevatanàna",
+      "name": "Maevatanàna",
       "latitude": -16.95,
       "longitude": 46.83333,
       "population": 27459,
-      "populationRank": 55,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -505,7 +576,25 @@
       "latitude": -23.72065,
       "longitude": 44.38069,
       "population": 27125,
-      "populationRank": 56,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "1053778",
+      "name": "Vohipaho",
+      "latitude": -23.55,
+      "longitude": 47.5,
+      "population": 27000,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "1059059",
+      "name": "Miandrarivo",
+      "latitude": -19.43333,
+      "longitude": 46.75,
+      "population": 27000,
+      "populationRank": 66,
       "isCapital": false
     },
     {
@@ -514,17 +603,16 @@
       "latitude": -21.23034,
       "longitude": 48.34173,
       "population": 26712,
-      "populationRank": 57,
+      "populationRank": 67,
       "isCapital": false
     },
     {
       "id": "1055059",
-      "name": "Tsaratanana",
-      "nativeName": "Tsaratanàna",
+      "name": "Tsaratanàna",
       "latitude": -16.79706,
       "longitude": 47.65165,
       "population": 26446,
-      "populationRank": 58,
+      "populationRank": 68,
       "isCapital": false
     },
     {
@@ -533,7 +621,7 @@
       "latitude": -20.05,
       "longitude": 48.11667,
       "population": 26160,
-      "populationRank": 59,
+      "populationRank": 69,
       "isCapital": false
     },
     {
@@ -542,7 +630,16 @@
       "latitude": -22.28333,
       "longitude": 44.51667,
       "population": 25961,
-      "populationRank": 60,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "1063674",
+      "name": "Kandreho",
+      "latitude": -17.48333,
+      "longitude": 46.1,
+      "population": 25892,
+      "populationRank": 71,
       "isCapital": false
     },
     {
@@ -551,7 +648,7 @@
       "latitude": -18.4,
       "longitude": 47.86667,
       "population": 25541,
-      "populationRank": 61,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -560,7 +657,16 @@
       "latitude": -18.818,
       "longitude": 47.43382,
       "population": 25163,
-      "populationRank": 62,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "1078966",
+      "name": "Ampahana",
+      "latitude": -14.75,
+      "longitude": 50.21667,
+      "population": 25000,
+      "populationRank": 74,
       "isCapital": false
     },
     {
@@ -569,7 +675,7 @@
       "latitude": -21.74499,
       "longitude": 43.36055,
       "population": 23961,
-      "populationRank": 63,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -579,7 +685,7 @@
       "latitude": -19.69787,
       "longitude": 44.54587,
       "population": 23900,
-      "populationRank": 64,
+      "populationRank": 76,
       "isCapital": false
     },
     {
@@ -588,7 +694,7 @@
       "latitude": -18.06354,
       "longitude": 44.02951,
       "population": 23609,
-      "populationRank": 65,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -597,7 +703,7 @@
       "latitude": -18.91667,
       "longitude": 47.8,
       "population": 23498,
-      "populationRank": 66,
+      "populationRank": 78,
       "isCapital": false
     },
     {
@@ -607,7 +713,7 @@
       "latitude": -13.35,
       "longitude": 50,
       "population": 23349,
-      "populationRank": 67,
+      "populationRank": 79,
       "isCapital": false
     },
     {
@@ -616,7 +722,7 @@
       "latitude": -25.16667,
       "longitude": 45.05,
       "population": 23021,
-      "populationRank": 68,
+      "populationRank": 80,
       "isCapital": false
     },
     {
@@ -625,7 +731,16 @@
       "latitude": -22.48333,
       "longitude": 46.88333,
       "population": 22290,
-      "populationRank": 69,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "1063782",
+      "name": "Jafaro",
+      "latitude": -24.91667,
+      "longitude": 45.51667,
+      "population": 22000,
+      "populationRank": 82,
       "isCapital": false
     },
     {
@@ -634,7 +749,7 @@
       "latitude": -22.9,
       "longitude": 44.53333,
       "population": 21826,
-      "populationRank": 70,
+      "populationRank": 83,
       "isCapital": false
     },
     {
@@ -643,7 +758,25 @@
       "latitude": -19.52905,
       "longitude": 45.45559,
       "population": 21627,
-      "populationRank": 71,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "1056381",
+      "name": "Soanindrariny",
+      "latitude": -19.9,
+      "longitude": 47.23333,
+      "population": 21000,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "1056531",
+      "name": "Sitampiky",
+      "latitude": -16.66667,
+      "longitude": 46.1,
+      "population": 21000,
+      "populationRank": 86,
       "isCapital": false
     },
     {
@@ -653,7 +786,7 @@
       "latitude": -18.81667,
       "longitude": 49.06667,
       "population": 21000,
-      "populationRank": 72,
+      "populationRank": 87,
       "isCapital": false
     },
     {
@@ -662,7 +795,7 @@
       "latitude": -24.21667,
       "longitude": 45.31667,
       "population": 20915,
-      "populationRank": 73,
+      "populationRank": 88,
       "isCapital": false
     },
     {
@@ -671,7 +804,7 @@
       "latitude": -22.81667,
       "longitude": 47.28333,
       "population": 19949,
-      "populationRank": 74,
+      "populationRank": 89,
       "isCapital": false
     },
     {
@@ -681,7 +814,7 @@
       "latitude": -18.43333,
       "longitude": 46.56667,
       "population": 19605,
-      "populationRank": 75,
+      "populationRank": 90,
       "isCapital": false
     },
     {
@@ -690,7 +823,7 @@
       "latitude": -21.66667,
       "longitude": 45.16667,
       "population": 18632,
-      "populationRank": 76,
+      "populationRank": 91,
       "isCapital": false
     },
     {
@@ -699,7 +832,7 @@
       "latitude": -15.2567,
       "longitude": 48.54249,
       "population": 18596,
-      "populationRank": 77,
+      "populationRank": 92,
       "isCapital": false
     },
     {
@@ -708,7 +841,34 @@
       "latitude": -23.26667,
       "longitude": 46.08333,
       "population": 18350,
-      "populationRank": 78,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "1057688",
+      "name": "Sadabe",
+      "latitude": -18.63333,
+      "longitude": 47.7,
+      "population": 17000,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "1079777",
+      "name": "Ambohitrolomahitsy",
+      "latitude": -18.7,
+      "longitude": 47.68333,
+      "population": 17000,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "1081863",
+      "name": "Amboanjo",
+      "latitude": -22,
+      "longitude": 47.85,
+      "population": 17000,
+      "populationRank": 96,
       "isCapital": false
     },
     {
@@ -717,7 +877,7 @@
       "latitude": -19.33018,
       "longitude": 48.97791,
       "population": 16771,
-      "populationRank": 79,
+      "populationRank": 97,
       "isCapital": false
     },
     {
@@ -726,7 +886,25 @@
       "latitude": -21.3,
       "longitude": 47.63333,
       "population": 16607,
-      "populationRank": 80,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "1072711",
+      "name": "Ankazondandy",
+      "latitude": -18.7,
+      "longitude": 47.78333,
+      "population": 16000,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "1084740",
+      "name": "Alarobia",
+      "latitude": -18.96667,
+      "longitude": 47.73333,
+      "population": 16000,
+      "populationRank": 100,
       "isCapital": false
     },
     {
@@ -735,7 +913,7 @@
       "latitude": -22.35,
       "longitude": 47.83333,
       "population": 15622,
-      "populationRank": 81,
+      "populationRank": 101,
       "isCapital": false
     },
     {
@@ -744,7 +922,7 @@
       "latitude": -21.15,
       "longitude": 46.58333,
       "population": 15601,
-      "populationRank": 82,
+      "populationRank": 102,
       "isCapital": false
     },
     {
@@ -753,7 +931,16 @@
       "latitude": -16.1,
       "longitude": 45.31667,
       "population": 15174,
-      "populationRank": 83,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "1064131",
+      "name": "Imerimandroso",
+      "latitude": -17.43333,
+      "longitude": 48.58333,
+      "population": 15095,
+      "populationRank": 104,
       "isCapital": false
     },
     {
@@ -762,7 +949,25 @@
       "latitude": -18.95873,
       "longitude": 46.90553,
       "population": 13883,
-      "populationRank": 84,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "1055317",
+      "name": "Tranovaho",
+      "latitude": -25.3,
+      "longitude": 44.96667,
+      "population": 13000,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "1069164",
+      "name": "Antsirabe Afovoany",
+      "latitude": -15.95,
+      "longitude": 48.96667,
+      "population": 13000,
+      "populationRank": 107,
       "isCapital": false
     },
     {
@@ -771,7 +976,7 @@
       "latitude": -21.11667,
       "longitude": 47.21667,
       "population": 12291,
-      "populationRank": 85,
+      "populationRank": 108,
       "isCapital": false
     },
     {
@@ -780,7 +985,34 @@
       "latitude": -16.75,
       "longitude": 44.48333,
       "population": 12000,
-      "populationRank": 86,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "1071299",
+      "name": "Antakotako",
+      "latitude": -15.31667,
+      "longitude": 49.8,
+      "population": 11000,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "1059628",
+      "name": "Marovantaza",
+      "latitude": -15.38333,
+      "longitude": 47.66667,
+      "population": 10504,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "1076227",
+      "name": "Andovoranto",
+      "latitude": -18.95443,
+      "longitude": 49.1094,
+      "population": 10429,
+      "populationRank": 112,
       "isCapital": false
     },
     {
@@ -789,7 +1021,79 @@
       "latitude": -14.63333,
       "longitude": 47.75,
       "population": 10349,
-      "populationRank": 87,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "1057330",
+      "name": "Sahatavy",
+      "latitude": -17.45,
+      "longitude": 49,
+      "population": 10000,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "1059098",
+      "name": "Miadanandriana",
+      "latitude": -19.03333,
+      "longitude": 47.78333,
+      "population": 10000,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "1060527",
+      "name": "Mantasoa",
+      "latitude": -19.01667,
+      "longitude": 47.83333,
+      "population": 10000,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "1080809",
+      "name": "Ambodivoara",
+      "latitude": -14.33333,
+      "longitude": 49.98333,
+      "population": 10000,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "1065230",
+      "name": "Fandrandava",
+      "latitude": -21.51667,
+      "longitude": 47.25,
+      "population": 9000,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "1059136",
+      "name": "Merikanjaka",
+      "latitude": -19.13333,
+      "longitude": 47.85,
+      "population": 8000,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "1063852",
+      "name": "Ivato",
+      "latitude": -22.41667,
+      "longitude": 47.26667,
+      "population": 8000,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "1079846",
+      "name": "Ambohitrandriamanitra",
+      "latitude": -19.08333,
+      "longitude": 47.78333,
+      "population": 8000,
+      "populationRank": 121,
       "isCapital": false
     },
     {
@@ -798,7 +1102,52 @@
       "latitude": -17.68475,
       "longitude": 49.50869,
       "population": 7987,
-      "populationRank": 88,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "1057681",
+      "name": "Sadjoavato",
+      "latitude": -12.61667,
+      "longitude": 49.35,
+      "population": 7600,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "1056922",
+      "name": "Sambaina",
+      "latitude": -18.9,
+      "longitude": 47.78333,
+      "population": 7000,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "1061216",
+      "name": "Manato",
+      "latitude": -22.4,
+      "longitude": 47.48333,
+      "population": 7000,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "1068130",
+      "name": "Behompy",
+      "latitude": -23.25,
+      "longitude": 43.85,
+      "population": 7000,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "1053900",
+      "name": "Vohimanitra",
+      "latitude": -21.7,
+      "longitude": 47.7,
+      "population": 6000,
+      "populationRank": 127,
       "isCapital": false
     },
     {
@@ -807,7 +1156,80 @@
       "latitude": -22.48333,
       "longitude": 45.4,
       "population": 6000,
-      "populationRank": 89,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "1073665",
+      "name": "Anjepy",
+      "latitude": -18.85,
+      "longitude": 47.71667,
+      "population": 6000,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "1079681",
+      "name": "Ambohitseheno",
+      "latitude": -18.78333,
+      "longitude": 47.8,
+      "population": 6000,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "1058242",
+      "name": "Nandihizana",
+      "nativeName": "Carion",
+      "latitude": -18.9,
+      "longitude": 47.71667,
+      "population": 5000,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "1082973",
+      "name": "Ambatolaona",
+      "latitude": -18.93333,
+      "longitude": 47.9,
+      "population": 5000,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "1070523",
+      "name": "Antanimena",
+      "latitude": -23.55,
+      "longitude": 44.1,
+      "population": 4000,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "1077349",
+      "name": "Anakao",
+      "latitude": -23.66667,
+      "longitude": 43.65,
+      "population": 3000,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "1064697",
+      "name": "Gogogogo",
+      "latitude": -24.26667,
+      "longitude": 44.8,
+      "population": 300,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "7115593",
+      "name": "Antafondro",
+      "latitude": -13.40926,
+      "longitude": 48.35508,
+      "population": 200,
+      "populationRank": 136,
       "isCapital": false
     }
   ]

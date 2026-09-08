@@ -100,12 +100,21 @@
       "isCapital": false
     },
     {
+      "id": "1694781",
+      "name": "Parañaque",
+      "latitude": 14.48156,
+      "longitude": 121.01749,
+      "population": 703245,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
       "id": "1707174",
       "name": "Las Piñas",
       "latitude": 14.45056,
       "longitude": 120.98278,
       "population": 615549,
-      "populationRank": 12,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -114,7 +123,7 @@
       "latitude": 14.21167,
       "longitude": 121.16528,
       "population": 575046,
-      "populationRank": 13,
+      "populationRank": 14,
       "isCapital": false
     },
     {
@@ -123,7 +132,7 @@
       "latitude": 14.39028,
       "longitude": 121.0475,
       "population": 552225,
-      "populationRank": 14,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -132,16 +141,16 @@
       "latitude": 14.55027,
       "longitude": 121.03269,
       "population": 510383,
-      "populationRank": 15,
+      "populationRank": 16,
       "isCapital": false
     },
     {
       "id": "1707267",
-      "name": "Lapu-Lapu",
+      "name": "Lapu Lapu",
       "latitude": 10.31028,
       "longitude": 123.94944,
       "population": 497813,
-      "populationRank": 16,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -150,7 +159,7 @@
       "latitude": 15.15,
       "longitude": 120.58333,
       "population": 483452,
-      "populationRank": 17,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -159,7 +168,7 @@
       "latitude": 14.42972,
       "longitude": 120.93667,
       "population": 481949,
-      "populationRank": 18,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -168,7 +177,16 @@
       "latitude": 10.69694,
       "longitude": 122.56444,
       "population": 473728,
-      "populationRank": 19,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "1700925",
+      "name": "Marikina",
+      "latitude": 14.6481,
+      "longitude": 121.1133,
+      "population": 471323,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -177,7 +195,7 @@
       "latitude": 10.66667,
       "longitude": 122.95,
       "population": 454898,
-      "populationRank": 20,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -186,7 +204,7 @@
       "latitude": 14.32944,
       "longitude": 120.93667,
       "population": 441876,
-      "populationRank": 21,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -195,7 +213,7 @@
       "latitude": 14.57837,
       "longitude": 121.03522,
       "population": 425000,
-      "populationRank": 22,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -204,7 +222,7 @@
       "latitude": 14.53748,
       "longitude": 121.00144,
       "population": 416522,
-      "populationRank": 23,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -213,7 +231,7 @@
       "latitude": 15.48017,
       "longitude": 120.59794,
       "population": 401892,
-      "populationRank": 24,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -222,7 +240,16 @@
       "latitude": 7.22361,
       "longitude": 124.24639,
       "population": 383383,
-      "populationRank": 25,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "1722909",
+      "name": "Buldon",
+      "latitude": 7.50972,
+      "longitude": 124.37139,
+      "population": 383383,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -231,7 +258,7 @@
       "latitude": 14.67333,
       "longitude": 120.93972,
       "population": 365525,
-      "populationRank": 26,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -240,7 +267,7 @@
       "latitude": 14.81389,
       "longitude": 121.04528,
       "population": 357828,
-      "populationRank": 27,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -249,7 +276,7 @@
       "latitude": 14.45896,
       "longitude": 120.93851,
       "population": 356974,
-      "populationRank": 28,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -258,17 +285,16 @@
       "latitude": 14.3595,
       "longitude": 121.0473,
       "population": 348968,
-      "populationRank": 29,
+      "populationRank": 32,
       "isCapital": false
     },
     {
       "id": "1721906",
-      "name": "Cabanatuan City",
-      "nativeName": "Cabanatuan",
+      "name": "Cabanatuan",
       "latitude": 15.48586,
       "longitude": 120.96648,
       "population": 343672,
-      "populationRank": 30,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -277,7 +303,34 @@
       "latitude": 8.2289,
       "longitude": 124.24344,
       "population": 342618,
-      "populationRank": 31,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "1683014",
+      "name": "Tanza",
+      "latitude": 14.39834,
+      "longitude": 120.85544,
+      "population": 339308,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "1701947",
+      "name": "Mandaue",
+      "latitude": 10.32361,
+      "longitude": 123.92222,
+      "population": 331320,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "1688042",
+      "name": "Santa Maria",
+      "latitude": 14.82083,
+      "longitude": 120.96361,
+      "population": 322525,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -286,7 +339,7 @@
       "latitude": 8.94917,
       "longitude": 125.54361,
       "population": 309709,
-      "populationRank": 32,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -295,7 +348,7 @@
       "latitude": 14.2726,
       "longitude": 121.1262,
       "population": 308745,
-      "populationRank": 33,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -304,7 +357,7 @@
       "latitude": 14.0683,
       "longitude": 121.3256,
       "population": 300166,
-      "populationRank": 34,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -313,7 +366,7 @@
       "latitude": 14.34267,
       "longitude": 121.08071,
       "population": 300000,
-      "populationRank": 35,
+      "populationRank": 41,
       "isCapital": false
     },
     {
@@ -322,7 +375,7 @@
       "latitude": 14.5786,
       "longitude": 121.1222,
       "population": 283172,
-      "populationRank": 36,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -331,7 +384,7 @@
       "latitude": 16.41639,
       "longitude": 120.59306,
       "population": 272714,
-      "populationRank": 37,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -340,7 +393,7 @@
       "latitude": 14.8443,
       "longitude": 120.81039,
       "population": 269809,
-      "populationRank": 38,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -349,7 +402,7 @@
       "latitude": 8.0034,
       "longitude": 124.28395,
       "population": 259993,
-      "populationRank": 39,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -358,7 +411,7 @@
       "latitude": 11.24333,
       "longitude": 125.00472,
       "population": 259353,
-      "populationRank": 40,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -367,7 +420,7 @@
       "latitude": 15.03425,
       "longitude": 120.68445,
       "population": 251248,
-      "populationRank": 41,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -376,7 +429,7 @@
       "latitude": 14.66667,
       "longitude": 120.95,
       "population": 249463,
-      "populationRank": 42,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -385,7 +438,7 @@
       "latitude": 11.00639,
       "longitude": 124.6075,
       "population": 238545,
-      "populationRank": 43,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -394,7 +447,7 @@
       "latitude": 13.7567,
       "longitude": 121.0584,
       "population": 237370,
-      "populationRank": 44,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -403,7 +456,7 @@
       "latitude": 7.4475,
       "longitude": 125.8046,
       "population": 233254,
-      "populationRank": 45,
+      "populationRank": 51,
       "isCapital": false
     },
     {
@@ -412,7 +465,7 @@
       "latitude": 14.55883,
       "longitude": 121.13285,
       "population": 231460,
-      "populationRank": 46,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -421,7 +474,7 @@
       "latitude": 13.93139,
       "longitude": 121.61722,
       "population": 228758,
-      "populationRank": 47,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -430,7 +483,16 @@
       "latitude": 14.73694,
       "longitude": 120.96083,
       "population": 228023,
-      "populationRank": 48,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "1681339",
+      "name": "Trece Martires",
+      "latitude": 14.28323,
+      "longitude": 120.86766,
+      "population": 227892,
+      "populationRank": 55,
       "isCapital": false
     },
     {
@@ -439,7 +501,7 @@
       "latitude": 7.90639,
       "longitude": 125.09417,
       "population": 223620,
-      "populationRank": 49,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -448,7 +510,7 @@
       "latitude": 9.73917,
       "longitude": 118.73528,
       "population": 222673,
-      "populationRank": 50,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -457,7 +519,7 @@
       "latitude": 14.82917,
       "longitude": 120.28278,
       "population": 221178,
-      "populationRank": 51,
+      "populationRank": 58,
       "isCapital": false
     },
     {
@@ -466,7 +528,7 @@
       "latitude": 14.4646,
       "longitude": 121.1929,
       "population": 219204,
-      "populationRank": 52,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -475,17 +537,16 @@
       "latitude": 14.31222,
       "longitude": 121.11139,
       "population": 216650,
-      "populationRank": 53,
+      "populationRank": 60,
       "isCapital": false
     },
     {
       "id": "1706090",
-      "name": "Lipa City",
-      "nativeName": "Lipa",
+      "name": "Lipa",
       "latitude": 13.9411,
       "longitude": 121.1631,
       "population": 212287,
-      "populationRank": 54,
+      "populationRank": 61,
       "isCapital": false
     },
     {
@@ -494,7 +555,7 @@
       "latitude": 7.30806,
       "longitude": 125.68417,
       "population": 211242,
-      "populationRank": 55,
+      "populationRank": 62,
       "isCapital": false
     },
     {
@@ -503,7 +564,16 @@
       "latitude": 9.9839,
       "longitude": 122.81423,
       "population": 210893,
-      "populationRank": 56,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "1690206",
+      "name": "San Carlos",
+      "latitude": 15.92941,
+      "longitude": 120.34863,
+      "population": 208330,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -512,7 +582,7 @@
       "latitude": 10.3773,
       "longitude": 123.6386,
       "population": 206692,
-      "populationRank": 57,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -521,7 +591,7 @@
       "latitude": 7.8257,
       "longitude": 123.437,
       "population": 206483,
-      "populationRank": 58,
+      "populationRank": 66,
       "isCapital": false
     },
     {
@@ -530,7 +600,7 @@
       "latitude": 6.50306,
       "longitude": 124.84694,
       "population": 201844,
-      "populationRank": 59,
+      "populationRank": 67,
       "isCapital": false
     },
     {
@@ -539,7 +609,7 @@
       "latitude": 10.53333,
       "longitude": 122.83333,
       "population": 192993,
-      "populationRank": 60,
+      "populationRank": 68,
       "isCapital": false
     },
     {
@@ -548,7 +618,7 @@
       "latitude": 15.22303,
       "longitude": 120.57117,
       "population": 188050,
-      "populationRank": 61,
+      "populationRank": 69,
       "isCapital": false
     },
     {
@@ -557,7 +627,7 @@
       "latitude": 11.58528,
       "longitude": 122.75111,
       "population": 185236,
-      "populationRank": 62,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -566,7 +636,7 @@
       "latitude": 13.14125,
       "longitude": 123.74073,
       "population": 179481,
-      "populationRank": 63,
+      "populationRank": 71,
       "isCapital": false
     },
     {
@@ -575,7 +645,7 @@
       "latitude": 15.32546,
       "longitude": 120.65723,
       "population": 178549,
-      "populationRank": 64,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -584,7 +654,7 @@
       "latitude": 13.61917,
       "longitude": 123.18139,
       "population": 174931,
-      "populationRank": 65,
+      "populationRank": 73,
       "isCapital": false
     },
     {
@@ -593,7 +663,7 @@
       "latitude": 16.04313,
       "longitude": 120.33325,
       "population": 171271,
-      "populationRank": 66,
+      "populationRank": 74,
       "isCapital": false
     },
     {
@@ -602,7 +672,7 @@
       "latitude": 17.61577,
       "longitude": 121.72285,
       "population": 167297,
-      "populationRank": 67,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -611,7 +681,7 @@
       "latitude": 17.14854,
       "longitude": 121.88924,
       "population": 164020,
-      "populationRank": 68,
+      "populationRank": 76,
       "isCapital": false
     },
     {
@@ -620,7 +690,7 @@
       "latitude": 14.865,
       "longitude": 120.95722,
       "population": 162725,
-      "populationRank": 69,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -629,7 +699,16 @@
       "latitude": 15.33117,
       "longitude": 120.5898,
       "population": 162724,
-      "populationRank": 70,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "1689431",
+      "name": "San Jose",
+      "latitude": 15.7923,
+      "longitude": 120.9894,
+      "population": 156714,
+      "populationRank": 79,
       "isCapital": false
     },
     {
@@ -638,7 +717,25 @@
       "latitude": 14.43385,
       "longitude": 120.48569,
       "population": 156200,
-      "populationRank": 71,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "1687800",
+      "name": "Santiago",
+      "latitude": 17.2939,
+      "longitude": 120.4449,
+      "population": 150313,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "1713601",
+      "name": "Floridablanca",
+      "latitude": 14.9775,
+      "longitude": 120.5285,
+      "population": 146095,
+      "populationRank": 82,
       "isCapital": false
     },
     {
@@ -647,7 +744,25 @@
       "latitude": 15.97611,
       "longitude": 120.57111,
       "population": 145935,
-      "populationRank": 72,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "1703010",
+      "name": "Malasiqui",
+      "latitude": 15.9201,
+      "longitude": 120.414,
+      "population": 144344,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "1717729",
+      "name": "Cauayan",
+      "latitude": 16.93472,
+      "longitude": 121.7725,
+      "population": 143539,
+      "populationRank": 85,
       "isCapital": false
     },
     {
@@ -656,7 +771,7 @@
       "latitude": 12.35275,
       "longitude": 121.06761,
       "population": 143495,
-      "populationRank": 73,
+      "populationRank": 86,
       "isCapital": false
     },
     {
@@ -665,7 +780,7 @@
       "latitude": 16.455,
       "longitude": 120.5875,
       "population": 142925,
-      "populationRank": 74,
+      "populationRank": 87,
       "isCapital": false
     },
     {
@@ -674,7 +789,7 @@
       "latitude": 14.9109,
       "longitude": 121.0493,
       "population": 140697,
-      "populationRank": 75,
+      "populationRank": 88,
       "isCapital": false
     },
     {
@@ -683,7 +798,7 @@
       "latitude": 8.82778,
       "longitude": 125.09972,
       "population": 138895,
-      "populationRank": 76,
+      "populationRank": 89,
       "isCapital": false
     },
     {
@@ -692,7 +807,7 @@
       "latitude": 10.20898,
       "longitude": 123.758,
       "population": 138727,
-      "populationRank": 77,
+      "populationRank": 90,
       "isCapital": false
     },
     {
@@ -701,7 +816,16 @@
       "latitude": 13.93111,
       "longitude": 121.42333,
       "population": 137933,
-      "populationRank": 78,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "1686501",
+      "name": "Silay",
+      "latitude": 10.8003,
+      "longitude": 122.9763,
+      "population": 136802,
+      "populationRank": 92,
       "isCapital": false
     },
     {
@@ -711,7 +835,7 @@
       "latitude": 14.95472,
       "longitude": 120.89694,
       "population": 135679,
-      "populationRank": 79,
+      "populationRank": 93,
       "isCapital": false
     },
     {
@@ -720,7 +844,7 @@
       "latitude": 14.5266,
       "longitude": 121.1536,
       "population": 134975,
-      "populationRank": 80,
+      "populationRank": 94,
       "isCapital": false
     },
     {
@@ -729,7 +853,7 @@
       "latitude": 14.6982,
       "longitude": 121.1236,
       "population": 134327,
-      "populationRank": 81,
+      "populationRank": 95,
       "isCapital": false
     },
     {
@@ -738,7 +862,16 @@
       "latitude": 14.6,
       "longitude": 121.0333,
       "population": 134312,
-      "populationRank": 82,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "1690219",
+      "name": "San Carlos",
+      "latitude": 10.484,
+      "longitude": 123.4203,
+      "population": 133175,
+      "populationRank": 97,
       "isCapital": false
     },
     {
@@ -747,7 +880,16 @@
       "latitude": 10.24472,
       "longitude": 123.84944,
       "population": 133148,
-      "populationRank": 83,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "1687543",
+      "name": "Santo Tomas",
+      "latitude": 7.53361,
+      "longitude": 125.62333,
+      "population": 131100,
+      "populationRank": 99,
       "isCapital": false
     },
     {
@@ -756,7 +898,7 @@
       "latitude": 15.3072,
       "longitude": 120.9464,
       "population": 129610,
-      "populationRank": 84,
+      "populationRank": 100,
       "isCapital": false
     },
     {
@@ -765,7 +907,7 @@
       "latitude": 15.8127,
       "longitude": 120.4557,
       "population": 129506,
-      "populationRank": 85,
+      "populationRank": 101,
       "isCapital": false
     },
     {
@@ -774,7 +916,7 @@
       "latitude": 10.9465,
       "longitude": 123.288,
       "population": 129053,
-      "populationRank": 86,
+      "populationRank": 102,
       "isCapital": false
     },
     {
@@ -783,7 +925,7 @@
       "latitude": 9.3649,
       "longitude": 122.804,
       "population": 126744,
-      "populationRank": 87,
+      "populationRank": 103,
       "isCapital": false
     },
     {
@@ -792,7 +934,7 @@
       "latitude": 7.22889,
       "longitude": 124.25778,
       "population": 124965,
-      "populationRank": 88,
+      "populationRank": 104,
       "isCapital": false
     },
     {
@@ -801,7 +943,7 @@
       "latitude": 14.83413,
       "longitude": 120.73271,
       "population": 123531,
-      "populationRank": 89,
+      "populationRank": 105,
       "isCapital": false
     },
     {
@@ -810,7 +952,7 @@
       "latitude": 17.47378,
       "longitude": 121.46799,
       "population": 122771,
-      "populationRank": 90,
+      "populationRank": 106,
       "isCapital": false
     },
     {
@@ -819,7 +961,7 @@
       "latitude": 14.91639,
       "longitude": 120.76583,
       "population": 122187,
-      "populationRank": 91,
+      "populationRank": 107,
       "isCapital": false
     },
     {
@@ -828,7 +970,7 @@
       "latitude": 14.95333,
       "longitude": 120.77,
       "population": 121057,
-      "populationRank": 92,
+      "populationRank": 108,
       "isCapital": false
     },
     {
@@ -837,7 +979,7 @@
       "latitude": 14.88722,
       "longitude": 120.85722,
       "population": 120939,
-      "populationRank": 93,
+      "populationRank": 109,
       "isCapital": false
     },
     {
@@ -846,7 +988,7 @@
       "latitude": 14.21567,
       "longitude": 120.97137,
       "population": 119475,
-      "populationRank": 94,
+      "populationRank": 110,
       "isCapital": false
     },
     {
@@ -855,7 +997,7 @@
       "latitude": 6.415,
       "longitude": 125.61167,
       "population": 118438,
-      "populationRank": 95,
+      "populationRank": 111,
       "isCapital": false
     },
     {
@@ -864,7 +1006,7 @@
       "latitude": 14.83333,
       "longitude": 120.88333,
       "population": 118173,
-      "populationRank": 96,
+      "populationRank": 112,
       "isCapital": false
     },
     {
@@ -873,7 +1015,7 @@
       "latitude": 8.36972,
       "longitude": 124.86444,
       "population": 118075,
-      "populationRank": 97,
+      "populationRank": 113,
       "isCapital": false
     },
     {
@@ -882,7 +1024,7 @@
       "latitude": 7.19083,
       "longitude": 124.53028,
       "population": 117365,
-      "populationRank": 98,
+      "populationRank": 114,
       "isCapital": false
     },
     {
@@ -891,7 +1033,7 @@
       "latitude": 10.09889,
       "longitude": 122.87056,
       "population": 117286,
-      "populationRank": 99,
+      "populationRank": 115,
       "isCapital": false
     },
     {
@@ -900,7 +1042,7 @@
       "latitude": 14.17025,
       "longitude": 121.24181,
       "population": 117030,
-      "populationRank": 100,
+      "populationRank": 116,
       "isCapital": false
     },
     {
@@ -909,7 +1051,16 @@
       "latitude": 6.6925,
       "longitude": 124.67639,
       "population": 116945,
-      "populationRank": 101,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "1691487",
+      "name": "Rosario",
+      "latitude": 13.84544,
+      "longitude": 121.20478,
+      "population": 116764,
+      "populationRank": 118,
       "isCapital": false
     },
     {
@@ -918,7 +1069,7 @@
       "latitude": 6.74972,
       "longitude": 125.35722,
       "population": 116122,
-      "populationRank": 102,
+      "populationRank": 119,
       "isCapital": false
     },
     {
@@ -927,7 +1078,7 @@
       "latitude": 14.48369,
       "longitude": 120.89878,
       "population": 115932,
-      "populationRank": 103,
+      "populationRank": 120,
       "isCapital": false
     },
     {
@@ -936,7 +1087,7 @@
       "latitude": 14.0259,
       "longitude": 121.5929,
       "population": 115318,
-      "populationRank": 104,
+      "populationRank": 121,
       "isCapital": false
     },
     {
@@ -945,7 +1096,16 @@
       "latitude": 13.4324,
       "longitude": 123.4115,
       "population": 115306,
-      "populationRank": 105,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "1689303",
+      "name": "San Juan",
+      "latitude": 13.83379,
+      "longitude": 121.3982,
+      "population": 115118,
+      "populationRank": 123,
       "isCapital": false
     },
     {
@@ -954,7 +1114,7 @@
       "latitude": 7.73028,
       "longitude": 125.09889,
       "population": 114521,
-      "populationRank": 106,
+      "populationRank": 124,
       "isCapital": false
     },
     {
@@ -963,7 +1123,25 @@
       "latitude": 9.30646,
       "longitude": 123.30769,
       "population": 113541,
-      "populationRank": 107,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "1706629",
+      "name": "Libmanan",
+      "latitude": 13.6928,
+      "longitude": 123.0596,
+      "population": 112994,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "1691483",
+      "name": "Rosario",
+      "latitude": 14.41827,
+      "longitude": 120.8577,
+      "population": 112572,
+      "populationRank": 127,
       "isCapital": false
     },
     {
@@ -972,7 +1150,7 @@
       "latitude": 14.3132,
       "longitude": 121.0576,
       "population": 112140,
-      "populationRank": 108,
+      "populationRank": 128,
       "isCapital": false
     },
     {
@@ -981,7 +1159,7 @@
       "latitude": 18.1978,
       "longitude": 120.5957,
       "population": 112117,
-      "populationRank": 109,
+      "populationRank": 129,
       "isCapital": false
     },
     {
@@ -990,7 +1168,7 @@
       "latitude": 14.90167,
       "longitude": 120.84917,
       "population": 111384,
-      "populationRank": 110,
+      "populationRank": 130,
       "isCapital": false
     },
     {
@@ -999,7 +1177,7 @@
       "latitude": 8.75611,
       "longitude": 125.7675,
       "population": 110313,
-      "populationRank": 111,
+      "populationRank": 131,
       "isCapital": false
     },
     {
@@ -1008,7 +1186,7 @@
       "latitude": 7.76333,
       "longitude": 125.00528,
       "population": 109864,
-      "populationRank": 112,
+      "populationRank": 132,
       "isCapital": false
     },
     {
@@ -1017,7 +1195,16 @@
       "latitude": 10.7375,
       "longitude": 122.9666,
       "population": 109204,
-      "populationRank": 113,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "1702445",
+      "name": "Malungon",
+      "latitude": 6.375,
+      "longitude": 125.27833,
+      "population": 108429,
+      "populationRank": 134,
       "isCapital": false
     },
     {
@@ -1026,7 +1213,16 @@
       "latitude": 16.68808,
       "longitude": 121.5487,
       "population": 108414,
-      "populationRank": 114,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "1688642",
+      "name": "San Rafael",
+      "latitude": 14.94833,
+      "longitude": 120.96222,
+      "population": 108256,
+      "populationRank": 136,
       "isCapital": false
     },
     {
@@ -1035,7 +1231,16 @@
       "latitude": 14.2814,
       "longitude": 121.4161,
       "population": 108145,
-      "populationRank": 115,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "1683900",
+      "name": "Talipao",
+      "latitude": 5.97639,
+      "longitude": 121.11611,
+      "population": 107901,
+      "populationRank": 138,
       "isCapital": false
     },
     {
@@ -1044,7 +1249,7 @@
       "latitude": 11.77528,
       "longitude": 124.88611,
       "population": 107896,
-      "populationRank": 116,
+      "populationRank": 139,
       "isCapital": false
     },
     {
@@ -1053,7 +1258,7 @@
       "latitude": 15.6689,
       "longitude": 120.5806,
       "population": 106190,
-      "populationRank": 117,
+      "populationRank": 140,
       "isCapital": false
     },
     {
@@ -1062,7 +1267,34 @@
       "latitude": 6.95508,
       "longitude": 126.21655,
       "population": 105908,
-      "populationRank": 118,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "1710772",
+      "name": "Indanan",
+      "latitude": 5.9735,
+      "longitude": 120.9698,
+      "population": 105384,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "1682560",
+      "name": "T'Boli",
+      "latitude": 6.2,
+      "longitude": 124.83333,
+      "population": 105296,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "1693794",
+      "name": "Pili",
+      "latitude": 13.55007,
+      "longitude": 123.27763,
+      "population": 101668,
+      "populationRank": 144,
       "isCapital": false
     },
     {
@@ -1071,7 +1303,7 @@
       "latitude": 6.62944,
       "longitude": 124.605,
       "population": 101455,
-      "populationRank": 119,
+      "populationRank": 145,
       "isCapital": false
     },
     {
@@ -1080,7 +1312,7 @@
       "latitude": 6.05222,
       "longitude": 121.00222,
       "population": 101002,
-      "populationRank": 120,
+      "populationRank": 146,
       "isCapital": false
     },
     {
@@ -1089,7 +1321,7 @@
       "latitude": 16.0111,
       "longitude": 120.36,
       "population": 100686,
-      "populationRank": 121,
+      "populationRank": 147,
       "isCapital": false
     },
     {
@@ -1098,7 +1330,7 @@
       "latitude": 8.21528,
       "longitude": 126.31639,
       "population": 99872,
-      "populationRank": 122,
+      "populationRank": 148,
       "isCapital": false
     },
     {
@@ -1107,7 +1339,16 @@
       "latitude": 14.79833,
       "longitude": 120.92611,
       "population": 98649,
-      "populationRank": 123,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "1699461",
+      "name": "M'lang",
+      "latitude": 6.94667,
+      "longitude": 124.87833,
+      "population": 98195,
+      "populationRank": 150,
       "isCapital": false
     },
     {
@@ -1116,7 +1357,7 @@
       "latitude": 12.4989,
       "longitude": 124.6377,
       "population": 97738,
-      "populationRank": 124,
+      "populationRank": 151,
       "isCapital": false
     },
     {
@@ -1125,7 +1366,7 @@
       "latitude": 10.84028,
       "longitude": 123.49917,
       "population": 97050,
-      "populationRank": 125,
+      "populationRank": 152,
       "isCapital": false
     },
     {
@@ -1134,7 +1375,7 @@
       "latitude": 7.81528,
       "longitude": 126.05444,
       "population": 96405,
-      "populationRank": 126,
+      "populationRank": 153,
       "isCapital": false
     },
     {
@@ -1143,7 +1384,7 @@
       "latitude": 14.38694,
       "longitude": 120.88167,
       "population": 96022,
-      "populationRank": 127,
+      "populationRank": 154,
       "isCapital": false
     },
     {
@@ -1152,7 +1393,7 @@
       "latitude": 11.24681,
       "longitude": 124.01462,
       "population": 95080,
-      "populationRank": 128,
+      "populationRank": 155,
       "isCapital": false
     },
     {
@@ -1161,7 +1402,7 @@
       "latitude": 8.56697,
       "longitude": 123.33471,
       "population": 93549,
-      "populationRank": 129,
+      "populationRank": 156,
       "isCapital": false
     },
     {
@@ -1170,17 +1411,25 @@
       "latitude": 11.7086,
       "longitude": 122.3648,
       "population": 93218,
-      "populationRank": 130,
+      "populationRank": 157,
       "isCapital": false
     },
     {
       "id": "1696899",
-      "name": "Ozamiz City",
-      "nativeName": "Ozamiz",
+      "name": "Ozamiz",
       "latitude": 8.1481,
       "longitude": 123.8405,
       "population": 93082,
-      "populationRank": 131,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "1684409",
+      "name": "Patikul",
+      "latitude": 6.08917,
+      "longitude": 121.10528,
+      "population": 92600,
+      "populationRank": 159,
       "isCapital": false
     },
     {
@@ -1189,7 +1438,7 @@
       "latitude": 6.42381,
       "longitude": 124.77603,
       "population": 91536,
-      "populationRank": 132,
+      "populationRank": 160,
       "isCapital": false
     },
     {
@@ -1198,7 +1447,7 @@
       "latitude": 6.37527,
       "longitude": 124.74521,
       "population": 91412,
-      "populationRank": 133,
+      "populationRank": 161,
       "isCapital": false
     },
     {
@@ -1207,7 +1456,25 @@
       "latitude": 12.8346,
       "longitude": 120.769,
       "population": 91406,
-      "populationRank": 134,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "1693020",
+      "name": "Pantukan",
+      "latitude": 7.16333,
+      "longitude": 125.89917,
+      "population": 91312,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "1688321",
+      "name": "Santa Cruz",
+      "latitude": 6.83694,
+      "longitude": 125.41306,
+      "population": 90987,
+      "populationRank": 164,
       "isCapital": false
     },
     {
@@ -1216,7 +1483,7 @@
       "latitude": 8.58,
       "longitude": 125.89639,
       "population": 90162,
-      "populationRank": 135,
+      "populationRank": 165,
       "isCapital": false
     },
     {
@@ -1225,7 +1492,7 @@
       "latitude": 6.10179,
       "longitude": 125.29048,
       "population": 90120,
-      "populationRank": 136,
+      "populationRank": 166,
       "isCapital": false
     },
     {
@@ -1234,7 +1501,7 @@
       "latitude": 14.14989,
       "longitude": 121.3152,
       "population": 89670,
-      "populationRank": 137,
+      "populationRank": 167,
       "isCapital": false
     },
     {
@@ -1243,7 +1510,7 @@
       "latitude": 13.2923,
       "longitude": 123.4855,
       "population": 89176,
-      "populationRank": 138,
+      "populationRank": 168,
       "isCapital": false
     },
     {
@@ -1252,7 +1519,7 @@
       "latitude": 13.7068,
       "longitude": 123.2087,
       "population": 88918,
-      "populationRank": 139,
+      "populationRank": 169,
       "isCapital": false
     },
     {
@@ -1261,7 +1528,7 @@
       "latitude": 16.07,
       "longitude": 120.4025,
       "population": 88818,
-      "populationRank": 140,
+      "populationRank": 170,
       "isCapital": false
     },
     {
@@ -1270,7 +1537,7 @@
       "latitude": 9.59111,
       "longitude": 123.12278,
       "population": 88050,
-      "populationRank": 141,
+      "populationRank": 171,
       "isCapital": false
     },
     {
@@ -1279,7 +1546,7 @@
       "latitude": 15.1505,
       "longitude": 120.7697,
       "population": 87987,
-      "populationRank": 142,
+      "populationRank": 172,
       "isCapital": false
     },
     {
@@ -1288,7 +1555,7 @@
       "latitude": 9.789,
       "longitude": 125.495,
       "population": 87832,
-      "populationRank": 143,
+      "populationRank": 173,
       "isCapital": false
     },
     {
@@ -1297,7 +1564,16 @@
       "latitude": 14.09532,
       "longitude": 120.93355,
       "population": 87811,
-      "populationRank": 144,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "1690094",
+      "name": "San Fabian",
+      "latitude": 16.1231,
+      "longitude": 120.4056,
+      "population": 87714,
+      "populationRank": 175,
       "isCapital": false
     },
     {
@@ -1306,7 +1582,7 @@
       "latitude": 8.6561,
       "longitude": 123.4227,
       "population": 87699,
-      "populationRank": 145,
+      "populationRank": 176,
       "isCapital": false
     },
     {
@@ -1315,7 +1591,7 @@
       "latitude": 7.36194,
       "longitude": 125.85528,
       "population": 87680,
-      "populationRank": 146,
+      "populationRank": 177,
       "isCapital": false
     },
     {
@@ -1324,7 +1600,7 @@
       "latitude": 11.1683,
       "longitude": 123.7223,
       "population": 87394,
-      "populationRank": 147,
+      "populationRank": 178,
       "isCapital": false
     },
     {
@@ -1333,7 +1609,7 @@
       "latitude": 10.90154,
       "longitude": 123.0705,
       "population": 86510,
-      "populationRank": 148,
+      "populationRank": 179,
       "isCapital": false
     },
     {
@@ -1342,7 +1618,7 @@
       "latitude": 9.65556,
       "longitude": 123.85219,
       "population": 86411,
-      "populationRank": 149,
+      "populationRank": 180,
       "isCapital": false
     },
     {
@@ -1351,7 +1627,16 @@
       "latitude": 15.71611,
       "longitude": 120.90306,
       "population": 85061,
-      "populationRank": 150,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "1724317",
+      "name": "Bolinao",
+      "latitude": 16.3883,
+      "longitude": 119.8923,
+      "population": 84658,
+      "populationRank": 182,
       "isCapital": false
     },
     {
@@ -1360,7 +1645,16 @@
       "latitude": 9.5162,
       "longitude": 123.158,
       "population": 84593,
-      "populationRank": 151,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "1712326",
+      "name": "Guinobatan",
+      "latitude": 13.1913,
+      "longitude": 123.5987,
+      "population": 84420,
+      "populationRank": 184,
       "isCapital": false
     },
     {
@@ -1369,7 +1663,7 @@
       "latitude": 14.75778,
       "longitude": 120.94833,
       "population": 83276,
-      "populationRank": 152,
+      "populationRank": 185,
       "isCapital": false
     },
     {
@@ -1378,7 +1672,7 @@
       "latitude": 14.79278,
       "longitude": 120.87889,
       "population": 83101,
-      "populationRank": 153,
+      "populationRank": 186,
       "isCapital": false
     },
     {
@@ -1387,7 +1681,16 @@
       "latitude": 16.61591,
       "longitude": 120.31663,
       "population": 83003,
-      "populationRank": 154,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "1704449",
+      "name": "Macabebe",
+      "latitude": 14.9089,
+      "longitude": 120.7155,
+      "population": 82933,
+      "populationRank": 188,
       "isCapital": false
     },
     {
@@ -1396,7 +1699,7 @@
       "latitude": 5.96917,
       "longitude": 125.28944,
       "population": 82577,
-      "populationRank": 155,
+      "populationRank": 189,
       "isCapital": false
     },
     {
@@ -1405,7 +1708,7 @@
       "latitude": 13.96689,
       "longitude": 121.69835,
       "population": 82132,
-      "populationRank": 156,
+      "populationRank": 190,
       "isCapital": false
     },
     {
@@ -1414,7 +1717,16 @@
       "latitude": 14.56194,
       "longitude": 120.59833,
       "population": 81960,
-      "populationRank": 157,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "1689485",
+      "name": "San Jose",
+      "latitude": 13.8784,
+      "longitude": 121.1045,
+      "population": 81170,
+      "populationRank": 192,
       "isCapital": false
     },
     {
@@ -1423,7 +1735,7 @@
       "latitude": 14.95806,
       "longitude": 120.91778,
       "population": 80565,
-      "populationRank": 158,
+      "populationRank": 193,
       "isCapital": false
     },
     {
@@ -1432,7 +1744,7 @@
       "latitude": 8.53556,
       "longitude": 125.95,
       "population": 79718,
-      "populationRank": 159,
+      "populationRank": 194,
       "isCapital": false
     },
     {
@@ -1441,7 +1753,7 @@
       "latitude": 7.00833,
       "longitude": 125.08944,
       "population": 79652,
-      "populationRank": 160,
+      "populationRank": 195,
       "isCapital": false
     },
     {
@@ -1450,7 +1762,7 @@
       "latitude": 6.33444,
       "longitude": 124.95278,
       "population": 78599,
-      "populationRank": 161,
+      "populationRank": 196,
       "isCapital": false
     },
     {
@@ -1459,7 +1771,7 @@
       "latitude": 15.27386,
       "longitude": 120.56683,
       "population": 78260,
-      "populationRank": 162,
+      "populationRank": 197,
       "isCapital": false
     },
     {
@@ -1468,7 +1780,7 @@
       "latitude": 14.1122,
       "longitude": 122.9553,
       "population": 78142,
-      "populationRank": 163,
+      "populationRank": 198,
       "isCapital": false
     },
     {
@@ -1477,7 +1789,7 @@
       "latitude": 16.53083,
       "longitude": 120.33306,
       "population": 77670,
-      "populationRank": 164,
+      "populationRank": 199,
       "isCapital": false
     },
     {
@@ -1487,7 +1799,16 @@
       "latitude": 8.77201,
       "longitude": 117.8371,
       "population": 76715,
-      "populationRank": 165,
+      "populationRank": 200,
+      "isCapital": false
+    },
+    {
+      "id": "1692802",
+      "name": "Pozorrubio",
+      "latitude": 16.111,
+      "longitude": 120.544,
+      "population": 75143,
+      "populationRank": 201,
       "isCapital": false
     },
     {
@@ -1496,7 +1817,7 @@
       "latitude": 13.5848,
       "longitude": 124.2374,
       "population": 75135,
-      "populationRank": 166,
+      "populationRank": 202,
       "isCapital": false
     },
     {
@@ -1505,7 +1826,7 @@
       "latitude": 16.77936,
       "longitude": 121.69734,
       "population": 74699,
-      "populationRank": 167,
+      "populationRank": 203,
       "isCapital": false
     },
     {
@@ -1514,7 +1835,7 @@
       "latitude": 9.75194,
       "longitude": 122.40417,
       "population": 73847,
-      "populationRank": 168,
+      "populationRank": 204,
       "isCapital": false
     },
     {
@@ -1523,7 +1844,7 @@
       "latitude": 7.68,
       "longitude": 125.005,
       "population": 73592,
-      "populationRank": 169,
+      "populationRank": 205,
       "isCapital": false
     },
     {
@@ -1532,7 +1853,16 @@
       "latitude": 14.44426,
       "longitude": 120.90164,
       "population": 73210,
-      "populationRank": 170,
+      "populationRank": 206,
+      "isCapital": false
+    },
+    {
+      "id": "1719935",
+      "name": "Camalig",
+      "latitude": 13.1821,
+      "longitude": 123.6543,
+      "population": 73087,
+      "populationRank": 207,
       "isCapital": false
     },
     {
@@ -1541,7 +1871,7 @@
       "latitude": 14.67611,
       "longitude": 120.53611,
       "population": 72954,
-      "populationRank": 171,
+      "populationRank": 208,
       "isCapital": false
     },
     {
@@ -1550,7 +1880,7 @@
       "latitude": 10.94472,
       "longitude": 123.42417,
       "population": 72153,
-      "populationRank": 172,
+      "populationRank": 209,
       "isCapital": false
     },
     {
@@ -1559,7 +1889,16 @@
       "latitude": 15.44125,
       "longitude": 120.72863,
       "population": 71978,
-      "populationRank": 173,
+      "populationRank": 210,
+      "isCapital": false
+    },
+    {
+      "id": "1680017",
+      "name": "Victoria",
+      "latitude": 15.5775,
+      "longitude": 120.6822,
+      "population": 71495,
+      "populationRank": 211,
       "isCapital": false
     },
     {
@@ -1568,7 +1907,7 @@
       "latitude": 17.6528,
       "longitude": 121.691,
       "population": 71475,
-      "populationRank": 174,
+      "populationRank": 212,
       "isCapital": false
     },
     {
@@ -1577,7 +1916,7 @@
       "latitude": 11.60806,
       "longitude": 125.43194,
       "population": 71431,
-      "populationRank": 175,
+      "populationRank": 213,
       "isCapital": false
     },
     {
@@ -1586,7 +1925,7 @@
       "latitude": 8.4859,
       "longitude": 123.8048,
       "population": 71373,
-      "populationRank": 176,
+      "populationRank": 214,
       "isCapital": false
     },
     {
@@ -1595,7 +1934,7 @@
       "latitude": 8.97694,
       "longitude": 125.40889,
       "population": 70691,
-      "populationRank": 177,
+      "populationRank": 215,
       "isCapital": false
     },
     {
@@ -1604,7 +1943,7 @@
       "latitude": 10.52083,
       "longitude": 124.02722,
       "population": 70270,
-      "populationRank": 178,
+      "populationRank": 216,
       "isCapital": false
     },
     {
@@ -1613,7 +1952,7 @@
       "latitude": 14.191,
       "longitude": 121.7309,
       "population": 70135,
-      "populationRank": 179,
+      "populationRank": 217,
       "isCapital": false
     },
     {
@@ -1622,7 +1961,25 @@
       "latitude": 14.19528,
       "longitude": 120.87694,
       "population": 70092,
-      "populationRank": 180,
+      "populationRank": 218,
+      "isCapital": false
+    },
+    {
+      "id": "1728906",
+      "name": "Bagumbayan",
+      "latitude": 6.42141,
+      "longitude": 124.42891,
+      "population": 69830,
+      "populationRank": 219,
+      "isCapital": false
+    },
+    {
+      "id": "1689540",
+      "name": "San Jose de Buenavista",
+      "latitude": 10.745,
+      "longitude": 121.9415,
+      "population": 69522,
+      "populationRank": 220,
       "isCapital": false
     },
     {
@@ -1631,7 +1988,7 @@
       "latitude": 15.6321,
       "longitude": 121.1448,
       "population": 69376,
-      "populationRank": 181,
+      "populationRank": 221,
       "isCapital": false
     },
     {
@@ -1640,7 +1997,7 @@
       "latitude": 15.363,
       "longitude": 120.9639,
       "population": 69180,
-      "populationRank": 182,
+      "populationRank": 222,
       "isCapital": false
     },
     {
@@ -1649,7 +2006,7 @@
       "latitude": 13.9575,
       "longitude": 122.288,
       "population": 68999,
-      "populationRank": 183,
+      "populationRank": 223,
       "isCapital": false
     },
     {
@@ -1658,7 +2015,7 @@
       "latitude": 15.2151,
       "longitude": 120.6596,
       "population": 68988,
-      "populationRank": 184,
+      "populationRank": 224,
       "isCapital": false
     },
     {
@@ -1667,7 +2024,16 @@
       "latitude": 13.2997,
       "longitude": 123.4386,
       "population": 68846,
-      "populationRank": 185,
+      "populationRank": 225,
+      "isCapital": false
+    },
+    {
+      "id": "1707437",
+      "name": "Lantapan",
+      "latitude": 8.03333,
+      "longitude": 125.03333,
+      "population": 68777,
+      "populationRank": 226,
       "isCapital": false
     },
     {
@@ -1676,7 +2042,7 @@
       "latitude": 6.89814,
       "longitude": 126.00961,
       "population": 68717,
-      "populationRank": 186,
+      "populationRank": 227,
       "isCapital": false
     },
     {
@@ -1685,7 +2051,7 @@
       "latitude": 14.08627,
       "longitude": 121.14975,
       "population": 68456,
-      "populationRank": 187,
+      "populationRank": 228,
       "isCapital": false
     },
     {
@@ -1694,7 +2060,16 @@
       "latitude": 18.3566,
       "longitude": 121.6406,
       "population": 68368,
-      "populationRank": 188,
+      "populationRank": 229,
+      "isCapital": false
+    },
+    {
+      "id": "1681075",
+      "name": "Tuburan",
+      "latitude": 10.7273,
+      "longitude": 123.8257,
+      "population": 68307,
+      "populationRank": 230,
       "isCapital": false
     },
     {
@@ -1703,7 +2078,7 @@
       "latitude": 12.0668,
       "longitude": 124.5962,
       "population": 67921,
-      "populationRank": 189,
+      "populationRank": 231,
       "isCapital": false
     },
     {
@@ -1712,7 +2087,7 @@
       "latitude": 14.9285,
       "longitude": 121.03,
       "population": 67862,
-      "populationRank": 190,
+      "populationRank": 232,
       "isCapital": false
     },
     {
@@ -1721,7 +2096,7 @@
       "latitude": 10.4242,
       "longitude": 122.9212,
       "population": 67740,
-      "populationRank": 191,
+      "populationRank": 233,
       "isCapital": false
     },
     {
@@ -1730,7 +2105,7 @@
       "latitude": 14.8787,
       "longitude": 120.23194,
       "population": 67664,
-      "populationRank": 192,
+      "populationRank": 234,
       "isCapital": false
     },
     {
@@ -1739,7 +2114,7 @@
       "latitude": 15.89444,
       "longitude": 120.63278,
       "population": 67510,
-      "populationRank": 193,
+      "populationRank": 235,
       "isCapital": false
     },
     {
@@ -1748,7 +2123,16 @@
       "latitude": 6.70407,
       "longitude": 121.97117,
       "population": 67336,
-      "populationRank": 194,
+      "populationRank": 236,
+      "isCapital": false
+    },
+    {
+      "id": "1699345",
+      "name": "Moncada",
+      "latitude": 15.7354,
+      "longitude": 120.574,
+      "population": 66925,
+      "populationRank": 237,
       "isCapital": false
     },
     {
@@ -1757,7 +2141,7 @@
       "latitude": 14.87827,
       "longitude": 120.45221,
       "population": 66670,
-      "populationRank": 195,
+      "populationRank": 238,
       "isCapital": false
     },
     {
@@ -1766,7 +2150,7 @@
       "latitude": 15.7654,
       "longitude": 119.9092,
       "population": 66647,
-      "populationRank": 196,
+      "populationRank": 239,
       "isCapital": false
     },
     {
@@ -1775,7 +2159,7 @@
       "latitude": 13.4117,
       "longitude": 121.1803,
       "population": 66008,
-      "populationRank": 197,
+      "populationRank": 240,
       "isCapital": false
     },
     {
@@ -1784,7 +2168,7 @@
       "latitude": 15.0809,
       "longitude": 120.941,
       "population": 65669,
-      "populationRank": 198,
+      "populationRank": 241,
       "isCapital": false
     },
     {
@@ -1793,7 +2177,16 @@
       "latitude": 15.1423,
       "longitude": 120.97568,
       "population": 65661,
-      "populationRank": 199,
+      "populationRank": 242,
+      "isCapital": false
+    },
+    {
+      "id": "1731958",
+      "name": "Agoo",
+      "latitude": 16.3228,
+      "longitude": 120.3666,
+      "population": 65256,
+      "populationRank": 243,
       "isCapital": false
     },
     {
@@ -1802,7 +2195,513 @@
       "latitude": 15.90167,
       "longitude": 120.58833,
       "population": 65086,
-      "populationRank": 200,
+      "populationRank": 244,
+      "isCapital": false
+    },
+    {
+      "id": "1697384",
+      "name": "Oas",
+      "latitude": 13.2593,
+      "longitude": 123.4963,
+      "population": 64890,
+      "populationRank": 245,
+      "isCapital": false
+    },
+    {
+      "id": "1702953",
+      "name": "Malay",
+      "latitude": 11.90027,
+      "longitude": 121.90911,
+      "population": 64723,
+      "populationRank": 246,
+      "isCapital": false
+    },
+    {
+      "id": "1684016",
+      "name": "Talavera",
+      "latitude": 15.5883,
+      "longitude": 120.9192,
+      "population": 64610,
+      "populationRank": 247,
+      "isCapital": false
+    },
+    {
+      "id": "1713857",
+      "name": "Enrique B. Magalona",
+      "latitude": 10.87879,
+      "longitude": 122.97707,
+      "population": 64290,
+      "populationRank": 248,
+      "isCapital": false
+    },
+    {
+      "id": "1693077",
+      "name": "Polomolok",
+      "latitude": 6.22167,
+      "longitude": 125.06398,
+      "population": 63987,
+      "populationRank": 249,
+      "isCapital": false
+    },
+    {
+      "id": "1694403",
+      "name": "Pateros",
+      "latitude": 14.5391,
+      "longitude": 121.0726,
+      "population": 63840,
+      "populationRank": 250,
+      "isCapital": false
+    },
+    {
+      "id": "1687721",
+      "name": "Santo Domingo",
+      "latitude": 15.5873,
+      "longitude": 120.877,
+      "population": 63750,
+      "populationRank": 251,
+      "isCapital": false
+    },
+    {
+      "id": "1697023",
+      "name": "Orion",
+      "latitude": 14.62056,
+      "longitude": 120.58167,
+      "population": 63044,
+      "populationRank": 252,
+      "isCapital": false
+    },
+    {
+      "id": "1698030",
+      "name": "Nasugbu",
+      "latitude": 14.06694,
+      "longitude": 120.63181,
+      "population": 62857,
+      "populationRank": 253,
+      "isCapital": false
+    },
+    {
+      "id": "1700446",
+      "name": "Matan-ao",
+      "nativeName": "Matanao",
+      "latitude": 6.70611,
+      "longitude": 125.21639,
+      "population": 62773,
+      "populationRank": 254,
+      "isCapital": false
+    },
+    {
+      "id": "1699572",
+      "name": "Minglanilla",
+      "latitude": 10.24498,
+      "longitude": 123.7964,
+      "population": 62058,
+      "populationRank": 255,
+      "isCapital": false
+    },
+    {
+      "id": "1702934",
+      "name": "Malaybalay",
+      "latitude": 8.1575,
+      "longitude": 125.12778,
+      "population": 61524,
+      "populationRank": 256,
+      "isCapital": false
+    },
+    {
+      "id": "1712600",
+      "name": "Gubat",
+      "latitude": 12.92056,
+      "longitude": 124.12306,
+      "population": 61095,
+      "populationRank": 257,
+      "isCapital": false
+    },
+    {
+      "id": "1722818",
+      "name": "Buluan",
+      "latitude": 6.72028,
+      "longitude": 124.80194,
+      "population": 60931,
+      "populationRank": 258,
+      "isCapital": false
+    },
+    {
+      "id": "1718328",
+      "name": "Cogan",
+      "nativeName": "Carmen",
+      "latitude": 10.59306,
+      "longitude": 124.01778,
+      "population": 60230,
+      "populationRank": 259,
+      "isCapital": false
+    },
+    {
+      "id": "1727663",
+      "name": "Bambang",
+      "latitude": 16.3865,
+      "longitude": 121.1066,
+      "population": 60146,
+      "populationRank": 260,
+      "isCapital": false
+    },
+    {
+      "id": "1683319",
+      "name": "Tanay",
+      "latitude": 14.4968,
+      "longitude": 121.2846,
+      "population": 59950,
+      "populationRank": 261,
+      "isCapital": false
+    },
+    {
+      "id": "1697376",
+      "name": "Obando",
+      "latitude": 14.7098,
+      "longitude": 120.9362,
+      "population": 59929,
+      "populationRank": 262,
+      "isCapital": false
+    },
+    {
+      "id": "1728584",
+      "name": "Balagtas",
+      "latitude": 14.81667,
+      "longitude": 120.86667,
+      "population": 59826,
+      "populationRank": 263,
+      "isCapital": false
+    },
+    {
+      "id": "1710441",
+      "name": "Itogon",
+      "latitude": 16.36389,
+      "longitude": 120.67694,
+      "population": 59736,
+      "populationRank": 264,
+      "isCapital": false
+    },
+    {
+      "id": "1729557",
+      "name": "Bacolor",
+      "latitude": 15.0003,
+      "longitude": 120.652,
+      "population": 59361,
+      "populationRank": 265,
+      "isCapital": false
+    },
+    {
+      "id": "1702096",
+      "name": "Manaoag",
+      "latitude": 16.0438,
+      "longitude": 120.4861,
+      "population": 59115,
+      "populationRank": 266,
+      "isCapital": false
+    },
+    {
+      "id": "1691480",
+      "name": "Rosario",
+      "latitude": 16.2304,
+      "longitude": 120.4863,
+      "population": 58797,
+      "populationRank": 267,
+      "isCapital": false
+    },
+    {
+      "id": "1694861",
+      "name": "Paombong",
+      "latitude": 14.83111,
+      "longitude": 120.78917,
+      "population": 58453,
+      "populationRank": 268,
+      "isCapital": false
+    },
+    {
+      "id": "1714974",
+      "name": "Diffun",
+      "latitude": 16.59,
+      "longitude": 121.5057,
+      "population": 58254,
+      "populationRank": 269,
+      "isCapital": false
+    },
+    {
+      "id": "1703773",
+      "name": "Magsaysay",
+      "latitude": 6.76667,
+      "longitude": 125.18333,
+      "population": 57936,
+      "populationRank": 270,
+      "isCapital": false
+    },
+    {
+      "id": "1685117",
+      "name": "Tabaco",
+      "latitude": 13.35861,
+      "longitude": 123.73361,
+      "population": 57860,
+      "populationRank": 271,
+      "isCapital": false
+    },
+    {
+      "id": "1687534",
+      "name": "Santo Tomas",
+      "latitude": 14.1079,
+      "longitude": 121.14136,
+      "population": 57438,
+      "populationRank": 272,
+      "isCapital": false
+    },
+    {
+      "id": "1689107",
+      "name": "San Manuel",
+      "latitude": 16.0647,
+      "longitude": 120.6687,
+      "population": 56876,
+      "populationRank": 273,
+      "isCapital": false
+    },
+    {
+      "id": "1726339",
+      "name": "Batac",
+      "latitude": 18.0554,
+      "longitude": 120.56489,
+      "population": 56781,
+      "populationRank": 274,
+      "isCapital": false
+    },
+    {
+      "id": "1706188",
+      "name": "Lingayen",
+      "latitude": 16.02182,
+      "longitude": 120.23194,
+      "population": 56580,
+      "populationRank": 275,
+      "isCapital": false
+    },
+    {
+      "id": "1700665",
+      "name": "Masinloc",
+      "latitude": 15.5363,
+      "longitude": 119.9502,
+      "population": 56579,
+      "populationRank": 276,
+      "isCapital": false
+    },
+    {
+      "id": "1710932",
+      "name": "Impasugong",
+      "latitude": 8.30972,
+      "longitude": 125.00194,
+      "population": 55901,
+      "populationRank": 277,
+      "isCapital": false
+    },
+    {
+      "id": "1705440",
+      "name": "Lubao",
+      "latitude": 14.9405,
+      "longitude": 120.6011,
+      "population": 55645,
+      "populationRank": 278,
+      "isCapital": false
+    },
+    {
+      "id": "1698548",
+      "name": "Naic",
+      "latitude": 14.31812,
+      "longitude": 120.76609,
+      "population": 55195,
+      "populationRank": 279,
+      "isCapital": false
+    },
+    {
+      "id": "1689622",
+      "name": "San Isidro",
+      "latitude": 15.30208,
+      "longitude": 120.90867,
+      "population": 55108,
+      "populationRank": 280,
+      "isCapital": false
+    },
+    {
+      "id": "1713736",
+      "name": "Estancia",
+      "latitude": 11.4551,
+      "longitude": 123.152,
+      "population": 54882,
+      "populationRank": 281,
+      "isCapital": false
+    },
+    {
+      "id": "1684423",
+      "name": "Tagkawayan",
+      "latitude": 13.96603,
+      "longitude": 122.53942,
+      "population": 54709,
+      "populationRank": 282,
+      "isCapital": false
+    },
+    {
+      "id": "1722481",
+      "name": "Burauen",
+      "latitude": 10.97556,
+      "longitude": 124.89278,
+      "population": 54635,
+      "populationRank": 283,
+      "isCapital": false
+    },
+    {
+      "id": "1686777",
+      "name": "Sibonga",
+      "latitude": 10.0168,
+      "longitude": 123.6171,
+      "population": 54610,
+      "populationRank": 284,
+      "isCapital": false
+    },
+    {
+      "id": "1699833",
+      "name": "Mercedes",
+      "latitude": 14.1093,
+      "longitude": 123.0109,
+      "population": 53702,
+      "populationRank": 285,
+      "isCapital": false
+    },
+    {
+      "id": "1698596",
+      "name": "Naguilian",
+      "latitude": 16.53389,
+      "longitude": 120.39667,
+      "population": 53443,
+      "populationRank": 286,
+      "isCapital": false
+    },
+    {
+      "id": "1679397",
+      "name": "Zaragoza",
+      "latitude": 15.44903,
+      "longitude": 120.79627,
+      "population": 53090,
+      "populationRank": 287,
+      "isCapital": false
+    },
+    {
+      "id": "1727193",
+      "name": "Bani",
+      "latitude": 16.185,
+      "longitude": 119.8613,
+      "population": 52715,
+      "populationRank": 288,
+      "isCapital": false
+    },
+    {
+      "id": "1709717",
+      "name": "Kalamansig",
+      "latitude": 6.55187,
+      "longitude": 124.05111,
+      "population": 52257,
+      "populationRank": 289,
+      "isCapital": false
+    },
+    {
+      "id": "1680019",
+      "name": "Victoria",
+      "latitude": 13.17722,
+      "longitude": 121.27806,
+      "population": 52215,
+      "populationRank": 290,
+      "isCapital": false
+    },
+    {
+      "id": "1718426",
+      "name": "Cardona",
+      "latitude": 14.48646,
+      "longitude": 121.22752,
+      "population": 51493,
+      "populationRank": 291,
+      "isCapital": false
+    },
+    {
+      "id": "1713917",
+      "name": "El Nido",
+      "latitude": 11.18583,
+      "longitude": 119.39556,
+      "population": 51367,
+      "populationRank": 292,
+      "isCapital": false
+    },
+    {
+      "id": "1686123",
+      "name": "Siocon",
+      "latitude": 7.70611,
+      "longitude": 122.13528,
+      "population": 51239,
+      "populationRank": 293,
+      "isCapital": false
+    },
+    {
+      "id": "1691499",
+      "name": "Rosario",
+      "latitude": 8.38694,
+      "longitude": 126.00333,
+      "population": 51207,
+      "populationRank": 294,
+      "isCapital": false
+    },
+    {
+      "id": "1722731",
+      "name": "Bunawan",
+      "latitude": 8.16722,
+      "longitude": 125.99083,
+      "population": 50999,
+      "populationRank": 295,
+      "isCapital": false
+    },
+    {
+      "id": "1729846",
+      "name": "Ayungon",
+      "latitude": 9.8589,
+      "longitude": 123.1444,
+      "population": 50688,
+      "populationRank": 296,
+      "isCapital": false
+    },
+    {
+      "id": "1681149",
+      "name": "Tubod",
+      "latitude": 8.0555,
+      "longitude": 123.7904,
+      "population": 50395,
+      "populationRank": 297,
+      "isCapital": false
+    },
+    {
+      "id": "1728336",
+      "name": "Balayan",
+      "latitude": 13.93714,
+      "longitude": 120.73224,
+      "population": 50115,
+      "populationRank": 298,
+      "isCapital": false
+    },
+    {
+      "id": "1721636",
+      "name": "Cabiao",
+      "latitude": 15.2488,
+      "longitude": 120.8548,
+      "population": 49980,
+      "populationRank": 299,
+      "isCapital": false
+    },
+    {
+      "id": "11258558",
+      "name": "Mabini",
+      "latitude": 13.72354,
+      "longitude": 120.90729,
+      "population": 49876,
+      "populationRank": 300,
       "isCapital": false
     }
   ]

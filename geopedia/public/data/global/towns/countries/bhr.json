@@ -41,13 +41,23 @@
       "isCapital": false
     },
     {
+      "id": "290104",
+      "name": "Sitrah",
+      "nativeName": "أبو العيش",
+      "latitude": 26.15472,
+      "longitude": 50.62056,
+      "population": 72601,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
       "id": "290215",
       "name": "Jid Hafs",
       "nativeName": "جِدحفص",
       "latitude": 26.21861,
       "longitude": 50.54778,
       "population": 66588,
-      "populationRank": 5,
+      "populationRank": 6,
       "isCapital": false
     },
     {
@@ -57,7 +67,7 @@
       "latitude": 26.06861,
       "longitude": 50.50389,
       "population": 65466,
-      "populationRank": 6,
+      "populationRank": 7,
       "isCapital": false
     },
     {
@@ -67,7 +77,7 @@
       "latitude": 26.17361,
       "longitude": 50.54778,
       "population": 38090,
-      "populationRank": 7,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -77,7 +87,7 @@
       "latitude": 26.24556,
       "longitude": 50.65417,
       "population": 12797,
-      "populationRank": 8,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -87,7 +97,17 @@
       "latitude": 26.0475,
       "longitude": 50.48639,
       "population": 9095,
-      "populationRank": 9,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "290121",
+      "name": "Sanabis",
+      "nativeName": "السنابِس",
+      "latitude": 26.22722,
+      "longitude": 50.55083,
+      "population": 6564,
+      "populationRank": 11,
       "isCapital": false
     }
   ]

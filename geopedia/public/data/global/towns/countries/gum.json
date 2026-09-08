@@ -10,13 +10,73 @@
       "isCapital": false
     },
     {
+      "id": "4043656",
+      "name": "Barrigada Village",
+      "nativeName": "Barrigada",
+      "latitude": 13.46913,
+      "longitude": 144.79901,
+      "population": 8875,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "4038809",
+      "name": "Yona Village",
+      "nativeName": "Yona",
+      "latitude": 13.40974,
+      "longitude": 144.77697,
+      "population": 6484,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "4043525",
+      "name": "Agana Heights Village",
+      "nativeName": "Agana Heights",
+      "latitude": 13.46559,
+      "longitude": 144.74795,
+      "population": 3940,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "4043804",
+      "name": "Agat Village",
+      "nativeName": "Hågat",
+      "latitude": 13.383,
+      "longitude": 144.66003,
+      "population": 3292,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
       "id": "4038647",
       "name": "Talofofo Village",
       "nativeName": "Talo’fo’fo’",
       "latitude": 13.35513,
       "longitude": 144.75835,
       "population": 3215,
-      "populationRank": 2,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "4043812",
+      "name": "Asan-Maina Village",
+      "nativeName": "Asan",
+      "latitude": 13.47215,
+      "longitude": 144.71654,
+      "population": 2137,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "4038473",
+      "name": "Piti Village",
+      "nativeName": "Piti",
+      "latitude": 13.46256,
+      "longitude": 144.69331,
+      "population": 1666,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -25,8 +85,17 @@
       "latitude": 13.47567,
       "longitude": 144.74886,
       "population": 1051,
-      "populationRank": 3,
+      "populationRank": 9,
       "isCapital": true
+    },
+    {
+      "id": "13609086",
+      "name": "Ipan",
+      "latitude": 13.35374,
+      "longitude": 144.76726,
+      "population": 901,
+      "populationRank": 10,
+      "isCapital": false
     }
   ]
 }

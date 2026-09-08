@@ -40,8 +40,7 @@
     },
     {
       "id": "3575170",
-      "name": "Saint Paul’s",
-      "nativeName": "Saint Paul's",
+      "name": "Saint Paul's",
       "latitude": 17.40605,
       "longitude": -62.83562,
       "population": 2460,
@@ -131,6 +130,24 @@
       "longitude": -62.77021,
       "population": 591,
       "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "3575261",
+      "name": "Newcastle",
+      "latitude": 17.2,
+      "longitude": -62.58333,
+      "population": 493,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "3575458",
+      "name": "Cotton Ground",
+      "latitude": 17.16667,
+      "longitude": -62.61667,
+      "population": 381,
+      "populationRank": 16,
       "isCapital": false
     }
   ]

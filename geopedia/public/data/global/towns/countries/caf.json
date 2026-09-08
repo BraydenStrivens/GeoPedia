@@ -74,7 +74,7 @@
     },
     {
       "id": "2386012",
-      "name": "Kaga-Bandoro",
+      "name": "Kaga Bandoro",
       "latitude": 6.98961,
       "longitude": 19.18744,
       "population": 55047,
@@ -201,7 +201,6 @@
     {
       "id": "2382505",
       "name": "Yaloké",
-      "nativeName": "Yaloke",
       "latitude": 5.31953,
       "longitude": 17.10114,
       "population": 21710,
@@ -255,8 +254,7 @@
     },
     {
       "id": "235826",
-      "name": "Zemio",
-      "nativeName": "Zémio",
+      "name": "Zémio",
       "latitude": 5.03144,
       "longitude": 25.13614,
       "population": 17829,
@@ -273,12 +271,22 @@
       "isCapital": false
     },
     {
+      "id": "2388693",
+      "name": "Bobangui",
+      "nativeName": "BoyamaII",
+      "latitude": 4.05,
+      "longitude": 18.11667,
+      "population": 16486,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
       "id": "2386042",
       "name": "Kabo",
       "latitude": 7.69937,
       "longitude": 18.62903,
       "population": 16279,
-      "populationRank": 31,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -287,7 +295,7 @@
       "latitude": 5.73948,
       "longitude": 20.05564,
       "population": 14941,
-      "populationRank": 32,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -296,7 +304,7 @@
       "latitude": 5.39586,
       "longitude": 26.49211,
       "population": 14402,
-      "populationRank": 33,
+      "populationRank": 34,
       "isCapital": false
     },
     {
@@ -305,7 +313,7 @@
       "latitude": 4.11775,
       "longitude": 15.13926,
       "population": 13048,
-      "populationRank": 34,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -314,17 +322,16 @@
       "latitude": 4.31887,
       "longitude": 17.46953,
       "population": 11688,
-      "populationRank": 35,
+      "populationRank": 36,
       "isCapital": false
     },
     {
       "id": "2384574",
-      "name": "Mbrés",
-      "nativeName": "Mbrès",
+      "name": "Mbrès",
       "latitude": 6.668,
       "longitude": 19.80323,
       "population": 10269,
-      "populationRank": 36,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -333,7 +340,7 @@
       "latitude": 3.64153,
       "longitude": 18.59364,
       "population": 9985,
-      "populationRank": 37,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -342,7 +349,7 @@
       "latitude": 4.96075,
       "longitude": 18.7035,
       "population": 9117,
-      "populationRank": 38,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -351,7 +358,7 @@
       "latitude": 2.90496,
       "longitude": 16.26028,
       "population": 8920,
-      "populationRank": 39,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -360,7 +367,7 @@
       "latitude": 10.28488,
       "longitude": 22.78818,
       "population": 8457,
-      "populationRank": 40,
+      "populationRank": 41,
       "isCapital": false
     },
     {
@@ -369,7 +376,7 @@
       "latitude": 4.62275,
       "longitude": 21.88645,
       "population": 7317,
-      "populationRank": 41,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -378,7 +385,7 @@
       "latitude": 4.31902,
       "longitude": 21.17861,
       "population": 7179,
-      "populationRank": 42,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -387,7 +394,7 @@
       "latitude": 7.55591,
       "longitude": 20.17667,
       "population": 6230,
-      "populationRank": 43,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -396,7 +403,16 @@
       "latitude": 8.07771,
       "longitude": 22.40075,
       "population": 5434,
-      "populationRank": 44,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "239300",
+      "name": "Gambo",
+      "latitude": 4.64816,
+      "longitude": 22.26331,
+      "population": 4971,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -405,7 +421,7 @@
       "latitude": 4.31325,
       "longitude": 22.55524,
       "population": 4365,
-      "populationRank": 45,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -414,7 +430,7 @@
       "latitude": 6.96953,
       "longitude": 17.52837,
       "population": 2917,
-      "populationRank": 46,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -423,7 +439,7 @@
       "latitude": 8.90025,
       "longitude": 22.80277,
       "population": 2839,
-      "populationRank": 47,
+      "populationRank": 49,
       "isCapital": false
     }
   ]

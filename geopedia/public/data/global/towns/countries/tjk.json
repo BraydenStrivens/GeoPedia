@@ -71,13 +71,33 @@
       "isCapital": false
     },
     {
+      "id": "1514815",
+      "name": "Zafarabad",
+      "nativeName": "Зафаробод",
+      "latitude": 40.17603,
+      "longitude": 68.84679,
+      "population": 75900,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "1220479",
+      "name": "Shuroobod",
+      "nativeName": "Шӯрообод",
+      "latitude": 37.84137,
+      "longitude": 70.04865,
+      "population": 55500,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
       "id": "1514883",
       "name": "Gulistan",
       "nativeName": "Гулистон",
       "latitude": 40.26598,
       "longitude": 69.79585,
       "population": 49200,
-      "populationRank": 8,
+      "populationRank": 10,
       "isCapital": false
     },
     {
@@ -87,7 +107,7 @@
       "latitude": 38.55632,
       "longitude": 69.01354,
       "population": 45693,
-      "populationRank": 9,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -97,7 +117,7 @@
       "latitude": 38.51271,
       "longitude": 68.23163,
       "population": 37000,
-      "populationRank": 10,
+      "populationRank": 12,
       "isCapital": false
     },
     {
@@ -107,7 +127,7 @@
       "latitude": 40.23417,
       "longitude": 69.69481,
       "population": 36900,
-      "populationRank": 11,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -117,7 +137,17 @@
       "latitude": 39.49524,
       "longitude": 67.60931,
       "population": 35085,
-      "populationRank": 12,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "1222175",
+      "name": "Boshkala",
+      "nativeName": "Бошқалъа",
+      "latitude": 37.46471,
+      "longitude": 68.16947,
+      "population": 30689,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -127,7 +157,27 @@
       "latitude": 37.49039,
       "longitude": 71.55337,
       "population": 30500,
-      "populationRank": 13,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "1220981",
+      "name": "Mujum",
+      "nativeName": "Муҷум",
+      "latitude": 39.88148,
+      "longitude": 69.18219,
+      "population": 27835,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "1221614",
+      "name": "Ishkashim",
+      "nativeName": "اشکاشم",
+      "latitude": 36.72484,
+      "longitude": 71.61331,
+      "population": 26000,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -137,7 +187,27 @@
       "latitude": 38.52504,
       "longitude": 68.55124,
       "population": 23978,
-      "populationRank": 14,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "1221970",
+      "name": "Dalyoni Bolo",
+      "nativeName": "Далёни Боло",
+      "latitude": 39.74897,
+      "longitude": 68.99566,
+      "population": 23670,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "1220571",
+      "name": "Shahristan",
+      "nativeName": "Шаҳристон",
+      "latitude": 39.77447,
+      "longitude": 68.80929,
+      "population": 22903,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -147,7 +217,17 @@
       "latitude": 38.09578,
       "longitude": 69.33998,
       "population": 22824,
-      "populationRank": 15,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "8416817",
+      "name": "Moskovskiy",
+      "nativeName": "Карл Маркс",
+      "latitude": 37.60931,
+      "longitude": 68.58094,
+      "population": 22100,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -157,7 +237,7 @@
       "latitude": 37.80542,
       "longitude": 69.64516,
       "population": 21736,
-      "populationRank": 16,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -167,7 +247,17 @@
       "latitude": 37.49219,
       "longitude": 69.40356,
       "population": 21736,
-      "populationRank": 17,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "1221997",
+      "name": "Moskovskiy",
+      "nativeName": "Маскав",
+      "latitude": 37.61453,
+      "longitude": 69.70525,
+      "population": 19563,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -177,7 +267,7 @@
       "latitude": 37.58823,
       "longitude": 68.65886,
       "population": 18476,
-      "populationRank": 18,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -187,7 +277,7 @@
       "latitude": 38.38917,
       "longitude": 69.32272,
       "population": 18122,
-      "populationRank": 19,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -197,7 +287,7 @@
       "latitude": 40.57017,
       "longitude": 69.64175,
       "population": 17600,
-      "populationRank": 20,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -207,7 +297,7 @@
       "latitude": 38.31408,
       "longitude": 69.03784,
       "population": 17471,
-      "populationRank": 21,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -217,7 +307,7 @@
       "latitude": 40.16713,
       "longitude": 69.50163,
       "population": 16441,
-      "populationRank": 22,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -227,7 +317,7 @@
       "latitude": 37.71485,
       "longitude": 68.83456,
       "population": 15215,
-      "populationRank": 23,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -237,7 +327,17 @@
       "latitude": 40.1522,
       "longitude": 69.37076,
       "population": 13833,
-      "populationRank": 24,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "1222286",
+      "name": "Amondara",
+      "nativeName": "Амондара",
+      "latitude": 39.51435,
+      "longitude": 67.8108,
+      "population": 13380,
+      "populationRank": 34,
       "isCapital": false
     },
     {
@@ -247,7 +347,7 @@
       "latitude": 40.64928,
       "longitude": 69.98472,
       "population": 13372,
-      "populationRank": 25,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -257,7 +357,7 @@
       "latitude": 40.52286,
       "longitude": 69.33307,
       "population": 13043,
-      "populationRank": 26,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -267,7 +367,7 @@
       "latitude": 37.26206,
       "longitude": 68.13849,
       "population": 13042,
-      "populationRank": 27,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -277,7 +377,7 @@
       "latitude": 38.10714,
       "longitude": 70.03213,
       "population": 11955,
-      "populationRank": 28,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -287,7 +387,7 @@
       "latitude": 40.66992,
       "longitude": 70.3502,
       "population": 11705,
-      "populationRank": 29,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -297,7 +397,7 @@
       "latitude": 38.17023,
       "longitude": 73.96674,
       "population": 10815,
-      "populationRank": 30,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -307,7 +407,17 @@
       "latitude": 39.02871,
       "longitude": 70.37446,
       "population": 10771,
-      "populationRank": 31,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "1220920",
+      "name": "Nijoni",
+      "nativeName": "Ниҷонӣ",
+      "latitude": 39.95943,
+      "longitude": 68.92421,
+      "population": 10350,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -317,7 +427,7 @@
       "latitude": 37.94636,
       "longitude": 68.80878,
       "population": 9943,
-      "populationRank": 32,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -327,7 +437,7 @@
       "latitude": 37.34812,
       "longitude": 68.66398,
       "population": 8700,
-      "populationRank": 33,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -337,7 +447,7 @@
       "latitude": 38.0467,
       "longitude": 69.58822,
       "population": 8695,
-      "populationRank": 34,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -347,7 +457,7 @@
       "latitude": 37.56703,
       "longitude": 68.44668,
       "population": 8474,
-      "populationRank": 35,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -357,7 +467,7 @@
       "latitude": 40.15709,
       "longitude": 68.74659,
       "population": 8220,
-      "populationRank": 36,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -367,7 +477,17 @@
       "latitude": 37.23634,
       "longitude": 69.09911,
       "population": 8019,
-      "populationRank": 37,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "13580001",
+      "name": "20-solagii Istiḳlolijati Toçikiston",
+      "nativeName": "Қубодиён",
+      "latitude": 37.54749,
+      "longitude": 68.46055,
+      "population": 8000,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -377,7 +497,7 @@
       "latitude": 37.88176,
       "longitude": 68.7297,
       "population": 7900,
-      "populationRank": 38,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -387,7 +507,7 @@
       "latitude": 38.78257,
       "longitude": 69.87081,
       "population": 7731,
-      "populationRank": 39,
+      "populationRank": 51,
       "isCapital": false
     },
     {
@@ -397,7 +517,7 @@
       "latitude": 37.81908,
       "longitude": 68.85905,
       "population": 7696,
-      "populationRank": 40,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -407,7 +527,7 @@
       "latitude": 38.71731,
       "longitude": 69.70885,
       "population": 7400,
-      "populationRank": 41,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -417,7 +537,17 @@
       "latitude": 39.21966,
       "longitude": 71.19155,
       "population": 6400,
-      "populationRank": 42,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "1222007",
+      "name": "Chorbogh",
+      "nativeName": "Чорбоғ",
+      "latitude": 39.42621,
+      "longitude": 67.76025,
+      "population": 6357,
+      "populationRank": 55,
       "isCapital": false
     },
     {
@@ -427,7 +557,7 @@
       "latitude": 38.69529,
       "longitude": 70.48422,
       "population": 6071,
-      "populationRank": 43,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -437,7 +567,7 @@
       "latitude": 40.49155,
       "longitude": 69.70245,
       "population": 6000,
-      "populationRank": 44,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -447,7 +577,37 @@
       "latitude": 37.5582,
       "longitude": 68.81952,
       "population": 5988,
-      "populationRank": 45,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "1220628",
+      "name": "Shaydon (Sari Khosor)",
+      "nativeName": "Шайдон",
+      "latitude": 38.53852,
+      "longitude": 69.83077,
+      "population": 5894,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "1221808",
+      "name": "Jilikul",
+      "nativeName": "Ҷиликӯл",
+      "latitude": 37.49167,
+      "longitude": 68.53106,
+      "population": 5434,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "1220566",
+      "name": "Shahrinav",
+      "nativeName": "Шахринав",
+      "latitude": 38.57085,
+      "longitude": 68.33498,
+      "population": 5385,
+      "populationRank": 61,
       "isCapital": false
     },
     {
@@ -457,7 +617,17 @@
       "latitude": 39.01084,
       "longitude": 70.15082,
       "population": 5352,
-      "populationRank": 46,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "1220910",
+      "name": "Panji Poyon",
+      "nativeName": "Панҷи Поён",
+      "latitude": 37.19443,
+      "longitude": 68.57721,
+      "population": 5303,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -467,7 +637,17 @@
       "latitude": 37.84783,
       "longitude": 68.83125,
       "population": 4900,
-      "populationRank": 47,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "1514925",
+      "name": "Oltintopkan",
+      "nativeName": "Зарнисор",
+      "latitude": 40.65425,
+      "longitude": 69.59811,
+      "population": 4823,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -477,7 +657,47 @@
       "latitude": 40.21524,
       "longitude": 70.57193,
       "population": 4603,
-      "populationRank": 48,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "1222009",
+      "name": "Сhorbogh",
+      "nativeName": "Чорбоғ",
+      "latitude": 37.52027,
+      "longitude": 68.12825,
+      "population": 4237,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "1220685",
+      "name": "Rushon",
+      "nativeName": "Рӯшон",
+      "latitude": 37.94487,
+      "longitude": 71.55745,
+      "population": 4031,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "13513025",
+      "name": "Shhriston",
+      "nativeName": "Баҳор",
+      "latitude": 38.55571,
+      "longitude": 68.98987,
+      "population": 4029,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "1220164",
+      "name": "Vorukh",
+      "nativeName": "Ворух",
+      "latitude": 39.85125,
+      "longitude": 70.58012,
+      "population": 3836,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -486,7 +706,7 @@
       "latitude": 40.57648,
       "longitude": 69.37962,
       "population": 3400,
-      "populationRank": 49,
+      "populationRank": 71,
       "isCapital": false
     },
     {
@@ -496,7 +716,7 @@
       "latitude": 40.31628,
       "longitude": 69.73743,
       "population": 3288,
-      "populationRank": 50,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -506,7 +726,27 @@
       "latitude": 40.04605,
       "longitude": 70.54117,
       "population": 2900,
-      "populationRank": 51,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "1221494",
+      "name": "Zarrinrud",
+      "nativeName": "Зарринрӯд",
+      "latitude": 39.23585,
+      "longitude": 71.52412,
+      "population": 2899,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "1220210",
+      "name": "Vanj",
+      "nativeName": "Ванҷ",
+      "latitude": 38.37078,
+      "longitude": 71.45474,
+      "population": 2636,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -516,7 +756,57 @@
       "latitude": 38.83827,
       "longitude": 68.89847,
       "population": 2565,
-      "populationRank": 52,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "1220380",
+      "name": "Pakhtaobod",
+      "nativeName": "Пахтаобод",
+      "latitude": 37.58221,
+      "longitude": 68.13347,
+      "population": 2342,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "1514814",
+      "name": "Zarhok",
+      "nativeName": "Зархок",
+      "latitude": 40.26665,
+      "longitude": 70.56596,
+      "population": 2216,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "1220197",
+      "name": "Varzob",
+      "nativeName": "Варзоб",
+      "latitude": 38.77369,
+      "longitude": 68.81776,
+      "population": 2154,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "1222222",
+      "name": "Ayni",
+      "nativeName": "Айнӣ",
+      "latitude": 39.39406,
+      "longitude": 68.53766,
+      "population": 2128,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "1221559",
+      "name": "Qal'ai Khumb",
+      "nativeName": "Қалъаи Хумб",
+      "latitude": 38.45373,
+      "longitude": 70.78902,
+      "population": 1611,
+      "populationRank": 81,
       "isCapital": false
     },
     {
@@ -526,7 +816,7 @@
       "latitude": 40.20798,
       "longitude": 70.46882,
       "population": 1600,
-      "populationRank": 53,
+      "populationRank": 82,
       "isCapital": false
     },
     {
@@ -536,7 +826,7 @@
       "latitude": 38.86776,
       "longitude": 69.96642,
       "population": 1115,
-      "populationRank": 54,
+      "populationRank": 83,
       "isCapital": false
     },
     {
@@ -546,7 +836,7 @@
       "latitude": 40.99827,
       "longitude": 70.42749,
       "population": 877,
-      "populationRank": 55,
+      "populationRank": 84,
       "isCapital": false
     }
   ]

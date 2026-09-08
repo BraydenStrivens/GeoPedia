@@ -46,12 +46,22 @@
       "isCapital": false
     },
     {
+      "id": "3574194",
+      "name": "Marabella",
+      "nativeName": "Gopaul Lands",
+      "latitude": 10.30618,
+      "longitude": -61.44671,
+      "population": 26700,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
       "id": "3574636",
       "name": "Diego Martin",
       "latitude": 10.72081,
       "longitude": -61.56616,
       "population": 25370,
-      "populationRank": 6,
+      "populationRank": 7,
       "isCapital": false
     },
     {
@@ -60,7 +70,7 @@
       "latitude": 10.17411,
       "longitude": -61.68407,
       "population": 19056,
-      "populationRank": 7,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -69,7 +79,7 @@
       "latitude": 10.65245,
       "longitude": -61.38878,
       "population": 17758,
-      "populationRank": 8,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -78,7 +88,7 @@
       "latitude": 11.18229,
       "longitude": -60.73525,
       "population": 17000,
-      "populationRank": 9,
+      "populationRank": 10,
       "isCapital": false
     },
     {
@@ -87,17 +97,26 @@
       "latitude": 10.58705,
       "longitude": -61.13008,
       "population": 15968,
-      "populationRank": 10,
+      "populationRank": 11,
       "isCapital": false
     },
     {
       "id": "3573965",
       "name": "Peñal",
-      "nativeName": "Penal",
       "latitude": 10.16667,
       "longitude": -61.46667,
       "population": 12281,
-      "populationRank": 11,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3575039",
+      "name": "Arouca",
+      "nativeName": "Bon Air",
+      "latitude": 10.62877,
+      "longitude": -61.33487,
+      "population": 12054,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -106,7 +125,7 @@
       "latitude": 10.27184,
       "longitude": -61.37103,
       "population": 10000,
-      "populationRank": 12,
+      "populationRank": 14,
       "isCapital": false
     },
     {
@@ -115,7 +134,7 @@
       "latitude": 10.31704,
       "longitude": -61.42603,
       "population": 9925,
-      "populationRank": 13,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -124,7 +143,16 @@
       "latitude": 10.14525,
       "longitude": -61.5074,
       "population": 8568,
-      "populationRank": 14,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3574773",
+      "name": "Claxton Bay",
+      "latitude": 10.36637,
+      "longitude": -61.45985,
+      "population": 5679,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -133,7 +161,16 @@
       "latitude": 10.42248,
       "longitude": -61.46748,
       "population": 5178,
-      "populationRank": 15,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3573650",
+      "name": "Tabaquite",
+      "latitude": 10.38824,
+      "longitude": -61.29704,
+      "population": 3314,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -142,7 +179,16 @@
       "latitude": 10.20846,
       "longitude": -61.45273,
       "population": 3127,
-      "populationRank": 16,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "3573638",
+      "name": "Talparo",
+      "latitude": 10.5,
+      "longitude": -61.26667,
+      "population": 1661,
+      "populationRank": 21,
       "isCapital": false
     }
   ]

@@ -8,6 +8,26 @@
       "population": 125000,
       "populationRank": 1,
       "isCapital": true
+    },
+    {
+      "id": "3513761",
+      "name": "Dorp Soto",
+      "nativeName": "Soto",
+      "latitude": 12.27749,
+      "longitude": -69.1125,
+      "population": 2233,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3513762",
+      "name": "Dorp Sint Willebrordus",
+      "nativeName": "Sint Willibrordus",
+      "latitude": 12.21537,
+      "longitude": -69.06246,
+      "population": 465,
+      "populationRank": 3,
+      "isCapital": false
     }
   ]
 }

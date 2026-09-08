@@ -137,12 +137,21 @@
       "isCapital": false
     },
     {
+      "id": "601432",
+      "name": "Andalyp",
+      "latitude": 41.83333,
+      "longitude": 59.65,
+      "population": 36594,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
       "id": "161950",
       "name": "Gökdepe",
       "latitude": 38.15863,
       "longitude": 57.96072,
       "population": 33381,
-      "populationRank": 16,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -151,7 +160,7 @@
       "latitude": 37.34821,
       "longitude": 59.61431,
       "population": 33315,
-      "populationRank": 17,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -160,7 +169,7 @@
       "latitude": 37.84079,
       "longitude": 65.20639,
       "population": 33242,
-      "populationRank": 18,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -169,7 +178,7 @@
       "latitude": 36.52381,
       "longitude": 61.21477,
       "population": 31269,
-      "populationRank": 19,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -178,7 +187,7 @@
       "latitude": 39.20237,
       "longitude": 54.58746,
       "population": 30884,
-      "populationRank": 20,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -187,7 +196,7 @@
       "latitude": 37.88754,
       "longitude": 58.51596,
       "population": 28653,
-      "populationRank": 21,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -196,7 +205,7 @@
       "latitude": 41.65041,
       "longitude": 59.9164,
       "population": 26770,
-      "populationRank": 22,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -205,7 +214,17 @@
       "latitude": 39.24463,
       "longitude": 55.51536,
       "population": 24500,
-      "populationRank": 23,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "601534",
+      "name": "Oýrat",
+      "nativeName": "Oýrat obasy",
+      "latitude": 41.9458,
+      "longitude": 59.90885,
+      "population": 21160,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -214,7 +233,7 @@
       "latitude": 41.18746,
       "longitude": 61.4036,
       "population": 21021,
-      "populationRank": 24,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -223,7 +242,16 @@
       "latitude": 38.07201,
       "longitude": 64.87938,
       "population": 20778,
-      "populationRank": 25,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "161940",
+      "name": "Gämi",
+      "latitude": 37.90735,
+      "longitude": 58.47039,
+      "population": 18148,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -232,7 +260,7 @@
       "latitude": 39.4816,
       "longitude": 62.91374,
       "population": 17762,
-      "populationRank": 26,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -241,7 +269,7 @@
       "latitude": 38.78393,
       "longitude": 63.88035,
       "population": 17762,
-      "populationRank": 27,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -250,7 +278,7 @@
       "latitude": 42.07948,
       "longitude": 59.94964,
       "population": 17118,
-      "populationRank": 28,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -259,7 +287,16 @@
       "latitude": 37.42469,
       "longitude": 62.33821,
       "population": 16696,
-      "populationRank": 29,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "1219638",
+      "name": "Çaşgyn",
+      "latitude": 37.79729,
+      "longitude": 61.54905,
+      "population": 15470,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -268,7 +305,7 @@
       "latitude": 38.43637,
       "longitude": 56.28401,
       "population": 15386,
-      "populationRank": 30,
+      "populationRank": 34,
       "isCapital": false
     },
     {
@@ -277,7 +314,7 @@
       "latitude": 39.63101,
       "longitude": 54.23758,
       "population": 15056,
-      "populationRank": 31,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -286,7 +323,7 @@
       "latitude": 37.85075,
       "longitude": 65.2433,
       "population": 14996,
-      "populationRank": 32,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -295,7 +332,7 @@
       "latitude": 37.49656,
       "longitude": 61.97142,
       "population": 14822,
-      "populationRank": 33,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -304,7 +341,7 @@
       "latitude": 39.4036,
       "longitude": 53.126,
       "population": 14671,
-      "populationRank": 34,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -313,7 +350,7 @@
       "latitude": 39.17037,
       "longitude": 63.61165,
       "population": 14503,
-      "populationRank": 35,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -322,7 +359,7 @@
       "latitude": 42.05513,
       "longitude": 59.37877,
       "population": 14177,
-      "populationRank": 36,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -331,7 +368,7 @@
       "latitude": 37.28158,
       "longitude": 60.70432,
       "population": 13660,
-      "populationRank": 37,
+      "populationRank": 41,
       "isCapital": false
     },
     {
@@ -340,7 +377,7 @@
       "latitude": 37.74548,
       "longitude": 65.33761,
       "population": 13655,
-      "populationRank": 38,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -349,7 +386,7 @@
       "latitude": 38.11635,
       "longitude": 65.00347,
       "population": 13485,
-      "populationRank": 39,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -358,7 +395,7 @@
       "latitude": 37.68887,
       "longitude": 60.39372,
       "population": 13440,
-      "populationRank": 40,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -367,7 +404,7 @@
       "latitude": 35.95531,
       "longitude": 62.91739,
       "population": 13312,
-      "populationRank": 41,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -376,7 +413,7 @@
       "latitude": 37.46797,
       "longitude": 53.97951,
       "population": 12918,
-      "populationRank": 42,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -385,7 +422,7 @@
       "latitude": 37.66157,
       "longitude": 54.76395,
       "population": 12508,
-      "populationRank": 43,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -394,7 +431,7 @@
       "latitude": 37.90206,
       "longitude": 65.12503,
       "population": 11466,
-      "populationRank": 44,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -403,7 +440,7 @@
       "latitude": 37.80344,
       "longitude": 62.02294,
       "population": 10488,
-      "populationRank": 45,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -412,7 +449,16 @@
       "latitude": 37.41207,
       "longitude": 60.43535,
       "population": 9804,
-      "populationRank": 46,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "162160",
+      "name": "Babaarap",
+      "latitude": 38.09737,
+      "longitude": 58.1083,
+      "population": 9681,
+      "populationRank": 51,
       "isCapital": false
     },
     {
@@ -421,7 +467,7 @@
       "latitude": 42.28167,
       "longitude": 58.71935,
       "population": 9603,
-      "populationRank": 47,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -430,7 +476,25 @@
       "latitude": 38.0321,
       "longitude": 54.03432,
       "population": 9016,
-      "populationRank": 48,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "1218853",
+      "name": "Garaşsyzlyk",
+      "latitude": 37.39188,
+      "longitude": 60.4349,
+      "population": 8673,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "161407",
+      "name": "Ýaňgala",
+      "latitude": 38.12317,
+      "longitude": 57.9471,
+      "population": 8657,
+      "populationRank": 55,
       "isCapital": false
     },
     {
@@ -439,7 +503,7 @@
       "latitude": 37.51557,
       "longitude": 66.01348,
       "population": 8654,
-      "populationRank": 49,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -448,7 +512,7 @@
       "latitude": 37.19518,
       "longitude": 60.02469,
       "population": 8405,
-      "populationRank": 50,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -457,7 +521,7 @@
       "latitude": 37.78014,
       "longitude": 58.88904,
       "population": 8172,
-      "populationRank": 51,
+      "populationRank": 58,
       "isCapital": false
     },
     {
@@ -466,7 +530,7 @@
       "latitude": 39.26284,
       "longitude": 63.18429,
       "population": 7932,
-      "populationRank": 52,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -475,7 +539,7 @@
       "latitude": 41.54013,
       "longitude": 52.57344,
       "population": 7877,
-      "populationRank": 53,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -484,7 +548,7 @@
       "latitude": 38.76307,
       "longitude": 58.49269,
       "population": 7726,
-      "populationRank": 54,
+      "populationRank": 61,
       "isCapital": false
     },
     {
@@ -493,7 +557,7 @@
       "latitude": 42.01702,
       "longitude": 59.85543,
       "population": 7569,
-      "populationRank": 55,
+      "populationRank": 62,
       "isCapital": false
     },
     {
@@ -502,7 +566,7 @@
       "latitude": 40.00857,
       "longitude": 53.11245,
       "population": 7334,
-      "populationRank": 56,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -511,7 +575,7 @@
       "latitude": 41.83926,
       "longitude": 60.13172,
       "population": 7291,
-      "populationRank": 57,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -520,7 +584,7 @@
       "latitude": 40.48204,
       "longitude": 62.1586,
       "population": 7212,
-      "populationRank": 58,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -529,7 +593,7 @@
       "latitude": 37.60724,
       "longitude": 61.59394,
       "population": 7000,
-      "populationRank": 59,
+      "populationRank": 66,
       "isCapital": false
     },
     {
@@ -538,7 +602,16 @@
       "latitude": 42.37986,
       "longitude": 58.814,
       "population": 6770,
-      "populationRank": 60,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "13645711",
+      "name": "Gökdepe",
+      "latitude": 37.51497,
+      "longitude": 62.02253,
+      "population": 6767,
+      "populationRank": 68,
       "isCapital": false
     },
     {
@@ -547,7 +620,7 @@
       "latitude": 40.04231,
       "longitude": 53.12677,
       "population": 6750,
-      "populationRank": 61,
+      "populationRank": 69,
       "isCapital": false
     },
     {
@@ -556,7 +629,7 @@
       "latitude": 38.18249,
       "longitude": 58.11344,
       "population": 6547,
-      "populationRank": 62,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -565,7 +638,7 @@
       "latitude": 37.31924,
       "longitude": 61.08586,
       "population": 6430,
-      "populationRank": 63,
+      "populationRank": 71,
       "isCapital": false
     },
     {
@@ -574,7 +647,7 @@
       "latitude": 38.54346,
       "longitude": 57.15711,
       "population": 6014,
-      "populationRank": 64,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -584,7 +657,7 @@
       "latitude": 38.48457,
       "longitude": 64.15149,
       "population": 5509,
-      "populationRank": 65,
+      "populationRank": 73,
       "isCapital": false
     },
     {
@@ -593,7 +666,25 @@
       "latitude": 35.27992,
       "longitude": 62.34383,
       "population": 5200,
-      "populationRank": 66,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "13562365",
+      "name": "Täze eýýam",
+      "latitude": 38.17249,
+      "longitude": 58.04702,
+      "population": 5196,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "1219964",
+      "name": "Çäçe",
+      "latitude": 36.75594,
+      "longitude": 60.47195,
+      "population": 5067,
+      "populationRank": 76,
       "isCapital": false
     },
     {
@@ -602,7 +693,35 @@
       "latitude": 38.01102,
       "longitude": 65.56839,
       "population": 4942,
-      "populationRank": 67,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "1219688",
+      "name": "Burdalyk",
+      "nativeName": "Burdalyk obasy",
+      "latitude": 38.45272,
+      "longitude": 64.37514,
+      "population": 4558,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "12233939",
+      "name": "Gyzylgaýa",
+      "latitude": 38.7964,
+      "longitude": 63.91661,
+      "population": 4278,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "9642356",
+      "name": "Bowga",
+      "latitude": 38.1239,
+      "longitude": 57.99944,
+      "population": 4094,
+      "populationRank": 80,
       "isCapital": false
     },
     {
@@ -611,7 +730,7 @@
       "latitude": 38.06616,
       "longitude": 53.84091,
       "population": 3972,
-      "populationRank": 68,
+      "populationRank": 81,
       "isCapital": false
     },
     {
@@ -620,7 +739,7 @@
       "latitude": 38.97276,
       "longitude": 56.22742,
       "population": 3664,
-      "populationRank": 69,
+      "populationRank": 82,
       "isCapital": false
     },
     {
@@ -629,7 +748,43 @@
       "latitude": 37.03417,
       "longitude": 60.79656,
       "population": 3580,
-      "populationRank": 70,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "161538",
+      "name": "Gyzylbaýyr",
+      "latitude": 38.21968,
+      "longitude": 55.6507,
+      "population": 3516,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "1218292",
+      "name": "Tallymerjen",
+      "latitude": 38.15686,
+      "longitude": 65.50297,
+      "population": 3399,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "1218640",
+      "name": "Serhetçi",
+      "latitude": 35.29111,
+      "longitude": 62.39472,
+      "population": 3372,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "1219916",
+      "name": "Akgüzer",
+      "latitude": 37.29577,
+      "longitude": 62.26562,
+      "population": 2926,
+      "populationRank": 87,
       "isCapital": false
     },
     {
@@ -638,7 +793,16 @@
       "latitude": 37.64929,
       "longitude": 59.14795,
       "population": 2747,
-      "populationRank": 71,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "1218656",
+      "name": "Mekan",
+      "latitude": 38.27337,
+      "longitude": 64.57907,
+      "population": 2618,
+      "populationRank": 89,
       "isCapital": false
     },
     {
@@ -647,7 +811,61 @@
       "latitude": 37.51141,
       "longitude": 61.03798,
       "population": 2494,
-      "populationRank": 72,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "12233963",
+      "name": "Garaköl",
+      "latitude": 36.84757,
+      "longitude": 62.47731,
+      "population": 2474,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "9642358",
+      "name": "Bükri",
+      "latitude": 38.1064,
+      "longitude": 57.97853,
+      "population": 2316,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "13645737",
+      "name": "Zynhary",
+      "latitude": 38.11031,
+      "longitude": 64.74511,
+      "population": 2311,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "442580",
+      "name": "Gamyşlyja",
+      "latitude": 38.39325,
+      "longitude": 54.01664,
+      "population": 2086,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "161434",
+      "name": "Gulmaç",
+      "latitude": 39.05832,
+      "longitude": 55.93576,
+      "population": 1998,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "161784",
+      "name": "Hojagala",
+      "latitude": 38.711,
+      "longitude": 56.3399,
+      "population": 1917,
+      "populationRank": 96,
       "isCapital": false
     },
     {
@@ -656,7 +874,7 @@
       "latitude": 40.24698,
       "longitude": 52.74096,
       "population": 1853,
-      "populationRank": 73,
+      "populationRank": 97,
       "isCapital": false
     },
     {
@@ -665,7 +883,7 @@
       "latitude": 39.09159,
       "longitude": 63.49338,
       "population": 1825,
-      "populationRank": 74,
+      "populationRank": 98,
       "isCapital": false
     },
     {
@@ -674,7 +892,7 @@
       "latitude": 38.08881,
       "longitude": 62.79582,
       "population": 1727,
-      "populationRank": 75,
+      "populationRank": 99,
       "isCapital": false
     },
     {
@@ -683,7 +901,7 @@
       "latitude": 39.93853,
       "longitude": 53.84731,
       "population": 1720,
-      "populationRank": 76,
+      "populationRank": 100,
       "isCapital": false
     },
     {
@@ -692,7 +910,7 @@
       "latitude": 39.84849,
       "longitude": 54.4943,
       "population": 1715,
-      "populationRank": 77,
+      "populationRank": 101,
       "isCapital": false
     },
     {
@@ -702,7 +920,16 @@
       "latitude": 37.61185,
       "longitude": 61.92482,
       "population": 1674,
-      "populationRank": 78,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "1219915",
+      "name": "Alnyş",
+      "latitude": 37.26089,
+      "longitude": 62.38501,
+      "population": 1539,
+      "populationRank": 103,
       "isCapital": false
     },
     {
@@ -711,7 +938,7 @@
       "latitude": 37.79884,
       "longitude": 58.7103,
       "population": 1429,
-      "populationRank": 79,
+      "populationRank": 104,
       "isCapital": false
     },
     {
@@ -720,7 +947,34 @@
       "latitude": 37.95334,
       "longitude": 62.66572,
       "population": 1408,
-      "populationRank": 80,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "13580852",
+      "name": "Lälezar",
+      "latitude": 37.31136,
+      "longitude": 62.25485,
+      "population": 1336,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "161376",
+      "name": "Ýuwangala",
+      "latitude": 38.44526,
+      "longitude": 56.50009,
+      "population": 1286,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "161583",
+      "name": "Paraw",
+      "latitude": 39.03174,
+      "longitude": 56.06065,
+      "population": 1070,
+      "populationRank": 108,
       "isCapital": false
     },
     {
@@ -729,7 +983,34 @@
       "latitude": 40.62135,
       "longitude": 55.46694,
       "population": 993,
-      "populationRank": 81,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "601442",
+      "name": "Ýaňyajy",
+      "latitude": 40.02051,
+      "longitude": 53.32675,
+      "population": 970,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "162239",
+      "name": "Ak",
+      "latitude": 38.14726,
+      "longitude": 56.11912,
+      "population": 918,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "161609",
+      "name": "Nowata",
+      "latitude": 38.08318,
+      "longitude": 57.96868,
+      "population": 892,
+      "populationRank": 112,
       "isCapital": false
     },
     {
@@ -738,7 +1019,52 @@
       "latitude": 39.79766,
       "longitude": 53.01155,
       "population": 859,
-      "populationRank": 82,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "12226687",
+      "name": "Isgender",
+      "latitude": 39.07695,
+      "longitude": 55.9288,
+      "population": 858,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "601744",
+      "name": "Çagyl",
+      "latitude": 40.78463,
+      "longitude": 55.38126,
+      "population": 808,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "161877",
+      "name": "Garagöl",
+      "latitude": 39.37982,
+      "longitude": 53.17342,
+      "population": 765,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "161785",
+      "name": "Hojagala",
+      "latitude": 38.25177,
+      "longitude": 56.80995,
+      "population": 740,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "1218780",
+      "name": "Künjek",
+      "latitude": 37.56329,
+      "longitude": 66.42197,
+      "population": 735,
+      "populationRank": 118,
       "isCapital": false
     },
     {
@@ -747,7 +1073,61 @@
       "latitude": 39.33845,
       "longitude": 54.14929,
       "population": 730,
-      "populationRank": 83,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "12226650",
+      "name": "Hasan",
+      "latitude": 40.18009,
+      "longitude": 53.53447,
+      "population": 508,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "13580832",
+      "name": "Ýaşlyk bekedi",
+      "latitude": 37.76874,
+      "longitude": 58.90078,
+      "population": 419,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "1218645",
+      "name": "Mürzeçyrla",
+      "latitude": 39.58297,
+      "longitude": 60.04285,
+      "population": 390,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "13546192",
+      "name": "Garaşsyzlyk",
+      "latitude": 40.07036,
+      "longitude": 53.07992,
+      "population": 211,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "12226649",
+      "name": "Sülmen",
+      "latitude": 40.42043,
+      "longitude": 53.31244,
+      "population": 195,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "13562168",
+      "name": "Garateňir",
+      "latitude": 40.02211,
+      "longitude": 53.50741,
+      "population": 114,
+      "populationRank": 125,
       "isCapital": false
     },
     {
@@ -756,7 +1136,7 @@
       "latitude": 37.41408,
       "longitude": 66.33468,
       "population": 16,
-      "populationRank": 84,
+      "populationRank": 126,
       "isCapital": false
     }
   ]

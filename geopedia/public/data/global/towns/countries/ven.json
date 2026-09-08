@@ -56,8 +56,7 @@
     },
     {
       "id": "3778045",
-      "name": "Maturin",
-      "nativeName": "Maturín",
+      "name": "Maturín",
       "latitude": 9.74569,
       "longitude": -63.18323,
       "population": 647459,
@@ -75,8 +74,7 @@
     },
     {
       "id": "3645532",
-      "name": "Ciudad Bolivar",
-      "nativeName": "Ciudad Bolívar",
+      "name": "Ciudad Bolívar",
       "latitude": 8.12366,
       "longitude": -63.54694,
       "population": 412619,
@@ -85,8 +83,7 @@
     },
     {
       "id": "3644768",
-      "name": "Cumana",
-      "nativeName": "Cumaná",
+      "name": "Cumaná",
       "latitude": 10.4639,
       "longitude": -64.17859,
       "population": 405626,
@@ -140,8 +137,7 @@
     },
     {
       "id": "3628473",
-      "name": "San Cristobal",
-      "nativeName": "San Cristóbal",
+      "name": "San Cristóbal",
       "latitude": 7.76593,
       "longitude": -72.23576,
       "population": 289852,
@@ -330,7 +326,7 @@
     },
     {
       "id": "3628053",
-      "name": "San Juan de los Morros",
+      "name": "San Juan de Los Morros",
       "latitude": 9.91246,
       "longitude": -67.35398,
       "population": 160868,
@@ -348,8 +344,7 @@
     },
     {
       "id": "3642833",
-      "name": "El Limon",
-      "nativeName": "El Limón",
+      "name": "El Limón",
       "latitude": 10.30589,
       "longitude": -67.63212,
       "population": 148247,
@@ -583,8 +578,7 @@
     },
     {
       "id": "3638374",
-      "name": "La Canada de Urdaneta",
-      "nativeName": "La Cañada de Urdaneta",
+      "name": "La Cañada de Urdaneta",
       "latitude": 10.4119,
       "longitude": -71.68919,
       "population": 92463,
@@ -748,8 +742,7 @@
     },
     {
       "id": "3631878",
-      "name": "Moron",
-      "nativeName": "Morón",
+      "name": "Morón",
       "latitude": 10.48715,
       "longitude": -68.20078,
       "population": 68084,
@@ -1052,7 +1045,6 @@
     {
       "id": "3629790",
       "name": "Pueblo Nuevo El Chivo",
-      "nativeName": "Pueblo Nuevo - El Chivo",
       "latitude": 8.96249,
       "longitude": -71.60754,
       "population": 41740,
@@ -1233,8 +1225,7 @@
     },
     {
       "id": "3480908",
-      "name": "La Asuncion",
-      "nativeName": "La Asunción",
+      "name": "La Asunción",
       "latitude": 11.03333,
       "longitude": -63.86278,
       "population": 35084,
@@ -1786,8 +1777,7 @@
     },
     {
       "id": "3648127",
-      "name": "Boconoito",
-      "nativeName": "Boconoíto",
+      "name": "Boconoíto",
       "latitude": 8.84659,
       "longitude": -69.98032,
       "population": 18086,
@@ -1819,6 +1809,252 @@
       "longitude": -68.97278,
       "population": 17402,
       "populationRank": 200,
+      "isCapital": false
+    },
+    {
+      "id": "3645727",
+      "name": "Chiquinquirá",
+      "nativeName": "La Ensenada",
+      "latitude": 10.44333,
+      "longitude": -71.64722,
+      "population": 17271,
+      "populationRank": 201,
+      "isCapital": false
+    },
+    {
+      "id": "3638904",
+      "name": "La Azulita",
+      "latitude": 8.71364,
+      "longitude": -71.44421,
+      "population": 17111,
+      "populationRank": 202,
+      "isCapital": false
+    },
+    {
+      "id": "3643353",
+      "name": "El Dorado",
+      "latitude": 6.71581,
+      "longitude": -61.63738,
+      "population": 16100,
+      "populationRank": 203,
+      "isCapital": false
+    },
+    {
+      "id": "3625155",
+      "name": "Yumare",
+      "latitude": 10.59703,
+      "longitude": -68.67328,
+      "population": 15661,
+      "populationRank": 204,
+      "isCapital": false
+    },
+    {
+      "id": "3625519",
+      "name": "Valle de Guanape",
+      "latitude": 9.90999,
+      "longitude": -65.67405,
+      "population": 14983,
+      "populationRank": 205,
+      "isCapital": false
+    },
+    {
+      "id": "3629593",
+      "name": "Punta Gorda",
+      "latitude": 10.33407,
+      "longitude": -71.41352,
+      "population": 14855,
+      "populationRank": 206,
+      "isCapital": false
+    },
+    {
+      "id": "3634696",
+      "name": "Lobatera",
+      "latitude": 7.93005,
+      "longitude": -72.24679,
+      "population": 14041,
+      "populationRank": 207,
+      "isCapital": false
+    },
+    {
+      "id": "3625239",
+      "name": "Yaguaraparo",
+      "latitude": 10.56839,
+      "longitude": -62.82628,
+      "population": 13610,
+      "populationRank": 208,
+      "isCapital": false
+    },
+    {
+      "id": "3634761",
+      "name": "Libertad",
+      "latitude": 8.32709,
+      "longitude": -69.63093,
+      "population": 13251,
+      "populationRank": 209,
+      "isCapital": false
+    },
+    {
+      "id": "3628619",
+      "name": "San Antonio",
+      "nativeName": "San Antonio de Capayacuar",
+      "latitude": 10.11914,
+      "longitude": -63.72535,
+      "population": 12522,
+      "populationRank": 210,
+      "isCapital": false
+    },
+    {
+      "id": "3645806",
+      "name": "Chichiriviche",
+      "latitude": 10.92872,
+      "longitude": -68.27283,
+      "population": 12500,
+      "populationRank": 211,
+      "isCapital": false
+    },
+    {
+      "id": "3628394",
+      "name": "San Fernando de Atabapo",
+      "latitude": 4.04564,
+      "longitude": -67.69934,
+      "population": 11929,
+      "populationRank": 212,
+      "isCapital": false
+    },
+    {
+      "id": "3627969",
+      "name": "San Mateo",
+      "latitude": 9.74004,
+      "longitude": -64.54937,
+      "population": 11670,
+      "populationRank": 213,
+      "isCapital": false
+    },
+    {
+      "id": "3648163",
+      "name": "Boca de Uchire",
+      "latitude": 10.13191,
+      "longitude": -65.42236,
+      "population": 10904,
+      "populationRank": 214,
+      "isCapital": false
+    },
+    {
+      "id": "3644163",
+      "name": "El Baúl",
+      "latitude": 8.96225,
+      "longitude": -68.29511,
+      "population": 10760,
+      "populationRank": 215,
+      "isCapital": false
+    },
+    {
+      "id": "3648215",
+      "name": "Boca de Aroa",
+      "latitude": 10.68229,
+      "longitude": -68.29829,
+      "population": 10033,
+      "populationRank": 216,
+      "isCapital": false
+    },
+    {
+      "id": "3626150",
+      "name": "Tocuyo de La Costa",
+      "latitude": 11.0357,
+      "longitude": -68.37448,
+      "population": 9504,
+      "populationRank": 217,
+      "isCapital": false
+    },
+    {
+      "id": "3648915",
+      "name": "Aricagua",
+      "latitude": 10.23861,
+      "longitude": -63.89761,
+      "population": 9272,
+      "populationRank": 218,
+      "isCapital": false
+    },
+    {
+      "id": "3631752",
+      "name": "Mucuchíes",
+      "latitude": 8.74921,
+      "longitude": -70.91978,
+      "population": 8880,
+      "populationRank": 219,
+      "isCapital": false
+    },
+    {
+      "id": "3625051",
+      "name": "Zea",
+      "latitude": 8.37706,
+      "longitude": -71.78398,
+      "population": 8713,
+      "populationRank": 220,
+      "isCapital": false
+    },
+    {
+      "id": "3628025",
+      "name": "San Lorenzo",
+      "latitude": 10.22301,
+      "longitude": -63.92452,
+      "population": 8343,
+      "populationRank": 221,
+      "isCapital": false
+    },
+    {
+      "id": "3648231",
+      "name": "Bobures",
+      "latitude": 9.24173,
+      "longitude": -71.17506,
+      "population": 8012,
+      "populationRank": 222,
+      "isCapital": false
+    },
+    {
+      "id": "3627798",
+      "name": "San Pedro de Coche",
+      "latitude": 10.78153,
+      "longitude": -63.99636,
+      "population": 6704,
+      "populationRank": 223,
+      "isCapital": false
+    },
+    {
+      "id": "3648972",
+      "name": "Arenas",
+      "latitude": 10.27931,
+      "longitude": -63.93725,
+      "population": 6312,
+      "populationRank": 224,
+      "isCapital": false
+    },
+    {
+      "id": "3625644",
+      "name": "Urica",
+      "latitude": 9.71404,
+      "longitude": -64.00759,
+      "population": 4517,
+      "populationRank": 225,
+      "isCapital": false
+    },
+    {
+      "id": "3627633",
+      "name": "San Simón",
+      "latitude": 8.35018,
+      "longitude": -71.85114,
+      "population": 2085,
+      "populationRank": 226,
+      "isCapital": false
+    },
+    {
+      "id": "3641622",
+      "name": "Los Roques",
+      "nativeName": "Gran Roque",
+      "latitude": 11.94836,
+      "longitude": -66.67835,
+      "population": 1471,
+      "populationRank": 227,
       "isCapital": false
     }
   ]

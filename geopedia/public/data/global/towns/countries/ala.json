@@ -10,12 +10,31 @@
       "isCapital": true
     },
     {
+      "id": "630705",
+      "name": "Ytterby",
+      "latitude": 60.16667,
+      "longitude": 20.01667,
+      "population": 6384,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "13527044",
+      "name": "Yomala",
+      "nativeName": "Ingby",
+      "latitude": 60.16689,
+      "longitude": 19.93341,
+      "population": 5789,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
       "id": "3041760",
       "name": "Jomala",
       "latitude": 60.14902,
       "longitude": 19.951,
       "population": 3662,
-      "populationRank": 2,
+      "populationRank": 4,
       "isCapital": false
     },
     {
@@ -24,7 +43,7 @@
       "latitude": 60.07178,
       "longitude": 20.08472,
       "population": 1829,
-      "populationRank": 3,
+      "populationRank": 5,
       "isCapital": false
     },
     {
@@ -33,7 +52,7 @@
       "latitude": 60.28333,
       "longitude": 20.05,
       "population": 1691,
-      "populationRank": 4,
+      "populationRank": 6,
       "isCapital": false
     },
     {
@@ -42,7 +61,7 @@
       "latitude": 60.21667,
       "longitude": 19.75,
       "population": 1395,
-      "populationRank": 5,
+      "populationRank": 7,
       "isCapital": false
     },
     {
@@ -51,7 +70,7 @@
       "latitude": 60.22995,
       "longitude": 19.9881,
       "population": 1369,
-      "populationRank": 6,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -60,7 +79,7 @@
       "latitude": 60.25,
       "longitude": 20.11667,
       "population": 1016,
-      "populationRank": 7,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -69,7 +88,7 @@
       "latitude": 60.21249,
       "longitude": 19.61442,
       "population": 959,
-      "populationRank": 8,
+      "populationRank": 10,
       "isCapital": false
     },
     {
@@ -78,7 +97,7 @@
       "latitude": 60.01392,
       "longitude": 20.41377,
       "population": 632,
-      "populationRank": 9,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -87,7 +106,7 @@
       "latitude": 60.41165,
       "longitude": 21.04534,
       "population": 515,
-      "populationRank": 10,
+      "populationRank": 12,
       "isCapital": false
     },
     {
@@ -96,7 +115,7 @@
       "latitude": 60.37453,
       "longitude": 19.84455,
       "population": 452,
-      "populationRank": 11,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -105,7 +124,7 @@
       "latitude": 60.25,
       "longitude": 20.38333,
       "population": 411,
-      "populationRank": 12,
+      "populationRank": 14,
       "isCapital": false
     },
     {
@@ -114,7 +133,7 @@
       "latitude": 60.26013,
       "longitude": 20.77892,
       "population": 384,
-      "populationRank": 13,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -123,7 +142,7 @@
       "latitude": 59.92051,
       "longitude": 20.90883,
       "population": 355,
-      "populationRank": 14,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -132,7 +151,17 @@
       "latitude": 60.11695,
       "longitude": 20.25819,
       "population": 335,
-      "populationRank": 15,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "643718",
+      "name": "Önningby",
+      "nativeName": "Önningeby",
+      "latitude": 60.11754,
+      "longitude": 20.00782,
+      "population": 214,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -141,7 +170,7 @@
       "latitude": 60.13023,
       "longitude": 20.66683,
       "population": 144,
-      "populationRank": 16,
+      "populationRank": 19,
       "isCapital": false
     }
   ]

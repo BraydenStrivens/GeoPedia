@@ -155,12 +155,21 @@
       "isCapital": false
     },
     {
+      "id": "2367656",
+      "name": "Bafilo",
+      "latitude": 9.35,
+      "longitude": 1.26667,
+      "population": 22543,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
       "id": "2364041",
       "name": "Tabligbo",
       "latitude": 6.58333,
       "longitude": 1.5,
       "population": 22304,
-      "populationRank": 18,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -169,7 +178,7 @@
       "latitude": 6.33333,
       "longitude": 1.53333,
       "population": 20569,
-      "populationRank": 19,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -179,7 +188,7 @@
       "latitude": 9.95778,
       "longitude": 1.04472,
       "population": 12970,
-      "populationRank": 20,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -188,7 +197,7 @@
       "latitude": 7.46667,
       "longitude": 0.9,
       "population": 9870,
-      "populationRank": 21,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -197,16 +206,34 @@
       "latitude": 8.32335,
       "longitude": 0.98595,
       "population": 9735,
-      "populationRank": 22,
+      "populationRank": 23,
       "isCapital": false
     },
     {
       "id": "2366445",
-      "name": "Guérin-Kouka",
+      "name": "Guérin Kouka",
       "latitude": 9.69056,
       "longitude": 0.61139,
       "population": 9570,
-      "populationRank": 23,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2368574",
+      "name": "Adéta",
+      "latitude": 7.13333,
+      "longitude": 0.73333,
+      "population": 8499,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "2365571",
+      "name": "Pagouda",
+      "latitude": 9.7525,
+      "longitude": 1.32778,
+      "population": 7686,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -215,7 +242,36 @@
       "latitude": 7.03333,
       "longitude": 1.61667,
       "population": 6767,
-      "populationRank": 24,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2366775",
+      "name": "Elavagnon",
+      "nativeName": "Danyi Élavagnon",
+      "latitude": 7.28333,
+      "longitude": 0.71667,
+      "population": 6680,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2365673",
+      "name": "Kouniohou",
+      "nativeName": "Kougnohou",
+      "latitude": 7.66667,
+      "longitude": 0.8,
+      "population": 5979,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "13132463",
+      "name": "Danyi Apéyémé",
+      "latitude": 7.20365,
+      "longitude": 0.69563,
+      "population": 5850,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -224,7 +280,34 @@
       "latitude": 10.85,
       "longitude": 0.81667,
       "population": 5203,
-      "populationRank": 25,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2368301",
+      "name": "Agou Gadzépé",
+      "latitude": 6.88333,
+      "longitude": 0.73333,
+      "population": 4485,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2366041",
+      "name": "Kévé",
+      "latitude": 6.43333,
+      "longitude": 0.93333,
+      "population": 4441,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "2363975",
+      "name": "Tandjouaré",
+      "latitude": 10.65583,
+      "longitude": 0.195,
+      "population": 1671,
+      "populationRank": 34,
       "isCapital": false
     }
   ]

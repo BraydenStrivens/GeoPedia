@@ -2,8 +2,7 @@
   "towns": [
     {
       "id": "2657896",
-      "name": "Zurich",
-      "nativeName": "Zürich",
+      "name": "Zürich",
       "latitude": 47.36667,
       "longitude": 8.55,
       "population": 415367,
@@ -133,7 +132,7 @@
     },
     {
       "id": "2660076",
-      "name": "La Chaux-de-Fonds",
+      "name": "La Chaux de Fonds",
       "latitude": 47.09993,
       "longitude": 6.82586,
       "population": 37942,
@@ -215,7 +214,7 @@
     },
     {
       "id": "2657941",
-      "name": "Yverdon-les-Bains",
+      "name": "Yverdon les Bains",
       "latitude": 46.77852,
       "longitude": 6.64115,
       "population": 30157,
@@ -380,8 +379,7 @@
     },
     {
       "id": "2660971",
-      "name": "Dubendorf",
-      "nativeName": "Dübendorf",
+      "name": "Dübendorf",
       "latitude": 47.39724,
       "longitude": 8.61872,
       "population": 19882,
@@ -471,12 +469,21 @@
       "isCapital": false
     },
     {
+      "id": "2659272",
+      "name": "Ostermundigen",
+      "latitude": 46.95694,
+      "longitude": 7.49019,
+      "population": 17772,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
       "id": "2660221",
       "name": "Jona",
       "latitude": 47.22983,
       "longitude": 8.83884,
       "population": 17655,
-      "populationRank": 52,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -485,7 +492,7 @@
       "latitude": 46.18396,
       "longitude": 6.10237,
       "population": 17302,
-      "populationRank": 53,
+      "populationRank": 54,
       "isCapital": false
     },
     {
@@ -495,7 +502,7 @@
       "latitude": 47.41551,
       "longitude": 9.25482,
       "population": 17043,
-      "populationRank": 54,
+      "populationRank": 55,
       "isCapital": false
     },
     {
@@ -504,7 +511,7 @@
       "latitude": 47.52271,
       "longitude": 7.64511,
       "population": 16927,
-      "populationRank": 55,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -513,7 +520,7 @@
       "latitude": 46.38318,
       "longitude": 6.23955,
       "population": 16797,
-      "populationRank": 56,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -522,7 +529,7 @@
       "latitude": 46.29192,
       "longitude": 7.53559,
       "population": 16790,
-      "populationRank": 57,
+      "populationRank": 58,
       "isCapital": false
     },
     {
@@ -531,7 +538,7 @@
       "latitude": 47.20791,
       "longitude": 7.53714,
       "population": 16777,
-      "populationRank": 58,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -540,7 +547,7 @@
       "latitude": 47.18213,
       "longitude": 8.46358,
       "population": 16719,
-      "populationRank": 59,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -549,7 +556,7 @@
       "latitude": 47.05901,
       "longitude": 7.62786,
       "population": 16420,
-      "populationRank": 60,
+      "populationRank": 61,
       "isCapital": false
     },
     {
@@ -558,7 +565,7 @@
       "latitude": 47.45152,
       "longitude": 8.58491,
       "population": 16289,
-      "populationRank": 61,
+      "populationRank": 62,
       "isCapital": false
     },
     {
@@ -567,7 +574,7 @@
       "latitude": 46.51027,
       "longitude": 6.66183,
       "population": 16263,
-      "populationRank": 62,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -576,7 +583,7 @@
       "latitude": 47.1921,
       "longitude": 7.39586,
       "population": 15927,
-      "populationRank": 63,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -585,7 +592,7 @@
       "latitude": 47.12849,
       "longitude": 8.74735,
       "population": 15867,
-      "populationRank": 64,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -594,7 +601,7 @@
       "latitude": 46.17086,
       "longitude": 8.79953,
       "population": 15824,
-      "populationRank": 65,
+      "populationRank": 66,
       "isCapital": false
     },
     {
@@ -603,7 +610,7 @@
       "latitude": 47.38615,
       "longitude": 9.27916,
       "population": 15744,
-      "populationRank": 66,
+      "populationRank": 67,
       "isCapital": false
     },
     {
@@ -612,7 +619,7 @@
       "latitude": 46.77807,
       "longitude": 7.63249,
       "population": 15709,
-      "populationRank": 67,
+      "populationRank": 68,
       "isCapital": false
     },
     {
@@ -621,7 +628,17 @@
       "latitude": 46.51127,
       "longitude": 6.49854,
       "population": 15705,
-      "populationRank": 68,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "6295531",
+      "name": "Seen (Kreis 3)",
+      "nativeName": "Gotzenwil",
+      "latitude": 47.47646,
+      "longitude": 8.76996,
+      "population": 15434,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -630,7 +647,7 @@
       "latitude": 47.30997,
       "longitude": 8.52462,
       "population": 15230,
-      "populationRank": 69,
+      "populationRank": 71,
       "isCapital": false
     },
     {
@@ -639,7 +656,7 @@
       "latitude": 47.02076,
       "longitude": 8.65414,
       "population": 15181,
-      "populationRank": 70,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -648,7 +665,7 @@
       "latitude": 45.87019,
       "longitude": 8.9816,
       "population": 14942,
-      "populationRank": 71,
+      "populationRank": 73,
       "isCapital": false
     },
     {
@@ -657,7 +674,7 @@
       "latitude": 47.52071,
       "longitude": 7.69356,
       "population": 14877,
-      "populationRank": 72,
+      "populationRank": 74,
       "isCapital": false
     },
     {
@@ -666,7 +683,16 @@
       "latitude": 47.51667,
       "longitude": 9.43333,
       "population": 14631,
-      "populationRank": 73,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "2660721",
+      "name": "Freienbach",
+      "latitude": 47.20534,
+      "longitude": 8.75842,
+      "population": 14302,
+      "populationRank": 76,
       "isCapital": false
     },
     {
@@ -675,7 +701,7 @@
       "latitude": 47.27232,
       "longitude": 8.64617,
       "population": 14207,
-      "populationRank": 74,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -684,7 +710,7 @@
       "latitude": 47.21526,
       "longitude": 7.79607,
       "population": 14184,
-      "populationRank": 75,
+      "populationRank": 78,
       "isCapital": false
     },
     {
@@ -693,7 +719,7 @@
       "latitude": 47.54021,
       "longitude": 7.56932,
       "population": 14130,
-      "populationRank": 76,
+      "populationRank": 79,
       "isCapital": false
     },
     {
@@ -702,7 +728,7 @@
       "latitude": 47.35066,
       "longitude": 8.27517,
       "population": 13875,
-      "populationRank": 77,
+      "populationRank": 80,
       "isCapital": false
     },
     {
@@ -711,7 +737,7 @@
       "latitude": 47.29175,
       "longitude": 8.56351,
       "population": 13296,
-      "populationRank": 78,
+      "populationRank": 81,
       "isCapital": false
     },
     {
@@ -720,7 +746,16 @@
       "latitude": 47.22683,
       "longitude": 8.6687,
       "population": 13269,
-      "populationRank": 79,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "2660088",
+      "name": "Küssnacht",
+      "latitude": 47.08557,
+      "longitude": 8.44206,
+      "population": 13084,
+      "populationRank": 83,
       "isCapital": false
     },
     {
@@ -729,7 +764,7 @@
       "latitude": 46.18815,
       "longitude": 6.19904,
       "population": 13057,
-      "populationRank": 80,
+      "populationRank": 84,
       "isCapital": false
     },
     {
@@ -739,7 +774,7 @@
       "latitude": 46.93122,
       "longitude": 7.48658,
       "population": 13054,
-      "populationRank": 81,
+      "populationRank": 85,
       "isCapital": false
     },
     {
@@ -748,7 +783,7 @@
       "latitude": 47.43653,
       "longitude": 9.13422,
       "population": 12885,
-      "populationRank": 82,
+      "populationRank": 86,
       "isCapital": false
     },
     {
@@ -757,7 +792,7 @@
       "latitude": 47.48455,
       "longitude": 7.73446,
       "population": 12832,
-      "populationRank": 83,
+      "populationRank": 87,
       "isCapital": false
     },
     {
@@ -766,7 +801,7 @@
       "latitude": 47.39668,
       "longitude": 8.44763,
       "population": 12695,
-      "populationRank": 84,
+      "populationRank": 88,
       "isCapital": false
     },
     {
@@ -775,7 +810,7 @@
       "latitude": 47.36493,
       "longitude": 7.34453,
       "population": 12682,
-      "populationRank": 85,
+      "populationRank": 89,
       "isCapital": false
     },
     {
@@ -784,7 +819,7 @@
       "latitude": 46.68473,
       "longitude": 7.69111,
       "population": 12594,
-      "populationRank": 86,
+      "populationRank": 90,
       "isCapital": false
     },
     {
@@ -793,7 +828,7 @@
       "latitude": 47.04057,
       "longitude": 9.06804,
       "population": 12425,
-      "populationRank": 87,
+      "populationRank": 91,
       "isCapital": false
     },
     {
@@ -802,7 +837,7 @@
       "latitude": 47.01692,
       "longitude": 8.30956,
       "population": 12348,
-      "populationRank": 88,
+      "populationRank": 92,
       "isCapital": false
     },
     {
@@ -811,7 +846,17 @@
       "latitude": 47.27743,
       "longitude": 8.45128,
       "population": 12226,
-      "populationRank": 89,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "2659219",
+      "name": "Pfäffikon",
+      "nativeName": "Pfäffikon ZH",
+      "latitude": 47.36453,
+      "longitude": 8.79202,
+      "population": 11931,
+      "populationRank": 94,
       "isCapital": false
     },
     {
@@ -820,7 +865,7 @@
       "latitude": 47.42285,
       "longitude": 8.36792,
       "population": 11875,
-      "populationRank": 90,
+      "populationRank": 95,
       "isCapital": false
     },
     {
@@ -829,7 +874,7 @@
       "latitude": 47.41499,
       "longitude": 8.59672,
       "population": 11705,
-      "populationRank": 91,
+      "populationRank": 96,
       "isCapital": false
     },
     {
@@ -838,7 +883,7 @@
       "latitude": 47.28779,
       "longitude": 7.94586,
       "population": 11655,
-      "populationRank": 92,
+      "populationRank": 97,
       "isCapital": false
     },
     {
@@ -847,7 +892,7 @@
       "latitude": 47.51848,
       "longitude": 7.60966,
       "population": 11644,
-      "populationRank": 93,
+      "populationRank": 98,
       "isCapital": false
     },
     {
@@ -856,7 +901,7 @@
       "latitude": 46.97434,
       "longitude": 7.48281,
       "population": 11546,
-      "populationRank": 94,
+      "populationRank": 99,
       "isCapital": false
     },
     {
@@ -866,7 +911,7 @@
       "latitude": 47.31805,
       "longitude": 8.58401,
       "population": 11525,
-      "populationRank": 95,
+      "populationRank": 100,
       "isCapital": false
     },
     {
@@ -875,7 +920,7 @@
       "latitude": 47.07937,
       "longitude": 8.34041,
       "population": 11471,
-      "populationRank": 96,
+      "populationRank": 101,
       "isCapital": false
     },
     {
@@ -884,7 +929,7 @@
       "latitude": 46.28382,
       "longitude": 6.16214,
       "population": 11467,
-      "populationRank": 97,
+      "populationRank": 102,
       "isCapital": false
     },
     {
@@ -893,7 +938,7 @@
       "latitude": 47.54699,
       "longitude": 9.29586,
       "population": 11351,
-      "populationRank": 98,
+      "populationRank": 103,
       "isCapital": false
     },
     {
@@ -902,7 +947,16 @@
       "latitude": 47.48096,
       "longitude": 8.20869,
       "population": 11177,
-      "populationRank": 99,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "2660338",
+      "name": "Hinwil",
+      "latitude": 47.29426,
+      "longitude": 8.84393,
+      "population": 11135,
+      "populationRank": 105,
       "isCapital": false
     },
     {
@@ -911,7 +965,16 @@
       "latitude": 46.92984,
       "longitude": 7.56306,
       "population": 11053,
-      "populationRank": 100,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "2659018",
+      "name": "Risch",
+      "latitude": 47.13351,
+      "longitude": 8.46514,
+      "population": 10990,
+      "populationRank": 107,
       "isCapital": false
     },
     {
@@ -920,7 +983,7 @@
       "latitude": 47.0741,
       "longitude": 7.30655,
       "population": 10937,
-      "populationRank": 101,
+      "populationRank": 108,
       "isCapital": false
     },
     {
@@ -929,7 +992,7 @@
       "latitude": 46.87298,
       "longitude": 7.561,
       "population": 10928,
-      "populationRank": 102,
+      "populationRank": 109,
       "isCapital": false
     },
     {
@@ -938,7 +1001,7 @@
       "latitude": 46.80429,
       "longitude": 9.83723,
       "population": 10898,
-      "populationRank": 103,
+      "populationRank": 110,
       "isCapital": false
     },
     {
@@ -947,7 +1010,7 @@
       "latitude": 47.55437,
       "longitude": 7.79403,
       "population": 10733,
-      "populationRank": 104,
+      "populationRank": 111,
       "isCapital": false
     },
     {
@@ -956,7 +1019,7 @@
       "latitude": 46.42082,
       "longitude": 6.2701,
       "population": 10641,
-      "populationRank": 105,
+      "populationRank": 112,
       "isCapital": false
     },
     {
@@ -966,7 +1029,7 @@
       "latitude": 47.37766,
       "longitude": 9.54746,
       "population": 10574,
-      "populationRank": 106,
+      "populationRank": 113,
       "isCapital": false
     },
     {
@@ -975,16 +1038,16 @@
       "latitude": 47.38853,
       "longitude": 8.17503,
       "population": 10569,
-      "populationRank": 107,
+      "populationRank": 114,
       "isCapital": false
     },
     {
       "id": "2659190",
-      "name": "Plan-les-Ouates",
+      "name": "Plan les Ouates",
       "latitude": 46.16789,
       "longitude": 6.11664,
       "population": 10540,
-      "populationRank": 108,
+      "populationRank": 115,
       "isCapital": false
     },
     {
@@ -993,25 +1056,25 @@
       "latitude": 46.53698,
       "longitude": 6.60456,
       "population": 10524,
-      "populationRank": 109,
+      "populationRank": 116,
       "isCapital": false
     },
     {
       "id": "2660008",
-      "name": "La Tour-de-Peilz",
+      "name": "La Tour de Peilz",
       "latitude": 46.45312,
       "longitude": 6.85856,
       "population": 10522,
-      "populationRank": 110,
+      "populationRank": 117,
       "isCapital": false
     },
     {
       "id": "3209498",
-      "name": "Chêne-Bougeries",
+      "name": "Chêne Bougeries",
       "latitude": 46.19843,
       "longitude": 6.18642,
       "population": 10487,
-      "populationRank": 111,
+      "populationRank": 118,
       "isCapital": false
     },
     {
@@ -1020,7 +1083,7 @@
       "latitude": 47.14283,
       "longitude": 8.4314,
       "population": 10439,
-      "populationRank": 112,
+      "populationRank": 119,
       "isCapital": false
     },
     {
@@ -1030,7 +1093,7 @@
       "latitude": 47.16743,
       "longitude": 9.47794,
       "population": 10418,
-      "populationRank": 113,
+      "populationRank": 120,
       "isCapital": false
     },
     {
@@ -1039,7 +1102,7 @@
       "latitude": 47.31382,
       "longitude": 7.92533,
       "population": 10390,
-      "populationRank": 114,
+      "populationRank": 121,
       "isCapital": false
     },
     {
@@ -1048,7 +1111,7 @@
       "latitude": 46.89611,
       "longitude": 8.24531,
       "population": 10368,
-      "populationRank": 115,
+      "populationRank": 122,
       "isCapital": false
     },
     {
@@ -1058,7 +1121,7 @@
       "latitude": 46.52899,
       "longitude": 6.56261,
       "population": 10262,
-      "populationRank": 116,
+      "populationRank": 123,
       "isCapital": false
     },
     {
@@ -1067,7 +1130,7 @@
       "latitude": 47.5529,
       "longitude": 7.62322,
       "population": 10232,
-      "populationRank": 117,
+      "populationRank": 124,
       "isCapital": false
     },
     {
@@ -1076,7 +1139,7 @@
       "latitude": 47.05619,
       "longitude": 6.74913,
       "population": 10216,
-      "populationRank": 118,
+      "populationRank": 125,
       "isCapital": false
     },
     {
@@ -1085,7 +1148,7 @@
       "latitude": 47.20622,
       "longitude": 8.69686,
       "population": 10189,
-      "populationRank": 119,
+      "populationRank": 126,
       "isCapital": false
     },
     {
@@ -1095,7 +1158,7 @@
       "latitude": 47.51407,
       "longitude": 7.55786,
       "population": 10187,
-      "populationRank": 120,
+      "populationRank": 127,
       "isCapital": false
     },
     {
@@ -1105,7 +1168,7 @@
       "latitude": 47.47104,
       "longitude": 7.5973,
       "population": 10138,
-      "populationRank": 121,
+      "populationRank": 128,
       "isCapital": false
     },
     {
@@ -1114,16 +1177,16 @@
       "latitude": 46.3181,
       "longitude": 6.96457,
       "population": 10134,
-      "populationRank": 122,
+      "populationRank": 129,
       "isCapital": false
     },
     {
       "id": "2658128",
-      "name": "Villars-sur-Glâne",
+      "name": "Villars sur Glâne",
       "latitude": 46.79054,
       "longitude": 7.11717,
       "population": 10021,
-      "populationRank": 123,
+      "populationRank": 130,
       "isCapital": false
     },
     {
@@ -1133,7 +1196,7 @@
       "latitude": 47.68579,
       "longitude": 8.61474,
       "population": 10019,
-      "populationRank": 124,
+      "populationRank": 131,
       "isCapital": false
     },
     {
@@ -1142,7 +1205,7 @@
       "latitude": 47.17088,
       "longitude": 8.11113,
       "population": 9953,
-      "populationRank": 125,
+      "populationRank": 132,
       "isCapital": false
     },
     {
@@ -1151,7 +1214,7 @@
       "latitude": 46.82192,
       "longitude": 6.93817,
       "population": 9943,
-      "populationRank": 126,
+      "populationRank": 133,
       "isCapital": false
     },
     {
@@ -1160,16 +1223,34 @@
       "latitude": 47.06337,
       "longitude": 8.52349,
       "population": 9850,
-      "populationRank": 127,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "2659552",
+      "name": "Münchenbuchsee",
+      "latitude": 47.02175,
+      "longitude": 7.45036,
+      "population": 9801,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "2658143",
+      "name": "Veyrier",
+      "latitude": 46.16699,
+      "longitude": 6.18436,
+      "population": 9800,
+      "populationRank": 136,
       "isCapital": false
     },
     {
       "id": "2660532",
-      "name": "Le Grand-Saconnex",
+      "name": "Le Grand Saconnex",
       "latitude": 46.23188,
       "longitude": 6.12091,
       "population": 9781,
-      "populationRank": 128,
+      "populationRank": 137,
       "isCapital": false
     },
     {
@@ -1178,7 +1259,25 @@
       "latitude": 46.1765,
       "longitude": 6.07544,
       "population": 9759,
-      "populationRank": 129,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "8505040",
+      "name": "Widnau",
+      "latitude": 47.40834,
+      "longitude": 9.63321,
+      "population": 9756,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "2660762",
+      "name": "Flawil",
+      "latitude": 47.41301,
+      "longitude": 9.18324,
+      "population": 9739,
+      "populationRank": 140,
       "isCapital": false
     },
     {
@@ -1187,7 +1286,7 @@
       "latitude": 47.49941,
       "longitude": 7.55669,
       "population": 9595,
-      "populationRank": 130,
+      "populationRank": 141,
       "isCapital": false
     },
     {
@@ -1197,7 +1296,7 @@
       "latitude": 47.25603,
       "longitude": 8.85552,
       "population": 9576,
-      "populationRank": 131,
+      "populationRank": 142,
       "isCapital": false
     },
     {
@@ -1206,7 +1305,7 @@
       "latitude": 47.56667,
       "longitude": 9.1,
       "population": 9414,
-      "populationRank": 132,
+      "populationRank": 143,
       "isCapital": false
     },
     {
@@ -1216,7 +1315,7 @@
       "latitude": 46.88042,
       "longitude": 8.64441,
       "population": 9401,
-      "populationRank": 133,
+      "populationRank": 144,
       "isCapital": false
     },
     {
@@ -1225,7 +1324,7 @@
       "latitude": 47.55915,
       "longitude": 7.84329,
       "population": 9382,
-      "populationRank": 134,
+      "populationRank": 145,
       "isCapital": false
     },
     {
@@ -1234,7 +1333,7 @@
       "latitude": 47.37172,
       "longitude": 8.07967,
       "population": 9374,
-      "populationRank": 135,
+      "populationRank": 146,
       "isCapital": false
     },
     {
@@ -1243,7 +1342,34 @@
       "latitude": 46.89129,
       "longitude": 7.49825,
       "population": 9307,
-      "populationRank": 136,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "2661719",
+      "name": "Arlesheim",
+      "latitude": 47.49412,
+      "longitude": 7.61979,
+      "population": 9301,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "2657910",
+      "name": "Zuchwil",
+      "latitude": 47.20173,
+      "longitude": 7.56649,
+      "population": 9268,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "2660309",
+      "name": "Hombrechtikon",
+      "latitude": 47.25298,
+      "longitude": 8.77212,
+      "population": 9212,
+      "populationRank": 150,
       "isCapital": false
     },
     {
@@ -1252,7 +1378,35 @@
       "latitude": 47.38507,
       "longitude": 8.42581,
       "population": 9205,
-      "populationRank": 137,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "2660461",
+      "name": "Gstaad",
+      "latitude": 46.47215,
+      "longitude": 7.28685,
+      "population": 9200,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "2660860",
+      "name": "Eschenbach",
+      "nativeName": "Eschenbach SG",
+      "latitude": 47.23981,
+      "longitude": 8.92156,
+      "population": 9175,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "2657964",
+      "name": "Wohlen",
+      "latitude": 46.97118,
+      "longitude": 7.35685,
+      "population": 9159,
+      "populationRank": 154,
       "isCapital": false
     },
     {
@@ -1261,7 +1415,25 @@
       "latitude": 46.99905,
       "longitude": 7.45809,
       "population": 9121,
-      "populationRank": 138,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "2660575",
+      "name": "Goldach",
+      "latitude": 47.47401,
+      "longitude": 9.46711,
+      "population": 9094,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "2660292",
+      "name": "Hünenberg",
+      "latitude": 47.17536,
+      "longitude": 8.42497,
+      "population": 9032,
+      "populationRank": 157,
       "isCapital": false
     },
     {
@@ -1270,7 +1442,7 @@
       "latitude": 47.478,
       "longitude": 9.4903,
       "population": 9000,
-      "populationRank": 139,
+      "populationRank": 158,
       "isCapital": false
     },
     {
@@ -1279,7 +1451,45 @@
       "latitude": 47.56586,
       "longitude": 9.37869,
       "population": 8956,
-      "populationRank": 140,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "2660042",
+      "name": "Landquart",
+      "latitude": 46.95,
+      "longitude": 9.56667,
+      "population": 8886,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "2660942",
+      "name": "Egg",
+      "latitude": 47.29976,
+      "longitude": 8.69032,
+      "population": 8829,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "2661129",
+      "name": "Conthey",
+      "nativeName": "Plan-Conthey",
+      "latitude": 46.2237,
+      "longitude": 7.30283,
+      "population": 8792,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "2660032",
+      "name": "Langnau",
+      "nativeName": "Langnau im Emmental",
+      "latitude": 46.93936,
+      "longitude": 7.78738,
+      "population": 8784,
+      "populationRank": 163,
       "isCapital": false
     },
     {
@@ -1288,7 +1498,26 @@
       "latitude": 46.50241,
       "longitude": 6.68647,
       "population": 8774,
-      "populationRank": 141,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "2660075",
+      "name": "Lachen",
+      "nativeName": "Lachen SZ",
+      "latitude": 47.19224,
+      "longitude": 8.85324,
+      "population": 8754,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "2659690",
+      "name": "Mels",
+      "latitude": 47.04556,
+      "longitude": 9.42318,
+      "population": 8561,
+      "populationRank": 166,
       "isCapital": false
     },
     {
@@ -1297,7 +1526,16 @@
       "latitude": 47.46108,
       "longitude": 9.38601,
       "population": 8542,
-      "populationRank": 142,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "2658483",
+      "name": "Steinhausen",
+      "latitude": 47.1951,
+      "longitude": 8.48581,
+      "population": 8509,
+      "populationRank": 168,
       "isCapital": false
     },
     {
@@ -1306,7 +1544,44 @@
       "latitude": 46.95805,
       "longitude": 8.36609,
       "population": 8393,
-      "populationRank": 143,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "11048424",
+      "name": "Collonge Bellerive",
+      "latitude": 46.25061,
+      "longitude": 6.20174,
+      "population": 8299,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "2660332",
+      "name": "Hochdorf",
+      "latitude": 47.16841,
+      "longitude": 8.29179,
+      "population": 8192,
+      "populationRank": 171,
+      "isCapital": false
+    },
+    {
+      "id": "2660155",
+      "name": "Kirchberg",
+      "nativeName": "Kirchberg SG",
+      "latitude": 47.41159,
+      "longitude": 9.0402,
+      "population": 8127,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "2658042",
+      "name": "Wattwil",
+      "latitude": 47.29955,
+      "longitude": 9.08657,
+      "population": 8089,
+      "populationRank": 173,
       "isCapital": false
     },
     {
@@ -1315,7 +1590,43 @@
       "latitude": 45.83203,
       "longitude": 9.03119,
       "population": 8060,
-      "populationRank": 144,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "2659344",
+      "name": "Obersiggenthal",
+      "latitude": 47.4875,
+      "longitude": 8.29652,
+      "population": 7990,
+      "populationRank": 175,
+      "isCapital": false
+    },
+    {
+      "id": "2658264",
+      "name": "Unterägeri",
+      "latitude": 47.13645,
+      "longitude": 8.5853,
+      "population": 7973,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "2660261",
+      "name": "Ingenbohl",
+      "latitude": 46.9988,
+      "longitude": 8.61529,
+      "population": 7967,
+      "populationRank": 177,
+      "isCapital": false
+    },
+    {
+      "id": "2659490",
+      "name": "Neuenhof",
+      "latitude": 47.44985,
+      "longitude": 8.32682,
+      "population": 7957,
+      "populationRank": 178,
       "isCapital": false
     },
     {
@@ -1324,7 +1635,7 @@
       "latitude": 47.25686,
       "longitude": 8.69893,
       "population": 7951,
-      "populationRank": 145,
+      "populationRank": 179,
       "isCapital": false
     },
     {
@@ -1333,7 +1644,52 @@
       "latitude": 46.2937,
       "longitude": 7.88149,
       "population": 7948,
-      "populationRank": 146,
+      "populationRank": 180,
+      "isCapital": false
+    },
+    {
+      "id": "2661519",
+      "name": "Biberist",
+      "latitude": 47.18009,
+      "longitude": 7.56246,
+      "population": 7889,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "2659076",
+      "name": "Reinach",
+      "latitude": 47.25732,
+      "longitude": 8.18091,
+      "population": 7845,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "2657978",
+      "name": "Willisau",
+      "latitude": 47.12183,
+      "longitude": 7.99418,
+      "population": 7780,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "2660603",
+      "name": "Giubiasco",
+      "latitude": 46.17246,
+      "longitude": 9.00793,
+      "population": 7752,
+      "populationRank": 184,
+      "isCapital": false
+    },
+    {
+      "id": "2658696",
+      "name": "Schübelbach",
+      "latitude": 47.17326,
+      "longitude": 8.92811,
+      "population": 7745,
+      "populationRank": 185,
       "isCapital": false
     },
     {
@@ -1342,7 +1698,71 @@
       "latitude": 47.27818,
       "longitude": 7.36951,
       "population": 7721,
-      "populationRank": 147,
+      "populationRank": 186,
+      "isCapital": false
+    },
+    {
+      "id": "2660884",
+      "name": "Epalinges",
+      "latitude": 46.54896,
+      "longitude": 6.66831,
+      "population": 7706,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "2658953",
+      "name": "Rothenburg",
+      "latitude": 47.09566,
+      "longitude": 8.27228,
+      "population": 7678,
+      "populationRank": 188,
+      "isCapital": false
+    },
+    {
+      "id": "2659357",
+      "name": "Oberriet",
+      "nativeName": "Oberriet SG",
+      "latitude": 47.32088,
+      "longitude": 9.56808,
+      "population": 7675,
+      "populationRank": 189,
+      "isCapital": false
+    },
+    {
+      "id": "2659758",
+      "name": "Marly",
+      "latitude": 46.77611,
+      "longitude": 7.16459,
+      "population": 7653,
+      "populationRank": 190,
+      "isCapital": false
+    },
+    {
+      "id": "2661882",
+      "name": "Aadorf",
+      "latitude": 47.49204,
+      "longitude": 8.90099,
+      "population": 7620,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "2659391",
+      "name": "Oberentfelden",
+      "latitude": 47.35639,
+      "longitude": 8.04594,
+      "population": 7553,
+      "populationRank": 192,
+      "isCapital": false
+    },
+    {
+      "id": "2659510",
+      "name": "Naters",
+      "latitude": 46.32536,
+      "longitude": 7.98912,
+      "population": 7552,
+      "populationRank": 193,
       "isCapital": false
     },
     {
@@ -1351,7 +1771,16 @@
       "latitude": 47.4341,
       "longitude": 8.46874,
       "population": 7531,
-      "populationRank": 148,
+      "populationRank": 194,
+      "isCapital": false
+    },
+    {
+      "id": "2658952",
+      "name": "Rothrist",
+      "latitude": 47.30508,
+      "longitude": 7.89196,
+      "population": 7423,
+      "populationRank": 195,
       "isCapital": false
     },
     {
@@ -1360,7 +1789,26 @@
       "latitude": 46.5511,
       "longitude": 6.55597,
       "population": 7408,
-      "populationRank": 149,
+      "populationRank": 196,
+      "isCapital": false
+    },
+    {
+      "id": "7284712",
+      "name": "Rorschacherberg",
+      "latitude": 47.47313,
+      "longitude": 9.51116,
+      "population": 7382,
+      "populationRank": 197,
+      "isCapital": false
+    },
+    {
+      "id": "2659957",
+      "name": "Lengnau",
+      "nativeName": "Lengnau BE",
+      "latitude": 47.18155,
+      "longitude": 7.36814,
+      "population": 7336,
+      "populationRank": 198,
       "isCapital": false
     },
     {
@@ -1370,7 +1818,34 @@
       "latitude": 47.20109,
       "longitude": 8.77816,
       "population": 7310,
-      "populationRank": 150,
+      "populationRank": 199,
+      "isCapital": false
+    },
+    {
+      "id": "2660970",
+      "name": "Düdingen",
+      "latitude": 46.84916,
+      "longitude": 7.1915,
+      "population": 7155,
+      "populationRank": 200,
+      "isCapital": false
+    },
+    {
+      "id": "2658608",
+      "name": "Siebnen",
+      "latitude": 47.17449,
+      "longitude": 8.89781,
+      "population": 7104,
+      "populationRank": 201,
+      "isCapital": false
+    },
+    {
+      "id": "2660913",
+      "name": "Embrach",
+      "latitude": 47.50561,
+      "longitude": 8.59406,
+      "population": 7088,
+      "populationRank": 202,
       "isCapital": false
     },
     {
@@ -1379,7 +1854,72 @@
       "latitude": 47.44342,
       "longitude": 8.62851,
       "population": 7010,
-      "populationRank": 151,
+      "populationRank": 203,
+      "isCapital": false
+    },
+    {
+      "id": "6640317",
+      "name": "Langnau am Albis",
+      "nativeName": "Langnau",
+      "latitude": 47.28885,
+      "longitude": 8.5411,
+      "population": 7000,
+      "populationRank": 204,
+      "isCapital": false
+    },
+    {
+      "id": "2657955",
+      "name": "Wollerau",
+      "latitude": 47.19478,
+      "longitude": 8.71903,
+      "population": 6883,
+      "populationRank": 205,
+      "isCapital": false
+    },
+    {
+      "id": "2660277",
+      "name": "Igis",
+      "latitude": 46.94531,
+      "longitude": 9.57218,
+      "population": 6828,
+      "populationRank": 206,
+      "isCapital": false
+    },
+    {
+      "id": "2661879",
+      "name": "Aarburg",
+      "latitude": 47.32067,
+      "longitude": 7.89986,
+      "population": 6828,
+      "populationRank": 207,
+      "isCapital": false
+    },
+    {
+      "id": "2661001",
+      "name": "Domat",
+      "nativeName": "Domat/Ems",
+      "latitude": 46.83483,
+      "longitude": 9.45075,
+      "population": 6817,
+      "populationRank": 208,
+      "isCapital": false
+    },
+    {
+      "id": "2658680",
+      "name": "Schwarzenburg",
+      "latitude": 46.81811,
+      "longitude": 7.34208,
+      "population": 6744,
+      "populationRank": 209,
+      "isCapital": false
+    },
+    {
+      "id": "2659474",
+      "name": "Nidau",
+      "latitude": 47.12545,
+      "longitude": 7.24033,
+      "population": 6696,
+      "populationRank": 210,
       "isCapital": false
     },
     {
@@ -1388,7 +1928,45 @@
       "latitude": 47.41728,
       "longitude": 7.07573,
       "population": 6675,
-      "populationRank": 152,
+      "populationRank": 211,
+      "isCapital": false
+    },
+    {
+      "id": "2661689",
+      "name": "Au",
+      "nativeName": "Au SG",
+      "latitude": 47.43093,
+      "longitude": 9.63448,
+      "population": 6673,
+      "populationRank": 212,
+      "isCapital": false
+    },
+    {
+      "id": "2660707",
+      "name": "Frutigen",
+      "latitude": 46.58723,
+      "longitude": 7.64945,
+      "population": 6671,
+      "populationRank": 213,
+      "isCapital": false
+    },
+    {
+      "id": "2659298",
+      "name": "Ollon",
+      "nativeName": "Ollon VD",
+      "latitude": 46.29524,
+      "longitude": 6.99314,
+      "population": 6665,
+      "populationRank": 214,
+      "isCapital": false
+    },
+    {
+      "id": "2659658",
+      "name": "Minusio",
+      "latitude": 46.17769,
+      "longitude": 8.81473,
+      "population": 6653,
+      "populationRank": 215,
       "isCapital": false
     },
     {
@@ -1397,7 +1975,26 @@
       "latitude": 46.01998,
       "longitude": 7.74863,
       "population": 6629,
-      "populationRank": 153,
+      "populationRank": 216,
+      "isCapital": false
+    },
+    {
+      "id": "2661641",
+      "name": "Bagnes",
+      "nativeName": "Fontenelle-Dessous",
+      "latitude": 46.08333,
+      "longitude": 7.21667,
+      "population": 6626,
+      "populationRank": 217,
+      "isCapital": false
+    },
+    {
+      "id": "2658904",
+      "name": "Saanen",
+      "latitude": 46.48945,
+      "longitude": 7.26003,
+      "population": 6621,
+      "populationRank": 218,
       "isCapital": false
     },
     {
@@ -1406,7 +2003,26 @@
       "latitude": 46.54586,
       "longitude": 6.57567,
       "population": 6612,
-      "populationRank": 154,
+      "populationRank": 219,
+      "isCapital": false
+    },
+    {
+      "id": "2661348",
+      "name": "Buchs",
+      "nativeName": "Buchs AG",
+      "latitude": 47.39358,
+      "longitude": 8.08233,
+      "population": 6599,
+      "populationRank": 220,
+      "isCapital": false
+    },
+    {
+      "id": "2660523",
+      "name": "Gränichen",
+      "latitude": 47.3593,
+      "longitude": 8.10243,
+      "population": 6557,
+      "populationRank": 221,
       "isCapital": false
     },
     {
@@ -1416,7 +2032,260 @@
       "latitude": 47.35109,
       "longitude": 8.34214,
       "population": 6543,
-      "populationRank": 155,
+      "populationRank": 222,
+      "isCapital": false
+    },
+    {
+      "id": "2659708",
+      "name": "Meggen",
+      "latitude": 47.04691,
+      "longitude": 8.37467,
+      "population": 6533,
+      "populationRank": 223,
+      "isCapital": false
+    },
+    {
+      "id": "2660161",
+      "name": "Kilchberg",
+      "latitude": 47.32438,
+      "longitude": 8.54548,
+      "population": 6511,
+      "populationRank": 224,
+      "isCapital": false
+    },
+    {
+      "id": "2658575",
+      "name": "Sirnach",
+      "latitude": 47.46222,
+      "longitude": 8.99763,
+      "population": 6463,
+      "populationRank": 225,
+      "isCapital": false
+    },
+    {
+      "id": "2659531",
+      "name": "Muri",
+      "latitude": 47.27428,
+      "longitude": 8.33854,
+      "population": 6463,
+      "populationRank": 226,
+      "isCapital": false
+    },
+    {
+      "id": "2660989",
+      "name": "Dornach",
+      "latitude": 47.48038,
+      "longitude": 7.61644,
+      "population": 6449,
+      "populationRank": 227,
+      "isCapital": false
+    },
+    {
+      "id": "6620245",
+      "name": "Thal",
+      "latitude": 47.46677,
+      "longitude": 9.56643,
+      "population": 6433,
+      "populationRank": 228,
+      "isCapital": false
+    },
+    {
+      "id": "2658914",
+      "name": "Ruswil",
+      "latitude": 47.08425,
+      "longitude": 8.12645,
+      "population": 6432,
+      "populationRank": 229,
+      "isCapital": false
+    },
+    {
+      "id": "2660543",
+      "name": "Grabs",
+      "latitude": 47.18248,
+      "longitude": 9.44395,
+      "population": 6384,
+      "populationRank": 230,
+      "isCapital": false
+    },
+    {
+      "id": "2658237",
+      "name": "Untersiggenthal",
+      "latitude": 47.50213,
+      "longitude": 8.25554,
+      "population": 6344,
+      "populationRank": 231,
+      "isCapital": false
+    },
+    {
+      "id": "2658712",
+      "name": "Schönbühl",
+      "latitude": 47.02088,
+      "longitude": 7.49989,
+      "population": 6317,
+      "populationRank": 232,
+      "isCapital": false
+    },
+    {
+      "id": "8029943",
+      "name": "Oberägeri",
+      "latitude": 47.13614,
+      "longitude": 8.6144,
+      "population": 6244,
+      "populationRank": 233,
+      "isCapital": false
+    },
+    {
+      "id": "2658312",
+      "name": "Trimbach",
+      "latitude": 47.36561,
+      "longitude": 7.8868,
+      "population": 6220,
+      "populationRank": 234,
+      "isCapital": false
+    },
+    {
+      "id": "2659776",
+      "name": "Malters",
+      "latitude": 47.03628,
+      "longitude": 8.18193,
+      "population": 6181,
+      "populationRank": 235,
+      "isCapital": false
+    },
+    {
+      "id": "2660719",
+      "name": "Frenkendorf",
+      "latitude": 47.50686,
+      "longitude": 7.71648,
+      "population": 6180,
+      "populationRank": 236,
+      "isCapital": false
+    },
+    {
+      "id": "2661014",
+      "name": "Dietlikon / Dietlikon (Dorf)",
+      "nativeName": "Dietlikon",
+      "latitude": 47.41827,
+      "longitude": 8.6188,
+      "population": 6149,
+      "populationRank": 237,
+      "isCapital": false
+    },
+    {
+      "id": "2658793",
+      "name": "Sargans",
+      "latitude": 47.04896,
+      "longitude": 9.44103,
+      "population": 6134,
+      "populationRank": 238,
+      "isCapital": false
+    },
+    {
+      "id": "2661030",
+      "name": "Derendingen",
+      "latitude": 47.1985,
+      "longitude": 7.58844,
+      "population": 6093,
+      "populationRank": 239,
+      "isCapital": false
+    },
+    {
+      "id": "2661456",
+      "name": "Bolligen",
+      "latitude": 46.9751,
+      "longitude": 7.49697,
+      "population": 6086,
+      "populationRank": 240,
+      "isCapital": false
+    },
+    {
+      "id": "2659853",
+      "name": "Losone",
+      "latitude": 46.16866,
+      "longitude": 8.75928,
+      "population": 6070,
+      "populationRank": 241,
+      "isCapital": false
+    },
+    {
+      "id": "8394414",
+      "name": "Bischofszell",
+      "latitude": 47.49575,
+      "longitude": 9.23882,
+      "population": 5982,
+      "populationRank": 242,
+      "isCapital": false
+    },
+    {
+      "id": "2659489",
+      "name": "Neuenkirch",
+      "latitude": 47.09989,
+      "longitude": 8.20416,
+      "population": 5963,
+      "populationRank": 243,
+      "isCapital": false
+    },
+    {
+      "id": "2661527",
+      "name": "Bex",
+      "latitude": 46.24965,
+      "longitude": 7.0098,
+      "population": 5956,
+      "populationRank": 244,
+      "isCapital": false
+    },
+    {
+      "id": "2661148",
+      "name": "Collombey",
+      "latitude": 46.27385,
+      "longitude": 6.94789,
+      "population": 5926,
+      "populationRank": 245,
+      "isCapital": false
+    },
+    {
+      "id": "2660700",
+      "name": "Fully",
+      "latitude": 46.13851,
+      "longitude": 7.11468,
+      "population": 5922,
+      "populationRank": 246,
+      "isCapital": false
+    },
+    {
+      "id": "2661432",
+      "name": "Bottmingen",
+      "latitude": 47.52343,
+      "longitude": 7.57211,
+      "population": 5912,
+      "populationRank": 247,
+      "isCapital": false
+    },
+    {
+      "id": "2661524",
+      "name": "Biasca",
+      "latitude": 46.35972,
+      "longitude": 8.96965,
+      "population": 5885,
+      "populationRank": 248,
+      "isCapital": false
+    },
+    {
+      "id": "2658572",
+      "name": "Sissach",
+      "latitude": 47.46408,
+      "longitude": 7.80888,
+      "population": 5873,
+      "populationRank": 249,
+      "isCapital": false
+    },
+    {
+      "id": "2661626",
+      "name": "Balsthal",
+      "latitude": 47.31613,
+      "longitude": 7.69318,
+      "population": 5863,
+      "populationRank": 250,
       "isCapital": false
     },
     {
@@ -1425,7 +2294,16 @@
       "latitude": 47.34019,
       "longitude": 8.57407,
       "population": 5812,
-      "populationRank": 156,
+      "populationRank": 251,
+      "isCapital": false
+    },
+    {
+      "id": "2659392",
+      "name": "Oberengstringen",
+      "latitude": 47.40841,
+      "longitude": 8.46515,
+      "population": 5805,
+      "populationRank": 252,
       "isCapital": false
     },
     {
@@ -1435,7 +2313,25 @@
       "latitude": 46.92827,
       "longitude": 7.11715,
       "population": 5800,
-      "populationRank": 157,
+      "populationRank": 253,
+      "isCapital": false
+    },
+    {
+      "id": "2659739",
+      "name": "Massagno",
+      "latitude": 46.01257,
+      "longitude": 8.94354,
+      "population": 5774,
+      "populationRank": 254,
+      "isCapital": false
+    },
+    {
+      "id": "2660950",
+      "name": "Echallens",
+      "latitude": 46.6413,
+      "longitude": 6.63317,
+      "population": 5740,
+      "populationRank": 255,
       "isCapital": false
     },
     {
@@ -1444,7 +2340,44 @@
       "latitude": 47.24254,
       "longitude": 8.72342,
       "population": 5737,
-      "populationRank": 158,
+      "populationRank": 256,
+      "isCapital": false
+    },
+    {
+      "id": "2659227",
+      "name": "Peseux",
+      "latitude": 46.98704,
+      "longitude": 6.88903,
+      "population": 5716,
+      "populationRank": 257,
+      "isCapital": false
+    },
+    {
+      "id": "2660656",
+      "name": "Gelterkinden",
+      "latitude": 47.46497,
+      "longitude": 7.85174,
+      "population": 5709,
+      "populationRank": 258,
+      "isCapital": false
+    },
+    {
+      "id": "2658397",
+      "name": "Teufen",
+      "nativeName": "Teufen AR",
+      "latitude": 47.3908,
+      "longitude": 9.38644,
+      "population": 5683,
+      "populationRank": 259,
+      "isCapital": false
+    },
+    {
+      "id": "2658277",
+      "name": "Uetendorf",
+      "latitude": 46.77392,
+      "longitude": 7.57251,
+      "population": 5654,
+      "populationRank": 260,
       "isCapital": false
     },
     {
@@ -1453,7 +2386,200 @@
       "latitude": 47.33103,
       "longitude": 9.40996,
       "population": 5649,
-      "populationRank": 159,
+      "populationRank": 261,
+      "isCapital": false
+    },
+    {
+      "id": "2659550",
+      "name": "Münchwilen",
+      "nativeName": "Münchwilen TG",
+      "latitude": 47.47719,
+      "longitude": 8.99677,
+      "population": 5623,
+      "populationRank": 262,
+      "isCapital": false
+    },
+    {
+      "id": "2660001",
+      "name": "Laufen",
+      "latitude": 47.42193,
+      "longitude": 7.49946,
+      "population": 5618,
+      "populationRank": 263,
+      "isCapital": false
+    },
+    {
+      "id": "11048418",
+      "name": "Neuenegg",
+      "latitude": 46.89494,
+      "longitude": 7.30466,
+      "population": 5606,
+      "populationRank": 264,
+      "isCapital": false
+    },
+    {
+      "id": "6691492",
+      "name": "Cologny",
+      "latitude": 46.21672,
+      "longitude": 6.18041,
+      "population": 5598,
+      "populationRank": 265,
+      "isCapital": false
+    },
+    {
+      "id": "2661862",
+      "name": "Adligenswil",
+      "latitude": 47.06521,
+      "longitude": 8.36124,
+      "population": 5576,
+      "populationRank": 266,
+      "isCapital": false
+    },
+    {
+      "id": "2658775",
+      "name": "Savièse",
+      "latitude": 46.25115,
+      "longitude": 7.34558,
+      "population": 5575,
+      "populationRank": 267,
+      "isCapital": false
+    },
+    {
+      "id": "2658210",
+      "name": "Uznach",
+      "latitude": 47.22421,
+      "longitude": 8.98263,
+      "population": 5561,
+      "populationRank": 268,
+      "isCapital": false
+    },
+    {
+      "id": "8533228",
+      "name": "Fislisbach",
+      "latitude": 47.43904,
+      "longitude": 8.29687,
+      "population": 5552,
+      "populationRank": 269,
+      "isCapital": false
+    },
+    {
+      "id": "2661328",
+      "name": "Buochs",
+      "latitude": 46.97398,
+      "longitude": 8.42279,
+      "population": 5524,
+      "populationRank": 270,
+      "isCapital": false
+    },
+    {
+      "id": "2660355",
+      "name": "Herzogenbuchsee",
+      "latitude": 47.18795,
+      "longitude": 7.7062,
+      "population": 5522,
+      "populationRank": 271,
+      "isCapital": false
+    },
+    {
+      "id": "2660390",
+      "name": "Heimberg",
+      "latitude": 46.79482,
+      "longitude": 7.60433,
+      "population": 5501,
+      "populationRank": 272,
+      "isCapital": false
+    },
+    {
+      "id": "2657947",
+      "name": "Würenlos",
+      "latitude": 47.44205,
+      "longitude": 8.36261,
+      "population": 5497,
+      "populationRank": 273,
+      "isCapital": false
+    },
+    {
+      "id": "2658119",
+      "name": "Villmergen",
+      "latitude": 47.35009,
+      "longitude": 8.24762,
+      "population": 5489,
+      "populationRank": 274,
+      "isCapital": false
+    },
+    {
+      "id": "2661090",
+      "name": "Courtepin",
+      "latitude": 46.86547,
+      "longitude": 7.12309,
+      "population": 5468,
+      "populationRank": 275,
+      "isCapital": false
+    },
+    {
+      "id": "2660367",
+      "name": "Hergiswil",
+      "nativeName": "Hergiswil NW",
+      "latitude": 46.98429,
+      "longitude": 8.30944,
+      "population": 5437,
+      "populationRank": 276,
+      "isCapital": false
+    },
+    {
+      "id": "2659687",
+      "name": "Menziken",
+      "latitude": 47.23965,
+      "longitude": 8.18996,
+      "population": 5415,
+      "populationRank": 277,
+      "isCapital": false
+    },
+    {
+      "id": "2661600",
+      "name": "Basse Nendaz",
+      "latitude": 46.18993,
+      "longitude": 7.31209,
+      "population": 5410,
+      "populationRank": 278,
+      "isCapital": false
+    },
+    {
+      "id": "2661021",
+      "name": "Diepoldsau",
+      "latitude": 47.386,
+      "longitude": 9.65558,
+      "population": 5401,
+      "populationRank": 279,
+      "isCapital": false
+    },
+    {
+      "id": "2658816",
+      "name": "Sankt Margrethen",
+      "nativeName": "St. Margrethen SG",
+      "latitude": 47.45253,
+      "longitude": 9.63741,
+      "population": 5395,
+      "populationRank": 280,
+      "isCapital": false
+    },
+    {
+      "id": "2661350",
+      "name": "Buchrain",
+      "latitude": 47.09625,
+      "longitude": 8.34729,
+      "population": 5341,
+      "populationRank": 281,
+      "isCapital": false
+    },
+    {
+      "id": "2660156",
+      "name": "Kirchberg",
+      "nativeName": "Kirchberg BE",
+      "latitude": 47.08538,
+      "longitude": 7.58288,
+      "population": 5335,
+      "populationRank": 282,
       "isCapital": false
     },
     {
@@ -1462,7 +2588,71 @@
       "latitude": 47.04761,
       "longitude": 8.54616,
       "population": 5285,
-      "populationRank": 160,
+      "populationRank": 283,
+      "isCapital": false
+    },
+    {
+      "id": "6691329",
+      "name": "Bellach",
+      "latitude": 47.21356,
+      "longitude": 7.49924,
+      "population": 5284,
+      "populationRank": 284,
+      "isCapital": false
+    },
+    {
+      "id": "2661776",
+      "name": "Altendorf",
+      "latitude": 47.18994,
+      "longitude": 8.83823,
+      "population": 5280,
+      "populationRank": 285,
+      "isCapital": false
+    },
+    {
+      "id": "2658982",
+      "name": "Romont",
+      "nativeName": "Romont FR",
+      "latitude": 46.69652,
+      "longitude": 6.91898,
+      "population": 5276,
+      "populationRank": 286,
+      "isCapital": false
+    },
+    {
+      "id": "2659959",
+      "name": "Le Mont sur Lausanne",
+      "latitude": 46.55815,
+      "longitude": 6.63145,
+      "population": 5270,
+      "populationRank": 287,
+      "isCapital": false
+    },
+    {
+      "id": "2658217",
+      "name": "Urtenen",
+      "latitude": 47.02667,
+      "longitude": 7.50081,
+      "population": 5258,
+      "populationRank": 288,
+      "isCapital": false
+    },
+    {
+      "id": "2661468",
+      "name": "Blonay",
+      "latitude": 46.46778,
+      "longitude": 6.89615,
+      "population": 5244,
+      "populationRank": 289,
+      "isCapital": false
+    },
+    {
+      "id": "11789318",
+      "name": "Wettswil",
+      "latitude": 47.33725,
+      "longitude": 8.47527,
+      "population": 5240,
+      "populationRank": 290,
       "isCapital": false
     },
     {
@@ -1471,7 +2661,7 @@
       "latitude": 46.68387,
       "longitude": 7.86638,
       "population": 5067,
-      "populationRank": 161,
+      "populationRank": 291,
       "isCapital": false
     },
     {
@@ -1480,7 +2670,7 @@
       "latitude": 46.31667,
       "longitude": 7.98333,
       "population": 5000,
-      "populationRank": 162,
+      "populationRank": 292,
       "isCapital": false
     },
     {
@@ -1489,7 +2679,7 @@
       "latitude": 46.49937,
       "longitude": 9.84327,
       "population": 4952,
-      "populationRank": 163,
+      "populationRank": 293,
       "isCapital": false
     },
     {
@@ -1499,7 +2689,7 @@
       "latitude": 47.3051,
       "longitude": 8.75831,
       "population": 4287,
-      "populationRank": 164,
+      "populationRank": 294,
       "isCapital": false
     },
     {
@@ -1508,7 +2698,7 @@
       "latitude": 47.55985,
       "longitude": 8.06225,
       "population": 3632,
-      "populationRank": 165,
+      "populationRank": 295,
       "isCapital": false
     },
     {
@@ -1518,7 +2708,7 @@
       "latitude": 47.27595,
       "longitude": 8.91405,
       "population": 3061,
-      "populationRank": 166,
+      "populationRank": 296,
       "isCapital": false
     },
     {
@@ -1527,7 +2717,7 @@
       "latitude": 47.4113,
       "longitude": 8.72125,
       "population": 2964,
-      "populationRank": 167,
+      "populationRank": 297,
       "isCapital": false
     },
     {
@@ -1537,7 +2727,7 @@
       "latitude": 47.39016,
       "longitude": 8.69085,
       "population": 2723,
-      "populationRank": 168,
+      "populationRank": 298,
       "isCapital": false
     },
     {
@@ -1546,7 +2736,7 @@
       "latitude": 46.69724,
       "longitude": 9.43938,
       "population": 2572,
-      "populationRank": 169,
+      "populationRank": 299,
       "isCapital": false
     },
     {
@@ -1555,7 +2745,7 @@
       "latitude": 46.77413,
       "longitude": 9.20461,
       "population": 2321,
-      "populationRank": 170,
+      "populationRank": 300,
       "isCapital": false
     }
   ]

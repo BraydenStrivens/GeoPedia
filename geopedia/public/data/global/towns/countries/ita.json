@@ -1060,7 +1060,6 @@
     {
       "id": "3179337",
       "name": "Cava Dè Tirreni",
-      "nativeName": "Cava de' Tirreni",
       "latitude": 40.69954,
       "longitude": 14.70773,
       "population": 53130,
@@ -1815,6 +1814,912 @@
       "longitude": 7.82133,
       "population": 36749,
       "populationRank": 200,
+      "isCapital": false
+    },
+    {
+      "id": "3175755",
+      "name": "Grugliasco",
+      "latitude": 45.06516,
+      "longitude": 7.57954,
+      "population": 36700,
+      "populationRank": 201,
+      "isCapital": false
+    },
+    {
+      "id": "2524393",
+      "name": "Licata",
+      "latitude": 37.10267,
+      "longitude": 13.93972,
+      "population": 36537,
+      "populationRank": 202,
+      "isCapital": false
+    },
+    {
+      "id": "3173326",
+      "name": "Modugno",
+      "latitude": 41.08433,
+      "longitude": 16.78342,
+      "population": 36384,
+      "populationRank": 203,
+      "isCapital": false
+    },
+    {
+      "id": "3172154",
+      "name": "Nuoro",
+      "nativeName": "Nùgoro/Nuoro",
+      "latitude": 40.31991,
+      "longitude": 9.32568,
+      "population": 35948,
+      "populationRank": 204,
+      "isCapital": false
+    },
+    {
+      "id": "3182997",
+      "name": "Aosta",
+      "nativeName": "Aosta - Aoste",
+      "latitude": 45.73764,
+      "longitude": 7.31722,
+      "population": 35261,
+      "populationRank": 205,
+      "isCapital": false
+    },
+    {
+      "id": "3181931",
+      "name": "Bollate",
+      "latitude": 45.54647,
+      "longitude": 9.12054,
+      "population": 35235,
+      "populationRank": 206,
+      "isCapital": false
+    },
+    {
+      "id": "2525350",
+      "name": "Carini",
+      "latitude": 38.1324,
+      "longitude": 13.18274,
+      "population": 35082,
+      "populationRank": 207,
+      "isCapital": false
+    },
+    {
+      "id": "3182765",
+      "name": "Arzano",
+      "latitude": 40.90959,
+      "longitude": 14.26519,
+      "population": 34933,
+      "populationRank": 208,
+      "isCapital": false
+    },
+    {
+      "id": "3175173",
+      "name": "Lanciano",
+      "latitude": 42.22718,
+      "longitude": 14.39024,
+      "population": 34791,
+      "populationRank": 209,
+      "isCapital": false
+    },
+    {
+      "id": "3181258",
+      "name": "Caivano",
+      "latitude": 40.95753,
+      "longitude": 14.30591,
+      "population": 34604,
+      "populationRank": 210,
+      "isCapital": false
+    },
+    {
+      "id": "2525597",
+      "name": "Barcellona Pozzo di Gotto",
+      "latitude": 38.14772,
+      "longitude": 15.21469,
+      "population": 34598,
+      "populationRank": 211,
+      "isCapital": false
+    },
+    {
+      "id": "3174358",
+      "name": "Maddaloni",
+      "latitude": 41.03578,
+      "longitude": 14.3823,
+      "population": 34546,
+      "populationRank": 212,
+      "isCapital": false
+    },
+    {
+      "id": "2525769",
+      "name": "Adrano",
+      "latitude": 37.66358,
+      "longitude": 14.83283,
+      "population": 34446,
+      "populationRank": 213,
+      "isCapital": false
+    },
+    {
+      "id": "3175986",
+      "name": "Gorizia",
+      "latitude": 45.94088,
+      "longitude": 13.62167,
+      "population": 34428,
+      "populationRank": 214,
+      "isCapital": false
+    },
+    {
+      "id": "3177400",
+      "name": "Empoli",
+      "latitude": 43.71795,
+      "longitude": 10.94758,
+      "population": 34394,
+      "populationRank": 215,
+      "isCapital": false
+    },
+    {
+      "id": "3176733",
+      "name": "Formigine",
+      "latitude": 44.57268,
+      "longitude": 10.84737,
+      "population": 34328,
+      "populationRank": 216,
+      "isCapital": false
+    },
+    {
+      "id": "3183284",
+      "name": "Alghero",
+      "nativeName": "S'Aliguera/l'Alguer/Alghero",
+      "latitude": 40.55969,
+      "longitude": 8.31953,
+      "population": 34261,
+      "populationRank": 217,
+      "isCapital": false
+    },
+    {
+      "id": "3172472",
+      "name": "Mugnano di Napoli",
+      "latitude": 40.90936,
+      "longitude": 14.20984,
+      "population": 34231,
+      "populationRank": 218,
+      "isCapital": false
+    },
+    {
+      "id": "3175298",
+      "name": "Ladispoli",
+      "latitude": 41.95068,
+      "longitude": 12.075,
+      "population": 34204,
+      "populationRank": 219,
+      "isCapital": false
+    },
+    {
+      "id": "3170676",
+      "name": "Pioltello",
+      "latitude": 45.50147,
+      "longitude": 9.33053,
+      "population": 34203,
+      "populationRank": 220,
+      "isCapital": false
+    },
+    {
+      "id": "3168854",
+      "name": "Rovereto",
+      "latitude": 45.8904,
+      "longitude": 11.04053,
+      "population": 34152,
+      "populationRank": 221,
+      "isCapital": false
+    },
+    {
+      "id": "3170674",
+      "name": "Piombino",
+      "latitude": 42.92554,
+      "longitude": 10.52585,
+      "population": 34041,
+      "populationRank": 222,
+      "isCapital": false
+    },
+    {
+      "id": "3180224",
+      "name": "Casalecchio di Reno",
+      "latitude": 44.47563,
+      "longitude": 11.27495,
+      "population": 33789,
+      "populationRank": 223,
+      "isCapital": false
+    },
+    {
+      "id": "3166917",
+      "name": "Schio",
+      "latitude": 45.71262,
+      "longitude": 11.35671,
+      "population": 33740,
+      "populationRank": 224,
+      "isCapital": false
+    },
+    {
+      "id": "3175121",
+      "name": "L'Aquila",
+      "latitude": 42.35055,
+      "longitude": 13.39954,
+      "population": 33691,
+      "populationRank": 225,
+      "isCapital": false
+    },
+    {
+      "id": "3178004",
+      "name": "Corsico",
+      "latitude": 45.43099,
+      "longitude": 9.11093,
+      "population": 33669,
+      "populationRank": 226,
+      "isCapital": false
+    },
+    {
+      "id": "3167419",
+      "name": "Sant'Antimo",
+      "latitude": 40.94223,
+      "longitude": 14.23476,
+      "population": 33561,
+      "populationRank": 227,
+      "isCapital": false
+    },
+    {
+      "id": "3164617",
+      "name": "Venaria Reale",
+      "latitude": 45.12597,
+      "longitude": 7.63136,
+      "population": 33531,
+      "populationRank": 228,
+      "isCapital": false
+    },
+    {
+      "id": "3176603",
+      "name": "Francavilla Fontana",
+      "latitude": 40.53123,
+      "longitude": 17.58522,
+      "population": 33415,
+      "populationRank": 229,
+      "isCapital": false
+    },
+    {
+      "id": "3180208",
+      "name": "Casale Monferrato",
+      "latitude": 45.13338,
+      "longitude": 8.4525,
+      "population": 33213,
+      "populationRank": 230,
+      "isCapital": false
+    },
+    {
+      "id": "3181495",
+      "name": "Brugherio",
+      "latitude": 45.55301,
+      "longitude": 9.29907,
+      "population": 33061,
+      "populationRank": 231,
+      "isCapital": false
+    },
+    {
+      "id": "2525405",
+      "name": "Canicattì",
+      "latitude": 37.35842,
+      "longitude": 13.84786,
+      "population": 32918,
+      "populationRank": 232,
+      "isCapital": false
+    },
+    {
+      "id": "3173385",
+      "name": "Mira Taglio",
+      "nativeName": "Mira",
+      "latitude": 45.4346,
+      "longitude": 12.12942,
+      "population": 32881,
+      "populationRank": 233,
+      "isCapital": false
+    },
+    {
+      "id": "3181018",
+      "name": "Campi Bisenzio",
+      "latitude": 43.8245,
+      "longitude": 11.13027,
+      "population": 32871,
+      "populationRank": 234,
+      "isCapital": false
+    },
+    {
+      "id": "3171703",
+      "name": "Pagani",
+      "latitude": 40.74199,
+      "longitude": 14.61448,
+      "population": 32835,
+      "populationRank": 235,
+      "isCapital": false
+    },
+    {
+      "id": "3183573",
+      "name": "Abbiategrasso",
+      "latitude": 45.39821,
+      "longitude": 8.91678,
+      "population": 32784,
+      "populationRank": 236,
+      "isCapital": false
+    },
+    {
+      "id": "3169424",
+      "name": "Riccione",
+      "latitude": 43.99942,
+      "longitude": 12.65689,
+      "population": 32744,
+      "populationRank": 237,
+      "isCapital": false
+    },
+    {
+      "id": "2525764",
+      "name": "Agrigento",
+      "latitude": 37.31065,
+      "longitude": 13.57661,
+      "population": 32514,
+      "populationRank": 238,
+      "isCapital": false
+    },
+    {
+      "id": "3166404",
+      "name": "Somma Vesuviana",
+      "latitude": 40.87329,
+      "longitude": 14.43865,
+      "population": 32484,
+      "populationRank": 239,
+      "isCapital": false
+    },
+    {
+      "id": "3174526",
+      "name": "Lucera",
+      "latitude": 41.5055,
+      "longitude": 15.3391,
+      "population": 32222,
+      "populationRank": 240,
+      "isCapital": false
+    },
+    {
+      "id": "2524236",
+      "name": "Mascalucia",
+      "latitude": 37.57465,
+      "longitude": 15.04964,
+      "population": 32179,
+      "populationRank": 241,
+      "isCapital": false
+    },
+    {
+      "id": "2524786",
+      "name": "Favara",
+      "latitude": 37.31754,
+      "longitude": 13.66226,
+      "population": 32110,
+      "populationRank": 242,
+      "isCapital": false
+    },
+    {
+      "id": "3174719",
+      "name": "Limbiate",
+      "latitude": 45.59951,
+      "longitude": 9.12509,
+      "population": 32062,
+      "populationRank": 243,
+      "isCapital": false
+    },
+    {
+      "id": "2524155",
+      "name": "Milazzo",
+      "latitude": 38.22008,
+      "longitude": 15.24023,
+      "population": 31771,
+      "populationRank": 244,
+      "isCapital": false
+    },
+    {
+      "id": "3167561",
+      "name": "Santa Maria Capua Vetere",
+      "latitude": 41.08156,
+      "longitude": 14.25342,
+      "population": 31743,
+      "populationRank": 245,
+      "isCapital": false
+    },
+    {
+      "id": "2525083",
+      "name": "Castelvetrano",
+      "latitude": 37.68081,
+      "longitude": 12.79194,
+      "population": 31680,
+      "populationRank": 246,
+      "isCapital": false
+    },
+    {
+      "id": "2523964",
+      "name": "Oristano",
+      "nativeName": "Aristanis/Oristano",
+      "latitude": 39.9036,
+      "longitude": 8.59257,
+      "population": 31671,
+      "populationRank": 247,
+      "isCapital": false
+    },
+    {
+      "id": "3183063",
+      "name": "Angri",
+      "latitude": 40.73815,
+      "longitude": 14.5707,
+      "population": 31632,
+      "populationRank": 248,
+      "isCapital": false
+    },
+    {
+      "id": "3177841",
+      "name": "Crema",
+      "latitude": 45.36264,
+      "longitude": 9.68176,
+      "population": 31481,
+      "populationRank": 249,
+      "isCapital": false
+    },
+    {
+      "id": "3175773",
+      "name": "Grottaglie",
+      "latitude": 40.53694,
+      "longitude": 17.43723,
+      "population": 31320,
+      "populationRank": 250,
+      "isCapital": false
+    },
+    {
+      "id": "6457398",
+      "name": "Verbania",
+      "latitude": 45.92136,
+      "longitude": 8.55183,
+      "population": 31070,
+      "populationRank": 251,
+      "isCapital": false
+    },
+    {
+      "id": "3168222",
+      "name": "San Giuliano Milanese",
+      "latitude": 45.39402,
+      "longitude": 9.29109,
+      "population": 31050,
+      "populationRank": 252,
+      "isCapital": false
+    },
+    {
+      "id": "3165773",
+      "name": "Termoli",
+      "latitude": 41.99994,
+      "longitude": 14.99389,
+      "population": 31044,
+      "populationRank": 253,
+      "isCapital": false
+    },
+    {
+      "id": "3165762",
+      "name": "Terracina",
+      "latitude": 41.29174,
+      "longitude": 13.24359,
+      "population": 30980,
+      "populationRank": 254,
+      "isCapital": false
+    },
+    {
+      "id": "3166740",
+      "name": "Senigallia",
+      "latitude": 43.71626,
+      "longitude": 13.20882,
+      "population": 30882,
+      "populationRank": 255,
+      "isCapital": false
+    },
+    {
+      "id": "3173762",
+      "name": "Massafra",
+      "latitude": 40.58618,
+      "longitude": 17.11635,
+      "population": 30875,
+      "populationRank": 256,
+      "isCapital": false
+    },
+    {
+      "id": "3170694",
+      "name": "Pinerolo",
+      "latitude": 44.88534,
+      "longitude": 7.33135,
+      "population": 30866,
+      "populationRank": 257,
+      "isCapital": false
+    },
+    {
+      "id": "3174380",
+      "name": "Macerata",
+      "latitude": 43.29789,
+      "longitude": 13.45293,
+      "population": 30842,
+      "populationRank": 258,
+      "isCapital": false
+    },
+    {
+      "id": "3178197",
+      "name": "Conegliano",
+      "latitude": 45.88805,
+      "longitude": 12.30201,
+      "population": 30765,
+      "populationRank": 259,
+      "isCapital": false
+    },
+    {
+      "id": "2525646",
+      "name": "Augusta",
+      "latitude": 37.24065,
+      "longitude": 15.22121,
+      "population": 30723,
+      "populationRank": 260,
+      "isCapital": false
+    },
+    {
+      "id": "3173945",
+      "name": "Marigliano",
+      "latitude": 40.9248,
+      "longitude": 14.45612,
+      "population": 29901,
+      "populationRank": 261,
+      "isCapital": false
+    },
+    {
+      "id": "3180792",
+      "name": "Canosa di Puglia",
+      "latitude": 41.21954,
+      "longitude": 16.06768,
+      "population": 29847,
+      "populationRank": 262,
+      "isCapital": false
+    },
+    {
+      "id": "3176561",
+      "name": "Frattamaggiore",
+      "latitude": 40.9414,
+      "longitude": 14.27588,
+      "population": 29822,
+      "populationRank": 263,
+      "isCapital": false
+    },
+    {
+      "id": "3172379",
+      "name": "Nardò",
+      "latitude": 40.17953,
+      "longitude": 18.03174,
+      "population": 29668,
+      "populationRank": 264,
+      "isCapital": false
+    },
+    {
+      "id": "3175952",
+      "name": "Gragnano",
+      "latitude": 40.68907,
+      "longitude": 14.52036,
+      "population": 29082,
+      "populationRank": 265,
+      "isCapital": false
+    },
+    {
+      "id": "3179066",
+      "name": "Cernusco sul Naviglio",
+      "latitude": 45.52526,
+      "longitude": 9.33297,
+      "population": 29078,
+      "populationRank": 266,
+      "isCapital": false
+    },
+    {
+      "id": "3167116",
+      "name": "Sarno",
+      "latitude": 40.80748,
+      "longitude": 14.62151,
+      "population": 28837,
+      "populationRank": 267,
+      "isCapital": false
+    },
+    {
+      "id": "2523871",
+      "name": "Partinico",
+      "latitude": 38.04657,
+      "longitude": 13.11785,
+      "population": 28708,
+      "populationRank": 268,
+      "isCapital": false
+    },
+    {
+      "id": "3178998",
+      "name": "Cervia",
+      "latitude": 44.26204,
+      "longitude": 12.34812,
+      "population": 28700,
+      "populationRank": 269,
+      "isCapital": false
+    },
+    {
+      "id": "3173160",
+      "name": "Mondragone",
+      "latitude": 41.11399,
+      "longitude": 13.89157,
+      "population": 28683,
+      "populationRank": 270,
+      "isCapital": false
+    },
+    {
+      "id": "2525643",
+      "name": "Avola",
+      "latitude": 36.9084,
+      "longitude": 15.13937,
+      "population": 28666,
+      "populationRank": 271,
+      "isCapital": false
+    },
+    {
+      "id": "3173962",
+      "name": "Marghera",
+      "latitude": 45.45111,
+      "longitude": 12.22389,
+      "population": 28622,
+      "populationRank": 272,
+      "isCapital": false
+    },
+    {
+      "id": "3176738",
+      "name": "Formia",
+      "latitude": 41.25632,
+      "longitude": 13.60888,
+      "population": 28521,
+      "populationRank": 273,
+      "isCapital": false
+    },
+    {
+      "id": "3168414",
+      "name": "San Donato Milanese",
+      "latitude": 45.41047,
+      "longitude": 9.26838,
+      "population": 28351,
+      "populationRank": 274,
+      "isCapital": false
+    },
+    {
+      "id": "3166808",
+      "name": "Segrate",
+      "latitude": 45.49185,
+      "longitude": 9.29812,
+      "population": 28296,
+      "populationRank": 275,
+      "isCapital": false
+    },
+    {
+      "id": "3174096",
+      "name": "Manduria",
+      "latitude": 40.39899,
+      "longitude": 17.63726,
+      "population": 27411,
+      "populationRank": 276,
+      "isCapital": false
+    },
+    {
+      "id": "3178631",
+      "name": "Cisterna di Latina",
+      "latitude": 41.5908,
+      "longitude": 12.82808,
+      "population": 27362,
+      "populationRank": 277,
+      "isCapital": false
+    },
+    {
+      "id": "3168234",
+      "name": "San Giovanni Rotondo",
+      "latitude": 41.70643,
+      "longitude": 15.7277,
+      "population": 27124,
+      "populationRank": 278,
+      "isCapital": false
+    },
+    {
+      "id": "3169602",
+      "name": "Rapallo",
+      "latitude": 44.3496,
+      "longitude": 9.22796,
+      "population": 26993,
+      "populationRank": 279,
+      "isCapital": false
+    },
+    {
+      "id": "2524006",
+      "name": "Niscemi",
+      "latitude": 37.14649,
+      "longitude": 14.39381,
+      "population": 26893,
+      "populationRank": 280,
+      "isCapital": false
+    },
+    {
+      "id": "3168209",
+      "name": "San Giuseppe Vesuviano",
+      "latitude": 40.8356,
+      "longitude": 14.50487,
+      "population": 26888,
+      "populationRank": 281,
+      "isCapital": false
+    },
+    {
+      "id": "3181683",
+      "name": "Boscoreale",
+      "latitude": 40.77274,
+      "longitude": 14.48118,
+      "population": 26861,
+      "populationRank": 282,
+      "isCapital": false
+    },
+    {
+      "id": "3165178",
+      "name": "Triggiano",
+      "latitude": 41.06549,
+      "longitude": 16.92501,
+      "population": 26811,
+      "populationRank": 283,
+      "isCapital": false
+    },
+    {
+      "id": "3181125",
+      "name": "Camaiore",
+      "latitude": 43.94265,
+      "longitude": 10.29754,
+      "population": 26746,
+      "populationRank": 284,
+      "isCapital": false
+    },
+    {
+      "id": "3173153",
+      "name": "Monfalcone",
+      "latitude": 45.80463,
+      "longitude": 13.53292,
+      "population": 26706,
+      "populationRank": 285,
+      "isCapital": false
+    },
+    {
+      "id": "3183356",
+      "name": "Albano Laziale",
+      "latitude": 41.72748,
+      "longitude": 12.659,
+      "population": 26684,
+      "populationRank": 286,
+      "isCapital": false
+    },
+    {
+      "id": "3173029",
+      "name": "Montebelluna",
+      "latitude": 45.77504,
+      "longitude": 12.04904,
+      "population": 26670,
+      "populationRank": 287,
+      "isCapital": false
+    },
+    {
+      "id": "3178832",
+      "name": "Chiavari",
+      "latitude": 44.31771,
+      "longitude": 9.32241,
+      "population": 26572,
+      "populationRank": 288,
+      "isCapital": false
+    },
+    {
+      "id": "6534275",
+      "name": "Gravina di Catania",
+      "latitude": 37.56085,
+      "longitude": 15.06292,
+      "population": 26524,
+      "populationRank": 289,
+      "isCapital": false
+    },
+    {
+      "id": "3173537",
+      "name": "Mesagne",
+      "latitude": 40.55851,
+      "longitude": 17.80774,
+      "population": 26497,
+      "populationRank": 290,
+      "isCapital": false
+    },
+    {
+      "id": "3171484",
+      "name": "Parabiago",
+      "latitude": 45.56034,
+      "longitude": 8.94545,
+      "population": 26364,
+      "populationRank": 291,
+      "isCapital": false
+    },
+    {
+      "id": "2524955",
+      "name": "Comiso",
+      "latitude": 36.94893,
+      "longitude": 14.60731,
+      "population": 26298,
+      "populationRank": 292,
+      "isCapital": false
+    },
+    {
+      "id": "3177438",
+      "name": "Eboli",
+      "latitude": 40.61747,
+      "longitude": 15.05693,
+      "population": 26183,
+      "populationRank": 293,
+      "isCapital": false
+    },
+    {
+      "id": "8948705",
+      "name": "Romano Banco",
+      "nativeName": "Buccinasco",
+      "latitude": 45.42309,
+      "longitude": 9.10707,
+      "population": 26163,
+      "populationRank": 294,
+      "isCapital": false
+    },
+    {
+      "id": "3176322",
+      "name": "Garbagnate Milanese",
+      "latitude": 45.57438,
+      "longitude": 9.07537,
+      "population": 25974,
+      "populationRank": 295,
+      "isCapital": false
+    },
+    {
+      "id": "3172170",
+      "name": "Novi Ligure",
+      "latitude": 44.76246,
+      "longitude": 8.787,
+      "population": 25957,
+      "populationRank": 296,
+      "isCapital": false
+    },
+    {
+      "id": "3177250",
+      "name": "Falconara Marittima",
+      "latitude": 43.62558,
+      "longitude": 13.39954,
+      "population": 25948,
+      "populationRank": 297,
+      "isCapital": false
+    },
+    {
+      "id": "3176041",
+      "name": "Giussano",
+      "latitude": 45.70004,
+      "longitude": 9.2089,
+      "population": 25916,
+      "populationRank": 298,
+      "isCapital": false
+    },
+    {
+      "id": "3166989",
+      "name": "Scandiano",
+      "latitude": 44.5983,
+      "longitude": 10.69558,
+      "population": 25896,
+      "populationRank": 299,
+      "isCapital": false
+    },
+    {
+      "id": "3165788",
+      "name": "Terlizzi",
+      "latitude": 41.12905,
+      "longitude": 16.54536,
+      "population": 25811,
+      "populationRank": 300,
       "isCapital": false
     }
   ]

@@ -38,12 +38,22 @@
       "isCapital": true
     },
     {
+      "id": "2412452",
+      "name": "Nema Kunku",
+      "nativeName": "Joreng",
+      "latitude": 13.25,
+      "longitude": -15.88333,
+      "population": 34390,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
       "id": "2413515",
       "name": "Farafenni",
       "latitude": 13.56667,
       "longitude": -15.6,
       "population": 32883,
-      "populationRank": 5,
+      "populationRank": 6,
       "isCapital": false
     },
     {
@@ -52,7 +62,16 @@
       "latitude": 13.33917,
       "longitude": -16.6875,
       "population": 28829,
-      "populationRank": 6,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "2412749",
+      "name": "Lamin",
+      "latitude": 13.35222,
+      "longitude": -16.43389,
+      "population": 28500,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -62,7 +81,16 @@
       "latitude": 13.40361,
       "longitude": -16.67361,
       "population": 27856,
-      "populationRank": 7,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "2413745",
+      "name": "Brufut",
+      "latitude": 13.38417,
+      "longitude": -16.75139,
+      "population": 27664,
+      "populationRank": 10,
       "isCapital": false
     },
     {
@@ -71,7 +99,25 @@
       "latitude": 13.20194,
       "longitude": -16.73389,
       "population": 22741,
-      "populationRank": 8,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "2413565",
+      "name": "Dippa Kunda",
+      "latitude": 13.44028,
+      "longitude": -16.68694,
+      "population": 21190,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2412193",
+      "name": "Sami Pachonki",
+      "latitude": 13.55,
+      "longitude": -14.51667,
+      "population": 19605,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -80,7 +126,16 @@
       "latitude": 13.40417,
       "longitude": -16.65583,
       "population": 18978,
-      "populationRank": 9,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2411805",
+      "name": "Tanji",
+      "latitude": 13.34889,
+      "longitude": -16.79083,
+      "population": 17441,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -89,7 +144,7 @@
       "latitude": 13.44639,
       "longitude": -16.67444,
       "population": 17159,
-      "populationRank": 10,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -98,7 +153,16 @@
       "latitude": 13.43333,
       "longitude": -15.53333,
       "population": 15210,
-      "populationRank": 11,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2412141",
+      "name": "Sanyang",
+      "latitude": 13.26667,
+      "longitude": -16.76056,
+      "population": 15090,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -107,7 +171,7 @@
       "latitude": 13.30995,
       "longitude": -14.21373,
       "population": 14380,
-      "populationRank": 12,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -116,7 +180,7 @@
       "latitude": 13.34556,
       "longitude": -16.67278,
       "population": 13162,
-      "populationRank": 13,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -125,7 +189,17 @@
       "latitude": 13.3625,
       "longitude": -16.68611,
       "population": 12042,
-      "populationRank": 14,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "2412625",
+      "name": "Mandinari",
+      "nativeName": "Madinari",
+      "latitude": 13.37278,
+      "longitude": -16.60278,
+      "population": 10273,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -134,7 +208,26 @@
       "latitude": 13.43333,
       "longitude": -14.65,
       "population": 9528,
-      "populationRank": 15,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "2413147",
+      "name": "Kaimbujae Nding",
+      "latitude": 13.285,
+      "longitude": -16.62139,
+      "population": 9161,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2411727",
+      "name": "Tujering",
+      "nativeName": "Tujereng",
+      "latitude": 13.31889,
+      "longitude": -16.78548,
+      "population": 8866,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -143,7 +236,25 @@
       "latitude": 13.28056,
       "longitude": -16.67861,
       "population": 8139,
-      "populationRank": 16,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "2412248",
+      "name": "Sabi",
+      "latitude": 13.23333,
+      "longitude": -14.2,
+      "population": 7738,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2412868",
+      "name": "Koina",
+      "latitude": 13.48333,
+      "longitude": -13.86667,
+      "population": 7462,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -152,7 +263,16 @@
       "latitude": 13.46667,
       "longitude": -14.05,
       "population": 7403,
-      "populationRank": 17,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2412815",
+      "name": "Kulari",
+      "latitude": 13.4,
+      "longitude": -14.08333,
+      "population": 7227,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -162,7 +282,26 @@
       "latitude": 13.37333,
       "longitude": -16.65722,
       "population": 7110,
-      "populationRank": 18,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2413304",
+      "name": "Jambanjali",
+      "nativeName": "Jambanjelly",
+      "latitude": 13.28028,
+      "longitude": -16.72944,
+      "population": 6343,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2412703",
+      "name": "Madiana",
+      "latitude": 13.51667,
+      "longitude": -14.53333,
+      "population": 6069,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -171,7 +310,25 @@
       "latitude": 13.48278,
       "longitude": -16.54556,
       "population": 6020,
-      "populationRank": 19,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "2411976",
+      "name": "Sifoe",
+      "latitude": 13.18361,
+      "longitude": -16.6975,
+      "population": 6015,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "2412992",
+      "name": "Kerewan",
+      "latitude": 13.4898,
+      "longitude": -16.08879,
+      "population": 5485,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -181,7 +338,7 @@
       "latitude": 13.09472,
       "longitude": -16.76222,
       "population": 5213,
-      "populationRank": 20,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -190,7 +347,17 @@
       "latitude": 13.53333,
       "longitude": -14.93333,
       "population": 5086,
-      "populationRank": 21,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "2413598",
+      "name": "Demba Kunda",
+      "nativeName": "Demba Kunda Kuta",
+      "latitude": 13.25,
+      "longitude": -14.26667,
+      "population": 4817,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -199,7 +366,93 @@
       "latitude": 13.54039,
       "longitude": -14.76374,
       "population": 4547,
-      "populationRank": 22,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "2413691",
+      "name": "Bwiam",
+      "latitude": 13.23528,
+      "longitude": -16.08639,
+      "population": 3834,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "2413580",
+      "name": "Diabugu",
+      "nativeName": "Diabugu Batapa",
+      "latitude": 13.38333,
+      "longitude": -14.4,
+      "population": 3722,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "2412229",
+      "name": "Salikene",
+      "nativeName": "Salikenni",
+      "latitude": 13.48333,
+      "longitude": -15.96667,
+      "population": 3403,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "2413143",
+      "name": "Kalagi",
+      "nativeName": "Kalaji",
+      "latitude": 13.24855,
+      "longitude": -15.83559,
+      "population": 2825,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "2412199",
+      "name": "Sami",
+      "nativeName": "Nanaba",
+      "latitude": 13.58333,
+      "longitude": -15.2,
+      "population": 2794,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "2413265",
+      "name": "Jarreng",
+      "latitude": 13.61667,
+      "longitude": -15.18333,
+      "population": 2705,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "2411863",
+      "name": "Sutukoba",
+      "latitude": 13.5,
+      "longitude": -14.01667,
+      "population": 2693,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "2411903",
+      "name": "Somita",
+      "latitude": 13.20583,
+      "longitude": -16.30556,
+      "population": 2541,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "2412315",
+      "name": "Pakali Nding",
+      "nativeName": "Pakalinding",
+      "latitude": 13.46667,
+      "longitude": -15.55,
+      "population": 2537,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -208,7 +461,17 @@
       "latitude": 13.67085,
       "longitude": -14.88977,
       "population": 2534,
-      "populationRank": 23,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "2413724",
+      "name": "Bulok",
+      "nativeName": "Bulock",
+      "latitude": 13.17667,
+      "longitude": -16.41583,
+      "population": 2312,
+      "populationRank": 51,
       "isCapital": false
     },
     {
@@ -217,7 +480,199 @@
       "latitude": 13.33333,
       "longitude": -13.86667,
       "population": 2090,
-      "populationRank": 24,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "2413926",
+      "name": "Bakadagy",
+      "nativeName": "Bakadaji",
+      "latitude": 13.3,
+      "longitude": -14.38333,
+      "population": 1979,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "2412252",
+      "name": "Saba",
+      "nativeName": "Saaba",
+      "latitude": 13.51639,
+      "longitude": -16.04917,
+      "population": 1974,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "2411999",
+      "name": "Saruja",
+      "latitude": 13.55,
+      "longitude": -14.91667,
+      "population": 1959,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "2412355",
+      "name": "No Kunda",
+      "latitude": 13.56667,
+      "longitude": -15.83333,
+      "population": 1913,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "2412158",
+      "name": "Sankwia",
+      "nativeName": "Sankuya",
+      "latitude": 13.46667,
+      "longitude": -15.51667,
+      "population": 1831,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "2413985",
+      "name": "Albadarr",
+      "nativeName": "Albreda",
+      "latitude": 13.33444,
+      "longitude": -16.38667,
+      "population": 1829,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "2413160",
+      "name": "Kaiaf",
+      "latitude": 13.4,
+      "longitude": -15.61667,
+      "population": 1819,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "2413365",
+      "name": "Jakhaly",
+      "nativeName": "Jahally",
+      "latitude": 13.55,
+      "longitude": -14.96667,
+      "population": 1793,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "2413023",
+      "name": "Keneba",
+      "latitude": 13.32889,
+      "longitude": -16.015,
+      "population": 1775,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "2412807",
+      "name": "Kumbija",
+      "nativeName": "Kumbita",
+      "latitude": 13.26667,
+      "longitude": -14.18333,
+      "population": 1760,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "2411765",
+      "name": "Toniataba",
+      "latitude": 13.43333,
+      "longitude": -15.58333,
+      "population": 1755,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "2413070",
+      "name": "Karantaba",
+      "nativeName": "Kerewan Demba",
+      "latitude": 13.66667,
+      "longitude": -15.03333,
+      "population": 1753,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "2413041",
+      "name": "Katchang",
+      "nativeName": "Katchang Tenda",
+      "latitude": 13.5,
+      "longitude": -15.75,
+      "population": 1741,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "2413588",
+      "name": "Denton",
+      "nativeName": "Boiram",
+      "latitude": 13.5,
+      "longitude": -14.93333,
+      "population": 1712,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "2413645",
+      "name": "Dankunku",
+      "latitude": 13.56667,
+      "longitude": -15.31667,
+      "population": 1641,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "2413417",
+      "name": "Gunjur Kuta",
+      "latitude": 13.53333,
+      "longitude": -14.11667,
+      "population": 1566,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "2411885",
+      "name": "Sudowol",
+      "nativeName": "Suduwol",
+      "latitude": 13.36667,
+      "longitude": -13.96667,
+      "population": 1502,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "2413436",
+      "name": "Ghana Town",
+      "nativeName": "Ghanatown",
+      "latitude": 13.38444,
+      "longitude": -16.77111,
+      "population": 1500,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "2411692",
+      "name": "Wellingara Ba",
+      "nativeName": "Sita Huma",
+      "latitude": 13.41667,
+      "longitude": -15.4,
+      "population": 1476,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "2413703",
+      "name": "Bureng",
+      "latitude": 13.41667,
+      "longitude": -15.28333,
+      "population": 1472,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -226,7 +681,1496 @@
       "latitude": 13.69094,
       "longitude": -14.87884,
       "population": 1380,
-      "populationRank": 25,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "2413073",
+      "name": "Karantaba",
+      "latitude": 13.43333,
+      "longitude": -15.51667,
+      "population": 1372,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "2411877",
+      "name": "Sukuta",
+      "latitude": 13.61667,
+      "longitude": -14.91667,
+      "population": 1364,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "2411970",
+      "name": "Si Kunda",
+      "latitude": 13.43333,
+      "longitude": -15.56667,
+      "population": 1344,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "2413418",
+      "name": "Gunjur",
+      "latitude": 13.52278,
+      "longitude": -16.02778,
+      "population": 1327,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "2412135",
+      "name": "Sara Kunda",
+      "latitude": 13.53333,
+      "longitude": -15.41667,
+      "population": 1316,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "2411866",
+      "name": "Sun Kunda",
+      "nativeName": "Song Kunda",
+      "latitude": 13.38333,
+      "longitude": -13.85,
+      "population": 1306,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "2413755",
+      "name": "Brifu",
+      "latitude": 13.5,
+      "longitude": -13.93333,
+      "population": 1292,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "2413895",
+      "name": "Bambali",
+      "latitude": 13.48333,
+      "longitude": -15.33333,
+      "population": 1255,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "2413246",
+      "name": "Jenoi",
+      "latitude": 13.48333,
+      "longitude": -15.56667,
+      "population": 1254,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "2413660",
+      "name": "Chilla",
+      "nativeName": "Kerr Abdou Fady (Sam Njoben)",
+      "latitude": 13.55,
+      "longitude": -16.28333,
+      "population": 1249,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "2412775",
+      "name": "Kunting",
+      "latitude": 13.53333,
+      "longitude": -14.66667,
+      "population": 1204,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "2413579",
+      "name": "Diabugu Basilla",
+      "nativeName": "Diabugu Basila",
+      "latitude": 13.33333,
+      "longitude": -13.95,
+      "population": 1199,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "2412279",
+      "name": "Pateh Sam",
+      "latitude": 13.61667,
+      "longitude": -15.06667,
+      "population": 1164,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "2413052",
+      "name": "Kass Wollof",
+      "nativeName": "Kass Wolof",
+      "latitude": 13.78333,
+      "longitude": -14.93333,
+      "population": 1109,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "2413623",
+      "name": "Daru Rilwan",
+      "latitude": 13.55,
+      "longitude": -15.98333,
+      "population": 1045,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "2413235",
+      "name": "Jifarong",
+      "nativeName": "Jiffarong",
+      "latitude": 13.3,
+      "longitude": -15.86667,
+      "population": 1038,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "2412272",
+      "name": "Perai",
+      "latitude": 13.38333,
+      "longitude": -14.03333,
+      "population": 1026,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "2413344",
+      "name": "Jali",
+      "nativeName": "Jali Nding",
+      "latitude": 13.35,
+      "longitude": -15.96667,
+      "population": 1024,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "2411915",
+      "name": "Sintet",
+      "latitude": 13.23333,
+      "longitude": -15.81667,
+      "population": 979,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "2412593",
+      "name": "Massembe",
+      "latitude": 13.41667,
+      "longitude": -15.63333,
+      "population": 938,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "2411798",
+      "name": "Tankular",
+      "latitude": 13.41778,
+      "longitude": -16.03694,
+      "population": 913,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "2413935",
+      "name": "Bajana",
+      "latitude": 13.31667,
+      "longitude": -15.88333,
+      "population": 907,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "2412217",
+      "name": "Sambang",
+      "latitude": 13.53333,
+      "longitude": -15.33333,
+      "population": 899,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "2413368",
+      "name": "Jakaba",
+      "latitude": 13.65,
+      "longitude": -14.88333,
+      "population": 837,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "2412841",
+      "name": "Konti Kunda Niji",
+      "nativeName": "Conteh Kunda Niggi",
+      "latitude": 13.56667,
+      "longitude": -15.78333,
+      "population": 830,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "2413498",
+      "name": "Fass",
+      "latitude": 13.8,
+      "longitude": -15.06667,
+      "population": 826,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "2413544",
+      "name": "Dumbutu",
+      "nativeName": "Dumboto",
+      "latitude": 13.35,
+      "longitude": -15.83333,
+      "population": 825,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "2413282",
+      "name": "Janneh Kunda",
+      "latitude": 13.38028,
+      "longitude": -16.13833,
+      "population": 795,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "2413861",
+      "name": "Bantang Killing",
+      "nativeName": "Mbanta",
+      "latitude": 13.58333,
+      "longitude": -15.7,
+      "population": 792,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "2413264",
+      "name": "Jarrol",
+      "latitude": 13.24412,
+      "longitude": -15.84546,
+      "population": 788,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "2411876",
+      "name": "Sulolor",
+      "nativeName": "Sukurr Kunda",
+      "latitude": 13.45,
+      "longitude": -14.66667,
+      "population": 787,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "2411816",
+      "name": "Tambana",
+      "latitude": 13.50528,
+      "longitude": -16.17444,
+      "population": 773,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "2412547",
+      "name": "Medina Kanuma",
+      "nativeName": "Myamba",
+      "latitude": 13.49278,
+      "longitude": -16.52333,
+      "population": 764,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "2413260",
+      "name": "Jassong",
+      "latitude": 13.4,
+      "longitude": -15.31667,
+      "population": 742,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "2413232",
+      "name": "Jiffin",
+      "latitude": 13.41667,
+      "longitude": -15.58333,
+      "population": 729,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "2413561",
+      "name": "Dobbo",
+      "latitude": 13.46667,
+      "longitude": -14.63333,
+      "population": 723,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "2412600",
+      "name": "Mara Magai",
+      "nativeName": "Sinchu Magai",
+      "latitude": 13.51667,
+      "longitude": -14.91667,
+      "population": 709,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "2413684",
+      "name": "Cha Kunda",
+      "latitude": 13.38333,
+      "longitude": -14.53333,
+      "population": 700,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "2411977",
+      "name": "Sibito",
+      "latitude": 13.38333,
+      "longitude": -15.73333,
+      "population": 680,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "2411746",
+      "name": "Tuba Koto",
+      "nativeName": "Tuba",
+      "latitude": 13.63333,
+      "longitude": -14.9,
+      "population": 667,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "2413552",
+      "name": "Dongoro Ba",
+      "latitude": 13.38333,
+      "longitude": -15.28333,
+      "population": 629,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "2413243",
+      "name": "Jeriko",
+      "nativeName": "Jerekaw Wolof",
+      "latitude": 13.58333,
+      "longitude": -15.66667,
+      "population": 603,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "2413956",
+      "name": "Badari",
+      "latitude": 13.33333,
+      "longitude": -14.1,
+      "population": 600,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "2412877",
+      "name": "Kinteh Kunda",
+      "nativeName": "Kinteh Kunda Janneh Ya",
+      "latitude": 13.50722,
+      "longitude": -16.06722,
+      "population": 592,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "2412996",
+      "name": "Kerewan",
+      "nativeName": "Taibatu",
+      "latitude": 13.36667,
+      "longitude": -14.21667,
+      "population": 585,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "2412163",
+      "name": "Sankandi",
+      "latitude": 13.3,
+      "longitude": -15.83333,
+      "population": 581,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "2413042",
+      "name": "Katamina",
+      "latitude": 13.55,
+      "longitude": -15.28333,
+      "population": 573,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "2412814",
+      "name": "Kuli Kunda",
+      "latitude": 13.33333,
+      "longitude": -15.91667,
+      "population": 556,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "2413386",
+      "name": "Jababa",
+      "latitude": 13.36667,
+      "longitude": -14.36667,
+      "population": 549,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "2413560",
+      "name": "Dobo",
+      "latitude": 13.55,
+      "longitude": -15.96667,
+      "population": 535,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "2411668",
+      "name": "Wurokang",
+      "latitude": 13.38333,
+      "longitude": -15.81667,
+      "population": 532,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "2413391",
+      "name": "India",
+      "nativeName": "Illiassa",
+      "latitude": 13.56667,
+      "longitude": -15.75,
+      "population": 529,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "2412589",
+      "name": "Mayork",
+      "latitude": 13.23333,
+      "longitude": -15.96667,
+      "population": 528,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "2413881",
+      "name": "Bani",
+      "nativeName": "Banni",
+      "latitude": 13.55,
+      "longitude": -14.73333,
+      "population": 524,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "2413427",
+      "name": "Giroba Kunda",
+      "nativeName": "Kabakama",
+      "latitude": 13.3,
+      "longitude": -14.2,
+      "population": 513,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "2411667",
+      "name": "Yallal",
+      "nativeName": "Jalaba",
+      "latitude": 13.55,
+      "longitude": -15.7,
+      "population": 512,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "2413570",
+      "name": "Dingirie",
+      "nativeName": "Dingerai",
+      "latitude": 13.76667,
+      "longitude": -14.91667,
+      "population": 512,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "2413734",
+      "name": "Buiba Mandinka",
+      "nativeName": "Buiba",
+      "latitude": 13.43333,
+      "longitude": -15.45,
+      "population": 503,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "2413674",
+      "name": "Changai",
+      "latitude": 13.58333,
+      "longitude": -14.66667,
+      "population": 496,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "2412534",
+      "name": "Memmeh",
+      "latitude": 13.51972,
+      "longitude": -16.23111,
+      "population": 493,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "2412391",
+      "name": "Njallal",
+      "nativeName": "Njallal Toro",
+      "latitude": 13.61667,
+      "longitude": -14.5,
+      "population": 484,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "2413768",
+      "name": "Boraba",
+      "latitude": 13.51667,
+      "longitude": -14.73333,
+      "population": 468,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "2413242",
+      "name": "Jessadi",
+      "latitude": 13.63333,
+      "longitude": -15.3,
+      "population": 461,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "2413922",
+      "name": "Bakang",
+      "nativeName": "Karantaba",
+      "latitude": 13.50444,
+      "longitude": -16.14444,
+      "population": 458,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "2413089",
+      "name": "Kantong Kunda",
+      "latitude": 13.33333,
+      "longitude": -15.95,
+      "population": 456,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "2413025",
+      "name": "Kemoto",
+      "latitude": 13.43197,
+      "longitude": -16.14619,
+      "population": 453,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "2412139",
+      "name": "Sapu",
+      "nativeName": "Sap",
+      "latitude": 13.55,
+      "longitude": -14.9,
+      "population": 444,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "2411882",
+      "name": "Sukur",
+      "nativeName": "Madina Umfally",
+      "latitude": 13.53333,
+      "longitude": -14.95,
+      "population": 440,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "2411991",
+      "name": "Seno Bajonki",
+      "latitude": 13.4,
+      "longitude": -15.51667,
+      "population": 439,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "2413728",
+      "name": "Bulanjor",
+      "latitude": 13.27972,
+      "longitude": -16.24833,
+      "population": 439,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "2412362",
+      "name": "Njolfen",
+      "latitude": 13.36667,
+      "longitude": -15.65,
+      "population": 428,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "2411785",
+      "name": "Tendaba",
+      "latitude": 13.43333,
+      "longitude": -15.81667,
+      "population": 420,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "2413845",
+      "name": "Bantanto Musa Bah",
+      "nativeName": "Kerr Suleh",
+      "latitude": 13.7,
+      "longitude": -15.25,
+      "population": 415,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "2412206",
+      "name": "Sambel Kunda",
+      "latitude": 13.66667,
+      "longitude": -14.98333,
+      "population": 409,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "2413370",
+      "name": "Jailan",
+      "latitude": 13.71667,
+      "longitude": -15.01667,
+      "population": 404,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "2412797",
+      "name": "Kundam Demba",
+      "nativeName": "Kundam",
+      "latitude": 13.33333,
+      "longitude": -14.11667,
+      "population": 396,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "2413589",
+      "name": "Demfai Njaga",
+      "nativeName": "Demfaye Njaga",
+      "latitude": 13.61667,
+      "longitude": -14.65,
+      "population": 385,
+      "populationRank": 150,
+      "isCapital": false
+    },
+    {
+      "id": "2413206",
+      "name": "Jorem",
+      "latitude": 13.21667,
+      "longitude": -15.96667,
+      "population": 382,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "2413898",
+      "name": "Bambako",
+      "latitude": 13.4,
+      "longitude": -15.76667,
+      "population": 381,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "2411936",
+      "name": "Sinchu Gundo",
+      "nativeName": "Sinchu Alhagi",
+      "latitude": 13.61667,
+      "longitude": -15.03333,
+      "population": 378,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "2413026",
+      "name": "Kekuta Kunda",
+      "latitude": 13.56667,
+      "longitude": -15.85,
+      "population": 370,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "2411665",
+      "name": "Yallal Ba",
+      "latitude": 13.58333,
+      "longitude": -15.56667,
+      "population": 363,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "2412821",
+      "name": "Kudang Tenda",
+      "latitude": 13.68333,
+      "longitude": -15.08333,
+      "population": 360,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "2413673",
+      "name": "Changally Chewdu",
+      "latitude": 13.36667,
+      "longitude": -14.33333,
+      "population": 348,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "2413816",
+      "name": "Batelling",
+      "latitude": 13.4,
+      "longitude": -15.85,
+      "population": 347,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "2411800",
+      "name": "Tankong Kunda",
+      "latitude": 13.5,
+      "longitude": -14.65,
+      "population": 342,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "2411770",
+      "name": "Tinkinjo",
+      "latitude": 13.3,
+      "longitude": -14.16667,
+      "population": 334,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "2413634",
+      "name": "Darsilami",
+      "nativeName": "Darsilameh",
+      "latitude": 13.4,
+      "longitude": -14.26667,
+      "population": 326,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "2413855",
+      "name": "Bantanto",
+      "latitude": 13.58333,
+      "longitude": -15.15,
+      "population": 326,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "2411833",
+      "name": "Taifa Amadou",
+      "nativeName": "Sare Buti",
+      "latitude": 13.46667,
+      "longitude": -14.9,
+      "population": 318,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "2411824",
+      "name": "Tallen",
+      "nativeName": "Medina Tallen",
+      "latitude": 13.57861,
+      "longitude": -16.17611,
+      "population": 308,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "2412296",
+      "name": "Panchang Madi Fana",
+      "nativeName": "Panchang",
+      "latitude": 13.78333,
+      "longitude": -15.15,
+      "population": 307,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "2412177",
+      "name": "Sandeng",
+      "latitude": 13.26667,
+      "longitude": -15.81667,
+      "population": 306,
+      "populationRank": 166,
+      "isCapital": false
+    },
+    {
+      "id": "2412767",
+      "name": "Kur Kur Yoro Mballow",
+      "nativeName": "Sare Yewtu",
+      "latitude": 13.48333,
+      "longitude": -14.88333,
+      "population": 306,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "2411948",
+      "name": "Sinchu Bamba",
+      "latitude": 13.53333,
+      "longitude": -14.91667,
+      "population": 297,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "2412991",
+      "name": "Kerewan",
+      "latitude": 13.65,
+      "longitude": -15.08333,
+      "population": 297,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "2411708",
+      "name": "Walalan",
+      "nativeName": "Wallalan",
+      "latitude": 13.58333,
+      "longitude": -15.68333,
+      "population": 296,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "2413649",
+      "name": "Dai Mandinka",
+      "latitude": 13.55,
+      "longitude": -15.81667,
+      "population": 295,
+      "populationRank": 171,
+      "isCapital": false
+    },
+    {
+      "id": "2411892",
+      "name": "Sotuma",
+      "nativeName": "Sotuma Samba",
+      "latitude": 13.3,
+      "longitude": -14.31667,
+      "population": 291,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "2413685",
+      "name": "Chabai",
+      "nativeName": "Kanjeramba",
+      "latitude": 13.2,
+      "longitude": -15.86667,
+      "population": 288,
+      "populationRank": 173,
+      "isCapital": false
+    },
+    {
+      "id": "2413197",
+      "name": "Jula Kunda",
+      "nativeName": "Burong",
+      "latitude": 13.33056,
+      "longitude": -16.17694,
+      "population": 283,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "2413646",
+      "name": "Dandugu",
+      "nativeName": "Baniko Ismaila",
+      "latitude": 13.28333,
+      "longitude": -14.13333,
+      "population": 282,
+      "populationRank": 175,
+      "isCapital": false
+    },
+    {
+      "id": "2412834",
+      "name": "Kossemar Momadu Sutu",
+      "nativeName": "Mamasutu",
+      "latitude": 13.31667,
+      "longitude": -14.38333,
+      "population": 281,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "2413499",
+      "name": "Fass",
+      "nativeName": "Kerr Sulay",
+      "latitude": 13.58333,
+      "longitude": -15.61667,
+      "population": 278,
+      "populationRank": 177,
+      "isCapital": false
+    },
+    {
+      "id": "2411819",
+      "name": "Tamba Koto",
+      "latitude": 13.53333,
+      "longitude": -15.51667,
+      "population": 276,
+      "populationRank": 178,
+      "isCapital": false
+    },
+    {
+      "id": "2413817",
+      "name": "Bassik",
+      "latitude": 13.53333,
+      "longitude": -15.5,
+      "population": 270,
+      "populationRank": 179,
+      "isCapital": false
+    },
+    {
+      "id": "2413261",
+      "name": "Jasobo",
+      "latitude": 13.46667,
+      "longitude": -15.66667,
+      "population": 267,
+      "populationRank": 180,
+      "isCapital": false
+    },
+    {
+      "id": "2411947",
+      "name": "Sinchu Baya",
+      "nativeName": "Kerr Batch",
+      "latitude": 13.75,
+      "longitude": -15.06667,
+      "population": 262,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "2413907",
+      "name": "Balingho",
+      "latitude": 13.49341,
+      "longitude": -15.60692,
+      "population": 252,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "2412762",
+      "name": "Kusalang",
+      "latitude": 13.45,
+      "longitude": -14.86667,
+      "population": 251,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "2411945",
+      "name": "Sinchu Bora",
+      "nativeName": "Fula Bantang",
+      "latitude": 13.5,
+      "longitude": -14.83333,
+      "population": 250,
+      "populationRank": 184,
+      "isCapital": false
+    },
+    {
+      "id": "2413406",
+      "name": "Hamdalai",
+      "latitude": 13.56306,
+      "longitude": -16.0225,
+      "population": 249,
+      "populationRank": 185,
+      "isCapital": false
+    },
+    {
+      "id": "2413621",
+      "name": "Darusalam",
+      "latitude": 13.52778,
+      "longitude": -16.08083,
+      "population": 249,
+      "populationRank": 186,
+      "isCapital": false
+    },
+    {
+      "id": "2412679",
+      "name": "Madina Fula Kunda",
+      "latitude": 13.41667,
+      "longitude": -13.83333,
+      "population": 242,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "2413402",
+      "name": "Hamdalie",
+      "latitude": 13.78333,
+      "longitude": -14.86667,
+      "population": 236,
+      "populationRank": 188,
+      "isCapital": false
+    },
+    {
+      "id": "2413957",
+      "name": "Babou Jobe",
+      "nativeName": "Bauba Jobe",
+      "latitude": 13.6,
+      "longitude": -15.3,
+      "population": 236,
+      "populationRank": 189,
+      "isCapital": false
+    },
+    {
+      "id": "2413211",
+      "name": "Jomarr",
+      "latitude": 13.43333,
+      "longitude": -15.66667,
+      "population": 230,
+      "populationRank": 190,
+      "isCapital": false
+    },
+    {
+      "id": "2413051",
+      "name": "Kass Yallal",
+      "nativeName": "Ndawen",
+      "latitude": 13.78333,
+      "longitude": -14.9,
+      "population": 229,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "2411867",
+      "name": "Sumbundu",
+      "latitude": 13.38333,
+      "longitude": -15.53333,
+      "population": 226,
+      "populationRank": 192,
+      "isCapital": false
+    },
+    {
+      "id": "2412179",
+      "name": "Sanda [?]",
+      "latitude": 13.68333,
+      "longitude": -14.8,
+      "population": 226,
+      "populationRank": 193,
+      "isCapital": false
+    },
+    {
+      "id": "2411941",
+      "name": "Sinchu Dembel",
+      "nativeName": "Taifa",
+      "latitude": 13.5,
+      "longitude": -14.88333,
+      "population": 221,
+      "populationRank": 194,
+      "isCapital": false
+    },
+    {
+      "id": "2412283",
+      "name": "Passi Mut",
+      "latitude": 13.56667,
+      "longitude": -15.5,
+      "population": 216,
+      "populationRank": 195,
+      "isCapital": false
+    },
+    {
+      "id": "2412048",
+      "name": "Sare Ngaba",
+      "latitude": 13.46667,
+      "longitude": -14.21667,
+      "population": 213,
+      "populationRank": 196,
+      "isCapital": false
+    },
+    {
+      "id": "2412575",
+      "name": "Mbamori Kunda",
+      "nativeName": "Mbamborry Kunda",
+      "latitude": 13.58167,
+      "longitude": -16.00361,
+      "population": 212,
+      "populationRank": 197,
+      "isCapital": false
+    },
+    {
+      "id": "2413885",
+      "name": "Bangherr",
+      "nativeName": "Bangairy",
+      "latitude": 13.7,
+      "longitude": -15.26667,
+      "population": 212,
+      "populationRank": 198,
+      "isCapital": false
+    },
+    {
+      "id": "2412773",
+      "name": "Kununku",
+      "latitude": 13.66667,
+      "longitude": -15,
+      "population": 210,
+      "populationRank": 199,
+      "isCapital": false
+    },
+    {
+      "id": "2412033",
+      "name": "Sare Sajo",
+      "latitude": 13.36667,
+      "longitude": -15.7,
+      "population": 208,
+      "populationRank": 200,
+      "isCapital": false
+    },
+    {
+      "id": "2413184",
+      "name": "Jurro Kunda",
+      "nativeName": "Sambel Kunda",
+      "latitude": 13.28333,
+      "longitude": -14.38333,
+      "population": 206,
+      "populationRank": 201,
+      "isCapital": false
+    },
+    {
+      "id": "2412071",
+      "name": "Sare Louba",
+      "latitude": 13.53333,
+      "longitude": -15.03333,
+      "population": 204,
+      "populationRank": 202,
+      "isCapital": false
+    },
+    {
+      "id": "2413676",
+      "name": "Chamoi",
+      "latitude": 13.31667,
+      "longitude": -14.16667,
+      "population": 197,
+      "populationRank": 203,
+      "isCapital": false
+    },
+    {
+      "id": "2413659",
+      "name": "Chisay",
+      "latitude": 13.5,
+      "longitude": -16.3,
+      "population": 194,
+      "populationRank": 204,
+      "isCapital": false
+    },
+    {
+      "id": "2413592",
+      "name": "Demba Wendu",
+      "nativeName": "Sare Samba Kukuta",
+      "latitude": 13.45,
+      "longitude": -14.33333,
+      "population": 189,
+      "populationRank": 205,
+      "isCapital": false
+    },
+    {
+      "id": "2413656",
+      "name": "Choya",
+      "latitude": 13.55,
+      "longitude": -15.25,
+      "population": 187,
+      "populationRank": 206,
+      "isCapital": false
+    },
+    {
+      "id": "2413597",
+      "name": "Demba Kunda",
+      "nativeName": "Sare Demba",
+      "latitude": 13.55,
+      "longitude": -15.31667,
+      "population": 185,
+      "populationRank": 207,
+      "isCapital": false
+    },
+    {
+      "id": "2412065",
+      "name": "Sare Malang",
+      "latitude": 13.55,
+      "longitude": -15.01667,
+      "population": 184,
+      "populationRank": 208,
+      "isCapital": false
+    },
+    {
+      "id": "2411793",
+      "name": "Tawa Kaltu",
+      "nativeName": "Tawakaltu",
+      "latitude": 13.59361,
+      "longitude": -16.04167,
+      "population": 182,
+      "populationRank": 209,
+      "isCapital": false
+    },
+    {
+      "id": "2412085",
+      "name": "Sare Jatta",
+      "latitude": 13.28333,
+      "longitude": -14.31667,
+      "population": 179,
+      "populationRank": 210,
+      "isCapital": false
+    },
+    {
+      "id": "2412629",
+      "name": "Mandina",
+      "latitude": 13.43333,
+      "longitude": -15.7,
+      "population": 170,
+      "populationRank": 211,
+      "isCapital": false
+    },
+    {
+      "id": "2413234",
+      "name": "Jiffet",
+      "nativeName": "Galoya (Jiffet)",
+      "latitude": 13.48472,
+      "longitude": -16.50139,
+      "population": 170,
+      "populationRank": 212,
+      "isCapital": false
+    },
+    {
+      "id": "2413797",
+      "name": "Beretto",
+      "nativeName": "Ngain Bereto",
+      "latitude": 13.55,
+      "longitude": -15.58333,
+      "population": 168,
+      "populationRank": 213,
+      "isCapital": false
+    },
+    {
+      "id": "2413600",
+      "name": "Demba Kali",
+      "latitude": 13.58333,
+      "longitude": -14.65,
+      "population": 166,
+      "populationRank": 214,
+      "isCapital": false
+    },
+    {
+      "id": "2411894",
+      "name": "Sotokoi",
+      "latitude": 13.65,
+      "longitude": -15.1,
+      "population": 165,
+      "populationRank": 215,
+      "isCapital": false
+    },
+    {
+      "id": "2412373",
+      "name": "Njoba Kunda",
+      "nativeName": "Pakali Ba",
+      "latitude": 13.51667,
+      "longitude": -15.25,
+      "population": 162,
+      "populationRank": 216,
+      "isCapital": false
+    },
+    {
+      "id": "2412617",
+      "name": "Mane Kunda",
+      "nativeName": "Mansajang Kunda",
+      "latitude": 13.3,
+      "longitude": -14.21667,
+      "population": 161,
+      "populationRank": 217,
+      "isCapital": false
+    },
+    {
+      "id": "2412367",
+      "name": "Njoben Tukulor",
+      "nativeName": "Njoben Tukulorr",
+      "latitude": 13.78333,
+      "longitude": -14.96667,
+      "population": 160,
+      "populationRank": 218,
+      "isCapital": false
+    },
+    {
+      "id": "2412483",
+      "name": "Naneko",
+      "nativeName": "Sare Jama",
+      "latitude": 13.4,
+      "longitude": -15.36667,
+      "population": 159,
+      "populationRank": 219,
+      "isCapital": false
+    },
+    {
+      "id": "2411791",
+      "name": "Temanto",
+      "nativeName": "Kusun",
+      "latitude": 13.38333,
+      "longitude": -13.91667,
+      "population": 158,
+      "populationRank": 220,
+      "isCapital": false
+    },
+    {
+      "id": "2411823",
+      "name": "Tally Ya",
+      "latitude": 13.58333,
+      "longitude": -15.71667,
+      "population": 157,
+      "populationRank": 221,
+      "isCapital": false
+    },
+    {
+      "id": "2413778",
+      "name": "Birong Kunda",
+      "nativeName": "Biram Kunda",
+      "latitude": 13.58333,
+      "longitude": -15.78333,
+      "population": 148,
+      "populationRank": 222,
+      "isCapital": false
+    },
+    {
+      "id": "2413047",
+      "name": "Kataba Omar Ndow",
+      "nativeName": "Kataba",
+      "latitude": 13.68333,
+      "longitude": -14.81667,
+      "population": 147,
+      "populationRank": 223,
+      "isCapital": false
+    },
+    {
+      "id": "2413835",
+      "name": "Barajali Tenda",
+      "nativeName": "Barajally Tenda",
+      "latitude": 13.58333,
+      "longitude": -14.95,
+      "population": 143,
+      "populationRank": 224,
+      "isCapital": false
+    },
+    {
+      "id": "2413619",
+      "name": "Darusalam",
+      "nativeName": "Balanghar Kerr Nderi",
+      "latitude": 13.66667,
+      "longitude": -15.4,
+      "population": 141,
+      "populationRank": 225,
+      "isCapital": false
+    },
+    {
+      "id": "2413299",
+      "name": "Jammeh Kunda",
+      "latitude": 13.5,
+      "longitude": -16,
+      "population": 137,
+      "populationRank": 226,
+      "isCapital": false
+    },
+    {
+      "id": "2413099",
+      "name": "Kanjibat",
+      "nativeName": "Bondali",
+      "latitude": 13.23333,
+      "longitude": -15.91667,
+      "population": 136,
+      "populationRank": 227,
+      "isCapital": false
+    },
+    {
+      "id": "2413192",
+      "name": "Jum Bakary",
+      "latitude": 13.31667,
+      "longitude": -14.45,
+      "population": 136,
+      "populationRank": 228,
+      "isCapital": false
+    },
+    {
+      "id": "2412086",
+      "name": "Sare Jarje",
+      "nativeName": "Santanto Yeroyel Bankunba",
+      "latitude": 13.43333,
+      "longitude": -14.53333,
+      "population": 134,
+      "populationRank": 229,
+      "isCapital": false
+    },
+    {
+      "id": "2412464",
+      "name": "Ndowen",
+      "nativeName": "Ndawen",
+      "latitude": 13.56667,
+      "longitude": -15.41667,
+      "population": 134,
+      "populationRank": 230,
+      "isCapital": false
+    },
+    {
+      "id": "2412034",
+      "name": "Sare Saidy",
+      "latitude": 13.36667,
+      "longitude": -15.56667,
+      "population": 128,
+      "populationRank": 231,
       "isCapital": false
     },
     {
@@ -236,7 +2180,389 @@
       "latitude": 13.4,
       "longitude": -13.88333,
       "population": 125,
-      "populationRank": 26,
+      "populationRank": 232,
+      "isCapital": false
+    },
+    {
+      "id": "2412823",
+      "name": "Kucha",
+      "nativeName": "Kutcha",
+      "latitude": 13.76667,
+      "longitude": -15.01667,
+      "population": 123,
+      "populationRank": 233,
+      "isCapital": false
+    },
+    {
+      "id": "2413310",
+      "name": "Jamal Mballo",
+      "nativeName": "Jamal Mballow",
+      "latitude": 13.58333,
+      "longitude": -15.51667,
+      "population": 122,
+      "populationRank": 234,
+      "isCapital": false
+    },
+    {
+      "id": "2412396",
+      "name": "Njai Kunda",
+      "nativeName": "Njie Kunda",
+      "latitude": 13.61667,
+      "longitude": -15.1,
+      "population": 103,
+      "populationRank": 235,
+      "isCapital": false
+    },
+    {
+      "id": "2413141",
+      "name": "Kalataba",
+      "nativeName": "Samataba",
+      "latitude": 13.55,
+      "longitude": -15.61667,
+      "population": 103,
+      "populationRank": 236,
+      "isCapital": false
+    },
+    {
+      "id": "2412676",
+      "name": "Madina Kuta",
+      "nativeName": "Banni",
+      "latitude": 13.38333,
+      "longitude": -13.86667,
+      "population": 102,
+      "populationRank": 237,
+      "isCapital": false
+    },
+    {
+      "id": "2412365",
+      "name": "Njogoben",
+      "nativeName": "Kerr Mod Ali",
+      "latitude": 13.75,
+      "longitude": -15.23333,
+      "population": 100,
+      "populationRank": 238,
+      "isCapital": false
+    },
+    {
+      "id": "2412507",
+      "name": "Missira",
+      "latitude": 13.36667,
+      "longitude": -14.35,
+      "population": 98,
+      "populationRank": 239,
+      "isCapital": false
+    },
+    {
+      "id": "2413129",
+      "name": "Kambi",
+      "nativeName": "Mbayen Fulla",
+      "latitude": 13.71667,
+      "longitude": -14.8,
+      "population": 95,
+      "populationRank": 240,
+      "isCapital": false
+    },
+    {
+      "id": "2413142",
+      "name": "Kalang",
+      "nativeName": "Kayabor",
+      "latitude": 13.25,
+      "longitude": -15.95,
+      "population": 95,
+      "populationRank": 241,
+      "isCapital": false
+    },
+    {
+      "id": "2413651",
+      "name": "Dabatu",
+      "nativeName": "Sare Musa",
+      "latitude": 13.36667,
+      "longitude": -15.3,
+      "population": 93,
+      "populationRank": 242,
+      "isCapital": false
+    },
+    {
+      "id": "2412890",
+      "name": "Kewel",
+      "nativeName": "Sare Madi",
+      "latitude": 13.45,
+      "longitude": -14.7,
+      "population": 92,
+      "populationRank": 243,
+      "isCapital": false
+    },
+    {
+      "id": "2412230",
+      "name": "Salikene",
+      "nativeName": "Waliba",
+      "latitude": 13.35,
+      "longitude": -14.01667,
+      "population": 88,
+      "populationRank": 244,
+      "isCapital": false
+    },
+    {
+      "id": "2411778",
+      "name": "Tento Malick Bah",
+      "latitude": 13.78333,
+      "longitude": -15.08333,
+      "population": 87,
+      "populationRank": 245,
+      "isCapital": false
+    },
+    {
+      "id": "2412870",
+      "name": "Kofa",
+      "latitude": 13.75,
+      "longitude": -15.2,
+      "population": 84,
+      "populationRank": 246,
+      "isCapital": false
+    },
+    {
+      "id": "2411884",
+      "name": "Sukoto Fula",
+      "nativeName": "Chalah",
+      "latitude": 13.56667,
+      "longitude": -15.55,
+      "population": 83,
+      "populationRank": 247,
+      "isCapital": false
+    },
+    {
+      "id": "2411767",
+      "name": "Toben",
+      "latitude": 13.75,
+      "longitude": -14.85,
+      "population": 80,
+      "populationRank": 248,
+      "isCapital": false
+    },
+    {
+      "id": "2412741",
+      "name": "Lang Sarr",
+      "latitude": 13.58333,
+      "longitude": -15.63333,
+      "population": 80,
+      "populationRank": 249,
+      "isCapital": false
+    },
+    {
+      "id": "2413215",
+      "name": "Jobe Kunda",
+      "latitude": 13.41667,
+      "longitude": -15.41667,
+      "population": 75,
+      "populationRank": 250,
+      "isCapital": false
+    },
+    {
+      "id": "9172211",
+      "name": "Mbanta Su",
+      "nativeName": "Kataba Mbap",
+      "latitude": 13.5508,
+      "longitude": -15.51394,
+      "population": 73,
+      "populationRank": 251,
+      "isCapital": false
+    },
+    {
+      "id": "2412493",
+      "name": "Munku Talla",
+      "latitude": 13.38333,
+      "longitude": -15.6,
+      "population": 71,
+      "populationRank": 252,
+      "isCapital": false
+    },
+    {
+      "id": "2413896",
+      "name": "Bamba Kolong",
+      "latitude": 13.6,
+      "longitude": -15.13333,
+      "population": 70,
+      "populationRank": 253,
+      "isCapital": false
+    },
+    {
+      "id": "2412133",
+      "name": "Sare Abdou",
+      "latitude": 13.5,
+      "longitude": -14.98333,
+      "population": 64,
+      "populationRank": 254,
+      "isCapital": false
+    },
+    {
+      "id": "2413683",
+      "name": "Chalen",
+      "nativeName": "Nyanga Bantang",
+      "latitude": 13.78333,
+      "longitude": -15,
+      "population": 60,
+      "populationRank": 255,
+      "isCapital": false
+    },
+    {
+      "id": "2412842",
+      "name": "Konteh",
+      "latitude": 13.71667,
+      "longitude": -15.16667,
+      "population": 59,
+      "populationRank": 256,
+      "isCapital": false
+    },
+    {
+      "id": "2413886",
+      "name": "Bangasiya Fali",
+      "nativeName": "Baniko Afia",
+      "latitude": 13.26667,
+      "longitude": -14.13333,
+      "population": 59,
+      "populationRank": 257,
+      "isCapital": false
+    },
+    {
+      "id": "2413932",
+      "name": "Bajiran",
+      "latitude": 13.28333,
+      "longitude": -15.96667,
+      "population": 59,
+      "populationRank": 258,
+      "isCapital": false
+    },
+    {
+      "id": "2411771",
+      "name": "Timpa",
+      "latitude": 13.63333,
+      "longitude": -14.61667,
+      "population": 57,
+      "populationRank": 259,
+      "isCapital": false
+    },
+    {
+      "id": "2412122",
+      "name": "Sare Biram",
+      "latitude": 13.28333,
+      "longitude": -14.45,
+      "population": 51,
+      "populationRank": 260,
+      "isCapital": false
+    },
+    {
+      "id": "9172216",
+      "name": "Kerr Madi",
+      "latitude": 13.5276,
+      "longitude": -15.62483,
+      "population": 51,
+      "populationRank": 261,
+      "isCapital": false
+    },
+    {
+      "id": "2412066",
+      "name": "Sare Mala",
+      "nativeName": "Bolibanna",
+      "latitude": 13.43333,
+      "longitude": -13.8,
+      "population": 49,
+      "populationRank": 262,
+      "isCapital": false
+    },
+    {
+      "id": "2413663",
+      "name": "Cheedy Wollof",
+      "nativeName": "Kidi Wollof",
+      "latitude": 13.58333,
+      "longitude": -15.85,
+      "population": 49,
+      "populationRank": 263,
+      "isCapital": false
+    },
+    {
+      "id": "2413321",
+      "name": "Jamagen",
+      "nativeName": "Cheeken",
+      "latitude": 13.56667,
+      "longitude": -15.45,
+      "population": 48,
+      "populationRank": 264,
+      "isCapital": false
+    },
+    {
+      "id": "2412322",
+      "name": "Paima",
+      "latitude": 13.25,
+      "longitude": -16.3,
+      "population": 40,
+      "populationRank": 265,
+      "isCapital": false
+    },
+    {
+      "id": "9172226",
+      "name": "Jebbel Satou",
+      "nativeName": "Kouranko",
+      "latitude": 13.58926,
+      "longitude": -16.04854,
+      "population": 39,
+      "populationRank": 266,
+      "isCapital": false
+    },
+    {
+      "id": "9172051",
+      "name": "Yoro Jula",
+      "latitude": 13.41191,
+      "longitude": -15.65856,
+      "population": 36,
+      "populationRank": 267,
+      "isCapital": false
+    },
+    {
+      "id": "2412062",
+      "name": "Sare Mansong",
+      "nativeName": "Sare Bojo Samba",
+      "latitude": 13.33333,
+      "longitude": -14.51667,
+      "population": 31,
+      "populationRank": 268,
+      "isCapital": false
+    },
+    {
+      "id": "2412156",
+      "name": "Sanneh Kunda",
+      "nativeName": "Arang Koli Kunda",
+      "latitude": 13.23333,
+      "longitude": -15.86667,
+      "population": 31,
+      "populationRank": 269,
+      "isCapital": false
+    },
+    {
+      "id": "2412250",
+      "name": "Sabally Kunda",
+      "latitude": 13.33333,
+      "longitude": -14.4,
+      "population": 28,
+      "populationRank": 270,
+      "isCapital": false
+    },
+    {
+      "id": "2412463",
+      "name": "Ndrammeh",
+      "nativeName": "Kerr Jebel",
+      "latitude": 13.76667,
+      "longitude": -15.05,
+      "population": 24,
+      "populationRank": 271,
+      "isCapital": false
+    },
+    {
+      "id": "2412374",
+      "name": "Njie Kundaring",
+      "latitude": 13.55111,
+      "longitude": -16.07028,
+      "population": 17,
+      "populationRank": 272,
       "isCapital": false
     }
   ]

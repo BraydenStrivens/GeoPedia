@@ -11,7 +11,7 @@
     },
     {
       "id": "2140066",
-      "name": "Mont-Dore",
+      "name": "Mont Dore",
       "latitude": -22.26257,
       "longitude": 166.56621,
       "population": 24680,
@@ -29,12 +29,38 @@
     },
     {
       "id": "2138981",
-      "name": "Paita",
-      "nativeName": "Païta",
+      "name": "Païta",
       "latitude": -22.13105,
       "longitude": 166.35717,
       "population": 12617,
       "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "2137690",
+      "name": "Wé",
+      "latitude": -20.91687,
+      "longitude": 167.26461,
+      "population": 10375,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2138285",
+      "name": "Tadine",
+      "latitude": -21.54751,
+      "longitude": 167.88019,
+      "population": 7492,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2141714",
+      "name": "Bourail",
+      "latitude": -21.5669,
+      "longitude": 165.49736,
+      "population": 5531,
+      "populationRank": 7,
       "isCapital": false
     },
     {
@@ -43,7 +69,7 @@
       "latitude": -20.93714,
       "longitude": 165.33121,
       "population": 5006,
-      "populationRank": 5,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -52,7 +78,7 @@
       "latitude": -21.05951,
       "longitude": 164.86582,
       "population": 4572,
-      "populationRank": 6,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -61,7 +87,7 @@
       "latitude": -21.28333,
       "longitude": 165.61667,
       "population": 4562,
-      "populationRank": 7,
+      "populationRank": 10,
       "isCapital": false
     },
     {
@@ -70,7 +96,7 @@
       "latitude": -21.52393,
       "longitude": 165.97097,
       "population": 3538,
-      "populationRank": 8,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -80,7 +106,7 @@
       "latitude": -20.65284,
       "longitude": 166.53641,
       "population": 3401,
-      "populationRank": 9,
+      "populationRank": 12,
       "isCapital": false
     },
     {
@@ -89,7 +115,7 @@
       "latitude": -20.56667,
       "longitude": 164.28333,
       "population": 3060,
-      "populationRank": 10,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -98,7 +124,7 @@
       "latitude": -21.71079,
       "longitude": 165.82764,
       "population": 2947,
-      "populationRank": 11,
+      "populationRank": 14,
       "isCapital": false
     },
     {
@@ -107,7 +133,16 @@
       "latitude": -21.61667,
       "longitude": 166.21667,
       "population": 2748,
-      "populationRank": 12,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "2138687",
+      "name": "Ponérihouen",
+      "latitude": -21.08333,
+      "longitude": 165.4,
+      "population": 2739,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -116,7 +151,7 @@
       "latitude": -20.68333,
       "longitude": 164.93333,
       "population": 2668,
-      "populationRank": 13,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -125,7 +160,7 @@
       "latitude": -21.35,
       "longitude": 165.15,
       "population": 2617,
-      "populationRank": 14,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -134,7 +169,16 @@
       "latitude": -20.39201,
       "longitude": 164.57931,
       "population": 2391,
-      "populationRank": 15,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2137873",
+      "name": "Touho",
+      "latitude": -20.79094,
+      "longitude": 165.24987,
+      "population": 2283,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -143,7 +187,7 @@
       "latitude": -20.96667,
       "longitude": 164.7,
       "population": 2272,
-      "populationRank": 16,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -153,7 +197,7 @@
       "latitude": -21.86226,
       "longitude": 166.05122,
       "population": 2146,
-      "populationRank": 17,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -162,17 +206,25 @@
       "latitude": -20.35,
       "longitude": 164.43333,
       "population": 2127,
-      "populationRank": 18,
+      "populationRank": 23,
       "isCapital": false
     },
     {
       "id": "2140915",
-      "name": "Kaala-Gomén",
-      "nativeName": "Kaala-Gomen",
+      "name": "Kaala Gomén",
       "latitude": -20.66667,
       "longitude": 164.4,
       "population": 1897,
-      "populationRank": 19,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2137773",
+      "name": "Vao",
+      "latitude": -22.66645,
+      "longitude": 167.49627,
+      "population": 1862,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -181,7 +233,7 @@
       "latitude": -21.13333,
       "longitude": 164.9,
       "population": 1511,
-      "populationRank": 20,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -190,7 +242,53 @@
       "latitude": -20.23333,
       "longitude": 164.01667,
       "population": 1405,
-      "populationRank": 21,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2137713",
+      "name": "Wala",
+      "nativeName": "Waala",
+      "latitude": -19.71161,
+      "longitude": 163.64702,
+      "population": 890,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2138356",
+      "name": "Sarraméa",
+      "latitude": -21.65,
+      "longitude": 165.85,
+      "population": 623,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2140110",
+      "name": "Moindou",
+      "latitude": -21.7,
+      "longitude": 165.68333,
+      "population": 609,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "2140450",
+      "name": "La Roche",
+      "latitude": -21.47799,
+      "longitude": 168.02593,
+      "population": 550,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2141316",
+      "name": "Farino",
+      "latitude": -21.66667,
+      "longitude": 165.76667,
+      "population": 480,
+      "populationRank": 32,
       "isCapital": false
     }
   ]

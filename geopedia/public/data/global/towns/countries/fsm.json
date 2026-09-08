@@ -1,12 +1,31 @@
 {
   "towns": [
     {
+      "id": "2081114",
+      "name": "Weno",
+      "nativeName": "Nepukos",
+      "latitude": 7.44648,
+      "longitude": 151.84135,
+      "population": 13856,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
+      "id": "2081342",
+      "name": "Tofol",
+      "latitude": 5.32479,
+      "longitude": 163.00781,
+      "population": 9686,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
       "id": "7648112",
       "name": "Colonia",
       "latitude": 9.51638,
       "longitude": 138.12167,
       "population": 7371,
-      "populationRank": 1,
+      "populationRank": 3,
       "isCapital": false
     },
     {
@@ -15,7 +34,7 @@
       "latitude": 6.92477,
       "longitude": 158.16109,
       "population": 6942,
-      "populationRank": 2,
+      "populationRank": 4,
       "isCapital": true
     },
     {
@@ -24,7 +43,36 @@
       "latitude": 6.964,
       "longitude": 158.2062,
       "population": 6074,
-      "populationRank": 3,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "7648249",
+      "name": "Lelu",
+      "latitude": 5.33359,
+      "longitude": 163.02248,
+      "population": 2160,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "7645385",
+      "name": "Satowan Village",
+      "nativeName": "Satawan",
+      "latitude": 5.334,
+      "longitude": 153.7385,
+      "population": 823,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "7645373",
+      "name": "Oneop Village",
+      "nativeName": "Oneop",
+      "latitude": 5.5066,
+      "longitude": 153.711,
+      "population": 505,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -34,7 +82,17 @@
       "latitude": 3.83626,
       "longitude": 154.97141,
       "population": 362,
-      "populationRank": 4,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "7645272",
+      "name": "Ettal Village",
+      "nativeName": "Etal",
+      "latitude": 5.56564,
+      "longitude": 153.57855,
+      "population": 267,
+      "populationRank": 10,
       "isCapital": false
     }
   ]

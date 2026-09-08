@@ -196,11 +196,19 @@
     {
       "id": "12718651",
       "name": "Sangarébougou",
-      "nativeName": "Sangarebougou",
       "latitude": 12.70581,
       "longitude": -7.90268,
       "population": 42314,
       "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "12718650",
+      "name": "Massiogo",
+      "latitude": 10.30635,
+      "longitude": -6.10972,
+      "population": 41317,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -209,7 +217,7 @@
       "latitude": 13.90608,
       "longitude": -4.55332,
       "population": 40489,
-      "populationRank": 23,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -218,7 +226,7 @@
       "latitude": 18.44345,
       "longitude": 1.40921,
       "population": 40030,
-      "populationRank": 24,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -227,7 +235,7 @@
       "latitude": 10.55,
       "longitude": -5.76667,
       "population": 38149,
-      "populationRank": 25,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -236,7 +244,7 @@
       "latitude": 15.00605,
       "longitude": -2.9517,
       "population": 37002,
-      "populationRank": 26,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -245,7 +253,7 @@
       "latitude": 12.95083,
       "longitude": -5.75557,
       "population": 33779,
-      "populationRank": 27,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -255,7 +263,7 @@
       "latitude": 14.1508,
       "longitude": -5.5209,
       "population": 32899,
-      "populationRank": 28,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -264,7 +272,7 @@
       "latitude": 10.48804,
       "longitude": -5.64943,
       "population": 31593,
-      "populationRank": 29,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -273,7 +281,7 @@
       "latitude": 16.25705,
       "longitude": -3.40126,
       "population": 31348,
-      "populationRank": 30,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -282,7 +290,7 @@
       "latitude": 14.54,
       "longitude": -9.1921,
       "population": 30592,
-      "populationRank": 31,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -291,7 +299,7 @@
       "latitude": 13.54773,
       "longitude": -7.44808,
       "population": 30591,
-      "populationRank": 32,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -300,17 +308,25 @@
       "latitude": 14.0775,
       "longitude": -3.51594,
       "population": 30159,
-      "populationRank": 33,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "2460584",
+      "name": "Bamba",
+      "latitude": 10.38333,
+      "longitude": -7.15,
+      "population": 28524,
+      "populationRank": 35,
       "isCapital": false
     },
     {
       "id": "2460755",
-      "name": "Bafoulabe",
-      "nativeName": "Bafoulabé",
+      "name": "Bafoulabé",
       "latitude": 13.80843,
       "longitude": -10.83344,
       "population": 26823,
-      "populationRank": 34,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -320,7 +336,7 @@
       "latitude": 12.37549,
       "longitude": -8.33487,
       "population": 26633,
-      "populationRank": 35,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -330,7 +346,7 @@
       "latitude": 13.68719,
       "longitude": -5.83203,
       "population": 26559,
-      "populationRank": 36,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -339,7 +355,7 @@
       "latitude": 14.35005,
       "longitude": -3.61038,
       "population": 26460,
-      "populationRank": 37,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -348,7 +364,7 @@
       "latitude": 13.82049,
       "longitude": -6.12057,
       "population": 26399,
-      "populationRank": 38,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -357,7 +373,7 @@
       "latitude": 14.064,
       "longitude": -3.07539,
       "population": 24694,
-      "populationRank": 39,
+      "populationRank": 41,
       "isCapital": false
     },
     {
@@ -366,7 +382,17 @@
       "latitude": 11.18333,
       "longitude": -8.15,
       "population": 24399,
-      "populationRank": 40,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "2450972",
+      "name": "Siribala Coro",
+      "nativeName": "Siribala-Koro",
+      "latitude": 14.0432,
+      "longitude": -6.1067,
+      "population": 24301,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -376,7 +402,7 @@
       "latitude": 11.26822,
       "longitude": -5.51054,
       "population": 24229,
-      "populationRank": 41,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -385,7 +411,7 @@
       "latitude": 12.68672,
       "longitude": -7.86378,
       "population": 24085,
-      "populationRank": 42,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -394,7 +420,7 @@
       "latitude": 15.16931,
       "longitude": -7.28985,
       "population": 23599,
-      "populationRank": 43,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -403,7 +429,7 @@
       "latitude": 12.48735,
       "longitude": -6.80313,
       "population": 23535,
-      "populationRank": 44,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -413,7 +439,7 @@
       "latitude": 12.18396,
       "longitude": -4.80284,
       "population": 22991,
-      "populationRank": 45,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -423,7 +449,7 @@
       "latitude": 13.4637,
       "longitude": -7.38278,
       "population": 22059,
-      "populationRank": 46,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -432,17 +458,16 @@
       "latitude": 16.41453,
       "longitude": -3.67075,
       "population": 19400,
-      "populationRank": 47,
+      "populationRank": 50,
       "isCapital": false
     },
     {
       "id": "2461034",
-      "name": "Anderamboukane",
-      "nativeName": "Andéramboukane",
+      "name": "Andéramboukane",
       "latitude": 15.4275,
       "longitude": 3.0175,
       "population": 18688,
-      "populationRank": 48,
+      "populationRank": 51,
       "isCapital": false
     },
     {
@@ -451,7 +476,7 @@
       "latitude": 12.35811,
       "longitude": -4.77688,
       "population": 17447,
-      "populationRank": 49,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -460,7 +485,7 @@
       "latitude": 11.93333,
       "longitude": -8.41667,
       "population": 17232,
-      "populationRank": 50,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -469,17 +494,16 @@
       "latitude": 12.2,
       "longitude": -10.7,
       "population": 15830,
-      "populationRank": 51,
+      "populationRank": 54,
       "isCapital": false
     },
     {
       "id": "2455465",
-      "name": "Ké-Macina",
-      "nativeName": "Ke Macina",
+      "name": "Ké Macina",
       "latitude": 13.9641,
       "longitude": -5.35791,
       "population": 15750,
-      "populationRank": 52,
+      "populationRank": 55,
       "isCapital": false
     },
     {
@@ -488,7 +512,7 @@
       "latitude": 15.91985,
       "longitude": 2.39609,
       "population": 14085,
-      "populationRank": 53,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -497,27 +521,35 @@
       "latitude": 12.88333,
       "longitude": -9.95,
       "population": 12985,
-      "populationRank": 54,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "2597438",
+      "name": "Adel Bagrou",
+      "nativeName": "عدل بكرو",
+      "latitude": 15.4975,
+      "longitude": -6.95056,
+      "population": 10599,
+      "populationRank": 58,
       "isCapital": false
     },
     {
       "id": "2454934",
-      "name": "Kolondiéba",
-      "nativeName": "Kolondièba",
+      "name": "Kolondièba",
       "latitude": 11.08943,
       "longitude": -6.8929,
       "population": 10041,
-      "populationRank": 55,
+      "populationRank": 59,
       "isCapital": false
     },
     {
       "id": "2596483",
       "name": "Inékar",
-      "nativeName": "Inekar",
       "latitude": 15.95944,
       "longitude": 3.14111,
       "population": 8714,
-      "populationRank": 56,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -527,17 +559,25 @@
       "latitude": 12.5304,
       "longitude": -5.77003,
       "population": 8700,
-      "populationRank": 57,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "2461247",
+      "name": "Aguelhok",
+      "latitude": 19.46139,
+      "longitude": 0.85889,
+      "population": 8080,
+      "populationRank": 62,
       "isCapital": false
     },
     {
       "id": "2449938",
-      "name": "Tenenkou",
-      "nativeName": "Ténenkou",
+      "name": "Ténenkou",
       "latitude": 14.45722,
       "longitude": -4.9169,
       "population": 7471,
-      "populationRank": 58,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -546,7 +586,7 @@
       "latitude": 15.9322,
       "longitude": -3.9906,
       "population": 6901,
-      "populationRank": 59,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -556,7 +596,7 @@
       "latitude": 12.84217,
       "longitude": -4.9245,
       "population": 6014,
-      "populationRank": 60,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -565,7 +605,16 @@
       "latitude": 14.7328,
       "longitude": -6.1219,
       "population": 4374,
-      "populationRank": 61,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "2460954",
+      "name": "Araouane",
+      "latitude": 18.90476,
+      "longitude": -3.52649,
+      "population": 4026,
+      "populationRank": 67,
       "isCapital": false
     },
     {
@@ -574,7 +623,7 @@
       "latitude": 13.13663,
       "longitude": -8.33554,
       "population": 3685,
-      "populationRank": 62,
+      "populationRank": 68,
       "isCapital": false
     },
     {
@@ -583,7 +632,16 @@
       "latitude": 15.6597,
       "longitude": 0.5022,
       "population": 3000,
-      "populationRank": 63,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "12687605",
+      "name": "Zambla",
+      "latitude": 10.24245,
+      "longitude": -6.98682,
+      "population": 1099,
+      "populationRank": 70,
       "isCapital": false
     }
   ]

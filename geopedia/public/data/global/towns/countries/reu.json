@@ -2,7 +2,7 @@
   "towns": [
     {
       "id": "935264",
-      "name": "Saint-Denis",
+      "name": "Saint Denis",
       "latitude": -20.88231,
       "longitude": 55.4504,
       "population": 154765,
@@ -11,7 +11,7 @@
     },
     {
       "id": "935221",
-      "name": "Saint-Paul",
+      "name": "Saint Paul",
       "latitude": -21.00961,
       "longitude": 55.27134,
       "population": 105240,
@@ -20,7 +20,7 @@
     },
     {
       "id": "935214",
-      "name": "Saint-Pierre",
+      "name": "Saint Pierre",
       "latitude": -21.3393,
       "longitude": 55.47811,
       "population": 84077,
@@ -38,7 +38,7 @@
     },
     {
       "id": "935268",
-      "name": "Saint-André",
+      "name": "Saint André",
       "latitude": -20.96333,
       "longitude": 55.65031,
       "population": 57150,
@@ -47,7 +47,7 @@
     },
     {
       "id": "935223",
-      "name": "Saint-Louis",
+      "name": "Saint Louis",
       "latitude": -21.28585,
       "longitude": 55.41124,
       "population": 53935,
@@ -56,7 +56,7 @@
     },
     {
       "id": "935227",
-      "name": "Saint-Joseph",
+      "name": "Saint Joseph",
       "latitude": -21.3777,
       "longitude": 55.61691,
       "population": 38807,
@@ -65,7 +65,7 @@
     },
     {
       "id": "935267",
-      "name": "Saint-Benoît",
+      "name": "Saint Benoît",
       "latitude": -21.03795,
       "longitude": 55.71546,
       "population": 37023,
@@ -83,7 +83,7 @@
     },
     {
       "id": "935225",
-      "name": "Saint-Leu",
+      "name": "Saint Leu",
       "latitude": -21.17059,
       "longitude": 55.28824,
       "population": 34893,
@@ -92,7 +92,7 @@
     },
     {
       "id": "935255",
-      "name": "Sainte-Marie",
+      "name": "Sainte Marie",
       "latitude": -20.89686,
       "longitude": 55.55056,
       "population": 34344,
@@ -110,7 +110,7 @@
     },
     {
       "id": "935248",
-      "name": "Sainte-Suzanne",
+      "name": "Sainte Suzanne",
       "latitude": -20.90616,
       "longitude": 55.60788,
       "population": 24293,
@@ -119,7 +119,7 @@
     },
     {
       "id": "935902",
-      "name": "L'Étang-Salé",
+      "name": "L'Étang Salé",
       "latitude": -21.25,
       "longitude": 55.38333,
       "population": 13836,
@@ -128,7 +128,7 @@
     },
     {
       "id": "936048",
-      "name": "Bras-Panon",
+      "name": "Bras Panon",
       "latitude": -20.99667,
       "longitude": 55.67823,
       "population": 13344,
@@ -137,11 +137,20 @@
     },
     {
       "id": "935416",
-      "name": "Petite-Île",
+      "name": "Petite Île",
       "latitude": -21.35327,
       "longitude": 55.56427,
       "population": 12617,
       "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "935708",
+      "name": "La Montagne",
+      "latitude": -20.88877,
+      "longitude": 55.42267,
+      "population": 12000,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -150,26 +159,52 @@
       "latitude": -21.24063,
       "longitude": 55.33685,
       "population": 11434,
-      "populationRank": 17,
-      "isCapital": false
-    },
-    {
-      "id": "935251",
-      "name": "Sainte-Rose",
-      "latitude": -21.12858,
-      "longitude": 55.79616,
-      "population": 7035,
       "populationRank": 18,
       "isCapital": false
     },
     {
+      "id": "935210",
+      "name": "Salazie",
+      "latitude": -21.0271,
+      "longitude": 55.5395,
+      "population": 7696,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "935146",
+      "name": "Les Trois Bassins",
+      "latitude": -21.1,
+      "longitude": 55.3,
+      "population": 7114,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "935915",
+      "name": "Entre Deux",
+      "latitude": -21.23333,
+      "longitude": 55.46667,
+      "population": 7105,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "935251",
+      "name": "Sainte Rose",
+      "latitude": -21.12858,
+      "longitude": 55.79616,
+      "population": 7035,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
       "id": "935694",
-      "name": "La Plaine-des-Palmistes",
-      "nativeName": "La Plaine des Palmistes",
+      "name": "La Plaine des Palmistes",
       "latitude": -21.13425,
       "longitude": 55.62819,
       "population": 6821,
-      "populationRank": 19,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -178,16 +213,16 @@
       "latitude": -21.13641,
       "longitude": 55.47187,
       "population": 6225,
-      "populationRank": 20,
+      "populationRank": 24,
       "isCapital": false
     },
     {
       "id": "935215",
-      "name": "Saint-Philippe",
+      "name": "Saint Philippe",
       "latitude": -21.36086,
       "longitude": 55.7679,
       "population": 5441,
-      "populationRank": 21,
+      "populationRank": 25,
       "isCapital": false
     }
   ]

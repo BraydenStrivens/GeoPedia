@@ -19,12 +19,59 @@
       "isCapital": false
     },
     {
+      "id": "13526719",
+      "name": "Diamond",
+      "latitude": 13.14077,
+      "longitude": -61.16803,
+      "population": 1971,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
       "id": "3577900",
       "name": "Georgetown",
       "latitude": 13.28054,
       "longitude": -61.1185,
       "population": 1680,
-      "populationRank": 3,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3577893",
+      "name": "Greiggs",
+      "latitude": 13.21128,
+      "longitude": -61.16284,
+      "population": 1476,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3577944",
+      "name": "Byera Village",
+      "nativeName": "Mangrove",
+      "latitude": 13.25636,
+      "longitude": -61.11954,
+      "population": 1365,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3577839",
+      "name": "Questelles",
+      "nativeName": "Clare Valley",
+      "latitude": 13.17619,
+      "longitude": -61.24893,
+      "population": 1163,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3577855",
+      "name": "Peruvian Vale",
+      "latitude": 13.17711,
+      "longitude": -61.14356,
+      "population": 1060,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -33,7 +80,7 @@
       "latitude": 13.1943,
       "longitude": -61.13904,
       "population": 1050,
-      "populationRank": 4,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -42,7 +89,16 @@
       "latitude": 13.23676,
       "longitude": -61.27275,
       "population": 1000,
-      "populationRank": 5,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3577826",
+      "name": "Rosehall",
+      "latitude": 13.27255,
+      "longitude": -61.24228,
+      "population": 954,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -51,7 +107,7 @@
       "latitude": 13.01102,
       "longitude": -61.23548,
       "population": 839,
-      "populationRank": 6,
+      "populationRank": 12,
       "isCapital": false
     },
     {
@@ -60,7 +116,17 @@
       "latitude": 13.29069,
       "longitude": -61.24043,
       "population": 735,
-      "populationRank": 7,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3748719",
+      "name": "Edinboro",
+      "nativeName": "New Montrose",
+      "latitude": 13.15981,
+      "longitude": -61.23644,
+      "population": 690,
+      "populationRank": 14,
       "isCapital": false
     },
     {
@@ -69,7 +135,7 @@
       "latitude": 13.20423,
       "longitude": -61.22466,
       "population": 635,
-      "populationRank": 8,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -78,7 +144,16 @@
       "latitude": 12.89186,
       "longitude": -61.18521,
       "population": 525,
-      "populationRank": 9,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "3577906",
+      "name": "Fancy",
+      "latitude": 13.38132,
+      "longitude": -61.16854,
+      "population": 490,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -87,7 +162,26 @@
       "latitude": 13.17923,
       "longitude": -61.1681,
       "population": 443,
-      "populationRank": 10,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "3577952",
+      "name": "Brighton Village",
+      "nativeName": "Brighton",
+      "latitude": 13.12972,
+      "longitude": -61.1727,
+      "population": 355,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "3577959",
+      "name": "Belmont",
+      "latitude": 13.16244,
+      "longitude": -61.17971,
+      "population": 314,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -96,7 +190,7 @@
       "latitude": 13.20175,
       "longitude": -61.27014,
       "population": 140,
-      "populationRank": 11,
+      "populationRank": 21,
       "isCapital": false
     }
   ]

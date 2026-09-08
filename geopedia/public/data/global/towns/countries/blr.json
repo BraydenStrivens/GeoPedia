@@ -11,13 +11,23 @@
       "isCapital": true
     },
     {
+      "id": "627907",
+      "name": "Homel",
+      "nativeName": "Гомель",
+      "latitude": 52.4345,
+      "longitude": 30.9754,
+      "population": 501193,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
       "id": "627904",
       "name": "Hrodna",
       "nativeName": "Гродна",
       "latitude": 53.6758,
       "longitude": 23.82887,
       "population": 363718,
-      "populationRank": 2,
+      "populationRank": 3,
       "isCapital": false
     },
     {
@@ -27,7 +37,7 @@
       "latitude": 55.1904,
       "longitude": 30.2049,
       "population": 358927,
-      "populationRank": 3,
+      "populationRank": 4,
       "isCapital": false
     },
     {
@@ -37,7 +47,7 @@
       "latitude": 53.90876,
       "longitude": 30.34044,
       "population": 352896,
-      "populationRank": 4,
+      "populationRank": 5,
       "isCapital": false
     },
     {
@@ -47,7 +57,7 @@
       "latitude": 52.10894,
       "longitude": 23.71749,
       "population": 347138,
-      "populationRank": 5,
+      "populationRank": 6,
       "isCapital": false
     },
     {
@@ -57,7 +67,7 @@
       "latitude": 53.14676,
       "longitude": 29.20548,
       "population": 205502,
-      "populationRank": 6,
+      "populationRank": 7,
       "isCapital": false
     },
     {
@@ -67,7 +77,7 @@
       "latitude": 53.13255,
       "longitude": 26.00775,
       "population": 170039,
-      "populationRank": 7,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -77,7 +87,7 @@
       "latitude": 54.2279,
       "longitude": 28.505,
       "population": 133700,
-      "populationRank": 8,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -87,7 +97,7 @@
       "latitude": 52.12153,
       "longitude": 26.06726,
       "population": 123283,
-      "populationRank": 9,
+      "populationRank": 10,
       "isCapital": false
     },
     {
@@ -97,7 +107,7 @@
       "latitude": 52.04162,
       "longitude": 29.21631,
       "population": 104517,
-      "populationRank": 10,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -107,7 +117,7 @@
       "latitude": 53.88333,
       "longitude": 25.29972,
       "population": 103262,
-      "populationRank": 11,
+      "populationRank": 12,
       "isCapital": false
     },
     {
@@ -117,7 +127,7 @@
       "latitude": 54.51362,
       "longitude": 30.40365,
       "population": 101662,
-      "populationRank": 12,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -127,7 +137,17 @@
       "latitude": 52.78981,
       "longitude": 27.53583,
       "population": 96418,
-      "populationRank": 13,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "624784",
+      "name": "Navapolatsk",
+      "nativeName": "Наваполацк",
+      "latitude": 55.52618,
+      "longitude": 28.59308,
+      "population": 95370,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -137,7 +157,7 @@
       "latitude": 54.3167,
       "longitude": 26.854,
       "population": 87339,
-      "populationRank": 14,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -147,7 +167,7 @@
       "latitude": 55.4879,
       "longitude": 28.7856,
       "population": 79285,
-      "populationRank": 15,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -157,7 +177,7 @@
       "latitude": 52.8926,
       "longitude": 30.024,
       "population": 76304,
-      "populationRank": 16,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -167,7 +187,7 @@
       "latitude": 52.3617,
       "longitude": 30.3916,
       "population": 64733,
-      "populationRank": 17,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -177,7 +197,7 @@
       "latitude": 54.0985,
       "longitude": 28.3331,
       "population": 62983,
-      "populationRank": 18,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -187,7 +207,7 @@
       "latitude": 52.6329,
       "longitude": 29.7389,
       "population": 61812,
-      "populationRank": 19,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -197,7 +217,7 @@
       "latitude": 53.01522,
       "longitude": 27.54159,
       "population": 58995,
-      "populationRank": 20,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -207,7 +227,7 @@
       "latitude": 52.21173,
       "longitude": 24.3563,
       "population": 52235,
-      "populationRank": 21,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -217,7 +237,7 @@
       "latitude": 53.08751,
       "longitude": 25.31707,
       "population": 48402,
-      "populationRank": 22,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -227,7 +247,7 @@
       "latitude": 53.1561,
       "longitude": 24.4513,
       "population": 41020,
-      "populationRank": 23,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -237,7 +257,7 @@
       "latitude": 52.1323,
       "longitude": 29.3257,
       "population": 36656,
-      "populationRank": 24,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -247,7 +267,7 @@
       "latitude": 54.4798,
       "longitude": 26.3957,
       "population": 35072,
-      "populationRank": 25,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -257,7 +277,7 @@
       "latitude": 53.09255,
       "longitude": 30.04862,
       "population": 31490,
-      "populationRank": 26,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -267,7 +287,7 @@
       "latitude": 53.68477,
       "longitude": 27.13171,
       "population": 29607,
-      "populationRank": 27,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -277,7 +297,7 @@
       "latitude": 53.30588,
       "longitude": 28.62872,
       "population": 28745,
-      "populationRank": 28,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -287,7 +307,7 @@
       "latitude": 54.28606,
       "longitude": 30.98604,
       "population": 28626,
-      "populationRank": 29,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -297,7 +317,7 @@
       "latitude": 52.53129,
       "longitude": 24.9782,
       "population": 27986,
-      "populationRank": 30,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -307,7 +327,7 @@
       "latitude": 53.5942,
       "longitude": 25.8191,
       "population": 27624,
-      "populationRank": 31,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -317,7 +337,7 @@
       "latitude": 54.4914,
       "longitude": 26.9111,
       "population": 26015,
-      "populationRank": 32,
+      "populationRank": 34,
       "isCapital": false
     },
     {
@@ -327,7 +347,7 @@
       "latitude": 54.0249,
       "longitude": 28.0894,
       "population": 24402,
-      "populationRank": 33,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -337,7 +357,17 @@
       "latitude": 52.24864,
       "longitude": 26.80061,
       "population": 23396,
-      "populationRank": 34,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "626450",
+      "name": "Krychau",
+      "nativeName": "Крычаў",
+      "latitude": 53.71924,
+      "longitude": 31.71356,
+      "population": 22973,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -347,7 +377,7 @@
       "latitude": 52.70793,
       "longitude": 25.33509,
       "population": 22189,
-      "populationRank": 35,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -357,7 +387,7 @@
       "latitude": 53.509,
       "longitude": 28.147,
       "population": 19892,
-      "populationRank": 36,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -367,7 +397,7 @@
       "latitude": 53.74998,
       "longitude": 27.33338,
       "population": 19006,
-      "populationRank": 37,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -377,7 +407,7 @@
       "latitude": 52.55464,
       "longitude": 24.45483,
       "population": 18994,
-      "populationRank": 38,
+      "populationRank": 41,
       "isCapital": false
     },
     {
@@ -387,7 +417,7 @@
       "latitude": 55.11676,
       "longitude": 26.83263,
       "population": 18450,
-      "populationRank": 39,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -397,7 +427,7 @@
       "latitude": 52.41471,
       "longitude": 31.31429,
       "population": 17901,
-      "populationRank": 40,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -407,7 +437,7 @@
       "latitude": 55.13933,
       "longitude": 27.69143,
       "population": 17807,
-      "populationRank": 41,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -417,7 +447,7 @@
       "latitude": 53.47994,
       "longitude": 26.7351,
       "population": 17603,
-      "populationRank": 42,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -427,7 +457,7 @@
       "latitude": 54.8814,
       "longitude": 28.699,
       "population": 17400,
-      "populationRank": 43,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -437,7 +467,7 @@
       "latitude": 54.0114,
       "longitude": 27.2695,
       "population": 17166,
-      "populationRank": 44,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -447,7 +477,7 @@
       "latitude": 53.944,
       "longitude": 27.7823,
       "population": 17000,
-      "populationRank": 45,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -457,7 +487,7 @@
       "latitude": 54.41815,
       "longitude": 25.93734,
       "population": 16804,
-      "populationRank": 46,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -467,7 +497,7 @@
       "latitude": 53.52131,
       "longitude": 30.23078,
       "population": 16296,
-      "populationRank": 47,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -477,7 +507,7 @@
       "latitude": 53.22186,
       "longitude": 26.67679,
       "population": 15897,
-      "populationRank": 48,
+      "populationRank": 51,
       "isCapital": false
     },
     {
@@ -487,7 +517,7 @@
       "latitude": 52.14724,
       "longitude": 25.53198,
       "population": 15833,
-      "populationRank": 49,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -497,7 +527,7 @@
       "latitude": 52.2168,
       "longitude": 27.8561,
       "population": 15788,
-      "populationRank": 50,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -507,7 +537,7 @@
       "latitude": 54.2064,
       "longitude": 27.8512,
       "population": 15543,
-      "populationRank": 51,
+      "populationRank": 54,
       "isCapital": false
     },
     {
@@ -517,7 +547,7 @@
       "latitude": 54.61378,
       "longitude": 25.95537,
       "population": 15265,
-      "populationRank": 52,
+      "populationRank": 55,
       "isCapital": false
     },
     {
@@ -527,7 +557,7 @@
       "latitude": 53.6014,
       "longitude": 24.7465,
       "population": 15127,
-      "populationRank": 53,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -537,7 +567,7 @@
       "latitude": 54.0072,
       "longitude": 27.6963,
       "population": 15000,
-      "populationRank": 54,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -547,7 +577,7 @@
       "latitude": 53.60492,
       "longitude": 31.95632,
       "population": 14868,
-      "populationRank": 55,
+      "populationRank": 58,
       "isCapital": false
     },
     {
@@ -557,7 +587,7 @@
       "latitude": 53.35488,
       "longitude": 32.05128,
       "population": 14757,
-      "populationRank": 56,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -567,7 +597,7 @@
       "latitude": 54.21298,
       "longitude": 30.28724,
       "population": 14738,
-      "populationRank": 57,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -577,7 +607,7 @@
       "latitude": 52.1874,
       "longitude": 25.1597,
       "population": 14659,
-      "populationRank": 58,
+      "populationRank": 61,
       "isCapital": false
     },
     {
@@ -587,7 +617,7 @@
       "latitude": 52.19857,
       "longitude": 24.01064,
       "population": 14430,
-      "populationRank": 59,
+      "populationRank": 62,
       "isCapital": false
     },
     {
@@ -597,7 +627,7 @@
       "latitude": 53.4122,
       "longitude": 24.5387,
       "population": 14239,
-      "populationRank": 60,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -607,7 +637,7 @@
       "latitude": 51.89008,
       "longitude": 26.83596,
       "population": 14034,
-      "populationRank": 61,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -617,7 +647,27 @@
       "latitude": 52.75874,
       "longitude": 26.43096,
       "population": 13155,
-      "populationRank": 62,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "626917",
+      "name": "Karma",
+      "nativeName": "Карма",
+      "latitude": 53.1301,
+      "longitude": 30.8016,
+      "population": 13073,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "627362",
+      "name": "Khojniki",
+      "nativeName": "Хойнікі",
+      "latitude": 51.90773,
+      "longitude": 29.98258,
+      "population": 13001,
+      "populationRank": 67,
       "isCapital": false
     },
     {
@@ -627,7 +677,7 @@
       "latitude": 51.79467,
       "longitude": 24.07461,
       "population": 12593,
-      "populationRank": 63,
+      "populationRank": 68,
       "isCapital": false
     },
     {
@@ -637,7 +687,7 @@
       "latitude": 52.2173,
       "longitude": 27.476,
       "population": 11823,
-      "populationRank": 64,
+      "populationRank": 69,
       "isCapital": false
     },
     {
@@ -647,7 +697,7 @@
       "latitude": 53.72406,
       "longitude": 25.49709,
       "population": 11800,
-      "populationRank": 65,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -657,7 +707,7 @@
       "latitude": 54.66192,
       "longitude": 29.15016,
       "population": 11598,
-      "populationRank": 66,
+      "populationRank": 71,
       "isCapital": false
     },
     {
@@ -667,7 +717,7 @@
       "latitude": 55.4624,
       "longitude": 29.98451,
       "population": 11321,
-      "populationRank": 67,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -677,7 +727,7 @@
       "latitude": 52.7985,
       "longitude": 28.0048,
       "population": 11165,
-      "populationRank": 68,
+      "populationRank": 73,
       "isCapital": false
     },
     {
@@ -687,7 +737,7 @@
       "latitude": 53.8391,
       "longitude": 28.9879,
       "population": 11125,
-      "populationRank": 69,
+      "populationRank": 74,
       "isCapital": false
     },
     {
@@ -697,7 +747,7 @@
       "latitude": 53.06379,
       "longitude": 26.63922,
       "population": 11072,
-      "populationRank": 70,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -707,7 +757,7 @@
       "latitude": 52.4731,
       "longitude": 25.1784,
       "population": 10984,
-      "populationRank": 71,
+      "populationRank": 76,
       "isCapital": false
     },
     {
@@ -717,7 +767,7 @@
       "latitude": 53.7788,
       "longitude": 27.5948,
       "population": 10869,
-      "populationRank": 72,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -727,7 +777,7 @@
       "latitude": 53.0402,
       "longitude": 28.267,
       "population": 10683,
-      "populationRank": 73,
+      "populationRank": 78,
       "isCapital": false
     },
     {
@@ -737,7 +787,17 @@
       "latitude": 53.7059,
       "longitude": 28.4313,
       "population": 10617,
-      "populationRank": 74,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "626806",
+      "name": "Kasciukoŭka",
+      "nativeName": "Касцюкоўка",
+      "latitude": 52.5387,
+      "longitude": 30.9173,
+      "population": 10552,
+      "populationRank": 80,
       "isCapital": false
     },
     {
@@ -747,7 +807,7 @@
       "latitude": 53.4627,
       "longitude": 27.2137,
       "population": 10474,
-      "populationRank": 75,
+      "populationRank": 81,
       "isCapital": false
     },
     {
@@ -757,7 +817,7 @@
       "latitude": 53.03931,
       "longitude": 26.26311,
       "population": 10473,
-      "populationRank": 76,
+      "populationRank": 82,
       "isCapital": false
     },
     {
@@ -767,7 +827,7 @@
       "latitude": 52.1299,
       "longitude": 28.49625,
       "population": 10278,
-      "populationRank": 77,
+      "populationRank": 83,
       "isCapital": false
     },
     {
@@ -777,7 +837,7 @@
       "latitude": 54.47737,
       "longitude": 30.30936,
       "population": 10131,
-      "populationRank": 78,
+      "populationRank": 84,
       "isCapital": false
     },
     {
@@ -787,7 +847,17 @@
       "latitude": 54.0185,
       "longitude": 31.7217,
       "population": 9959,
-      "populationRank": 79,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "627381",
+      "name": "Chocimsk",
+      "nativeName": "Хоцімск",
+      "latitude": 53.40843,
+      "longitude": 32.57949,
+      "population": 9877,
+      "populationRank": 86,
       "isCapital": false
     },
     {
@@ -797,7 +867,7 @@
       "latitude": 54.08911,
       "longitude": 26.52731,
       "population": 9840,
-      "populationRank": 80,
+      "populationRank": 87,
       "isCapital": false
     },
     {
@@ -807,7 +877,7 @@
       "latitude": 53.1516,
       "longitude": 27.0913,
       "population": 9767,
-      "populationRank": 81,
+      "populationRank": 88,
       "isCapital": false
     },
     {
@@ -817,7 +887,7 @@
       "latitude": 53.5904,
       "longitude": 24.2478,
       "population": 9707,
-      "populationRank": 82,
+      "populationRank": 89,
       "isCapital": false
     },
     {
@@ -827,7 +897,7 @@
       "latitude": 53.80737,
       "longitude": 30.96584,
       "population": 9690,
-      "populationRank": 83,
+      "populationRank": 90,
       "isCapital": false
     },
     {
@@ -837,7 +907,7 @@
       "latitude": 53.9952,
       "longitude": 29.7091,
       "population": 9553,
-      "populationRank": 84,
+      "populationRank": 91,
       "isCapital": false
     },
     {
@@ -847,7 +917,7 @@
       "latitude": 54.40988,
       "longitude": 29.69348,
       "population": 9542,
-      "populationRank": 85,
+      "populationRank": 92,
       "isCapital": false
     },
     {
@@ -857,7 +927,17 @@
       "latitude": 55.64387,
       "longitude": 27.05715,
       "population": 9338,
-      "populationRank": 86,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "8020004",
+      "name": "Druzhny",
+      "nativeName": "Дружны",
+      "latitude": 53.6238,
+      "longitude": 27.8977,
+      "population": 8978,
+      "populationRank": 94,
       "isCapital": false
     },
     {
@@ -867,7 +947,7 @@
       "latitude": 52.9164,
       "longitude": 30.9179,
       "population": 8926,
-      "populationRank": 87,
+      "populationRank": 95,
       "isCapital": false
     },
     {
@@ -877,7 +957,7 @@
       "latitude": 51.81363,
       "longitude": 29.1544,
       "population": 8623,
-      "populationRank": 88,
+      "populationRank": 96,
       "isCapital": false
     },
     {
@@ -887,7 +967,7 @@
       "latitude": 52.55428,
       "longitude": 31.18067,
       "population": 8580,
-      "populationRank": 89,
+      "populationRank": 97,
       "isCapital": false
     },
     {
@@ -897,7 +977,7 @@
       "latitude": 52.71725,
       "longitude": 30.5679,
       "population": 8534,
-      "populationRank": 90,
+      "populationRank": 98,
       "isCapital": false
     },
     {
@@ -907,7 +987,7 @@
       "latitude": 51.79724,
       "longitude": 29.49784,
       "population": 8388,
-      "populationRank": 91,
+      "populationRank": 99,
       "isCapital": false
     },
     {
@@ -917,7 +997,7 @@
       "latitude": 54.3178,
       "longitude": 29.1374,
       "population": 8276,
-      "populationRank": 92,
+      "populationRank": 100,
       "isCapital": false
     },
     {
@@ -927,7 +1007,17 @@
       "latitude": 52.40013,
       "longitude": 23.81,
       "population": 8114,
-      "populationRank": 93,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "628511",
+      "name": "Hatava",
+      "nativeName": "Гатава",
+      "latitude": 53.7829,
+      "longitude": 27.6407,
+      "population": 8000,
+      "populationRank": 102,
       "isCapital": false
     },
     {
@@ -937,7 +1027,7 @@
       "latitude": 53.27003,
       "longitude": 29.47064,
       "population": 7806,
-      "populationRank": 94,
+      "populationRank": 103,
       "isCapital": false
     },
     {
@@ -947,7 +1037,7 @@
       "latitude": 54.4235,
       "longitude": 27.8301,
       "population": 7800,
-      "populationRank": 95,
+      "populationRank": 104,
       "isCapital": false
     },
     {
@@ -957,7 +1047,7 @@
       "latitude": 52.90197,
       "longitude": 28.68308,
       "population": 7800,
-      "populationRank": 96,
+      "populationRank": 105,
       "isCapital": false
     },
     {
@@ -967,7 +1057,7 @@
       "latitude": 55.6222,
       "longitude": 27.6281,
       "population": 7756,
-      "populationRank": 97,
+      "populationRank": 106,
       "isCapital": false
     },
     {
@@ -977,7 +1067,7 @@
       "latitude": 53.56855,
       "longitude": 31.38467,
       "population": 7710,
-      "populationRank": 98,
+      "populationRank": 107,
       "isCapital": false
     },
     {
@@ -987,7 +1077,7 @@
       "latitude": 53.44312,
       "longitude": 31.00025,
       "population": 7647,
-      "populationRank": 99,
+      "populationRank": 108,
       "isCapital": false
     },
     {
@@ -997,7 +1087,7 @@
       "latitude": 53.46215,
       "longitude": 25.40757,
       "population": 7596,
-      "populationRank": 100,
+      "populationRank": 109,
       "isCapital": false
     },
     {
@@ -1007,7 +1097,7 @@
       "latitude": 54.85096,
       "longitude": 29.16645,
       "population": 7573,
-      "populationRank": 101,
+      "populationRank": 110,
       "isCapital": false
     },
     {
@@ -1017,7 +1107,7 @@
       "latitude": 54.2531,
       "longitude": 29.79567,
       "population": 7300,
-      "populationRank": 102,
+      "populationRank": 111,
       "isCapital": false
     },
     {
@@ -1027,7 +1117,7 @@
       "latitude": 53.26494,
       "longitude": 24.42398,
       "population": 7300,
-      "populationRank": 103,
+      "populationRank": 112,
       "isCapital": false
     },
     {
@@ -1037,7 +1127,7 @@
       "latitude": 53.4923,
       "longitude": 29.3356,
       "population": 7249,
-      "populationRank": 104,
+      "populationRank": 113,
       "isCapital": false
     },
     {
@@ -1047,7 +1137,7 @@
       "latitude": 55.29841,
       "longitude": 29.61279,
       "population": 7223,
-      "populationRank": 105,
+      "populationRank": 114,
       "isCapital": false
     },
     {
@@ -1057,7 +1147,17 @@
       "latitude": 52.64844,
       "longitude": 28.87993,
       "population": 7167,
-      "populationRank": 106,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "620146",
+      "name": "Višnieva",
+      "nativeName": "Вішнева",
+      "latitude": 54.7102,
+      "longitude": 26.5228,
+      "population": 7000,
+      "populationRank": 116,
       "isCapital": false
     },
     {
@@ -1067,7 +1167,7 @@
       "latitude": 54.81175,
       "longitude": 29.70061,
       "population": 6974,
-      "populationRank": 107,
+      "populationRank": 117,
       "isCapital": false
     },
     {
@@ -1077,7 +1177,7 @@
       "latitude": 54.57187,
       "longitude": 30.69117,
       "population": 6945,
-      "populationRank": 108,
+      "populationRank": 118,
       "isCapital": false
     },
     {
@@ -1087,7 +1187,7 @@
       "latitude": 53.93173,
       "longitude": 25.7763,
       "population": 6906,
-      "populationRank": 109,
+      "populationRank": 119,
       "isCapital": false
     },
     {
@@ -1097,7 +1197,7 @@
       "latitude": 54.87894,
       "longitude": 26.93619,
       "population": 6822,
-      "populationRank": 110,
+      "populationRank": 120,
       "isCapital": false
     },
     {
@@ -1107,7 +1207,7 @@
       "latitude": 55.04335,
       "longitude": 29.45738,
       "population": 6819,
-      "populationRank": 111,
+      "populationRank": 121,
       "isCapital": false
     },
     {
@@ -1117,7 +1217,7 @@
       "latitude": 55.77655,
       "longitude": 27.93657,
       "population": 6771,
-      "populationRank": 112,
+      "populationRank": 122,
       "isCapital": false
     },
     {
@@ -1127,7 +1227,17 @@
       "latitude": 54.89097,
       "longitude": 27.76654,
       "population": 6601,
-      "populationRank": 113,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "625931",
+      "name": "Lošnica",
+      "nativeName": "Лошніца",
+      "latitude": 54.2796,
+      "longitude": 28.7649,
+      "population": 6524,
+      "populationRank": 124,
       "isCapital": false
     },
     {
@@ -1137,7 +1247,17 @@
       "latitude": 55.0199,
       "longitude": 30.7969,
       "population": 6515,
-      "populationRank": 114,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "622849",
+      "name": "Rakaw",
+      "nativeName": "Ракаў",
+      "latitude": 53.9674,
+      "longitude": 27.0562,
+      "population": 6300,
+      "populationRank": 126,
       "isCapital": false
     },
     {
@@ -1147,7 +1267,7 @@
       "latitude": 53.28411,
       "longitude": 24.40721,
       "population": 6200,
-      "populationRank": 115,
+      "populationRank": 127,
       "isCapital": false
     },
     {
@@ -1157,7 +1277,7 @@
       "latitude": 53.14931,
       "longitude": 24.81201,
       "population": 6193,
-      "populationRank": 116,
+      "populationRank": 128,
       "isCapital": false
     },
     {
@@ -1167,7 +1287,7 @@
       "latitude": 54.1554,
       "longitude": 27.2412,
       "population": 6100,
-      "populationRank": 117,
+      "populationRank": 129,
       "isCapital": false
     },
     {
@@ -1177,7 +1297,7 @@
       "latitude": 53.33578,
       "longitude": 31.40065,
       "population": 6100,
-      "populationRank": 118,
+      "populationRank": 130,
       "isCapital": false
     },
     {
@@ -1187,7 +1307,7 @@
       "latitude": 51.94115,
       "longitude": 30.79343,
       "population": 6028,
-      "populationRank": 119,
+      "populationRank": 131,
       "isCapital": false
     },
     {
@@ -1197,7 +1317,7 @@
       "latitude": 52.7267,
       "longitude": 27.4606,
       "population": 6000,
-      "populationRank": 120,
+      "populationRank": 132,
       "isCapital": false
     },
     {
@@ -1207,7 +1327,7 @@
       "latitude": 55.36807,
       "longitude": 27.46971,
       "population": 5945,
-      "populationRank": 121,
+      "populationRank": 133,
       "isCapital": false
     },
     {
@@ -1217,7 +1337,7 @@
       "latitude": 53.03431,
       "longitude": 24.09717,
       "population": 5851,
-      "populationRank": 122,
+      "populationRank": 134,
       "isCapital": false
     },
     {
@@ -1227,7 +1347,7 @@
       "latitude": 55.17611,
       "longitude": 28.61949,
       "population": 5773,
-      "populationRank": 123,
+      "populationRank": 135,
       "isCapital": false
     },
     {
@@ -1237,7 +1357,7 @@
       "latitude": 52.0566,
       "longitude": 27.2161,
       "population": 5658,
-      "populationRank": 124,
+      "populationRank": 136,
       "isCapital": false
     },
     {
@@ -1247,7 +1367,7 @@
       "latitude": 53.19563,
       "longitude": 24.01992,
       "population": 5647,
-      "populationRank": 125,
+      "populationRank": 137,
       "isCapital": false
     },
     {
@@ -1257,7 +1377,7 @@
       "latitude": 53.5648,
       "longitude": 26.1406,
       "population": 5546,
-      "populationRank": 126,
+      "populationRank": 138,
       "isCapital": false
     },
     {
@@ -1267,7 +1387,7 @@
       "latitude": 54.15387,
       "longitude": 25.31226,
       "population": 5532,
-      "populationRank": 127,
+      "populationRank": 139,
       "isCapital": false
     },
     {
@@ -1277,7 +1397,17 @@
       "latitude": 55.90603,
       "longitude": 28.81332,
       "population": 5400,
-      "populationRank": 128,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "8247399",
+      "name": "Čysć",
+      "nativeName": "Чысць",
+      "latitude": 54.2698,
+      "longitude": 27.1067,
+      "population": 5300,
+      "populationRank": 141,
       "isCapital": false
     },
     {
@@ -1287,7 +1417,7 @@
       "latitude": 53.7496,
       "longitude": 28.0115,
       "population": 5200,
-      "populationRank": 129,
+      "populationRank": 142,
       "isCapital": false
     },
     {
@@ -1297,7 +1427,27 @@
       "latitude": 53.9432,
       "longitude": 27.425,
       "population": 5000,
-      "populationRank": 130,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "622274",
+      "name": "Sienica",
+      "nativeName": "Сеніца",
+      "latitude": 53.8313,
+      "longitude": 27.5343,
+      "population": 5000,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "628317",
+      "name": "Halshany",
+      "nativeName": "Гальшаны",
+      "latitude": 54.2585,
+      "longitude": 26.0144,
+      "population": 5000,
+      "populationRank": 145,
       "isCapital": false
     },
     {
@@ -1307,7 +1457,7 @@
       "latitude": 54.0022,
       "longitude": 27.6754,
       "population": 5000,
-      "populationRank": 131,
+      "populationRank": 146,
       "isCapital": false
     },
     {
@@ -1317,7 +1467,17 @@
       "latitude": 52.37091,
       "longitude": 23.37083,
       "population": 4940,
-      "populationRank": 132,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "8285492",
+      "name": "Mikhanavichy",
+      "nativeName": "Міханавічы",
+      "latitude": 53.73937,
+      "longitude": 27.69276,
+      "population": 4800,
+      "populationRank": 148,
       "isCapital": false
     },
     {
@@ -1327,7 +1487,7 @@
       "latitude": 52.8522,
       "longitude": 27.1698,
       "population": 4700,
-      "populationRank": 133,
+      "populationRank": 149,
       "isCapital": false
     },
     {
@@ -1337,7 +1497,7 @@
       "latitude": 51.79067,
       "longitude": 30.26709,
       "population": 4579,
-      "populationRank": 134,
+      "populationRank": 150,
       "isCapital": false
     },
     {
@@ -1347,7 +1507,7 @@
       "latitude": 54.46061,
       "longitude": 29.99935,
       "population": 4300,
-      "populationRank": 135,
+      "populationRank": 151,
       "isCapital": false
     },
     {
@@ -1357,7 +1517,7 @@
       "latitude": 53.8864,
       "longitude": 26.7432,
       "population": 4206,
-      "populationRank": 136,
+      "populationRank": 152,
       "isCapital": false
     },
     {
@@ -1367,7 +1527,27 @@
       "latitude": 53.6404,
       "longitude": 27.9199,
       "population": 4200,
-      "populationRank": 137,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "624908",
+      "name": "Motaĺ",
+      "nativeName": "Моталь",
+      "latitude": 52.3138,
+      "longitude": 25.6072,
+      "population": 4079,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "629471",
+      "name": "Bujnichy",
+      "nativeName": "Буйнічы",
+      "latitude": 53.8536,
+      "longitude": 30.2671,
+      "population": 4000,
+      "populationRank": 155,
       "isCapital": false
     },
     {
@@ -1377,7 +1557,7 @@
       "latitude": 52.5175,
       "longitude": 25.8429,
       "population": 3625,
-      "populationRank": 138,
+      "populationRank": 156,
       "isCapital": false
     },
     {
@@ -1387,7 +1567,7 @@
       "latitude": 54.4168,
       "longitude": 30.28839,
       "population": 3600,
-      "populationRank": 139,
+      "populationRank": 157,
       "isCapital": false
     },
     {
@@ -1397,7 +1577,17 @@
       "latitude": 53.31195,
       "longitude": 26.53986,
       "population": 3576,
-      "populationRank": 140,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "8247409",
+      "name": "Baĺšavik",
+      "nativeName": "Бальшавік",
+      "latitude": 54.0036,
+      "longitude": 27.5669,
+      "population": 3470,
+      "populationRank": 159,
       "isCapital": false
     },
     {
@@ -1407,7 +1597,17 @@
       "latitude": 54.9102,
       "longitude": 26.708,
       "population": 3400,
-      "populationRank": 141,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "624805",
+      "name": "Narach",
+      "nativeName": "Нарач",
+      "latitude": 54.5652,
+      "longitude": 26.7314,
+      "population": 3400,
+      "populationRank": 161,
       "isCapital": false
     },
     {
@@ -1417,7 +1617,7 @@
       "latitude": 52.9479,
       "longitude": 27.893,
       "population": 3300,
-      "populationRank": 142,
+      "populationRank": 162,
       "isCapital": false
     },
     {
@@ -1427,7 +1627,7 @@
       "latitude": 52.2512,
       "longitude": 29.8288,
       "population": 3143,
-      "populationRank": 143,
+      "populationRank": 163,
       "isCapital": false
     },
     {
@@ -1437,7 +1637,27 @@
       "latitude": 52.0683,
       "longitude": 27.735,
       "population": 3100,
-      "populationRank": 144,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "626548",
+      "name": "Kreva",
+      "nativeName": "Крэва",
+      "latitude": 54.3118,
+      "longitude": 26.2916,
+      "population": 3100,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "8019803",
+      "name": "Jubiliejny",
+      "nativeName": "Юбілейны",
+      "latitude": 53.8191,
+      "longitude": 27.5215,
+      "population": 3000,
+      "populationRank": 166,
       "isCapital": false
     },
     {
@@ -1447,7 +1667,7 @@
       "latitude": 53.5983,
       "longitude": 27.8621,
       "population": 2900,
-      "populationRank": 145,
+      "populationRank": 167,
       "isCapital": false
     },
     {
@@ -1457,7 +1677,17 @@
       "latitude": 53.5248,
       "longitude": 27.8303,
       "population": 2900,
-      "populationRank": 146,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "626610",
+      "name": "Krasnaje",
+      "nativeName": "Краснае",
+      "latitude": 54.2438,
+      "longitude": 27.0758,
+      "population": 2900,
+      "populationRank": 169,
       "isCapital": false
     },
     {
@@ -1467,7 +1697,17 @@
       "latitude": 54.12063,
       "longitude": 31.09037,
       "population": 2900,
-      "populationRank": 147,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "622971",
+      "name": "Puchavičy",
+      "nativeName": "Пухавічы",
+      "latitude": 53.5297,
+      "longitude": 28.2467,
+      "population": 2800,
+      "populationRank": 171,
       "isCapital": false
     },
     {
@@ -1477,7 +1717,7 @@
       "latitude": 52.339,
       "longitude": 25.9867,
       "population": 2800,
-      "populationRank": 148,
+      "populationRank": 172,
       "isCapital": false
     },
     {
@@ -1487,7 +1727,7 @@
       "latitude": 52.86322,
       "longitude": 24.89357,
       "population": 2642,
-      "populationRank": 149,
+      "populationRank": 173,
       "isCapital": false
     },
     {
@@ -1497,7 +1737,17 @@
       "latitude": 53.3994,
       "longitude": 29.0048,
       "population": 2600,
-      "populationRank": 150,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "621700",
+      "name": "Snow",
+      "nativeName": "Сноў",
+      "latitude": 53.22076,
+      "longitude": 26.40095,
+      "population": 2600,
+      "populationRank": 175,
       "isCapital": false
     },
     {
@@ -1507,7 +1757,17 @@
       "latitude": 53.32462,
       "longitude": 26.00789,
       "population": 2600,
-      "populationRank": 151,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "619217",
+      "name": "Zamastočča",
+      "nativeName": "Замасточча",
+      "latitude": 53.8198,
+      "longitude": 27.8685,
+      "population": 2500,
+      "populationRank": 177,
       "isCapital": false
     },
     {
@@ -1517,7 +1777,27 @@
       "latitude": 52.5194,
       "longitude": 29.5988,
       "population": 2500,
-      "populationRank": 152,
+      "populationRank": 178,
+      "isCapital": false
+    },
+    {
+      "id": "622420",
+      "name": "Samachvalavičy",
+      "nativeName": "Самахвалавічы",
+      "latitude": 53.7396,
+      "longitude": 27.5037,
+      "population": 2500,
+      "populationRank": 179,
+      "isCapital": false
+    },
+    {
+      "id": "629697",
+      "name": "Baruny",
+      "nativeName": "Баруны",
+      "latitude": 54.3171,
+      "longitude": 26.1376,
+      "population": 2500,
+      "populationRank": 180,
       "isCapital": false
     },
     {
@@ -1527,7 +1807,37 @@
       "latitude": 54.7316,
       "longitude": 28.0577,
       "population": 2457,
-      "populationRank": 153,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "8019924",
+      "name": "Enierhietykaŭ",
+      "nativeName": "Энергетыкаў",
+      "latitude": 53.5871,
+      "longitude": 27.0535,
+      "population": 2445,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "623956",
+      "name": "Astrashycki Haradok",
+      "nativeName": "Астрашыцкі Гарадок",
+      "latitude": 54.0651,
+      "longitude": 27.695,
+      "population": 2390,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "629338",
+      "name": "Čarnaŭčycy",
+      "nativeName": "Чарнаўчыцы",
+      "latitude": 52.21948,
+      "longitude": 23.74043,
+      "population": 2372,
+      "populationRank": 184,
       "isCapital": false
     },
     {
@@ -1537,7 +1847,17 @@
       "latitude": 52.8042,
       "longitude": 29.4176,
       "population": 2300,
-      "populationRank": 154,
+      "populationRank": 185,
+      "isCapital": false
+    },
+    {
+      "id": "8256270",
+      "name": "Akciabrski",
+      "nativeName": "Акцябрскі",
+      "latitude": 54.04059,
+      "longitude": 28.19813,
+      "population": 2300,
+      "populationRank": 186,
       "isCapital": false
     },
     {
@@ -1547,7 +1867,177 @@
       "latitude": 53.4544,
       "longitude": 26.467,
       "population": 2248,
-      "populationRank": 155,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "624297",
+      "name": "Novy Svieržań",
+      "nativeName": "Новы Свержань",
+      "latitude": 53.4542,
+      "longitude": 26.7301,
+      "population": 2200,
+      "populationRank": 188,
+      "isCapital": false
+    },
+    {
+      "id": "624584",
+      "name": "Novaja Huta",
+      "nativeName": "Новая Гута",
+      "latitude": 52.1032,
+      "longitude": 30.9837,
+      "population": 2159,
+      "populationRank": 189,
+      "isCapital": false
+    },
+    {
+      "id": "629829",
+      "name": "Vialiki Trascianiec",
+      "nativeName": "Вялікі Трасцянец",
+      "latitude": 53.851,
+      "longitude": 27.7139,
+      "population": 2100,
+      "populationRank": 190,
+      "isCapital": false
+    },
+    {
+      "id": "624842",
+      "name": "Myškavičy",
+      "nativeName": "Мышкавічы",
+      "latitude": 53.2172,
+      "longitude": 29.512,
+      "population": 2000,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "8019860",
+      "name": "Pryvoĺny",
+      "nativeName": "Прывольны",
+      "latitude": 53.7969,
+      "longitude": 27.7967,
+      "population": 2000,
+      "populationRank": 192,
+      "isCapital": false
+    },
+    {
+      "id": "8331420",
+      "name": "Vaschod",
+      "nativeName": "Васход",
+      "latitude": 53.7766,
+      "longitude": 30.3497,
+      "population": 2000,
+      "populationRank": 193,
+      "isCapital": false
+    },
+    {
+      "id": "627451",
+      "name": "Chodasy",
+      "nativeName": "Ходасы",
+      "latitude": 53.92681,
+      "longitude": 31.47882,
+      "population": 1990,
+      "populationRank": 194,
+      "isCapital": false
+    },
+    {
+      "id": "623577",
+      "name": "Piatryški",
+      "nativeName": "Пятрышкі",
+      "latitude": 54.0686,
+      "longitude": 27.2179,
+      "population": 1946,
+      "populationRank": 195,
+      "isCapital": false
+    },
+    {
+      "id": "621543",
+      "name": "Stańkava",
+      "nativeName": "Станькава",
+      "latitude": 53.6292,
+      "longitude": 27.229,
+      "population": 1850,
+      "populationRank": 196,
+      "isCapital": false
+    },
+    {
+      "id": "621641",
+      "name": "Soly",
+      "nativeName": "Солы",
+      "latitude": 54.51301,
+      "longitude": 26.19381,
+      "population": 1840,
+      "populationRank": 197,
+      "isCapital": false
+    },
+    {
+      "id": "628923",
+      "name": "Doŭsk",
+      "nativeName": "Доўск",
+      "latitude": 53.1571,
+      "longitude": 30.4601,
+      "population": 1840,
+      "populationRank": 198,
+      "isCapital": false
+    },
+    {
+      "id": "8019799",
+      "name": "Ščomyslica",
+      "nativeName": "Шчомысліца",
+      "latitude": 53.8211,
+      "longitude": 27.4522,
+      "population": 1822,
+      "populationRank": 199,
+      "isCapital": false
+    },
+    {
+      "id": "621817",
+      "name": "Slabada",
+      "nativeName": "Слабада",
+      "latitude": 54.0087,
+      "longitude": 27.8866,
+      "population": 1819,
+      "populationRank": 200,
+      "isCapital": false
+    },
+    {
+      "id": "625245",
+      "name": "Miažysietki",
+      "nativeName": "Мяжысеткі",
+      "latitude": 53.7776,
+      "longitude": 30.1765,
+      "population": 1807,
+      "populationRank": 201,
+      "isCapital": false
+    },
+    {
+      "id": "618818",
+      "name": "Žyrovicy",
+      "nativeName": "Жыровічы",
+      "latitude": 53.0131,
+      "longitude": 25.3443,
+      "population": 1800,
+      "populationRank": 202,
+      "isCapital": false
+    },
+    {
+      "id": "627878",
+      "name": "Ilya",
+      "nativeName": "Ілья",
+      "latitude": 54.4167,
+      "longitude": 27.2958,
+      "population": 1800,
+      "populationRank": 203,
+      "isCapital": false
+    },
+    {
+      "id": "630089",
+      "name": "Bloń",
+      "nativeName": "Блонь",
+      "latitude": 53.5269,
+      "longitude": 28.1732,
+      "population": 1780,
+      "populationRank": 204,
       "isCapital": false
     },
     {
@@ -1557,7 +2047,37 @@
       "latitude": 52.7583,
       "longitude": 25.1554,
       "population": 1770,
-      "populationRank": 156,
+      "populationRank": 205,
+      "isCapital": false
+    },
+    {
+      "id": "624318",
+      "name": "Kadzina",
+      "nativeName": "Кадзіна",
+      "latitude": 53.88389,
+      "longitude": 30.52028,
+      "population": 1753,
+      "populationRank": 206,
+      "isCapital": false
+    },
+    {
+      "id": "626738",
+      "name": "Kažan-Haradok",
+      "nativeName": "Кажан-Гарадок",
+      "latitude": 52.2073,
+      "longitude": 27.0094,
+      "population": 1700,
+      "populationRank": 207,
+      "isCapital": false
+    },
+    {
+      "id": "629663",
+      "name": "Turec-Bajary",
+      "nativeName": "Турэц-Баяры",
+      "latitude": 54.3785,
+      "longitude": 26.6581,
+      "population": 1602,
+      "populationRank": 208,
       "isCapital": false
     },
     {
@@ -1567,7 +2087,7 @@
       "latitude": 55.0516,
       "longitude": 26.3103,
       "population": 1600,
-      "populationRank": 157,
+      "populationRank": 209,
       "isCapital": false
     },
     {
@@ -1577,7 +2097,7 @@
       "latitude": 55.3945,
       "longitude": 26.6305,
       "population": 1546,
-      "populationRank": 158,
+      "populationRank": 210,
       "isCapital": false
     },
     {
@@ -1587,7 +2107,77 @@
       "latitude": 53.7322,
       "longitude": 24.5305,
       "population": 1529,
-      "populationRank": 159,
+      "populationRank": 211,
+      "isCapital": false
+    },
+    {
+      "id": "629163",
+      "name": "Daškaŭka",
+      "nativeName": "Дашкаўка",
+      "latitude": 53.7352,
+      "longitude": 30.2625,
+      "population": 1528,
+      "populationRank": 212,
+      "isCapital": false
+    },
+    {
+      "id": "622279",
+      "name": "Siomkava",
+      "nativeName": "Сёмкава",
+      "latitude": 54.0101,
+      "longitude": 27.441,
+      "population": 1522,
+      "populationRank": 213,
+      "isCapital": false
+    },
+    {
+      "id": "556386",
+      "name": "Indura",
+      "nativeName": "Індура",
+      "latitude": 53.4605,
+      "longitude": 23.8823,
+      "population": 1500,
+      "populationRank": 214,
+      "isCapital": false
+    },
+    {
+      "id": "624965",
+      "name": "Mosar",
+      "nativeName": "Мосар",
+      "latitude": 55.22652,
+      "longitude": 27.46476,
+      "population": 1500,
+      "populationRank": 215,
+      "isCapital": false
+    },
+    {
+      "id": "627664",
+      "name": "Kamiennyja Lavy",
+      "nativeName": "Каменныя Лавы",
+      "latitude": 54.0898,
+      "longitude": 30.2962,
+      "population": 1500,
+      "populationRank": 216,
+      "isCapital": false
+    },
+    {
+      "id": "628478",
+      "name": "Hieraniony",
+      "nativeName": "Геранёны",
+      "latitude": 54.1159,
+      "longitude": 25.5773,
+      "population": 1500,
+      "populationRank": 217,
+      "isCapital": false
+    },
+    {
+      "id": "628871",
+      "name": "Druja",
+      "nativeName": "Друя",
+      "latitude": 55.7906,
+      "longitude": 27.4505,
+      "population": 1500,
+      "populationRank": 218,
       "isCapital": false
     },
     {
@@ -1597,7 +2187,47 @@
       "latitude": 55.5676,
       "longitude": 28.21095,
       "population": 1500,
-      "populationRank": 160,
+      "populationRank": 219,
+      "isCapital": false
+    },
+    {
+      "id": "8256205",
+      "name": "Usyazh",
+      "nativeName": "Усяж",
+      "latitude": 54.07598,
+      "longitude": 28.00698,
+      "population": 1500,
+      "populationRank": 220,
+      "isCapital": false
+    },
+    {
+      "id": "8178450",
+      "name": "Pieramoha",
+      "nativeName": "Пабеда",
+      "latitude": 52.3973,
+      "longitude": 31.071,
+      "population": 1423,
+      "populationRank": 221,
+      "isCapital": false
+    },
+    {
+      "id": "628397",
+      "name": "Hluša",
+      "nativeName": "Глуша",
+      "latitude": 53.0868,
+      "longitude": 28.8567,
+      "population": 1400,
+      "populationRank": 222,
+      "isCapital": false
+    },
+    {
+      "id": "8247406",
+      "name": "Lieskaŭka",
+      "nativeName": "Лескаўка",
+      "latitude": 54.0024,
+      "longitude": 27.7108,
+      "population": 1400,
+      "populationRank": 223,
       "isCapital": false
     },
     {
@@ -1607,7 +2237,7 @@
       "latitude": 54.51746,
       "longitude": 28.95645,
       "population": 1385,
-      "populationRank": 161,
+      "populationRank": 224,
       "isCapital": false
     },
     {
@@ -1617,7 +2247,47 @@
       "latitude": 52.2038,
       "longitude": 24.7863,
       "population": 1369,
-      "populationRank": 162,
+      "populationRank": 225,
+      "isCapital": false
+    },
+    {
+      "id": "622406",
+      "name": "Saračy",
+      "nativeName": "Сарачы",
+      "latitude": 52.7867,
+      "longitude": 28.0186,
+      "population": 1350,
+      "populationRank": 226,
+      "isCapital": false
+    },
+    {
+      "id": "815847",
+      "name": "Ramanavičy",
+      "nativeName": "Раманавічы",
+      "latitude": 53.8653,
+      "longitude": 30.5597,
+      "population": 1341,
+      "populationRank": 227,
+      "isCapital": false
+    },
+    {
+      "id": "618723",
+      "name": "Znamienka",
+      "nativeName": "Знаменка",
+      "latitude": 51.88168,
+      "longitude": 23.65545,
+      "population": 1324,
+      "populationRank": 228,
+      "isCapital": false
+    },
+    {
+      "id": "625853",
+      "name": "Luhavaja Slabada",
+      "nativeName": "Лугавая Слабада",
+      "latitude": 53.7823,
+      "longitude": 27.8434,
+      "population": 1306,
+      "populationRank": 229,
       "isCapital": false
     },
     {
@@ -1627,7 +2297,27 @@
       "latitude": 56.0147,
       "longitude": 28.11049,
       "population": 1300,
-      "populationRank": 163,
+      "populationRank": 230,
+      "isCapital": false
+    },
+    {
+      "id": "628727",
+      "name": "Dukora",
+      "nativeName": "Дукора",
+      "latitude": 53.6786,
+      "longitude": 27.94,
+      "population": 1300,
+      "populationRank": 231,
+      "isCapital": false
+    },
+    {
+      "id": "620869",
+      "name": "Cimkavičy",
+      "nativeName": "Цімкавічы",
+      "latitude": 53.07097,
+      "longitude": 26.99001,
+      "population": 1299,
+      "populationRank": 232,
       "isCapital": false
     },
     {
@@ -1637,7 +2327,97 @@
       "latitude": 54.7132,
       "longitude": 27.2886,
       "population": 1298,
-      "populationRank": 164,
+      "populationRank": 233,
+      "isCapital": false
+    },
+    {
+      "id": "624418",
+      "name": "Navasiellie",
+      "nativeName": "Наваселле",
+      "latitude": 53.9162,
+      "longitude": 27.2009,
+      "population": 1269,
+      "populationRank": 234,
+      "isCapital": false
+    },
+    {
+      "id": "624612",
+      "name": "Nasilava",
+      "nativeName": "Насілава",
+      "latitude": 54.30441,
+      "longitude": 26.78209,
+      "population": 1259,
+      "populationRank": 235,
+      "isCapital": false
+    },
+    {
+      "id": "8019846",
+      "name": "Atolina",
+      "nativeName": "Атоліна",
+      "latitude": 53.7817,
+      "longitude": 27.4346,
+      "population": 1253,
+      "populationRank": 236,
+      "isCapital": false
+    },
+    {
+      "id": "627524",
+      "name": "Chaĺč",
+      "nativeName": "Хальч",
+      "latitude": 52.5643,
+      "longitude": 31.1364,
+      "population": 1249,
+      "populationRank": 237,
+      "isCapital": false
+    },
+    {
+      "id": "623855",
+      "name": "Aziarco",
+      "nativeName": "Азярцо",
+      "latitude": 53.8397,
+      "longitude": 27.3917,
+      "population": 1247,
+      "populationRank": 238,
+      "isCapital": false
+    },
+    {
+      "id": "620141",
+      "name": "Višoŭ",
+      "nativeName": "Вішоў",
+      "latitude": 53.9805,
+      "longitude": 29.9925,
+      "population": 1224,
+      "populationRank": 239,
+      "isCapital": false
+    },
+    {
+      "id": "13494161",
+      "name": "Soniečny",
+      "nativeName": "Сонечны",
+      "latitude": 53.97041,
+      "longitude": 27.62137,
+      "population": 1200,
+      "populationRank": 240,
+      "isCapital": false
+    },
+    {
+      "id": "627659",
+      "name": "Kamieniuki",
+      "nativeName": "Каменюкі",
+      "latitude": 52.55757,
+      "longitude": 23.80525,
+      "population": 1200,
+      "populationRank": 241,
+      "isCapital": false
+    },
+    {
+      "id": "624012",
+      "name": "Asniežycy",
+      "nativeName": "Аснежыцы",
+      "latitude": 52.1891,
+      "longitude": 26.1299,
+      "population": 1185,
+      "populationRank": 242,
       "isCapital": false
     },
     {
@@ -1647,7 +2427,37 @@
       "latitude": 51.74374,
       "longitude": 23.60482,
       "population": 1162,
-      "populationRank": 165,
+      "populationRank": 243,
+      "isCapital": false
+    },
+    {
+      "id": "8019679",
+      "name": "Chaciežyna",
+      "nativeName": "Хацежына",
+      "latitude": 53.9094,
+      "longitude": 27.3069,
+      "population": 1145,
+      "populationRank": 244,
+      "isCapital": false
+    },
+    {
+      "id": "626933",
+      "name": "Karanioŭka",
+      "nativeName": "Каранёўка",
+      "latitude": 52.3506,
+      "longitude": 31.1121,
+      "population": 1141,
+      "populationRank": 245,
+      "isCapital": false
+    },
+    {
+      "id": "628112",
+      "name": "Hock",
+      "nativeName": "Гоцк",
+      "latitude": 52.5215,
+      "longitude": 27.1385,
+      "population": 1100,
+      "populationRank": 246,
       "isCapital": false
     },
     {
@@ -1657,7 +2467,17 @@
       "latitude": 54.33992,
       "longitude": 29.27288,
       "population": 1100,
-      "populationRank": 166,
+      "populationRank": 247,
+      "isCapital": false
+    },
+    {
+      "id": "626895",
+      "name": "Karaliow Stan",
+      "nativeName": "Каралёў Стан",
+      "latitude": 53.9865,
+      "longitude": 27.7982,
+      "population": 1033,
+      "populationRank": 248,
       "isCapital": false
     },
     {
@@ -1667,7 +2487,7 @@
       "latitude": 53.5974,
       "longitude": 24.9828,
       "population": 1017,
-      "populationRank": 167,
+      "populationRank": 249,
       "isCapital": false
     },
     {
@@ -1677,7 +2497,67 @@
       "latitude": 54.0119,
       "longitude": 28.4843,
       "population": 1000,
-      "populationRank": 168,
+      "populationRank": 250,
+      "isCapital": false
+    },
+    {
+      "id": "619276",
+      "name": "Zalesse",
+      "nativeName": "Залессе",
+      "latitude": 54.4192,
+      "longitude": 26.548,
+      "population": 1000,
+      "populationRank": 251,
+      "isCapital": false
+    },
+    {
+      "id": "620966",
+      "name": "Tarasava",
+      "nativeName": "Тарасава",
+      "latitude": 53.9253,
+      "longitude": 27.3815,
+      "population": 1000,
+      "populationRank": 252,
+      "isCapital": false
+    },
+    {
+      "id": "621882",
+      "name": "Skoki",
+      "nativeName": "Скокі",
+      "latitude": 52.15519,
+      "longitude": 23.6329,
+      "population": 1000,
+      "populationRank": 253,
+      "isCapital": false
+    },
+    {
+      "id": "622621",
+      "name": "Rudaŭka",
+      "nativeName": "Рудаўка",
+      "latitude": 53.24305,
+      "longitude": 26.65294,
+      "population": 1000,
+      "populationRank": 254,
+      "isCapital": false
+    },
+    {
+      "id": "623850",
+      "name": "Aziory",
+      "nativeName": "Азёры",
+      "latitude": 53.7216,
+      "longitude": 24.1836,
+      "population": 1000,
+      "populationRank": 255,
+      "isCapital": false
+    },
+    {
+      "id": "624758",
+      "name": "Nieharelaje",
+      "nativeName": "Негарэлае",
+      "latitude": 53.6104,
+      "longitude": 27.0733,
+      "population": 1000,
+      "populationRank": 256,
       "isCapital": false
     },
     {
@@ -1687,7 +2567,17 @@
       "latitude": 53.7522,
       "longitude": 26.0603,
       "population": 988,
-      "populationRank": 169,
+      "populationRank": 257,
+      "isCapital": false
+    },
+    {
+      "id": "629851",
+      "name": "Vialikaje Sciklieva",
+      "nativeName": "Вялікае Сціклева",
+      "latitude": 53.8693,
+      "longitude": 27.7005,
+      "population": 967,
+      "populationRank": 258,
       "isCapital": false
     },
     {
@@ -1697,7 +2587,27 @@
       "latitude": 55.4092,
       "longitude": 30.7246,
       "population": 960,
-      "populationRank": 170,
+      "populationRank": 259,
+      "isCapital": false
+    },
+    {
+      "id": "8019665",
+      "name": "Juchnaŭka",
+      "nativeName": "Юхнаўка",
+      "latitude": 53.9753,
+      "longitude": 27.8586,
+      "population": 950,
+      "populationRank": 260,
+      "isCapital": false
+    },
+    {
+      "id": "8019633",
+      "name": "Haradzishcha",
+      "nativeName": "Гарадзішча",
+      "latitude": 53.9833,
+      "longitude": 27.8384,
+      "population": 920,
+      "populationRank": 261,
       "isCapital": false
     },
     {
@@ -1707,7 +2617,7 @@
       "latitude": 53.83138,
       "longitude": 23.65657,
       "population": 901,
-      "populationRank": 171,
+      "populationRank": 262,
       "isCapital": false
     },
     {
@@ -1717,7 +2627,7 @@
       "latitude": 54.32087,
       "longitude": 30.28847,
       "population": 900,
-      "populationRank": 172,
+      "populationRank": 263,
       "isCapital": false
     },
     {
@@ -1727,7 +2637,47 @@
       "latitude": 54.8517,
       "longitude": 26.395,
       "population": 896,
-      "populationRank": 173,
+      "populationRank": 264,
+      "isCapital": false
+    },
+    {
+      "id": "625251",
+      "name": "Miežava",
+      "nativeName": "Межава",
+      "latitude": 54.62595,
+      "longitude": 30.3087,
+      "population": 888,
+      "populationRank": 265,
+      "isCapital": false
+    },
+    {
+      "id": "620807",
+      "name": "Traby",
+      "nativeName": "Трабы",
+      "latitude": 54.1587,
+      "longitude": 25.9075,
+      "population": 842,
+      "populationRank": 266,
+      "isCapital": false
+    },
+    {
+      "id": "628253",
+      "name": "Harbavičy",
+      "nativeName": "Гарбавічы",
+      "latitude": 53.8183,
+      "longitude": 30.7001,
+      "population": 799,
+      "populationRank": 267,
+      "isCapital": false
+    },
+    {
+      "id": "620453",
+      "name": "Valiarjanava",
+      "nativeName": "Валярʼянава",
+      "latitude": 53.9698,
+      "longitude": 27.6685,
+      "population": 790,
+      "populationRank": 268,
       "isCapital": false
     },
     {
@@ -1737,7 +2687,197 @@
       "latitude": 53.2533,
       "longitude": 28.8193,
       "population": 770,
-      "populationRank": 174,
+      "populationRank": 269,
+      "isCapital": false
+    },
+    {
+      "id": "627154",
+      "name": "Kniažycy",
+      "nativeName": "Княжыцы",
+      "latitude": 53.9747,
+      "longitude": 30.1513,
+      "population": 767,
+      "populationRank": 270,
+      "isCapital": false
+    },
+    {
+      "id": "621018",
+      "name": "Syalyets",
+      "nativeName": "Сялец",
+      "latitude": 52.5872,
+      "longitude": 24.868,
+      "population": 752,
+      "populationRank": 271,
+      "isCapital": false
+    },
+    {
+      "id": "623911",
+      "name": "Astravy",
+      "nativeName": "Астравы",
+      "latitude": 53.7335,
+      "longitude": 28.3857,
+      "population": 748,
+      "populationRank": 272,
+      "isCapital": false
+    },
+    {
+      "id": "623333",
+      "name": "Pahost",
+      "nativeName": "Пагост",
+      "latitude": 53.8482,
+      "longitude": 29.1491,
+      "population": 728,
+      "populationRank": 273,
+      "isCapital": false
+    },
+    {
+      "id": "621404",
+      "name": "Budslaŭ",
+      "nativeName": "Будслаў",
+      "latitude": 54.7985,
+      "longitude": 27.4132,
+      "population": 721,
+      "populationRank": 274,
+      "isCapital": false
+    },
+    {
+      "id": "618927",
+      "name": "Ziembin",
+      "nativeName": "Зембін",
+      "latitude": 54.3579,
+      "longitude": 28.2207,
+      "population": 713,
+      "populationRank": 275,
+      "isCapital": false
+    },
+    {
+      "id": "619645",
+      "name": "Jazna",
+      "nativeName": "Язна",
+      "latitude": 55.42646,
+      "longitude": 28.15552,
+      "population": 705,
+      "populationRank": 276,
+      "isCapital": false
+    },
+    {
+      "id": "624122",
+      "name": "Opsa",
+      "nativeName": "Опса",
+      "latitude": 55.53826,
+      "longitude": 26.82652,
+      "population": 700,
+      "populationRank": 277,
+      "isCapital": false
+    },
+    {
+      "id": "628171",
+      "name": "Haradzishcha",
+      "nativeName": "Гарадзішча",
+      "latitude": 54.18966,
+      "longitude": 30.6187,
+      "population": 685,
+      "populationRank": 278,
+      "isCapital": false
+    },
+    {
+      "id": "7931605",
+      "name": "Nataĺjeŭsk",
+      "nativeName": "Натальеўск",
+      "latitude": 53.7275,
+      "longitude": 28.4325,
+      "population": 672,
+      "populationRank": 279,
+      "isCapital": false
+    },
+    {
+      "id": "622158",
+      "name": "Šack",
+      "nativeName": "Шацк",
+      "latitude": 53.4307,
+      "longitude": 27.6953,
+      "population": 667,
+      "populationRank": 280,
+      "isCapital": false
+    },
+    {
+      "id": "624489",
+      "name": "Novaje Paškava",
+      "nativeName": "Новае Пашкава",
+      "latitude": 53.9567,
+      "longitude": 30.2496,
+      "population": 663,
+      "populationRank": 281,
+      "isCapital": false
+    },
+    {
+      "id": "623225",
+      "name": "Paplavy",
+      "nativeName": "Паплавы",
+      "latitude": 53.8066,
+      "longitude": 28.8698,
+      "population": 650,
+      "populationRank": 282,
+      "isCapital": false
+    },
+    {
+      "id": "624923",
+      "name": "Mastok",
+      "nativeName": "Масток",
+      "latitude": 53.9794,
+      "longitude": 30.4592,
+      "population": 650,
+      "populationRank": 283,
+      "isCapital": false
+    },
+    {
+      "id": "621715",
+      "name": "Smalyany",
+      "nativeName": "Смальяны",
+      "latitude": 54.5985,
+      "longitude": 30.06439,
+      "population": 646,
+      "populationRank": 284,
+      "isCapital": false
+    },
+    {
+      "id": "619462",
+      "name": "Zabaloccie",
+      "nativeName": "Забалоцце",
+      "latitude": 54.0052,
+      "longitude": 28.0272,
+      "population": 640,
+      "populationRank": 285,
+      "isCapital": false
+    },
+    {
+      "id": "8072166",
+      "name": "Višniaviec",
+      "nativeName": "Вішнявец",
+      "latitude": 53.3474,
+      "longitude": 26.6895,
+      "population": 640,
+      "populationRank": 286,
+      "isCapital": false
+    },
+    {
+      "id": "621274",
+      "name": "Stalovičy",
+      "nativeName": "Сталовічы",
+      "latitude": 53.21409,
+      "longitude": 26.03837,
+      "population": 639,
+      "populationRank": 287,
+      "isCapital": false
+    },
+    {
+      "id": "620692",
+      "name": "Turets",
+      "nativeName": "Турэц",
+      "latitude": 53.5263,
+      "longitude": 26.3125,
+      "population": 630,
+      "populationRank": 288,
       "isCapital": false
     },
     {
@@ -1747,7 +2887,117 @@
       "latitude": 52.9367,
       "longitude": 24.3656,
       "population": 616,
-      "populationRank": 175,
+      "populationRank": 289,
+      "isCapital": false
+    },
+    {
+      "id": "619918",
+      "name": "Vselyub",
+      "nativeName": "Уселюб",
+      "latitude": 53.72136,
+      "longitude": 25.79894,
+      "population": 603,
+      "populationRank": 290,
+      "isCapital": false
+    },
+    {
+      "id": "8256207",
+      "name": "Nikalajeŭka 2",
+      "nativeName": "Мікалаеўка 2",
+      "latitude": 53.95295,
+      "longitude": 30.38278,
+      "population": 580,
+      "populationRank": 291,
+      "isCapital": false
+    },
+    {
+      "id": "629972",
+      "name": "Baĺšaja Maščanica",
+      "nativeName": "Вялікая Машчаніца",
+      "latitude": 53.9541,
+      "longitude": 29.6255,
+      "population": 579,
+      "populationRank": 292,
+      "isCapital": false
+    },
+    {
+      "id": "626179",
+      "name": "Lienin",
+      "nativeName": "Ленін",
+      "latitude": 52.3402,
+      "longitude": 27.4878,
+      "population": 577,
+      "populationRank": 293,
+      "isCapital": false
+    },
+    {
+      "id": "620096",
+      "name": "Valevačy",
+      "nativeName": "Валевачы",
+      "latitude": 53.7534,
+      "longitude": 28.1555,
+      "population": 562,
+      "populationRank": 294,
+      "isCapital": false
+    },
+    {
+      "id": "627023",
+      "name": "Komsieničy",
+      "nativeName": "Комсенічы",
+      "latitude": 54.1503,
+      "longitude": 29.8794,
+      "population": 555,
+      "populationRank": 295,
+      "isCapital": false
+    },
+    {
+      "id": "8019840",
+      "name": "Charkasy",
+      "nativeName": "Чаркасы",
+      "latitude": 53.7662,
+      "longitude": 27.3347,
+      "population": 525,
+      "populationRank": 296,
+      "isCapital": false
+    },
+    {
+      "id": "815333",
+      "name": "Navasiolki",
+      "nativeName": "Навасёлкі",
+      "latitude": 53.813,
+      "longitude": 30.3769,
+      "population": 512,
+      "populationRank": 297,
+      "isCapital": false
+    },
+    {
+      "id": "628332",
+      "name": "Haloŭčyn",
+      "nativeName": "Галоўчын",
+      "latitude": 54.0601,
+      "longitude": 29.9184,
+      "population": 504,
+      "populationRank": 298,
+      "isCapital": false
+    },
+    {
+      "id": "621399",
+      "name": "Stary Dvorac",
+      "nativeName": "Стары Дворац",
+      "latitude": 53.2582,
+      "longitude": 24.1087,
+      "population": 500,
+      "populationRank": 299,
+      "isCapital": false
+    },
+    {
+      "id": "625524",
+      "name": "Mažejkava",
+      "nativeName": "Мажэйкава",
+      "latitude": 53.71965,
+      "longitude": 24.98556,
+      "population": 500,
+      "populationRank": 300,
       "isCapital": false
     }
   ]

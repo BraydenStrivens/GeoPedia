@@ -174,41 +174,41 @@ function hasCountryQuizzes(
  * @param map - Ready MapLibre map.
  * @param countryIdsWithQuizzes - Resolved set of quiz-enabled country IDs.
  */
-function applyCountryAvailabilityState(
-  map: maplibregl.Map,
-  countryIdsWithQuizzes: ReadonlySet<string>,
-): void {
-  const features = map.querySourceFeatures(FEATURE_SOURCE_ID);
+// function applyCountryAvailabilityState(
+//   map: maplibregl.Map,
+//   countryIdsWithQuizzes: ReadonlySet<string>,
+// ): void {
+//   const features = map.querySourceFeatures(FEATURE_SOURCE_ID);
 
-  const processedIds = new Set<string>();
+//   const processedIds = new Set<string>();
 
-  for (const feature of features) {
-    if (feature.id === undefined || feature.id === null) {
-      continue;
-    }
+//   for (const feature of features) {
+//     if (feature.id === undefined || feature.id === null) {
+//       continue;
+//     }
 
-    const featureId = String(feature.id);
+//     const featureId = String(feature.id);
 
-    if (processedIds.has(featureId)) {
-      continue;
-    }
+//     if (processedIds.has(featureId)) {
+//       continue;
+//     }
 
-    processedIds.add(featureId);
+//     processedIds.add(featureId);
 
-    map.setFeatureState(
-      {
-        source: FEATURE_SOURCE_ID,
-        id: feature.id,
-      },
-      {
-        hasQuizzes: hasCountryQuizzes(
-          featureId,
-          countryIdsWithQuizzes,
-        ),
-      },
-    );
-  }
-}
+//     map.setFeatureState(
+//       {
+//         source: FEATURE_SOURCE_ID,
+//         id: feature.id,
+//       },
+//       {
+//         hasQuizzes: hasCountryQuizzes(
+//           featureId,
+//           countryIdsWithQuizzes,
+//         ),
+//       },
+//     );
+//   }
+// }
 
 /**
  * Adds the unavailable-country hatch layer.
@@ -221,6 +221,7 @@ function applyCountryAvailabilityState(
  */
 function addUnavailableCountryPatternLayer(
   map: maplibregl.Map,
+  countryIdsWithQuizzes: ReadonlySet<string>,
 ): void {
   if (!map.hasImage(NO_QUIZZES_PATTERN_ID)) {
     map.addImage(NO_QUIZZES_PATTERN_ID, createNoQuizzesPattern());
@@ -228,12 +229,18 @@ function addUnavailableCountryPatternLayer(
 
   const beforeLayerId = findFeatureBorderLayerId(map);
 
-  const unavailableOpacity: maplibregl.ExpressionSpecification = [
-    "case",
-    ["boolean", ["feature-state", "hasQuizzes"], false],
-    0,
-    1,
-  ];
+  /**
+   * Canonical ISO-A3 IDs for countries that contain at least one quiz.
+   *
+   * The hatch layer compares directly against the generated GeoJSON `iso_a3`
+   * property rather than transient MapLibre feature state. This keeps hatch
+   * availability consistent with hover and navigation behavior even for small
+   * country features that may not be returned by an initial source query.
+   */
+  const availableCountryCodes = Array.from(
+    countryIdsWithQuizzes,
+    (countryId) => countryId.toUpperCase(),
+  );
 
   if (!map.getLayer(NO_QUIZZES_PATTERN_LAYER_ID)) {
     map.addLayer(
@@ -242,9 +249,18 @@ function addUnavailableCountryPatternLayer(
         type: "fill",
         source: FEATURE_SOURCE_ID,
 
+        filter: [
+          "!",
+          [
+            "in",
+            ["get", "iso_a3"],
+            ["literal", availableCountryCodes],
+          ],
+        ],
+
         paint: {
           "fill-pattern": NO_QUIZZES_PATTERN_ID,
-          "fill-opacity": unavailableOpacity,
+          "fill-opacity": 1,
         },
       },
       beforeLayerId,
@@ -274,9 +290,7 @@ export function useWorldNavigationInteractions({
 
     const map = currentMap;
 
-    applyCountryAvailabilityState(map, countryIdsWithQuizzes);
-
-    addUnavailableCountryPatternLayer(map);
+    addUnavailableCountryPatternLayer(map, countryIdsWithQuizzes);
 
     /**
      * ID of the currently highlighted navigable country.

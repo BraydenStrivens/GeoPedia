@@ -141,13 +141,23 @@
       "isCapital": false
     },
     {
+      "id": "1429434",
+      "name": "Bazarak",
+      "nativeName": "بازارک",
+      "latitude": 35.31292,
+      "longitude": 69.51519,
+      "population": 65000,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
       "id": "1136575",
       "name": "Khulm",
       "nativeName": "خلم",
       "latitude": 36.69736,
       "longitude": 67.69826,
       "population": 64933,
-      "populationRank": 15,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -157,7 +167,7 @@
       "latitude": 36.73605,
       "longitude": 69.53451,
       "population": 64256,
-      "populationRank": 16,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -167,7 +177,7 @@
       "latitude": 34.82156,
       "longitude": 67.82734,
       "population": 61863,
-      "populationRank": 17,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -177,7 +187,7 @@
       "latitude": 35.94458,
       "longitude": 68.71512,
       "population": 56369,
-      "populationRank": 18,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -187,7 +197,7 @@
       "latitude": 36.66757,
       "longitude": 65.7529,
       "population": 55641,
-      "populationRank": 19,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -197,7 +207,7 @@
       "latitude": 35.01361,
       "longitude": 69.17139,
       "population": 53676,
-      "populationRank": 20,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -207,7 +217,7 @@
       "latitude": 36.21544,
       "longitude": 65.93249,
       "population": 52121,
-      "populationRank": 21,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -217,7 +227,7 @@
       "latitude": 30.95962,
       "longitude": 61.86037,
       "population": 49851,
-      "populationRank": 22,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -227,7 +237,7 @@
       "latitude": 34.58787,
       "longitude": 68.95091,
       "population": 49157,
-      "populationRank": 23,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -237,7 +247,17 @@
       "latitude": 34.87311,
       "longitude": 71.14697,
       "population": 48400,
-      "populationRank": 24,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "1126886",
+      "name": "Sarobi",
+      "nativeName": "لانجی خېل وسطی",
+      "latitude": 32.79694,
+      "longitude": 69.09704,
+      "population": 48291,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -247,7 +267,7 @@
       "latitude": 36.26468,
       "longitude": 68.01551,
       "population": 47823,
-      "populationRank": 25,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -257,7 +277,7 @@
       "latitude": 37.11664,
       "longitude": 70.58002,
       "population": 44421,
-      "populationRank": 26,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -267,7 +287,7 @@
       "latitude": 31.59382,
       "longitude": 64.37161,
       "population": 43934,
-      "populationRank": 27,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -277,7 +297,7 @@
       "latitude": 31.82089,
       "longitude": 64.57005,
       "population": 43588,
-      "populationRank": 28,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -287,7 +307,17 @@
       "latitude": 32.37451,
       "longitude": 62.11638,
       "population": 43561,
-      "populationRank": 29,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "1142330",
+      "name": "Istalif",
+      "nativeName": "استالف",
+      "latitude": 34.83268,
+      "longitude": 69.07756,
+      "population": 41413,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -297,7 +327,7 @@
       "latitude": 36.95293,
       "longitude": 65.12376,
       "population": 37900,
-      "populationRank": 30,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -307,7 +337,7 @@
       "latitude": 37.00254,
       "longitude": 70.90664,
       "population": 32551,
-      "populationRank": 31,
+      "populationRank": 34,
       "isCapital": false
     },
     {
@@ -317,7 +347,7 @@
       "latitude": 33.72178,
       "longitude": 66.13023,
       "population": 30058,
-      "populationRank": 32,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -327,7 +357,7 @@
       "latitude": 35.73062,
       "longitude": 63.78264,
       "population": 30000,
-      "populationRank": 33,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -337,7 +367,7 @@
       "latitude": 33.30294,
       "longitude": 62.1474,
       "population": 29264,
-      "populationRank": 34,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -347,7 +377,7 @@
       "latitude": 37.12604,
       "longitude": 69.83045,
       "population": 25636,
-      "populationRank": 35,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -357,7 +387,17 @@
       "latitude": 30.5488,
       "longitude": 63.7888,
       "population": 25600,
-      "populationRank": 36,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "1131389",
+      "name": "Omnah",
+      "nativeName": "اومنه",
+      "latitude": 32.90029,
+      "longitude": 68.79627,
+      "population": 23400,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -367,7 +407,7 @@
       "latitude": 36.86477,
       "longitude": 70.83421,
       "population": 23064,
-      "populationRank": 37,
+      "populationRank": 41,
       "isCapital": false
     },
     {
@@ -377,7 +417,7 @@
       "latitude": 36.0649,
       "longitude": 69.13343,
       "population": 22363,
-      "populationRank": 38,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -387,7 +427,27 @@
       "latitude": 33.96744,
       "longitude": 68.9492,
       "population": 22305,
-      "populationRank": 39,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "1148106",
+      "name": "Art Khwajah",
+      "nativeName": "آرت خواجه",
+      "latitude": 37.08571,
+      "longitude": 69.47958,
+      "population": 18623,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "1142404",
+      "name": "Islam Qala",
+      "nativeName": "اسلام قلعه",
+      "latitude": 34.66667,
+      "longitude": 61.06667,
+      "population": 18086,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -397,7 +457,7 @@
       "latitude": 34.48108,
       "longitude": 62.5863,
       "population": 17484,
-      "populationRank": 40,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -407,7 +467,7 @@
       "latitude": 34.67139,
       "longitude": 70.20944,
       "population": 17345,
-      "populationRank": 41,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -417,7 +477,7 @@
       "latitude": 34.10737,
       "longitude": 64.3052,
       "population": 15967,
-      "populationRank": 42,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -427,7 +487,27 @@
       "latitude": 35.03333,
       "longitude": 71.35809,
       "population": 15708,
-      "populationRank": 43,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "1136863",
+      "name": "Khash",
+      "nativeName": "خاش",
+      "latitude": 31.52919,
+      "longitude": 62.79055,
+      "population": 15133,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "1469706",
+      "name": "Achin",
+      "nativeName": "اچین",
+      "latitude": 34.12583,
+      "longitude": 70.70778,
+      "population": 15098,
+      "populationRank": 51,
       "isCapital": false
     },
     {
@@ -437,7 +517,7 @@
       "latitude": 35.11833,
       "longitude": 69.23778,
       "population": 15032,
-      "populationRank": 44,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -447,7 +527,7 @@
       "latitude": 37.41853,
       "longitude": 66.04358,
       "population": 15018,
-      "populationRank": 45,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -457,7 +537,7 @@
       "latitude": 34.51952,
       "longitude": 65.25093,
       "population": 15000,
-      "populationRank": 46,
+      "populationRank": 54,
       "isCapital": false
     },
     {
@@ -467,7 +547,7 @@
       "latitude": 33.93949,
       "longitude": 68.92201,
       "population": 15000,
-      "populationRank": 47,
+      "populationRank": 55,
       "isCapital": false
     },
     {
@@ -477,7 +557,7 @@
       "latitude": 32.84734,
       "longitude": 68.44573,
       "population": 13737,
-      "populationRank": 48,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -487,7 +567,7 @@
       "latitude": 32.07275,
       "longitude": 64.8359,
       "population": 13579,
-      "populationRank": 49,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -497,7 +577,7 @@
       "latitude": 34.38795,
       "longitude": 67.02327,
       "population": 13471,
-      "populationRank": 50,
+      "populationRank": 58,
       "isCapital": false
     },
     {
@@ -507,7 +587,7 @@
       "latitude": 33.99529,
       "longitude": 69.02274,
       "population": 13247,
-      "populationRank": 51,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -517,7 +597,7 @@
       "latitude": 34.17355,
       "longitude": 69.64573,
       "population": 12526,
-      "populationRank": 52,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -527,7 +607,7 @@
       "latitude": 32.10575,
       "longitude": 66.90833,
       "population": 12191,
-      "populationRank": 53,
+      "populationRank": 61,
       "isCapital": false
     },
     {
@@ -537,7 +617,7 @@
       "latitude": 34.65389,
       "longitude": 61.19778,
       "population": 12087,
-      "populationRank": 54,
+      "populationRank": 62,
       "isCapital": false
     },
     {
@@ -547,7 +627,7 @@
       "latitude": 35.94831,
       "longitude": 66.42132,
       "population": 12021,
-      "populationRank": 55,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -557,7 +637,7 @@
       "latitude": 37.46572,
       "longitude": 69.61131,
       "population": 11100,
-      "populationRank": 56,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -567,7 +647,7 @@
       "latitude": 36.57288,
       "longitude": 69.85783,
       "population": 10480,
-      "populationRank": 57,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -577,7 +657,7 @@
       "latitude": 34.34264,
       "longitude": 61.74675,
       "population": 10418,
-      "populationRank": 58,
+      "populationRank": 66,
       "isCapital": false
     },
     {
@@ -587,7 +667,7 @@
       "latitude": 32.7587,
       "longitude": 61.65397,
       "population": 10023,
-      "populationRank": 59,
+      "populationRank": 67,
       "isCapital": false
     },
     {
@@ -597,7 +677,7 @@
       "latitude": 32.62998,
       "longitude": 65.87806,
       "population": 10000,
-      "populationRank": 60,
+      "populationRank": 68,
       "isCapital": false
     },
     {
@@ -607,7 +687,7 @@
       "latitude": 35.97744,
       "longitude": 65.37828,
       "population": 9642,
-      "populationRank": 61,
+      "populationRank": 69,
       "isCapital": false
     },
     {
@@ -617,7 +697,7 @@
       "latitude": 34.98735,
       "longitude": 63.12891,
       "population": 9000,
-      "populationRank": 62,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -627,7 +707,7 @@
       "latitude": 37.07045,
       "longitude": 69.29842,
       "population": 8792,
-      "populationRank": 63,
+      "populationRank": 71,
       "isCapital": false
     },
     {
@@ -637,7 +717,17 @@
       "latitude": 34.00037,
       "longitude": 68.71346,
       "population": 7301,
-      "populationRank": 64,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "1146822",
+      "name": "Mohmand Darah",
+      "nativeName": "مهمند دره",
+      "latitude": 34.24749,
+      "longitude": 70.87218,
+      "population": 6835,
+      "populationRank": 73,
       "isCapital": false
     },
     {
@@ -647,7 +737,17 @@
       "latitude": 34.85501,
       "longitude": 69.64917,
       "population": 6400,
-      "populationRank": 65,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "1137148",
+      "name": "Khandud",
+      "nativeName": "خندود",
+      "latitude": 36.95127,
+      "longitude": 72.318,
+      "population": 5521,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -657,7 +757,17 @@
       "latitude": 34.74999,
       "longitude": 69.11899,
       "population": 5405,
-      "populationRank": 66,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "12572007",
+      "name": "Mazad village",
+      "nativeName": "مازاد",
+      "latitude": 31.54576,
+      "longitude": 62.73484,
+      "population": 4000,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -667,7 +777,7 @@
       "latitude": 35.90617,
       "longitude": 68.48869,
       "population": 3307,
-      "populationRank": 67,
+      "populationRank": 78,
       "isCapital": false
     },
     {
@@ -677,7 +787,7 @@
       "latitude": 33.17568,
       "longitude": 68.73045,
       "population": 2200,
-      "populationRank": 68,
+      "populationRank": 79,
       "isCapital": false
     },
     {
@@ -687,7 +797,7 @@
       "latitude": 34.39561,
       "longitude": 68.86618,
       "population": 1600,
-      "populationRank": 69,
+      "populationRank": 80,
       "isCapital": false
     },
     {
@@ -697,7 +807,7 @@
       "latitude": 35.42064,
       "longitude": 70.92261,
       "population": 1000,
-      "populationRank": 70,
+      "populationRank": 81,
       "isCapital": false
     },
     {
@@ -707,7 +817,17 @@
       "latitude": 31.55981,
       "longitude": 66.48926,
       "population": 894,
-      "populationRank": 71,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "1124962",
+      "name": "Shkhowr",
+      "nativeName": "Shikhawr (Шихарв)",
+      "latitude": 36.72861,
+      "longitude": 71.92138,
+      "population": 454,
+      "populationRank": 83,
       "isCapital": false
     }
   ]

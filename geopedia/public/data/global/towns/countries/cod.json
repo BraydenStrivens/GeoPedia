@@ -20,7 +20,7 @@
     },
     {
       "id": "209228",
-      "name": "Mbuji-Mayi",
+      "name": "Mbuji Mayi",
       "latitude": -6.13603,
       "longitude": 23.58979,
       "population": 2101332,
@@ -245,7 +245,7 @@
     },
     {
       "id": "2312888",
-      "name": "Mbanza-Ngungu",
+      "name": "Mbanza Ngungu",
       "latitude": -5.25837,
       "longitude": 14.85838,
       "population": 142773,
@@ -425,12 +425,22 @@
       "isCapital": false
     },
     {
+      "id": "209000",
+      "name": "Baudhuinville",
+      "nativeName": "Kibya",
+      "latitude": -7.08408,
+      "longitude": 29.73681,
+      "population": 81181,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
       "id": "217570",
       "name": "Buta",
       "latitude": 2.78582,
       "longitude": 24.72997,
       "population": 80751,
-      "populationRank": 48,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -439,7 +449,7 @@
       "latitude": -7.51668,
       "longitude": 24.17404,
       "population": 80043,
-      "populationRank": 49,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -448,7 +458,17 @@
       "latitude": -6.22149,
       "longitude": 23.39254,
       "population": 79929,
-      "populationRank": 50,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "2316770",
+      "name": "Bolenge",
+      "nativeName": "Bolenge Village",
+      "latitude": 0,
+      "longitude": 18.21667,
+      "population": 79648,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -457,7 +477,7 @@
       "latitude": -5.5615,
       "longitude": 14.43159,
       "population": 79539,
-      "populationRank": 51,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -466,7 +486,7 @@
       "latitude": 1.23909,
       "longitude": 23.61598,
       "population": 76371,
-      "populationRank": 52,
+      "populationRank": 54,
       "isCapital": false
     },
     {
@@ -476,7 +496,7 @@
       "latitude": 0.69781,
       "longitude": 29.51863,
       "population": 74502,
-      "populationRank": 53,
+      "populationRank": 55,
       "isCapital": false
     },
     {
@@ -485,7 +505,16 @@
       "latitude": 4.279,
       "longitude": 21.00284,
       "population": 73835,
-      "populationRank": 54,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "214925",
+      "name": "Kalima",
+      "latitude": -5.4854,
+      "longitude": 28.21601,
+      "population": 72327,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -494,7 +523,16 @@
       "latitude": -1.9275,
       "longitude": 18.2881,
       "population": 68852,
-      "populationRank": 55,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "9946557",
+      "name": "Kituku",
+      "latitude": -7.58157,
+      "longitude": 30.20604,
+      "population": 66378,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -503,7 +541,7 @@
       "latitude": -4.99707,
       "longitude": 12.9484,
       "population": 64210,
-      "populationRank": 56,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -512,7 +550,16 @@
       "latitude": -4.02328,
       "longitude": 19.53385,
       "population": 63713,
-      "populationRank": 57,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "2314935",
+      "name": "Kenge",
+      "latitude": -5.76521,
+      "longitude": 13.65711,
+      "population": 63317,
+      "populationRank": 62,
       "isCapital": false
     },
     {
@@ -521,7 +568,7 @@
       "latitude": -5.95609,
       "longitude": 28.01649,
       "population": 62565,
-      "populationRank": 58,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -530,7 +577,7 @@
       "latitude": -2.72037,
       "longitude": 17.69001,
       "population": 62153,
-      "populationRank": 59,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -539,7 +586,7 @@
       "latitude": 0.76755,
       "longitude": 24.43973,
       "population": 62082,
-      "populationRank": 60,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -548,7 +595,7 @@
       "latitude": 2.73877,
       "longitude": 23.78326,
       "population": 61437,
-      "populationRank": 61,
+      "populationRank": 66,
       "isCapital": false
     },
     {
@@ -557,7 +604,7 @@
       "latitude": -3.01728,
       "longitude": 16.92238,
       "population": 61336,
-      "populationRank": 62,
+      "populationRank": 67,
       "isCapital": false
     },
     {
@@ -566,16 +613,16 @@
       "latitude": -2.7249,
       "longitude": 18.14756,
       "population": 56061,
-      "populationRank": 63,
+      "populationRank": 68,
       "isCapital": false
     },
     {
       "id": "2316091",
-      "name": "Dibaya-Lubwe",
+      "name": "Dibaya Lubwe",
       "latitude": -4.15869,
       "longitude": 19.8619,
       "population": 55672,
-      "populationRank": 64,
+      "populationRank": 69,
       "isCapital": false
     },
     {
@@ -584,7 +631,7 @@
       "latitude": 0.60419,
       "longitude": 29.31004,
       "population": 55439,
-      "populationRank": 65,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -593,7 +640,25 @@
       "latitude": -7.16177,
       "longitude": 23.70057,
       "population": 54676,
-      "populationRank": 66,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "212760",
+      "name": "Kirumba",
+      "latitude": -1.09056,
+      "longitude": 29.2925,
+      "population": 52041,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "213576",
+      "name": "Kayna",
+      "latitude": -0.60927,
+      "longitude": 29.17249,
+      "population": 51103,
+      "populationRank": 73,
       "isCapital": false
     },
     {
@@ -602,7 +667,7 @@
       "latitude": -0.28163,
       "longitude": 20.88053,
       "population": 50794,
-      "populationRank": 67,
+      "populationRank": 74,
       "isCapital": false
     },
     {
@@ -611,7 +676,7 @@
       "latitude": -10.61771,
       "longitude": 26.32107,
       "population": 50100,
-      "populationRank": 68,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -620,7 +685,7 @@
       "latitude": -4.97503,
       "longitude": 23.44391,
       "population": 49376,
-      "populationRank": 69,
+      "populationRank": 76,
       "isCapital": false
     },
     {
@@ -629,7 +694,7 @@
       "latitude": 4.34283,
       "longitude": 18.59447,
       "population": 48658,
-      "populationRank": 70,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -638,7 +703,7 @@
       "latitude": 3.33863,
       "longitude": 20.88577,
       "population": 48339,
-      "populationRank": 71,
+      "populationRank": 78,
       "isCapital": false
     },
     {
@@ -647,7 +712,7 @@
       "latitude": 3.03716,
       "longitude": 29.53551,
       "population": 47278,
-      "populationRank": 72,
+      "populationRank": 79,
       "isCapital": false
     },
     {
@@ -656,7 +721,16 @@
       "latitude": -2.158,
       "longitude": 16.23249,
       "population": 47032,
-      "populationRank": 73,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "210674",
+      "name": "Lukula",
+      "latitude": -3.86881,
+      "longitude": 23.88348,
+      "population": 46534,
+      "populationRank": 81,
       "isCapital": false
     },
     {
@@ -666,17 +740,16 @@
       "latitude": -8.20591,
       "longitude": 26.42036,
       "population": 46430,
-      "populationRank": 74,
+      "populationRank": 82,
       "isCapital": false
     },
     {
       "id": "2313011",
-      "name": "Masi-Manimba",
-      "nativeName": "Masi Manimba",
+      "name": "Masi Manimba",
       "latitude": -4.77549,
       "longitude": 17.89095,
       "population": 45775,
-      "populationRank": 75,
+      "populationRank": 83,
       "isCapital": false
     },
     {
@@ -685,7 +758,7 @@
       "latitude": 2.86218,
       "longitude": 30.84138,
       "population": 45516,
-      "populationRank": 76,
+      "populationRank": 84,
       "isCapital": false
     },
     {
@@ -695,7 +768,7 @@
       "latitude": -5.35218,
       "longitude": 21.42192,
       "population": 45443,
-      "populationRank": 77,
+      "populationRank": 85,
       "isCapital": false
     },
     {
@@ -704,7 +777,7 @@
       "latitude": -4.5833,
       "longitude": 15.16554,
       "population": 45400,
-      "populationRank": 78,
+      "populationRank": 86,
       "isCapital": false
     },
     {
@@ -714,7 +787,7 @@
       "latitude": 1.94468,
       "longitude": 30.03861,
       "population": 45318,
-      "populationRank": 79,
+      "populationRank": 87,
       "isCapital": false
     },
     {
@@ -724,7 +797,7 @@
       "latitude": -0.69978,
       "longitude": 29.17181,
       "population": 44146,
-      "populationRank": 80,
+      "populationRank": 88,
       "isCapital": false
     },
     {
@@ -733,7 +806,7 @@
       "latitude": -0.15837,
       "longitude": 29.23859,
       "population": 41722,
-      "populationRank": 81,
+      "populationRank": 89,
       "isCapital": false
     },
     {
@@ -742,7 +815,7 @@
       "latitude": 1.91932,
       "longitude": 30.50257,
       "population": 41409,
-      "populationRank": 82,
+      "populationRank": 90,
       "isCapital": false
     },
     {
@@ -751,7 +824,7 @@
       "latitude": 1.22095,
       "longitude": 19.80205,
       "population": 41141,
-      "populationRank": 83,
+      "populationRank": 91,
       "isCapital": false
     },
     {
@@ -760,7 +833,7 @@
       "latitude": -8.46604,
       "longitude": 28.90079,
       "population": 38298,
-      "populationRank": 84,
+      "populationRank": 92,
       "isCapital": false
     },
     {
@@ -769,7 +842,7 @@
       "latitude": -5.38771,
       "longitude": 25.74885,
       "population": 37818,
-      "populationRank": 85,
+      "populationRank": 93,
       "isCapital": false
     },
     {
@@ -778,7 +851,7 @@
       "latitude": 3.65332,
       "longitude": 18.63566,
       "population": 37344,
-      "populationRank": 86,
+      "populationRank": 94,
       "isCapital": false
     },
     {
@@ -787,7 +860,7 @@
       "latitude": -3.59678,
       "longitude": 26.66715,
       "population": 37034,
-      "populationRank": 87,
+      "populationRank": 95,
       "isCapital": false
     },
     {
@@ -796,16 +869,25 @@
       "latitude": -12.42765,
       "longitude": 28.34684,
       "population": 34762,
-      "populationRank": 88,
+      "populationRank": 96,
       "isCapital": false
     },
     {
       "id": "209856",
-      "name": "Malemba-Nkulu",
+      "name": "Malemba Nkulu",
       "latitude": -8.04475,
       "longitude": 26.79625,
       "population": 25430,
-      "populationRank": 89,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "206289",
+      "name": "Pepa",
+      "latitude": -7.69811,
+      "longitude": 29.7772,
+      "population": 24767,
+      "populationRank": 98,
       "isCapital": false
     },
     {
@@ -814,16 +896,16 @@
       "latitude": -5.49573,
       "longitude": 22.26962,
       "population": 22263,
-      "populationRank": 90,
+      "populationRank": 99,
       "isCapital": false
     },
     {
       "id": "2315026",
-      "name": "Kasongo-Lunda",
+      "name": "Kasongo Lunda",
       "latitude": -6.47833,
       "longitude": 16.81735,
       "population": 20060,
-      "populationRank": 91,
+      "populationRank": 100,
       "isCapital": false
     },
     {
@@ -832,7 +914,7 @@
       "latitude": 3.81461,
       "longitude": 23.68665,
       "population": 17860,
-      "populationRank": 92,
+      "populationRank": 101,
       "isCapital": false
     },
     {
@@ -841,7 +923,7 @@
       "latitude": 2.14838,
       "longitude": 27.99466,
       "population": 17373,
-      "populationRank": 93,
+      "populationRank": 102,
       "isCapital": false
     },
     {
@@ -850,7 +932,7 @@
       "latitude": -1.57386,
       "longitude": 29.04339,
       "population": 17151,
-      "populationRank": 94,
+      "populationRank": 103,
       "isCapital": false
     },
     {
@@ -859,7 +941,7 @@
       "latitude": -1.06046,
       "longitude": 17.1821,
       "population": 15000,
-      "populationRank": 95,
+      "populationRank": 104,
       "isCapital": false
     },
     {
@@ -868,7 +950,7 @@
       "latitude": 4.1898,
       "longitude": 19.8833,
       "population": 14553,
-      "populationRank": 96,
+      "populationRank": 105,
       "isCapital": false
     },
     {
@@ -877,7 +959,7 @@
       "latitude": 1.50695,
       "longitude": 21.0726,
       "population": 4105,
-      "populationRank": 97,
+      "populationRank": 106,
       "isCapital": false
     }
   ]

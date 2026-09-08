@@ -11,7 +11,7 @@
     },
     {
       "id": "2396518",
-      "name": "Port-Gentil",
+      "name": "Port Gentil",
       "latitude": -0.71933,
       "longitude": 8.78151,
       "population": 164018,
@@ -65,8 +65,7 @@
     },
     {
       "id": "2399888",
-      "name": "Lambarene",
-      "nativeName": "Lambaréné",
+      "name": "Lambaréné",
       "latitude": -0.7001,
       "longitude": 10.24055,
       "population": 46605,
@@ -137,12 +136,21 @@
       "isCapital": false
     },
     {
+      "id": "2396145",
+      "name": "Tsogni",
+      "latitude": -2.80365,
+      "longitude": 10.16058,
+      "population": 13725,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
       "id": "2396898",
       "name": "Okondja",
       "latitude": -0.65487,
       "longitude": 13.67533,
       "population": 12962,
-      "populationRank": 16,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -151,7 +159,7 @@
       "latitude": -2.65,
       "longitude": 10,
       "population": 12565,
-      "populationRank": 17,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -160,7 +168,7 @@
       "latitude": 0.78205,
       "longitude": 11.54904,
       "population": 10522,
-      "populationRank": 18,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -169,7 +177,7 @@
       "latitude": -2.21213,
       "longitude": 11.46978,
       "population": 9287,
-      "populationRank": 19,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -178,7 +186,7 @@
       "latitude": -1.58431,
       "longitude": 14.25905,
       "population": 8810,
-      "populationRank": 20,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -187,7 +195,7 @@
       "latitude": -1.4085,
       "longitude": 13.15857,
       "population": 8780,
-      "populationRank": 21,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -196,7 +204,7 @@
       "latitude": -1.21544,
       "longitude": 10.58378,
       "population": 8629,
-      "populationRank": 22,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -205,7 +213,7 @@
       "latitude": -0.17827,
       "longitude": 10.76488,
       "population": 8265,
-      "populationRank": 23,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -214,7 +222,7 @@
       "latitude": -1.17454,
       "longitude": 13.87562,
       "population": 8241,
-      "populationRank": 24,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -223,7 +231,7 @@
       "latitude": 1.00652,
       "longitude": 13.95938,
       "population": 8105,
-      "populationRank": 25,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -232,7 +240,7 @@
       "latitude": -0.09207,
       "longitude": 11.93846,
       "population": 7259,
-      "populationRank": 26,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -241,7 +249,7 @@
       "latitude": -2.40077,
       "longitude": 11.35813,
       "population": 7238,
-      "populationRank": 27,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -250,7 +258,7 @@
       "latitude": -1.90046,
       "longitude": 11.906,
       "population": 7069,
-      "populationRank": 28,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -259,7 +267,7 @@
       "latitude": -3.43198,
       "longitude": 10.6554,
       "population": 6274,
-      "populationRank": 29,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -268,7 +276,7 @@
       "latitude": 0.17175,
       "longitude": 10.10905,
       "population": 5734,
-      "populationRank": 30,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -277,7 +285,7 @@
       "latitude": -1.82703,
       "longitude": 13.02052,
       "population": 4861,
-      "populationRank": 31,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -286,7 +294,7 @@
       "latitude": 2.15161,
       "longitude": 12.132,
       "population": 4469,
-      "populationRank": 32,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -295,7 +303,16 @@
       "latitude": -2.42245,
       "longitude": 11.00068,
       "population": 4108,
-      "populationRank": 33,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "2396679",
+      "name": "Ovan",
+      "latitude": 0.31105,
+      "longitude": 12.18244,
+      "population": 4064,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -304,7 +321,7 @@
       "latitude": -1.61952,
       "longitude": 11.60675,
       "population": 3307,
-      "populationRank": 34,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -313,7 +330,7 @@
       "latitude": -1.6472,
       "longitude": 13.8633,
       "population": 3164,
-      "populationRank": 35,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -322,17 +339,16 @@
       "latitude": 1.00019,
       "longitude": 9.58229,
       "population": 3114,
-      "populationRank": 36,
+      "populationRank": 38,
       "isCapital": false
     },
     {
       "id": "2398787",
       "name": "Médouneu",
-      "nativeName": "Medouneu",
       "latitude": 1.01619,
       "longitude": 10.79598,
       "population": 3001,
-      "populationRank": 37,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -342,7 +358,7 @@
       "latitude": -1.50021,
       "longitude": 13.79245,
       "population": 2691,
-      "populationRank": 38,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -351,7 +367,16 @@
       "latitude": -1.57464,
       "longitude": 9.26184,
       "population": 2414,
-      "populationRank": 39,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "2396615",
+      "name": "Pana",
+      "latitude": -1.67159,
+      "longitude": 12.63035,
+      "population": 1897,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -360,7 +385,7 @@
       "latitude": -2.41815,
       "longitude": 12.22294,
       "population": 1382,
-      "populationRank": 40,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -369,7 +394,16 @@
       "latitude": -2.22678,
       "longitude": 13.61429,
       "population": 1316,
-      "populationRank": 41,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "12640497",
+      "name": "Onga",
+      "latitude": -0.7599,
+      "longitude": 14.3057,
+      "population": 1137,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -378,7 +412,7 @@
       "latitude": -0.65522,
       "longitude": 14.13827,
       "population": 1050,
-      "populationRank": 42,
+      "populationRank": 46,
       "isCapital": false
     }
   ]

@@ -421,13 +421,23 @@
       "isCapital": false
     },
     {
+      "id": "88380",
+      "name": "Zuwetina",
+      "nativeName": "ⵍⵣⵡⵉⵜⵉⵏⴰ الزويتينة",
+      "latitude": 30.9522,
+      "longitude": 20.12022,
+      "population": 21015,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
       "id": "2219591",
       "name": "Al-Nasiriyya",
       "nativeName": "ⵍⵏⴰⵚⵔⵉⵢⴰ الناصرية",
       "latitude": 32.63278,
       "longitude": 12.87361,
       "population": 20687,
-      "populationRank": 43,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -437,7 +447,7 @@
       "latitude": 26.09502,
       "longitude": 13.55744,
       "population": 16746,
-      "populationRank": 44,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -447,7 +457,17 @@
       "latitude": 31.44934,
       "longitude": 12.9853,
       "population": 16735,
-      "populationRank": 45,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "2213570",
+      "name": "Qasr Khayar",
+      "nativeName": "ⵇⵚⵔ ⵍⵅⵢⴰⵔ قصر لخيار",
+      "latitude": 32.69677,
+      "longitude": 13.84634,
+      "population": 16708,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -457,7 +477,7 @@
       "latitude": 27.54956,
       "longitude": 14.27139,
       "population": 16200,
-      "populationRank": 46,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -467,7 +487,7 @@
       "latitude": 30.80418,
       "longitude": 18.0772,
       "population": 15509,
-      "populationRank": 47,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -477,7 +497,7 @@
       "latitude": 32.18418,
       "longitude": 13.06045,
       "population": 15134,
-      "populationRank": 48,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -487,7 +507,17 @@
       "latitude": 24.96334,
       "longitude": 10.18003,
       "population": 14630,
-      "populationRank": 49,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "2220368",
+      "name": "Abu Zayyan",
+      "nativeName": "ⴰⴱⵓⵣⵢⴰⵏ ابوزيان",
+      "latitude": 32.09972,
+      "longitude": 12.97861,
+      "population": 14332,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -497,7 +527,7 @@
       "latitude": 32.94699,
       "longitude": 11.86668,
       "population": 14131,
-      "populationRank": 50,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -507,7 +537,7 @@
       "latitude": 29.03333,
       "longitude": 21.55,
       "population": 13401,
-      "populationRank": 51,
+      "populationRank": 54,
       "isCapital": false
     },
     {
@@ -517,7 +547,7 @@
       "latitude": 32.53414,
       "longitude": 20.57911,
       "population": 12593,
-      "populationRank": 52,
+      "populationRank": 55,
       "isCapital": false
     },
     {
@@ -527,7 +557,7 @@
       "latitude": 31.95506,
       "longitude": 12.02901,
       "population": 12507,
-      "populationRank": 53,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -537,7 +567,7 @@
       "latitude": 30.13366,
       "longitude": 9.50072,
       "population": 12096,
-      "populationRank": 54,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -547,7 +577,17 @@
       "latitude": 29.06941,
       "longitude": 15.78266,
       "population": 12077,
-      "populationRank": 55,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "2215758",
+      "name": "Al Ubayyat",
+      "nativeName": "ⵓⴱⵢⴰⵜ العبيات",
+      "latitude": 32.08333,
+      "longitude": 12.7,
+      "population": 11776,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -557,7 +597,7 @@
       "latitude": 29.1614,
       "longitude": 16.13904,
       "population": 10150,
-      "populationRank": 56,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -567,7 +607,37 @@
       "latitude": 28.55099,
       "longitude": 17.54358,
       "population": 10030,
-      "populationRank": 57,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "2220109",
+      "name": "Albirkat",
+      "nativeName": "ⵍⴱⵔⴽⵜ البركت",
+      "latitude": 24.894,
+      "longitude": 10.18336,
+      "population": 9908,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "2211464",
+      "name": "Sidi as Sayd",
+      "nativeName": "ⵙⵉⴷⵉ ⵍⵚⵉⴷ سيدي الصيد",
+      "latitude": 32.33462,
+      "longitude": 13.47942,
+      "population": 9821,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "2219918",
+      "name": "Al Khadra Tarhuna",
+      "nativeName": "ⵍⵅⴹⵔⴰ ⵜⵔⵀⵓⵏⴰ الخضراء ترهونة",
+      "latitude": 32.44403,
+      "longitude": 13.76735,
+      "population": 9521,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -577,7 +647,7 @@
       "latitude": 32.57421,
       "longitude": 22.76353,
       "population": 9357,
-      "populationRank": 58,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -587,7 +657,7 @@
       "latitude": 31.75601,
       "longitude": 25.0853,
       "population": 9149,
-      "populationRank": 59,
+      "populationRank": 66,
       "isCapital": false
     },
     {
@@ -597,7 +667,7 @@
       "latitude": 32.53332,
       "longitude": 23.00904,
       "population": 8742,
-      "populationRank": 60,
+      "populationRank": 67,
       "isCapital": false
     },
     {
@@ -607,7 +677,7 @@
       "latitude": 31.60968,
       "longitude": 25.04999,
       "population": 8614,
-      "populationRank": 61,
+      "populationRank": 68,
       "isCapital": false
     },
     {
@@ -617,7 +687,7 @@
       "latitude": 32.78991,
       "longitude": 22.0005,
       "population": 8276,
-      "populationRank": 62,
+      "populationRank": 69,
       "isCapital": false
     },
     {
@@ -627,7 +697,7 @@
       "latitude": 25.92333,
       "longitude": 14.42056,
       "population": 8167,
-      "populationRank": 63,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -637,7 +707,17 @@
       "latitude": 25.67289,
       "longitude": 21.07286,
       "population": 8085,
-      "populationRank": 64,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "84130",
+      "name": "Qaryat Omar al Mukhtar",
+      "nativeName": "ⵄⵎⵔ ⵍⵎⵅⵜⴰⵔ عمر المختار",
+      "latitude": 32.62978,
+      "longitude": 21.67651,
+      "population": 8031,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -647,7 +727,7 @@
       "latitude": 32.75249,
       "longitude": 21.62807,
       "population": 7831,
-      "populationRank": 65,
+      "populationRank": 73,
       "isCapital": false
     },
     {
@@ -657,7 +737,7 @@
       "latitude": 32.53798,
       "longitude": 21.57525,
       "population": 7760,
-      "populationRank": 66,
+      "populationRank": 74,
       "isCapital": false
     },
     {
@@ -667,7 +747,7 @@
       "latitude": 31.84724,
       "longitude": 11.33055,
       "population": 7686,
-      "populationRank": 67,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -677,7 +757,17 @@
       "latitude": 32.34751,
       "longitude": 20.30933,
       "population": 7558,
-      "populationRank": 68,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "2210300",
+      "name": "TAMZAWAH",
+      "nativeName": "ⵜⴰⵎⵣⴰⵡⴰ تامزاوة",
+      "latitude": 27.57154,
+      "longitude": 14.20234,
+      "population": 7410,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -687,7 +777,27 @@
       "latitude": 32.89702,
       "longitude": 21.96583,
       "population": 7285,
-      "populationRank": 69,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "2213371",
+      "name": "Ghira",
+      "nativeName": "ⵇⵉⵔⴰ قيرة",
+      "latitude": 27.58595,
+      "longitude": 14.35375,
+      "population": 6997,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "85819",
+      "name": "Kambot",
+      "nativeName": "ⴽⵎⴱⵡⵜ كمبوت",
+      "latitude": 31.90434,
+      "longitude": 24.4784,
+      "population": 6973,
+      "populationRank": 80,
       "isCapital": false
     },
     {
@@ -697,7 +807,7 @@
       "latitude": 32.01493,
       "longitude": 11.35461,
       "population": 6905,
-      "populationRank": 70,
+      "populationRank": 81,
       "isCapital": false
     },
     {
@@ -707,7 +817,17 @@
       "latitude": 32.30337,
       "longitude": 20.98615,
       "population": 6744,
-      "populationRank": 71,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "2219463",
+      "name": "Irejban",
+      "nativeName": "ⵉⵔⵊⴱⴰⵏ الرجبان Irejban",
+      "latitude": 31.95,
+      "longitude": 12.16667,
+      "population": 6419,
+      "populationRank": 83,
       "isCapital": false
     },
     {
@@ -717,7 +837,27 @@
       "latitude": 30.16502,
       "longitude": 10.45804,
       "population": 6051,
-      "populationRank": 72,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "2218761",
+      "name": "Barqin",
+      "nativeName": "ⴱⵔⵇⵏ برقن",
+      "latitude": 27.54801,
+      "longitude": 13.62914,
+      "population": 5902,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "89053",
+      "name": "Al Bayyadah",
+      "nativeName": "ⵍⴱⵢⴰⴹⴰ البياضة",
+      "latitude": 32.56501,
+      "longitude": 21.25415,
+      "population": 5538,
+      "populationRank": 86,
       "isCapital": false
     },
     {
@@ -727,7 +867,17 @@
       "latitude": 29.10806,
       "longitude": 21.28694,
       "population": 5125,
-      "populationRank": 73,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "2219563",
+      "name": "Aqar",
+      "nativeName": "ⴰⵇⴰⵔ آقار",
+      "latitude": 27.53914,
+      "longitude": 14.16251,
+      "population": 4832,
+      "populationRank": 88,
       "isCapital": false
     },
     {
@@ -737,7 +887,7 @@
       "latitude": 31.942,
       "longitude": 10.66532,
       "population": 4715,
-      "populationRank": 74,
+      "populationRank": 89,
       "isCapital": false
     },
     {
@@ -747,7 +897,7 @@
       "latitude": 27.44707,
       "longitude": 13.05173,
       "population": 4696,
-      "populationRank": 75,
+      "populationRank": 90,
       "isCapital": false
     },
     {
@@ -757,7 +907,7 @@
       "latitude": 31.97528,
       "longitude": 11.16222,
       "population": 4558,
-      "populationRank": 76,
+      "populationRank": 91,
       "isCapital": false
     },
     {
@@ -767,7 +917,7 @@
       "latitude": 27.27459,
       "longitude": 14.8819,
       "population": 4492,
-      "populationRank": 77,
+      "populationRank": 92,
       "isCapital": false
     },
     {
@@ -777,7 +927,37 @@
       "latitude": 26.16188,
       "longitude": 15.12522,
       "population": 4434,
-      "populationRank": 78,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "83726",
+      "name": "Qirnadah",
+      "nativeName": "ⵇⵔⵏⴰⴷⴰ قرنادة",
+      "latitude": 32.73174,
+      "longitude": 21.9035,
+      "population": 4206,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "2218475",
+      "name": "Bir al Ghanam",
+      "nativeName": "ⴱⵉⵔ ⵍⵖⵏⵎ بئر الغنم",
+      "latitude": 32.30912,
+      "longitude": 12.56935,
+      "population": 4182,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "2210688",
+      "name": "Sinawin",
+      "nativeName": "ⵙⵉⵏⴰⵡⵉⵏ سيناون",
+      "latitude": 31.02604,
+      "longitude": 10.60238,
+      "population": 4059,
+      "populationRank": 96,
       "isCapital": false
     },
     {
@@ -787,7 +967,7 @@
       "latitude": 25.78123,
       "longitude": 10.56133,
       "population": 3881,
-      "populationRank": 79,
+      "populationRank": 97,
       "isCapital": false
     },
     {
@@ -797,7 +977,17 @@
       "latitude": 32.05572,
       "longitude": 11.54302,
       "population": 3797,
-      "populationRank": 80,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "81615",
+      "name": "Sultan",
+      "nativeName": "ⵙⵍⵟⴰⵏ سلطان",
+      "latitude": 31.09396,
+      "longitude": 20.22329,
+      "population": 3672,
+      "populationRank": 99,
       "isCapital": false
     },
     {
@@ -807,7 +997,7 @@
       "latitude": 29.74262,
       "longitude": 24.51676,
       "population": 2768,
-      "populationRank": 81,
+      "populationRank": 100,
       "isCapital": false
     },
     {
@@ -817,7 +1007,17 @@
       "latitude": 29.22054,
       "longitude": 19.20454,
       "population": 2229,
-      "populationRank": 82,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "80635",
+      "name": "Al Mukhayli",
+      "nativeName": "ⵍⵎⵅⵉⵍⵉ المخيلي",
+      "latitude": 32.16005,
+      "longitude": 22.27845,
+      "population": 1764,
+      "populationRank": 102,
       "isCapital": false
     }
   ]

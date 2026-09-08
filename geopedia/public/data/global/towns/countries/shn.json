@@ -10,13 +10,94 @@
       "isCapital": false
     },
     {
+      "id": "3370726",
+      "name": "Edinburgh of the Seven Seas",
+      "latitude": -37.06757,
+      "longitude": -12.31155,
+      "population": 2860,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3370936",
+      "name": "Half Tree Hollow",
+      "latitude": -15.93723,
+      "longitude": -5.71996,
+      "population": 1034,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "12718715",
+      "name": "St Paul's",
+      "latitude": -15.94453,
+      "longitude": -5.72467,
+      "population": 928,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3370867",
+      "name": "Longwood",
+      "latitude": -15.94916,
+      "longitude": -5.68571,
+      "population": 765,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
       "id": "3370903",
       "name": "Jamestown",
       "latitude": -15.92488,
       "longitude": -5.71816,
       "population": 637,
-      "populationRank": 2,
+      "populationRank": 6,
       "isCapital": true
+    },
+    {
+      "id": "12718711",
+      "name": "Alarm Forest",
+      "latitude": -15.94371,
+      "longitude": -5.70523,
+      "population": 394,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3370880",
+      "name": "Levelwood",
+      "latitude": -15.96667,
+      "longitude": -5.68333,
+      "population": 342,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "12718714",
+      "name": "Sandy Bay",
+      "latitude": -15.97733,
+      "longitude": -5.71286,
+      "population": 177,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "12718712",
+      "name": "Blue Hill",
+      "latitude": -15.97925,
+      "longitude": -5.74667,
+      "population": 174,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2572137",
+      "name": "Two Boats Village",
+      "latitude": -7.94466,
+      "longitude": -14.37081,
+      "population": 110,
+      "populationRank": 11,
+      "isCapital": false
     }
   ]
 }

@@ -2,8 +2,7 @@
   "towns": [
     {
       "id": "3413829",
-      "name": "Reykjavik",
-      "nativeName": "Reykjavík",
+      "name": "Reykjavík",
       "latitude": 64.13548,
       "longitude": -21.89541,
       "population": 118918,
@@ -167,12 +166,21 @@
       "isCapital": false
     },
     {
+      "id": "3417972",
+      "name": "Álftanes",
+      "latitude": 64.1,
+      "longitude": -22.01667,
+      "population": 2484,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
       "id": "3412589",
       "name": "Þorlákshöfn",
       "latitude": 63.85591,
       "longitude": -21.38337,
       "population": 2037,
-      "populationRank": 19,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -181,7 +189,7 @@
       "latitude": 64.53834,
       "longitude": -21.92064,
       "population": 1875,
-      "populationRank": 20,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -190,7 +198,7 @@
       "latitude": 64.25388,
       "longitude": -15.21212,
       "population": 1690,
-      "populationRank": 21,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -199,7 +207,7 @@
       "latitude": 64.03762,
       "longitude": -22.70799,
       "population": 1609,
-      "populationRank": 22,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -208,7 +216,7 @@
       "latitude": 65.14819,
       "longitude": -13.68368,
       "population": 1481,
-      "populationRank": 23,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -217,7 +225,7 @@
       "latitude": 64.07055,
       "longitude": -22.6513,
       "population": 1409,
-      "populationRank": 24,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -226,7 +234,7 @@
       "latitude": 65.03164,
       "longitude": -14.21832,
       "population": 1368,
-      "populationRank": 25,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -235,7 +243,7 @@
       "latitude": 65.97018,
       "longitude": -18.52861,
       "population": 1359,
-      "populationRank": 26,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -244,7 +252,7 @@
       "latitude": 65.07537,
       "longitude": -22.72977,
       "population": 1200,
-      "populationRank": 27,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -253,7 +261,7 @@
       "latitude": 66.15198,
       "longitude": -18.90815,
       "population": 1164,
-      "populationRank": 28,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -262,7 +270,7 @@
       "latitude": 63.75069,
       "longitude": -20.22454,
       "population": 1108,
-      "populationRank": 29,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -271,7 +279,7 @@
       "latitude": 65.07306,
       "longitude": -14.01525,
       "population": 1043,
-      "populationRank": 30,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -280,7 +288,7 @@
       "latitude": 63.9816,
       "longitude": -22.38473,
       "population": 1029,
-      "populationRank": 31,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -289,7 +297,7 @@
       "latitude": 64.89429,
       "longitude": -23.70918,
       "population": 1010,
-      "populationRank": 32,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -298,7 +306,7 @@
       "latitude": 66.15917,
       "longitude": -23.24941,
       "population": 955,
-      "populationRank": 33,
+      "populationRank": 34,
       "isCapital": false
     },
     {
@@ -307,7 +315,7 @@
       "latitude": 65.65932,
       "longitude": -20.28083,
       "population": 895,
-      "populationRank": 34,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -316,7 +324,7 @@
       "latitude": 64.92427,
       "longitude": -23.26313,
       "population": 872,
-      "populationRank": 35,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -325,7 +333,17 @@
       "latitude": 63.8348,
       "longitude": -20.40084,
       "population": 865,
-      "populationRank": 36,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "6951090",
+      "name": "Fludir",
+      "nativeName": "Flúðir",
+      "latitude": 64.13428,
+      "longitude": -20.32265,
+      "population": 818,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -334,7 +352,16 @@
       "latitude": 66.06722,
       "longitude": -18.64399,
       "population": 785,
-      "populationRank": 37,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "2625252",
+      "name": "Vík",
+      "latitude": 63.41944,
+      "longitude": -19.00972,
+      "population": 750,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -343,7 +370,7 @@
       "latitude": 65.59783,
       "longitude": -23.99596,
       "population": 720,
-      "populationRank": 38,
+      "populationRank": 41,
       "isCapital": false
     },
     {
@@ -352,7 +379,7 @@
       "latitude": 65.75658,
       "longitude": -14.82777,
       "population": 695,
-      "populationRank": 39,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -362,7 +389,7 @@
       "latitude": 65.26008,
       "longitude": -14.00577,
       "population": 676,
-      "populationRank": 40,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -371,7 +398,316 @@
       "latitude": 64.93128,
       "longitude": -14.0189,
       "population": 654,
-      "populationRank": 41,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "3415811",
+      "name": "Hvammstangi",
+      "latitude": 65.39711,
+      "longitude": -20.94346,
+      "population": 546,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "3416439",
+      "name": "Hellissandur",
+      "latitude": 64.91757,
+      "longitude": -23.88557,
+      "population": 544,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "3417528",
+      "name": "Eyrarbakki",
+      "latitude": 63.86323,
+      "longitude": -21.14915,
+      "population": 531,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "8643894",
+      "name": "Grundarhverfi",
+      "latitude": 64.24058,
+      "longitude": -21.8367,
+      "population": 528,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "3416248",
+      "name": "Skagaströnd",
+      "latitude": 65.82319,
+      "longitude": -20.30248,
+      "population": 470,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "3413008",
+      "name": "Stokkseyri",
+      "latitude": 63.83788,
+      "longitude": -21.0587,
+      "population": 465,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "8643869",
+      "name": "Fellabaer",
+      "nativeName": "Fellabær",
+      "latitude": 65.28418,
+      "longitude": -14.42621,
+      "population": 415,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "2632226",
+      "name": "Djúpivogur",
+      "latitude": 64.65713,
+      "longitude": -14.28517,
+      "population": 404,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "3416144",
+      "name": "Hólmavík",
+      "latitude": 65.70767,
+      "longitude": -21.67065,
+      "population": 391,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "2626319",
+      "name": "Svalbarðseyri",
+      "latitude": 65.74107,
+      "longitude": -18.07744,
+      "population": 387,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "2626002",
+      "name": "Þórshöfn",
+      "latitude": 66.19814,
+      "longitude": -15.33679,
+      "population": 380,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "3412655",
+      "name": "Þingeyri",
+      "latitude": 65.87899,
+      "longitude": -23.49289,
+      "population": 326,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "3412878",
+      "name": "Suðureyri",
+      "latitude": 66.13041,
+      "longitude": -23.52804,
+      "population": 294,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "2631153",
+      "name": "Grenivík",
+      "latitude": 65.95102,
+      "longitude": -18.17493,
+      "population": 278,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "8643899",
+      "name": "Talknafjordur",
+      "nativeName": "Tálknafjörður",
+      "latitude": 65.62648,
+      "longitude": -23.8246,
+      "population": 275,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "3417363",
+      "name": "Flateyri",
+      "latitude": 66.05119,
+      "longitude": -23.51547,
+      "population": 267,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "3415779",
+      "name": "Hvanneyri",
+      "latitude": 64.56404,
+      "longitude": -21.7589,
+      "population": 251,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "3417878",
+      "name": "Búðardalur",
+      "latitude": 65.10944,
+      "longitude": -21.76392,
+      "population": 245,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "3418226",
+      "name": "Bíldudalur",
+      "latitude": 65.6853,
+      "longitude": -23.59992,
+      "population": 238,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "2627574",
+      "name": "Reykjahlíð",
+      "latitude": 65.64205,
+      "longitude": -16.91244,
+      "population": 227,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "3416267",
+      "name": "Hnífsdalur",
+      "latitude": 66.11131,
+      "longitude": -23.12036,
+      "population": 216,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "8643897",
+      "name": "Reykholt",
+      "latitude": 64.17829,
+      "longitude": -20.44161,
+      "population": 206,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "2629301",
+      "name": "Stöðvarfjörður",
+      "latitude": 64.83296,
+      "longitude": -13.87492,
+      "population": 189,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "2627642",
+      "name": "Raufarhöfn",
+      "latitude": 66.45429,
+      "longitude": -15.9511,
+      "population": 188,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "2630277",
+      "name": "Hofsós",
+      "latitude": 65.89896,
+      "longitude": -19.41298,
+      "population": 181,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "2629306",
+      "name": "Kirkjubæjarklaustur",
+      "latitude": 63.78935,
+      "longitude": -18.05273,
+      "population": 176,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "8643914",
+      "name": "Hrísey",
+      "latitude": 65.97835,
+      "longitude": -18.37777,
+      "population": 171,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "3413821",
+      "name": "Rif",
+      "latitude": 64.92245,
+      "longitude": -23.81802,
+      "population": 163,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "2632552",
+      "name": "Breiðdalsvík",
+      "latitude": 64.79212,
+      "longitude": -14.0065,
+      "population": 147,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "3414856",
+      "name": "Laugarvatn",
+      "latitude": 64.21762,
+      "longitude": -20.73386,
+      "population": 147,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "3413877",
+      "name": "Reykhólar",
+      "latitude": 65.44612,
+      "longitude": -22.1899,
+      "population": 135,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "2625499",
+      "name": "Varmahlíð",
+      "latitude": 65.55303,
+      "longitude": -19.44609,
+      "population": 128,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "2629105",
+      "name": "Kópasker",
+      "latitude": 66.30178,
+      "longitude": -16.44452,
+      "population": 122,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "8644039",
+      "name": "Borg",
+      "nativeName": "Borg í Grímsnesi",
+      "latitude": 64.07522,
+      "longitude": -20.76472,
+      "population": 75,
+      "populationRank": 78,
       "isCapital": false
     }
   ]

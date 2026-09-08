@@ -10,12 +10,31 @@
       "isCapital": true
     },
     {
+      "id": "3373419",
+      "name": "White Hill",
+      "latitude": 13.21373,
+      "longitude": -59.58111,
+      "population": 5139,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3373579",
+      "name": "Saint Andrews",
+      "nativeName": "Belleplaine",
+      "latitude": 13.246,
+      "longitude": -59.56332,
+      "population": 5139,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
       "id": "3373505",
       "name": "Speightstown",
       "latitude": 13.25072,
       "longitude": -59.64396,
       "population": 3634,
-      "populationRank": 2,
+      "populationRank": 4,
       "isCapital": false
     },
     {
@@ -24,7 +43,25 @@
       "latitude": 13.07067,
       "longitude": -59.54637,
       "population": 2285,
-      "populationRank": 3,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3374083",
+      "name": "Bathsheba",
+      "latitude": 13.21133,
+      "longitude": -59.52596,
+      "population": 1765,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3373689",
+      "name": "Mile and a Quarter",
+      "latitude": 13.26597,
+      "longitude": -59.62207,
+      "population": 1382,
+      "populationRank": 7,
       "isCapital": false
     },
     {
@@ -33,7 +70,7 @@
       "latitude": 13.18672,
       "longitude": -59.63808,
       "population": 1350,
-      "populationRank": 4,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -42,7 +79,43 @@
       "latitude": 13.11772,
       "longitude": -59.477,
       "population": 1005,
-      "populationRank": 5,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3373477",
+      "name": "Crane",
+      "latitude": 13.10487,
+      "longitude": -59.44861,
+      "population": 935,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3373942",
+      "name": "Crab Hill",
+      "latitude": 13.3196,
+      "longitude": -59.63831,
+      "population": 727,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3374056",
+      "name": "Blackmans",
+      "latitude": 13.18501,
+      "longitude": -59.54519,
+      "population": 623,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3373794",
+      "name": "Hillaby",
+      "latitude": 13.21288,
+      "longitude": -59.58838,
+      "population": 478,
+      "populationRank": 13,
       "isCapital": false
     }
   ]

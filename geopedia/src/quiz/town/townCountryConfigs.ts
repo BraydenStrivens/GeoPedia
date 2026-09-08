@@ -1091,8 +1091,8 @@ const townCountryConfigs: Record<string, TownCountryConfig> = {
   },
   mys: {
     initialView: {
-      center: [114.4033, 4.1102],
-      zoom: 6.01,
+      center: [109.5, 4.2],
+      zoom: 4.5,
     },
     maxErrorKm: 309,
   },

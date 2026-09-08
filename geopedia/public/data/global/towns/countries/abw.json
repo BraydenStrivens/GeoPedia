@@ -10,12 +10,21 @@
       "isCapital": true
     },
     {
+      "id": "3577072",
+      "name": "Tanki Leendert",
+      "latitude": 12.53914,
+      "longitude": -70.02004,
+      "population": 21500,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
       "id": "3577102",
       "name": "Santa Cruz",
       "latitude": 12.50953,
       "longitude": -69.98094,
       "population": 15236,
-      "populationRank": 2,
+      "populationRank": 3,
       "isCapital": false
     },
     {
@@ -24,7 +33,54 @@
       "latitude": 12.43624,
       "longitude": -69.90713,
       "population": 14175,
-      "populationRank": 3,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3577150",
+      "name": "Paradera",
+      "latitude": 12.5351,
+      "longitude": -70.00688,
+      "population": 13834,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3577107",
+      "name": "Savaneta",
+      "latitude": 12.45026,
+      "longitude": -69.93811,
+      "population": 11955,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "9179507",
+      "name": "Malmok",
+      "nativeName": "Malmok Beach",
+      "latitude": 12.60087,
+      "longitude": -70.05064,
+      "population": 5637,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3577136",
+      "name": "Pos Chiquito",
+      "nativeName": "Pos Chikito",
+      "latitude": 12.46497,
+      "longitude": -69.96233,
+      "population": 5259,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3577096",
+      "name": "Sero Colorado",
+      "latitude": 12.41881,
+      "longitude": -69.8821,
+      "population": 258,
+      "populationRank": 9,
       "isCapital": false
     }
   ]

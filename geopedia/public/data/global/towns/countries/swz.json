@@ -19,12 +19,21 @@
       "isCapital": true
     },
     {
+      "id": "13130831",
+      "name": "Matsanjeni",
+      "latitude": -27.23724,
+      "longitude": 31.7335,
+      "population": 16238,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
       "id": "935005",
       "name": "Malkerns",
       "latitude": -26.52872,
       "longitude": 31.19193,
       "population": 9724,
-      "populationRank": 3,
+      "populationRank": 4,
       "isCapital": false
     },
     {
@@ -33,7 +42,25 @@
       "latitude": -27.11222,
       "longitude": 31.19833,
       "population": 9016,
-      "populationRank": 4,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "934966",
+      "name": "Mhlume",
+      "latitude": -26.02607,
+      "longitude": 31.81423,
+      "population": 8652,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "13131621",
+      "name": "Ngudzeni",
+      "latitude": -26.99974,
+      "longitude": 31.59553,
+      "population": 8056,
+      "populationRank": 7,
       "isCapital": false
     },
     {
@@ -42,7 +69,7 @@
       "latitude": -27.221,
       "longitude": 31.58685,
       "population": 6763,
-      "populationRank": 5,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -51,7 +78,7 @@
       "latitude": -26.7905,
       "longitude": 31.93736,
       "population": 6433,
-      "populationRank": 6,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -60,7 +87,7 @@
       "latitude": -26.4525,
       "longitude": 31.94722,
       "population": 6152,
-      "populationRank": 7,
+      "populationRank": 10,
       "isCapital": false
     },
     {
@@ -69,7 +96,25 @@
       "latitude": -25.96082,
       "longitude": 31.24666,
       "population": 5750,
-      "populationRank": 8,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "935048",
+      "name": "Lobamba",
+      "latitude": -26.46667,
+      "longitude": 31.2,
+      "population": 4557,
+      "populationRank": 12,
+      "isCapital": true
+    },
+    {
+      "id": "7910862",
+      "name": "Vuvulane",
+      "latitude": -26.07427,
+      "longitude": 31.87672,
+      "population": 4155,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -78,7 +123,17 @@
       "latitude": -26.53847,
       "longitude": 31.01176,
       "population": 3046,
-      "populationRank": 9,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "934971",
+      "name": "Mhlambanyatsi",
+      "nativeName": "Mhlabanyatsi",
+      "latitude": -26.45174,
+      "longitude": 31.05248,
+      "population": 2886,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -88,7 +143,7 @@
       "latitude": -26.97991,
       "longitude": 31.32569,
       "population": 2748,
-      "populationRank": 10,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -97,7 +152,43 @@
       "latitude": -26.4,
       "longitude": 31.16667,
       "population": 2661,
-      "populationRank": 11,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "935111",
+      "name": "Bulembu",
+      "latitude": -25.95386,
+      "longitude": 31.12715,
+      "population": 2260,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "935051",
+      "name": "Lavumisa",
+      "latitude": -27.31005,
+      "longitude": 31.89198,
+      "population": 2000,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "934862",
+      "name": "Sidvokodvo",
+      "latitude": -26.6282,
+      "longitude": 31.42021,
+      "population": 1746,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "934900",
+      "name": "Nsoko",
+      "latitude": -27.02921,
+      "longitude": 31.94195,
+      "population": 1175,
+      "populationRank": 21,
       "isCapital": false
     }
   ]

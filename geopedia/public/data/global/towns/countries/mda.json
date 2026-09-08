@@ -21,8 +21,7 @@
     },
     {
       "id": "618605",
-      "name": "Bălţi",
-      "nativeName": "Bălți",
+      "name": "Bălți",
       "latitude": 47.76291,
       "longitude": 27.92854,
       "population": 125000,
@@ -78,8 +77,7 @@
     },
     {
       "id": "618356",
-      "name": "Durleşti",
-      "nativeName": "Durlești",
+      "name": "Durlești",
       "latitude": 47.02156,
       "longitude": 28.76303,
       "population": 26308,
@@ -116,8 +114,7 @@
     },
     {
       "id": "617076",
-      "name": "Edineţ",
-      "nativeName": "Edineț",
+      "name": "Edineț",
       "latitude": 48.17319,
       "longitude": 27.30075,
       "population": 22872,
@@ -126,7 +123,7 @@
     },
     {
       "id": "618450",
-      "name": "Ceadîr-Lunga",
+      "name": "Ceadîr Lunga",
       "latitude": 46.06169,
       "longitude": 28.83078,
       "population": 22700,
@@ -135,8 +132,7 @@
     },
     {
       "id": "618120",
-      "name": "Căuşeni",
-      "nativeName": "Căușeni",
+      "name": "Căușeni",
       "latitude": 46.63738,
       "longitude": 29.41087,
       "population": 21690,
@@ -154,8 +150,7 @@
     },
     {
       "id": "617993",
-      "name": "Hînceşti",
-      "nativeName": "Hîncești",
+      "name": "Hîncești",
       "latitude": 46.83089,
       "longitude": 28.58999,
       "population": 16900,
@@ -164,8 +159,7 @@
     },
     {
       "id": "618329",
-      "name": "Floreşti",
-      "nativeName": "Florești",
+      "name": "Florești",
       "latitude": 47.89168,
       "longitude": 28.29339,
       "population": 16759,
@@ -191,13 +185,22 @@
       "isCapital": false
     },
     {
+      "id": "617345",
+      "name": "Bilicenii Vechi",
+      "latitude": 47.6558,
+      "longitude": 28.04734,
+      "population": 15479,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
       "id": "617381",
       "name": "Slobozia",
       "nativeName": "Слободзея",
       "latitude": 46.72927,
       "longitude": 29.70446,
       "population": 15356,
-      "populationRank": 21,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -206,7 +209,7 @@
       "latitude": 46.94357,
       "longitude": 28.78153,
       "population": 14915,
-      "populationRank": 22,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -215,7 +218,7 @@
       "latitude": 47.63694,
       "longitude": 28.1407,
       "population": 14600,
-      "populationRank": 23,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -224,17 +227,16 @@
       "latitude": 47.57667,
       "longitude": 27.71264,
       "population": 14377,
-      "populationRank": 24,
+      "populationRank": 25,
       "isCapital": false
     },
     {
       "id": "617096",
-      "name": "Vulcăneşti",
-      "nativeName": "Vulcănești",
+      "name": "Vulcănești",
       "latitude": 45.68492,
       "longitude": 28.40613,
       "population": 14352,
-      "populationRank": 25,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -243,17 +245,25 @@
       "latitude": 46.48195,
       "longitude": 28.25298,
       "population": 14301,
-      "populationRank": 26,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "618512",
+      "name": "Briceni",
+      "latitude": 48.35628,
+      "longitude": 27.70293,
+      "population": 14132,
+      "populationRank": 28,
       "isCapital": false
     },
     {
       "id": "618454",
-      "name": "Călăraşi",
-      "nativeName": "Călărași",
+      "name": "Călărași",
       "latitude": 47.25548,
       "longitude": 28.30953,
       "population": 14066,
-      "populationRank": 27,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -262,27 +272,34 @@
       "latitude": 45.90321,
       "longitude": 28.66628,
       "population": 13512,
-      "populationRank": 28,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "618404",
+      "name": "Congaz",
+      "latitude": 46.10744,
+      "longitude": 28.59303,
+      "population": 13406,
+      "populationRank": 31,
       "isCapital": false
     },
     {
       "id": "617482",
-      "name": "Rîşcani",
-      "nativeName": "Rîșcani",
+      "name": "Rîșcani",
       "latitude": 47.94829,
       "longitude": 27.56669,
       "population": 12893,
-      "populationRank": 29,
+      "populationRank": 32,
       "isCapital": false
     },
     {
       "id": "618406",
-      "name": "Cimişlia",
-      "nativeName": "Cimișlia",
+      "name": "Cimișlia",
       "latitude": 46.52629,
       "longitude": 28.7649,
       "population": 12464,
-      "populationRank": 30,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -291,7 +308,7 @@
       "latitude": 47.08025,
       "longitude": 28.17098,
       "population": 11718,
-      "populationRank": 31,
+      "populationRank": 34,
       "isCapital": false
     },
     {
@@ -301,7 +318,7 @@
       "latitude": 48.03233,
       "longitude": 28.69899,
       "population": 11072,
-      "populationRank": 32,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -310,7 +327,7 @@
       "latitude": 46.33352,
       "longitude": 28.96165,
       "population": 10809,
-      "populationRank": 33,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -320,7 +337,7 @@
       "latitude": 46.624,
       "longitude": 29.906,
       "population": 10426,
-      "populationRank": 34,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -329,7 +346,16 @@
       "latitude": 47.77467,
       "longitude": 27.51753,
       "population": 10146,
-      "populationRank": 35,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "618400",
+      "name": "Dancu",
+      "latitude": 46.75818,
+      "longitude": 28.20716,
+      "population": 10000,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -338,7 +364,7 @@
       "latitude": 48.36302,
       "longitude": 27.07847,
       "population": 9900,
-      "populationRank": 36,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -347,7 +373,7 @@
       "latitude": 47.74857,
       "longitude": 28.96769,
       "population": 9806,
-      "populationRank": 37,
+      "populationRank": 41,
       "isCapital": false
     },
     {
@@ -357,27 +383,44 @@
       "latitude": 47.15413,
       "longitude": 29.30008,
       "population": 9456,
-      "populationRank": 38,
+      "populationRank": 42,
       "isCapital": false
     },
     {
       "id": "618382",
-      "name": "Donduşeni",
-      "nativeName": "Dondușeni",
+      "name": "Dondușeni",
       "latitude": 48.24268,
       "longitude": 27.6101,
       "population": 9435,
-      "populationRank": 39,
+      "populationRank": 43,
       "isCapital": false
     },
     {
       "id": "617659",
-      "name": "Ocniţa",
-      "nativeName": "Ocnița",
+      "name": "Ocnița",
       "latitude": 48.38231,
       "longitude": 27.43864,
       "population": 9325,
-      "populationRank": 40,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "617778",
+      "name": "Mîndrești",
+      "latitude": 47.50525,
+      "longitude": 28.27687,
+      "population": 9280,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "618067",
+      "name": "Kitskany",
+      "nativeName": "Кицканы",
+      "latitude": 46.78296,
+      "longitude": 29.61682,
+      "population": 9000,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -386,7 +429,7 @@
       "latitude": 48.43285,
       "longitude": 27.79912,
       "population": 8400,
-      "populationRank": 41,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -395,7 +438,7 @@
       "latitude": 46.87795,
       "longitude": 29.23503,
       "population": 8250,
-      "populationRank": 42,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -404,7 +447,7 @@
       "latitude": 46.51294,
       "longitude": 29.66223,
       "population": 7700,
-      "populationRank": 43,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -413,7 +456,7 @@
       "latitude": 47.13835,
       "longitude": 28.86156,
       "population": 7400,
-      "populationRank": 44,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -423,7 +466,17 @@
       "latitude": 46.73253,
       "longitude": 29.9617,
       "population": 7300,
-      "populationRank": 45,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "618556",
+      "name": "Blizhniy Khutor",
+      "nativeName": "Ближний Хутор",
+      "latitude": 46.88754,
+      "longitude": 29.64651,
+      "population": 7292,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -432,7 +485,7 @@
       "latitude": 46.91557,
       "longitude": 28.96673,
       "population": 7200,
-      "populationRank": 46,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -441,27 +494,34 @@
       "latitude": 47.2134,
       "longitude": 29.15847,
       "population": 6932,
-      "populationRank": 47,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "824153",
+      "name": "Ciorescu",
+      "latitude": 47.13,
+      "longitude": 28.88937,
+      "population": 6870,
+      "populationRank": 55,
       "isCapital": false
     },
     {
       "id": "617254",
-      "name": "Telenesti",
-      "nativeName": "Telenești",
+      "name": "Telenești",
       "latitude": 47.50179,
       "longitude": 28.36478,
       "population": 6633,
-      "populationRank": 48,
+      "populationRank": 56,
       "isCapital": false
     },
     {
       "id": "617372",
-      "name": "Şoldăneşti",
-      "nativeName": "Șoldănești",
+      "name": "Șoldănești",
       "latitude": 47.81618,
       "longitude": 28.79841,
       "population": 6160,
-      "populationRank": 49,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -470,7 +530,7 @@
       "latitude": 46.14826,
       "longitude": 28.96491,
       "population": 5800,
-      "populationRank": 50,
+      "populationRank": 58,
       "isCapital": false
     },
     {
@@ -479,7 +539,7 @@
       "latitude": 47.09643,
       "longitude": 28.86791,
       "population": 5700,
-      "populationRank": 51,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -488,7 +548,7 @@
       "latitude": 46.4252,
       "longitude": 28.42676,
       "population": 5600,
-      "populationRank": 52,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -497,17 +557,35 @@
       "latitude": 47.09009,
       "longitude": 29.0757,
       "population": 5300,
-      "populationRank": 53,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "617763",
+      "name": "Nezavertaylovka",
+      "nativeName": "Незавертайловка",
+      "latitude": 46.59694,
+      "longitude": 29.93763,
+      "population": 4742,
+      "populationRank": 62,
       "isCapital": false
     },
     {
       "id": "830975",
-      "name": "Biruinţa",
-      "nativeName": "Biruința",
+      "name": "Biruința",
       "latitude": 47.81353,
       "longitude": 28.07004,
       "population": 4700,
-      "populationRank": 54,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "618267",
+      "name": "Țarigrad",
+      "latitude": 48.04647,
+      "longitude": 27.76474,
+      "population": 4655,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -517,7 +595,25 @@
       "latitude": 46.643,
       "longitude": 29.823,
       "population": 4200,
-      "populationRank": 55,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "618057",
+      "name": "Cocieri",
+      "latitude": 47.3017,
+      "longitude": 29.11755,
+      "population": 4151,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "617149",
+      "name": "Varnița",
+      "latitude": 46.86606,
+      "longitude": 29.46636,
+      "population": 4000,
+      "populationRank": 67,
       "isCapital": false
     },
     {
@@ -526,7 +622,7 @@
       "latitude": 46.27749,
       "longitude": 28.20052,
       "population": 3829,
-      "populationRank": 56,
+      "populationRank": 68,
       "isCapital": false
     },
     {
@@ -535,17 +631,99 @@
       "latitude": 47.0746,
       "longitude": 28.73685,
       "population": 3800,
-      "populationRank": 57,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "617448",
+      "name": "Selemet",
+      "latitude": 46.57778,
+      "longitude": 28.92639,
+      "population": 3449,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "618217",
+      "name": "Gura Bîcului",
+      "latitude": 46.92981,
+      "longitude": 29.45984,
+      "population": 3401,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "617170",
+      "name": "Ustia",
+      "latitude": 47.25524,
+      "longitude": 29.12406,
+      "population": 3295,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "617879",
+      "name": "Lunga",
+      "nativeName": "Лунга",
+      "latitude": 47.24302,
+      "longitude": 29.18722,
+      "population": 3217,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "618469",
+      "name": "Butor",
+      "nativeName": "Бутор",
+      "latitude": 47.04225,
+      "longitude": 29.40528,
+      "population": 3102,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "618349",
+      "name": "Giurgiulești",
+      "latitude": 45.48167,
+      "longitude": 28.19722,
+      "population": 3074,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "617182",
+      "name": "Ulmu",
+      "latitude": 47.01842,
+      "longitude": 28.54643,
+      "population": 2693,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "617188",
+      "name": "Tuzara",
+      "latitude": 47.24243,
+      "longitude": 28.304,
+      "population": 2456,
+      "populationRank": 77,
       "isCapital": false
     },
     {
       "id": "617837",
-      "name": "Mărculeşti",
-      "nativeName": "Mărculești",
+      "name": "Mărculești",
       "latitude": 47.86897,
       "longitude": 28.24109,
       "population": 2400,
-      "populationRank": 58,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "617471",
+      "name": "Saharna",
+      "latitude": 47.69107,
+      "longitude": 28.97458,
+      "population": 2365,
+      "populationRank": 79,
       "isCapital": false
     },
     {
@@ -555,7 +733,7 @@
       "latitude": 46.83,
       "longitude": 29.564,
       "population": 2200,
-      "populationRank": 59,
+      "populationRank": 80,
       "isCapital": false
     },
     {
@@ -564,17 +742,79 @@
       "latitude": 47.85482,
       "longitude": 28.37679,
       "population": 2100,
-      "populationRank": 60,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "617633",
+      "name": "Palanca",
+      "latitude": 46.40861,
+      "longitude": 30.09611,
+      "population": 2020,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "617452",
+      "name": "Satul Nou",
+      "latitude": 46.61527,
+      "longitude": 28.90788,
+      "population": 1910,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "617118",
+      "name": "Vișniovca",
+      "latitude": 46.3326,
+      "longitude": 28.44797,
+      "population": 1800,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "618491",
+      "name": "Bugeac",
+      "latitude": 46.36554,
+      "longitude": 28.6625,
+      "population": 1800,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "617190",
+      "name": "Tudora",
+      "latitude": 46.43661,
+      "longitude": 30.04492,
+      "population": 1767,
+      "populationRank": 86,
       "isCapital": false
     },
     {
       "id": "618459",
-      "name": "Bucovăţ",
-      "nativeName": "Bucovăț",
+      "name": "Bucovăț",
       "latitude": 47.19064,
       "longitude": 28.45802,
       "population": 1600,
-      "populationRank": 61,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "617183",
+      "name": "Ucrainca",
+      "latitude": 46.43229,
+      "longitude": 29.27548,
+      "population": 1559,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "617823",
+      "name": "Merenii Noi",
+      "latitude": 46.92594,
+      "longitude": 29.0624,
+      "population": 1514,
+      "populationRank": 89,
       "isCapital": false
     },
     {
@@ -584,7 +824,129 @@
       "latitude": 47.23727,
       "longitude": 29.38498,
       "population": 1500,
-      "populationRank": 62,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "617569",
+      "name": "Popeștii de Sus",
+      "latitude": 48.08806,
+      "longitude": 28.02556,
+      "population": 1463,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "617605",
+      "name": "Pervomaisc",
+      "latitude": 46.69857,
+      "longitude": 29.09089,
+      "population": 1306,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "617582",
+      "name": "Plot",
+      "nativeName": "Плоть",
+      "latitude": 47.95977,
+      "longitude": 29.16068,
+      "population": 1277,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "617541",
+      "name": "Dolna",
+      "latitude": 47.12189,
+      "longitude": 28.27033,
+      "population": 1155,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "617926",
+      "name": "Cîșlița Prut",
+      "latitude": 45.53914,
+      "longitude": 28.1709,
+      "population": 1104,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "824140",
+      "name": "Kremenciug",
+      "nativeName": "Кременчуг",
+      "latitude": 46.7061,
+      "longitude": 29.67405,
+      "population": 1094,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "617714",
+      "name": "Novokomissarovka",
+      "nativeName": "Новокомиссаровка",
+      "latitude": 47.33056,
+      "longitude": 29.34722,
+      "population": 1059,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "617262",
+      "name": "Tartaul",
+      "latitude": 46.20671,
+      "longitude": 28.32039,
+      "population": 952,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "617037",
+      "name": "Zorile",
+      "latitude": 47.4592,
+      "longitude": 28.74046,
+      "population": 899,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "617660",
+      "name": "Oknitsa",
+      "nativeName": "Окница",
+      "latitude": 48.13278,
+      "longitude": 28.63558,
+      "population": 815,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "617712",
+      "name": "Novokotovsk",
+      "nativeName": "Новокотовск",
+      "latitude": 46.76726,
+      "longitude": 29.95757,
+      "population": 482,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "617968",
+      "name": "Cremenciug",
+      "latitude": 48.27567,
+      "longitude": 28.08459,
+      "population": 390,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "618465",
+      "name": "Butuceni",
+      "latitude": 47.30161,
+      "longitude": 28.96727,
+      "population": 239,
+      "populationRank": 103,
       "isCapital": false
     }
   ]

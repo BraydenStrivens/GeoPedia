@@ -65,8 +65,7 @@
     },
     {
       "id": "2274372",
-      "name": "Pleebo City",
-      "nativeName": "Pleebo",
+      "name": "Pleebo",
       "latitude": 4.58953,
       "longitude": -7.67218,
       "population": 35423,
@@ -129,13 +128,21 @@
       "isCapital": false
     },
     {
+      "id": "2272534",
+      "name": "Zorzor",
+      "latitude": 7.77944,
+      "longitude": -9.43028,
+      "population": 8419,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
       "id": "2273638",
-      "name": "Fish Town",
-      "nativeName": "Fish Town City",
+      "name": "Fish Town City",
       "latitude": 5.19739,
       "longitude": -7.87579,
       "population": 5383,
-      "populationRank": 15,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -144,7 +151,7 @@
       "latitude": 6.75329,
       "longitude": -11.3671,
       "population": 5306,
-      "populationRank": 16,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -153,7 +160,16 @@
       "latitude": 4.67443,
       "longitude": -8.23306,
       "population": 4692,
-      "populationRank": 17,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "2278248",
+      "name": "Bopolu",
+      "latitude": 7.06667,
+      "longitude": -10.4875,
+      "population": 4396,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -162,7 +178,16 @@
       "latitude": 5.45683,
       "longitude": -9.58167,
       "population": 3606,
-      "populationRank": 18,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2278682",
+      "name": "Bensonville City",
+      "latitude": 6.44716,
+      "longitude": -10.61283,
+      "population": 785,
+      "populationRank": 21,
       "isCapital": false
     }
   ]

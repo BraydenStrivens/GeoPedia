@@ -10,12 +10,86 @@
       "isCapital": true
     },
     {
+      "id": "442811",
+      "name": "Nyagatare",
+      "latitude": -1.29833,
+      "longitude": 30.32194,
+      "population": 653861,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "202466",
+      "name": "Rubavu",
+      "nativeName": "Rugerero",
+      "latitude": -1.6894,
+      "longitude": 29.3025,
+      "population": 546683,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "202810",
+      "name": "Kicukiro",
+      "latitude": -1.977,
+      "longitude": 30.1118,
+      "population": 491731,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "202133",
+      "name": "Kamonyi",
+      "latitude": -2.0024,
+      "longitude": 29.9041,
+      "population": 450849,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "202944",
+      "name": "Gisagara",
+      "latitude": -2.5941,
+      "longitude": 29.8375,
+      "population": 397051,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "383968",
+      "name": "Huye",
+      "latitude": -2.5805,
+      "longitude": 29.716,
+      "population": 381900,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "201503",
+      "name": "Rulindo",
+      "nativeName": "Mukoto Village",
+      "latitude": -1.721,
+      "longitude": 29.9236,
+      "population": 360144,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "8535471",
+      "name": "Ruhango",
+      "latitude": -2.2569,
+      "longitude": 29.7865,
+      "population": 359121,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
       "id": "202905",
       "name": "Gisenyi",
       "latitude": -1.70278,
       "longitude": 29.25639,
       "population": 172357,
-      "populationRank": 2,
+      "populationRank": 10,
       "isCapital": false
     },
     {
@@ -24,26 +98,7 @@
       "latitude": -1.49984,
       "longitude": 29.63497,
       "population": 153368,
-      "populationRank": 3,
-      "isCapital": false
-    },
-    {
-      "id": "201650",
-      "name": "Nyagatare",
-      "latitude": -1.2952,
-      "longitude": 30.3226,
-      "population": 100000,
-      "populationRank": 4,
-      "isCapital": false
-    },
-    {
-      "id": "203112",
-      "name": "Butare",
-      "nativeName": "Huye",
-      "latitude": -2.59667,
-      "longitude": 29.73944,
-      "population": 62823,
-      "populationRank": 5,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -52,7 +107,7 @@
       "latitude": -2.06028,
       "longitude": 29.34778,
       "population": 48024,
-      "populationRank": 6,
+      "populationRank": 12,
       "isCapital": false
     },
     {
@@ -61,7 +116,7 @@
       "latitude": -1.9487,
       "longitude": 30.4347,
       "population": 47203,
-      "populationRank": 7,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -70,7 +125,7 @@
       "latitude": -2.1597,
       "longitude": 30.5427,
       "population": 46240,
-      "populationRank": 8,
+      "populationRank": 14,
       "isCapital": false
     },
     {
@@ -80,7 +135,16 @@
       "latitude": -2.4846,
       "longitude": 28.9075,
       "population": 43866,
-      "populationRank": 9,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "202345",
+      "name": "Shyorongi",
+      "latitude": -1.85439,
+      "longitude": 29.96238,
+      "population": 43744,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -89,7 +153,7 @@
       "latitude": -1.5763,
       "longitude": 30.0675,
       "population": 43134,
-      "populationRank": 10,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -99,7 +163,26 @@
       "latitude": -1.9495,
       "longitude": 30.1697,
       "population": 41764,
-      "populationRank": 11,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "202769",
+      "name": "Kirambo",
+      "latitude": -2.3155,
+      "longitude": 29.1415,
+      "population": 40341,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "7021400",
+      "name": "Kagano",
+      "nativeName": "Rugabano",
+      "latitude": -2.3429,
+      "longitude": 29.0912,
+      "population": 39994,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -108,7 +191,17 @@
       "latitude": -1.8628,
       "longitude": 29.62541,
       "population": 38823,
-      "populationRank": 12,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "7021270",
+      "name": "Macuba",
+      "nativeName": "Kaderaho",
+      "latitude": -2.2933,
+      "longitude": 29.1877,
+      "population": 33319,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -117,7 +210,7 @@
       "latitude": -2.5169,
       "longitude": 29.0326,
       "population": 32504,
-      "populationRank": 13,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -126,7 +219,7 @@
       "latitude": -2.35187,
       "longitude": 29.75089,
       "population": 32016,
-      "populationRank": 14,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -135,7 +228,35 @@
       "latitude": -2.6924,
       "longitude": 29.0077,
       "population": 31086,
-      "populationRank": 15,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "7662752",
+      "name": "Gihombo",
+      "nativeName": "Kagwa",
+      "latitude": -2.21896,
+      "longitude": 29.2343,
+      "population": 29843,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "203119",
+      "name": "Busogo",
+      "latitude": -1.5584,
+      "longitude": 29.5434,
+      "population": 28264,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "202352",
+      "name": "Shangi",
+      "latitude": -2.4036,
+      "longitude": 29.0059,
+      "population": 28064,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -144,7 +265,27 @@
       "latitude": -1.9509,
       "longitude": 30.5205,
       "population": 27059,
-      "populationRank": 16,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "202048",
+      "name": "Kirimbi",
+      "nativeName": "Giserore",
+      "latitude": -2.26469,
+      "longitude": 29.19644,
+      "population": 25647,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "384181",
+      "name": "Gitesi",
+      "nativeName": "Kinama",
+      "latitude": -2.1139,
+      "longitude": 29.4022,
+      "population": 24859,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -153,7 +294,35 @@
       "latitude": -1.61112,
       "longitude": 29.49687,
       "population": 19021,
-      "populationRank": 17,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "201841",
+      "name": "Mugina",
+      "latitude": -2.1057,
+      "longitude": 29.9417,
+      "population": 18586,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "12718709",
+      "name": "Kamuhanda / Ruyenzi",
+      "nativeName": "Ruyenzi",
+      "latitude": -1.96571,
+      "longitude": 29.98462,
+      "population": 16369,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "384266",
+      "name": "Kora",
+      "latitude": -1.6101,
+      "longitude": 29.445,
+      "population": 15134,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -162,7 +331,26 @@
       "latitude": -1.4426,
       "longitude": 29.5902,
       "population": 14523,
-      "populationRank": 18,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "201954",
+      "name": "Mabanza",
+      "nativeName": "Rubengera",
+      "latitude": -2.0524,
+      "longitude": 29.4092,
+      "population": 13139,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "384437",
+      "name": "Tare",
+      "latitude": -1.7152,
+      "longitude": 29.9033,
+      "population": 3426,
+      "populationRank": 38,
       "isCapital": false
     }
   ]

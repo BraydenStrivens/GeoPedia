@@ -10,12 +10,21 @@
       "isCapital": true
     },
     {
+      "id": "933945",
+      "name": "Vacoas Phoenix",
+      "latitude": -20.29806,
+      "longitude": 57.47833,
+      "population": 115289,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
       "id": "934765",
-      "name": "Beau Bassin-Rose Hill",
+      "name": "Beau Bassin Rose Hill",
       "latitude": -20.23325,
       "longitude": 57.46609,
       "population": 111355,
-      "populationRank": 2,
+      "populationRank": 3,
       "isCapital": false
     },
     {
@@ -24,7 +33,7 @@
       "latitude": -20.31628,
       "longitude": 57.52594,
       "population": 78618,
-      "populationRank": 3,
+      "populationRank": 4,
       "isCapital": false
     },
     {
@@ -33,7 +42,7 @@
       "latitude": -20.26381,
       "longitude": 57.4791,
       "population": 77308,
-      "populationRank": 4,
+      "populationRank": 5,
       "isCapital": false
     },
     {
@@ -42,7 +51,7 @@
       "latitude": -20.0576,
       "longitude": 57.55025,
       "population": 24361,
-      "populationRank": 5,
+      "populationRank": 6,
       "isCapital": false
     },
     {
@@ -51,7 +60,7 @@
       "latitude": -20.03841,
       "longitude": 57.65055,
       "population": 21063,
-      "populationRank": 6,
+      "populationRank": 7,
       "isCapital": false
     },
     {
@@ -60,7 +69,7 @@
       "latitude": -20.25777,
       "longitude": 57.74976,
       "population": 18036,
-      "populationRank": 7,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -69,7 +78,7 @@
       "latitude": -20.25667,
       "longitude": 57.40611,
       "population": 17818,
-      "populationRank": 8,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -79,17 +88,16 @@
       "latitude": -20.18972,
       "longitude": 57.71444,
       "population": 17710,
-      "populationRank": 9,
+      "populationRank": 10,
       "isCapital": false
     },
     {
       "id": "934322",
-      "name": "Mahebourg",
-      "nativeName": "Mahébourg",
+      "name": "Mahébourg",
       "latitude": -20.40806,
       "longitude": 57.7,
       "population": 17042,
-      "populationRank": 10,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -98,7 +106,16 @@
       "latitude": -20.2215,
       "longitude": 57.53431,
       "population": 16704,
-      "populationRank": 11,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "1106809",
+      "name": "Le Hochet",
+      "latitude": -20.13859,
+      "longitude": 57.53013,
+      "population": 15662,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -108,7 +125,16 @@
       "latitude": -20.11944,
       "longitude": 57.49139,
       "population": 15301,
-      "populationRank": 12,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "933953",
+      "name": "Trou aux Biches",
+      "latitude": -20.03301,
+      "longitude": 57.55033,
+      "population": 14706,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -117,7 +143,7 @@
       "latitude": -20.40028,
       "longitude": 57.59667,
       "population": 12619,
-      "populationRank": 13,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -126,7 +152,7 @@
       "latitude": -20.48722,
       "longitude": 57.46556,
       "population": 12457,
-      "populationRank": 14,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -135,7 +161,25 @@
       "latitude": -20.01816,
       "longitude": 57.58015,
       "population": 12173,
-      "populationRank": 15,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "933974",
+      "name": "Terre Rouge",
+      "latitude": -20.1283,
+      "longitude": 57.53116,
+      "population": 11210,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "934240",
+      "name": "New Grove",
+      "latitude": -20.40861,
+      "longitude": 57.61361,
+      "population": 11023,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -144,7 +188,25 @@
       "latitude": -20.10306,
       "longitude": 57.68472,
       "population": 10825,
-      "populationRank": 16,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "934169",
+      "name": "Plaine Magnien",
+      "latitude": -20.42967,
+      "longitude": 57.66968,
+      "population": 10778,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "934390",
+      "name": "Lalmatie",
+      "latitude": -20.18972,
+      "longitude": 57.66111,
+      "population": 10641,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -153,7 +215,43 @@
       "latitude": -20.50972,
       "longitude": 57.50528,
       "population": 10621,
-      "populationRank": 17,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "934095",
+      "name": "Rivière des Anguilles",
+      "latitude": -20.493,
+      "longitude": 57.563,
+      "population": 9927,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "934213",
+      "name": "Pamplemousses",
+      "latitude": -20.10389,
+      "longitude": 57.57028,
+      "population": 9682,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "934262",
+      "name": "Montagne Blanche",
+      "latitude": -20.28538,
+      "longitude": 57.65865,
+      "population": 9440,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "934184",
+      "name": "Petit Raffray",
+      "latitude": -20.02022,
+      "longitude": 57.62296,
+      "population": 9410,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -162,7 +260,25 @@
       "latitude": -20.21904,
       "longitude": 57.51083,
       "population": 9364,
-      "populationRank": 18,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "12168288",
+      "name": "Richelieu",
+      "latitude": -20.19324,
+      "longitude": 57.45952,
+      "population": 9178,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "934149",
+      "name": "Poste de Flacq",
+      "latitude": -20.16306,
+      "longitude": 57.73056,
+      "population": 8659,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -171,7 +287,70 @@
       "latitude": -19.68333,
       "longitude": 63.41667,
       "population": 8350,
-      "populationRank": 19,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "934170",
+      "name": "Plaine des Papayes",
+      "latitude": -20.065,
+      "longitude": 57.5725,
+      "population": 7925,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "934343",
+      "name": "L’Escalier",
+      "latitude": -20.47,
+      "longitude": 57.61222,
+      "population": 7899,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "934485",
+      "name": "Grand Bois",
+      "latitude": -20.41889,
+      "longitude": 57.54417,
+      "population": 7804,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "934333",
+      "name": "Long Mountain",
+      "latitude": -20.151,
+      "longitude": 57.573,
+      "population": 7775,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "934479",
+      "name": "Grand Gaube",
+      "latitude": -20.00639,
+      "longitude": 57.66083,
+      "population": 7706,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "934677",
+      "name": "Brisée Verdière",
+      "latitude": -20.16389,
+      "longitude": 57.64667,
+      "population": 7696,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "934739",
+      "name": "Belle Vue Maurel",
+      "latitude": -20.12028,
+      "longitude": 57.66361,
+      "population": 7607,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -180,7 +359,172 @@
       "latitude": -20.06494,
       "longitude": 57.52347,
       "population": 7556,
-      "populationRank": 20,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "934400",
+      "name": "Dagotière",
+      "latitude": -20.24476,
+      "longitude": 57.56188,
+      "population": 7468,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "934229",
+      "name": "Nouvelle France",
+      "latitude": -20.37056,
+      "longitude": 57.56111,
+      "population": 7238,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "934693",
+      "name": "Bon Accueil",
+      "latitude": -20.175,
+      "longitude": 57.672,
+      "population": 6553,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "934133",
+      "name": "Quartier Militaire",
+      "latitude": -20.2479,
+      "longitude": 57.59737,
+      "population": 6424,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "8643380",
+      "name": "Calodyne",
+      "nativeName": "Saint-François",
+      "latitude": -20.00215,
+      "longitude": 57.64249,
+      "population": 6252,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "1106584",
+      "name": "Laventure",
+      "latitude": -20.14583,
+      "longitude": 57.67667,
+      "population": 6171,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "934058",
+      "name": "Morcellement Saint André",
+      "latitude": -20.07199,
+      "longitude": 57.56833,
+      "population": 6150,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "1106660",
+      "name": "Écroignard",
+      "latitude": -20.22611,
+      "longitude": 57.73611,
+      "population": 5952,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "934255",
+      "name": "Piton, Mauritius",
+      "nativeName": "Piton",
+      "latitude": -20.09028,
+      "longitude": 57.63028,
+      "population": 5909,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "934513",
+      "name": "Fond du Sac",
+      "latitude": -20.04732,
+      "longitude": 57.584,
+      "population": 5796,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "934013",
+      "name": "Sébastopol",
+      "latitude": -20.2907,
+      "longitude": 57.68779,
+      "population": 5745,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "934085",
+      "name": "Roches Noire",
+      "nativeName": "Roches Noires",
+      "latitude": -20.11111,
+      "longitude": 57.71222,
+      "population": 5733,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "1106643",
+      "name": "Quatre Cocos",
+      "latitude": -20.20151,
+      "longitude": 57.77448,
+      "population": 5724,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "934195",
+      "name": "Petite Rivière",
+      "latitude": -20.19551,
+      "longitude": 57.44592,
+      "population": 5331,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "934660",
+      "name": "Camp Diable",
+      "latitude": -20.46278,
+      "longitude": 57.57889,
+      "population": 5082,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "934649",
+      "name": "Cap Malheureux",
+      "latitude": -19.98417,
+      "longitude": 57.61417,
+      "population": 4803,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "1106811",
+      "name": "Calebasses",
+      "latitude": -20.11167,
+      "longitude": 57.55389,
+      "population": 4648,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "934282",
+      "name": "Midlands",
+      "latitude": -20.338,
+      "longitude": 57.567,
+      "population": 4546,
+      "populationRank": 58,
       "isCapital": false
     },
     {
@@ -189,7 +533,416 @@
       "latitude": -20.51667,
       "longitude": 57.51667,
       "population": 4434,
-      "populationRank": 21,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "1106645",
+      "name": "Camp Ithier",
+      "latitude": -20.21583,
+      "longitude": 57.74556,
+      "population": 4401,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "933982",
+      "name": "Tamarin",
+      "latitude": -20.32556,
+      "longitude": 57.37056,
+      "population": 4371,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "934047",
+      "name": "Saint Hubert",
+      "nativeName": "St. Hubert",
+      "latitude": -20.36417,
+      "longitude": 57.63833,
+      "population": 4170,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "934225",
+      "name": "Olivia",
+      "latitude": -20.28778,
+      "longitude": 57.73097,
+      "population": 3980,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "934232",
+      "name": "Notre Dame",
+      "latitude": -20.14298,
+      "longitude": 57.55969,
+      "population": 3959,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "933970",
+      "name": "The Vale",
+      "latitude": -20.03018,
+      "longitude": 57.60219,
+      "population": 3707,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "1106596",
+      "name": "Cottage",
+      "latitude": -20.05972,
+      "longitude": 57.62917,
+      "population": 3646,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "934127",
+      "name": "Quatre Soeurs",
+      "nativeName": "Quatre Sœurs",
+      "latitude": -20.29917,
+      "longitude": 57.77056,
+      "population": 3515,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "1106763",
+      "name": "Gros Cailloux",
+      "latitude": -20.20722,
+      "longitude": 57.43,
+      "population": 3361,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "934812",
+      "name": "Albion",
+      "latitude": -20.20814,
+      "longitude": 57.40766,
+      "population": 3254,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "934076",
+      "name": "Roche Terre",
+      "latitude": -20.01861,
+      "longitude": 57.64472,
+      "population": 3199,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "934043",
+      "name": "Saint Julien",
+      "nativeName": "St. Julien",
+      "latitude": -20.208,
+      "longitude": 57.676,
+      "population": 3188,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "934138",
+      "name": "Providence",
+      "latitude": -20.24472,
+      "longitude": 57.61222,
+      "population": 3126,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "934573",
+      "name": "Crève Coeur",
+      "latitude": -20.19346,
+      "longitude": 57.56328,
+      "population": 3097,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "934126",
+      "name": "Queen Victoria",
+      "latitude": -20.22,
+      "longitude": 57.7075,
+      "population": 3025,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "1106630",
+      "name": "Amaury",
+      "latitude": -20.13083,
+      "longitude": 57.65917,
+      "population": 2912,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "1106788",
+      "name": "Dubreuil",
+      "latitude": -20.30132,
+      "longitude": 57.59861,
+      "population": 2726,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "934661",
+      "name": "Camp de Masque",
+      "latitude": -20.236,
+      "longitude": 57.676,
+      "population": 2721,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "934644",
+      "name": "Cascavelle",
+      "latitude": -20.28694,
+      "longitude": 57.40722,
+      "population": 2613,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "1106813",
+      "name": "Arsenal",
+      "latitude": -20.10556,
+      "longitude": 57.53528,
+      "population": 2599,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "1547471",
+      "name": "Baie Aux Huîtres",
+      "latitude": -19.69444,
+      "longitude": 63.40833,
+      "population": 2500,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "934475",
+      "name": "Grande Rivière Sud Est",
+      "nativeName": "Grand River South-East",
+      "latitude": -20.28611,
+      "longitude": 57.77583,
+      "population": 2472,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "934731",
+      "name": "Bel Ombre",
+      "latitude": -20.50222,
+      "longitude": 57.40611,
+      "population": 2417,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "934144",
+      "name": "Poudre d'Or",
+      "latitude": -20.06,
+      "longitude": 57.67667,
+      "population": 2373,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "934089",
+      "name": "Grande Rivière Noire",
+      "latitude": -20.36028,
+      "longitude": 57.36611,
+      "population": 2361,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "934533",
+      "name": "Espérance Trébuchet",
+      "latitude": -20.06972,
+      "longitude": 57.64194,
+      "population": 2323,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "934656",
+      "name": "Camp Thorel",
+      "latitude": -20.21472,
+      "longitude": 57.61611,
+      "population": 2299,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "933933",
+      "name": "Verdun",
+      "latitude": -20.23417,
+      "longitude": 57.55476,
+      "population": 2208,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "934459",
+      "name": "Grand Sable",
+      "latitude": -20.31417,
+      "longitude": 57.76444,
+      "population": 2208,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "934092",
+      "name": "Rivière du Poste",
+      "latitude": -20.42417,
+      "longitude": 57.56694,
+      "population": 2170,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "1106638",
+      "name": "Mare La Chaux",
+      "latitude": -20.19806,
+      "longitude": 57.74944,
+      "population": 2058,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "934517",
+      "name": "Flic en Flac",
+      "latitude": -20.278,
+      "longitude": 57.372,
+      "population": 2010,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "934288",
+      "name": "Melrose",
+      "latitude": -20.26972,
+      "longitude": 57.63194,
+      "population": 2002,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "934705",
+      "name": "Bois des Amourettes",
+      "latitude": -20.36306,
+      "longitude": 57.73111,
+      "population": 1986,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "1106621",
+      "name": "Congomah",
+      "latitude": -20.14889,
+      "longitude": 57.59083,
+      "population": 1956,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "934599",
+      "name": "Clémencia",
+      "latitude": -20.26389,
+      "longitude": 57.70611,
+      "population": 1835,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "934056",
+      "name": "Saint Aubin",
+      "latitude": -20.496,
+      "longitude": 57.55,
+      "population": 1659,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "1106589",
+      "name": "Cluny",
+      "latitude": -20.36694,
+      "longitude": 57.60389,
+      "population": 1629,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "1106677",
+      "name": "Bambous Virieux",
+      "latitude": -20.34278,
+      "longitude": 57.7575,
+      "population": 1540,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "934198",
+      "name": "Petite Case Noyale",
+      "latitude": -20.404,
+      "longitude": 57.371,
+      "population": 1525,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "1106771",
+      "name": "Mapou",
+      "latitude": -20.07583,
+      "longitude": 57.60139,
+      "population": 1288,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "1106683",
+      "name": "Petit Bel Air",
+      "latitude": -20.39986,
+      "longitude": 57.69513,
+      "population": 1000,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "934626",
+      "name": "Chamarel",
+      "latitude": -20.4225,
+      "longitude": 57.38389,
+      "population": 723,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "1106723",
+      "name": "Bananes",
+      "latitude": -20.34667,
+      "longitude": 57.58861,
+      "population": 652,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "12022106",
+      "name": "Vingt Cinq",
+      "latitude": -10.38803,
+      "longitude": 56.61795,
+      "population": 250,
+      "populationRank": 104,
       "isCapital": false
     }
   ]

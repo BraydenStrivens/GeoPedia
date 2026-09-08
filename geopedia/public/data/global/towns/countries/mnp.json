@@ -1,13 +1,22 @@
 {
   "towns": [
     {
+      "id": "7828758",
+      "name": "Capitol Hill",
+      "latitude": 15.21233,
+      "longitude": 145.7545,
+      "population": 48220,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
       "id": "7267949",
       "name": "San Jose Village",
       "nativeName": "San Jose",
       "latitude": 14.96823,
       "longitude": 145.61998,
       "population": 15000,
-      "populationRank": 1,
+      "populationRank": 2,
       "isCapital": false
     },
     {
@@ -16,7 +25,7 @@
       "latitude": 15.21107,
       "longitude": 145.72038,
       "population": 3096,
-      "populationRank": 2,
+      "populationRank": 3,
       "isCapital": false
     },
     {
@@ -26,7 +35,16 @@
       "latitude": 15.14118,
       "longitude": 145.70049,
       "population": 1338,
-      "populationRank": 3,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "7828768",
+      "name": "Capitol Hill",
+      "latitude": 15.20825,
+      "longitude": 145.75313,
+      "population": 979,
+      "populationRank": 5,
       "isCapital": false
     },
     {
@@ -35,7 +53,17 @@
       "latitude": 14.13972,
       "longitude": 145.14111,
       "population": 593,
-      "populationRank": 4,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "4041575",
+      "name": "Pagan Village",
+      "nativeName": "Shomushon",
+      "latitude": 18.12539,
+      "longitude": 145.75938,
+      "population": 50,
+      "populationRank": 7,
       "isCapital": false
     }
   ]

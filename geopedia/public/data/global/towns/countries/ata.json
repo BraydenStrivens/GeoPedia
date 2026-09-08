@@ -1,12 +1,31 @@
 {
   "towns": [
     {
+      "id": "13512711",
+      "name": "Showa Station",
+      "nativeName": "昭和基地",
+      "latitude": -69.00412,
+      "longitude": 39.58184,
+      "population": 170,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
       "id": "13664897",
       "name": "McMurdo Station",
       "latitude": -77.84114,
       "longitude": 166.75271,
       "population": 153,
-      "populationRank": 1,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "9072762",
+      "name": "Villa Las Estrellas",
+      "latitude": -62.20001,
+      "longitude": -58.96109,
+      "population": 150,
+      "populationRank": 3,
       "isCapital": false
     }
   ]

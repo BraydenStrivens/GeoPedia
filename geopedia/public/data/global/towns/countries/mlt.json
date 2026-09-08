@@ -159,13 +159,23 @@
       "isCapital": false
     },
     {
+      "id": "2562744",
+      "name": "Mellieha",
+      "nativeName": "Il-Mellieħa",
+      "latitude": 35.95663,
+      "longitude": 14.36259,
+      "population": 11389,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
       "id": "2563232",
       "name": "Attard",
       "nativeName": "Ħ'Attard",
       "latitude": 35.88967,
       "longitude": 14.4425,
       "population": 11377,
-      "populationRank": 17,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -175,7 +185,7 @@
       "latitude": 35.87194,
       "longitude": 14.44111,
       "population": 11079,
-      "populationRank": 18,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -185,7 +195,7 @@
       "latitude": 35.8296,
       "longitude": 14.47588,
       "population": 10962,
-      "populationRank": 19,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -195,7 +205,7 @@
       "latitude": 35.8622,
       "longitude": 14.56701,
       "population": 10024,
-      "populationRank": 20,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -205,7 +215,17 @@
       "latitude": 35.88452,
       "longitude": 14.48498,
       "population": 9743,
-      "populationRank": 21,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2562504",
+      "name": "Siġġiewi",
+      "nativeName": "Is-Siġġiewi",
+      "latitude": 35.85547,
+      "longitude": 14.43611,
+      "population": 8721,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -215,7 +235,16 @@
       "latitude": 35.87297,
       "longitude": 14.49897,
       "population": 8706,
-      "populationRank": 22,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2562518",
+      "name": "Santa Venera",
+      "latitude": 35.88998,
+      "longitude": 14.47291,
+      "population": 7590,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -224,7 +253,7 @@
       "latitude": 35.89968,
       "longitude": 14.5148,
       "population": 6794,
-      "populationRank": 23,
+      "populationRank": 26,
       "isCapital": true
     },
     {
@@ -234,7 +263,17 @@
       "latitude": 36.04473,
       "longitude": 14.24118,
       "population": 6596,
-      "populationRank": 24,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2562788",
+      "name": "Luqa",
+      "nativeName": "Ħal Luqa",
+      "latitude": 35.85985,
+      "longitude": 14.48895,
+      "population": 6162,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -244,7 +283,47 @@
       "latitude": 35.88556,
       "longitude": 14.5275,
       "population": 6096,
-      "populationRank": 25,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2562755",
+      "name": "Marsa",
+      "nativeName": "Il-Marsa",
+      "latitude": 35.87925,
+      "longitude": 14.49462,
+      "population": 5454,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "2563046",
+      "name": "Għaxaq",
+      "nativeName": "Ħal Għaxaq",
+      "latitude": 35.84931,
+      "longitude": 14.51695,
+      "population": 4860,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2563217",
+      "name": "Balzan",
+      "nativeName": "Ħal Balzan",
+      "latitude": 35.90215,
+      "longitude": 14.45213,
+      "population": 4689,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2562687",
+      "name": "Nadur",
+      "nativeName": "In-Nadur",
+      "latitude": 36.0379,
+      "longitude": 14.29382,
+      "population": 3933,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -253,7 +332,125 @@
       "latitude": 35.93024,
       "longitude": 14.47793,
       "population": 3842,
-      "populationRank": 26,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "2563140",
+      "name": "Dingli",
+      "nativeName": "Ħad-Dingli",
+      "latitude": 35.8615,
+      "longitude": 14.38213,
+      "population": 3711,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "2562280",
+      "name": "Xaghra",
+      "nativeName": "Ix-Xagħra",
+      "latitude": 36.05003,
+      "longitude": 14.26421,
+      "population": 3680,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "2562247",
+      "name": "Marsaxlokk",
+      "latitude": 35.84214,
+      "longitude": 14.54296,
+      "population": 3660,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "2562800",
+      "name": "Iklin",
+      "nativeName": "L-Iklin",
+      "latitude": 35.90414,
+      "longitude": 14.45415,
+      "population": 3422,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "2562701",
+      "name": "Mqabba",
+      "nativeName": "L-Imqabba",
+      "latitude": 35.84763,
+      "longitude": 14.46824,
+      "population": 3339,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "2562274",
+      "name": "Xewkija",
+      "nativeName": "Ix-Xewkija",
+      "latitude": 36.03413,
+      "longitude": 14.25591,
+      "population": 3303,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "2562801",
+      "name": "Lija",
+      "nativeName": "Ħal Lija",
+      "latitude": 35.90048,
+      "longitude": 14.44628,
+      "population": 3202,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "2563020",
+      "name": "Gudja",
+      "nativeName": "Il-Gudja",
+      "latitude": 35.85055,
+      "longitude": 14.50593,
+      "population": 3184,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "2562622",
+      "name": "Qrendi",
+      "nativeName": "Il-Qrendi",
+      "latitude": 35.83446,
+      "longitude": 14.45783,
+      "population": 3148,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "2563081",
+      "name": "Għajnsielem",
+      "latitude": 36.02572,
+      "longitude": 14.2864,
+      "population": 2931,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "2562734",
+      "name": "Mġarr",
+      "nativeName": "L-Imġarr",
+      "latitude": 36.02528,
+      "longitude": 14.295,
+      "population": 2868,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "2563062",
+      "name": "Gharghur",
+      "nativeName": "Ħal Għargħur",
+      "latitude": 35.92409,
+      "longitude": 14.45118,
+      "population": 2857,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -263,7 +460,7 @@
       "latitude": 35.88777,
       "longitude": 14.51588,
       "population": 2720,
-      "populationRank": 27,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -273,7 +470,27 @@
       "latitude": 35.89157,
       "longitude": 14.51765,
       "population": 2489,
-      "populationRank": 28,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "2562815",
+      "name": "Kirkop",
+      "nativeName": "Ħal Kirkop",
+      "latitude": 35.84233,
+      "longitude": 14.48557,
+      "population": 2397,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "2562598",
+      "name": "Safi",
+      "nativeName": "Ħal Safi",
+      "latitude": 35.83306,
+      "longitude": 14.48486,
+      "population": 2280,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -283,17 +500,116 @@
       "latitude": 35.89583,
       "longitude": 14.50833,
       "population": 2032,
-      "populationRank": 29,
+      "populationRank": 51,
       "isCapital": false
     },
     {
       "id": "2562320",
-      "name": "Ta’ Xbiex",
-      "nativeName": "Ta' Xbiex",
+      "name": "Ta' Xbiex",
       "latitude": 35.89907,
       "longitude": 14.49456,
       "population": 2012,
-      "populationRank": 30,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "2562655",
+      "name": "Qala",
+      "nativeName": "Il-Qala",
+      "latitude": 36.03611,
+      "longitude": 14.30944,
+      "population": 1929,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "2562273",
+      "name": "Xgħajra",
+      "nativeName": "Ix-Xgħajra",
+      "latitude": 35.88556,
+      "longitude": 14.5475,
+      "population": 1830,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "2562260",
+      "name": "Żebbuġ",
+      "nativeName": "Iż-Żebbuġ",
+      "latitude": 36.07187,
+      "longitude": 14.23705,
+      "population": 1770,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "2562693",
+      "name": "Munxar",
+      "nativeName": "Il-Munxar",
+      "latitude": 36.03048,
+      "longitude": 14.23469,
+      "population": 1707,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "2562545",
+      "name": "Sannat",
+      "nativeName": "Ta' Sannat",
+      "latitude": 36.02451,
+      "longitude": 14.24283,
+      "population": 1681,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "2562816",
+      "name": "Kerċem",
+      "nativeName": "Ta' Kerċem",
+      "latitude": 36.04162,
+      "longitude": 14.22694,
+      "population": 1627,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "2563063",
+      "name": "Għarb",
+      "nativeName": "L-Għarb",
+      "latitude": 36.05966,
+      "longitude": 14.20917,
+      "population": 1298,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "2563052",
+      "name": "Għasri",
+      "nativeName": "L-Għasri",
+      "latitude": 36.05778,
+      "longitude": 14.22639,
+      "population": 631,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "2562766",
+      "name": "Manikata",
+      "nativeName": "Il-Manikata",
+      "latitude": 35.94,
+      "longitude": 14.35333,
+      "population": 539,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "2562552",
+      "name": "Saint Lawrence",
+      "nativeName": "San Lawrenz",
+      "latitude": 36.05538,
+      "longitude": 14.20388,
+      "population": 530,
+      "populationRank": 62,
       "isCapital": false
     },
     {
@@ -303,7 +619,26 @@
       "latitude": 35.88636,
       "longitude": 14.40312,
       "population": 193,
-      "populationRank": 31,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "2562753",
+      "name": "Marsalforn",
+      "latitude": 36.07111,
+      "longitude": 14.25861,
+      "population": 168,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "6692380",
+      "name": "Xlendi",
+      "nativeName": "Ix-Xlendi",
+      "latitude": 36.02883,
+      "longitude": 14.21803,
+      "population": 120,
+      "populationRank": 65,
       "isCapital": false
     }
   ]

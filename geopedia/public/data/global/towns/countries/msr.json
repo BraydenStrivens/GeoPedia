@@ -1,21 +1,41 @@
 {
   "towns": [
     {
+      "id": "7266440",
+      "name": "Brades",
+      "latitude": 16.79183,
+      "longitude": -62.21058,
+      "population": 1000,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
+      "id": "13631331",
+      "name": "Lookout",
+      "nativeName": "Look Out",
+      "latitude": 16.79378,
+      "longitude": -62.18364,
+      "population": 600,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3578041",
+      "name": "Saint John's Village",
+      "nativeName": "Saint Johns",
+      "latitude": 16.78215,
+      "longitude": -62.19103,
+      "population": 395,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
       "id": "3578037",
       "name": "Salem",
       "latitude": 16.75095,
       "longitude": -62.22175,
       "population": 277,
-      "populationRank": 1,
-      "isCapital": false
-    },
-    {
-      "id": "3578200",
-      "name": "Brades",
-      "latitude": 16.78441,
-      "longitude": -62.20819,
-      "population": 120,
-      "populationRank": 2,
+      "populationRank": 4,
       "isCapital": false
     }
   ]

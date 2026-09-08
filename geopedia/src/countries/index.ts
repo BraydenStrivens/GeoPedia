@@ -197,14 +197,12 @@ import { sau } from "./data/sau";
 import { sdn } from "./data/sdn";
 import { sen } from "./data/sen";
 import { sgp } from "./data/sgp";
-import { sgs } from "./data/sgs";
 import { shn } from "./data/shn";
 import { slb } from "./data/slb";
 import { sle } from "./data/sle";
 import { slv } from "./data/slv";
 import { smr } from "./data/smr";
 import { som } from "./data/som";
-import { spm } from "./data/spm";
 import { srb } from "./data/srb";
 import { ssd } from "./data/ssd";
 import { stp } from "./data/stp";
@@ -442,14 +440,12 @@ const countries: Partial<Record<string, CountryData>> = {
   sdn,
   sen,
   sgp,
-  sgs,
   shn,
   slb,
   sle,
   slv,
   smr,
   som,
-  spm,
   srb,
   ssd,
   stp,
@@ -515,7 +511,6 @@ export function getCountry(
  */
 export function getCountries(): CountryData[] {
   return Object.values(countries).filter(
-    (country): country is CountryData =>
-      country !== undefined,
+    (country): country is CountryData => country !== undefined,
   );
 }

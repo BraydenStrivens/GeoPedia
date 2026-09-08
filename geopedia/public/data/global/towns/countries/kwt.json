@@ -1,13 +1,23 @@
 {
   "towns": [
     {
+      "id": "285839",
+      "name": "Ahmadi",
+      "nativeName": "الأحمدي",
+      "latitude": 29.07694,
+      "longitude": 48.08389,
+      "population": 637411,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
       "id": "285787",
       "name": "Kuwait City",
       "nativeName": "مدينة الكويت",
       "latitude": 29.367,
       "longitude": 47.97429,
       "population": 60064,
-      "populationRank": 1,
+      "populationRank": 2,
       "isCapital": true
     },
     {
@@ -17,7 +27,26 @@
       "latitude": 29.3375,
       "longitude": 47.65806,
       "population": 24281,
-      "populationRank": 2,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "285760",
+      "name": "Al Wafrah",
+      "latitude": 28.63917,
+      "longitude": 47.93056,
+      "population": 10017,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "11579278",
+      "name": "Abdali",
+      "nativeName": "العبدلي",
+      "latitude": 30.04219,
+      "longitude": 47.72205,
+      "population": 6835,
+      "populationRank": 5,
       "isCapital": false
     },
     {
@@ -27,7 +56,7 @@
       "latitude": 29.19076,
       "longitude": 48.11355,
       "population": 1350,
-      "populationRank": 3,
+      "populationRank": 6,
       "isCapital": false
     }
   ]

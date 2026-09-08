@@ -1,13 +1,71 @@
 {
   "towns": [
     {
+      "id": "3573418",
+      "name": "North Side",
+      "nativeName": "Stoney Ground",
+      "latitude": 18.22919,
+      "longitude": -63.04401,
+      "population": 2592,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
       "id": "3573374",
       "name": "The Valley",
       "latitude": 18.21704,
       "longitude": -63.05783,
       "population": 2035,
-      "populationRank": 1,
+      "populationRank": 2,
       "isCapital": true
+    },
+    {
+      "id": "3573466",
+      "name": "George Hill",
+      "latitude": 18.19939,
+      "longitude": -63.0665,
+      "population": 1135,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3573456",
+      "name": "Island Harbour",
+      "latitude": 18.25601,
+      "longitude": -63.0102,
+      "population": 1114,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3573496",
+      "name": "Blowing Point Village",
+      "nativeName": "Blowing Point",
+      "latitude": 18.17648,
+      "longitude": -63.09375,
+      "population": 942,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3573473",
+      "name": "East End Village",
+      "nativeName": "East End",
+      "latitude": 18.23333,
+      "longitude": -63,
+      "population": 671,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3573407",
+      "name": "Sandy Ground Village",
+      "nativeName": "Sandy Ground",
+      "latitude": 18.20118,
+      "longitude": -63.08998,
+      "population": 274,
+      "populationRank": 7,
+      "isCapital": false
     }
   ]
 }

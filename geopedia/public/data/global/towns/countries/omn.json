@@ -81,13 +81,23 @@
       "isCapital": false
     },
     {
+      "id": "288955",
+      "name": "As Suwaiq",
+      "nativeName": "السويق",
+      "latitude": 23.84944,
+      "longitude": 57.43861,
+      "population": 107143,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
       "id": "286590",
       "name": "Samail",
       "nativeName": "سمائل",
       "latitude": 23.29838,
       "longitude": 57.9531,
       "population": 80538,
-      "populationRank": 9,
+      "populationRank": 10,
       "isCapital": false
     },
     {
@@ -97,7 +107,7 @@
       "latitude": 24.25088,
       "longitude": 55.79312,
       "population": 73670,
-      "populationRank": 10,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -107,7 +117,7 @@
       "latitude": 22.93333,
       "longitude": 57.53333,
       "population": 72076,
-      "populationRank": 11,
+      "populationRank": 12,
       "isCapital": false
     },
     {
@@ -117,7 +127,7 @@
       "latitude": 22.56667,
       "longitude": 59.52889,
       "population": 71152,
-      "populationRank": 12,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -127,7 +137,7 @@
       "latitude": 23.26298,
       "longitude": 58.92014,
       "population": 63133,
-      "populationRank": 13,
+      "populationRank": 14,
       "isCapital": false
     },
     {
@@ -137,7 +147,7 @@
       "latitude": 22.97886,
       "longitude": 57.3047,
       "population": 54338,
-      "populationRank": 14,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -147,7 +157,7 @@
       "latitude": 23.97144,
       "longitude": 57.09313,
       "population": 50223,
-      "populationRank": 15,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -157,7 +167,7 @@
       "latitude": 24.7426,
       "longitude": 56.46698,
       "population": 48009,
-      "populationRank": 16,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -167,7 +177,7 @@
       "latitude": 22.93333,
       "longitude": 57.76667,
       "population": 36203,
-      "populationRank": 17,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -177,7 +187,7 @@
       "latitude": 24.53077,
       "longitude": 56.563,
       "population": 26372,
-      "populationRank": 18,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -187,7 +197,7 @@
       "latitude": 22.69057,
       "longitude": 58.53337,
       "population": 25265,
-      "populationRank": 19,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -197,7 +207,7 @@
       "latitude": 23.40787,
       "longitude": 58.1283,
       "population": 21188,
-      "populationRank": 20,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -207,7 +217,7 @@
       "latitude": 26.17993,
       "longitude": 56.24774,
       "population": 17904,
-      "populationRank": 21,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -217,7 +227,7 @@
       "latitude": 22.37934,
       "longitude": 57.52718,
       "population": 17283,
-      "populationRank": 22,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -227,7 +237,7 @@
       "latitude": 23.58645,
       "longitude": 56.53969,
       "population": 16599,
-      "populationRank": 23,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -237,7 +247,7 @@
       "latitude": 22.571,
       "longitude": 58.69472,
       "population": 14008,
-      "populationRank": 24,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -247,7 +257,7 @@
       "latitude": 25.65056,
       "longitude": 56.26516,
       "population": 9863,
-      "populationRank": 25,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -257,7 +267,7 @@
       "latitude": 25.28357,
       "longitude": 56.33196,
       "population": 3217,
-      "populationRank": 26,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -267,7 +277,17 @@
       "latitude": 25.94205,
       "longitude": 56.42419,
       "population": 2067,
-      "populationRank": 27,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "289162",
+      "name": "Mazum",
+      "nativeName": "المازم",
+      "latitude": 23.40194,
+      "longitude": 56.28306,
+      "population": 1318,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -277,7 +297,17 @@
       "latitude": 19.95931,
       "longitude": 56.27575,
       "population": 1294,
-      "populationRank": 28,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "286143",
+      "name": "Zaghi",
+      "nativeName": "زغي",
+      "latitude": 25.70584,
+      "longitude": 56.27211,
+      "population": 255,
+      "populationRank": 31,
       "isCapital": false
     }
   ]

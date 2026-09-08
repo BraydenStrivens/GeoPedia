@@ -11,7 +11,7 @@
     },
     {
       "id": "2362344",
-      "name": "Bobo-Dioulasso",
+      "name": "Bobo Dioulasso",
       "latitude": 11.18064,
       "longitude": -4.29489,
       "population": 904920,
@@ -83,7 +83,7 @@
     },
     {
       "id": "2360886",
-      "name": "Fada N'gourma",
+      "name": "Fada N'Gourma",
       "latitude": 12.06157,
       "longitude": 0.35843,
       "population": 73200,
@@ -93,7 +93,6 @@
     {
       "id": "2357109",
       "name": "Nioko I",
-      "nativeName": "Nioko-I",
       "latitude": 12.39501,
       "longitude": -1.43861,
       "population": 65263,
@@ -138,8 +137,7 @@
     },
     {
       "id": "2358382",
-      "name": "Leo",
-      "nativeName": "Léo",
+      "name": "Léo",
       "latitude": 11.10033,
       "longitude": -2.10654,
       "population": 51743,
@@ -165,12 +163,31 @@
       "isCapital": false
     },
     {
+      "id": "2355886",
+      "name": "Saonré",
+      "latitude": 12.2751,
+      "longitude": -1.57692,
+      "population": 47728,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
       "id": "2361082",
       "name": "Dori",
       "latitude": 14.03326,
       "longitude": -0.03333,
       "population": 46512,
-      "populationRank": 19,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "2363174",
+      "name": "Aribinda",
+      "nativeName": "Arbinda",
+      "latitude": 14.22963,
+      "longitude": -0.86537,
+      "population": 45818,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -179,7 +196,7 @@
       "latitude": 10.33137,
       "longitude": -3.18202,
       "population": 45284,
-      "populationRank": 20,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -188,7 +205,7 @@
       "latitude": 11.8,
       "longitude": -0.55056,
       "population": 40404,
-      "populationRank": 21,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -197,7 +214,7 @@
       "latitude": 13.20776,
       "longitude": -2.35893,
       "population": 40141,
-      "populationRank": 22,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -206,7 +223,7 @@
       "latitude": 12.9591,
       "longitude": -2.26075,
       "population": 38679,
-      "populationRank": 23,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -216,17 +233,16 @@
       "latitude": 12.24922,
       "longitude": -0.61527,
       "population": 35398,
-      "populationRank": 24,
+      "populationRank": 26,
       "isCapital": false
     },
     {
       "id": "2356228",
-      "name": "Reo",
-      "nativeName": "Réo",
+      "name": "Réo",
       "latitude": 12.31963,
       "longitude": -2.47094,
       "population": 33894,
-      "populationRank": 25,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -235,7 +251,7 @@
       "latitude": 10.98115,
       "longitude": -4.91885,
       "population": 33422,
-      "populationRank": 26,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -244,7 +260,7 @@
       "latitude": 12.58236,
       "longitude": -1.29753,
       "population": 33296,
-      "populationRank": 27,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -253,7 +269,7 @@
       "latitude": 10.28333,
       "longitude": -4.91667,
       "population": 33292,
-      "populationRank": 28,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -262,7 +278,16 @@
       "latitude": 12.72939,
       "longitude": -3.86305,
       "population": 32428,
-      "populationRank": 29,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2362970",
+      "name": "Bama",
+      "latitude": 12.0357,
+      "longitude": -4.3987,
+      "population": 31215,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -272,7 +297,7 @@
       "latitude": 11.25806,
       "longitude": -0.30611,
       "population": 31210,
-      "populationRank": 30,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -281,7 +306,7 @@
       "latitude": 12.06884,
       "longitude": -1.33644,
       "population": 28617,
-      "populationRank": 31,
+      "populationRank": 34,
       "isCapital": false
     },
     {
@@ -290,7 +315,7 @@
       "latitude": 11.66496,
       "longitude": -1.06977,
       "population": 28615,
-      "populationRank": 32,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -299,7 +324,16 @@
       "latitude": 11.16972,
       "longitude": -1.145,
       "population": 28079,
-      "populationRank": 33,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "2361853",
+      "name": "Bourzanga",
+      "latitude": 13.67806,
+      "longitude": -1.54611,
+      "population": 27213,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -308,7 +342,7 @@
       "latitude": 11.64967,
       "longitude": -2.17777,
       "population": 26453,
-      "populationRank": 34,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -317,7 +351,7 @@
       "latitude": 13.07237,
       "longitude": -3.06939,
       "population": 26347,
-      "populationRank": 35,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -326,7 +360,7 @@
       "latitude": 11.55444,
       "longitude": -1.77361,
       "population": 26345,
-      "populationRank": 36,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -335,7 +369,7 @@
       "latitude": 12.19392,
       "longitude": -1.87687,
       "population": 25958,
-      "populationRank": 37,
+      "populationRank": 41,
       "isCapital": false
     },
     {
@@ -344,7 +378,16 @@
       "latitude": 11.1464,
       "longitude": -3.05784,
       "population": 25922,
-      "populationRank": 38,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "2357931",
+      "name": "Mogtédo",
+      "latitude": 12.28444,
+      "longitude": -0.83722,
+      "population": 25699,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -353,7 +396,7 @@
       "latitude": 10.96209,
       "longitude": -3.24967,
       "population": 25688,
-      "populationRank": 39,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -362,7 +405,16 @@
       "latitude": 12.66121,
       "longitude": -1.89515,
       "population": 25022,
-      "populationRank": 40,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "2355404",
+      "name": "Solenzo",
+      "latitude": 12.17423,
+      "longitude": -4.08477,
+      "population": 24783,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -371,7 +423,7 @@
       "latitude": 12.66664,
       "longitude": -0.57469,
       "population": 24200,
-      "populationRank": 41,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -380,7 +432,7 @@
       "latitude": 13.16417,
       "longitude": -0.8225,
       "population": 23420,
-      "populationRank": 42,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -389,7 +441,7 @@
       "latitude": 11.78083,
       "longitude": -0.73389,
       "population": 21894,
-      "populationRank": 43,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -398,7 +450,7 @@
       "latitude": 11.1825,
       "longitude": -0.63222,
       "population": 21726,
-      "populationRank": 44,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -407,7 +459,7 @@
       "latitude": 12.97711,
       "longitude": -0.14661,
       "population": 21443,
-      "populationRank": 45,
+      "populationRank": 51,
       "isCapital": false
     },
     {
@@ -417,7 +469,7 @@
       "latitude": 11.52941,
       "longitude": -2.76797,
       "population": 20434,
-      "populationRank": 46,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -426,7 +478,7 @@
       "latitude": 11.74542,
       "longitude": -2.93006,
       "population": 20193,
-      "populationRank": 47,
+      "populationRank": 53,
       "isCapital": false
     },
     {
@@ -435,7 +487,16 @@
       "latitude": 11.11857,
       "longitude": 0.00993,
       "population": 19815,
-      "populationRank": 48,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "2353332",
+      "name": "Zinguédéssé",
+      "latitude": 12.24661,
+      "longitude": -1.58402,
+      "population": 19648,
+      "populationRank": 55,
       "isCapital": false
     },
     {
@@ -444,7 +505,7 @@
       "latitude": 12.82506,
       "longitude": -1.06737,
       "population": 18875,
-      "populationRank": 49,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -453,7 +514,16 @@
       "latitude": 9.88333,
       "longitude": -2.91667,
       "population": 17997,
-      "populationRank": 50,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "2358898",
+      "name": "Kouka",
+      "latitude": 13.4345,
+      "longitude": -1.61361,
+      "population": 17286,
+      "populationRank": 58,
       "isCapital": false
     },
     {
@@ -462,7 +532,7 @@
       "latitude": 11.69917,
       "longitude": 0.50611,
       "population": 16640,
-      "populationRank": 51,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -471,7 +541,7 @@
       "latitude": 11.92092,
       "longitude": -2.51536,
       "population": 16450,
-      "populationRank": 52,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -480,7 +550,16 @@
       "latitude": 12.4386,
       "longitude": -2.03279,
       "population": 16424,
-      "populationRank": 53,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "12217144",
+      "name": "Namponkoré",
+      "latitude": 11.73748,
+      "longitude": 1.77718,
+      "population": 16423,
+      "populationRank": 62,
       "isCapital": false
     },
     {
@@ -489,7 +568,7 @@
       "latitude": 11.44379,
       "longitude": -2.22548,
       "population": 16026,
-      "populationRank": 54,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -498,7 +577,16 @@
       "latitude": 12.75844,
       "longitude": -2.89879,
       "population": 15851,
-      "populationRank": 55,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "2361373",
+      "name": "Diapaga",
+      "latitude": 12.0729,
+      "longitude": 1.78835,
+      "population": 15515,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -508,7 +596,7 @@
       "latitude": 11.22191,
       "longitude": -4.64423,
       "population": 15474,
-      "populationRank": 56,
+      "populationRank": 66,
       "isCapital": false
     },
     {
@@ -518,7 +606,16 @@
       "latitude": 11.42611,
       "longitude": -0.77278,
       "population": 15336,
-      "populationRank": 57,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "2356765",
+      "name": "Pa",
+      "latitude": 12.66667,
+      "longitude": -3.95,
+      "population": 15170,
+      "populationRank": 68,
       "isCapital": false
     },
     {
@@ -527,7 +624,17 @@
       "latitude": 12.64824,
       "longitude": 0.49314,
       "population": 15170,
-      "populationRank": 58,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "10342754",
+      "name": "Mani",
+      "nativeName": "Manni",
+      "latitude": 13.25833,
+      "longitude": -0.21306,
+      "population": 15066,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -536,7 +643,25 @@
       "latitude": 12.06667,
       "longitude": -2.23333,
       "population": 15060,
-      "populationRank": 59,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "12640344",
+      "name": "Kompienga",
+      "latitude": 11.08169,
+      "longitude": 0.72365,
+      "population": 15024,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "2356738",
+      "name": "Pama",
+      "latitude": 11.24972,
+      "longitude": 0.7075,
+      "population": 13579,
+      "populationRank": 73,
       "isCapital": false
     },
     {
@@ -545,7 +670,7 @@
       "latitude": 11.50202,
       "longitude": 0.05886,
       "population": 13431,
-      "populationRank": 60,
+      "populationRank": 74,
       "isCapital": false
     },
     {
@@ -554,7 +679,7 @@
       "latitude": 13.43641,
       "longitude": 0.53044,
       "population": 11298,
-      "populationRank": 61,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -563,16 +688,16 @@
       "latitude": 12.68662,
       "longitude": -2.19375,
       "population": 10847,
-      "populationRank": 62,
+      "populationRank": 76,
       "isCapital": false
     },
     {
       "id": "2360372",
-      "name": "Gorom-Gorom",
+      "name": "Gorom Gorom",
       "latitude": 14.4429,
       "longitude": -0.23468,
       "population": 9752,
-      "populationRank": 63,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -581,7 +706,16 @@
       "latitude": 9.90238,
       "longitude": -4.3576,
       "population": 9126,
-      "populationRank": 64,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "2356459",
+      "name": "Pitmoaga",
+      "latitude": 12.24564,
+      "longitude": -1.88148,
+      "population": 7991,
+      "populationRank": 79,
       "isCapital": false
     },
     {
@@ -590,7 +724,135 @@
       "latitude": 10.66667,
       "longitude": -5.16667,
       "population": 7053,
-      "populationRank": 65,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "2360286",
+      "name": "Goulouré",
+      "latitude": 12.23484,
+      "longitude": -1.93394,
+      "population": 6677,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "2362781",
+      "name": "Barani",
+      "latitude": 13.1691,
+      "longitude": -3.8899,
+      "population": 5000,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "13545848",
+      "name": "Kiougou Kandaga",
+      "latitude": 11.79258,
+      "longitude": 0.07531,
+      "population": 1732,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "2356032",
+      "name": "Sam",
+      "latitude": 12.08085,
+      "longitude": -2.00415,
+      "population": 1255,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "2357392",
+      "name": "Niaga",
+      "latitude": 11.7,
+      "longitude": -3.15,
+      "population": 835,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "2360511",
+      "name": "Gonna",
+      "latitude": 13.60603,
+      "longitude": -2.86633,
+      "population": 761,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "2355662",
+      "name": "Sièn",
+      "latitude": 12.6926,
+      "longitude": -2.8987,
+      "population": 707,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "2357561",
+      "name": "Nanom",
+      "latitude": 12.1,
+      "longitude": -0.71667,
+      "population": 533,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "2360210",
+      "name": "Gousi",
+      "nativeName": "Kolan",
+      "latitude": 12.6561,
+      "longitude": -2.7953,
+      "population": 516,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "2358653",
+      "name": "Koutiana",
+      "latitude": 9.93333,
+      "longitude": -3.38333,
+      "population": 449,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "2358672",
+      "name": "Koursiéra",
+      "latitude": 9.93333,
+      "longitude": -3.46667,
+      "population": 401,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "12689306",
+      "name": "Wolidouo",
+      "latitude": 9.73471,
+      "longitude": -3.07244,
+      "population": 361,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "2355496",
+      "name": "Sirga",
+      "latitude": 11.09139,
+      "longitude": -0.56181,
+      "population": 360,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "2358744",
+      "name": "Kounti",
+      "nativeName": "Konti",
+      "latitude": 12.6396,
+      "longitude": -2.7984,
+      "population": 345,
+      "populationRank": 94,
       "isCapital": false
     }
   ]

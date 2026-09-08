@@ -480,8 +480,7 @@
     },
     {
       "id": "2726756",
-      "name": "Alingsas",
-      "nativeName": "Alingsås",
+      "name": "Alingsås",
       "latitude": 57.93033,
       "longitude": 12.53345,
       "population": 26329,
@@ -1801,6 +1800,906 @@
       "longitude": 12.80907,
       "population": 5384,
       "populationRank": 200,
+      "isCapital": false
+    },
+    {
+      "id": "2679698",
+      "name": "Sävsjö",
+      "latitude": 57.40327,
+      "longitude": 14.66244,
+      "population": 5374,
+      "populationRank": 201,
+      "isCapital": false
+    },
+    {
+      "id": "2686380",
+      "name": "Orsa",
+      "latitude": 61.12034,
+      "longitude": 14.6155,
+      "population": 5349,
+      "populationRank": 202,
+      "isCapital": false
+    },
+    {
+      "id": "2676586",
+      "name": "Smedjebacken",
+      "latitude": 60.14181,
+      "longitude": 15.41416,
+      "population": 5258,
+      "populationRank": 203,
+      "isCapital": false
+    },
+    {
+      "id": "2686596",
+      "name": "Örkelljunga",
+      "latitude": 56.28338,
+      "longitude": 13.27773,
+      "population": 5193,
+      "populationRank": 204,
+      "isCapital": false
+    },
+    {
+      "id": "2682995",
+      "name": "Rättvik",
+      "latitude": 60.88632,
+      "longitude": 15.11787,
+      "population": 5160,
+      "populationRank": 205,
+      "isCapital": false
+    },
+    {
+      "id": "2723287",
+      "name": "Båstad",
+      "latitude": 56.42689,
+      "longitude": 12.85339,
+      "population": 5146,
+      "populationRank": 206,
+      "isCapital": false
+    },
+    {
+      "id": "2665857",
+      "name": "Vaggeryd",
+      "latitude": 57.49807,
+      "longitude": 14.14842,
+      "population": 5122,
+      "populationRank": 207,
+      "isCapital": false
+    },
+    {
+      "id": "2710343",
+      "name": "Grums",
+      "latitude": 59.35141,
+      "longitude": 13.11105,
+      "population": 5040,
+      "populationRank": 208,
+      "isCapital": false
+    },
+    {
+      "id": "2711526",
+      "name": "Götene",
+      "latitude": 58.52824,
+      "longitude": 13.49458,
+      "population": 5027,
+      "populationRank": 209,
+      "isCapital": false
+    },
+    {
+      "id": "2670710",
+      "name": "Sunne",
+      "latitude": 59.83764,
+      "longitude": 13.14302,
+      "population": 5026,
+      "populationRank": 210,
+      "isCapital": false
+    },
+    {
+      "id": "2691407",
+      "name": "Mönsterås",
+      "latitude": 57.04134,
+      "longitude": 16.44463,
+      "population": 4998,
+      "populationRank": 211,
+      "isCapital": false
+    },
+    {
+      "id": "606834",
+      "name": "Älvsbyn",
+      "latitude": 65.67624,
+      "longitude": 21.00162,
+      "population": 4976,
+      "populationRank": 212,
+      "isCapital": false
+    },
+    {
+      "id": "2692876",
+      "name": "Malung",
+      "latitude": 60.68329,
+      "longitude": 13.71542,
+      "population": 4927,
+      "populationRank": 213,
+      "isCapital": false
+    },
+    {
+      "id": "2709214",
+      "name": "Hagfors",
+      "latitude": 60.02378,
+      "longitude": 13.67214,
+      "population": 4869,
+      "populationRank": 214,
+      "isCapital": false
+    },
+    {
+      "id": "2663540",
+      "name": "Vaxholm",
+      "latitude": 59.40225,
+      "longitude": 18.35317,
+      "population": 4849,
+      "populationRank": 215,
+      "isCapital": false
+    },
+    {
+      "id": "2716281",
+      "name": "Emmaboda",
+      "latitude": 56.63268,
+      "longitude": 15.53648,
+      "population": 4818,
+      "populationRank": 216,
+      "isCapital": false
+    },
+    {
+      "id": "2685699",
+      "name": "Östhammar",
+      "latitude": 60.25909,
+      "longitude": 18.37408,
+      "population": 4726,
+      "populationRank": 217,
+      "isCapital": false
+    },
+    {
+      "id": "2692596",
+      "name": "Markaryd",
+      "latitude": 56.46135,
+      "longitude": 13.59644,
+      "population": 4664,
+      "populationRank": 218,
+      "isCapital": false
+    },
+    {
+      "id": "2725136",
+      "name": "Arvidsjaur",
+      "latitude": 65.59033,
+      "longitude": 19.16682,
+      "population": 4655,
+      "populationRank": 219,
+      "isCapital": false
+    },
+    {
+      "id": "2689452",
+      "name": "Norberg",
+      "latitude": 60.06505,
+      "longitude": 15.92366,
+      "population": 4653,
+      "populationRank": 220,
+      "isCapital": false
+    },
+    {
+      "id": "2668247",
+      "name": "Töreboda",
+      "latitude": 58.70739,
+      "longitude": 14.12597,
+      "population": 4626,
+      "populationRank": 221,
+      "isCapital": false
+    },
+    {
+      "id": "2679855",
+      "name": "Säter",
+      "latitude": 60.34778,
+      "longitude": 15.75051,
+      "population": 4613,
+      "populationRank": 222,
+      "isCapital": false
+    },
+    {
+      "id": "2662830",
+      "name": "Vingåker",
+      "latitude": 59.0433,
+      "longitude": 15.87374,
+      "population": 4548,
+      "populationRank": 223,
+      "isCapital": false
+    },
+    {
+      "id": "2711790",
+      "name": "Gnosjö",
+      "latitude": 57.3585,
+      "longitude": 13.73686,
+      "population": 4528,
+      "populationRank": 224,
+      "isCapital": false
+    },
+    {
+      "id": "2708665",
+      "name": "Hällefors",
+      "latitude": 59.78388,
+      "longitude": 14.52197,
+      "population": 4449,
+      "populationRank": 225,
+      "isCapital": false
+    },
+    {
+      "id": "2667876",
+      "name": "Torsby",
+      "latitude": 60.13527,
+      "longitude": 13.0082,
+      "population": 4419,
+      "populationRank": 226,
+      "isCapital": false
+    },
+    {
+      "id": "2665093",
+      "name": "Vännäs",
+      "latitude": 63.90676,
+      "longitude": 19.75712,
+      "population": 4373,
+      "populationRank": 227,
+      "isCapital": false
+    },
+    {
+      "id": "2720437",
+      "name": "Borgholm",
+      "latitude": 56.8793,
+      "longitude": 16.65634,
+      "population": 4344,
+      "populationRank": 228,
+      "isCapital": false
+    },
+    {
+      "id": "2716863",
+      "name": "Edsbyn",
+      "latitude": 61.37692,
+      "longitude": 15.81747,
+      "population": 4179,
+      "populationRank": 229,
+      "isCapital": false
+    },
+    {
+      "id": "2665018",
+      "name": "Vara",
+      "latitude": 58.26234,
+      "longitude": 12.95413,
+      "population": 4052,
+      "populationRank": 230,
+      "isCapital": false
+    },
+    {
+      "id": "2724778",
+      "name": "Askersund",
+      "latitude": 58.87988,
+      "longitude": 14.9023,
+      "population": 3997,
+      "populationRank": 231,
+      "isCapital": false
+    },
+    {
+      "id": "2704008",
+      "name": "Hyltebruk",
+      "latitude": 56.99892,
+      "longitude": 13.23958,
+      "population": 3992,
+      "populationRank": 232,
+      "isCapital": false
+    },
+    {
+      "id": "2706523",
+      "name": "Herrljunga",
+      "latitude": 58.07739,
+      "longitude": 13.02662,
+      "population": 3982,
+      "populationRank": 233,
+      "isCapital": false
+    },
+    {
+      "id": "2677644",
+      "name": "Skillingaryd",
+      "latitude": 57.43044,
+      "longitude": 14.09383,
+      "population": 3965,
+      "populationRank": 234,
+      "isCapital": false
+    },
+    {
+      "id": "2692633",
+      "name": "Mariefred",
+      "latitude": 59.25963,
+      "longitude": 17.223,
+      "population": 3911,
+      "populationRank": 235,
+      "isCapital": false
+    },
+    {
+      "id": "2690843",
+      "name": "Munkedal",
+      "latitude": 58.46634,
+      "longitude": 11.67345,
+      "population": 3910,
+      "populationRank": 236,
+      "isCapital": false
+    },
+    {
+      "id": "2720689",
+      "name": "Bollebygd",
+      "latitude": 57.66866,
+      "longitude": 12.57272,
+      "population": 3870,
+      "populationRank": 237,
+      "isCapital": false
+    },
+    {
+      "id": "2670542",
+      "name": "Svalöv",
+      "latitude": 55.9134,
+      "longitude": 13.10762,
+      "population": 3852,
+      "populationRank": 238,
+      "isCapital": false
+    },
+    {
+      "id": "2692049",
+      "name": "Mellerud",
+      "latitude": 58.69979,
+      "longitude": 12.45312,
+      "population": 3797,
+      "populationRank": 239,
+      "isCapital": false
+    },
+    {
+      "id": "2700800",
+      "name": "Kisa",
+      "latitude": 57.98781,
+      "longitude": 15.63303,
+      "population": 3776,
+      "populationRank": 240,
+      "isCapital": false
+    },
+    {
+      "id": "2696059",
+      "name": "Lilla Edet",
+      "latitude": 58.13333,
+      "longitude": 12.13333,
+      "population": 3772,
+      "populationRank": 241,
+      "isCapital": false
+    },
+    {
+      "id": "2671221",
+      "name": "Strömsund",
+      "latitude": 63.85206,
+      "longitude": 15.55583,
+      "population": 3690,
+      "populationRank": 242,
+      "isCapital": false
+    },
+    {
+      "id": "2698697",
+      "name": "Kungshamn",
+      "latitude": 58.36305,
+      "longitude": 11.25938,
+      "population": 3657,
+      "populationRank": 243,
+      "isCapital": false
+    },
+    {
+      "id": "2701757",
+      "name": "Karlsborg",
+      "latitude": 58.53724,
+      "longitude": 14.5047,
+      "population": 3624,
+      "populationRank": 244,
+      "isCapital": false
+    },
+    {
+      "id": "2670044",
+      "name": "Svenljunga",
+      "latitude": 57.49551,
+      "longitude": 13.11078,
+      "population": 3592,
+      "populationRank": 245,
+      "isCapital": false
+    },
+    {
+      "id": "2662935",
+      "name": "Vilhelmina",
+      "latitude": 64.62417,
+      "longitude": 16.65596,
+      "population": 3572,
+      "populationRank": 246,
+      "isCapital": false
+    },
+    {
+      "id": "2687509",
+      "name": "Öckerö",
+      "latitude": 57.70814,
+      "longitude": 11.65585,
+      "population": 3568,
+      "populationRank": 247,
+      "isCapital": false
+    },
+    {
+      "id": "2726005",
+      "name": "Aneby",
+      "latitude": 57.83895,
+      "longitude": 14.81016,
+      "population": 3496,
+      "populationRank": 248,
+      "isCapital": false
+    },
+    {
+      "id": "2678129",
+      "name": "Skärhamn",
+      "latitude": 57.98665,
+      "longitude": 11.55742,
+      "population": 3495,
+      "populationRank": 249,
+      "isCapital": false
+    },
+    {
+      "id": "2678266",
+      "name": "Skänninge",
+      "latitude": 58.39427,
+      "longitude": 15.08659,
+      "population": 3358,
+      "populationRank": 250,
+      "isCapital": false
+    },
+    {
+      "id": "2725379",
+      "name": "Årjäng",
+      "latitude": 59.39217,
+      "longitude": 12.13336,
+      "population": 3302,
+      "populationRank": 251,
+      "isCapital": false
+    },
+    {
+      "id": "2720037",
+      "name": "Boxholm",
+      "latitude": 58.19719,
+      "longitude": 15.05376,
+      "population": 3269,
+      "populationRank": 252,
+      "isCapital": false
+    },
+    {
+      "id": "2667599",
+      "name": "Tranemo",
+      "latitude": 57.48333,
+      "longitude": 13.35,
+      "population": 3224,
+      "populationRank": 253,
+      "isCapital": false
+    },
+    {
+      "id": "2696804",
+      "name": "Laxå",
+      "latitude": 58.9863,
+      "longitude": 14.61904,
+      "population": 3125,
+      "populationRank": 254,
+      "isCapital": false
+    },
+    {
+      "id": "2723079",
+      "name": "Bengtsfors",
+      "latitude": 59.02912,
+      "longitude": 12.23207,
+      "population": 3125,
+      "populationRank": 255,
+      "isCapital": false
+    },
+    {
+      "id": "2719212",
+      "name": "Broby",
+      "latitude": 56.25521,
+      "longitude": 14.07797,
+      "population": 3104,
+      "populationRank": 256,
+      "isCapital": false
+    },
+    {
+      "id": "2669019",
+      "name": "Tingsryd",
+      "latitude": 56.5247,
+      "longitude": 14.97902,
+      "population": 3087,
+      "populationRank": 257,
+      "isCapital": false
+    },
+    {
+      "id": "2699768",
+      "name": "Kopparberg",
+      "latitude": 59.87597,
+      "longitude": 14.99436,
+      "population": 3065,
+      "populationRank": 258,
+      "isCapital": false
+    },
+    {
+      "id": "2716968",
+      "name": "Ed",
+      "latitude": 58.91247,
+      "longitude": 11.93308,
+      "population": 2994,
+      "populationRank": 259,
+      "isCapital": false
+    },
+    {
+      "id": "2710885",
+      "name": "Grästorp",
+      "latitude": 58.33219,
+      "longitude": 12.68122,
+      "population": 2946,
+      "populationRank": 260,
+      "isCapital": false
+    },
+    {
+      "id": "2725924",
+      "name": "Ånge",
+      "latitude": 62.52495,
+      "longitude": 15.65904,
+      "population": 2889,
+      "populationRank": 261,
+      "isCapital": false
+    },
+    {
+      "id": "2687517",
+      "name": "Ockelbo",
+      "latitude": 60.8912,
+      "longitude": 16.71846,
+      "population": 2875,
+      "populationRank": 262,
+      "isCapital": false
+    },
+    {
+      "id": "2696473",
+      "name": "Lessebo",
+      "latitude": 56.75185,
+      "longitude": 15.26969,
+      "population": 2857,
+      "populationRank": 263,
+      "isCapital": false
+    },
+    {
+      "id": "2665708",
+      "name": "Vålberg",
+      "latitude": 59.39145,
+      "longitude": 13.18633,
+      "population": 2848,
+      "populationRank": 264,
+      "isCapital": false
+    },
+    {
+      "id": "2690829",
+      "name": "Munkfors",
+      "latitude": 59.83856,
+      "longitude": 13.54361,
+      "population": 2834,
+      "populationRank": 265,
+      "isCapital": false
+    },
+    {
+      "id": "2702997",
+      "name": "Jokkmokk",
+      "latitude": 66.60665,
+      "longitude": 19.82324,
+      "population": 2794,
+      "populationRank": 266,
+      "isCapital": false
+    },
+    {
+      "id": "2711174",
+      "name": "Gränna",
+      "latitude": 58.01667,
+      "longitude": 14.46667,
+      "population": 2726,
+      "populationRank": 267,
+      "isCapital": false
+    },
+    {
+      "id": "2707057",
+      "name": "Heby",
+      "latitude": 59.93815,
+      "longitude": 16.86217,
+      "population": 2724,
+      "populationRank": 268,
+      "isCapital": false
+    },
+    {
+      "id": "2717842",
+      "name": "Deje",
+      "latitude": 59.603,
+      "longitude": 13.472,
+      "population": 2702,
+      "populationRank": 269,
+      "isCapital": false
+    },
+    {
+      "id": "2665675",
+      "name": "Valdemarsvik",
+      "latitude": 58.2031,
+      "longitude": 16.60225,
+      "population": 2685,
+      "populationRank": 270,
+      "isCapital": false
+    },
+    {
+      "id": "2689336",
+      "name": "Nordmaling",
+      "latitude": 63.56852,
+      "longitude": 19.50244,
+      "population": 2671,
+      "populationRank": 271,
+      "isCapital": false
+    },
+    {
+      "id": "2724962",
+      "name": "Åseda",
+      "latitude": 57.1701,
+      "longitude": 15.3443,
+      "population": 2557,
+      "populationRank": 272,
+      "isCapital": false
+    },
+    {
+      "id": "2687420",
+      "name": "Ödeshög",
+      "latitude": 58.22949,
+      "longitude": 14.65294,
+      "population": 2554,
+      "populationRank": 273,
+      "isCapital": false
+    },
+    {
+      "id": "2670061",
+      "name": "Sveg",
+      "latitude": 62.03407,
+      "longitude": 14.36577,
+      "population": 2543,
+      "populationRank": 274,
+      "isCapital": false
+    },
+    {
+      "id": "2662851",
+      "name": "Vindeln",
+      "latitude": 64.20175,
+      "longitude": 19.71945,
+      "population": 2403,
+      "populationRank": 275,
+      "isCapital": false
+    },
+    {
+      "id": "2677593",
+      "name": "Skinnskatteberg",
+      "latitude": 59.83028,
+      "longitude": 15.69337,
+      "population": 2383,
+      "populationRank": 276,
+      "isCapital": false
+    },
+    {
+      "id": "2718393",
+      "name": "Charlottenberg",
+      "latitude": 59.88422,
+      "longitude": 12.30398,
+      "population": 2368,
+      "populationRank": 277,
+      "isCapital": false
+    },
+    {
+      "id": "2706619",
+      "name": "Henån",
+      "latitude": 58.23848,
+      "longitude": 11.67598,
+      "population": 2243,
+      "populationRank": 278,
+      "isCapital": false
+    },
+    {
+      "id": "2672053",
+      "name": "Storfors",
+      "latitude": 59.53183,
+      "longitude": 14.27201,
+      "population": 2218,
+      "populationRank": 279,
+      "isCapital": false
+    },
+    {
+      "id": "2671530",
+      "name": "Storuman",
+      "latitude": 65.0959,
+      "longitude": 17.11731,
+      "population": 2188,
+      "populationRank": 280,
+      "isCapital": false
+    },
+    {
+      "id": "2714618",
+      "name": "Fjugesta",
+      "latitude": 59.17375,
+      "longitude": 14.87227,
+      "population": 2160,
+      "populationRank": 281,
+      "isCapital": false
+    },
+    {
+      "id": "2717558",
+      "name": "Djurås",
+      "latitude": 60.56061,
+      "longitude": 15.13281,
+      "population": 2128,
+      "populationRank": 282,
+      "isCapital": false
+    },
+    {
+      "id": "2688172",
+      "name": "Norsjö",
+      "latitude": 64.91206,
+      "longitude": 19.48153,
+      "population": 2057,
+      "populationRank": 283,
+      "isCapital": false
+    },
+    {
+      "id": "2693152",
+      "name": "Malå",
+      "latitude": 65.18501,
+      "longitude": 18.74243,
+      "population": 2043,
+      "populationRank": 284,
+      "isCapital": false
+    },
+    {
+      "id": "2665063",
+      "name": "Vansbro",
+      "latitude": 60.50893,
+      "longitude": 14.22458,
+      "population": 2042,
+      "populationRank": 285,
+      "isCapital": false
+    },
+    {
+      "id": "603761",
+      "name": "Pajala",
+      "latitude": 67.21284,
+      "longitude": 23.36607,
+      "population": 2032,
+      "populationRank": 286,
+      "isCapital": false
+    },
+    {
+      "id": "603303",
+      "name": "Robertsfors",
+      "latitude": 64.19324,
+      "longitude": 20.84806,
+      "population": 2030,
+      "populationRank": 287,
+      "isCapital": false
+    },
+    {
+      "id": "2667904",
+      "name": "Torsås",
+      "latitude": 56.41251,
+      "longitude": 15.99844,
+      "population": 2000,
+      "populationRank": 288,
+      "isCapital": false
+    },
+    {
+      "id": "2694165",
+      "name": "Lönsboda",
+      "latitude": 56.4,
+      "longitude": 14.31667,
+      "population": 1986,
+      "populationRank": 289,
+      "isCapital": false
+    },
+    {
+      "id": "2715351",
+      "name": "Färgelanda",
+      "latitude": 58.56816,
+      "longitude": 11.99235,
+      "population": 1986,
+      "populationRank": 290,
+      "isCapital": false
+    },
+    {
+      "id": "2677869",
+      "name": "Skattkärr",
+      "latitude": 59.41208,
+      "longitude": 13.67078,
+      "population": 1979,
+      "populationRank": 291,
+      "isCapital": false
+    },
+    {
+      "id": "2699176",
+      "name": "Krokom",
+      "latitude": 63.32589,
+      "longitude": 14.44883,
+      "population": 1953,
+      "populationRank": 292,
+      "isCapital": false
+    },
+    {
+      "id": "2670478",
+      "name": "Svanesund",
+      "latitude": 58.14292,
+      "longitude": 11.81821,
+      "population": 1946,
+      "populationRank": 293,
+      "isCapital": false
+    },
+    {
+      "id": "2705718",
+      "name": "Högsby",
+      "latitude": 57.16597,
+      "longitude": 16.02562,
+      "population": 1923,
+      "populationRank": 294,
+      "isCapital": false
+    },
+    {
+      "id": "603814",
+      "name": "Övertorneå",
+      "latitude": 66.38778,
+      "longitude": 23.65425,
+      "population": 1906,
+      "populationRank": 295,
+      "isCapital": false
+    },
+    {
+      "id": "2688131",
+      "name": "Nossebro",
+      "latitude": 58.18808,
+      "longitude": 12.71599,
+      "population": 1884,
+      "populationRank": 296,
+      "isCapital": false
+    },
+    {
+      "id": "2726332",
+      "name": "Älvdalen",
+      "latitude": 61.22774,
+      "longitude": 14.03935,
+      "population": 1863,
+      "populationRank": 297,
+      "isCapital": false
+    },
+    {
+      "id": "2691348",
+      "name": "Mörbylånga",
+      "latitude": 56.5248,
+      "longitude": 16.37877,
+      "population": 1824,
+      "populationRank": 298,
+      "isCapital": false
+    },
+    {
+      "id": "2725372",
+      "name": "Arjeplog",
+      "latitude": 66.05173,
+      "longitude": 17.88606,
+      "population": 1822,
+      "populationRank": 299,
+      "isCapital": false
+    },
+    {
+      "id": "2669415",
+      "name": "Tanumshede",
+      "latitude": 58.72385,
+      "longitude": 11.32587,
+      "population": 1774,
+      "populationRank": 300,
       "isCapital": false
     }
   ]

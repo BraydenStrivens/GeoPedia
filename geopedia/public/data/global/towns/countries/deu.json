@@ -50,8 +50,7 @@
     },
     {
       "id": "2934246",
-      "name": "Dusseldorf",
-      "nativeName": "Düsseldorf",
+      "name": "Düsseldorf",
       "latitude": 51.22319,
       "longitude": 6.77927,
       "population": 618685,
@@ -768,8 +767,7 @@
     },
     {
       "id": "2934486",
-      "name": "Duren",
-      "nativeName": "Düren",
+      "name": "Düren",
       "latitude": 50.80434,
       "longitude": 6.49299,
       "population": 93440,
@@ -926,7 +924,7 @@
     },
     {
       "id": "2817220",
-      "name": "Villingen-Schwenningen",
+      "name": "Villingen Schwenningen",
       "latitude": 48.06226,
       "longitude": 8.49358,
       "population": 81770,
@@ -991,7 +989,7 @@
     },
     {
       "id": "2940231",
-      "name": "Castrop-Rauxel",
+      "name": "Castrop Rauxel",
       "latitude": 51.55657,
       "longitude": 7.31155,
       "population": 77924,
@@ -1424,7 +1422,7 @@
     },
     {
       "id": "2953504",
-      "name": "Baden-Baden",
+      "name": "Baden Baden",
       "latitude": 48.7606,
       "longitude": 8.23975,
       "population": 56881,
@@ -1650,7 +1648,7 @@
     },
     {
       "id": "2863941",
-      "name": "Neu-Ulm",
+      "name": "Neu Ulm",
       "latitude": 48.39279,
       "longitude": 10.01112,
       "population": 51389,
@@ -1821,6 +1819,917 @@
       "longitude": 6.99089,
       "population": 48523,
       "populationRank": 200,
+      "isCapital": false
+    },
+    {
+      "id": "2831708",
+      "name": "Soest",
+      "latitude": 51.57558,
+      "longitude": 8.10619,
+      "population": 48037,
+      "populationRank": 201,
+      "isCapital": false
+    },
+    {
+      "id": "2906376",
+      "name": "Hennef",
+      "latitude": 50.77555,
+      "longitude": 7.28308,
+      "population": 48002,
+      "populationRank": 202,
+      "isCapital": false
+    },
+    {
+      "id": "2850257",
+      "name": "Rastatt",
+      "latitude": 48.85851,
+      "longitude": 8.20965,
+      "population": 47906,
+      "populationRank": 203,
+      "isCapital": false
+    },
+    {
+      "id": "2929600",
+      "name": "Erkrath",
+      "latitude": 51.22235,
+      "longitude": 6.90831,
+      "population": 47815,
+      "populationRank": 204,
+      "isCapital": false
+    },
+    {
+      "id": "2943560",
+      "name": "Bruchsal",
+      "latitude": 49.12426,
+      "longitude": 8.59804,
+      "population": 47784,
+      "populationRank": 205,
+      "isCapital": false
+    },
+    {
+      "id": "2831924",
+      "name": "Singen",
+      "nativeName": "Singen (Hohentwiel)",
+      "latitude": 47.75935,
+      "longitude": 8.8403,
+      "population": 47621,
+      "populationRank": 206,
+      "isCapital": false
+    },
+    {
+      "id": "2934662",
+      "name": "Dülmen",
+      "latitude": 51.83149,
+      "longitude": 7.28075,
+      "population": 47495,
+      "populationRank": 207,
+      "isCapital": false
+    },
+    {
+      "id": "2925550",
+      "name": "Frankenthal",
+      "nativeName": "Frankenthal (Pfalz)",
+      "latitude": 49.53414,
+      "longitude": 8.35357,
+      "population": 47438,
+      "populationRank": 208,
+      "isCapital": false
+    },
+    {
+      "id": "2905455",
+      "name": "Herzogenrath",
+      "latitude": 50.86874,
+      "longitude": 6.09317,
+      "population": 47381,
+      "populationRank": 209,
+      "isCapital": false
+    },
+    {
+      "id": "2875881",
+      "name": "Lörrach",
+      "latitude": 47.61497,
+      "longitude": 7.66457,
+      "population": 47002,
+      "populationRank": 210,
+      "isCapital": false
+    },
+    {
+      "id": "2858738",
+      "name": "Oberursel",
+      "nativeName": "Oberursel (Taunus)",
+      "latitude": 50.20731,
+      "longitude": 8.57747,
+      "population": 46736,
+      "populationRank": 211,
+      "isCapital": false
+    },
+    {
+      "id": "2918752",
+      "name": "Gotha",
+      "latitude": 50.94823,
+      "longitude": 10.70193,
+      "population": 46615,
+      "populationRank": 212,
+      "isCapital": false
+    },
+    {
+      "id": "2872079",
+      "name": "Melle",
+      "latitude": 52.20197,
+      "longitude": 8.33826,
+      "population": 46436,
+      "populationRank": 213,
+      "isCapital": false
+    },
+    {
+      "id": "2941694",
+      "name": "Bünde",
+      "latitude": 52.19837,
+      "longitude": 8.58644,
+      "population": 46365,
+      "populationRank": 214,
+      "isCapital": false
+    },
+    {
+      "id": "2958141",
+      "name": "Alsdorf",
+      "latitude": 50.87673,
+      "longitude": 6.16399,
+      "population": 46340,
+      "populationRank": 215,
+      "isCapital": false
+    },
+    {
+      "id": "2947444",
+      "name": "Böblingen",
+      "latitude": 48.68212,
+      "longitude": 9.01171,
+      "population": 46282,
+      "populationRank": 216,
+      "isCapital": false
+    },
+    {
+      "id": "2847690",
+      "name": "Rheda Wiedenbrück",
+      "latitude": 51.84967,
+      "longitude": 8.30017,
+      "population": 46123,
+      "populationRank": 217,
+      "isCapital": false
+    },
+    {
+      "id": "2893438",
+      "name": "Kamen",
+      "latitude": 51.59231,
+      "longitude": 7.6638,
+      "population": 45927,
+      "populationRank": 218,
+      "isCapital": false
+    },
+    {
+      "id": "2829901",
+      "name": "Hansestadt Stade",
+      "nativeName": "Stade",
+      "latitude": 53.59407,
+      "longitude": 9.47302,
+      "population": 45634,
+      "populationRank": 219,
+      "isCapital": false
+    },
+    {
+      "id": "2807465",
+      "name": "Wismar",
+      "latitude": 53.89218,
+      "longitude": 11.45563,
+      "population": 45255,
+      "populationRank": 220,
+      "isCapital": false
+    },
+    {
+      "id": "2956656",
+      "name": "Amberg",
+      "latitude": 49.44287,
+      "longitude": 11.86267,
+      "population": 44737,
+      "populationRank": 221,
+      "isCapital": false
+    },
+    {
+      "id": "2864058",
+      "name": "Neustadt am Rübenberge",
+      "latitude": 52.50462,
+      "longitude": 9.45871,
+      "population": 44668,
+      "populationRank": 222,
+      "isCapital": false
+    },
+    {
+      "id": "2929622",
+      "name": "Erkelenz",
+      "latitude": 51.07947,
+      "longitude": 6.31531,
+      "population": 44650,
+      "populationRank": 223,
+      "isCapital": false
+    },
+    {
+      "id": "2899449",
+      "name": "Homburg",
+      "latitude": 49.32637,
+      "longitude": 7.33867,
+      "population": 44607,
+      "populationRank": 224,
+      "isCapital": false
+    },
+    {
+      "id": "2826099",
+      "name": "Straubing",
+      "latitude": 48.88126,
+      "longitude": 12.57385,
+      "population": 44580,
+      "populationRank": 225,
+      "isCapital": false
+    },
+    {
+      "id": "2871992",
+      "name": "Memmingen",
+      "latitude": 47.98372,
+      "longitude": 10.18527,
+      "population": 44192,
+      "populationRank": 226,
+      "isCapital": false
+    },
+    {
+      "id": "2943320",
+      "name": "Brühl",
+      "latitude": 50.82928,
+      "longitude": 6.90499,
+      "population": 44137,
+      "populationRank": 227,
+      "isCapital": false
+    },
+    {
+      "id": "2927268",
+      "name": "Fellbach",
+      "latitude": 48.80912,
+      "longitude": 9.27697,
+      "population": 43935,
+      "populationRank": 228,
+      "isCapital": false
+    },
+    {
+      "id": "2879367",
+      "name": "Lehrte",
+      "latitude": 52.37193,
+      "longitude": 9.97919,
+      "population": 43920,
+      "populationRank": 229,
+      "isCapital": false
+    },
+    {
+      "id": "2861982",
+      "name": "Nordhausen",
+      "latitude": 51.5018,
+      "longitude": 10.7957,
+      "population": 43912,
+      "populationRank": 230,
+      "isCapital": false
+    },
+    {
+      "id": "2925192",
+      "name": "Freiberg",
+      "latitude": 50.91089,
+      "longitude": 13.33881,
+      "population": 43670,
+      "populationRank": 231,
+      "isCapital": false
+    },
+    {
+      "id": "2853574",
+      "name": "Pirmasens",
+      "latitude": 49.20145,
+      "longitude": 7.60529,
+      "population": 43582,
+      "populationRank": 232,
+      "isCapital": false
+    },
+    {
+      "id": "2918840",
+      "name": "Goslar",
+      "latitude": 51.90425,
+      "longitude": 10.42766,
+      "population": 43560,
+      "populationRank": 233,
+      "isCapital": false
+    },
+    {
+      "id": "2949012",
+      "name": "Bietigheim Bissingen",
+      "latitude": 48.94407,
+      "longitude": 9.11755,
+      "population": 43556,
+      "populationRank": 234,
+      "isCapital": false
+    },
+    {
+      "id": "2824948",
+      "name": "Suhl",
+      "latitude": 50.60911,
+      "longitude": 10.69401,
+      "population": 43509,
+      "populationRank": 235,
+      "isCapital": false
+    },
+    {
+      "id": "2812174",
+      "name": "Weinheim",
+      "latitude": 49.54887,
+      "longitude": 8.66697,
+      "population": 43325,
+      "populationRank": 236,
+      "isCapital": false
+    },
+    {
+      "id": "3336893",
+      "name": "Rodgau",
+      "latitude": 50.02627,
+      "longitude": 8.88588,
+      "population": 43315,
+      "populationRank": 237,
+      "isCapital": false
+    },
+    {
+      "id": "2953416",
+      "name": "Bad Kreuznach",
+      "latitude": 49.8414,
+      "longitude": 7.86713,
+      "population": 43213,
+      "populationRank": 238,
+      "isCapital": false
+    },
+    {
+      "id": "2869791",
+      "name": "Monheim am Rhein",
+      "latitude": 51.09162,
+      "longitude": 6.89217,
+      "population": 43038,
+      "populationRank": 239,
+      "isCapital": false
+    },
+    {
+      "id": "2920478",
+      "name": "Gifhorn",
+      "latitude": 52.47774,
+      "longitude": 10.5511,
+      "population": 43000,
+      "populationRank": 240,
+      "isCapital": false
+    },
+    {
+      "id": "2843729",
+      "name": "Rottenburg",
+      "nativeName": "Rottenburg am Neckar",
+      "latitude": 48.47629,
+      "longitude": 8.93528,
+      "population": 42721,
+      "populationRank": 241,
+      "isCapital": false
+    },
+    {
+      "id": "2925034",
+      "name": "Freising",
+      "latitude": 48.40351,
+      "longitude": 11.74876,
+      "population": 42570,
+      "populationRank": 242,
+      "isCapital": false
+    },
+    {
+      "id": "2813040",
+      "name": "Weiden",
+      "nativeName": "Weiden in der Oberpfalz",
+      "latitude": 49.67682,
+      "longitude": 12.15613,
+      "population": 42550,
+      "populationRank": 243,
+      "isCapital": false
+    },
+    {
+      "id": "2892080",
+      "name": "Kaufbeuren",
+      "latitude": 47.88238,
+      "longitude": 10.62192,
+      "population": 42505,
+      "populationRank": 244,
+      "isCapital": false
+    },
+    {
+      "id": "2894375",
+      "name": "Kaarst",
+      "latitude": 51.22929,
+      "longitude": 6.61883,
+      "population": 42112,
+      "populationRank": 245,
+      "isCapital": false
+    },
+    {
+      "id": "2933882",
+      "name": "Eberswalde",
+      "latitude": 52.83492,
+      "longitude": 13.81951,
+      "population": 41980,
+      "populationRank": 246,
+      "isCapital": false
+    },
+    {
+      "id": "2951881",
+      "name": "Bautzen",
+      "nativeName": "Bautzen - Budyšin",
+      "latitude": 51.18035,
+      "longitude": 14.43494,
+      "population": 41972,
+      "populationRank": 247,
+      "isCapital": false
+    },
+    {
+      "id": "2878943",
+      "name": "Lemgo",
+      "latitude": 52.02786,
+      "longitude": 8.89901,
+      "population": 41943,
+      "populationRank": 248,
+      "isCapital": false
+    },
+    {
+      "id": "2939951",
+      "name": "Coburg",
+      "latitude": 50.25937,
+      "longitude": 10.96384,
+      "population": 41901,
+      "populationRank": 249,
+      "isCapital": false
+    },
+    {
+      "id": "2882087",
+      "name": "Laatzen",
+      "latitude": 52.31506,
+      "longitude": 9.79739,
+      "population": 41838,
+      "populationRank": 250,
+      "isCapital": false
+    },
+    {
+      "id": "2935220",
+      "name": "Dreieich",
+      "nativeName": "Sprendlingen",
+      "latitude": 50.01997,
+      "longitude": 8.69611,
+      "population": 41692,
+      "populationRank": 251,
+      "isCapital": false
+    },
+    {
+      "id": "2836320",
+      "name": "Schorndorf",
+      "latitude": 48.80537,
+      "longitude": 9.52721,
+      "population": 41647,
+      "populationRank": 252,
+      "isCapital": false
+    },
+    {
+      "id": "2881646",
+      "name": "Landau in der Pfalz",
+      "latitude": 49.19844,
+      "longitude": 8.11692,
+      "population": 41612,
+      "populationRank": 253,
+      "isCapital": false
+    },
+    {
+      "id": "2907201",
+      "name": "Heinsberg",
+      "latitude": 51.06358,
+      "longitude": 6.0998,
+      "population": 41505,
+      "populationRank": 254,
+      "isCapital": false
+    },
+    {
+      "id": "2805761",
+      "name": "Wunstorf",
+      "latitude": 52.42377,
+      "longitude": 9.43585,
+      "population": 41211,
+      "populationRank": 255,
+      "isCapital": false
+    },
+    {
+      "id": "2885734",
+      "name": "Königswinter",
+      "latitude": 50.67734,
+      "longitude": 7.19245,
+      "population": 41164,
+      "populationRank": 256,
+      "isCapital": false
+    },
+    {
+      "id": "2950978",
+      "name": "Bensheim",
+      "latitude": 49.68369,
+      "longitude": 8.61839,
+      "population": 41124,
+      "populationRank": 257,
+      "isCapital": false
+    },
+    {
+      "id": "2816630",
+      "name": "Völklingen",
+      "latitude": 49.25162,
+      "longitude": 6.85873,
+      "population": 40952,
+      "populationRank": 258,
+      "isCapital": false
+    },
+    {
+      "id": "2921039",
+      "name": "Germering",
+      "latitude": 48.13392,
+      "longitude": 11.3765,
+      "population": 40916,
+      "populationRank": 259,
+      "isCapital": false
+    },
+    {
+      "id": "2946228",
+      "name": "Borken",
+      "latitude": 51.84382,
+      "longitude": 6.85774,
+      "population": 40876,
+      "populationRank": 260,
+      "isCapital": false
+    },
+    {
+      "id": "2942323",
+      "name": "Buchholz in der Nordheide",
+      "latitude": 53.33038,
+      "longitude": 9.86596,
+      "population": 40849,
+      "populationRank": 261,
+      "isCapital": false
+    },
+    {
+      "id": "2857129",
+      "name": "Oranienburg",
+      "latitude": 52.748,
+      "longitude": 13.25194,
+      "population": 40793,
+      "populationRank": 262,
+      "isCapital": false
+    },
+    {
+      "id": "2931574",
+      "name": "Eisenach",
+      "latitude": 50.9807,
+      "longitude": 10.31522,
+      "population": 40747,
+      "populationRank": 263,
+      "isCapital": false
+    },
+    {
+      "id": "2853658",
+      "name": "Pinneberg",
+      "latitude": 53.65887,
+      "longitude": 9.79698,
+      "population": 40577,
+      "populationRank": 264,
+      "isCapital": false
+    },
+    {
+      "id": "2853572",
+      "name": "Pirna",
+      "latitude": 50.95843,
+      "longitude": 13.93702,
+      "population": 40322,
+      "populationRank": 265,
+      "isCapital": false
+    },
+    {
+      "id": "2954006",
+      "name": "Aurich",
+      "latitude": 53.46963,
+      "longitude": 7.48239,
+      "population": 40319,
+      "populationRank": 266,
+      "isCapital": false
+    },
+    {
+      "id": "2861632",
+      "name": "Nürtingen",
+      "latitude": 48.62565,
+      "longitude": 9.34203,
+      "population": 40210,
+      "populationRank": 267,
+      "isCapital": false
+    },
+    {
+      "id": "2890473",
+      "name": "Kirchheim unter Teck",
+      "latitude": 48.64683,
+      "longitude": 9.45378,
+      "population": 40206,
+      "populationRank": 268,
+      "isCapital": false
+    },
+    {
+      "id": "2898111",
+      "name": "Hückelhoven",
+      "latitude": 51.0555,
+      "longitude": 6.22658,
+      "population": 39828,
+      "populationRank": 269,
+      "isCapital": false
+    },
+    {
+      "id": "2939623",
+      "name": "Dachau",
+      "latitude": 48.26,
+      "longitude": 11.43402,
+      "population": 39740,
+      "populationRank": 270,
+      "isCapital": false
+    },
+    {
+      "id": "2911665",
+      "name": "Halberstadt",
+      "latitude": 51.89562,
+      "longitude": 11.05622,
+      "population": 39729,
+      "populationRank": 271,
+      "isCapital": false
+    },
+    {
+      "id": "2891951",
+      "name": "Kehl",
+      "latitude": 48.57297,
+      "longitude": 7.81523,
+      "population": 39584,
+      "populationRank": 272,
+      "isCapital": false
+    },
+    {
+      "id": "2864549",
+      "name": "Neumarkt in der Oberpfalz",
+      "latitude": 49.28028,
+      "longitude": 11.46278,
+      "population": 39557,
+      "populationRank": 273,
+      "isCapital": false
+    },
+    {
+      "id": "2871535",
+      "name": "Mettmann",
+      "latitude": 51.2504,
+      "longitude": 6.97536,
+      "population": 39550,
+      "populationRank": 274,
+      "isCapital": false
+    },
+    {
+      "id": "2876187",
+      "name": "Löhne",
+      "latitude": 52.18848,
+      "longitude": 8.6922,
+      "population": 39521,
+      "populationRank": 275,
+      "isCapital": false
+    },
+    {
+      "id": "2893264",
+      "name": "Kamp Lintfort",
+      "latitude": 51.50467,
+      "longitude": 6.54587,
+      "population": 39490,
+      "populationRank": 276,
+      "isCapital": false
+    },
+    {
+      "id": "2925017",
+      "name": "Freital",
+      "latitude": 51.00166,
+      "longitude": 13.6488,
+      "population": 39281,
+      "populationRank": 277,
+      "isCapital": false
+    },
+    {
+      "id": "2832521",
+      "name": "Siegburg",
+      "latitude": 50.80019,
+      "longitude": 7.20769,
+      "population": 39135,
+      "populationRank": 278,
+      "isCapital": false
+    },
+    {
+      "id": "2896514",
+      "name": "Ilmenau",
+      "latitude": 50.68322,
+      "longitude": 10.91858,
+      "population": 38834,
+      "populationRank": 279,
+      "isCapital": false
+    },
+    {
+      "id": "2953568",
+      "name": "Backnang",
+      "latitude": 48.94743,
+      "longitude": 9.43718,
+      "population": 38818,
+      "populationRank": 280,
+      "isCapital": false
+    },
+    {
+      "id": "2881279",
+      "name": "Langen",
+      "nativeName": "Langen (Hessen)",
+      "latitude": 49.98955,
+      "longitude": 8.66852,
+      "population": 38785,
+      "populationRank": 281,
+      "isCapital": false
+    },
+    {
+      "id": "2814127",
+      "name": "Warendorf",
+      "latitude": 51.95109,
+      "longitude": 7.98756,
+      "population": 38707,
+      "populationRank": 282,
+      "isCapital": false
+    },
+    {
+      "id": "2841590",
+      "name": "Sankt Ingbert",
+      "nativeName": "St. Ingbert",
+      "latitude": 49.27697,
+      "longitude": 7.11672,
+      "population": 38697,
+      "populationRank": 283,
+      "isCapital": false
+    },
+    {
+      "id": "2928615",
+      "name": "Ettlingen",
+      "latitude": 48.94094,
+      "longitude": 8.40763,
+      "population": 38578,
+      "populationRank": 284,
+      "isCapital": false
+    },
+    {
+      "id": "2957773",
+      "name": "Altenburg",
+      "latitude": 50.98763,
+      "longitude": 12.43684,
+      "population": 38568,
+      "populationRank": 285,
+      "isCapital": false
+    },
+    {
+      "id": "2835537",
+      "name": "Schwabach",
+      "latitude": 49.33047,
+      "longitude": 11.02346,
+      "population": 38554,
+      "populationRank": 286,
+      "isCapital": false
+    },
+    {
+      "id": "2842632",
+      "name": "Saarlouis",
+      "latitude": 49.31366,
+      "longitude": 6.75154,
+      "population": 38333,
+      "populationRank": 287,
+      "isCapital": false
+    },
+    {
+      "id": "2940451",
+      "name": "Buxtehude",
+      "latitude": 53.46994,
+      "longitude": 9.68968,
+      "population": 38192,
+      "populationRank": 288,
+      "isCapital": false
+    },
+    {
+      "id": "2959279",
+      "name": "Ahaus",
+      "latitude": 52.07936,
+      "longitude": 7.01344,
+      "population": 38165,
+      "populationRank": 289,
+      "isCapital": false
+    },
+    {
+      "id": "2911395",
+      "name": "Haltern am See",
+      "latitude": 51.74297,
+      "longitude": 7.18163,
+      "population": 38142,
+      "populationRank": 290,
+      "isCapital": false
+    },
+    {
+      "id": "2867996",
+      "name": "Mühlhausen",
+      "nativeName": "Mühlhausen/Thüringen",
+      "latitude": 51.20896,
+      "longitude": 10.45275,
+      "population": 38108,
+      "populationRank": 291,
+      "isCapital": false
+    },
+    {
+      "id": "2811899",
+      "name": "Weißenfels",
+      "latitude": 51.20148,
+      "longitude": 11.96843,
+      "population": 37929,
+      "populationRank": 292,
+      "isCapital": false
+    },
+    {
+      "id": "2951654",
+      "name": "Beckum",
+      "latitude": 51.75571,
+      "longitude": 8.04075,
+      "population": 37814,
+      "populationRank": 293,
+      "isCapital": false
+    },
+    {
+      "id": "2902533",
+      "name": "Hofheim am Taunus",
+      "latitude": 50.09019,
+      "longitude": 8.4493,
+      "population": 37750,
+      "populationRank": 294,
+      "isCapital": false
+    },
+    {
+      "id": "2827479",
+      "name": "Stendal",
+      "latitude": 52.60578,
+      "longitude": 11.86091,
+      "population": 37722,
+      "populationRank": 295,
+      "isCapital": false
+    },
+    {
+      "id": "2906595",
+      "name": "Hemer",
+      "latitude": 51.38707,
+      "longitude": 7.77019,
+      "population": 37502,
+      "populationRank": 296,
+      "isCapital": false
+    },
+    {
+      "id": "2927930",
+      "name": "Falkensee",
+      "latitude": 52.56014,
+      "longitude": 13.0927,
+      "population": 37468,
+      "populationRank": 297,
+      "isCapital": false
+    },
+    {
+      "id": "2805644",
+      "name": "Würselen",
+      "latitude": 50.81809,
+      "longitude": 6.1347,
+      "population": 37074,
+      "populationRank": 298,
+      "isCapital": false
+    },
+    {
+      "id": "2831872",
+      "name": "Sinsheim",
+      "latitude": 49.2529,
+      "longitude": 8.87867,
+      "population": 37036,
+      "populationRank": 299,
+      "isCapital": false
+    },
+    {
+      "id": "2810855",
+      "name": "Wermelskirchen",
+      "latitude": 51.1397,
+      "longitude": 7.21583,
+      "population": 36816,
+      "populationRank": 300,
       "isCapital": false
     }
   ]

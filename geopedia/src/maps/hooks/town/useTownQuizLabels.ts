@@ -35,8 +35,31 @@ const TOWN_QUIZ_SOURCE_ID = "town-quiz-labels-source";
 /** Circle layer marking the exact coordinate of each displayed quiz town. */
 export const TOWN_QUIZ_MARKER_LAYER_ID = "town-quiz-markers";
 
+/**
+ * Circle layer drawing the smaller center dot used to distinguish capitals.
+ */
+const TOWN_QUIZ_CAPITAL_MARKER_LAYER_ID = "town-quiz-capital-markers";
+
 /** Symbol layer displaying GeoPedia-controlled town labels. */
 const TOWN_QUIZ_LABEL_LAYER_ID = "town-quiz-labels";
+
+/**
+ * Feature-state property indicating whether MapLibre successfully placed a
+ * town's label after collision detection.
+ */
+const TOWN_LABEL_VISIBLE_STATE = "labelVisible";
+
+/**
+ * Shows a town marker only while its corresponding label has survived
+ * MapLibre's collision placement.
+ */
+const TOWN_MARKER_OPACITY_EXPRESSION: maplibregl.ExpressionSpecification =
+  [
+    "case",
+    ["boolean", ["feature-state", TOWN_LABEL_VISIBLE_STATE], false],
+    1,
+    0,
+  ];
 
 const CORRECT_TOWN_COLOR = "#16a34a";
 
@@ -150,6 +173,85 @@ function synchronizeTownQuizSource(
 }
 
 /**
+ * Synchronizes marker visibility with MapLibre's actual symbol placement.
+ *
+ * Only towns whose labels survive MapLibre's collision detection receive
+ * `labelVisible` feature state. Their coordinate markers therefore disappear
+ * whenever there is not enough room to display the corresponding town name.
+ *
+ * @param map - Active town quiz map.
+ * @param townIds - IDs belonging to towns in the active quiz.
+ * @param previouslyVisibleTownIds - IDs whose markers were visible during the
+ * previous synchronization.
+ * @returns IDs whose labels are currently rendered.
+ */
+function synchronizeTownMarkerVisibility(
+  map: maplibregl.Map,
+  townIds: ReadonlySet<string>,
+  previouslyVisibleTownIds: ReadonlySet<string>,
+): Set<string> {
+  if (!map.getLayer(TOWN_QUIZ_LABEL_LAYER_ID)) {
+    return new Set();
+  }
+
+  const renderedLabels = map.queryRenderedFeatures({
+    layers: [TOWN_QUIZ_LABEL_LAYER_ID],
+  });
+
+  const visibleTownIds = new Set<string>();
+
+  for (const feature of renderedLabels) {
+    const rawId = feature.properties?.id;
+
+    if (typeof rawId !== "string" || !townIds.has(rawId)) {
+      continue;
+    }
+
+    visibleTownIds.add(rawId);
+  }
+
+  /*
+   * Reveal markers whose labels have newly become visible.
+   */
+  for (const townId of visibleTownIds) {
+    if (previouslyVisibleTownIds.has(townId)) {
+      continue;
+    }
+
+    map.setFeatureState(
+      {
+        source: TOWN_QUIZ_SOURCE_ID,
+        id: townId,
+      },
+      {
+        [TOWN_LABEL_VISIBLE_STATE]: true,
+      },
+    );
+  }
+
+  /*
+   * Hide markers whose labels were displaced by MapLibre's collision system.
+   */
+  for (const townId of previouslyVisibleTownIds) {
+    if (visibleTownIds.has(townId)) {
+      continue;
+    }
+
+    map.setFeatureState(
+      {
+        source: TOWN_QUIZ_SOURCE_ID,
+        id: townId,
+      },
+      {
+        [TOWN_LABEL_VISIBLE_STATE]: false,
+      },
+    );
+  }
+
+  return visibleTownIds;
+}
+
+/**
  * Creates the marker and label layers used to present quiz towns when they do
  * not already exist.
  *
@@ -168,10 +270,45 @@ function ensureTownQuizLayers(map: maplibregl.Map): void {
       source: TOWN_QUIZ_SOURCE_ID,
 
       paint: {
-        "circle-radius": 3,
+        /*
+         * Capitals use a slightly larger version of the normal white marker. Their
+         * separate center-dot layer distinguishes them without changing the palette.
+         */
+        "circle-radius": [
+          "case",
+          ["==", ["get", "isCapital"], true],
+          4,
+          3,
+        ],
+
         "circle-color": NORMAL_TOWN_MARKER_COLOR,
         "circle-stroke-color": NORMAL_TOWN_MARKER_STROKE_COLOR,
         "circle-stroke-width": 1.5,
+
+        "circle-opacity": TOWN_MARKER_OPACITY_EXPRESSION,
+        "circle-stroke-opacity": TOWN_MARKER_OPACITY_EXPRESSION,
+      },
+    });
+  }
+
+  if (!map.getLayer(TOWN_QUIZ_CAPITAL_MARKER_LAYER_ID)) {
+    map.addLayer({
+      id: TOWN_QUIZ_CAPITAL_MARKER_LAYER_ID,
+
+      type: "circle",
+
+      source: TOWN_QUIZ_SOURCE_ID,
+
+      /*
+       * Only capitals receive the inner dot. The larger normal marker beneath
+       * provides the surrounding white fill and dark outer outline.
+       */
+      filter: ["==", ["get", "isCapital"], true],
+
+      paint: {
+        "circle-radius": 2.25,
+        "circle-color": NORMAL_TOWN_MARKER_STROKE_COLOR,
+        "circle-opacity": TOWN_MARKER_OPACITY_EXPRESSION,
       },
     });
   }
@@ -189,8 +326,17 @@ function ensureTownQuizLayers(map: maplibregl.Map): void {
 
     layout: {
       "text-field": ["get", "label"],
-      "text-size": 14,
-      "text-font": ["Open Sans Regular"],
+      /*
+       * Capitals receive a modestly larger label while retaining the same
+       * typography as ordinary towns.
+       */
+      "text-size": [
+        "case",
+        ["==", ["get", "isCapital"], true],
+        16,
+        14,
+      ],
+      "text-font": ["Noto Sans Regular"],
 
       /*
        * Every active town remains in the source. MapLibre's collision engine
@@ -291,6 +437,50 @@ function createCorrectTownColorExpression(
 }
 
 /**
+ * Applies quiz-mode visibility to the capital center-dot layer while retaining
+ * its permanent requirement that only capital features may render.
+ *
+ * @param map - Active town quiz map.
+ * @param mode - Current Normal/Hard town quiz display mode.
+ * @param correctTownId - Most recently answered town, when one exists.
+ */
+function applyCapitalMarkerLayerFilter(
+  map: maplibregl.Map,
+  mode: TownQuizMode,
+  correctTownId: string | undefined,
+): void {
+  if (!map.getLayer(TOWN_QUIZ_CAPITAL_MARKER_LAYER_ID)) {
+    return;
+  }
+
+  if (mode === "normal") {
+    map.setFilter(TOWN_QUIZ_CAPITAL_MARKER_LAYER_ID, [
+      "==",
+      ["get", "isCapital"],
+      true,
+    ]);
+
+    return;
+  }
+
+  if (!correctTownId) {
+    map.setFilter(TOWN_QUIZ_CAPITAL_MARKER_LAYER_ID, [
+      "all",
+      ["==", ["get", "isCapital"], true],
+      ["==", ["get", "id"], "__no-town__"],
+    ]);
+
+    return;
+  }
+
+  map.setFilter(TOWN_QUIZ_CAPITAL_MARKER_LAYER_ID, [
+    "all",
+    ["==", ["get", "isCapital"], true],
+    ["==", ["get", "id"], correctTownId],
+  ]);
+}
+
+/**
  * Applies quiz mode and result feedback to the existing town layers.
  *
  * @param map - Active town quiz map.
@@ -308,6 +498,8 @@ function applyTownQuizPresentation(
     mode,
     correctTownId,
   );
+
+  applyCapitalMarkerLayerFilter(map, mode, correctTownId);
 
   applyTownLayerFilter(
     map,
@@ -387,4 +579,45 @@ export function useTownQuizLabels({
 
     applyTownQuizPresentation(map, mode, lastResult?.town.id);
   }, [mapRef, isMapReady, mode, lastResult]);
+
+  /**
+   * Keeps coordinate markers synchronized with MapLibre's rendered town labels.
+   *
+   * The render event is used because label collision placement can change while
+   * zooming or panning. Feature state is updated only when a town's visibility
+   * actually changes, avoiding unnecessary MapLibre state updates.
+   */
+  useEffect(() => {
+    const currentMap = mapRef.current;
+
+    if (!currentMap || !isMapReady) {
+      return;
+    }
+
+    /*
+     * Capture the ready MapLibre instance so callbacks registered below do not
+     * depend on the nullable React ref.
+     */
+    const map: maplibregl.Map = currentMap;
+
+    const townIds = new Set(towns.map((town) => town.id));
+
+    let visibleTownIds = new Set<string>();
+
+    function synchronizeVisibility(): void {
+      visibleTownIds = synchronizeTownMarkerVisibility(
+        map,
+        townIds,
+        visibleTownIds,
+      );
+    }
+
+    map.on("render", synchronizeVisibility);
+
+    synchronizeVisibility();
+
+    return () => {
+      map.off("render", synchronizeVisibility);
+    };
+  }, [mapRef, isMapReady, towns]);
 }

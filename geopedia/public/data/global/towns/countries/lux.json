@@ -11,7 +11,7 @@
     },
     {
       "id": "2960596",
-      "name": "Esch-sur-Alzette",
+      "name": "Esch sur Alzette",
       "latitude": 49.49583,
       "longitude": 5.98056,
       "population": 36625,
@@ -28,12 +28,39 @@
       "isCapital": false
     },
     {
+      "id": "2960800",
+      "name": "Belvaux",
+      "latitude": 49.51014,
+      "longitude": 5.92414,
+      "population": 8329,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
       "id": "2960102",
       "name": "Schifflange",
       "latitude": 49.50639,
       "longitude": 6.01278,
       "population": 8155,
-      "populationRank": 4,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "2960010",
+      "name": "Walferdange",
+      "latitude": 49.66321,
+      "longitude": 6.13224,
+      "population": 7819,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "2960143",
+      "name": "Rodange",
+      "latitude": 49.54639,
+      "longitude": 5.84083,
+      "population": 7774,
+      "populationRank": 7,
       "isCapital": false
     },
     {
@@ -42,7 +69,7 @@
       "latitude": 49.51861,
       "longitude": 6.10278,
       "population": 7437,
-      "populationRank": 5,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -51,7 +78,7 @@
       "latitude": 49.86687,
       "longitude": 6.15451,
       "population": 7295,
-      "populationRank": 6,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -60,7 +87,16 @@
       "latitude": 49.55833,
       "longitude": 5.88056,
       "population": 7187,
-      "populationRank": 7,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "2960067",
+      "name": "Soleuvre",
+      "latitude": 49.52148,
+      "longitude": 5.93781,
+      "population": 6420,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -69,7 +105,43 @@
       "latitude": 49.8475,
       "longitude": 6.10417,
       "population": 6364,
-      "populationRank": 8,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "2960054",
+      "name": "Strassen",
+      "latitude": 49.62056,
+      "longitude": 6.07333,
+      "population": 6006,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "7290933",
+      "name": "Howald",
+      "latitude": 49.58387,
+      "longitude": 6.14277,
+      "population": 5815,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "2960123",
+      "name": "Rumelange",
+      "latitude": 49.45964,
+      "longitude": 6.03089,
+      "population": 5692,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "2960782",
+      "name": "Bertrange",
+      "latitude": 49.61111,
+      "longitude": 6.05,
+      "population": 5615,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -78,7 +150,16 @@
       "latitude": 49.52417,
       "longitude": 5.89139,
       "population": 5296,
-      "populationRank": 9,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "2960107",
+      "name": "Schengen",
+      "latitude": 49.47,
+      "longitude": 6.362,
+      "population": 5196,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -87,7 +168,16 @@
       "latitude": 49.67751,
       "longitude": 6.44022,
       "population": 5092,
-      "populationRank": 10,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "2960299",
+      "name": "Mamer",
+      "latitude": 49.6275,
+      "longitude": 6.02333,
+      "population": 5017,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -96,7 +186,7 @@
       "latitude": 49.96547,
       "longitude": 5.9339,
       "population": 4816,
-      "populationRank": 11,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -105,7 +195,43 @@
       "latitude": 49.81212,
       "longitude": 6.41846,
       "population": 4787,
-      "populationRank": 12,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "2960795",
+      "name": "Béreldange",
+      "latitude": 49.65507,
+      "longitude": 6.11874,
+      "population": 4665,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "2960815",
+      "name": "Bascharage",
+      "latitude": 49.56727,
+      "longitude": 5.9073,
+      "population": 4645,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "2960391",
+      "name": "Kayl",
+      "latitude": 49.48917,
+      "longitude": 6.03972,
+      "population": 4396,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "2960042",
+      "name": "Tétange",
+      "latitude": 49.47583,
+      "longitude": 6.04222,
+      "population": 4033,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -114,7 +240,169 @@
       "latitude": 49.545,
       "longitude": 6.36694,
       "population": 4015,
-      "populationRank": 13,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "2960007",
+      "name": "Wasserbillig",
+      "latitude": 49.71534,
+      "longitude": 6.49861,
+      "population": 3485,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "2960276",
+      "name": "Mersch",
+      "latitude": 49.75055,
+      "longitude": 6.10627,
+      "population": 3464,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "2960720",
+      "name": "Bridel",
+      "latitude": 49.65579,
+      "longitude": 6.07999,
+      "population": 3456,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "2960258",
+      "name": "Mondercange",
+      "latitude": 49.53306,
+      "longitude": 5.98833,
+      "population": 3306,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "2960358",
+      "name": "Lamadelaine",
+      "latitude": 49.54639,
+      "longitude": 5.85639,
+      "population": 3219,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "2960468",
+      "name": "Helmsange",
+      "latitude": 49.65278,
+      "longitude": 6.14139,
+      "population": 3118,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "2960257",
+      "name": "Mondorf les Bains",
+      "latitude": 49.505,
+      "longitude": 6.28111,
+      "population": 3113,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "2960832",
+      "name": "Alzingen",
+      "latitude": 49.565,
+      "longitude": 6.16361,
+      "population": 2988,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "2960584",
+      "name": "Fentange",
+      "latitude": 49.56278,
+      "longitude": 6.15389,
+      "population": 2705,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "2960759",
+      "name": "Bissen",
+      "latitude": 49.78733,
+      "longitude": 6.0654,
+      "population": 2547,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "2960117",
+      "name": "Sandweiler",
+      "latitude": 49.61471,
+      "longitude": 6.22221,
+      "population": 2522,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "2960115",
+      "name": "Sanem",
+      "latitude": 49.54806,
+      "longitude": 5.92889,
+      "population": 2489,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "2960410",
+      "name": "Itzig",
+      "latitude": 49.58769,
+      "longitude": 6.17065,
+      "population": 2414,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "2960697",
+      "name": "Capellen",
+      "latitude": 49.645,
+      "longitude": 5.99083,
+      "population": 2371,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "2960400",
+      "name": "Junglinster",
+      "latitude": 49.70722,
+      "longitude": 6.25306,
+      "population": 2358,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "2960133",
+      "name": "Rollingen",
+      "latitude": 49.74167,
+      "longitude": 6.11444,
+      "population": 2245,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "2960061",
+      "name": "Steinfort",
+      "latitude": 49.66139,
+      "longitude": 5.91917,
+      "population": 2225,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "2960618",
+      "name": "Eischen",
+      "latitude": 49.68556,
+      "longitude": 5.87861,
+      "population": 2206,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -123,7 +411,205 @@
       "latitude": 49.935,
       "longitude": 6.20889,
       "population": 2203,
-      "populationRank": 14,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "2960128",
+      "name": "Roodt sur Syre",
+      "latitude": 49.66591,
+      "longitude": 6.30257,
+      "population": 2017,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "2960532",
+      "name": "Gonderange",
+      "latitude": 49.69537,
+      "longitude": 6.24577,
+      "population": 1983,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "2960485",
+      "name": "Hautcharage",
+      "latitude": 49.57499,
+      "longitude": 5.9097,
+      "population": 1971,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "2960457",
+      "name": "Hesperange",
+      "latitude": 49.56806,
+      "longitude": 6.15139,
+      "population": 1937,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "2960335",
+      "name": "Leudelange",
+      "latitude": 49.56833,
+      "longitude": 6.06528,
+      "population": 1924,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "2960058",
+      "name": "Steinsel",
+      "latitude": 49.67694,
+      "longitude": 6.12389,
+      "population": 1879,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "6696266",
+      "name": "Senningerberg",
+      "latitude": 49.64907,
+      "longitude": 6.22607,
+      "population": 1856,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "2960687",
+      "name": "Clemency",
+      "latitude": 49.59667,
+      "longitude": 5.87583,
+      "population": 1821,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "2960197",
+      "name": "Olm",
+      "latitude": 49.65722,
+      "longitude": 6.00028,
+      "population": 1763,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "2960328",
+      "name": "Lintgen",
+      "latitude": 49.72243,
+      "longitude": 6.13016,
+      "population": 1752,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "2960699",
+      "name": "Canach",
+      "latitude": 49.60694,
+      "longitude": 6.32583,
+      "population": 1722,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "2960823",
+      "name": "Aspelt",
+      "latitude": 49.52278,
+      "longitude": 6.22472,
+      "population": 1710,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "2960389",
+      "name": "Kehlen",
+      "latitude": 49.66833,
+      "longitude": 6.03583,
+      "population": 1658,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "2960672",
+      "name": "Crauthem",
+      "latitude": 49.53556,
+      "longitude": 6.14694,
+      "population": 1632,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "2960085",
+      "name": "Schouweiler",
+      "latitude": 49.5825,
+      "longitude": 5.95639,
+      "population": 1610,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "2960498",
+      "name": "Hagen",
+      "latitude": 49.64944,
+      "longitude": 5.93167,
+      "population": 1591,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "2960472",
+      "name": "Heisdorf",
+      "latitude": 49.67207,
+      "longitude": 6.14202,
+      "population": 1586,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "2960791",
+      "name": "Bergem",
+      "latitude": 49.525,
+      "longitude": 6.04222,
+      "population": 1575,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "2960008",
+      "name": "Warken",
+      "latitude": 49.85918,
+      "longitude": 6.08415,
+      "population": 1554,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "2960252",
+      "name": "Moutfort",
+      "latitude": 49.58528,
+      "longitude": 6.25556,
+      "population": 1524,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "2960231",
+      "name": "Niederanven",
+      "latitude": 49.65196,
+      "longitude": 6.26199,
+      "population": 1508,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "2960270",
+      "name": "Mertzig",
+      "latitude": 49.83389,
+      "longitude": 6.0075,
+      "population": 1482,
+      "populationRank": 68,
       "isCapital": false
     },
     {
@@ -132,7 +618,170 @@
       "latitude": 50.12111,
       "longitude": 6.00028,
       "population": 1457,
-      "populationRank": 15,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "2960809",
+      "name": "Beaufort",
+      "latitude": 49.83583,
+      "longitude": 6.29167,
+      "population": 1418,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "2960350",
+      "name": "Larochette",
+      "latitude": 49.78362,
+      "longitude": 6.21891,
+      "population": 1410,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "2960104",
+      "name": "Schieren",
+      "latitude": 49.83056,
+      "longitude": 6.09861,
+      "population": 1397,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "2960781",
+      "name": "Bettange sur Mess",
+      "latitude": 49.57583,
+      "longitude": 5.98389,
+      "population": 1385,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "2960665",
+      "name": "Dalheim",
+      "latitude": 49.54083,
+      "longitude": 6.25972,
+      "population": 1364,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "2960556",
+      "name": "Frisange",
+      "latitude": 49.51616,
+      "longitude": 6.18858,
+      "population": 1355,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "2960214",
+      "name": "Nospelt",
+      "latitude": 49.67528,
+      "longitude": 6.00889,
+      "population": 1241,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "2960675",
+      "name": "Consdorf",
+      "latitude": 49.78018,
+      "longitude": 6.3395,
+      "population": 1241,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "2960250",
+      "name": "Müllendorf",
+      "latitude": 49.68028,
+      "longitude": 6.13,
+      "population": 1239,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "2960787",
+      "name": "Beringen",
+      "latitude": 49.75833,
+      "longitude": 6.11694,
+      "population": 1199,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "2960160",
+      "name": "Redange-sur-Attert",
+      "nativeName": "Redange",
+      "latitude": 49.76437,
+      "longitude": 5.88997,
+      "population": 1164,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "2960271",
+      "name": "Mertert",
+      "latitude": 49.70261,
+      "longitude": 6.47966,
+      "population": 1163,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "2960378",
+      "name": "Kleinbettingen",
+      "latitude": 49.64639,
+      "longitude": 5.91639,
+      "population": 1163,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "2960746",
+      "name": "Bofferdange",
+      "latitude": 49.69062,
+      "longitude": 6.13998,
+      "population": 1152,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "2960543",
+      "name": "Gilsdorf",
+      "latitude": 49.86499,
+      "longitude": 6.17979,
+      "population": 1145,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "2960174",
+      "name": "Pontpierre",
+      "latitude": 49.53639,
+      "longitude": 6.02944,
+      "population": 1140,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "2960577",
+      "name": "Niederfeulen",
+      "latitude": 49.85556,
+      "longitude": 6.04722,
+      "population": 1125,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "2960764",
+      "name": "Bivange",
+      "latitude": 49.54444,
+      "longitude": 6.13778,
+      "population": 1107,
+      "populationRank": 87,
       "isCapital": false
     },
     {
@@ -141,7 +790,1918 @@
       "latitude": 50.05472,
       "longitude": 6.03139,
       "population": 1103,
-      "populationRank": 16,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "2960673",
+      "name": "Contern",
+      "latitude": 49.58194,
+      "longitude": 6.22667,
+      "population": 1083,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "2960217",
+      "name": "Noertzange",
+      "latitude": 49.50917,
+      "longitude": 6.05611,
+      "population": 1072,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "2960775",
+      "name": "Bettendorf",
+      "latitude": 49.87667,
+      "longitude": 6.21806,
+      "population": 1072,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "2960367",
+      "name": "Koerich",
+      "latitude": 49.67,
+      "longitude": 5.95,
+      "population": 1066,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "2960453",
+      "name": "Hobscheid",
+      "latitude": 49.68861,
+      "longitude": 5.91472,
+      "population": 1051,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "2960165",
+      "name": "Reckange",
+      "latitude": 49.74972,
+      "longitude": 6.08306,
+      "population": 1046,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "2960718",
+      "name": "Brouch",
+      "latitude": 49.73611,
+      "longitude": 6.02306,
+      "population": 1033,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "2960200",
+      "name": "Oetrange",
+      "latitude": 49.59639,
+      "longitude": 6.26,
+      "population": 985,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "2960598",
+      "name": "Eschdorf",
+      "latitude": 49.8859,
+      "longitude": 5.93421,
+      "population": 972,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "2960523",
+      "name": "Greiveldange",
+      "latitude": 49.58389,
+      "longitude": 6.35917,
+      "population": 959,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "2960280",
+      "name": "Mensdorf",
+      "latitude": 49.65467,
+      "longitude": 6.30416,
+      "population": 951,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "2960625",
+      "name": "Ehnen",
+      "latitude": 49.60155,
+      "longitude": 6.38664,
+      "population": 944,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "2960190",
+      "name": "Peppange",
+      "latitude": 49.52444,
+      "longitude": 6.12972,
+      "population": 928,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "2960283",
+      "name": "Medernach",
+      "latitude": 49.80955,
+      "longitude": 6.21521,
+      "population": 907,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "2960796",
+      "name": "Berdorf",
+      "latitude": 49.82051,
+      "longitude": 6.34945,
+      "population": 900,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "2960166",
+      "name": "Rameldange",
+      "latitude": 49.66032,
+      "longitude": 6.23238,
+      "population": 890,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "2960470",
+      "name": "Hellange",
+      "latitude": 49.50759,
+      "longitude": 6.14978,
+      "population": 875,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "2960797",
+      "name": "Berchem",
+      "latitude": 49.54028,
+      "longitude": 6.12917,
+      "population": 863,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "2960084",
+      "name": "Schrassig",
+      "latitude": 49.61014,
+      "longitude": 6.25903,
+      "population": 856,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "2960082",
+      "name": "Schuttrange",
+      "latitude": 49.62056,
+      "longitude": 6.26861,
+      "population": 841,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "2960549",
+      "name": "Garnich",
+      "latitude": 49.61667,
+      "longitude": 5.9525,
+      "population": 824,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "2960414",
+      "name": "Ingeldorf",
+      "latitude": 49.85194,
+      "longitude": 6.13472,
+      "population": 816,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "2960429",
+      "name": "Hosingen",
+      "latitude": 50.01218,
+      "longitude": 6.09089,
+      "population": 811,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "2960648",
+      "name": "Dippach",
+      "latitude": 49.58701,
+      "longitude": 5.9833,
+      "population": 808,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "2960212",
+      "name": "Oberanven",
+      "latitude": 49.65743,
+      "longitude": 6.24302,
+      "population": 796,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "2959959",
+      "name": "Wormeldange",
+      "latitude": 49.61114,
+      "longitude": 6.40546,
+      "population": 786,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "2960387",
+      "name": "Keispelt",
+      "latitude": 49.69394,
+      "longitude": 6.06789,
+      "population": 781,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "2960735",
+      "name": "Bourglinster",
+      "latitude": 49.70306,
+      "longitude": 6.21725,
+      "population": 776,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "2960026",
+      "name": "Uebersyren",
+      "latitude": 49.6319,
+      "longitude": 6.2771,
+      "population": 772,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "2960322",
+      "name": "Lorentzweiler",
+      "latitude": 49.70131,
+      "longitude": 6.14234,
+      "population": 772,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "2960469",
+      "name": "Helmdange",
+      "latitude": 49.69387,
+      "longitude": 6.14166,
+      "population": 770,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "2960019",
+      "name": "Vichten",
+      "latitude": 49.80306,
+      "longitude": 6,
+      "population": 764,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "2960246",
+      "name": "Münsbach",
+      "latitude": 49.63277,
+      "longitude": 6.26459,
+      "population": 762,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "2960155",
+      "name": "Remerschen",
+      "latitude": 49.48861,
+      "longitude": 6.35167,
+      "population": 761,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "2960293",
+      "name": "Marnach",
+      "latitude": 50.05333,
+      "longitude": 6.06194,
+      "population": 760,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "2960627",
+      "name": "Ehlerange",
+      "latitude": 49.52417,
+      "longitude": 5.96611,
+      "population": 756,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "2960063",
+      "name": "Stadtbredimus",
+      "latitude": 49.56278,
+      "longitude": 6.36444,
+      "population": 749,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "2960072",
+      "name": "Senningen",
+      "latitude": 49.64535,
+      "longitude": 6.23927,
+      "population": 749,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "2960003",
+      "name": "Wecker",
+      "latitude": 49.69473,
+      "longitude": 6.38525,
+      "population": 743,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "2960488",
+      "name": "Hassel",
+      "latitude": 49.55019,
+      "longitude": 6.20826,
+      "population": 743,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "2960437",
+      "name": "Holzem",
+      "latitude": 49.61639,
+      "longitude": 5.99028,
+      "population": 742,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "2960531",
+      "name": "Gosseldange",
+      "latitude": 49.72639,
+      "longitude": 6.11694,
+      "population": 734,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "2960537",
+      "name": "Goeblange",
+      "latitude": 49.66972,
+      "longitude": 5.96528,
+      "population": 722,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "2960613",
+      "name": "Elvange",
+      "latitude": 49.50528,
+      "longitude": 6.31639,
+      "population": 713,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "2960135",
+      "name": "Roeser",
+      "latitude": 49.53721,
+      "longitude": 6.14629,
+      "population": 708,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "2960047",
+      "name": "Syren",
+      "latitude": 49.56194,
+      "longitude": 6.22167,
+      "population": 707,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "2960420",
+      "name": "Huncherange",
+      "latitude": 49.51694,
+      "longitude": 6.065,
+      "population": 706,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "2960602",
+      "name": "Erpeldange",
+      "latitude": 49.54444,
+      "longitude": 6.3275,
+      "population": 703,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "2959989",
+      "name": "Weiswampach",
+      "latitude": 50.13722,
+      "longitude": 6.075,
+      "population": 691,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "2960478",
+      "name": "Heiderscheid",
+      "latitude": 49.88734,
+      "longitude": 5.97892,
+      "population": 687,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "3283390",
+      "name": "Bech Kleinmacher",
+      "latitude": 49.53083,
+      "longitude": 6.355,
+      "population": 685,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "2959987",
+      "name": "Wellenstein",
+      "latitude": 49.52389,
+      "longitude": 6.34222,
+      "population": 684,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "2960127",
+      "name": "Rosport",
+      "latitude": 49.8047,
+      "longitude": 6.50532,
+      "population": 681,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "2960475",
+      "name": "Heinerscheid",
+      "latitude": 50.09611,
+      "longitude": 6.08806,
+      "population": 678,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "2960806",
+      "name": "Beckerich",
+      "latitude": 49.73114,
+      "longitude": 5.88241,
+      "population": 672,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "2960799",
+      "name": "Berbourg",
+      "latitude": 49.7306,
+      "longitude": 6.39355,
+      "population": 664,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "2960022",
+      "name": "Useldange",
+      "latitude": 49.76972,
+      "longitude": 5.98222,
+      "population": 657,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "2960363",
+      "name": "Kopstal",
+      "latitude": 49.66444,
+      "longitude": 6.07306,
+      "population": 657,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "2960510",
+      "name": "Grosbous",
+      "latitude": 49.82778,
+      "longitude": 5.96722,
+      "population": 656,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "2960060",
+      "name": "Steinheim",
+      "latitude": 49.81794,
+      "longitude": 6.47713,
+      "population": 654,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "2960757",
+      "name": "Biwer",
+      "latitude": 49.70605,
+      "longitude": 6.37201,
+      "population": 653,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "2960189",
+      "name": "Perlé",
+      "latitude": 49.81167,
+      "longitude": 5.76583,
+      "population": 649,
+      "populationRank": 150,
+      "isCapital": false
+    },
+    {
+      "id": "2960813",
+      "name": "Bastendorf",
+      "latitude": 49.89194,
+      "longitude": 6.16528,
+      "population": 640,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "2960329",
+      "name": "Linger",
+      "latitude": 49.56583,
+      "longitude": 5.88667,
+      "population": 629,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "2960539",
+      "name": "Godbrange",
+      "latitude": 49.73395,
+      "longitude": 6.23238,
+      "population": 624,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "2960481",
+      "name": "Heffingen",
+      "latitude": 49.76907,
+      "longitude": 6.24049,
+      "population": 623,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "2960219",
+      "name": "Noerdange",
+      "latitude": 49.74222,
+      "longitude": 5.92611,
+      "population": 617,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "2960833",
+      "name": "Altwies",
+      "latitude": 49.51056,
+      "longitude": 6.25722,
+      "population": 617,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "2960027",
+      "name": "Tuntange",
+      "latitude": 49.71778,
+      "longitude": 6.01028,
+      "population": 605,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "2960703",
+      "name": "Buschdorf",
+      "latitude": 49.75083,
+      "longitude": 6.00833,
+      "population": 594,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "2960312",
+      "name": "Machtum",
+      "latitude": 49.65897,
+      "longitude": 6.43599,
+      "population": 592,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "2960419",
+      "name": "Hunsdorf",
+      "latitude": 49.69667,
+      "longitude": 6.13167,
+      "population": 592,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "2960491",
+      "name": "Harlange",
+      "latitude": 49.93139,
+      "longitude": 5.79,
+      "population": 590,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "2960747",
+      "name": "Boevange sur Attert",
+      "latitude": 49.77256,
+      "longitude": 6.01532,
+      "population": 576,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "2960164",
+      "name": "Reckange sur Mess",
+      "latitude": 49.5625,
+      "longitude": 6.00889,
+      "population": 571,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "2960065",
+      "name": "Sprinkange",
+      "latitude": 49.58049,
+      "longitude": 5.96493,
+      "population": 562,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "2960732",
+      "name": "Bous",
+      "latitude": 49.55389,
+      "longitude": 6.32917,
+      "population": 560,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "2960427",
+      "name": "Hostert",
+      "latitude": 49.65749,
+      "longitude": 6.23268,
+      "population": 558,
+      "populationRank": 166,
+      "isCapital": false
+    },
+    {
+      "id": "2960533",
+      "name": "Goetzingen",
+      "latitude": 49.66028,
+      "longitude": 5.98167,
+      "population": 556,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "2960576",
+      "name": "Filsdorf",
+      "latitude": 49.5325,
+      "longitude": 6.24833,
+      "population": 556,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "2960171",
+      "name": "Pratz",
+      "latitude": 49.80167,
+      "longitude": 5.93917,
+      "population": 545,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "2960176",
+      "name": "Platen",
+      "latitude": 49.78933,
+      "longitude": 5.93382,
+      "population": 544,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "2960441",
+      "name": "Hollenfels",
+      "latitude": 49.71306,
+      "longitude": 6.05083,
+      "population": 539,
+      "populationRank": 171,
+      "isCapital": false
+    },
+    {
+      "id": "2960260",
+      "name": "Moestroff",
+      "latitude": 49.86778,
+      "longitude": 6.23944,
+      "population": 538,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "2960530",
+      "name": "Gostingen",
+      "latitude": 49.61917,
+      "longitude": 6.35444,
+      "population": 523,
+      "populationRank": 173,
+      "isCapital": false
+    },
+    {
+      "id": "2959961",
+      "name": "Wolwelange",
+      "latitude": 49.82861,
+      "longitude": 5.76472,
+      "population": 521,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "2960754",
+      "name": "Blaschette",
+      "latitude": 49.70279,
+      "longitude": 6.16876,
+      "population": 521,
+      "populationRank": 175,
+      "isCapital": false
+    },
+    {
+      "id": "2960108",
+      "name": "Scheidgen",
+      "latitude": 49.78059,
+      "longitude": 6.3607,
+      "population": 510,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "2960573",
+      "name": "Fingig",
+      "latitude": 49.60361,
+      "longitude": 5.90083,
+      "population": 510,
+      "populationRank": 177,
+      "isCapital": false
+    },
+    {
+      "id": "2960592",
+      "name": "Eselborn",
+      "latitude": 50.06278,
+      "longitude": 6.00361,
+      "population": 508,
+      "populationRank": 178,
+      "isCapital": false
+    },
+    {
+      "id": "2960198",
+      "name": "Olingen",
+      "latitude": 49.67985,
+      "longitude": 6.31392,
+      "population": 502,
+      "populationRank": 179,
+      "isCapital": false
+    },
+    {
+      "id": "2960156",
+      "name": "Reisdorf",
+      "latitude": 49.86861,
+      "longitude": 6.26778,
+      "population": 493,
+      "populationRank": 180,
+      "isCapital": false
+    },
+    {
+      "id": "2960563",
+      "name": "Folschette",
+      "latitude": 49.81417,
+      "longitude": 5.87472,
+      "population": 490,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "2960016",
+      "name": "Wahlhausen",
+      "latitude": 49.98528,
+      "longitude": 6.12667,
+      "population": 487,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "2959996",
+      "name": "Weiler la Tour",
+      "latitude": 49.54083,
+      "longitude": 6.20083,
+      "population": 484,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "2959967",
+      "name": "Wintrange",
+      "latitude": 49.50139,
+      "longitude": 6.35278,
+      "population": 483,
+      "populationRank": 184,
+      "isCapital": false
+    },
+    {
+      "id": "2960603",
+      "name": "Erpeldange",
+      "latitude": 49.97806,
+      "longitude": 5.94861,
+      "population": 478,
+      "populationRank": 185,
+      "isCapital": false
+    },
+    {
+      "id": "2960421",
+      "name": "Huldange",
+      "latitude": 50.16472,
+      "longitude": 6.015,
+      "population": 476,
+      "populationRank": 186,
+      "isCapital": false
+    },
+    {
+      "id": "2960769",
+      "name": "Bigonville",
+      "latitude": 49.85167,
+      "longitude": 5.79333,
+      "population": 475,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "2960221",
+      "name": "Nocher",
+      "latitude": 49.94653,
+      "longitude": 5.97626,
+      "population": 467,
+      "populationRank": 188,
+      "isCapital": false
+    },
+    {
+      "id": "2960608",
+      "name": "Ermsdorf",
+      "latitude": 49.82944,
+      "longitude": 6.22278,
+      "population": 466,
+      "populationRank": 189,
+      "isCapital": false
+    },
+    {
+      "id": "2960261",
+      "name": "Moesdorf",
+      "latitude": 49.76806,
+      "longitude": 6.11667,
+      "population": 464,
+      "populationRank": 190,
+      "isCapital": false
+    },
+    {
+      "id": "2960331",
+      "name": "Limpach",
+      "latitude": 49.55889,
+      "longitude": 5.98056,
+      "population": 462,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "2960226",
+      "name": "Niederpallen",
+      "latitude": 49.75528,
+      "longitude": 5.91222,
+      "population": 457,
+      "populationRank": 192,
+      "isCapital": false
+    },
+    {
+      "id": "2960820",
+      "name": "Asselborn",
+      "latitude": 50.09722,
+      "longitude": 5.97306,
+      "population": 454,
+      "populationRank": 193,
+      "isCapital": false
+    },
+    {
+      "id": "2960706",
+      "name": "Burden",
+      "latitude": 49.87987,
+      "longitude": 6.08943,
+      "population": 450,
+      "populationRank": 194,
+      "isCapital": false
+    },
+    {
+      "id": "2960296",
+      "name": "Manternach",
+      "latitude": 49.70278,
+      "longitude": 6.42639,
+      "population": 443,
+      "populationRank": 195,
+      "isCapital": false
+    },
+    {
+      "id": "2960561",
+      "name": "Fouhren",
+      "latitude": 49.91556,
+      "longitude": 6.19611,
+      "population": 442,
+      "populationRank": 196,
+      "isCapital": false
+    },
+    {
+      "id": "2960229",
+      "name": "Niederdonven",
+      "latitude": 49.63479,
+      "longitude": 6.40243,
+      "population": 439,
+      "populationRank": 197,
+      "isCapital": false
+    },
+    {
+      "id": "2960083",
+      "name": "Schrondweiler",
+      "latitude": 49.79778,
+      "longitude": 6.15917,
+      "population": 437,
+      "populationRank": 198,
+      "isCapital": false
+    },
+    {
+      "id": "2960079",
+      "name": "Schwebsange",
+      "latitude": 49.51167,
+      "longitude": 6.35694,
+      "population": 433,
+      "populationRank": 199,
+      "isCapital": false
+    },
+    {
+      "id": "2960628",
+      "name": "Ehlange",
+      "latitude": 49.54889,
+      "longitude": 6.01694,
+      "population": 429,
+      "populationRank": 200,
+      "isCapital": false
+    },
+    {
+      "id": "2960497",
+      "name": "Haller",
+      "latitude": 49.81982,
+      "longitude": 6.28006,
+      "population": 427,
+      "populationRank": 201,
+      "isCapital": false
+    },
+    {
+      "id": "2960586",
+      "name": "Fennange",
+      "latitude": 49.51972,
+      "longitude": 6.07833,
+      "population": 418,
+      "populationRank": 202,
+      "isCapital": false
+    },
+    {
+      "id": "2960013",
+      "name": "Waldbredimus",
+      "latitude": 49.55676,
+      "longitude": 6.28789,
+      "population": 416,
+      "populationRank": 203,
+      "isCapital": false
+    },
+    {
+      "id": "2960262",
+      "name": "Moersdorf",
+      "latitude": 49.73833,
+      "longitude": 6.5,
+      "population": 415,
+      "populationRank": 204,
+      "isCapital": false
+    },
+    {
+      "id": "2960771",
+      "name": "Beyren",
+      "latitude": 49.62639,
+      "longitude": 6.33694,
+      "population": 415,
+      "populationRank": 205,
+      "isCapital": false
+    },
+    {
+      "id": "2960014",
+      "name": "Waldbillig",
+      "latitude": 49.79636,
+      "longitude": 6.28431,
+      "population": 408,
+      "populationRank": 206,
+      "isCapital": false
+    },
+    {
+      "id": "2960062",
+      "name": "Stegen",
+      "latitude": 49.83,
+      "longitude": 6.17194,
+      "population": 406,
+      "populationRank": 207,
+      "isCapital": false
+    },
+    {
+      "id": "2960668",
+      "name": "Cruchten",
+      "latitude": 49.79908,
+      "longitude": 6.13235,
+      "population": 404,
+      "populationRank": 208,
+      "isCapital": false
+    },
+    {
+      "id": "2960167",
+      "name": "Rambrouch",
+      "latitude": 49.83083,
+      "longitude": 5.845,
+      "population": 401,
+      "populationRank": 209,
+      "isCapital": false
+    },
+    {
+      "id": "2960424",
+      "name": "Hovelange",
+      "latitude": 49.7225,
+      "longitude": 5.90722,
+      "population": 401,
+      "populationRank": 210,
+      "isCapital": false
+    },
+    {
+      "id": "2960605",
+      "name": "Ernzen",
+      "latitude": 49.77253,
+      "longitude": 6.22118,
+      "population": 398,
+      "populationRank": 211,
+      "isCapital": false
+    },
+    {
+      "id": "2960731",
+      "name": "Boxhorn",
+      "latitude": 50.08389,
+      "longitude": 5.9925,
+      "population": 398,
+      "populationRank": 212,
+      "isCapital": false
+    },
+    {
+      "id": "2960205",
+      "name": "Oberpallen",
+      "latitude": 49.73028,
+      "longitude": 5.84389,
+      "population": 397,
+      "populationRank": 213,
+      "isCapital": false
+    },
+    {
+      "id": "2960213",
+      "name": "Nothum",
+      "latitude": 49.94139,
+      "longitude": 5.88278,
+      "population": 397,
+      "populationRank": 214,
+      "isCapital": false
+    },
+    {
+      "id": "2960737",
+      "name": "Boulaide",
+      "latitude": 49.88778,
+      "longitude": 5.81639,
+      "population": 396,
+      "populationRank": 215,
+      "isCapital": false
+    },
+    {
+      "id": "2960332",
+      "name": "Lieler",
+      "latitude": 50.12444,
+      "longitude": 6.11,
+      "population": 395,
+      "populationRank": 216,
+      "isCapital": false
+    },
+    {
+      "id": "2960130",
+      "name": "Roodt",
+      "latitude": 49.79444,
+      "longitude": 5.82167,
+      "population": 394,
+      "populationRank": 217,
+      "isCapital": false
+    },
+    {
+      "id": "2960691",
+      "name": "Christnach",
+      "latitude": 49.78805,
+      "longitude": 6.27337,
+      "population": 394,
+      "populationRank": 218,
+      "isCapital": false
+    },
+    {
+      "id": "2960044",
+      "name": "Tarchamps",
+      "latitude": 49.95056,
+      "longitude": 5.79611,
+      "population": 393,
+      "populationRank": 219,
+      "isCapital": false
+    },
+    {
+      "id": "2960418",
+      "name": "Hupperdange",
+      "latitude": 50.09611,
+      "longitude": 6.05917,
+      "population": 391,
+      "populationRank": 220,
+      "isCapital": false
+    },
+    {
+      "id": "2960666",
+      "name": "Dahlem",
+      "latitude": 49.60222,
+      "longitude": 5.94833,
+      "population": 389,
+      "populationRank": 221,
+      "isCapital": false
+    },
+    {
+      "id": "2960594",
+      "name": "Eschweiler",
+      "latitude": 49.99778,
+      "longitude": 5.94889,
+      "population": 383,
+      "populationRank": 222,
+      "isCapital": false
+    },
+    {
+      "id": "2960194",
+      "name": "Osweiler",
+      "latitude": 49.78667,
+      "longitude": 6.44254,
+      "population": 381,
+      "populationRank": 223,
+      "isCapital": false
+    },
+    {
+      "id": "2960447",
+      "name": "Hoffelt",
+      "latitude": 50.09972,
+      "longitude": 5.92333,
+      "population": 381,
+      "populationRank": 224,
+      "isCapital": false
+    },
+    {
+      "id": "2960807",
+      "name": "Bech",
+      "latitude": 49.7526,
+      "longitude": 6.36379,
+      "population": 380,
+      "populationRank": 225,
+      "isCapital": false
+    },
+    {
+      "id": "2959973",
+      "name": "Wilwerdange",
+      "latitude": 50.14056,
+      "longitude": 6.02389,
+      "population": 379,
+      "populationRank": 226,
+      "isCapital": false
+    },
+    {
+      "id": "2960150",
+      "name": "Reuland",
+      "latitude": 49.75316,
+      "longitude": 6.2604,
+      "population": 378,
+      "populationRank": 227,
+      "isCapital": false
+    },
+    {
+      "id": "2960326",
+      "name": "Livange",
+      "latitude": 49.53028,
+      "longitude": 6.12028,
+      "population": 378,
+      "populationRank": 228,
+      "isCapital": false
+    },
+    {
+      "id": "2960588",
+      "name": "Everlange",
+      "latitude": 49.77417,
+      "longitude": 5.95556,
+      "population": 370,
+      "populationRank": 229,
+      "isCapital": false
+    },
+    {
+      "id": "2960415",
+      "name": "Imbringen",
+      "latitude": 49.6975,
+      "longitude": 6.1975,
+      "population": 369,
+      "populationRank": 230,
+      "isCapital": false
+    },
+    {
+      "id": "2960034",
+      "name": "Trintange",
+      "latitude": 49.57083,
+      "longitude": 6.28056,
+      "population": 366,
+      "populationRank": 231,
+      "isCapital": false
+    },
+    {
+      "id": "2960660",
+      "name": "Derenbach",
+      "latitude": 50.015,
+      "longitude": 5.88972,
+      "population": 365,
+      "populationRank": 232,
+      "isCapital": false
+    },
+    {
+      "id": "6696267",
+      "name": "Bollendorf-Pont",
+      "nativeName": "Bollendorf",
+      "latitude": 49.84847,
+      "longitude": 6.35787,
+      "population": 365,
+      "populationRank": 233,
+      "isCapital": false
+    },
+    {
+      "id": "2960070",
+      "name": "Septfontaines",
+      "latitude": 49.70111,
+      "longitude": 5.96722,
+      "population": 363,
+      "populationRank": 234,
+      "isCapital": false
+    },
+    {
+      "id": "2960426",
+      "name": "Hostert",
+      "latitude": 49.81,
+      "longitude": 5.86667,
+      "population": 360,
+      "populationRank": 235,
+      "isCapital": false
+    },
+    {
+      "id": "11670382",
+      "name": "Wormeldange Haut",
+      "latitude": 49.60983,
+      "longitude": 6.39999,
+      "population": 359,
+      "populationRank": 236,
+      "isCapital": false
+    },
+    {
+      "id": "2960616",
+      "name": "Ell",
+      "latitude": 49.76389,
+      "longitude": 5.85722,
+      "population": 359,
+      "populationRank": 237,
+      "isCapital": false
+    },
+    {
+      "id": "2960568",
+      "name": "Flaxweiler",
+      "latitude": 49.66602,
+      "longitude": 6.34321,
+      "population": 358,
+      "populationRank": 238,
+      "isCapital": false
+    },
+    {
+      "id": "2960667",
+      "name": "Dahl",
+      "latitude": 49.93528,
+      "longitude": 5.97583,
+      "population": 358,
+      "populationRank": 239,
+      "isCapital": false
+    },
+    {
+      "id": "2960394",
+      "name": "Kaundorf",
+      "latitude": 49.92139,
+      "longitude": 5.90306,
+      "population": 354,
+      "populationRank": 240,
+      "isCapital": false
+    },
+    {
+      "id": "2960218",
+      "name": "Noertrange",
+      "latitude": 49.97972,
+      "longitude": 5.91083,
+      "population": 353,
+      "populationRank": 241,
+      "isCapital": false
+    },
+    {
+      "id": "2960607",
+      "name": "Ernster",
+      "latitude": 49.67901,
+      "longitude": 6.24822,
+      "population": 350,
+      "populationRank": 242,
+      "isCapital": false
+    },
+    {
+      "id": "2960267",
+      "name": "Michelau",
+      "latitude": 49.9,
+      "longitude": 6.09194,
+      "population": 348,
+      "populationRank": 243,
+      "isCapital": false
+    },
+    {
+      "id": "2960281",
+      "name": "Meispelt",
+      "latitude": 49.69111,
+      "longitude": 6.05917,
+      "population": 344,
+      "populationRank": 244,
+      "isCapital": false
+    },
+    {
+      "id": "2960399",
+      "name": "Kahler",
+      "latitude": 49.63139,
+      "longitude": 5.91778,
+      "population": 343,
+      "populationRank": 245,
+      "isCapital": false
+    },
+    {
+      "id": "2960137",
+      "name": "Roedgen",
+      "latitude": 49.57472,
+      "longitude": 6.03472,
+      "population": 342,
+      "populationRank": 246,
+      "isCapital": false
+    },
+    {
+      "id": "2960765",
+      "name": "Binsfeld",
+      "latitude": 50.11889,
+      "longitude": 6.03861,
+      "population": 341,
+      "populationRank": 247,
+      "isCapital": false
+    },
+    {
+      "id": "2960088",
+      "name": "Schoos",
+      "latitude": 49.74417,
+      "longitude": 6.17083,
+      "population": 339,
+      "populationRank": 248,
+      "isCapital": false
+    },
+    {
+      "id": "2960337",
+      "name": "Lenningen",
+      "latitude": 49.60045,
+      "longitude": 6.36719,
+      "population": 338,
+      "populationRank": 249,
+      "isCapital": false
+    },
+    {
+      "id": "2960739",
+      "name": "Born",
+      "latitude": 49.75928,
+      "longitude": 6.51227,
+      "population": 336,
+      "populationRank": 250,
+      "isCapital": false
+    },
+    {
+      "id": "2960180",
+      "name": "Pintsch",
+      "latitude": 49.99444,
+      "longitude": 6.01306,
+      "population": 335,
+      "populationRank": 251,
+      "isCapital": false
+    },
+    {
+      "id": "2960595",
+      "name": "Esch sur Sûre",
+      "latitude": 49.91139,
+      "longitude": 5.93639,
+      "population": 333,
+      "populationRank": 252,
+      "isCapital": false
+    },
+    {
+      "id": "2960002",
+      "name": "Weicherdange",
+      "latitude": 50.03833,
+      "longitude": 5.98944,
+      "population": 331,
+      "populationRank": 253,
+      "isCapital": false
+    },
+    {
+      "id": "2960676",
+      "name": "Colpach Haut",
+      "latitude": 49.76861,
+      "longitude": 5.82,
+      "population": 329,
+      "populationRank": 254,
+      "isCapital": false
+    },
+    {
+      "id": "2960436",
+      "name": "Holzthum",
+      "latitude": 49.985,
+      "longitude": 6.07333,
+      "population": 327,
+      "populationRank": 255,
+      "isCapital": false
+    },
+    {
+      "id": "2960438",
+      "name": "Holtz",
+      "latitude": 49.80722,
+      "longitude": 5.79167,
+      "population": 320,
+      "populationRank": 256,
+      "isCapital": false
+    },
+    {
+      "id": "2960432",
+      "name": "Hoscheid",
+      "latitude": 49.94722,
+      "longitude": 6.08167,
+      "population": 319,
+      "populationRank": 257,
+      "isCapital": false
+    },
+    {
+      "id": "2960120",
+      "name": "Saeul",
+      "latitude": 49.72722,
+      "longitude": 5.98639,
+      "population": 316,
+      "populationRank": 258,
+      "isCapital": false
+    },
+    {
+      "id": "2960373",
+      "name": "Knaphoscheid",
+      "latitude": 50.01333,
+      "longitude": 5.96472,
+      "population": 313,
+      "populationRank": 259,
+      "isCapital": false
+    },
+    {
+      "id": "2960517",
+      "name": "Grevenknapp",
+      "latitude": 49.7625,
+      "longitude": 6.03389,
+      "population": 305,
+      "populationRank": 260,
+      "isCapital": false
+    },
+    {
+      "id": "2960327",
+      "name": "Lipperscheid",
+      "latitude": 49.91861,
+      "longitude": 6.08667,
+      "population": 304,
+      "populationRank": 261,
+      "isCapital": false
+    },
+    {
+      "id": "2960704",
+      "name": "Burmerange",
+      "latitude": 49.48528,
+      "longitude": 6.32306,
+      "population": 303,
+      "populationRank": 262,
+      "isCapital": false
+    },
+    {
+      "id": "2960272",
+      "name": "Merscheid",
+      "latitude": 49.87107,
+      "longitude": 5.96995,
+      "population": 302,
+      "populationRank": 263,
+      "isCapital": false
+    },
+    {
+      "id": "2960615",
+      "name": "Ellange",
+      "latitude": 49.52,
+      "longitude": 6.29833,
+      "population": 299,
+      "populationRank": 264,
+      "isCapital": false
+    },
+    {
+      "id": "2960674",
+      "name": "Consthum",
+      "latitude": 49.97472,
+      "longitude": 6.05417,
+      "population": 299,
+      "populationRank": 265,
+      "isCapital": false
+    },
+    {
+      "id": "2960078",
+      "name": "Schweich",
+      "latitude": 49.72278,
+      "longitude": 5.9275,
+      "population": 293,
+      "populationRank": 266,
+      "isCapital": false
+    },
+    {
+      "id": "2960244",
+      "name": "Nagem",
+      "latitude": 49.78917,
+      "longitude": 5.85778,
+      "population": 292,
+      "populationRank": 267,
+      "isCapital": false
+    },
+    {
+      "id": "2960829",
+      "name": "Angelsberg",
+      "latitude": 49.75639,
+      "longitude": 6.16083,
+      "population": 292,
+      "populationRank": 268,
+      "isCapital": false
+    },
+    {
+      "id": "2960842",
+      "name": "Ahn",
+      "latitude": 49.62444,
+      "longitude": 6.42167,
+      "population": 284,
+      "populationRank": 269,
+      "isCapital": false
+    },
+    {
+      "id": "2960209",
+      "name": "Oberfeulen",
+      "latitude": 49.84806,
+      "longitude": 6.03556,
+      "population": 283,
+      "populationRank": 270,
+      "isCapital": false
+    },
+    {
+      "id": "2960431",
+      "name": "Hoscheiderdickt",
+      "nativeName": "Hoscheid-Dickt",
+      "latitude": 49.97306,
+      "longitude": 6.09167,
+      "population": 278,
+      "populationRank": 271,
+      "isCapital": false
+    },
+    {
+      "id": "2960803",
+      "name": "Beidweiler",
+      "latitude": 49.72333,
+      "longitude": 6.3025,
+      "population": 277,
+      "populationRank": 272,
+      "isCapital": false
+    },
+    {
+      "id": "2960195",
+      "name": "Ospern",
+      "latitude": 49.78389,
+      "longitude": 5.90444,
+      "population": 276,
+      "populationRank": 273,
+      "isCapital": false
+    },
+    {
+      "id": "2960734",
+      "name": "Bourscheid",
+      "latitude": 49.90862,
+      "longitude": 6.0675,
+      "population": 275,
+      "populationRank": 274,
+      "isCapital": false
+    },
+    {
+      "id": "2960730",
+      "name": "Brachtenbach",
+      "latitude": 50.02139,
+      "longitude": 5.91139,
+      "population": 274,
+      "populationRank": 275,
+      "isCapital": false
+    },
+    {
+      "id": "2960050",
+      "name": "Surré",
+      "latitude": 49.90306,
+      "longitude": 5.78,
+      "population": 272,
+      "populationRank": 276,
+      "isCapital": false
+    },
+    {
+      "id": "2960216",
+      "name": "Nommern",
+      "latitude": 49.78694,
+      "longitude": 6.17472,
+      "population": 272,
+      "populationRank": 277,
+      "isCapital": false
+    },
+    {
+      "id": "2960649",
+      "name": "Dillingen",
+      "latitude": 49.85361,
+      "longitude": 6.31917,
+      "population": 271,
+      "populationRank": 278,
+      "isCapital": false
+    },
+    {
+      "id": "2960223",
+      "name": "Niederwampach",
+      "latitude": 50.01167,
+      "longitude": 5.84361,
+      "population": 269,
+      "populationRank": 279,
+      "isCapital": false
+    },
+    {
+      "id": "6691847",
+      "name": "Wallendorf Pont",
+      "latitude": 49.8739,
+      "longitude": 6.28674,
+      "population": 268,
+      "populationRank": 280,
+      "isCapital": false
+    },
+    {
+      "id": "2960241",
+      "name": "Neihaischen",
+      "nativeName": "Neuhaeusgen",
+      "latitude": 49.62483,
+      "longitude": 6.23408,
+      "population": 264,
+      "populationRank": 281,
+      "isCapital": false
+    },
+    {
+      "id": "2960342",
+      "name": "Lellig",
+      "latitude": 49.71611,
+      "longitude": 6.43639,
+      "population": 263,
+      "populationRank": 282,
+      "isCapital": false
+    },
+    {
+      "id": "2960609",
+      "name": "Eppeldorf",
+      "latitude": 49.84444,
+      "longitude": 6.24972,
+      "population": 263,
+      "populationRank": 283,
+      "isCapital": false
+    },
+    {
+      "id": "2960247",
+      "name": "Munshausen",
+      "latitude": 50.03361,
+      "longitude": 6.03861,
+      "population": 261,
+      "populationRank": 284,
+      "isCapital": false
+    },
+    {
+      "id": "2960528",
+      "name": "Gralingen",
+      "latitude": 49.93694,
+      "longitude": 6.10167,
+      "population": 261,
+      "populationRank": 285,
+      "isCapital": false
+    },
+    {
+      "id": "2960638",
+      "name": "Drauffelt",
+      "latitude": 50.01778,
+      "longitude": 6.00611,
+      "population": 261,
+      "populationRank": 286,
+      "isCapital": false
+    },
+    {
+      "id": "2960534",
+      "name": "Goesdorf",
+      "latitude": 49.92131,
+      "longitude": 5.96601,
+      "population": 251,
+      "populationRank": 287,
+      "isCapital": false
+    },
+    {
+      "id": "2959972",
+      "name": "Wilwerwiltz",
+      "latitude": 49.98889,
+      "longitude": 5.99917,
+      "population": 249,
+      "populationRank": 288,
+      "isCapital": false
+    },
+    {
+      "id": "2960183",
+      "name": "Pettingen",
+      "latitude": 49.77028,
+      "longitude": 6.10917,
+      "population": 248,
+      "populationRank": 289,
+      "isCapital": false
+    },
+    {
+      "id": "2960774",
+      "name": "Betzdorf",
+      "latitude": 49.68333,
+      "longitude": 6.35,
+      "population": 248,
+      "populationRank": 290,
+      "isCapital": false
+    },
+    {
+      "id": "2960234",
+      "name": "Neunhausen",
+      "latitude": 49.87672,
+      "longitude": 5.88597,
+      "population": 246,
+      "populationRank": 291,
+      "isCapital": false
+    },
+    {
+      "id": "2960157",
+      "name": "Reimberg",
+      "latitude": 49.79722,
+      "longitude": 5.95389,
+      "population": 245,
+      "populationRank": 292,
+      "isCapital": false
+    },
+    {
+      "id": "2960827",
+      "name": "Arsdorf",
+      "latitude": 49.86139,
+      "longitude": 5.84389,
+      "population": 241,
+      "populationRank": 293,
+      "isCapital": false
+    },
+    {
+      "id": "2960089",
+      "name": "Schoenfels",
+      "latitude": 49.71889,
+      "longitude": 6.09222,
+      "population": 237,
+      "populationRank": 294,
+      "isCapital": false
+    },
+    {
+      "id": "2960017",
+      "name": "Wahl",
+      "latitude": 49.83667,
+      "longitude": 5.90639,
+      "population": 235,
+      "populationRank": 295,
+      "isCapital": false
+    },
+    {
+      "id": "2960486",
+      "name": "Hautbellain",
+      "latitude": 50.15667,
+      "longitude": 5.97861,
+      "population": 233,
+      "populationRank": 296,
+      "isCapital": false
+    },
+    {
+      "id": "2960111",
+      "name": "Schandel",
+      "latitude": 49.79222,
+      "longitude": 5.97583,
+      "population": 232,
+      "populationRank": 297,
+      "isCapital": false
+    },
+    {
+      "id": "2960644",
+      "name": "Doncols",
+      "latitude": 49.97,
+      "longitude": 5.83722,
+      "population": 232,
+      "populationRank": 298,
+      "isCapital": false
+    },
+    {
+      "id": "2960780",
+      "name": "Bettborn",
+      "latitude": 49.79528,
+      "longitude": 5.94111,
+      "population": 231,
+      "populationRank": 299,
+      "isCapital": false
+    },
+    {
+      "id": "2960211",
+      "name": "Oberdonven",
+      "latitude": 49.64667,
+      "longitude": 6.40056,
+      "population": 229,
+      "populationRank": 300,
       "isCapital": false
     }
   ]

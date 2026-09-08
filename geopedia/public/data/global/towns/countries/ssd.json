@@ -29,12 +29,41 @@
       "isCapital": false
     },
     {
+      "id": "366167",
+      "name": "Terekeka",
+      "latitude": 5.44389,
+      "longitude": 31.75083,
+      "population": 176030,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
       "id": "370737",
       "name": "Malakal",
       "latitude": 9.53342,
       "longitude": 31.66049,
       "population": 160765,
-      "populationRank": 4,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "9257722",
+      "name": "Rubkona",
+      "nativeName": "Rubkona Market",
+      "latitude": 9.29349,
+      "longitude": 29.7892,
+      "population": 149679,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "373571",
+      "name": "Ikoto",
+      "nativeName": "Ikotos",
+      "latitude": 4.07953,
+      "longitude": 33.10888,
+      "population": 129620,
+      "populationRank": 7,
       "isCapital": false
     },
     {
@@ -43,7 +72,7 @@
       "latitude": 7.70111,
       "longitude": 27.98972,
       "population": 127384,
-      "populationRank": 5,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -53,7 +82,7 @@
       "latitude": 8.30278,
       "longitude": 27.98,
       "population": 78000,
-      "populationRank": 6,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -62,7 +91,7 @@
       "latitude": 3.86512,
       "longitude": 32.48212,
       "population": 49000,
-      "populationRank": 7,
+      "populationRank": 10,
       "isCapital": false
     },
     {
@@ -71,7 +100,7 @@
       "latitude": 8.53324,
       "longitude": 28.10037,
       "population": 44600,
-      "populationRank": 8,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -80,7 +109,7 @@
       "latitude": 4.57083,
       "longitude": 28.39417,
       "population": 40382,
-      "populationRank": 9,
+      "populationRank": 12,
       "isCapital": false
     },
     {
@@ -89,7 +118,7 @@
       "latitude": 8.76194,
       "longitude": 27.39194,
       "population": 38745,
-      "populationRank": 10,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -98,7 +127,7 @@
       "latitude": 6.80619,
       "longitude": 29.67742,
       "population": 32083,
-      "populationRank": 11,
+      "populationRank": 14,
       "isCapital": false
     },
     {
@@ -107,7 +136,7 @@
       "latitude": 6.20889,
       "longitude": 31.55861,
       "population": 26782,
-      "populationRank": 12,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -116,7 +145,7 @@
       "latitude": 4.41177,
       "longitude": 32.57046,
       "population": 20048,
-      "populationRank": 13,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -126,7 +155,7 @@
       "latitude": 8.30306,
       "longitude": 30.14056,
       "population": 17827,
-      "populationRank": 14,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -135,7 +164,7 @@
       "latitude": 7.27389,
       "longitude": 28.6775,
       "population": 17338,
-      "populationRank": 15,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -145,7 +174,7 @@
       "latitude": 9.27345,
       "longitude": 24.41701,
       "population": 16000,
-      "populationRank": 16,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -154,7 +183,7 @@
       "latitude": 4.91667,
       "longitude": 29.46944,
       "population": 14224,
-      "populationRank": 17,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -163,7 +192,7 @@
       "latitude": 6.5525,
       "longitude": 30.49806,
       "population": 11650,
-      "populationRank": 18,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -172,7 +201,7 @@
       "latitude": 5.6,
       "longitude": 27.46667,
       "population": 9500,
-      "populationRank": 19,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -181,7 +210,7 @@
       "latitude": 9.88889,
       "longitude": 32.10944,
       "population": 7709,
-      "populationRank": 20,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -191,7 +220,7 @@
       "latitude": 9.25722,
       "longitude": 29.79833,
       "population": 7653,
-      "populationRank": 21,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -200,7 +229,7 @@
       "latitude": 4.77222,
       "longitude": 33.59139,
       "population": 7042,
-      "populationRank": 22,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -209,7 +238,17 @@
       "latitude": 8.4675,
       "longitude": 25.67833,
       "population": 3700,
-      "populationRank": 23,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "379792",
+      "name": "Akobo",
+      "nativeName": "köbɛ",
+      "latitude": 7.79111,
+      "longitude": 33.00444,
+      "population": 1000,
+      "populationRank": 27,
       "isCapital": false
     }
   ]

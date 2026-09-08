@@ -2,8 +2,7 @@
   "towns": [
     {
       "id": "456172",
-      "name": "Riga",
-      "nativeName": "Rīga",
+      "name": "Rīga",
       "latitude": 56.946,
       "longitude": 24.10589,
       "population": 742572,
@@ -21,8 +20,7 @@
     },
     {
       "id": "457954",
-      "name": "Liepaja",
-      "nativeName": "Liepāja",
+      "name": "Liepāja",
       "latitude": 56.50474,
       "longitude": 21.01085,
       "population": 67421,
@@ -48,22 +46,30 @@
       "isCapital": false
     },
     {
+      "id": "456090",
+      "name": "Ropaži",
+      "latitude": 56.9747,
+      "longitude": 24.63295,
+      "population": 35175,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
       "id": "454310",
       "name": "Ventspils",
       "latitude": 57.39485,
       "longitude": 21.56121,
       "population": 32723,
-      "populationRank": 6,
+      "populationRank": 7,
       "isCapital": false
     },
     {
       "id": "456202",
-      "name": "Rezekne",
-      "nativeName": "Rēzekne",
+      "name": "Rēzekne",
       "latitude": 56.51028,
       "longitude": 27.34,
       "population": 26429,
-      "populationRank": 7,
+      "populationRank": 8,
       "isCapital": false
     },
     {
@@ -72,7 +78,7 @@
       "latitude": 57.54108,
       "longitude": 25.42751,
       "population": 22812,
-      "populationRank": 8,
+      "populationRank": 9,
       "isCapital": false
     },
     {
@@ -81,7 +87,16 @@
       "latitude": 56.8162,
       "longitude": 24.61401,
       "population": 22767,
-      "populationRank": 9,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "461649",
+      "name": "Kadaga",
+      "latitude": 57.09535,
+      "longitude": 24.36591,
+      "population": 21134,
+      "populationRank": 11,
       "isCapital": false
     },
     {
@@ -90,7 +105,7 @@
       "latitude": 56.49903,
       "longitude": 25.85735,
       "population": 21014,
-      "populationRank": 10,
+      "populationRank": 12,
       "isCapital": false
     },
     {
@@ -99,7 +114,7 @@
       "latitude": 56.90544,
       "longitude": 24.05113,
       "population": 19096,
-      "populationRank": 11,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -108,7 +123,7 @@
       "latitude": 56.86014,
       "longitude": 24.36544,
       "population": 17826,
-      "populationRank": 12,
+      "populationRank": 14,
       "isCapital": false
     },
     {
@@ -117,7 +132,7 @@
       "latitude": 56.96764,
       "longitude": 23.15554,
       "population": 16182,
-      "populationRank": 13,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -126,7 +141,7 @@
       "latitude": 57.31188,
       "longitude": 25.27456,
       "population": 15020,
-      "populationRank": 14,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -135,7 +150,7 @@
       "latitude": 57.15375,
       "longitude": 24.85953,
       "population": 14757,
-      "populationRank": 15,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -144,7 +159,7 @@
       "latitude": 56.97399,
       "longitude": 21.95721,
       "population": 9863,
-      "populationRank": 16,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -153,7 +168,7 @@
       "latitude": 56.4071,
       "longitude": 24.18733,
       "population": 9709,
-      "populationRank": 17,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -162,7 +177,17 @@
       "latitude": 56.79583,
       "longitude": 23.93726,
       "population": 9654,
-      "populationRank": 18,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "455223",
+      "name": "Stopiņi",
+      "nativeName": "Ūlupji",
+      "latitude": 56.93333,
+      "longitude": 24.38333,
+      "population": 9577,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -171,7 +196,7 @@
       "latitude": 56.66363,
       "longitude": 22.48807,
       "population": 9553,
-      "populationRank": 19,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -180,7 +205,7 @@
       "latitude": 56.29444,
       "longitude": 26.72459,
       "population": 9553,
-      "populationRank": 20,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -189,7 +214,16 @@
       "latitude": 57.24562,
       "longitude": 22.58137,
       "population": 8673,
-      "populationRank": 21,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "460689",
+      "name": "Burtnieki",
+      "latitude": 57.69452,
+      "longitude": 25.27525,
+      "population": 8657,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -198,7 +232,7 @@
       "latitude": 56.62372,
       "longitude": 23.2751,
       "population": 8536,
-      "populationRank": 22,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -207,7 +241,7 @@
       "latitude": 56.72108,
       "longitude": 21.60156,
       "population": 8083,
-      "populationRank": 23,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -216,7 +250,7 @@
       "latitude": 56.83399,
       "longitude": 24.49679,
       "population": 7448,
-      "populationRank": 24,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -225,17 +259,25 @@
       "latitude": 56.53373,
       "longitude": 27.72155,
       "population": 7332,
-      "populationRank": 25,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "458695",
+      "name": "Kocēni",
+      "latitude": 57.52057,
+      "longitude": 25.33821,
+      "population": 7031,
+      "populationRank": 30,
       "isCapital": false
     },
     {
       "id": "458623",
-      "name": "Kraslava",
-      "nativeName": "Krāslava",
+      "name": "Krāslava",
       "latitude": 55.89514,
       "longitude": 27.16799,
       "population": 6797,
-      "populationRank": 26,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -244,7 +286,7 @@
       "latitude": 56.35431,
       "longitude": 26.17579,
       "population": 6790,
-      "populationRank": 27,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -253,7 +295,7 @@
       "latitude": 56.87643,
       "longitude": 24.11825,
       "population": 6780,
-      "populationRank": 28,
+      "populationRank": 33,
       "isCapital": false
     },
     {
@@ -262,7 +304,16 @@
       "latitude": 57.0708,
       "longitude": 24.33678,
       "population": 6734,
-      "populationRank": 29,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "456089",
+      "name": "Garkalne",
+      "latitude": 57.04486,
+      "longitude": 24.41951,
+      "population": 6722,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -271,7 +322,16 @@
       "latitude": 57.17767,
       "longitude": 26.75291,
       "population": 6722,
-      "populationRank": 30,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "459863",
+      "name": "Garkalne",
+      "latitude": 57.07336,
+      "longitude": 24.42442,
+      "population": 6722,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -280,7 +340,7 @@
       "latitude": 56.60477,
       "longitude": 25.25534,
       "population": 6689,
-      "populationRank": 31,
+      "populationRank": 38,
       "isCapital": false
     },
     {
@@ -289,7 +349,7 @@
       "latitude": 56.85329,
       "longitude": 26.21698,
       "population": 6575,
-      "populationRank": 32,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -298,7 +358,25 @@
       "latitude": 57.51287,
       "longitude": 24.71941,
       "population": 6517,
-      "populationRank": 33,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "456185",
+      "name": "Riebiņi",
+      "latitude": 56.3428,
+      "longitude": 26.79995,
+      "population": 6331,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "460659",
+      "name": "Carnikava",
+      "latitude": 57.12935,
+      "longitude": 24.28423,
+      "population": 6261,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -307,7 +385,16 @@
       "latitude": 57.4215,
       "longitude": 27.04672,
       "population": 6188,
-      "populationRank": 34,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "454714",
+      "name": "Ulbroka",
+      "latitude": 56.9363,
+      "longitude": 24.30387,
+      "population": 5893,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -316,7 +403,16 @@
       "latitude": 56.72066,
       "longitude": 24.80743,
       "population": 5873,
-      "populationRank": 35,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "458574",
+      "name": "Sunīši",
+      "latitude": 57.15709,
+      "longitude": 24.70378,
+      "population": 5803,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -325,7 +421,16 @@
       "latitude": 57.1313,
       "longitude": 27.26583,
       "population": 5652,
-      "populationRank": 36,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "461225",
+      "name": "Vārpas",
+      "latitude": 56.70648,
+      "longitude": 24.3517,
+      "population": 5502,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -334,7 +439,7 @@
       "latitude": 56.82662,
       "longitude": 24.23,
       "population": 5446,
-      "populationRank": 37,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -343,7 +448,7 @@
       "latitude": 56.78405,
       "longitude": 27.68829,
       "population": 5127,
-      "populationRank": 38,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -352,7 +457,7 @@
       "latitude": 57.42444,
       "longitude": 25.90164,
       "population": 5073,
-      "populationRank": 39,
+      "populationRank": 51,
       "isCapital": false
     },
     {
@@ -361,7 +466,7 @@
       "latitude": 57.7752,
       "longitude": 26.01013,
       "population": 4615,
-      "populationRank": 40,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -370,7 +475,34 @@
       "latitude": 57.76723,
       "longitude": 24.87743,
       "population": 4520,
-      "populationRank": 41,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "455915",
+      "name": "Sala",
+      "latitude": 56.50675,
+      "longitude": 25.76423,
+      "population": 4415,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "456272",
+      "name": "Rauna",
+      "latitude": 57.33173,
+      "longitude": 25.60947,
+      "population": 4112,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "457676",
+      "name": "Mālpils",
+      "latitude": 57.0101,
+      "longitude": 24.95783,
+      "population": 4103,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -379,7 +511,7 @@
       "latitude": 56.59766,
       "longitude": 24.20763,
       "population": 4000,
-      "populationRank": 42,
+      "populationRank": 57,
       "isCapital": false
     },
     {
@@ -388,7 +520,7 @@
       "latitude": 56.53521,
       "longitude": 21.16782,
       "population": 3674,
-      "populationRank": 43,
+      "populationRank": 58,
       "isCapital": false
     },
     {
@@ -397,7 +529,43 @@
       "latitude": 56.74451,
       "longitude": 24.40078,
       "population": 3664,
-      "populationRank": 44,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "459379",
+      "name": "Jaunmārupe",
+      "latitude": 56.87459,
+      "longitude": 23.93869,
+      "population": 3419,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "459984",
+      "name": "Cibla",
+      "latitude": 56.5498,
+      "longitude": 27.8837,
+      "population": 3410,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "456954",
+      "name": "Ozolnieki",
+      "latitude": 56.68986,
+      "longitude": 23.7761,
+      "population": 3400,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "454910",
+      "name": "Tērvete",
+      "latitude": 56.47989,
+      "longitude": 23.38895,
+      "population": 3273,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -406,7 +574,7 @@
       "latitude": 57.04087,
       "longitude": 22.77466,
       "population": 3232,
-      "populationRank": 45,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -415,7 +583,7 @@
       "latitude": 57.09358,
       "longitude": 24.54468,
       "population": 3192,
-      "populationRank": 46,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -424,7 +592,43 @@
       "latitude": 57.26224,
       "longitude": 24.41471,
       "population": 3124,
-      "populationRank": 47,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "457142",
+      "name": "Nīca",
+      "latitude": 56.34601,
+      "longitude": 21.06401,
+      "population": 3113,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "456685",
+      "name": "Piņķi",
+      "latitude": 56.94189,
+      "longitude": 23.91365,
+      "population": 3033,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "461064",
+      "name": "Berģi",
+      "latitude": 56.98639,
+      "longitude": 24.29917,
+      "population": 2950,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "454602",
+      "name": "Vaiņode",
+      "latitude": 56.41848,
+      "longitude": 21.85405,
+      "population": 2932,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -433,7 +637,7 @@
       "latitude": 56.65163,
       "longitude": 25.43637,
       "population": 2906,
-      "populationRank": 48,
+      "populationRank": 71,
       "isCapital": false
     },
     {
@@ -442,7 +646,7 @@
       "latitude": 56.6178,
       "longitude": 25.72552,
       "population": 2864,
-      "populationRank": 49,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -451,7 +655,16 @@
       "latitude": 56.6789,
       "longitude": 22.56945,
       "population": 2834,
-      "populationRank": 50,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "459359",
+      "name": "Jaunpiebalga",
+      "latitude": 57.17745,
+      "longitude": 26.0284,
+      "population": 2721,
+      "populationRank": 74,
       "isCapital": false
     },
     {
@@ -460,7 +673,16 @@
       "latitude": 56.55253,
       "longitude": 26.92449,
       "population": 2696,
-      "populationRank": 51,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "456015",
+      "name": "Rugāji",
+      "latitude": 57.00325,
+      "longitude": 27.13371,
+      "population": 2679,
+      "populationRank": 76,
       "isCapital": false
     },
     {
@@ -469,7 +691,16 @@
       "latitude": 57.89752,
       "longitude": 25.33155,
       "population": 2633,
-      "populationRank": 52,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "459102",
+      "name": "Kalnciems",
+      "latitude": 56.79908,
+      "longitude": 23.61503,
+      "population": 2548,
+      "populationRank": 78,
       "isCapital": false
     },
     {
@@ -478,7 +709,7 @@
       "latitude": 56.16152,
       "longitude": 25.74783,
       "population": 2546,
-      "populationRank": 53,
+      "populationRank": 79,
       "isCapital": false
     },
     {
@@ -487,7 +718,79 @@
       "latitude": 57.75312,
       "longitude": 24.35895,
       "population": 2480,
-      "populationRank": 54,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "455773",
+      "name": "Sēja",
+      "latitude": 57.20028,
+      "longitude": 24.59364,
+      "population": 2464,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "455523",
+      "name": "Skrīveri",
+      "latitude": 56.645,
+      "longitude": 25.12058,
+      "population": 2424,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "454372",
+      "name": "Vecvārkava",
+      "latitude": 56.19838,
+      "longitude": 26.50811,
+      "population": 2412,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "454520",
+      "name": "Vārkava",
+      "latitude": 56.24745,
+      "longitude": 26.56631,
+      "population": 2412,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "460285",
+      "name": "Drabeši",
+      "latitude": 57.24316,
+      "longitude": 25.27748,
+      "population": 2323,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "457161",
+      "name": "Naukšēni",
+      "latitude": 57.88349,
+      "longitude": 25.45609,
+      "population": 2316,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "460001",
+      "name": "Ērgļi",
+      "latitude": 56.89752,
+      "longitude": 25.63668,
+      "population": 2186,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "459220",
+      "name": "Jumprava",
+      "latitude": 56.67613,
+      "longitude": 24.9721,
+      "population": 2177,
+      "populationRank": 88,
       "isCapital": false
     },
     {
@@ -496,7 +799,34 @@
       "latitude": 56.45981,
       "longitude": 22.90169,
       "population": 2154,
-      "populationRank": 55,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "456503",
+      "name": "Priekuļi",
+      "latitude": 57.315,
+      "longitude": 25.36147,
+      "population": 2136,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "454273",
+      "name": "Vecumnieki",
+      "latitude": 56.60608,
+      "longitude": 24.52232,
+      "population": 2103,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "454848",
+      "name": "Tīreļi",
+      "latitude": 56.83991,
+      "longitude": 23.58902,
+      "population": 2103,
+      "populationRank": 92,
       "isCapital": false
     },
     {
@@ -505,7 +835,7 @@
       "latitude": 56.7451,
       "longitude": 24.72439,
       "population": 2065,
-      "populationRank": 56,
+      "populationRank": 93,
       "isCapital": false
     },
     {
@@ -514,7 +844,16 @@
       "latitude": 55.97754,
       "longitude": 26.29655,
       "population": 2036,
-      "populationRank": 57,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "459563",
+      "name": "Inčukalns",
+      "latitude": 57.09867,
+      "longitude": 24.6863,
+      "population": 2028,
+      "populationRank": 95,
       "isCapital": false
     },
     {
@@ -523,7 +862,7 @@
       "latitude": 56.61319,
       "longitude": 25.08316,
       "population": 1938,
-      "populationRank": 58,
+      "populationRank": 96,
       "isCapital": false
     },
     {
@@ -532,7 +871,7 @@
       "latitude": 56.90425,
       "longitude": 26.71606,
       "population": 1918,
-      "populationRank": 59,
+      "populationRank": 97,
       "isCapital": false
     },
     {
@@ -541,7 +880,16 @@
       "latitude": 56.38616,
       "longitude": 28.12165,
       "population": 1897,
-      "populationRank": 60,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "457408",
+      "name": "Mērsrags",
+      "latitude": 57.33535,
+      "longitude": 23.12455,
+      "population": 1860,
+      "populationRank": 99,
       "isCapital": false
     },
     {
@@ -550,7 +898,16 @@
       "latitude": 56.44679,
       "longitude": 21.58968,
       "population": 1843,
-      "populationRank": 61,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "456107",
+      "name": "Roja",
+      "latitude": 57.50146,
+      "longitude": 22.80881,
+      "population": 1800,
+      "populationRank": 101,
       "isCapital": false
     },
     {
@@ -559,7 +916,7 @@
       "latitude": 56.09512,
       "longitude": 27.53723,
       "population": 1773,
-      "populationRank": 62,
+      "populationRank": 102,
       "isCapital": false
     },
     {
@@ -568,7 +925,16 @@
       "latitude": 56.67749,
       "longitude": 22.01649,
       "population": 1767,
-      "populationRank": 63,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "460187",
+      "name": "Dundaga",
+      "latitude": 57.50498,
+      "longitude": 22.35041,
+      "population": 1682,
+      "populationRank": 104,
       "isCapital": false
     },
     {
@@ -577,7 +943,16 @@
       "latitude": 56.60826,
       "longitude": 26.75377,
       "population": 1619,
-      "populationRank": 64,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "460019",
+      "name": "Engure",
+      "latitude": 57.16061,
+      "longitude": 23.22527,
+      "population": 1600,
+      "populationRank": 106,
       "isCapital": false
     },
     {
@@ -586,7 +961,16 @@
       "latitude": 57.14497,
       "longitude": 22.53482,
       "population": 1532,
-      "populationRank": 65,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "454722",
+      "name": "Ugāle",
+      "latitude": 57.27464,
+      "longitude": 22.03211,
+      "population": 1500,
+      "populationRank": 108,
       "isCapital": false
     },
     {
@@ -595,7 +979,25 @@
       "latitude": 56.34751,
       "longitude": 25.55514,
       "population": 1473,
-      "populationRank": 66,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "454173",
+      "name": "Vilce",
+      "latitude": 56.42032,
+      "longitude": 23.54781,
+      "population": 1455,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "461180",
+      "name": "Baltinava",
+      "latitude": 56.94394,
+      "longitude": 27.64401,
+      "population": 1387,
+      "populationRank": 111,
       "isCapital": false
     },
     {
@@ -604,7 +1006,16 @@
       "latitude": 57.04577,
       "longitude": 22.57261,
       "population": 1369,
-      "populationRank": 67,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "457148",
+      "name": "Nereta",
+      "latitude": 56.20279,
+      "longitude": 25.30752,
+      "population": 1282,
+      "populationRank": 113,
       "isCapital": false
     },
     {
@@ -613,7 +1024,7 @@
       "latitude": 57.86348,
       "longitude": 24.35853,
       "population": 1278,
-      "populationRank": 68,
+      "populationRank": 114,
       "isCapital": false
     },
     {
@@ -622,7 +1033,7 @@
       "latitude": 56.96754,
       "longitude": 26.30764,
       "population": 1210,
-      "populationRank": 69,
+      "populationRank": 115,
       "isCapital": false
     },
     {
@@ -631,7 +1042,7 @@
       "latitude": 57.18458,
       "longitude": 27.6722,
       "population": 1139,
-      "populationRank": 70,
+      "populationRank": 116,
       "isCapital": false
     },
     {
@@ -640,7 +1051,7 @@
       "latitude": 57.37068,
       "longitude": 22.59188,
       "population": 1135,
-      "populationRank": 71,
+      "populationRank": 117,
       "isCapital": false
     },
     {
@@ -649,7 +1060,7 @@
       "latitude": 57.65042,
       "longitude": 25.75089,
       "population": 1092,
-      "populationRank": 72,
+      "populationRank": 118,
       "isCapital": false
     },
     {
@@ -658,7 +1069,34 @@
       "latitude": 57.86329,
       "longitude": 25.05475,
       "population": 1092,
-      "populationRank": 73,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "459448",
+      "name": "Jaunaglona",
+      "latitude": 56.16066,
+      "longitude": 27.00714,
+      "population": 1053,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "457915",
+      "name": "Liezēre",
+      "latitude": 57.01823,
+      "longitude": 26.06395,
+      "population": 1041,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "459357",
+      "name": "Jaunpils",
+      "latitude": 56.73137,
+      "longitude": 23.01247,
+      "population": 1029,
+      "populationRank": 122,
       "isCapital": false
     },
     {
@@ -667,7 +1105,25 @@
       "latitude": 57.23429,
       "longitude": 25.04059,
       "population": 1017,
-      "populationRank": 74,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "460071",
+      "name": "Ēdole",
+      "latitude": 57.02065,
+      "longitude": 21.69113,
+      "population": 980,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "454002",
+      "name": "Zaķumuiža",
+      "latitude": 56.97033,
+      "longitude": 24.47894,
+      "population": 973,
+      "populationRank": 125,
       "isCapital": false
     },
     {
@@ -676,7 +1132,43 @@
       "latitude": 57.62574,
       "longitude": 25.68535,
       "population": 973,
-      "populationRank": 75,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "461534",
+      "name": "Alsunga",
+      "latitude": 56.98194,
+      "longitude": 21.55938,
+      "population": 940,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "455976",
+      "name": "Pilsrundāle",
+      "latitude": 56.42503,
+      "longitude": 23.987,
+      "population": 900,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "461631",
+      "name": "Aglona",
+      "latitude": 56.13274,
+      "longitude": 27.00682,
+      "population": 874,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "457004",
+      "name": "Ošupe",
+      "latitude": 56.85331,
+      "longitude": 26.74199,
+      "population": 871,
+      "populationRank": 130,
       "isCapital": false
     },
     {
@@ -685,7 +1177,16 @@
       "latitude": 56.88791,
       "longitude": 21.18593,
       "population": 858,
-      "populationRank": 76,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "455677",
+      "name": "Silene",
+      "latitude": 55.75284,
+      "longitude": 26.78508,
+      "population": 821,
+      "populationRank": 132,
       "isCapital": false
     },
     {
@@ -694,7 +1195,7 @@
       "latitude": 57.22426,
       "longitude": 21.67439,
       "population": 821,
-      "populationRank": 77,
+      "populationRank": 133,
       "isCapital": false
     },
     {
@@ -703,7 +1204,16 @@
       "latitude": 57.83579,
       "longitude": 24.74706,
       "population": 808,
-      "populationRank": 78,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "459099",
+      "name": "Kalngale",
+      "latitude": 57.07909,
+      "longitude": 24.15924,
+      "population": 775,
+      "populationRank": 135,
       "isCapital": false
     },
     {
@@ -712,7 +1222,43 @@
       "latitude": 57.53928,
       "longitude": 26.69291,
       "population": 773,
-      "populationRank": 79,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "455427",
+      "name": "Smārde",
+      "latitude": 56.9542,
+      "longitude": 23.33736,
+      "population": 734,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "457297",
+      "name": "Milzkalne",
+      "latitude": 56.97752,
+      "longitude": 23.22583,
+      "population": 689,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "456344",
+      "name": "Ragaciems",
+      "latitude": 57.02226,
+      "longitude": 23.49561,
+      "population": 670,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "454408",
+      "name": "Vecpiebalga",
+      "latitude": 57.0609,
+      "longitude": 25.81624,
+      "population": 596,
+      "populationRank": 140,
       "isCapital": false
     },
     {
@@ -721,7 +1267,16 @@
       "latitude": 56.0062,
       "longitude": 25.90756,
       "population": 596,
-      "populationRank": 80,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "456550",
+      "name": "Pope",
+      "latitude": 57.39799,
+      "longitude": 21.85241,
+      "population": 508,
+      "populationRank": 142,
       "isCapital": false
     },
     {
@@ -730,7 +1285,187 @@
       "latitude": 56.5887,
       "longitude": 21.36978,
       "population": 505,
-      "populationRank": 81,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "456050",
+      "name": "Rucava",
+      "latitude": 56.16314,
+      "longitude": 21.16156,
+      "population": 495,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "458682",
+      "name": "Kolka",
+      "latitude": 57.73988,
+      "longitude": 22.58575,
+      "population": 400,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "456278",
+      "name": "Rauda",
+      "latitude": 57.00882,
+      "longitude": 23.18185,
+      "population": 390,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "459204",
+      "name": "Jūrkalne",
+      "latitude": 57.00948,
+      "longitude": 21.39399,
+      "population": 368,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "457822",
+      "name": "Loja",
+      "latitude": 57.15336,
+      "longitude": 24.6433,
+      "population": 367,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "455755",
+      "name": "Sēme",
+      "latitude": 57.04223,
+      "longitude": 23.1272,
+      "population": 350,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "458455",
+      "name": "Ķūļciems",
+      "latitude": 57.2659,
+      "longitude": 23.03175,
+      "population": 320,
+      "populationRank": 150,
+      "isCapital": false
+    },
+    {
+      "id": "454656",
+      "name": "Usma",
+      "latitude": 57.21771,
+      "longitude": 22.1554,
+      "population": 296,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "8081253",
+      "name": "Beibeži",
+      "latitude": 56.58811,
+      "longitude": 24.44917,
+      "population": 263,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "461042",
+      "name": "Bērzciems",
+      "latitude": 57.24469,
+      "longitude": 23.17399,
+      "population": 260,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "457901",
+      "name": "Līksna",
+      "latitude": 55.98734,
+      "longitude": 26.40485,
+      "population": 248,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "456616",
+      "name": "Plieņciems",
+      "latitude": 57.08212,
+      "longitude": 23.26212,
+      "population": 230,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "460899",
+      "name": "Blonti",
+      "latitude": 56.6134,
+      "longitude": 27.77511,
+      "population": 229,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "458850",
+      "name": "Ķesterciems",
+      "latitude": 57.11401,
+      "longitude": 23.22845,
+      "population": 220,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "461413",
+      "name": "Apšuciems",
+      "latitude": 57.0613,
+      "longitude": 23.30872,
+      "population": 210,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "454685",
+      "name": "Upesgrīva",
+      "latitude": 57.38523,
+      "longitude": 23.01567,
+      "population": 200,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "458758",
+      "name": "Klapkalnciems",
+      "latitude": 57.03827,
+      "longitude": 23.36653,
+      "population": 160,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "459169",
+      "name": "Kaive",
+      "latitude": 57.06037,
+      "longitude": 23.02823,
+      "population": 140,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "460149",
+      "name": "Dzedri",
+      "latitude": 57.24959,
+      "longitude": 23.03588,
+      "population": 100,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "461662",
+      "name": "Abragciems",
+      "latitude": 57.20184,
+      "longitude": 23.20355,
+      "population": 70,
+      "populationRank": 163,
       "isCapital": false
     }
   ]

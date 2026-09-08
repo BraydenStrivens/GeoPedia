@@ -139,7 +139,7 @@
     },
     {
       "id": "3076127",
-      "name": "Frýdek-Místek",
+      "name": "Frýdek Místek",
       "latitude": 49.68333,
       "longitude": 18.35,
       "population": 53590,
@@ -562,7 +562,7 @@
     },
     {
       "id": "3078837",
-      "name": "Brandýs nad Labem-Stará Boleslav",
+      "name": "Brandýs nad Labem Stará Boleslav",
       "latitude": 50.18709,
       "longitude": 14.66326,
       "population": 20313,
@@ -1800,6 +1800,906 @@
       "longitude": 16.38787,
       "population": 6784,
       "populationRank": 200,
+      "isCapital": false
+    },
+    {
+      "id": "3070622",
+      "name": "Mimoň",
+      "latitude": 50.65869,
+      "longitude": 14.72474,
+      "population": 6692,
+      "populationRank": 201,
+      "isCapital": false
+    },
+    {
+      "id": "3079252",
+      "name": "Blatná",
+      "latitude": 49.42489,
+      "longitude": 13.88176,
+      "population": 6669,
+      "populationRank": 202,
+      "isCapital": false
+    },
+    {
+      "id": "3065335",
+      "name": "Staré Město",
+      "latitude": 49.07515,
+      "longitude": 17.43338,
+      "population": 6585,
+      "populationRank": 203,
+      "isCapital": false
+    },
+    {
+      "id": "3069150",
+      "name": "Odolena Voda",
+      "latitude": 50.23341,
+      "longitude": 14.41078,
+      "population": 6547,
+      "populationRank": 204,
+      "isCapital": false
+    },
+    {
+      "id": "3063033",
+      "name": "Veselí nad Lužnicí",
+      "latitude": 49.1843,
+      "longitude": 14.69734,
+      "population": 6534,
+      "populationRank": 205,
+      "isCapital": false
+    },
+    {
+      "id": "3074805",
+      "name": "Hronov",
+      "latitude": 50.47968,
+      "longitude": 16.1823,
+      "population": 6516,
+      "populationRank": 206,
+      "isCapital": false
+    },
+    {
+      "id": "3061562",
+      "name": "Železný Brod",
+      "latitude": 50.64274,
+      "longitude": 15.25408,
+      "population": 6442,
+      "populationRank": 207,
+      "isCapital": false
+    },
+    {
+      "id": "3070446",
+      "name": "Mníšek pod Brdy",
+      "latitude": 49.8665,
+      "longitude": 14.26176,
+      "population": 6432,
+      "populationRank": 208,
+      "isCapital": false
+    },
+    {
+      "id": "3075119",
+      "name": "Hořovice",
+      "latitude": 49.83597,
+      "longitude": 13.90268,
+      "population": 6431,
+      "populationRank": 209,
+      "isCapital": false
+    },
+    {
+      "id": "3074731",
+      "name": "Hulín",
+      "latitude": 49.31689,
+      "longitude": 17.46374,
+      "population": 6414,
+      "populationRank": 210,
+      "isCapital": false
+    },
+    {
+      "id": "3073407",
+      "name": "Kojetín",
+      "latitude": 49.35179,
+      "longitude": 17.30207,
+      "population": 6397,
+      "populationRank": 211,
+      "isCapital": false
+    },
+    {
+      "id": "3064510",
+      "name": "Světlá nad Sázavou",
+      "latitude": 49.66801,
+      "longitude": 15.40393,
+      "population": 6394,
+      "populationRank": 212,
+      "isCapital": false
+    },
+    {
+      "id": "3074677",
+      "name": "Hustopeče",
+      "latitude": 48.94085,
+      "longitude": 16.73762,
+      "population": 6391,
+      "populationRank": 213,
+      "isCapital": false
+    },
+    {
+      "id": "3062497",
+      "name": "Vratimov",
+      "latitude": 49.76995,
+      "longitude": 18.31015,
+      "population": 6378,
+      "populationRank": 214,
+      "isCapital": false
+    },
+    {
+      "id": "3067553",
+      "name": "Přeštice",
+      "latitude": 49.57298,
+      "longitude": 13.3335,
+      "population": 6353,
+      "populationRank": 215,
+      "isCapital": false
+    },
+    {
+      "id": "3063797",
+      "name": "Týniště nad Orlicí",
+      "latitude": 50.15136,
+      "longitude": 16.0777,
+      "population": 6342,
+      "populationRank": 216,
+      "isCapital": false
+    },
+    {
+      "id": "3068119",
+      "name": "Podbořany",
+      "latitude": 50.22937,
+      "longitude": 13.41192,
+      "population": 6253,
+      "populationRank": 217,
+      "isCapital": false
+    },
+    {
+      "id": "3075599",
+      "name": "Holice",
+      "latitude": 50.06601,
+      "longitude": 15.9859,
+      "population": 6219,
+      "populationRank": 218,
+      "isCapital": false
+    },
+    {
+      "id": "3062811",
+      "name": "Vítkov",
+      "latitude": 49.77445,
+      "longitude": 17.74941,
+      "population": 6202,
+      "populationRank": 219,
+      "isCapital": false
+    },
+    {
+      "id": "3072134",
+      "name": "Letohrad",
+      "latitude": 50.0358,
+      "longitude": 16.49879,
+      "population": 6195,
+      "populationRank": 220,
+      "isCapital": false
+    },
+    {
+      "id": "3073149",
+      "name": "Kostelec nad Orlicí",
+      "latitude": 50.12267,
+      "longitude": 16.21319,
+      "population": 6184,
+      "populationRank": 221,
+      "isCapital": false
+    },
+    {
+      "id": "3076329",
+      "name": "Dubňany",
+      "latitude": 48.91694,
+      "longitude": 17.09004,
+      "population": 6179,
+      "populationRank": 222,
+      "isCapital": false
+    },
+    {
+      "id": "3067953",
+      "name": "Pohořelice",
+      "latitude": 48.98119,
+      "longitude": 16.52445,
+      "population": 6126,
+      "populationRank": 223,
+      "isCapital": false
+    },
+    {
+      "id": "3061888",
+      "name": "Žamberk",
+      "latitude": 50.08601,
+      "longitude": 16.46738,
+      "population": 6082,
+      "populationRank": 224,
+      "isCapital": false
+    },
+    {
+      "id": "3062446",
+      "name": "Vrbno pod Pradědem",
+      "latitude": 50.12095,
+      "longitude": 17.38316,
+      "population": 6072,
+      "populationRank": 225,
+      "isCapital": false
+    },
+    {
+      "id": "3077584",
+      "name": "Chrastava",
+      "latitude": 50.81693,
+      "longitude": 14.96884,
+      "population": 6051,
+      "populationRank": 226,
+      "isCapital": false
+    },
+    {
+      "id": "3072235",
+      "name": "Ledeč nad Sázavou",
+      "latitude": 49.69517,
+      "longitude": 15.27772,
+      "population": 6048,
+      "populationRank": 227,
+      "isCapital": false
+    },
+    {
+      "id": "3064029",
+      "name": "Třešť",
+      "latitude": 49.29092,
+      "longitude": 15.48211,
+      "population": 5979,
+      "populationRank": 228,
+      "isCapital": false
+    },
+    {
+      "id": "3066719",
+      "name": "Rousínov",
+      "latitude": 49.20128,
+      "longitude": 16.88215,
+      "population": 5962,
+      "populationRank": 229,
+      "isCapital": false
+    },
+    {
+      "id": "3071606",
+      "name": "Lomnice nad Popelkou",
+      "latitude": 50.53062,
+      "longitude": 15.37341,
+      "population": 5957,
+      "populationRank": 230,
+      "isCapital": false
+    },
+    {
+      "id": "3064316",
+      "name": "Telč",
+      "latitude": 49.18418,
+      "longitude": 15.45275,
+      "population": 5883,
+      "populationRank": 231,
+      "isCapital": false
+    },
+    {
+      "id": "3075208",
+      "name": "Horní Slavkov",
+      "latitude": 50.13863,
+      "longitude": 12.80758,
+      "population": 5818,
+      "populationRank": 232,
+      "isCapital": false
+    },
+    {
+      "id": "3072927",
+      "name": "Králův Dvůr",
+      "latitude": 49.94981,
+      "longitude": 14.03445,
+      "population": 5805,
+      "populationRank": 233,
+      "isCapital": false
+    },
+    {
+      "id": "3074593",
+      "name": "Jablunkov",
+      "latitude": 49.57672,
+      "longitude": 18.76458,
+      "population": 5782,
+      "populationRank": 234,
+      "isCapital": false
+    },
+    {
+      "id": "3077073",
+      "name": "Dobřany",
+      "latitude": 49.65482,
+      "longitude": 13.29307,
+      "population": 5779,
+      "populationRank": 235,
+      "isCapital": false
+    },
+    {
+      "id": "3074187",
+      "name": "Jilemnice",
+      "latitude": 50.6089,
+      "longitude": 15.50653,
+      "population": 5777,
+      "populationRank": 236,
+      "isCapital": false
+    },
+    {
+      "id": "3070416",
+      "name": "Modřice",
+      "latitude": 49.11928,
+      "longitude": 16.60446,
+      "population": 5755,
+      "populationRank": 237,
+      "isCapital": false
+    },
+    {
+      "id": "3063804",
+      "name": "Týnec nad Sázavou",
+      "latitude": 49.83348,
+      "longitude": 14.58983,
+      "population": 5732,
+      "populationRank": 238,
+      "isCapital": false
+    },
+    {
+      "id": "3075522",
+      "name": "Horažďovice",
+      "latitude": 49.32069,
+      "longitude": 13.701,
+      "population": 5727,
+      "populationRank": 239,
+      "isCapital": false
+    },
+    {
+      "id": "3065768",
+      "name": "Šluknov",
+      "latitude": 51.00369,
+      "longitude": 14.45258,
+      "population": 5701,
+      "populationRank": 240,
+      "isCapital": false
+    },
+    {
+      "id": "3069431",
+      "name": "Nové Strašecí",
+      "latitude": 50.15272,
+      "longitude": 13.90043,
+      "population": 5686,
+      "populationRank": 241,
+      "isCapital": false
+    },
+    {
+      "id": "3070310",
+      "name": "Moravský Krumlov",
+      "latitude": 49.04893,
+      "longitude": 16.31169,
+      "population": 5667,
+      "populationRank": 242,
+      "isCapital": false
+    },
+    {
+      "id": "3064122",
+      "name": "Třebechovice pod Orebem",
+      "latitude": 50.20097,
+      "longitude": 15.99223,
+      "population": 5611,
+      "populationRank": 243,
+      "isCapital": false
+    },
+    {
+      "id": "3076136",
+      "name": "Františkovy Lázně",
+      "latitude": 50.12033,
+      "longitude": 12.35174,
+      "population": 5607,
+      "populationRank": 244,
+      "isCapital": false
+    },
+    {
+      "id": "3071407",
+      "name": "Luhačovice",
+      "latitude": 49.09982,
+      "longitude": 17.75747,
+      "population": 5554,
+      "populationRank": 245,
+      "isCapital": false
+    },
+    {
+      "id": "3065117",
+      "name": "Stochov",
+      "latitude": 50.14631,
+      "longitude": 13.96345,
+      "population": 5538,
+      "populationRank": 246,
+      "isCapital": false
+    },
+    {
+      "id": "3066599",
+      "name": "Rudná",
+      "latitude": 50.03502,
+      "longitude": 14.23435,
+      "population": 5502,
+      "populationRank": 247,
+      "isCapital": false
+    },
+    {
+      "id": "3063276",
+      "name": "Velká Bíteš",
+      "latitude": 49.28838,
+      "longitude": 16.22742,
+      "population": 5482,
+      "populationRank": 248,
+      "isCapital": false
+    },
+    {
+      "id": "3077932",
+      "name": "Česká Kamenice",
+      "latitude": 50.7978,
+      "longitude": 14.41767,
+      "population": 5475,
+      "populationRank": 249,
+      "isCapital": false
+    },
+    {
+      "id": "3076116",
+      "name": "Fulnek",
+      "latitude": 49.71238,
+      "longitude": 17.90319,
+      "population": 5472,
+      "populationRank": 250,
+      "isCapital": false
+    },
+    {
+      "id": "3066184",
+      "name": "Šenov",
+      "latitude": 49.79315,
+      "longitude": 18.37607,
+      "population": 5462,
+      "populationRank": 251,
+      "isCapital": false
+    },
+    {
+      "id": "3072497",
+      "name": "Kunovice",
+      "latitude": 49.04499,
+      "longitude": 17.47011,
+      "population": 5452,
+      "populationRank": 252,
+      "isCapital": false
+    },
+    {
+      "id": "3068246",
+      "name": "Planá",
+      "latitude": 49.86816,
+      "longitude": 12.74378,
+      "population": 5450,
+      "populationRank": 253,
+      "isCapital": false
+    },
+    {
+      "id": "3063590",
+      "name": "Úpice",
+      "latitude": 50.51237,
+      "longitude": 16.01607,
+      "population": 5448,
+      "populationRank": 254,
+      "isCapital": false
+    },
+    {
+      "id": "3074975",
+      "name": "Hradec nad Moravicí",
+      "latitude": 49.87042,
+      "longitude": 17.87843,
+      "population": 5444,
+      "populationRank": 255,
+      "isCapital": false
+    },
+    {
+      "id": "3061327",
+      "name": "Zubří",
+      "latitude": 49.46603,
+      "longitude": 18.09249,
+      "population": 5409,
+      "populationRank": 256,
+      "isCapital": false
+    },
+    {
+      "id": "3065249",
+      "name": "Starý Plzenec",
+      "latitude": 49.69768,
+      "longitude": 13.4735,
+      "population": 5403,
+      "populationRank": 257,
+      "isCapital": false
+    },
+    {
+      "id": "3077921",
+      "name": "Česká Skalice",
+      "latitude": 50.39467,
+      "longitude": 16.04276,
+      "population": 5402,
+      "populationRank": 258,
+      "isCapital": false
+    },
+    {
+      "id": "11524295",
+      "name": "Brumov Bylnice",
+      "latitude": 49.09177,
+      "longitude": 18.02238,
+      "population": 5372,
+      "populationRank": 259,
+      "isCapital": false
+    },
+    {
+      "id": "3079685",
+      "name": "Bakov nad Jizerou",
+      "latitude": 50.4823,
+      "longitude": 14.94149,
+      "population": 5355,
+      "populationRank": 260,
+      "isCapital": false
+    },
+    {
+      "id": "3076076",
+      "name": "Habartov",
+      "latitude": 50.18297,
+      "longitude": 12.55054,
+      "population": 5337,
+      "populationRank": 261,
+      "isCapital": false
+    },
+    {
+      "id": "3074181",
+      "name": "Jílové",
+      "latitude": 50.76082,
+      "longitude": 14.10383,
+      "population": 5307,
+      "populationRank": 262,
+      "isCapital": false
+    },
+    {
+      "id": "3063599",
+      "name": "Unhošť",
+      "latitude": 50.08535,
+      "longitude": 14.13007,
+      "population": 5292,
+      "populationRank": 263,
+      "isCapital": false
+    },
+    {
+      "id": "3077751",
+      "name": "Chlumec nad Cidlinou",
+      "latitude": 50.1544,
+      "longitude": 15.46026,
+      "population": 5292,
+      "populationRank": 264,
+      "isCapital": false
+    },
+    {
+      "id": "3064995",
+      "name": "Strážnice",
+      "latitude": 48.90102,
+      "longitude": 17.3168,
+      "population": 5282,
+      "populationRank": 265,
+      "isCapital": false
+    },
+    {
+      "id": "3074178",
+      "name": "Jílové u Prahy",
+      "latitude": 49.89545,
+      "longitude": 14.49333,
+      "population": 5262,
+      "populationRank": 266,
+      "isCapital": false
+    },
+    {
+      "id": "3077549",
+      "name": "Chropyně",
+      "latitude": 49.35644,
+      "longitude": 17.36451,
+      "population": 5172,
+      "populationRank": 267,
+      "isCapital": false
+    },
+    {
+      "id": "3068647",
+      "name": "Pacov",
+      "latitude": 49.47076,
+      "longitude": 15.00168,
+      "population": 5145,
+      "populationRank": 268,
+      "isCapital": false
+    },
+    {
+      "id": "3069230",
+      "name": "Nýrsko",
+      "latitude": 49.29387,
+      "longitude": 13.14353,
+      "population": 5070,
+      "populationRank": 269,
+      "isCapital": false
+    },
+    {
+      "id": "3064047",
+      "name": "Třemošná",
+      "latitude": 49.81584,
+      "longitude": 13.39499,
+      "population": 5052,
+      "populationRank": 270,
+      "isCapital": false
+    },
+    {
+      "id": "3076972",
+      "name": "Doksy",
+      "latitude": 50.56471,
+      "longitude": 14.65553,
+      "population": 5025,
+      "populationRank": 271,
+      "isCapital": false
+    },
+    {
+      "id": "3065921",
+      "name": "Skuteč",
+      "latitude": 49.84347,
+      "longitude": 15.99655,
+      "population": 5020,
+      "populationRank": 272,
+      "isCapital": false
+    },
+    {
+      "id": "3067870",
+      "name": "Polná",
+      "latitude": 49.487,
+      "longitude": 15.71881,
+      "population": 5006,
+      "populationRank": 273,
+      "isCapital": false
+    },
+    {
+      "id": "3073739",
+      "name": "Kdyně",
+      "latitude": 49.39077,
+      "longitude": 13.03968,
+      "population": 4985,
+      "populationRank": 274,
+      "isCapital": false
+    },
+    {
+      "id": "3077460",
+      "name": "Chýně",
+      "latitude": 50.06072,
+      "longitude": 14.22695,
+      "population": 4965,
+      "populationRank": 275,
+      "isCapital": false
+    },
+    {
+      "id": "3061332",
+      "name": "Zruč nad Sázavou",
+      "latitude": 49.7401,
+      "longitude": 15.10606,
+      "population": 4925,
+      "populationRank": 276,
+      "isCapital": false
+    },
+    {
+      "id": "3067770",
+      "name": "Postoloprty",
+      "latitude": 50.35979,
+      "longitude": 13.70291,
+      "population": 4924,
+      "populationRank": 277,
+      "isCapital": false
+    },
+    {
+      "id": "3075112",
+      "name": "Horšovský Týn",
+      "latitude": 49.52965,
+      "longitude": 12.94405,
+      "population": 4905,
+      "populationRank": 278,
+      "isCapital": false
+    },
+    {
+      "id": "3068476",
+      "name": "Pečky",
+      "latitude": 50.09043,
+      "longitude": 15.03017,
+      "population": 4874,
+      "populationRank": 279,
+      "isCapital": false
+    },
+    {
+      "id": "3068830",
+      "name": "Oslavany",
+      "latitude": 49.12335,
+      "longitude": 16.33653,
+      "population": 4873,
+      "populationRank": 280,
+      "isCapital": false
+    },
+    {
+      "id": "3063448",
+      "name": "Valašské Klobouky",
+      "latitude": 49.14064,
+      "longitude": 18.0076,
+      "population": 4864,
+      "populationRank": 281,
+      "isCapital": false
+    },
+    {
+      "id": "3075841",
+      "name": "Heřmanův Městec",
+      "latitude": 49.94707,
+      "longitude": 15.66492,
+      "population": 4841,
+      "populationRank": 282,
+      "isCapital": false
+    },
+    {
+      "id": "3079616",
+      "name": "Bechyně",
+      "latitude": 49.29523,
+      "longitude": 14.4681,
+      "population": 4815,
+      "populationRank": 283,
+      "isCapital": false
+    },
+    {
+      "id": "3079556",
+      "name": "Bělá pod Bezdězem",
+      "latitude": 50.50121,
+      "longitude": 14.80418,
+      "population": 4804,
+      "populationRank": 284,
+      "isCapital": false
+    },
+    {
+      "id": "3063400",
+      "name": "Vamberk",
+      "latitude": 50.11756,
+      "longitude": 16.29067,
+      "population": 4768,
+      "populationRank": 285,
+      "isCapital": false
+    },
+    {
+      "id": "3070055",
+      "name": "Náměšť nad Oslavou",
+      "latitude": 49.20726,
+      "longitude": 16.15849,
+      "population": 4767,
+      "populationRank": 286,
+      "isCapital": false
+    },
+    {
+      "id": "3062559",
+      "name": "Votice",
+      "latitude": 49.64013,
+      "longitude": 14.63809,
+      "population": 4760,
+      "populationRank": 287,
+      "isCapital": false
+    },
+    {
+      "id": "3067395",
+      "name": "Protivín",
+      "latitude": 49.19949,
+      "longitude": 14.21717,
+      "population": 4760,
+      "populationRank": 288,
+      "isCapital": false
+    },
+    {
+      "id": "3079082",
+      "name": "Bojkovice",
+      "latitude": 49.03864,
+      "longitude": 17.81487,
+      "population": 4742,
+      "populationRank": 289,
+      "isCapital": false
+    },
+    {
+      "id": "3064015",
+      "name": "Trhové Sviny",
+      "latitude": 48.84231,
+      "longitude": 14.63924,
+      "population": 4705,
+      "populationRank": 290,
+      "isCapital": false
+    },
+    {
+      "id": "3075731",
+      "name": "Hluboká nad Vltavou",
+      "latitude": 49.05225,
+      "longitude": 14.43427,
+      "population": 4682,
+      "populationRank": 291,
+      "isCapital": false
+    },
+    {
+      "id": "3075562",
+      "name": "Holýšov",
+      "latitude": 49.59361,
+      "longitude": 13.10129,
+      "population": 4659,
+      "populationRank": 292,
+      "isCapital": false
+    },
+    {
+      "id": "3079841",
+      "name": "Adamov",
+      "latitude": 49.30162,
+      "longitude": 16.65253,
+      "population": 4616,
+      "populationRank": 293,
+      "isCapital": false
+    },
+    {
+      "id": "3070792",
+      "name": "Meziboří",
+      "latitude": 50.62115,
+      "longitude": 13.5987,
+      "population": 4597,
+      "populationRank": 294,
+      "isCapital": false
+    },
+    {
+      "id": "3077318",
+      "name": "Cvikov",
+      "latitude": 50.77668,
+      "longitude": 14.63298,
+      "population": 4534,
+      "populationRank": 295,
+      "isCapital": false
+    },
+    {
+      "id": "3072394",
+      "name": "Kynšperk nad Ohří",
+      "latitude": 50.11893,
+      "longitude": 12.53027,
+      "population": 4527,
+      "populationRank": 296,
+      "isCapital": false
+    },
+    {
+      "id": "3063735",
+      "name": "Uherský Ostroh",
+      "latitude": 48.98556,
+      "longitude": 17.38984,
+      "population": 4526,
+      "populationRank": 297,
+      "isCapital": false
+    },
+    {
+      "id": "3062783",
+      "name": "Vizovice",
+      "latitude": 49.22287,
+      "longitude": 17.85455,
+      "population": 4518,
+      "populationRank": 298,
+      "isCapital": false
+    },
+    {
+      "id": "3068857",
+      "name": "Osek",
+      "latitude": 50.62115,
+      "longitude": 13.69274,
+      "population": 4516,
+      "populationRank": 299,
+      "isCapital": false
+    },
+    {
+      "id": "3062545",
+      "name": "Vracov",
+      "latitude": 48.97523,
+      "longitude": 17.211,
+      "population": 4491,
+      "populationRank": 300,
       "isCapital": false
     }
   ]

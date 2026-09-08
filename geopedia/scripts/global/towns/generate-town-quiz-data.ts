@@ -11,8 +11,9 @@
  *     OSM settlement classification
  *     ("city", "town", "village", "hamlet", "suburb", etc.)
  *
- * Only settlements classified by OSM as `city` or `town` are accepted into
- * town quizzes.
+ * OSM `city` and `town` settlements form the primary quiz pool. `village`
+ * settlements may supplement countries that do not reach the configured quiz
+ * maximum with primary settlements alone.
  *
  * Source files:
  *
@@ -65,7 +66,7 @@ const OSM_TOWNS_PATH = "public/data/global/towns/towns.geojson";
 const WORLD_COUNTRIES_PATH =
   "public/data/global/countries/geojson/world-countries.geojson";
 
-const OUTPUT_DIRECTORY = "public/data/towns";
+const OUTPUT_DIRECTORY = "public/data/global/towns/countries/";
 
 /* -------------------------------------------------------------------------- */
 /* Generation settings                                                        */
@@ -73,20 +74,25 @@ const OUTPUT_DIRECTORY = "public/data/towns";
 
 /**
  * Maximum number of towns stored for one country.
+ *
+ * Large countries may expose up to 300 settlements so advanced GeoGuessr
+ * players can study a substantially deeper set of useful town names.
  */
-const MAX_TOWN_COUNT = 200;
+const MAX_TOWN_COUNT = 300;
 
 /**
- * We initially retain considerably more GeoNames candidates than the final
- * runtime count.
+ * Number of high-population GeoNames settlements retained per country before
+ * OSM matching.
  *
- * Some GeoNames records will fail the OSM classification join because they are
- * suburbs, neighborhoods, villages, duplicate places, or otherwise unsuitable.
+ * The candidate pool is intentionally several times larger than the final quiz
+ * limit because some GeoNames records cannot be matched reliably to an OSM
+ * settlement or represent place types unsuitable for quizzes.
  *
- * Keeping 1,000 candidates gives the matching stage enough room to still find
- * 200 valid city/town records for most countries.
+ * Retaining 1,500 candidates provides headroom for up to 300 primary and
+ * supplemental quiz settlements without retaining every populated place in
+ * large countries.
  */
-const GEONAMES_CANDIDATE_COUNT = 1_000;
+const GEONAMES_CANDIDATE_COUNT = 1_500;
 
 /**
  * Maximum distance allowed when the GeoNames primary or ASCII name matches
@@ -115,17 +121,41 @@ const ALTERNATE_NAME_MATCH_MAX_DISTANCE_KM = 2;
 const COORDINATE_ONLY_MATCH_MAX_DISTANCE_KM = 1;
 
 /**
- * OSM place classifications allowed in town quizzes.
+ * Primary OSM settlement classifications used by town quizzes.
  *
- * Suburbs, villages, hamlets, and isolated dwellings are deliberately omitted.
+ * Cities and towns form the core quiz dataset and always take priority over
+ * supplemental settlements.
  */
-const INCLUDED_OSM_PLACE_TYPES = new Set(["city", "town"]);
+const PRIMARY_OSM_PLACE_TYPES = new Set<SettlementPlaceType>([
+  "city",
+  "town",
+]);
 
 /**
- * GeoNames populated-place feature codes worth considering.
+ * Smaller OSM settlement classifications that may supplement a country's quiz
+ * when fewer than the configured maximum number of primary settlements exist.
  *
- * The OSM classification is ultimately responsible for deciding whether the
- * record represents a city/town rather than a suburb or subordinate place.
+ * Villages provide useful additional GeoGuessr place-name coverage without
+ * broadening quizzes to suburbs, hamlets, or isolated dwellings.
+ */
+const SUPPLEMENTAL_OSM_PLACE_TYPES = new Set<SettlementPlaceType>([
+  "village",
+]);
+
+/**
+ * All OSM settlement classifications that must be retained in the spatial
+ * index for town-quiz generation.
+ */
+const INDEXED_OSM_PLACE_TYPES = new Set<SettlementPlaceType>([
+  ...PRIMARY_OSM_PLACE_TYPES,
+  ...SUPPLEMENTAL_OSM_PLACE_TYPES,
+]);
+
+/**
+ * GeoNames populated-place classifications eligible for town quizzes.
+ *
+ * PPLG is included because some important government seats, such as La Paz,
+ * are classified separately from conventional national capitals.
  */
 const INCLUDED_GEONAMES_FEATURE_CODES = new Set([
   "PPL",
@@ -134,7 +164,15 @@ const INCLUDED_GEONAMES_FEATURE_CODES = new Set([
   "PPLA3",
   "PPLA4",
   "PPLC",
+  "PPLG",
 ]);
+
+/**
+ * GeoNames feature codes treated as capital-level settlements in runtime quiz
+ * data. PPLG is included so seats of government such as La Paz can receive the
+ * same capital-specific map treatment as conventional national capitals.
+ */
+const CAPITAL_GEONAMES_FEATURE_CODES = new Set(["PPLC", "PPLG"]);
 
 /* -------------------------------------------------------------------------- */
 /* Types                                                                      */
@@ -199,7 +237,17 @@ type OsmTown = {
   longitude: number;
 };
 
-type NameMatchType = "primary" | "ascii" | "alternate" | null;
+/**
+ * Describes which GeoNames name field established identity with an OSM
+ * settlement.
+ *
+ * An alternate name matching OSM's explicit English name is treated more
+ * strongly than an alternate name matching OSM's primary/local name because
+ * `englishName` is an intentional international-name field rather than an
+ * arbitrary nearby or historical alias.
+ */
+type NameMatchType =
+  "primary" | "ascii" | "alternateEnglish" | "alternate" | null;
 
 type MatchedTown = {
   geoNamesTown: GeoNamesTown;
@@ -217,7 +265,11 @@ type TownQuizTown = {
   id: string;
 
   /**
-   * Preferred English/international quiz name.
+   * Preferred quiz-display name.
+   *
+   * Genuine translations prefer the English/international form, while
+   * equivalent native and English spellings collapse to the cleaner locally
+   * appropriate representation.
    */
   name: string;
 
@@ -278,6 +330,8 @@ type CountryGenerationStats = {
   geoNamesCandidates: number;
 
   matchedCitiesAndTowns: number;
+
+  matchedVillages: number;
 
   nameMatches: number;
 
@@ -435,6 +489,36 @@ function loadCountryIdMap(): Map<string, string> {
 /* -------------------------------------------------------------------------- */
 
 /**
+ * Maximum distance between a zero-population populated place and an
+ * administrative record whose population may be used as a fallback.
+ *
+ * The fallback also requires an exact normalized-name match and the same
+ * country, so this radius only accommodates modest coordinate differences
+ * between GeoNames representations of the same place.
+ */
+const ADMIN_POPULATION_FALLBACK_MAX_DISTANCE_KM = 10;
+
+/**
+ * Spatial-cell size used for nearby administrative-population lookups.
+ */
+const ADMIN_POPULATION_SPATIAL_CELL_SIZE = 0.1;
+
+/**
+ * Compact positive-population administrative record retained during the first
+ * GeoNames pass.
+ */
+type GeoNamesAdministrativePopulation = {
+  countryCode: string;
+
+  normalizedNames: string[];
+
+  latitude: number;
+  longitude: number;
+
+  population: number;
+};
+
+/**
  * Parses one positive GeoNames population.
  */
 function parsePopulation(value: string | undefined): number | null {
@@ -452,11 +536,25 @@ function parsePopulation(value: string | undefined): number | null {
 }
 
 /**
- * Parses one GeoNames populated-place row.
+ * Parses one GeoNames alternate-name column into trimmed source names.
  */
-function parseGeoNamesTown(line: string): GeoNamesTown | null {
-  const columns = line.split("\t");
+function parseGeoNamesAlternateNames(
+  value: string | undefined,
+): string[] {
+  return (value ?? "")
+    .split(",")
+    .map((alternateName) => alternateName.trim())
+    .filter(Boolean);
+}
 
+/**
+ * Parses the shared identity and coordinate fields required by a GeoNames
+ * populated-place candidate.
+ */
+function parseGeoNamesTownIdentity(
+  columns: string[],
+  population: number,
+): GeoNamesTown | null {
   if (columns[GEONAMES_COLUMNS.featureClass] !== "P") {
     return null;
   }
@@ -464,14 +562,6 @@ function parseGeoNamesTown(line: string): GeoNamesTown | null {
   const featureCode = columns[GEONAMES_COLUMNS.featureCode];
 
   if (!INCLUDED_GEONAMES_FEATURE_CODES.has(featureCode)) {
-    return null;
-  }
-
-  const population = parsePopulation(
-    columns[GEONAMES_COLUMNS.population],
-  );
-
-  if (population === null) {
     return null;
   }
 
@@ -499,21 +589,15 @@ function parseGeoNamesTown(line: string): GeoNamesTown | null {
     return null;
   }
 
-  const alternateNamesRaw =
-    columns[GEONAMES_COLUMNS.alternateNames] ?? "";
-
-  const alternateNames = alternateNamesRaw
-    .split(",")
-    .map((alternateName) => alternateName.trim())
-    .filter(Boolean);
-
   return {
     id,
 
     name,
     asciiName,
 
-    alternateNames,
+    alternateNames: parseGeoNamesAlternateNames(
+      columns[GEONAMES_COLUMNS.alternateNames],
+    ),
 
     latitude,
     longitude,
@@ -524,6 +608,279 @@ function parseGeoNamesTown(line: string): GeoNamesTown | null {
 
     population,
   };
+}
+
+/**
+ * Parses one normal positive-population GeoNames populated-place row.
+ */
+function parseGeoNamesTown(columns: string[]): GeoNamesTown | null {
+  const population = parsePopulation(
+    columns[GEONAMES_COLUMNS.population],
+  );
+
+  if (population === null) {
+    return null;
+  }
+
+  return parseGeoNamesTownIdentity(columns, population);
+}
+
+/**
+ * Parses one zero-population GeoNames populated place that may be rescued by a
+ * nearby administrative population during the second GeoNames pass.
+ *
+ * Missing, malformed, and negative populations are deliberately rejected. Only
+ * an explicit source population of zero participates in this fallback.
+ */
+function parseZeroPopulationGeoNamesTown(
+  columns: string[],
+): GeoNamesTown | null {
+  const populationValue = Number(
+    columns[GEONAMES_COLUMNS.population],
+  );
+
+  if (!Number.isFinite(populationValue) || populationValue !== 0) {
+    return null;
+  }
+
+  return parseGeoNamesTownIdentity(columns, 0);
+}
+
+/**
+ * Returns normalized names that can establish identity between two GeoNames
+ * representations of the same place.
+ */
+function getNormalizedGeoNamesNames(
+  name: string,
+  asciiName: string,
+  alternateNames: string[],
+): string[] {
+  return Array.from(
+    new Set(
+      [name, asciiName, ...alternateNames]
+        .map((candidateName) => normalizeTownName(candidateName))
+        .filter(Boolean),
+    ),
+  );
+}
+
+/**
+ * Creates a geographic lookup key for an administrative population record.
+ */
+function getAdminPopulationSpatialCellKey(
+  countryCode: string,
+  latitude: number,
+  longitude: number,
+): string {
+  const latitudeCell = Math.floor(
+    latitude / ADMIN_POPULATION_SPATIAL_CELL_SIZE,
+  );
+
+  const longitudeCell = Math.floor(
+    longitude / ADMIN_POPULATION_SPATIAL_CELL_SIZE,
+  );
+
+  return `${countryCode}:${latitudeCell}:${longitudeCell}`;
+}
+
+/**
+ * Parses one positive-population GeoNames administrative record.
+ *
+ * Administrative records never become quiz questions directly. They are kept
+ * only as possible population donors for nearby zero-population populated-place
+ * records representing the same named place.
+ */
+function parseGeoNamesAdministrativePopulation(
+  columns: string[],
+): GeoNamesAdministrativePopulation | null {
+  if (columns[GEONAMES_COLUMNS.featureClass] !== "A") {
+    return null;
+  }
+
+  const population = parsePopulation(
+    columns[GEONAMES_COLUMNS.population],
+  );
+
+  if (population === null) {
+    return null;
+  }
+
+  const name = columns[GEONAMES_COLUMNS.name]?.trim();
+
+  const asciiName = columns[GEONAMES_COLUMNS.asciiName]?.trim() ?? "";
+
+  const countryCode = columns[GEONAMES_COLUMNS.countryCode]
+    ?.trim()
+    .toUpperCase();
+
+  const latitude = Number(columns[GEONAMES_COLUMNS.latitude]);
+
+  const longitude = Number(columns[GEONAMES_COLUMNS.longitude]);
+
+  if (
+    !name ||
+    !countryCode ||
+    !Number.isFinite(latitude) ||
+    !Number.isFinite(longitude)
+  ) {
+    return null;
+  }
+
+  const normalizedNames = getNormalizedGeoNamesNames(
+    name,
+    asciiName,
+    parseGeoNamesAlternateNames(
+      columns[GEONAMES_COLUMNS.alternateNames],
+    ),
+  );
+
+  if (normalizedNames.length === 0) {
+    return null;
+  }
+
+  return {
+    countryCode,
+    normalizedNames,
+    latitude,
+    longitude,
+    population,
+  };
+}
+
+/**
+ * Inserts one administrative population into the compact spatial lookup used
+ * by the zero-population rescue pass.
+ */
+function addAdministrativePopulation(
+  index: Map<string, GeoNamesAdministrativePopulation[]>,
+  administrativePopulation: GeoNamesAdministrativePopulation,
+): void {
+  const key = getAdminPopulationSpatialCellKey(
+    administrativePopulation.countryCode,
+    administrativePopulation.latitude,
+    administrativePopulation.longitude,
+  );
+
+  const bucket = index.get(key);
+
+  if (bucket) {
+    bucket.push(administrativePopulation);
+  } else {
+    index.set(key, [administrativePopulation]);
+  }
+}
+
+/**
+ * Returns nearby administrative-population records in the same country.
+ */
+function getNearbyAdministrativePopulations(
+  town: GeoNamesTown,
+  index: Map<string, GeoNamesAdministrativePopulation[]>,
+): GeoNamesAdministrativePopulation[] {
+  const latitudeCell = Math.floor(
+    town.latitude / ADMIN_POPULATION_SPATIAL_CELL_SIZE,
+  );
+
+  const longitudeCell = Math.floor(
+    town.longitude / ADMIN_POPULATION_SPATIAL_CELL_SIZE,
+  );
+
+  const nearby: GeoNamesAdministrativePopulation[] = [];
+
+  /*
+   * A 5x5 window provides comfortable coverage for the 10 km fallback radius,
+   * including records lying near cell edges.
+   */
+  for (
+    let latitudeOffset = -2;
+    latitudeOffset <= 2;
+    latitudeOffset += 1
+  ) {
+    for (
+      let longitudeOffset = -2;
+      longitudeOffset <= 2;
+      longitudeOffset += 1
+    ) {
+      const key = `${town.countryCode}:${
+        latitudeCell + latitudeOffset
+      }:${longitudeCell + longitudeOffset}`;
+
+      const bucket = index.get(key);
+
+      if (bucket) {
+        nearby.push(...bucket);
+      }
+    }
+  }
+
+  return nearby;
+}
+
+/**
+ * Finds the best administrative population that can safely rescue one
+ * zero-population populated-place record.
+ *
+ * Identity requires at least one exact normalized GeoNames name in common,
+ * plus the same country and close coordinates. The nearest valid record wins;
+ * population breaks an exact distance tie deterministically.
+ */
+function findAdministrativePopulationFallback(
+  town: GeoNamesTown,
+  index: Map<string, GeoNamesAdministrativePopulation[]>,
+): GeoNamesAdministrativePopulation | null {
+  const townNames = new Set(
+    getNormalizedGeoNamesNames(
+      town.name,
+      town.asciiName,
+      town.alternateNames,
+    ),
+  );
+
+  let bestMatch:
+    | {
+        administrativePopulation: GeoNamesAdministrativePopulation;
+        distanceKm: number;
+      }
+    | undefined;
+
+  for (const administrativePopulation of getNearbyAdministrativePopulations(
+    town,
+    index,
+  )) {
+    const namesMatch = administrativePopulation.normalizedNames.some(
+      (normalizedName) => townNames.has(normalizedName),
+    );
+
+    if (!namesMatch) {
+      continue;
+    }
+
+    const distanceKm = getDistanceKm(
+      town.latitude,
+      town.longitude,
+      administrativePopulation.latitude,
+      administrativePopulation.longitude,
+    );
+
+    if (distanceKm > ADMIN_POPULATION_FALLBACK_MAX_DISTANCE_KM) {
+      continue;
+    }
+
+    if (
+      !bestMatch ||
+      distanceKm < bestMatch.distanceKm ||
+      (distanceKm === bestMatch.distanceKm &&
+        administrativePopulation.population >
+          bestMatch.administrativePopulation.population)
+    ) {
+      bestMatch = {
+        administrativePopulation,
+        distanceKm,
+      };
+    }
+  }
+
+  return bestMatch?.administrativePopulation ?? null;
 }
 
 /**
@@ -550,60 +907,154 @@ function addGeoNamesCandidate(
 }
 
 /**
- * Reads GeoNames and keeps only the largest candidate settlements per country.
+ * Reads GeoNames in two streaming passes while retaining only bounded quiz
+ * candidate collections and a compact spatial index of populated
+ * administrative records.
+ *
+ * Pass 1 keeps the normal positive-population populated places and indexes
+ * positive-population administrative records. Pass 2 revisits only explicit
+ * zero-population populated places and allows one to borrow population when a
+ * nearby same-country administrative record has an exact normalized name in
+ * common.
+ *
+ * This preserves GeoNames populated-place identity while recovering important
+ * settlements whose population is stored only on an administrative record,
+ * such as El Alto. Administrative records never become quiz towns directly.
  */
 async function readGeoNamesCandidates(
   countryIdMap: Map<string, string>,
 ): Promise<Map<string, GeoNamesTown[]>> {
   const candidatesByCountry = new Map<string, GeoNamesTown[]>();
 
-  const inputStream = fs.createReadStream(GEONAMES_PATH, {
+  const administrativePopulationIndex = new Map<
+    string,
+    GeoNamesAdministrativePopulation[]
+  >();
+
+  const firstPassStream = fs.createReadStream(GEONAMES_PATH, {
     encoding: "utf8",
   });
 
-  const reader = readline.createInterface({
-    input: inputStream,
-
+  const firstPassReader = readline.createInterface({
+    input: firstPassStream,
     crlfDelay: Infinity,
   });
 
-  let linesRead = 0;
+  let firstPassLinesRead = 0;
+  let retainedAdministrativePopulations = 0;
 
-  for await (const line of reader) {
-    linesRead += 1;
+  for await (const line of firstPassReader) {
+    firstPassLinesRead += 1;
 
-    const town = parseGeoNamesTown(line);
+    const columns = line.split("\t");
 
-    if (!town) {
-      continue;
+    const town = parseGeoNamesTown(columns);
+
+    if (town && countryIdMap.has(town.countryCode)) {
+      let candidates = candidatesByCountry.get(town.countryCode);
+
+      if (!candidates) {
+        candidates = [];
+        candidatesByCountry.set(town.countryCode, candidates);
+      }
+
+      addGeoNamesCandidate(candidates, town);
     }
 
-    /*
-     * Ignore GeoNames entries without a corresponding GeoPedia country ID.
-     */
-    if (!countryIdMap.has(town.countryCode)) {
-      continue;
+    const administrativePopulation =
+      parseGeoNamesAdministrativePopulation(columns);
+
+    if (
+      administrativePopulation &&
+      countryIdMap.has(administrativePopulation.countryCode)
+    ) {
+      addAdministrativePopulation(
+        administrativePopulationIndex,
+        administrativePopulation,
+      );
+
+      retainedAdministrativePopulations += 1;
     }
 
-    let candidates = candidatesByCountry.get(town.countryCode);
-
-    if (!candidates) {
-      candidates = [];
-
-      candidatesByCountry.set(town.countryCode, candidates);
-    }
-
-    addGeoNamesCandidate(candidates, town);
-
-    if (linesRead % 1_000_000 === 0) {
+    if (firstPassLinesRead % 1_000_000 === 0) {
       console.log(
-        `Read ${linesRead.toLocaleString()} GeoNames records...`,
+        `GeoNames pass 1: read ${firstPassLinesRead.toLocaleString()} records...`,
+      );
+    }
+  }
+
+  console.log(
+    `GeoNames pass 1 complete: ${firstPassLinesRead.toLocaleString()} records read; ${retainedAdministrativePopulations.toLocaleString()} populated administrative records indexed.`,
+  );
+
+  const secondPassStream = fs.createReadStream(GEONAMES_PATH, {
+    encoding: "utf8",
+  });
+
+  const secondPassReader = readline.createInterface({
+    input: secondPassStream,
+    crlfDelay: Infinity,
+  });
+
+  let secondPassLinesRead = 0;
+  let rescuedPopulationCount = 0;
+
+  for await (const line of secondPassReader) {
+    secondPassLinesRead += 1;
+
+    const columns = line.split("\t");
+
+    const zeroPopulationTown =
+      parseZeroPopulationGeoNamesTown(columns);
+
+    if (
+      !zeroPopulationTown ||
+      !countryIdMap.has(zeroPopulationTown.countryCode)
+    ) {
+      if (secondPassLinesRead % 1_000_000 === 0) {
+        console.log(
+          `GeoNames pass 2: read ${secondPassLinesRead.toLocaleString()} records...`,
+        );
+      }
+
+      continue;
+    }
+
+    const administrativePopulation =
+      findAdministrativePopulationFallback(
+        zeroPopulationTown,
+        administrativePopulationIndex,
+      );
+
+    if (administrativePopulation) {
+      const rescuedTown: GeoNamesTown = {
+        ...zeroPopulationTown,
+        population: administrativePopulation.population,
+      };
+
+      let candidates = candidatesByCountry.get(
+        rescuedTown.countryCode,
+      );
+
+      if (!candidates) {
+        candidates = [];
+        candidatesByCountry.set(rescuedTown.countryCode, candidates);
+      }
+
+      addGeoNamesCandidate(candidates, rescuedTown);
+      rescuedPopulationCount += 1;
+    }
+
+    if (secondPassLinesRead % 1_000_000 === 0) {
+      console.log(
+        `GeoNames pass 2: read ${secondPassLinesRead.toLocaleString()} records...`,
       );
     }
   }
 
   /*
-   * Final population ordering and truncation after the stream finishes.
+   * Final population ordering and truncation after both passes finish ensures
+   * rescued settlements compete normally with positive-population candidates.
    */
   for (const candidates of candidatesByCountry.values()) {
     candidates.sort(
@@ -617,7 +1068,7 @@ async function readGeoNamesCandidates(
   }
 
   console.log(
-    `Finished reading ${linesRead.toLocaleString()} GeoNames records.`,
+    `GeoNames pass 2 complete: ${secondPassLinesRead.toLocaleString()} records read; ${rescuedPopulationCount.toLocaleString()} zero-population populated places rescued.`,
   );
 
   return candidatesByCountry;
@@ -702,7 +1153,7 @@ async function readOsmTownSpatialIndex(): Promise<
       continue;
     }
 
-    if (!INCLUDED_OSM_PLACE_TYPES.has(place)) {
+    if (!INDEXED_OSM_PLACE_TYPES.has(place as SettlementPlaceType)) {
       continue;
     }
 
@@ -805,7 +1256,7 @@ function getNearbyOsmTowns(
   const nearby: OsmTown[] = [];
 
   /*
-   * A 5x5 window safely covers the 10 km matching radius even at cell edges.
+   * A 5x5 window safely covers the matching radii even at cell edges.
    */
   for (
     let latitudeOffset = -2;
@@ -840,53 +1291,55 @@ function getNearbyOsmTowns(
  * Determines how strongly a GeoNames settlement name matches an OSM
  * settlement.
  *
- * Both OSM's primary name and its Latin-script companion name are considered.
- * The companion name allows settlements whose primary OSM name uses a
- * non-Latin script to match their English or international GeoNames name
- * without treating that translation as a weaker alternate-name match.
+ * OSM's primary/local name and explicit English name are evaluated separately.
+ * A GeoNames alternate name matching OSM's explicit English name is stronger
+ * evidence than an alternate name matching only OSM's local name.
  */
 function getGeoNamesNameMatchType(
   town: GeoNamesTown,
   osmTown: OsmTown,
 ): NameMatchType {
-  const normalizedOsmNames = [osmTown.name, osmTown.englishName]
-    .filter(
-      (name): name is string =>
-        typeof name === "string" && name.length > 0,
-    )
-    .map(normalizeTownName)
-    .filter(Boolean);
+  const normalizedOsmName = normalizeTownName(osmTown.name);
 
-  // const namesMatch = normalizedOsmNames.some((normalizedName) =>
-  //   geoNamesNames.has(normalizedName),
-  // );
+  const normalizedOsmEnglishName = osmTown.englishName
+    ? normalizeTownName(osmTown.englishName)
+    : null;
 
-  /*
-   * The primary GeoNames name provides the strongest identity match.
-   */
-  if (normalizedOsmNames.includes(normalizeTownName(town.name))) {
+  const normalizedGeoNamesPrimary = normalizeTownName(town.name);
+
+  if (
+    normalizedGeoNamesPrimary === normalizedOsmName ||
+    normalizedGeoNamesPrimary === normalizedOsmEnglishName
+  ) {
     return "primary";
   }
 
-  /*
-   * GeoNames' ASCII name is normally a transliteration of the primary name
-   * and therefore remains a strong match.
-   */
-  if (
-    town.asciiName &&
-    normalizedOsmNames.includes(normalizeTownName(town.asciiName))
-  ) {
-    return "ascii";
+  if (town.asciiName) {
+    const normalizedAsciiName = normalizeTownName(town.asciiName);
+
+    if (
+      normalizedAsciiName === normalizedOsmName ||
+      normalizedAsciiName === normalizedOsmEnglishName
+    ) {
+      return "ascii";
+    }
   }
 
-  /*
-   * Alternate names are useful but weaker because they can sometimes refer
-   * to nearby, historical, or administratively related places.
-   */
   for (const alternateName of town.alternateNames) {
+    const normalizedAlternateName = normalizeTownName(alternateName);
+
+    /*
+     * An explicit OSM English-name match is a strong cross-dataset identity
+     * signal even when GeoNames stores that English spelling as an alternate.
+     */
     if (
-      normalizedOsmNames.includes(normalizeTownName(alternateName))
+      normalizedOsmEnglishName &&
+      normalizedAlternateName === normalizedOsmEnglishName
     ) {
+      return "alternateEnglish";
+    }
+
+    if (normalizedAlternateName === normalizedOsmName) {
       return "alternate";
     }
   }
@@ -894,6 +1347,11 @@ function getGeoNamesNameMatchType(
   return null;
 }
 
+/**
+ * Returns the priority of one GeoNames name-match type.
+ *
+ * Lower values represent stronger identity signals.
+ */
 function getNameMatchPriority(
   matchType: Exclude<NameMatchType, null>,
 ): number {
@@ -904,26 +1362,76 @@ function getNameMatchPriority(
     case "ascii":
       return 1;
 
-    case "alternate":
+    case "alternateEnglish":
       return 2;
+
+    case "alternate":
+      return 3;
   }
 }
 
 /**
- * Finds the best OSM settlement corresponding to one GeoNames town.
+ * Finds the best OSM settlement corresponding to one GeoNames settlement while
+ * considering only the requested OSM place classifications.
  *
- * Matching occurs in two stages:
+ * Restricting place types at matching time allows primary city/town matching to
+ * remain identical to the original generator while smaller villages can be
+ * considered independently as supplemental quiz settlements.
  *
- * 1. Prefer normalized-name matches within 10 km.
- * 2. If no name match exists, allow an extremely close coordinate-only match.
- *
- * The nearest valid match always wins.
+ * @param geoNamesTown - GeoNames settlement being matched.
+ * @param osmIndex - Worldwide OSM settlement spatial index.
+ * @param allowedPlaceTypes - OSM classifications eligible for this match.
+ * @returns Best compatible OSM settlement, or `null` when none can be matched.
  */
 function matchGeoNamesTownToOsm(
   geoNamesTown: GeoNamesTown,
   osmIndex: Map<string, OsmTown[]>,
+  allowedPlaceTypes: ReadonlySet<SettlementPlaceType>,
 ): MatchedTown | null {
   const nearbyOsmTowns = getNearbyOsmTowns(geoNamesTown, osmIndex);
+
+  //------------------------------------------------------------------ TEST
+  if (geoNamesTown.id === "2028462") {
+    console.log("\n========== ULAANBAATAR OSM DIAGNOSTIC ==========");
+
+    console.log("GEONAMES", {
+      id: geoNamesTown.id,
+      name: geoNamesTown.name,
+      asciiName: geoNamesTown.asciiName,
+      featureCode: geoNamesTown.featureCode,
+      population: geoNamesTown.population,
+      latitude: geoNamesTown.latitude,
+      longitude: geoNamesTown.longitude,
+      hasUlaanbaatarAlternateName: geoNamesTown.alternateNames.some(
+        (name) =>
+          normalizeTownName(name) ===
+          normalizeTownName("Ulaanbaatar"),
+      ),
+    });
+
+    console.log(
+      "NEARBY OSM SETTLEMENTS",
+      nearbyOsmTowns
+        .filter((town) => PRIMARY_OSM_PLACE_TYPES.has(town.place))
+        .map((town) => ({
+          name: town.name,
+          englishName: town.englishName,
+          place: town.place,
+          latitude: town.latitude,
+          longitude: town.longitude,
+          distanceKm: getDistanceKm(
+            geoNamesTown.latitude,
+            geoNamesTown.longitude,
+            town.latitude,
+            town.longitude,
+          ),
+        }))
+        .sort((a, b) => a.distanceKm - b.distanceKm),
+    );
+
+    console.log("===============================================\n");
+  }
+  //------------------------------------------------------------------ TEST
 
   let bestNameMatch:
     | {
@@ -941,6 +1449,10 @@ function matchGeoNamesTownToOsm(
     | undefined;
 
   for (const osmTown of nearbyOsmTowns) {
+    if (!allowedPlaceTypes.has(osmTown.place)) {
+      continue;
+    }
+
     const distanceKm = getDistanceKm(
       geoNamesTown.latitude,
       geoNamesTown.longitude,
@@ -964,7 +1476,11 @@ function matchGeoNamesTownToOsm(
      */
     let nameMatchMaxDistanceKm: number | null = null;
 
-    if (nameMatchType === "primary" || nameMatchType === "ascii") {
+    if (
+      nameMatchType === "primary" ||
+      nameMatchType === "ascii" ||
+      nameMatchType === "alternateEnglish"
+    ) {
       nameMatchMaxDistanceKm = PRIMARY_NAME_MATCH_MAX_DISTANCE_KM;
     } else if (nameMatchType === "alternate") {
       nameMatchMaxDistanceKm = ALTERNATE_NAME_MATCH_MAX_DISTANCE_KM;
@@ -1065,11 +1581,15 @@ function compareDuplicateOsmMatches(
       return 1;
     }
 
-    if (match.nameMatchType === "alternate") {
+    if (match.nameMatchType === "alternateEnglish") {
       return 2;
     }
 
-    return 3;
+    if (match.nameMatchType === "alternate") {
+      return 3;
+    }
+
+    return 4;
   };
 
   const priorityDifference =
@@ -1127,152 +1647,206 @@ function deduplicateOsmMatches(
 }
 
 /**
- * Prints detailed GeoNames and OSM matching information for a small set of
- * settlements that are being manually inspected for town-quiz data quality.
+ * Normalizes a settlement name for determining whether two rendered names
+ * represent the same practical quiz label.
  *
- * This diagnostic is intentionally based on matched towns rather than the
- * final generated town list so that both source records and the matching
- * metadata can be inspected together.
+ * The comparison ignores:
  *
- * @param countryId - GeoPedia country ID currently being generated.
- * @param matchedTowns - GeoNames settlements that successfully matched an
- * OSM settlement.
+ * - capitalization
+ * - accents and diacritics
+ * - punctuation
+ * - hyphen-versus-space differences
+ * - repeated whitespace
+ *
+ * Unlike `normalizeTownName`, spaces are retained here because later display
+ * rules need to distinguish an optional `City` suffix from the underlying town
+ * name.
+ *
+ * @param value - Settlement name to normalize.
+ * @returns Comparable display-name representation.
  */
-function printTownQualityDiagnostics(
-  countryId: string,
-  matchedTowns: MatchedTown[],
-): void {
-  const diagnosticTownNamesByCountry: Record<string, Set<string>> = {
-    jpn: new Set([
-      "Ōta",
-      "Aihara",
-      "Nakano",
-      "Minato City",
-      "Chūō",
-      "Sagamihara",
-    ]),
-
-    ind: new Set(["Kallakurichi", "Najafgarh"]),
-
-    isl: new Set(["Reykjanesbær", "Keflavík"]),
-  };
-
-  const diagnosticTownNames = diagnosticTownNamesByCountry[countryId];
-
-  if (!diagnosticTownNames) {
-    return;
-  }
-
-  const diagnosticMatches = matchedTowns.filter((match) =>
-    diagnosticTownNames.has(match.geoNamesTown.name),
-  );
-
-  console.log(
-    `\n========== ${countryId.toUpperCase()} TOWN QUALITY DIAGNOSTIC ==========`,
-  );
-
-  for (const match of diagnosticMatches) {
-    console.log({
-      geoNamesId: match.geoNamesTown.id,
-
-      geoNamesName: match.geoNamesTown.name,
-
-      geoNamesFeatureCode: match.geoNamesTown.featureCode,
-
-      geoNamesPopulation: match.geoNamesTown.population,
-
-      geoNamesLatitude: match.geoNamesTown.latitude,
-
-      geoNamesLongitude: match.geoNamesTown.longitude,
-
-      osmId: match.osmTown.osmId,
-
-      osmName: match.osmTown.name,
-
-      osmPlace: match.osmTown.place,
-
-      osmLatitude: match.osmTown.latitude,
-
-      osmLongitude: match.osmTown.longitude,
-
-      matchType: match.matchType,
-
-      nameMatchType: match.nameMatchType,
-
-      distanceKm: Number(match.distanceKm.toFixed(3)),
-    });
-
-    console.log("OSM English name:", match.osmTown.englishName);
-  }
+function normalizeDisplayNameForComparison(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLocaleLowerCase()
+    .replace(/[^\p{Letter}\p{Number}]+/gu, " ")
+    .trim()
+    .replace(/\s+/g, " ");
 }
 
 /**
- * Returns whether two rendered settlement names should be treated as the same.
+ * Returns the normalized town name with one trailing `City` suffix removed.
  *
- * Case and repeated whitespace are ignored because those differences do not
- * justify offering a separate Native question or rendering a second map-label
- * line.
+ * The suffix rule is intentionally narrow. Words such as `Town`,
+ * `Municipality`, and `Village` are not treated as optional because doing so
+ * would introduce much broader semantic assumptions.
  *
- * Diacritics and actual spelling differences are intentionally preserved.
- * `Munchen` and `München`, for example, remain distinct display names.
+ * @param value - Already normalized display name.
+ * @returns Name without a trailing `city` token.
+ */
+function removeOptionalCitySuffix(value: string): string {
+  return value.replace(/\s+city$/u, "");
+}
+
+/**
+ * Determines whether two settlement names differ only in presentation or by an
+ * optional English `City` suffix.
  *
- * @param firstName - First display name.
- * @param secondName - Second display name.
- * @returns Whether the names are equivalent for quiz-display purposes.
+ * Examples treated as equivalent:
+ *
+ * - `Bacău` / `Bacau`
+ * - `Thetford-Mines` / `Thetford Mines`
+ * - `Ise-Ekiti` / `Ise - Ekiti`
+ * - `Zacatecas` / `Zacatecas City`
+ *
+ * Genuine translated names such as `Wien` / `Vienna` and
+ * `Ciudad de México` / `Mexico City` remain distinct.
+ *
+ * @param firstName - First settlement name.
+ * @param secondName - Second settlement name.
+ * @returns Whether only one quiz label should be retained.
  */
 function areDisplayNamesEquivalent(
   firstName: string,
   secondName: string,
 ): boolean {
-  function normalizeDisplayName(value: string): string {
-    return value.trim().replace(/\s+/g, " ").toLocaleLowerCase();
+  const firstNormalized =
+    normalizeDisplayNameForComparison(firstName);
+
+  const secondNormalized =
+    normalizeDisplayNameForComparison(secondName);
+
+  if (firstNormalized === secondNormalized) {
+    return true;
   }
 
   return (
-    normalizeDisplayName(firstName) ===
-    normalizeDisplayName(secondName)
+    removeOptionalCitySuffix(firstNormalized) ===
+    removeOptionalCitySuffix(secondNormalized)
   );
 }
 
 /**
- * Chooses the English/international name stored by a runtime town quiz.
+ * Counts visible diacritic marks in a settlement name.
  *
- * Explicit OSM English/international naming takes priority because it generally
- * reflects the modern English map label. GeoNames remains the fallback so every
- * generated town continues to have a valid question name.
+ * This provides a small preference signal when two names are otherwise
+ * equivalent. Native spellings such as `Bacău` are preferred over ASCII-only
+ * equivalents such as `Bacau`.
  *
- * @param match - Matched GeoNames and OSM settlement.
- * @returns Preferred English/international quiz name.
+ * @param value - Settlement name to inspect.
+ * @returns Number of decomposed Unicode diacritic marks.
  */
-function getQuizEnglishName(match: MatchedTown): string {
-  return match.osmTown.englishName ?? match.geoNamesTown.name;
+function countDiacritics(value: string): number {
+  return value.normalize("NFD").match(/\p{Diacritic}/gu)?.length ?? 0;
 }
 
 /**
- * Returns the native settlement name when it is meaningfully different from the
- * preferred English/international name.
+ * Removes hyphen-like separators from an equivalent display name.
  *
- * Equal names intentionally omit `nativeName`. This keeps runtime JSON compact,
- * allows individual map labels to remain one line, and lets the client determine
- * whether a country needs the English/Native language control simply by checking
- * whether any available town has `nativeName`.
+ * This cleanup is used only after two independent source names have established
+ * that the spelling is equivalent. It therefore converts cases such as
+ * `Thetford-Mines` / `Thetford Mines` to the cleaner `Thetford Mines` without
+ * globally rewriting every hyphenated OSM settlement name.
  *
- * @param match - Matched GeoNames and OSM settlement.
- * @returns Distinct native name, or `undefined` when both names are equivalent.
+ * @param value - Preferred equivalent source name.
+ * @returns Cleaned single quiz label.
  */
-function getQuizNativeName(match: MatchedTown): string | undefined {
-  const englishName = getQuizEnglishName(match);
+function normalizeEquivalentNameSeparators(value: string): string {
+  return value
+    .replace(/\s*[-‐-‒–—]\s*/gu, " ")
+    .trim()
+    .replace(/\s+/g, " ");
+}
 
-  const nativeName = match.osmTown.name.trim();
+/**
+ * Chooses which source spelling should represent two equivalent settlement
+ * names.
+ *
+ * Rules:
+ *
+ * 1. When the only semantic difference is an optional `City` suffix, prefer
+ *    OSM's primary/local name. This preserves names such as `Davao City` while
+ *    avoiding English-only expansions such as `Zacatecas City`.
+ * 2. Otherwise prefer the spelling containing more native diacritics.
+ * 3. Ties prefer OSM's primary/local name.
+ * 4. Equivalent hyphen/space formatting is rendered with spaces.
+ *
+ * @param nativeName - Primary locally used OSM name.
+ * @param englishName - Explicit English/international name.
+ * @returns Preferred single quiz label.
+ */
+function choosePreferredEquivalentName(
+  nativeName: string,
+  englishName: string,
+): string {
+  const normalizedNative =
+    normalizeDisplayNameForComparison(nativeName);
 
-  if (
-    !nativeName ||
-    areDisplayNamesEquivalent(englishName, nativeName)
-  ) {
-    return undefined;
+  const normalizedEnglish =
+    normalizeDisplayNameForComparison(englishName);
+
+  const nativeWithoutCity =
+    removeOptionalCitySuffix(normalizedNative);
+
+  const englishWithoutCity =
+    removeOptionalCitySuffix(normalizedEnglish);
+
+  const differsOnlyByCitySuffix =
+    normalizedNative !== normalizedEnglish &&
+    nativeWithoutCity === englishWithoutCity;
+
+  if (differsOnlyByCitySuffix) {
+    return normalizeEquivalentNameSeparators(nativeName);
   }
 
-  return nativeName;
+  const nativeDiacritics = countDiacritics(nativeName);
+
+  const englishDiacritics = countDiacritics(englishName);
+
+  const preferredName =
+    englishDiacritics > nativeDiacritics ? englishName : nativeName;
+
+  return normalizeEquivalentNameSeparators(preferredName);
+}
+
+/**
+ * Resolves the final names stored for one runtime town-quiz question.
+ *
+ * Equivalent native and English names collapse into one preferred `name`.
+ * Genuine translations remain two labels, with the English/international name
+ * stored as `name` and the local OSM name stored as `nativeName`.
+ *
+ * @param match - Matched GeoNames and OSM settlement.
+ * @returns Final quiz name and optional distinct native name.
+ */
+function getQuizNames(
+  match: MatchedTown,
+): Pick<TownQuizTown, "name" | "nativeName"> {
+  const nativeName = match.osmTown.name.trim();
+
+  const englishName =
+    match.osmTown.englishName?.trim() ||
+    match.geoNamesTown.name.trim();
+
+  if (
+    nativeName &&
+    areDisplayNamesEquivalent(nativeName, englishName)
+  ) {
+    return {
+      name: choosePreferredEquivalentName(nativeName, englishName),
+    };
+  }
+
+  return {
+    name: englishName,
+
+    ...(nativeName
+      ? {
+          nativeName,
+        }
+      : {}),
+  };
 }
 
 /**
@@ -1287,49 +1861,59 @@ function createCountryTownData(
 
   matchedTowns: MatchedTown[];
 } {
-  const matchedTowns: MatchedTown[] = [];
+  const primaryMatches: MatchedTown[] = [];
 
-  const sagamiharaCandidates = candidates.filter((candidate) =>
-    candidate.name.toLowerCase().includes("sagamihara"),
-  );
-
-  console.log(
-    "\n========== SAGAMIHARA GEONAMES CANDIDATE ==========",
-  );
-
-  console.dir(sagamiharaCandidates, {
-    depth: null,
-  });
+  const supplementalMatches: MatchedTown[] = [];
 
   for (const candidate of candidates) {
-    const match = matchGeoNamesTownToOsm(candidate, osmIndex);
+    /*
+     * Preserve GeoPedia's existing city/town matching first. Supplemental
+     * settlements must never replace an available primary match for the same
+     * GeoNames record.
+     */
+    const primaryMatch = matchGeoNamesTownToOsm(
+      candidate,
+      osmIndex,
+      PRIMARY_OSM_PLACE_TYPES,
+    );
 
-    if (!match) {
+    if (primaryMatch) {
+      primaryMatches.push(primaryMatch);
+
       continue;
     }
 
     /*
-     * This is the key semantic filter.
-     *
-     * GeoNames supplies population and country membership. OSM decides whether
-     * the feature is actually classified as a city/town.
+     * Only GeoNames records that could not resolve to a primary OSM city/town are
+     * considered for the supplemental village pool.
      */
-    if (!INCLUDED_OSM_PLACE_TYPES.has(match.osmTown.place)) {
-      continue;
-    }
+    const supplementalMatch = matchGeoNamesTownToOsm(
+      candidate,
+      osmIndex,
+      SUPPLEMENTAL_OSM_PLACE_TYPES,
+    );
 
-    matchedTowns.push(match);
+    if (supplementalMatch) {
+      supplementalMatches.push(supplementalMatch);
+    }
   }
 
-  printTownQualityDiagnostics(countryId, matchedTowns);
+  const matchedTowns = [...primaryMatches, ...supplementalMatches];
 
-  const deduplicatedTowns = deduplicateOsmMatches(matchedTowns);
+  const deduplicatedPrimaryTowns =
+    deduplicateOsmMatches(primaryMatches);
 
-  /*
-   * GeoNames candidates were already population ordered, but sorting again
-   * guarantees deterministic ranking after the OSM filtering stage.
+  const deduplicatedSupplementalTowns = deduplicateOsmMatches(
+    supplementalMatches,
+  );
+
+  /**
+   * Population remains the ranking signal within each settlement tier.
    */
-  deduplicatedTowns.sort((first, second) => {
+  function compareMatchedTownPopulation(
+    first: MatchedTown,
+    second: MatchedTown,
+  ): number {
     const populationDifference =
       second.geoNamesTown.population - first.geoNamesTown.population;
 
@@ -1340,42 +1924,67 @@ function createCountryTownData(
     return first.geoNamesTown.id.localeCompare(
       second.geoNamesTown.id,
     );
-  });
+  }
 
-  // const rankedTowns = deduplicatedTowns.map(
-  //   (match, index): TownQuizTown => ({
-  //     id: match.geoNamesTown.id,
+  deduplicatedPrimaryTowns.sort(compareMatchedTownPopulation);
 
-  //     name: match.geoNamesTown.name,
+  deduplicatedSupplementalTowns.sort(compareMatchedTownPopulation);
 
-  //     latitude: match.geoNamesTown.latitude,
+  /*
+   * Preserve every eligible primary city/town up to the quiz limit before
+   * supplementing the dataset with smaller OSM villages.
+   *
+   * This keeps existing town-quiz membership stable while allowing countries
+   * with relatively few OSM cities/towns to gain substantially deeper coverage.
+   */
+  let selectedMatches = deduplicatedPrimaryTowns.slice(
+    0,
+    MAX_TOWN_COUNT,
+  );
 
-  //     longitude: match.geoNamesTown.longitude,
+  const supplementalCapacity =
+    MAX_TOWN_COUNT - selectedMatches.length;
 
-  //     population: match.geoNamesTown.population,
+  if (supplementalCapacity > 0) {
+    selectedMatches.push(
+      ...deduplicatedSupplementalTowns.slice(0, supplementalCapacity),
+    );
+  }
 
-  //     populationRank: index + 1,
+  /*
+   * National capitals and seats of government should always remain available
+   * even when unusual source classification or population causes the capital
+   * to fall outside the normal 300-settlement selection.
+   */
+  const capitalMatch = matchedTowns.find((match) =>
+    CAPITAL_GEONAMES_FEATURE_CODES.has(
+      match.geoNamesTown.featureCode,
+    ),
+  );
 
-  //     isCapital: match.geoNamesTown.featureCode === "PPLC",
-  //   }),
-  // ); ----------------------------------------------------------------------- OLD
+  if (
+    capitalMatch &&
+    !selectedMatches.some(
+      (match) =>
+        match.geoNamesTown.id === capitalMatch.geoNamesTown.id,
+    )
+  ) {
+    selectedMatches = [
+      ...selectedMatches.slice(0, MAX_TOWN_COUNT - 1),
+      capitalMatch,
+    ];
+  }
 
-  const rankedTowns = deduplicatedTowns.map(
+  selectedMatches.sort(compareMatchedTownPopulation);
+
+  const rankedTowns = selectedMatches.map(
     (match, index): TownQuizTown => {
-      const name = getQuizEnglishName(match);
-
-      const nativeName = getQuizNativeName(match);
+      const names = getQuizNames(match);
 
       return {
         id: match.geoNamesTown.id,
 
-        name,
-
-        ...(nativeName
-          ? {
-              nativeName,
-            }
-          : {}),
+        ...names,
 
         latitude: match.geoNamesTown.latitude,
 
@@ -1385,33 +1994,17 @@ function createCountryTownData(
 
         populationRank: index + 1,
 
-        isCapital: match.geoNamesTown.featureCode === "PPLC",
+        isCapital: CAPITAL_GEONAMES_FEATURE_CODES.has(
+          match.geoNamesTown.featureCode,
+        ),
       };
     },
   );
 
   /*
-   * Keep at most 200 records.
+   * Keep at most 300 records.
    */
-  let retainedTowns = rankedTowns.slice(0, MAX_TOWN_COUNT);
-
-  /*
-   * National capitals should always be available for town quizzes.
-   *
-   * If the capital lies outside the first 200 eligible towns, replace the
-   * 200th town rather than creating a 201-record dataset.
-   */
-  const capital = rankedTowns.find((town) => town.isCapital);
-
-  if (
-    capital &&
-    !retainedTowns.some((town) => town.id === capital.id)
-  ) {
-    retainedTowns = [
-      ...retainedTowns.slice(0, MAX_TOWN_COUNT - 1),
-      capital,
-    ];
-  }
+  const retainedTowns = rankedTowns.slice(0, MAX_TOWN_COUNT);
 
   return {
     data: {
@@ -1491,7 +2084,9 @@ async function main(): Promise<void> {
 
   /*
    * GeoNames is processed first so only the largest candidate towns are retained
-   * in memory.
+   * in memory. The reader performs a second streaming pass to recover
+   * zero-population populated places whose population exists only on a nearby
+   * matching administrative record.
    */
   const candidatesByCountry =
     await readGeoNamesCandidates(countryIdMap);
@@ -1542,7 +2137,13 @@ async function main(): Promise<void> {
 
       geoNamesCandidates: candidates.length,
 
-      matchedCitiesAndTowns: matchedTowns.length,
+      matchedCitiesAndTowns: matchedTowns.filter((match) =>
+        PRIMARY_OSM_PLACE_TYPES.has(match.osmTown.place),
+      ).length,
+
+      matchedVillages: matchedTowns.filter((match) =>
+        SUPPLEMENTAL_OSM_PLACE_TYPES.has(match.osmTown.place),
+      ).length,
 
       nameMatches,
 
@@ -1579,7 +2180,7 @@ async function main(): Promise<void> {
   if (incompleteCountries.length > 0) {
     console.log("");
 
-    console.log("COUNTRIES BELOW 200 TOWNS");
+    console.log(`COUNTRIES BELOW ${MAX_TOWN_COUNT} TOWNS`);
 
     console.log("-------------------------");
 
@@ -1588,6 +2189,10 @@ async function main(): Promise<void> {
         country: country.countryId,
 
         towns: country.generatedTowns,
+
+        citiesAndTowns: country.matchedCitiesAndTowns,
+
+        villages: country.matchedVillages,
 
         candidates: country.geoNamesCandidates,
       })),

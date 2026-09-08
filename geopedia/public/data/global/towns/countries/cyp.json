@@ -111,13 +111,23 @@
       "isCapital": false
     },
     {
+      "id": "146638",
+      "name": "Enkomi",
+      "nativeName": "Tuzla",
+      "latitude": 35.16272,
+      "longitude": 33.88322,
+      "population": 20502,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
       "id": "18918",
       "name": "Protaras",
       "nativeName": "Πρωταράς",
       "latitude": 35.0125,
       "longitude": 34.05833,
       "population": 20230,
-      "populationRank": 12,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -127,7 +137,17 @@
       "latitude": 34.72073,
       "longitude": 33.08447,
       "population": 17325,
-      "populationRank": 13,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "146189",
+      "name": "Pergamos",
+      "nativeName": "Beyarmudu",
+      "latitude": 35.04167,
+      "longitude": 33.70833,
+      "population": 15000,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -137,7 +157,7 @@
       "latitude": 35.02294,
       "longitude": 33.42195,
       "population": 12350,
-      "populationRank": 14,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -147,7 +167,7 @@
       "latitude": 35.03945,
       "longitude": 33.98181,
       "population": 11836,
-      "populationRank": 15,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -157,7 +177,7 @@
       "latitude": 35.1056,
       "longitude": 33.41977,
       "population": 9651,
-      "populationRank": 16,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -167,7 +187,7 @@
       "latitude": 34.76091,
       "longitude": 32.44844,
       "population": 8355,
-      "populationRank": 17,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -177,7 +197,7 @@
       "latitude": 35.11199,
       "longitude": 32.84997,
       "population": 7835,
-      "populationRank": 18,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -187,7 +207,7 @@
       "latitude": 34.68797,
       "longitude": 32.96191,
       "population": 7348,
-      "populationRank": 19,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -197,7 +217,17 @@
       "latitude": 34.87551,
       "longitude": 33.58684,
       "population": 6866,
-      "populationRank": 20,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "146451",
+      "name": "Kolossi",
+      "nativeName": "Κολόσσι",
+      "latitude": 34.66865,
+      "longitude": 32.93375,
+      "population": 6478,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -207,7 +237,7 @@
       "latitude": 34.79836,
       "longitude": 32.40653,
       "population": 6421,
-      "populationRank": 21,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -217,7 +247,7 @@
       "latitude": 35.06484,
       "longitude": 33.96083,
       "population": 6229,
-      "populationRank": 22,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -227,7 +257,7 @@
       "latitude": 34.97743,
       "longitude": 33.84894,
       "population": 6000,
-      "populationRank": 23,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -237,7 +267,7 @@
       "latitude": 34.807,
       "longitude": 32.42406,
       "population": 5505,
-      "populationRank": 24,
+      "populationRank": 27,
       "isCapital": false
     },
     {
@@ -247,7 +277,7 @@
       "latitude": 35.07307,
       "longitude": 33.32344,
       "population": 5498,
-      "populationRank": 25,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -257,7 +287,7 @@
       "latitude": 35.59719,
       "longitude": 34.37916,
       "population": 5215,
-      "populationRank": 26,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -267,7 +297,7 @@
       "latitude": 35.33823,
       "longitude": 33.17368,
       "population": 5215,
-      "populationRank": 27,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -277,7 +307,7 @@
       "latitude": 35.06183,
       "longitude": 33.54166,
       "population": 5202,
-      "populationRank": 28,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -287,7 +317,27 @@
       "latitude": 34.84898,
       "longitude": 33.57523,
       "population": 5136,
-      "populationRank": 29,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "146761",
+      "name": "Avgorou",
+      "nativeName": "Αυγόρου",
+      "latitude": 35.03615,
+      "longitude": 33.83918,
+      "population": 4921,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "146455",
+      "name": "Kokkinotrimithia",
+      "nativeName": "Κοκκινοτριμιθιά",
+      "latitude": 35.15303,
+      "longitude": 33.19966,
+      "population": 4817,
+      "populationRank": 34,
       "isCapital": false
     },
     {
@@ -297,7 +347,7 @@
       "latitude": 34.98213,
       "longitude": 34.00183,
       "population": 4717,
-      "populationRank": 30,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -307,7 +357,17 @@
       "latitude": 35.28628,
       "longitude": 33.89167,
       "population": 4490,
-      "populationRank": 31,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "146252",
+      "name": "Ormideia",
+      "nativeName": "Ορμήδεια",
+      "latitude": 34.99176,
+      "longitude": 33.77721,
+      "population": 4189,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -317,7 +377,47 @@
       "latitude": 34.65756,
       "longitude": 32.96534,
       "population": 4113,
-      "populationRank": 32,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "146375",
+      "name": "Liopetri",
+      "nativeName": "Λιοπέτρι",
+      "latitude": 35.00885,
+      "longitude": 33.89256,
+      "population": 4005,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "146216",
+      "name": "Pano Polemidia",
+      "nativeName": "Πάνω Πολεμίδια",
+      "latitude": 34.70559,
+      "longitude": 32.99269,
+      "population": 3781,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "145971",
+      "name": "Xylotymbou",
+      "nativeName": "Ξυλοτύμβου",
+      "latitude": 35.01627,
+      "longitude": 33.7435,
+      "population": 3593,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "146154",
+      "name": "Frenaros",
+      "nativeName": "Φρέναρος",
+      "latitude": 35.04121,
+      "longitude": 33.92242,
+      "population": 3450,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -327,7 +427,7 @@
       "latitude": 34.98138,
       "longitude": 33.65648,
       "population": 3446,
-      "populationRank": 33,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -337,7 +437,47 @@
       "latitude": 35.2598,
       "longitude": 33.73189,
       "population": 3187,
-      "populationRank": 34,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "146278",
+      "name": "Mouttagiaka",
+      "nativeName": "Μουτταγιάκα",
+      "latitude": 34.72022,
+      "longitude": 33.10066,
+      "population": 2818,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "146850",
+      "name": "Akaki",
+      "nativeName": "Ακάκι",
+      "latitude": 35.13341,
+      "longitude": 33.12873,
+      "population": 2769,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "146358",
+      "name": "Lythrodontas",
+      "nativeName": "Λυθροδόντας",
+      "latitude": 34.95105,
+      "longitude": 33.29777,
+      "population": 2736,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "146770",
+      "name": "Astromeritis",
+      "nativeName": "Αστρομερίτης",
+      "latitude": 35.14096,
+      "longitude": 33.03793,
+      "population": 2463,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -347,7 +487,77 @@
       "latitude": 34.88385,
       "longitude": 32.38188,
       "population": 2462,
-      "populationRank": 35,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "146362",
+      "name": "Lympia",
+      "nativeName": "Λύμπια",
+      "latitude": 34.99889,
+      "longitude": 33.46175,
+      "population": 2262,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "146446",
+      "name": "Konia",
+      "nativeName": "Κονιά",
+      "latitude": 34.78516,
+      "longitude": 32.459,
+      "population": 2209,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "146692",
+      "name": "Agios Tychonas",
+      "nativeName": "Άγιος Τύχωνας",
+      "latitude": 34.72606,
+      "longitude": 33.13872,
+      "population": 2204,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "146187",
+      "name": "Peristerona",
+      "nativeName": "Περιστερώνα",
+      "latitude": 35.12928,
+      "longitude": 33.07858,
+      "population": 2190,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "146767",
+      "name": "Achna",
+      "nativeName": "Düzce",
+      "latitude": 35.05515,
+      "longitude": 33.78388,
+      "population": 2043,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "146472",
+      "name": "Kissonerga",
+      "nativeName": "Κισσόνεργα",
+      "latitude": 34.82279,
+      "longitude": 32.40131,
+      "population": 2004,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "146225",
+      "name": "Pano Deftera",
+      "nativeName": "Πάνω Δευτερά",
+      "latitude": 35.07778,
+      "longitude": 33.26584,
+      "population": 1983,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -357,7 +567,347 @@
       "latitude": 35.03403,
       "longitude": 32.4255,
       "population": 1975,
-      "populationRank": 36,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "146438",
+      "name": "Kornos",
+      "nativeName": "Κόρνος",
+      "latitude": 34.92221,
+      "longitude": 33.39587,
+      "population": 1943,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "145955",
+      "name": "Yialousa",
+      "nativeName": "Yenierenköy",
+      "latitude": 35.53513,
+      "longitude": 34.18944,
+      "population": 1774,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "146842",
+      "name": "Acheritou",
+      "nativeName": "Güvercinlik",
+      "latitude": 35.10022,
+      "longitude": 33.86155,
+      "population": 1721,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "146529",
+      "name": "Kato Deftera",
+      "nativeName": "Κάτω Δευτερά",
+      "latitude": 35.08489,
+      "longitude": 33.27558,
+      "population": 1706,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "146303",
+      "name": "Mesogi",
+      "nativeName": "Μεσόγη",
+      "latitude": 34.81529,
+      "longitude": 32.45627,
+      "population": 1689,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "146112",
+      "name": "Psimolofou",
+      "nativeName": "Ψημολόφου",
+      "latitude": 35.0625,
+      "longitude": 33.2625,
+      "population": 1686,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "146791",
+      "name": "Ergates",
+      "nativeName": "Εργάτες",
+      "latitude": 35.05365,
+      "longitude": 33.24292,
+      "population": 1656,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "146045",
+      "name": "Tala",
+      "nativeName": "Τάλα",
+      "latitude": 34.83632,
+      "longitude": 32.43097,
+      "population": 1655,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "146461",
+      "name": "Klirou",
+      "nativeName": "Κλήρου",
+      "latitude": 35.02004,
+      "longitude": 33.17806,
+      "population": 1623,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "146386",
+      "name": "Leonarisso",
+      "nativeName": "Ziyamet",
+      "latitude": 35.46892,
+      "longitude": 34.13886,
+      "population": 1593,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "146414",
+      "name": "Kyperounta",
+      "nativeName": "Κυπερούντα",
+      "latitude": 34.93815,
+      "longitude": 32.97551,
+      "population": 1560,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "146573",
+      "name": "Kalo Chorio Larnakas",
+      "nativeName": "Καλό Χωριό Λάρνακας",
+      "latitude": 34.92852,
+      "longitude": 33.5362,
+      "population": 1534,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "146628",
+      "name": "Erimi",
+      "nativeName": "Ερήμη",
+      "latitude": 34.67766,
+      "longitude": 32.91815,
+      "population": 1493,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "146110",
+      "name": "Pyla",
+      "nativeName": "Πύλα - Pile",
+      "latitude": 35.00469,
+      "longitude": 33.68907,
+      "population": 1434,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "146107",
+      "name": "Pyrgos Lemesou",
+      "nativeName": "Πύργος Λεμεσού",
+      "latitude": 34.74167,
+      "longitude": 33.18333,
+      "population": 1407,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "146204",
+      "name": "Parekklisia",
+      "nativeName": "Παρεκκλησιά",
+      "latitude": 34.74583,
+      "longitude": 33.15833,
+      "population": 1382,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "146445",
+      "name": "Kofinou",
+      "nativeName": "Κοφίνου",
+      "latitude": 34.82427,
+      "longitude": 33.39133,
+      "population": 1372,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "146582",
+      "name": "Kakopetria",
+      "nativeName": "Κακοπετριά",
+      "latitude": 34.98768,
+      "longitude": 32.90468,
+      "population": 1255,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "146311",
+      "name": "Meneou",
+      "nativeName": "Μενεού",
+      "latitude": 34.86075,
+      "longitude": 33.59314,
+      "population": 1248,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "146198",
+      "name": "Pelendri",
+      "nativeName": "Πελένδρι",
+      "latitude": 34.89597,
+      "longitude": 32.96817,
+      "population": 1237,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "146834",
+      "name": "Alampra",
+      "nativeName": "Αλάμπρα",
+      "latitude": 34.98898,
+      "longitude": 33.39887,
+      "population": 1192,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "146515",
+      "name": "Kato Pyrgos",
+      "nativeName": "Κάτω Πύργος",
+      "latitude": 35.17897,
+      "longitude": 32.686,
+      "population": 1170,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "146283",
+      "name": "Mosfiloti",
+      "nativeName": "Μοσφιλωτή",
+      "latitude": 34.95322,
+      "longitude": 33.42518,
+      "population": 1158,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "146797",
+      "name": "Arediou",
+      "nativeName": "Αρεδιού",
+      "latitude": 35.04844,
+      "longitude": 33.1961,
+      "population": 1129,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "146347",
+      "name": "Mammari",
+      "nativeName": "Μάμμαρι",
+      "latitude": 35.17604,
+      "longitude": 33.20435,
+      "population": 1122,
+      "populationRank": 82,
+      "isCapital": false
+    },
+    {
+      "id": "146015",
+      "name": "Troulloi",
+      "nativeName": "Τρούλλοι",
+      "latitude": 35.03263,
+      "longitude": 33.61551,
+      "population": 1078,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "146150",
+      "name": "Pissouri",
+      "nativeName": "Πισσούρι",
+      "latitude": 34.66942,
+      "longitude": 32.70132,
+      "population": 1078,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "146793",
+      "name": "Argaka",
+      "nativeName": "Αργάκα",
+      "latitude": 35.06586,
+      "longitude": 32.49226,
+      "population": 1078,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "146114",
+      "name": "Psevdas",
+      "nativeName": "Ψευδάς",
+      "latitude": 34.94478,
+      "longitude": 33.46072,
+      "population": 1070,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "146192",
+      "name": "Pera",
+      "nativeName": "Πέρα",
+      "latitude": 35.0335,
+      "longitude": 33.25413,
+      "population": 1060,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "146012",
+      "name": "Tsada",
+      "nativeName": "Τσάδα",
+      "latitude": 34.83862,
+      "longitude": 32.47499,
+      "population": 1043,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "414384",
+      "name": "Meniko",
+      "nativeName": "Μένοικο",
+      "latitude": 35.10945,
+      "longitude": 33.14474,
+      "population": 1023,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "146040",
+      "name": "Tersefanou",
+      "nativeName": "Τερσεφάνου",
+      "latitude": 34.85408,
+      "longitude": 33.54739,
+      "population": 1018,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "146245",
+      "name": "Pachna",
+      "nativeName": "Πάχνα",
+      "latitude": 34.77874,
+      "longitude": 32.79355,
+      "population": 1008,
+      "populationRank": 91,
       "isCapital": false
     },
     {
@@ -367,7 +917,1717 @@
       "latitude": 34.81667,
       "longitude": 33.28333,
       "population": 957,
-      "populationRank": 37,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "146036",
+      "name": "Timi",
+      "nativeName": "Τίμη",
+      "latitude": 34.73177,
+      "longitude": 32.51613,
+      "population": 939,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "146434",
+      "name": "Kouklia",
+      "nativeName": "Κούκλια",
+      "latitude": 34.70987,
+      "longitude": 32.57331,
+      "population": 892,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "146817",
+      "name": "Anarita",
+      "nativeName": "Αναρίτα",
+      "latitude": 34.74057,
+      "longitude": 32.53375,
+      "population": 876,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "146851",
+      "name": "Agros",
+      "nativeName": "Αγρός",
+      "latitude": 34.91784,
+      "longitude": 33.01811,
+      "population": 874,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "146622",
+      "name": "Evrychou",
+      "nativeName": "Ευρύχου",
+      "latitude": 35.04136,
+      "longitude": 32.90229,
+      "population": 855,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "146138",
+      "name": "Polemi",
+      "nativeName": "Πολέμι",
+      "latitude": 34.88613,
+      "longitude": 32.50712,
+      "population": 848,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "146831",
+      "name": "Alethriko",
+      "nativeName": "Αλεθρικό",
+      "latitude": 34.86099,
+      "longitude": 33.4943,
+      "population": 827,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "146319",
+      "name": "Mazotos",
+      "nativeName": "Μαζωτός",
+      "latitude": 34.80364,
+      "longitude": 33.48947,
+      "population": 818,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "145954",
+      "name": "Giolou",
+      "nativeName": "Γιόλου",
+      "latitude": 34.92416,
+      "longitude": 32.47469,
+      "population": 764,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "146235",
+      "name": "Palodeia",
+      "nativeName": "Παλώδεια",
+      "latitude": 34.74504,
+      "longitude": 33.00578,
+      "population": 762,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "146296",
+      "name": "Mitsero",
+      "nativeName": "Μιτσερό",
+      "latitude": 35.04267,
+      "longitude": 33.12401,
+      "population": 742,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "146223",
+      "name": "Pano Kivides",
+      "nativeName": "Κυβίδες",
+      "latitude": 34.75743,
+      "longitude": 32.85725,
+      "population": 703,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "146250",
+      "name": "Orounta",
+      "nativeName": "Ορούντα",
+      "latitude": 35.10123,
+      "longitude": 33.09357,
+      "population": 687,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "146818",
+      "name": "Anafotia",
+      "nativeName": "Αναφωτία",
+      "latitude": 34.82435,
+      "longitude": 33.46357,
+      "population": 683,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "146612",
+      "name": "Galata",
+      "nativeName": "Γαλάτα",
+      "latitude": 34.99699,
+      "longitude": 32.8993,
+      "population": 679,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "146579",
+      "name": "Kalavasos",
+      "nativeName": "Καλαβασός",
+      "latitude": 34.7584,
+      "longitude": 33.30798,
+      "population": 666,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "146627",
+      "name": "Avdimou",
+      "nativeName": "Αυδήμου",
+      "latitude": 34.69406,
+      "longitude": 32.76263,
+      "population": 641,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "146327",
+      "name": "Mathiatis",
+      "nativeName": "Μαθιάτης",
+      "latitude": 34.96349,
+      "longitude": 33.33627,
+      "population": 605,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "146134",
+      "name": "Pomos",
+      "nativeName": "Πωμός",
+      "latitude": 35.16037,
+      "longitude": 32.54574,
+      "population": 593,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "146308",
+      "name": "Mesa Chorio",
+      "nativeName": "Μέσα Χωριό",
+      "latitude": 34.80888,
+      "longitude": 32.46196,
+      "population": 586,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "146132",
+      "name": "Potami",
+      "nativeName": "Ποτάμι",
+      "latitude": 35.10439,
+      "longitude": 33.02982,
+      "population": 581,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "146219",
+      "name": "Pano Panagia",
+      "nativeName": "Πάνω Παναγιά",
+      "latitude": 34.91954,
+      "longitude": 32.63155,
+      "population": 564,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "146084",
+      "name": "Sha",
+      "nativeName": "Σιά",
+      "latitude": 34.95523,
+      "longitude": 33.38997,
+      "population": 553,
+      "populationRank": 115,
+      "isCapital": false
+    },
+    {
+      "id": "146331",
+      "name": "Maroni",
+      "nativeName": "Μαρώνι",
+      "latitude": 34.75735,
+      "longitude": 33.35657,
+      "population": 543,
+      "populationRank": 116,
+      "isCapital": false
+    },
+    {
+      "id": "146055",
+      "name": "Stroumpi",
+      "nativeName": "Στρουμπί",
+      "latitude": 34.88784,
+      "longitude": 32.48134,
+      "population": 540,
+      "populationRank": 117,
+      "isCapital": false
+    },
+    {
+      "id": "146491",
+      "name": "Choirokoitia",
+      "nativeName": "Χοιροκοιτία",
+      "latitude": 34.79747,
+      "longitude": 33.33519,
+      "population": 531,
+      "populationRank": 118,
+      "isCapital": false
+    },
+    {
+      "id": "145946",
+      "name": "Zygi",
+      "nativeName": "Ζύγι",
+      "latitude": 34.72887,
+      "longitude": 33.33779,
+      "population": 526,
+      "populationRank": 119,
+      "isCapital": false
+    },
+    {
+      "id": "146443",
+      "name": "Korakou",
+      "nativeName": "Κοράκου",
+      "latitude": 35.04108,
+      "longitude": 32.88737,
+      "population": 521,
+      "populationRank": 120,
+      "isCapital": false
+    },
+    {
+      "id": "146390",
+      "name": "Lempa",
+      "nativeName": "Λέμπα",
+      "latitude": 34.80863,
+      "longitude": 32.4079,
+      "population": 506,
+      "populationRank": 121,
+      "isCapital": false
+    },
+    {
+      "id": "146294",
+      "name": "Monagrouli",
+      "nativeName": "Μοναγρούλλι",
+      "latitude": 34.74902,
+      "longitude": 33.21295,
+      "population": 492,
+      "populationRank": 122,
+      "isCapital": false
+    },
+    {
+      "id": "146465",
+      "name": "Klavdia",
+      "nativeName": "Κλαυδιά",
+      "latitude": 34.89307,
+      "longitude": 33.51491,
+      "population": 468,
+      "populationRank": 123,
+      "isCapital": false
+    },
+    {
+      "id": "146476",
+      "name": "Koili",
+      "nativeName": "Κοίλη",
+      "latitude": 34.85957,
+      "longitude": 32.45514,
+      "population": 466,
+      "populationRank": 124,
+      "isCapital": false
+    },
+    {
+      "id": "146560",
+      "name": "Kantou",
+      "nativeName": "Καντού",
+      "latitude": 34.69026,
+      "longitude": 32.90674,
+      "population": 465,
+      "populationRank": 125,
+      "isCapital": false
+    },
+    {
+      "id": "146161",
+      "name": "Fini",
+      "nativeName": "Φοινί",
+      "latitude": 34.89242,
+      "longitude": 32.83783,
+      "population": 464,
+      "populationRank": 126,
+      "isCapital": false
+    },
+    {
+      "id": "146853",
+      "name": "Agrokipia",
+      "nativeName": "Αγροκηπιά",
+      "latitude": 35.0436,
+      "longitude": 33.15788,
+      "population": 450,
+      "populationRank": 127,
+      "isCapital": false
+    },
+    {
+      "id": "146266",
+      "name": "Nikitari",
+      "nativeName": "Νικητάρι",
+      "latitude": 35.07332,
+      "longitude": 32.99326,
+      "population": 445,
+      "populationRank": 128,
+      "isCapital": false
+    },
+    {
+      "id": "146564",
+      "name": "Kampos",
+      "nativeName": "Κάμπος",
+      "latitude": 35.04026,
+      "longitude": 32.73242,
+      "population": 445,
+      "populationRank": 129,
+      "isCapital": false
+    },
+    {
+      "id": "146534",
+      "name": "Kathikas",
+      "nativeName": "Κάθηκας",
+      "latitude": 34.91253,
+      "longitude": 32.42571,
+      "population": 438,
+      "populationRank": 130,
+      "isCapital": false
+    },
+    {
+      "id": "146565",
+      "name": "Kampia",
+      "nativeName": "Καμπιά",
+      "latitude": 35.00822,
+      "longitude": 33.25629,
+      "population": 436,
+      "populationRank": 131,
+      "isCapital": false
+    },
+    {
+      "id": "146131",
+      "name": "Potamia",
+      "nativeName": "Ποταμιά",
+      "latitude": 35.04216,
+      "longitude": 33.44532,
+      "population": 433,
+      "populationRank": 132,
+      "isCapital": false
+    },
+    {
+      "id": "146363",
+      "name": "Louvaras",
+      "nativeName": "Λουβαράς",
+      "latitude": 34.83652,
+      "longitude": 33.04024,
+      "population": 408,
+      "populationRank": 133,
+      "isCapital": false
+    },
+    {
+      "id": "146780",
+      "name": "Asgata",
+      "nativeName": "Ασγάτα",
+      "latitude": 34.77931,
+      "longitude": 33.25531,
+      "population": 406,
+      "populationRank": 134,
+      "isCapital": false
+    },
+    {
+      "id": "146292",
+      "name": "Moni",
+      "nativeName": "Μονή",
+      "latitude": 34.73333,
+      "longitude": 33.2,
+      "population": 403,
+      "populationRank": 135,
+      "isCapital": false
+    },
+    {
+      "id": "146653",
+      "name": "Drousha",
+      "nativeName": "Δρούσια",
+      "latitude": 34.96111,
+      "longitude": 32.39765,
+      "population": 403,
+      "populationRank": 136,
+      "isCapital": false
+    },
+    {
+      "id": "146775",
+      "name": "Asomatos",
+      "nativeName": "Ασώματος",
+      "latitude": 34.63774,
+      "longitude": 32.95963,
+      "population": 403,
+      "populationRank": 137,
+      "isCapital": false
+    },
+    {
+      "id": "145990",
+      "name": "Vyzakia",
+      "nativeName": "Βυζακιά",
+      "latitude": 35.07854,
+      "longitude": 33.01427,
+      "population": 401,
+      "populationRank": 138,
+      "isCapital": false
+    },
+    {
+      "id": "146588",
+      "name": "Ineia",
+      "nativeName": "Ίνεια",
+      "latitude": 34.95612,
+      "longitude": 32.39339,
+      "population": 385,
+      "populationRank": 139,
+      "isCapital": false
+    },
+    {
+      "id": "146506",
+      "name": "Kellia",
+      "nativeName": "Κελλιά",
+      "latitude": 34.97611,
+      "longitude": 33.62325,
+      "population": 380,
+      "populationRank": 140,
+      "isCapital": false
+    },
+    {
+      "id": "146835",
+      "name": "Akrounda",
+      "nativeName": "Ακρούντα",
+      "latitude": 34.7652,
+      "longitude": 33.08162,
+      "population": 360,
+      "populationRank": 141,
+      "isCapital": false
+    },
+    {
+      "id": "146786",
+      "name": "Armou",
+      "nativeName": "Άρμου",
+      "latitude": 34.79939,
+      "longitude": 32.47851,
+      "population": 357,
+      "populationRank": 142,
+      "isCapital": false
+    },
+    {
+      "id": "146205",
+      "name": "Paramytha",
+      "nativeName": "Παραμύθα",
+      "latitude": 34.76075,
+      "longitude": 32.99464,
+      "population": 343,
+      "populationRank": 143,
+      "isCapital": false
+    },
+    {
+      "id": "146636",
+      "name": "Eptagoneia",
+      "nativeName": "Επταγώνια",
+      "latitude": 34.8472,
+      "longitude": 33.15779,
+      "population": 343,
+      "populationRank": 144,
+      "isCapital": false
+    },
+    {
+      "id": "146808",
+      "name": "Apesia",
+      "nativeName": "Απεσιά",
+      "latitude": 34.78939,
+      "longitude": 32.97756,
+      "population": 342,
+      "populationRank": 145,
+      "isCapital": false
+    },
+    {
+      "id": "146035",
+      "name": "Tochni",
+      "nativeName": "Τόχνη",
+      "latitude": 34.78097,
+      "longitude": 33.32357,
+      "population": 336,
+      "populationRank": 146,
+      "isCapital": false
+    },
+    {
+      "id": "146576",
+      "name": "Kallepeia",
+      "nativeName": "Καλλέπεια",
+      "latitude": 34.84555,
+      "longitude": 32.50009,
+      "population": 326,
+      "populationRank": 147,
+      "isCapital": false
+    },
+    {
+      "id": "146256",
+      "name": "Omodos",
+      "nativeName": "Όμοδος",
+      "latitude": 34.84828,
+      "longitude": 32.80893,
+      "population": 325,
+      "populationRank": 148,
+      "isCapital": false
+    },
+    {
+      "id": "146521",
+      "name": "Kato Moni",
+      "nativeName": "Κάτω Μονή",
+      "latitude": 35.06054,
+      "longitude": 33.09407,
+      "population": 325,
+      "populationRank": 149,
+      "isCapital": false
+    },
+    {
+      "id": "146662",
+      "name": "Deneia",
+      "nativeName": "Δένεια",
+      "latitude": 35.16675,
+      "longitude": 33.14599,
+      "population": 317,
+      "populationRank": 150,
+      "isCapital": false
+    },
+    {
+      "id": "146337",
+      "name": "Marathounta",
+      "nativeName": "Μαραθούντα",
+      "latitude": 34.79101,
+      "longitude": 32.48813,
+      "population": 316,
+      "populationRank": 151,
+      "isCapital": false
+    },
+    {
+      "id": "146819",
+      "name": "Analiontas",
+      "nativeName": "Αναλιόντας",
+      "latitude": 35.00673,
+      "longitude": 33.28998,
+      "population": 313,
+      "populationRank": 152,
+      "isCapital": false
+    },
+    {
+      "id": "146291",
+      "name": "Moniatis",
+      "nativeName": "Μονιάτης",
+      "latitude": 34.86797,
+      "longitude": 32.89758,
+      "population": 312,
+      "populationRank": 153,
+      "isCapital": false
+    },
+    {
+      "id": "146277",
+      "name": "Moutoulas",
+      "nativeName": "Μουτουλάς",
+      "latitude": 34.9843,
+      "longitude": 32.82516,
+      "population": 307,
+      "populationRank": 154,
+      "isCapital": false
+    },
+    {
+      "id": "146739",
+      "name": "Ayios Amvrosios",
+      "nativeName": "Άγιος Αμβρόσιος",
+      "latitude": 34.78111,
+      "longitude": 32.82611,
+      "population": 304,
+      "populationRank": 155,
+      "isCapital": false
+    },
+    {
+      "id": "146795",
+      "name": "Arakapas",
+      "nativeName": "Αρακαπάς",
+      "latitude": 34.84379,
+      "longitude": 33.11212,
+      "population": 304,
+      "populationRank": 156,
+      "isCapital": false
+    },
+    {
+      "id": "146569",
+      "name": "Kalopanagiotis",
+      "nativeName": "Καλοπαναγιώτης",
+      "latitude": 34.99043,
+      "longitude": 32.82731,
+      "population": 300,
+      "populationRank": 157,
+      "isCapital": false
+    },
+    {
+      "id": "146833",
+      "name": "Alaminos",
+      "nativeName": "Αλαμηνός",
+      "latitude": 34.8073,
+      "longitude": 33.43475,
+      "population": 292,
+      "populationRank": 158,
+      "isCapital": false
+    },
+    {
+      "id": "146507",
+      "name": "Kellaki",
+      "nativeName": "Κελλάκι",
+      "latitude": 34.81647,
+      "longitude": 33.15831,
+      "population": 282,
+      "populationRank": 159,
+      "isCapital": false
+    },
+    {
+      "id": "146477",
+      "name": "Koilani",
+      "nativeName": "Κοιλάνι",
+      "latitude": 34.84472,
+      "longitude": 32.86028,
+      "population": 280,
+      "populationRank": 160,
+      "isCapital": false
+    },
+    {
+      "id": "146659",
+      "name": "Dierona",
+      "nativeName": "Διερώνα",
+      "latitude": 34.8299,
+      "longitude": 33.11109,
+      "population": 279,
+      "populationRank": 161,
+      "isCapital": false
+    },
+    {
+      "id": "146381",
+      "name": "Limnatis",
+      "nativeName": "Λιμνάτης",
+      "latitude": 34.81323,
+      "longitude": 32.94814,
+      "population": 272,
+      "populationRank": 162,
+      "isCapital": false
+    },
+    {
+      "id": "146039",
+      "name": "Theletra",
+      "nativeName": "Θελέτρα",
+      "latitude": 34.91179,
+      "longitude": 32.44748,
+      "population": 269,
+      "populationRank": 163,
+      "isCapital": false
+    },
+    {
+      "id": "146218",
+      "name": "Flasou",
+      "nativeName": "Φλάσου",
+      "latitude": 35.06886,
+      "longitude": 32.88869,
+      "population": 265,
+      "populationRank": 164,
+      "isCapital": false
+    },
+    {
+      "id": "146100",
+      "name": "Salamiou",
+      "nativeName": "Σαλαμιού",
+      "latitude": 34.84034,
+      "longitude": 32.68996,
+      "population": 264,
+      "populationRank": 165,
+      "isCapital": false
+    },
+    {
+      "id": "146756",
+      "name": "Ayia Anna",
+      "nativeName": "Αγία Άννα",
+      "latitude": 34.94292,
+      "longitude": 33.48076,
+      "population": 262,
+      "populationRank": 166,
+      "isCapital": false
+    },
+    {
+      "id": "146810",
+      "name": "Anogyra",
+      "nativeName": "Ανώγυρα",
+      "latitude": 34.73969,
+      "longitude": 32.73453,
+      "population": 255,
+      "populationRank": 167,
+      "isCapital": false
+    },
+    {
+      "id": "146160",
+      "name": "Foinikaria",
+      "nativeName": "Φοινικάρια",
+      "latitude": 34.75188,
+      "longitude": 33.09783,
+      "population": 254,
+      "populationRank": 168,
+      "isCapital": false
+    },
+    {
+      "id": "146489",
+      "name": "Choletria",
+      "nativeName": "Χολέτρια",
+      "latitude": 34.76323,
+      "longitude": 32.5988,
+      "population": 252,
+      "populationRank": 169,
+      "isCapital": false
+    },
+    {
+      "id": "146385",
+      "name": "Letymbou",
+      "nativeName": "Λετύμβου",
+      "latitude": 34.85735,
+      "longitude": 32.51361,
+      "population": 249,
+      "populationRank": 170,
+      "isCapital": false
+    },
+    {
+      "id": "16770",
+      "name": "Statos-Agios Photios",
+      "nativeName": "Στατός - Άγιος Φώτιος",
+      "latitude": 34.88846,
+      "longitude": 32.61593,
+      "population": 249,
+      "populationRank": 171,
+      "isCapital": false
+    },
+    {
+      "id": "146076",
+      "name": "Skarinou",
+      "nativeName": "Σκαρίνου",
+      "latitude": 34.81915,
+      "longitude": 33.35877,
+      "population": 248,
+      "populationRank": 172,
+      "isCapital": false
+    },
+    {
+      "id": "146466",
+      "name": "Kivisili",
+      "nativeName": "Κιβισίλι",
+      "latitude": 34.83956,
+      "longitude": 33.50481,
+      "population": 241,
+      "populationRank": 173,
+      "isCapital": false
+    },
+    {
+      "id": "146594",
+      "name": "Gourri",
+      "nativeName": "Γουρρι",
+      "latitude": 34.95744,
+      "longitude": 33.15782,
+      "population": 235,
+      "populationRank": 174,
+      "isCapital": false
+    },
+    {
+      "id": "146749",
+      "name": "Agia Marinouda",
+      "nativeName": "Αγία Μαρινούδα",
+      "latitude": 34.7598,
+      "longitude": 32.47592,
+      "population": 230,
+      "populationRank": 175,
+      "isCapital": false
+    },
+    {
+      "id": "146532",
+      "name": "Amiantos",
+      "nativeName": "Αμίαντος",
+      "latitude": 34.91722,
+      "longitude": 32.93581,
+      "population": 229,
+      "populationRank": 176,
+      "isCapital": false
+    },
+    {
+      "id": "146376",
+      "name": "Linou",
+      "nativeName": "Λινού",
+      "latitude": 35.07438,
+      "longitude": 32.89238,
+      "population": 216,
+      "populationRank": 177,
+      "isCapital": false
+    },
+    {
+      "id": "146498",
+      "name": "Chandria",
+      "nativeName": "Χανδριά",
+      "latitude": 34.94389,
+      "longitude": 32.99387,
+      "population": 214,
+      "populationRank": 178,
+      "isCapital": false
+    },
+    {
+      "id": "146501",
+      "name": "Alassa",
+      "nativeName": "Άλασσα",
+      "latitude": 34.76309,
+      "longitude": 32.92689,
+      "population": 210,
+      "populationRank": 179,
+      "isCapital": false
+    },
+    {
+      "id": "146823",
+      "name": "Amargeti",
+      "nativeName": "Αμαργέτη",
+      "latitude": 34.82428,
+      "longitude": 32.58385,
+      "population": 209,
+      "populationRank": 180,
+      "isCapital": false
+    },
+    {
+      "id": "145947",
+      "name": "Zoopigi",
+      "nativeName": "Ζωοπηγή",
+      "latitude": 34.86322,
+      "longitude": 33.0158,
+      "population": 207,
+      "populationRank": 181,
+      "isCapital": false
+    },
+    {
+      "id": "146217",
+      "name": "Pano Platres",
+      "nativeName": "Πάνω Πλάτρες",
+      "latitude": 34.88664,
+      "longitude": 32.85967,
+      "population": 201,
+      "populationRank": 182,
+      "isCapital": false
+    },
+    {
+      "id": "146200",
+      "name": "Pedoulas",
+      "nativeName": "Πεδουλάς",
+      "latitude": 34.96804,
+      "longitude": 32.82901,
+      "population": 199,
+      "populationRank": 183,
+      "isCapital": false
+    },
+    {
+      "id": "146406",
+      "name": "Lania",
+      "nativeName": "Λάνια",
+      "latitude": 34.82495,
+      "longitude": 32.92145,
+      "population": 199,
+      "populationRank": 184,
+      "isCapital": false
+    },
+    {
+      "id": "146798",
+      "name": "Apsiou",
+      "nativeName": "Αψιού",
+      "latitude": 34.79728,
+      "longitude": 33.01675,
+      "population": 198,
+      "populationRank": 185,
+      "isCapital": false
+    },
+    {
+      "id": "146064",
+      "name": "Spitali",
+      "nativeName": "Σπιτάλι",
+      "latitude": 34.76341,
+      "longitude": 33.00224,
+      "population": 196,
+      "populationRank": 186,
+      "isCapital": false
+    },
+    {
+      "id": "146263",
+      "name": "Oikos",
+      "nativeName": "Οίκος",
+      "latitude": 34.99715,
+      "longitude": 32.82771,
+      "population": 195,
+      "populationRank": 187,
+      "isCapital": false
+    },
+    {
+      "id": "146776",
+      "name": "Askas",
+      "nativeName": "Ασκάς",
+      "latitude": 34.92966,
+      "longitude": 33.07778,
+      "population": 195,
+      "populationRank": 188,
+      "isCapital": false
+    },
+    {
+      "id": "146558",
+      "name": "Kannavia",
+      "nativeName": "Καννάβια",
+      "latitude": 34.98312,
+      "longitude": 32.97688,
+      "population": 194,
+      "populationRank": 189,
+      "isCapital": false
+    },
+    {
+      "id": "146505",
+      "name": "Kelokedara",
+      "nativeName": "Κελοκέδαρα",
+      "latitude": 34.81242,
+      "longitude": 32.65156,
+      "population": 193,
+      "populationRank": 190,
+      "isCapital": false
+    },
+    {
+      "id": "146657",
+      "name": "Dora",
+      "nativeName": "Δορά",
+      "latitude": 34.78072,
+      "longitude": 32.73825,
+      "population": 192,
+      "populationRank": 191,
+      "isCapital": false
+    },
+    {
+      "id": "146115",
+      "name": "Psematismenos",
+      "nativeName": "Ψεματισμένος",
+      "latitude": 34.74952,
+      "longitude": 33.3504,
+      "population": 187,
+      "populationRank": 192,
+      "isCapital": false
+    },
+    {
+      "id": "146254",
+      "name": "Ora",
+      "nativeName": "Ορά",
+      "latitude": 34.86236,
+      "longitude": 33.1956,
+      "population": 187,
+      "populationRank": 193,
+      "isCapital": false
+    },
+    {
+      "id": "146333",
+      "name": "Mari",
+      "nativeName": "Μαρί",
+      "latitude": 34.74056,
+      "longitude": 33.29928,
+      "population": 185,
+      "populationRank": 194,
+      "isCapital": false
+    },
+    {
+      "id": "146135",
+      "name": "Polystipos",
+      "nativeName": "Πολύστυπος",
+      "latitude": 34.93949,
+      "longitude": 33.01832,
+      "population": 181,
+      "populationRank": 195,
+      "isCapital": false
+    },
+    {
+      "id": "146295",
+      "name": "Monagri",
+      "nativeName": "Μονάγρι",
+      "latitude": 34.80982,
+      "longitude": 32.91062,
+      "population": 181,
+      "populationRank": 196,
+      "isCapital": false
+    },
+    {
+      "id": "146140",
+      "name": "Platanistasa",
+      "nativeName": "Πλατανιστάσα",
+      "latitude": 34.94714,
+      "longitude": 33.0461,
+      "population": 180,
+      "populationRank": 197,
+      "isCapital": false
+    },
+    {
+      "id": "146081",
+      "name": "Simou",
+      "nativeName": "Σίμου",
+      "latitude": 34.94121,
+      "longitude": 32.50417,
+      "population": 178,
+      "populationRank": 198,
+      "isCapital": false
+    },
+    {
+      "id": "146557",
+      "name": "Kannaviou",
+      "nativeName": "Κανναβιού",
+      "latitude": 34.91625,
+      "longitude": 32.57542,
+      "population": 175,
+      "populationRank": 199,
+      "isCapital": false
+    },
+    {
+      "id": "146025",
+      "name": "Trimiklini",
+      "nativeName": "Τριμίκλινη",
+      "latitude": 34.84722,
+      "longitude": 32.91225,
+      "population": 174,
+      "populationRank": 200,
+      "isCapital": false
+    },
+    {
+      "id": "146788",
+      "name": "Armenochori",
+      "nativeName": "Αρμενοχώρι",
+      "latitude": 34.74583,
+      "longitude": 33.12917,
+      "population": 174,
+      "populationRank": 201,
+      "isCapital": false
+    },
+    {
+      "id": "146436",
+      "name": "Korfi",
+      "nativeName": "Κορφή",
+      "latitude": 34.79592,
+      "longitude": 32.96485,
+      "population": 173,
+      "populationRank": 202,
+      "isCapital": false
+    },
+    {
+      "id": "146745",
+      "name": "Agia Varvara",
+      "nativeName": "Αγία Βαρβάρα",
+      "latitude": 34.75073,
+      "longitude": 32.51159,
+      "population": 172,
+      "populationRank": 203,
+      "isCapital": false
+    },
+    {
+      "id": "146651",
+      "name": "Dymes",
+      "nativeName": "Δύμες",
+      "latitude": 34.91747,
+      "longitude": 32.98392,
+      "population": 171,
+      "populationRank": 204,
+      "isCapital": false
+    },
+    {
+      "id": "146065",
+      "name": "Spilia",
+      "nativeName": "Σπήλια",
+      "latitude": 34.96683,
+      "longitude": 32.95551,
+      "population": 169,
+      "populationRank": 205,
+      "isCapital": false
+    },
+    {
+      "id": "146273",
+      "name": "Nata",
+      "nativeName": "Νατά",
+      "latitude": 34.77823,
+      "longitude": 32.57121,
+      "population": 169,
+      "populationRank": 206,
+      "isCapital": false
+    },
+    {
+      "id": "146719",
+      "name": "Ayios Konstantinos",
+      "nativeName": "Άγιος Κωνσταντίνος",
+      "latitude": 34.86705,
+      "longitude": 33.0665,
+      "population": 169,
+      "populationRank": 207,
+      "isCapital": false
+    },
+    {
+      "id": "146259",
+      "name": "Odou",
+      "nativeName": "Οδού",
+      "latitude": 34.88535,
+      "longitude": 33.1507,
+      "population": 163,
+      "populationRank": 208,
+      "isCapital": false
+    },
+    {
+      "id": "146596",
+      "name": "Goudi",
+      "nativeName": "Γουδί",
+      "latitude": 34.99217,
+      "longitude": 32.44197,
+      "population": 163,
+      "populationRank": 209,
+      "isCapital": false
+    },
+    {
+      "id": "146695",
+      "name": "Agios Therapon",
+      "nativeName": "Άγιος Θεράπων",
+      "latitude": 34.79763,
+      "longitude": 32.83975,
+      "population": 159,
+      "populationRank": 210,
+      "isCapital": false
+    },
+    {
+      "id": "146707",
+      "name": "Ayios Pavlos",
+      "nativeName": "Άγιος Παύλος",
+      "latitude": 34.86387,
+      "longitude": 33.04597,
+      "population": 157,
+      "populationRank": 211,
+      "isCapital": false
+    },
+    {
+      "id": "146407",
+      "name": "Lagoudera",
+      "nativeName": "Λαγουδερά",
+      "latitude": 34.96207,
+      "longitude": 33.01009,
+      "population": 150,
+      "populationRank": 212,
+      "isCapital": false
+    },
+    {
+      "id": "146152",
+      "name": "Fterikoudi",
+      "nativeName": "Φτερικούδι",
+      "latitude": 34.9436,
+      "longitude": 33.06879,
+      "population": 148,
+      "populationRank": 213,
+      "isCapital": false
+    },
+    {
+      "id": "146485",
+      "name": "Choulou",
+      "nativeName": "Χούλου",
+      "latitude": 34.87257,
+      "longitude": 32.55822,
+      "population": 147,
+      "populationRank": 214,
+      "isCapital": false
+    },
+    {
+      "id": "146517",
+      "name": "Kato Platres",
+      "nativeName": "Κάτω Πλάτρες",
+      "latitude": 34.87819,
+      "longitude": 32.83956,
+      "population": 143,
+      "populationRank": 215,
+      "isCapital": false
+    },
+    {
+      "id": "145986",
+      "name": "Vouni",
+      "nativeName": "Βουνί",
+      "latitude": 34.82402,
+      "longitude": 32.83417,
+      "population": 142,
+      "populationRank": 216,
+      "isCapital": false
+    },
+    {
+      "id": "146051",
+      "name": "Sikopetra",
+      "nativeName": "Συκόπετρα",
+      "latitude": 34.87857,
+      "longitude": 33.1125,
+      "population": 141,
+      "populationRank": 217,
+      "isCapital": false
+    },
+    {
+      "id": "146764",
+      "name": "Avdellero",
+      "nativeName": "Αβδελλερό",
+      "latitude": 35.00796,
+      "longitude": 33.57053,
+      "population": 136,
+      "populationRank": 218,
+      "isCapital": false
+    },
+    {
+      "id": "146826",
+      "name": "Alona",
+      "nativeName": "Άλωνα",
+      "latitude": 34.93369,
+      "longitude": 33.04026,
+      "population": 134,
+      "populationRank": 219,
+      "isCapital": false
+    },
+    {
+      "id": "146482",
+      "name": "Chrysochou",
+      "nativeName": "Χρυσοχού",
+      "latitude": 35.00384,
+      "longitude": 32.43977,
+      "population": 132,
+      "populationRank": 220,
+      "isCapital": false
+    },
+    {
+      "id": "145968",
+      "name": "Gerakies",
+      "nativeName": "Γερακιές",
+      "latitude": 35.00011,
+      "longitude": 32.80507,
+      "population": 128,
+      "populationRank": 221,
+      "isCapital": false
+    },
+    {
+      "id": "145973",
+      "name": "Xyliatos",
+      "nativeName": "Ξυλιάτος",
+      "latitude": 35.02981,
+      "longitude": 33.04342,
+      "population": 128,
+      "populationRank": 222,
+      "isCapital": false
+    },
+    {
+      "id": "146854",
+      "name": "Agridia",
+      "nativeName": "Αγρίδια",
+      "latitude": 34.92828,
+      "longitude": 32.99473,
+      "population": 126,
+      "populationRank": 223,
+      "isCapital": false
+    },
+    {
+      "id": "146458",
+      "name": "Kotsiatis",
+      "nativeName": "Κοτσιάτης",
+      "latitude": 35.01321,
+      "longitude": 33.35005,
+      "population": 122,
+      "populationRank": 224,
+      "isCapital": false
+    },
+    {
+      "id": "146527",
+      "name": "Kato Drys",
+      "nativeName": "Κάτω Δρυς",
+      "latitude": 34.85114,
+      "longitude": 33.30432,
+      "population": 119,
+      "populationRank": 225,
+      "isCapital": false
+    },
+    {
+      "id": "146844",
+      "name": "Acheleia",
+      "nativeName": "Αχέλεια",
+      "latitude": 34.73922,
+      "longitude": 32.48589,
+      "population": 119,
+      "populationRank": 226,
+      "isCapital": false
+    },
+    {
+      "id": "146326",
+      "name": "Mathikoloni",
+      "nativeName": "Μαθηκολώνη",
+      "latitude": 34.7752,
+      "longitude": 33.04913,
+      "population": 115,
+      "populationRank": 227,
+      "isCapital": false
+    },
+    {
+      "id": "146226",
+      "name": "Pano Arodes",
+      "nativeName": "Πάνω Αρόδες",
+      "latitude": 34.93613,
+      "longitude": 32.40716,
+      "population": 113,
+      "populationRank": 228,
+      "isCapital": false
+    },
+    {
+      "id": "146388",
+      "name": "Lemithou",
+      "nativeName": "Λεμύθου",
+      "latitude": 34.94944,
+      "longitude": 32.81136,
+      "population": 112,
+      "populationRank": 229,
+      "isCapital": false
+    },
+    {
+      "id": "146675",
+      "name": "Tsakistra",
+      "nativeName": "Τσακίστρα",
+      "latitude": 35.02506,
+      "longitude": 32.72255,
+      "population": 112,
+      "populationRank": 230,
+      "isCapital": false
+    },
+    {
+      "id": "146057",
+      "name": "Steni",
+      "nativeName": "Στενή",
+      "latitude": 34.9976,
+      "longitude": 32.47232,
+      "population": 110,
+      "populationRank": 231,
+      "isCapital": false
+    },
+    {
+      "id": "146264",
+      "name": "Nikoklia",
+      "nativeName": "Νικόκλεια",
+      "latitude": 34.72895,
+      "longitude": 32.57744,
+      "population": 110,
+      "populationRank": 232,
+      "isCapital": false
+    },
+    {
+      "id": "146652",
+      "name": "Drymou",
+      "nativeName": "Δρύμου",
+      "latitude": 34.92545,
+      "longitude": 32.51344,
+      "population": 110,
+      "populationRank": 233,
+      "isCapital": false
+    },
+    {
+      "id": "146717",
+      "name": "Ayios Mamas",
+      "nativeName": "Άγιος Μάμας",
+      "latitude": 34.85117,
+      "longitude": 32.94886,
+      "population": 110,
+      "populationRank": 234,
+      "isCapital": false
+    },
+    {
+      "id": "146062",
+      "name": "Stavrokonou",
+      "nativeName": "Σταυροκόννου",
+      "latitude": 34.78552,
+      "longitude": 32.61822,
+      "population": 106,
+      "populationRank": 235,
+      "isCapital": false
+    },
+    {
+      "id": "146656",
+      "name": "Doros",
+      "nativeName": "Δωρός",
+      "latitude": 34.81533,
+      "longitude": 32.90894,
+      "population": 104,
+      "populationRank": 236,
+      "isCapital": false
+    },
+    {
+      "id": "146082",
+      "name": "Silikou",
+      "nativeName": "Συλίκου",
+      "latitude": 34.8318,
+      "longitude": 32.8898,
+      "population": 102,
+      "populationRank": 237,
+      "isCapital": false
+    },
+    {
+      "id": "146158",
+      "name": "Fyti",
+      "nativeName": "Φοίτη",
+      "latitude": 34.92871,
+      "longitude": 32.5448,
+      "population": 101,
+      "populationRank": 238,
+      "isCapital": false
+    },
+    {
+      "id": "146741",
+      "name": "Ayioi Vavatsinias",
+      "nativeName": "Αγίοι Βαβατσινιάς",
+      "latitude": 34.87961,
+      "longitude": 33.19125,
+      "population": 97,
+      "populationRank": 239,
+      "isCapital": false
+    },
+    {
+      "id": "146566",
+      "name": "Farmakas",
+      "nativeName": "Φαρμακάς",
+      "latitude": 34.90855,
+      "longitude": 33.12903,
+      "population": 95,
+      "populationRank": 240,
+      "isCapital": false
+    },
+    {
+      "id": "146734",
+      "name": "Agios Demetrianos",
+      "nativeName": "Άγιος Δημητριανός",
+      "latitude": 34.9068,
+      "longitude": 32.55051,
+      "population": 91,
+      "populationRank": 241,
+      "isCapital": false
+    },
+    {
+      "id": "145997",
+      "name": "Vavatsinia",
+      "nativeName": "Βαβατσινιά",
+      "latitude": 34.89347,
+      "longitude": 33.22851,
+      "population": 89,
+      "populationRank": 242,
+      "isCapital": false
+    },
+    {
+      "id": "146031",
+      "name": "Trachypedoula",
+      "nativeName": "Τραχυπέδουλα",
+      "latitude": 34.80056,
+      "longitude": 32.67898,
+      "population": 86,
+      "populationRank": 243,
+      "isCapital": false
+    },
+    {
+      "id": "146422",
+      "name": "Kritou Terra",
+      "nativeName": "Κρήτου Τέρρα",
+      "latitude": 34.95549,
+      "longitude": 32.42196,
+      "population": 86,
+      "populationRank": 244,
+      "isCapital": false
+    },
+    {
+      "id": "145965",
+      "name": "Gerasa",
+      "nativeName": "Γεράσα",
+      "latitude": 34.80253,
+      "longitude": 32.998,
+      "population": 85,
+      "populationRank": 245,
+      "isCapital": false
+    },
+    {
+      "id": "146508",
+      "name": "Kedares",
+      "nativeName": "Κέδαρες",
+      "latitude": 34.83629,
+      "longitude": 32.73647,
+      "population": 80,
+      "populationRank": 246,
+      "isCapital": false
+    },
+    {
+      "id": "146832",
+      "name": "Alectora",
+      "nativeName": "Αλέκτορα",
+      "latitude": 34.70934,
+      "longitude": 32.68347,
+      "population": 80,
+      "populationRank": 247,
+      "isCapital": false
+    },
+    {
+      "id": "146129",
+      "name": "Potamitissa",
+      "nativeName": "Ποταμίτισσα",
+      "latitude": 34.90734,
+      "longitude": 32.98973,
+      "population": 73,
+      "populationRank": 248,
+      "isCapital": false
+    },
+    {
+      "id": "146196",
+      "name": "Pentalia",
+      "nativeName": "Πενταλιά",
+      "latitude": 34.85599,
+      "longitude": 32.62068,
+      "population": 71,
+      "populationRank": 249,
+      "isCapital": false
+    },
+    {
+      "id": "146474",
+      "name": "Kinousa",
+      "nativeName": "Κινούσα",
+      "latitude": 35.03226,
+      "longitude": 32.5076,
+      "population": 71,
+      "populationRank": 250,
+      "isCapital": false
+    },
+    {
+      "id": "146351",
+      "name": "Mallia",
+      "nativeName": "Μαλλιά",
+      "latitude": 34.81725,
+      "longitude": 32.78261,
+      "population": 61,
+      "populationRank": 251,
+      "isCapital": false
+    },
+    {
+      "id": "146759",
+      "name": "Aksilou",
+      "nativeName": "Αξύλου",
+      "latitude": 34.80634,
+      "longitude": 32.56436,
+      "population": 61,
+      "populationRank": 252,
+      "isCapital": false
+    },
+    {
+      "id": "146314",
+      "name": "Melini",
+      "nativeName": "Μελίνη",
+      "latitude": 34.86746,
+      "longitude": 33.157,
+      "population": 59,
+      "populationRank": 253,
+      "isCapital": false
+    },
+    {
+      "id": "146733",
+      "name": "Agios Dimitrios",
+      "nativeName": "Άγιος Δημήτριος",
+      "latitude": 34.92556,
+      "longitude": 32.80917,
+      "population": 57,
+      "populationRank": 254,
+      "isCapital": false
+    },
+    {
+      "id": "146199",
+      "name": "Pelathousa",
+      "nativeName": "Πελαθούσα",
+      "latitude": 35.02757,
+      "longitude": 32.47601,
+      "population": 51,
+      "populationRank": 255,
+      "isCapital": false
+    },
+    {
+      "id": "146387",
+      "name": "Lemona",
+      "nativeName": "Λεμώνα",
+      "latitude": 34.86232,
+      "longitude": 32.55772,
+      "population": 51,
+      "populationRank": 256,
+      "isCapital": false
+    },
+    {
+      "id": "146095",
+      "name": "Sanida",
+      "nativeName": "Σανίδα",
+      "latitude": 34.80749,
+      "longitude": 33.1887,
+      "population": 46,
+      "populationRank": 257,
+      "isCapital": false
+    },
+    {
+      "id": "146346",
+      "name": "Mamonia",
+      "nativeName": "Μαμώνια",
+      "latitude": 34.76969,
+      "longitude": 32.63718,
+      "population": 42,
+      "populationRank": 258,
+      "isCapital": false
+    },
+    {
+      "id": "146298",
+      "name": "Mylikouri",
+      "nativeName": "Μηλικούρι",
+      "latitude": 34.96192,
+      "longitude": 32.75094,
+      "population": 41,
+      "populationRank": 259,
+      "isCapital": false
+    },
+    {
+      "id": "146130",
+      "name": "Potamiou",
+      "nativeName": "Ποταμιού",
+      "latitude": 34.82408,
+      "longitude": 32.80672,
+      "population": 34,
+      "populationRank": 260,
+      "isCapital": false
+    },
+    {
+      "id": "146694",
+      "name": "Ayios Thomas",
+      "nativeName": "Άγιος Θωμάς",
+      "latitude": 34.71618,
+      "longitude": 32.72546,
+      "population": 30,
+      "populationRank": 261,
+      "isCapital": false
+    },
+    {
+      "id": "146318",
+      "name": "Lysos",
+      "nativeName": "Λυσός",
+      "latitude": 34.98816,
+      "longitude": 32.50665,
+      "population": 20,
+      "populationRank": 262,
+      "isCapital": false
+    },
+    {
+      "id": "146368",
+      "name": "Lofou",
+      "nativeName": "Λόφου",
+      "latitude": 34.81598,
+      "longitude": 32.87539,
+      "population": 10,
+      "populationRank": 263,
       "isCapital": false
     }
   ]

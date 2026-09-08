@@ -10,12 +10,21 @@
       "isCapital": true
     },
     {
+      "id": "3042201",
+      "name": "Onchan",
+      "latitude": 54.17329,
+      "longitude": -4.45324,
+      "population": 9172,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
       "id": "3042192",
       "name": "Ramsey",
       "latitude": 54.32273,
       "longitude": -4.38526,
       "population": 7845,
-      "populationRank": 2,
+      "populationRank": 3,
       "isCapital": false
     },
     {
@@ -24,7 +33,16 @@
       "latitude": 54.22209,
       "longitude": -4.69099,
       "population": 5374,
-      "populationRank": 3,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3042196",
+      "name": "Port Erin",
+      "latitude": 54.08487,
+      "longitude": -4.75099,
+      "population": 3530,
+      "populationRank": 5,
       "isCapital": false
     },
     {
@@ -33,7 +51,79 @@
       "latitude": 54.07445,
       "longitude": -4.65365,
       "population": 3100,
-      "populationRank": 4,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3042217",
+      "name": "Laxey",
+      "latitude": 54.23017,
+      "longitude": -4.39985,
+      "population": 1768,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3042271",
+      "name": "Andreas",
+      "latitude": 54.36667,
+      "longitude": -4.43333,
+      "population": 1397,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3042199",
+      "name": "Patrick",
+      "latitude": 54.20447,
+      "longitude": -4.69417,
+      "population": 1294,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "8468983",
+      "name": "Ballaugh",
+      "latitude": 54.31193,
+      "longitude": -4.54456,
+      "population": 1042,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3042210",
+      "name": "Maughold",
+      "latitude": 54.29877,
+      "longitude": -4.31844,
+      "population": 985,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "3042224",
+      "name": "Jurby",
+      "latitude": 54.35941,
+      "longitude": -4.52199,
+      "population": 776,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "3042259",
+      "name": "Bride",
+      "latitude": 54.38256,
+      "longitude": -4.38921,
+      "population": 382,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "3042251",
+      "name": "Colby",
+      "latitude": 54.09665,
+      "longitude": -4.70592,
+      "population": 289,
+      "populationRank": 14,
       "isCapital": false
     }
   ]

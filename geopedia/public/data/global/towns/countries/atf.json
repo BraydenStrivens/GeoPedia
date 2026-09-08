@@ -1,12 +1,22 @@
 {
   "towns": [
     {
+      "id": "13513007",
+      "name": "Alfred Faure",
+      "nativeName": "Base Alfred Faure",
+      "latitude": -46.4325,
+      "longitude": 51.85764,
+      "population": 45,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
       "id": "1546102",
-      "name": "Port-aux-Français",
+      "name": "Port aux Français",
       "latitude": -49.34916,
       "longitude": 70.21937,
       "population": 45,
-      "populationRank": 1,
+      "populationRank": 2,
       "isCapital": true
     }
   ]

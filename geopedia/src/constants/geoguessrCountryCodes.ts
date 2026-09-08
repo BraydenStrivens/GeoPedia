@@ -22,6 +22,7 @@ export const GEOGUESSR_COUNTRY_CODES = new Set<string>([
   "REU", // Réunion
   "RWA", // Rwanda
   "SEN", // Senegal
+  "STP", // São Tomé and Príncipe
   "ZAF", // South Africa
   "TUN", // Tunisia
   "UGA", // Uganda
@@ -139,4 +140,5 @@ export const GEOGUESSR_COUNTRY_CODES = new Set<string>([
   "GUM", // Guam
   "MNP", // Northern Mariana Islands
   "NZL", // New Zealand
+  "VIR", // U.S. Virgin Islands
 ]);

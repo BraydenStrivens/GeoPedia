@@ -443,7 +443,7 @@
     },
     {
       "id": "6695527",
-      "name": "Itezhi-Tezhi",
+      "name": "Itezhi Tezhi",
       "latitude": -15.73691,
       "longitude": 26.04155,
       "population": 22449,
@@ -523,12 +523,21 @@
       "isCapital": false
     },
     {
+      "id": "918398",
+      "name": "Chisasa",
+      "latitude": -12.10932,
+      "longitude": 25.49613,
+      "population": 17169,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
       "id": "13132731",
       "name": "Mwansabombwe",
       "latitude": -9.82202,
       "longitude": 28.76038,
       "population": 16077,
-      "populationRank": 59,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -537,7 +546,7 @@
       "latitude": -15.75042,
       "longitude": 26.43839,
       "population": 15614,
-      "populationRank": 60,
+      "populationRank": 61,
       "isCapital": false
     },
     {
@@ -546,7 +555,7 @@
       "latitude": -17.2614,
       "longitude": 27.46179,
       "population": 15191,
-      "populationRank": 61,
+      "populationRank": 62,
       "isCapital": false
     },
     {
@@ -555,7 +564,7 @@
       "latitude": -8.66043,
       "longitude": 29.16142,
       "population": 15165,
-      "populationRank": 62,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -564,7 +573,16 @@
       "latitude": -13.59268,
       "longitude": 24.20081,
       "population": 15069,
-      "populationRank": 63,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "916938",
+      "name": "Ibenga",
+      "latitude": -13.36667,
+      "longitude": 28.43333,
+      "population": 14056,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -573,7 +591,7 @@
       "latitude": -11.21303,
       "longitude": 33.1521,
       "population": 12923,
-      "populationRank": 64,
+      "populationRank": 66,
       "isCapital": false
     },
     {
@@ -582,7 +600,7 @@
       "latitude": -11.11654,
       "longitude": 29.64619,
       "population": 12643,
-      "populationRank": 65,
+      "populationRank": 67,
       "isCapital": false
     },
     {
@@ -591,7 +609,7 @@
       "latitude": -10.1732,
       "longitude": 31.36942,
       "population": 12536,
-      "populationRank": 66,
+      "populationRank": 68,
       "isCapital": false
     },
     {
@@ -600,7 +618,7 @@
       "latitude": -17.79356,
       "longitude": 25.27473,
       "population": 12095,
-      "populationRank": 67,
+      "populationRank": 69,
       "isCapital": false
     },
     {
@@ -609,7 +627,7 @@
       "latitude": -15.09691,
       "longitude": 23.13757,
       "population": 10684,
-      "populationRank": 68,
+      "populationRank": 70,
       "isCapital": false
     },
     {
@@ -618,7 +636,16 @@
       "latitude": -15.38546,
       "longitude": 28.70085,
       "population": 10196,
-      "populationRank": 69,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "909752",
+      "name": "Lubombo",
+      "latitude": -15.86698,
+      "longitude": 27.87632,
+      "population": 9811,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -627,7 +654,7 @@
       "latitude": -15.61667,
       "longitude": 30.41667,
       "population": 9187,
-      "populationRank": 70,
+      "populationRank": 73,
       "isCapital": false
     },
     {
@@ -636,7 +663,16 @@
       "latitude": -9.04865,
       "longitude": 29.04265,
       "population": 9135,
-      "populationRank": 71,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "915285",
+      "name": "Kalengwa",
+      "latitude": -13.46586,
+      "longitude": 25.00271,
+      "population": 7574,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -645,7 +681,16 @@
       "latitude": -14.06779,
       "longitude": 32.43917,
       "population": 5670,
-      "populationRank": 72,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "920233",
+      "name": "Chibombo",
+      "latitude": -14.65685,
+      "longitude": 28.07057,
+      "population": 4477,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -654,7 +699,7 @@
       "latitude": -10.38447,
       "longitude": 28.698,
       "population": 4378,
-      "populationRank": 73,
+      "populationRank": 78,
       "isCapital": false
     },
     {
@@ -663,7 +708,7 @@
       "latitude": -16.49755,
       "longitude": 27.60691,
       "population": 2052,
-      "populationRank": 74,
+      "populationRank": 79,
       "isCapital": false
     }
   ]

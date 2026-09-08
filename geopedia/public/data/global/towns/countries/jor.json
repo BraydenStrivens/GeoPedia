@@ -191,13 +191,53 @@
       "isCapital": false
     },
     {
+      "id": "250718",
+      "name": "Al Fuhays",
+      "nativeName": "الفحيص",
+      "latitude": 32.00468,
+      "longitude": 35.78088,
+      "population": 18916,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "248414",
+      "name": "Kereime",
+      "nativeName": "كريمة",
+      "latitude": 32.27639,
+      "longitude": 35.59938,
+      "population": 17837,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "248299",
+      "name": "Mahis",
+      "nativeName": "ماحص",
+      "latitude": 31.98646,
+      "longitude": 35.76987,
+      "population": 17754,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
       "id": "250420",
       "name": "Anjara",
       "nativeName": "عنجرة",
       "latitude": 32.30667,
       "longitude": 35.75443,
       "population": 17634,
-      "populationRank": 20,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "250095",
+      "name": "Al Azraq al Shamali",
+      "nativeName": "Al Azraq الأزرق الشمالي",
+      "latitude": 31.88209,
+      "longitude": 36.83017,
+      "population": 14800,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -207,7 +247,7 @@
       "latitude": 32.63979,
       "longitude": 35.98943,
       "population": 14619,
-      "populationRank": 21,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -217,7 +257,7 @@
       "latitude": 30.32096,
       "longitude": 35.47895,
       "population": 14000,
-      "populationRank": 22,
+      "populationRank": 26,
       "isCapital": false
     },
     {
@@ -227,7 +267,17 @@
       "latitude": 32.31372,
       "longitude": 35.83713,
       "population": 12942,
-      "populationRank": 23,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "250186",
+      "name": "Al Taiyiba",
+      "nativeName": "الطيبة",
+      "latitude": 32.54304,
+      "longitude": 35.71756,
+      "population": 12615,
+      "populationRank": 28,
       "isCapital": false
     },
     {
@@ -237,7 +287,17 @@
       "latitude": 32.28431,
       "longitude": 35.80909,
       "population": 11586,
-      "populationRank": 24,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "250294",
+      "name": "Ash Shajarah",
+      "nativeName": "الشجرة",
+      "latitude": 32.64391,
+      "longitude": 35.94175,
+      "population": 11243,
+      "populationRank": 30,
       "isCapital": false
     },
     {
@@ -247,7 +307,57 @@
       "latitude": 32.37087,
       "longitude": 35.84267,
       "population": 10616,
-      "populationRank": 25,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "250623",
+      "name": "Keramah",
+      "nativeName": "الكرامة",
+      "latitude": 31.95439,
+      "longitude": 35.58033,
+      "population": 9384,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "250540",
+      "name": "Al Mazar",
+      "nativeName": "المزار",
+      "latitude": 31.06722,
+      "longitude": 35.69486,
+      "population": 9383,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "247015",
+      "name": "Şammā",
+      "nativeName": "صمة",
+      "latitude": 32.57102,
+      "longitude": 35.68984,
+      "population": 8926,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "248734",
+      "name": "Kufr Asad",
+      "nativeName": "كفر أسد",
+      "latitude": 32.598,
+      "longitude": 35.71266,
+      "population": 8203,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "249930",
+      "name": "Beit Yafa",
+      "nativeName": "بيت يافا",
+      "latitude": 32.52253,
+      "longitude": 35.78618,
+      "population": 7788,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -257,7 +367,67 @@
       "latitude": 29.80045,
       "longitude": 35.3116,
       "population": 7372,
-      "populationRank": 26,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "250106",
+      "name": "Ai",
+      "nativeName": "عي",
+      "latitude": 31.13371,
+      "longitude": 35.64375,
+      "population": 7340,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "249842",
+      "name": "Busayra",
+      "nativeName": "بصيرا",
+      "latitude": 30.73256,
+      "longitude": 35.60943,
+      "population": 7154,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "248719",
+      "name": "Kufr al Sawm",
+      "nativeName": "كفر سوم",
+      "latitude": 32.68527,
+      "longitude": 35.80102,
+      "population": 7152,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "249318",
+      "name": "Ḩakamā",
+      "nativeName": "حكما",
+      "latitude": 32.59354,
+      "longitude": 35.8832,
+      "population": 7075,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "250480",
+      "name": "Al Qatrana",
+      "nativeName": "القطرانة",
+      "latitude": 31.25083,
+      "longitude": 36.04932,
+      "population": 7070,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "247061",
+      "name": "Bushra",
+      "nativeName": "sal",
+      "latitude": 32.56897,
+      "longitude": 35.91185,
+      "population": 6896,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -267,7 +437,27 @@
       "latitude": 32.67645,
       "longitude": 35.74851,
       "population": 6856,
-      "populationRank": 27,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "248738",
+      "name": "Kufr Abil",
+      "nativeName": "كفر أبيل",
+      "latitude": 32.41752,
+      "longitude": 35.66305,
+      "population": 6333,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "249676",
+      "name": "Dayr Yusuf",
+      "nativeName": "دير يوسف",
+      "latitude": 32.48701,
+      "longitude": 35.79635,
+      "population": 6223,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -277,7 +467,77 @@
       "latitude": 32.44017,
       "longitude": 36.15265,
       "population": 6211,
-      "populationRank": 28,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "247103",
+      "name": "Saḩam al Kaffārāt",
+      "nativeName": "الشعلة",
+      "latitude": 32.69848,
+      "longitude": 35.77438,
+      "population": 6203,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "247340",
+      "name": "Raymūn",
+      "nativeName": "ريمون",
+      "latitude": 32.28202,
+      "longitude": 35.82779,
+      "population": 6082,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "245989",
+      "name": "Waqqāş",
+      "nativeName": "وقاص",
+      "latitude": 32.54214,
+      "longitude": 35.60508,
+      "population": 5678,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "250603",
+      "name": "Al Kitta",
+      "nativeName": "الكتة",
+      "latitude": 32.27685,
+      "longitude": 35.84114,
+      "population": 5626,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "249184",
+      "name": "Hatem",
+      "nativeName": "حاتم",
+      "latitude": 32.64492,
+      "longitude": 35.77771,
+      "population": 5542,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "248627",
+      "name": "Kherja",
+      "nativeName": "خرجا",
+      "latitude": 32.65988,
+      "longitude": 35.88782,
+      "population": 5498,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "249310",
+      "name": "Ḩalāwah",
+      "nativeName": "حلاوة",
+      "latitude": 32.38433,
+      "longitude": 35.66167,
+      "population": 5376,
+      "populationRank": 54,
       "isCapital": false
     },
     {
@@ -287,7 +547,107 @@
       "latitude": 32.32696,
       "longitude": 36.50159,
       "population": 5315,
-      "populationRank": 29,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "248434",
+      "name": "Kitim",
+      "nativeName": "كتم",
+      "latitude": 32.43834,
+      "longitude": 35.89677,
+      "population": 5292,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "250187",
+      "name": "Al Tayyibah",
+      "nativeName": "الطيبة",
+      "latitude": 31.05056,
+      "longitude": 35.60606,
+      "population": 5231,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "246522",
+      "name": "Tibni",
+      "nativeName": "تبنة",
+      "latitude": 32.47521,
+      "longitude": 35.73056,
+      "population": 5229,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "250052",
+      "name": "Balila",
+      "nativeName": "بليلا",
+      "latitude": 32.39109,
+      "longitude": 35.93832,
+      "population": 5206,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "247496",
+      "name": "Qumaim",
+      "nativeName": "قميم",
+      "latitude": 32.57174,
+      "longitude": 35.73452,
+      "population": 5111,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "246756",
+      "name": "Şarfā",
+      "nativeName": "صرفا",
+      "latitude": 31.32964,
+      "longitude": 35.65439,
+      "population": 4873,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "245939",
+      "name": "Yerqa",
+      "nativeName": "يرقا",
+      "latitude": 31.97583,
+      "longitude": 35.69638,
+      "population": 4786,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "249849",
+      "name": "Burma",
+      "nativeName": "برما",
+      "latitude": 32.2193,
+      "longitude": 35.78507,
+      "population": 4735,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "249933",
+      "name": "Bayt Ides",
+      "nativeName": "بيت أيدس",
+      "latitude": 32.43775,
+      "longitude": 35.69765,
+      "population": 4723,
+      "populationRank": 64,
+      "isCapital": false
+    },
+    {
+      "id": "247659",
+      "name": "Qafqafa",
+      "nativeName": "قفقفا",
+      "latitude": 32.34851,
+      "longitude": 35.93864,
+      "population": 4402,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -297,7 +657,37 @@
       "latitude": 31.69893,
       "longitude": 35.9553,
       "population": 4397,
-      "populationRank": 30,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "246202",
+      "name": "Umm Qais",
+      "nativeName": "أم قيس",
+      "latitude": 32.65348,
+      "longitude": 35.68457,
+      "population": 4294,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "13353995",
+      "name": "Najl",
+      "nativeName": "نجل",
+      "latitude": 30.51909,
+      "longitude": 35.55773,
+      "population": 4275,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "250188",
+      "name": "Al Taiyibe",
+      "nativeName": "الطيبة",
+      "latitude": 30.25125,
+      "longitude": 35.4657,
+      "population": 4265,
+      "populationRank": 69,
       "isCapital": false
     },
     {
@@ -307,7 +697,117 @@
       "latitude": 31.26923,
       "longitude": 35.73829,
       "population": 4229,
-      "populationRank": 31,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "246345",
+      "name": "Um al Quttein",
+      "nativeName": "أم القطين",
+      "latitude": 32.31449,
+      "longitude": 36.62826,
+      "population": 4225,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "245915",
+      "name": "Zahar",
+      "nativeName": "زهر",
+      "latitude": 32.5667,
+      "longitude": 35.77811,
+      "population": 4150,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "250487",
+      "name": "Al Qaser",
+      "nativeName": "Al Qaser - القصر",
+      "latitude": 31.31407,
+      "longitude": 35.74393,
+      "population": 3840,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "250649",
+      "name": "Al-Jafr",
+      "nativeName": "الجفر",
+      "latitude": 30.3184,
+      "longitude": 36.17775,
+      "population": 3557,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "247363",
+      "name": "Rāsūn",
+      "nativeName": "راسون",
+      "latitude": 32.39982,
+      "longitude": 35.75971,
+      "population": 2586,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "10793675",
+      "name": "Tala Bay",
+      "nativeName": "تالا بي",
+      "latitude": 29.40842,
+      "longitude": 34.97918,
+      "population": 2000,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "246636",
+      "name": "Ţabaqat Faḩl",
+      "nativeName": "طبقة فحل",
+      "latitude": 32.45103,
+      "longitude": 35.60898,
+      "population": 1000,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "247399",
+      "name": "Rum",
+      "nativeName": "رم",
+      "latitude": 29.57406,
+      "longitude": 35.42128,
+      "population": 200,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "12142131",
+      "name": "Umm al Khashab",
+      "nativeName": "ام الخشب",
+      "latitude": 32.29117,
+      "longitude": 35.7272,
+      "population": 80,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "249736",
+      "name": "Dana",
+      "nativeName": "ضانا",
+      "latitude": 30.67501,
+      "longitude": 35.61022,
+      "population": 50,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "250290",
+      "name": "Shaubak",
+      "nativeName": "الشوبك",
+      "latitude": 30.52134,
+      "longitude": 35.57135,
+      "population": 50,
+      "populationRank": 81,
       "isCapital": false
     }
   ]

@@ -130,8 +130,7 @@
     },
     {
       "id": "4032384",
-      "name": "'Ohonua",
-      "nativeName": "ʻOhonua",
+      "name": "ʻOhonua",
       "latitude": -21.34135,
       "longitude": -174.95656,
       "population": 1466,
@@ -141,7 +140,6 @@
     {
       "id": "4032535",
       "name": "Leimātu'a",
-      "nativeName": "Leimatu'a",
       "latitude": -18.59964,
       "longitude": -173.98121,
       "population": 1425,
@@ -158,12 +156,21 @@
       "isCapital": false
     },
     {
+      "id": "4032616",
+      "name": "Hōfoa",
+      "latitude": -21.13135,
+      "longitude": -175.22733,
+      "population": 1404,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
       "id": "4032288",
       "name": "Tokomololo",
       "latitude": -21.17656,
       "longitude": -175.24512,
       "population": 1314,
-      "populationRank": 18,
+      "populationRank": 19,
       "isCapital": false
     },
     {
@@ -172,7 +179,224 @@
       "latitude": -21.13333,
       "longitude": -175.06667,
       "population": 1206,
-      "populationRank": 19,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "4032352",
+      "name": "Puke",
+      "latitude": -21.13178,
+      "longitude": -175.23872,
+      "population": 943,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "4032671",
+      "name": "Folaha",
+      "latitude": -21.16895,
+      "longitude": -175.17961,
+      "population": 904,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "4032635",
+      "name": "Ha'asini",
+      "latitude": -21.24814,
+      "longitude": -175.11008,
+      "population": 886,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "8529147",
+      "name": "Pelehake",
+      "latitude": -21.21283,
+      "longitude": -175.14328,
+      "population": 885,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "4032644",
+      "name": "Ha'akame",
+      "latitude": -21.18288,
+      "longitude": -175.28491,
+      "population": 822,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "4032642",
+      "name": "Ha'alalo",
+      "latitude": -21.18451,
+      "longitude": -175.28088,
+      "population": 762,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "4032411",
+      "name": "Niutōua",
+      "latitude": -21.13333,
+      "longitude": -175.05,
+      "population": 710,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "4032370",
+      "name": "Pangaimotu",
+      "latitude": -18.6855,
+      "longitude": -173.99739,
+      "population": 690,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "4032421",
+      "name": "Navutoka",
+      "latitude": -21.11667,
+      "longitude": -175.1,
+      "population": 681,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "4032518",
+      "name": "Longoteme",
+      "latitude": -21.1807,
+      "longitude": -175.16982,
+      "population": 681,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "4032326",
+      "name": "Ta'anea",
+      "latitude": -18.60769,
+      "longitude": -173.93739,
+      "population": 649,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "4032496",
+      "name": "Malapo",
+      "latitude": -21.20112,
+      "longitude": -175.15456,
+      "population": 647,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "4032251",
+      "name": "'Utulau",
+      "latitude": -21.18333,
+      "longitude": -175.26667,
+      "population": 646,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "4032307",
+      "name": "Te'ekiu",
+      "latitude": -21.12822,
+      "longitude": -175.31868,
+      "population": 643,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "4032653",
+      "name": "Fo‘ui",
+      "nativeName": "Foui",
+      "latitude": -21.11329,
+      "longitude": -175.33832,
+      "population": 624,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "13527024",
+      "name": "Sia'atoutai",
+      "latitude": -21.1341,
+      "longitude": -175.25518,
+      "population": 617,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "4032480",
+      "name": "Matahau",
+      "latitude": -21.1425,
+      "longitude": -175.3129,
+      "population": 583,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "4032519",
+      "name": "Longomapu",
+      "latitude": -18.64463,
+      "longitude": -174.0579,
+      "population": 572,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "4032563",
+      "name": "Kolovai",
+      "latitude": -21.10101,
+      "longitude": -175.33766,
+      "population": 555,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "4032478",
+      "name": "Mataika",
+      "latitude": -18.61733,
+      "longitude": -173.96632,
+      "population": 540,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "4032613",
+      "name": "Holonga",
+      "latitude": -21.19258,
+      "longitude": -175.14282,
+      "population": 518,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "4032306",
+      "name": "Tefisi",
+      "latitude": -18.62976,
+      "longitude": -174.01448,
+      "population": 501,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "4032781",
+      "name": "Āfa",
+      "latitude": -21.13333,
+      "longitude": -175.05,
+      "population": 497,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "4032716",
+      "name": "Fāhefa",
+      "latitude": -21.14436,
+      "longitude": -175.33303,
+      "population": 493,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -182,7 +406,88 @@
       "latitude": -21.37662,
       "longitude": -174.95465,
       "population": 489,
-      "populationRank": 20,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "8528753",
+      "name": "Taoa",
+      "latitude": -18.62888,
+      "longitude": -173.98503,
+      "population": 479,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "4032681",
+      "name": "Feletoa",
+      "latitude": -18.61066,
+      "longitude": -173.97108,
+      "population": 476,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "4032234",
+      "name": "Vaotu'u",
+      "latitude": -21.1607,
+      "longitude": -175.31116,
+      "population": 452,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "4032515",
+      "name": "Lotofoa",
+      "latitude": -19.74179,
+      "longitude": -174.305,
+      "population": 413,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "4032274",
+      "name": "Tu'anekivale",
+      "latitude": -18.62875,
+      "longitude": -173.92095,
+      "population": 399,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "8528878",
+      "name": "Nomuka",
+      "latitude": -20.2573,
+      "longitude": -174.79858,
+      "population": 383,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "4032703",
+      "name": "Faleloa",
+      "latitude": -19.73392,
+      "longitude": -174.28729,
+      "population": 380,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "4032583",
+      "name": "Kanokupolu",
+      "latitude": -21.0807,
+      "longitude": -175.33474,
+      "population": 354,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "4032557",
+      "name": "Koulo",
+      "latitude": -19.78835,
+      "longitude": -174.34487,
+      "population": 171,
+      "populationRank": 54,
       "isCapital": false
     }
   ]

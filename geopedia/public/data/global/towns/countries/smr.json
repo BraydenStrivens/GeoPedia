@@ -10,14 +10,97 @@
       "isCapital": false
     },
     {
+      "id": "3177564",
+      "name": "Dogana",
+      "latitude": 43.98034,
+      "longitude": 12.49051,
+      "population": 7000,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
       "id": "3168070",
       "name": "City of San Marino",
       "nativeName": "Città di San Marino",
       "latitude": 43.93667,
       "longitude": 12.44639,
       "population": 4500,
-      "populationRank": 2,
+      "populationRank": 3,
       "isCapital": true
+    },
+    {
+      "id": "3177542",
+      "name": "Domagnano",
+      "latitude": 43.94961,
+      "longitude": 12.46828,
+      "population": 3161,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3176966",
+      "name": "Fiorentino",
+      "latitude": 43.91001,
+      "longitude": 12.45738,
+      "population": 2510,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "7302190",
+      "name": "Murata",
+      "latitude": 43.92015,
+      "longitude": 12.45146,
+      "population": 1580,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3183500",
+      "name": "Acquaviva",
+      "latitude": 43.94593,
+      "longitude": 12.4185,
+      "population": 1530,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3177299",
+      "name": "Faetano",
+      "latitude": 43.92831,
+      "longitude": 12.49798,
+      "population": 1177,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3177260",
+      "name": "Falciano",
+      "latitude": 43.98333,
+      "longitude": 12.5,
+      "population": 1000,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "3170472",
+      "name": "Poggio di Chiesanuova",
+      "nativeName": "Chiesanuova",
+      "latitude": 43.90451,
+      "longitude": 12.42142,
+      "population": 951,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "3172906",
+      "name": "Monte Giardino",
+      "nativeName": "Montegiardino",
+      "latitude": 43.90878,
+      "longitude": 12.48201,
+      "population": 910,
+      "populationRank": 11,
+      "isCapital": false
     }
   ]
 }

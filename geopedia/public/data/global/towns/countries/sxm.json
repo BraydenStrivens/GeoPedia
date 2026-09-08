@@ -1,12 +1,21 @@
 {
   "towns": [
     {
+      "id": "3513522",
+      "name": "Lower Prince's Quarter",
+      "latitude": 18.04987,
+      "longitude": -63.03789,
+      "population": 8000,
+      "populationRank": 1,
+      "isCapital": false
+    },
+    {
       "id": "10793920",
-      "name": "Cul-de-Sac",
+      "name": "Cul de Sac",
       "latitude": 18.0264,
       "longitude": -63.06461,
       "population": 5581,
-      "populationRank": 1,
+      "populationRank": 2,
       "isCapital": false
     },
     {
@@ -15,7 +24,7 @@
       "latitude": 18.026,
       "longitude": -63.04582,
       "population": 1400,
-      "populationRank": 2,
+      "populationRank": 3,
       "isCapital": true
     }
   ]

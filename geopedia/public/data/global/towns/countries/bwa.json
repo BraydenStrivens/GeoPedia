@@ -101,12 +101,20 @@
     },
     {
       "id": "933099",
-      "name": "Selebi-Phikwe",
-      "nativeName": "Selebi Phikwe",
+      "name": "Selebi Phikwe",
       "latitude": -21.97895,
       "longitude": 27.84296,
       "population": 42488,
       "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "933535",
+      "name": "Letlhakane",
+      "latitude": -21.41494,
+      "longitude": 25.59263,
+      "population": 36404,
+      "populationRank": 13,
       "isCapital": false
     },
     {
@@ -115,7 +123,7 @@
       "latitude": -24.87158,
       "longitude": 25.86989,
       "population": 33271,
-      "populationRank": 13,
+      "populationRank": 14,
       "isCapital": false
     },
     {
@@ -124,7 +132,7 @@
       "latitude": -25.22435,
       "longitude": 25.67728,
       "population": 29772,
-      "populationRank": 14,
+      "populationRank": 15,
       "isCapital": false
     },
     {
@@ -134,7 +142,7 @@
       "latitude": -24.56694,
       "longitude": 25.87417,
       "population": 25460,
-      "populationRank": 15,
+      "populationRank": 16,
       "isCapital": false
     },
     {
@@ -143,7 +151,7 @@
       "latitude": -24.67014,
       "longitude": 25.53975,
       "population": 25300,
-      "populationRank": 16,
+      "populationRank": 17,
       "isCapital": false
     },
     {
@@ -153,7 +161,7 @@
       "latitude": -24.7718,
       "longitude": 25.42156,
       "population": 23858,
-      "populationRank": 17,
+      "populationRank": 18,
       "isCapital": false
     },
     {
@@ -162,7 +170,16 @@
       "latitude": -21.44236,
       "longitude": 27.46153,
       "population": 23296,
-      "populationRank": 18,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "933885",
+      "name": "Bobonong",
+      "latitude": -21.96554,
+      "longitude": 28.43625,
+      "population": 21216,
+      "populationRank": 20,
       "isCapital": false
     },
     {
@@ -171,7 +188,7 @@
       "latitude": -24.66667,
       "longitude": 25.78222,
       "population": 20027,
-      "populationRank": 19,
+      "populationRank": 21,
       "isCapital": false
     },
     {
@@ -180,7 +197,7 @@
       "latitude": -21.69785,
       "longitude": 21.64581,
       "population": 19012,
-      "populationRank": 20,
+      "populationRank": 22,
       "isCapital": false
     },
     {
@@ -189,7 +206,7 @@
       "latitude": -24.60167,
       "longitude": 24.72806,
       "population": 18784,
-      "populationRank": 21,
+      "populationRank": 23,
       "isCapital": false
     },
     {
@@ -198,7 +215,7 @@
       "latitude": -20.4943,
       "longitude": 27.03479,
       "population": 18582,
-      "populationRank": 22,
+      "populationRank": 24,
       "isCapital": false
     },
     {
@@ -207,7 +224,7 @@
       "latitude": -24.48333,
       "longitude": 25.88333,
       "population": 13823,
-      "populationRank": 23,
+      "populationRank": 25,
       "isCapital": false
     },
     {
@@ -216,7 +233,35 @@
       "latitude": -21.8765,
       "longitude": 27.7518,
       "population": 13198,
-      "populationRank": 24,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "11205055",
+      "name": "Tati Siding",
+      "latitude": -21.27345,
+      "longitude": 27.49002,
+      "population": 12404,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "1106206",
+      "name": "Metsemotlhaba",
+      "nativeName": "Metsimotlhabe",
+      "latitude": -24.55139,
+      "longitude": 25.80306,
+      "population": 11617,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "11205277",
+      "name": "Gumare",
+      "latitude": -19.36917,
+      "longitude": 22.16167,
+      "population": 11572,
+      "populationRank": 29,
       "isCapital": false
     },
     {
@@ -225,7 +270,16 @@
       "latitude": -18.36536,
       "longitude": 21.84219,
       "population": 10589,
-      "populationRank": 25,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "11205201",
+      "name": "Oodi",
+      "latitude": -24.57306,
+      "longitude": 26.03389,
+      "population": 10257,
+      "populationRank": 31,
       "isCapital": false
     },
     {
@@ -234,7 +288,7 @@
       "latitude": -24.45,
       "longitude": 26.01667,
       "population": 9146,
-      "populationRank": 26,
+      "populationRank": 32,
       "isCapital": false
     },
     {
@@ -243,7 +297,25 @@
       "latitude": -17.80165,
       "longitude": 25.16024,
       "population": 9143,
-      "populationRank": 27,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "11258456",
+      "name": "Borolong",
+      "latitude": -21.10361,
+      "longitude": 27.33611,
+      "population": 8917,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "933064",
+      "name": "Shoshong",
+      "latitude": -23.0389,
+      "longitude": 26.51,
+      "population": 8887,
+      "populationRank": 35,
       "isCapital": false
     },
     {
@@ -252,7 +324,7 @@
       "latitude": -21.3115,
       "longitude": 25.37642,
       "population": 8648,
-      "populationRank": 28,
+      "populationRank": 36,
       "isCapital": false
     },
     {
@@ -261,7 +333,7 @@
       "latitude": -24.09442,
       "longitude": 25.02977,
       "population": 8343,
-      "populationRank": 29,
+      "populationRank": 37,
       "isCapital": false
     },
     {
@@ -270,7 +342,61 @@
       "latitude": -20.21667,
       "longitude": 26.18333,
       "population": 7779,
-      "populationRank": 30,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "7752616",
+      "name": "Mmankgodi",
+      "latitude": -24.72601,
+      "longitude": 25.64963,
+      "population": 7396,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "933184",
+      "name": "Otse",
+      "latitude": -25.01667,
+      "longitude": 25.73333,
+      "population": 6986,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "7752587",
+      "name": "Kumakwane",
+      "latitude": -24.65522,
+      "longitude": 25.69918,
+      "population": 6826,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "11258235",
+      "name": "Sese",
+      "latitude": -24.6561,
+      "longitude": 24.8063,
+      "population": 6798,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "933692",
+      "name": "Kang",
+      "latitude": -23.67518,
+      "longitude": 22.78762,
+      "population": 6764,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "7908686",
+      "name": "Lentsweletau",
+      "latitude": -24.24863,
+      "longitude": 25.85215,
+      "population": 6653,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -279,7 +405,180 @@
       "latitude": -20.62455,
       "longitude": 27.44875,
       "population": 6216,
-      "populationRank": 31,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "933506",
+      "name": "Lotlhakane",
+      "latitude": -25.08612,
+      "longitude": 25.4586,
+      "population": 6045,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "933112",
+      "name": "Sefophe",
+      "nativeName": "Sefhophe",
+      "latitude": -22.18333,
+      "longitude": 27.96667,
+      "population": 6001,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "11353058",
+      "name": "Rasesa",
+      "latitude": -24.37306,
+      "longitude": 26.07287,
+      "population": 5966,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "7573795",
+      "name": "Maitengwe",
+      "latitude": -20.12889,
+      "longitude": 27.20997,
+      "population": 5929,
+      "populationRank": 49,
+      "isCapital": false
+    },
+    {
+      "id": "11467814",
+      "name": "Mathangwane",
+      "latitude": -21,
+      "longitude": 27.33333,
+      "population": 5918,
+      "populationRank": 50,
+      "isCapital": false
+    },
+    {
+      "id": "7754332",
+      "name": "Shashe Mooke",
+      "latitude": -21.18794,
+      "longitude": 27.37868,
+      "population": 5897,
+      "populationRank": 51,
+      "isCapital": false
+    },
+    {
+      "id": "7739165",
+      "name": "Good Hope",
+      "latitude": -25.46712,
+      "longitude": 25.43921,
+      "population": 5672,
+      "populationRank": 52,
+      "isCapital": false
+    },
+    {
+      "id": "933734",
+      "name": "Gweta",
+      "latitude": -20.18333,
+      "longitude": 25.23333,
+      "population": 5548,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "7739123",
+      "name": "Mmathete",
+      "nativeName": "Mmathethe",
+      "latitude": -25.32189,
+      "longitude": 25.26911,
+      "population": 5421,
+      "populationRank": 54,
+      "isCapital": false
+    },
+    {
+      "id": "7754329",
+      "name": "Chadibe",
+      "latitude": -21.06532,
+      "longitude": 27.34786,
+      "population": 5371,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "7847878",
+      "name": "Tsetsebjwe",
+      "latitude": -22.41595,
+      "longitude": 28.39797,
+      "population": 5248,
+      "populationRank": 56,
+      "isCapital": false
+    },
+    {
+      "id": "933726",
+      "name": "Hukuntsi",
+      "latitude": -23.9988,
+      "longitude": 21.77962,
+      "population": 5224,
+      "populationRank": 57,
+      "isCapital": false
+    },
+    {
+      "id": "11204768",
+      "name": "Charles Hill",
+      "latitude": -22.27639,
+      "longitude": 20.09278,
+      "population": 5164,
+      "populationRank": 58,
+      "isCapital": false
+    },
+    {
+      "id": "11468280",
+      "name": "Morwa",
+      "latitude": -24.43694,
+      "longitude": 26.07278,
+      "population": 4988,
+      "populationRank": 59,
+      "isCapital": false
+    },
+    {
+      "id": "933148",
+      "name": "Ramokgonami",
+      "latitude": -22.8645,
+      "longitude": 27.42391,
+      "population": 3681,
+      "populationRank": 60,
+      "isCapital": false
+    },
+    {
+      "id": "933292",
+      "name": "Maunatlala",
+      "latitude": -22.59701,
+      "longitude": 27.63006,
+      "population": 3361,
+      "populationRank": 61,
+      "isCapital": false
+    },
+    {
+      "id": "933416",
+      "name": "Manyana",
+      "latitude": -24.77361,
+      "longitude": 25.59278,
+      "population": 3338,
+      "populationRank": 62,
+      "isCapital": false
+    },
+    {
+      "id": "933288",
+      "name": "Mopipi",
+      "latitude": -21.18333,
+      "longitude": 24.88333,
+      "population": 3301,
+      "populationRank": 63,
+      "isCapital": false
+    },
+    {
+      "id": "933117",
+      "name": "Sebina",
+      "latitude": -20.831,
+      "longitude": 27.219,
+      "population": 3030,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -289,7 +588,163 @@
       "latitude": -20.564,
       "longitude": 26.224,
       "population": 2914,
-      "populationRank": 32,
+      "populationRank": 65,
+      "isCapital": false
+    },
+    {
+      "id": "933329",
+      "name": "Moijabana",
+      "nativeName": "Moiyabana",
+      "latitude": -22.62716,
+      "longitude": 26.41135,
+      "population": 2768,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "933290",
+      "name": "Mookane",
+      "latitude": -23.68805,
+      "longitude": 26.65948,
+      "population": 2397,
+      "populationRank": 67,
+      "isCapital": false
+    },
+    {
+      "id": "933137",
+      "name": "Ratholo",
+      "latitude": -22.72454,
+      "longitude": 27.57199,
+      "population": 2377,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "933696",
+      "name": "Kalamare",
+      "latitude": -22.93369,
+      "longitude": 26.57032,
+      "population": 2339,
+      "populationRank": 69,
+      "isCapital": false
+    },
+    {
+      "id": "13308081",
+      "name": "Lorolwana",
+      "latitude": -25.32691,
+      "longitude": 24.48947,
+      "population": 2225,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "933347",
+      "name": "Mmathubudukwane",
+      "latitude": -24.6,
+      "longitude": 26.43333,
+      "population": 2221,
+      "populationRank": 71,
+      "isCapital": false
+    },
+    {
+      "id": "932960",
+      "name": "Werda",
+      "latitude": -25.26667,
+      "longitude": 23.28333,
+      "population": 2149,
+      "populationRank": 72,
+      "isCapital": false
+    },
+    {
+      "id": "933488",
+      "name": "Machaneng",
+      "latitude": -23.18621,
+      "longitude": 27.48856,
+      "population": 2139,
+      "populationRank": 73,
+      "isCapital": false
+    },
+    {
+      "id": "933383",
+      "name": "Mathathane",
+      "latitude": -22.26875,
+      "longitude": 28.74946,
+      "population": 1987,
+      "populationRank": 74,
+      "isCapital": false
+    },
+    {
+      "id": "933548",
+      "name": "Lehututu",
+      "latitude": -23.915,
+      "longitude": 21.83,
+      "population": 1942,
+      "populationRank": 75,
+      "isCapital": false
+    },
+    {
+      "id": "933333",
+      "name": "Mogapi",
+      "latitude": -22.32301,
+      "longitude": 27.83492,
+      "population": 1917,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "7697027",
+      "name": "Artesia",
+      "nativeName": "Artisia",
+      "latitude": -24.01242,
+      "longitude": 26.31957,
+      "population": 1871,
+      "populationRank": 77,
+      "isCapital": false
+    },
+    {
+      "id": "933313",
+      "name": "Makobeng",
+      "nativeName": "Mokobeng",
+      "latitude": -22.99637,
+      "longitude": 27.66766,
+      "population": 1822,
+      "populationRank": 78,
+      "isCapital": false
+    },
+    {
+      "id": "933277",
+      "name": "Mosetse",
+      "latitude": -20.75,
+      "longitude": 26.65,
+      "population": 1780,
+      "populationRank": 79,
+      "isCapital": false
+    },
+    {
+      "id": "933211",
+      "name": "Nokaneng",
+      "latitude": -19.66667,
+      "longitude": 22.26667,
+      "population": 1763,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "933753",
+      "name": "Gobojango",
+      "latitude": -21.8327,
+      "longitude": 28.72882,
+      "population": 1756,
+      "populationRank": 81,
+      "isCapital": false
+    },
+    {
+      "id": "11352358",
+      "name": "Salajwe",
+      "latitude": -23.69637,
+      "longitude": 24.71748,
+      "population": 1705,
+      "populationRank": 82,
       "isCapital": false
     },
     {
@@ -298,7 +753,302 @@
       "latitude": -18.52779,
       "longitude": 25.62698,
       "population": 1685,
-      "populationRank": 33,
+      "populationRank": 83,
+      "isCapital": false
+    },
+    {
+      "id": "13308079",
+      "name": "Kgomokasitwa",
+      "latitude": -25.09143,
+      "longitude": 25.62061,
+      "population": 1669,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "933491",
+      "name": "Mabuli",
+      "nativeName": "Mabule",
+      "latitude": -25.763,
+      "longitude": 24.563,
+      "population": 1665,
+      "populationRank": 85,
+      "isCapital": false
+    },
+    {
+      "id": "933109",
+      "name": "Sehithwa",
+      "latitude": -20.46667,
+      "longitude": 22.71667,
+      "population": 1614,
+      "populationRank": 86,
+      "isCapital": false
+    },
+    {
+      "id": "13308083",
+      "name": "Pitseng",
+      "latitude": -24.68919,
+      "longitude": 25.04537,
+      "population": 1526,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "11287036",
+      "name": "Ncojane",
+      "latitude": -23.13389,
+      "longitude": 20.295,
+      "population": 1439,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "932993",
+      "name": "Tsau",
+      "latitude": -20.16458,
+      "longitude": 22.45573,
+      "population": 1409,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "933321",
+      "name": "Mogapinyana",
+      "latitude": -22.37114,
+      "longitude": 27.58575,
+      "population": 1400,
+      "populationRank": 90,
+      "isCapital": false
+    },
+    {
+      "id": "933162",
+      "name": "Pilikwe",
+      "latitude": -22.79904,
+      "longitude": 27.19376,
+      "population": 1375,
+      "populationRank": 91,
+      "isCapital": false
+    },
+    {
+      "id": "7926646",
+      "name": "Siviya",
+      "latitude": -20.8564,
+      "longitude": 27.67437,
+      "population": 1288,
+      "populationRank": 92,
+      "isCapital": false
+    },
+    {
+      "id": "933164",
+      "name": "Pilane",
+      "latitude": -24.405,
+      "longitude": 26.085,
+      "population": 1277,
+      "populationRank": 93,
+      "isCapital": false
+    },
+    {
+      "id": "933498",
+      "name": "Maapi",
+      "nativeName": "Maape",
+      "latitude": -22.75785,
+      "longitude": 27.35001,
+      "population": 1275,
+      "populationRank": 94,
+      "isCapital": false
+    },
+    {
+      "id": "933456",
+      "name": "Makaleng",
+      "latitude": -20.8,
+      "longitude": 27.27,
+      "population": 1166,
+      "populationRank": 95,
+      "isCapital": false
+    },
+    {
+      "id": "933377",
+      "name": "Mathakola",
+      "nativeName": "Matlhako",
+      "latitude": -22.72125,
+      "longitude": 27.31057,
+      "population": 1159,
+      "populationRank": 96,
+      "isCapital": false
+    },
+    {
+      "id": "933787",
+      "name": "Dutlwe",
+      "latitude": -23.98333,
+      "longitude": 23.9,
+      "population": 1126,
+      "populationRank": 97,
+      "isCapital": false
+    },
+    {
+      "id": "933030",
+      "name": "Tamasane",
+      "latitude": -22.4184,
+      "longitude": 27.40127,
+      "population": 1070,
+      "populationRank": 98,
+      "isCapital": false
+    },
+    {
+      "id": "933862",
+      "name": "Botlhapatlou",
+      "latitude": -24.02591,
+      "longitude": 25.48976,
+      "population": 1013,
+      "populationRank": 99,
+      "isCapital": false
+    },
+    {
+      "id": "932984",
+      "name": "Tshane",
+      "latitude": -24.03333,
+      "longitude": 21.9,
+      "population": 969,
+      "populationRank": 100,
+      "isCapital": false
+    },
+    {
+      "id": "933698",
+      "name": "Kalakamate",
+      "nativeName": "Kalakamati",
+      "latitude": -20.59235,
+      "longitude": 27.31069,
+      "population": 962,
+      "populationRank": 101,
+      "isCapital": false
+    },
+    {
+      "id": "933711",
+      "name": "Kachikau",
+      "latitude": -18.157,
+      "longitude": 24.504,
+      "population": 961,
+      "populationRank": 102,
+      "isCapital": false
+    },
+    {
+      "id": "933076",
+      "name": "Shakgwe",
+      "nativeName": "Shakwe",
+      "latitude": -23.10719,
+      "longitude": 27.15205,
+      "population": 893,
+      "populationRank": 103,
+      "isCapital": false
+    },
+    {
+      "id": "933887",
+      "name": "Boatlaname",
+      "latitude": -23.6,
+      "longitude": 25.83333,
+      "population": 853,
+      "populationRank": 104,
+      "isCapital": false
+    },
+    {
+      "id": "933632",
+      "name": "Khuis",
+      "latitude": -26.654,
+      "longitude": 21.84,
+      "population": 827,
+      "populationRank": 105,
+      "isCapital": false
+    },
+    {
+      "id": "933007",
+      "name": "Tlhareselele",
+      "nativeName": "Tlhareseleele",
+      "latitude": -25.50639,
+      "longitude": 25.63625,
+      "population": 804,
+      "populationRank": 106,
+      "isCapital": false
+    },
+    {
+      "id": "933432",
+      "name": "Malaka",
+      "latitude": -22.6155,
+      "longitude": 27.3294,
+      "population": 798,
+      "populationRank": 107,
+      "isCapital": false
+    },
+    {
+      "id": "933875",
+      "name": "Bonwapitse",
+      "latitude": -23.03918,
+      "longitude": 26.63774,
+      "population": 568,
+      "populationRank": 108,
+      "isCapital": false
+    },
+    {
+      "id": "933662",
+      "name": "Kavimba",
+      "latitude": -18.075,
+      "longitude": 24.583,
+      "population": 566,
+      "populationRank": 109,
+      "isCapital": false
+    },
+    {
+      "id": "932997",
+      "name": "Toteng",
+      "latitude": -20.38333,
+      "longitude": 22.95,
+      "population": 556,
+      "populationRank": 110,
+      "isCapital": false
+    },
+    {
+      "id": "933880",
+      "name": "Bokspits",
+      "latitude": -26.9,
+      "longitude": 20.7,
+      "population": 547,
+      "populationRank": 111,
+      "isCapital": false
+    },
+    {
+      "id": "933284",
+      "name": "Moremi",
+      "latitude": -22.57234,
+      "longitude": 27.45058,
+      "population": 546,
+      "populationRank": 112,
+      "isCapital": false
+    },
+    {
+      "id": "933457",
+      "name": "Makalamabedi",
+      "latitude": -20.33333,
+      "longitude": 23.81667,
+      "population": 376,
+      "populationRank": 113,
+      "isCapital": false
+    },
+    {
+      "id": "933884",
+      "name": "Bogo Gobo",
+      "nativeName": "Bogogobo",
+      "latitude": -26.65,
+      "longitude": 21.91667,
+      "population": 374,
+      "populationRank": 114,
+      "isCapital": false
+    },
+    {
+      "id": "933334",
+      "name": "Moeng",
+      "latitude": -22.68054,
+      "longitude": 27.61139,
+      "population": 20,
+      "populationRank": 115,
       "isCapital": false
     }
   ]

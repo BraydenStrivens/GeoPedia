@@ -311,7 +311,6 @@
     {
       "id": "13132452",
       "name": "'Ārdamatā",
-      "nativeName": "Ardamata",
       "latitude": 13.47546,
       "longitude": 22.48531,
       "population": 55637,
@@ -368,13 +367,23 @@
       "isCapital": false
     },
     {
+      "id": "372527",
+      "name": "Khashm El Girba",
+      "nativeName": "خشم القربة",
+      "latitude": 14.96667,
+      "longitude": 35.91667,
+      "population": 42900,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
       "id": "367544",
       "name": "Sawakin",
       "nativeName": "سواكن",
       "latitude": 19.1059,
       "longitude": 37.3321,
       "population": 42456,
-      "populationRank": 38,
+      "populationRank": 39,
       "isCapital": false
     },
     {
@@ -384,7 +393,7 @@
       "latitude": 13.65,
       "longitude": 24.08333,
       "population": 42376,
-      "populationRank": 39,
+      "populationRank": 40,
       "isCapital": false
     },
     {
@@ -394,7 +403,17 @@
       "latitude": 11.0904,
       "longitude": 24.53015,
       "population": 41807,
-      "populationRank": 40,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "379102",
+      "name": "Muglad",
+      "nativeName": "المجلد",
+      "latitude": 11.03333,
+      "longitude": 27.73333,
+      "population": 40418,
+      "populationRank": 42,
       "isCapital": false
     },
     {
@@ -404,7 +423,7 @@
       "latitude": 18.4254,
       "longitude": 37.729,
       "population": 37051,
-      "populationRank": 41,
+      "populationRank": 43,
       "isCapital": false
     },
     {
@@ -414,7 +433,7 @@
       "latitude": 12.71667,
       "longitude": 30.65,
       "population": 36518,
-      "populationRank": 42,
+      "populationRank": 44,
       "isCapital": false
     },
     {
@@ -424,7 +443,7 @@
       "latitude": 18.8405,
       "longitude": 36.8351,
       "population": 35617,
-      "populationRank": 43,
+      "populationRank": 45,
       "isCapital": false
     },
     {
@@ -434,7 +453,7 @@
       "latitude": 12.90918,
       "longitude": 23.47058,
       "population": 35061,
-      "populationRank": 44,
+      "populationRank": 46,
       "isCapital": false
     },
     {
@@ -444,7 +463,7 @@
       "latitude": 14.2,
       "longitude": 24.66667,
       "population": 34694,
-      "populationRank": 45,
+      "populationRank": 47,
       "isCapital": false
     },
     {
@@ -454,7 +473,7 @@
       "latitude": 11.33333,
       "longitude": 27.8,
       "population": 32759,
-      "populationRank": 46,
+      "populationRank": 48,
       "isCapital": false
     },
     {
@@ -464,7 +483,7 @@
       "latitude": 13.01667,
       "longitude": 31.86667,
       "population": 31329,
-      "populationRank": 47,
+      "populationRank": 49,
       "isCapital": false
     },
     {
@@ -474,7 +493,7 @@
       "latitude": 18.9533,
       "longitude": 36.8336,
       "population": 30856,
-      "populationRank": 48,
+      "populationRank": 50,
       "isCapital": false
     },
     {
@@ -484,7 +503,7 @@
       "latitude": 14.10776,
       "longitude": 34.09197,
       "population": 30629,
-      "populationRank": 49,
+      "populationRank": 51,
       "isCapital": false
     },
     {
@@ -494,7 +513,7 @@
       "latitude": 13.41667,
       "longitude": 34.63333,
       "population": 30184,
-      "populationRank": 50,
+      "populationRank": 52,
       "isCapital": false
     },
     {
@@ -504,7 +523,17 @@
       "latitude": 14.75969,
       "longitude": 33.36754,
       "population": 28374,
-      "populationRank": 51,
+      "populationRank": 53,
+      "isCapital": false
+    },
+    {
+      "id": "13132451",
+      "name": "Al Qutaynah",
+      "nativeName": "القطينة",
+      "latitude": 14.72775,
+      "longitude": 32.26928,
+      "population": 26893,
+      "populationRank": 54,
       "isCapital": false
     },
     {
@@ -514,7 +543,17 @@
       "latitude": 18.02158,
       "longitude": 33.98299,
       "population": 26203,
-      "populationRank": 52,
+      "populationRank": 55,
+      "isCapital": false
+    },
+    {
+      "id": "379535",
+      "name": "Al-Fula",
+      "nativeName": "الفولة",
+      "latitude": 11.73292,
+      "longitude": 28.35786,
+      "population": 26020,
+      "populationRank": 56,
       "isCapital": false
     },
     {
@@ -524,27 +563,25 @@
       "latitude": 13.334,
       "longitude": 34.09268,
       "population": 25567,
-      "populationRank": 53,
+      "populationRank": 57,
       "isCapital": false
     },
     {
       "id": "368230",
       "name": "Rahad al Bardi",
-      "nativeName": "Rahad al-Bardi",
       "latitude": 11.3,
       "longitude": 23.88333,
       "population": 24768,
-      "populationRank": 54,
+      "populationRank": 58,
       "isCapital": false
     },
     {
       "id": "380348",
-      "name": "Abu Zabad",
-      "nativeName": "Abū Zabad",
+      "name": "Abū Zabad",
       "latitude": 12.35,
       "longitude": 29.25,
       "population": 23317,
-      "populationRank": 55,
+      "populationRank": 59,
       "isCapital": false
     },
     {
@@ -554,7 +591,7 @@
       "latitude": 12.15,
       "longitude": 27.35,
       "population": 22733,
-      "populationRank": 56,
+      "populationRank": 60,
       "isCapital": false
     },
     {
@@ -564,7 +601,7 @@
       "latitude": 14.39729,
       "longitude": 35.86668,
       "population": 21106,
-      "populationRank": 57,
+      "populationRank": 61,
       "isCapital": false
     },
     {
@@ -574,7 +611,7 @@
       "latitude": 13.31667,
       "longitude": 33.76667,
       "population": 20302,
-      "populationRank": 58,
+      "populationRank": 62,
       "isCapital": false
     },
     {
@@ -584,7 +621,7 @@
       "latitude": 9.59525,
       "longitude": 28.43493,
       "population": 20000,
-      "populationRank": 59,
+      "populationRank": 63,
       "isCapital": false
     },
     {
@@ -594,7 +631,7 @@
       "latitude": 13.51667,
       "longitude": 35.76667,
       "population": 19821,
-      "populationRank": 60,
+      "populationRank": 64,
       "isCapital": false
     },
     {
@@ -603,7 +640,7 @@
       "latitude": 18.55,
       "longitude": 31.85,
       "population": 19593,
-      "populationRank": 61,
+      "populationRank": 65,
       "isCapital": false
     },
     {
@@ -613,7 +650,17 @@
       "latitude": 18.26197,
       "longitude": 33.90812,
       "population": 19141,
-      "populationRank": 62,
+      "populationRank": 66,
+      "isCapital": false
+    },
+    {
+      "id": "379406",
+      "name": "Al Hilaliyya",
+      "nativeName": "الهلالية",
+      "latitude": 14.9398,
+      "longitude": 33.234,
+      "population": 17345,
+      "populationRank": 67,
       "isCapital": false
     },
     {
@@ -623,7 +670,17 @@
       "latitude": 13.7,
       "longitude": 30.36667,
       "population": 16969,
-      "populationRank": 63,
+      "populationRank": 68,
+      "isCapital": false
+    },
+    {
+      "id": "12809070",
+      "name": "ALdinigila wad dhahi",
+      "nativeName": "قرية الدنيقيلة ود ضاحي",
+      "latitude": 13.88232,
+      "longitude": 32.37714,
+      "population": 15000,
+      "populationRank": 69,
       "isCapital": false
     },
     {
@@ -633,7 +690,17 @@
       "latitude": 21.79577,
       "longitude": 31.37129,
       "population": 14675,
-      "populationRank": 64,
+      "populationRank": 70,
+      "isCapital": false
+    },
+    {
+      "id": "378391",
+      "name": "Ash Shallal",
+      "nativeName": "أش شلال",
+      "latitude": 11.8,
+      "longitude": 34.4,
+      "population": 13638,
+      "populationRank": 71,
       "isCapital": false
     },
     {
@@ -643,7 +710,7 @@
       "latitude": 10.63246,
       "longitude": 30.3797,
       "population": 13188,
-      "populationRank": 65,
+      "populationRank": 72,
       "isCapital": false
     },
     {
@@ -653,7 +720,7 @@
       "latitude": 15.81667,
       "longitude": 36.13333,
       "population": 12708,
-      "populationRank": 66,
+      "populationRank": 73,
       "isCapital": false
     },
     {
@@ -663,7 +730,7 @@
       "latitude": 16.1525,
       "longitude": 36.2032,
       "population": 11950,
-      "populationRank": 67,
+      "populationRank": 74,
       "isCapital": false
     },
     {
@@ -673,7 +740,7 @@
       "latitude": 18.05,
       "longitude": 30.95,
       "population": 11626,
-      "populationRank": 68,
+      "populationRank": 75,
       "isCapital": false
     },
     {
@@ -683,7 +750,16 @@
       "latitude": 16.7095,
       "longitude": 33.3565,
       "population": 11366,
-      "populationRank": 69,
+      "populationRank": 76,
+      "isCapital": false
+    },
+    {
+      "id": "375046",
+      "name": "Jabet",
+      "latitude": 21.06667,
+      "longitude": 36.31667,
+      "population": 11095,
+      "populationRank": 77,
       "isCapital": false
     },
     {
@@ -693,7 +769,7 @@
       "latitude": 11.4,
       "longitude": 29.13333,
       "population": 11024,
-      "populationRank": 70,
+      "populationRank": 78,
       "isCapital": false
     },
     {
@@ -703,7 +779,7 @@
       "latitude": 13.60169,
       "longitude": 26.68759,
       "population": 10979,
-      "populationRank": 71,
+      "populationRank": 79,
       "isCapital": false
     },
     {
@@ -712,7 +788,17 @@
       "latitude": 10.557,
       "longitude": 34.287,
       "population": 10375,
-      "populationRank": 72,
+      "populationRank": 80,
+      "isCapital": false
+    },
+    {
+      "id": "364071",
+      "name": "Wad Rawah",
+      "nativeName": "ود راوة",
+      "latitude": 15.16028,
+      "longitude": 33.13972,
+      "population": 10348,
+      "populationRank": 81,
       "isCapital": false
     },
     {
@@ -722,7 +808,7 @@
       "latitude": 18.47036,
       "longitude": 31.81126,
       "population": 10234,
-      "populationRank": 73,
+      "populationRank": 82,
       "isCapital": false
     },
     {
@@ -732,7 +818,7 @@
       "latitude": 13.7463,
       "longitude": 32.4996,
       "population": 10167,
-      "populationRank": 74,
+      "populationRank": 83,
       "isCapital": false
     },
     {
@@ -742,7 +828,17 @@
       "latitude": 14.3476,
       "longitude": 32.9437,
       "population": 9775,
-      "populationRank": 75,
+      "populationRank": 84,
+      "isCapital": false
+    },
+    {
+      "id": "364216",
+      "name": "Wad az Zaki",
+      "nativeName": "ود الزاك",
+      "latitude": 14.4619,
+      "longitude": 32.2065,
+      "population": 9271,
+      "populationRank": 85,
       "isCapital": false
     },
     {
@@ -752,7 +848,7 @@
       "latitude": 19.51667,
       "longitude": 30.41667,
       "population": 7716,
-      "populationRank": 76,
+      "populationRank": 86,
       "isCapital": false
     },
     {
@@ -762,7 +858,37 @@
       "latitude": 10.46339,
       "longitude": 23.31748,
       "population": 6700,
-      "populationRank": 77,
+      "populationRank": 87,
+      "isCapital": false
+    },
+    {
+      "id": "372801",
+      "name": "Kerma",
+      "nativeName": "كرمة",
+      "latitude": 19.63333,
+      "longitude": 30.41667,
+      "population": 3928,
+      "populationRank": 88,
+      "isCapital": false
+    },
+    {
+      "id": "7026103",
+      "name": "Najaru",
+      "nativeName": "طاحونة",
+      "latitude": 14.472,
+      "longitude": 33.2479,
+      "population": 1153,
+      "populationRank": 89,
+      "isCapital": false
+    },
+    {
+      "id": "12104575",
+      "name": "Nagaro",
+      "nativeName": "محطة معالجة مياة قرية نجرو",
+      "latitude": 14.4741,
+      "longitude": 33.24919,
+      "population": 1109,
+      "populationRank": 90,
       "isCapital": false
     }
   ]

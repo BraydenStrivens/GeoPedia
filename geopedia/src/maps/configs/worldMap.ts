@@ -30,7 +30,7 @@ export const worldMap: MapConfig = {
      * Uses a very light cool blue-gray so the map reads as geographic rather
      * than as another neutral UI panel while remaining visually understated.
      */
-    backgroundColor: "#e8f1f5",
+    backgroundColor: "#E2E8F0",
   },
 
   /*
@@ -62,8 +62,8 @@ export const worldMap: MapConfig = {
      * countries remain distinguishable without creating harsh black outlines.
      */
     borders: {
-      color: "#94a3b8",
-      width: 1,
+      color: "#070707",
+      width: 0.25,
     },
   },
 

@@ -1,12 +1,450 @@
 {
   "towns": [
     {
+      "id": "5881576",
+      "name": "Pago Pago",
+      "latitude": -14.27806,
+      "longitude": -170.7025,
+      "population": 11500,
+      "populationRank": 1,
+      "isCapital": true
+    },
+    {
       "id": "5881192",
       "name": "Tāfuna",
       "latitude": -14.33583,
       "longitude": -170.72,
       "population": 7988,
-      "populationRank": 1,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "5881535",
+      "name": "Nu‘uuli",
+      "nativeName": "Nuʻuuli",
+      "latitude": -14.31583,
+      "longitude": -170.6975,
+      "population": 5000,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "5881347",
+      "name": "Leone",
+      "latitude": -14.34389,
+      "longitude": -170.785,
+      "population": 4050,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "5881224",
+      "name": "Faleniu",
+      "latitude": -14.3325,
+      "longitude": -170.74444,
+      "population": 3200,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "5881287",
+      "name": "Ili‘ili",
+      "nativeName": "ʻIliʻili",
+      "latitude": -14.35167,
+      "longitude": -170.74694,
+      "population": 3073,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "5880828",
+      "name": "ʻAūa",
+      "latitude": -14.27032,
+      "longitude": -170.66528,
+      "population": 2124,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "5881442",
+      "name": "Mapusagafou",
+      "latitude": -14.323,
+      "longitude": -170.754,
+      "population": 2052,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "5881241",
+      "name": "Fagatogo",
+      "latitude": -14.2825,
+      "longitude": -170.69,
+      "population": 1868,
+      "populationRank": 9,
+      "isCapital": false
+    },
+    {
+      "id": "5880891",
+      "name": "Vaitogi",
+      "latitude": -14.35259,
+      "longitude": -170.73796,
+      "population": 1436,
+      "populationRank": 10,
+      "isCapital": false
+    },
+    {
+      "id": "5881410",
+      "name": "Malaeimi",
+      "latitude": -14.32278,
+      "longitude": -170.73389,
+      "population": 1261,
+      "populationRank": 11,
+      "isCapital": false
+    },
+    {
+      "id": "5880944",
+      "name": "Vailoatai",
+      "latitude": -14.3534,
+      "longitude": -170.7808,
+      "population": 1144,
+      "populationRank": 12,
+      "isCapital": false
+    },
+    {
+      "id": "5880833",
+      "name": "Aoloau",
+      "nativeName": "A’oloau",
+      "latitude": -14.31972,
+      "longitude": -170.77,
+      "population": 966,
+      "populationRank": 13,
+      "isCapital": false
+    },
+    {
+      "id": "5881165",
+      "name": "Taʻū",
+      "latitude": -14.23361,
+      "longitude": -169.51444,
+      "population": 873,
+      "populationRank": 14,
+      "isCapital": false
+    },
+    {
+      "id": "5881168",
+      "name": "Taputimu",
+      "latitude": -14.36028,
+      "longitude": -170.77306,
+      "population": 741,
+      "populationRank": 15,
+      "isCapital": false
+    },
+    {
+      "id": "5881231",
+      "name": "Faga‘alu",
+      "nativeName": "Fagaʻalu",
+      "latitude": -14.29639,
+      "longitude": -170.68361,
+      "population": 731,
+      "populationRank": 16,
+      "isCapital": false
+    },
+    {
+      "id": "5881401",
+      "name": "Malaeloa/Ituau",
+      "latitude": -14.34722,
+      "longitude": -170.76722,
+      "population": 717,
+      "populationRank": 17,
+      "isCapital": false
+    },
+    {
+      "id": "5880737",
+      "name": "Utulei",
+      "latitude": -14.28694,
+      "longitude": -170.68306,
+      "population": 683,
+      "populationRank": 18,
+      "isCapital": false
+    },
+    {
+      "id": "5881602",
+      "name": "Futiga",
+      "latitude": -14.35333,
+      "longitude": -170.75417,
+      "population": 682,
+      "populationRank": 19,
+      "isCapital": false
+    },
+    {
+      "id": "5881409",
+      "name": "Malaeloa/Aitulagi",
+      "latitude": -14.33861,
+      "longitude": -170.76784,
+      "population": 633,
+      "populationRank": 20,
+      "isCapital": false
+    },
+    {
+      "id": "5881496",
+      "name": "Mesepa",
+      "latitude": -14.3233,
+      "longitude": -170.7471,
+      "population": 552,
+      "populationRank": 21,
+      "isCapital": false
+    },
+    {
+      "id": "5881342",
+      "name": "Leloaloa",
+      "latitude": -14.26736,
+      "longitude": -170.67832,
+      "population": 546,
+      "populationRank": 22,
+      "isCapital": false
+    },
+    {
+      "id": "5880755",
+      "name": "Āfono",
+      "latitude": -14.26417,
+      "longitude": -170.65083,
+      "population": 527,
+      "populationRank": 23,
+      "isCapital": false
+    },
+    {
+      "id": "5880764",
+      "name": "Alao",
+      "latitude": -14.2675,
+      "longitude": -170.56361,
+      "population": 508,
+      "populationRank": 24,
+      "isCapital": false
+    },
+    {
+      "id": "5880813",
+      "name": "Ānua",
+      "latitude": -14.26958,
+      "longitude": -170.68771,
+      "population": 473,
+      "populationRank": 25,
+      "isCapital": false
+    },
+    {
+      "id": "5880820",
+      "name": "ʻAoa",
+      "latitude": -14.26556,
+      "longitude": -170.58389,
+      "population": 466,
+      "populationRank": 26,
+      "isCapital": false
+    },
+    {
+      "id": "5880757",
+      "name": "Alofau",
+      "latitude": -14.27917,
+      "longitude": -170.60222,
+      "population": 465,
+      "populationRank": 27,
+      "isCapital": false
+    },
+    {
+      "id": "5880881",
+      "name": "Vatia",
+      "latitude": -14.255,
+      "longitude": -170.67528,
+      "population": 460,
+      "populationRank": 28,
+      "isCapital": false
+    },
+    {
+      "id": "5880752",
+      "name": "Aʻasu",
+      "latitude": -14.2975,
+      "longitude": -170.75833,
+      "population": 425,
+      "populationRank": 29,
+      "isCapital": false
+    },
+    {
+      "id": "5880837",
+      "name": "Aunu‘u",
+      "nativeName": "Aunuʻu",
+      "latitude": -14.2836,
+      "longitude": -170.56055,
+      "population": 402,
+      "populationRank": 30,
+      "isCapital": false
+    },
+    {
+      "id": "5881098",
+      "name": "Tula",
+      "latitude": -14.25806,
+      "longitude": -170.56417,
+      "population": 370,
+      "populationRank": 31,
+      "isCapital": false
+    },
+    {
+      "id": "5880799",
+      "name": "Āmouli",
+      "latitude": -14.27806,
+      "longitude": -170.5825,
+      "population": 261,
+      "populationRank": 32,
+      "isCapital": false
+    },
+    {
+      "id": "5881544",
+      "name": "Ofu",
+      "latitude": -14.17117,
+      "longitude": -169.67851,
+      "population": 254,
+      "populationRank": 33,
+      "isCapital": false
+    },
+    {
+      "id": "5880791",
+      "name": "‘Āmanave",
+      "latitude": -14.33,
+      "longitude": -170.82944,
+      "population": 247,
+      "populationRank": 34,
+      "isCapital": false
+    },
+    {
+      "id": "5880826",
+      "name": "Atu‘u",
+      "nativeName": "Atuʻu",
+      "latitude": -14.26934,
+      "longitude": -170.68539,
+      "population": 236,
+      "populationRank": 35,
+      "isCapital": false
+    },
+    {
+      "id": "5880844",
+      "name": "Auto",
+      "latitude": -14.275,
+      "longitude": -170.628,
+      "population": 214,
+      "populationRank": 36,
+      "isCapital": false
+    },
+    {
+      "id": "5880836",
+      "name": "Aumi",
+      "latitude": -14.29194,
+      "longitude": -170.64667,
+      "population": 176,
+      "populationRank": 37,
+      "isCapital": false
+    },
+    {
+      "id": "5880793",
+      "name": "Amaluia",
+      "latitude": -14.33833,
+      "longitude": -170.79111,
+      "population": 163,
+      "populationRank": 38,
+      "isCapital": false
+    },
+    {
+      "id": "5880818",
+      "name": "Asili",
+      "latitude": -14.33556,
+      "longitude": -170.79556,
+      "population": 157,
+      "populationRank": 39,
+      "isCapital": false
+    },
+    {
+      "id": "5881622",
+      "name": "Poloa",
+      "latitude": -14.31468,
+      "longitude": -170.83308,
+      "population": 130,
+      "populationRank": 40,
+      "isCapital": false
+    },
+    {
+      "id": "5880749",
+      "name": "Afao",
+      "latitude": -14.33667,
+      "longitude": -170.79917,
+      "population": 96,
+      "populationRank": 41,
+      "isCapital": false
+    },
+    {
+      "id": "5880829",
+      "name": "ʻAuʻasi",
+      "latitude": -14.27667,
+      "longitude": -170.57444,
+      "population": 88,
+      "populationRank": 42,
+      "isCapital": false
+    },
+    {
+      "id": "5881249",
+      "name": "Failolo",
+      "latitude": -14.33361,
+      "longitude": -170.82583,
+      "population": 87,
+      "populationRank": 43,
+      "isCapital": false
+    },
+    {
+      "id": "5881590",
+      "name": "Pagai",
+      "latitude": -14.269,
+      "longitude": -170.607,
+      "population": 81,
+      "populationRank": 44,
+      "isCapital": false
+    },
+    {
+      "id": "5881265",
+      "name": "Fatumafuti",
+      "latitude": -14.297,
+      "longitude": -170.679,
+      "population": 72,
+      "populationRank": 45,
+      "isCapital": false
+    },
+    {
+      "id": "5880796",
+      "name": "Amaua",
+      "latitude": -14.27694,
+      "longitude": -170.62167,
+      "population": 68,
+      "populationRank": 46,
+      "isCapital": false
+    },
+    {
+      "id": "5880781",
+      "name": "Agugulu",
+      "latitude": -14.33556,
+      "longitude": -170.82167,
+      "population": 42,
+      "populationRank": 47,
+      "isCapital": false
+    },
+    {
+      "id": "5881150",
+      "name": "Taulaga",
+      "latitude": -11.05528,
+      "longitude": -171.08833,
+      "population": 37,
+      "populationRank": 48,
+      "isCapital": false
+    },
+    {
+      "id": "5880773",
+      "name": "Ālega",
+      "latitude": -14.28528,
+      "longitude": -170.6375,
+      "population": 29,
+      "populationRank": 49,
       "isCapital": false
     }
   ]

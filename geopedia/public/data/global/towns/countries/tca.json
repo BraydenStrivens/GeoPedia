@@ -19,12 +19,39 @@
       "isCapital": true
     },
     {
+      "id": "11201380",
+      "name": "Wheeland",
+      "latitude": 21.814,
+      "longitude": -72.28213,
+      "population": 3210,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3576979",
+      "name": "Kew",
+      "latitude": 21.9134,
+      "longitude": -71.99265,
+      "population": 1477,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
       "id": "3577027",
       "name": "Cockburn Harbour",
       "latitude": 21.49293,
       "longitude": -71.53304,
       "population": 811,
-      "populationRank": 3,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3576905",
+      "name": "Whitby",
+      "latitude": 21.954,
+      "longitude": -71.96614,
+      "population": 562,
+      "populationRank": 6,
       "isCapital": false
     }
   ]

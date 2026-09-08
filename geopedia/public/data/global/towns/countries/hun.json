@@ -47,8 +47,7 @@
     },
     {
       "id": "3052009",
-      "name": "Gyor",
-      "nativeName": "Győr",
+      "name": "Győr",
       "latitude": 47.68333,
       "longitude": 17.63512,
       "population": 129301,
@@ -1092,8 +1091,7 @@
     },
     {
       "id": "3049366",
-      "name": "Köszeg",
-      "nativeName": "Kőszeg",
+      "name": "Kőszeg",
       "latitude": 47.38922,
       "longitude": 16.541,
       "population": 11500,
@@ -1800,6 +1798,906 @@
       "longitude": 20.91667,
       "population": 6877,
       "populationRank": 200,
+      "isCapital": false
+    },
+    {
+      "id": "714421",
+      "name": "Újszász",
+      "latitude": 47.3,
+      "longitude": 20.08333,
+      "population": 6855,
+      "populationRank": 201,
+      "isCapital": false
+    },
+    {
+      "id": "3055298",
+      "name": "Bátaszék",
+      "latitude": 46.19373,
+      "longitude": 18.72307,
+      "population": 6820,
+      "populationRank": 202,
+      "isCapital": false
+    },
+    {
+      "id": "722650",
+      "name": "Balkány",
+      "latitude": 47.77066,
+      "longitude": 21.86314,
+      "population": 6798,
+      "populationRank": 203,
+      "isCapital": false
+    },
+    {
+      "id": "3045070",
+      "name": "Sümeg",
+      "latitude": 46.97703,
+      "longitude": 17.28209,
+      "population": 6726,
+      "populationRank": 204,
+      "isCapital": false
+    },
+    {
+      "id": "3045017",
+      "name": "Szabadszállás",
+      "latitude": 46.87575,
+      "longitude": 19.22324,
+      "population": 6605,
+      "populationRank": 205,
+      "isCapital": false
+    },
+    {
+      "id": "722477",
+      "name": "Battonya",
+      "latitude": 46.28333,
+      "longitude": 21.01667,
+      "population": 6604,
+      "populationRank": 206,
+      "isCapital": false
+    },
+    {
+      "id": "3046249",
+      "name": "Polgárdi",
+      "latitude": 47.06099,
+      "longitude": 18.302,
+      "population": 6564,
+      "populationRank": 207,
+      "isCapital": false
+    },
+    {
+      "id": "717667",
+      "name": "Mezőcsát",
+      "latitude": 47.81667,
+      "longitude": 20.91667,
+      "population": 6519,
+      "populationRank": 208,
+      "isCapital": false
+    },
+    {
+      "id": "714548",
+      "name": "Tótkomlós",
+      "latitude": 46.41667,
+      "longitude": 20.73333,
+      "population": 6497,
+      "populationRank": 209,
+      "isCapital": false
+    },
+    {
+      "id": "3046353",
+      "name": "Piliscsaba",
+      "latitude": 47.63417,
+      "longitude": 18.82886,
+      "population": 6468,
+      "populationRank": 210,
+      "isCapital": false
+    },
+    {
+      "id": "3044809",
+      "name": "Szécsény",
+      "latitude": 48.08057,
+      "longitude": 19.52019,
+      "population": 6446,
+      "populationRank": 211,
+      "isCapital": false
+    },
+    {
+      "id": "720679",
+      "name": "Füzesgyarmat",
+      "latitude": 47.1,
+      "longitude": 21.21667,
+      "population": 6426,
+      "populationRank": 212,
+      "isCapital": false
+    },
+    {
+      "id": "719555",
+      "name": "Kaba",
+      "latitude": 47.35,
+      "longitude": 21.28333,
+      "population": 6392,
+      "populationRank": 213,
+      "isCapital": false
+    },
+    {
+      "id": "3046087",
+      "name": "Pusztaszabolcs",
+      "latitude": 47.13718,
+      "longitude": 18.76704,
+      "population": 6355,
+      "populationRank": 214,
+      "isCapital": false
+    },
+    {
+      "id": "714914",
+      "name": "Téglás",
+      "latitude": 47.71667,
+      "longitude": 21.68333,
+      "population": 6285,
+      "populationRank": 215,
+      "isCapital": false
+    },
+    {
+      "id": "3050927",
+      "name": "Jánossomorja",
+      "latitude": 47.78621,
+      "longitude": 17.13603,
+      "population": 6283,
+      "populationRank": 216,
+      "isCapital": false
+    },
+    {
+      "id": "717662",
+      "name": "Mezőhegyes",
+      "latitude": 46.31667,
+      "longitude": 20.81667,
+      "population": 6220,
+      "populationRank": 217,
+      "isCapital": false
+    },
+    {
+      "id": "3044151",
+      "name": "Tápiószele",
+      "latitude": 47.33609,
+      "longitude": 19.87724,
+      "population": 6214,
+      "populationRank": 218,
+      "isCapital": false
+    },
+    {
+      "id": "3054693",
+      "name": "Aszód",
+      "latitude": 47.65174,
+      "longitude": 19.4785,
+      "population": 6186,
+      "populationRank": 219,
+      "isCapital": false
+    },
+    {
+      "id": "3053684",
+      "name": "Diósd",
+      "latitude": 47.4095,
+      "longitude": 18.94898,
+      "population": 6168,
+      "populationRank": 220,
+      "isCapital": false
+    },
+    {
+      "id": "714742",
+      "name": "Tiszalök",
+      "latitude": 48.01667,
+      "longitude": 21.38333,
+      "population": 6122,
+      "populationRank": 221,
+      "isCapital": false
+    },
+    {
+      "id": "3051016",
+      "name": "Izsák",
+      "latitude": 46.80454,
+      "longitude": 19.35172,
+      "population": 6117,
+      "populationRank": 222,
+      "isCapital": false
+    },
+    {
+      "id": "718637",
+      "name": "Komádi",
+      "latitude": 47,
+      "longitude": 21.5,
+      "population": 6091,
+      "populationRank": 223,
+      "isCapital": false
+    },
+    {
+      "id": "3048725",
+      "name": "Lőrinci",
+      "latitude": 47.73295,
+      "longitude": 19.67867,
+      "population": 6089,
+      "populationRank": 224,
+      "isCapital": false
+    },
+    {
+      "id": "722882",
+      "name": "Alsózsolca",
+      "latitude": 48.06982,
+      "longitude": 20.88046,
+      "population": 6044,
+      "populationRank": 225,
+      "isCapital": false
+    },
+    {
+      "id": "3050311",
+      "name": "Kerekegyháza",
+      "latitude": 46.93722,
+      "longitude": 19.47806,
+      "population": 5983,
+      "populationRank": 226,
+      "isCapital": false
+    },
+    {
+      "id": "3055584",
+      "name": "Balatonboglár",
+      "latitude": 46.77525,
+      "longitude": 17.64415,
+      "population": 5964,
+      "populationRank": 227,
+      "isCapital": false
+    },
+    {
+      "id": "715259",
+      "name": "Szikszó",
+      "latitude": 48.2,
+      "longitude": 20.93333,
+      "population": 5963,
+      "populationRank": 228,
+      "isCapital": false
+    },
+    {
+      "id": "717345",
+      "name": "Nagyhalász",
+      "latitude": 48.13266,
+      "longitude": 21.76104,
+      "population": 5924,
+      "populationRank": 229,
+      "isCapital": false
+    },
+    {
+      "id": "3050088",
+      "name": "Kisbér",
+      "latitude": 47.50289,
+      "longitude": 18.03665,
+      "population": 5850,
+      "populationRank": 230,
+      "isCapital": false
+    },
+    {
+      "id": "3055091",
+      "name": "Berhida",
+      "latitude": 47.11131,
+      "longitude": 18.12948,
+      "population": 5822,
+      "populationRank": 231,
+      "isCapital": false
+    },
+    {
+      "id": "718615",
+      "name": "Kondoros",
+      "latitude": 46.76667,
+      "longitude": 20.8,
+      "population": 5793,
+      "populationRank": 232,
+      "isCapital": false
+    },
+    {
+      "id": "3048194",
+      "name": "Mélykút",
+      "latitude": 46.21509,
+      "longitude": 19.38102,
+      "population": 5766,
+      "populationRank": 233,
+      "isCapital": false
+    },
+    {
+      "id": "719643",
+      "name": "Jászkisér",
+      "latitude": 47.45,
+      "longitude": 20.21667,
+      "population": 5741,
+      "populationRank": 234,
+      "isCapital": false
+    },
+    {
+      "id": "3053863",
+      "name": "Csurgó",
+      "latitude": 46.25314,
+      "longitude": 17.1006,
+      "population": 5682,
+      "populationRank": 235,
+      "isCapital": false
+    },
+    {
+      "id": "721559",
+      "name": "Csorvás",
+      "latitude": 46.63333,
+      "longitude": 20.83333,
+      "population": 5643,
+      "populationRank": 236,
+      "isCapital": false
+    },
+    {
+      "id": "714449",
+      "name": "Újkígyós",
+      "latitude": 46.58333,
+      "longitude": 21.03333,
+      "population": 5602,
+      "populationRank": 237,
+      "isCapital": false
+    },
+    {
+      "id": "3044084",
+      "name": "Tát",
+      "latitude": 47.74148,
+      "longitude": 18.64813,
+      "population": 5575,
+      "populationRank": 238,
+      "isCapital": false
+    },
+    {
+      "id": "3047127",
+      "name": "Őrbottyán",
+      "latitude": 47.68711,
+      "longitude": 19.28239,
+      "population": 5495,
+      "populationRank": 239,
+      "isCapital": false
+    },
+    {
+      "id": "716197",
+      "name": "Rákóczifalva",
+      "latitude": 47.08333,
+      "longitude": 20.23333,
+      "population": 5481,
+      "populationRank": 240,
+      "isCapital": false
+    },
+    {
+      "id": "3042507",
+      "name": "Zsámbék",
+      "latitude": 47.54814,
+      "longitude": 18.72011,
+      "population": 5479,
+      "populationRank": 241,
+      "isCapital": false
+    },
+    {
+      "id": "721189",
+      "name": "Elek",
+      "latitude": 46.53333,
+      "longitude": 21.25,
+      "population": 5465,
+      "populationRank": 242,
+      "isCapital": false
+    },
+    {
+      "id": "714265",
+      "name": "Vámospércs",
+      "latitude": 47.53333,
+      "longitude": 21.9,
+      "population": 5451,
+      "populationRank": 243,
+      "isCapital": false
+    },
+    {
+      "id": "3047922",
+      "name": "Mórahalom",
+      "latitude": 46.21806,
+      "longitude": 19.8851,
+      "population": 5445,
+      "populationRank": 244,
+      "isCapital": false
+    },
+    {
+      "id": "721161",
+      "name": "Emőd",
+      "latitude": 47.93333,
+      "longitude": 20.81667,
+      "population": 5382,
+      "populationRank": 245,
+      "isCapital": false
+    },
+    {
+      "id": "3049036",
+      "name": "Lábatlan",
+      "latitude": 47.74735,
+      "longitude": 18.49623,
+      "population": 5357,
+      "populationRank": 246,
+      "isCapital": false
+    },
+    {
+      "id": "3054434",
+      "name": "Csákvár",
+      "latitude": 47.39184,
+      "longitude": 18.46501,
+      "population": 5259,
+      "populationRank": 247,
+      "isCapital": false
+    },
+    {
+      "id": "719252",
+      "name": "Kenderes",
+      "latitude": 47.25,
+      "longitude": 20.68333,
+      "population": 5243,
+      "populationRank": 248,
+      "isCapital": false
+    },
+    {
+      "id": "721789",
+      "name": "Csenger",
+      "latitude": 47.83582,
+      "longitude": 22.68096,
+      "population": 5225,
+      "populationRank": 249,
+      "isCapital": false
+    },
+    {
+      "id": "3052574",
+      "name": "Fonyód",
+      "latitude": 46.74303,
+      "longitude": 17.55754,
+      "population": 5199,
+      "populationRank": 250,
+      "isCapital": false
+    },
+    {
+      "id": "716204",
+      "name": "Rakamaz",
+      "latitude": 48.12372,
+      "longitude": 21.46429,
+      "population": 5197,
+      "populationRank": 251,
+      "isCapital": false
+    },
+    {
+      "id": "3048326",
+      "name": "Martonvásár",
+      "latitude": 47.31601,
+      "longitude": 18.79045,
+      "population": 5166,
+      "populationRank": 252,
+      "isCapital": false
+    },
+    {
+      "id": "3053712",
+      "name": "Devecser",
+      "latitude": 47.10316,
+      "longitude": 17.43802,
+      "population": 5140,
+      "populationRank": 253,
+      "isCapital": false
+    },
+    {
+      "id": "3046916",
+      "name": "Örkény",
+      "latitude": 47.12991,
+      "longitude": 19.43324,
+      "population": 5119,
+      "populationRank": 254,
+      "isCapital": false
+    },
+    {
+      "id": "719260",
+      "name": "Kemecse",
+      "latitude": 48.07532,
+      "longitude": 21.80625,
+      "population": 5029,
+      "populationRank": 255,
+      "isCapital": false
+    },
+    {
+      "id": "718528",
+      "name": "Körösladány",
+      "latitude": 46.96667,
+      "longitude": 21.08333,
+      "population": 5006,
+      "populationRank": 256,
+      "isCapital": false
+    },
+    {
+      "id": "714785",
+      "name": "Tiszacsege",
+      "latitude": 47.7,
+      "longitude": 21,
+      "population": 4961,
+      "populationRank": 257,
+      "isCapital": false
+    },
+    {
+      "id": "716968",
+      "name": "Nyékládháza",
+      "latitude": 47.98333,
+      "longitude": 20.83333,
+      "population": 4939,
+      "populationRank": 258,
+      "isCapital": false
+    },
+    {
+      "id": "3055551",
+      "name": "Balatonlelle",
+      "latitude": 46.78318,
+      "longitude": 17.69498,
+      "population": 4910,
+      "populationRank": 259,
+      "isCapital": false
+    },
+    {
+      "id": "3043820",
+      "name": "Tompa",
+      "latitude": 46.20605,
+      "longitude": 19.5391,
+      "population": 4844,
+      "populationRank": 260,
+      "isCapital": false
+    },
+    {
+      "id": "3042998",
+      "name": "Velence",
+      "latitude": 47.23855,
+      "longitude": 18.65484,
+      "population": 4832,
+      "populationRank": 261,
+      "isCapital": false
+    },
+    {
+      "id": "3044221",
+      "name": "Tab",
+      "latitude": 46.73135,
+      "longitude": 18.03201,
+      "population": 4824,
+      "populationRank": 262,
+      "isCapital": false
+    },
+    {
+      "id": "713929",
+      "name": "Záhony",
+      "latitude": 48.40906,
+      "longitude": 22.17614,
+      "population": 4807,
+      "populationRank": 263,
+      "isCapital": false
+    },
+    {
+      "id": "716908",
+      "name": "Nyírmada",
+      "latitude": 48.06667,
+      "longitude": 22.2,
+      "population": 4743,
+      "populationRank": 264,
+      "isCapital": false
+    },
+    {
+      "id": "716799",
+      "name": "Onga",
+      "latitude": 48.11667,
+      "longitude": 20.91667,
+      "population": 4697,
+      "populationRank": 265,
+      "isCapital": false
+    },
+    {
+      "id": "3047619",
+      "name": "Nagymaros",
+      "latitude": 47.7928,
+      "longitude": 18.95984,
+      "population": 4629,
+      "populationRank": 266,
+      "isCapital": false
+    },
+    {
+      "id": "3043033",
+      "name": "Vasvár",
+      "latitude": 47.04928,
+      "longitude": 16.79954,
+      "population": 4613,
+      "populationRank": 267,
+      "isCapital": false
+    },
+    {
+      "id": "717853",
+      "name": "Mándok",
+      "latitude": 48.32149,
+      "longitude": 22.19107,
+      "population": 4566,
+      "populationRank": 268,
+      "isCapital": false
+    },
+    {
+      "id": "3056450",
+      "name": "Aba",
+      "latitude": 47.02907,
+      "longitude": 18.52172,
+      "population": 4551,
+      "populationRank": 269,
+      "isCapital": false
+    },
+    {
+      "id": "3045341",
+      "name": "Simontornya",
+      "latitude": 46.75462,
+      "longitude": 18.5549,
+      "population": 4536,
+      "populationRank": 270,
+      "isCapital": false
+    },
+    {
+      "id": "3048820",
+      "name": "Letenye",
+      "latitude": 46.43301,
+      "longitude": 16.72583,
+      "population": 4527,
+      "populationRank": 271,
+      "isCapital": false
+    },
+    {
+      "id": "3051477",
+      "name": "Hévíz",
+      "latitude": 46.79031,
+      "longitude": 17.18408,
+      "population": 4438,
+      "populationRank": 272,
+      "isCapital": false
+    },
+    {
+      "id": "715355",
+      "name": "Szendrő",
+      "latitude": 48.4,
+      "longitude": 20.73333,
+      "population": 4284,
+      "populationRank": 273,
+      "isCapital": false
+    },
+    {
+      "id": "721309",
+      "name": "Dombrád",
+      "latitude": 48.23333,
+      "longitude": 21.93333,
+      "population": 4276,
+      "populationRank": 274,
+      "isCapital": false
+    },
+    {
+      "id": "722682",
+      "name": "Baktalórántháza",
+      "latitude": 48,
+      "longitude": 22.08333,
+      "population": 4265,
+      "populationRank": 275,
+      "isCapital": false
+    },
+    {
+      "id": "722281",
+      "name": "Biharkeresztes",
+      "latitude": 47.13333,
+      "longitude": 21.71667,
+      "population": 4237,
+      "populationRank": 276,
+      "isCapital": false
+    },
+    {
+      "id": "721444",
+      "name": "Demecser",
+      "latitude": 48.11648,
+      "longitude": 21.92624,
+      "population": 4205,
+      "populationRank": 277,
+      "isCapital": false
+    },
+    {
+      "id": "3053432",
+      "name": "Dunavecse",
+      "latitude": 46.91478,
+      "longitude": 18.97127,
+      "population": 4201,
+      "populationRank": 278,
+      "isCapital": false
+    },
+    {
+      "id": "723044",
+      "name": "Abádszalók",
+      "latitude": 47.46667,
+      "longitude": 20.6,
+      "population": 4180,
+      "populationRank": 279,
+      "isCapital": false
+    },
+    {
+      "id": "714659",
+      "name": "Tokaj",
+      "latitude": 48.11717,
+      "longitude": 21.40922,
+      "population": 4155,
+      "populationRank": 280,
+      "isCapital": false
+    },
+    {
+      "id": "3046036",
+      "name": "Rácalmás",
+      "latitude": 47.02263,
+      "longitude": 18.94056,
+      "population": 4148,
+      "populationRank": 281,
+      "isCapital": false
+    },
+    {
+      "id": "717658",
+      "name": "Mezőkeresztes",
+      "latitude": 47.83333,
+      "longitude": 20.7,
+      "population": 4116,
+      "populationRank": 282,
+      "isCapital": false
+    },
+    {
+      "id": "3043946",
+      "name": "Tét",
+      "latitude": 47.51922,
+      "longitude": 17.50802,
+      "population": 4104,
+      "populationRank": 283,
+      "isCapital": false
+    },
+    {
+      "id": "3049277",
+      "name": "Kozármisleny",
+      "latitude": 46.02967,
+      "longitude": 18.2921,
+      "population": 4093,
+      "populationRank": 284,
+      "isCapital": false
+    },
+    {
+      "id": "3046693",
+      "name": "Pannonhalma",
+      "latitude": 47.54946,
+      "longitude": 17.75535,
+      "population": 4089,
+      "populationRank": 285,
+      "isCapital": false
+    },
+    {
+      "id": "3054945",
+      "name": "Bodajk",
+      "latitude": 47.32352,
+      "longitude": 18.23312,
+      "population": 4069,
+      "populationRank": 286,
+      "isCapital": false
+    },
+    {
+      "id": "717741",
+      "name": "Medgyesegyháza",
+      "latitude": 46.5,
+      "longitude": 21.03333,
+      "population": 4037,
+      "populationRank": 287,
+      "isCapital": false
+    },
+    {
+      "id": "3046505",
+      "name": "Pécsvárad",
+      "latitude": 46.16033,
+      "longitude": 18.42321,
+      "population": 4024,
+      "populationRank": 288,
+      "isCapital": false
+    },
+    {
+      "id": "714081",
+      "name": "Verpelét",
+      "latitude": 47.85,
+      "longitude": 20.23333,
+      "population": 4016,
+      "populationRank": 289,
+      "isCapital": false
+    },
+    {
+      "id": "722998",
+      "name": "Ajak",
+      "latitude": 48.17664,
+      "longitude": 22.06273,
+      "population": 3983,
+      "populationRank": 290,
+      "isCapital": false
+    },
+    {
+      "id": "3055772",
+      "name": "Bábolna",
+      "latitude": 47.64361,
+      "longitude": 17.97798,
+      "population": 3885,
+      "populationRank": 291,
+      "isCapital": false
+    },
+    {
+      "id": "3052639",
+      "name": "Fertőszentmiklós",
+      "latitude": 47.58996,
+      "longitude": 16.87517,
+      "population": 3877,
+      "populationRank": 292,
+      "isCapital": false
+    },
+    {
+      "id": "3056414",
+      "name": "Adony",
+      "latitude": 47.1194,
+      "longitude": 18.86493,
+      "population": 3812,
+      "populationRank": 293,
+      "isCapital": false
+    },
+    {
+      "id": "714296",
+      "name": "Vaja",
+      "latitude": 48.00574,
+      "longitude": 22.16761,
+      "population": 3774,
+      "populationRank": 294,
+      "isCapital": false
+    },
+    {
+      "id": "3054828",
+      "name": "Bóly",
+      "latitude": 45.96722,
+      "longitude": 18.51833,
+      "population": 3642,
+      "populationRank": 295,
+      "isCapital": false
+    },
+    {
+      "id": "3047811",
+      "name": "Nagybajom",
+      "latitude": 46.39232,
+      "longitude": 17.51147,
+      "population": 3532,
+      "populationRank": 296,
+      "isCapital": false
+    },
+    {
+      "id": "3051873",
+      "name": "Hajós",
+      "latitude": 46.39861,
+      "longitude": 19.12056,
+      "population": 3520,
+      "populationRank": 297,
+      "isCapital": false
+    },
+    {
+      "id": "3045479",
+      "name": "Sásd",
+      "latitude": 46.2552,
+      "longitude": 18.10776,
+      "population": 3500,
+      "populationRank": 298,
+      "isCapital": false
+    },
+    {
+      "id": "3042977",
+      "name": "Vép",
+      "latitude": 47.23041,
+      "longitude": 16.72248,
+      "population": 3460,
+      "populationRank": 299,
+      "isCapital": false
+    },
+    {
+      "id": "722300",
+      "name": "Besenyszög",
+      "latitude": 47.3,
+      "longitude": 20.26667,
+      "population": 3460,
+      "populationRank": 300,
       "isCapital": false
     }
   ]

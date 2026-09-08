@@ -10,13 +10,41 @@
       "isCapital": false
     },
     {
+      "id": "3573029",
+      "name": "Somerset",
+      "latitude": 32.29833,
+      "longitude": -64.86833,
+      "population": 1000,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
       "id": "3573197",
       "name": "Hamilton",
       "latitude": 32.2949,
       "longitude": -64.78303,
       "population": 902,
-      "populationRank": 2,
+      "populationRank": 3,
       "isCapital": true
+    },
+    {
+      "id": "3573001",
+      "name": "Flatts",
+      "latitude": 32.32094,
+      "longitude": -64.74016,
+      "population": 412,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "11054833",
+      "name": "Stovel Bay",
+      "nativeName": "Spanish Point",
+      "latitude": 32.30587,
+      "longitude": -64.81429,
+      "population": 411,
+      "populationRank": 5,
+      "isCapital": false
     }
   ]
 }

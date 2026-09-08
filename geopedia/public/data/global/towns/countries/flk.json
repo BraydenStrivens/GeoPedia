@@ -8,6 +8,82 @@
       "population": 2213,
       "populationRank": 1,
       "isCapital": true
+    },
+    {
+      "id": "3426792",
+      "name": "Port Howard",
+      "latitude": -51.6154,
+      "longitude": -59.52301,
+      "population": 41,
+      "populationRank": 2,
+      "isCapital": false
+    },
+    {
+      "id": "3426996",
+      "name": "Goose Green",
+      "latitude": -51.82774,
+      "longitude": -58.97255,
+      "population": 40,
+      "populationRank": 3,
+      "isCapital": false
+    },
+    {
+      "id": "3426842",
+      "name": "North Arm Settlement",
+      "nativeName": "North Arm",
+      "latitude": -52.12373,
+      "longitude": -59.36763,
+      "population": 25,
+      "populationRank": 4,
+      "isCapital": false
+    },
+    {
+      "id": "3426674",
+      "name": "Teal Inlet",
+      "latitude": -51.55697,
+      "longitude": -58.43824,
+      "population": 16,
+      "populationRank": 5,
+      "isCapital": false
+    },
+    {
+      "id": "3831908",
+      "name": "Hill Cove",
+      "latitude": -51.49741,
+      "longitude": -60.11559,
+      "population": 16,
+      "populationRank": 6,
+      "isCapital": false
+    },
+    {
+      "id": "3831938",
+      "name": "Fox Bay East Settlement",
+      "nativeName": "Fox Bay",
+      "latitude": -51.95656,
+      "longitude": -60.06929,
+      "population": 15,
+      "populationRank": 7,
+      "isCapital": false
+    },
+    {
+      "id": "3426741",
+      "name": "San Carlos Settlement",
+      "nativeName": "San Carlos",
+      "latitude": -51.57357,
+      "longitude": -59.03499,
+      "population": 11,
+      "populationRank": 8,
+      "isCapital": false
+    },
+    {
+      "id": "3427023",
+      "name": "Fitzroy Settlement",
+      "nativeName": "Fitzroy",
+      "latitude": -51.78694,
+      "longitude": -58.22629,
+      "population": 8,
+      "populationRank": 9,
+      "isCapital": false
     }
   ]
 }
