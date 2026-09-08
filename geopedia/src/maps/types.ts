@@ -201,14 +201,6 @@ export type MapConfig = {
   style: MapStyle;
 
   /**
-   * Optional visibility overrides for labels and administrative boundaries
-   * supplied by the base-map style.
-   *
-   * Omitted values default to visible.
-   */
-  baseMapLayers?: BaseMapLayerVisibilityConfig;
-
-  /**
    * GeoJSON property promoted by MapLibre to `feature.id`.
    *
    * Stable feature identity is used by:

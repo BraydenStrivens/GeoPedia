@@ -79,6 +79,10 @@ export const usStateAbbreviationsQuiz: FeatureQuiz = {
   answerProperty: "abbreviation",
   answerType: "single",
 
+  baseMapLayers: {
+    subdivisionLabels: false,
+  },
+
   grouping: {
     properties: [
       {

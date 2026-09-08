@@ -6,5 +6,3 @@
  */
 
 export { worldCountriesMap } from "./worldCountriesMap";
-export { worldCountryCapitalsMap } from "./worldCountryCapitalsMap";
-export { worldCountryNamesMap } from "./worldCountryNamesMap";

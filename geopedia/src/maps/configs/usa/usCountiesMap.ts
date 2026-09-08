@@ -5,9 +5,9 @@
  * its GEOID as a stable unique identifier.
  */
 
-import type { MapConfig } from "../../types";
+import { createMapConfig } from "../createMapConfig";
 
-export const usCountiesMap: MapConfig = {
+export const usCountiesMap = createMapConfig({
   id: "us-counties",
   geojsonUrl: "/data/countries/usa/geojson/counties.geojson",
 
@@ -31,20 +31,12 @@ export const usCountiesMap: MapConfig = {
   },
 
   layers: {
-    fill: {
-      color: "#969696",
-      opacity: 0.35,
-    },
-
     borders: {
-      color: "#000000",
       width: 0.8,
     },
   },
 
   hover: {
-    enabled: true,
-    color: "#4e4e4e",
     labelProperty: "fullName",
   },
-};
+});

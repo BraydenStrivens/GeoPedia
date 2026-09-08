@@ -7,9 +7,9 @@
  * are stored together within the feature's `area_codes` property.
  */
 
-import type { MapConfig } from "@/maps/types";
+import { createMapConfig } from "../createMapConfig";
 
-export const usAreaCodesMap: MapConfig = {
+export const usAreaCodesMap = createMapConfig({
   id: "us-area-codes",
   geojsonUrl: "/data/countries/usa/geojson/area-codes.geojson",
 
@@ -30,21 +30,7 @@ export const usAreaCodesMap: MapConfig = {
     zoom: 3.5,
   },
 
-  layers: {
-    fill: {
-      color: "#969696",
-      opacity: 0.35,
-    },
-
-    borders: {
-      color: "#000000",
-      width: 1,
-    },
-  },
-
   hover: {
-    enabled: true,
-    color: "#4e4e4e",
     labelProperty: "id",
   },
-};
+});

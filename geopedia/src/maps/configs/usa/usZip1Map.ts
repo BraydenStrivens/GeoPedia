@@ -5,9 +5,9 @@
  * that share the same first ZIP-code digit.
  */
 
-import type { MapConfig } from "../../types";
+import { createMapConfig } from "../createMapConfig";
 
-export const usZip1Map: MapConfig = {
+export const usZip1Map = createMapConfig({
   id: "us-zip-1",
   geojsonUrl: "/data/countries/usa/geojson/zip-1.geojson",
 
@@ -25,20 +25,12 @@ export const usZip1Map: MapConfig = {
   },
 
   layers: {
-    fill: {
-      color: "#969696",
-      opacity: 0.35,
-    },
-
     borders: {
-      color: "#000000",
       width: 1.5,
     },
   },
 
   hover: {
-    enabled: true,
-    color: "#4e4e4e",
     labelProperty: "zip",
   },
-};
+});

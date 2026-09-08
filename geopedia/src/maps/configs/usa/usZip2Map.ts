@@ -5,9 +5,9 @@
  * digits.
  */
 
-import type { MapConfig } from "../../types";
+import { createMapConfig } from "../createMapConfig";
 
-export const usZip2Map: MapConfig = {
+export const usZip2Map = createMapConfig({
   id: "us-zip-2",
   geojsonUrl: "/data/countries/usa/geojson/zip-2.geojson",
 
@@ -25,20 +25,12 @@ export const usZip2Map: MapConfig = {
   },
 
   layers: {
-    fill: {
-      color: "#969696",
-      opacity: 0.35,
-    },
-
     borders: {
-      color: "#000000",
       width: 1.25,
     },
   },
 
   hover: {
-    enabled: true,
-    color: "#4e4e4e",
     labelProperty: "zip",
   },
-};
+});

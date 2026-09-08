@@ -8,7 +8,7 @@
  * feature.
  */
 
-import type { MapConfig } from "@/maps/types";
+import { createMapConfig } from "../createMapConfig";
 
 /**
  * Shared world-country map used by global country-identification quizzes.
@@ -17,7 +17,7 @@ import type { MapConfig } from "@/maps/types";
  * coloring, manual groups, hover behavior, and answer labels all refer to the
  * same stable geographic identifier.
  */
-export const worldCountriesMap: MapConfig = {
+export const worldCountriesMap = createMapConfig({
   id: "world-countries",
   geojsonUrl:
     "/data/global/countries/geojson/world-countries.geojson",
@@ -48,20 +48,12 @@ export const worldCountriesMap: MapConfig = {
   },
 
   layers: {
-    fill: {
-      color: "#969696",
-      opacity: 0.35,
-    },
-
     borders: {
-      color: "#000000",
       width: 0.8,
     },
   },
 
   hover: {
-    enabled: true,
-    color: "#4e4e4e",
     labelProperty: "fullName",
   },
-};
+});

@@ -79,6 +79,10 @@ export const usStatesQuiz: FeatureQuiz = {
   answerProperty: "name",
   answerType: "single",
 
+  baseMapLayers: {
+    subdivisionLabels: false,
+  },
+
   grouping: {
     properties: [
       {

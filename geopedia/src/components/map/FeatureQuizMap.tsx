@@ -282,6 +282,7 @@ export default function FeatureQuizMap({
     containerRef: mapContainerRef,
 
     mapConfig,
+    baseMapLayers: quiz.baseMapLayers,
 
     showShadingRef,
     showBordersRef,
@@ -350,7 +351,7 @@ export default function FeatureQuizMap({
     mapRef,
     isMapReady,
 
-    baseMapLayers: mapConfig.baseMapLayers,
+    baseMapLayers: quiz.baseMapLayers,
 
     showLabels: shouldShowLabels,
 

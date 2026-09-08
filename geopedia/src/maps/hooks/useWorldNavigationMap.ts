@@ -149,14 +149,8 @@ export function useWorldNavigationMap({
    * Extract only configuration values that fundamentally define the MapLibre
    * instance or its geographic layers.
    */
-  const {
-    style,
-    baseMapLayers,
-    initialView,
-    geojsonUrl,
-    promoteId,
-    layers,
-  } = mapConfig;
+  const { style, initialView, geojsonUrl, promoteId, layers } =
+    mapConfig;
 
   /**
    * Creates, configures, and eventually destroys the world-navigation map.
@@ -215,7 +209,7 @@ export function useWorldNavigationMap({
        * The Home map intentionally suppresses base-map place labels while
        * retaining geographic/base-map border visibility.
        */
-      applyBaseMapLayerVisibility(map, baseMapLayers, false, true);
+      applyBaseMapLayerVisibility(map, undefined, false, true);
 
       /**
        * Applies GeoGuessr classification once the world-country GeoJSON source
@@ -281,7 +275,6 @@ export function useWorldNavigationMap({
     containerRef,
 
     style,
-    baseMapLayers,
     initialView,
     geojsonUrl,
     promoteId,

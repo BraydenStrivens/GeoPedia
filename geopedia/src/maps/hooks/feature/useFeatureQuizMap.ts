@@ -26,7 +26,10 @@ import { FEATURE_SOURCE_ID } from "@/maps/constants/mapLayerIds";
 import { addMapLayers } from "@/maps/layers/mapLayers";
 import { createMapStyle } from "@/maps/style/mapStyle";
 import { applyBaseMapLayerVisibility } from "@/maps/style/mapStyleVisibility";
-import type { MapConfig } from "@/maps/types";
+import type {
+  BaseMapLayerVisibilityConfig,
+  MapConfig,
+} from "@/maps/types";
 
 /**
  * Dependencies required to create and initialize a GeoPedia feature-quiz map.
@@ -37,6 +40,12 @@ type UseFeatureQuizMapParams = {
 
   /** Static configuration describing the map's data, style, camera, and layers. */
   mapConfig: MapConfig;
+
+  /**
+   * Optional quiz-specific visibility overrides for labels and administrative
+   * boundaries supplied by the base-map style.
+   */
+  baseMapLayers?: BaseMapLayerVisibilityConfig;
 
   /** Determines whether GeoPedia's geographic feature shading is visible. */
   showShadingRef: RefObject<boolean>;
@@ -139,6 +148,7 @@ function configureBaseMapPlaceNames(map: maplibregl.Map): void {
 export function useFeatureQuizMap({
   containerRef,
   mapConfig,
+  baseMapLayers,
   showShadingRef,
   showBordersRef,
   showLabelsRef,
@@ -160,14 +170,8 @@ export function useFeatureQuizMap({
    * Only values that fundamentally define the MapLibre instance are extracted
    * from the map configuration.
    */
-  const {
-    style,
-    baseMapLayers,
-    initialView,
-    geojsonUrl,
-    promoteId,
-    layers,
-  } = mapConfig;
+  const { style, initialView, geojsonUrl, promoteId, layers } =
+    mapConfig;
 
   /** Creates, configures, and eventually destroys the MapLibre instance. */
   useEffect(() => {

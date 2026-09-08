@@ -1026,11 +1026,16 @@ export const countryNamesQuiz: FeatureQuiz = {
   name: "Country Names",
   description: COUNTRY_NAMES_DESCRIPTION,
 
-  mapId: "world-country-names",
+  mapId: "world-countries",
   kind: "feature",
 
   answerProperty: "iso_a3",
   answerType: "single",
+
+  baseMapLayers: {
+    subdivisionLabels: false,
+    countryLabels: false,
+  },
 
   grouping: {
     properties: [

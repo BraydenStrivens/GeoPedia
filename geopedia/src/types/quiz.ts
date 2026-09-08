@@ -7,6 +7,7 @@
  * the application.
  */
 
+import { BaseMapLayerVisibilityConfig } from "@/maps/types";
 import type { QuizGroupingConfig } from "@/quiz/groupings/feature/types";
 
 /**
@@ -162,6 +163,14 @@ export interface FeatureQuiz extends BaseQuiz {
 
   /** Determines whether one geographic feature can represent multiple answers. */
   answerType: AnswerType;
+
+  /**
+   * Optional visibility overrides for labels and administrative boundaries
+   * supplied by the base-map style while this quiz is displayed.
+   *
+   * Omitted values remain visible.
+   */
+  baseMapLayers?: BaseMapLayerVisibilityConfig;
 
   /**
    * Optional property-based grouping configuration supported by this quiz.

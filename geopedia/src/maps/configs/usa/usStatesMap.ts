@@ -9,13 +9,13 @@
  * the answer, is defined by each quiz rather than by this map.
  */
 
-import type { MapConfig } from "../../types";
+import { createMapConfig } from "@/maps/configs/createMapConfig";
 
 /**
  * Shared map configuration for quizzes and features using US state
  * boundaries.
  */
-export const usStatesMap: MapConfig = {
+export const usStatesMap = createMapConfig({
   id: "us-states",
   geojsonUrl: "/data/countries/usa/geojson/states.geojson",
   featureProperty: "name",
@@ -24,20 +24,6 @@ export const usStatesMap: MapConfig = {
     type: "maptiler",
   },
 
-  baseMapLayers: {
-    countryLabels: true,
-    subdivisionLabels: false,
-    townLabels: true,
-
-    countryBorders: true,
-    subdivisionBorders: true,
-  },
-
-  /*
-   * Promotes each state's abbreviation to MapLibre's feature ID so
-   * feature-state operations such as hover highlighting can reliably
-   * target individual states.
-   */
   promoteId: "abbreviation",
 
   initialView: {
@@ -46,20 +32,12 @@ export const usStatesMap: MapConfig = {
   },
 
   layers: {
-    fill: {
-      color: "#969696",
-      opacity: 0.35,
-    },
-
     borders: {
-      color: "#000000",
       width: 1.5,
     },
   },
 
   hover: {
-    enabled: true,
-    color: "#4e4e4e",
     labelProperty: "name",
   },
-};
+});

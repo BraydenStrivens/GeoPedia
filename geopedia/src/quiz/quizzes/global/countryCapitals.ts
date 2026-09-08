@@ -1008,10 +1008,15 @@ export const countryCapitalsQuiz: FeatureQuiz = {
   description: COUNTRY_CAPITALS_DESCRIPTION,
 
   kind: "feature",
-  mapId: "world-country-capitals",
+  mapId: "world-countries",
 
   answerProperty: "iso_a3",
   answerType: "single",
+
+  baseMapLayers: {
+    subdivisionLabels: false,
+    townLabels: false,
+  },
 
   grouping: {
     properties: [
