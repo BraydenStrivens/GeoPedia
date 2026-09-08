@@ -140,15 +140,16 @@ function getUniqueVisibleFeatures(
 }
 
 /**
- * Rebuilds Show Answers labels for geographic features currently visible in
- * the map.
+ * Synchronizes Show Answers labels with the geographic features currently
+ * visible in the map.
  *
- * Visible features are deduplicated, optionally limited according to the
- * map's density configuration, converted into user-facing answer content, and
- * positioned using safe geographic anchors.
+ * Existing markers are preserved whenever their feature remains visible.
+ * This avoids unnecessarily destroying and recreating DOM elements after every
+ * map movement, which is especially important for image-based labels whose
+ * image resources may still be loading or decoding.
  *
- * Invalid geometry suppresses only the affected feature's label rather than
- * interrupting Show Answers for the entire map.
+ * Markers that are no longer needed are removed, while newly visible features
+ * receive new markers.
  *
  * @param map - MapLibre map receiving the answer markers.
  * @param quiz - Quiz whose answers should be displayed.
@@ -163,8 +164,6 @@ export function updateAnswerLabels(
   answerLabelConfig?: AnswerLabelConfig,
   initialZoom?: number,
 ): void {
-  clearAnswerLabels(labelMarkers);
-
   const visibleFeatures = getUniqueVisibleFeatures(map);
 
   const featuresToLabel = limitAnswerLabelFeatures(
@@ -174,7 +173,36 @@ export function updateAnswerLabels(
     initialZoom,
   );
 
+  const desiredFeatureIds = new Set(
+    featuresToLabel.map(([featureId]) => featureId),
+  );
+
+  /*
+   * Remove markers whose features are no longer part of the visible,
+   * density-limited answer-label set.
+   */
+  for (const [featureId, labelMarker] of labelMarkers) {
+    if (desiredFeatureIds.has(featureId)) {
+      continue;
+    }
+
+    labelMarker.marker.remove();
+    labelMarkers.delete(featureId);
+  }
+
+  /*
+   * Preserve markers that already exist.
+   *
+   * MapLibre automatically repositions markers as the map moves, so a marker
+   * does not need to be recreated merely because the viewport changed.
+   * Preserving the DOM node also prevents in-progress image loading/decoding
+   * from being interrupted unnecessarily.
+   */
   for (const [featureId, feature] of featuresToLabel) {
+    if (labelMarkers.has(featureId)) {
+      continue;
+    }
+
     const content = getAnswerLabelContent(feature, quiz);
 
     if (!content.label) {

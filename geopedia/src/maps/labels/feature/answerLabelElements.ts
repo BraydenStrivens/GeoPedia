@@ -79,28 +79,49 @@ export function createAnswerLabelElement(
     ].join(" ");
 
     for (const imageData of content.images) {
+      /*
+       * Reserve the complete image footprint before the resource finishes loading.
+       *
+       * Show Answers markers are positioned immediately by MapLibre, so keeping
+       * their dimensions stable prevents SVG loading and decoding from changing the
+       * marker's layout after it has already been added to the map.
+       */
+      const imageFrame = document.createElement("div");
+
+      imageFrame.className = [
+        "flex",
+        "h-8",
+        "w-14",
+        "shrink-0",
+        "items-center",
+        "justify-center",
+      ].join(" ");
+
       const image = document.createElement("img");
 
       image.src = imageData.imageUrl;
       image.alt = imageData.alt;
+      image.loading = "eager";
+      image.decoding = "async";
 
       /*
-       * Preserve the source image's aspect ratio while constraining its visual
-       * footprint. Flags and future country-shape images can therefore use the
-       * same Show Answers rendering system.
+       * Preserve the source image's aspect ratio inside the reserved frame.
+       *
+       * The border remains attached to the image itself rather than the frame so
+       * differently shaped flags and future image-question formats retain their
+       * natural proportions.
        */
       image.className = [
         "block",
-        "h-auto",
-        "max-h-8",
-        "w-auto",
-        "max-w-14",
+        "max-h-full",
+        "max-w-full",
         "object-contain",
         "border",
         "border-black",
       ].join(" ");
 
-      imageContainer.appendChild(image);
+      imageFrame.appendChild(image);
+      imageContainer.appendChild(imageFrame);
     }
 
     element.appendChild(imageContainer);
