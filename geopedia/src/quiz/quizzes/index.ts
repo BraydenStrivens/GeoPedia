@@ -25,6 +25,7 @@ import type {
 
 import * as canadaQuizzes from "./canada";
 import * as globalQuizzes from "./global";
+import * as guatemalaQuizzes from "./guatemala";
 import * as mexicoQuizzes from "./mexico";
 import * as usaQuizzes from "./usa";
 
@@ -40,6 +41,7 @@ const countryFeatureQuizzes = {
   usa: Object.values(usaQuizzes),
   can: Object.values(canadaQuizzes),
   mex: Object.values(mexicoQuizzes),
+  gtm: Object.values(guatemalaQuizzes),
 };
 
 /**
