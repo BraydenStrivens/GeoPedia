@@ -24,9 +24,11 @@ import type {
 } from "@/types/quiz";
 
 import * as canadaQuizzes from "./canada";
+import * as dominicanRepublicQuizzes from "./dominican-republic";
 import * as globalQuizzes from "./global";
 import * as guatemalaQuizzes from "./guatemala";
 import * as mexicoQuizzes from "./mexico";
+import * as puertoRicoQuizzes from "./puerto-rico";
 import * as usaQuizzes from "./usa";
 
 /* ======================== QUIZ REGISTRIES ======================== */
@@ -42,6 +44,8 @@ const countryFeatureQuizzes = {
   can: Object.values(canadaQuizzes),
   mex: Object.values(mexicoQuizzes),
   gtm: Object.values(guatemalaQuizzes),
+  dom: Object.values(dominicanRepublicQuizzes),
+  pri: Object.values(puertoRicoQuizzes),
 };
 
 /**
