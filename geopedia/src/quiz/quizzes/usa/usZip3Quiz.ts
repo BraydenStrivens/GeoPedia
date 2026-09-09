@@ -913,8 +913,7 @@ const US_ZIP_3_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "999", display: "999--" },
 ];
 
-const US_ZIP_3_DESCRIPTION = `Learn all ${US_ZIP_3_QUESTIONS.length} US 3-digit ZIP code regions, including US territories, with filtering options to practice any desired subset.`;
-
+const US_ZIP_3_DESCRIPTION = `Learn all ${US_ZIP_3_QUESTIONS.length} US 3-digit ZIP code regions, representing the first three digits of an otherwise 5-digit ZIP code, including US territories, with filtering options to practice any desired subset.`;
 /**
  * Quiz definition for identifying US 3-digit ZIP-code regions.
  */

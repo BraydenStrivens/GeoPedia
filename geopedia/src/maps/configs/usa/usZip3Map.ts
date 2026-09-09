@@ -30,6 +30,12 @@ export const usZip3Map = createMapConfig({
     zoom: 3.5,
   },
 
+  layers: {
+    borders: {
+      width: 0.75,
+    },
+  },
+
   hover: {
     labelProperty: "zip",
   },

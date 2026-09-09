@@ -32,7 +32,7 @@ export const usCountiesMap = createMapConfig({
 
   layers: {
     borders: {
-      width: 0.8,
+      width: 0.75,
     },
   },
 

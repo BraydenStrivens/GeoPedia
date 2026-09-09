@@ -22,7 +22,7 @@ const US_ZIP_1_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "9", display: "9----" },
 ];
 
-const US_ZIP_1_DESCRIPTION = `Learn all ${US_ZIP_1_QUESTIONS.length} US 1-digit ZIP code regions, including US territories, with filtering options to practice any desired subset.`;
+const US_ZIP_1_DESCRIPTION = `Learn all ${US_ZIP_1_QUESTIONS.length} US 1-digit ZIP code regions, representing the first digit of an otherwise 5-digit ZIP code, including US territories, with filtering options to practice any desired subset.`;
 
 /**
  * Quiz definition for identifying US 1-digit ZIP-code regions.

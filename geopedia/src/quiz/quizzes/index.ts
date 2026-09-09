@@ -23,7 +23,9 @@ import type {
   TownQuiz,
 } from "@/types/quiz";
 
+import * as canadaQuizzes from "./canada";
 import * as globalQuizzes from "./global";
+import * as mexicoQuizzes from "./mexico";
 import * as usaQuizzes from "./usa";
 
 /* ======================== QUIZ REGISTRIES ======================== */
@@ -36,6 +38,8 @@ import * as usaQuizzes from "./usa";
  */
 const countryFeatureQuizzes = {
   usa: Object.values(usaQuizzes),
+  can: Object.values(canadaQuizzes),
+  mex: Object.values(mexicoQuizzes),
 };
 
 /**
