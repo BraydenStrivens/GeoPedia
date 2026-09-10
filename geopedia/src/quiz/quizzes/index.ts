@@ -24,6 +24,7 @@ import type {
 } from "@/types/quiz";
 
 import * as canadaQuizzes from "./canada";
+import * as costaRicaQuizzes from "./costa-rica";
 import * as dominicanRepublicQuizzes from "./dominican-republic";
 import * as globalQuizzes from "./global";
 import * as guatemalaQuizzes from "./guatemala";
@@ -48,6 +49,7 @@ const countryFeatureQuizzes = {
   dom: Object.values(dominicanRepublicQuizzes),
   pri: Object.values(puertoRicoQuizzes),
   vir: Object.values(usVirginIslandQuizzes),
+  cri: Object.values(costaRicaQuizzes),
 };
 
 /**
