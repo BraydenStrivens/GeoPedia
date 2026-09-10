@@ -19,7 +19,7 @@ const MEXICO_PHONE_CODES_1_DIGIT_DESCRIPTION = `Learn all ${MEXICO_PHONE_CODE_1_
  */
 export const mexicoPhoneCodes1DigitQuiz: FeatureQuiz = {
   id: "mexico-phone-codes-1-digit",
-  name: "Mexico Phone Codes 1-Digit",
+  name: "Phone Codes 1-Digit",
   description: MEXICO_PHONE_CODES_1_DIGIT_DESCRIPTION,
 
   kind: "feature",

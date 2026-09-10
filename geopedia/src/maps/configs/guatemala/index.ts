@@ -1,2 +1,2 @@
-export { guatemalaDepartmentsMap } from "./guatemalaDepartmentsMap";
-export { guatemalaMunicipalitiesMap } from "./guatemalaMunicipalitiesMap";
+export { guatemalaDepartmentsMap } from "./departmentsMap";
+export { guatemalaMunicipalitiesMap } from "./municipalitiesMap";

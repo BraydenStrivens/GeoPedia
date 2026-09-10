@@ -52,7 +52,7 @@ const MEXICO_STATE_QUESTIONS = [
  */
 export const mexicoStatesQuiz: FeatureQuiz = {
   id: "mexico-states",
-  name: "Mexico States",
+  name: "States",
   description: `Learn all ${MEXICO_STATE_QUESTIONS.length} states and federal entities of Mexico.`,
 
   kind: "feature",

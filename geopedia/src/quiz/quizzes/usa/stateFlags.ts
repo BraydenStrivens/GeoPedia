@@ -483,7 +483,7 @@ const US_STATE_FLAG_QUESTIONS: FeatureQuiz["questions"] = [
  */
 export const usStateFlagsQuiz: FeatureQuiz = {
   id: "us-state-flags",
-  name: "US State Flags",
+  name: "State Flags",
   description: US_STATES_FLAGS_DESCRIPTION,
 
   kind: "feature",

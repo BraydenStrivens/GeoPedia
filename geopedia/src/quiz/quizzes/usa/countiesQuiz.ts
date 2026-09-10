@@ -3413,7 +3413,7 @@ const US_COUNTIES_DESCRIPTION = `Learn all ${US_COUNTY_QUESTIONS.length} US coun
  */
 export const usCountiesQuiz: FeatureQuiz = {
   id: "us-counties",
-  name: "US Counties",
+  name: "Counties",
   description: US_COUNTIES_DESCRIPTION,
 
   mapId: "us-counties",

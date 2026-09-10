@@ -24,7 +24,7 @@ const MEXICO_STATE_ABBREVIATION_QUESTIONS = Object.entries(
  */
 export const mexicoStateAbbreviationsQuiz: FeatureQuiz = {
   id: "mexico-state-abbreviations",
-  name: "Mexico State Abbreviations",
+  name: "State Abbreviations",
   description: `Learn the abbreviations for all ${MEXICO_STATE_ABBREVIATION_QUESTIONS.length} Mexican federal entities.`,
   kind: "feature",
 

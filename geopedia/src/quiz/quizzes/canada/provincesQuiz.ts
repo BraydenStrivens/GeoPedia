@@ -35,7 +35,7 @@ const CANADA_PROVINCES_DESCRIPTION = `Learn all ${CANADA_PROVINCE_QUESTIONS.leng
  */
 export const canadaProvincesQuiz: FeatureQuiz = {
   id: "canada-provinces",
-  name: "Canada Provinces and Territories",
+  name: "Provinces and Territories",
   description: CANADA_PROVINCES_DESCRIPTION,
 
   kind: "feature",

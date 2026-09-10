@@ -29,7 +29,7 @@ const US_ZIP_1_DESCRIPTION = `Learn all ${US_ZIP_1_QUESTIONS.length} US 1-digit 
  */
 export const usZip1Quiz: FeatureQuiz = {
   id: "us-zip-1",
-  name: "US 1-Digit ZIP Codes",
+  name: "1-Digit ZIP Codes",
   description: US_ZIP_1_DESCRIPTION,
 
   mapId: "us-zip-1",

@@ -379,7 +379,7 @@ const US_AREA_CODE_DESCRIPTION = `Learn all ${US_AREA_CODE_QUESTIONS.length} US 
  */
 export const usAreaCodesQuiz: FeatureQuiz = {
   id: "us-area-codes",
-  name: "US Area Codes",
+  name: "Area Codes",
   description: US_AREA_CODE_DESCRIPTION,
 
   mapId: "us-area-codes",

@@ -34,7 +34,7 @@ const GUATEMALA_DEPARTMENT_QUESTIONS = [
  */
 export const guatemalaDepartmentsQuiz: FeatureQuiz = {
   id: "guatemala-departments",
-  name: "Guatemala Departments",
+  name: "Departments",
   description: `Learn all ${GUATEMALA_DEPARTMENT_QUESTIONS.length} departments of Guatemala.`,
 
   kind: "feature",

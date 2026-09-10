@@ -139,7 +139,7 @@ const CANADA_PROVINCE_FLAGS_DESCRIPTION = `Learn the flags of all ${CANADA_PROVI
  */
 export const canadaProvinceFlagsQuiz: FeatureQuiz = {
   id: "canada-province-flags",
-  name: "Canada Province and Territory Flags",
+  name: "Province and Territory Flags",
   description: CANADA_PROVINCE_FLAGS_DESCRIPTION,
 
   kind: "feature",

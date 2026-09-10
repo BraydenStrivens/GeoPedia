@@ -9927,7 +9927,7 @@ const MEXICO_MUNICIPALITY_QUESTIONS = [
  */
 export const mexicoMunicipalitiesQuiz: FeatureQuiz = {
   id: "mexico-municipalities",
-  name: "Mexico Municipalities",
+  name: "Municipalities",
   description: `Learn all ${MEXICO_MUNICIPALITY_QUESTIONS.length} municipalities of Mexico, with filters that let you practice municipalities from any desired state or combination of states.`,
 
   kind: "feature",

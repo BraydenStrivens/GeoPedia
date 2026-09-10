@@ -70,7 +70,7 @@ const US_STATES_DESCRIPTION = `Learn all ${US_STATE_QUESTIONS.length} US states 
  */
 export const usStatesQuiz: FeatureQuiz = {
   id: "us-states",
-  name: "US States",
+  name: "States",
   description: US_STATES_DESCRIPTION,
 
   kind: "feature",

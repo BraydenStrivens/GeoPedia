@@ -1,6 +1,6 @@
-export { mexicoMunicipalitiesQuiz } from "./mexicoMunicipalitiesQuiz";
-export { mexicoPhoneCodes1DigitQuiz } from "./mexicoPhoneCodes1DigitQuiz";
-export { mexicoPhoneCodesQuiz } from "./mexicoPhoneCodesQuiz";
-export { mexicoPostalCodesQuiz } from "./mexicoPostalCodesQuiz";
-export { mexicoStateAbbreviationsQuiz } from "./mexicoStateAbbreviationsQuiz";
-export { mexicoStatesQuiz } from "./mexicoStatesQuiz";
+export { mexicoMunicipalitiesQuiz } from "./municipalitiesQuiz";
+export { mexicoPhoneCodes1DigitQuiz } from "./phoneCodes1DigitQuiz";
+export { mexicoPhoneCodesQuiz } from "./phoneCodesQuiz";
+export { mexicoPostalCodesQuiz } from "./postalCodesQuiz";
+export { mexicoStateAbbreviationsQuiz } from "./stateAbbreviationsQuiz";
+export { mexicoStatesQuiz } from "./statesQuiz";

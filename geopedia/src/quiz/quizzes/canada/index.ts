@@ -9,7 +9,7 @@
  * definition is created.
  */
 
-export { canadaCensusDivisionsQuiz } from "./canadaCensusDivisionsQuiz";
-export { canadaPhoneCodesQuiz } from "./canadaPhoneCodesQuiz";
-export { canadaProvinceFlagsQuiz } from "./canadaProvinceFlagsQuiz";
-export { canadaProvincesQuiz } from "./canadaProvincesQuiz";
+export { canadaCensusDivisionsQuiz } from "./censusDivisionsQuiz";
+export { canadaPhoneCodesQuiz } from "./phoneCodesQuiz";
+export { canadaProvinceFlagsQuiz } from "./provinceFlagsQuiz";
+export { canadaProvincesQuiz } from "./provincesQuiz";

@@ -73,7 +73,7 @@ const CANADA_PHONE_CODES_DESCRIPTION = `Learn ${CANADA_PHONE_CODE_QUESTIONS.leng
  */
 export const canadaPhoneCodesQuiz: FeatureQuiz = {
   id: "canada-phone-codes",
-  name: "Canada Phone Codes",
+  name: "Phone Codes",
   description: CANADA_PHONE_CODES_DESCRIPTION,
 
   kind: "feature",

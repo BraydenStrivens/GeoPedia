@@ -9,6 +9,6 @@
  * configuration is created.
  */
 
-export { canadaCensusDivisionsMap } from "./canadaCensusDivisionsMap";
-export { canadaPhoneCodesMap } from "./canadaPhoneCodesMap";
-export { canadaProvincesMap } from "./canadaProvincesMap";
+export { canadaCensusDivisionsMap } from "./censusDivisionsMap";
+export { canadaPhoneCodesMap } from "./phoneCodesMap";
+export { canadaProvincesMap } from "./provincesMap";

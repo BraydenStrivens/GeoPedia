@@ -1383,7 +1383,7 @@ const GUATEMALA_MUNICIPALITY_QUESTIONS = [
  */
 export const guatemalaMunicipalitiesQuiz: FeatureQuiz = {
   id: "guatemala-municipalities",
-  name: "Guatemala Municipalities",
+  name: "Municipalities",
   description: `Learn all ${GUATEMALA_MUNICIPALITY_QUESTIONS.length} municipalities of Guatemala, with filters that let you practice municipalities from any desired department or combination of departments.`,
 
   kind: "feature",

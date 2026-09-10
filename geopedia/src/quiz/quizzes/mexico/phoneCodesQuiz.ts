@@ -415,8 +415,7 @@ const MEXICO_PHONE_CODE_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "999" },
 ];
 
-const MEXICO_PHONE_CODES_DESCRIPTION =
-  `Learn all ${MEXICO_PHONE_CODE_QUESTIONS.length} Mexican phone codes, with filtering options to practice by first digit, state, or any desired subset.`;
+const MEXICO_PHONE_CODES_DESCRIPTION = `Learn all ${MEXICO_PHONE_CODE_QUESTIONS.length} Mexican phone codes, with filtering options to practice by first digit, state, or any desired subset.`;
 
 /**
  * Quiz definition for identifying Mexico's geographic telephone-code regions.
@@ -427,7 +426,7 @@ const MEXICO_PHONE_CODES_DESCRIPTION =
  */
 export const mexicoPhoneCodesQuiz: FeatureQuiz = {
   id: "mexico-phone-codes",
-  name: "Mexico Phone Codes",
+  name: "Phone Codes",
   description: MEXICO_PHONE_CODES_DESCRIPTION,
 
   kind: "feature",

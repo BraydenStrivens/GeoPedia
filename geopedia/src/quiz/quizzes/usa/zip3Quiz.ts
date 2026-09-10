@@ -919,7 +919,7 @@ const US_ZIP_3_DESCRIPTION = `Learn all ${US_ZIP_3_QUESTIONS.length} US 3-digit 
  */
 export const usZip3Quiz: FeatureQuiz = {
   id: "us-zip-3",
-  name: "US 3-Digit ZIP Codes",
+  name: "3-Digit ZIP Codes",
   description: US_ZIP_3_DESCRIPTION,
 
   mapId: "us-zip-3",

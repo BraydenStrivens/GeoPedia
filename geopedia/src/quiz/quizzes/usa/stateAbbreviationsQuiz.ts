@@ -70,7 +70,7 @@ const US_STATE_ABBREVIATION_DESCRIPTION = `Learn the abbreviations for all ${US_
  */
 export const usStateAbbreviationsQuiz: FeatureQuiz = {
   id: "us-state-abbreviations",
-  name: "US State Abbreviations",
+  name: "State Abbreviations",
   description: US_STATE_ABBREVIATION_DESCRIPTION,
 
   mapId: "us-states",

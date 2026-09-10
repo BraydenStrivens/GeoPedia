@@ -9,9 +9,9 @@
  * configuration is created.
  */
 
-export { usAreaCodesMap } from "./usAreaCodesMap";
-export { usCountiesMap } from "./usCountiesMap";
-export { usStatesMap } from "./usStatesMap";
-export { usZip1Map } from "./usZip1Map";
-export { usZip2Map } from "./usZip2Map";
-export { usZip3Map } from "./usZip3Map";
+export { usAreaCodesMap } from "./areaCodesMap";
+export { usCountiesMap } from "./countiesMap";
+export { usStatesMap } from "./statesMap";
+export { usZip1Map } from "./zip1Map";
+export { usZip2Map } from "./zip2Map";
+export { usZip3Map } from "./zip3Map";

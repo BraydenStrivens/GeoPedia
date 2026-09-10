@@ -1,2 +1,2 @@
-export { guatemalaDepartmentsQuiz } from "./guatemalaDepartmentsQuiz";
-export { guatemalaMunicipalitiesQuiz } from "./guatemalaMunicipalitiesQuiz";
+export { guatemalaDepartmentsQuiz } from "./departmentsQuiz";
+export { guatemalaMunicipalitiesQuiz } from "./municipalitiesQuiz";

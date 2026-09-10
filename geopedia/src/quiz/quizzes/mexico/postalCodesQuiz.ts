@@ -1,20 +1,13 @@
-/**
- * Defines the United States 2-digit ZIP-code prefix quiz.
- *
- * Each question represents the first two digits of a five-digit ZIP code. The
- * remaining digits are displayed as hyphens so the user can clearly see that
- * the question represents a ZIP-code prefix rather than a complete ZIP code.
- *
- * The quiz also supports property-based grouping by state. Because one ZIP
- * prefix region may overlap multiple states, the GeoJSON stores `states` as a
- * string array.
- */
-
-import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usSubdivisions";
+import { MEXICO_STATE_NAMES_BY_ID } from "@/constants/mexicoSubdivisions";
 import type { FeatureQuiz } from "@/types/quiz";
 
-const US_ZIP_2_QUESTIONS: FeatureQuiz["questions"] = [
-  { answer: "00", display: "00---" },
+/**
+ * Questions for Mexico's 96 distinct 2-digit postal-code prefixes.
+ *
+ * Each display value appends three dashes to show the prefix's position
+ * within Mexico's otherwise 5-digit postal-code format.
+ */
+const MEXICO_POSTAL_CODE_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "01", display: "01---" },
   { answer: "02", display: "02---" },
   { answer: "03", display: "03---" },
@@ -23,6 +16,7 @@ const US_ZIP_2_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "06", display: "06---" },
   { answer: "07", display: "07---" },
   { answer: "08", display: "08---" },
+  { answer: "09", display: "09---" },
   { answer: "10", display: "10---" },
   { answer: "11", display: "11---" },
   { answer: "12", display: "12---" },
@@ -30,9 +24,7 @@ const US_ZIP_2_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "14", display: "14---" },
   { answer: "15", display: "15---" },
   { answer: "16", display: "16---" },
-  { answer: "17", display: "17---" },
-  { answer: "18", display: "18---" },
-  { answer: "19", display: "19---" },
+
   { answer: "20", display: "20---" },
   { answer: "21", display: "21---" },
   { answer: "22", display: "22---" },
@@ -115,32 +107,38 @@ const US_ZIP_2_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "99", display: "99---" },
 ];
 
-const US_ZIP_2_DESCRIPTION = `Learn all ${US_ZIP_2_QUESTIONS.length} US 2-digit ZIP code regions, representing the first two digits of an otherwise 5-digit ZIP code, including US territories, with filtering options to practice any desired subset.`;
-
 /**
- * Quiz definition for identifying US 2-digit ZIP-code regions.
+ * Tests Mexico's 96 distinct 2-digit postal-code prefixes.
+ *
+ * Mexican postal codes contain five digits. Each question asks for the
+ * geographic region represented by the first two digits of that 5-digit code.
  */
-export const usZip2Quiz: FeatureQuiz = {
-  id: "us-zip-2",
-  name: "US 2-Digit ZIP Codes",
-  description: US_ZIP_2_DESCRIPTION,
+export const mexicoPostalCodesQuiz: FeatureQuiz = {
+  id: "mexico-postal-codes",
+  name: "2 Digit Postal Codes",
+  description: `Learn Mexico's ${MEXICO_POSTAL_CODE_QUESTIONS.length} 2-digit postal-code prefixes, which represent the first two digits of an otherwise 5-digit postal code. Filters let you practice prefixes by first digit or state.`,
 
-  mapId: "us-zip-2",
   kind: "feature",
+  mapId: "mexico-postal-codes",
 
-  answerProperty: "zip",
+  answerProperty: "postal_code_prefix",
   answerType: "single",
 
   grouping: {
     properties: [
       {
-        property: "states",
+        property: "first_digit",
+        label: "First Digit",
+        valueType: "string",
+      },
+      {
+        property: "state_ids",
         label: "State",
         valueType: "string-array",
-        valueLabels: US_SUBDIVISION_NAMES_BY_ABBREVIATION,
+        valueLabels: MEXICO_STATE_NAMES_BY_ID,
       },
     ],
   },
 
-  questions: US_ZIP_2_QUESTIONS,
+  questions: MEXICO_POSTAL_CODE_QUESTIONS,
 };
