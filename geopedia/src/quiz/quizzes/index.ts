@@ -29,6 +29,7 @@ import * as dominicanRepublicQuizzes from "./dominican-republic";
 import * as globalQuizzes from "./global";
 import * as guatemalaQuizzes from "./guatemala";
 import * as mexicoQuizzes from "./mexico";
+import * as panamaQuizzes from "./panama";
 import * as puertoRicoQuizzes from "./puerto-rico";
 import * as usVirginIslandQuizzes from "./us-virgin-islands";
 import * as usaQuizzes from "./usa";
@@ -50,6 +51,7 @@ const countryFeatureQuizzes = {
   pri: Object.values(puertoRicoQuizzes),
   vir: Object.values(usVirginIslandQuizzes),
   cri: Object.values(costaRicaQuizzes),
+  pan: Object.values(panamaQuizzes),
 };
 
 /**

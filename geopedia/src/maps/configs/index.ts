@@ -24,6 +24,7 @@ import * as dominicanRepublicMaps from "./dominican-republic";
 import * as globalMaps from "./global";
 import * as guatemalaMaps from "./guatemala";
 import * as mexicoMaps from "./mexico";
+import * as panamaMaps from "./panama";
 import * as puertoRicoMaps from "./puerto-rico";
 import * as usVirginIslandMaps from "./us-virgin-islands";
 import * as usaMaps from "./usa";
@@ -44,6 +45,7 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
   pri: Object.values(puertoRicoMaps),
   vir: Object.values(usVirginIslandMaps),
   cri: Object.values(costaRicaMaps),
+  pan: Object.values(panamaMaps),
 };
 
 /**
