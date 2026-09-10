@@ -29,6 +29,7 @@ import * as globalQuizzes from "./global";
 import * as guatemalaQuizzes from "./guatemala";
 import * as mexicoQuizzes from "./mexico";
 import * as puertoRicoQuizzes from "./puerto-rico";
+import * as usVirginIslandQuizzes from "./us-virgin-islands";
 import * as usaQuizzes from "./usa";
 
 /* ======================== QUIZ REGISTRIES ======================== */
@@ -46,6 +47,7 @@ const countryFeatureQuizzes = {
   gtm: Object.values(guatemalaQuizzes),
   dom: Object.values(dominicanRepublicQuizzes),
   pri: Object.values(puertoRicoQuizzes),
+  vir: Object.values(usVirginIslandQuizzes),
 };
 
 /**
