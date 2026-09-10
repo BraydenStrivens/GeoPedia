@@ -11,8 +11,9 @@
  * string array.
  */
 
-import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usSubdivisions";
 import type { FeatureQuiz } from "@/types/quiz";
+
+import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "./statesQuiz";
 
 const US_ZIP_3_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "006", display: "006--" },
@@ -913,7 +914,15 @@ const US_ZIP_3_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "999", display: "999--" },
 ];
 
-const US_ZIP_3_DESCRIPTION = `Learn all ${US_ZIP_3_QUESTIONS.length} US 3-digit ZIP code regions, representing the first three digits of an otherwise 5-digit ZIP code, including US territories, with filtering options to practice any desired subset.`;
+/**
+ * User-facing description for the U.S. 3-digit ZIP code quiz.
+ */
+const US_ZIP_3_DESCRIPTION =
+  `Learn all ${US_ZIP_3_QUESTIONS.length} U.S. 3-digit ZIP code regions, ` +
+  `representing the first three digits of an otherwise 5-digit ZIP code. This ` +
+  `quiz includes U.S. territories and provides filtering options to practice ` +
+  `any desired subset.`;
+
 /**
  * Quiz definition for identifying US 3-digit ZIP-code regions.
  */

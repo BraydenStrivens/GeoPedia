@@ -1,6 +1,7 @@
+import type { FeatureQuiz } from "@/types/quiz";
+
 import { COSTA_RICA_CANTON_NAMES_BY_ID } from "./cantonsQuiz";
 import { COSTA_RICA_PROVINCE_NAMES_BY_ID } from "./provincesQuiz";
-import type { FeatureQuiz } from "@/types/quiz";
 
 /**
  * Questions for Costa Rica's 3-digit postal-code prefixes.
@@ -16,6 +17,14 @@ const COSTA_RICA_POSTAL_CODE_PREFIX_3_DIGIT_QUESTIONS = Object.keys(
 }));
 
 /**
+ * User-facing description for Costa Rica's 3-digit postal-code quiz.
+ */
+const COSTA_RICA_POSTAL_CODE_PREFIXES_3_DIGIT_DESCRIPTION =
+  `Learn Costa Rica's ${COSTA_RICA_POSTAL_CODE_PREFIX_3_DIGIT_QUESTIONS.length} ` +
+  `3-digit postal-code prefixes, which represent the first three digits of an ` +
+  `otherwise 5-digit postal code. Filters let you practice prefixes by province.`;
+
+/**
  * Tests Costa Rica's 3-digit postal-code prefixes.
  *
  * Each prefix corresponds to a canton and represents the first three digits
@@ -24,7 +33,7 @@ const COSTA_RICA_POSTAL_CODE_PREFIX_3_DIGIT_QUESTIONS = Object.keys(
 export const costaRicaPostalCodePrefixes3DigitQuiz: FeatureQuiz = {
   id: "costa-rica-postal-code-prefixes-3-digit",
   name: "3 Digit Postal Codes",
-  description: `Learn Costa Rica's ${COSTA_RICA_POSTAL_CODE_PREFIX_3_DIGIT_QUESTIONS.length} 3-digit postal-code prefixes, which represent the first three digits of an otherwise 5-digit postal code. Filters let you practice prefixes by province.`,
+  description: COSTA_RICA_POSTAL_CODE_PREFIXES_3_DIGIT_DESCRIPTION,
 
   kind: "feature",
   mapId: "costa-rica-cantons",

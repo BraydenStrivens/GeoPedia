@@ -1,5 +1,6 @@
-import { MEXICO_STATE_NAMES_BY_ID } from "@/constants/mexicoSubdivisions";
 import type { FeatureQuiz } from "@/types/quiz";
+
+import { MEXICO_STATE_NAMES_BY_ID } from "./statesQuiz";
 
 /**
  * Questions for Mexico's 96 distinct 2-digit postal-code prefixes.
@@ -108,6 +109,14 @@ const MEXICO_POSTAL_CODE_QUESTIONS: FeatureQuiz["questions"] = [
 ];
 
 /**
+ * User-facing description for Mexico's 2-digit postal-code quiz.
+ */
+const MEXICO_POSTAL_CODES_DESCRIPTION =
+  `Learn Mexico's ${MEXICO_POSTAL_CODE_QUESTIONS.length} 2-digit postal-code ` +
+  `prefixes, which represent the first two digits of an otherwise 5-digit ` +
+  `postal code. Filters let you practice prefixes by first digit or state.`;
+
+/**
  * Tests Mexico's 96 distinct 2-digit postal-code prefixes.
  *
  * Mexican postal codes contain five digits. Each question asks for the
@@ -116,7 +125,7 @@ const MEXICO_POSTAL_CODE_QUESTIONS: FeatureQuiz["questions"] = [
 export const mexicoPostalCodesQuiz: FeatureQuiz = {
   id: "mexico-postal-codes",
   name: "2 Digit Postal Codes",
-  description: `Learn Mexico's ${MEXICO_POSTAL_CODE_QUESTIONS.length} 2-digit postal-code prefixes, which represent the first two digits of an otherwise 5-digit postal code. Filters let you practice prefixes by first digit or state.`,
+  description: MEXICO_POSTAL_CODES_DESCRIPTION,
 
   kind: "feature",
   mapId: "mexico-postal-codes",

@@ -16,12 +16,20 @@ const COSTA_RICA_POSTAL_CODE_PREFIX_1_DIGIT_QUESTIONS = Object.keys(
 }));
 
 /**
+ * User-facing description for Costa Rica's 1-digit postal-code quiz.
+ */
+const COSTA_RICA_POSTAL_CODE_PREFIXES_1_DIGIT_DESCRIPTION =
+  `Learn Costa Rica's ${COSTA_RICA_POSTAL_CODE_PREFIX_1_DIGIT_QUESTIONS.length} ` +
+  `1-digit postal-code prefixes, which represent the first digit of an ` +
+  `otherwise 5-digit postal code.`;
+
+/**
  * Tests Costa Rica's 1-digit postal-code prefixes.
  */
 export const costaRicaPostalCodePrefixes1DigitQuiz: FeatureQuiz = {
   id: "costa-rica-postal-code-prefixes-1-digit",
   name: "1 Digit Postal Codes",
-  description: `Learn Costa Rica's ${COSTA_RICA_POSTAL_CODE_PREFIX_1_DIGIT_QUESTIONS.length} 1-digit postal-code prefixes, which represent the first digit of an otherwise 5-digit postal code.`,
+  description: COSTA_RICA_POSTAL_CODE_PREFIXES_1_DIGIT_DESCRIPTION,
 
   kind: "feature",
   mapId: "costa-rica-provinces",

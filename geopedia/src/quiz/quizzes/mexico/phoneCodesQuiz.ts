@@ -9,8 +9,9 @@
  * phone-code data and rerun the generator instead.
  */
 
-import { MEXICO_STATE_NAMES_BY_ID } from "@/constants/mexicoSubdivisions";
 import type { FeatureQuiz } from "@/types/quiz";
+
+import { MEXICO_STATE_NAMES_BY_ID } from "./statesQuiz";
 
 const MEXICO_PHONE_CODE_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "33" },
@@ -415,7 +416,12 @@ const MEXICO_PHONE_CODE_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "999" },
 ];
 
-const MEXICO_PHONE_CODES_DESCRIPTION = `Learn all ${MEXICO_PHONE_CODE_QUESTIONS.length} Mexican phone codes, with filtering options to practice by first digit, state, or any desired subset.`;
+const MEXICO_PHONE_CODES_DESCRIPTION =
+  `Learn all ${MEXICO_PHONE_CODE_QUESTIONS.length} Mexican phone codes, with ` +
+  `filtering options to practice by first digit, state, or any desired subset. ` +
+  `Mexican phone numbers contain 10 digits: 2-digit area codes are followed by ` +
+  `an 8-digit local number, while 3-digit area codes are followed by a 7-digit ` +
+  `local number.`;
 
 /**
  * Quiz definition for identifying Mexico's geographic telephone-code regions.

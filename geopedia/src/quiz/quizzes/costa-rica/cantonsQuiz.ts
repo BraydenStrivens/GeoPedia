@@ -103,12 +103,19 @@ const COSTA_RICA_CANTON_QUESTIONS = Object.entries(
 }));
 
 /**
+ * User-facing description for Costa Rica's cantons quiz.
+ */
+const COSTA_RICA_CANTONS_DESCRIPTION =
+  `Learn all ${COSTA_RICA_CANTON_QUESTIONS.length} cantons of Costa Rica. ` +
+  `Filters let you practice cantons by province.`;
+
+/**
  * Canton quiz for Costa Rica.
  */
 export const costaRicaCantonsQuiz: FeatureQuiz = {
   id: "costa-rica-cantons",
   name: "Cantons",
-  description: `Learn all ${COSTA_RICA_CANTON_QUESTIONS.length} cantons of Costa Rica. Filters let you practice cantons by province.`,
+  description: COSTA_RICA_CANTONS_DESCRIPTION,
 
   kind: "feature",
   mapId: "costa-rica-cantons",

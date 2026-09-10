@@ -132,7 +132,9 @@ const CANADA_PROVINCE_FLAG_QUESTIONS: FeatureQuiz["questions"] = [
   },
 ];
 
-const CANADA_PROVINCE_FLAGS_DESCRIPTION = `Learn the flags of all ${CANADA_PROVINCE_FLAG_QUESTIONS.length} Canadian provinces and territories by identifying each one on the map.`;
+const CANADA_PROVINCE_FLAGS_DESCRIPTION =
+  `Learn the flags of all ${CANADA_PROVINCE_FLAG_QUESTIONS.length} Canadian provinces ` +
+  `and territories by identifying each one on the map.`;
 
 /**
  * Quiz definition for identifying Canadian provinces and territories by flag.

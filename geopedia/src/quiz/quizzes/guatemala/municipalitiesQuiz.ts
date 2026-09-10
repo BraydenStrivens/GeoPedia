@@ -1,5 +1,6 @@
-import { GUATEMALA_DEPARTMENT_NAMES_BY_ID } from "@/constants/guatemalaSubdivisions";
 import type { FeatureQuiz } from "@/types/quiz";
+
+import { GUATEMALA_DEPARTMENT_NAMES_BY_ID } from "./departmentsQuiz";
 
 /**
  * All Guatemalan municipality questions keyed by municipality ID.
@@ -1378,13 +1379,21 @@ const GUATEMALA_MUNICIPALITY_QUESTIONS = [
 ];
 
 /**
+ * User-facing description for Guatemala's municipalities quiz.
+ */
+const GUATEMALA_MUNICIPALITIES_DESCRIPTION =
+  `Learn all ${GUATEMALA_MUNICIPALITY_QUESTIONS.length} municipalities of ` +
+  `Guatemala, with filters that let you practice municipalities from any ` +
+  `desired department or combination of departments.`;
+
+/**
  * Quiz configuration for all Guatemalan municipalities,
  * grouped by department.
  */
 export const guatemalaMunicipalitiesQuiz: FeatureQuiz = {
   id: "guatemala-municipalities",
   name: "Municipalities",
-  description: `Learn all ${GUATEMALA_MUNICIPALITY_QUESTIONS.length} municipalities of Guatemala, with filters that let you practice municipalities from any desired department or combination of departments.`,
+  description: GUATEMALA_MUNICIPALITIES_DESCRIPTION,
 
   kind: "feature",
   mapId: "guatemala-municipalities",

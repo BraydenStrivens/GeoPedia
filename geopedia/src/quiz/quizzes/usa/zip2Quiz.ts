@@ -10,8 +10,9 @@
  * string array.
  */
 
-import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usSubdivisions";
 import type { FeatureQuiz } from "@/types/quiz";
+
+import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "./statesQuiz";
 
 const US_ZIP_2_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "00", display: "00---" },
@@ -115,7 +116,14 @@ const US_ZIP_2_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "99", display: "99---" },
 ];
 
-const US_ZIP_2_DESCRIPTION = `Learn all ${US_ZIP_2_QUESTIONS.length} US 2-digit ZIP code regions, representing the first two digits of an otherwise 5-digit ZIP code, including US territories, with filtering options to practice any desired subset.`;
+/**
+ * User-facing description for the U.S. 2-digit ZIP code quiz.
+ */
+const US_ZIP_2_DESCRIPTION =
+  `Learn all ${US_ZIP_2_QUESTIONS.length} U.S. 2-digit ZIP code regions, ` +
+  `representing the first two digits of an otherwise 5-digit ZIP code. This ` +
+  `quiz includes U.S. territories and provides filtering options to practice ` +
+  `any desired subset.`;
 
 /**
  * Quiz definition for identifying US 2-digit ZIP-code regions.

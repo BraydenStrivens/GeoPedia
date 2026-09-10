@@ -19,12 +19,20 @@ const PUERTO_RICO_ZIP_CODE_PREFIX_QUESTIONS = [
 ];
 
 /**
+ * User-facing description for Puerto Rico's 3-digit ZIP-code prefixes quiz.
+ */
+const PUERTO_RICO_ZIP_CODE_PREFIXES_DESCRIPTION =
+  `Learn all ${PUERTO_RICO_ZIP_CODE_PREFIX_QUESTIONS.length} 3-digit ZIP-code ` +
+  `prefixes, which represent the first three digits of an otherwise 5-digit ` +
+  `Puerto Rico ZIP code.`;
+
+/**
  * Quiz configuration for Puerto Rico's 3-digit ZIP-code prefixes.
  */
 export const puertoRicoZipCodePrefixesQuiz: FeatureQuiz = {
   id: "puerto-rico-zip-code-prefixes",
   name: "3-Digit ZIP Prefixes",
-  description: `Learn all ${PUERTO_RICO_ZIP_CODE_PREFIX_QUESTIONS.length} 3-digit ZIP-code prefixes of the otherwise 5-digit ZIP-codes of Puerto Rico.`,
+  description: PUERTO_RICO_ZIP_CODE_PREFIXES_DESCRIPTION,
 
   kind: "feature",
   mapId: "puerto-rico-zip-code-prefixes",

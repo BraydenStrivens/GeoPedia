@@ -141,12 +141,20 @@ const PUERTO_RICO_ZIP_CODE_QUESTIONS = [
 ];
 
 /**
+ * User-facing description for Puerto Rico's 5-digit ZIP codes quiz.
+ */
+const PUERTO_RICO_ZIP_CODES_DESCRIPTION =
+  `Learn all ${PUERTO_RICO_ZIP_CODE_QUESTIONS.length} mapped 5-digit ZIP codes ` +
+  `of Puerto Rico, with filters that let you practice ZIP codes by 3-digit ` +
+  `prefix.`;
+
+/**
  * Quiz configuration for Puerto Rico's ZIP codes.
  */
 export const puertoRicoZipCodesQuiz: FeatureQuiz = {
   id: "puerto-rico-zip-codes",
   name: "ZIP Codes",
-  description: `Learn all ${PUERTO_RICO_ZIP_CODE_QUESTIONS.length} mapped 5-digit ZIP codes of Puerto Rico, with filters that let you practice ZIP codes by 3-digit prefix.`,
+  description: PUERTO_RICO_ZIP_CODES_DESCRIPTION,
 
   kind: "feature",
   mapId: "puerto-rico-zip-codes",

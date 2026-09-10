@@ -502,12 +502,19 @@ const COSTA_RICA_DISTRICT_QUESTIONS = [
 ] as const;
 
 /**
+ * User-facing description for Costa Rica's districts quiz.
+ */
+const COSTA_RICA_DISTRICTS_DESCRIPTION =
+  `Learn all ${COSTA_RICA_DISTRICT_QUESTIONS.length} districts of Costa Rica. ` +
+  `Filters let you practice districts by province or canton.`;
+
+/**
  * District quiz for Costa Rica.
  */
 export const costaRicaDistrictsQuiz: FeatureQuiz = {
   id: "costa-rica-districts",
   name: "Districts",
-  description: `Learn all ${COSTA_RICA_DISTRICT_QUESTIONS.length} districts of Costa Rica. Filters let you practice districts by province or canton.`,
+  description: COSTA_RICA_DISTRICTS_DESCRIPTION,
 
   kind: "feature",
   mapId: "costa-rica-districts",

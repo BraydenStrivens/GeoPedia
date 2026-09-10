@@ -178,14 +178,31 @@ export const DOMINICAN_REPUBLIC_MUNICIPALITY_NAMES_BY_ID: Record<
 };
 
 /**
+ * Questions for the Dominican Republic's municipalities quiz.
+ */
+const DOMINICAN_REPUBLIC_MUNICIPALITY_QUESTIONS: FeatureQuiz["questions"] =
+  Object.entries(DOMINICAN_REPUBLIC_MUNICIPALITY_NAMES_BY_ID).map(
+    ([answer, display]) => ({
+      answer,
+      display,
+    }),
+  );
+
+/**
+ * User-facing description for the Dominican Republic's municipalities quiz.
+ */
+const DOMINICAN_REPUBLIC_MUNICIPALITIES_DESCRIPTION =
+  `Learn all ${DOMINICAN_REPUBLIC_MUNICIPALITY_QUESTIONS.length} municipalities ` +
+  `of the Dominican Republic, with filters that let you practice municipalities ` +
+  `by province or region.`;
+
+/**
  * Quiz configuration for the Dominican Republic's 155 municipalities.
  */
 export const dominicanRepublicMunicipalitiesQuiz: FeatureQuiz = {
   id: "dominican-republic-municipalities",
   name: "Dominican Republic Municipalities",
-  description: `Learn all ${
-    Object.keys(DOMINICAN_REPUBLIC_MUNICIPALITY_NAMES_BY_ID).length
-  } municipalities of the Dominican Republic, with filters that let you practice municipalities by province or region.`,
+  description: DOMINICAN_REPUBLIC_MUNICIPALITIES_DESCRIPTION,
 
   kind: "feature",
   mapId: "dominican-republic-municipalities",
@@ -214,10 +231,5 @@ export const dominicanRepublicMunicipalitiesQuiz: FeatureQuiz = {
     ],
   },
 
-  questions: Object.entries(
-    DOMINICAN_REPUBLIC_MUNICIPALITY_NAMES_BY_ID,
-  ).map(([answer, display]) => ({
-    answer,
-    display,
-  })),
+  questions: DOMINICAN_REPUBLIC_MUNICIPALITY_QUESTIONS,
 };

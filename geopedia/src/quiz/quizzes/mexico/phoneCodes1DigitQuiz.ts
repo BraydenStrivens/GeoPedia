@@ -12,7 +12,12 @@ const MEXICO_PHONE_CODE_1_DIGIT_QUESTIONS: FeatureQuiz["questions"] =
     { answer: "9", display: "9--" },
   ];
 
-const MEXICO_PHONE_CODES_1_DIGIT_DESCRIPTION = `Learn all ${MEXICO_PHONE_CODE_1_DIGIT_QUESTIONS.length} 1-digit Mexican phone-code regions.`;
+const MEXICO_PHONE_CODES_1_DIGIT_DESCRIPTION =
+  `Learn all ${MEXICO_PHONE_CODE_1_DIGIT_QUESTIONS.length} 1-digit Mexican ` +
+  `phone-code regions, representing the first digit of the full 2- or 3-digit ` +
+  `area code. Mexican phone numbers contain 10 digits: 2-digit area codes are ` +
+  `followed by an 8-digit local number, while 3-digit area codes are followed ` +
+  `by a 7-digit local number.`;
 
 /**
  * Quiz definition for identifying Mexico's 1-digit telephone-code regions.

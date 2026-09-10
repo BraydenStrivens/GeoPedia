@@ -1,6 +1,7 @@
+import type { FeatureQuiz } from "@/types/quiz";
+
 import { COSTA_RICA_CANTON_NAMES_BY_ID } from "./cantonsQuiz";
 import { COSTA_RICA_PROVINCE_NAMES_BY_ID } from "./provincesQuiz";
-import type { FeatureQuiz } from "@/types/quiz";
 
 /**
  * Costa Rica's full 5-digit postal codes.
@@ -501,6 +502,13 @@ const COSTA_RICA_POSTAL_CODE_QUESTIONS = [
 ] as const;
 
 /**
+ * User-facing description for Costa Rica's 5-digit postal-code quiz.
+ */
+const COSTA_RICA_POSTAL_CODES_DESCRIPTION =
+  `Learn all ${COSTA_RICA_POSTAL_CODE_QUESTIONS.length} 5-digit postal codes ` +
+  `of Costa Rica. Filters let you practice postal codes by province or canton.`;
+
+/**
  * Tests Costa Rica's full 5-digit postal codes.
  *
  * Costa Rica's postal codes correspond directly to its 5-digit district
@@ -509,7 +517,7 @@ const COSTA_RICA_POSTAL_CODE_QUESTIONS = [
 export const costaRicaPostalCodesQuiz: FeatureQuiz = {
   id: "costa-rica-postal-codes",
   name: "5 Digit Postal Codes",
-  description: `Learn all ${COSTA_RICA_POSTAL_CODE_QUESTIONS.length} 5-digit postal codes of Costa Rica. Filters let you practice postal codes by province or canton.`,
+  description: COSTA_RICA_POSTAL_CODES_DESCRIPTION,
 
   kind: "feature",
   mapId: "costa-rica-districts",

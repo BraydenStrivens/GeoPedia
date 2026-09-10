@@ -10,8 +10,9 @@
  * a string array.
  */
 
-import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usSubdivisions";
 import type { FeatureQuiz } from "@/types/quiz";
+
+import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "./statesQuiz";
 
 const US_AREA_CODE_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "201" },
@@ -372,7 +373,15 @@ const US_AREA_CODE_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "989" },
 ];
 
-const US_AREA_CODE_DESCRIPTION = `Learn all ${US_AREA_CODE_QUESTIONS.length} US area codes, including US territories, with filtering options to practice any desired subset.`;
+/**
+ * User-facing description for the U.S. area codes quiz.
+ */
+const US_AREA_CODE_DESCRIPTION =
+  `Learn all ${US_AREA_CODE_QUESTIONS.length} U.S. area codes, including U.S. ` +
+  `territories, with filtering options to practice any desired subset. U.S. ` +
+  `phone numbers contain a 3-digit area code followed by a 7-digit local ` +
+  `number, commonly formatted as (XXX) XXX-XXXX. Mobile and landline numbers ` +
+  `use the same area-code system.`;
 
 /**
  * Quiz definition for identifying US telephone area codes.

@@ -10,8 +10,9 @@
  * display in the Groups panel.
  */
 
-import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "@/constants/usSubdivisions";
 import type { FeatureQuiz } from "@/types/quiz";
+
+import { US_SUBDIVISION_NAMES_BY_ABBREVIATION } from "./statesQuiz";
 
 const US_COUNTY_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "45001", display: "Abbeville County, South Carolina" },
@@ -3406,7 +3407,12 @@ const US_COUNTY_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "46137", display: "Ziebach County, South Dakota" },
 ];
 
-const US_COUNTIES_DESCRIPTION = `Learn all ${US_COUNTY_QUESTIONS.length} US counties, including US territories, with filtering options to practice any desired subset.`;
+/**
+ * User-facing description for the U.S. counties quiz.
+ */
+const US_COUNTIES_DESCRIPTION =
+  `Learn all ${US_COUNTY_QUESTIONS.length} U.S. counties, including U.S. ` +
+  `territories, with filtering options to practice any desired subset.`;
 
 /**
  * Quiz definition for identifying US counties nationwide.

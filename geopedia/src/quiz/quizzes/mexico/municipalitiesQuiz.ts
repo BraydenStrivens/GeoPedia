@@ -1,5 +1,6 @@
-import { MEXICO_STATE_NAMES_BY_ID } from "@/constants/mexicoSubdivisions";
 import type { FeatureQuiz } from "@/types/quiz";
+
+import { MEXICO_STATE_NAMES_BY_ID } from "./statesQuiz";
 
 /**
  * All Mexican municipality questions keyed by INEGI municipality ID.
@@ -9923,12 +9924,20 @@ const MEXICO_MUNICIPALITY_QUESTIONS = [
 ];
 
 /**
+ * User-facing description for Mexico's municipalities quiz.
+ */
+const MEXICO_MUNICIPALITIES_DESCRIPTION =
+  `Learn all ${MEXICO_MUNICIPALITY_QUESTIONS.length} municipalities of Mexico, ` +
+  `with filters that let you practice municipalities from any desired state or ` +
+  `combination of states.`;
+
+/**
  * Quiz configuration for all Mexican municipalities, grouped by state.
  */
 export const mexicoMunicipalitiesQuiz: FeatureQuiz = {
   id: "mexico-municipalities",
   name: "Municipalities",
-  description: `Learn all ${MEXICO_MUNICIPALITY_QUESTIONS.length} municipalities of Mexico, with filters that let you practice municipalities from any desired state or combination of states.`,
+  description: MEXICO_MUNICIPALITIES_DESCRIPTION,
 
   kind: "feature",
   mapId: "mexico-municipalities",

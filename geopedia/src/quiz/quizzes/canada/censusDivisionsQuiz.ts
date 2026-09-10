@@ -342,7 +342,10 @@ const CANADA_CENSUS_DIVISION_QUESTIONS = [
   { answer: "6001", display: "Yukon" },
 ];
 
-const CANADA_CENSUS_DIVISIONS_DESCRIPTION = `Learn ${CANADA_CENSUS_DIVISION_QUESTIONS.length} census divisions across Canada, including counties, regional districts, regional county municipalities, and other county-equivalent statistical regions.`;
+const CANADA_CENSUS_DIVISIONS_DESCRIPTION =
+  `Learn ${CANADA_CENSUS_DIVISION_QUESTIONS.length} census divisions across Canada, ` +
+  `including counties, regional districts, regional county municipalities, ` +
+  `and other county-equivalent statistical regions.`;
 
 export const canadaCensusDivisionsQuiz: FeatureQuiz = {
   id: "canada-census-divisions",

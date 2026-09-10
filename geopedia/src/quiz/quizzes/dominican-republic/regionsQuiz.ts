@@ -21,13 +21,30 @@ export const DOMINICAN_REPUBLIC_REGION_NAMES_BY_ID: Record<
 };
 
 /**
+ * Questions for the Dominican Republic's regions quiz.
+ */
+const DOMINICAN_REPUBLIC_REGION_QUESTIONS: FeatureQuiz["questions"] =
+  Object.entries(DOMINICAN_REPUBLIC_REGION_NAMES_BY_ID).map(
+    ([answer, display]) => ({
+      answer,
+      display,
+    }),
+  );
+
+/**
+ * User-facing description for the Dominican Republic's regions quiz.
+ */
+const DOMINICAN_REPUBLIC_REGIONS_DESCRIPTION =
+  `Learn all ${DOMINICAN_REPUBLIC_REGION_QUESTIONS.length} administrative ` +
+  `regions of the Dominican Republic.`;
+
+/**
  * Quiz configuration for the Dominican Republic's 10 administrative regions.
  */
 export const dominicanRepublicRegionsQuiz: FeatureQuiz = {
   id: "dominican-republic-regions",
   name: "Dominican Republic Regions",
-  description:
-    "Learn the 10 administrative regions of the Dominican Republic.",
+  description: DOMINICAN_REPUBLIC_REGIONS_DESCRIPTION,
 
   kind: "feature",
   mapId: "dominican-republic-regions",
@@ -35,14 +52,5 @@ export const dominicanRepublicRegionsQuiz: FeatureQuiz = {
   answerProperty: "region_id",
   answerType: "single",
 
-  // baseMapLayers: {
-  //   subdivisionLabels: false,
-  // },
-
-  questions: Object.entries(
-    DOMINICAN_REPUBLIC_REGION_NAMES_BY_ID,
-  ).map(([answer, display]) => ({
-    answer,
-    display,
-  })),
+  questions: DOMINICAN_REPUBLIC_REGION_QUESTIONS,
 };

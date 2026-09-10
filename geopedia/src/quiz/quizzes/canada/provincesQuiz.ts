@@ -1,34 +1,41 @@
-/**
- * Defines the Canada provinces and territories quiz.
- *
- * This quiz uses the shared Canada provinces map and asks the user to identify
- * all 10 provinces and 3 territories by name. Each quiz answer corresponds to
- * the `name` property in the processed Canada province and territory GeoJSON
- * dataset.
- *
- * No grouping is defined because the quiz contains only 13 questions, making
- * the full set small enough to practice comfortably without predefined groups.
- */
-
 import type { FeatureQuiz } from "@/types/quiz";
 
-const CANADA_PROVINCE_QUESTIONS: FeatureQuiz["questions"] = [
-  { answer: "Newfoundland and Labrador" },
-  { answer: "Prince Edward Island" },
-  { answer: "Nova Scotia" },
-  { answer: "New Brunswick" },
-  { answer: "Quebec" },
-  { answer: "Ontario" },
-  { answer: "Manitoba" },
-  { answer: "Saskatchewan" },
-  { answer: "Alberta" },
-  { answer: "British Columbia" },
-  { answer: "Yukon" },
-  { answer: "Northwest Territories" },
-  { answer: "Nunavut" },
-];
+/**
+ * Maps Canadian province and territory abbreviations to their full
+ * user-facing names.
+ */
+export const CANADA_PROVINCE_NAMES_BY_ABBREVIATION = {
+  NL: "Newfoundland and Labrador",
+  PE: "Prince Edward Island",
+  NS: "Nova Scotia",
+  NB: "New Brunswick",
+  QC: "Quebec",
+  ON: "Ontario",
+  MB: "Manitoba",
+  SK: "Saskatchewan",
+  AB: "Alberta",
+  BC: "British Columbia",
+  YT: "Yukon",
+  NT: "Northwest Territories",
+  NU: "Nunavut",
+} as const;
 
-const CANADA_PROVINCES_DESCRIPTION = `Learn all ${CANADA_PROVINCE_QUESTIONS.length} Canadian provinces and territories by their location on the map.`;
+/**
+ * Questions for Canada's provinces and territories quiz.
+ */
+const CANADA_PROVINCE_QUESTIONS: FeatureQuiz["questions"] =
+  Object.values(CANADA_PROVINCE_NAMES_BY_ABBREVIATION).map(
+    (answer) => ({
+      answer,
+    }),
+  );
+
+/**
+ * User-facing description for Canada's provinces and territories quiz.
+ */
+const CANADA_PROVINCES_DESCRIPTION =
+  `Learn all ${CANADA_PROVINCE_QUESTIONS.length} Canadian provinces and ` +
+  `territories by their location on the map.`;
 
 /**
  * Quiz definition for identifying Canadian provinces and territories by name.

@@ -13,12 +13,6 @@
 import type { FeatureQuiz } from "@/types/quiz";
 
 /**
- * Description shown for the U.S. State Flags quiz.
- */
-const US_STATES_FLAGS_DESCRIPTION =
-  "Learn the flags of all 50 U.S. states by identifying each state on the map.";
-
-/**
  * Questions used by the U.S. State Flags quiz.
  *
  * Each answer is the full state name because the shared U.S. states map
@@ -479,12 +473,19 @@ const US_STATE_FLAG_QUESTIONS: FeatureQuiz["questions"] = [
 ];
 
 /**
+ * User-facing description for the U.S. state flags quiz.
+ */
+const US_STATE_FLAGS_DESCRIPTION =
+  `Learn the flags of all ${US_STATE_FLAG_QUESTIONS.length} U.S. states by ` +
+  `identifying each state on the map.`;
+
+/**
  * Tests recognition of the flags of all 50 U.S. states.
  */
 export const usStateFlagsQuiz: FeatureQuiz = {
   id: "us-state-flags",
   name: "State Flags",
-  description: US_STATES_FLAGS_DESCRIPTION,
+  description: US_STATE_FLAGS_DESCRIPTION,
 
   kind: "feature",
   mapId: "us-states",

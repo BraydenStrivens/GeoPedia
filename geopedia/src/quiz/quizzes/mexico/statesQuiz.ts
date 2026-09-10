@@ -1,59 +1,68 @@
 import type { FeatureQuiz } from "@/types/quiz";
 
 /**
- * Mexico's 32 federal entities.
- *
- * The IDs correspond to INEGI's official two-digit `CVE_ENT` identifiers used
- * by the processed Mexico states GeoJSON.
- *
- * Keeping the stable INEGI identifier as the quiz answer value means display
- * names can be changed independently without affecting feature matching.
+ * Full Mexican state and federal-entity names keyed by their two-digit INEGI ID.
  */
-const MEXICO_STATE_QUESTIONS = [
-  { answer: "01", display: "Aguascalientes" },
-  { answer: "02", display: "Baja California" },
-  { answer: "03", display: "Baja California Sur" },
-  { answer: "04", display: "Campeche" },
-  { answer: "05", display: "Coahuila de Zaragoza" },
-  { answer: "06", display: "Colima" },
-  { answer: "07", display: "Chiapas" },
-  { answer: "08", display: "Chihuahua" },
-  { answer: "09", display: "Ciudad de México" },
-  { answer: "10", display: "Durango" },
-  { answer: "11", display: "Guanajuato" },
-  { answer: "12", display: "Guerrero" },
-  { answer: "13", display: "Hidalgo" },
-  { answer: "14", display: "Jalisco" },
-  { answer: "15", display: "México" },
-  { answer: "16", display: "Michoacán de Ocampo" },
-  { answer: "17", display: "Morelos" },
-  { answer: "18", display: "Nayarit" },
-  { answer: "19", display: "Nuevo León" },
-  { answer: "20", display: "Oaxaca" },
-  { answer: "21", display: "Puebla" },
-  { answer: "22", display: "Querétaro" },
-  { answer: "23", display: "Quintana Roo" },
-  { answer: "24", display: "San Luis Potosí" },
-  { answer: "25", display: "Sinaloa" },
-  { answer: "26", display: "Sonora" },
-  { answer: "27", display: "Tabasco" },
-  { answer: "28", display: "Tamaulipas" },
-  { answer: "29", display: "Tlaxcala" },
-  { answer: "30", display: "Veracruz de Ignacio de la Llave" },
-  { answer: "31", display: "Yucatán" },
-  { answer: "32", display: "Zacatecas" },
-] as const;
+export const MEXICO_STATE_NAMES_BY_ID = {
+  "01": "Aguascalientes",
+  "02": "Baja California",
+  "03": "Baja California Sur",
+  "04": "Campeche",
+  "05": "Coahuila de Zaragoza",
+  "06": "Colima",
+  "07": "Chiapas",
+  "08": "Chihuahua",
+  "09": "Ciudad de México",
+  "10": "Durango",
+  "11": "Guanajuato",
+  "12": "Guerrero",
+  "13": "Hidalgo",
+  "14": "Jalisco",
+  "15": "México",
+  "16": "Michoacán de Ocampo",
+  "17": "Morelos",
+  "18": "Nayarit",
+  "19": "Nuevo León",
+  "20": "Oaxaca",
+  "21": "Puebla",
+  "22": "Querétaro",
+  "23": "Quintana Roo",
+  "24": "San Luis Potosí",
+  "25": "Sinaloa",
+  "26": "Sonora",
+  "27": "Tabasco",
+  "28": "Tamaulipas",
+  "29": "Tlaxcala",
+  "30": "Veracruz de Ignacio de la Llave",
+  "31": "Yucatán",
+  "32": "Zacatecas",
+} as const;
 
 /**
- * Full-name quiz for Mexico's 32 federal entities.
- *
- * This quiz uses INEGI state IDs as answers and displays the corresponding
- * full entity names to the user.
+ * Questions for Mexico's states and federal entities quiz.
+ */
+const MEXICO_STATE_QUESTIONS: FeatureQuiz["questions"] =
+  Object.entries(MEXICO_STATE_NAMES_BY_ID).map(
+    ([answer, display]) => ({
+      answer,
+      display,
+    }),
+  );
+
+/**
+ * User-facing description for Mexico's states quiz.
+ */
+const MEXICO_STATES_DESCRIPTION =
+  `Learn all ${MEXICO_STATE_QUESTIONS.length} states and federal entities ` +
+  `of Mexico.`;
+
+/**
+ * Full-name quiz for Mexico's states and federal entities.
  */
 export const mexicoStatesQuiz: FeatureQuiz = {
   id: "mexico-states",
   name: "States",
-  description: `Learn all ${MEXICO_STATE_QUESTIONS.length} states and federal entities of Mexico.`,
+  description: MEXICO_STATES_DESCRIPTION,
 
   kind: "feature",
   mapId: "mexico-states",
@@ -65,5 +74,5 @@ export const mexicoStatesQuiz: FeatureQuiz = {
     subdivisionLabels: false,
   },
 
-  questions: [...MEXICO_STATE_QUESTIONS],
+  questions: MEXICO_STATE_QUESTIONS,
 };

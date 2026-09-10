@@ -54,14 +54,32 @@ export const DOMINICAN_REPUBLIC_PROVINCE_NAMES_BY_ID: Record<
 };
 
 /**
+ * Questions for the Dominican Republic's provinces quiz.
+ */
+const DOMINICAN_REPUBLIC_PROVINCE_QUESTIONS: FeatureQuiz["questions"] =
+  Object.entries(DOMINICAN_REPUBLIC_PROVINCE_NAMES_BY_ID).map(
+    ([answer, display]) => ({
+      answer,
+      display,
+    }),
+  );
+
+/**
+ * User-facing description for the Dominican Republic's provinces quiz.
+ */
+const DOMINICAN_REPUBLIC_PROVINCES_DESCRIPTION =
+  `Learn all ${DOMINICAN_REPUBLIC_PROVINCE_QUESTIONS.length} provinces and ` +
+  `province-equivalent regions of the Dominican Republic, with filters that ` +
+  `let you practice any desired region or combination of regions.`;
+
+/**
  * Quiz configuration for the Dominican Republic's 32 province-level
  * administrative divisions.
  */
 export const dominicanRepublicProvincesQuiz: FeatureQuiz = {
   id: "dominican-republic-provinces",
   name: "Dominican Republic Provinces",
-  description:
-    "Learn the 31 provinces and Distrito Nacional of the Dominican Republic, with filters that let you practice provinces from any desired region or combination of regions.",
+  description: DOMINICAN_REPUBLIC_PROVINCES_DESCRIPTION,
 
   kind: "feature",
   mapId: "dominican-republic-provinces",
@@ -84,10 +102,5 @@ export const dominicanRepublicProvincesQuiz: FeatureQuiz = {
     ],
   },
 
-  questions: Object.entries(
-    DOMINICAN_REPUBLIC_PROVINCE_NAMES_BY_ID,
-  ).map(([answer, display]) => ({
-    answer,
-    display,
-  })),
+  questions: DOMINICAN_REPUBLIC_PROVINCE_QUESTIONS,
 };

@@ -1,41 +1,57 @@
 import type { FeatureQuiz } from "@/types/quiz";
 
 /**
- * Guatemala's 22 departments keyed by the normalized department IDs used by
- * the processed Guatemala departments GeoJSON.
+ * Guatemala department names keyed by the normalized two-digit department IDs
+ * used throughout GeoPedia's Guatemala datasets.
  */
-const GUATEMALA_DEPARTMENT_QUESTIONS = [
-  { answer: "01", display: "Guatemala" },
-  { answer: "02", display: "El Progreso" },
-  { answer: "03", display: "Sacatepéquez" },
-  { answer: "04", display: "Chimaltenango" },
-  { answer: "05", display: "Escuintla" },
-  { answer: "06", display: "Santa Rosa" },
-  { answer: "07", display: "Sololá" },
-  { answer: "08", display: "Totonicapán" },
-  { answer: "09", display: "Quetzaltenango" },
-  { answer: "10", display: "Suchitepéquez" },
-  { answer: "11", display: "Retalhuleu" },
-  { answer: "12", display: "San Marcos" },
-  { answer: "13", display: "Huehuetenango" },
-  { answer: "14", display: "Quiché" },
-  { answer: "15", display: "Baja Verapaz" },
-  { answer: "16", display: "Alta Verapaz" },
-  { answer: "17", display: "Petén" },
-  { answer: "18", display: "Izabal" },
-  { answer: "19", display: "Zacapa" },
-  { answer: "20", display: "Chiquimula" },
-  { answer: "21", display: "Jalapa" },
-  { answer: "22", display: "Jutiapa" },
-] as const;
+export const GUATEMALA_DEPARTMENT_NAMES_BY_ID = {
+  "01": "Guatemala",
+  "02": "El Progreso",
+  "03": "Sacatepéquez",
+  "04": "Chimaltenango",
+  "05": "Escuintla",
+  "06": "Santa Rosa",
+  "07": "Sololá",
+  "08": "Totonicapán",
+  "09": "Quetzaltenango",
+  "10": "Suchitepéquez",
+  "11": "Retalhuleu",
+  "12": "San Marcos",
+  "13": "Huehuetenango",
+  "14": "Quiché",
+  "15": "Baja Verapaz",
+  "16": "Alta Verapaz",
+  "17": "Petén",
+  "18": "Izabal",
+  "19": "Zacapa",
+  "20": "Chiquimula",
+  "21": "Jalapa",
+  "22": "Jutiapa",
+} as const;
 
 /**
- * Full-name quiz for Guatemala's 22 departments.
+ * Questions for Guatemala's departments quiz.
+ */
+const GUATEMALA_DEPARTMENT_QUESTIONS: FeatureQuiz["questions"] =
+  Object.entries(GUATEMALA_DEPARTMENT_NAMES_BY_ID).map(
+    ([answer, display]) => ({
+      answer,
+      display,
+    }),
+  );
+
+/**
+ * User-facing description for Guatemala's departments quiz.
+ */
+const GUATEMALA_DEPARTMENTS_DESCRIPTION = `Learn all ${GUATEMALA_DEPARTMENT_QUESTIONS.length} departments of Guatemala.`;
+
+/**
+ * Full-name quiz for Guatemala's departments.
  */
 export const guatemalaDepartmentsQuiz: FeatureQuiz = {
   id: "guatemala-departments",
   name: "Departments",
-  description: `Learn all ${GUATEMALA_DEPARTMENT_QUESTIONS.length} departments of Guatemala.`,
+  description: GUATEMALA_DEPARTMENTS_DESCRIPTION,
 
   kind: "feature",
   mapId: "guatemala-departments",
@@ -47,5 +63,5 @@ export const guatemalaDepartmentsQuiz: FeatureQuiz = {
     subdivisionLabels: false,
   },
 
-  questions: [...GUATEMALA_DEPARTMENT_QUESTIONS],
+  questions: GUATEMALA_DEPARTMENT_QUESTIONS,
 };

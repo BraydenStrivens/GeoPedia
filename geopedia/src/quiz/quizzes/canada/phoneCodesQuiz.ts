@@ -1,5 +1,7 @@
 import type { FeatureQuiz } from "@/types/quiz";
 
+import { CANADA_PROVINCE_NAMES_BY_ABBREVIATION } from "./provincesQuiz";
+
 /**
  * All legacy Canadian telephone area codes represented by the processed
  * Canada phone-code GeoJSON.
@@ -32,36 +34,15 @@ const CANADA_PHONE_CODE_QUESTIONS: FeatureQuiz["questions"] = [
 ];
 
 /**
- * Maps the raw province / territory abbreviations stored in the GeoJSON to
- * user-facing labels shown by the Property Groups interface.
- *
- * The processed phone-code dataset stores province membership as a string
- * array because some telephone regions span multiple jurisdictions.
- */
-const CANADIAN_SUBDIVISION_NAMES_BY_ABBREVIATION: Record<
-  string,
-  string
-> = {
-  AB: "Alberta",
-  BC: "British Columbia",
-  MB: "Manitoba",
-  NB: "New Brunswick",
-  NL: "Newfoundland and Labrador",
-  NS: "Nova Scotia",
-  NT: "Northwest Territories",
-  NU: "Nunavut",
-  ON: "Ontario",
-  PE: "Prince Edward Island",
-  QC: "Quebec",
-  SK: "Saskatchewan",
-  YT: "Yukon",
-};
-
-/**
  * User-facing description derived from the question array so it remains
  * accurate if the legacy area-code set changes later.
  */
-const CANADA_PHONE_CODES_DESCRIPTION = `Learn ${CANADA_PHONE_CODE_QUESTIONS.length} geographically distinct Canadian telephone area-code regions, with province and territory filtering to practice any desired subset.`;
+const CANADA_PHONE_CODES_DESCRIPTION =
+  `Learn ${CANADA_PHONE_CODE_QUESTIONS.length} geographically distinct legacy ` +
+  `Canadian telephone area-code regions, with province and territory filtering ` +
+  `to practice any desired subset. In a Canadian phone number such as ` +
+  `(204) 555-1234, the three-digit area code appears before the seven-digit ` +
+  `local number. `;
 
 /**
  * Quiz definition for identifying Canada's legacy telephone area-code regions.
@@ -88,7 +69,7 @@ export const canadaPhoneCodesQuiz: FeatureQuiz = {
         property: "provinces",
         label: "Province / Territory",
         valueType: "string-array",
-        valueLabels: CANADIAN_SUBDIVISION_NAMES_BY_ABBREVIATION,
+        valueLabels: CANADA_PROVINCE_NAMES_BY_ABBREVIATION,
       },
     ],
   },
