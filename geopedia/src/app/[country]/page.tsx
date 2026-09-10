@@ -186,6 +186,7 @@ export default async function CountryPage({
         {/* Available country quizzes */}
         <section className="mt-12 w-full max-w-5xl">
           <QuizSectionHeader
+            quizCount={quizListings.length}
             description={`Choose a quiz to start practicing ${country.name}.`}
           />
 

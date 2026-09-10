@@ -32,7 +32,10 @@ export default function GlobalPage() {
       <div className="mx-auto flex w-full max-w-6xl flex-col items-center px-6 py-10">
         {/* Available global quizzes */}
         <section className="w-full max-w-5xl">
-          <QuizSectionHeader description="Choose a quiz to practice global geography." />
+          <QuizSectionHeader
+            quizCount={quizListings.length}
+            description="Choose a quiz to practice global geography."
+          />
 
           {quizListings.length === 0 ? (
             /* Empty quiz state */

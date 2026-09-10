@@ -52,13 +52,7 @@ export default async function QuizPage({ params }: QuizPageProps) {
     return;
   }
 
-  console.log("COUNTRY ID: ", countryId);
-  console.log("COUNTRY NAME: ", country.name);
-  console.log("QUIZ ID: ", quizId);
-
   const quiz = await getCountryQuiz(countryId, quizId, country.name);
-
-  console.log("QUIZ: ", quiz);
 
   if (!quiz) {
     notFound();
