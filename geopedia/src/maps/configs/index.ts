@@ -19,6 +19,7 @@
 import type { MapConfig } from "@/maps/types";
 
 import * as canadaMaps from "./canada";
+import * as colombiaMaps from "./colombia";
 import * as costaRicaMaps from "./costa-rica";
 import * as dominicanRepublicMaps from "./dominican-republic";
 import * as globalMaps from "./global";
@@ -46,6 +47,7 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
   vir: Object.values(usVirginIslandMaps),
   cri: Object.values(costaRicaMaps),
   pan: Object.values(panamaMaps),
+  col: Object.values(colombiaMaps),
 };
 
 /**
