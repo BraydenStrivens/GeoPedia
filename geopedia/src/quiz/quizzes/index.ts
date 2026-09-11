@@ -23,17 +23,18 @@ import type {
   TownQuiz,
 } from "@/types/quiz";
 
-import * as canadaQuizzes from "./canada";
-import * as colombiaQuizzes from "./colombia";
-import * as costaRicaQuizzes from "./costa-rica";
-import * as dominicanRepublicQuizzes from "./dominican-republic";
+import * as brazilQuizzes from "./country/brazil";
+import * as canadaQuizzes from "./country/canada";
+import * as colombiaQuizzes from "./country/colombia";
+import * as costaRicaQuizzes from "./country/costa-rica";
+import * as dominicanRepublicQuizzes from "./country/dominican-republic";
+import * as guatemalaQuizzes from "./country/guatemala";
+import * as mexicoQuizzes from "./country/mexico";
+import * as panamaQuizzes from "./country/panama";
+import * as puertoRicoQuizzes from "./country/puerto-rico";
+import * as usVirginIslandQuizzes from "./country/us-virgin-islands";
+import * as usaQuizzes from "./country/usa";
 import * as globalQuizzes from "./global";
-import * as guatemalaQuizzes from "./guatemala";
-import * as mexicoQuizzes from "./mexico";
-import * as panamaQuizzes from "./panama";
-import * as puertoRicoQuizzes from "./puerto-rico";
-import * as usVirginIslandQuizzes from "./us-virgin-islands";
-import * as usaQuizzes from "./usa";
 
 /* ======================== QUIZ REGISTRIES ======================== */
 
@@ -54,6 +55,7 @@ const countryFeatureQuizzes = {
   cri: Object.values(costaRicaQuizzes),
   pan: Object.values(panamaQuizzes),
   col: Object.values(colombiaQuizzes),
+  bra: Object.values(brazilQuizzes),
 };
 
 /**

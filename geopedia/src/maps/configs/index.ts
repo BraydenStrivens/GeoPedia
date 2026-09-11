@@ -18,17 +18,18 @@
 
 import type { MapConfig } from "@/maps/types";
 
-import * as canadaMaps from "./canada";
-import * as colombiaMaps from "./colombia";
-import * as costaRicaMaps from "./costa-rica";
-import * as dominicanRepublicMaps from "./dominican-republic";
+import * as brazilMaps from "./country/brazil";
+import * as canadaMaps from "./country/canada";
+import * as colombiaMaps from "./country/colombia";
+import * as costaRicaMaps from "./country/costa-rica";
+import * as dominicanRepublicMaps from "./country/dominican-republic";
+import * as guatemalaMaps from "./country/guatemala";
+import * as mexicoMaps from "./country/mexico";
+import * as panamaMaps from "./country/panama";
+import * as puertoRicoMaps from "./country/puerto-rico";
+import * as usVirginIslandMaps from "./country/us-virgin-islands";
+import * as usaMaps from "./country/usa";
 import * as globalMaps from "./global";
-import * as guatemalaMaps from "./guatemala";
-import * as mexicoMaps from "./mexico";
-import * as panamaMaps from "./panama";
-import * as puertoRicoMaps from "./puerto-rico";
-import * as usVirginIslandMaps from "./us-virgin-islands";
-import * as usaMaps from "./usa";
 
 /**
  * Maps each country ID to every map configuration registered for that country.
@@ -48,6 +49,7 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
   cri: Object.values(costaRicaMaps),
   pan: Object.values(panamaMaps),
   col: Object.values(colombiaMaps),
+  bra: Object.values(brazilMaps),
 };
 
 /**
