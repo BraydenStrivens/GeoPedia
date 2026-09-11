@@ -1,3 +1,4 @@
+export { colombiaDepartmentFlagsQuiz } from "./departmentFlagsQuiz";
 export { colombiaDepartmentsQuiz } from "./departmentsQuiz";
 export { colombiaMunicipalitiesQuiz } from "./municipalitiesQuiz";
 export { colombiaPhoneCodesQuiz } from "./phoneCodeQuiz";

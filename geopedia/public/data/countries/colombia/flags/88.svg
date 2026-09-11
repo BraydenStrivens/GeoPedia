@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Flag of Scotland
+     This is the blue saltire (St. Andrew's Cross) that once served
+     as the national flag of Scotland.-->
+<!-- The flag proportion is 3:5 -->
+<!-- There seems to be some controversy as to an acceptable background color;
+     the following are known to be used:
+     rgbhex  red grn blu  name/source
+     0072C6    0 114 196  PANTONE Matching System, Swatch 300 (PMS 300)
+     085A9C    8  90 156  World Flag Database
+     2DAEFF   45 174 255  Image on Wikipedia
+-->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="600"
+   viewBox="0 0 50 30"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="Flag_of_San.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 300 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1000 : 300 : 1"
+       inkscape:persp3d-origin="500 : 200 : 1"
+       id="perspective18" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="713"
+     inkscape:window-width="1024"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="0.84666667"
+     inkscape:cx="500"
+     inkscape:cy="300"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:current-layer="svg2" />
+  <clipPath
+     id="a">
+    <rect
+       width="50"
+       height="30"
+       id="rect5" />
+  </clipPath>
+  <g
+     clip-path="#a"
+     id="g7">
+    <rect
+       width="50"
+       height="30"
+       fill="#2DAEFF"
+       id="rect9"
+       style="fill:#0064ba;fill-opacity:1" />
+    <path
+       d="M 0,0 L 50,30 M 0,30 L 50,0"
+       fill="none"
+       stroke="white"
+       stroke-width="6"
+       id="path11" />
+  </g>
+</svg>
