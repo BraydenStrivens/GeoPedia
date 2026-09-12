@@ -18,17 +18,17 @@
 
 import type { MapConfig } from "@/maps/types";
 
-import * as brazilMaps from "./country/brazil";
-import * as canadaMaps from "./country/canada";
-import * as colombiaMaps from "./country/colombia";
-import * as costaRicaMaps from "./country/costa-rica";
-import * as dominicanRepublicMaps from "./country/dominican-republic";
-import * as guatemalaMaps from "./country/guatemala";
-import * as mexicoMaps from "./country/mexico";
-import * as panamaMaps from "./country/panama";
-import * as puertoRicoMaps from "./country/puerto-rico";
-import * as usVirginIslandMaps from "./country/us-virgin-islands";
-import * as usaMaps from "./country/usa";
+import * as brazilMaps from "./countries/brazil";
+import * as canadaMaps from "./countries/canada";
+import * as colombiaMaps from "./countries/colombia";
+import * as costaRicaMaps from "./countries/costa-rica";
+import * as dominicanRepublicMaps from "./countries/dominican-republic";
+import * as guatemalaMaps from "./countries/guatemala";
+import * as mexicoMaps from "./countries/mexico";
+import * as panamaMaps from "./countries/panama";
+import * as puertoRicoMaps from "./countries/puerto-rico";
+import * as usVirginIslandMaps from "./countries/us-virgin-islands";
+import * as usaMaps from "./countries/usa";
 import * as globalMaps from "./global";
 
 /**

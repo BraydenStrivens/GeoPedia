@@ -23,17 +23,17 @@ import type {
   TownQuiz,
 } from "@/types/quiz";
 
-import * as brazilQuizzes from "./country/brazil";
-import * as canadaQuizzes from "./country/canada";
-import * as colombiaQuizzes from "./country/colombia";
-import * as costaRicaQuizzes from "./country/costa-rica";
-import * as dominicanRepublicQuizzes from "./country/dominican-republic";
-import * as guatemalaQuizzes from "./country/guatemala";
-import * as mexicoQuizzes from "./country/mexico";
-import * as panamaQuizzes from "./country/panama";
-import * as puertoRicoQuizzes from "./country/puerto-rico";
-import * as usVirginIslandQuizzes from "./country/us-virgin-islands";
-import * as usaQuizzes from "./country/usa";
+import * as brazilQuizzes from "./countries/brazil";
+import * as canadaQuizzes from "./countries/canada";
+import * as colombiaQuizzes from "./countries/colombia";
+import * as costaRicaQuizzes from "./countries/costa-rica";
+import * as dominicanRepublicQuizzes from "./countries/dominican-republic";
+import * as guatemalaQuizzes from "./countries/guatemala";
+import * as mexicoQuizzes from "./countries/mexico";
+import * as panamaQuizzes from "./countries/panama";
+import * as puertoRicoQuizzes from "./countries/puerto-rico";
+import * as usVirginIslandQuizzes from "./countries/us-virgin-islands";
+import * as usaQuizzes from "./countries/usa";
 import * as globalQuizzes from "./global";
 
 /* ======================== QUIZ REGISTRIES ======================== */
