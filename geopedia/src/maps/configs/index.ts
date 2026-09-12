@@ -18,6 +18,7 @@
 
 import type { MapConfig } from "@/maps/types";
 
+import * as boliviaMaps from "./countries/bolivia";
 import * as brazilMaps from "./countries/brazil";
 import * as canadaMaps from "./countries/canada";
 import * as colombiaMaps from "./countries/colombia";
@@ -54,6 +55,7 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
   bra: Object.values(brazilMaps),
   ecu: Object.values(ecuadorMaps),
   per: Object.values(peruMaps),
+  bol: Object.values(boliviaMaps),
 };
 
 /**

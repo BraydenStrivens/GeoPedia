@@ -23,6 +23,7 @@ import type {
   TownQuiz,
 } from "@/types/quiz";
 
+import * as boliviaQuizzes from "./countries/bolivia";
 import * as brazilQuizzes from "./countries/brazil";
 import * as canadaQuizzes from "./countries/canada";
 import * as colombiaQuizzes from "./countries/colombia";
@@ -60,6 +61,7 @@ const countryFeatureQuizzes = {
   bra: Object.values(brazilQuizzes),
   ecu: Object.values(ecuadorQuizzes),
   per: Object.values(peruQuizzes),
+  bol: Object.values(boliviaQuizzes),
 };
 
 /**
