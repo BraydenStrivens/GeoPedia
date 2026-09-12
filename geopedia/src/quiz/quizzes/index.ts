@@ -28,6 +28,7 @@ import * as canadaQuizzes from "./countries/canada";
 import * as colombiaQuizzes from "./countries/colombia";
 import * as costaRicaQuizzes from "./countries/costa-rica";
 import * as dominicanRepublicQuizzes from "./countries/dominican-republic";
+import * as ecuadorQuizzes from "./countries/ecuador";
 import * as guatemalaQuizzes from "./countries/guatemala";
 import * as mexicoQuizzes from "./countries/mexico";
 import * as panamaQuizzes from "./countries/panama";
@@ -56,6 +57,7 @@ const countryFeatureQuizzes = {
   pan: Object.values(panamaQuizzes),
   col: Object.values(colombiaQuizzes),
   bra: Object.values(brazilQuizzes),
+  ecu: Object.values(ecuadorQuizzes),
 };
 
 /**

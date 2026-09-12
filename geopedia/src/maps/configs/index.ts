@@ -23,6 +23,7 @@ import * as canadaMaps from "./countries/canada";
 import * as colombiaMaps from "./countries/colombia";
 import * as costaRicaMaps from "./countries/costa-rica";
 import * as dominicanRepublicMaps from "./countries/dominican-republic";
+import * as ecuadorMaps from "./countries/ecuador";
 import * as guatemalaMaps from "./countries/guatemala";
 import * as mexicoMaps from "./countries/mexico";
 import * as panamaMaps from "./countries/panama";
@@ -50,6 +51,7 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
   pan: Object.values(panamaMaps),
   col: Object.values(colombiaMaps),
   bra: Object.values(brazilMaps),
+  ecu: Object.values(ecuadorMaps),
 };
 
 /**
