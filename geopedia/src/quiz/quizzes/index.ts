@@ -33,6 +33,7 @@ import * as ecuadorQuizzes from "./countries/ecuador";
 import * as guatemalaQuizzes from "./countries/guatemala";
 import * as mexicoQuizzes from "./countries/mexico";
 import * as panamaQuizzes from "./countries/panama";
+import * as paraguayQuizzes from "./countries/paraguay";
 import * as peruQuizzes from "./countries/peru";
 import * as puertoRicoQuizzes from "./countries/puerto-rico";
 import * as usVirginIslandQuizzes from "./countries/us-virgin-islands";
@@ -62,6 +63,7 @@ const countryFeatureQuizzes = {
   ecu: Object.values(ecuadorQuizzes),
   per: Object.values(peruQuizzes),
   bol: Object.values(boliviaQuizzes),
+  pry: Object.values(paraguayQuizzes),
 };
 
 /**
