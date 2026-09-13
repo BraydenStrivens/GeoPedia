@@ -36,6 +36,7 @@ import * as panamaQuizzes from "./countries/panama";
 import * as paraguayQuizzes from "./countries/paraguay";
 import * as peruQuizzes from "./countries/peru";
 import * as puertoRicoQuizzes from "./countries/puerto-rico";
+import * as uruguayQuizzes from "./countries/uruguay";
 import * as usVirginIslandQuizzes from "./countries/us-virgin-islands";
 import * as usaQuizzes from "./countries/usa";
 import * as globalQuizzes from "./global";
@@ -64,6 +65,7 @@ const countryFeatureQuizzes = {
   per: Object.values(peruQuizzes),
   bol: Object.values(boliviaQuizzes),
   pry: Object.values(paraguayQuizzes),
+  ury: Object.values(uruguayQuizzes),
 };
 
 /**

@@ -31,6 +31,7 @@ import * as panamaMaps from "./countries/panama";
 import * as paraguayMaps from "./countries/paraguay";
 import * as peruMaps from "./countries/peru";
 import * as puertoRicoMaps from "./countries/puerto-rico";
+import * as uruguayMaps from "./countries/uruguay";
 import * as usVirginIslandMaps from "./countries/us-virgin-islands";
 import * as usaMaps from "./countries/usa";
 import * as globalMaps from "./global";
@@ -58,6 +59,7 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
   per: Object.values(peruMaps),
   bol: Object.values(boliviaMaps),
   pry: Object.values(paraguayMaps),
+  ury: Object.values(uruguayMaps),
 };
 
 /**
