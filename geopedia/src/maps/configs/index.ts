@@ -18,23 +18,24 @@
 
 import type { MapConfig } from "@/maps/types";
 
-import * as argentinaMaps from "./countries/argentina";
-import * as boliviaMaps from "./countries/bolivia";
-import * as brazilMaps from "./countries/brazil";
-import * as canadaMaps from "./countries/canada";
-import * as colombiaMaps from "./countries/colombia";
-import * as costaRicaMaps from "./countries/costa-rica";
-import * as dominicanRepublicMaps from "./countries/dominican-republic";
-import * as ecuadorMaps from "./countries/ecuador";
-import * as guatemalaMaps from "./countries/guatemala";
-import * as mexicoMaps from "./countries/mexico";
-import * as panamaMaps from "./countries/panama";
-import * as paraguayMaps from "./countries/paraguay";
-import * as peruMaps from "./countries/peru";
-import * as puertoRicoMaps from "./countries/puerto-rico";
-import * as uruguayMaps from "./countries/uruguay";
-import * as usVirginIslandMaps from "./countries/us-virgin-islands";
-import * as usaMaps from "./countries/usa";
+import * as costaRicaMaps from "./countries/central-america/costa-rica";
+import * as dominicanRepublicMaps from "./countries/central-america/dominican-republic";
+import * as guatemalaMaps from "./countries/central-america/guatemala";
+import * as panamaMaps from "./countries/central-america/panama";
+import * as puertoRicoMaps from "./countries/central-america/puerto-rico";
+import * as usVirginIslandMaps from "./countries/central-america/us-virgin-islands";
+import * as canadaMaps from "./countries/north-america/canada";
+import * as mexicoMaps from "./countries/north-america/mexico";
+import * as usaMaps from "./countries/north-america/usa";
+import * as argentinaMaps from "./countries/south-america/argentina";
+import * as boliviaMaps from "./countries/south-america/bolivia";
+import * as brazilMaps from "./countries/south-america/brazil";
+import * as chileMaps from "./countries/south-america/chile";
+import * as colombiaMaps from "./countries/south-america/colombia";
+import * as ecuadorMaps from "./countries/south-america/ecuador";
+import * as paraguayMaps from "./countries/south-america/paraguay";
+import * as peruMaps from "./countries/south-america/peru";
+import * as uruguayMaps from "./countries/south-america/uruguay";
 import * as globalMaps from "./global";
 
 /**
@@ -62,6 +63,7 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
   pry: Object.values(paraguayMaps),
   ury: Object.values(uruguayMaps),
   arg: Object.values(argentinaMaps),
+  chl: Object.values(chileMaps),
 };
 
 /**

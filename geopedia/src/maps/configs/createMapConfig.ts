@@ -7,12 +7,14 @@ import {
   DEFAULT_FEATURE_HOVER_COLOR,
   DEFAULT_FEATURE_HOVER_ENABLED,
   DEFAULT_MAP_LAYERS,
+  DEFAULT_MAP_STYLE,
 } from "@/maps/configs/defaults";
 
 import {
   FeatureBorderConfig,
   FeatureFillConfig,
   MapConfig,
+  MapStyle,
 } from "../types";
 
 export type MapLayerOverrides = {
@@ -34,7 +36,13 @@ export type HoverConfigOverrides = {
   color?: string;
 };
 
-export type MapConfigInput = Omit<MapConfig, "layers" | "hover"> & {
+export type MapConfigInput = Omit<
+  MapConfig,
+  "style" | "layers" | "hover"
+> & {
+  /** Optional override to GeoPedia's default basemap style. */
+  style?: MapStyle;
+
   /** Optional geographic-layer values overriding GeoPedia's defaults. */
   layers?: MapLayerOverrides;
 
@@ -50,10 +58,10 @@ export type MapConfigInput = Omit<MapConfig, "layers" | "hover"> & {
 /**
  * Creates a complete runtime map configuration.
  *
- * Map definitions only need to supply geographic-layer and hover values that
- * differ from GeoPedia's shared defaults. Missing values are filled here once,
- * allowing the rest of the map system to consume a complete `MapConfig`
- * without performing additional default resolution.
+ * Map definitions only need to supply basemap, geographic-layer, and hover
+ * values that differ from GeoPedia's shared defaults. Missing values are
+ * filled here once, allowing the rest of the map system to consume a complete
+ * `MapConfig` without performing additional default resolution.
  *
  * @param input - Map-specific configuration and optional visual overrides.
  * @returns Complete map configuration ready for runtime use.
@@ -61,6 +69,8 @@ export type MapConfigInput = Omit<MapConfig, "layers" | "hover"> & {
 export function createMapConfig(input: MapConfigInput): MapConfig {
   return {
     ...input,
+
+    style: input.style ?? DEFAULT_MAP_STYLE,
 
     layers: {
       fill: {

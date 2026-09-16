@@ -1,4 +1,12 @@
-import type { MapLayerConfig } from "@/maps/types";
+import type { MapLayerConfig, MapStyle } from "@/maps/types";
+
+/**
+ * Default basemap style used by GeoPedia maps unless a map configuration
+ * explicitly supplies a different style.
+ */
+export const DEFAULT_MAP_STYLE: MapStyle = {
+  type: "maptiler",
+};
 
 /**
  * Shared geographic-layer appearance used by GeoPedia maps unless a map

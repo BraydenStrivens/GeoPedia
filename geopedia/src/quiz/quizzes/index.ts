@@ -23,23 +23,24 @@ import type {
   TownQuiz,
 } from "@/types/quiz";
 
-import * as argentinaQuizzes from "./countries/argentina";
-import * as boliviaQuizzes from "./countries/bolivia";
-import * as brazilQuizzes from "./countries/brazil";
-import * as canadaQuizzes from "./countries/canada";
-import * as colombiaQuizzes from "./countries/colombia";
-import * as costaRicaQuizzes from "./countries/costa-rica";
-import * as dominicanRepublicQuizzes from "./countries/dominican-republic";
-import * as ecuadorQuizzes from "./countries/ecuador";
-import * as guatemalaQuizzes from "./countries/guatemala";
-import * as mexicoQuizzes from "./countries/mexico";
-import * as panamaQuizzes from "./countries/panama";
-import * as paraguayQuizzes from "./countries/paraguay";
-import * as peruQuizzes from "./countries/peru";
-import * as puertoRicoQuizzes from "./countries/puerto-rico";
-import * as uruguayQuizzes from "./countries/uruguay";
-import * as usVirginIslandQuizzes from "./countries/us-virgin-islands";
-import * as usaQuizzes from "./countries/usa";
+import * as costaRicaQuizzes from "./countries/central-america/costa-rica";
+import * as dominicanRepublicQuizzes from "./countries/central-america/dominican-republic";
+import * as guatemalaQuizzes from "./countries/central-america/guatemala";
+import * as panamaQuizzes from "./countries/central-america/panama";
+import * as puertoRicoQuizzes from "./countries/central-america/puerto-rico";
+import * as usVirginIslandQuizzes from "./countries/central-america/us-virgin-islands";
+import * as canadaQuizzes from "./countries/north-america/canada";
+import * as mexicoQuizzes from "./countries/north-america/mexico";
+import * as usaQuizzes from "./countries/north-america/usa";
+import * as argentinaQuizzes from "./countries/south-america/argentina";
+import * as boliviaQuizzes from "./countries/south-america/bolivia";
+import * as brazilQuizzes from "./countries/south-america/brazil";
+import * as chileQuizzes from "./countries/south-america/chile";
+import * as colombiaQuizzes from "./countries/south-america/colombia";
+import * as ecuadorQuizzes from "./countries/south-america/ecuador";
+import * as paraguayQuizzes from "./countries/south-america/paraguay";
+import * as peruQuizzes from "./countries/south-america/peru";
+import * as uruguayQuizzes from "./countries/south-america/uruguay";
 import * as globalQuizzes from "./global";
 
 /* ======================== QUIZ REGISTRIES ======================== */
@@ -68,6 +69,7 @@ const countryFeatureQuizzes = {
   pry: Object.values(paraguayQuizzes),
   ury: Object.values(uruguayQuizzes),
   arg: Object.values(argentinaQuizzes),
+  chl: Object.values(chileQuizzes),
 };
 
 /**
