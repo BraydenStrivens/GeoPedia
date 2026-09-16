@@ -1,3 +1,7 @@
+/**
+ * Quiz configuration for the first two digits of Peru's postal codes.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
 const PERU_POSTAL_CODES_2_DIGIT_QUESTIONS: FeatureQuiz["questions"] =

@@ -1,3 +1,15 @@
+/**
+ * Generates the administrative data used by Peru's quiz configurations.
+ *
+ * Inputs:
+ *   data/intermediate/countries/peru/admin/departments.geojson
+ *   data/intermediate/countries/peru/admin/provinces.geojson
+ *   data/intermediate/countries/peru/admin/districts.geojson
+ *
+ * Output:
+ *   src/quiz/quizzes/countries/south-america/peru/data/admin.ts
+ */
+
 import fs from "node:fs";
 import path from "node:path";
 
@@ -39,13 +51,16 @@ const INTERMEDIATE_DIRECTORY = path.join(
   "admin",
 );
 
-const OUTPUT_DIRECTORY = path.join(
+const OUTPUT_PATH = path.join(
   ROOT,
   "src",
   "quiz",
   "quizzes",
   "countries",
+  "south-america",
   "peru",
+  "data",
+  "admin.ts",
 );
 
 const REGIONS_INPUT = path.join(
@@ -204,236 +219,79 @@ function validateHierarchy(
 }
 
 // ---------------------------------------------------------------------------
-// Source formatting
+// TypeScript formatting
 // ---------------------------------------------------------------------------
 
-function formatStringDictionary(
-  entries: Array<{
-    id: string;
-    value: string;
-  }>,
-): string {
-  const lines = entries.map(
-    ({ id, value }) =>
-      `  ${JSON.stringify(id)}: ${JSON.stringify(value)},`,
+function formatRegions(regions: Region[]): string {
+  const lines = regions.map(
+    (region) =>
+      `  ${JSON.stringify(region.id)}: ` +
+      `${JSON.stringify(region.name)},`,
   );
 
-  return ["{", ...lines, "} as const"].join("\n");
+  return [
+    "export const PERU_REGIONS_BY_ID = {",
+    ...lines,
+    "} as const;",
+  ].join("\n");
 }
 
-function formatProvinceDictionary(provinces: Province[]): string {
+function formatProvinces(provinces: Province[]): string {
   const lines = provinces.map(
     (province) =>
       `  ${JSON.stringify(province.id)}: { ` +
       `name: ${JSON.stringify(province.name)}, ` +
-      `regionId: ${JSON.stringify(province.regionId)} },`,
+      `regionId: ${JSON.stringify(province.regionId)} ` +
+      `},`,
   );
 
-  return ["{", ...lines, "} as const"].join("\n");
+  return [
+    "export const PERU_PROVINCES_BY_ID = {",
+    ...lines,
+    "} as const;",
+  ].join("\n");
 }
 
-function formatDistrictDictionary(districts: District[]): string {
+function formatDistricts(districts: District[]): string {
   const lines = districts.map(
     (district) =>
       `  ${JSON.stringify(district.id)}: { ` +
       `name: ${JSON.stringify(district.name)}, ` +
       `provinceId: ${JSON.stringify(district.provinceId)}, ` +
-      `regionId: ${JSON.stringify(district.regionId)} },`,
+      `regionId: ${JSON.stringify(district.regionId)} ` +
+      `},`,
   );
 
-  return ["{", ...lines, "} as const"].join("\n");
-}
-
-function writeFile(filename: string, contents: string): void {
-  fs.mkdirSync(OUTPUT_DIRECTORY, {
-    recursive: true,
-  });
-
-  const outputPath = path.join(OUTPUT_DIRECTORY, filename);
-
-  fs.writeFileSync(outputPath, contents, "utf8");
-
-  console.log(`Wrote ${outputPath}`);
+  return [
+    "export const PERU_DISTRICTS_BY_ID = {",
+    ...lines,
+    "} as const;",
+  ].join("\n");
 }
 
 // ---------------------------------------------------------------------------
-// Regions quiz
+// Output
 // ---------------------------------------------------------------------------
 
-function generateRegionsQuiz(regions: Region[]): void {
-  const regionsById = formatStringDictionary(
-    regions.map((region) => ({
-      id: region.id,
-      value: region.name,
-    })),
-  );
+function buildOutput(
+  regions: Region[],
+  provinces: Province[],
+  districts: District[],
+): string {
+  return `/**
+ * Generated from Peru's processed administrative GeoJSON.
+ *
+ * Do not edit manually.
+ * Regenerate with:
+ * npx tsx scripts/countries/peru/generate/admin-quiz-data.ts
+ */
 
-  const source = `import type { FeatureQuiz } from "@/types/quiz";
+${formatRegions(regions)}
 
+${formatProvinces(provinces)}
 
-export const PERU_REGIONS_BY_ID = ${regionsById};
-
-export const PERU_REGION_VALUE_LABELS = PERU_REGIONS_BY_ID;
-
-const PERU_REGION_QUESTIONS = Object.entries(
-  PERU_REGIONS_BY_ID,
-).map(([regionId, region]) => ({
-  answer: regionId,
-  display: region,
-}));
-
-const PERU_REGIONS_DESCRIPTION =
-  \`Learn all \${PERU_REGION_QUESTIONS.length} first-level administrative \` +
-  \`regions of Peru, including the Constitutional Province of Callao.\`;
-
-
-export const peruRegionsQuiz: FeatureQuiz = {
-  id: "peru-regions",
-  name: "Regions",
-  description: PERU_REGIONS_DESCRIPTION,
-  kind: "feature",
-  mapId: "peru-regions",
-  answerProperty: "region_id",
-  answerType: "single",
-  baseMapLayers: {
-    subdivisionLabels: false,
-  },
-  questions: PERU_REGION_QUESTIONS,
-};
+${formatDistricts(districts)}
 `;
-
-  writeFile("regionsQuiz.ts", source);
-}
-
-// ---------------------------------------------------------------------------
-// Provinces quiz
-// ---------------------------------------------------------------------------
-
-function generateProvincesQuiz(provinces: Province[]): void {
-  const provincesById = formatProvinceDictionary(provinces);
-
-  const source = `import type { FeatureQuiz } from "@/types/quiz";
-
-import {
-  PERU_REGION_VALUE_LABELS,
-} from "./regionsQuiz";
-
-
-export const PERU_PROVINCES_BY_ID = ${provincesById};
-
-export const PERU_PROVINCE_VALUE_LABELS = Object.fromEntries(
-  Object.entries(
-    PERU_PROVINCES_BY_ID,
-  ).map(([provinceId, province]) => [
-    provinceId,
-    province.name,
-  ]),
-);
-
-const PERU_PROVINCE_QUESTIONS = Object.entries(
-  PERU_PROVINCES_BY_ID,
-).map(([provinceId, province]) => ({
-  answer: provinceId,
-  display: province.name,
-}));
-
-const PERU_PROVINCES_DESCRIPTION =
-  \`Learn all \${PERU_PROVINCE_QUESTIONS.length} provinces of Peru. \` +
-  \`Use region groups to study the provinces in smaller geographic sets.\`;
-
-
-export const peruProvincesQuiz: FeatureQuiz = {
-  id: "peru-provinces",
-  name: "Provinces",
-  description: PERU_PROVINCES_DESCRIPTION,
-  kind: "feature",
-  mapId: "peru-provinces",
-  answerProperty: "province_id",
-  answerType: "single",
-  grouping: {
-    properties: [
-      {
-        property: "region_id",
-        label: "Region",
-        valueType: "string",
-        valueLabels: PERU_REGION_VALUE_LABELS,
-      },
-    ],
-  },
-  baseMapLayers: {
-    subdivisionLabels: false,
-  },
-  questions: PERU_PROVINCE_QUESTIONS,
-};
-`;
-
-  writeFile("provincesQuiz.ts", source);
-}
-
-// ---------------------------------------------------------------------------
-// Districts quiz
-// ---------------------------------------------------------------------------
-
-function generateDistrictsQuiz(districts: District[]): void {
-  const districtsById = formatDistrictDictionary(districts);
-
-  const source = `import type { FeatureQuiz } from "@/types/quiz";
-
-import {
-  PERU_REGION_VALUE_LABELS,
-} from "./regionsQuiz";
-
-import {
-  PERU_PROVINCE_VALUE_LABELS,
-} from "./provincesQuiz";
-
-
-export const PERU_DISTRICTS_BY_ID = ${districtsById};
-
-const PERU_DISTRICT_QUESTIONS = Object.entries(
-  PERU_DISTRICTS_BY_ID,
-).map(([districtId, district]) => ({
-  answer: districtId,
-  display: district.name,
-}));
-
-const PERU_DISTRICTS_DESCRIPTION =
-  \`Learn all \${PERU_DISTRICT_QUESTIONS.length} districts of Peru. \` +
-  \`Use region and province groups to break the country into smaller study sets.\`;
-
-
-export const peruDistrictsQuiz: FeatureQuiz = {
-  id: "peru-districts",
-  name: "Districts",
-  description: PERU_DISTRICTS_DESCRIPTION,
-  kind: "feature",
-  mapId: "peru-districts",
-  answerProperty: "district_id",
-  answerType: "single",
-  grouping: {
-    properties: [
-      {
-        property: "region_id",
-        label: "Region",
-        valueType: "string",
-        valueLabels: PERU_REGION_VALUE_LABELS,
-      },
-      {
-        property: "province_id",
-        label: "Province",
-        valueType: "string",
-        valueLabels: PERU_PROVINCE_VALUE_LABELS,
-      },
-    ],
-  },
-  baseMapLayers: {
-    subdivisionLabels: false,
-  },
-  questions: PERU_DISTRICT_QUESTIONS,
-};
-`;
-
-  writeFile("districtsQuiz.ts", source);
 }
 
 // ---------------------------------------------------------------------------
@@ -441,18 +299,14 @@ export const peruDistrictsQuiz: FeatureQuiz = {
 // ---------------------------------------------------------------------------
 
 function main(): void {
-  console.log("Generating Peru administrative quizzes...\n");
+  console.log("Generating Peru administrative quiz data...\n");
 
   const regions = sortById(loadRegions());
-
   const provinces = sortById(loadProvinces());
-
   const districts = sortById(loadDistricts());
 
   validateUniqueIds("region", regions);
-
   validateUniqueIds("province", provinces);
-
   validateUniqueIds("district", districts);
 
   validateHierarchy(regions, provinces, districts);
@@ -475,18 +329,19 @@ function main(): void {
     );
   }
 
-  generateRegionsQuiz(regions);
+  const output = buildOutput(regions, provinces, districts);
 
-  generateProvincesQuiz(provinces);
+  fs.mkdirSync(path.dirname(OUTPUT_PATH), {
+    recursive: true,
+  });
 
-  generateDistrictsQuiz(districts);
+  fs.writeFileSync(OUTPUT_PATH, output, "utf8");
 
-  console.log("");
   console.log(`Regions:   ${regions.length}`);
   console.log(`Provinces: ${provinces.length}`);
   console.log(`Districts: ${districts.length}`);
 
-  console.log("\nPeru administrative quiz generation complete.");
+  console.log(`\nGenerated: ${OUTPUT_PATH}`);
 }
 
 main();

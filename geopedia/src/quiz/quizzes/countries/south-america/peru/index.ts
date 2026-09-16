@@ -1,3 +1,7 @@
+/**
+ * Exports the quizzes available for Peru.
+ */
+
 export { peruAreaCodes1DigitPrefixQuiz } from "./areaCodes1DigitPrefixQuiz";
 export { peruAreaCodesQuiz } from "./areaCodesQuiz";
 export { peruDistrictsQuiz } from "./districtsQuiz";

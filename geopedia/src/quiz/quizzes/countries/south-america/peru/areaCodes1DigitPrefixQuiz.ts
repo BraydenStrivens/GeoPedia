@@ -1,3 +1,8 @@
+/**
+ * Quiz configuration for Peru's first-digit geographic telephone area-code
+ * prefixes.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
 const PERU_AREA_CODE_PREFIX_QUESTIONS: FeatureQuiz["questions"] = [

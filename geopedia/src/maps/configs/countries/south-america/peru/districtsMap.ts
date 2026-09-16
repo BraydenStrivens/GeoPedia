@@ -1,4 +1,10 @@
+/**
+ * Map configuration for Peru's third-level administrative districts.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { PERU_INITIAL_VIEW } from "./constants";
 
 export const peruDistrictsMap = createMapConfig({
   id: "peru-districts",
@@ -13,14 +19,7 @@ export const peruDistrictsMap = createMapConfig({
     labelsPerZoom: 200,
   },
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-75.2, -9.3],
-    zoom: 4.8,
-  },
+  initialView: PERU_INITIAL_VIEW,
 
   layers: {
     borders: {

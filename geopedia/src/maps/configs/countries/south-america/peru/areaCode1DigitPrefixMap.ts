@@ -1,4 +1,11 @@
+/**
+ * Map configuration for Peru's first-digit geographic telephone area-code
+ * regions.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { PERU_INITIAL_VIEW } from "./constants";
 
 export const peruAreaCodes1DigitPrefixMap = createMapConfig({
   id: "peru-area-code-prefixes",
@@ -8,14 +15,7 @@ export const peruAreaCodes1DigitPrefixMap = createMapConfig({
   featureProperty: "area_code_prefix",
   promoteId: "area_code_prefix",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-75.2, -9.3],
-    zoom: 4.9,
-  },
+  initialView: PERU_INITIAL_VIEW,
 
   layers: {
     borders: {
