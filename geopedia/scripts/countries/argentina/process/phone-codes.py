@@ -36,7 +36,7 @@ SEEDS_PATH = (
 PROVINCES_PATH = (
     PROJECT_ROOT
     / "data"
-    / "processed"
+    / "intermediate"
     / "countries"
     / "argentina"
     / "provinces.geojson"

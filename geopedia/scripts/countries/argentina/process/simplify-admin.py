@@ -8,7 +8,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[4]
 INPUT_DIR = (
     PROJECT_ROOT
     / "data"
-    / "processed"
+    / "intermediate"
     / "countries"
     / "argentina"
 )

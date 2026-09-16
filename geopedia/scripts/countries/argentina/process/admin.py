@@ -17,7 +17,7 @@ RAW_DIR = (
 OUTPUT_DIR = (
     PROJECT_ROOT
     / "data"
-    / "processed"
+    / "intermediate"
     / "countries"
     / "argentina"
 )
