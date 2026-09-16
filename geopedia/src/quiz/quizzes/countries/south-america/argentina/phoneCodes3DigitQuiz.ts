@@ -1,3 +1,11 @@
+/**
+ * Quiz configuration for Argentina's three-digit geographic telephone-code
+ * regions.
+ *
+ * Four-digit area codes are grouped by their first three digits, while
+ * complete two- and three-digit area codes remain unchanged.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
 import { ARGENTINA_PHONE_CODES_3_DIGIT } from "./data/phoneCodes";
@@ -5,7 +13,6 @@ import { ARGENTINA_PHONE_CODES_3_DIGIT } from "./data/phoneCodes";
 const ARGENTINA_PHONE_CODES_3_DIGIT_QUESTIONS: FeatureQuiz["questions"] =
   ARGENTINA_PHONE_CODES_3_DIGIT.map((areaCode) => ({
     answer: areaCode,
-    display: areaCode,
   }));
 
 const ARGENTINA_PHONE_CODES_3_DIGIT_DESCRIPTION =

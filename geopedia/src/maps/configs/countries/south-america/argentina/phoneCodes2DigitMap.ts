@@ -1,4 +1,11 @@
+/**
+ * Map configuration for Argentina's two-digit geographic telephone-code
+ * regions.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { ARGENTINA_INITIAL_VIEW } from "./constants";
 
 export const argentinaPhoneCodes2DigitMap = createMapConfig({
   id: "argentina-phone-codes-2-digit",
@@ -9,14 +16,7 @@ export const argentinaPhoneCodes2DigitMap = createMapConfig({
   featureProperty: "area_code",
   promoteId: "area_code",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-64, -38],
-    zoom: 3.6,
-  },
+  initialView: ARGENTINA_INITIAL_VIEW,
 
   layers: {
     borders: {

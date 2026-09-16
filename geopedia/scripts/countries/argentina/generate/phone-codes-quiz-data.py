@@ -22,6 +22,7 @@ OUTPUT_PATH = (
     / "quiz"
     / "quizzes"
     / "countries"
+    / "south-america"
     / "argentina"
     / "data"
     / "phoneCodes.ts"

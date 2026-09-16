@@ -1,4 +1,12 @@
+/**
+ * Map configuration for Argentina's first-level administrative divisions.
+ *
+ * Includes the country's 23 provinces and the Autonomous City of Buenos Aires.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { ARGENTINA_INITIAL_VIEW } from "./constants";
 
 export const argentinaProvincesMap = createMapConfig({
   id: "argentina-provinces",
@@ -8,14 +16,7 @@ export const argentinaProvincesMap = createMapConfig({
   featureProperty: "province_id",
   promoteId: "province_id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-64.5, -38.5],
-    zoom: 3.4,
-  },
+  initialView: ARGENTINA_INITIAL_VIEW,
 
   hover: {
     labelProperty: "province",

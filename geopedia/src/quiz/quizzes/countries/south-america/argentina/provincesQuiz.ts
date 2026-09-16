@@ -1,3 +1,9 @@
+/**
+ * Quiz configuration for Argentina's first-level administrative divisions.
+ *
+ * Includes the country's 23 provinces and the Autonomous City of Buenos Aires.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
 import { ARGENTINA_PROVINCES_BY_ID } from "./data/admin";
@@ -6,7 +12,7 @@ const ARGENTINA_PROVINCE_QUESTIONS: FeatureQuiz["questions"] =
   Object.entries(ARGENTINA_PROVINCES_BY_ID).map(
     ([provinceId, province]) => ({
       answer: provinceId,
-      display: province.display,
+      display: province,
     }),
   );
 

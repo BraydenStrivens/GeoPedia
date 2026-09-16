@@ -1,3 +1,7 @@
+/**
+ * Exports the map configurations available for Argentina.
+ */
+
 export { argentinaDepartmentsMap } from "./departmentsMap";
 export { argentinaPhoneCodes1DigitMap } from "./phoneCodes1DigitMap";
 export { argentinaPhoneCodes2DigitMap } from "./phoneCodes2DigitMap";

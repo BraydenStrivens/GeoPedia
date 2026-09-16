@@ -1,3 +1,11 @@
+/**
+ * Quiz configuration for Argentina's second-level administrative divisions.
+ *
+ * Includes departments, Buenos Aires Province's partidos, and the communes
+ * of the Autonomous City of Buenos Aires. Questions can be grouped by
+ * first-level administrative division.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
 import {
@@ -9,16 +17,12 @@ const ARGENTINA_DEPARTMENT_QUESTIONS: FeatureQuiz["questions"] =
   Object.entries(ARGENTINA_DEPARTMENTS_BY_ID).map(
     ([departmentId, department]) => ({
       answer: departmentId,
-      display: department.display,
+      display: department.name,
     }),
   );
 
 const ARGENTINA_PROVINCE_VALUE_LABELS: Record<string, string> =
-  Object.fromEntries(
-    Object.entries(ARGENTINA_PROVINCES_BY_ID).map(
-      ([provinceId, province]) => [provinceId, province.name],
-    ),
-  );
+  Object.fromEntries(Object.entries(ARGENTINA_PROVINCES_BY_ID));
 
 const ARGENTINA_DEPARTMENTS_DESCRIPTION =
   `Learn all ${ARGENTINA_DEPARTMENT_QUESTIONS.length} second-level ` +

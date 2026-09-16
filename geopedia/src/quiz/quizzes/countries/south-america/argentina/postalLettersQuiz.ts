@@ -1,3 +1,11 @@
+/**
+ * Quiz configuration for the province-identifying first letters used by
+ * Argentina's modern Código Postal Argentino (CPA).
+ *
+ * Questions use stable province IDs as map answers and display the
+ * corresponding CPA postal letter to the player.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
 import { ARGENTINA_POSTAL_LETTER_BY_PROVINCE_ID } from "./data/postalLetters";

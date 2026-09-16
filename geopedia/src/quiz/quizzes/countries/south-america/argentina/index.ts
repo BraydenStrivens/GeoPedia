@@ -1,3 +1,7 @@
+/**
+ * Exports the quizzes available for Argentina.
+ */
+
 export { argentinaDepartmentsQuiz } from "./departmentsQuiz";
 export { argentinaPhoneCodes1DigitQuiz } from "./phoneCodes1DigitQuiz";
 export { argentinaPhoneCodes2DigitQuiz } from "./phoneCodes2DigitQuiz";

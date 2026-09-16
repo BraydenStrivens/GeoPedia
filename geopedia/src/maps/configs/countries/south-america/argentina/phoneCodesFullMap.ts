@@ -1,4 +1,13 @@
+/**
+ * Map configuration for Argentina's complete geographic telephone area codes.
+ *
+ * The features contain the actual 2-, 3-, and 4-digit area codes rather than
+ * prefixes truncated to a common length.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { ARGENTINA_INITIAL_VIEW } from "./constants";
 
 export const argentinaPhoneCodesFullMap = createMapConfig({
   id: "argentina-phone-codes-full",
@@ -15,14 +24,7 @@ export const argentinaPhoneCodesFullMap = createMapConfig({
     labelsPerZoom: 250,
   },
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-64, -38],
-    zoom: 3.6,
-  },
+  initialView: ARGENTINA_INITIAL_VIEW,
 
   layers: {
     borders: {

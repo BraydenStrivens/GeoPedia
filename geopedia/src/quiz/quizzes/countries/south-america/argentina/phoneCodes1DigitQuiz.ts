@@ -1,3 +1,8 @@
+/**
+ * Quiz configuration for Argentina's first-digit geographic telephone-code
+ * regions.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
 import { ARGENTINA_PHONE_CODES_1_DIGIT } from "./data/phoneCodes";
@@ -5,7 +10,6 @@ import { ARGENTINA_PHONE_CODES_1_DIGIT } from "./data/phoneCodes";
 const ARGENTINA_PHONE_CODES_1_DIGIT_QUESTIONS: FeatureQuiz["questions"] =
   ARGENTINA_PHONE_CODES_1_DIGIT.map((areaCode) => ({
     answer: areaCode,
-    // display: areaCode,
   }));
 
 const ARGENTINA_PHONE_CODES_1_DIGIT_DESCRIPTION =

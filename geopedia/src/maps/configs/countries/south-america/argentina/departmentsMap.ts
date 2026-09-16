@@ -1,4 +1,13 @@
+/**
+ * Map configuration for Argentina's second-level administrative divisions.
+ *
+ * Includes departments, Buenos Aires Province's partidos, and the communes
+ * of the Autonomous City of Buenos Aires.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { ARGENTINA_INITIAL_VIEW } from "./constants";
 
 export const argentinaDepartmentsMap = createMapConfig({
   id: "argentina-departments",
@@ -8,20 +17,13 @@ export const argentinaDepartmentsMap = createMapConfig({
   featureProperty: "department_id",
   promoteId: "department_id",
 
-  style: {
-    type: "maptiler",
-  },
-
   answerLabels: {
     densityThreshold: 200,
     initialMaxLabels: 100,
     labelsPerZoom: 150,
   },
 
-  initialView: {
-    center: [-64.5, -38.5],
-    zoom: 3.4,
-  },
+  initialView: ARGENTINA_INITIAL_VIEW,
 
   layers: {
     borders: {

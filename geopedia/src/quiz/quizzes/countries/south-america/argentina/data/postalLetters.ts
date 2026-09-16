@@ -1,24 +1,9 @@
 /**
- * Argentina CPA postal-letter quiz data.
+ * Quiz configuration for the province-identifying first letters used by
+ * Argentina's modern Código Postal Argentino (CPA).
  *
- * Argentina's modern Código Postal Argentino (CPA) uses an 8-character
- * alphanumeric postal code with the format:
- *
- *   A9999AAA
- *
- * The first letter identifies one of Argentina's 23 provinces or the
- * Autonomous City of Buenos Aires. Each first-level administrative unit
- * has a unique letter. The letters I and O are not used.
- *
- * This mapping connects GeoPedia's Argentina province IDs to their
- * corresponding CPA postal letters. The province IDs are the same stable
- * source PCODE values used by the Argentina province GeoJSON.
- *
- * This file is maintained manually because the province-letter mapping is
- * fixed reference data rather than data generated from the numeric postal
- * code dataset.
- *
- * Numeric postal-code quiz data is kept separately in postalCodes.ts.
+ * Questions use stable province IDs as map answers and display the
+ * corresponding CPA postal letter to the player.
  */
 
 export const ARGENTINA_POSTAL_LETTER_BY_PROVINCE_ID = {

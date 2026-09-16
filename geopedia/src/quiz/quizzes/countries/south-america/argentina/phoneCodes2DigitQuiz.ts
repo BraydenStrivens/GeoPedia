@@ -1,3 +1,11 @@
+/**
+ * Quiz configuration for Argentina's two-digit geographic telephone-code
+ * regions.
+ *
+ * Longer area codes are grouped by their first two digits, while complete
+ * two-digit area codes remain unchanged.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
 import { ARGENTINA_PHONE_CODES_2_DIGIT } from "./data/phoneCodes";
@@ -5,7 +13,6 @@ import { ARGENTINA_PHONE_CODES_2_DIGIT } from "./data/phoneCodes";
 const ARGENTINA_PHONE_CODES_2_DIGIT_QUESTIONS: FeatureQuiz["questions"] =
   ARGENTINA_PHONE_CODES_2_DIGIT.map((areaCode) => ({
     answer: areaCode,
-    display: areaCode,
   }));
 
 const ARGENTINA_PHONE_CODES_2_DIGIT_DESCRIPTION =

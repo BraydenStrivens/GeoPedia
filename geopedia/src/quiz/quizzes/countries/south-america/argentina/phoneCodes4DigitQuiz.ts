@@ -1,3 +1,10 @@
+/**
+ * Quiz configuration for Argentina's complete geographic telephone area codes.
+ *
+ * Despite the quiz name, this maximum-detail quiz includes Argentina's actual
+ * complete 2-, 3-, and 4-digit area codes.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
 import { ARGENTINA_PHONE_CODES_FULL } from "./data/phoneCodes";
@@ -5,7 +12,6 @@ import { ARGENTINA_PHONE_CODES_FULL } from "./data/phoneCodes";
 const ARGENTINA_PHONE_CODES_4_DIGIT_QUESTIONS: FeatureQuiz["questions"] =
   ARGENTINA_PHONE_CODES_FULL.map((areaCode) => ({
     answer: areaCode,
-    display: areaCode,
   }));
 
 const ARGENTINA_PHONE_CODES_4_DIGIT_DESCRIPTION =
