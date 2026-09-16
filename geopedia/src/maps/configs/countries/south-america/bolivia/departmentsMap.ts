@@ -1,4 +1,10 @@
+/**
+ * Map configuration for Bolivia's first-level administrative departments.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { BOLIVIA_INITIAL_VIEW } from "./constants";
 
 export const boliviaDepartmentsMap = createMapConfig({
   id: "bolivia-departments",
@@ -8,14 +14,7 @@ export const boliviaDepartmentsMap = createMapConfig({
   featureProperty: "department_id",
   promoteId: "department_id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-64.7, -16.7],
-    zoom: 4.6,
-  },
+  initialView: BOLIVIA_INITIAL_VIEW,
 
   hover: {
     labelProperty: "department",

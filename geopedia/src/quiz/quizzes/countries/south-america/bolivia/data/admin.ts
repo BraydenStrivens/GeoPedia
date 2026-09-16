@@ -3,7 +3,7 @@
  *
  * Do not edit manually.
  * Regenerate with:
- * python scripts/countries/bolivia/generate/admin-quizzes.py
+ * python scripts/countries/bolivia/generate/admin-quiz-data.py
  */
 
 export const BOLIVIA_DEPARTMENTS_BY_ID = {

@@ -1,5 +1,10 @@
-import { BOLIVIA_DEPARTMENTS_BY_ID } from "@/data/countries/bolivia/admin";
+/**
+ * Quiz configuration for Bolivia's first-level administrative departments.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
+
+import { BOLIVIA_DEPARTMENTS_BY_ID } from "./data/admin";
 
 const BOLIVIA_DEPARTMENT_QUESTIONS: FeatureQuiz["questions"] =
   Object.entries(BOLIVIA_DEPARTMENTS_BY_ID).map(

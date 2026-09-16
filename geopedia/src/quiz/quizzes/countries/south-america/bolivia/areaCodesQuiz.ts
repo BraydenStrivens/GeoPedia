@@ -1,3 +1,9 @@
+/**
+ * Quiz configuration for Bolivia's geographic landline area-code regions.
+ *
+ * Bolivia uses three one-digit geographic area codes: 2, 3, and 4.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
 const BOLIVIA_AREA_CODE_QUESTIONS: FeatureQuiz["questions"] = [

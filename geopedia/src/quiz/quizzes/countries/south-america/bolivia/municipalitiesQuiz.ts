@@ -1,9 +1,17 @@
+/**
+ * Quiz configuration for Bolivia's third-level administrative municipalities.
+ *
+ * Questions can be grouped by department or province for more focused
+ * practice.
+ */
+
+import type { FeatureQuiz } from "@/types/quiz";
+
 import {
   BOLIVIA_DEPARTMENTS_BY_ID,
   BOLIVIA_MUNICIPALITIES_BY_ID,
   BOLIVIA_PROVINCES_BY_ID,
-} from "@/data/countries/bolivia/admin";
-import type { FeatureQuiz } from "@/types/quiz";
+} from "./data/admin";
 
 const BOLIVIA_MUNICIPALITY_QUESTIONS: FeatureQuiz["questions"] =
   Object.entries(BOLIVIA_MUNICIPALITIES_BY_ID).map(

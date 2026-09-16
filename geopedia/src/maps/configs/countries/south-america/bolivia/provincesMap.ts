@@ -1,4 +1,10 @@
+/**
+ * Map configuration for Bolivia's second-level administrative provinces.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { BOLIVIA_INITIAL_VIEW } from "./constants";
 
 export const boliviaProvincesMap = createMapConfig({
   id: "bolivia-provinces",
@@ -8,14 +14,7 @@ export const boliviaProvincesMap = createMapConfig({
   featureProperty: "province_id",
   promoteId: "province_id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-64.7, -16.7],
-    zoom: 4.6,
-  },
+  initialView: BOLIVIA_INITIAL_VIEW,
 
   hover: {
     labelProperty: "province",

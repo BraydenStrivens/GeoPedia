@@ -1,8 +1,15 @@
+/**
+ * Quiz configuration for Bolivia's second-level administrative provinces.
+ *
+ * Questions can be grouped by department for more focused practice.
+ */
+
+import type { FeatureQuiz } from "@/types/quiz";
+
 import {
   BOLIVIA_DEPARTMENTS_BY_ID,
   BOLIVIA_PROVINCES_BY_ID,
-} from "@/data/countries/bolivia/admin";
-import type { FeatureQuiz } from "@/types/quiz";
+} from "./data/admin";
 
 const BOLIVIA_PROVINCE_QUESTIONS: FeatureQuiz["questions"] =
   Object.entries(BOLIVIA_PROVINCES_BY_ID).map(

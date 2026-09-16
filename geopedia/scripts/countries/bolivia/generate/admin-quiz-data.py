@@ -22,7 +22,7 @@ INPUT_DIRECTORY = Path(
 )
 
 OUTPUT_PATH = Path(
-    "src/data/countries/bolivia/admin.ts"
+    "src/quiz/quizzes/countries/south-america/bolivia/data/admin.ts"
 )
 
 DEPARTMENTS_PATH = (
@@ -210,7 +210,7 @@ def main() -> None:
  *
  * Do not edit manually.
  * Regenerate with:
- * python scripts/countries/bolivia/generate/admin-quizzes.py
+ * python scripts/countries/bolivia/generate/admin-quiz-data.py
  */
 
 export const BOLIVIA_DEPARTMENTS_BY_ID = {{
