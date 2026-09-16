@@ -1,5 +1,10 @@
-import { URUGUAY_DEPARTMENTS_BY_ID } from "@/data/countries/uruguay/admin";
+/**
+ * Quiz configuration for Uruguay's first-level administrative departments.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
+
+import { URUGUAY_DEPARTMENTS_BY_ID } from "./data/admin";
 
 const URUGUAY_DEPARTMENT_QUESTIONS: FeatureQuiz["questions"] =
   Object.entries(URUGUAY_DEPARTMENTS_BY_ID).map(

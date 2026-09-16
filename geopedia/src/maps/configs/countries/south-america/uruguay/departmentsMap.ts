@@ -1,4 +1,10 @@
+/**
+ * Map configuration for Uruguay's first-level administrative departments.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { URUGUAY_INITIAL_VIEW } from "./constants";
 
 export const uruguayDepartmentsMap = createMapConfig({
   id: "uruguay-departments",
@@ -8,16 +14,9 @@ export const uruguayDepartmentsMap = createMapConfig({
   featureProperty: "department_id",
   promoteId: "department_id",
 
-  initialView: {
-    center: [-56.0, -32.8],
-    zoom: 5.5,
-  },
+  initialView: URUGUAY_INITIAL_VIEW,
 
   hover: {
     labelProperty: "department",
-  },
-
-  style: {
-    type: "maptiler",
   },
 });

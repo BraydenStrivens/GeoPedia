@@ -1,14 +1,23 @@
+/**
+ * Quiz configuration for Uruguay's municipalities.
+ *
+ * Municipality boundaries do not cover the entire country because some areas
+ * of Uruguay are not incorporated into a municipality. Questions can be
+ * grouped by department for more focused practice.
+ */
+
+import type { FeatureQuiz } from "@/types/quiz";
+
 import {
   URUGUAY_DEPARTMENTS_BY_ID,
   URUGUAY_MUNICIPALITIES_BY_ID,
-} from "@/data/countries/uruguay/admin";
-import type { FeatureQuiz } from "@/types/quiz";
+} from "./data/admin";
 
 const URUGUAY_MUNICIPALITY_QUESTIONS: FeatureQuiz["questions"] =
   Object.entries(URUGUAY_MUNICIPALITIES_BY_ID).map(
     ([municipalityId, municipality]) => ({
       answer: municipalityId,
-      display: municipality.display,
+      display: municipality.name,
     }),
   );
 

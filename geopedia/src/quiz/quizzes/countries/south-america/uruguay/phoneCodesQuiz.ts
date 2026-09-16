@@ -1,3 +1,11 @@
+/**
+ * Quiz configuration for Uruguay's department-level landline telephone
+ * prefixes.
+ *
+ * The displayed prefixes vary in specificity, while stable department IDs
+ * identify the corresponding map features.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
 const URUGUAY_PHONE_CODE_QUESTIONS: FeatureQuiz["questions"] = [

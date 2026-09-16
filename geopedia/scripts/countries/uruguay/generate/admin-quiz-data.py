@@ -29,9 +29,12 @@ MUNICIPALITIES_PATH = (
 OUTPUT_PATH = (
     PROJECT_ROOT
     / "src"
-    / "data"
+    / "quiz"
+    / "quizzes"
     / "countries"
+    / "south-america"
     / "uruguay"
+    / "data"
     / "admin.ts"
 )
 
@@ -50,7 +53,9 @@ LOWERCASE_WORDS = {
 }
 
 
-def load_features(path: Path) -> list[dict]:
+def load_features(
+    path: Path,
+) -> list[dict]:
     if not path.exists():
         raise FileNotFoundError(
             f"Could not find GeoJSON: {path}"
@@ -62,9 +67,14 @@ def load_features(path: Path) -> list[dict]:
     ) as file:
         data = json.load(file)
 
-    features = data.get("features")
+    features = data.get(
+        "features"
+    )
 
-    if not isinstance(features, list):
+    if not isinstance(
+        features,
+        list,
+    ):
         raise ValueError(
             f"GeoJSON has no valid feature array: {path}"
         )
@@ -72,20 +82,29 @@ def load_features(path: Path) -> list[dict]:
     return features
 
 
-def normalize_name(name: str) -> str:
+def normalize_name(
+    name: str,
+) -> str:
     words = name.lower().split()
 
     result: list[str] = []
 
     for index, word in enumerate(words):
-        if index > 0 and word in LOWERCASE_WORDS:
-            result.append(word)
+        if (
+            index > 0
+            and word in LOWERCASE_WORDS
+        ):
+            result.append(
+                word
+            )
         else:
             result.append(
                 word[:1].upper() + word[1:]
             )
 
-    return " ".join(result)
+    return " ".join(
+        result
+    )
 
 
 def build_departments(
@@ -100,10 +119,18 @@ def build_departments(
     departments: dict[str, str] = {}
 
     for feature in features:
-        properties = feature.get("properties", {})
+        properties = feature.get(
+            "properties",
+            {},
+        )
 
-        department_id = properties.get("department_id")
-        department = properties.get("department")
+        department_id = properties.get(
+            "department_id"
+        )
+
+        department = properties.get(
+            "department"
+        )
 
         if not department_id or not department:
             raise ValueError(
@@ -116,11 +143,13 @@ def build_departments(
                 f"Duplicate department ID: {department_id}"
             )
 
-        departments[department_id] = department
+        departments[
+            str(department_id)
+        ] = str(department)
 
     return dict(
         sorted(
-            departments.items(),
+            departments.items()
         )
     )
 
@@ -134,94 +163,69 @@ def build_municipalities(
             f"found {len(features)}."
         )
 
-    raw_entries: list[dict[str, str]] = []
-
-    for feature in features:
-        properties = feature.get("properties", {})
-
-        municipality_id = properties.get(
-            "municipality_id"
-        )
-        municipality = properties.get(
-            "municipality"
-        )
-        department_id = properties.get(
-            "department_id"
-        )
-        department = properties.get(
-            "department"
-        )
-
-        if not all(
-            [
-                municipality_id,
-                municipality,
-                department_id,
-                department,
-            ]
-        ):
-            raise ValueError(
-                "Municipality feature is missing required properties."
-            )
-
-        raw_entries.append(
-            {
-                "municipality_id": municipality_id,
-                "municipality": normalize_name(
-                    municipality
-                ),
-                "department_id": department_id,
-                "department": department,
-            }
-        )
-
-    name_counts: dict[str, int] = {}
-
-    for entry in raw_entries:
-        name = entry["municipality"]
-
-        name_counts[name] = (
-            name_counts.get(name, 0) + 1
-        )
-
     municipalities: dict[
         str,
         dict[str, str],
     ] = {}
 
-    for entry in raw_entries:
-        municipality_id = entry["municipality_id"]
-        municipality = entry["municipality"]
-        department_id = entry["department_id"]
-        department = entry["department"]
+    for feature in features:
+        properties = feature.get(
+            "properties",
+            {},
+        )
+
+        municipality_id = properties.get(
+            "municipality_id"
+        )
+
+        municipality = properties.get(
+            "municipality"
+        )
+
+        department_id = properties.get(
+            "department_id"
+        )
+
+        if (
+            not municipality_id
+            or not municipality
+            or not department_id
+        ):
+            raise ValueError(
+                "Municipality feature is missing "
+                "one or more required properties."
+            )
+
+        municipality_id = str(
+            municipality_id
+        )
 
         if municipality_id in municipalities:
             raise ValueError(
-                f"Duplicate municipality ID: "
-                f"{municipality_id}"
+                f"Duplicate municipality ID: {municipality_id}"
             )
 
-        display = municipality
-
-        if name_counts[municipality] > 1:
-            display = (
-                f"{municipality} ({department})"
-            )
-
-        municipalities[municipality_id] = {
-            "name": municipality,
-            "display": display,
-            "departmentId": department_id,
+        municipalities[
+            municipality_id
+        ] = {
+            "name": normalize_name(
+                str(municipality)
+            ),
+            "departmentId": str(
+                department_id
+            ),
         }
 
     return dict(
         sorted(
-            municipalities.items(),
+            municipalities.items()
         )
     )
 
 
-def ts_string(value: str) -> str:
+def ts_string(
+    value: str,
+) -> str:
     return json.dumps(
         value,
         ensure_ascii=False,
@@ -248,7 +252,9 @@ def render_departments(
         ]
     )
 
-    return "\n".join(lines)
+    return "\n".join(
+        lines
+    )
 
 
 def render_municipalities(
@@ -266,7 +272,6 @@ def render_municipalities(
             [
                 f"  {ts_string(municipality_id)}: {{",
                 f"    name: {ts_string(data['name'])},",
-                f"    display: {ts_string(data['display'])},",
                 (
                     "    departmentId: "
                     f"{ts_string(data['departmentId'])},"
@@ -282,12 +287,44 @@ def render_municipalities(
         ]
     )
 
-    return "\n".join(lines)
+    return "\n".join(
+        lines
+    )
+
+
+def build_typescript(
+    departments: dict[str, str],
+    municipalities: dict[
+        str,
+        dict[str, str],
+    ],
+) -> str:
+    header = """/**
+ * Generated from Uruguay's processed administrative GeoJSON.
+ *
+ * Do not edit manually.
+ * Regenerate with:
+ * python scripts/countries/uruguay/generate/admin-quiz-data.py
+ */
+
+"""
+
+    return (
+        header
+        + render_departments(
+            departments
+        )
+        + "\n"
+        + render_municipalities(
+            municipalities
+        )
+    )
 
 
 def main() -> None:
-    print("Generating Uruguay admin TypeScript data...")
-    print()
+    print(
+        "Generating Uruguay admin quiz data..."
+    )
 
     department_features = load_features(
         DEPARTMENTS_PATH
@@ -305,10 +342,9 @@ def main() -> None:
         municipality_features
     )
 
-    output = (
-        render_departments(departments)
-        + "\n"
-        + render_municipalities(municipalities)
+    output = build_typescript(
+        departments,
+        municipalities,
     )
 
     OUTPUT_PATH.parent.mkdir(
@@ -321,12 +357,6 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    duplicate_displays = [
-        data["display"]
-        for data in municipalities.values()
-        if data["display"] != data["name"]
-    ]
-
     print(
         f"Departments: {len(departments)}"
     )
@@ -335,13 +365,6 @@ def main() -> None:
         f"Municipalities: {len(municipalities)}"
     )
 
-    print()
-    print("Disambiguated municipality names:")
-
-    for display in duplicate_displays:
-        print(f"  {display}")
-
-    print()
     print(
         f"Generated: {OUTPUT_PATH}"
     )
