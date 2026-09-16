@@ -1,3 +1,7 @@
+/**
+ * Exports the quizzes available for Paraguay.
+ */
+
 export { paraguayDepartmentFlagsQuiz } from "./departmentFlagsQuiz";
 export { paraguayDepartmentsQuiz } from "./departmentsQuiz";
 export { paraguayDistrictsQuiz } from "./districtsQuiz";

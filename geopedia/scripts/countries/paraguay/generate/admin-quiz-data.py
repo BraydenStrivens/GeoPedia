@@ -21,7 +21,7 @@ INPUT_DIRECTORY = Path(
 )
 
 OUTPUT_PATH = Path(
-    "src/data/countries/paraguay/admin.ts"
+    "src/quiz/quizzes/countries/south-america/paraguay/data/admin.ts"
 )
 
 DEPARTMENTS_PATH = (
@@ -188,7 +188,7 @@ def main() -> None:
  *
  * Do not edit manually.
  * Regenerate with:
- * python scripts/countries/paraguay/generate/admin-quizzes.py
+ * python scripts/countries/paraguay/generate/admin-quiz-data.py
  */
 
 export const PARAGUAY_DEPARTMENTS_BY_ID = {{

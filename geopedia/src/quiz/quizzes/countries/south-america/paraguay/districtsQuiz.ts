@@ -1,8 +1,15 @@
+/**
+ * Quiz configuration for Paraguay's second-level administrative districts.
+ *
+ * Questions can be grouped by department for more focused practice.
+ */
+
+import type { FeatureQuiz } from "@/types/quiz";
+
 import {
   PARAGUAY_DEPARTMENTS_BY_ID,
   PARAGUAY_DISTRICTS_BY_ID,
-} from "@/data/countries/paraguay/admin";
-import type { FeatureQuiz } from "@/types/quiz";
+} from "./data/admin";
 
 const PARAGUAY_DISTRICT_QUESTIONS: FeatureQuiz["questions"] =
   Object.entries(PARAGUAY_DISTRICTS_BY_ID).map(

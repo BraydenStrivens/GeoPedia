@@ -1,4 +1,12 @@
+/**
+ * Map configuration for Paraguay's department-level administrative divisions.
+ *
+ * Includes the country's 17 departments and Asunción, its capital district.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { PARAGUAY_INITIAL_VIEW } from "./constants";
 
 export const paraguayDepartmentsMap = createMapConfig({
   id: "paraguay-departments",
@@ -8,14 +16,7 @@ export const paraguayDepartmentsMap = createMapConfig({
   featureProperty: "department_id",
   promoteId: "department_id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-58.3, -23.4],
-    zoom: 4.9,
-  },
+  initialView: PARAGUAY_INITIAL_VIEW,
 
   hover: {
     labelProperty: "department",

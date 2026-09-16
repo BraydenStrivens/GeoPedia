@@ -1,4 +1,10 @@
+/**
+ * Map configuration for Paraguay's second-level administrative districts.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { PARAGUAY_INITIAL_VIEW } from "./constants";
 
 export const paraguayDistrictsMap = createMapConfig({
   id: "paraguay-districts",
@@ -8,20 +14,13 @@ export const paraguayDistrictsMap = createMapConfig({
   featureProperty: "district_id",
   promoteId: "district_id",
 
-  style: {
-    type: "maptiler",
-  },
-
   answerLabels: {
     densityThreshold: 200,
     initialMaxLabels: 100,
     labelsPerZoom: 150,
   },
 
-  initialView: {
-    center: [-58.3, -23.4],
-    zoom: 4.9,
-  },
+  initialView: PARAGUAY_INITIAL_VIEW,
 
   hover: {
     labelProperty: "district",

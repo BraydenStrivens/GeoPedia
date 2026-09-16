@@ -1,5 +1,12 @@
-import { PARAGUAY_DEPARTMENTS_BY_ID } from "@/data/countries/paraguay/admin";
+/**
+ * Quiz configuration for Paraguay's department-level administrative divisions.
+ *
+ * Includes the country's 17 departments and Asunción, its capital district.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
+
+import { PARAGUAY_DEPARTMENTS_BY_ID } from "./data/admin";
 
 const PARAGUAY_DEPARTMENT_QUESTIONS: FeatureQuiz["questions"] =
   Object.entries(PARAGUAY_DEPARTMENTS_BY_ID).map(

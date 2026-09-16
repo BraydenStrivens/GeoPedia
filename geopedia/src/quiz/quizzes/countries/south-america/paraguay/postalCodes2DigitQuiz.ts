@@ -1,5 +1,13 @@
-import { PARAGUAY_DEPARTMENTS_BY_ID } from "@/data/countries/paraguay/admin";
+/**
+ * Quiz configuration for the first two digits of Paraguay's postal codes.
+ *
+ * The first two digits identify a department-level division, including
+ * Asunción's capital district.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
+
+import { PARAGUAY_DEPARTMENTS_BY_ID } from "./data/admin";
 
 const PARAGUAY_POSTAL_CODES_2_DIGIT_QUESTIONS: FeatureQuiz["questions"] =
   Object.keys(PARAGUAY_DEPARTMENTS_BY_ID).map((departmentId) => ({
