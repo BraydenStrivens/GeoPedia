@@ -1,21 +1,17 @@
 /**
- * Defines the map configuration for the United States counties quiz.
+ * Map configuration for United States counties and county equivalents.
  *
- * Each feature represents one Census county or county-equivalent and uses
- * its GEOID as a stable unique identifier.
+ * Counties are identified by their Census GEOID.
  */
 
 import { createMapConfig } from "../../../createMapConfig";
+import { USA_INITIAL_VIEW } from "./constants";
 
 export const usCountiesMap = createMapConfig({
   id: "us-counties",
   geojsonUrl: "/data/countries/usa/geojson/counties.geojson",
 
   featureProperty: "geoid",
-
-  style: {
-    type: "maptiler",
-  },
 
   promoteId: "geoid",
 
@@ -25,10 +21,7 @@ export const usCountiesMap = createMapConfig({
     labelsPerZoom: 250,
   },
 
-  initialView: {
-    center: [-98.5, 39.8],
-    zoom: 3.5,
-  },
+  initialView: USA_INITIAL_VIEW,
 
   layers: {
     borders: {

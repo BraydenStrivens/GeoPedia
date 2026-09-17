@@ -1,11 +1,9 @@
 /**
- * Defines the map configuration for the US 2-digit ZIP-code prefix quiz.
- *
- * Each feature represents all ZCTAs sharing the same first two ZIP-code
- * digits.
+ * Map configuration for United States 2-digit ZIP-code prefix regions.
  */
 
 import { createMapConfig } from "../../../createMapConfig";
+import { USA_INITIAL_VIEW } from "./constants";
 
 export const usZip2Map = createMapConfig({
   id: "us-zip-2",
@@ -13,16 +11,9 @@ export const usZip2Map = createMapConfig({
 
   featureProperty: "zip",
 
-  style: {
-    type: "maptiler",
-  },
-
   promoteId: "id",
 
-  initialView: {
-    center: [-98.5, 39.8],
-    zoom: 3.5,
-  },
+  initialView: USA_INITIAL_VIEW,
 
   layers: {
     borders: {

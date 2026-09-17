@@ -1,13 +1,11 @@
 /**
- * Defines the shared map configuration for United States telephone
- * area-code geography.
+ * Map configuration for United States geographic telephone area codes.
  *
- * The processed GeoJSON contains one geographic feature for each unique
- * area-code region. Overlay area codes that share identical boundaries
- * are stored together within the feature's `area_codes` property.
+ * Individual geographic features may represent multiple valid area codes.
  */
 
 import { createMapConfig } from "../../../createMapConfig";
+import { USA_INITIAL_VIEW } from "./constants";
 
 export const usAreaCodesMap = createMapConfig({
   id: "us-area-codes",
@@ -15,20 +13,9 @@ export const usAreaCodesMap = createMapConfig({
 
   featureProperty: "id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  /*
-   * Each processed feature contains a stable generated ID such as
-   * "201-551" or "214-469-945-972".
-   */
   promoteId: "id",
 
-  initialView: {
-    center: [-98.5, 39.8],
-    zoom: 3.5,
-  },
+  initialView: USA_INITIAL_VIEW,
 
   hover: {
     labelProperty: "id",
