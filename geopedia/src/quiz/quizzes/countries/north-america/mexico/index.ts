@@ -1,3 +1,7 @@
+/**
+ * Exports the quizzes available for Mexico.
+ */
+
 export { mexicoMunicipalitiesQuiz } from "./municipalitiesQuiz";
 export { mexicoPhoneCodes1DigitQuiz } from "./phoneCodes1DigitQuiz";
 export { mexicoPhoneCodesQuiz } from "./phoneCodesQuiz";

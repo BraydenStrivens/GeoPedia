@@ -1,3 +1,7 @@
+/**
+ * Quiz configuration for Mexico's 1-digit telephone area-code groups.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
 const MEXICO_PHONE_CODE_1_DIGIT_QUESTIONS: FeatureQuiz["questions"] =
@@ -19,9 +23,6 @@ const MEXICO_PHONE_CODES_1_DIGIT_DESCRIPTION =
   `followed by an 8-digit local number, while 3-digit area codes are followed ` +
   `by a 7-digit local number.`;
 
-/**
- * Quiz definition for identifying Mexico's 1-digit telephone-code regions.
- */
 export const mexicoPhoneCodes1DigitQuiz: FeatureQuiz = {
   id: "mexico-phone-codes-1-digit",
   name: "Phone Codes 1-Digit",

@@ -1,29 +1,20 @@
+/**
+ * Map configuration for Mexico's 1-digit telephone area-code groups.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
 
-/**
- * Map configuration for Mexico's eight 1-digit telephone-code regions.
- *
- * The geometry is derived by dissolving the full phone-code regions according
- * to their first digit.
- */
+import { MEXICO_INITIAL_VIEW } from "./constants";
+
 export const mexicoPhoneCodes1DigitMap = createMapConfig({
   id: "mexico-phone-codes-1-digit",
-
   geojsonUrl:
     "/data/countries/mexico/geojson/phone-code-prefixes.geojson",
-
   featureProperty: "prefix",
-
-  style: {
-    type: "maptiler",
-  },
 
   promoteId: "prefix",
 
-  initialView: {
-    center: [-102, 23.5],
-    zoom: 3.6,
-  },
+  initialView: MEXICO_INITIAL_VIEW,
 
   layers: {
     borders: {

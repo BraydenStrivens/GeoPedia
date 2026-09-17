@@ -1,19 +1,15 @@
+/**
+ * Map configuration for Mexico's municipalities.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
 
-/**
- * Map configuration for Mexico's 2,478 municipalities.
- *
- * Uses the five-digit INEGI municipality ID as the stable feature identifier
- * and municipality name for map interaction and hover labels.
- */
+import { MEXICO_INITIAL_VIEW } from "./constants";
+
 export const mexicoMunicipalitiesMap = createMapConfig({
   id: "mexico-municipalities",
   geojsonUrl: "/data/countries/mexico/geojson/municipalities.geojson",
   featureProperty: "name",
-
-  style: {
-    type: "maptiler",
-  },
 
   promoteId: "municipality_id",
 
@@ -23,10 +19,7 @@ export const mexicoMunicipalitiesMap = createMapConfig({
     labelsPerZoom: 250,
   },
 
-  initialView: {
-    center: [-102, 23.5],
-    zoom: 3.6,
-  },
+  initialView: MEXICO_INITIAL_VIEW,
 
   layers: {
     borders: {

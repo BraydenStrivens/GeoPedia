@@ -1,34 +1,21 @@
 """
-Generate the GeoPedia Mexico Municipalities quiz configuration.
+Generates the administrative quiz data used by Mexico's state and
+municipality quizzes.
 
-Input
------
+Source:
     public/data/countries/mexico/geojson/municipalities.geojson
 
-Output
-------
-    src/quiz/quizzes/mexico/mexicoMunicipalitiesQuiz.ts
+Output:
+    src/quiz/quizzes/countries/north-america/mexico/data/admin.ts
 
-The generated quiz contains all 2,478 Mexican municipalities and groups them
-by their parent INEGI state/entity ID.
+The generated data contains:
+    - Mexican states/entities keyed by their two-digit INEGI ID.
+    - Municipalities keyed by their five-digit INEGI municipality ID.
 
-Municipality names are disambiguated only when necessary:
-
-    Aguascalientes
-        -> Aguascalientes
-
-    Tuxpan in Jalisco
-        -> Tuxpan (Jal.)
-
-    San Juan Mixtepec 20208 in Oaxaca
-        -> San Juan Mixtepec (Oax. 208)
-
-A state abbreviation is appended when a municipality name occurs more than
-once nationwide. If the same municipality name occurs multiple times within
-the same state, the three-digit municipality code is appended as well.
-
-This keeps the majority of quiz prompts short while ensuring every generated
-display name is unique.
+Municipality names are disambiguated only when necessary. If a municipality
+name occurs in multiple states, its state abbreviation is appended. If the
+same name occurs multiple times within one state, its three-digit local
+municipality code is appended as well.
 """
 
 from __future__ import annotations
@@ -38,10 +25,6 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
-
-# ---------------------------------------------------------------------------
-# Paths
-# ---------------------------------------------------------------------------
 
 PROJECT_ROOT = Path(__file__).resolve().parents[4]
 
@@ -60,27 +43,25 @@ OUTPUT_PATH = (
     / "src"
     / "quiz"
     / "quizzes"
+    / "countries"
+    / "north-america"
     / "mexico"
-    / "mexicoMunicipalitiesQuiz.ts"
+    / "data"
+    / "admin.ts"
 )
 
-
-# ---------------------------------------------------------------------------
-# Dataset expectations
-# ---------------------------------------------------------------------------
 
 EXPECTED_MUNICIPALITY_COUNT = 2478
 EXPECTED_STATE_COUNT = 32
 
 EXPECTED_STATE_IDS = {
     f"{state_id:02d}"
-    for state_id in range(1, EXPECTED_STATE_COUNT + 1)
+    for state_id in range(
+        1,
+        EXPECTED_STATE_COUNT + 1,
+    )
 }
 
-
-# ---------------------------------------------------------------------------
-# State metadata
-# ---------------------------------------------------------------------------
 
 MEXICO_STATE_NAMES_BY_ID = {
     "01": "Aguascalientes",
@@ -153,26 +134,18 @@ MEXICO_STATE_ABBREVIATIONS_BY_ID = {
 }
 
 
-# ---------------------------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------------------------
-
-
-def escape_typescript_string(value: str) -> str:
-    """Escape text for use inside a double-quoted TypeScript string."""
-
-    return (
-        value
-        .replace("\\", "\\\\")
-        .replace('"', '\\"')
-        .replace("\r", "\\r")
-        .replace("\n", "\\n")
+def to_typescript_string(
+    value: str,
+) -> str:
+    """Convert a Python string into a safe TypeScript string literal."""
+    return json.dumps(
+        value,
+        ensure_ascii=False,
     )
 
 
 def load_features() -> list[dict[str, Any]]:
-    """Load and validate the processed Mexico municipality GeoJSON."""
-
+    """Load and validate Mexico's processed municipality GeoJSON."""
     if not INPUT_PATH.exists():
         raise FileNotFoundError(
             "Missing processed Mexico municipality GeoJSON:\n"
@@ -180,7 +153,10 @@ def load_features() -> list[dict[str, Any]]:
             "Run the municipality processor first."
         )
 
-    with INPUT_PATH.open("r", encoding="utf-8") as file:
+    with INPUT_PATH.open(
+        "r",
+        encoding="utf-8",
+    ) as file:
         data = json.load(file)
 
     if data.get("type") != "FeatureCollection":
@@ -208,8 +184,7 @@ def load_features() -> list[dict[str, Any]]:
 def extract_municipalities(
     features: list[dict[str, Any]],
 ) -> list[dict[str, str]]:
-    """Extract and validate the fields needed by the quiz generator."""
-
+    """Extract and validate Mexico's municipality hierarchy."""
     municipalities: list[dict[str, str]] = []
 
     municipality_ids: set[str] = set()
@@ -224,11 +199,16 @@ def extract_municipalities(
             )
 
         feature_id = feature.get("id")
-        municipality_id = properties.get("municipality_id")
+        municipality_id = properties.get(
+            "municipality_id"
+        )
         name = properties.get("name")
         state_id = properties.get("state_id")
 
-        if not isinstance(municipality_id, str) or not municipality_id:
+        if (
+            not isinstance(municipality_id, str)
+            or not municipality_id
+        ):
             raise ValueError(
                 f"Feature {feature_id!r} has an invalid municipality_id."
             )
@@ -238,7 +218,10 @@ def extract_municipalities(
                 f"Municipality {municipality_id} has an invalid name."
             )
 
-        if not isinstance(state_id, str) or not state_id:
+        if (
+            not isinstance(state_id, str)
+            or not state_id
+        ):
             raise ValueError(
                 f"Municipality {municipality_id} has an invalid state_id."
             )
@@ -259,7 +242,9 @@ def extract_municipalities(
                 f"State ID {state_id!r} is not two digits."
             )
 
-        if not municipality_id.startswith(state_id):
+        if not municipality_id.startswith(
+            state_id
+        ):
             raise ValueError(
                 f"Municipality {municipality_id} does not belong to "
                 f"state ID {state_id}."
@@ -271,7 +256,10 @@ def extract_municipalities(
                 f"state ID {state_id}."
             )
 
-        if state_id not in MEXICO_STATE_ABBREVIATIONS_BY_ID:
+        if (
+            state_id
+            not in MEXICO_STATE_ABBREVIATIONS_BY_ID
+        ):
             raise ValueError(
                 f"Municipality {municipality_id} has no configured "
                 f"state abbreviation for {state_id}."
@@ -282,8 +270,12 @@ def extract_municipalities(
                 f"Duplicate municipality ID {municipality_id}."
             )
 
-        municipality_ids.add(municipality_id)
-        state_ids.add(state_id)
+        municipality_ids.add(
+            municipality_id
+        )
+        state_ids.add(
+            state_id
+        )
 
         municipalities.append(
             {
@@ -295,8 +287,12 @@ def extract_municipalities(
         )
 
     if state_ids != EXPECTED_STATE_IDS:
-        missing = sorted(EXPECTED_STATE_IDS - state_ids)
-        unexpected = sorted(state_ids - EXPECTED_STATE_IDS)
+        missing = sorted(
+            EXPECTED_STATE_IDS - state_ids
+        )
+        unexpected = sorted(
+            state_ids - EXPECTED_STATE_IDS
+        )
 
         raise ValueError(
             "Unexpected set of state IDs in municipality data.\n"
@@ -305,7 +301,8 @@ def extract_municipalities(
         )
 
     municipalities.sort(
-        key=lambda municipality: municipality["municipality_id"]
+        key=lambda municipality:
+        municipality["municipality_id"]
     )
 
     return municipalities
@@ -314,16 +311,7 @@ def extract_municipalities(
 def create_display_names(
     municipalities: list[dict[str, str]],
 ) -> dict[str, str]:
-    """
-    Create unique quiz display names with minimal disambiguation.
-
-    Nationwide-unique names remain unchanged.
-
-    If a name occurs in more than one state, the state abbreviation is
-    appended. If the same name occurs more than once within a single state,
-    the municipality's three-digit local code is also appended.
-    """
-
+    """Create unique municipality display names with minimal disambiguation."""
     name_counts = Counter(
         municipality["name"]
         for municipality in municipalities
@@ -340,36 +328,57 @@ def create_display_names(
     display_names: dict[str, str] = {}
 
     for municipality in municipalities:
-        municipality_id = municipality["municipality_id"]
-        municipality_code = municipality["municipality_code"]
+        municipality_id = municipality[
+            "municipality_id"
+        ]
+        municipality_code = municipality[
+            "municipality_code"
+        ]
         name = municipality["name"]
         state_id = municipality["state_id"]
 
         if name_counts[name] == 1:
             display = name
 
-        elif name_state_counts[(name, state_id)] == 1:
+        elif (
+            name_state_counts[
+                (name, state_id)
+            ]
+            == 1
+        ):
             state_abbreviation = (
-                MEXICO_STATE_ABBREVIATIONS_BY_ID[state_id]
+                MEXICO_STATE_ABBREVIATIONS_BY_ID[
+                    state_id
+                ]
             )
 
-            display = f"{name} ({state_abbreviation})"
+            display = (
+                f"{name} ({state_abbreviation})"
+            )
 
         else:
             state_abbreviation = (
-                MEXICO_STATE_ABBREVIATIONS_BY_ID[state_id]
+                MEXICO_STATE_ABBREVIATIONS_BY_ID[
+                    state_id
+                ]
             )
 
             display = (
                 f"{name} "
-                f"({state_abbreviation} {municipality_code})"
+                f"({state_abbreviation} "
+                f"{municipality_code})"
             )
 
-        display_names[municipality_id] = display
+        display_names[
+            municipality_id
+        ] = display
 
     duplicate_displays = [
         display
-        for display, count in Counter(display_names.values()).items()
+        for display, count
+        in Counter(
+            display_names.values()
+        ).items()
         if count > 1
     ]
 
@@ -378,28 +387,29 @@ def create_display_names(
             "Generated municipality display names are not unique:\n"
             + "\n".join(
                 f"  {display}"
-                for display in sorted(duplicate_displays)
+                for display
+                in sorted(
+                    duplicate_displays
+                )
             )
         )
 
     return display_names
 
 
-def render_state_names_constant() -> str:
-    """Render the TypeScript state-name lookup used by quiz grouping."""
-
+def render_states() -> str:
+    """Render the state ID-to-name dictionary."""
     lines = [
-        "/**",
-        " * Full Mexican state/entity names keyed by their two-digit INEGI ID.",
-        " */",
-        "const MEXICO_STATE_NAMES_BY_ID = {",
+        "export const MEXICO_STATES_BY_ID = {",
     ]
 
-    for state_id, name in MEXICO_STATE_NAMES_BY_ID.items():
-        escaped_name = escape_typescript_string(name)
-
+    for (
+        state_id,
+        name,
+    ) in MEXICO_STATE_NAMES_BY_ID.items():
         lines.append(
-            f'  "{state_id}": "{escaped_name}",'
+            f"  {to_typescript_string(state_id)}: "
+            f"{to_typescript_string(name)},"
         )
 
     lines.extend(
@@ -412,39 +422,43 @@ def render_state_names_constant() -> str:
     return "\n".join(lines)
 
 
-def render_questions_constant(
+def render_municipalities(
     municipalities: list[dict[str, str]],
     display_names: dict[str, str],
 ) -> str:
-    """Render the generated TypeScript municipality question array."""
-
+    """Render the municipality hierarchy dictionary."""
     lines = [
-        "/**",
-        " * All Mexican municipality questions keyed by INEGI municipality ID.",
-        " * Duplicate municipality names are disambiguated with state",
-        " * abbreviations and, when necessary, municipality codes.",
-        " */",
-        "const MEXICO_MUNICIPALITY_QUESTIONS = [",
+        "export const MEXICO_MUNICIPALITIES_BY_ID = {",
     ]
 
     for municipality in municipalities:
-        municipality_id = municipality["municipality_id"]
-        display = escape_typescript_string(
-            display_names[municipality_id]
-        )
+        municipality_id = municipality[
+            "municipality_id"
+        ]
+        name = municipality["name"]
+        state_id = municipality["state_id"]
+        display = display_names[
+            municipality_id
+        ]
 
-        lines.extend(
-            [
-                "  {",
-                f'    answer: "{municipality_id}",',
-                f'    display: "{display}",',
-                "  },",
-            ]
+        properties = [
+            f"name: {to_typescript_string(name)}",
+            f"stateId: {to_typescript_string(state_id)}",
+        ]
+
+        if display != name:
+            properties.append(
+                f"display: {to_typescript_string(display)}"
+            )
+
+        lines.append(
+            f"  {to_typescript_string(municipality_id)}: "
+            f"{{ {', '.join(properties)} }},"
         )
 
     lines.extend(
         [
-            "];",
+            "} as const;",
             "",
         ]
     )
@@ -452,65 +466,43 @@ def render_questions_constant(
     return "\n".join(lines)
 
 
-def render_quiz_file(
+def create_source(
     municipalities: list[dict[str, str]],
     display_names: dict[str, str],
 ) -> str:
-    """Render the complete TypeScript quiz configuration file."""
-
-    state_names = render_state_names_constant()
-    questions = render_questions_constant(
+    """Create the generated TypeScript admin data module."""
+    states = render_states()
+    municipality_data = render_municipalities(
         municipalities,
         display_names,
     )
 
-    return f'''import type {{ FeatureQuiz }} from "@/quiz/types/quiz";
-
-{state_names}{questions}/**
- * Quiz configuration for all Mexican municipalities, grouped by state.
+    return f'''/**
+ * Generated from Mexico's processed municipality GeoJSON.
+ *
+ * Do not edit manually.
+ * Regenerate with:
+ * python scripts/countries/mexico/generate/admin-quiz-data.py
  */
-export const mexicoMunicipalitiesQuiz: FeatureQuiz = {{
-  id: "mexico-municipalities",
-  name: "Mexico Municipalities",
-  description: `Learn all ${{MEXICO_MUNICIPALITY_QUESTIONS.length}} municipalities of Mexico, with filters that let you practice municipalities from any desired state or combination of states.`,
-  kind: "feature",
-  mapId: "mexico-municipalities",
-  answerProperty: "municipality_id",
-  answerType: "single",
-  baseMapLayers: {{
-    subdivisionLabels: false,
-  }},
-  grouping: {{
-    properties: [
-      {{
-        property: "state_id",
-        label: "State",
-        valueType: "string",
-        valueLabels: MEXICO_STATE_NAMES_BY_ID,
-      }},
-    ],
-  }},
-  questions: MEXICO_MUNICIPALITY_QUESTIONS,
-}};
-'''
 
-
-# ---------------------------------------------------------------------------
-# Generation
-# ---------------------------------------------------------------------------
+{states}{municipality_data}'''
 
 
 def main() -> None:
-    """Generate the Mexico Municipalities TypeScript quiz configuration."""
-
-    print("Mexico municipalities quiz generator")
-    print("-------------------------------------")
-    print(f"Input: {INPUT_PATH}")
-    print()
+    """Generate Mexico's administrative quiz data."""
+    print(
+        "Generating Mexico administrative quiz data...\n"
+    )
 
     features = load_features()
-    municipalities = extract_municipalities(features)
-    display_names = create_display_names(municipalities)
+
+    municipalities = extract_municipalities(
+        features
+    )
+
+    display_names = create_display_names(
+        municipalities
+    )
 
     name_counts = Counter(
         municipality["name"]
@@ -527,61 +519,70 @@ def main() -> None:
 
     duplicated_names = {
         name
-        for name, count in name_counts.items()
+        for name, count
+        in name_counts.items()
         if count > 1
     }
 
     municipalities_with_duplicate_names = sum(
         count
-        for name, count in name_counts.items()
+        for name, count
+        in name_counts.items()
         if name in duplicated_names
     )
 
     same_state_duplicate_groups = {
         pair
-        for pair, count in name_state_counts.items()
+        for pair, count
+        in name_state_counts.items()
         if count > 1
     }
 
     municipalities_needing_local_code = sum(
         count
-        for pair, count in name_state_counts.items()
+        for pair, count
+        in name_state_counts.items()
         if pair in same_state_duplicate_groups
     )
 
-    print(
-        f"✓ Loaded exactly {len(municipalities):,} municipalities."
+    OUTPUT_PATH.parent.mkdir(
+        parents=True,
+        exist_ok=True,
     )
-    print("✓ Found all 32 Mexican states/entities.")
-    print(
-        f"✓ Found {len(name_counts):,} unique municipality names."
-    )
-    print(
-        f"✓ Found {len(duplicated_names):,} duplicated names affecting "
-        f"{municipalities_with_duplicate_names:,} municipalities."
-    )
-    print(
-        f"✓ Found {len(same_state_duplicate_groups):,} same-state "
-        f"duplicate-name groups affecting "
-        f"{municipalities_needing_local_code:,} municipalities."
-    )
-    print("✓ Generated unique display names for every municipality.")
-
-    output = render_quiz_file(
-        municipalities,
-        display_names,
-    )
-
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     OUTPUT_PATH.write_text(
-        output,
+        create_source(
+            municipalities,
+            display_names,
+        ),
         encoding="utf-8",
     )
 
-    print()
-    print("✓ Saved generated quiz config to:")
-    print(f"  {OUTPUT_PATH}")
+    print(
+        f"States/entities:       "
+        f"{len(MEXICO_STATE_NAMES_BY_ID):,}"
+    )
+    print(
+        f"Municipalities:        "
+        f"{len(municipalities):,}"
+    )
+    print(
+        f"Unique names:          "
+        f"{len(name_counts):,}"
+    )
+    print(
+        f"Duplicated names:      "
+        f"{len(duplicated_names):,} "
+        f"({municipalities_with_duplicate_names:,} municipalities)"
+    )
+    print(
+        f"Local-code displays:   "
+        f"{municipalities_needing_local_code:,}"
+    )
+
+    print(
+        f"\nGenerated: {OUTPUT_PATH}"
+    )
 
 
 if __name__ == "__main__":

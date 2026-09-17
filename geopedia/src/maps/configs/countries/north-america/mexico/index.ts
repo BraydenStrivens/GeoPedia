@@ -1,3 +1,7 @@
+/**
+ * Exports the map configurations available for Mexico.
+ */
+
 export { mexicoMunicipalitiesMap } from "./municipalitiesMap";
 export { mexicoPhoneCodes1DigitMap } from "./phoneCodes1DigitMap";
 export { mexicoPhoneCodesMap } from "./phoneCodesMap";
