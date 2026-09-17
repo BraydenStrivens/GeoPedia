@@ -1,9 +1,11 @@
+/**
+ * Map configuration for Colombia's geographic fixed-line telephone area codes.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
 
-/**
- * Map configuration for Colombia's geographic fixed-line telephone-code
- * regions.
- */
+import { COLOMBIA_INITIAL_VIEW } from "./constants";
+
 export const colombiaPhoneCodesMap = createMapConfig({
   id: "colombia-phone-codes",
 
@@ -12,14 +14,7 @@ export const colombiaPhoneCodesMap = createMapConfig({
   featureProperty: "phone_code",
   promoteId: "id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-74.3, 4.5],
-    zoom: 4.6,
-  },
+  initialView: COLOMBIA_INITIAL_VIEW,
 
   layers: {
     borders: {

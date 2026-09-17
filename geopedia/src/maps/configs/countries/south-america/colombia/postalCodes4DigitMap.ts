@@ -1,8 +1,14 @@
-import { createMapConfig } from "@/maps/configs/createMapConfig";
-
 /**
  * Map configuration for Colombia's 4-digit postal-code regions.
+ *
+ * These regions represent the first four digits of Colombia's 6-digit
+ * postal codes.
  */
+
+import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { COLOMBIA_INITIAL_VIEW } from "./constants";
+
 export const colombiaPostalCodes4DigitMap = createMapConfig({
   id: "colombia-postal-codes-4-digit",
 
@@ -18,14 +24,7 @@ export const colombiaPostalCodes4DigitMap = createMapConfig({
     labelsPerZoom: 150,
   },
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-74.3, 4.5],
-    zoom: 4.6,
-  },
+  initialView: COLOMBIA_INITIAL_VIEW,
 
   layers: {
     borders: {

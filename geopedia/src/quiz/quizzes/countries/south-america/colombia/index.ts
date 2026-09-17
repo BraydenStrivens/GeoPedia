@@ -1,3 +1,7 @@
+/**
+ * Exports the quizzes available for Colombia.
+ */
+
 export { colombiaDepartmentFlagsQuiz } from "./departmentFlagsQuiz";
 export { colombiaDepartmentsQuiz } from "./departmentsQuiz";
 export { colombiaMunicipalitiesQuiz } from "./municipalitiesQuiz";

@@ -1,8 +1,9 @@
+/**
+ * Quiz configuration for Colombia's geographic fixed-line telephone area codes.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
-/**
- * Colombia's geographic fixed-line telephone codes.
- */
 const COLOMBIA_PHONE_CODE_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "601" },
   { answer: "602" },
@@ -13,9 +14,6 @@ const COLOMBIA_PHONE_CODE_QUESTIONS: FeatureQuiz["questions"] = [
   { answer: "608" },
 ];
 
-/**
- * Description shown for Colombia's Phone Codes quiz.
- */
 const COLOMBIA_PHONE_CODES_DESCRIPTION =
   `Learn all ${COLOMBIA_PHONE_CODE_QUESTIONS.length} geographic fixed-line ` +
   `telephone codes used across Colombia. Colombian fixed-line numbers use a ` +
@@ -23,9 +21,6 @@ const COLOMBIA_PHONE_CODES_DESCRIPTION =
   `total, such as 601 XXX-XXXX in Bogotá or 604 XXX-XXXX in Antioquia. ` +
   `Mobile numbers instead begin with 3 and do not use these geographic codes.`;
 
-/**
- * Quiz configuration for Colombia's geographic fixed-line telephone codes.
- */
 export const colombiaPhoneCodesQuiz: FeatureQuiz = {
   id: "colombia-phone-codes",
   name: "Phone Codes",

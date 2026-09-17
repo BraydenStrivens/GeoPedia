@@ -1,8 +1,11 @@
+/**
+ * Map configuration for Colombia's first-level administrative departments.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
 
-/**
- * Map configuration for Colombia's departments and Bogotá Capital District.
- */
+import { COLOMBIA_INITIAL_VIEW } from "./constants";
+
 export const colombiaDepartmentsMap = createMapConfig({
   id: "colombia-departments",
 
@@ -11,14 +14,7 @@ export const colombiaDepartmentsMap = createMapConfig({
   featureProperty: "name",
   promoteId: "id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-74.3, 4.5],
-    zoom: 4.6,
-  },
+  initialView: COLOMBIA_INITIAL_VIEW,
 
   hover: {
     labelProperty: "name",

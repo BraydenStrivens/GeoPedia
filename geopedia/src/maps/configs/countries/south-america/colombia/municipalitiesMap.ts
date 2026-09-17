@@ -1,8 +1,11 @@
+/**
+ * Map configuration for Colombia's second-level administrative municipalities.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
 
-/**
- * Map configuration for Colombia's municipalities.
- */
+import { COLOMBIA_INITIAL_VIEW } from "./constants";
+
 export const colombiaMunicipalitiesMap = createMapConfig({
   id: "colombia-municipalities",
 
@@ -18,14 +21,7 @@ export const colombiaMunicipalitiesMap = createMapConfig({
     labelsPerZoom: 150,
   },
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-74.3, 4.5],
-    zoom: 4.6,
-  },
+  initialView: COLOMBIA_INITIAL_VIEW,
 
   layers: {
     borders: {

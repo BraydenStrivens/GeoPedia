@@ -1,16 +1,18 @@
 """
-Generates Colombia's 4-digit postal-code quiz configuration.
+Generates the data used by Colombia's 4-digit postal-code quiz.
 
 Source:
     public/data/countries/colombia/geojson/municipalities.geojson
 
 Output:
-    src/quizzes/countries/colombia/postalCodes4Quiz.ts
+    src/quiz/quizzes/countries/south-america/colombia/data/postalCodes.ts
 
 Municipality features may contain either one 4-digit postal prefix or multiple
 prefixes. Bogotá is represented by one synthetic answer covering prefixes
 1101 through 1120.
 """
+
+from __future__ import annotations
 
 import json
 from pathlib import Path
@@ -21,8 +23,10 @@ SOURCE_PATH = Path(
 )
 
 OUTPUT_PATH = Path(
-    "src/quiz/quizzes/colombia/postalCodes4Quiz.ts"
+    "src/quiz/quizzes/countries/south-america/colombia/data/postalCodes.ts"
 )
+
+EXPECTED_MUNICIPALITY_COUNT = 1_122
 
 BOGOTA_POSTAL_ANSWER = "bogota-1101-1120"
 
@@ -37,6 +41,11 @@ def quote(value: str) -> str:
 
 def load_features() -> list[dict]:
     """Load and validate Colombia's processed municipality GeoJSON."""
+    if not SOURCE_PATH.exists():
+        raise FileNotFoundError(
+            f"Source GeoJSON was not found: {SOURCE_PATH}"
+        )
+
     data = json.loads(
         SOURCE_PATH.read_text(encoding="utf-8")
     )
@@ -53,9 +62,10 @@ def load_features() -> list[dict]:
             "Municipality GeoJSON is missing its features array."
         )
 
-    if len(features) != 1122:
+    if len(features) != EXPECTED_MUNICIPALITY_COUNT:
         raise ValueError(
-            f"Expected 1122 municipalities, found {len(features)}."
+            f"Expected {EXPECTED_MUNICIPALITY_COUNT} municipalities, "
+            f"found {len(features)}."
         )
 
     return features
@@ -81,10 +91,15 @@ def extract_postal_answers(
             )
 
         municipality_id = properties.get("id")
-
         value = properties.get("postal_code_4_digit")
 
         if isinstance(value, str):
+            if not value:
+                raise ValueError(
+                    f"Municipality {municipality_id} has an empty "
+                    "postal-code prefix."
+                )
+
             answers.add(value)
 
         elif isinstance(value, list):
@@ -133,7 +148,7 @@ def get_display(answer: str) -> str:
 def create_source(
     answers: list[str],
 ) -> str:
-    """Create the TypeScript 4-digit postal-code quiz module."""
+    """Create the generated Colombia postal-code data module."""
     question_lines = "\n".join(
         "\n".join(
             [
@@ -146,75 +161,30 @@ def create_source(
         for answer in answers
     )
 
-    return f'''import type {{ FeatureQuiz }} from "@/types/quiz";
-
-import {{
-  COLOMBIA_DEPARTMENT_NAMES_BY_ID,
-}} from "./departmentsQuiz";
-
-/**
- * Questions for Colombia's 4-digit postal-code prefix quiz.
+    return f'''/**
+ * Generated from Colombia's processed municipality GeoJSON.
  *
- * Bogotá is represented by one logical answer covering prefixes 1101 through
- * 1120. Other questions represent one ordinary 4-digit prefix.
+ * Contains the questions used by Colombia's 4-digit postal-code quiz.
+ * Bogotá is represented by one logical answer covering prefixes 1101–1120.
  *
- * This list is generated from the processed municipality GeoJSON and should
- * not be edited manually.
+ * Do not edit manually.
+ * Regenerate with:
+ * python scripts/countries/colombia/generate/postal-codes-quiz-data.py
  */
-const COLOMBIA_POSTAL_CODE_4_QUESTIONS: FeatureQuiz["questions"] = [
+
+import type {{ FeatureQuiz }} from "@/types/quiz";
+
+export const COLOMBIA_POSTAL_CODE_4_QUESTIONS: FeatureQuiz["questions"] = [
 {question_lines}
 ];
-
-/**
- * Description shown for Colombia's 4-Digit Postal Codes quiz.
- */
-const COLOMBIA_POSTAL_CODES_4_DESCRIPTION =
-  `Learn all ${{COLOMBIA_POSTAL_CODE_4_QUESTIONS.length}} Colombian 4-digit ` +
-  `postal-code regions. Each ordinary question represents the first four ` +
-  `digits of an otherwise 6-digit postal code. Bogotá is represented by one ` +
-  `combined 1101–1120 question because those prefixes divide the capital ` +
-  `rather than following municipality boundaries.`;
-
-/**
- * Quiz configuration for Colombia's 4-digit postal-code prefixes.
- */
-export const colombiaPostalCodes4Quiz: FeatureQuiz = {{
-  id: "colombia-postal-codes-4",
-  name: "4-Digit Postal Codes",
-  description: COLOMBIA_POSTAL_CODES_4_DESCRIPTION,
-
-  kind: "feature",
-  mapId: "colombia-municipalities",
-
-  answerProperty: "postal_code_4_digit",
-  answerType: "multiple",
-
-  grouping: {{
-    properties: [
-      {{
-        property: "department_id",
-        label: "Department",
-        valueType: "string",
-        valueLabels: COLOMBIA_DEPARTMENT_NAMES_BY_ID,
-      }},
-    ],
-  }},
-
-  baseMapLayers: {{
-    subdivisionLabels: false,
-  }},
-
-  questions: COLOMBIA_POSTAL_CODE_4_QUESTIONS,
-}};
 '''
 
 
 def main() -> None:
-    """Generate Colombia's 4-digit postal-code quiz configuration."""
-    print("Generating Colombia 4-digit postal-code quiz...")
+    """Generate Colombia's postal-code quiz data."""
+    print("Generating Colombia postal-code quiz data...\n")
 
     features = load_features()
-
     answers = extract_postal_answers(features)
 
     source = create_source(answers)
@@ -229,8 +199,8 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    print(f"Questions: {len(answers)}")
-    print(f"Output: {OUTPUT_PATH}")
+    print(f"Questions: {len(answers):,}")
+    print(f"Generated: {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":

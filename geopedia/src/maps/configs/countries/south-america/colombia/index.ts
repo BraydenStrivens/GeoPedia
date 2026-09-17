@@ -1,3 +1,7 @@
+/**
+ * Exports the map configurations available for Colombia.
+ */
+
 export { colombiaDepartmentsMap } from "./departmentsMap";
 export { colombiaMunicipalitiesMap } from "./municipalitiesMap";
 export { colombiaPhoneCodesMap } from "./phoneCodesMap";
