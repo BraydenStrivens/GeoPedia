@@ -1,8 +1,10 @@
-import { createMapConfig } from "../../../createMapConfig";
-
 /**
  * Map configuration for the U.S. Virgin Islands' subdivisions.
  */
+
+import { createMapConfig } from "../../../createMapConfig";
+import { US_VIRGIN_ISLANDS_INITIAL_VIEW } from "./constants";
+
 export const usVirginIslandsSubdivisionsMap = createMapConfig({
   id: "us-virgin-islands-subdivisions",
 
@@ -12,14 +14,7 @@ export const usVirginIslandsSubdivisionsMap = createMapConfig({
   featureProperty: "name",
   promoteId: "subdivision_id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-64.78, 18.05],
-    zoom: 8,
-  },
+  initialView: US_VIRGIN_ISLANDS_INITIAL_VIEW,
 
   hover: {
     labelProperty: "name",

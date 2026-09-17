@@ -1,13 +1,16 @@
-import type { FeatureQuiz } from "@/types/quiz";
-
-import { US_VIRGIN_ISLANDS_ISLAND_NAMES_BY_ID } from "./islandsQuiz";
-
 /**
- * Questions for the U.S. Virgin Islands subdivisions quiz.
+ * Administrative data used by the U.S. Virgin Islands quizzes.
  *
- * Repeated subdivision names are disambiguated with their parent island.
+ * Contains island labels and subdivision questions used by the island and
+ * subdivision quiz configurations.
  */
-const US_VIRGIN_ISLANDS_SUBDIVISION_QUESTIONS = [
+
+export const US_VIRGIN_ISLANDS_ISLANDS_BY_ID = {
+  "78010": "St. Croix",
+  "78020": "St. John",
+  "78030": "St. Thomas",
+};
+export const US_VIRGIN_ISLANDS_SUBDIVISION_QUESTIONS = [
   {
     answer: "14107722B43744720873682",
     display: "Anna's Hope Village",
@@ -91,35 +94,3 @@ const US_VIRGIN_ISLANDS_SUBDIVISION_QUESTIONS = [
     display: "West End",
   },
 ];
-
-/**
- * Quiz configuration for the U.S. Virgin Islands' subdivisions.
- */
-export const usVirginIslandsSubdivisionsQuiz: FeatureQuiz = {
-  id: "us-virgin-islands-subdivisions",
-  name: "Subdivisions",
-  description: `Learn all ${US_VIRGIN_ISLANDS_SUBDIVISION_QUESTIONS.length} subdivisions of the U.S. Virgin Islands, with filters that let you practice subdivisions by island.`,
-
-  kind: "feature",
-  mapId: "us-virgin-islands-subdivisions",
-
-  answerProperty: "subdivision_id",
-  answerType: "single",
-
-  baseMapLayers: {
-    subdivisionLabels: false,
-  },
-
-  grouping: {
-    properties: [
-      {
-        property: "island_id",
-        label: "Island",
-        valueType: "string",
-        valueLabels: US_VIRGIN_ISLANDS_ISLAND_NAMES_BY_ID,
-      },
-    ],
-  },
-
-  questions: US_VIRGIN_ISLANDS_SUBDIVISION_QUESTIONS,
-};

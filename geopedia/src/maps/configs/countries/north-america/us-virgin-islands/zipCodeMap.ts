@@ -1,8 +1,10 @@
-import { createMapConfig } from "../../../createMapConfig";
-
 /**
  * Map configuration for the U.S. Virgin Islands' ZIP codes.
  */
+
+import { createMapConfig } from "../../../createMapConfig";
+import { US_VIRGIN_ISLANDS_INITIAL_VIEW } from "./constants";
+
 export const usVirginIslandsZipCodesMap = createMapConfig({
   id: "us-virgin-islands-zip-codes",
 
@@ -12,14 +14,7 @@ export const usVirginIslandsZipCodesMap = createMapConfig({
   featureProperty: "zip_code",
   promoteId: "zip_code",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-64.78, 18.05],
-    zoom: 8,
-  },
+  initialView: US_VIRGIN_ISLANDS_INITIAL_VIEW,
 
   hover: {
     labelProperty: "zip_code",

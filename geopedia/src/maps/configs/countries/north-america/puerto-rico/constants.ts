@@ -1,5 +1,5 @@
 /**
- * Shared constants used by the Puerto Rico's map configurations.
+ * Shared constants used by Puerto Rico's map configurations.
  */
 
 import type { MapInitialView } from "@/maps/types";
