@@ -18,7 +18,7 @@
  * Country navigation is handled independently by `BaseWorldNavigationMap`.
  */
 
-import type * as maplibregl from "maplibre-gl";
+import * as maplibregl from "maplibre-gl";
 
 import {
   FEATURE_FILL_LAYER_ID,
@@ -54,6 +54,87 @@ type ClickedMapFeature = {
 type FeatureClickEvent = maplibregl.MapMouseEvent & {
   features?: maplibregl.MapGeoJSONFeature[];
 };
+
+/**
+ * Extends geographic bounds with every coordinate contained in a GeoJSON
+ * geometry.
+ */
+function extendBoundsWithCoordinates(
+  bounds: maplibregl.LngLatBounds,
+  coordinates: unknown,
+): void {
+  if (!Array.isArray(coordinates)) {
+    return;
+  }
+
+  if (
+    coordinates.length >= 2 &&
+    typeof coordinates[0] === "number" &&
+    typeof coordinates[1] === "number"
+  ) {
+    bounds.extend([coordinates[0], coordinates[1]]);
+
+    return;
+  }
+
+  for (const coordinate of coordinates) {
+    extendBoundsWithCoordinates(bounds, coordinate);
+  }
+}
+
+/**
+ * Finds the geographic feature representing the current quiz answer.
+ */
+function findFeatureForAnswer(
+  map: maplibregl.Map,
+  answerProperty: string,
+  answer: string,
+): maplibregl.GeoJSONFeature | null {
+  const features = map.querySourceFeatures(FEATURE_SOURCE_ID);
+
+  for (const feature of features) {
+    const featureAnswers = getFeatureAnswers(
+      feature.properties?.[answerProperty],
+    );
+
+    if (featureAnswers.includes(answer)) {
+      return feature;
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Returns a screen position near the top-center of a geographic feature.
+ */
+function getFeaturePopupPoint(
+  map: maplibregl.Map,
+  feature: maplibregl.GeoJSONFeature,
+): maplibregl.Point | null {
+  const geometry = feature.geometry;
+
+  if (
+    geometry.type !== "Polygon" &&
+    geometry.type !== "MultiPolygon"
+  ) {
+    return null;
+  }
+
+  const bounds = new maplibregl.LngLatBounds();
+
+  extendBoundsWithCoordinates(bounds, geometry.coordinates);
+
+  if (bounds.isEmpty()) {
+    return null;
+  }
+
+  const west = bounds.getWest();
+  const east = bounds.getEast();
+  const north = bounds.getNorth();
+
+  return map.project([(west + east) / 2, north]);
+}
 
 /**
  * Handles a manual-group feature selection.
@@ -115,6 +196,7 @@ function handleFeatureQuizSelection(
     answerStatusesRef,
     showIncorrectSelectionRef,
     setFeatureSelection,
+    setCorrectFeatureSelection,
     setHoveredFeatureId,
   } = context;
 
@@ -186,6 +268,9 @@ function handleFeatureQuizSelection(
    * Incorrect-answer feedback identifies the selected geography when the
    * corresponding setting is enabled.
    *
+   * Correct-answer feedback identifies the correct geography when the
+   * corresponding setting is enabled.
+   *
    * The popup uses the same feature-selection state as inactive inspection,
    * while the React presentation layer supplies incorrect-answer styling.
    */
@@ -200,6 +285,42 @@ function handleFeatureQuizSelection(
       x: pointX,
       y: pointY,
     });
+
+    /*
+     * Also identify the correct geography.
+     *
+     * This is especially useful for very small features whose correct-answer
+     * shading may otherwise be difficult to locate on the map.
+     */
+    const correctFeature = findFeatureForAnswer(
+      map,
+      quiz.answerProperty,
+      currentAnswer,
+    );
+
+    if (correctFeature) {
+      const correctFeatureAnswers = getFeatureAnswers(
+        correctFeature.properties?.[quiz.answerProperty],
+      );
+
+      const correctFeatureContent = getFeatureAnswerLabelContent(
+        correctFeatureAnswers,
+        quiz,
+      );
+
+      const correctFeaturePoint = getFeaturePopupPoint(
+        map,
+        correctFeature,
+      );
+
+      if (correctFeaturePoint) {
+        setCorrectFeatureSelection({
+          content: correctFeatureContent,
+          x: correctFeaturePoint.x,
+          y: correctFeaturePoint.y,
+        });
+      }
+    }
   }
 
   /*

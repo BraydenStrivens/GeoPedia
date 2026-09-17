@@ -20,7 +20,7 @@ import type { FeatureSelection } from "@/maps/types";
 /**
  * Length of time temporary feature-selection feedback remains visible.
  */
-const FEATURE_SELECTION_DURATION_MS = 1200;
+const FEATURE_SELECTION_DURATION_MS = 1500;
 
 /**
  * Result returned by `useFeatureSelection`.

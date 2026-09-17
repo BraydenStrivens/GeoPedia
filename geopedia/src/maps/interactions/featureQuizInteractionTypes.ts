@@ -127,4 +127,12 @@ export type QuizMapInteractionContext = {
    * quiz or temporary answer inspection while the quiz is inactive.
    */
   setFeatureSelection: (selection: FeatureSelection | null) => void;
+
+  /**
+   * Updates temporary feedback identifying the correct geographic feature after
+   * an incorrect quiz selection.
+   */
+  setCorrectFeatureSelection: (
+    selection: FeatureSelection | null,
+  ) => void;
 };

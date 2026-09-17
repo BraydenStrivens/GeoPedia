@@ -124,6 +124,7 @@ const EMPTY_MANUAL_FEATURE_SELECTION: ReadonlySet<string> =
  *
  * @param _featureId - Ignored geographic feature ID.
  */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function ignoreFeatureSelection(_featureId: string): void {}
 
 /**
@@ -191,6 +192,15 @@ export default function FeatureQuizMap({
    */
   const { featureSelection, setFeatureSelection } =
     useFeatureSelection();
+
+  /**
+   * Temporary feedback identifying the correct feature after an incorrect
+   * selection during an active quiz.
+   */
+  const {
+    featureSelection: correctFeatureSelection,
+    setFeatureSelection: setCorrectFeatureSelection,
+  } = useFeatureSelection();
 
   /**
    * Normal Show Answers disables geographic feature clicks.
@@ -312,6 +322,7 @@ export default function FeatureQuizMap({
 
     setHoveredFeatureId,
     setFeatureSelection,
+    setCorrectFeatureSelection,
 
     showIncorrectSelectionRef,
   });
@@ -433,6 +444,12 @@ export default function FeatureQuizMap({
         selection={featureSelection}
         backgroundClassName={isActive ? "bg-red-500" : undefined}
         textClassName={isActive ? "text-white" : undefined}
+      />
+
+      <FeatureSelectionPopup
+        selection={correctFeatureSelection}
+        backgroundClassName="bg-green-500"
+        textClassName="text-white"
       />
 
       {/* MapLibre feature quiz map container */}

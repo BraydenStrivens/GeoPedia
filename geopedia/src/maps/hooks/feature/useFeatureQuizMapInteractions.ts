@@ -84,6 +84,11 @@ type UseFeatureQuizMapInteractionsParams = {
    */
   setFeatureSelection: (selection: FeatureSelection | null) => void;
 
+  /** Updates temporary feedback identifying the correct quiz feature. */
+  setCorrectFeatureSelection: (
+    selection: FeatureSelection | null,
+  ) => void;
+
   /**
    * Determines whether an incorrect selection made during an active quiz
    * reveals the selected feature's answer.
@@ -118,6 +123,7 @@ export function useFeatureQuizMapInteractions({
   onFeatureSelectRef,
   setHoveredFeatureId,
   setFeatureSelection,
+  setCorrectFeatureSelection,
   showIncorrectSelectionRef,
 }: UseFeatureQuizMapInteractionsParams): void {
   useEffect(() => {
@@ -141,6 +147,7 @@ export function useFeatureQuizMapInteractions({
       onFeatureSelectRef,
       setHoveredFeatureId,
       setFeatureSelection,
+      setCorrectFeatureSelection,
       showIncorrectSelectionRef,
     });
   }, [
@@ -158,6 +165,7 @@ export function useFeatureQuizMapInteractions({
     onFeatureSelectRef,
     setHoveredFeatureId,
     setFeatureSelection,
+    setCorrectFeatureSelection,
     showIncorrectSelectionRef,
   ]);
 }
