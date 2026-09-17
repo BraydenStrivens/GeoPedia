@@ -1,27 +1,16 @@
 /**
- * Generates GeoPedia's global Calling Codes quiz from the processed world
- * country GeoJSON and CountryData source records.
+ * Generates GeoPedia's global Calling Codes quiz data from the processed
+ * world-country GeoJSON and CountryData source records.
  *
- * The generated quiz:
+ * The generated question data:
  *
- * - Uses `world-countries.geojson` as the authoritative clickable geography.
- * - Matches each mapped country to its CountryData record by ISO alpha-3 code.
- * - Displays calling codes with a leading `+`.
- * - Uses the country's ISO alpha-3 code as the clickable map answer.
- * - Uses the existing `world-countries` MapConfig.
- * - Supports continent, region, and subregion grouping.
+ * - Uses `world-countries.geojson` as the authoritative mapped geography.
+ * - Matches mapped countries to CountryData by ISO alpha-3 code.
+ * - Normalizes calling codes with a leading `+`.
+ * - Produces one question for each distinct calling code.
  *
- * Example:
- *
- *   +81
- *     -> user clicks Japan
- *
- * Generated question:
- *
- *   {
- *     answer: "JPN",
- *     display: "+81",
- *   }
+ * Shared calling codes are intentionally collapsed into one question because
+ * the world-country GeoJSON stores calling-code arrays on each feature.
  */
 
 import fs from "node:fs";
@@ -42,20 +31,17 @@ const COUNTRIES_PATH = path.resolve(
 );
 
 /**
- * Generated quiz module.
+ * Generated Calling Codes question data.
  */
 const OUTPUT_PATH = path.resolve(
-  "src/quiz/quizzes/global/callingCodes.ts",
+  "src/quiz/quizzes/global/data/callingCodes.ts",
 );
 
 /**
  * Properties required from each world-country map feature.
  */
 type WorldCountryProperties = {
-  /** User-facing country name. */
   name: string;
-
-  /** Canonical ISO alpha-3 identifier used by the quiz map. */
   iso_a3: string;
 };
 
@@ -64,7 +50,6 @@ type WorldCountryProperties = {
  */
 type WorldCountryFeature = {
   type: "Feature";
-
   properties: WorldCountryProperties;
 };
 
@@ -73,7 +58,6 @@ type WorldCountryFeature = {
  */
 type WorldCountryFeatureCollection = {
   type: "FeatureCollection";
-
   features: WorldCountryFeature[];
 };
 
@@ -89,31 +73,15 @@ type CountryDataRecord = {
     alpha_3?: string;
   };
 
-  /**
-   * Country calling codes without their leading `+`.
-   *
-   * Example:
-   *
-   *   ["81"]
-   *
-   * becomes:
-   *
-   *   +81
-   */
   calling_codes?: string[];
 };
 
 /**
- * Resolved quiz entry before TypeScript source is generated.
+ * Resolved country/calling-code assignment used during generation.
  */
-type CallingCodeQuizEntry = {
-  /** ISO alpha-3 map answer. */
+type CallingCodeEntry = {
   answer: string;
-
-  /** Calling code displayed to the user, including its leading `+`. */
   display: string;
-
-  /** Country name used for sorting and diagnostics. */
   countryName: string;
 };
 
@@ -126,9 +94,6 @@ function quote(value: string): string {
 
 /**
  * Reads and parses a JSON file.
- *
- * @param filePath - JSON file to load.
- * @returns Parsed JSON contents.
  */
 function readJson<T>(filePath: string): T {
   if (!fs.existsSync(filePath)) {
@@ -141,8 +106,7 @@ function readJson<T>(filePath: string): T {
 }
 
 /**
- * Returns the canonical world-map ISO alpha-3 value for one CountryData
- * record.
+ * Returns the canonical world-map ISO alpha-3 value for a CountryData record.
  *
  * Kosovo is normalized to `XKX` so it matches GeoPedia's generated world
  * geography.
@@ -166,18 +130,7 @@ function getCountryDataIsoA3(
 }
 
 /**
- * Normalizes one raw calling code for display.
- *
- * CountryData stores codes without `+`, while the quiz should show normal
- * international dialing notation.
- *
- * Examples:
- *
- *   "81"  -> "+81"
- *   "+81" -> "+81"
- *
- * @param callingCode - Raw CountryData calling code.
- * @returns Normalized display value or `null` for empty input.
+ * Normalizes a calling code for display.
  */
 function normalizeCallingCode(callingCode: string): string | null {
   const trimmedCode = callingCode.trim();
@@ -194,9 +147,7 @@ function normalizeCallingCode(callingCode: string): string | null {
 }
 
 /**
- * Returns all usable calling codes belonging to one CountryData record.
- *
- * Duplicate values inside the same country record are removed.
+ * Returns the unique usable calling codes for one country.
  */
 function getCallingCodes(
   callingCodes: CountryDataRecord["calling_codes"] | undefined,
@@ -240,21 +191,15 @@ function createCountryDataLookup(
 }
 
 /**
- * Resolves mapped world countries into Calling Codes quiz entries.
- *
- * Countries with multiple calling codes receive one question for each code.
- *
- * Countries without a CountryData match or without any calling code are
- * reported rather than silently disappearing from the generated quiz.
+ * Resolves mapped world countries into country/calling-code assignments.
  */
-function createCallingCodeQuizEntries(
+function createCallingCodeEntries(
   features: WorldCountryFeature[],
   countryLookup: Map<string, CountryDataRecord>,
-): CallingCodeQuizEntry[] {
-  const entries: CallingCodeQuizEntry[] = [];
+): CallingCodeEntry[] {
+  const entries: CallingCodeEntry[] = [];
 
   const missingCountryData: string[] = [];
-
   const missingCallingCodes: string[] = [];
 
   for (const feature of features) {
@@ -313,25 +258,10 @@ function createCallingCodeQuizEntries(
 }
 
 /**
- * Reports calling codes shared by multiple countries.
- *
- * These are important because a single-answer quiz cannot determine which
- * country the user should select from the calling code alone.
- *
- * Example:
- *
- *   +1
- *     Canada
- *     United States
- *
- * Shared codes are currently retained in the generated quiz so the source data
- * can be inspected before deciding how GeoPedia should treat ambiguous
- * questions.
+ * Reports calling codes shared by multiple mapped countries.
  */
-function reportSharedCallingCodes(
-  entries: CallingCodeQuizEntry[],
-): void {
-  const countriesByCode = new Map<string, CallingCodeQuizEntry[]>();
+function reportSharedCallingCodes(entries: CallingCodeEntry[]): void {
+  const countriesByCode = new Map<string, CallingCodeEntry[]>();
 
   for (const entry of entries) {
     const existing = countriesByCode.get(entry.display);
@@ -380,127 +310,48 @@ function reportSharedCallingCodes(
       console.warn(`    - ${entry.countryName} (${entry.answer})`);
     }
   }
-
-  console.warn(
-    "\nThese questions are ambiguous in the current single-answer quiz model.",
-  );
 }
 
 /**
- * Creates generated TypeScript for one Calling Codes question.
+ * Creates one question for each distinct calling code.
  */
-function createQuestionSource(entry: CallingCodeQuizEntry): string {
-  return [
-    "    {",
-    `      answer: ${quote(entry.answer)},`,
-    `      display: ${quote(entry.display)},`,
-    "    },",
-  ].join("\n");
-}
-
-/**
- * Creates the complete generated Calling Codes quiz module.
- *
- * The quiz contains exactly one question for each distinct calling code.
- *
- * Individual world-country features store their own `calling_codes` arrays,
- * allowing several geographic features to resolve to the same quiz answer.
- */
-function createQuizSource(entries: CallingCodeQuizEntry[]): string {
-  /**
-   * Collapse country/code assignments into one entry per calling code.
-   *
-   * Example:
-   *
-   * USA -> +1
-   * CAN -> +1
-   * JAM -> +1
-   *
-   * becomes one quiz question:
-   *
-   * +1
-   */
-  const distinctCallingCodes = Array.from(
+function createQuestions(entries: CallingCodeEntry[]): string[] {
+  return Array.from(
     new Set(entries.map((entry) => entry.display)),
   ).sort((left, right) =>
     left.localeCompare(right, "en", {
       numeric: true,
     }),
   );
+}
 
-  const questions = distinctCallingCodes
-    .map((callingCode) =>
-      [
-        "    {",
-        `      answer: ${quote(callingCode)},`,
-        `      display: ${quote(callingCode)},`,
-        "    },",
-      ].join("\n"),
-    )
+/**
+ * Creates the generated TypeScript question-data module.
+ */
+function createSource(questions: string[]): string {
+  const questionSource = questions
+    .map((callingCode) => `  { answer: ${quote(callingCode)} },`)
     .join("\n");
 
   return `/**
- * AUTO-GENERATED FILE.
+ * Generated Calling Codes quiz data.
  *
- * Generated by:
- *
- *   scripts/generateCallingCodesQuiz.ts
- *
- * Do not edit the question list manually. Update CountryData or the generator
- * and rerun the script instead.
+ * Do not edit manually.
+ * Regenerate with:
+ * npx tsx scripts/global/countries/quizzes/generate-calling-codes-quiz-data.ts
  */
 
-import type { Quiz } from "@/types/quiz";
-
-/**
- * Tests recognition of countries and territories from their international
- * calling codes.
- *
- * A calling code may belong to more than one geographic feature. Selecting any
- * feature whose \`calling_codes\` property contains the current answer is
- * considered a valid selection.
- */
-export const callingCodesQuiz: Quiz = {
-  id: "calling-codes",
-  name: "Calling Codes",
-
-  mapId: "world-countries",
-
-  answerProperty: "calling_codes",
-  answerType: "single",
-
-  grouping: {
-    properties: [
-      {
-        property: "continent",
-        label: "Continent",
-        valueType: "string",
-      },
-      {
-        property: "region",
-        label: "Region",
-        valueType: "string",
-      },
-      {
-        property: "subregion",
-        label: "Subregion",
-        valueType: "string",
-      },
-    ],
-  },
-
-  questions: [
-${questions}
-  ],
-};
+export const CALLING_CODE_QUESTIONS = [
+${questionSource}
+];
 `;
 }
 
 /**
- * Generates GeoPedia's Calling Codes quiz.
+ * Generates GeoPedia's global Calling Codes question data.
  */
 function main(): void {
-  console.log("Generating Calling Codes quiz...");
+  console.log("Generating Calling Codes quiz data...");
 
   const worldCountries = readJson<WorldCountryFeatureCollection>(
     WORLD_COUNTRIES_PATH,
@@ -519,20 +370,22 @@ function main(): void {
 
   if (!Array.isArray(countries)) {
     throw new Error(
-      "countries.json must contain an array of CountryData records.",
+      "rest-countries.json must contain an array of CountryData records.",
     );
   }
 
   const countryLookup = createCountryDataLookup(countries);
 
-  const entries = createCallingCodeQuizEntries(
+  const entries = createCallingCodeEntries(
     worldCountries.features,
     countryLookup,
   );
 
   reportSharedCallingCodes(entries);
 
-  const source = createQuizSource(entries);
+  const questions = createQuestions(entries);
+
+  const source = createSource(questions);
 
   fs.mkdirSync(path.dirname(OUTPUT_PATH), {
     recursive: true,
@@ -542,12 +395,8 @@ function main(): void {
 
   console.log("");
 
-  const distinctCallingCodeCount = new Set(
-    entries.map((entry) => entry.display),
-  ).size;
-
   console.log(
-    `Generated ${distinctCallingCodeCount} distinct Calling Codes questions.`,
+    `Generated ${questions.length} distinct Calling Codes questions.`,
   );
 
   console.log(

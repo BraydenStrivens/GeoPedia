@@ -1,28 +1,13 @@
 /**
- * Generates GeoPedia's global Country Capitals quiz from the processed world
- * country GeoJSON and CountryData source records.
+ * Generates GeoPedia's global Country Capitals quiz data from the processed
+ * world-country GeoJSON and CountryData source records.
  *
- * The generated quiz:
+ * The generated questions:
  *
- * - Uses `world-countries.geojson` as the authoritative clickable geography.
- * - Matches each mapped country to its CountryData record.
- * - Uses the country's capital as the displayed quiz question.
- * - Uses the country's ISO alpha-3 code as the map answer.
- * - Uses the existing `world-countries` MapConfig.
- * - Supports the same continent, region, and subregion grouping properties as
- *   GeoPedia's other world-country quizzes.
- *
- * Example:
- *
- *   Tokyo
- *     -> user clicks Japan
- *
- * Generated question:
- *
- *   {
- *     answer: "JPN",
- *     display: "Tokyo",
- *   }
+ * - Use `world-countries.geojson` as the authoritative mapped geography.
+ * - Match each mapped country to its CountryData record.
+ * - Display the country's capital or capitals.
+ * - Use the country's ISO alpha-3 code as the map answer.
  */
 
 import fs from "node:fs";
@@ -43,20 +28,17 @@ const COUNTRIES_PATH = path.resolve(
 );
 
 /**
- * Generated quiz module.
+ * Generated Country Capitals question data.
  */
 const OUTPUT_PATH = path.resolve(
-  "src/quiz/quizzes/global/countryCapitals.ts",
+  "src/quiz/quizzes/global/data/countryCapitals.ts",
 );
 
 /**
  * Properties required from each mapped world-country feature.
  */
 type WorldCountryProperties = {
-  /** User-facing country name. */
   name: string;
-
-  /** Canonical ISO alpha-3 identifier used by the quiz map. */
   iso_a3: string;
 };
 
@@ -65,7 +47,6 @@ type WorldCountryProperties = {
  */
 type WorldCountryFeature = {
   type: "Feature";
-
   properties: WorldCountryProperties;
 };
 
@@ -74,15 +55,11 @@ type WorldCountryFeature = {
  */
 type WorldCountryFeatureCollection = {
   type: "FeatureCollection";
-
   features: WorldCountryFeature[];
 };
 
 /**
  * CountryData fields needed by this generator.
- *
- * `capital` accepts either a single string or an array so the generator remains
- * safe if the source represents countries with multiple capitals explicitly.
  */
 type CountryDataRecord = {
   names?: {
@@ -99,25 +76,16 @@ type CountryDataRecord = {
 };
 
 /**
- * Fully resolved question data before it is converted into generated
- * TypeScript source.
+ * Resolved Country Capitals question before TypeScript is generated.
  */
 type CapitalQuizEntry = {
-  /** ISO alpha-3 value clicked on the map. */
   answer: string;
-
-  /** Capital or capitals displayed to the user. */
   display: string;
-
-  /** Country name used for deterministic sorting and diagnostics. */
   countryName: string;
 };
 
 /**
- * Escapes a string as a valid TypeScript string literal.
- *
- * JSON.stringify safely handles quotation marks, Unicode characters,
- * backslashes, and other characters that may occur in geographic names.
+ * Escapes a string as a safe TypeScript string literal.
  */
 function quote(value: string): string {
   return JSON.stringify(value);
@@ -125,9 +93,6 @@ function quote(value: string): string {
 
 /**
  * Reads and parses a JSON file.
- *
- * @param filePath - JSON file to load.
- * @returns Parsed JSON value.
  */
 function readJson<T>(filePath: string): T {
   if (!fs.existsSync(filePath)) {
@@ -142,8 +107,7 @@ function readJson<T>(filePath: string): T {
 /**
  * Returns the canonical ISO alpha-3 ID represented by one CountryData record.
  *
- * Kosovo is normalized to `XKX`, matching GeoPedia's generated world-country
- * geometry and other country assets.
+ * Kosovo is normalized to `XKX` to match GeoPedia's world-country geometry.
  */
 function getCountryDataIsoA3(
   country: CountryDataRecord,
@@ -164,22 +128,9 @@ function getCountryDataIsoA3(
 }
 
 /**
- * Normalizes CountryData's capital records into readable quiz text.
+ * Normalizes CountryData's capital records into quiz display text.
  *
- * Most countries contain one capital:
- *
- *   [
- *     {
- *       name: "Tokyo",
- *     },
- *   ]
- *
- * Countries with multiple capital entries are displayed together using ` / `.
- *
- * Missing or empty capital names return `null`.
- *
- * @param capitals - Capital records stored on one CountryData object.
- * @returns User-facing capital text, or `null` when no usable capital exists.
+ * Countries with multiple capital entries are displayed using ` / `.
  */
 function getCapitalDisplay(
   capitals: CountryDataRecord["capitals"],
@@ -203,10 +154,7 @@ function getCapitalDisplay(
 }
 
 /**
- * Builds an ISO-alpha-3 lookup for the CountryData source.
- *
- * Duplicate canonical IDs are rejected because one mapped country must resolve
- * to exactly one source record.
+ * Builds an ISO-alpha-3 lookup for CountryData.
  */
 function createCountryDataLookup(
   countries: CountryDataRecord[],
@@ -233,10 +181,10 @@ function createCountryDataLookup(
 }
 
 /**
- * Resolves mapped countries into Country Capitals quiz entries.
+ * Resolves mapped countries into Country Capitals questions.
  *
- * Countries without matching CountryData or without a usable capital are not
- * silently discarded: they are reported so the generated quiz can be audited.
+ * Countries without matching CountryData or without a usable capital are
+ * reported so omissions can be audited.
  */
 function createCapitalQuizEntries(
   features: WorldCountryFeature[],
@@ -301,92 +249,60 @@ function createCapitalQuizEntries(
 }
 
 /**
- * Creates generated TypeScript source for one capital question.
+ * Validates that each question points to a unique mapped country.
  */
-function createQuestionSource(entry: CapitalQuizEntry): string {
-  return [
-    "    {",
-    `      answer: ${quote(entry.answer)},`,
-    `      display: ${quote(entry.display)},`,
-    "    },",
-  ].join("\n");
+function validateAnswers(entries: CapitalQuizEntry[]): void {
+  const answers = new Set<string>();
+
+  for (const entry of entries) {
+    if (answers.has(entry.answer)) {
+      throw new Error(
+        `Duplicate capital quiz answer: ${entry.answer}`,
+      );
+    }
+
+    answers.add(entry.answer);
+  }
 }
 
 /**
- * Creates the complete generated Country Capitals quiz module.
- *
- * Questions are sorted by country name rather than capital name so regeneration
- * remains predictable alongside GeoPedia's other country-based datasets.
+ * Creates the generated TypeScript question-data module.
  */
-function createQuizSource(entries: CapitalQuizEntry[]): string {
+function createSource(entries: CapitalQuizEntry[]): string {
   const sortedEntries = [...entries].sort((left, right) =>
     left.countryName.localeCompare(right.countryName, "en"),
   );
 
   const questions = sortedEntries
-    .map(createQuestionSource)
+    .map((entry) =>
+      [
+        "  {",
+        `    answer: ${quote(entry.answer)},`,
+        `    display: ${quote(entry.display)},`,
+        "  },",
+      ].join("\n"),
+    )
     .join("\n");
 
   return `/**
- * AUTO-GENERATED FILE.
+ * Generated Country Capitals quiz data.
  *
- * Generated by:
- *
- *   scripts/generateCountryCapitalsQuiz.ts
- *
- * Do not edit the question list manually. Update CountryData or the generator
- * and rerun the script instead.
+ * Do not edit manually.
+ * Regenerate with:
+ * npx tsx scripts/global/countries/quizzes/generate-country-capitals-quiz-data.ts
  */
 
-import type { Quiz } from "@/types/quiz";
-
-/**
- * Tests recognition of countries from their capitals.
- *
- * Each question displays a capital and expects the user to select the country
- * to which that capital belongs.
- */
-export const countryCapitalsQuiz: Quiz = {
-  id: "country-capitals",
-  name: "Country Capitals",
-
-  mapId: "world-countries",
-
-  answerProperty: "iso_a3",
-  answerType: "single",
-
-  grouping: {
-    properties: [
-      {
-        property: "continent",
-        label: "Continent",
-        valueType: "string",
-      },
-      {
-        property: "region",
-        label: "Region",
-        valueType: "string",
-      },
-      {
-        property: "subregion",
-        label: "Subregion",
-        valueType: "string",
-      },
-    ],
-  },
-
-  questions: [
+export const COUNTRY_CAPITAL_QUESTIONS = [
 ${questions}
-  ],
-};
+];
 `;
 }
 
 /**
- * Generates GeoPedia's Country Capitals quiz.
+ * Generates GeoPedia's global Country Capitals question data.
  */
 function main(): void {
-  console.log("Generating Country Capitals quiz...");
+  console.log("Generating Country Capitals quiz data...");
 
   const worldCountries = readJson<WorldCountryFeatureCollection>(
     WORLD_COUNTRIES_PATH,
@@ -405,7 +321,7 @@ function main(): void {
 
   if (!Array.isArray(countries)) {
     throw new Error(
-      "countries.json must contain an array of CountryData records.",
+      "rest-countries.json must contain an array of CountryData records.",
     );
   }
 
@@ -416,23 +332,9 @@ function main(): void {
     countryLookup,
   );
 
-  /**
-   * Duplicate quiz answers would cause multiple questions to point at the same
-   * map geography, which the current quiz engine does not require here.
-   */
-  const answers = new Set<string>();
+  validateAnswers(entries);
 
-  for (const entry of entries) {
-    if (answers.has(entry.answer)) {
-      throw new Error(
-        `Duplicate capital quiz answer: ${entry.answer}`,
-      );
-    }
-
-    answers.add(entry.answer);
-  }
-
-  const source = createQuizSource(entries);
+  const source = createSource(entries);
 
   fs.mkdirSync(path.dirname(OUTPUT_PATH), {
     recursive: true,

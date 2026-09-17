@@ -24,16 +24,6 @@ export const worldCountriesMap = createMapConfig({
 
   featureProperty: "name",
 
-  /*
-   * Use the same MapTiler/base-map style as the existing world navigation map.
-   *
-   * Replace this value with the exact `style` object from your existing world
-   * navigation MapConfig if its style currently differs.
-   */
-  style: {
-    type: "maptiler",
-  },
-
   promoteId: "iso_a3",
 
   answerLabels: {
