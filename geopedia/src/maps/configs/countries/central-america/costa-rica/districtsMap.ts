@@ -1,11 +1,14 @@
-import { createMapConfig } from "@/maps/configs/createMapConfig";
-
 /**
  * Map configuration for Costa Rica's 492 districts.
  *
  * District IDs correspond to Costa Rica's 5-digit administrative codes and
  * can also be used directly as 5-digit postal codes.
  */
+
+import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { COSTA_RICA_INITIAL_VIEW } from "./constants";
+
 export const costaRicaDistrictsMap = createMapConfig({
   id: "costa-rica-districts",
   geojsonUrl: "/data/countries/costa-rica/geojson/districts.geojson",
@@ -19,14 +22,7 @@ export const costaRicaDistrictsMap = createMapConfig({
 
   promoteId: "district_id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-84.1, 9.8],
-    zoom: 6.5,
-  },
+  initialView: COSTA_RICA_INITIAL_VIEW,
 
   layers: {
     borders: {

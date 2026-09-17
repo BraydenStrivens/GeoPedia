@@ -1,3 +1,7 @@
+/**
+ * Exports the quizzes available for Costa Rica.
+ */
+
 export { costaRicaCantonsQuiz } from "./cantonsQuiz";
 export { costaRicaDistrictsQuiz } from "./districtsQuiz";
 export { costaRicaPostalCodePrefixes1DigitQuiz } from "./postalCodePrefixes1DigitQuiz";
