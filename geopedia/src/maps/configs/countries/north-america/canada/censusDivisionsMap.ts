@@ -1,18 +1,10 @@
-import { createMapConfig } from "../../../createMapConfig";
-
 /**
  * Map configuration for Canada's census divisions.
- *
- * Uses the processed Statistics Canada census division GeoJSON containing
- * all 293 census divisions across Canada's provinces and territories.
- *
- * Each feature is identified by its Census Division Unique Identifier
- * (`cduid`), while the census division's `name` property is used for
- * map interactions and hover labels.
- *
- * The initial camera matches the Canada provinces map so the full country
- * is visible when the quiz begins.
  */
+
+import { createMapConfig } from "../../../createMapConfig";
+import { CANADA_INITIAL_VIEW } from "./constants";
+
 export const canadaCensusDivisionsMap = createMapConfig({
   id: "canada-census-divisions",
 
@@ -20,10 +12,6 @@ export const canadaCensusDivisionsMap = createMapConfig({
     "/data/countries/canada/geojson/census-divisions.geojson",
 
   featureProperty: "name",
-
-  style: {
-    type: "maptiler",
-  },
 
   promoteId: "cduid",
 
@@ -33,10 +21,7 @@ export const canadaCensusDivisionsMap = createMapConfig({
     labelsPerZoom: 250,
   },
 
-  initialView: {
-    center: [-96, 61],
-    zoom: 2.4,
-  },
+  initialView: CANADA_INITIAL_VIEW,
 
   hover: {
     labelProperty: "name",

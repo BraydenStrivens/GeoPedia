@@ -1,9 +1,9 @@
+/**
+ * Quiz configuration for Canada's provinces and territories.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
-/**
- * Maps Canadian province and territory abbreviations to their full
- * user-facing names.
- */
 export const CANADA_PROVINCE_NAMES_BY_ABBREVIATION = {
   NL: "Newfoundland and Labrador",
   PE: "Prince Edward Island",
@@ -20,9 +20,6 @@ export const CANADA_PROVINCE_NAMES_BY_ABBREVIATION = {
   NU: "Nunavut",
 } as const;
 
-/**
- * Questions for Canada's provinces and territories quiz.
- */
 const CANADA_PROVINCE_QUESTIONS: FeatureQuiz["questions"] =
   Object.values(CANADA_PROVINCE_NAMES_BY_ABBREVIATION).map(
     (answer) => ({
@@ -30,16 +27,10 @@ const CANADA_PROVINCE_QUESTIONS: FeatureQuiz["questions"] =
     }),
   );
 
-/**
- * User-facing description for Canada's provinces and territories quiz.
- */
 const CANADA_PROVINCES_DESCRIPTION =
   `Learn all ${CANADA_PROVINCE_QUESTIONS.length} Canadian provinces and ` +
   `territories by their location on the map.`;
 
-/**
- * Quiz definition for identifying Canadian provinces and territories by name.
- */
 export const canadaProvincesQuiz: FeatureQuiz = {
   id: "canada-provinces",
   name: "Provinces and Territories",
