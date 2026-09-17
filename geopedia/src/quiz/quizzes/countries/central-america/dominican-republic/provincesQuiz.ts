@@ -1,81 +1,30 @@
+/**
+ * Quiz for identifying the Dominican Republic's provinces and
+ * province-equivalent divisions.
+ *
+ * Provinces can be grouped by their parent administrative region.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
-import { DOMINICAN_REPUBLIC_REGION_NAMES_BY_ID } from "./regionsQuiz";
+import {
+  DOMINICAN_REPUBLIC_PROVINCES_BY_ID,
+  DOMINICAN_REPUBLIC_REGIONS_BY_ID,
+} from "./data/admin";
 
-/**
- * Dominican Republic province names keyed by their normalized four-digit
- * ONE province IDs.
- */
-export const DOMINICAN_REPUBLIC_PROVINCE_NAMES_BY_ID: Record<
-  string,
-  string
-> = {
-  "0101": "Duarte",
-  "0102": "Hermanas Mirabal",
-  "0103": "María Trinidad Sánchez",
-  "0104": "Samaná",
-
-  "0201": "Dajabón",
-  "0202": "Monte Cristi",
-  "0203": "Santiago Rodríguez",
-  "0204": "Valverde",
-
-  "0301": "Espaillat",
-  "0302": "Puerto Plata",
-  "0303": "Santiago",
-
-  "0401": "La Vega",
-  "0402": "Monseñor Nouel",
-  "0403": "Sánchez Ramírez",
-
-  "0501": "Elías Piña",
-  "0502": "San Juan",
-
-  "0601": "Baoruco",
-  "0602": "Barahona",
-  "0603": "Independencia",
-  "0604": "Pedernales",
-
-  "0701": "Hato Mayor",
-  "0702": "Monte Plata",
-  "0703": "San Pedro de Macorís",
-
-  "0801": "Distrito Nacional",
-  "0802": "Santo Domingo",
-
-  "0901": "Azua",
-  "0902": "Peravia",
-  "0903": "San Cristóbal",
-  "0904": "San José de Ocoa",
-
-  "1001": "El Seibo",
-  "1002": "La Altagracia",
-  "1003": "La Romana",
-};
-
-/**
- * Questions for the Dominican Republic's provinces quiz.
- */
 const DOMINICAN_REPUBLIC_PROVINCE_QUESTIONS: FeatureQuiz["questions"] =
-  Object.entries(DOMINICAN_REPUBLIC_PROVINCE_NAMES_BY_ID).map(
-    ([answer, display]) => ({
+  Object.entries(DOMINICAN_REPUBLIC_PROVINCES_BY_ID).map(
+    ([answer, province]) => ({
       answer,
-      display,
+      display: province.name,
     }),
   );
 
-/**
- * User-facing description for the Dominican Republic's provinces quiz.
- */
 const DOMINICAN_REPUBLIC_PROVINCES_DESCRIPTION =
   `Learn all ${DOMINICAN_REPUBLIC_PROVINCE_QUESTIONS.length} provinces and ` +
   `province-equivalent regions of the Dominican Republic, with filters that ` +
   `let you practice any desired region or combination of regions.`;
 
-/**
- * Quiz configuration for the Dominican Republic's 32 province-level
- * administrative divisions.
- */
 export const dominicanRepublicProvincesQuiz: FeatureQuiz = {
   id: "dominican-republic-provinces",
   name: "Dominican Republic Provinces",
@@ -97,7 +46,7 @@ export const dominicanRepublicProvincesQuiz: FeatureQuiz = {
         property: "region_id",
         label: "Region",
         valueType: "string",
-        valueLabels: DOMINICAN_REPUBLIC_REGION_NAMES_BY_ID,
+        valueLabels: DOMINICAN_REPUBLIC_REGIONS_BY_ID,
       },
     ],
   },
