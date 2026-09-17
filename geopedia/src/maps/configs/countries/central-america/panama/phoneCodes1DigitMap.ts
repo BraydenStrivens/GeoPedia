@@ -1,9 +1,12 @@
-import { createMapConfig } from "@/maps/configs/createMapConfig";
-
 /**
  * Map configuration for Panama's geographically useful 1-digit telephone
  * prefixes.
  */
+
+import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { PANAMA_INITIAL_VIEW } from "./constants";
+
 export const panamaPhoneCodes1DigitMap = createMapConfig({
   id: "panama-phone-codes-1-digit",
 
@@ -13,14 +16,7 @@ export const panamaPhoneCodes1DigitMap = createMapConfig({
   featureProperty: "name",
   promoteId: "id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-80.5, 8.5],
-    zoom: 5.7,
-  },
+  initialView: PANAMA_INITIAL_VIEW,
 
   layers: {
     borders: {

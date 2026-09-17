@@ -1,8 +1,11 @@
-import { createMapConfig } from "@/maps/configs/createMapConfig";
-
 /**
  * Map configuration for Panama's regional taxi and bus licence-plate codes.
  */
+
+import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { PANAMA_INITIAL_VIEW } from "./constants";
+
 export const panamaTaxiBusPlateCodesMap = createMapConfig({
   id: "panama-taxi-bus-plate-codes",
 
@@ -12,14 +15,7 @@ export const panamaTaxiBusPlateCodesMap = createMapConfig({
   featureProperty: "name",
   promoteId: "id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-80.5, 8.5],
-    zoom: 5.7,
-  },
+  initialView: PANAMA_INITIAL_VIEW,
 
   layers: {
     borders: {

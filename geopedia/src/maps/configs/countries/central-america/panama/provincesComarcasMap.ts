@@ -1,9 +1,12 @@
-import { createMapConfig } from "@/maps/configs/createMapConfig";
-
 /**
  * Map configuration for Panama's 10 provinces and four province-level
  * comarcas.
  */
+
+import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { PANAMA_INITIAL_VIEW } from "./constants";
+
 export const panamaProvincesComarcasMap = createMapConfig({
   id: "panama-provinces-comarcas",
 
@@ -13,14 +16,7 @@ export const panamaProvincesComarcasMap = createMapConfig({
   featureProperty: "name",
   promoteId: "id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-80.5, 8.5],
-    zoom: 5.7,
-  },
+  initialView: PANAMA_INITIAL_VIEW,
 
   layers: {
     borders: {

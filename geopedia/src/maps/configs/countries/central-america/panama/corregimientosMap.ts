@@ -1,5 +1,3 @@
-import { createMapConfig } from "@/maps/configs/createMapConfig";
-
 /**
  * Map configuration for Panama's corregimientos.
  *
@@ -7,6 +5,11 @@ import { createMapConfig } from "@/maps/configs/createMapConfig";
  * geographic names remain separate because each corregimiento has its own
  * stable six-digit ID.
  */
+
+import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { PANAMA_INITIAL_VIEW } from "./constants";
+
 export const panamaCorregimientosMap = createMapConfig({
   id: "panama-corregimientos",
 
@@ -15,20 +18,13 @@ export const panamaCorregimientosMap = createMapConfig({
   featureProperty: "name",
   promoteId: "id",
 
-  style: {
-    type: "maptiler",
-  },
-
   answerLabels: {
     densityThreshold: 250,
     initialMaxLabels: 100,
     labelsPerZoom: 150,
   },
 
-  initialView: {
-    center: [-80.5, 8.5],
-    zoom: 5.7,
-  },
+  initialView: PANAMA_INITIAL_VIEW,
 
   layers: {
     borders: {

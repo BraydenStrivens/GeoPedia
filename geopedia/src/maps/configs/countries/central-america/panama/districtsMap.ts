@@ -1,5 +1,3 @@
-import { createMapConfig } from "@/maps/configs/createMapConfig";
-
 /**
  * Map configuration for Panama's district-level administrative boundaries.
  *
@@ -7,6 +5,11 @@ import { createMapConfig } from "@/maps/configs/createMapConfig";
  * Yala's `1000` hierarchy placeholder. Quiz configuration determines which
  * of those features are included as questions.
  */
+
+import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { PANAMA_INITIAL_VIEW } from "./constants";
+
 export const panamaDistrictsMap = createMapConfig({
   id: "panama-districts",
 
@@ -15,14 +18,7 @@ export const panamaDistrictsMap = createMapConfig({
   featureProperty: "name",
   promoteId: "id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-80.5, 8.5],
-    zoom: 5.7,
-  },
+  initialView: PANAMA_INITIAL_VIEW,
 
   hover: {
     labelProperty: "name",

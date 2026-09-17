@@ -1,3 +1,7 @@
+/**
+ * Exports the quizzes available for Panama.
+ */
+
 export { panamaCorregimientosQuiz } from "./corregimientosQuiz";
 export { panamaDistrictsQuiz } from "./districtsQuiz";
 export { panamaPhoneCodes1DigitQuiz } from "./phoneCodes1DigitQuiz";
