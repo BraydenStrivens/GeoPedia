@@ -1,40 +1,12 @@
+/**
+ * Quiz configuration for identifying Brazil's states and Federal District
+ * from their official abbreviations.
+ */
+
 import type { FeatureQuiz } from "@/types/quiz";
 
-import { BRAZIL_REGION_NAMES_BY_ID } from "./regionsQuiz";
-
-/**
- * Brazil's state and Federal District abbreviations keyed by their official
- * two-digit IBGE identifiers.
- */
-export const BRAZIL_STATE_ABBREVIATIONS_BY_ID = {
-  "11": "RO",
-  "12": "AC",
-  "13": "AM",
-  "14": "RR",
-  "15": "PA",
-  "16": "AP",
-  "17": "TO",
-  "21": "MA",
-  "22": "PI",
-  "23": "CE",
-  "24": "RN",
-  "25": "PB",
-  "26": "PE",
-  "27": "AL",
-  "28": "SE",
-  "29": "BA",
-  "31": "MG",
-  "32": "ES",
-  "33": "RJ",
-  "35": "SP",
-  "41": "PR",
-  "42": "SC",
-  "43": "RS",
-  "50": "MS",
-  "51": "MT",
-  "52": "GO",
-  "53": "DF",
-} as const;
+import { BRAZIL_REGIONS_BY_ID } from "./data/admin";
+import { BRAZIL_STATE_ABBREVIATIONS_BY_ID } from "./data/stateAbbreviations";
 
 /**
  * Questions for Brazil's State Abbreviations quiz.
@@ -71,7 +43,7 @@ export const brazilStateAbbreviationsQuiz: FeatureQuiz = {
         property: "region_id",
         label: "Region",
         valueType: "string",
-        valueLabels: BRAZIL_REGION_NAMES_BY_ID,
+        valueLabels: BRAZIL_REGIONS_BY_ID,
       },
     ],
   },

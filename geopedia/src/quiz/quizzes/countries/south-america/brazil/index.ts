@@ -1,3 +1,7 @@
+/**
+ * Exports the quizzes available for Brazil.
+ */
+
 export { brazilMunicipalitiesQuiz } from "./municipalitiesQuiz";
 export { brazilPhoneCodes1DigitQuiz } from "./phoneCodes1DigitQuiz";
 export { brazilPhoneCodes2DigitQuiz } from "./phoneCodes2DigitQuiz";

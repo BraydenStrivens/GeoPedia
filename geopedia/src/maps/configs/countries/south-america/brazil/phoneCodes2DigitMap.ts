@@ -1,8 +1,11 @@
+/**
+ * Map configuration for Brazil's 2-digit telephone area codes.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
 
-/**
- * Map configuration for Brazil's two-digit geographic telephone-code regions.
- */
+import { BRAZIL_INITIAL_VIEW } from "./constants";
+
 export const brazilPhoneCodes2DigitMap = createMapConfig({
   id: "brazil-phone-codes-2-digit",
 
@@ -12,14 +15,7 @@ export const brazilPhoneCodes2DigitMap = createMapConfig({
   featureProperty: "phone_code",
   promoteId: "id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-52.5, -14.5],
-    zoom: 3.2,
-  },
+  initialView: BRAZIL_INITIAL_VIEW,
 
   hover: {
     labelProperty: "phone_code",

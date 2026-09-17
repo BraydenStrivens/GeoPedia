@@ -1,3 +1,7 @@
+/**
+ * Exports the map configurations available for Brazil.
+ */
+
 export { brazilMunicipalitiesMap } from "./municipalitiesMap";
 export { brazilPhoneCodes1DigitMap } from "./phoneCodes1DigitMap";
 export { brazilPhoneCodes2DigitMap } from "./phoneCodes2DigitMap";

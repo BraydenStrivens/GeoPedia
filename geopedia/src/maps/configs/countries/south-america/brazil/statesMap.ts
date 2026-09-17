@@ -1,8 +1,11 @@
-import { createMapConfig } from "@/maps/configs/createMapConfig";
-
 /**
  * Map configuration for Brazil's states and Federal District.
  */
+
+import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { BRAZIL_INITIAL_VIEW } from "./constants";
+
 export const brazilStatesMap = createMapConfig({
   id: "brazil-states",
 
@@ -11,14 +14,7 @@ export const brazilStatesMap = createMapConfig({
   featureProperty: "name",
   promoteId: "id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-52.5, -14.5],
-    zoom: 3.2,
-  },
+  initialView: BRAZIL_INITIAL_VIEW,
 
   hover: {
     labelProperty: "name",

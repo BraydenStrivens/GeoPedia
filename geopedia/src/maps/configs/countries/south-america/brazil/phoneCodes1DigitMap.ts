@@ -1,8 +1,11 @@
+/**
+ * Map configuration for Brazil's 1-digit telephone area-code groups.
+ */
+
 import { createMapConfig } from "@/maps/configs/createMapConfig";
 
-/**
- * Map configuration for Brazil's first-digit telephone-code regions.
- */
+import { BRAZIL_INITIAL_VIEW } from "./constants";
+
 export const brazilPhoneCodes1DigitMap = createMapConfig({
   id: "brazil-phone-codes-1-digit",
 
@@ -12,14 +15,7 @@ export const brazilPhoneCodes1DigitMap = createMapConfig({
   featureProperty: "phone_code",
   promoteId: "id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-52.5, -14.5],
-    zoom: 3.2,
-  },
+  initialView: BRAZIL_INITIAL_VIEW,
 
   layers: {
     borders: {
