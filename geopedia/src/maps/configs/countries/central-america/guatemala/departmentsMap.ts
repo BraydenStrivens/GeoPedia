@@ -1,5 +1,3 @@
-import { createMapConfig } from "@/maps/configs/createMapConfig";
-
 /**
  * Map configuration for Guatemala's 22 departments.
  *
@@ -10,21 +8,19 @@ import { createMapConfig } from "@/maps/configs/createMapConfig";
  * identifier, as its stable feature ID and stores the user-facing department
  * name in the `name` property.
  */
+
+import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { GUATEMALA_INITIAL_VIEW } from "./constants";
+
 export const guatemalaDepartmentsMap = createMapConfig({
   id: "guatemala-departments",
   geojsonUrl: "/data/countries/guatemala/geojson/departments.geojson",
   featureProperty: "name",
 
-  style: {
-    type: "maptiler",
-  },
-
   promoteId: "department_id",
 
-  initialView: {
-    center: [-90.25, 15.7],
-    zoom: 5.5,
-  },
+  initialView: GUATEMALA_INITIAL_VIEW,
 
   layers: {
     borders: {

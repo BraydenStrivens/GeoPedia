@@ -1,5 +1,3 @@
-import { createMapConfig } from "@/maps/configs/createMapConfig";
-
 /**
  * Map configuration for Guatemala's 342 municipalities.
  *
@@ -7,15 +5,16 @@ import { createMapConfig } from "@/maps/configs/createMapConfig";
  * as the stable feature identifier and municipality name for map interaction
  * and hover labels.
  */
+
+import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { GUATEMALA_INITIAL_VIEW } from "./constants";
+
 export const guatemalaMunicipalitiesMap = createMapConfig({
   id: "guatemala-municipalities",
   geojsonUrl:
     "/data/countries/guatemala/geojson/municipalities.geojson",
   featureProperty: "name",
-
-  style: {
-    type: "maptiler",
-  },
 
   promoteId: "municipality_id",
 
@@ -25,10 +24,7 @@ export const guatemalaMunicipalitiesMap = createMapConfig({
     labelsPerZoom: 250,
   },
 
-  initialView: {
-    center: [-90.25, 15.7],
-    zoom: 5.5,
-  },
+  initialView: GUATEMALA_INITIAL_VIEW,
 
   layers: {
     borders: {
