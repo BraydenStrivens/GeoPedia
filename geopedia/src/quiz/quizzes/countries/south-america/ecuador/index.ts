@@ -1,3 +1,7 @@
+/**
+ * Exports the quizzes available for Ecuador.
+ */
+
 export { ecuadorAreaCodesQuiz } from "./areaCodesQuiz";
 export { ecuadorCantonsQuiz } from "./cantonsQuiz";
 export { ecuadorParishesQuiz } from "./parishesQuiz";

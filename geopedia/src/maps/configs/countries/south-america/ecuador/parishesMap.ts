@@ -1,5 +1,3 @@
-import { createMapConfig } from "@/maps/configs/createMapConfig";
-
 /**
  * Map configuration for Ecuador's 1,042 parishes.
  *
@@ -7,6 +5,11 @@ import { createMapConfig } from "@/maps/configs/createMapConfig";
  * Canton and province information are retained on each feature for quiz
  * grouping.
  */
+
+import { createMapConfig } from "@/maps/configs/createMapConfig";
+
+import { ECUADOR_INITIAL_VIEW } from "./constants";
+
 export const ecuadorParishesMap = createMapConfig({
   id: "ecuador-parishes",
 
@@ -21,14 +24,7 @@ export const ecuadorParishesMap = createMapConfig({
     labelsPerZoom: 100,
   },
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-83.5, -1.4],
-    zoom: 5,
-  },
+  initialView: ECUADOR_INITIAL_VIEW,
 
   layers: {
     borders: {
