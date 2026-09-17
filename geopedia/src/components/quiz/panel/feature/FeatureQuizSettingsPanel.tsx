@@ -115,7 +115,7 @@ const BOOLEAN_FEATURE_QUIZ_SETTING_OPTIONS: BooleanFeatureQuizSettingOption[] =
       key: "showIncorrectSelection",
       label: "Show Incorrect Selection",
       description:
-        "When you select the wrong feature, briefly displays the name of the feature you actually clicked.",
+        "When you select the wrong feature, briefly displays the name of the feature you actually clicked and the location of the correct feature.",
     },
   ];
 
