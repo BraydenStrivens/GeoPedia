@@ -1,4 +1,5 @@
 import { createMapConfig } from "../../../createMapConfig";
+import { PUERTO_RICO_INITIAL_VIEW } from "./constants";
 
 /**
  * Map configuration for Puerto Rico's municipalities.
@@ -12,14 +13,7 @@ export const puertoRicoMunicipalitiesMap = createMapConfig({
   featureProperty: "name",
   promoteId: "municipality_id",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-66.45, 18.22],
-    zoom: 8,
-  },
+  initialView: PUERTO_RICO_INITIAL_VIEW,
 
   hover: {
     labelProperty: "name",

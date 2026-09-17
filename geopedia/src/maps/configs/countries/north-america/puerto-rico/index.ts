@@ -1,3 +1,7 @@
+/**
+ * Exports the map configurations available for Puerto Rico.
+ */
+
 export { puertoRicoBarriosMap } from "./barriosMap";
 export { puertoRicoMunicipalitiesMap } from "./municipalitiesMap";
 export { puertoRicoZipCodePrefixesMap } from "./zipCodePrefixesMap";

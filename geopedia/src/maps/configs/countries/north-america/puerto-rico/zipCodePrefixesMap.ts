@@ -1,8 +1,10 @@
-import { createMapConfig } from "../../../createMapConfig";
-
 /**
  * Map configuration for Puerto Rico's 3-digit ZIP-code prefixes.
  */
+
+import { createMapConfig } from "../../../createMapConfig";
+import { PUERTO_RICO_INITIAL_VIEW } from "./constants";
+
 export const puertoRicoZipCodePrefixesMap = createMapConfig({
   id: "puerto-rico-zip-code-prefixes",
 
@@ -12,14 +14,7 @@ export const puertoRicoZipCodePrefixesMap = createMapConfig({
   featureProperty: "prefix_3",
   promoteId: "prefix_3",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-66.45, 18.22],
-    zoom: 8,
-  },
+  initialView: PUERTO_RICO_INITIAL_VIEW,
 
   hover: {
     labelProperty: "prefix_3",

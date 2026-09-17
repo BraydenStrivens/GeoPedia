@@ -1,8 +1,10 @@
-import { createMapConfig } from "../../../createMapConfig";
-
 /**
  * Map configuration for Puerto Rico's barrios.
  */
+
+import { createMapConfig } from "../../../createMapConfig";
+import { PUERTO_RICO_INITIAL_VIEW } from "./constants";
+
 export const puertoRicoBarriosMap = createMapConfig({
   id: "puerto-rico-barrios",
 
@@ -17,14 +19,7 @@ export const puertoRicoBarriosMap = createMapConfig({
     labelsPerZoom: 100,
   },
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-66.45, 18.22],
-    zoom: 8,
-  },
+  initialView: PUERTO_RICO_INITIAL_VIEW,
 
   hover: {
     labelProperty: "name",

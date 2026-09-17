@@ -1,8 +1,10 @@
-import { createMapConfig } from "../../../createMapConfig";
-
 /**
  * Map configuration for Puerto Rico's ZIP codes.
  */
+
+import { createMapConfig } from "../../../createMapConfig";
+import { PUERTO_RICO_INITIAL_VIEW } from "./constants";
+
 export const puertoRicoZipCodesMap = createMapConfig({
   id: "puerto-rico-zip-codes",
 
@@ -11,14 +13,7 @@ export const puertoRicoZipCodesMap = createMapConfig({
   featureProperty: "zip_code",
   promoteId: "zip_code",
 
-  style: {
-    type: "maptiler",
-  },
-
-  initialView: {
-    center: [-66.45, 18.22],
-    zoom: 8,
-  },
+  initialView: PUERTO_RICO_INITIAL_VIEW,
 
   hover: {
     labelProperty: "zip_code",
