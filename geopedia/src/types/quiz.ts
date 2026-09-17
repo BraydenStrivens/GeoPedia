@@ -126,6 +126,9 @@ export type QuizListing = {
 
   /** Difficulty derived from the total number of questions in the quiz. */
   difficulty: QuizDifficulty;
+
+  /** Total number of questions in the full quiz. */
+  questionCount: number;
 };
 
 /**

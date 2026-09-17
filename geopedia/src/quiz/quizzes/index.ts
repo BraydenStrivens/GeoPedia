@@ -120,22 +120,28 @@ function getQuizDifficulty(questionCount: number): QuizDifficulty {
 }
 
 /**
- * Compares quiz listings by difficulty so easier quizzes appear first.
+ * Compares quiz listings by difficulty and then by question count.
  *
- * Listings with the same difficulty retain their existing registry order.
+ * Easier quizzes appear first. Within the same difficulty tier, quizzes with
+ * fewer questions appear before quizzes with more questions.
  *
  * @param firstQuiz - First quiz listing being compared.
  * @param secondQuiz - Second quiz listing being compared.
  * @returns Negative, zero, or positive value describing their display order.
  */
-function compareQuizListingDifficulty(
+function compareQuizListings(
   firstQuiz: QuizListing,
   secondQuiz: QuizListing,
 ): number {
-  return (
+  const difficultyDifference =
     QUIZ_DIFFICULTY_ORDER[firstQuiz.difficulty] -
-    QUIZ_DIFFICULTY_ORDER[secondQuiz.difficulty]
-  );
+    QUIZ_DIFFICULTY_ORDER[secondQuiz.difficulty];
+
+  if (difficultyDifference !== 0) {
+    return difficultyDifference;
+  }
+
+  return firstQuiz.questionCount - secondQuiz.questionCount;
 }
 
 /**
@@ -208,12 +214,15 @@ async function hasCountryTownQuiz(
 function createQuizListing(
   quiz: FeatureQuiz | TownQuiz,
 ): QuizListing {
+  const questionCount = getQuizQuestionCount(quiz);
+
   return {
     id: quiz.id,
     name: quiz.name,
     description: quiz.description,
     kind: quiz.kind,
     difficulty: getQuizDifficulty(getQuizQuestionCount(quiz)),
+    questionCount,
   };
 }
 
@@ -292,7 +301,7 @@ export async function getCountryQuizListings(
     quizListings.push(createQuizListing(townQuiz));
   }
 
-  return quizListings.sort(compareQuizListingDifficulty);
+  return quizListings.sort(compareQuizListings);
 }
 
 /**
@@ -365,7 +374,7 @@ export function hasGlobalQuizzes(): boolean {
 export function getGlobalQuizListings(): QuizListing[] {
   return registeredGlobalQuizzes
     .map((quiz) => createQuizListing(quiz))
-    .sort(compareQuizListingDifficulty);
+    .sort(compareQuizListings);
 }
 
 /**
