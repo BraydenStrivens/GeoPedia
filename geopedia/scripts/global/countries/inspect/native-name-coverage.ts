@@ -24,7 +24,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 
 import { areNamesEquivalent } from "../../../tools/nameComparison";
-import { getCountryNativeLanguage } from "../data/getCountryNativeLanguage";
+import { getCountryNativeLanguage } from "../utils/getCountryNativeLanguage";
 
 const REST_COUNTRIES_PATH = path.resolve(
   "data/raw/global/countries/rest-countries-v5.json",

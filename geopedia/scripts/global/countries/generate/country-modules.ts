@@ -30,7 +30,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-import { COUNTRY_NAMES } from "../../../src/countries/countryNames";
+import { COUNTRY_NAMES } from "../../../../src/countries/countryNames";
 
 /**
  * Raw country record used by the source country dataset.
