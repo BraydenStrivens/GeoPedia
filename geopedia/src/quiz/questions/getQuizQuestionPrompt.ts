@@ -1,6 +1,6 @@
 import { getQuizQuestionDisplay } from "@/quiz/questions/getQuizQuestionDisplay";
 import type {
-  QuizQuestion,
+  FeatureQuizQuestion,
   QuizQuestionLanguage,
   QuizQuestionPrompt,
 } from "@/types/quiz";
@@ -20,7 +20,7 @@ import type {
  * @returns Prompt displayed by the quiz interface.
  */
 export function getQuizQuestionPrompt(
-  question: QuizQuestion | undefined,
+  question: FeatureQuizQuestion | undefined,
   questionLanguage: QuizQuestionLanguage,
 ): QuizQuestionPrompt {
   if (!question) {

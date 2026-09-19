@@ -8,7 +8,7 @@
  * setting without requiring duplicate data.
  */
 
-import type { TownQuizTown } from "@/types/quiz";
+import type { TownData } from "@/types/quiz";
 import type { QuizQuestionLanguage } from "@/types/quiz";
 
 /**
@@ -19,7 +19,7 @@ import type { QuizQuestionLanguage } from "@/types/quiz";
  * @returns English or native question name.
  */
 export function getTownQuestionName(
-  town: TownQuizTown,
+  town: TownData,
   language: QuizQuestionLanguage,
 ): string {
   if (language === "native" && town.nativeName) {

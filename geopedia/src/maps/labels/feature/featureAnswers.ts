@@ -16,7 +16,7 @@ import { getQuizQuestionDisplay } from "@/quiz/questions/getQuizQuestionDisplay"
 import type {
   AnswerStatus,
   FeatureQuiz,
-  QuizQuestion,
+  FeatureQuizQuestion,
   QuizQuestionLanguage,
 } from "@/types/quiz";
 
@@ -72,7 +72,7 @@ export function getFeatureAnswers(featureValue: unknown): string[] {
 export function getFeatureQuestions(
   featureAnswers: string[],
   quiz: FeatureQuiz,
-): QuizQuestion[] {
+): FeatureQuizQuestion[] {
   return featureAnswers.flatMap((answer) => {
     const matchingQuestion = quiz.questions.find(
       (question) => question.answer === answer,

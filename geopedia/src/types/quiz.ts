@@ -10,6 +10,8 @@
 import { BaseMapLayerVisibilityConfig } from "@/maps/types";
 import type { QuizGroupingConfig } from "@/quiz/groupings/feature/types";
 
+/* ========================= SHARED ========================= */
+
 /**
  * Represents the result of a completed quiz question.
  *
@@ -86,41 +88,6 @@ export type QuizQuestionPrompt =
     };
 
 /**
- * Represents one question that can be asked during a feature-based quiz.
- *
- * The answer corresponds to a value stored in the GeoJSON property identified
- * by the parent quiz's `answerProperty`.
- */
-export interface QuizQuestion {
-  /** Raw answer value the user must identify on the map. */
-  answer: string;
-
-  /**
-   * Optional user-facing english/internation-latin question text.
-   *
-   * The raw `answer` value is displayed when this is omitted.
-   */
-  display?: string;
-
-  /**
-   * Optional native-language display text for this quiz answer.
-   *
-   * Native question language prefers this value for question prompts, Show
-   * Answers labels, and temporary answer-feedback popups. When omitted, Native
-   * mode falls back to `display` and then `answer`.
-   */
-  nativeDisplay?: string;
-
-  /**
-   * Optional explicit question prompt.
-   *
-   * When omitted, GeoPedia falls back to `display` and then `answer`, preserving
-   * the behavior of all existing quizzes.
-   */
-  prompt?: QuizQuestionPrompt;
-}
-
-/**
  * Lightweight metadata describing a quiz that is available to the user.
  *
  * Quiz listings are used by navigation and selection interfaces that need to
@@ -169,6 +136,51 @@ interface BaseQuiz {
 }
 
 /**
+ * Defines any quiz supported by GeoPedia.
+ *
+ * The `kind` property allows quiz logic and UI components to safely distinguish
+ * feature-selection quizzes from location-based town quizzes.
+ */
+export type Quiz = FeatureQuiz | TownQuiz;
+
+/* ========================= FEATURE ========================= */
+
+/**
+ * Represents one question that can be asked during a feature-based quiz.
+ *
+ * The answer corresponds to a value stored in the GeoJSON property identified
+ * by the parent quiz's `answerProperty`.
+ */
+export interface FeatureQuizQuestion {
+  /** Raw answer value the user must identify on the map. */
+  answer: string;
+
+  /**
+   * Optional user-facing english/internation-latin question text.
+   *
+   * The raw `answer` value is displayed when this is omitted.
+   */
+  display?: string;
+
+  /**
+   * Optional native-language display text for this quiz answer.
+   *
+   * Native question language prefers this value for question prompts, Show
+   * Answers labels, and temporary answer-feedback popups. When omitted, Native
+   * mode falls back to `display` and then `answer`.
+   */
+  nativeDisplay?: string;
+
+  /**
+   * Optional explicit question prompt.
+   *
+   * When omitted, GeoPedia falls back to `display` and then `answer`, preserving
+   * the behavior of all existing quizzes.
+   */
+  prompt?: QuizQuestionPrompt;
+}
+
+/**
  * Defines a feature-based quiz whose answers correspond to GeoJSON features.
  *
  * Feature quizzes identify answers through properties stored on map features
@@ -204,13 +216,19 @@ export interface FeatureQuiz extends BaseQuiz {
   grouping?: QuizGroupingConfig;
 
   /** Complete set of questions available to the quiz. */
-  questions: QuizQuestion[];
+  questions: FeatureQuizQuestion[];
 }
 
+/* ========================= TOWN ========================= */
+
 /**
- * Represents one town available to a location-based town quiz.
+ * Represents one settlement available to GeoPedia's town quiz system.
+ *
+ * Town data describes the canonical geographic and population information
+ * loaded from a country's generated town dataset. Quiz-specific presentation
+ * such as question prompts is represented separately by `TownQuizQuestion`.
  */
-export interface TownQuizTown {
+export interface TownData {
   /** Stable GeoNames identifier for the settlement. */
   id: string;
 
@@ -221,7 +239,7 @@ export interface TownQuizTown {
    */
   name: string;
 
-  /**  Locally used/native settlement name when it differs from `name`. */
+  /** Locally used/native settlement name when it differs from `name`. */
   nativeName?: string;
 
   /** Latitude of the settlement's target location. */
@@ -241,11 +259,31 @@ export interface TownQuizTown {
 }
 
 /**
+ * Represents one question in a location-based town quiz.
+ *
+ * Canonical settlement information is kept in `town`, while `prompt` contains
+ * optional question-specific presentation. When no explicit prompt is
+ * provided, the town's name is used by the normal town quiz experience.
+ */
+export interface TownQuizQuestion {
+  /** Canonical settlement data identifying the question's target location. */
+  town: TownData;
+
+  /**
+   * Optional explicit question prompt.
+   *
+   * Image-based town quizzes can provide an image prompt while normal town
+   * quizzes omit this value and continue displaying the town's name.
+   */
+  prompt?: QuizQuestionPrompt;
+}
+
+/**
  * Runtime contents of one generated country town dataset.
  */
 export interface TownQuizData {
-  /** Towns available to the country's town quiz. */
-  towns: TownQuizTown[];
+  /** Canonical towns available from the country's generated dataset. */
+  towns: TownData[];
 }
 
 /**
@@ -258,14 +296,6 @@ export interface TownQuiz extends BaseQuiz {
   /** Identifies this quiz as a town/location quiz. */
   kind: "town";
 
-  /** Complete set of towns available to the quiz. */
-  towns: TownQuizTown[];
+  /** Complete set of questions available to the quiz. */
+  questions: TownQuizQuestion[];
 }
-
-/**
- * Defines any quiz supported by GeoPedia.
- *
- * The `kind` property allows quiz logic and UI components to safely distinguish
- * feature-selection quizzes from location-based town quizzes.
- */
-export type Quiz = FeatureQuiz | TownQuiz;

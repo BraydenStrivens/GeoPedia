@@ -1,19 +1,19 @@
 /**
  * Owns the runtime state and gameplay lifecycle of a GeoPedia town quiz.
  *
- * Town quizzes ask the user to place named towns on the map by clicking an
- * arbitrary geographic coordinate. This hook manages question order, quiz
- * progress, score accumulation, cumulative geographic error, the most recent
- * guess result, and quiz lifecycle controls.
+ * Town quizzes ask the user to locate towns on the map by clicking an arbitrary
+ * geographic coordinate. This hook manages question order, quiz progress,
+ * score accumulation, cumulative geographic error, the most recent guess
+ * result, and quiz lifecycle controls.
  *
  * Submitted guesses immediately advance to the next question. The most recent
  * result remains available after advancing so the map can continue displaying
  * the previous guess-to-target visualization while the user considers the next
- * town.
+ * question.
  *
- * Skipping differs from answering: the current unanswered town is moved to the
- * end of the remaining question queue without changing score, distance totals,
- * or answered-question progress.
+ * Skipping differs from answering: the current unanswered question is moved to
+ * the end of the remaining question queue without changing score, distance
+ * totals, or answered-question progress.
  */
 
 "use client";
@@ -25,14 +25,14 @@ import {
   getGeographicDistanceKm,
   getTownGuessScore,
 } from "@/quiz/town/townScoring";
-import type { TownQuizTown } from "@/types/quiz";
+import type { TownQuizQuestion } from "@/types/quiz";
 
 /**
  * Result produced by one submitted town guess.
  */
 export type TownQuizGuessResult = {
-  /** Town that was being answered. */
-  town: TownQuizTown;
+  /** Town question that was being answered. */
+  question: TownQuizQuestion;
 
   /** Geographic location selected by the user. */
   guess: GeographicCoordinate;
@@ -48,8 +48,8 @@ export type TownQuizGuessResult = {
  * Configuration required by the town quiz runtime.
  */
 type UseTownQuizParams = {
-  /** Towns available to the current quiz attempt. */
-  towns: TownQuizTown[];
+  /** Questions available to the current quiz attempt. */
+  questions: TownQuizQuestion[];
 
   /** Geographic error distance at which a guess receives zero points. */
   maxErrorKm: number;
@@ -59,8 +59,8 @@ type UseTownQuizParams = {
  * Runtime state and actions exposed by the town quiz engine.
  */
 type UseTownQuizResult = {
-  /** Town currently being located by the user. */
-  currentQuestion: TownQuizTown | undefined;
+  /** Town question currently being answered by the user. */
+  currentQuestion: TownQuizQuestion | undefined;
 
   /**
    * Result from the most recently submitted guess.
@@ -103,18 +103,20 @@ type UseTownQuizResult = {
   /** Immediately starts a new randomized attempt. */
   restartQuiz: () => void;
 
-  /** Scores a geographic guess for the current town. */
+  /** Scores a geographic guess for the current town question. */
   submitGuess: (guess: GeographicCoordinate) => void;
 };
 
 /**
  * Randomizes question order using a Fisher-Yates shuffle.
  *
- * @param towns - Towns to randomize.
- * @returns New array containing the towns in randomized order.
+ * @param questions - Questions to randomize.
+ * @returns New array containing the questions in randomized order.
  */
-function shuffleTowns(towns: TownQuizTown[]): TownQuizTown[] {
-  const shuffled = [...towns];
+function shuffleQuestions(
+  questions: TownQuizQuestion[],
+): TownQuizQuestion[] {
+  const shuffled = [...questions];
 
   for (let index = shuffled.length - 1; index > 0; index--) {
     const randomIndex = Math.floor(Math.random() * (index + 1));
@@ -135,20 +137,20 @@ function shuffleTowns(towns: TownQuizTown[]): TownQuizTown[] {
  * @returns Current town quiz state and gameplay actions.
  */
 export function useTownQuiz({
-  towns,
+  questions,
   maxErrorKm,
 }: UseTownQuizParams): UseTownQuizResult {
   /**
-   * Randomized town order for the current attempt.
+   * Randomized question order for the current attempt.
    *
    * Questions before `currentQuestionIndex` have already been answered. The
    * question at the current index and every question after it remain unanswered.
    */
-  const [questionQueue, setQuestionQueue] = useState<TownQuizTown[]>(
-    [],
-  );
+  const [questionQueue, setQuestionQueue] = useState<
+    TownQuizQuestion[]
+  >([]);
 
-  /** Index of the currently active unanswered town. */
+  /** Index of the currently active unanswered question. */
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
   /** Most recently completed geographic guess. */
@@ -166,7 +168,7 @@ export function useTownQuiz({
   const [isActive, setIsActive] = useState(false);
 
   /**
-   * Town currently being located.
+   * Question currently being answered.
    *
    * Finished and inactive quizzes intentionally expose no current question.
    */
@@ -188,7 +190,7 @@ export function useTownQuiz({
   /**
    * Number of completed questions.
    *
-   * Because skipped towns remain inside the unanswered portion of the queue,
+   * Because skipped questions remain inside the unanswered portion of the queue,
    * this index also accurately represents answered-question progress.
    */
   const answeredCount = Math.min(
@@ -199,13 +201,14 @@ export function useTownQuiz({
   /**
    * Total number of questions in the current attempt.
    *
-   * Before an attempt begins, the source town count is used so the inactive UI
-   * can still display the eventual quiz size if needed.
+   * Before an attempt begins, the source question count is used so the inactive
+   * UI can still display the eventual quiz size if needed.
    */
   const questionCount =
-    questionQueue.length > 0 ? questionQueue.length : towns.length;
+    questionQueue.length > 0
+      ? questionQueue.length
+      : questions.length;
 
-  /** Average score across completed guesses. */
   /** Average normalized score across completed guesses. */
   const averageScore =
     answeredCount === 0 ? 0 : totalScore / answeredCount;
@@ -214,13 +217,13 @@ export function useTownQuiz({
    * Resets attempt statistics and begins a newly randomized quiz.
    */
   const startQuiz = useCallback(() => {
-    setQuestionQueue(shuffleTowns(towns));
+    setQuestionQueue(shuffleQuestions(questions));
     setCurrentQuestionIndex(0);
     setLastResult(undefined);
     setTotalScore(0);
     setTotalDistanceKm(0);
-    setIsActive(towns.length > 0);
-  }, [towns]);
+    setIsActive(questions.length > 0);
+  }, [questions]);
 
   /**
    * Moves the current unanswered question to the end of the remaining queue.
@@ -293,7 +296,7 @@ export function useTownQuiz({
    *
    * Score and geographic error are accumulated independently. The completed
    * result remains stored in `lastResult`, allowing the map to display the
-   * previous guess while the next town is already active.
+   * previous guess while the next question is already active.
    *
    * Finishing the final question leaves the result and aggregate statistics
    * available for the completed-quiz summary.
@@ -304,11 +307,13 @@ export function useTownQuiz({
         return;
       }
 
-      const town = questionQueue[currentQuestionIndex];
+      const question = questionQueue[currentQuestionIndex];
 
-      if (!town) {
+      if (!question) {
         return;
       }
+
+      const { town } = question;
 
       const distanceKm = getGeographicDistanceKm(guess, {
         latitude: town.latitude,
@@ -318,7 +323,7 @@ export function useTownQuiz({
       const score = getTownGuessScore(distanceKm, maxErrorKm);
 
       setLastResult({
-        town,
+        question,
         guess,
         distanceKm,
         score,

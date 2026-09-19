@@ -1,5 +1,5 @@
 import type {
-  QuizQuestion,
+  FeatureQuizQuestion,
   QuizQuestionLanguage,
 } from "@/types/quiz";
 
@@ -21,7 +21,7 @@ import type {
  * @returns User-facing text for the question.
  */
 export function getQuizQuestionDisplay(
-  question: QuizQuestion,
+  question: FeatureQuizQuestion,
   questionLanguage: QuizQuestionLanguage,
 ): string {
   if (questionLanguage === "native") {

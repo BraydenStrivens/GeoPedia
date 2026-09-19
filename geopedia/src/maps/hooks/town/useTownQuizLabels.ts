@@ -1,8 +1,8 @@
 /**
  * Synchronizes GeoPedia's custom town presentation for town quizzes.
  *
- * Town quizzes use one GeoJSON source containing the towns participating in
- * the active quiz. Two MapLibre layers render that source:
+ * Town quizzes use one GeoJSON source containing the towns represented by the
+ * active question set. Two MapLibre layers render that source:
  *
  * - A circle layer marks each town's exact quiz coordinate.
  * - A symbol layer displays the town's name.
@@ -15,6 +15,10 @@
  * are preferred when multiple labels compete for screen space. National
  * capitals receive the highest priority.
  *
+ * Question objects are retained at this boundary so specialized town quizzes
+ * can extend the shared label presentation with question-specific prompts
+ * without separating them from MapLibre's town-label collision behavior.
+ *
  * MapTiler's built-in settlement labels are suppressed by `useTownQuizMap`
  * before this hook runs, so this hook owns only GeoPedia's custom town layers.
  */
@@ -26,7 +30,7 @@ import type { RefObject } from "react";
 import { useEffect } from "react";
 
 import type { TownQuizGuessResult } from "@/quiz/hooks/useTownQuiz";
-import type { TownQuizTown } from "@/types/quiz";
+import type { TownData, TownQuizQuestion } from "@/types/quiz";
 import type { TownQuizMode } from "@/types/townQuizSettings";
 
 /** GeoJSON source containing towns from the currently active quiz group. */
@@ -79,8 +83,8 @@ type UseTownQuizLabelsParams = {
   /** Whether the map is ready for runtime source and layer operations. */
   isMapReady: boolean;
 
-  /** Towns currently participating in the quiz. */
-  towns: TownQuizTown[];
+  /** Questions currently participating in the quiz. */
+  questions: TownQuizQuestion[];
 
   /** Current Normal/Hard town quiz display mode. */
   mode: TownQuizMode;
@@ -102,7 +106,7 @@ type UseTownQuizLabelsParams = {
  * @param town - Town represented by the custom quiz layer.
  * @returns Text rendered beside the town's coordinate marker.
  */
-function getTownLabelText(town: TownQuizTown): string {
+function getTownLabelText(town: TownData): string {
   if (!town.nativeName) {
     return town.name;
   }
@@ -111,36 +115,45 @@ function getTownLabelText(town: TownQuizTown): string {
 }
 
 /**
- * Converts the active town set into the GeoJSON consumed by MapLibre.
+ * Converts the active question set into the GeoJSON consumed by MapLibre.
  *
+ * Each question contributes its canonical town data to the map source.
  * Population rank and capital status are included as feature properties so
  * MapLibre can prioritize significant towns during collision placement.
  *
- * @param towns - Towns participating in the active quiz.
- * @returns GeoJSON FeatureCollection containing one point per town.
+ * Question-specific presentation such as image prompts is intentionally not
+ * represented yet; specialized prompt rendering is added separately from the
+ * normal town-label behavior.
+ *
+ * @param questions - Town questions participating in the active quiz.
+ * @returns GeoJSON FeatureCollection containing one point per question.
  */
-function createTownQuizGeoJson(towns: TownQuizTown[]) {
+function createTownQuizGeoJson(questions: TownQuizQuestion[]) {
   return {
     type: "FeatureCollection" as const,
 
-    features: towns.map((town) => ({
-      type: "Feature" as const,
+    features: questions.map((question) => {
+      const { town } = question;
 
-      id: town.id,
+      return {
+        type: "Feature" as const,
 
-      geometry: {
-        type: "Point" as const,
-        coordinates: [town.longitude, town.latitude],
-      },
-
-      properties: {
         id: town.id,
-        label: getTownLabelText(town),
-        population: town.population,
-        populationRank: town.populationRank,
-        isCapital: town.isCapital,
-      },
-    })),
+
+        geometry: {
+          type: "Point" as const,
+          coordinates: [town.longitude, town.latitude],
+        },
+
+        properties: {
+          id: town.id,
+          label: getTownLabelText(town),
+          population: town.population,
+          populationRank: town.populationRank,
+          isCapital: town.isCapital,
+        },
+      };
+    }),
   };
 }
 
@@ -148,13 +161,13 @@ function createTownQuizGeoJson(towns: TownQuizTown[]) {
  * Creates or updates the GeoJSON source containing the active quiz towns.
  *
  * @param map - Active town quiz map.
- * @param towns - Towns currently participating in the quiz.
+ * @param questions - Town questions currently participating in the quiz.
  */
 function synchronizeTownQuizSource(
   map: maplibregl.Map,
-  towns: TownQuizTown[],
+  questions: TownQuizQuestion[],
 ): void {
-  const geoJson = createTownQuizGeoJson(towns);
+  const geoJson = createTownQuizGeoJson(questions);
 
   const existingSource = map.getSource(TOWN_QUIZ_SOURCE_ID);
 
@@ -547,7 +560,7 @@ function applyTownQuizPresentation(
 export function useTownQuizLabels({
   mapRef,
   isMapReady,
-  towns,
+  questions,
   mode,
   lastResult,
 }: UseTownQuizLabelsParams): void {
@@ -562,10 +575,10 @@ export function useTownQuizLabels({
       return;
     }
 
-    synchronizeTownQuizSource(map, towns);
+    synchronizeTownQuizSource(map, questions);
 
     ensureTownQuizLayers(map);
-  }, [mapRef, isMapReady, towns]);
+  }, [mapRef, isMapReady, questions]);
 
   /**
    * Synchronizes Normal/Hard mode and most-recent-answer feedback.
@@ -577,7 +590,11 @@ export function useTownQuizLabels({
       return;
     }
 
-    applyTownQuizPresentation(map, mode, lastResult?.town.id);
+    applyTownQuizPresentation(
+      map,
+      mode,
+      lastResult?.question.town.id,
+    );
   }, [mapRef, isMapReady, mode, lastResult]);
 
   /**
@@ -600,7 +617,9 @@ export function useTownQuizLabels({
      */
     const map: maplibregl.Map = currentMap;
 
-    const townIds = new Set(towns.map((town) => town.id));
+    const townIds = new Set(
+      questions.map((question) => question.town.id),
+    );
 
     let visibleTownIds = new Set<string>();
 
@@ -619,5 +638,5 @@ export function useTownQuizLabels({
     return () => {
       map.off("render", synchronizeVisibility);
     };
-  }, [mapRef, isMapReady, towns]);
+  }, [mapRef, isMapReady, questions]);
 }

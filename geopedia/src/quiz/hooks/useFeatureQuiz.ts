@@ -20,7 +20,7 @@ import { useEffect, useRef, useState } from "react";
 import type {
   AnswerStatus,
   FeatureQuiz,
-  QuizQuestion,
+  FeatureQuizQuestion,
 } from "@/types/quiz";
 
 /**
@@ -39,7 +39,9 @@ type UseQuizOptions = {
  * @param questions - Questions to randomize.
  * @returns A new array containing the same questions in randomized order.
  */
-function shuffleQuestions(questions: QuizQuestion[]): QuizQuestion[] {
+function shuffleQuestions(
+  questions: FeatureQuizQuestion[],
+): FeatureQuizQuestion[] {
   const shuffledQuestions = [...questions];
 
   for (
@@ -73,8 +75,8 @@ function shuffleQuestions(questions: QuizQuestion[]): QuizQuestion[] {
  * @returns A new queue with the first question moved to the end.
  */
 function moveCurrentQuestionToEnd(
-  questionQueue: QuizQuestion[],
-): QuizQuestion[] {
+  questionQueue: FeatureQuizQuestion[],
+): FeatureQuizQuestion[] {
   if (questionQueue.length <= 1) {
     return questionQueue;
   }
@@ -101,9 +103,9 @@ export function useQuiz(
    *
    * The first question is always the current question.
    */
-  const [questionQueue, setQuestionQueue] = useState<QuizQuestion[]>(
-    () => shuffleQuestions(quiz.questions),
-  );
+  const [questionQueue, setQuestionQueue] = useState<
+    FeatureQuizQuestion[]
+  >(() => shuffleQuestions(quiz.questions));
 
   /**
    * Completion result for each answer keyed by the answer value.

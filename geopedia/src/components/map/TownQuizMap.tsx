@@ -28,7 +28,7 @@ import { useTownQuizResult } from "@/maps/hooks/town/useTownQuizResult";
 import type { TownQuizGuessResult } from "@/quiz/hooks/useTownQuiz";
 import type { TownCountryConfig } from "@/quiz/town/townCountryConfigs";
 import type { GeographicCoordinate } from "@/quiz/town/townScoring";
-import type { TownQuizTown } from "@/types/quiz";
+import type { TownQuizQuestion } from "@/types/quiz";
 import type { TownQuizSettings } from "@/types/townQuizSettings";
 
 /**
@@ -38,8 +38,8 @@ type TownQuizMapProps = {
   /** Country-specific camera and geographic scoring configuration. */
   townConfig: TownCountryConfig;
 
-  /** Towns currently included in the active quiz/filter. */
-  towns: TownQuizTown[];
+  /** Questions currently included in the active quiz/filter. */
+  questions: TownQuizQuestion[];
 
   /** Persisted settings controlling the town quiz map. */
   settings: TownQuizSettings;
@@ -72,7 +72,7 @@ type TownQuizMapProps = {
  */
 export default function TownQuizMap({
   townConfig,
-  towns,
+  questions,
   settings,
   lastResult,
   onGuess,
@@ -93,14 +93,14 @@ export default function TownQuizMap({
   });
 
   /**
-   * Synchronizes GeoPedia-controlled quiz-town labels with the active town set,
+   * Synchronizes GeoPedia-controlled quiz-town labels with the active questions set,
    * quiz mode, and most recent answer result.
    */
   useTownQuizLabels({
     mapRef,
     isMapReady,
 
-    towns,
+    questions,
 
     mode: settings.mode,
 

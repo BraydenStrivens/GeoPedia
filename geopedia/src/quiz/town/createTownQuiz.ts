@@ -1,16 +1,20 @@
 /**
  * Provides construction logic for GeoPedia town quiz definitions.
  *
- * Town quizzes are data-driven rather than being defined individually for each
- * country. This module converts country metadata and generated town data into
- * the shared `TownQuiz` model used by the application.
+ * Normal town quizzes are data-driven rather than being defined individually
+ * for each country. This module converts canonical country town data into the
+ * question objects used by the shared `TownQuiz` model.
  *
  * The functions in this file are intentionally concerned only with creating
  * quiz definitions. Loading town datasets, resolving country-specific
  * configuration, scoring guesses, and rendering maps are handled elsewhere.
  */
 
-import type { TownQuiz, TownQuizTown } from "@/types/quiz";
+import type {
+  TownData,
+  TownQuiz,
+  TownQuizQuestion,
+} from "@/types/quiz";
 
 /**
  * Values required to construct a country town quiz.
@@ -23,19 +27,20 @@ export type CreateTownQuizOptions = {
   countryName: string;
 
   /** Population-ranked towns available to the quiz. */
-  towns: TownQuizTown[];
+  towns: TownData[];
 };
 
 /**
  * Creates a town quiz definition for a country.
  *
- * Town quizzes are generated from country metadata and the country's processed
- * town dataset rather than requiring a separate handwritten quiz definition
- * for every country.
+ * Normal town quizzes are generated from country metadata and the country's
+ * processed town dataset rather than requiring a separate handwritten quiz
+ * definition for every country.
  *
- * The complete town dataset is attached to the quiz here. Population presets
- * and custom groups can later derive smaller town sets from this source
- * without modifying the underlying quiz definition.
+ * Each canonical town is converted into a question without an explicit prompt.
+ * The normal town quiz experience therefore continues using the town's name as
+ * its question presentation. Specialized town quizzes can later construct
+ * questions with explicit prompts while reusing the same canonical town data.
  *
  * @param options - Country metadata and town data used to build the quiz.
  * @returns Complete town quiz definition.
@@ -45,29 +50,17 @@ export function createTownQuiz({
   countryName,
   towns,
 }: CreateTownQuizOptions): TownQuiz {
+  const questions: TownQuizQuestion[] = towns.map((town) => ({
+    town,
+  }));
+
+  const description: string = `Learn ${questions.length} towns across ${countryName}, with filtering options to practice any desired subset.`;
+
   return {
     id: `${countryId}-towns`,
     name: `${countryName} Towns`,
-    description: createTownQuizDescription(countryName, towns.length),
+    description,
     kind: "town",
-    towns,
+    questions,
   };
-}
-
-/**
- * Creates the user-facing description for a country's town quiz.
- *
- * Town quizzes share the same gameplay and filtering behavior across countries,
- * so their descriptions can be generated from the country name and total number
- * of available towns rather than stored separately for every country.
- *
- * @param countryName - User-facing name of the country.
- * @param townCount - Total number of towns available in the quiz.
- * @returns Description displayed in the country's quiz listing.
- */
-function createTownQuizDescription(
-  countryName: string,
-  townCount: number,
-): string {
-  return `Learn ${townCount} towns across ${countryName}, with filtering options to practice any desired subset.`;
 }

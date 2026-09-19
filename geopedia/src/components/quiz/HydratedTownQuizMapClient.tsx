@@ -45,7 +45,7 @@ type HydratedTownQuizMapClientProps = {
  *
  * @param props - Town quiz client properties.
  * @param props.countryId - Country used to identify persisted town settings.
- * @param props.quiz - Town quiz definition and generated settlement data.
+ * @param props.quiz - Town quiz definition and available questions.
  * @param props.townConfig - Country-specific map and scoring configuration.
  * @returns The hydrated town quiz map, controls, and overlay.
  */
@@ -55,12 +55,12 @@ export default function HydratedTownQuizMapClient({
   townConfig,
 }: HydratedTownQuizMapClientProps) {
   /**
-   * Number of population-ranked towns currently participating in the quiz.
+   * Number of population-ranked questions currently participating in the quiz.
    *
-   * The complete generated dataset is active initially.
+   * The complete question set is active initially.
    */
   const [activeTownCount, setActiveTownCount] = useState(
-    quiz.towns.length,
+    quiz.questions.length,
   );
 
   /** Whether the floating town Filter panel is currently visible. */
@@ -83,30 +83,38 @@ export default function HydratedTownQuizMapClient({
   );
 
   /**
-   * Town records consumed by both the quiz engine and Normal-mode label layer.
+   * Questions currently participating in the quiz.
    *
-   * Full Quiz preserves the generated dataset exactly. Numeric filters use the
-   * shared population-group helper so the national capital is included even
-   * when it falls outside the requested population cutoff.
+   * Full Quiz preserves the complete question set exactly. Numeric filters use
+   * the shared population-group helper and evaluate each question's canonical
+   * town data so the national capital remains included without discarding
+   * question-specific data such as prompts.
    */
-  const activeTowns = useMemo(() => {
-    if (activeTownCount === quiz.towns.length) {
-      return quiz.towns;
+  const activeQuestions = useMemo(() => {
+    if (activeTownCount === quiz.questions.length) {
+      return quiz.questions;
     }
 
-    return getTownPopulationGroup(quiz.towns, activeTownCount);
-  }, [quiz.towns, activeTownCount]);
+    return getTownPopulationGroup(
+      quiz.questions,
+      activeTownCount,
+      (question) => question.town,
+    );
+  }, [quiz.questions, activeTownCount]);
 
   /**
-   * Whether the active town subset contains at least one settlement whose
+   * Whether the active question subset contains at least one settlement whose
    * native name differs from its English/international name.
    *
    * The Language setting is hidden when changing languages would have no
    * visible effect on any question in the active subset.
    */
   const hasNativeNames = useMemo(
-    () => activeTowns.some((town) => town.nativeName !== undefined),
-    [activeTowns],
+    () =>
+      activeQuestions.some(
+        (question) => question.town.nativeName !== undefined,
+      ),
+    [activeQuestions],
   );
 
   const {
@@ -129,7 +137,7 @@ export default function HydratedTownQuizMapClient({
 
     submitGuess,
   } = useTownQuiz({
-    towns: activeTowns,
+    questions: activeQuestions,
     maxErrorKm: townConfig.maxErrorKm,
   });
 
@@ -137,20 +145,23 @@ export default function HydratedTownQuizMapClient({
    * User-facing name for the current town question.
    */
   const currentQuestionName = currentQuestion
-    ? getTownQuestionName(currentQuestion, settings.questionLanguage)
+    ? getTownQuestionName(
+        currentQuestion.town,
+        settings.questionLanguage,
+      )
     : undefined;
 
   /**
-   * Restores the complete generated town dataset.
+   * Restores the complete town question set.
    */
   function useFullTownQuiz(): void {
-    setActiveTownCount(quiz.towns.length);
+    setActiveTownCount(quiz.questions.length);
   }
 
   /**
    * Applies a population-ranked town count.
    *
-   * @param count - Number of towns that should participate in the quiz.
+   * @param count - Number of town questions that should participate in the quiz.
    */
   function applyTownCount(count: number): void {
     setActiveTownCount(count);
@@ -199,7 +210,7 @@ export default function HydratedTownQuizMapClient({
       {/* Interactive town quiz map */}
       <TownQuizMap
         townConfig={townConfig}
-        towns={activeTowns}
+        questions={activeQuestions}
         settings={settings}
         lastResult={lastResult}
         isGuessingEnabled={isActive && currentQuestion !== undefined}
@@ -225,7 +236,7 @@ export default function HydratedTownQuizMapClient({
         }
         filterPanel={
           <TownQuizFilterPanel
-            availableTownCount={quiz.towns.length}
+            availableTownCount={quiz.questions.length}
             activeTownCount={activeTownCount}
             onUseFullQuiz={useFullTownQuiz}
             onApplyTownCount={applyTownCount}

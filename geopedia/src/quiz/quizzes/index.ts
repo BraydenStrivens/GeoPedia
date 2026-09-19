@@ -243,7 +243,7 @@ function getQuizQuestionCount(quiz: FeatureQuiz | TownQuiz): number {
     return quiz.questions.length;
   }
 
-  return quiz.towns.length;
+  return quiz.questions.length;
 }
 
 /* ======================== COUNTRY QUIZZES ======================== */

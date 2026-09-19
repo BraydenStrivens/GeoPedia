@@ -14,8 +14,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 
-import type { TownQuizData, TownQuizTown } from "@/types/quiz";
-
+import type { TownData, TownQuizData } from "@/types/quiz";
 /**
  * Valid country IDs used by generated town-data filenames.
  *
@@ -25,17 +24,17 @@ import type { TownQuizData, TownQuizTown } from "@/types/quiz";
 const COUNTRY_ID_PATTERN = /^[a-z]{3}$/;
 
 /**
- * Returns whether an unknown value contains the runtime shape required by a
- * town quiz location.
+ * Returns whether an unknown value contains the canonical town-data shape
+ * required by GeoPedia's generated town datasets.
  *
  * This validates generated JSON at the application boundary so malformed or
  * stale town data fails with a useful error rather than producing failures
  * later inside quiz logic.
  *
  * @param value - Unknown parsed JSON value.
- * @returns Whether the value is a valid town-quiz town.
+ * @returns Whether the value is valid town data.
  */
-function isTownQuizTown(value: unknown): value is TownQuizTown {
+function isTownData(value: unknown): value is TownData {
   if (typeof value !== "object" || value === null) {
     return false;
   }
@@ -79,9 +78,7 @@ function isTownQuizData(value: unknown): value is TownQuizData {
 
   const data = value as Record<string, unknown>;
 
-  return (
-    Array.isArray(data.towns) && data.towns.every(isTownQuizTown)
-  );
+  return Array.isArray(data.towns) && data.towns.every(isTownData);
 }
 
 /**

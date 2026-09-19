@@ -13,7 +13,7 @@
  * quiz state are handled separately.
  */
 
-import type { TownQuizTown } from "@/types/quiz";
+import type { TownData } from "@/types/quiz";
 
 /**
  * Population-based preset sizes offered by town quizzes.
@@ -40,18 +40,19 @@ export type TownQuizPresetCount =
   (typeof TOWN_QUIZ_PRESET_COUNTS)[number];
 
 /**
- * Returns the highest-population towns for a population-based quiz group while
+ * Returns the highest-population items for a population-based quiz group while
  * guaranteeing that the national capital occupies one of the requested slots.
  *
- * Generated town datasets are already ordered by `populationRank`, so the
- * initial population group can be selected directly from the beginning of the
- * array.
+ * Items must already be ordered by their associated town's `populationRank`,
+ * matching the order of GeoPedia's generated town datasets. The supplied
+ * selector allows the grouping logic to preserve higher-level objects such as
+ * town quiz questions while evaluating their canonical town data.
  *
  * If the capital already belongs to the requested population range, the normal
  * top-N result is returned unchanged. If the capital falls outside that range,
- * the lowest-ranked town in the range is replaced by the capital. The returned
- * group therefore always contains exactly `count` towns when at least `count`
- * towns are available.
+ * the lowest-ranked item in the range is replaced by the capital. The returned
+ * group therefore always contains exactly `count` items when at least `count`
+ * items are available.
  *
  * For example, if the capital is population rank 139:
  *
@@ -60,28 +61,33 @@ export type TownQuizPresetCount =
  * - Top 50 contains ranks 1-49 plus the capital.
  * - Top 100 contains ranks 1-99 plus the capital.
  *
- * @param towns - Population-ranked towns available to the quiz.
- * @param count - Number of towns requested for the population group.
- * @returns Population-based town group with the capital included when present.
+ * @param items - Population-ranked items available to the quiz.
+ * @param count - Number of items requested for the population group.
+ * @param getTown - Returns the canonical town data represented by an item.
+ * @returns Population-based group with the capital included when present.
  */
-export function getTownPopulationGroup(
-  towns: TownQuizTown[],
+export function getTownPopulationGroup<T>(
+  items: T[],
   count: number,
-): TownQuizTown[] {
-  const requestedCount = Math.min(Math.max(0, count), towns.length);
+  getTown: (item: T) => TownData,
+): T[] {
+  const requestedCount = Math.min(Math.max(0, count), items.length);
 
   if (requestedCount === 0) {
     return [];
   }
 
-  const topTowns = towns.slice(0, requestedCount);
-  const capital = towns.find((town) => town.isCapital);
+  const topItems = items.slice(0, requestedCount);
+  const capital = items.find((item) => getTown(item).isCapital);
 
-  if (!capital || topTowns.some((town) => town.id === capital.id)) {
-    return topTowns;
+  if (
+    !capital ||
+    topItems.some((item) => getTown(item).id === getTown(capital).id)
+  ) {
+    return topItems;
   }
 
-  return [...topTowns.slice(0, requestedCount - 1), capital];
+  return [...topItems.slice(0, requestedCount - 1), capital];
 }
 
 /**

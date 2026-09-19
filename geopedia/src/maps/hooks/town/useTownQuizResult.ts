@@ -155,7 +155,10 @@ function createResultLineData(
 
           coordinates: [
             [result.guess.longitude, result.guess.latitude],
-            [result.town.longitude, result.town.latitude],
+            [
+              result.question.town.longitude,
+              result.question.town.latitude,
+            ],
           ],
         },
       },

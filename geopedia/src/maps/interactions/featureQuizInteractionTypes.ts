@@ -21,7 +21,7 @@ import type { QuizMode } from "@/types/featureQuizSettings";
 import type {
   AnswerStatus,
   FeatureQuiz,
-  QuizQuestion,
+  FeatureQuizQuestion,
   QuizQuestionLanguage,
 } from "@/types/quiz";
 
@@ -95,7 +95,7 @@ export type QuizMapInteractionContext = {
   questionLanguageRef: RefObject<QuizQuestionLanguage>;
 
   /** Latest feature quiz question currently being asked. */
-  currentQuestionRef: RefObject<QuizQuestion | undefined>;
+  currentQuestionRef: RefObject<FeatureQuizQuestion | undefined>;
 
   /** Latest completion result for every answered feature quiz question. */
   answerStatusesRef: RefObject<Record<string, AnswerStatus>>;
