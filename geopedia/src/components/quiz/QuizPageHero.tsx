@@ -6,18 +6,19 @@ type QuizPageHeroProps = {
   title: string;
 
   /** Supporting text displayed beneath the page title. */
-  subtitle: string;
+  subtitle?: string;
 };
 
 /**
  * Displays the shared heading used by GeoPedia quiz overview pages.
  *
  * The hero provides a consistent visual introduction for country and global
- * quiz pages while allowing each page to supply its own title and subtitle.
+ * quiz pages while allowing each page to supply its own title and optional
+ * subtitle.
  *
  * @param props - Quiz page hero properties.
  * @param props.title - Primary page title.
- * @param props.subtitle - Supporting text displayed beneath the title.
+ * @param props.subtitle - Optional supporting text displayed beneath the title.
  * @returns The shared quiz page hero.
  */
 export default function QuizPageHero({
@@ -37,9 +38,11 @@ export default function QuizPageHero({
           {title}
         </h1>
 
-        <p className="mt-2 max-w-2xl text-xl font-medium text-slate-500">
-          {subtitle}
-        </p>
+        {subtitle && (
+          <p className="mt-2 max-w-2xl text-xl font-medium text-slate-500">
+            {subtitle}
+          </p>
+        )}
       </div>
     </section>
   );

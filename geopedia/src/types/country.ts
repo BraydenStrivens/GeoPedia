@@ -13,6 +13,9 @@ export type CountryData = {
   /** Common user-facing name of the country. */
   name: string;
 
+  /** Distinct native/local country name when GeoPedia has one available. */
+  nativeName?: string;
+
   /** Full official name of the country. */
   officialName: string;
 

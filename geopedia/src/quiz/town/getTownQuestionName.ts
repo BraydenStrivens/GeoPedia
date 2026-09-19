@@ -9,7 +9,7 @@
  */
 
 import type { TownQuizTown } from "@/types/quiz";
-import type { TownQuizQuestionLanguage } from "@/types/townQuizSettings";
+import type { QuizQuestionLanguage } from "@/types/quiz";
 
 /**
  * Returns the settlement name that should be displayed as the current question.
@@ -20,7 +20,7 @@ import type { TownQuizQuestionLanguage } from "@/types/townQuizSettings";
  */
 export function getTownQuestionName(
   town: TownQuizTown,
-  language: TownQuizQuestionLanguage,
+  language: QuizQuestionLanguage,
 ): string {
   if (language === "native" && town.nativeName) {
     return town.nativeName;

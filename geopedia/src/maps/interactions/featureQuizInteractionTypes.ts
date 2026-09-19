@@ -22,6 +22,7 @@ import type {
   AnswerStatus,
   FeatureQuiz,
   QuizQuestion,
+  QuizQuestionLanguage,
 } from "@/types/quiz";
 
 /**
@@ -86,6 +87,12 @@ export type QuizMapInteractionContext = {
 
   /** Latest Normal/Hard feature quiz mode. */
   quizModeRef: RefObject<QuizMode>;
+
+  /**
+   * Latest language used to present feature quiz questions and answer
+   * feedback.
+   */
+  questionLanguageRef: RefObject<QuizQuestionLanguage>;
 
   /** Latest feature quiz question currently being asked. */
   currentQuestionRef: RefObject<QuizQuestion | undefined>;

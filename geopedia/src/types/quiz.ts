@@ -47,6 +47,17 @@ export type QuizKind = "feature" | "town";
 export type QuizDifficulty = "easy" | "medium" | "hard" | "extreme";
 
 /**
+ * Language used when presenting quiz-answer names to the user.
+ *
+ * - `english` uses the quiz question's default English/international display.
+ * - `native` prefers the question's native-language display when available.
+ *
+ * Questions without a native display fall back to their normal display and
+ * then their raw answer value.
+ */
+export type QuizQuestionLanguage = "english" | "native";
+
+/**
  * Defines the user-facing content displayed as a quiz question prompt.
  *
  * A prompt can either display text directly or display an image with
@@ -85,11 +96,20 @@ export interface QuizQuestion {
   answer: string;
 
   /**
-   * Optional user-facing question text.
+   * Optional user-facing english/internation-latin question text.
    *
    * The raw `answer` value is displayed when this is omitted.
    */
   display?: string;
+
+  /**
+   * Optional native-language display text for this quiz answer.
+   *
+   * Native question language prefers this value for question prompts, Show
+   * Answers labels, and temporary answer-feedback popups. When omitted, Native
+   * mode falls back to `display` and then `answer`.
+   */
+  nativeDisplay?: string;
 
   /**
    * Optional explicit question prompt.

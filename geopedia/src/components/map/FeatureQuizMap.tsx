@@ -210,7 +210,17 @@ export default function FeatureQuizMap({
   const effectiveClickBehavior: QuizMapClickBehavior =
     isShowingAnswers ? "none" : clickBehavior;
 
-  const questionPrompt = getQuizQuestionPrompt(currentQuestion);
+  /**
+   * Language used consistently by the current question, Show Answers labels,
+   * and temporary feature-answer feedback.
+   */
+  const questionLanguage =
+    quizSettings?.questionLanguage ?? "english";
+
+  const questionPrompt = getQuizQuestionPrompt(
+    currentQuestion,
+    questionLanguage,
+  );
 
   const isQuizRunning = isActive && !isFinished;
 
@@ -222,6 +232,7 @@ export default function FeatureQuizMap({
   const clickBehaviorRef = useLatestRef(effectiveClickBehavior);
   const quizRef = useLatestRef(quiz);
   const quizModeRef = useLatestRef(quizSettings?.mode ?? "normal");
+  const questionLanguageRef = useLatestRef(questionLanguage);
   const currentQuestionRef = useLatestRef(currentQuestion);
   const answerQuestionRef = useLatestRef(answerQuestion);
   const answerStatusesRef = useLatestRef(answerStatuses);
@@ -314,6 +325,7 @@ export default function FeatureQuizMap({
     quizRef,
     isQuizRunningRef,
     quizModeRef,
+    questionLanguageRef,
     currentQuestionRef,
     answerStatusesRef,
     answerQuestionRef,
@@ -398,6 +410,7 @@ export default function FeatureQuizMap({
 
     quiz,
     mapConfig,
+    questionLanguage,
 
     isShowingAnswers: shouldShowAnswerLabels,
 

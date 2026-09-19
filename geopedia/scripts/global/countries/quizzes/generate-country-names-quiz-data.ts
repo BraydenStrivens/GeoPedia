@@ -1,19 +1,23 @@
 /**
  * Generates GeoPedia's global Country Names quiz data from the processed
- * world-country GeoJSON.
+ * world-country GeoJSON and shared country-name metadata.
  *
  * The generated questions:
  *
  * - Contain one question for every mapped world-country feature.
  * - Use each country's ISO alpha-3 code as the quiz answer.
- * - Use the country's user-facing name as the displayed question.
+ * - Use the shared English country name as the English display.
+ * - Include the shared native/local name as `nativeDisplay` when available.
  *
- * The processed world-country GeoJSON is authoritative because it represents
- * the exact geographic features selectable on the quiz map.
+ * The processed world-country GeoJSON remains authoritative for which
+ * geographic features appear in the quiz. GeoPedia's shared country-name
+ * metadata supplies the user-facing English and optional native/local names.
  */
 
 import fs from "node:fs";
 import path from "node:path";
+
+import { COUNTRY_NAMES } from "../../../../src/countries/countryNames";
 
 /**
  * Processed geographic data used by GeoPedia's world-country map.
@@ -88,6 +92,10 @@ function loadWorldCountries(): WorldCountryFeatureCollection {
 
 /**
  * Validates one world-country feature before it becomes a quiz question.
+ *
+ * Every mapped feature must also have matching shared country-name metadata so
+ * the generated quiz cannot silently fall out of sync with GeoPedia's shared
+ * country identity data.
  */
 function validateFeature(
   feature: WorldCountryFeature,
@@ -118,6 +126,15 @@ function validateFeature(
       `World country "${properties.name}" has no valid iso_a3 value.`,
     );
   }
+
+  const isoA3 = properties.iso_a3.trim();
+
+  if (!COUNTRY_NAMES[isoA3]) {
+    throw new Error(
+      `No shared country-name metadata found for ` +
+        `${properties.name} (${isoA3}).`,
+    );
+  }
 }
 
 /**
@@ -144,31 +161,49 @@ function validateUniqueIsoCodes(
 /**
  * Creates the generated TypeScript question-data module.
  *
- * Questions are sorted alphabetically by country name for deterministic,
- * readable output.
+ * Questions are sorted alphabetically by their shared English country name for
+ * deterministic, readable output.
  */
 function createSource(features: WorldCountryFeature[]): string {
-  const sortedFeatures = [...features].sort((left, right) =>
-    left.properties.name.localeCompare(right.properties.name, "en"),
-  );
+  const sortedFeatures = [...features].sort((left, right) => {
+    const leftIsoA3 = left.properties.iso_a3.trim();
+    const rightIsoA3 = right.properties.iso_a3.trim();
+
+    return COUNTRY_NAMES[leftIsoA3].name.localeCompare(
+      COUNTRY_NAMES[rightIsoA3].name,
+      "en",
+    );
+  });
 
   const questions = sortedFeatures
     .map((feature) => {
-      const name = feature.properties.name.trim();
-
       const isoA3 = feature.properties.iso_a3.trim();
+      const countryName = COUNTRY_NAMES[isoA3];
 
-      return [
+      const lines = [
         "  {",
         `    answer: ${quote(isoA3)},`,
-        `    display: ${quote(name)},`,
-        "  },",
-      ].join("\n");
+        `    display: ${quote(countryName.name)},`,
+      ];
+
+      if (countryName.nativeName !== undefined) {
+        lines.push(
+          `    nativeDisplay: ${quote(countryName.nativeName)},`,
+        );
+      }
+
+      lines.push("  },");
+
+      return lines.join("\n");
     })
     .join("\n");
 
   return `/**
  * Generated Country Names quiz data.
+ *
+ * English and native/local displays come from GeoPedia's shared country-name
+ * metadata. Native displays are included only when the shared metadata
+ * provides a distinct native/local name.
  *
  * Do not edit manually.
  * Regenerate with:
@@ -207,8 +242,20 @@ function main(): void {
 
   fs.writeFileSync(OUTPUT_PATH, source, "utf8");
 
+  const nativeDisplayCount = featureCollection.features.filter(
+    (feature) => {
+      const isoA3 = feature.properties.iso_a3.trim();
+
+      return COUNTRY_NAMES[isoA3].nativeName !== undefined;
+    },
+  ).length;
+
   console.log(
     `Generated ${featureCollection.features.length} Country Names questions.`,
+  );
+
+  console.log(
+    `Questions with distinct native displays: ${nativeDisplayCount}`,
   );
 
   console.log(`Output: ${OUTPUT_PATH}`);

@@ -1,9 +1,10 @@
 /**
  * Coordinates GeoPedia's hydrated feature-based quiz experience.
  *
- * This component connects a feature quiz to its persisted settings, GeoJSON
- * grouping data, saved groups, manual feature-selection workflow, optional
- * GeoGuessr filtering, map interaction state, and floating quiz panels.
+ * This component connects a feature quiz to its persisted settings,
+ * language-presentation capability, GeoJSON grouping data, saved groups,
+ * manual feature-selection workflow, optional GeoGuessr filtering, map
+ * interaction state, and floating quiz panels.
  *
  * Feature-specific orchestration lives here so the shared `QuizMapClient`
  * hydration boundary does not need to understand the internal state or
@@ -63,6 +64,25 @@ export default function HydratedFeatureQuizMapClient({
   const { settings, setSettings } = useFeatureQuizSettings(
     countryId,
     quiz.id,
+  );
+
+  /**
+   * Whether this feature quiz provides at least one distinct native-language
+   * answer display.
+   *
+   * Language selection is a capability of the complete quiz rather than the
+   * currently active group, so filtering or grouping does not cause the setting
+   * to appear or disappear.
+   */
+  const hasNativeDisplays = useMemo(
+    () =>
+      quiz.questions.some(
+        (question) =>
+          question.nativeDisplay !== undefined &&
+          question.nativeDisplay !==
+            (question.display ?? question.answer),
+      ),
+    [quiz.questions],
   );
 
   /** Loads the feature quiz's GeoJSON for React-side grouping logic. */
@@ -488,6 +508,7 @@ export default function HydratedFeatureQuizMapClient({
         settingsPanel={
           <FeatureQuizSettingsPanel
             settings={settings}
+            hasNativeDisplays={hasNativeDisplays}
             onChange={setSettings}
           />
         }

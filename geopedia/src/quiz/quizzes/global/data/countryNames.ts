@@ -1,6 +1,10 @@
 /**
  * Generated Country Names quiz data.
  *
+ * English and native/local displays come from GeoPedia's shared country-name
+ * metadata. Native displays are included only when the shared metadata
+ * provides a distinct native/local name.
+ *
  * Do not edit manually.
  * Regenerate with:
  * npx tsx scripts/global/countries/quizzes/generate-country-names-quiz-data.ts
@@ -10,18 +14,22 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "AFG",
     display: "Afghanistan",
+    nativeDisplay: "افغانستان",
   },
   {
     answer: "ALA",
     display: "Åland Islands",
+    nativeDisplay: "Åland",
   },
   {
     answer: "ALB",
     display: "Albania",
+    nativeDisplay: "Shqipëria",
   },
   {
     answer: "DZA",
     display: "Algeria",
+    nativeDisplay: "Algérie",
   },
   {
     answer: "ASM",
@@ -54,6 +62,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "ARM",
     display: "Armenia",
+    nativeDisplay: "Հայաստան",
   },
   {
     answer: "ABW",
@@ -66,10 +75,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "AUT",
     display: "Austria",
+    nativeDisplay: "Österreich",
   },
   {
     answer: "AZE",
     display: "Azerbaijan",
+    nativeDisplay: "Azərbaycan",
   },
   {
     answer: "BHS",
@@ -78,10 +89,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "BHR",
     display: "Bahrain",
+    nativeDisplay: "البحرين",
   },
   {
     answer: "BGD",
     display: "Bangladesh",
+    nativeDisplay: "বাংলাদেশ",
   },
   {
     answer: "BRB",
@@ -90,10 +103,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "BLR",
     display: "Belarus",
+    nativeDisplay: "Беларусь",
   },
   {
     answer: "BEL",
     display: "Belgium",
+    nativeDisplay: "België / Belgique / Belgien",
   },
   {
     answer: "BLZ",
@@ -102,6 +117,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "BEN",
     display: "Benin",
+    nativeDisplay: "Bénin",
   },
   {
     answer: "BMU",
@@ -110,6 +126,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "BTN",
     display: "Bhutan",
+    nativeDisplay: "འབྲུགཡུལ་",
   },
   {
     answer: "BOL",
@@ -118,6 +135,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "BIH",
     display: "Bosnia and Herzegovina",
+    nativeDisplay: "Bosna i Hercegovina",
   },
   {
     answer: "BWA",
@@ -126,10 +144,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "BVT",
     display: "Bouvet Island",
+    nativeDisplay: "Bouvetøya",
   },
   {
     answer: "BRA",
     display: "Brazil",
+    nativeDisplay: "Brasil",
   },
   {
     answer: "IOT",
@@ -142,10 +162,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "BRN",
     display: "Brunei",
+    nativeDisplay: "Brunei Darussalam",
   },
   {
     answer: "BGR",
     display: "Bulgaria",
+    nativeDisplay: "Бългaрия",
   },
   {
     answer: "BFA",
@@ -162,10 +184,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "KHM",
     display: "Cambodia",
+    nativeDisplay: "កម្ពុជា",
   },
   {
     answer: "CMR",
     display: "Cameroon",
+    nativeDisplay: "Cameroun",
   },
   {
     answer: "CAN",
@@ -174,6 +198,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "BES",
     display: "Caribbean Netherlands",
+    nativeDisplay: "Caribisch Nederland",
   },
   {
     answer: "CYM",
@@ -182,10 +207,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "CAF",
     display: "Central African Republic",
+    nativeDisplay: "Centrafrique",
   },
   {
     answer: "TCD",
     display: "Chad",
+    nativeDisplay: "Tchad / تشاد",
   },
   {
     answer: "CHL",
@@ -194,6 +221,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "CHN",
     display: "China",
+    nativeDisplay: "中国",
   },
   {
     answer: "CXR",
@@ -210,14 +238,17 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "COM",
     display: "Comoros",
+    nativeDisplay: "Comores / Komori / جزر القمر",
   },
   {
     answer: "COG",
     display: "Congo",
+    nativeDisplay: "République du Congo",
   },
   {
     answer: "COK",
     display: "Cook Islands",
+    nativeDisplay: "Kūki ʻĀirani",
   },
   {
     answer: "CRI",
@@ -226,6 +257,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "HRV",
     display: "Croatia",
+    nativeDisplay: "Hrvatska",
   },
   {
     answer: "CUB",
@@ -238,18 +270,22 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "CYP",
     display: "Cyprus",
+    nativeDisplay: "Κύπρος / Kıbrıs",
   },
   {
     answer: "CZE",
     display: "Czechia",
+    nativeDisplay: "Česko",
   },
   {
     answer: "DNK",
     display: "Denmark",
+    nativeDisplay: "Danmark",
   },
   {
     answer: "DJI",
     display: "Djibouti",
+    nativeDisplay: "Djibouti / جيبوتي",
   },
   {
     answer: "DMA",
@@ -258,10 +294,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "DOM",
     display: "Dominican Republic",
+    nativeDisplay: "República Dominicana",
   },
   {
     answer: "COD",
     display: "DRC",
+    nativeDisplay: "République démocratique du Congo",
   },
   {
     answer: "ECU",
@@ -270,6 +308,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "EGY",
     display: "Egypt",
+    nativeDisplay: "مصر",
   },
   {
     answer: "SLV",
@@ -278,14 +317,17 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "GNQ",
     display: "Equatorial Guinea",
+    nativeDisplay: "Guinea Ecuatorial",
   },
   {
     answer: "ERI",
     display: "Eritrea",
+    nativeDisplay: "ኤርትራ / Eritrea / إرتريا",
   },
   {
     answer: "EST",
     display: "Estonia",
+    nativeDisplay: "Eesti",
   },
   {
     answer: "SWZ",
@@ -294,6 +336,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "ETH",
     display: "Ethiopia",
+    nativeDisplay: "ኢትዮጵያ / Ethiopia",
   },
   {
     answer: "FLK",
@@ -302,6 +345,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "FRO",
     display: "Faroe Islands",
+    nativeDisplay: "Føroyar",
   },
   {
     answer: "FJI",
@@ -310,6 +354,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "FIN",
     display: "Finland",
+    nativeDisplay: "Suomi / Finland",
   },
   {
     answer: "FRA",
@@ -318,6 +363,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "GUF",
     display: "French Guiana",
+    nativeDisplay: "Guyane",
   },
   {
     answer: "PYF",
@@ -338,10 +384,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "GEO",
     display: "Georgia",
+    nativeDisplay: "საქართველო",
   },
   {
     answer: "DEU",
     display: "Germany",
+    nativeDisplay: "Deutschland",
   },
   {
     answer: "GHA",
@@ -354,10 +402,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "GRC",
     display: "Greece",
+    nativeDisplay: "Ελλάδα",
   },
   {
     answer: "GRL",
     display: "Greenland",
+    nativeDisplay: "Kalaallit Nunaat",
   },
   {
     answer: "GRD",
@@ -382,10 +432,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "GIN",
     display: "Guinea",
+    nativeDisplay: "Guinée",
   },
   {
     answer: "GNB",
     display: "Guinea-Bissau",
+    nativeDisplay: "Guiné-Bissau",
   },
   {
     answer: "GUY",
@@ -406,14 +458,17 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "HKG",
     display: "Hong Kong",
+    nativeDisplay: "香港",
   },
   {
     answer: "HUN",
     display: "Hungary",
+    nativeDisplay: "Magyarország",
   },
   {
     answer: "ISL",
     display: "Iceland",
+    nativeDisplay: "Ísland",
   },
   {
     answer: "IND",
@@ -426,10 +481,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "IRN",
     display: "Iran",
+    nativeDisplay: "ایران",
   },
   {
     answer: "IRQ",
     display: "Iraq",
+    nativeDisplay: "العراق",
   },
   {
     answer: "IRL",
@@ -442,14 +499,17 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "ISR",
     display: "Israel",
+    nativeDisplay: "ישראל",
   },
   {
     answer: "ITA",
     display: "Italy",
+    nativeDisplay: "Italia",
   },
   {
     answer: "CIV",
     display: "Ivory Coast",
+    nativeDisplay: "Côte d'Ivoire",
   },
   {
     answer: "JAM",
@@ -458,6 +518,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "JPN",
     display: "Japan",
+    nativeDisplay: "日本",
   },
   {
     answer: "JEY",
@@ -466,10 +527,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "JOR",
     display: "Jordan",
+    nativeDisplay: "الأردن",
   },
   {
     answer: "KAZ",
     display: "Kazakhstan",
+    nativeDisplay: "Қазақстан",
   },
   {
     answer: "KEN",
@@ -482,26 +545,32 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "XKX",
     display: "Kosovo",
+    nativeDisplay: "Kosovë / Kosovo",
   },
   {
     answer: "KWT",
     display: "Kuwait",
+    nativeDisplay: "الكويت",
   },
   {
     answer: "KGZ",
     display: "Kyrgyzstan",
+    nativeDisplay: "Кыргызстан",
   },
   {
     answer: "LAO",
     display: "Laos",
+    nativeDisplay: "ປະເທດລາວ",
   },
   {
     answer: "LVA",
     display: "Latvia",
+    nativeDisplay: "Latvija",
   },
   {
     answer: "LBN",
     display: "Lebanon",
+    nativeDisplay: "لبنان",
   },
   {
     answer: "LSO",
@@ -514,6 +583,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "LBY",
     display: "Libya",
+    nativeDisplay: "ليبيا",
   },
   {
     answer: "LIE",
@@ -522,14 +592,17 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "LTU",
     display: "Lithuania",
+    nativeDisplay: "Lietuva",
   },
   {
     answer: "LUX",
     display: "Luxembourg",
+    nativeDisplay: "Lëtzebuerg",
   },
   {
     answer: "MAC",
     display: "Macau",
+    nativeDisplay: "澳門",
   },
   {
     answer: "MDG",
@@ -546,6 +619,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "MDV",
     display: "Maldives",
+    nativeDisplay: "ދިވެހިރާއްޖެ",
   },
   {
     answer: "MLI",
@@ -566,10 +640,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "MRT",
     display: "Mauritania",
+    nativeDisplay: "موريتانيا",
   },
   {
     answer: "MUS",
     display: "Mauritius",
+    nativeDisplay: "Mauritius / Maurice",
   },
   {
     answer: "MYT",
@@ -578,6 +654,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "MEX",
     display: "Mexico",
+    nativeDisplay: "México",
   },
   {
     answer: "FSM",
@@ -594,10 +671,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "MNG",
     display: "Mongolia",
+    nativeDisplay: "Монгол Улс",
   },
   {
     answer: "MNE",
     display: "Montenegro",
+    nativeDisplay: "Crna Gora / Црна Гора",
   },
   {
     answer: "MSR",
@@ -606,6 +685,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "MAR",
     display: "Morocco",
+    nativeDisplay: "Maroc / ⵍⵎⴰⵖⵔⵉⴱ / المغرب",
   },
   {
     answer: "MOZ",
@@ -614,6 +694,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "MMR",
     display: "Myanmar",
+    nativeDisplay: "မြန်မာ",
   },
   {
     answer: "NAM",
@@ -622,14 +703,17 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "NRU",
     display: "Nauru",
+    nativeDisplay: "Naoero",
   },
   {
     answer: "NPL",
     display: "Nepal",
+    nativeDisplay: "नेपाल",
   },
   {
     answer: "NLD",
     display: "Netherlands",
+    nativeDisplay: "Nederland",
   },
   {
     answer: "NCL",
@@ -638,6 +722,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "NZL",
     display: "New Zealand",
+    nativeDisplay: "New Zealand / Aotearoa",
   },
   {
     answer: "NIC",
@@ -662,10 +747,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "PRK",
     display: "North Korea",
+    nativeDisplay: "조선민주주의인민공화국",
   },
   {
     answer: "MKD",
     display: "North Macedonia",
+    nativeDisplay: "Северна Македонија",
   },
   {
     answer: "MNP",
@@ -674,22 +761,27 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "NOR",
     display: "Norway",
+    nativeDisplay: "Norge",
   },
   {
     answer: "OMN",
     display: "Oman",
+    nativeDisplay: "عمان",
   },
   {
     answer: "PAK",
     display: "Pakistan",
+    nativeDisplay: "پاکستان",
   },
   {
     answer: "PLW",
     display: "Palau",
+    nativeDisplay: "Belau",
   },
   {
     answer: "PSE",
     display: "Palestine",
+    nativeDisplay: "فلسطين",
   },
   {
     answer: "PAN",
@@ -706,6 +798,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "PER",
     display: "Peru",
+    nativeDisplay: "Perú",
   },
   {
     answer: "PHL",
@@ -714,10 +807,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "PCN",
     display: "Pitcairn Islands",
+    nativeDisplay: "Pitcairn",
   },
   {
     answer: "POL",
     display: "Poland",
+    nativeDisplay: "Polska",
   },
   {
     answer: "PRT",
@@ -730,18 +825,22 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "QAT",
     display: "Qatar",
+    nativeDisplay: "قطر",
   },
   {
     answer: "REU",
     display: "Réunion",
+    nativeDisplay: "La Réunion",
   },
   {
     answer: "ROU",
     display: "Romania",
+    nativeDisplay: "România",
   },
   {
     answer: "RUS",
     display: "Russia",
+    nativeDisplay: "Россия",
   },
   {
     answer: "RWA",
@@ -750,6 +849,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "BLM",
     display: "Saint Barthélemy",
+    nativeDisplay: "St-Barthélemy",
   },
   {
     answer: "SHN",
@@ -766,6 +866,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "MAF",
     display: "Saint Martin",
+    nativeDisplay: "St-Martin",
   },
   {
     answer: "SPM",
@@ -778,6 +879,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "WSM",
     display: "Samoa",
+    nativeDisplay: "Sāmoa",
   },
   {
     answer: "SMR",
@@ -786,18 +888,22 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "STP",
     display: "São Tomé and Príncipe",
+    nativeDisplay: "São Tomé e Príncipe",
   },
   {
     answer: "SAU",
     display: "Saudi Arabia",
+    nativeDisplay: "السعودية",
   },
   {
     answer: "SEN",
     display: "Senegal",
+    nativeDisplay: "Sénégal",
   },
   {
     answer: "SRB",
     display: "Serbia",
+    nativeDisplay: "Србија",
   },
   {
     answer: "SYC",
@@ -818,10 +924,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "SVK",
     display: "Slovakia",
+    nativeDisplay: "Slovensko",
   },
   {
     answer: "SVN",
     display: "Slovenia",
+    nativeDisplay: "Slovenija",
   },
   {
     answer: "SLB",
@@ -830,6 +938,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "SOM",
     display: "Somalia",
+    nativeDisplay: "الصومال",
   },
   {
     answer: "ZAF",
@@ -842,6 +951,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "KOR",
     display: "South Korea",
+    nativeDisplay: "대한민국",
   },
   {
     answer: "SSD",
@@ -850,14 +960,17 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "ESP",
     display: "Spain",
+    nativeDisplay: "España",
   },
   {
     answer: "LKA",
     display: "Sri Lanka",
+    nativeDisplay: "ශ්‍රී ලංකාව / இலங்கை",
   },
   {
     answer: "SDN",
     display: "Sudan",
+    nativeDisplay: "السودان",
   },
   {
     answer: "SUR",
@@ -866,26 +979,32 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "SJM",
     display: "Svalbard and Jan Mayen",
+    nativeDisplay: "Svalbard og Jan Mayen",
   },
   {
     answer: "SWE",
     display: "Sweden",
+    nativeDisplay: "Sverige",
   },
   {
     answer: "CHE",
     display: "Switzerland",
+    nativeDisplay: "Schweiz / Suisse / Svizzera / Svizra",
   },
   {
     answer: "SYR",
     display: "Syria",
+    nativeDisplay: "سوريا",
   },
   {
     answer: "TWN",
     display: "Taiwan",
+    nativeDisplay: "臺灣",
   },
   {
     answer: "TJK",
     display: "Tajikistan",
+    nativeDisplay: "Тоҷикистон",
   },
   {
     answer: "TZA",
@@ -894,6 +1013,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "THA",
     display: "Thailand",
+    nativeDisplay: "ประเทศไทย",
   },
   {
     answer: "TLS",
@@ -918,14 +1038,17 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "TUN",
     display: "Tunisia",
+    nativeDisplay: "تونس",
   },
   {
     answer: "TUR",
     display: "Turkey",
+    nativeDisplay: "Türkiye",
   },
   {
     answer: "TKM",
     display: "Turkmenistan",
+    nativeDisplay: "Türkmenistan",
   },
   {
     answer: "TCA",
@@ -942,10 +1065,12 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "UKR",
     display: "Ukraine",
+    nativeDisplay: "Україна",
   },
   {
     answer: "ARE",
     display: "United Arab Emirates",
+    nativeDisplay: "الإمارات العربية المتحدة",
   },
   {
     answer: "GBR",
@@ -970,6 +1095,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "UZB",
     display: "Uzbekistan",
+    nativeDisplay: "O'zbekiston",
   },
   {
     answer: "VUT",
@@ -978,6 +1104,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "VAT",
     display: "Vatican City",
+    nativeDisplay: "Civitas Vaticana / Città del Vaticano",
   },
   {
     answer: "VEN",
@@ -986,6 +1113,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "VNM",
     display: "Vietnam",
+    nativeDisplay: "Việt Nam",
   },
   {
     answer: "WLF",
@@ -998,6 +1126,7 @@ export const COUNTRY_NAME_QUESTIONS = [
   {
     answer: "YEM",
     display: "Yemen",
+    nativeDisplay: "اليَمَن",
   },
   {
     answer: "ZMB",

@@ -6,15 +6,18 @@
  *
  * - Normalize single- and multi-answer feature data.
  * - Resolve quiz questions represented by geographic features.
- * - Resolve user-facing feature labels.
+ * - Resolve language-aware user-facing feature labels.
+ * - Build answer-label content shared by Show Answers and temporary feedback.
  * - Determine whether a geographic feature has been fully completed.
  * - Predict whether the current correct answer would complete a feature.
  */
 
+import { getQuizQuestionDisplay } from "@/quiz/questions/getQuizQuestionDisplay";
 import type {
   AnswerStatus,
   FeatureQuiz,
   QuizQuestion,
+  QuizQuestionLanguage,
 } from "@/types/quiz";
 
 import { AnswerLabelContent } from "./answerLabelTypes";
@@ -82,16 +85,22 @@ export function getFeatureQuestions(
 /**
  * Creates the user-facing quiz-answer label for a geographic feature.
  *
- * Quiz question display values are preferred when available. Multi-answer
- * features join their represented answers using ` / `.
+ * Each matching question is resolved using the quiz's selected question
+ * language. Native mode prefers `nativeDisplay`, while missing native values
+ * fall back through the same display -> answer behavior used by question
+ * prompts.
+ *
+ * Multi-answer features join their represented answers using ` / `.
  *
  * @param featureAnswers - Answers represented by the geographic feature.
- * @param quiz - Quiz used to resolve optional display values.
+ * @param quiz - Quiz used to resolve question display values.
+ * @param questionLanguage - Language presentation selected for the quiz.
  * @returns User-facing label for the selected feature.
  */
 export function getFeatureDisplayLabel(
   featureAnswers: string[],
   quiz: FeatureQuiz,
+  questionLanguage: QuizQuestionLanguage,
 ): string {
   return featureAnswers
     .map((answer) => {
@@ -99,11 +108,9 @@ export function getFeatureDisplayLabel(
         (question) => question.answer === answer,
       );
 
-      return (
-        matchingQuestion?.display ??
-        matchingQuestion?.answer ??
-        answer
-      );
+      return matchingQuestion
+        ? getQuizQuestionDisplay(matchingQuestion, questionLanguage)
+        : answer;
     })
     .join(" / ");
 }
@@ -160,8 +167,10 @@ export function willFeatureBeFullyAnswered(
  * Creates the complete user-facing answer-label content represented by a
  * geographic feature.
  *
- * Text-based quizzes return only a label. Image-based quizzes additionally
- * include every image belonging to the feature's matching quiz questions.
+ * Text labels use the quiz's selected question language so Show Answers and
+ * temporary answer-feedback popups match the names presented by quiz
+ * questions. Image-based quizzes additionally include every image belonging
+ * to the feature's matching quiz questions.
  *
  * This representation is shared by Show Answers labels and temporary
  * incorrect/inactive feature-selection feedback so both displays remain
@@ -169,11 +178,13 @@ export function willFeatureBeFullyAnswered(
  *
  * @param featureAnswers - Quiz answers represented by the geographic feature.
  * @param quiz - Quiz used to resolve display text and optional image prompts.
+ * @param questionLanguage - Language presentation selected for the quiz.
  * @returns Text and images that should be shown for the feature.
  */
 export function getFeatureAnswerLabelContent(
   featureAnswers: string[],
   quiz: FeatureQuiz,
+  questionLanguage: QuizQuestionLanguage,
 ): AnswerLabelContent {
   const questions = getFeatureQuestions(featureAnswers, quiz);
 
@@ -191,7 +202,11 @@ export function getFeatureAnswerLabelContent(
   });
 
   return {
-    label: getFeatureDisplayLabel(featureAnswers, quiz),
+    label: getFeatureDisplayLabel(
+      featureAnswers,
+      quiz,
+      questionLanguage,
+    ),
 
     images,
   };

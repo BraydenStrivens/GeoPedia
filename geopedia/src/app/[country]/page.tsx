@@ -3,7 +3,8 @@
  *
  * The page displays:
  *
- * - The country's common and official names.
+ * - The country's common name with its native/local name or distinct official
+ *   name when available.
  * - Its flag and geographic silhouette.
  * - General country information.
  * - Links to every quiz currently registered for the country.
@@ -103,7 +104,12 @@ export default async function CountryPage({
       {/* Country heading */}
       <QuizPageHero
         title={country.name}
-        subtitle={country.officialName}
+        subtitle={
+          country.nativeName ??
+          (country.officialName !== country.name
+            ? country.officialName
+            : undefined)
+        }
       />
 
       <div className="mx-auto flex w-full max-w-6xl flex-col items-center px-6 py-10">

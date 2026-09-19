@@ -1,10 +1,14 @@
 /**
  * Displays and updates user-configurable settings for a feature quiz.
  *
- * The panel presents the feature quiz's mode and boolean behavior/display
- * settings using GeoPedia's shared quiz-settings controls. Setting definitions
- * remain feature-specific while the segmented selector and toggle rows are
- * reusable across feature and town quiz settings panels.
+ * The panel presents the feature quiz's mode, optional question-language
+ * selection, and boolean behavior/display settings using GeoPedia's shared
+ * quiz-settings controls.
+ *
+ * The Language selector appears only when the quiz contains at least one
+ * distinct native-language answer display. The selected language is used
+ * consistently by quiz questions, Show Answers labels, and temporary
+ * answer-feedback popups.
  *
  * Settings state is owned by the parent component. This component only
  * presents the controls and reports updated `FeatureQuizSettings` values
@@ -19,6 +23,7 @@ import type {
   FeatureQuizSettings,
   QuizMode,
 } from "@/types/featureQuizSettings";
+import type { QuizQuestionLanguage } from "@/types/quiz";
 
 /**
  * Props required by the feature quiz settings panel.
@@ -26,6 +31,14 @@ import type {
 type FeatureQuizSettingsPanelProps = {
   /** Current feature quiz settings displayed by the panel. */
   settings: FeatureQuizSettings;
+
+  /**
+   * Whether the quiz contains at least one native-language answer display that
+   * differs from its normal English/international display.
+   *
+   * The Language setting is hidden when changing it could not affect the quiz.
+   */
+  hasNativeDisplays: boolean;
 
   /** Called whenever the user changes a feature quiz setting. */
   onChange: (settings: FeatureQuizSettings) => void;
@@ -79,7 +92,31 @@ const FEATURE_QUIZ_MODE_OPTIONS = [
 ];
 
 /**
- * Boolean settings displayed beneath the feature quiz mode selector.
+ * Question languages available when a feature quiz contains at least one
+ * distinct native-language answer display.
+ */
+const FEATURE_QUIZ_LANGUAGE_OPTIONS = [
+  {
+    value: "english",
+    label: "English",
+  },
+  {
+    value: "native",
+    label: "Native",
+  },
+] satisfies readonly [
+  {
+    value: QuizQuestionLanguage;
+    label: string;
+  },
+  {
+    value: QuizQuestionLanguage;
+    label: string;
+  },
+];
+
+/**
+ * Boolean settings displayed beneath the feature quiz segmented controls.
  *
  * The order of this array determines the order in which settings appear.
  * Keeping each setting's label and description together makes the panel easier
@@ -124,11 +161,14 @@ const BOOLEAN_FEATURE_QUIZ_SETTING_OPTIONS: BooleanFeatureQuizSettingOption[] =
  *
  * @param props - Feature quiz settings panel properties.
  * @param props.settings - Current feature quiz settings.
+ * @param props.hasNativeDisplays - Whether Language selection can affect the
+ * quiz's displayed answers.
  * @param props.onChange - Callback receiving complete updated settings.
  * @returns The feature quiz settings panel.
  */
 export default function FeatureQuizSettingsPanel({
   settings,
+  hasNativeDisplays,
   onChange,
 }: FeatureQuizSettingsPanelProps) {
   /**
@@ -141,6 +181,21 @@ export default function FeatureQuizSettingsPanel({
     onChange({
       ...settings,
       mode,
+    });
+  }
+
+  /**
+   * Updates the language used by feature quiz questions and answer feedback
+   * while preserving all other settings.
+   *
+   * @param questionLanguage - Newly selected question language.
+   */
+  function changeFeatureQuizQuestionLanguage(
+    questionLanguage: QuizQuestionLanguage,
+  ): void {
+    onChange({
+      ...settings,
+      questionLanguage,
     });
   }
 
@@ -181,6 +236,23 @@ export default function FeatureQuizSettingsPanel({
           onChange={changeFeatureQuizMode}
         />
       </div>
+
+      {/*
+       * Question language is useful only when the quiz contains at least one
+       * native display that differs from its normal display.
+       */}
+      {hasNativeDisplays && (
+        <div className="mb-5">
+          <QuizSettingsSegmentedControl
+            label="Language"
+            description="Controls the names used for quiz questions and answer feedback. English uses each answer's default English or international name, while Native uses its native-language name when one is available."
+            options={FEATURE_QUIZ_LANGUAGE_OPTIONS}
+            value={settings.questionLanguage}
+            onChange={changeFeatureQuizQuestionLanguage}
+          />
+        </div>
+      )}
+
       {/* Boolean feature quiz settings */}
       <div className="space-y-3">
         {BOOLEAN_FEATURE_QUIZ_SETTING_OPTIONS.map(

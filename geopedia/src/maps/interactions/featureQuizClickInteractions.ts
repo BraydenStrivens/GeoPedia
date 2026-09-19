@@ -5,7 +5,8 @@
  * Supported interactions include:
  *
  * - Submitting answers during an active feature quiz.
- * - Temporarily revealing an incorrectly selected feature.
+ * - Temporarily revealing an incorrectly selected feature using the quiz's
+ *   selected answer language.
  * - Temporarily revealing a selected feature for inspection while the quiz is
  *   inactive.
  * - Toggling features during manual group selection.
@@ -190,6 +191,7 @@ function handleFeatureQuizSelection(
     map,
     quizRef,
     quizModeRef,
+    questionLanguageRef,
     isQuizRunningRef,
     currentQuestionRef,
     answerQuestionRef,
@@ -227,6 +229,7 @@ function handleFeatureQuizSelection(
       const selectedFeatureContent = getFeatureAnswerLabelContent(
         featureAnswers,
         quiz,
+        questionLanguageRef.current,
       );
 
       setFeatureSelection({
@@ -278,6 +281,7 @@ function handleFeatureQuizSelection(
     const selectedFeatureContent = getFeatureAnswerLabelContent(
       featureAnswers,
       quiz,
+      questionLanguageRef.current,
     );
 
     setFeatureSelection({
@@ -306,6 +310,7 @@ function handleFeatureQuizSelection(
       const correctFeatureContent = getFeatureAnswerLabelContent(
         correctFeatureAnswers,
         quiz,
+        questionLanguageRef.current,
       );
 
       const correctFeaturePoint = getFeaturePopupPoint(

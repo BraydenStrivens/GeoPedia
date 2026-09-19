@@ -3,8 +3,8 @@
  *
  * Show Answers uses HTML markers rather than a MapLibre symbol layer so
  * GeoPedia can create exactly one styled label per geographic feature,
- * combine multi-answer values into a readable label, display question imagery,
- * and synchronize label appearance with feature hover state.
+ * combine multi-answer values into a readable language-aware label, display
+ * question imagery, and synchronize label appearance with feature hover state.
  *
  * Marker positioning, density limiting, HTML styling, and answer formatting
  * are delegated to focused helper modules.
@@ -17,12 +17,11 @@ import type {
 import * as maplibregl from "maplibre-gl";
 
 import {
+  getFeatureAnswerLabelContent,
   getFeatureAnswers,
-  getFeatureDisplayLabel,
-  getFeatureQuestions,
 } from "@/maps/labels/feature/featureAnswers";
 import type { AnswerLabelConfig } from "@/maps/types";
-import type { FeatureQuiz } from "@/types/quiz";
+import type { FeatureQuiz, QuizQuestionLanguage } from "@/types/quiz";
 
 import { getAnswerLabelAnchor } from "./answerLabelAnchors";
 import { limitAnswerLabelFeatures } from "./answerLabelDensity";
@@ -52,51 +51,31 @@ export function clearAnswerLabels(
  * Creates the complete user-facing Show Answers content for a geographic
  * feature.
  *
- * Every marker receives its normal textual answer. When the corresponding quiz
+ * Text uses the quiz's selected question language. When the corresponding quiz
  * question uses an image prompt, that image is also included beneath the text.
  *
- * Text-only quizzes therefore continue using the same answer-label system
- * without requiring quiz-specific configuration.
+ * Delegating answer formatting to `getFeatureAnswerLabelContent` keeps Show
+ * Answers consistent with temporary feature-selection feedback.
  *
  * @param feature - Geographic feature whose answer should be displayed.
  * @param quiz - Quiz definition used to interpret the feature.
+ * @param questionLanguage - Language used to present the feature's answer.
  * @returns Text and optional images belonging to the answer marker.
  */
 function getAnswerLabelContent(
   feature: MapGeoJSONFeature,
   quiz: FeatureQuiz,
+  questionLanguage: QuizQuestionLanguage,
 ): AnswerLabelContent {
   const featureValue = feature.properties?.[quiz.answerProperty];
 
   const featureAnswers = getFeatureAnswers(featureValue);
 
-  const label = getFeatureDisplayLabel(featureAnswers, quiz);
-
-  const matchingQuestions = getFeatureQuestions(featureAnswers, quiz);
-
-  const images = matchingQuestions.flatMap((question) => {
-    /**
-     * Only image prompts belong inside Show Answers labels.
-     *
-     * Text-based or absent prompts continue to use the normal text-only
-     * marker presentation.
-     */
-    if (question.prompt?.type !== "image") {
-      return [];
-    }
-
-    return [
-      {
-        imageUrl: question.prompt.imageUrl,
-        alt: question.prompt.alt,
-      },
-    ];
-  });
-
-  return {
-    label,
-    images,
-  };
+  return getFeatureAnswerLabelContent(
+    featureAnswers,
+    quiz,
+    questionLanguage,
+  );
 }
 
 /**
@@ -149,10 +128,11 @@ function getUniqueVisibleFeatures(
  * image resources may still be loading or decoding.
  *
  * Markers that are no longer needed are removed, while newly visible features
- * receive new markers.
+ * receive new markers using the selected question language.
  *
  * @param map - MapLibre map receiving the answer markers.
  * @param quiz - Quiz whose answers should be displayed.
+ * @param questionLanguage - Language used to present answer-label text.
  * @param labelMarkers - Collection tracking currently rendered markers.
  * @param answerLabelConfig - Optional density configuration for large maps.
  * @param initialZoom - Map's initial zoom level used by density calculations.
@@ -160,6 +140,7 @@ function getUniqueVisibleFeatures(
 export function updateAnswerLabels(
   map: MapLibreMap,
   quiz: FeatureQuiz,
+  questionLanguage: QuizQuestionLanguage,
   labelMarkers: AnswerLabelMarkers,
   answerLabelConfig?: AnswerLabelConfig,
   initialZoom?: number,
@@ -203,7 +184,11 @@ export function updateAnswerLabels(
       continue;
     }
 
-    const content = getAnswerLabelContent(feature, quiz);
+    const content = getAnswerLabelContent(
+      feature,
+      quiz,
+      questionLanguage,
+    );
 
     if (!content.label) {
       continue;

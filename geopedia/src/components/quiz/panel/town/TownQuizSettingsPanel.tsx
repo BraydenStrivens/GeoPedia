@@ -18,10 +18,8 @@
 
 import QuizSettingsSegmentedControl from "@/components/quiz/panel/shared/QuizSettingsSegmentedControl";
 import QuizSettingsToggleRow from "@/components/quiz/panel/shared/QuizSettingsToggleRow";
-import type {
-  TownQuizQuestionLanguage,
-  TownQuizSettings,
-} from "@/types/townQuizSettings";
+import type { QuizQuestionLanguage } from "@/types/quiz";
+import type { TownQuizSettings } from "@/types/townQuizSettings";
 
 /**
  * Props required by the town quiz settings panel.
@@ -81,11 +79,11 @@ const TOWN_QUIZ_LANGUAGE_OPTIONS = [
   },
 ] satisfies readonly [
   {
-    value: TownQuizQuestionLanguage;
+    value: QuizQuestionLanguage;
     label: string;
   },
   {
-    value: TownQuizQuestionLanguage;
+    value: QuizQuestionLanguage;
     label: string;
   },
 ];
@@ -125,7 +123,7 @@ export default function TownQuizSettingsPanel({
    * @param questionLanguage - Newly selected question language.
    */
   function changeTownQuizQuestionLanguage(
-    questionLanguage: TownQuizQuestionLanguage,
+    questionLanguage: QuizQuestionLanguage,
   ): void {
     onChange({
       ...settings,

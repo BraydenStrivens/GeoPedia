@@ -1,9 +1,10 @@
 /**
  * Owns the MapLibre HTML markers used by Show Answers mode.
  *
- * The hook creates labels for visible geographic features, rebuilds them after
- * map movement, removes them when Show Answers ends, and keeps marker hover
- * styling synchronized with the hovered geographic feature.
+ * The hook creates language-aware labels for visible geographic features,
+ * rebuilds them after map movement or question-language changes, removes them
+ * when Show Answers ends, and keeps marker hover styling synchronized with the
+ * hovered geographic feature.
  */
 
 import type { Map as MapLibreMap } from "maplibre-gl";
@@ -18,7 +19,7 @@ import {
 } from "@/maps/labels/feature/answerLabels";
 import type { AnswerLabelMarkers } from "@/maps/labels/feature/answerLabelTypes";
 import type { MapConfig } from "@/maps/types";
-import type { FeatureQuiz } from "@/types/quiz";
+import type { FeatureQuiz, QuizQuestionLanguage } from "@/types/quiz";
 
 /**
  * Values required to manage Show Answers labels.
@@ -33,6 +34,9 @@ type UseAnswerLabelsParams = {
   /** Quiz whose answers should be displayed. */
   quiz?: FeatureQuiz;
 
+  /** Language used to present feature quiz answers. */
+  questionLanguage: QuizQuestionLanguage;
+
   /** Map configuration controlling answer-label density. */
   mapConfig: MapConfig;
 
@@ -46,13 +50,17 @@ type UseAnswerLabelsParams = {
 /**
  * Creates and synchronizes Show Answers markers for the current map.
  *
- * @param params - Map, quiz, visibility, and hover state used by the label
- * system.
+ * Labels are rebuilt whenever the selected question language changes so an
+ * already-open Show Answers view immediately reflects the new language.
+ *
+ * @param params - Map, quiz, language, visibility, and hover state used by the
+ * label system.
  */
 export function useAnswerLabels({
   mapRef,
   isMapReady,
   quiz,
+  questionLanguage,
   mapConfig,
   isShowingAnswers,
   hoveredFeatureId,
@@ -103,6 +111,7 @@ export function useAnswerLabels({
       updateAnswerLabels(
         loadedMap,
         loadedQuiz,
+        questionLanguage,
         labelMarkers,
         mapConfig.answerLabels,
         mapConfig.initialView.zoom,
@@ -131,6 +140,7 @@ export function useAnswerLabels({
     mapRef,
     isMapReady,
     quiz,
+    questionLanguage,
     mapConfig.answerLabels,
     mapConfig.initialView.zoom,
     isShowingAnswers,

@@ -1,12 +1,15 @@
 /**
- * Defines the persistent user-configurable settings for an individual quiz.
+ * Defines the persistent user-configurable settings for an individual
+ * feature-based quiz.
  *
- * Each quiz stores its own settings independently so changing the behavior
- * or appearance of one quiz does not affect other quizzes.
+ * Each quiz stores its own settings independently so changing the behavior,
+ * answer language, or appearance of one quiz does not affect other quizzes.
  *
  * These settings are intended to persist between sessions, typically through
  * localStorage.
  */
+
+import type { QuizQuestionLanguage } from "@/types/quiz";
 
 /**
  * Determines how quiz answers are visually presented during an active quiz.
@@ -26,6 +29,15 @@ export type QuizMode = "normal" | "hard";
 export type FeatureQuizSettings = {
   /** Determines how completed answers are visually represented during the quiz. */
   mode: QuizMode;
+
+  /**
+   * Determines whether quiz-answer names are presented using their default
+   * English/international display or their native-language display.
+   *
+   * Native mode falls back to the normal display when an individual question
+   * does not provide a native display value.
+   */
+  questionLanguage: QuizQuestionLanguage;
 
   /**
    * Determines whether incorrectly answered questions are returned to the end
@@ -74,6 +86,7 @@ export type FeatureQuizSettings = {
  */
 export const DEFAULT_FEATURE_QUIZ_SETTINGS: FeatureQuizSettings = {
   mode: "normal",
+  questionLanguage: "english",
 
   recycleMissedAnswers: false,
 

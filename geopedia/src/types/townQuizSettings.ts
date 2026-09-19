@@ -6,6 +6,8 @@
  * type rather than extending `QuizSettings`.
  */
 
+import type { QuizQuestionLanguage } from "@/types/quiz";
+
 /**
  * Map-label mode used by a town quiz.
  *
@@ -15,22 +17,17 @@
 export type TownQuizMode = "normal" | "hard";
 
 /**
- * Language used for town quiz questions.
- *
- * Native mode falls back to the English/international name when an individual
- * town does not have a distinct `nativeName`.
- */
-export type TownQuizQuestionLanguage = "english" | "native";
-
-/**
  * Persisted settings controlling one town quiz.
  */
 export type TownQuizSettings = {
   /** Controls visibility of custom quiz-town answer labels. */
   mode: TownQuizMode;
 
-  /** Controls whether quiz questions use English or native settlement names. */
-  questionLanguage: TownQuizQuestionLanguage;
+  /**
+   * Controls whether quiz questions use English/international or native
+   * settlement names.
+   */
+  questionLanguage: QuizQuestionLanguage;
 
   /**
    * Controls contextual labels supplied by the underlying base map.

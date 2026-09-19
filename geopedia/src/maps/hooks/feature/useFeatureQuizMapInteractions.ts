@@ -26,6 +26,7 @@ import type {
   AnswerStatus,
   FeatureQuiz,
   QuizQuestion,
+  QuizQuestionLanguage,
 } from "@/types/quiz";
 
 /**
@@ -60,6 +61,9 @@ type UseFeatureQuizMapInteractionsParams = {
 
   /** Current Normal/Hard feature quiz mode. */
   quizModeRef: RefObject<QuizMode>;
+
+  /** Current language used for feature quiz questions and answer feedback. */
+  questionLanguageRef: RefObject<QuizQuestionLanguage>;
 
   /** Current feature quiz question. */
   currentQuestionRef: RefObject<QuizQuestion | undefined>;
@@ -117,6 +121,7 @@ export function useFeatureQuizMapInteractions({
   quizRef,
   isQuizRunningRef,
   quizModeRef,
+  questionLanguageRef,
   currentQuestionRef,
   answerStatusesRef,
   answerQuestionRef,
@@ -141,6 +146,7 @@ export function useFeatureQuizMapInteractions({
       quizRef,
       isQuizRunningRef,
       quizModeRef,
+      questionLanguageRef,
       currentQuestionRef,
       answerStatusesRef,
       answerQuestionRef,
@@ -159,6 +165,7 @@ export function useFeatureQuizMapInteractions({
     quizRef,
     isQuizRunningRef,
     quizModeRef,
+    questionLanguageRef,
     currentQuestionRef,
     answerStatusesRef,
     answerQuestionRef,
