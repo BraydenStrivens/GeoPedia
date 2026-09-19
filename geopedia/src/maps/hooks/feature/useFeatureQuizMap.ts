@@ -202,10 +202,6 @@ export function useFeatureQuizMap({
 
     mapRef.current = map;
 
-    (
-      window as typeof window & { geoPediaMap?: maplibregl.Map }
-    ).geoPediaMap = map;
-
     /**
      * Configures GeoPedia-specific map functionality after MapLibre's base
      * style has loaded.
