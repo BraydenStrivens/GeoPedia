@@ -51,6 +51,9 @@ type TownQuizMapProps = {
    */
   lastResult: TownQuizGuessResult | undefined;
 
+  /** Whether the inactive image-answer presentation should replace normal town labels. */
+  showAnswers: boolean;
+
   /** Called whenever the user submits a map coordinate as their answer. */
   onGuess: (guess: GeographicCoordinate) => void;
 
@@ -75,6 +78,7 @@ export default function TownQuizMap({
   questions,
   settings,
   lastResult,
+  showAnswers,
   onGuess,
   isGuessingEnabled,
 }: TownQuizMapProps) {
@@ -105,6 +109,7 @@ export default function TownQuizMap({
     mode: settings.mode,
 
     lastResult,
+    showAnswers,
   });
 
   /**

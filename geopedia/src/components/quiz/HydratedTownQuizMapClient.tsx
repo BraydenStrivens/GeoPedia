@@ -76,6 +76,27 @@ export default function HydratedTownQuizMapClient({
   /** Whether the floating town Settings panel is currently visible. */
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
 
+  /**
+   * Whether the inactive image-based quiz is currently displaying its complete
+   * answer presentation on the map.
+   *
+   * Show Answers is temporary UI state rather than a persisted town setting.
+   */
+  const [showAnswers, setShowAnswers] = useState(false);
+
+  /**
+   * Whether the complete quiz contains at least one image-based question.
+   *
+   * This determines whether the inactive Show Answers action is available.
+   */
+  const hasImageQuestions = useMemo(
+    () =>
+      quiz.questions.some(
+        (question) => question.prompt?.type === "image",
+      ),
+    [quiz.questions],
+  );
+
   /** Loads settings persisted specifically for this town quiz. */
   const { settings, setSettings } = useTownQuizSettings(
     countryId,
@@ -201,8 +222,16 @@ export default function HydratedTownQuizMapClient({
   function handleStartQuiz(): void {
     setIsFilterOpen(false);
     setIsFilterBlockedMessageOpen(false);
+    setShowAnswers(false);
 
     startQuiz();
+  }
+
+  /**
+   * Toggles the complete image-answer presentation while the quiz is inactive.
+   */
+  function toggleShowAnswers(): void {
+    setShowAnswers((wasShowingAnswers) => !wasShowingAnswers);
   }
 
   return (
@@ -213,6 +242,7 @@ export default function HydratedTownQuizMapClient({
         questions={activeQuestions}
         settings={settings}
         lastResult={lastResult}
+        showAnswers={showAnswers}
         isGuessingEnabled={isActive && currentQuestion !== undefined}
         onGuess={submitGuess}
       />
@@ -248,6 +278,7 @@ export default function HydratedTownQuizMapClient({
       <TownQuizOverlay
         quizName={quiz.name}
         currentTownName={currentQuestionName}
+        currentQuestionPrompt={currentQuestion?.prompt}
         answeredCount={answeredCount}
         questionCount={questionCount}
         lastScore={lastResult?.score}
@@ -256,6 +287,9 @@ export default function HydratedTownQuizMapClient({
         totalDistanceKm={totalDistanceKm}
         isActive={isActive}
         isFinished={isFinished}
+        hasImageQuestions={hasImageQuestions}
+        showAnswers={showAnswers}
+        onToggleShowAnswers={toggleShowAnswers}
         onStart={handleStartQuiz}
         onSkip={skipQuestion}
         onStop={stopQuiz}

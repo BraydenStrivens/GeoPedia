@@ -1,11 +1,11 @@
 /**
  * Provides centralized access to GeoPedia's available quiz content.
  *
- * Feature quizzes are registered through country and Global quiz modules,
- * while town quizzes are generated from per-country settlement datasets.
- * This module hides those storage differences behind a small unified API for
- * checking quiz availability, retrieving lightweight quiz listings, and
- * resolving complete quiz definitions.
+ * Feature quizzes and specialized town quiz configurations are registered
+ * through country modules, while normal town quizzes are generated from
+ * per-country settlement datasets. This module hides those storage differences
+ * behind a small unified API for checking quiz availability, retrieving
+ * lightweight quiz listings, and resolving complete quiz definitions.
  *
  * Application code can therefore work with country and Global quizzes without
  * needing to know whether an individual quiz is registered or generated.
@@ -14,6 +14,7 @@
 import { access, readdir } from "node:fs/promises";
 import { join } from "node:path";
 
+import { getConfiguredTownQuiz } from "@/quiz/town/getConfiguredTownQuiz";
 import { getTownQuiz } from "@/quiz/town/getTownQuiz";
 import type {
   FeatureQuiz,
@@ -21,6 +22,7 @@ import type {
   QuizDifficulty,
   QuizListing,
   TownQuiz,
+  TownQuizConfig,
 } from "@/types/quiz";
 
 import * as costaRicaQuizzes from "./countries/central-america/costa-rica";
@@ -37,6 +39,7 @@ import * as boliviaQuizzes from "./countries/south-america/bolivia";
 import * as brazilQuizzes from "./countries/south-america/brazil";
 import * as chileQuizzes from "./countries/south-america/chile";
 import * as colombiaQuizzes from "./countries/south-america/colombia";
+import * as colombiaTownQuizzes from "./countries/south-america/colombia/townQuizzes";
 import * as ecuadorQuizzes from "./countries/south-america/ecuador";
 import * as paraguayQuizzes from "./countries/south-america/paraguay";
 import * as peruQuizzes from "./countries/south-america/peru";
@@ -70,6 +73,17 @@ const countryFeatureQuizzes = {
   ury: Object.values(uruguayQuizzes),
   arg: Object.values(argentinaQuizzes),
   chl: Object.values(chileQuizzes),
+};
+
+/**
+ * Maps country IDs to their registered configured town quizzes.
+ *
+ * Only countries with handwritten town quiz configurations need entries here.
+ * Normal town quizzes remain generated automatically from country town data and
+ * are not registered in this collection.
+ */
+const countryTownQuizConfigs = {
+  col: Object.values(colombiaTownQuizzes),
 };
 
 /**
@@ -166,6 +180,28 @@ function getCountryFeatureQuizzes(countryId: string): FeatureQuiz[] {
 }
 
 /**
+ * Returns the registered configured town quizzes for a country.
+ *
+ * Normal generated town quizzes are intentionally excluded because they are
+ * resolved separately from each country's complete generated town dataset.
+ *
+ * @param countryId - Country whose configured town quizzes should be retrieved.
+ * @returns Configured town quizzes for the country, or an empty array when none
+ * are registered.
+ */
+function getCountryTownQuizConfigs(
+  countryId: string,
+): TownQuizConfig[] {
+  const normalizedCountryId = countryId.toLowerCase();
+
+  return (
+    countryTownQuizConfigs[
+      normalizedCountryId as keyof typeof countryTownQuizConfigs
+    ] ?? []
+  );
+}
+
+/**
  * Determines whether generated town quiz data exists for a country.
  *
  * Town quizzes are generated rather than registered through handwritten quiz
@@ -222,6 +258,31 @@ function createQuizListing(
     description: quiz.description,
     kind: quiz.kind,
     difficulty: getQuizDifficulty(getQuizQuestionCount(quiz)),
+    questionCount,
+  };
+}
+
+/**
+ * Creates lightweight listing metadata for a configured town quiz.
+ *
+ * Configured town quizzes already declare their metadata and question IDs, so
+ * their country town dataset does not need to be loaded merely to display the
+ * quiz on a selection page.
+ *
+ * @param config - Handwritten configured town quiz definition.
+ * @returns Lightweight metadata used to display and route to the quiz.
+ */
+function createConfiguredTownQuizListing(
+  config: TownQuizConfig,
+): QuizListing {
+  const questionCount = config.questions.length;
+
+  return {
+    id: config.id,
+    name: config.name,
+    description: config.description,
+    kind: "town",
+    difficulty: getQuizDifficulty(questionCount),
     questionCount,
   };
 }
@@ -292,6 +353,12 @@ export async function getCountryQuizListings(
     normalizedCountryId,
   ).map((quiz) => createQuizListing(quiz));
 
+  quizListings.push(
+    ...getCountryTownQuizConfigs(normalizedCountryId).map((config) =>
+      createConfiguredTownQuizListing(config),
+    ),
+  );
+
   if (await hasCountryTownQuiz(normalizedCountryId)) {
     const townQuiz = await getTownQuiz({
       countryId: normalizedCountryId,
@@ -307,18 +374,18 @@ export async function getCountryQuizListings(
 /**
  * Returns a specific quiz available for a country.
  *
- * Registered feature quizzes are checked first. If no feature quiz matches,
- * the requested ID is checked against the country's generated town quiz ID.
- * Matching town quizzes are then loaded and constructed from their generated
- * settlement data.
+ * Registered feature quizzes are checked first, followed by registered
+ * configured town quizzes. Configured town quizzes are resolved against the
+ * country's canonical generated town dataset. If neither matches, the requested
+ * ID is checked against the country's normal generated town quiz ID.
  *
  * This provides country quiz routes with a single lookup function regardless
  * of the requested quiz type.
  *
  * @param countryId - Country containing the requested quiz.
  * @param quizId - Unique identifier of the requested quiz.
- * @param countryName - User-facing country name required when constructing a
- * generated town quiz.
+ * @param countryName - User-facing country name required when constructing the
+ * normal generated town quiz.
  * @returns The matching feature or town quiz, or `undefined` when the requested
  * quiz does not exist.
  */
@@ -335,6 +402,17 @@ export async function getCountryQuiz(
 
   if (featureQuiz) {
     return featureQuiz;
+  }
+
+  const townQuizConfig = getCountryTownQuizConfigs(
+    normalizedCountryId,
+  ).find((config) => config.id === quizId);
+
+  if (townQuizConfig) {
+    return getConfiguredTownQuiz({
+      countryId: normalizedCountryId,
+      config: townQuizConfig,
+    });
   }
 
   const townQuizId = `${normalizedCountryId}-towns`;

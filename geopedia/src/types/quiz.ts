@@ -279,6 +279,32 @@ export interface TownQuizQuestion {
 }
 
 /**
+ * References one canonical town while defining question-specific presentation
+ * for a configured town quiz.
+ *
+ * Canonical town metadata remains in the generated country town dataset and is
+ * resolved by `townId` when the complete quiz is constructed.
+ */
+export interface TownQuizQuestionConfig {
+  townId: string;
+  prompt: QuizQuestionPrompt;
+}
+
+/**
+ * Handwritten definition for a specialized town quiz.
+ *
+ * Configured town quizzes reference canonical generated towns by stable ID
+ * rather than duplicating their names, coordinates, populations, or other
+ * settlement metadata.
+ */
+export interface TownQuizConfig {
+  id: string;
+  name: string;
+  description: string;
+  questions: TownQuizQuestionConfig[];
+}
+
+/**
  * Runtime contents of one generated country town dataset.
  */
 export interface TownQuizData {

@@ -6,7 +6,7 @@
  * guesses:
  *
  * - The quiz name.
- * - The current town while a quiz is running.
+ * - The current town name or explicit question prompt while a quiz is running.
  * - The previous guess's percentage score and geographic error.
  * - Current question progress.
  * - Average percentage score and cumulative geographic error.
@@ -24,6 +24,8 @@
 
 "use client";
 
+import type { QuizQuestionPrompt } from "@/types/quiz";
+
 import QuizActionButton from "./shared/QuizActionButton";
 import QuizControlButton from "./shared/QuizControlButton";
 import {
@@ -33,6 +35,7 @@ import {
 } from "./shared/QuizControlIcons";
 import QuizOverlayShell from "./shared/QuizOverlayShell";
 import QuizOverlayTitle from "./shared/QuizOverlayTitle";
+import QuizQuestionDisplay from "./shared/QuizQuestionDisplay";
 
 /**
  * Values and callbacks required to render the town quiz overlay.
@@ -43,6 +46,14 @@ type TownQuizOverlayProps = {
 
   /** Name of the town currently being located. */
   currentTownName?: string;
+
+  /**
+   * Explicit presentation for the current town question.
+   *
+   * Normal town quizzes omit this value and continue displaying the town name.
+   * Configured town quizzes can supply specialized text or image prompts.
+   */
+  currentQuestionPrompt?: QuizQuestionPrompt;
 
   /** Number of questions already answered during this attempt. */
   answeredCount: number;
@@ -67,6 +78,15 @@ type TownQuizOverlayProps = {
 
   /** Whether every question in the current attempt has been completed. */
   isFinished: boolean;
+
+  /** Whether this quiz contains image questions that support Show Answers. */
+  hasImageQuestions: boolean;
+
+  /** Whether the complete image-answer presentation is currently visible. */
+  showAnswers: boolean;
+
+  /** Toggles the inactive image-answer presentation. */
+  onToggleShowAnswers: () => void;
 
   /** Starts a fresh town quiz attempt. */
   onStart: () => void;
@@ -156,6 +176,7 @@ function TownQuizStatistic({
 export default function TownQuizOverlay({
   quizName,
   currentTownName,
+  currentQuestionPrompt,
   answeredCount,
   questionCount,
   lastScore,
@@ -164,10 +185,13 @@ export default function TownQuizOverlay({
   totalDistanceKm,
   isActive,
   isFinished,
+  hasImageQuestions,
+  showAnswers,
   onStart,
   onSkip,
   onStop,
   onRestart,
+  onToggleShowAnswers,
 }: TownQuizOverlayProps) {
   /**
    * Question number currently represented by the overlay.
@@ -216,19 +240,29 @@ export default function TownQuizOverlay({
 
       {/* Inactive quiz actions */}
       {!isActive && !isFinished && (
-        <div className="mt-2 flex justify-center">
+        <div className="mt-2 flex justify-center gap-2">
           <QuizActionButton onClick={onStart}>Start</QuizActionButton>
+
+          {hasImageQuestions && (
+            <QuizActionButton onClick={onToggleShowAnswers}>
+              {showAnswers ? "Hide Answers" : "Show Answers"}
+            </QuizActionButton>
+          )}
         </div>
       )}
 
       {/* Running quiz information */}
       {isActive && !isFinished && (
         <>
-          {/* Town currently being located */}
+          {/* Current town question */}
           <div className="mt-2 rounded-lg bg-surface/80 px-5 py-1.5 text-center backdrop-blur-md">
-            <div className="text-lg font-bold leading-tight text-text">
-              {currentTownName}
-            </div>
+            {currentQuestionPrompt ? (
+              <QuizQuestionDisplay question={currentQuestionPrompt} />
+            ) : (
+              <div className="text-lg font-bold leading-tight text-text">
+                {currentTownName}
+              </div>
+            )}
           </div>
 
           {/* Previous result, question progress, and cumulative result */}
