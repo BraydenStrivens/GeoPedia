@@ -19,7 +19,7 @@ export const colombiaTownPoleLampsQuizConfig: TownQuizConfig = {
       townId: "3688689",
       prompt: {
         type: "image",
-        imageUrl: "/data/countries/colombia/pole-lamps/bogota_1.png",
+        imageUrl: "/data/countries/colombia/pole-lamps/bogota_1.webp",
         alt: "Pole lamp in Bogotá",
       },
     },
@@ -28,7 +28,7 @@ export const colombiaTownPoleLampsQuizConfig: TownQuizConfig = {
       prompt: {
         type: "image",
         imageUrl:
-          "/data/countries/colombia/pole-lamps/medellin_1.png",
+          "/data/countries/colombia/pole-lamps/medellin_1.webp",
         alt: "Pole lamp in Medellín",
       },
     },
@@ -36,7 +36,7 @@ export const colombiaTownPoleLampsQuizConfig: TownQuizConfig = {
       townId: "3687925",
       prompt: {
         type: "image",
-        imageUrl: "/data/countries/colombia/pole-lamps/cali_1.png",
+        imageUrl: "/data/countries/colombia/pole-lamps/cali_1.webp",
         alt: "Pole lamp in Cali",
       },
     },
@@ -45,7 +45,7 @@ export const colombiaTownPoleLampsQuizConfig: TownQuizConfig = {
       prompt: {
         type: "image",
         imageUrl:
-          "/data/countries/colombia/pole-lamps/barranquilla_1.png",
+          "/data/countries/colombia/pole-lamps/barranquilla_1.webp",
         alt: "Pole lamp in Barranquilla",
       },
     },
@@ -54,7 +54,7 @@ export const colombiaTownPoleLampsQuizConfig: TownQuizConfig = {
       prompt: {
         type: "image",
         imageUrl:
-          "/data/countries/colombia/pole-lamps/bucaramanga_1.png",
+          "/data/countries/colombia/pole-lamps/bucaramanga_1.webp",
         alt: "Pole lamp in Bucaramanga",
       },
     },
@@ -62,7 +62,7 @@ export const colombiaTownPoleLampsQuizConfig: TownQuizConfig = {
       townId: "3680656",
       prompt: {
         type: "image",
-        imageUrl: "/data/countries/colombia/pole-lamps/ibague_1.png",
+        imageUrl: "/data/countries/colombia/pole-lamps/ibague_1.webp",
         alt: "Pole lamp in Ibagué",
       },
     },
