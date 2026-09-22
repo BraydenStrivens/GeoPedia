@@ -25,6 +25,7 @@ import type {
   TownQuizConfig,
 } from "@/types/quiz";
 
+import * as senegalQuizzes from "./countries/africa/senegal";
 import * as costaRicaQuizzes from "./countries/central-america/costa-rica";
 import * as dominicanRepublicQuizzes from "./countries/central-america/dominican-republic";
 import * as guatemalaQuizzes from "./countries/central-america/guatemala";
@@ -55,15 +56,20 @@ import * as globalQuizzes from "./global";
  * quizzes automatically become available through the centralized quiz API.
  */
 const countryFeatureQuizzes = {
+  // North America
   usa: Object.values(usaQuizzes),
   can: Object.values(canadaQuizzes),
   mex: Object.values(mexicoQuizzes),
-  gtm: Object.values(guatemalaQuizzes),
-  dom: Object.values(dominicanRepublicQuizzes),
   pri: Object.values(puertoRicoQuizzes),
   vir: Object.values(usVirginIslandQuizzes),
+
+  // Central America
   cri: Object.values(costaRicaQuizzes),
   pan: Object.values(panamaQuizzes),
+  gtm: Object.values(guatemalaQuizzes),
+  dom: Object.values(dominicanRepublicQuizzes),
+
+  // South America
   col: Object.values(colombiaQuizzes),
   bra: Object.values(brazilQuizzes),
   ecu: Object.values(ecuadorQuizzes),
@@ -73,6 +79,9 @@ const countryFeatureQuizzes = {
   ury: Object.values(uruguayQuizzes),
   arg: Object.values(argentinaQuizzes),
   chl: Object.values(chileQuizzes),
+
+  // Africa
+  sen: Object.values(senegalQuizzes),
 };
 
 /**

@@ -18,6 +18,7 @@
 
 import type { MapConfig } from "@/maps/types";
 
+import * as senegalMaps from "./countries/africa/senegal";
 import * as costaRicaMaps from "./countries/central-america/costa-rica";
 import * as dominicanRepublicMaps from "./countries/central-america/dominican-republic";
 import * as guatemalaMaps from "./countries/central-america/guatemala";
@@ -46,15 +47,20 @@ import * as globalMaps from "./global";
  * a second manual list.
  */
 const countryMapRegistry: Record<string, MapConfig[]> = {
+  // North America
   usa: Object.values(usaMaps),
   can: Object.values(canadaMaps),
   mex: Object.values(mexicoMaps),
-  gtm: Object.values(guatemalaMaps),
-  dom: Object.values(dominicanRepublicMaps),
   pri: Object.values(puertoRicoMaps),
   vir: Object.values(usVirginIslandMaps),
+
+  // Central America
   cri: Object.values(costaRicaMaps),
   pan: Object.values(panamaMaps),
+  dom: Object.values(dominicanRepublicMaps),
+  gtm: Object.values(guatemalaMaps),
+
+  // South America
   col: Object.values(colombiaMaps),
   bra: Object.values(brazilMaps),
   ecu: Object.values(ecuadorMaps),
@@ -64,6 +70,9 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
   ury: Object.values(uruguayMaps),
   arg: Object.values(argentinaMaps),
   chl: Object.values(chileMaps),
+
+  // Africa
+  sen: Object.values(senegalMaps),
 };
 
 /**
