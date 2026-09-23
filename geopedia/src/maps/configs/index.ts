@@ -20,6 +20,7 @@ import type { MapConfig } from "@/maps/types";
 
 import * as ghanaMaps from "./countries/africa/ghana";
 import * as nigeriaMaps from "./countries/africa/nigeria";
+import * as saoTomeMaps from "./countries/africa/sao_tome_and_principe";
 import * as senegalMaps from "./countries/africa/senegal";
 import * as tunisiaMaps from "./countries/africa/tunisia";
 import * as costaRicaMaps from "./countries/central-america/costa-rica";
@@ -79,6 +80,7 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
   tun: Object.values(tunisiaMaps),
   gha: Object.values(ghanaMaps),
   nga: Object.values(nigeriaMaps),
+  stp: Object.values(saoTomeMaps),
 };
 
 /**
