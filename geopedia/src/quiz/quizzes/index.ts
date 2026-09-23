@@ -31,6 +31,7 @@ import * as nigeriaQuizzes from "./countries/africa/nigeria";
 import * as saoTomeQuizzes from "./countries/africa/sao_tome_and_principe";
 import * as senegalQuizzes from "./countries/africa/senegal";
 import * as tunisiaQuizzes from "./countries/africa/tunisia";
+import * as ugandaQuizzes from "./countries/africa/uganda";
 import * as costaRicaQuizzes from "./countries/central-america/costa-rica";
 import * as dominicanRepublicQuizzes from "./countries/central-america/dominican-republic";
 import * as guatemalaQuizzes from "./countries/central-america/guatemala";
@@ -92,6 +93,7 @@ const countryFeatureQuizzes = {
   nga: Object.values(nigeriaQuizzes),
   stp: Object.values(saoTomeQuizzes),
   ken: Object.values(kenyaQuizzes),
+  uga: Object.values(ugandaQuizzes),
 };
 
 /**

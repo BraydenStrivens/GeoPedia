@@ -24,6 +24,7 @@ import * as nigeriaMaps from "./countries/africa/nigeria";
 import * as saoTomeMaps from "./countries/africa/sao_tome_and_principe";
 import * as senegalMaps from "./countries/africa/senegal";
 import * as tunisiaMaps from "./countries/africa/tunisia";
+import * as ugandaMaps from "./countries/africa/uganda";
 import * as costaRicaMaps from "./countries/central-america/costa-rica";
 import * as dominicanRepublicMaps from "./countries/central-america/dominican-republic";
 import * as guatemalaMaps from "./countries/central-america/guatemala";
@@ -83,6 +84,7 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
   nga: Object.values(nigeriaMaps),
   stp: Object.values(saoTomeMaps),
   ken: Object.values(kenyaMaps),
+  uga: Object.values(ugandaMaps),
 };
 
 /**
