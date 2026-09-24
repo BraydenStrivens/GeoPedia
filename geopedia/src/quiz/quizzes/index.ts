@@ -25,6 +25,7 @@ import type {
   TownQuizConfig,
 } from "@/types/quiz";
 
+import * as botswanaQuizzes from "./countries/africa/botswana";
 import * as ghanaQuizzes from "./countries/africa/ghana";
 import * as kenyaQuizzes from "./countries/africa/kenya";
 import * as namibiaQuizzes from "./countries/africa/namibia";
@@ -98,6 +99,7 @@ const countryFeatureQuizzes = {
   uga: Object.values(ugandaQuizzes),
   rwa: Object.values(rwandaQuizzes),
   nam: Object.values(namibiaQuizzes),
+  bwa: Object.values(botswanaQuizzes),
 };
 
 /**
