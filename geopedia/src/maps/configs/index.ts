@@ -19,6 +19,7 @@
 import type { MapConfig } from "@/maps/types";
 
 import * as botswanaMaps from "./countries/africa/botswana";
+import * as eswatiniMaps from "./countries/africa/eswatini";
 import * as ghanaMaps from "./countries/africa/ghana";
 import * as kenyaMaps from "./countries/africa/kenya";
 import * as lesothoMaps from "./countries/africa/lesotho";
@@ -95,6 +96,7 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
   bwa: Object.values(botswanaMaps),
   zaf: Object.values(southAfricaMaps),
   lso: Object.values(lesothoMaps),
+  swz: Object.values(eswatiniMaps),
 };
 
 /**

@@ -26,6 +26,7 @@ import type {
 } from "@/types/quiz";
 
 import * as botswanaQuizzes from "./countries/africa/botswana";
+import * as eswatiniQuizzes from "./countries/africa/eswatini";
 import * as ghanaQuizzes from "./countries/africa/ghana";
 import * as kenyaQuizzes from "./countries/africa/kenya";
 import * as lesothoQuizzes from "./countries/africa/lesotho";
@@ -104,6 +105,7 @@ const countryFeatureQuizzes = {
   bwa: Object.values(botswanaQuizzes),
   zaf: Object.values(southAfricaQuizzes),
   lso: Object.values(lesothoQuizzes),
+  swz: Object.values(eswatiniQuizzes),
 };
 
 /**
