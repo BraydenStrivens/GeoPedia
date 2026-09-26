@@ -32,6 +32,7 @@ import * as southAfricaMaps from "./countries/africa/south-africa";
 import * as tunisiaMaps from "./countries/africa/tunisia";
 import * as ugandaMaps from "./countries/africa/uganda";
 import * as japanMaps from "./countries/asia/japan";
+import * as southKoreaMaps from "./countries/asia/south-korea";
 import * as costaRicaMaps from "./countries/central-america/costa-rica";
 import * as dominicanRepublicMaps from "./countries/central-america/dominican-republic";
 import * as guatemalaMaps from "./countries/central-america/guatemala";
@@ -101,6 +102,7 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
 
   // Asia
   jpn: Object.values(japanMaps),
+  kor: Object.values(southKoreaMaps),
 };
 
 /**
