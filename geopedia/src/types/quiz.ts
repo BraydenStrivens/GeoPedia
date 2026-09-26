@@ -200,6 +200,14 @@ export interface FeatureQuiz extends BaseQuiz {
   answerType: AnswerType;
 
   /**
+   * Optional multiplier applied to image-based quiz prompts and answer labels.
+   *
+   * A value of 1 uses the default image size. Values greater than 1 enlarge
+   * images while preserving their aspect ratio.
+   */
+  imageSizeMultiplier?: number;
+
+  /**
    * Optional visibility overrides for labels and administrative boundaries
    * supplied by the base-map style while this quiz is displayed.
    *

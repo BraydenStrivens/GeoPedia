@@ -31,6 +31,7 @@ import * as senegalMaps from "./countries/africa/senegal";
 import * as southAfricaMaps from "./countries/africa/south-africa";
 import * as tunisiaMaps from "./countries/africa/tunisia";
 import * as ugandaMaps from "./countries/africa/uganda";
+import * as japanMaps from "./countries/asia/japan";
 import * as costaRicaMaps from "./countries/central-america/costa-rica";
 import * as dominicanRepublicMaps from "./countries/central-america/dominican-republic";
 import * as guatemalaMaps from "./countries/central-america/guatemala";
@@ -97,6 +98,9 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
   zaf: Object.values(southAfricaMaps),
   lso: Object.values(lesothoMaps),
   swz: Object.values(eswatiniMaps),
+
+  // Asia
+  jpn: Object.values(japanMaps),
 };
 
 /**

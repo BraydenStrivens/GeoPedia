@@ -8,6 +8,7 @@
  * crash Show Answers.
  */
 
+import area from "@turf/area";
 import pointOnFeature from "@turf/point-on-feature";
 import type { Feature, Geometry } from "geojson";
 import type { MapGeoJSONFeature } from "maplibre-gl";
@@ -93,6 +94,53 @@ function findFirstValidCoordinate(
 }
 
 /**
+ * Returns the polygon with the greatest geographic area from a MultiPolygon.
+ *
+ * Show Answers labels should represent the feature's primary landmass rather
+ * than being influenced by smaller detached polygons such as islands.
+ *
+ * @param feature - MultiPolygon feature whose largest polygon should be found.
+ * @returns GeoJSON feature containing only the largest polygon.
+ */
+function getLargestPolygonFeature(
+  feature: MapGeoJSONFeature,
+): Feature<Geometry> {
+  if (feature.geometry.type !== "MultiPolygon") {
+    return toGeoJsonFeature(feature);
+  }
+
+  let largestPolygon = feature.geometry.coordinates[0];
+  let largestArea = -1;
+
+  for (const polygonCoordinates of feature.geometry.coordinates) {
+    const polygonFeature: Feature<Geometry> = {
+      type: "Feature",
+      properties: feature.properties ?? {},
+      geometry: {
+        type: "Polygon",
+        coordinates: polygonCoordinates,
+      },
+    };
+
+    const polygonArea = area(polygonFeature);
+
+    if (polygonArea > largestArea) {
+      largestArea = polygonArea;
+      largestPolygon = polygonCoordinates;
+    }
+  }
+
+  return {
+    type: "Feature",
+    properties: feature.properties ?? {},
+    geometry: {
+      type: "Polygon",
+      coordinates: largestPolygon,
+    },
+  };
+}
+
+/**
  * Returns a safe geographic anchor for a Show Answers marker.
  *
  * Turf's pointOnFeature is attempted first. If Turf cannot process the
@@ -106,7 +154,7 @@ export function getAnswerLabelAnchor(
   feature: MapGeoJSONFeature,
 ): [number, number] | null {
   try {
-    const anchor = pointOnFeature(toGeoJsonFeature(feature));
+    const anchor = pointOnFeature(getLargestPolygonFeature(feature));
 
     const [longitude, latitude] = anchor.geometry.coordinates;
 

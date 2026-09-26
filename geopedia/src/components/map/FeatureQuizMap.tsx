@@ -175,6 +175,11 @@ export default function FeatureQuizMap({
   });
 
   /**
+   * Normalized image size multiplier from the quiz config.
+   */
+  const imageSizeMultiplier = quiz.imageSizeMultiplier ?? 1;
+
+  /**
    * ID of the feature currently being hovered.
    *
    * Show Answers uses this to synchronize answer labels with hovered geography.
@@ -411,6 +416,7 @@ export default function FeatureQuizMap({
     quiz,
     mapConfig,
     questionLanguage,
+    imageSizeMultiplier,
 
     isShowingAnswers: shouldShowAnswerLabels,
 
@@ -423,6 +429,7 @@ export default function FeatureQuizMap({
       <FeatureQuizOverlay
         quizName={quiz.name}
         question={questionPrompt}
+        imageSizeMultiplier={imageSizeMultiplier}
         answeredCount={answeredCount}
         questionCount={questionCount}
         correctCount={correctCount}
@@ -455,12 +462,14 @@ export default function FeatureQuizMap({
       */}
       <FeatureSelectionPopup
         selection={featureSelection}
+        imageSizeMultiplier={imageSizeMultiplier}
         backgroundClassName={isActive ? "bg-red-500" : undefined}
         textClassName={isActive ? "text-white" : undefined}
       />
 
       <FeatureSelectionPopup
         selection={correctFeatureSelection}
+        imageSizeMultiplier={imageSizeMultiplier}
         backgroundClassName="bg-green-500"
         textClassName="text-white"
       />

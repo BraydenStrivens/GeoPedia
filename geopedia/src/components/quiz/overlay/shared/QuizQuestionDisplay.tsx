@@ -17,12 +17,18 @@ import Image from "next/image";
 
 import type { QuizQuestionPrompt } from "@/types/quiz";
 
+const DEFAULT_IMAGE_WIDTH = 224;
+const DEFAULT_IMAGE_HEIGHT = 128;
+
 /**
  * Props required by the shared quiz question display.
  */
 type QuizQuestionDisplayProps = {
   /** Question prompt displayed to the user. */
   question: QuizQuestionPrompt;
+
+  /** Multiplier applied to image-based question prompts. */
+  imageSizeMultiplier?: number;
 };
 
 /**
@@ -33,16 +39,24 @@ type QuizQuestionDisplayProps = {
  */
 export default function QuizQuestionDisplay({
   question,
+  imageSizeMultiplier = 1,
 }: QuizQuestionDisplayProps) {
   if (question.type === "image") {
+    const width = DEFAULT_IMAGE_WIDTH * imageSizeMultiplier;
+    const height = DEFAULT_IMAGE_HEIGHT * imageSizeMultiplier;
+
     return (
       <div className="flex items-center justify-center">
         <Image
           src={question.imageUrl}
           alt={question.alt}
-          width={224}
-          height={128}
-          className="max-h-32 max-w-56 object-contain"
+          width={width}
+          height={height}
+          style={{
+            maxWidth: width,
+            maxHeight: height,
+          }}
+          className="object-contain"
         />
       </div>
     );

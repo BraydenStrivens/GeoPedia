@@ -47,6 +47,9 @@ type FeatureQuizOverlayProps = {
   /** Current feature question displayed while the quiz is active. */
   question: QuizQuestionPrompt;
 
+  /** Multiplier applied to image-based question prompts. */
+  imageSizeMultiplier: number;
+
   /** Number of questions completed during the current attempt. */
   answeredCount: number;
 
@@ -106,6 +109,7 @@ type FeatureQuizOverlayProps = {
 export default function FeatureQuizOverlay({
   quizName,
   question,
+  imageSizeMultiplier,
   answeredCount,
   questionCount,
   correctCount,
@@ -179,7 +183,10 @@ export default function FeatureQuizOverlay({
       {isActive && !isFinished && (
         <div className="rounded-lg bg-surface/80 px-5 py-1.5 text-center backdrop-blur-md">
           <div className="text-lg font-bold leading-tight text-text">
-            <QuizQuestionDisplay question={question} />
+            <QuizQuestionDisplay
+              question={question}
+              imageSizeMultiplier={imageSizeMultiplier}
+            />
           </div>
         </div>
       )}

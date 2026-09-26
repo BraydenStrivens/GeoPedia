@@ -37,6 +37,9 @@ type UseAnswerLabelsParams = {
   /** Language used to present feature quiz answers. */
   questionLanguage: QuizQuestionLanguage;
 
+  /** Multiplier applied to image-based answer labels. */
+  imageSizeMultiplier?: number;
+
   /** Map configuration controlling answer-label density. */
   mapConfig: MapConfig;
 
@@ -61,6 +64,7 @@ export function useAnswerLabels({
   isMapReady,
   quiz,
   questionLanguage,
+  imageSizeMultiplier = 1,
   mapConfig,
   isShowingAnswers,
   hoveredFeatureId,
@@ -115,6 +119,7 @@ export function useAnswerLabels({
         labelMarkers,
         mapConfig.answerLabels,
         mapConfig.initialView.zoom,
+        imageSizeMultiplier,
       );
 
       setAnswerLabelHovered(
@@ -141,6 +146,7 @@ export function useAnswerLabels({
     isMapReady,
     quiz,
     questionLanguage,
+    imageSizeMultiplier,
     mapConfig.answerLabels,
     mapConfig.initialView.zoom,
     isShowingAnswers,

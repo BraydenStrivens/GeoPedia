@@ -25,6 +25,7 @@ import type {
  */
 export function createAnswerLabelElement(
   content: AnswerLabelContent,
+  imageSizeMultiplier = 1,
 ): HTMLDivElement {
   const element = document.createElement("div");
 
@@ -90,12 +91,13 @@ export function createAnswerLabelElement(
 
       imageFrame.className = [
         "flex",
-        "h-8",
-        "w-14",
         "shrink-0",
         "items-center",
         "justify-center",
       ].join(" ");
+
+      imageFrame.style.width = `${56 * imageSizeMultiplier}px`;
+      imageFrame.style.height = `${32 * imageSizeMultiplier}px`;
 
       const image = document.createElement("img");
 

@@ -144,6 +144,7 @@ export function updateAnswerLabels(
   labelMarkers: AnswerLabelMarkers,
   answerLabelConfig?: AnswerLabelConfig,
   initialZoom?: number,
+  imageSizeMultiplier = 1,
 ): void {
   const visibleFeatures = getUniqueVisibleFeatures(map);
 
@@ -206,7 +207,10 @@ export function updateAnswerLabels(
 
     const [longitude, latitude] = anchor;
 
-    const element = createAnswerLabelElement(content);
+    const element = createAnswerLabelElement(
+      content,
+      imageSizeMultiplier,
+    );
 
     const marker = new maplibregl.Marker({
       element,

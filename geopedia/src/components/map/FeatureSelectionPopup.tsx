@@ -32,6 +32,9 @@ type FeatureSelectionPopupProps = {
   /** Temporary selected-feature feedback, or null when hidden. */
   selection: FeatureSelection | null;
 
+  /** Multiplier applied to image-based answer feedback. */
+  imageSizeMultiplier?: number;
+
   /**
    * Optional background-color class overriding the popup's neutral surface.
    *
@@ -61,6 +64,7 @@ type FeatureSelectionPopupProps = {
  */
 export default function FeatureSelectionPopup({
   selection,
+  imageSizeMultiplier = 1,
   backgroundClassName = "bg-surface",
   textClassName = "text-text",
 }: FeatureSelectionPopupProps) {
@@ -71,6 +75,9 @@ export default function FeatureSelectionPopup({
   const { content, x, y } = selection;
 
   const hasImages = content.images.length > 0;
+
+  const imageWidth = 56 * imageSizeMultiplier;
+  const imageHeight = 32 * imageSizeMultiplier;
 
   return (
     <div
@@ -96,16 +103,24 @@ export default function FeatureSelectionPopup({
         top: y - 8,
       }}
     >
-      {content.images.map((image) => (
-        <Image
-          key={image.imageUrl}
-          src={image.imageUrl}
-          alt={image.alt}
-          width={56}
-          height={32}
-          className="block h-auto max-h-8 w-auto max-w-14 border border-text object-contain"
-        />
-      ))}
+      {hasImages && (
+        <div className="flex items-center justify-center gap-1">
+          {content.images.map((image) => (
+            <Image
+              key={image.imageUrl}
+              src={image.imageUrl}
+              alt={image.alt}
+              width={imageWidth}
+              height={imageHeight}
+              style={{
+                maxWidth: imageWidth,
+                maxHeight: imageHeight,
+              }}
+              className="block h-auto w-auto border border-text object-contain"
+            />
+          ))}
+        </div>
+      )}
 
       {content.label && <span>{content.label}</span>}
     </div>
