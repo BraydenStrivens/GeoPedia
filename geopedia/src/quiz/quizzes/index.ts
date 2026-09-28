@@ -38,6 +38,7 @@ import * as senegalQuizzes from "./countries/africa/senegal";
 import * as southAfricaQuizzes from "./countries/africa/south-africa";
 import * as tunisiaQuizzes from "./countries/africa/tunisia";
 import * as ugandaQuizzes from "./countries/africa/uganda";
+import * as indonesiaQuizzes from "./countries/asia/indonesia";
 import * as japanQuizzes from "./countries/asia/japan";
 import * as philippinesQuizzes from "./countries/asia/philippines";
 import * as southKoreaQuizzes from "./countries/asia/south-korea";
@@ -116,6 +117,7 @@ const countryFeatureQuizzes = {
   kor: Object.values(southKoreaQuizzes),
   twn: Object.values(taiwanQuizzes),
   phl: Object.values(philippinesQuizzes),
+  idn: Object.values(indonesiaQuizzes),
 };
 
 /**

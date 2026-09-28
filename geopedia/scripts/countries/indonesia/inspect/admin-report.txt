@@ -1,0 +1,1637 @@
+Inspecting Indonesia administrative boundaries...
+
+================================================================================
+Admin 1 - Provinces
+================================================================================
+File: data\raw\countries\indonesia\idn_admin_boundaries.geojson\idn_admin1.geojson
+Size: 99.09 MB
+
+FEATURE COUNT
+  Actual:   34
+  Expected: 34
+  Status:   MATCH
+
+GEOMETRY
+  MultiPolygon: 34
+  Empty/unreadable: 0
+  Invalid:          0
+  Bounds:           95.010786400000,-11.007615100000,141.019400000000,6.076930000000
+
+PROPERTY SCHEMA
+
+  adm0_name
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'Indonesia'
+
+  adm0_name1
+    Unique non-blank: 0
+    Null/blank:       34
+    Samples:          None
+
+  adm0_name2
+    Unique non-blank: 0
+    Null/blank:       34
+    Samples:          None
+
+  adm0_name3
+    Unique non-blank: 0
+    Null/blank:       34
+    Samples:          None
+
+  adm0_pcode
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'ID'
+
+  adm1_name
+    Unique non-blank: 34
+    Null/blank:       0
+    Samples:          'Aceh', 'Bali', 'Banten', 'Bengkulu', 'Daerah Istimewa Yogyakarta'
+
+  adm1_name1
+    Unique non-blank: 0
+    Null/blank:       34
+    Samples:          None
+
+  adm1_name2
+    Unique non-blank: 0
+    Null/blank:       34
+    Samples:          None
+
+  adm1_name3
+    Unique non-blank: 0
+    Null/blank:       34
+    Samples:          None
+
+  adm1_pcode
+    Unique non-blank: 34
+    Null/blank:       0
+    Samples:          'ID11', 'ID51', 'ID36', 'ID17', 'ID34'
+
+  adm1_ref_name
+    Unique non-blank: 34
+    Null/blank:       0
+    Samples:          'Aceh', 'Bali', 'Banten', 'Bengkulu', 'Daerah Istimewa Yogyakarta'
+
+  area_sqkm
+    Unique non-blank: 34
+    Null/blank:       0
+    Samples:          Decimal('56778.562500849999'), Decimal('5587.8083101599996'), Decimal('9357.11774109'), Decimal('20026.365224059999'), Decimal('3172.3986518000002')
+
+  center_lat
+    Unique non-blank: 34
+    Null/blank:       0
+    Samples:          Decimal('3.91056155'), Decimal('-8.4553126'), Decimal('-6.43769535'), Decimal('-3.6020366'), Decimal('-7.8729629')
+
+  center_lon
+    Unique non-blank: 34
+    Null/blank:       0
+    Samples:          Decimal('97.149714'), Decimal('115.27069877'), Decimal('106.13333543'), Decimal('102.47267131'), Decimal('110.41403179')
+
+  lang
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'en'
+
+  lang1
+    Unique non-blank: 0
+    Null/blank:       34
+    Samples:          None
+
+  lang2
+    Unique non-blank: 0
+    Null/blank:       34
+    Samples:          None
+
+  lang3
+    Unique non-blank: 0
+    Null/blank:       34
+    Samples:          None
+
+  valid_on
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          '2020-04-01'
+
+  valid_to
+    Unique non-blank: 0
+    Null/blank:       34
+    Samples:          None
+
+  version
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'v01'
+
+SAMPLE FEATURES
+
+  Feature 1:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Aceh'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID11'
+    adm1_ref_name: 'Aceh'
+    area_sqkm: Decimal('56778.562500849999')
+    center_lat: Decimal('3.91056155')
+    center_lon: Decimal('97.149714')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 2:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Bali'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID51'
+    adm1_ref_name: 'Bali'
+    area_sqkm: Decimal('5587.8083101599996')
+    center_lat: Decimal('-8.4553126')
+    center_lon: Decimal('115.27069877')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 3:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Banten'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID36'
+    adm1_ref_name: 'Banten'
+    area_sqkm: Decimal('9357.11774109')
+    center_lat: Decimal('-6.43769535')
+    center_lon: Decimal('106.13333543')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 4:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Bengkulu'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID17'
+    adm1_ref_name: 'Bengkulu'
+    area_sqkm: Decimal('20026.365224059999')
+    center_lat: Decimal('-3.6020366')
+    center_lon: Decimal('102.47267131')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 5:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Daerah Istimewa Yogyakarta'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID34'
+    adm1_ref_name: 'Daerah Istimewa Yogyakarta'
+    area_sqkm: Decimal('3172.3986518000002')
+    center_lat: Decimal('-7.8729629')
+    center_lon: Decimal('110.41403179')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+LIKELY NAME-FIELD DUPLICATES
+
+  adm0_name
+    Unique names:              1
+    Distinct duplicate names:  1
+    Features with dup. names:  34
+    Maximum occurrence:        34
+    Top 1 duplicates:
+         34  'Indonesia'
+
+  adm1_name
+    Unique names:              34
+    Distinct duplicate names:  0
+    Features with dup. names:  0
+    Maximum occurrence:        1
+
+  adm1_ref_name
+    Unique names:              34
+    Distinct duplicate names:  0
+    Features with dup. names:  0
+    Maximum occurrence:        1
+
+
+================================================================================
+Admin 2 - Regencies / Cities / Districts
+================================================================================
+File: data\raw\countries\indonesia\idn_admin_boundaries.geojson\idn_admin2.geojson
+Size: 142.77 MB
+
+WARNING: feature 151 has invalid geometry.
+WARNING: feature 155 has invalid geometry.
+WARNING: feature 429 has invalid geometry.
+FEATURE COUNT
+  Actual:   522
+  Expected: 522
+  Status:   MATCH
+
+GEOMETRY
+  MultiPolygon: 248
+  Polygon: 274
+  Empty/unreadable: 0
+  Invalid:          3
+  Bounds:           95.010786400000,-11.007615100000,141.019400000000,6.076930000000
+
+PROPERTY SCHEMA
+
+  adm0_name
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'Indonesia'
+
+  adm0_name1
+    Unique non-blank: 0
+    Null/blank:       522
+    Samples:          None
+
+  adm0_name2
+    Unique non-blank: 0
+    Null/blank:       522
+    Samples:          None
+
+  adm0_name3
+    Unique non-blank: 0
+    Null/blank:       522
+    Samples:          None
+
+  adm0_pcode
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'ID'
+
+  adm1_name
+    Unique non-blank: 34
+    Null/blank:       0
+    Samples:          'Aceh', 'Sumatera Barat', 'Nusa Tenggara Timur', 'Sumatera Utara', 'Papua'
+
+  adm1_name1
+    Unique non-blank: 0
+    Null/blank:       522
+    Samples:          None
+
+  adm1_name2
+    Unique non-blank: 0
+    Null/blank:       522
+    Samples:          None
+
+  adm1_name3
+    Unique non-blank: 0
+    Null/blank:       522
+    Samples:          None
+
+  adm1_pcode
+    Unique non-blank: 34
+    Null/blank:       0
+    Samples:          'ID11', 'ID13', 'ID53', 'ID12', 'ID94'
+
+  adm2_name
+    Unique non-blank: 519
+    Null/blank:       0
+    Samples:          'Aceh Barat', 'Aceh Barat Daya', 'Aceh Besar', 'Aceh Jaya', 'Aceh Selatan'
+
+  adm2_name1
+    Unique non-blank: 0
+    Null/blank:       522
+    Samples:          None
+
+  adm2_name2
+    Unique non-blank: 0
+    Null/blank:       522
+    Samples:          None
+
+  adm2_name3
+    Unique non-blank: 0
+    Null/blank:       522
+    Samples:          None
+
+  adm2_pcode
+    Unique non-blank: 522
+    Null/blank:       0
+    Samples:          'ID1107', 'ID1112', 'ID1108', 'ID1116', 'ID1103'
+
+  adm2_ref_name
+    Unique non-blank: 519
+    Null/blank:       0
+    Samples:          'Aceh Barat', 'Aceh Barat Daya', 'Aceh Besar', 'Aceh Jaya', 'Aceh Selatan'
+
+  area_sqkm
+    Unique non-blank: 522
+    Null/blank:       0
+    Samples:          Decimal('2810.0803472299999'), Decimal('1893.1534390899999'), Decimal('2897.3266554699999'), Decimal('3878.1632402300002'), Decimal('4216.15149965')
+
+  center_lat
+    Unique non-blank: 522
+    Null/blank:       0
+    Samples:          Decimal('4.4522484'), Decimal('3.83582325'), Decimal('5.3545992'), Decimal('4.81059705'), Decimal('3.0700276')
+
+  center_lon
+    Unique non-blank: 522
+    Null/blank:       0
+    Samples:          Decimal('96.20150419'), Decimal('96.84792396'), Decimal('95.49617027'), Decimal('95.69887344'), Decimal('97.46878729')
+
+  lang
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'en'
+
+  lang1
+    Unique non-blank: 0
+    Null/blank:       522
+    Samples:          None
+
+  lang2
+    Unique non-blank: 0
+    Null/blank:       522
+    Samples:          None
+
+  lang3
+    Unique non-blank: 0
+    Null/blank:       522
+    Samples:          None
+
+  valid_on
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          '2020-04-01'
+
+  valid_to
+    Unique non-blank: 0
+    Null/blank:       522
+    Samples:          None
+
+  version
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'v01'
+
+SAMPLE FEATURES
+
+  Feature 1:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Aceh'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID11'
+    adm2_name: 'Aceh Barat'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID1107'
+    adm2_ref_name: 'Aceh Barat'
+    area_sqkm: Decimal('2810.0803472299999')
+    center_lat: Decimal('4.4522484')
+    center_lon: Decimal('96.20150419')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 2:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Aceh'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID11'
+    adm2_name: 'Aceh Barat Daya'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID1112'
+    adm2_ref_name: 'Aceh Barat Daya'
+    area_sqkm: Decimal('1893.1534390899999')
+    center_lat: Decimal('3.83582325')
+    center_lon: Decimal('96.84792396')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 3:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Aceh'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID11'
+    adm2_name: 'Aceh Besar'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID1108'
+    adm2_ref_name: 'Aceh Besar'
+    area_sqkm: Decimal('2897.3266554699999')
+    center_lat: Decimal('5.3545992')
+    center_lon: Decimal('95.49617027')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 4:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Aceh'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID11'
+    adm2_name: 'Aceh Jaya'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID1116'
+    adm2_ref_name: 'Aceh Jaya'
+    area_sqkm: Decimal('3878.1632402300002')
+    center_lat: Decimal('4.81059705')
+    center_lon: Decimal('95.69887344')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 5:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Aceh'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID11'
+    adm2_name: 'Aceh Selatan'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID1103'
+    adm2_ref_name: 'Aceh Selatan'
+    area_sqkm: Decimal('4216.15149965')
+    center_lat: Decimal('3.0700276')
+    center_lon: Decimal('97.46878729')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+LIKELY NAME-FIELD DUPLICATES
+
+  adm0_name
+    Unique names:              1
+    Distinct duplicate names:  1
+    Features with dup. names:  522
+    Maximum occurrence:        522
+    Top 1 duplicates:
+        522  'Indonesia'
+
+  adm1_name
+    Unique names:              34
+    Distinct duplicate names:  34
+    Features with dup. names:  522
+    Maximum occurrence:        38
+    Top 20 duplicates:
+         38  'Jawa Timur'
+         37  'Jawa Tengah'
+         34  'Sumatera Utara'
+         29  'Papua'
+         28  'Jawa Barat'
+         24  'Sulawesi Selatan'
+         23  'Aceh'
+         22  'Nusa Tenggara Timur'
+         20  'Sumatera Barat'
+         18  'Sumatera Selatan'
+         17  'Sulawesi Tenggara'
+         16  'Lampung'
+         16  'Sulawesi Utara'
+         14  'Kalimantan Barat'
+         14  'Kalimantan Tengah'
+         13  'Kalimantan Selatan'
+         13  'Papua Barat'
+         13  'Sulawesi Tengah'
+         12  'Riau'
+         11  'Jambi'
+
+  adm2_name
+    Unique names:              519
+    Distinct duplicate names:  1
+    Features with dup. names:  4
+    Maximum occurrence:        4
+    Top 1 duplicates:
+          4  'Danau'
+
+  adm2_ref_name
+    Unique names:              519
+    Distinct duplicate names:  1
+    Features with dup. names:  4
+    Maximum occurrence:        4
+    Top 1 duplicates:
+          4  'Danau'
+
+
+================================================================================
+Admin 3 - Sub-Districts
+================================================================================
+File: data\raw\countries\indonesia\idn_admin_boundaries.geojson\idn_admin3.geojson
+Size: 273.19 MB
+
+WARNING: feature 330 has invalid geometry.
+WARNING: feature 1,959 has invalid geometry.
+WARNING: feature 2,877 has invalid geometry.
+WARNING: feature 3,270 has invalid geometry.
+WARNING: feature 3,396 has invalid geometry.
+WARNING: feature 3,650 has invalid geometry.
+WARNING: feature 3,670 has invalid geometry.
+WARNING: feature 3,817 has invalid geometry.
+WARNING: feature 4,149 has invalid geometry.
+WARNING: feature 4,387 has invalid geometry.
+FEATURE COUNT
+  Actual:   7,069
+  Expected: 7,069
+  Status:   MATCH
+
+GEOMETRY
+  MultiPolygon: 1,066
+  Polygon: 6,003
+  Empty/unreadable: 0
+  Invalid:          15
+  Bounds:           95.010786400000,-11.007615100000,141.019400000000,6.076930000000
+
+PROPERTY SCHEMA
+
+  adm0_name
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'Indonesia'
+
+  adm0_name1
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  adm0_name2
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  adm0_name3
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  adm0_pcode
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'ID'
+
+  adm1_name
+    Unique non-blank: 34
+    Null/blank:       0
+    Samples:          'Sumatera Barat', 'Sumatera Selatan', 'Bali', 'Sulawesi Tenggara', 'Papua'
+
+  adm1_name1
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  adm1_name2
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  adm1_name3
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  adm1_pcode
+    Unique non-blank: 34
+    Null/blank:       0
+    Samples:          'ID13', 'ID16', 'ID51', 'ID74', 'ID94'
+
+  adm2_name
+    Unique non-blank: 519
+    Null/blank:       0
+    Samples:          'Padang Pariaman', 'Penukal Abab Lematang Ilir', 'Karang Asem', 'Kota Kendari', 'Yalimo'
+
+  adm2_name1
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  adm2_name2
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  adm2_name3
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  adm2_pcode
+    Unique non-blank: 522
+    Null/blank:       0
+    Samples:          'ID1306', 'ID1612', 'ID5107', 'ID7471', 'ID9432'
+
+  adm3_name
+    Unique non-blank: 6,679
+    Null/blank:       0
+    Samples:          '2 X 11 Enam Lingkung', '2 X 11 Kayu Tanam', 'Abab', 'Abang', 'Abeli'
+
+  adm3_name1
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  adm3_name2
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  adm3_name3
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  adm3_pcode
+    Unique non-blank: 7,069
+    Null/blank:       0
+    Samples:          'ID1306050', 'ID1306052', 'ID1612030', 'ID5107050', 'ID7471021'
+
+  adm3_ref_name
+    Unique non-blank: 6,679
+    Null/blank:       0
+    Samples:          '2 X 11 Enam Lingkung', '2 X 11 Kayu Tanam', 'Abab', 'Abang', 'Abeli'
+
+  area_sqkm
+    Unique non-blank: 7,069
+    Null/blank:       0
+    Samples:          Decimal('38.25011368'), Decimal('208.32756415'), Decimal('302.80279847000003'), Decimal('131.08867112'), Decimal('14.25008259')
+
+  center_lat
+    Unique non-blank: 7,065
+    Null/blank:       0
+    Samples:          Decimal('-0.5885974'), Decimal('-0.56565185'), Decimal('-3.15411835'), Decimal('-8.36322765'), Decimal('-4.0204553')
+
+  center_lon
+    Unique non-blank: 7,069
+    Null/blank:       0
+    Samples:          Decimal('100.28305783'), Decimal('100.3551213'), Decimal('104.15780077'), Decimal('115.63349952'), Decimal('122.57760177')
+
+  lang
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'en'
+
+  lang1
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  lang2
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  lang3
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  valid_on
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          '2020-04-01'
+
+  valid_to
+    Unique non-blank: 0
+    Null/blank:       7,069
+    Samples:          None
+
+  version
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'v01'
+
+SAMPLE FEATURES
+
+  Feature 1:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Sumatera Barat'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID13'
+    adm2_name: 'Padang Pariaman'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID1306'
+    adm3_name: '2 X 11 Enam Lingkung'
+    adm3_name1: None
+    adm3_name2: None
+    adm3_name3: None
+    adm3_pcode: 'ID1306050'
+    adm3_ref_name: '2 X 11 Enam Lingkung'
+    area_sqkm: Decimal('38.25011368')
+    center_lat: Decimal('-0.5885974')
+    center_lon: Decimal('100.28305783')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 2:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Sumatera Barat'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID13'
+    adm2_name: 'Padang Pariaman'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID1306'
+    adm3_name: '2 X 11 Kayu Tanam'
+    adm3_name1: None
+    adm3_name2: None
+    adm3_name3: None
+    adm3_pcode: 'ID1306052'
+    adm3_ref_name: '2 X 11 Kayu Tanam'
+    area_sqkm: Decimal('208.32756415')
+    center_lat: Decimal('-0.56565185')
+    center_lon: Decimal('100.3551213')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 3:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Sumatera Selatan'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID16'
+    adm2_name: 'Penukal Abab Lematang Ilir'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID1612'
+    adm3_name: 'Abab'
+    adm3_name1: None
+    adm3_name2: None
+    adm3_name3: None
+    adm3_pcode: 'ID1612030'
+    adm3_ref_name: 'Abab'
+    area_sqkm: Decimal('302.80279847000003')
+    center_lat: Decimal('-3.15411835')
+    center_lon: Decimal('104.15780077')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 4:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Bali'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID51'
+    adm2_name: 'Karang Asem'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID5107'
+    adm3_name: 'Abang'
+    adm3_name1: None
+    adm3_name2: None
+    adm3_name3: None
+    adm3_pcode: 'ID5107050'
+    adm3_ref_name: 'Abang'
+    area_sqkm: Decimal('131.08867112')
+    center_lat: Decimal('-8.36322765')
+    center_lon: Decimal('115.63349952')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 5:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Sulawesi Tenggara'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID74'
+    adm2_name: 'Kota Kendari'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID7471'
+    adm3_name: 'Abeli'
+    adm3_name1: None
+    adm3_name2: None
+    adm3_name3: None
+    adm3_pcode: 'ID7471021'
+    adm3_ref_name: 'Abeli'
+    area_sqkm: Decimal('14.25008259')
+    center_lat: Decimal('-4.0204553')
+    center_lon: Decimal('122.57760177')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+LIKELY NAME-FIELD DUPLICATES
+
+  adm0_name
+    Unique names:              1
+    Distinct duplicate names:  1
+    Features with dup. names:  7,069
+    Maximum occurrence:        7,069
+    Top 1 duplicates:
+      7,069  'Indonesia'
+
+  adm1_name
+    Unique names:              34
+    Distinct duplicate names:  34
+    Features with dup. names:  7,069
+    Maximum occurrence:        667
+    Top 20 duplicates:
+        667  'Jawa Timur'
+        630  'Jawa Barat'
+        577  'Jawa Tengah'
+        450  'Sumatera Utara'
+        424  'Papua'
+        309  'Sulawesi Selatan'
+        307  'Nusa Tenggara Timur'
+        290  'Aceh'
+        237  'Lampung'
+        237  'Sumatera Selatan'
+        222  'Sulawesi Tenggara'
+        181  'Sumatera Barat'
+        177  'Papua Barat'
+        176  'Sulawesi Tengah'
+        174  'Kalimantan Barat'
+        172  'Sulawesi Utara'
+        169  'Riau'
+        155  'Banten'
+        152  'Kalimantan Selatan'
+        143  'Jambi'
+
+  adm2_name
+    Unique names:              519
+    Distinct duplicate names:  515
+    Features with dup. names:  7,065
+    Maximum occurrence:        51
+    Top 20 duplicates:
+         51  'Yahukimo'
+         47  'Sukabumi'
+         42  'Garut'
+         40  'Bogor'
+         40  'Cirebon'
+         39  'Tasikmalaya'
+         37  'Jayawijaya'
+         35  'Nias Selatan'
+         35  'Pandeglang'
+         35  'Tolikara'
+         34  'Pegunungan Bintang'
+         33  'Malang'
+         32  'Cianjur'
+         32  'Kuningan'
+         32  'Simalungun'
+         32  'Timor Tengah Selatan'
+         31  'Bandung'
+         31  'Indramayu'
+         31  'Jember'
+         31  'Kota Surabaya'
+
+  adm3_name
+    Unique names:              6,679
+    Distinct duplicate names:  288
+    Features with dup. names:  678
+    Maximum occurrence:        13
+    Top 20 duplicates:
+         13  'Hutan'
+          8  'Danau'
+          6  'Karanganyar'
+          5  'Batu Ampar'
+          5  'Gondang'
+          5  'Wonosari'
+          4  'Bandar'
+          4  'Batu Putih'
+          4  'Bojong'
+          4  'Jetis'
+          4  'Kubu'
+          4  'Pabuaran'
+          4  'Pagelaran'
+          4  'Parigi'
+          4  'Purwodadi'
+          4  'Simpang Empat'
+          4  'Sukaraja'
+          4  'Sukasari'
+          4  'Sukorejo'
+          4  'Sungai Raya'
+
+  adm3_ref_name
+    Unique names:              6,679
+    Distinct duplicate names:  288
+    Features with dup. names:  678
+    Maximum occurrence:        13
+    Top 20 duplicates:
+         13  'Hutan'
+          8  'Danau'
+          6  'Karanganyar'
+          5  'Batu Ampar'
+          5  'Gondang'
+          5  'Wonosari'
+          4  'Bandar'
+          4  'Batu Putih'
+          4  'Bojong'
+          4  'Jetis'
+          4  'Kubu'
+          4  'Pabuaran'
+          4  'Pagelaran'
+          4  'Parigi'
+          4  'Purwodadi'
+          4  'Simpang Empat'
+          4  'Sukaraja'
+          4  'Sukasari'
+          4  'Sukorejo'
+          4  'Sungai Raya'
+
+
+================================================================================
+Admin 4 - Villages
+================================================================================
+File: data\raw\countries\indonesia\idn_admin_boundaries.geojson\idn_admin4.geojson
+Size: 621.74 MB
+
+WARNING: feature 5,792 has invalid geometry.
+WARNING: feature 15,044 has invalid geometry.
+WARNING: feature 18,043 has invalid geometry.
+WARNING: feature 31,092 has invalid geometry.
+WARNING: feature 34,180 has invalid geometry.
+WARNING: feature 38,929 has invalid geometry.
+WARNING: feature 40,964 has invalid geometry.
+WARNING: feature 42,240 has invalid geometry.
+WARNING: feature 43,123 has invalid geometry.
+WARNING: feature 45,944 has invalid geometry.
+FEATURE COUNT
+  Actual:   81,912
+  Expected: 81,912
+  Status:   MATCH
+
+GEOMETRY
+  MultiPolygon: 3,055
+  Polygon: 78,857
+  Empty/unreadable: 0
+  Invalid:          21
+  Bounds:           95.010786400000,-11.007615100000,141.019400000000,6.076930000000
+
+PROPERTY SCHEMA
+
+  adm0_name
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'Indonesia'
+
+  adm0_name1
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm0_name2
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm0_name3
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm0_pcode
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'ID'
+
+  adm1_name
+    Unique non-blank: 34
+    Null/blank:       0
+    Samples:          'Sumatera Selatan', 'Sulawesi Tenggara', 'Sulawesi Selatan', 'Kalimantan Selatan', 'Bali'
+
+  adm1_name1
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm1_name2
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm1_name3
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm1_pcode
+    Unique non-blank: 34
+    Null/blank:       0
+    Samples:          'ID16', 'ID74', 'ID73', 'ID63', 'ID51'
+
+  adm2_name
+    Unique non-blank: 519
+    Null/blank:       0
+    Samples:          'Kota Palembang', 'Kolaka', 'Maros', 'Tapin', 'Klungkung'
+
+  adm2_name1
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm2_name2
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm2_name3
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm2_pcode
+    Unique non-blank: 522
+    Null/blank:       0
+    Samples:          'ID1671', 'ID7404', 'ID7308', 'ID6305', 'ID5105'
+
+  adm3_name
+    Unique non-blank: 6,679
+    Null/blank:       0
+    Samples:          'Ilir Timur II', 'Seberang Ulu I', 'Ilir Timur III', 'Seberang Ulu II', 'Ilir Timur I'
+
+  adm3_name1
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm3_name2
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm3_name3
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm3_pcode
+    Unique non-blank: 7,069
+    Null/blank:       0
+    Samples:          'ID1671060', 'ID1671020', 'ID1671062', 'ID1671030', 'ID1671050'
+
+  adm4_name
+    Unique non-blank: 61,986
+    Null/blank:       0
+    Samples:          '1 Ilir', '1 Ulu', '10 Ilir', '11 Ilir', '11 Ulu'
+
+  adm4_name1
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm4_name2
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm4_name3
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  adm4_pcode
+    Unique non-blank: 81,912
+    Null/blank:       0
+    Samples:          'ID1671060006', 'ID1671020008', 'ID1671062001', 'ID1671062002', 'ID1671030014'
+
+  adm4_ref_name
+    Unique non-blank: 61,985
+    Null/blank:       0
+    Samples:          '1 Ilir', '1 Ulu', '10 Ilir', '11 Ilir', '11 Ulu'
+
+  area_sqkm
+    Unique non-blank: 81,911
+    Null/blank:       0
+    Samples:          Decimal('2.0806389'), Decimal('0.20872376'), Decimal('0.1560234'), Decimal('0.07683293'), Decimal('0.22729561')
+
+  center_lat
+    Unique non-blank: 81,572
+    Null/blank:       0
+    Samples:          Decimal('-2.9809785'), Decimal('-3.01267'), Decimal('-2.98375105'), Decimal('-2.98080535'), Decimal('-2.992118')
+
+  center_lon
+    Unique non-blank: 81,909
+    Null/blank:       0
+    Samples:          Decimal('104.81521076'), Decimal('104.75141721'), Decimal('104.77007568000001'), Decimal('104.76843798'), Decimal('104.76990393')
+
+  lang
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'en'
+
+  lang1
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  lang2
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  lang3
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  valid_on
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          '2020-04-01'
+
+  valid_to
+    Unique non-blank: 0
+    Null/blank:       81,912
+    Samples:          None
+
+  version
+    Unique non-blank: 1
+    Null/blank:       0
+    Samples:          'v01'
+
+SAMPLE FEATURES
+
+  Feature 1:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Sumatera Selatan'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID16'
+    adm2_name: 'Kota Palembang'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID1671'
+    adm3_name: 'Ilir Timur II'
+    adm3_name1: None
+    adm3_name2: None
+    adm3_name3: None
+    adm3_pcode: 'ID1671060'
+    adm4_name: '1 Ilir'
+    adm4_name1: None
+    adm4_name2: None
+    adm4_name3: None
+    adm4_pcode: 'ID1671060006'
+    adm4_ref_name: '1 Ilir'
+    area_sqkm: Decimal('2.0806389')
+    center_lat: Decimal('-2.9809785')
+    center_lon: Decimal('104.81521076')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 2:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Sumatera Selatan'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID16'
+    adm2_name: 'Kota Palembang'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID1671'
+    adm3_name: 'Seberang Ulu I'
+    adm3_name1: None
+    adm3_name2: None
+    adm3_name3: None
+    adm3_pcode: 'ID1671020'
+    adm4_name: '1 Ulu'
+    adm4_name1: None
+    adm4_name2: None
+    adm4_name3: None
+    adm4_pcode: 'ID1671020008'
+    adm4_ref_name: '1 Ulu'
+    area_sqkm: Decimal('0.20872376')
+    center_lat: Decimal('-3.01267')
+    center_lon: Decimal('104.75141721')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 3:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Sumatera Selatan'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID16'
+    adm2_name: 'Kota Palembang'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID1671'
+    adm3_name: 'Ilir Timur III'
+    adm3_name1: None
+    adm3_name2: None
+    adm3_name3: None
+    adm3_pcode: 'ID1671062'
+    adm4_name: '10 Ilir'
+    adm4_name1: None
+    adm4_name2: None
+    adm4_name3: None
+    adm4_pcode: 'ID1671062001'
+    adm4_ref_name: '10 Ilir'
+    area_sqkm: Decimal('0.1560234')
+    center_lat: Decimal('-2.98375105')
+    center_lon: Decimal('104.77007568000001')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 4:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Sumatera Selatan'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID16'
+    adm2_name: 'Kota Palembang'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID1671'
+    adm3_name: 'Ilir Timur III'
+    adm3_name1: None
+    adm3_name2: None
+    adm3_name3: None
+    adm3_pcode: 'ID1671062'
+    adm4_name: '11 Ilir'
+    adm4_name1: None
+    adm4_name2: None
+    adm4_name3: None
+    adm4_pcode: 'ID1671062002'
+    adm4_ref_name: '11 Ilir'
+    area_sqkm: Decimal('0.07683293')
+    center_lat: Decimal('-2.98080535')
+    center_lon: Decimal('104.76843798')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+  Feature 5:
+    adm0_name: 'Indonesia'
+    adm0_name1: None
+    adm0_name2: None
+    adm0_name3: None
+    adm0_pcode: 'ID'
+    adm1_name: 'Sumatera Selatan'
+    adm1_name1: None
+    adm1_name2: None
+    adm1_name3: None
+    adm1_pcode: 'ID16'
+    adm2_name: 'Kota Palembang'
+    adm2_name1: None
+    adm2_name2: None
+    adm2_name3: None
+    adm2_pcode: 'ID1671'
+    adm3_name: 'Seberang Ulu II'
+    adm3_name1: None
+    adm3_name2: None
+    adm3_name3: None
+    adm3_pcode: 'ID1671030'
+    adm4_name: '11 Ulu'
+    adm4_name1: None
+    adm4_name2: None
+    adm4_name3: None
+    adm4_pcode: 'ID1671030014'
+    adm4_ref_name: '11 Ulu'
+    area_sqkm: Decimal('0.22729561')
+    center_lat: Decimal('-2.992118')
+    center_lon: Decimal('104.76990393')
+    lang: 'en'
+    lang1: None
+    lang2: None
+    lang3: None
+    valid_on: '2020-04-01'
+    valid_to: None
+    version: 'v01'
+
+LIKELY NAME-FIELD DUPLICATES
+
+  adm0_name
+    Unique names:              1
+    Distinct duplicate names:  1
+    Features with dup. names:  81,912
+    Maximum occurrence:        81,912
+    Top 1 duplicates:
+      81,912  'Indonesia'
+
+  adm1_name
+    Unique names:              34
+    Distinct duplicate names:  34
+    Features with dup. names:  81,912
+    Maximum occurrence:        8,575
+    Top 20 duplicates:
+      8,575  'Jawa Timur'
+      8,569  'Jawa Tengah'
+      6,576  'Aceh'
+      6,122  'Sumatera Utara'
+      5,973  'Jawa Barat'
+      3,837  'Papua'
+      3,323  'Nusa Tenggara Timur'
+      3,264  'Sumatera Selatan'
+      3,058  'Sulawesi Selatan'
+      2,676  'Lampung'
+      2,340  'Sulawesi Tenggara'
+      2,132  'Kalimantan Barat'
+      2,025  'Sulawesi Tengah'
+      2,008  'Kalimantan Selatan'
+      1,876  'Riau'
+      1,839  'Sulawesi Utara'
+      1,595  'Papua Barat'
+      1,574  'Kalimantan Tengah'
+      1,565  'Jambi'
+      1,552  'Banten'
+
+  adm2_name
+    Unique names:              519
+    Distinct duplicate names:  515
+    Features with dup. names:  81,908
+    Maximum occurrence:        858
+    Top 20 duplicates:
+        858  'Aceh Utara'
+        744  'Pidie'
+        617  'Bireuen'
+        604  'Aceh Besar'
+        518  'Yahukimo'
+        514  'Aceh Timur'
+        514  'Tolikara'
+        495  'Purworejo'
+        474  'Lamongan'
+        461  'Kebumen'
+        461  'Nias Selatan'
+        442  'Garut'
+        438  'Bojonegoro'
+        435  'Bogor'
+        425  'Cirebon'
+        413  'Simalungun'
+        409  'Mandailing Natal'
+        407  'Sintang'
+        406  'Pati'
+        401  'Klaten'
+
+  adm3_name
+    Unique names:              6,679
+    Distinct duplicate names:  6,654
+    Features with dup. names:  81,887
+    Maximum occurrence:        86
+    Top 20 duplicates:
+         86  'Dolok'
+         81  'Purwodadi'
+         77  'Bandar'
+         76  'Karanganyar'
+         75  'Lhoksukon'
+         74  'Gondang'
+         70  'Simpang Tiga'
+         69  'Peusangan'
+         69  'Wonosari'
+         65  'Padang Tiji'
+         64  'Kubu'
+         64  'Pidie'
+         63  'Rembang'
+         63  'Simpang Empat'
+         62  'Padang Bolak'
+         62  'Sukorejo'
+         61  'Bojong'
+         60  'Grabag'
+         60  'Pagelaran'
+         58  'Tanah Luas'
+
+  adm4_name
+    Unique names:              61,986
+    Distinct duplicate names:  7,342
+    Features with dup. names:  27,268
+    Maximum occurrence:        102
+    Top 20 duplicates:
+        102  'Hutan'
+         95  'Sidomulyo'
+         73  'Sidorejo'
+         70  'Sukamaju'
+         68  'Mekar Jaya'
+         65  'Mekarsari'
+         64  'Kampung Baru'
+         62  'Karanganyar'
+         61  'Tanjung'
+         60  'Sukorejo'
+         55  'Sidodadi'
+         54  'Wonorejo'
+         51  'Banjarsari'
+         51  'Rejosari'
+         51  'Suka Maju'
+         50  'Sukaraja'
+         50  'Tanjungsari'
+         47  'Karangsari'
+         47  'Mekar Sari'
+         46  'Karang Anyar'
+
+  adm4_ref_name
+    Unique names:              61,985
+    Distinct duplicate names:  7,343
+    Features with dup. names:  27,270
+    Maximum occurrence:        102
+    Top 20 duplicates:
+        102  'Hutan'
+         95  'Sidomulyo'
+         73  'Sidorejo'
+         70  'Sukamaju'
+         68  'Mekar Jaya'
+         65  'Mekarsari'
+         64  'Kampung Baru'
+         62  'Karanganyar'
+         61  'Tanjung'
+         60  'Sukorejo'
+         55  'Sidodadi'
+         54  'Wonorejo'
+         51  'Banjarsari'
+         51  'Rejosari'
+         51  'Suka Maju'
+         50  'Sukaraja'
+         50  'Tanjungsari'
+         47  'Karangsari'
+         47  'Mekar Sari'
+         46  'Karang Anyar'
+
+
+================================================================================
+Indonesia administrative-boundary inspection complete.
+================================================================================
