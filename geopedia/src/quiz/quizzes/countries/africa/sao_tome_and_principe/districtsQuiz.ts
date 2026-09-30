@@ -43,6 +43,7 @@ export const saoTomeAndPrincipeDistrictsQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "sao-tome-and-principe-districts",
 
   answerProperty: "district_id",

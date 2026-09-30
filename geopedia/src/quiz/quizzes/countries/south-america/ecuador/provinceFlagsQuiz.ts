@@ -16,6 +16,7 @@ export const ecuadorProvinceFlagsQuiz: FeatureQuiz = {
   description: ECUADOR_PROVINCE_FLAGS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "ecuador-provinces",
 
   answerProperty: "province_id",

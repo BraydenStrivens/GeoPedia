@@ -21,6 +21,7 @@ export const chileAreaCodesQuiz: FeatureQuiz = {
   description: CHILE_AREA_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "chile-area-codes",
 
   answerProperty: "area_code_id",

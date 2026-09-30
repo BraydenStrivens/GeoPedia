@@ -20,6 +20,7 @@ export const philippinesAreaCodesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "philippines-area-codes",
 
   answerProperty: "area_code",

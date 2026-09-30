@@ -27,6 +27,7 @@ export const colombiaDepartmentFlagsQuiz: FeatureQuiz = {
   description: COLOMBIA_DEPARTMENT_FLAGS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "colombia-departments",
 
   answerProperty: "name",

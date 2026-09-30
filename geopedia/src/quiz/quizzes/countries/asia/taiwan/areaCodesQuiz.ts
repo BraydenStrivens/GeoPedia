@@ -27,6 +27,7 @@ export const taiwanAreaCodesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "taiwan-area-codes",
 
   answerProperty: "area_codes",

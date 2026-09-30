@@ -16,6 +16,7 @@ export const lesothoConstituenciesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "lesotho-constituencies",
 
   answerProperty: "constituency_id",

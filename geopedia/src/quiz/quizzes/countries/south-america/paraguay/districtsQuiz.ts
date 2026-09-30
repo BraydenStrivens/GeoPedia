@@ -34,6 +34,7 @@ export const paraguayDistrictsQuiz: FeatureQuiz = {
   description: PARAGUAY_DISTRICTS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "paraguay-districts",
 
   answerProperty: "district_id",

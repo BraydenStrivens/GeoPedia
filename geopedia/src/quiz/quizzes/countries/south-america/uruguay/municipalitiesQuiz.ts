@@ -33,6 +33,7 @@ export const uruguayMunicipalitiesQuiz: FeatureQuiz = {
   description: URUGUAY_MUNICIPALITIES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "uruguay-municipalities",
 
   answerProperty: "municipality_id",

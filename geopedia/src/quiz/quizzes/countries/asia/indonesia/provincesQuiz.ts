@@ -18,6 +18,7 @@ export const indonesiaProvincesQuiz: FeatureQuiz = {
   description: INDONESIA_PROVINCES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "indonesia-provinces",
 
   answerProperty: "province_id",

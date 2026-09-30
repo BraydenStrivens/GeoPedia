@@ -23,6 +23,7 @@ export const peruRegionsQuiz: FeatureQuiz = {
   description: PERU_REGIONS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "peru-regions",
 
   answerProperty: "region_id",

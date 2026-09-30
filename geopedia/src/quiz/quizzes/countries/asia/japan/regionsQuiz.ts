@@ -25,6 +25,7 @@ export const japanRegionsQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "japan-regions",
 
   answerProperty: "region_id",

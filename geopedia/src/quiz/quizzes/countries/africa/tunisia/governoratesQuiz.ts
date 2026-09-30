@@ -28,6 +28,7 @@ export const tunisiaGovernoratesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "tunisia-governorates",
 
   answerProperty: "governorate_id",

@@ -24,6 +24,7 @@ export const kenyaPostal3DigitPrefixesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "kenya-postal-3-digit-prefixes",
 
   answerProperty: "postal_prefixes",

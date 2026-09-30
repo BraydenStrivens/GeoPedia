@@ -23,6 +23,7 @@ export const southAfricaAreaCodePrefixesQuiz: FeatureQuiz = {
   description: SOUTH_AFRICA_AREA_CODE_PREFIXES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "south-africa-area-code-prefixes",
 
   answerType: "single",

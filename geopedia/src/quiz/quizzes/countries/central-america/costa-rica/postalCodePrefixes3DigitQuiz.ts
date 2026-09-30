@@ -29,6 +29,7 @@ export const costaRicaPostalCodePrefixes3DigitQuiz: FeatureQuiz = {
   description: COSTA_RICA_POSTAL_CODE_PREFIXES_3_DIGIT_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "costa-rica-cantons",
 
   answerProperty: "canton_id",

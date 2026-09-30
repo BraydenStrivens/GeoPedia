@@ -14,6 +14,7 @@ export const ugandaRegionsQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "uganda-regions",
 
   answerProperty: "region_id",

@@ -22,6 +22,7 @@ export const colombiaPostalCodes4DigitQuiz: FeatureQuiz = {
   description: COLOMBIA_POSTAL_CODES_4_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "colombia-postal-codes-4-digit",
 
   answerProperty: "postal_code_4_digit",

@@ -44,6 +44,7 @@ export const boliviaMunicipalitiesQuiz: FeatureQuiz = {
   description: BOLIVIA_MUNICIPALITIES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "bolivia-municipalities",
 
   answerProperty: "municipality_id",

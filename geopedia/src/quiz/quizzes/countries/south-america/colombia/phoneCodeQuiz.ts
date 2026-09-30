@@ -27,6 +27,7 @@ export const colombiaPhoneCodesQuiz: FeatureQuiz = {
   description: COLOMBIA_PHONE_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "colombia-phone-codes",
 
   answerProperty: "phone_code",

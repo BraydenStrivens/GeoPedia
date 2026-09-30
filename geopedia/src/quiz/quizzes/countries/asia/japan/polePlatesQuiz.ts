@@ -24,6 +24,7 @@ export const japanPolePlatesQuiz: FeatureQuiz = {
   description: JAPAN_POLE_PLATES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Other",
   mapId: "japan-pole-meta-regions",
 
   answerProperty: "pole_meta_region_ids",

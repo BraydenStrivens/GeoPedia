@@ -23,6 +23,7 @@ export const usStatesQuiz: FeatureQuiz = {
   description: US_STATES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "us-states",
 
   answerProperty: "name",

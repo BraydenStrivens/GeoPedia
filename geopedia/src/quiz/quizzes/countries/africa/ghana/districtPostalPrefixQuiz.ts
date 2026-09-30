@@ -38,6 +38,7 @@ export const ghanaDistrictPostcodesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "ghana-districts",
 
   answerProperty: "district_id",

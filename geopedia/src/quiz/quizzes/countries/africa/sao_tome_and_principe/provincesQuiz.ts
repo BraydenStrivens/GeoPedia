@@ -23,6 +23,7 @@ export const saoTomeAndPrincipeProvincesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "sao-tome-and-principe-provinces",
 
   answerProperty: "province_id",

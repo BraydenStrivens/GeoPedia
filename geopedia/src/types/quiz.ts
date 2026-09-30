@@ -44,6 +44,27 @@ export type AnswerType = "single" | "multiple";
 export type QuizKind = "feature" | "town";
 
 /**
+ * Defines the content categories used to organize quizzes in selection
+ * interfaces.
+ *
+ * The array provides the canonical display order for quiz-topic sections.
+ * `QuizTopic` is derived from the array so the runtime values and TypeScript
+ * type cannot drift apart.
+ */
+export const QUIZ_TOPICS = [
+  "Administrative Regions",
+  "Area Codes",
+  "Postal Codes",
+  "Towns",
+  "Other",
+] as const;
+
+/**
+ * Identifies the content category under which a quiz is displayed.
+ */
+export type QuizTopic = (typeof QUIZ_TOPICS)[number];
+
+/**
  * Difficulty tier assigned to a quiz according to its total question count.
  */
 export type QuizDifficulty = "easy" | "medium" | "hard" | "extreme";
@@ -111,6 +132,11 @@ export type QuizListing = {
   /** Quiz type used to distinguish feature and town quiz listings. */
   kind: QuizKind;
 
+  /**
+   * Content category used to organize this quiz in selection interfaces.
+   */
+  quizTopic: QuizTopic;
+
   /** Difficulty derived from the total number of questions in the quiz. */
   difficulty: QuizDifficulty;
 
@@ -133,6 +159,11 @@ interface BaseQuiz {
    * details such as included territories, filtering, or grouping options.
    */
   description: string;
+
+  /**
+   * Content category used to organize this quiz in selection interfaces.
+   */
+  quizTopic: QuizTopic;
 }
 
 /**

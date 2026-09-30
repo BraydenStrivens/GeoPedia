@@ -36,6 +36,7 @@ export const senegalDepartmentsQuiz: FeatureQuiz = {
   description: SENEGAL_DEPARTMENTS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "senegal-departments",
 
   answerProperty: "department_id",

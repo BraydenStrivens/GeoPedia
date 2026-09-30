@@ -20,6 +20,7 @@ export const kenyaPostal2DigitPrefixesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "kenya-postal-2-digit-prefixes",
 
   answerProperty: "postal_prefix",

@@ -38,6 +38,7 @@ export const dominicanRepublicMunicipalitiesQuiz: FeatureQuiz = {
   description: DOMINICAN_REPUBLIC_MUNICIPALITIES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "dominican-republic-municipalities",
 
   answerProperty: "municipality_id",

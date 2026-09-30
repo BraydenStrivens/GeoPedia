@@ -19,6 +19,7 @@ export const countryCapitalsQuiz: FeatureQuiz = {
   description: COUNTRY_CAPITALS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Other",
   mapId: "world-countries",
 
   answerProperty: "iso_a3",

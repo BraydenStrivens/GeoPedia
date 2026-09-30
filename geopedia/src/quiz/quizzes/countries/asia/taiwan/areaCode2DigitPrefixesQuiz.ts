@@ -29,6 +29,7 @@ export const taiwanAreaCode2DigitPrefixesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "taiwan-area-code-prefix-2",
 
   answerProperty: "area_codes",

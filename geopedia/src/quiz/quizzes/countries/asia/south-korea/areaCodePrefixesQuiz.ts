@@ -14,8 +14,9 @@ export const southKoreaAreaCodePrefixesQuiz: FeatureQuiz = {
   id: "south-korea-area-code-prefixes",
   name: "1-Digit Area Code Prefixes",
   description: DESCRIPTION,
-  kind: "feature",
 
+  kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "south-korea-area-code-prefixes",
 
   answerProperty: "area_code_prefix",

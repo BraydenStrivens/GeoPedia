@@ -18,6 +18,7 @@ export const philippinesAreaCodePrefixesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "philippines-area-code-prefixes",
 
   answerProperty: "prefix_1",

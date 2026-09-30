@@ -18,6 +18,7 @@ export const panamaPhoneCodes2DigitQuiz: FeatureQuiz = {
   description: PANAMA_PHONE_CODES_2_DIGIT_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "panama-phone-codes-2-digit",
 
   answerProperty: "codes",

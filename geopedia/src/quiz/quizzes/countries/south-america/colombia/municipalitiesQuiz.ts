@@ -20,7 +20,7 @@ const COLOMBIA_MUNICIPALITY_QUESTIONS: FeatureQuiz["questions"] =
   );
 
 const COLOMBIA_MUNICIPALITIES_DESCRIPTION =
-  `Learn all ${COLOMBIA_MUNICIPALITY_QUESTIONS.length} municipalities of ` +
+  `Learn all ${COLOMBIA_MUNICIPALITY_QUESTIONS.length.toLocaleString()} municipalities of ` +
   `Colombia, with department filtering to practice any desired subset.`;
 
 export const colombiaMunicipalitiesQuiz: FeatureQuiz = {
@@ -29,6 +29,7 @@ export const colombiaMunicipalitiesQuiz: FeatureQuiz = {
   description: COLOMBIA_MUNICIPALITIES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "colombia-municipalities",
 
   answerProperty: "id",

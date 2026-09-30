@@ -18,6 +18,7 @@ export const indonesiaPostalPrefixes1Quiz: FeatureQuiz = {
   description: INDONESIA_POSTAL_PREFIXES_1_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "indonesia-postal-prefixes-1",
 
   answerProperty: "prefix_1",

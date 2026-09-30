@@ -33,6 +33,7 @@ export const kenyaSubCountiesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "kenya-sub-counties",
 
   answerProperty: "sub_county_id",

@@ -61,6 +61,7 @@ export function createTownQuiz({
     name: `${countryName} Towns`,
     description,
     kind: "town",
+    quizTopic: "Towns",
     questions,
   };
 }

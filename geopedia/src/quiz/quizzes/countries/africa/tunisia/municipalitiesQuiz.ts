@@ -21,7 +21,7 @@ const TUNISIA_MUNICIPALITY_QUESTIONS: FeatureQuizQuestion[] =
   );
 
 const DESCRIPTION =
-  `Learn all ${TUNISIA_MUNICIPALITY_QUESTIONS.length} baladiyat (municipalities) ` +
+  `Learn all ${TUNISIA_MUNICIPALITY_QUESTIONS.length.toLocaleString()} baladiyat (municipalities) ` +
   `of Tunisia. They can be grouped by delegation, governorate, or region for more focused practice.`;
 
 export const tunisiaMunicipalitiesQuiz: FeatureQuiz = {
@@ -30,6 +30,7 @@ export const tunisiaMunicipalitiesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "tunisia-municipalities",
 
   answerProperty: "municipality_id",

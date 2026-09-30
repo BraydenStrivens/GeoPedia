@@ -16,6 +16,7 @@ export const eswatiniTinkhundlaQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "eswatini-tinkhundla",
 
   answerProperty: "inkhundla_id",

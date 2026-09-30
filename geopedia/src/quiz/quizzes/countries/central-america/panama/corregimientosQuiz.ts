@@ -33,6 +33,7 @@ export const panamaCorregimientosQuiz: FeatureQuiz = {
   description: `Learn all ${PANAMA_CORREGIMIENTO_QUESTIONS.length} corregimientos of Panama, with filters that let you practice corregimientos by district, province, or comarca.`,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "panama-corregimientos",
 
   answerProperty: "id",

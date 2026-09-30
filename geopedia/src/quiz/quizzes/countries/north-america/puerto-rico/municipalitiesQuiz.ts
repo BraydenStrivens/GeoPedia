@@ -19,7 +19,7 @@ export const puertoRicoMunicipalitiesQuiz: FeatureQuiz = {
   description: `Learn all ${PUERTO_RICO_MUNICIPALITY_QUESTIONS.length} municipalities of Puerto Rico.`,
 
   kind: "feature",
-
+  quizTopic: "Administrative Regions",
   mapId: "puerto-rico-municipalities",
 
   answerProperty: "municipality_id",

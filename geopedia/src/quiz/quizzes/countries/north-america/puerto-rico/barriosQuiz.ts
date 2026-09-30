@@ -25,6 +25,7 @@ export const puertoRicoBarriosQuiz: FeatureQuiz = {
   description: `Learn all ${PUERTO_RICO_BARRIO_QUESTIONS.length} mapped barrios of Puerto Rico, with filters that let you practice barrios by municipality.`,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "puerto-rico-barrios",
 
   answerProperty: "barrio_id",

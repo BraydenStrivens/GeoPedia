@@ -23,6 +23,7 @@ export const usAreaCodesQuiz: FeatureQuiz = {
   description: US_AREA_CODE_DESCRIPTION,
 
   mapId: "us-area-codes",
+  quizTopic: "Area Codes",
   kind: "feature",
 
   answerProperty: "area_codes",

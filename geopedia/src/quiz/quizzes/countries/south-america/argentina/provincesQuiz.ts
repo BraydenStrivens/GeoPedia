@@ -27,6 +27,7 @@ export const argentinaProvincesQuiz: FeatureQuiz = {
   description: ARGENTINA_PROVINCES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "argentina-provinces",
 
   answerProperty: "province_id",

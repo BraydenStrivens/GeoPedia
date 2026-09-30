@@ -32,6 +32,7 @@ export const brazilStateAbbreviationsQuiz: FeatureQuiz = {
   description: BRAZIL_STATE_ABBREVIATIONS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "brazil-states",
 
   answerProperty: "abbreviation",

@@ -21,6 +21,7 @@ import QuizPageHero from "@/components/quiz/QuizPageHero";
 import QuizSectionHeader from "@/components/quiz/QuizSectionHeader";
 import { getCountry } from "@/countries";
 import { getCountryQuizListings } from "@/quiz/quizzes";
+import { QUIZ_TOPICS } from "@/types/quiz";
 
 /**
  * Route parameters supplied by Next.js for a country page.
@@ -202,15 +203,46 @@ export default async function CountryPage({
               Quizzes coming soon
             </p>
           ) : (
-            /* Quiz listings */
-            <div className="mx-auto flex w-full max-w-2xl flex-col gap-3">
-              {quizListings.map((quizListing) => (
-                <QuizListingRow
-                  key={quizListing.id}
-                  quizListing={quizListing}
-                  href={`/${country.id}/${quizListing.id}`}
-                />
-              ))}
+            /* Quiz listings grouped by content topic */
+            <div className="mx-auto flex w-full max-w-2xl flex-col gap-8">
+              {QUIZ_TOPICS.map((quizTopic) => {
+                /**
+                 * Preserve the ordering supplied by getCountryQuizListings while
+                 * selecting only the quizzes belonging to the current topic.
+                 */
+                const topicQuizListings = quizListings.filter(
+                  (quizListing) =>
+                    quizListing.quizTopic === quizTopic,
+                );
+
+                /**
+                 * Topics without any available quizzes are omitted entirely so country
+                 * pages display only sections relevant to their current quiz content.
+                 */
+                if (topicQuizListings.length === 0) {
+                  return null;
+                }
+
+                return (
+                  <section key={quizTopic}>
+                    {/* Quiz topic heading */}
+                    <h3 className="mb-3 p-1 text-lg font-semibold text-slate-800">
+                      {quizTopic}
+                    </h3>
+
+                    {/* Quizzes belonging to the current topic */}
+                    <div className="flex flex-col gap-3">
+                      {topicQuizListings.map((quizListing) => (
+                        <QuizListingRow
+                          key={quizListing.id}
+                          quizListing={quizListing}
+                          href={`/${country.id}/${quizListing.id}`}
+                        />
+                      ))}
+                    </div>
+                  </section>
+                );
+              })}
             </div>
           )}
         </section>

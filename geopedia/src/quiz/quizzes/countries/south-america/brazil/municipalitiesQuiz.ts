@@ -30,7 +30,7 @@ const BRAZIL_STATE_NAME_VALUE_LABELS = Object.fromEntries(
  * Description shown for Brazil's Municipalities quiz.
  */
 const BRAZIL_MUNICIPALITIES_DESCRIPTION =
-  `Learn all ${BRAZIL_MUNICIPALITY_QUESTIONS.length} municipalities of ` +
+  `Learn all ${BRAZIL_MUNICIPALITY_QUESTIONS.length.toLocaleString()} municipalities of ` +
   `Brazil, with state filtering to practice any desired subset.`;
 
 /**
@@ -42,6 +42,7 @@ export const brazilMunicipalitiesQuiz: FeatureQuiz = {
   description: BRAZIL_MUNICIPALITIES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "brazil-municipalities",
 
   answerProperty: "id",

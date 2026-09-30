@@ -9,7 +9,7 @@ import type { FeatureQuiz } from "@/types/quiz";
 
 import { UGANDA_SUB_COUNTIES_QUIZ_QUESTIONS } from "./data/admin";
 
-const DESCRIPTION = `Learn all ${UGANDA_SUB_COUNTIES_QUIZ_QUESTIONS.length} sub-counties of Uganda.`;
+const DESCRIPTION = `Learn all ${UGANDA_SUB_COUNTIES_QUIZ_QUESTIONS.length.toLocaleString()} sub-counties of Uganda.`;
 
 export const ugandaSubCountiesQuiz: FeatureQuiz = {
   id: "uganda-sub-counties",
@@ -17,6 +17,7 @@ export const ugandaSubCountiesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "uganda-sub-counties",
 
   answerProperty: "sub_county_id",

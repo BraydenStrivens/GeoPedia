@@ -36,6 +36,7 @@ export const argentinaDepartmentsQuiz: FeatureQuiz = {
   description: ARGENTINA_DEPARTMENTS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "argentina-departments",
 
   answerProperty: "department_id",

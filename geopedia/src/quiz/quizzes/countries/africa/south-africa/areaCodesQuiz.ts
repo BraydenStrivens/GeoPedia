@@ -24,6 +24,7 @@ export const southAfricaAreaCodesQuiz: FeatureQuiz = {
   description: SOUTH_AFRICA_AREA_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "south-africa-area-codes",
 
   answerProperty: "area_codes",

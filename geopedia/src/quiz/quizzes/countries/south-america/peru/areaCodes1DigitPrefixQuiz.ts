@@ -30,6 +30,7 @@ export const peruAreaCodes1DigitPrefixQuiz: FeatureQuiz = {
   description: PERU_AREA_CODE_PREFIXES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "peru-area-code-prefixes",
 
   answerProperty: "area_code_prefix",

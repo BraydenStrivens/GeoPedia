@@ -44,6 +44,7 @@ export const peruPostalCodes2DigitQuiz: FeatureQuiz = {
   description: PERU_POSTAL_2_DIGIT_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "peru-regions",
 
   answerProperty: "postal_code_prefix",

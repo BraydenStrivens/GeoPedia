@@ -22,6 +22,7 @@ export const guatemalaDepartmentsQuiz: FeatureQuiz = {
   description: GUATEMALA_DEPARTMENTS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "guatemala-departments",
 
   answerProperty: "department_id",

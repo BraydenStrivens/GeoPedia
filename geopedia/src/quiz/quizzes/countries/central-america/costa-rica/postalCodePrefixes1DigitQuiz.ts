@@ -33,6 +33,7 @@ export const costaRicaPostalCodePrefixes1DigitQuiz: FeatureQuiz = {
   description: COSTA_RICA_POSTAL_CODE_PREFIXES_1_DIGIT_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "costa-rica-provinces",
 
   answerProperty: "province_id",

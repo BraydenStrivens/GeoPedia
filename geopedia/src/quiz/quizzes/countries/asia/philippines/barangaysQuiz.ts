@@ -25,6 +25,7 @@ export const philippinesBarangaysQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "philippines-barangays",
 
   answerProperty: "barangay_id",

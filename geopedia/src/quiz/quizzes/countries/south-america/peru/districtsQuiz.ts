@@ -20,7 +20,7 @@ const PERU_DISTRICT_QUESTIONS = Object.entries(
 }));
 
 const PERU_DISTRICTS_DESCRIPTION =
-  `Learn all ${PERU_DISTRICT_QUESTIONS.length} districts of Peru. ` +
+  `Learn all ${PERU_DISTRICT_QUESTIONS.length.toLocaleString()} districts of Peru. ` +
   `Use region and province groups to break the country into smaller study sets.`;
 
 export const PERU_PROVINCE_VALUE_LABELS = Object.fromEntries(
@@ -35,6 +35,7 @@ export const peruDistrictsQuiz: FeatureQuiz = {
   description: PERU_DISTRICTS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "peru-districts",
 
   answerProperty: "district_id",

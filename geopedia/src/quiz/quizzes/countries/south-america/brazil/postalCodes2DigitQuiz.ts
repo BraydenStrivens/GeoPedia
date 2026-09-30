@@ -22,6 +22,7 @@ export const brazilPostalCodes2DigitQuiz: FeatureQuiz = {
   description: BRAZIL_POSTAL_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "brazil-postal-codes",
 
   answerProperty: "postal_codes",

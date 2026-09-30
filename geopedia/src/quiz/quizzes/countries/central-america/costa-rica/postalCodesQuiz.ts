@@ -34,6 +34,7 @@ export const costaRicaPostalCodesQuiz: FeatureQuiz = {
   description: COSTA_RICA_POSTAL_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "costa-rica-districts",
 
   answerProperty: "district_id",

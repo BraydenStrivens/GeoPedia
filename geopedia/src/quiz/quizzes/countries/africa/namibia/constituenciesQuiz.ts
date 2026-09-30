@@ -17,6 +17,7 @@ export const namibiaConstituenciesQuiz: FeatureQuiz = {
   description: NAMIBIA_CONSTITUENCIES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "namibia-constituencies",
 
   answerProperty: "constituency_id",

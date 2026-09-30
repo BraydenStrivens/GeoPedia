@@ -24,6 +24,7 @@ export const dominicanRepublicRegionsQuiz: FeatureQuiz = {
   description: DOMINICAN_REPUBLIC_REGIONS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "dominican-republic-regions",
 
   answerProperty: "region_id",

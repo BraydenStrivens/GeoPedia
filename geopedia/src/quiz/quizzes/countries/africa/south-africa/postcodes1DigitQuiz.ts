@@ -21,6 +21,7 @@ export const southAfricaPostcodes1DigitQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "south-africa-postcodes-1",
 
   answerProperty: "prefix_1",

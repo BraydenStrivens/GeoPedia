@@ -42,6 +42,7 @@ export const uruguayPhoneCodesQuiz: FeatureQuiz = {
   description: URUGUAY_PHONE_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "uruguay-departments",
 
   answerProperty: "department_id",

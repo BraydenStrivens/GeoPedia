@@ -22,7 +22,7 @@ const MEXICO_MUNICIPALITY_QUESTIONS: FeatureQuiz["questions"] =
   );
 
 const MEXICO_MUNICIPALITIES_DESCRIPTION =
-  `Learn all ${MEXICO_MUNICIPALITY_QUESTIONS.length} municipalities of Mexico, ` +
+  `Learn all ${MEXICO_MUNICIPALITY_QUESTIONS.length.toLocaleString()} municipalities of Mexico, ` +
   `with filters that let you practice municipalities from any desired state or ` +
   `combination of states.`;
 
@@ -32,6 +32,7 @@ export const mexicoMunicipalitiesQuiz: FeatureQuiz = {
   description: MEXICO_MUNICIPALITIES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "mexico-municipalities",
 
   answerProperty: "municipality_id",

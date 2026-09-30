@@ -16,6 +16,7 @@ export const southAfricaDistrictsQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "south-africa-districts",
 
   answerProperty: "district_id",

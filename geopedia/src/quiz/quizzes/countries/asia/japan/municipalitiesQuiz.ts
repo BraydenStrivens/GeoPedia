@@ -20,7 +20,7 @@ const QUESTIONS: FeatureQuizQuestion[] = Object.entries(
 }));
 
 const DESCRIPTION =
-  `Learn all ${QUESTIONS.length} municipalities of Japan. ` +
+  `Learn all ${QUESTIONS.length.toLocaleString()} municipalities of Japan. ` +
   `Use prefecture and region groups to study them in smaller regional sets.`;
 
 export const japanMunicipalitiesQuiz: FeatureQuiz = {
@@ -29,6 +29,7 @@ export const japanMunicipalitiesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "japan-municipalities",
 
   answerProperty: "municipality_id",

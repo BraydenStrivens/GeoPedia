@@ -19,6 +19,7 @@ export const puertoRicoZipCodesQuiz: FeatureQuiz = {
   description: PUERTO_RICO_ZIP_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "puerto-rico-zip-codes",
 
   answerProperty: "zip_code",

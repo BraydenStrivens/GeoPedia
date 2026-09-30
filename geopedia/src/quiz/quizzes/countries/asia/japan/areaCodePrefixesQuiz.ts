@@ -27,6 +27,7 @@ export const japanAreaCodePrefixesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "japan-area-code-prefixes",
 
   answerProperty: "prefix_id",

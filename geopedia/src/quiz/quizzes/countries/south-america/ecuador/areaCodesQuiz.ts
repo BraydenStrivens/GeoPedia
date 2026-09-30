@@ -27,6 +27,7 @@ export const ecuadorAreaCodesQuiz: FeatureQuiz = {
   description: ECUADOR_AREA_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "ecuador-area-codes",
 
   answerProperty: "area_code_id",

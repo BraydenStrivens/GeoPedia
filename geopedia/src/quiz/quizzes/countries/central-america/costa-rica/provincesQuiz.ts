@@ -19,6 +19,7 @@ export const costaRicaProvincesQuiz: FeatureQuiz = {
   description: `Learn all ${COSTA_RICA_PROVINCE_QUESTIONS.length} provinces of Costa Rica.`,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "costa-rica-provinces",
 
   answerProperty: "province_id",

@@ -21,6 +21,7 @@ export const taiwanCountiesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "taiwan-counties",
 
   answerProperty: "county_id",

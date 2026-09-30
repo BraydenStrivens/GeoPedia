@@ -16,6 +16,7 @@ export const philippinesRegionsQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "philippines-regions",
 
   answerProperty: "region_id",

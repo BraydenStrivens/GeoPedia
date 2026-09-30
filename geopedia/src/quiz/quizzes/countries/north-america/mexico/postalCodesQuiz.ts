@@ -18,6 +18,7 @@ export const mexicoPostalCodesQuiz: FeatureQuiz = {
   description: MEXICO_POSTAL_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "mexico-postal-codes",
 
   answerProperty: "postal_code_prefix",

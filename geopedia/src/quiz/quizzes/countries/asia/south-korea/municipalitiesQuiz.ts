@@ -30,6 +30,7 @@ export const southKoreaMunicipalitiesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "south-korea-municipalities",
 
   answerProperty: "municipality_id",

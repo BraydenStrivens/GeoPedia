@@ -29,6 +29,7 @@ export const panamaTaxiBusPlateCodesQuiz: FeatureQuiz = {
   description: PANAMA_TAXI_BUS_PLATE_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Other",
   mapId: "panama-taxi-bus-plate-codes",
 
   answerProperty: "code",

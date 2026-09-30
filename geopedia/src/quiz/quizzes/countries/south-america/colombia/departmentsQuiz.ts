@@ -24,6 +24,7 @@ export const colombiaDepartmentsQuiz: FeatureQuiz = {
   description: COLOMBIA_DEPARTMENTS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "colombia-departments",
 
   answerProperty: "id",

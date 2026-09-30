@@ -10,7 +10,7 @@ import type { FeatureQuiz } from "@/types/quiz";
 import { RWANDA_VILLAGES_QUIZ_QUESTIONS } from "./data/villages";
 
 const DESCRIPTION =
-  `Learn all ${RWANDA_VILLAGES_QUIZ_QUESTIONS.length} imidugudu (villages) ` +
+  `Learn all ${RWANDA_VILLAGES_QUIZ_QUESTIONS.length.toLocaleString()} imidugudu (villages) ` +
   `of Rwanda.`;
 
 export const rwandaVillagesQuiz: FeatureQuiz = {
@@ -19,6 +19,7 @@ export const rwandaVillagesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "rwanda-villages",
 
   answerProperty: "village_id",

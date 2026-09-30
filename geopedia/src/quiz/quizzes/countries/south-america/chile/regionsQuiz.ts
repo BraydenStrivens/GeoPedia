@@ -24,6 +24,7 @@ export const chileRegionsQuiz: FeatureQuiz = {
   description: CHILE_REGIONS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "chile-regions",
 
   answerProperty: "region_id",

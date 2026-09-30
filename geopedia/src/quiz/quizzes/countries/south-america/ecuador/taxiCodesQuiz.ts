@@ -29,6 +29,7 @@ export const ecuadorTaxiCodesQuiz: FeatureQuiz = {
   description: ECUADOR_TAXI_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Other",
   mapId: "ecuador-provinces",
 
   answerProperty: "province_id",

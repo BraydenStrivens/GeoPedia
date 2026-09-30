@@ -31,6 +31,7 @@ export const dominicanRepublicProvincesQuiz: FeatureQuiz = {
   description: DOMINICAN_REPUBLIC_PROVINCES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "dominican-republic-provinces",
 
   answerProperty: "province_id",

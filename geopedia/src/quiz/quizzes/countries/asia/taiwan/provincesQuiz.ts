@@ -20,6 +20,7 @@ export const taiwanProvincesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "taiwan-provinces",
 
   answerProperty: "province_id",

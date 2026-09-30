@@ -32,7 +32,7 @@ const SUB_COUNTY_VALUE_LABELS = Object.fromEntries(
 );
 
 const DESCRIPTION =
-  `Learn all ${QUESTIONS.length} wards of Kenya. ` +
+  `Learn all ${QUESTIONS.length.toLocaleString()} wards of Kenya. ` +
   `Use county and sub-county groups to study them in smaller regional sets.`;
 
 export const kenyaWardsQuiz: FeatureQuiz = {
@@ -41,6 +41,7 @@ export const kenyaWardsQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "kenya-wards",
 
   answerProperty: "ward_id",

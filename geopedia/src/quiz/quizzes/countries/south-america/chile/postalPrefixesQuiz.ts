@@ -31,6 +31,7 @@ export const chilePostalPrefixesQuiz: FeatureQuiz = {
   description: CHILE_POSTAL_PREFIXES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "chile-postal-prefixes",
 
   answerProperty: "postal_prefixes",

@@ -20,7 +20,7 @@ const US_COUNTY_QUESTIONS: FeatureQuiz["questions"] = Object.entries(
 }));
 
 const US_COUNTIES_DESCRIPTION =
-  `Learn all ${US_COUNTY_QUESTIONS.length} U.S. counties, including U.S. ` +
+  `Learn all ${US_COUNTY_QUESTIONS.length.toLocaleString()} U.S. counties, including U.S. ` +
   `territories, with filtering options to practice any desired subset.`;
 
 export const usCountiesQuiz: FeatureQuiz = {
@@ -29,6 +29,7 @@ export const usCountiesQuiz: FeatureQuiz = {
   description: US_COUNTIES_DESCRIPTION,
 
   mapId: "us-counties",
+  quizTopic: "Administrative Regions",
   kind: "feature",
 
   answerProperty: "geoid",

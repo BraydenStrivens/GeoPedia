@@ -53,6 +53,7 @@ export const peruAreaCodesQuiz: FeatureQuiz = {
   description: PERU_AREA_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "peru-regions",
 
   answerProperty: "phone_code",

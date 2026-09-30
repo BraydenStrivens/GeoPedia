@@ -16,6 +16,7 @@ export const rwandaProvincesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "rwanda-provinces",
 
   answerProperty: "province_id",

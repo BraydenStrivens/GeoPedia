@@ -21,6 +21,7 @@ export const indonesiaAreaCodePrefixes2Quiz: FeatureQuiz = {
   description: INDONESIA_AREA_CODE_PREFIXES_2_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "indonesia-area-code-prefixes-2",
 
   answerProperty: "prefix_2",

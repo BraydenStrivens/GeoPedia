@@ -39,6 +39,7 @@ export const ghanaAreaCodesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "ghana-area-codes",
 
   answerProperty: "area_code",

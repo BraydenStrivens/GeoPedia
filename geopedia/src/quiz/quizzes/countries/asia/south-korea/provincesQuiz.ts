@@ -29,6 +29,7 @@ export const southKoreaProvincesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "south-korea-provinces",
 
   answerProperty: "province_id",

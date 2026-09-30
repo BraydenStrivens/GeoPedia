@@ -24,6 +24,7 @@ export const panamaDistrictsQuiz: FeatureQuiz = {
   description: `Learn all ${PANAMA_DISTRICT_QUESTIONS.length} districts of Panama, with filters that let you practice districts by province or comarca.`,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "panama-districts",
 
   answerProperty: "id",

@@ -24,6 +24,7 @@ export const mexicoPhoneCodesQuiz: FeatureQuiz = {
   description: MEXICO_PHONE_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "mexico-phone-codes",
 
   answerProperty: "area_codes",

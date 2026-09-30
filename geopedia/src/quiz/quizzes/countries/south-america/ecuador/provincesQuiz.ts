@@ -24,6 +24,7 @@ export const ecuadorProvincesQuiz: FeatureQuiz = {
   description: ECUADOR_PROVINCES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "ecuador-provinces",
 
   answerProperty: "province_id",

@@ -26,6 +26,7 @@ export const argentinaPhoneCodes1DigitQuiz: FeatureQuiz = {
   description: ARGENTINA_PHONE_CODES_1_DIGIT_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "argentina-phone-codes-1-digit",
 
   answerProperty: "area_code",

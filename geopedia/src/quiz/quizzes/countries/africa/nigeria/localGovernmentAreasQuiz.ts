@@ -36,6 +36,7 @@ export const nigeriaLocalGovernmentAreasQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "nigeria-local-government-areas",
 
   answerProperty: "lga_id",

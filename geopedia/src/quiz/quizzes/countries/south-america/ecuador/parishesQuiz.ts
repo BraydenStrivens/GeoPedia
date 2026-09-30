@@ -17,7 +17,7 @@ const ECUADOR_PARISH_QUESTIONS: FeatureQuiz["questions"] =
   );
 
 const ECUADOR_PARISHES_DESCRIPTION =
-  `Learn all ${ECUADOR_PARISH_QUESTIONS.length} parishes of Ecuador and ` +
+  `Learn all ${ECUADOR_PARISH_QUESTIONS.length.toLocaleString()} parishes of Ecuador and ` +
   `where they are located across the country. Use the Province or Canton ` +
   `groupings to break the full quiz into smaller areas.`;
 
@@ -27,6 +27,7 @@ export const ecuadorParishesQuiz: FeatureQuiz = {
   description: ECUADOR_PARISHES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "ecuador-parishes",
 
   answerProperty: "parish_id",

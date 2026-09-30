@@ -23,6 +23,7 @@ export const taiwanRoadPrefixesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Other",
   mapId: "taiwan-road-prefixes",
 
   answerProperty: "road_prefix_id",

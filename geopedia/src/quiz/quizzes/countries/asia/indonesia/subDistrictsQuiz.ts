@@ -19,6 +19,7 @@ export const indonesiaSubDistrictsQuiz: FeatureQuiz = {
   description: INDONESIA_SUB_DISTRICTS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "indonesia-sub-districts",
 
   answerProperty: "sub_district_id",

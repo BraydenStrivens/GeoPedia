@@ -25,6 +25,7 @@ export const chileRoadPrefixesQuiz: FeatureQuiz = {
   description: CHILE_ROAD_PREFIXES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Other",
   mapId: "chile-road-prefixes",
 
   answerProperty: "road_prefixes",

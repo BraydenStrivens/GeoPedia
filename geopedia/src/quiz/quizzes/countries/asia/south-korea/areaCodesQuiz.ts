@@ -14,8 +14,9 @@ export const southKoreaAreaCodesQuiz: FeatureQuiz = {
   id: "south-korea-area-codes",
   name: "Area Codes",
   description: DESCRIPTION,
-  kind: "feature",
 
+  kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "south-korea-area-codes",
 
   answerProperty: "province_id",

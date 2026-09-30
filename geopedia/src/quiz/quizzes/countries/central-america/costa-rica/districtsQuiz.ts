@@ -37,6 +37,7 @@ export const costaRicaDistrictsQuiz: FeatureQuiz = {
   description: COSTA_RICA_DISTRICTS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "costa-rica-districts",
 
   answerProperty: "district_id",

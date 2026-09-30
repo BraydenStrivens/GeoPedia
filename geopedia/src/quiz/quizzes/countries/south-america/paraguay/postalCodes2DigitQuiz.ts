@@ -27,6 +27,7 @@ export const paraguayPostalCodes2DigitQuiz: FeatureQuiz = {
   description: PARAGUAY_POSTAL_CODES_2_DIGIT_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "paraguay-departments",
 
   answerProperty: "department_id",

@@ -14,6 +14,7 @@ export const eswatiniRegionsQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "eswatini-regions",
 
   answerProperty: "region_id",

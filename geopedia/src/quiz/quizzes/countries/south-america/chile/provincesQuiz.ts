@@ -37,6 +37,7 @@ export const chileProvincesQuiz: FeatureQuiz = {
   description: CHILE_PROVINCES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "chile-provinces",
 
   answerProperty: "province_id",

@@ -22,6 +22,7 @@ export const mexicoStatesQuiz: FeatureQuiz = {
   description: MEXICO_STATES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "mexico-states",
 
   answerProperty: "state_id",

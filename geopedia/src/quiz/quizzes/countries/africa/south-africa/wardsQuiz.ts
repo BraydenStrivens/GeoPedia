@@ -10,7 +10,7 @@ import type { FeatureQuiz } from "@/types/quiz";
 import { SOUTH_AFRICA_WARDS_QUIZ_QUESTIONS } from "./data/wards";
 
 const DESCRIPTION =
-  `Learn all ${SOUTH_AFRICA_WARDS_QUIZ_QUESTIONS.length} wards ` +
+  `Learn all ${SOUTH_AFRICA_WARDS_QUIZ_QUESTIONS.length.toLocaleString()} wards ` +
   "of South Africa.";
 
 export const southAfricaWardsQuiz: FeatureQuiz = {
@@ -19,6 +19,7 @@ export const southAfricaWardsQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "south-africa-wards",
 
   answerProperty: "ward_id",

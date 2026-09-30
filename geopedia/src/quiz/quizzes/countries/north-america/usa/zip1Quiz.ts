@@ -21,6 +21,7 @@ export const usZip1Quiz: FeatureQuiz = {
   description: US_ZIP_1_DESCRIPTION,
 
   mapId: "us-zip-1",
+  quizTopic: "Postal Codes",
   kind: "feature",
 
   answerProperty: "zip",

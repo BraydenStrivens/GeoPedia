@@ -22,6 +22,7 @@ export const usStateAbbreviationsQuiz: FeatureQuiz = {
   description: US_STATE_ABBREVIATION_DESCRIPTION,
 
   mapId: "us-states",
+  quizTopic: "Administrative Regions",
   kind: "feature",
 
   answerProperty: "abbreviation",

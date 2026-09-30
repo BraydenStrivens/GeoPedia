@@ -18,6 +18,7 @@ export const brazilPhoneCodes1DigitQuiz: FeatureQuiz = {
   description: BRAZIL_PHONE_CODES_1_DIGIT_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "brazil-phone-codes-1-digit",
 
   answerProperty: "phone_code",

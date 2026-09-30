@@ -10,7 +10,7 @@ import type { FeatureQuiz } from "@/types/quiz";
 import { PHILIPPINES_MUNICIPALITY_CITY_QUESTIONS } from "./data/municipalities-cities";
 
 const DESCRIPTION =
-  `Learn all ${PHILIPPINES_MUNICIPALITY_CITY_QUESTIONS.length} ` +
+  `Learn all ${PHILIPPINES_MUNICIPALITY_CITY_QUESTIONS.length.toLocaleString()} ` +
   `municipalities and cities of the Philippines.\n\n` +
   `Group the quiz by region or province to break the country into smaller ` +
   `sets.`;
@@ -21,6 +21,7 @@ export const philippinesMunicipalitiesCitiesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "philippines-municipalities-cities",
 
   answerProperty: "municipality_city_id",

@@ -29,6 +29,7 @@ export const tunisiaDelegationsQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "tunisia-delegations",
 
   answerProperty: "delegation_id",

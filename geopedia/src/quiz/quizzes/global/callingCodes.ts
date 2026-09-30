@@ -21,6 +21,7 @@ export const callingCodesQuiz: FeatureQuiz = {
   description: CALLING_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Other",
   mapId: "world-countries",
 
   answerProperty: "calling_codes",

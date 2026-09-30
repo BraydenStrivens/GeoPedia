@@ -63,6 +63,7 @@ export function createConfiguredTownQuiz({
     name: config.name,
     description: config.description,
     kind: "town",
+    quizTopic: "Towns",
     questions,
   };
 }

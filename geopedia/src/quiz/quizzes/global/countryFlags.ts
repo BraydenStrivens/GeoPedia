@@ -32,6 +32,7 @@ export const countryFlagsQuiz: FeatureQuiz = {
   description: COUNTRY_FLAGS_DESCRIPTION,
 
   mapId: "world-countries",
+  quizTopic: "Other",
   kind: "feature",
 
   answerProperty: "iso_a3",

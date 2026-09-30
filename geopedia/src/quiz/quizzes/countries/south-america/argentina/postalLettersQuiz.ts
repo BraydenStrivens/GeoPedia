@@ -33,6 +33,7 @@ export const argentinaPostalLettersQuiz: FeatureQuiz = {
   description: ARGENTINA_POSTAL_LETTERS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "argentina-provinces",
 
   answerProperty: "province_id",

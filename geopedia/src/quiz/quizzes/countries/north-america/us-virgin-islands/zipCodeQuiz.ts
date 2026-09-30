@@ -24,6 +24,7 @@ export const usVirginIslandsZipCodesQuiz: FeatureQuiz = {
   description: US_VIRGIN_ISLANDS_ZIP_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "us-virgin-islands-zip-codes",
 
   answerProperty: "zip_code",

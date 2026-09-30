@@ -286,8 +286,9 @@ async function hasCountryTownQuiz(
 /**
  * Creates the lightweight listing metadata used by quiz-selection pages.
  *
- * Shared quiz metadata is copied directly from the complete quiz definition,
- * while difficulty is derived from the quiz's full question count.
+ * Shared quiz metadata, including its organizational topic, is copied directly
+ * from the complete quiz definition, while difficulty is derived from the
+ * quiz's full question count.
  *
  * @param quiz - Complete feature or town quiz definition.
  * @returns Lightweight metadata used to display and route to the quiz.
@@ -302,7 +303,8 @@ function createQuizListing(
     name: quiz.name,
     description: quiz.description,
     kind: quiz.kind,
-    difficulty: getQuizDifficulty(getQuizQuestionCount(quiz)),
+    quizTopic: quiz.quizTopic,
+    difficulty: getQuizDifficulty(questionCount),
     questionCount,
   };
 }
@@ -327,6 +329,7 @@ function createConfiguredTownQuizListing(
     name: config.name,
     description: config.description,
     kind: "town",
+    quizTopic: "Towns",
     difficulty: getQuizDifficulty(questionCount),
     questionCount,
   };

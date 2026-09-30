@@ -19,6 +19,7 @@ export const panamaProvincesComarcasQuiz: FeatureQuiz = {
   description: `Learn all ${PANAMA_PROVINCE_COMARCA_QUESTIONS.length} provinces and province-level comarcas of Panama.`,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "panama-provinces-comarcas",
 
   answerProperty: "id",

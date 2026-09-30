@@ -27,6 +27,7 @@ export const namibiaAreaCodesQuiz: FeatureQuiz = {
   description: NAMIBIA_AREA_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "namibia-area-codes",
 
   answerProperty: "area_code",

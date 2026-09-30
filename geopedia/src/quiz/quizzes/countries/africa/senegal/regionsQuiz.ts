@@ -24,6 +24,7 @@ export const senegalRegionsQuiz: FeatureQuiz = {
   description: SENEGAL_REGIONS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "senegal-regions",
 
   answerProperty: "region_id",

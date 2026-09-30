@@ -41,6 +41,7 @@ export const canadaPhoneCodesQuiz: FeatureQuiz = {
   description: CANADA_PHONE_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "canada-phone-codes",
 
   answerProperty: "area_code",

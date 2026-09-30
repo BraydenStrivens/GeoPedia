@@ -34,6 +34,7 @@ export const tunisiaPostalPrefixesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "tunisia-postal-prefixes",
 
   answerProperty: "postal_prefixes",

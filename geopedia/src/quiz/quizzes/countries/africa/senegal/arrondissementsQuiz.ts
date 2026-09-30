@@ -46,6 +46,7 @@ export const senegalArrondissementsQuiz: FeatureQuiz = {
   description: SENEGAL_ARRONDISSEMENTS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "senegal-arrondissements",
 
   answerProperty: "arrondissement_id",

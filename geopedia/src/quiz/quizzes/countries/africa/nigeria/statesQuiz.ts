@@ -23,6 +23,7 @@ export const nigeriaStatesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "nigeria-states",
 
   answerProperty: "state_id",

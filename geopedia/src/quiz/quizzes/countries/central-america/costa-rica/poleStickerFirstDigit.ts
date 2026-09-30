@@ -26,6 +26,7 @@ export const costaRicaPoleStickerFirstDigitQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Other",
   mapId: "costa-rica-provinces",
 
   answerProperty: "province_id",

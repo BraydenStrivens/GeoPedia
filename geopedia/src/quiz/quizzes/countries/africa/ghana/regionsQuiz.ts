@@ -21,6 +21,7 @@ export const ghanaRegionsQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "ghana-regions",
 
   answerProperty: "region_id",

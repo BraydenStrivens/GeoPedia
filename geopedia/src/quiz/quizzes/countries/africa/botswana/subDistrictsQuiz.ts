@@ -20,6 +20,7 @@ export const botswanaSubDistrictsQuiz: FeatureQuiz = {
   description: BOTSWANA_SUB_DISTRICTS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "botswana-sub-districts",
 
   answerProperty: "sub_district_id",

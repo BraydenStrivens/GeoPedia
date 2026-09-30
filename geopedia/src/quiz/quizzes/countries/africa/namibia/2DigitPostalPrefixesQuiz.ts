@@ -38,6 +38,7 @@ export const namibia2DigitPostalPrefixesQuiz: FeatureQuiz = {
   description: NAMIBIA_2_DIGIT_POSTAL_PREFIXES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "namibia-regions",
 
   answerProperty: "region_id",

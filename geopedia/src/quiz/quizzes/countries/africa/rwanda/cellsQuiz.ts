@@ -8,7 +8,7 @@ import type { FeatureQuiz } from "@/types/quiz";
 import { RWANDA_CELLS_QUIZ_QUESTIONS } from "./data/admin";
 
 const DESCRIPTION =
-  `Learn all ${RWANDA_CELLS_QUIZ_QUESTIONS.length} utugali (cells) ` +
+  `Learn all ${RWANDA_CELLS_QUIZ_QUESTIONS.length.toLocaleString()} utugali (cells) ` +
   `of Rwanda.`;
 
 export const rwandaCellsQuiz: FeatureQuiz = {
@@ -17,6 +17,7 @@ export const rwandaCellsQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "rwanda-cells",
 
   answerProperty: "cell_id",

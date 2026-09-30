@@ -39,6 +39,7 @@ export const brazilStateFlagsQuiz: FeatureQuiz = {
   description: BRAZIL_STATE_FLAGS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "brazil-states",
 
   answerProperty: "id",

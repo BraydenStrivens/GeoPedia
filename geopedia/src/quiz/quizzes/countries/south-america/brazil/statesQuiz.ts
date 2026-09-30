@@ -27,6 +27,7 @@ export const brazilStatesQuiz: FeatureQuiz = {
   description: BRAZIL_STATES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "brazil-states",
 
   answerProperty: "id",

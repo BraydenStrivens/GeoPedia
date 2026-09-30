@@ -19,6 +19,7 @@ export const ecuadorPostalCodes2DigitQuiz: FeatureQuiz = {
   description: ECUADOR_POSTAL_CODES_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Postal Codes",
   mapId: "ecuador-provinces",
 
   answerProperty: "province_id",

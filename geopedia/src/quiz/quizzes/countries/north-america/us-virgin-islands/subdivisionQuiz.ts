@@ -21,6 +21,7 @@ export const usVirginIslandsSubdivisionsQuiz: FeatureQuiz = {
   description: US_VIRGIN_ISLANDS_SUBDIVISIONS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "us-virgin-islands-subdivisions",
 
   answerProperty: "subdivision_id",

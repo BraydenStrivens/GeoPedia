@@ -21,6 +21,7 @@ export const canadaCensusDivisionsQuiz: FeatureQuiz = {
   description: CANADA_CENSUS_DIVISIONS_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "canada-census-divisions",
 
   answerProperty: "cduid",

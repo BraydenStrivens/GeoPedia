@@ -28,6 +28,7 @@ export const japanPrefecturesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "japan-prefectures",
 
   answerProperty: "prefecture_id",

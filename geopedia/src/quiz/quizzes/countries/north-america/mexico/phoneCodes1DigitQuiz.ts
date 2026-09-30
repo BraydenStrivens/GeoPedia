@@ -29,6 +29,7 @@ export const mexicoPhoneCodes1DigitQuiz: FeatureQuiz = {
   description: MEXICO_PHONE_CODES_1_DIGIT_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "mexico-phone-codes-1-digit",
 
   answerProperty: "prefix",

@@ -22,6 +22,7 @@ export const taiwanUtilityPoleLettersQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Other",
   mapId: "taiwan-utility-pole-letters",
 
   answerProperty: "utility_pole_letter",

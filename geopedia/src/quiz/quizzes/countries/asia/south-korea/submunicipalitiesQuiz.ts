@@ -20,7 +20,7 @@ const QUESTIONS: FeatureQuizQuestion[] = Object.entries(
 }));
 
 const DESCRIPTION =
-  `Learn all ${QUESTIONS.length} submunicipalities of South Korea. ` +
+  `Learn all ${QUESTIONS.length.toLocaleString()} submunicipalities of South Korea. ` +
   `Use province and municipality groups to study them in smaller regional sets. ` +
   `In Korean submunicipality names, administrative types usually appear as suffixes: ` +
   `eup (읍) means town, myeon (면) means township, and dong (동) means neighborhood.`;
@@ -31,6 +31,7 @@ export const southKoreaSubmunicipalitiesQuiz: FeatureQuiz = {
   description: DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Administrative Regions",
   mapId: "south-korea-submunicipalities",
 
   answerProperty: "submunicipality_id",

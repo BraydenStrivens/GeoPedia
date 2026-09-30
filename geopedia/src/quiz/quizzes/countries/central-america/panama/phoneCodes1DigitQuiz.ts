@@ -17,6 +17,7 @@ export const panamaPhoneCodes1DigitQuiz: FeatureQuiz = {
   description: PANAMA_PHONE_CODES_1_DIGIT_DESCRIPTION,
 
   kind: "feature",
+  quizTopic: "Area Codes",
   mapId: "panama-phone-codes-1-digit",
 
   answerProperty: "codes",
