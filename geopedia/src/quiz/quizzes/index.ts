@@ -44,6 +44,7 @@ import * as malaysiaQuizzes from "./countries/asia/malaysia";
 import * as philippinesQuizzes from "./countries/asia/philippines";
 import * as southKoreaQuizzes from "./countries/asia/south-korea";
 import * as taiwanQuizzes from "./countries/asia/taiwan";
+import * as vietnamQuizzes from "./countries/asia/vietnam";
 import * as costaRicaQuizzes from "./countries/central-america/costa-rica";
 import * as dominicanRepublicQuizzes from "./countries/central-america/dominican-republic";
 import * as guatemalaQuizzes from "./countries/central-america/guatemala";
@@ -120,6 +121,7 @@ const countryFeatureQuizzes = {
   phl: Object.values(philippinesQuizzes),
   idn: Object.values(indonesiaQuizzes),
   mys: Object.values(malaysiaQuizzes),
+  vnm: Object.values(vietnamQuizzes),
 };
 
 /**

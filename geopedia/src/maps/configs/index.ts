@@ -37,6 +37,7 @@ import * as malaysiaMaps from "./countries/asia/malaysia";
 import * as philippinesMaps from "./countries/asia/philippines";
 import * as southKoreaMaps from "./countries/asia/south-korea";
 import * as taiwanMaps from "./countries/asia/taiwan";
+import * as vietnamMaps from "./countries/asia/vietnam";
 import * as costaRicaMaps from "./countries/central-america/costa-rica";
 import * as dominicanRepublicMaps from "./countries/central-america/dominican-republic";
 import * as guatemalaMaps from "./countries/central-america/guatemala";
@@ -111,6 +112,7 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
   phl: Object.values(philippinesMaps),
   idn: Object.values(indonesiaMaps),
   mys: Object.values(malaysiaMaps),
+  vnm: Object.values(vietnamMaps),
 };
 
 /**
