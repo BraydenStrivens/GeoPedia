@@ -44,6 +44,7 @@ import * as cambodiaQuizzes from "./countries/asia/cambodia";
 import * as indonesiaQuizzes from "./countries/asia/indonesia";
 import * as japanQuizzes from "./countries/asia/japan";
 import * as malaysiaQuizzes from "./countries/asia/malaysia";
+import * as nepalQuizzes from "./countries/asia/nepal";
 import * as philippinesQuizzes from "./countries/asia/philippines";
 import * as southKoreaQuizzes from "./countries/asia/south-korea";
 import * as taiwanQuizzes from "./countries/asia/taiwan";
@@ -130,6 +131,7 @@ const countryFeatureQuizzes = {
   tha: Object.values(thailandQuizzes),
   bgd: Object.values(bangladeshQuizzes),
   btn: Object.values(bhutanQuizzes),
+  npl: Object.values(nepalQuizzes),
 };
 
 /**

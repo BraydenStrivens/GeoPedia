@@ -37,6 +37,7 @@ import * as cambodiaMaps from "./countries/asia/cambodia";
 import * as indonesiaMaps from "./countries/asia/indonesia";
 import * as japanMaps from "./countries/asia/japan";
 import * as malaysiaMaps from "./countries/asia/malaysia";
+import * as nepalMaps from "./countries/asia/nepal";
 import * as philippinesMaps from "./countries/asia/philippines";
 import * as southKoreaMaps from "./countries/asia/south-korea";
 import * as taiwanMaps from "./countries/asia/taiwan";
@@ -121,6 +122,7 @@ const countryMapRegistry: Record<string, MapConfig[]> = {
   tha: Object.values(thailandMaps),
   bgd: Object.values(bangladeshMaps),
   btn: Object.values(bhutanMaps),
+  npl: Object.values(nepalMaps),
 };
 
 /**
